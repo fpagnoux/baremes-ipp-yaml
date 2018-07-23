@@ -1,0 +1,55 @@
+description: Prélèvements sur revenus du capital
+paiement_produits_dans_etat_non_cooperatif_3:
+  description: Paiement de produits dans un Etat "non-coopératif" (3)
+  metadata:
+    unit: /1
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+          125-0 A, 200 A et art 117 quater du CGI)
+      value: 0.75
+produits_epargne_solidaire_partage:
+  description: Produits d'épargne solidaire de partage
+  metadata:
+    unit: /1
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+          125-0 A, 200 A et art 117 quater du CGI)
+      value: 0.05
+seuil_encours_applique_eligibilite_produits_assurance_vie_prelevement_forfaitaire_unique_2:
+  description: Seuil d'encours appliqué pour l'éligibilité des produits d'assurance-vie
+    au prélèvement forfaitaire unique (2)
+  metadata:
+    unit: currency-EUR
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+          125-0 A, 200 A et art 117 quater du CGI)
+      value: 150000.0
+? taux_prelevement_forfaitaire_revenus_capital_eligibles_prelevement_forfaitaire_unique_interets_dividendes_plus_values_produits_assurance_vie_1
+: description: Taux de prélèvement forfaitaire pour les revenus du capital éligibles
+    au prélèvement forfaitaire unique (intérêts, dividendes, plus-values, produits
+    d'assurance-vie) (1)
+  metadata:
+    unit: /1
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+          125-0 A, 200 A et art 117 quater du CGI)
+      value: 0.128
+taux_prelevement_produits_assurance_vie_non_eligibles_prelevement_forfaitaire_unique_2:
+  description: Taux de prélèvement des produits d'assurance-vie non-éligibles au prélèvement
+    forfaitaire unique (2)
+  metadata:
+    unit: /1
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+          125-0 A, 200 A et art 117 quater du CGI)
+      value: 0.075

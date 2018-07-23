@@ -1,0 +1,16 @@
+description: Participation à la formation professionnelle continue, Professions libérales
+formation_professionnelle:
+  description: Formation professionnelle
+  sous_pss:
+    description: Sous PSS
+    metadata:
+      unit: /1
+    values:
+      '1992-01-01':
+        metadata:
+          reference: Loi 91-1405 du 31/12/1991, art. 32
+        value: 0.0015
+      '2012-08-18':
+        metadata:
+          reference: Loi 2012-958 du 16/08/2012, art. 38
+        value: 0.0025

@@ -1,0 +1,394 @@
+description: Cotisations SS branche assurance vieillesse (1967-2017)
+remise_forfaitaire_mensuelle_cotisation_salariale:
+  description: Remise forfaitaire mensuelle (sur cotisation salariale)
+  metadata:
+    unit: currency-FRF
+  values:
+    '1967-10-01':
+      metadata:
+        reference: Décret 67-803 du 20/09/1967
+      value: null
+    '1970-08-01':
+      metadata:
+        reference: Décret 70-680 du 30/07/1970
+      value: null
+    '1974-01-01':
+      metadata:
+        reference: Décret 73-1209 du 29/12/1973
+      value: null
+    '1976-01-01':
+      metadata:
+        reference: Décret 75-1273 du 29/12/1975
+      value: null
+    '1976-10-01':
+      metadata:
+        reference: Décret 76-894 du 29/09/1976
+      value: null
+    '1979-01-01':
+      metadata:
+        reference: Décret 78-1213 du 26/12/1978
+      value: null
+    '1984-01-01':
+      metadata:
+        reference: Décret 83-1198 du 30/12/1983
+      value: null
+    '1986-08-01':
+      metadata:
+        reference: Décret 86-876 du 29/07/1986
+      value: null
+    '1987-07-01':
+      metadata:
+        reference: Décret 87-453 du 29/06/1987
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 88-1234 du 30/12/1988
+      value: null
+    '1991-02-01':
+      metadata:
+        reference: Décret 91-91 du 23/01/1991
+      value: 42.0
+    '1995-09-01':
+      metadata:
+        reference: Loi 95-882 du 04/08/1995, art. 5
+      value: null
+    '2004-07-01':
+      metadata:
+        reference: Décret 2004-858 du 24/08/2004, art. 1
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1657 du 26/12/2005
+      value: null
+    '2012-11-01':
+      metadata:
+        reference: Décret 2012-847 du 02/07/2012, art. 5
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013
+      value: null
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art. 4
+      value: null
+salaire_sous_plafond:
+  description: Salaire sous plafond
+  employeurs:
+    description: Employeurs
+    metadata:
+      unit: /1
+    values:
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-803 du 20/09/1967
+        value: 0.055
+      '1970-08-01':
+        metadata:
+          reference: Décret 70-680 du 30/07/1970
+        value: 0.0575
+      '1974-01-01':
+        metadata:
+          reference: Décret 73-1209 du 29/12/1973
+        value: 0.0725
+      '1976-01-01':
+        metadata:
+          reference: Décret 75-1273 du 29/12/1975
+        value: 0.075
+      '1976-10-01':
+        metadata:
+          reference: Décret 76-894 du 29/09/1976
+        value: 0.077
+      '1979-01-01':
+        metadata:
+          reference: Décret 78-1213 du 26/12/1978
+        value: 0.082
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-1198 du 30/12/1983
+        value: 0.082
+      '1986-08-01':
+        metadata:
+          reference: Décret 86-876 du 29/07/1986
+        value: 0.082
+      '1987-07-01':
+        metadata:
+          reference: Décret 87-453 du 29/06/1987
+        value: 0.082
+      '1989-01-01':
+        metadata:
+          reference: Décret 88-1234 du 30/12/1988
+        value: 0.082
+      '1991-02-01':
+        metadata:
+          reference: Décret 91-91 du 23/01/1991
+        value: 0.082
+      '1995-09-01':
+        metadata:
+          reference: Loi 95-882 du 04/08/1995, art. 5
+        value: 0.082
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-858 du 24/08/2004, art. 1
+        value: 0.082
+      '2006-01-01':
+        metadata:
+          reference: Décret 2005-1657 du 26/12/2005
+        value: 0.083
+      '2012-11-01':
+        metadata:
+          reference: Décret 2012-847 du 02/07/2012, art. 5
+        value: 0.084
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.0845
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.085
+      '2016-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.0855
+  salaries:
+    description: Salariés
+    metadata:
+      unit: /1
+    values:
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-803 du 20/09/1967
+        value: 0.03
+      '1970-08-01':
+        metadata:
+          reference: Décret 70-680 du 30/07/1970
+        value: 0.03
+      '1974-01-01':
+        metadata:
+          reference: Décret 73-1209 du 29/12/1973
+        value: 0.03
+      '1976-01-01':
+        metadata:
+          reference: Décret 75-1273 du 29/12/1975
+        value: 0.0325
+      '1976-10-01':
+        metadata:
+          reference: Décret 76-894 du 29/09/1976
+        value: 0.0345
+      '1979-01-01':
+        metadata:
+          reference: Décret 78-1213 du 26/12/1978
+        value: 0.047
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-1198 du 30/12/1983
+        value: 0.057
+      '1986-08-01':
+        metadata:
+          reference: Décret 86-876 du 29/07/1986
+        value: 0.064
+      '1987-07-01':
+        metadata:
+          reference: Décret 87-453 du 29/06/1987
+        value: 0.066
+      '1989-01-01':
+        metadata:
+          reference: Décret 88-1234 du 30/12/1988
+        value: 0.076
+      '1991-02-01':
+        metadata:
+          reference: Décret 91-91 du 23/01/1991
+        value: 0.0655
+      '1995-09-01':
+        metadata:
+          reference: Loi 95-882 du 04/08/1995, art. 5
+        value: 0.0655
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-858 du 24/08/2004, art. 1
+        value: 0.0655
+      '2006-01-01':
+        metadata:
+          reference: Décret 2005-1657 du 26/12/2005
+        value: 0.0665
+      '2012-11-01':
+        metadata:
+          reference: Décret 2012-847 du 02/07/2012, art. 5
+        value: 0.0675
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.068
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.0685
+      '2016-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.069
+tout_salaire:
+  description: Sur tout salaire
+  employeurs:
+    description: Employeurs
+    metadata:
+      unit: /1
+    values:
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-803 du 20/09/1967
+        value: null
+      '1970-08-01':
+        metadata:
+          reference: Décret 70-680 du 30/07/1970
+        value: null
+      '1974-01-01':
+        metadata:
+          reference: Décret 73-1209 du 29/12/1973
+        value: null
+      '1976-01-01':
+        metadata:
+          reference: Décret 75-1273 du 29/12/1975
+        value: null
+      '1976-10-01':
+        metadata:
+          reference: Décret 76-894 du 29/09/1976
+        value: null
+      '1979-01-01':
+        metadata:
+          reference: Décret 78-1213 du 26/12/1978
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-1198 du 30/12/1983
+        value: null
+      '1986-08-01':
+        metadata:
+          reference: Décret 86-876 du 29/07/1986
+        value: null
+      '1987-07-01':
+        metadata:
+          reference: Décret 87-453 du 29/06/1987
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: Décret 88-1234 du 30/12/1988
+        value: null
+      '1991-02-01':
+        metadata:
+          reference: Décret 91-91 du 23/01/1991
+        value: 0.016
+      '1995-09-01':
+        metadata:
+          reference: Loi 95-882 du 04/08/1995, art. 5
+        value: 0.016
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-858 du 24/08/2004, art. 1
+        value: 0.016
+      '2006-01-01':
+        metadata:
+          reference: Décret 2005-1657 du 26/12/2005
+        value: 0.016
+      '2012-11-01':
+        metadata:
+          reference: Décret 2012-847 du 02/07/2012, art. 5
+        value: 0.016
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.0175
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.018
+      '2016-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.0185
+      '2017-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.019
+  salaries:
+    description: Salariés
+    metadata:
+      unit: /1
+    values:
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-803 du 20/09/1967
+        value: null
+      '1970-08-01':
+        metadata:
+          reference: Décret 70-680 du 30/07/1970
+        value: null
+      '1974-01-01':
+        metadata:
+          reference: Décret 73-1209 du 29/12/1973
+        value: null
+      '1976-01-01':
+        metadata:
+          reference: Décret 75-1273 du 29/12/1975
+        value: null
+      '1976-10-01':
+        metadata:
+          reference: Décret 76-894 du 29/09/1976
+        value: null
+      '1979-01-01':
+        metadata:
+          reference: Décret 78-1213 du 26/12/1978
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-1198 du 30/12/1983
+        value: null
+      '1986-08-01':
+        metadata:
+          reference: Décret 86-876 du 29/07/1986
+        value: null
+      '1987-07-01':
+        metadata:
+          reference: Décret 87-453 du 29/06/1987
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: Décret 88-1234 du 30/12/1988
+        value: null
+      '1991-02-01':
+        metadata:
+          reference: Décret 91-91 du 23/01/1991
+        value: null
+      '1995-09-01':
+        metadata:
+          reference: Loi 95-882 du 04/08/1995, art. 5
+        value: null
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-858 du 24/08/2004, art. 1
+        value: 0.001
+      '2006-01-01':
+        metadata:
+          reference: Décret 2005-1657 du 26/12/2005
+        value: 0.001
+      '2012-11-01':
+        metadata:
+          reference: Décret 2012-847 du 02/07/2012, art. 5
+        value: 0.001
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.0025
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.003
+      '2016-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.0035
+      '2017-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art. 4
+        value: 0.004

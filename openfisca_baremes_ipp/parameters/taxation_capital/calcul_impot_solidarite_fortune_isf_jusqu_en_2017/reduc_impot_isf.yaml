@@ -1,0 +1,273 @@
+description: Réductions pour dons ou investissement
+plafond_somme_reduction_pme_fcip_fip_pme:
+  description: Plafond pour la somme de la réduction pour PME et pour les FCIP et
+    FIP des PME
+  metadata:
+    unit: currency-EUR
+  values:
+    '2008-01-01':
+      metadata:
+        reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+      value: 50000.0
+    '2009-01-01':
+      metadata:
+        reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+          - art. 1
+      value: 50000.0
+    '2011-01-01':
+      metadata:
+        reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+          - art. 40 (V)
+      value: 45000.0
+    '2012-01-01':
+      metadata:
+        reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+          - art. 1
+      value: 45000.0
+    '2013-01-01':
+      metadata:
+        reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+      value: 45000.0
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          885-0 V bis et  885-0 V bis A du CGI).
+      value: null
+plafond_somme_trois_reductions_pme_fcip_fip_pme_dons:
+  description: Plafond pour la somme des trois réductions (PME, FCIP/FIP sur PME et
+    dons)
+  metadata:
+    unit: currency-EUR
+  values:
+    '2008-01-01':
+      metadata:
+        reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+      value: 50000.0
+    '2009-01-01':
+      metadata:
+        reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+          - art. 1
+      value: 50000.0
+    '2011-01-01':
+      metadata:
+        reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+          - art. 40 (V)
+      value: 45000.0
+    '2012-01-01':
+      metadata:
+        reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+          - art. 1
+      value: 45000.0
+    '2013-01-01':
+      metadata:
+        reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+      value: 45000.0
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          885-0 V bis et  885-0 V bis A du CGI).
+      value: null
+reduction_dons_certains_organismes_interet_general:
+  description: Réduction pour dons à certains organismes d'intérêt général
+  limite_reduction_isf_lie_aux_dons_realises:
+    description: Limite réduction de l'ISF lié aux dons réalisés
+    metadata:
+      unit: currency-EUR
+    values:
+      '2008-01-01':
+        metadata:
+          reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+        value: 50000.0
+      '2009-01-01':
+        metadata:
+          reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+            - art. 1
+        value: 50000.0
+      '2011-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+            - art. 40 (V)
+        value: 50000.0
+      '2012-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+            - art. 1
+        value: 50000.0
+      '2013-01-01':
+        metadata:
+          reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+        value: 50000.0
+      '2018-01-01':
+        metadata:
+          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+            885-0 V bis et  885-0 V bis A du CGI).
+        value: null
+  taux_dons_certains_organismes_interet_general:
+    description: Taux pour dons à certains organismes d'intérêt général
+    metadata:
+      unit: /1
+    values:
+      '2008-01-01':
+        metadata:
+          reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+        value: 0.75
+      '2009-01-01':
+        metadata:
+          reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+            - art. 1
+        value: 0.75
+      '2011-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+            - art. 40 (V)
+        value: 0.75
+      '2012-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+            - art. 1
+        value: 0.75
+      '2013-01-01':
+        metadata:
+          reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+        value: 0.75
+      '2018-01-01':
+        metadata:
+          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+            885-0 V bis et  885-0 V bis A du CGI).
+        value: null
+reduction_investissements_capital_pme:
+  description: Réduction pour investissements au capital de PME
+  plafond_investissement_dans_pme:
+    description: Plafond pour investissement dans les PME
+    metadata:
+      unit: currency-EUR
+    values:
+      '2008-01-01':
+        metadata:
+          reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+        value: 50000.0
+      '2009-01-01':
+        metadata:
+          reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+            - art. 1
+        value: 50000.0
+      '2011-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+            - art. 40 (V)
+        value: 45000.0
+      '2012-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+            - art. 1
+        value: 45000.0
+      '2013-01-01':
+        metadata:
+          reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+        value: 45000.0
+      '2018-01-01':
+        metadata:
+          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+            885-0 V bis et  885-0 V bis A du CGI).
+        value: null
+  taux_investissement_direct_soc_holdings_fip_fcpi:
+    description: Taux pour investissement direct soc, holdings, fip, fcpi
+    metadata:
+      unit: /1
+    values:
+      '2008-01-01':
+        metadata:
+          reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+        value: 0.5
+      '2009-01-01':
+        metadata:
+          reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+            - art. 1
+        value: 0.5
+      '2011-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+            - art. 40 (V)
+        value: 0.5
+      '2012-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+            - art. 1
+        value: 0.5
+      '2013-01-01':
+        metadata:
+          reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+        value: 0.5
+      '2018-01-01':
+        metadata:
+          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+            885-0 V bis et  885-0 V bis A du CGI).
+        value: null
+reduction_investissements_dans_fcpi_1_fip_2_dans_pme:
+  description: Réduction pour investissements dans FCPI (1) ou FIP (2) dans les PME
+  plafond:
+    description: Plafond
+    metadata:
+      unit: currency-EUR
+    values:
+      '2008-01-01':
+        metadata:
+          reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+        value: 20000.0
+      '2009-01-01':
+        metadata:
+          reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+            - art. 1
+        value: 20000.0
+      '2011-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+            - art. 40 (V)
+        value: 18000.0
+      '2012-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+            - art. 1
+        value: 18000.0
+      '2013-01-01':
+        metadata:
+          reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+        value: 18000.0
+      '2018-01-01':
+        metadata:
+          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+            885-0 V bis et  885-0 V bis A du CGI).
+        value: null
+  taux_investissement:
+    description: Taux pour investissement
+    metadata:
+      unit: /1
+    values:
+      '2008-01-01':
+        metadata:
+          reference: Loi n°2007-1223 du 21 août 2007 - art. 16 (V) JORF 22/08/2007
+        value: 0.5
+      '2009-01-01':
+        metadata:
+          reference: Article 885-0 V bis A modifié par Décret n°2008-294 du 01/04/2008
+            - art. 1
+        value: 0.5
+      '2011-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par LOI n°2010-1657 du 29/12/2010
+            - art. 40 (V)
+        value: 0.5
+      '2012-01-01':
+        metadata:
+          reference: Article 885-0 V bis A  modifié par Décret n°2012-653 du 4/05/2012
+            - art. 1
+        value: 0.5
+      '2013-01-01':
+        metadata:
+          reference: Article 885-0 V bis A LOI n° 2015-1786 du 29/12/2015 - art. 38
+        value: 0.5
+      '2018-01-01':
+        metadata:
+          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+            885-0 V bis et  885-0 V bis A du CGI).
+        value: null

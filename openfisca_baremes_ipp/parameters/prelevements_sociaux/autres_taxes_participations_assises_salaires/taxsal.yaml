@@ -1,0 +1,1044 @@
+description: Taxe sur les salaires (1968-2017)
+majoration1:
+  description: Majoration1
+  metadata:
+    unit: /1
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: 0.0425
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: 0.0425
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 0.0425
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: 0.0425
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: 0.0425
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: 0.0425
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: 0.0425
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: 0.0425
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: 0.0425
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: 0.0425
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: 0.0425
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: 0.0425
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: 0.0425
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: 0.0425
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: 0.0425
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: 0.0425
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: 0.0425
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: 0.0425
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: 0.0425
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: 0.0425
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 0.0425
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 0.0425
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 0.0425
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 0.0425
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 0.0425
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: 0.0425
+majoration2:
+  description: Majoration2
+  metadata:
+    unit: /1
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: 0.0935
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: 0.0935
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 0.0935
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: 0.0935
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: 0.0935
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: 0.0935
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: 0.0935
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: 0.0935
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: 0.0935
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: 0.0935
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: 0.0935
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: 0.0935
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: 0.0935
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: 0.0935
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: 0.0935
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: 0.0935
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: 0.0935
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: 0.0935
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: 0.0935
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: 0.0935
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 0.0935
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 0.0935
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 0.0935
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 0.0935
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 0.0935
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: 0.0935
+majoration_3:
+  description: Majoration 3
+  metadata:
+    unit: /1
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: null
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: null
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: null
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: null
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: null
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: null
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: null
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: null
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: null
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 0.1575
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 0.1575
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 0.1575
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 0.1575
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 0.1575
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: null
+plafond1:
+  description: Plafond1
+  metadata:
+    unit:
+      '1968-11-01': currency-FRF
+      '2002-01-01': currency-EUR
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: 30000.0
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: 32800.0
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 33660.0
+    '1990-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 34780.0
+    '1991-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 35900.0
+    '1992-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 36980.0
+    '1993-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 38020.0
+    '1994-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 38750.0
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: 39300.0
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: 40010.0
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: 40780.0
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: 41230.0
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: 41570.0
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: 41780.0
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: 42370.0
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: 6563.0
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: 6675.0
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: 6789.0
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: 6904.0
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: 7029.0
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: 7156.0
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: 7250.0
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: 7461.0
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: 7491.0
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: 7604.0
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 7604.0
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 7666.0
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 7705.0
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 7713.0
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 7721.0
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: 7799.0
+plafond2:
+  description: Plafond2
+  metadata:
+    unit:
+      '1968-11-01': currency-FRF
+      '2002-01-01': currency-EUR
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: 60000.0
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: 65600.0
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 67310.0
+    '1990-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 69540.0
+    '1991-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 71770.0
+    '1992-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 73930.0
+    '1993-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 76000.0
+    '1994-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 77450.0
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: 78550.0
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: 79970.0
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: 81490.0
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: 82390.0
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: 83060.0
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: 83480.0
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: 84660.0
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: 13114.0
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: 13337.0
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: 13563.0
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: 13793.0
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: 14042.0
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: 14295.0
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: 14481.0
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: 14901.0
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: 14960.0
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: 15185.0
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 15185.0
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 15308.0
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 15385.0
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 15401.0
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 15417.0
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: 15572.0
+plafond_3:
+  description: Plafond 3
+  metadata:
+    unit: currency-EUR
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: null
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: null
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: null
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: null
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: null
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: null
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: null
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: null
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: null
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 150000.0
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 151208.0
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 151965.0
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 152122.0
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 152279.0
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: null
+taux1:
+  description: Taux1
+  metadata:
+    unit: /1
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: 0.0425
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: 0.0425
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 0.0425
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: 0.0425
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: 0.0425
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: 0.0425
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: 0.0425
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: 0.0425
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: 0.0425
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: 0.0425
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: 0.0425
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: 0.0425
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: 0.0425
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: 0.0425
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: 0.0425
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: 0.0425
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: 0.0425
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: 0.0425
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: 0.0425
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: 0.0425
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 0.0425
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 0.0425
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 0.0425
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 0.0425
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 0.0425
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: 0.0425
+taux_guadeloupe_martinique_reunion:
+  description: Taux Guadeloupe, Martinique, Réunion
+  metadata:
+    unit: /1
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: 0.0295
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: 0.0295
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 0.0295
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: 0.0295
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: 0.0295
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: 0.0295
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: 0.0295
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: 0.0295
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: 0.0295
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: 0.0295
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: 0.0295
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: 0.0295
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: 0.0295
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: 0.0295
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: 0.0295
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: 0.0295
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: 0.0295
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: 0.0295
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: 0.0295
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: 0.0295
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 0.0295
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 0.0295
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 0.0295
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 0.0295
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 0.0295
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: 0.0295
+taux_guyane:
+  description: Taux Guyane
+  metadata:
+    unit: /1
+  values:
+    '1968-11-01':
+      metadata:
+        reference: Loi 68-878 du 09/10/1968
+      value: 0.0255
+    '1979-01-01':
+      metadata:
+        reference: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+      value: 0.0255
+    '1989-01-01':
+      metadata:
+        reference: Référence législative manquante
+      value: 0.0255
+    '1995-01-01':
+      metadata:
+        reference: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+      value: 0.0255
+    '1996-01-01':
+      metadata:
+        reference: BOI n°8 du 12/01/1996, 5 L-1-96
+      value: 0.0255
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-559 du 24/06/1996
+      value: 0.0255
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+      value: 0.0255
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+      value: 0.0255
+    '2000-01-01':
+      metadata:
+        reference: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+      value: 0.0255
+    '2001-01-01':
+      metadata:
+        reference: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+      value: 0.0255
+    '2002-01-01':
+      metadata:
+        reference: BOI n°37 du 21/02/2002, 5 L-2-02
+      value: 0.0255
+    '2003-01-01':
+      metadata:
+        reference: BOI n°30  du 14/02/2003, 5 L-2-03
+      value: 0.0255
+    '2004-01-01':
+      metadata:
+        reference: BOI n°36 du 24/02/2004, 5 L-2-04
+      value: 0.0255
+    '2005-01-01':
+      metadata:
+        reference: BOI n°18 du 27/01/2005, 5 L-1-05
+      value: 0.0255
+    '2006-01-01':
+      metadata:
+        reference: BOI n°6 du 16/01/2006, 5 L-2-06
+      value: 0.0255
+    '2007-01-01':
+      metadata:
+        reference: BOI n°4 du 11/01/2007, 5 L-1-07
+      value: 0.0255
+    '2008-01-01':
+      metadata:
+        reference: BOI n°132 du 28/12/2007, 5 L-3-07
+      value: 0.0255
+    '2009-01-01':
+      metadata:
+        reference: BOI n°5 du 16/01/2009, 5 L-1-09
+      value: 0.0255
+    '2010-01-01':
+      metadata:
+        reference: BOI n°99 du 18/12/2009, 5 L-3-09
+      value: 0.0255
+    '2011-01-01':
+      metadata:
+        reference: BOI n°105 du 14/12/2010, 5 L-1-10
+      value: 0.0255
+    '2013-01-01':
+      metadata:
+        reference: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+          pour 2013)
+      value: 0.0255
+    '2014-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 25/03/2014 (§160)
+      value: 0.0255
+    '2015-01-01':
+      metadata:
+        reference: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+          de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+      value: 0.0255
+    '2016-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 02/03/2016
+      value: 0.0255
+    '2017-01-01':
+      metadata:
+        reference: BOI-TPS-TS-30 du 01/03/2017
+      value: 0.0255
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+      value: 0.0255

@@ -1,0 +1,471 @@
+artisans:
+  description: Artisans
+  entre_1_4_pss:
+    description: Entre 1 et 4 PSS
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: null
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: 0.07
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: 0.075
+      '2010-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: 0.076
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: null
+      '2016-01-01':
+        metadata: {}
+        value: null
+  sous_1_pss:
+    description: Sous 1 PSS
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: null
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: 0.07
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: 0.071
+      '2010-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: 0.072
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: null
+      '2016-01-01':
+        metadata: {}
+        value: null
+  sous_3_pss:
+    description: Sous 3 PSS
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: 0.044
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: 0.045
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: 0.049
+      '1998-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: null
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: null
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: null
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: null
+      '2016-01-01':
+        metadata: {}
+        value: null
+  sous_4_pss:
+    description: Sous 4 PSS
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '1998-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: 0.053
+      '1999-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: 0.057
+      '2000-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: 0.06
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: 0.062
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: 0.067
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: 0.067
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: 0.07
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: null
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: null
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: null
+      '2016-01-01':
+        metadata: {}
+        value: null
+artisans_industriels_commercants:
+  description: Artisans-industriels-commerçants
+  entre_1_plafond_rci_4_plafonds_pss:
+    description: Entre 1 plafond RCI et 4 plafonds PSS
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: null
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: null
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: null
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: 0.08
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: 0.08
+      '2016-01-01':
+        metadata: {}
+        value: 0.08
+  montant_plafond_rci:
+    description: Montant du plafond RCI
+    metadata:
+      unit: currency-EUR
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: null
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: null
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: null
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: 37032.0
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: 37513.0
+      '2016-01-01':
+        metadata: {}
+        value: 37546.0
+  sous_plafond_rci:
+    description: Sous plafond RCI
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: null
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: null
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: null
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: 0.07
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: 0.07
+      '2016-01-01':
+        metadata: {}
+        value: 0.07
+description: Cotisation retraite complémentaire, Artisans-Commerçants
+industriels_commercants:
+  description: Industriels-commerçants
+  sous_3_pss:
+    description: Sous 3 PSS
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-351 du 14/03/1978
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: Décret 84-1064 du 30/11/1984
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Décret 97-166 du 24/02/1997 - art. 2
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Décret 2003-1025 du 28/10/2003 - art. 1
+        value: null
+      '2004-01-01':
+        metadata:
+          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: 0.035
+      '2004-07-01':
+        metadata:
+          reference: Décret 2004-848 du 23/08/2004 - art. 1
+        value: 0.045
+      '2005-01-01':
+        metadata:
+          reference: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004
+            - art. 1
+        value: 0.065
+      '2008-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du
+            7/01/2008
+        value: 0.065
+      '2009-01-01':
+        metadata:
+          reference: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+        value: 0.065
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-139 du 30/01/2012
+        value: null
+      '2016-01-01':
+        metadata: {}
+        value: null

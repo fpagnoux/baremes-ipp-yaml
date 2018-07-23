@@ -1,0 +1,113 @@
+description: Cotisations pour la structure financière AGFF (2001-2017)
+tranche_1:
+  description: Tranche 1 - A
+  employeur:
+    description: Employeur
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: 0.012
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.012
+  salarie:
+    description: Salarié
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: 0.008
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.008
+tranche_2:
+  description: Tranche 2
+  employeur:
+    description: Employeur
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: 0.013
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.013
+  salarie:
+    description: Salarié
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: 0.009
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.009
+tranche_b:
+  description: Tranche B
+  employeur:
+    description: Employeur
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: 0.013
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.013
+  salarie:
+    description: Salarié
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: 0.009
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.009
+tranche_c:
+  description: Tranche C
+  employeur:
+    description: Employeur
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: null
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.013
+  salarie:
+    description: Salarié
+    metadata:
+      unit: /1
+    values:
+      '2001-04-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+        value: null
+      '2016-01-01':
+        metadata:
+          reference: Accord Arrco-Agirc du 30/10/2015 (art.3)
+        value: 0.009

@@ -1,0 +1,1622 @@
+agents_generaux_assurance:
+  commissions_remunerations_brutes_dans_limite_plafond:
+    description: Commissions et rémunérations brutes dans la limite d'un plafond
+    taux_contractuel:
+      description: Taux contractuel
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: 0.036
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: 0.063
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: 0.063
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: 0.063
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: 0.063
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: 0.063
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.063
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.063
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.063
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.063
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.063
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.063
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.063
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.063
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.063
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.063
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.063
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.063
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.063
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.063
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.063
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.063
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.063
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.063
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.063
+    taux_effectif:
+      description: Taux effectif
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: 0.036
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: 0.063
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: 0.063
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: 0.063
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: 0.0693
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: 0.0693
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.0693
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.080325
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.080325
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.080325
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.080325
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.081585
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.09
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.09
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.09
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.09
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.09
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.09
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.09
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.09
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.09
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.09
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.09
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.09
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.09
+    taux_invalidite_deces:
+      description: Taux invalidité-décès
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: null
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: null
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: null
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: null
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: null
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.01
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.01
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.01
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.01
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.01
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.01
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.007
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.007
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.007
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.007
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.007
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.007
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.007
+  description: Agents généraux d'assurance
+chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
+  description: Chirurgiens-dentistes (+ sages femmes depuis janvier 2009)
+  entre_085_5_pss:
+    description: Entre 0,85 et 5 PSS
+    retraite_complementaire:
+      description: Retraite complémentaire
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.08
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.08
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.08
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.08
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.083
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.09
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.095
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.095
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.095
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.099
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.0995
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.1
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.1005
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.102
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.103
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.104
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.105
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.106
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.1065
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_chirurgiens_dentistes_conventionnes:
+      description: Régime supplémentaire pour les chirurgiens dentistes conventionnés
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: null
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: null
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: null
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: null
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: null
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: null
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: null
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.0075
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.0075
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.0075
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.0075
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.0075
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.0075
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.0075
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.0075
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.0075
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.0075
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.011
+description: Cotisation SS retraite complémentaire, Professions libérales
+infirmiers_masseurs_kine_orthophonistes_orthoptistes:
+  commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond:
+    description: Commissions et rémunérations brutes entre un seuil plancher et un
+      seuil plafond
+    retraite_complementaire:
+      description: Retraite complémentaire
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: 0.03
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.03
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.03
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.03
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.03
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.03
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.03
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.03
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.03
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.03
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.03
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.03
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.03
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.03
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.03
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.03
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.03
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.03
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.03
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.03
+  description: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_auxilliaires_medicaux_conventionnes_asv:
+      description: Régime supplémentaire pour les auxilliaires médicaux conventionnés
+        (ASV)
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: null
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: null
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: null
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: null
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: null
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: null
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: null
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: null
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: null
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.0025
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.004
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.004
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.004
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.004
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.004
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.004
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.004
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.004
+medecins:
+  description: Médecins
+  sous_35_pss:
+    description: Sous 3,5 PSS
+    retraite_complementaire:
+      description: Retraite complémentaire
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: 0.02
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: 0.05
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: 0.05
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: 0.075
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.081
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.081
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.087
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.09
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.09
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.09
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.09
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.09
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.09
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.092
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.092
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.092
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.092
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.093
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.093
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.095
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.096
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.097
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.098
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_obligatoire_medecins_conventionnes_asv:
+      description: Régime supplémentaire obligatoire pour les médecins conventionnés
+        (ASV)
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: null
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: null
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: null
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: null
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: null
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: null
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: null
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: null
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: null
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: null
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: null
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.0025
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.009
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.015
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.021
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.026
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.028
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.032
+notaires:
+  description: Notaires
+  moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france:
+    colmar_metz:
+      description: Colmar-Metz
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: 0.02
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: 0.02
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: 0.04
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: 0.04
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: 0.04
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: 0.04
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: 0.04
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: 0.04
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: 0.04
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.04
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.04
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.04
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.04
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.04
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.04
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.04
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.04
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.04
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.04
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.04
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.04
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.04
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.04
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.04
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.036
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: null
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: null
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: null
+    description: Moyenne des produits de base de l'office des 3 dernières années,
+      limitée à 3*moyenne générale des produits des offices de France
+    section_allocation_variable:
+      description: Section A (allocation variable)
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: 0.05
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: 0.05
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: 0.025
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: 0.025
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: 0.025
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: 0.025
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: 0.025
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: 0.025
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: 0.025
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: 0.025
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.025
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.025
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.025
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.025
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.025
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.025
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.025
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.045
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.045
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.045
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.045
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.045
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.045
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.045
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.045
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.045
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.045
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.0414
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.0414
+    section_u_allocation_uniforme:
+      description: Section U (allocation uniforme)
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: 0.05
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: 0.05
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: 0.02
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: 0.02
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: 0.02
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: 0.02
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: 0.02
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: 0.02
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: 0.02
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: 0.02
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: 0.02
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: 0.02
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: 0.02
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: 0.02
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: 0.02
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: 0.02
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: 0.02
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: 0.045
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.045
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.045
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.045
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.045
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.045
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.045
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.045
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.045
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.045
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.0414
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.0414
+pharmaciens:
+  description: Pharmaciens
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv:
+      description: Régime supplémentaire pour les biologistes médicaux conventionnés
+        uniquement (ASV)
+      metadata:
+        unit: /1
+      values:
+        '1949-01-01':
+          metadata:
+            reference: Arrêté du 24/05/1949
+          value: null
+        '1951-01-01':
+          metadata:
+            reference: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+          value: null
+        '1962-01-01':
+          metadata:
+            reference: Décret 62-502 du 13/04/1962
+          value: null
+        '1963-01-01':
+          metadata:
+            reference: Décret 63-106 du 8/02/1963
+          value: null
+        '1968-01-01':
+          metadata:
+            reference: Décret 67-1169 du 22/12/1967
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Décret 71-878 du 22/10/1971
+          value: null
+        '1983-01-01':
+          metadata:
+            reference: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Décret 91-864 du 30/08/1991
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Décret 92-1372 du 29/12/1992
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Décret 96-654 du 16/07/1996
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+          value: null
+        '1998-01-01':
+          metadata:
+            reference: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Décret 99-959 du 22/11/1999
+          value: null
+        '2000-01-01':
+          metadata:
+            reference: Décret 2000-1082 du 7/11/2000
+          value: null
+        '2001-01-01':
+          metadata:
+            reference: Décret 2001-1182 du 11/12/2001
+          value: null
+        '2002-01-01':
+          metadata:
+            reference: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+          value: null
+        '2004-01-01':
+          metadata:
+            reference: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+          value: null
+        '2005-01-01':
+          metadata:
+            reference: Décret 2004-1142 du 20/10/2004
+          value: null
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+          value: 0.003
+        '2009-01-01':
+          metadata:
+            reference: Décret 2009-1635 du 23/12/2009
+          value: 0.003
+        '2010-01-01':
+          metadata:
+            reference: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+          value: 0.003
+        '2011-01-01':
+          metadata:
+            reference: Décret 2011-674 du 15/06/2011
+          value: 0.003
+        '2012-01-01':
+          metadata:
+            reference: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012;
+              Décret 2011-1644 du 25/11/2011
+          value: 0.003
+        '2013-01-01':
+          metadata:
+            reference: Décret 2011-1644 du 25/11/2011
+          value: 0.003
+        '2014-01-01':
+          metadata:
+            reference: Décret 2013-1081 du 29/11/2013
+          value: 0.003
+        '2015-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015
+          value: 0.003
+        '2016-01-01':
+          metadata:
+            reference: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+          value: 0.003
+        '2017-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017
+          value: 0.003
+        '2018-01-01':
+          metadata:
+            reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+          value: 0.003

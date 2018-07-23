@@ -1,0 +1,10 @@
+description: Cotisations décès cadres
+employeur_sous_plafond:
+  description: Employeur sous plafond
+  metadata:
+    unit: /1
+  values:
+    '1948-01-01':
+      metadata:
+        reference: Convention AGIRC du 14/03/1947, art. 7.
+      value: 0.015

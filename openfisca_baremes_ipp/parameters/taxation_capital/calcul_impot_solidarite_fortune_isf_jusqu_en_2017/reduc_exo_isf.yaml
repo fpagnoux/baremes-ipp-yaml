@@ -1,0 +1,71 @@
+abattement_residence_principale:
+  description: Abattement sur résidence principale
+  metadata:
+    unit: /1
+  values:
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998, art. 17 (LF pour 1999)
+      value: 0.2
+    '2002-01-01':
+      metadata:
+        reference: Ordonnance  2000-916 du 19/09/2000,  art. 6
+      value: 0.2
+    '2008-01-01':
+      metadata:
+        reference: Loi 2007-1223 du 21/08/2007, art. 14
+      value: 0.3
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011)
+      value: 0.3
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
+      value: 0.3
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
+          885 S du CGI)
+      value: null
+description: Réductions et abattements de l'ISF
+reduction_isf_enfant_charge:
+  description: Réduction ISF enfant à charge
+  metadata:
+    unit:
+      '1989-01-01': currency-FRF
+      '2002-01-01': currency-EUR
+  values:
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
+      value: 1000.0
+    '1999-01-01':
+      metadata:
+        reference: Loi 98-1266 du 30/12/1998, art. 17 (LF pour 1999)
+      value: 1000.0
+    '2002-01-01':
+      metadata:
+        reference: Ordonnance  2000-916 du 19/09/2000,  art. 6
+      value: 150.0
+    '2008-01-01':
+      metadata:
+        reference: Loi 2007-1223 du 21/08/2007, art. 14
+      value: 150.0
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011)
+      value: 300.0
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
+          885 S du CGI)
+      value: null

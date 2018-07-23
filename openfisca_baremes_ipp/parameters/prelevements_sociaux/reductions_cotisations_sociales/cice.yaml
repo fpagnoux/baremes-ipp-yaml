@@ -1,0 +1,37 @@
+description: Crédit d'impot sur la compétitivité et l'emploi (CICE)
+plafond_smic:
+  description: Plafond ( / SMIC)
+  values:
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012 (LFR pour 2012), art. 66
+      value: 2.5
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1917 du 29/12/2016 (LFR pour 2017)
+      value: 2.5
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 86
+      value: 2.5
+taux:
+  description: Taux
+  metadata:
+    unit: /1
+  values:
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012 (LFR pour 2012), art. 66
+      value: 0.04
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012 (LFR pour 2012), art. 66
+      value: 0.06
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1917 du 29/12/2016 (LFR pour 2017)
+      value: 0.07
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 86
+      value: 0.06

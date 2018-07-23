@@ -1,0 +1,22 @@
+description: Cotisations au régime de Retraite additionnelle de la fonction publique
+  (RAFP)
+taux_cotisation:
+  agent:
+    description: Agent
+    metadata:
+      unit: /1
+    values:
+      '2005-01-01':
+        metadata:
+          reference: Décret 2004-569 du 18/06/2004
+        value: 0.05
+  description: Taux de cotisation
+  etat:
+    description: Etat
+    metadata:
+      unit: /1
+    values:
+      '2005-01-01':
+        metadata:
+          reference: Décret 2004-569 du 18/06/2004
+        value: 0.05

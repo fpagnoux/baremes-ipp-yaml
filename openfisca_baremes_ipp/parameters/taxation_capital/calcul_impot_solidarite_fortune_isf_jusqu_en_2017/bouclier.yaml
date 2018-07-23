@@ -1,0 +1,18 @@
+description: Bouclier fiscal (2005-2010)
+taux_bouclier_fiscal:
+  description: Taux bouclier fiscal
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005, art. 74 II  (LF pour 2006)
+      value: 0.6
+    '2006-01-01':
+      metadata:
+        reference: Loi 2007-1223 du 21/08/2007, art. 11
+      value: 0.5
+    '2011-01-01':
+      metadata:
+        reference: Loi 2011-900 du 29/07/2011, art.30 (LFR pour 2011)
+      value: null

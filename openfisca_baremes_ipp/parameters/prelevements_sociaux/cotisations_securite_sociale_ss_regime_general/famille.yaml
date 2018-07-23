@@ -1,0 +1,230 @@
+description: Cotisations SS branche famille
+sous_pss:
+  description: Sous PSS
+  employeurs:
+    description: Employeurs
+    metadata:
+      unit: /1
+    values:
+      '1946-07-01':
+        metadata: {}
+        value: 0.12
+      '1946-10-01':
+        metadata:
+          reference: Arrêté du 10/09/1946
+        value: 0.125
+      '1947-10-01':
+        metadata:
+          reference: Arrêté du 24/09/1947
+        value: 0.13
+      '1948-03-01':
+        metadata: {}
+        value: 0.14
+      '1948-10-01':
+        metadata:
+          reference: Arrêté du 28/09/1948
+        value: 0.16
+      '1951-10-01':
+        metadata:
+          reference: Loi 51-1126 du 26/09/1951, art. 12
+        value: 0.1675
+      '1959-01-01':
+        metadata:
+          reference: Ordonnance 58-1374 du 30/12/1958 art.11
+        value: 0.12
+      '1961-01-01':
+        metadata:
+          reference: Décret 60-1485 du 30/12/1960
+        value: 0.1425
+      '1962-01-01':
+        metadata:
+          reference: Décret 61-1525 du 30/12/1961
+        value: 0.135
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-803 du 20/09/1967 modifié
+        value: 0.115
+      '1970-08-01':
+        metadata:
+          reference: Décret 70-680 du 30/07/1970
+        value: 0.105
+      '1974-04-01':
+        metadata:
+          reference: Décret 74-313 du 29/03/1974
+        value: 0.09
+      '1989-01-01':
+        metadata:
+          reference: Décret 89-48 du 27/01/1989
+        value: 0.045
+      '1990-01-01':
+        metadata:
+          reference: Décret 90-5 du 02/01/1990
+        value: null
+      '1991-02-01':
+        metadata:
+          reference: Décret 91-91 du 23/01/1991
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: null
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-892 du 08/08/2014 (LFR pour 2014), art. 2
+        value: null
+      '2016-04-01':
+        metadata:
+          reference: Loi 2015-1702 du 21/12/2015, art. 7 (LFSS pour 2016)
+        value: null
+tout_salaire:
+  description: Sur tout salaire
+  employeurs:
+    description: Employeurs
+    metadata:
+      unit: /1
+    values:
+      '1946-07-01':
+        metadata: {}
+        value: null
+      '1946-10-01':
+        metadata:
+          reference: Arrêté du 10/09/1946
+        value: null
+      '1947-10-01':
+        metadata:
+          reference: Arrêté du 24/09/1947
+        value: null
+      '1948-03-01':
+        metadata: {}
+        value: null
+      '1948-10-01':
+        metadata:
+          reference: Arrêté du 28/09/1948
+        value: null
+      '1951-10-01':
+        metadata:
+          reference: Loi 51-1126 du 26/09/1951, art. 12
+        value: null
+      '1959-01-01':
+        metadata:
+          reference: Ordonnance 58-1374 du 30/12/1958 art.11
+        value: null
+      '1961-01-01':
+        metadata:
+          reference: Décret 60-1485 du 30/12/1960
+        value: null
+      '1962-01-01':
+        metadata:
+          reference: Décret 61-1525 du 30/12/1961
+        value: null
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-803 du 20/09/1967 modifié
+        value: null
+      '1970-08-01':
+        metadata:
+          reference: Décret 70-680 du 30/07/1970
+        value: null
+      '1974-04-01':
+        metadata:
+          reference: Décret 74-313 du 29/03/1974
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: Décret 89-48 du 27/01/1989
+        value: 0.035
+      '1990-01-01':
+        metadata:
+          reference: Décret 90-5 du 02/01/1990
+        value: 0.07
+      '1991-02-01':
+        metadata:
+          reference: Décret 91-91 du 23/01/1991
+        value: 0.054
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.0525
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-892 du 08/08/2014 (LFR pour 2014), art. 2
+        value: 0.0525
+      '2016-04-01':
+        metadata:
+          reference: Loi 2015-1702 du 21/12/2015, art. 7 (LFSS pour 2016)
+        value: 0.0525
+  taux_reduit:
+    description: Taux réduit
+    metadata:
+      unit: /1
+    values:
+      '1946-07-01':
+        metadata: {}
+        value: null
+      '1946-10-01':
+        metadata:
+          reference: Arrêté du 10/09/1946
+        value: null
+      '1947-10-01':
+        metadata:
+          reference: Arrêté du 24/09/1947
+        value: null
+      '1948-03-01':
+        metadata: {}
+        value: null
+      '1948-10-01':
+        metadata:
+          reference: Arrêté du 28/09/1948
+        value: null
+      '1951-10-01':
+        metadata:
+          reference: Loi 51-1126 du 26/09/1951, art. 12
+        value: null
+      '1959-01-01':
+        metadata:
+          reference: Ordonnance 58-1374 du 30/12/1958 art.11
+        value: null
+      '1961-01-01':
+        metadata:
+          reference: Décret 60-1485 du 30/12/1960
+        value: null
+      '1962-01-01':
+        metadata:
+          reference: Décret 61-1525 du 30/12/1961
+        value: null
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-803 du 20/09/1967 modifié
+        value: null
+      '1970-08-01':
+        metadata:
+          reference: Décret 70-680 du 30/07/1970
+        value: null
+      '1974-04-01':
+        metadata:
+          reference: Décret 74-313 du 29/03/1974
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: Décret 89-48 du 27/01/1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: Décret 90-5 du 02/01/1990
+        value: null
+      '1991-02-01':
+        metadata:
+          reference: Décret 91-91 du 23/01/1991
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: null
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-892 du 08/08/2014 (LFR pour 2014), art. 2
+        value: 0.0345
+      '2016-04-01':
+        metadata:
+          reference: Loi 2015-1702 du 21/12/2015, art. 7 (LFSS pour 2016)
+        value: 0.0345

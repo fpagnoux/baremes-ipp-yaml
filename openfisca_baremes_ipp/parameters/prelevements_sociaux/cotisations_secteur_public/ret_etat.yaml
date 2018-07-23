@@ -1,0 +1,238 @@
+description: Cotisations retraites de l'Etat-employeur
+taux_employeur_explicite:
+  ati:
+    description: ATI
+    metadata:
+      unit: /1
+    values:
+      '1995-01-01':
+        metadata: {}
+        value: null
+      '2006-01-01':
+        metadata:
+          reference: Décret 2006-23 du 05/01/2006
+        value: 0.003
+      '2007-01-01':
+        metadata:
+          reference: Décret 2006-1798 du 23/12/2006
+        value: 0.0031
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-53 du 15/01/2008
+        value: 0.0031
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1534 du 22/12/2008
+        value: 0.0032
+      '2009-12-01':
+        metadata:
+          reference: Décret 2009-1599 du 18/12/2009
+        value: 0.0032
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-53 du 14/01/2010
+        value: 0.0033
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-11 du 04/01/2011
+        value: 0.0033
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-2037 du 29/12/2011
+        value: 0.0033
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1507 du 27/12/2012
+        value: 0.0032
+      '2013-12-01':
+        metadata:
+          reference: Décret 2013-1064 du 25/11/2013
+        value: 0.0032
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-1507 du 27/12/2012
+        value: 0.0032
+  description: Taux employeur explicite
+  pensions_civils:
+    description: Pensions civils
+    metadata:
+      unit: /1
+    values:
+      '1995-01-01':
+        metadata: {}
+        value: null
+      '2006-01-01':
+        metadata:
+          reference: Décret 2006-23 du 05/01/2006
+        value: 0.499
+      '2007-01-01':
+        metadata:
+          reference: Décret 2006-1798 du 23/12/2006
+        value: 0.5074
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-53 du 15/01/2008
+        value: 0.5571
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1534 du 22/12/2008
+        value: 0.6014
+      '2009-12-01':
+        metadata:
+          reference: Décret 2009-1599 du 18/12/2009
+        value: 0.4014
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-53 du 14/01/2010
+        value: 0.6214
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-11 du 04/01/2011
+        value: 0.6539
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-2037 du 29/12/2011
+        value: 0.6859
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1507 du 27/12/2012
+        value: 0.7428
+      '2013-12-01':
+        metadata:
+          reference: Décret 2013-1064 du 25/11/2013
+        value: 0.4428
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-1507 du 27/12/2012
+        value: 0.7428
+  pensions_militaires:
+    description: Pensions militaires
+    metadata:
+      unit: /1
+    values:
+      '1995-01-01':
+        metadata: {}
+        value: null
+      '2006-01-01':
+        metadata:
+          reference: Décret 2006-23 du 05/01/2006
+        value: 1.0
+      '2007-01-01':
+        metadata:
+          reference: Décret 2006-1798 du 23/12/2006
+        value: 1.0105
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-53 du 15/01/2008
+        value: 1.035
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1534 du 22/12/2008
+        value: 1.0839
+      '2009-12-01':
+        metadata:
+          reference: Décret 2009-1599 du 18/12/2009
+        value: 1.0839
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-53 du 14/01/2010
+        value: 1.0863
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-11 du 04/01/2011
+        value: 1.1414
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-2037 du 29/12/2011
+        value: 1.2155
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1507 du 27/12/2012
+        value: 1.2607
+      '2013-12-01':
+        metadata:
+          reference: Décret 2013-1064 du 25/11/2013
+        value: 1.2607
+      '2014-01-01':
+        metadata:
+          reference: Décret 2012-1507 du 27/12/2012
+        value: 1.2607
+taux_implicite:
+  description: Taux implicite
+  metadata:
+    unit: /1
+  values:
+    '1995-01-01':
+      metadata: {}
+      value: 0.486
+    '1996-01-01':
+      metadata: {}
+      value: 0.462
+    '1997-01-01':
+      metadata: {}
+      value: 0.474
+    '1999-01-01':
+      metadata: {}
+      value: 0.486
+    '2000-01-01':
+      metadata: {}
+      value: 0.492
+    '2001-01-01':
+      metadata: {}
+      value: 0.487
+    '2002-01-01':
+      metadata: {}
+      value: 0.523
+    '2003-01-01':
+      metadata: {}
+      value: 0.527
+    '2004-01-01':
+      metadata: {}
+      value: 0.568
+    '2005-01-01':
+      metadata: {}
+      value: 0.594
+    '2006-01-01':
+      metadata:
+        reference: Décret 2006-23 du 05/01/2006
+      value: null
+    '2007-01-01':
+      metadata:
+        reference: Décret 2006-1798 du 23/12/2006
+      value: null
+    '2008-01-01':
+      metadata:
+        reference: Décret 2008-53 du 15/01/2008
+      value: null
+    '2009-01-01':
+      metadata:
+        reference: Décret 2008-1534 du 22/12/2008
+      value: null
+    '2009-12-01':
+      metadata:
+        reference: Décret 2009-1599 du 18/12/2009
+      value: null
+    '2010-01-01':
+      metadata:
+        reference: Décret 2010-53 du 14/01/2010
+      value: null
+    '2011-01-01':
+      metadata:
+        reference: Décret 2011-11 du 04/01/2011
+      value: null
+    '2012-01-01':
+      metadata:
+        reference: Décret 2011-2037 du 29/12/2011
+      value: null
+    '2013-01-01':
+      metadata:
+        reference: Décret 2012-1507 du 27/12/2012
+      value: null
+    '2013-12-01':
+      metadata:
+        reference: Décret 2013-1064 du 25/11/2013
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Décret 2012-1507 du 27/12/2012
+      value: null

@@ -1,0 +1,11 @@
+abattement_residence_principale:
+  description: Abattement sur résidence principale
+  metadata:
+    unit: /1
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          973 du CGI)
+      value: 0.3
+description: Réductions et abattements de l'IFI

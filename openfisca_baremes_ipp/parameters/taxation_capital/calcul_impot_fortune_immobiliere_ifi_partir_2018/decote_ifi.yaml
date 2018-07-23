@@ -1,0 +1,41 @@
+borne_inferieure_decote:
+  description: Borne inférieure de la décote
+  metadata:
+    unit: currency-EUR
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          977 du CGI)
+      value: 1300000.0
+borne_superieure_decote:
+  description: Borne supérieure de la décote
+  metadata:
+    unit: currency-EUR
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          977 du CGI)
+      value: 1400000.0
+description: Calcul de la décote
+parametre_calcul_decote_isf:
+  description: Paramètre de calcul de la décote ISF
+  metadata:
+    unit: currency-EUR
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          977 du CGI)
+      value: 17500.0
+taux_decote_isf:
+  description: Taux de la décote ISF
+  metadata:
+    unit: /1
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          977 du CGI)
+      value: 0.0125

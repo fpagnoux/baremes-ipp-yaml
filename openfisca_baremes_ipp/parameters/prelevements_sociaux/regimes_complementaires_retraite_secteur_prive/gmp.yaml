@@ -1,0 +1,638 @@
+cotisation_forfaitaire_annuelle_en_euros:
+  description: Cotisation forfaitaire annuelle (en euros)
+  metadata:
+    unit:
+      '1989-01-01': currency-FRF
+      '2002-01-01': currency-EUR
+  values:
+    '1989-01-01':
+      metadata:
+        reference: CCN des Cadres du 14/03/1947, art. 6 (§2, F.)
+      value: 2843.0
+    '1990-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3068.0
+    '1991-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3196.1
+    '1992-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3276.9
+    '1993-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3307.3
+    '1994-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3364.6
+    '1995-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3612.6
+    '1996-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3605.4
+    '1997-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3339.0
+    '1998-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3465.0
+    '1999-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3703.5
+    '2000-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 3958.5
+    '2001-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 4018.5
+    '2002-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 622.5
+    '2003-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 633.0
+    '2004-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 648.0
+    '2005-01-01':
+      metadata:
+        reference: Circulaires 2005-2-DT du 21/03/2005 et 2005-9-DRE du 09/12/2005
+      value: 663.96
+    '2006-01-01':
+      metadata:
+        reference: Circulaire 2006-2-DRE du 19/05/2006
+      value: 682.0
+    '2007-01-01':
+      metadata:
+        reference: Circulaire 2007-1-DT du 14/03/2007
+      value: 707.0
+    '2008-01-01':
+      metadata:
+        reference: Circulaire 2008-4-DT du 14/03/2008
+      value: 731.0
+    '2009-01-01':
+      metadata:
+        reference: Circulaire 2009-1-DT du 18/03/2009
+      value: 744.0
+    '2010-01-01':
+      metadata:
+        reference: Circulaire 2010-2-DT du 18/03/2010
+      value: 753.72
+    '2011-01-01':
+      metadata:
+        reference: Circulaire 2011-02-DT du 18/03/2011
+      value: 770.28
+    '2012-01-01':
+      metadata:
+        reference: Circulaire 2012-09-DT du 20/03/2012
+      value: 787.6800000000001
+    '2013-01-01':
+      metadata:
+        reference: Circulaire 2013-6-DT du 02/04/2013
+      value: 795.1200000000001
+    '2014-01-01':
+      metadata:
+        reference: Circulaire 2014-2-DT du 20/03/2014
+      value: 796.08
+    '2015-01-01':
+      metadata:
+        reference: Circulaire 2014-16-DRJ du 18/12/2014
+      value: 796.08
+    '2016-01-01':
+      metadata:
+        reference: Circulaire 2015-15-DRJ du 28/12/2015
+      value: 816.8399999999999
+    '2017-01-01':
+      metadata:
+        reference: Circulaire 2016-4-DT du 10/10/2016
+      value: 844.56
+    '2018-01-01':
+      metadata:
+        reference: Circulaire 2017-07-DT du 16/10/2017
+      value: 872.52
+cotisation_forfaitaire_mensuelle_en_euros:
+  cotisation_totale:
+    description: Cotisation totale
+    metadata:
+      unit:
+        '1989-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1989-01-01':
+        metadata:
+          reference: CCN des Cadres du 14/03/1947, art. 6 (§2, F.)
+        value: 236.9166666666667
+      '1990-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 255.6666666666667
+      '1991-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 266.3416666666666
+      '1992-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 273.075
+      '1993-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 275.6083333333333
+      '1994-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 280.3833333333333
+      '1995-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 301.05
+      '1996-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 300.45
+      '1997-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 278.25
+      '1998-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 288.75
+      '1999-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 308.63
+      '2000-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 329.8749999999999
+      '2001-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 334.8660485
+      '2002-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 51.875
+      '2003-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 52.75
+      '2004-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 54.0
+      '2005-01-01':
+        metadata:
+          reference: Circulaires 2005-2-DT du 21/03/2005 et 2005-9-DRE du 09/12/2005
+        value: 55.33
+      '2006-01-01':
+        metadata:
+          reference: Circulaire 2006-2-DRE du 19/05/2006
+        value: 56.83
+      '2007-01-01':
+        metadata:
+          reference: Circulaire 2007-1-DT du 14/03/2007
+        value: 58.92
+      '2008-01-01':
+        metadata:
+          reference: Circulaire 2008-4-DT du 14/03/2008
+        value: 60.92
+      '2009-01-01':
+        metadata:
+          reference: Circulaire 2009-1-DT du 18/03/2009
+        value: 62.0
+      '2010-01-01':
+        metadata:
+          reference: Circulaire 2010-2-DT du 18/03/2010
+        value: 62.81
+      '2011-01-01':
+        metadata:
+          reference: Circulaire 2011-02-DT du 18/03/2011
+        value: 64.19
+      '2012-01-01':
+        metadata:
+          reference: Circulaire 2012-09-DT du 20/03/2012
+        value: 65.64
+      '2013-01-01':
+        metadata:
+          reference: Circulaire 2013-6-DT du 02/04/2013
+        value: 66.26
+      '2014-01-01':
+        metadata:
+          reference: Circulaire 2014-2-DT du 20/03/2014
+        value: 66.34
+      '2015-01-01':
+        metadata:
+          reference: Circulaire 2014-16-DRJ du 18/12/2014
+        value: 66.34
+      '2016-01-01':
+        metadata:
+          reference: Circulaire 2015-15-DRJ du 28/12/2015
+        value: 68.07
+      '2017-01-01':
+        metadata:
+          reference: Circulaire 2016-4-DT du 10/10/2016
+        value: 70.38
+      '2018-01-01':
+        metadata:
+          reference: Circulaire 2017-07-DT du 16/10/2017
+        value: 72.71
+  description: Cotisation forfaitaire mensuelle (en euros)
+  part_patronale:
+    description: Part patronale
+    metadata:
+      unit:
+        '1989-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1989-01-01':
+        metadata:
+          reference: CCN des Cadres du 14/03/1947, art. 6 (§2, F.)
+        value: 177.6875
+      '1990-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 191.75
+      '1991-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 199.75625
+      '1992-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 204.80625
+      '1993-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 206.70625
+      '1994-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 186.9222222222222
+      '1995-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 196.8403846153846
+      '1996-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 193.1464285714285
+      '1997-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 176.225
+      '1998-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 180.46875
+      '1999-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 192.89
+      '2000-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 206.171875
+      '2001-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 209.2912803125
+      '2002-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 32.421875
+      '2003-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 32.96875
+      '2004-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 33.75
+      '2005-01-01':
+        metadata:
+          reference: Circulaires 2005-2-DT du 21/03/2005 et 2005-9-DRE du 09/12/2005
+        value: 34.58333333333334
+      '2006-01-01':
+        metadata:
+          reference: Circulaire 2006-2-DRE du 19/05/2006
+        value: 35.27
+      '2007-01-01':
+        metadata:
+          reference: Circulaire 2007-1-DT du 14/03/2007
+        value: 36.57
+      '2008-01-01':
+        metadata:
+          reference: Circulaire 2008-4-DT du 14/03/2008
+        value: 37.81
+      '2009-01-01':
+        metadata:
+          reference: Circulaire 2009-1-DT du 18/03/2009
+        value: 38.48
+      '2010-01-01':
+        metadata:
+          reference: Circulaire 2010-2-DT du 18/03/2010
+        value: 38.99
+      '2011-01-01':
+        metadata:
+          reference: Circulaire 2011-02-DT du 18/03/2011
+        value: 39.84
+      '2012-01-01':
+        metadata:
+          reference: Circulaire 2012-09-DT du 20/03/2012
+        value: 40.74
+      '2013-01-01':
+        metadata:
+          reference: Circulaire 2013-6-DT du 02/04/2013
+        value: 41.13
+      '2014-01-01':
+        metadata:
+          reference: Circulaire 2014-2-DT du 20/03/2014
+        value: 41.17
+      '2015-01-01':
+        metadata:
+          reference: Circulaire 2014-16-DRJ du 18/12/2014
+        value: 41.17
+      '2016-01-01':
+        metadata:
+          reference: Circulaire 2015-15-DRJ du 28/12/2015
+        value: 42.23
+      '2017-01-01':
+        metadata:
+          reference: Circulaire 2016-4-DT du 10/10/2016
+        value: 43.67
+      '2018-01-01':
+        metadata:
+          reference: Circulaire 2017-07-DT du 16/10/2017
+        value: 45.11
+  part_salariale:
+    description: Part salariale
+    metadata:
+      unit:
+        '1989-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1989-01-01':
+        metadata:
+          reference: CCN des Cadres du 14/03/1947, art. 6 (§2, F.)
+        value: 59.22916666666666
+      '1990-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 63.91666666666666
+      '1991-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 66.58541666666666
+      '1992-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 68.26875
+      '1993-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 68.90208333333332
+      '1994-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 93.46111111111111
+      '1995-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 104.2096153846154
+      '1996-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 107.3035714285714
+      '1997-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 102.025
+      '1998-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 108.28125
+      '1999-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 115.74
+      '2000-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 123.703125
+      '2001-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 125.5747681875
+      '2002-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 19.453125
+      '2003-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 19.78125
+      '2004-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 20.25
+      '2005-01-01':
+        metadata:
+          reference: Circulaires 2005-2-DT du 21/03/2005 et 2005-9-DRE du 09/12/2005
+        value: 20.75
+      '2006-01-01':
+        metadata:
+          reference: Circulaire 2006-2-DRE du 19/05/2006
+        value: 21.56
+      '2007-01-01':
+        metadata:
+          reference: Circulaire 2007-1-DT du 14/03/2007
+        value: 22.35
+      '2008-01-01':
+        metadata:
+          reference: Circulaire 2008-4-DT du 14/03/2008
+        value: 23.11
+      '2009-01-01':
+        metadata:
+          reference: Circulaire 2009-1-DT du 18/03/2009
+        value: 23.52
+      '2010-01-01':
+        metadata:
+          reference: Circulaire 2010-2-DT du 18/03/2010
+        value: 23.82
+      '2011-01-01':
+        metadata:
+          reference: Circulaire 2011-02-DT du 18/03/2011
+        value: 24.35
+      '2012-01-01':
+        metadata:
+          reference: Circulaire 2012-09-DT du 20/03/2012
+        value: 24.9
+      '2013-01-01':
+        metadata:
+          reference: Circulaire 2013-6-DT du 02/04/2013
+        value: 25.13
+      '2014-01-01':
+        metadata:
+          reference: Circulaire 2014-2-DT du 20/03/2014
+        value: 25.17
+      '2015-01-01':
+        metadata:
+          reference: Circulaire 2014-16-DRJ du 18/12/2014
+        value: 25.17
+      '2016-01-01':
+        metadata:
+          reference: Circulaire 2015-15-DRJ du 28/12/2015
+        value: 25.84
+      '2017-01-01':
+        metadata:
+          reference: Circulaire 2016-4-DT du 10/10/2016
+        value: 26.71
+      '2018-01-01':
+        metadata:
+          reference: Circulaire 2017-07-DT du 16/10/2017
+        value: 27.6
+description: Cotisations pour la Garantie Minimale de Points (GMP) - cadres
+salaire_charniere_annuel:
+  description: Salaire charnière annuel
+  metadata:
+    unit:
+      '1989-01-01': currency-FRF
+      '2002-01-01': currency-EUR
+  values:
+    '1989-01-01':
+      metadata:
+        reference: CCN des Cadres du 14/03/1947, art. 6 (§2, F.)
+      value: 156619.22743
+    '1990-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 163818.52989
+    '1991-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 171597.52957
+    '1992-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 178734.31247
+    '1993-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 184524.5788
+    '1994-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 181228.84251
+    '1995-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 179976.65761
+    '1996-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 184659.8806907692
+    '1997-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 183718.64743
+    '1998-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 186405.0
+    '1999-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 192158.0
+    '2000-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 194916.0
+    '2001-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 200093.12328
+    '2002-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 31337.0
+    '2003-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 32349.0
+    '2004-01-01':
+      metadata:
+        reference: Référence non trouvée
+      value: 32952.0
+    '2005-01-01':
+      metadata:
+        reference: Circulaires 2005-2-DT du 21/03/2005 et 2005-9-DRE du 09/12/2005
+      value: 33512.0
+    '2006-01-01':
+      metadata:
+        reference: Circulaire 2006-2-DRE du 19/05/2006
+      value: 34428.0
+    '2007-01-01':
+      metadata:
+        reference: Circulaire 2007-1-DT du 14/03/2007
+      value: 35666.0
+    '2008-01-01':
+      metadata:
+        reference: Circulaire 2008-4-DT du 14/03/2008
+      value: 36877.0
+    '2009-01-01':
+      metadata:
+        reference: Circulaire 2009-1-DT du 18/03/2009
+      value: 37973.0
+    '2010-01-01':
+      metadata:
+        reference: Circulaire 2010-2-DT du 18/03/2010
+      value: 38332.92
+    '2011-01-01':
+      metadata:
+        reference: Circulaire 2011-02-DT du 18/03/2011
+      value: 39146.63
+    '2012-01-01':
+      metadata:
+        reference: Circulaire 2012-09-DT du 20/03/2012
+      value: 40251.98
+    '2013-01-01':
+      metadata:
+        reference: Circulaire 2013-6-DT du 02/04/2013
+      value: 40948.7
+    '2014-01-01':
+      metadata:
+        reference: Circulaire 2014-2-DT du 20/03/2014
+      value: 41444.64
+    '2015-01-01':
+      metadata:
+        reference: Circulaire 2014-16-DRJ du 18/12/2014
+      value: 41913.84
+    '2016-01-01':
+      metadata:
+        reference: Circulaire 2015-15-DRJ du 28/12/2015
+      value: 42590.88
+    '2017-01-01':
+      metadata:
+        reference: Circulaire 2016-4-DT du 10/10/2016
+      value: 43337.76
+    '2018-01-01':
+      metadata:
+        reference: Circulaire 2017-07-DT du 16/10/2017
+      value: 43977.84

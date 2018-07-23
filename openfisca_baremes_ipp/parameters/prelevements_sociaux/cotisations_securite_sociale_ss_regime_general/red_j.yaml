@@ -1,0 +1,812 @@
+accidents_travail_sous_pss:
+  description: 'Accidents travail: Sous PSS'
+  employeurs_am:
+    description: Employeurs AM
+    presse_periodique:
+      description: presse périodique
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: null
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: null
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: null
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: null
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: null
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: null
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.0176
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.0144
+    presse_quotidienne:
+      description: presse quotidienne
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: null
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: null
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: null
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: null
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: null
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: null
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.0192
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.0208
+  employeurs_france_hors_am:
+    description: Employeurs France hors AM
+    presse_periodique:
+      description: presse périodique
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: 0.017
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: 0.0225
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.0225
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.024
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.0168
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.0168
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.0168
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.0168
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.0176
+    presse_quotidienne:
+      description: presse quotidienne
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: 0.017
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: 0.0225
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.0225
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.024
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.024
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.0256
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.0256
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.024
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.0248
+allocations_familiales:
+  description: Allocations familiales
+  sous_pss:
+    description: Sous PSS
+    employeurs:
+      description: Employeurs
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: 0.108
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: 0.108
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.092
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.092
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.092
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.092
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.084
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.084
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.072
+assurance_maladie:
+  description: Assurance maladie
+  sous_pss:
+    description: Sous PSS
+    employe_am:
+      description: Employé AM
+      moins_65_ans:
+        description: Moins de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: null
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: null
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: 0.022
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: 0.032
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: 0.032
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: 0.032
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: 0.032
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: 0.032
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: 0.032
+      plus_65_ans:
+        description: Plus de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: null
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: null
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: 0.022
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: 0.024
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: 0.024
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: 0.024
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: 0.024
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: 0.024
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: 0.024
+    employe_hors_am:
+      description: Employé (hors AM)
+      moins_65_ans:
+        description: Moins de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: null
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: null
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: 0.018
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: 0.02
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: 0.02
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: 0.02
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: 0.02
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: 0.02
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: 0.02
+      plus_65_ans:
+        description: Plus de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: null
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: null
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: 0.018
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: 0.012
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: 0.012
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: 0.012
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: 0.012
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: 0.012
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: 0.012
+    employeur:
+      description: Employeur
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: null
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: null
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.072
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.076
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.076
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.076
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.0836
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.0836
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.0836
+  totalite_remuneration:
+    description: Totalité rémunération
+    employe:
+      description: Employé
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: null
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: null
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.008
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.008
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.008
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.008
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.008
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.008
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.008
+    employeur:
+      description: Employeur
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: null
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: null
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.016
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.016
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.016
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.016
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.016
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.016
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.016
+assurance_vieillesse:
+  description: Assurance vieillesse
+  sous_pss:
+    description: Sous PSS
+    employes:
+      description: Employés
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: null
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: null
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.024
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.024
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.024
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.024
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.024
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.024
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.024
+    employeurs:
+      description: Employeurs
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: null
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: null
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: 0.044
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: 0.044
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: 0.044
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: 0.044
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: 0.046
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: 0.046
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: 0.058
+assurances_sociales_avant_1967:
+  description: Assurances sociales (avant 1967)
+  sous_pss:
+    description: Sous PSS
+    employe_am:
+      description: Employé AM
+      moins_65_ans:
+        description: Moins de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: 0.056
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: 0.056
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: null
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: null
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: null
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: null
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: null
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: null
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: null
+      plus_65_ans:
+        description: Plus de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: 0.024
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: 0.024
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: null
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: null
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: null
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: null
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: null
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: null
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: null
+    employe_hors_am:
+      description: Employé (hors AM)
+      moins_65_ans:
+        description: Moins de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: 0.016
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: 0.016
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: null
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: null
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: null
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: null
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: null
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: null
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: null
+      plus_65_ans:
+        description: Plus de 65 ans
+        metadata:
+          unit: /1
+        values:
+          '1964-01-01':
+            metadata:
+              reference: Arrêté du 09/12/1963
+            value: 0.048
+          '1966-10-01':
+            metadata:
+              reference: Arrêté du 15/09/1966
+            value: 0.048
+          '1967-10-01':
+            metadata:
+              reference: Arrêté du 29/09/1967
+            value: null
+          '1969-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1968
+            value: null
+          '1969-06-01':
+            metadata:
+              reference: Arrêté du 23/05/1969
+            value: null
+          '1970-01-01':
+            metadata:
+              reference: Arrêté du 31/12/1969
+            value: null
+          '1971-01-01':
+            metadata:
+              reference: Arrêté du 30/12/1970
+            value: null
+          '1973-03-01':
+            metadata:
+              reference: Arrêté du 31/01/1973
+            value: null
+          '1974-01-01':
+            metadata:
+              reference: Arrêté du 15/01/1974
+            value: null
+    employeur:
+      description: Employeur
+      metadata:
+        unit: /1
+      values:
+        '1964-01-01':
+          metadata:
+            reference: Arrêté du 09/12/1963
+          value: 0.114
+        '1966-10-01':
+          metadata:
+            reference: Arrêté du 15/09/1966
+          value: 0.12
+        '1967-10-01':
+          metadata:
+            reference: Arrêté du 29/09/1967
+          value: null
+        '1969-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1968
+          value: null
+        '1969-06-01':
+          metadata:
+            reference: Arrêté du 23/05/1969
+          value: null
+        '1970-01-01':
+          metadata:
+            reference: Arrêté du 31/12/1969
+          value: null
+        '1971-01-01':
+          metadata:
+            reference: Arrêté du 30/12/1970
+          value: null
+        '1973-03-01':
+          metadata:
+            reference: Arrêté du 31/01/1973
+          value: null
+        '1974-01-01':
+          metadata:
+            reference: Arrêté du 15/01/1974
+          value: null
+description: Cotisations SS des journalistes pigistes (1964-1974)

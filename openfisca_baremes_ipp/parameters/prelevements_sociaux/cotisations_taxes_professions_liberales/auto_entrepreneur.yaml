@@ -1,0 +1,241 @@
+achat_vente_vente_consommer_place_prestations_hebergement_sauf_location_hebergement_meuble:
+  chiffre_affaires:
+    description: Chiffre d'affaires
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+        value: 0.12
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+        value: 0.12
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1551 du 28/12/2012
+        value: 0.14
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.141
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art.4, 1°
+        value: 0.133
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-301 du 08/03/2017
+        value: 0.131
+      '2018-01-01':
+        metadata:
+          reference: Décret 2017-1894 du 30/12/2017, art. 1
+        value: 0.128
+  description: Achat-vente, vente à consommer sur place, prestations d'hebergement
+    (sauf location hebergement meublé)
+activites_liberales_relevant_cipav:
+  chiffre_affaires:
+    description: Chiffre d'affaires
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+        value: 0.183
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+        value: 0.183
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1551 du 28/12/2012
+        value: 0.213
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.233
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art.4, 1°
+        value: 0.229
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-301 du 08/03/2017
+        value: 0.225
+      '2018-01-01':
+        metadata:
+          reference: Décret 2017-1894 du 30/12/2017, art. 1
+        value: 0.22
+  description: Activités libérales relevant de la CIPAV
+description: Régime des auto-entrepreneurs
+formation_professionnelle_micro_entrepreneur:
+  artisans_alsace_chiffre_affaires:
+    description: 'Artisans Alsace : chiffre d''affaires'
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+        value: null
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+        value: 0.00176
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1551 du 28/12/2012
+        value: 0.00176
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.00176
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art.4, 1°
+        value: 0.00176
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-301 du 08/03/2017
+        value: 0.003
+      '2018-01-01':
+        metadata:
+          reference: Décret 2017-1894 du 30/12/2017, art. 1
+        value: 0.003
+  artisans_hors_alsace_chiffre_affaires:
+    description: 'Artisans hors Alsace : chiffre d''affaires'
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+        value: null
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+        value: 0.003
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1551 du 28/12/2012
+        value: 0.003
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.003
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art.4, 1°
+        value: 0.003
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-301 du 08/03/2017
+        value: 0.003
+      '2018-01-01':
+        metadata:
+          reference: Décret 2017-1894 du 30/12/2017, art. 1
+        value: 0.003
+  commercants_chiffre_affaires:
+    description: 'Commerçants : chiffre d''affaires'
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+        value: null
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+        value: 0.001
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1551 du 28/12/2012
+        value: 0.001
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.001
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art.4, 1°
+        value: 0.001
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-301 du 08/03/2017
+        value: 0.001
+      '2018-01-01':
+        metadata:
+          reference: Décret 2017-1894 du 30/12/2017, art. 1
+        value: 0.001
+  description: Formation professionnelle (micro-entrepreneur)
+  professions_liberales_chiffre_affaires:
+    description: 'Professions libérales : chiffre d''affaires'
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+        value: null
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+        value: 0.002
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1551 du 28/12/2012
+        value: 0.002
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.002
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art.4, 1°
+        value: 0.002
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-301 du 08/03/2017
+        value: 0.002
+      '2018-01-01':
+        metadata:
+          reference: Décret 2017-1894 du 30/12/2017, art. 1
+        value: 0.002
+prestations_service:
+  chiffre_affaires:
+    description: Chiffre d'affaires
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        metadata:
+          reference: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+        value: 0.213
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+        value: 0.213
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1551 du 28/12/2012
+        value: 0.246
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1290 du 27/12/2013
+        value: 0.246
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1531 du 17/12/2014, art.4, 1°
+        value: 0.229
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-301 du 08/03/2017
+        value: 0.227
+      '2018-01-01':
+        metadata:
+          reference: Décret 2017-1894 du 30/12/2017, art. 1
+        value: 0.22
+  description: Prestations de service

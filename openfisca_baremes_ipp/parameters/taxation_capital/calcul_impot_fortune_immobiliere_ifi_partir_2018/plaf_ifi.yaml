@@ -1,0 +1,11 @@
+description: Plafonnement de l'IFI
+plafonnement_taux_imposition_isf:
+  description: Plafonnement taux d'imposition ISF
+  metadata:
+    unit: /1
+  values:
+    '2018-01-01':
+      metadata:
+        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+          979 du CGI)
+      value: 0.75

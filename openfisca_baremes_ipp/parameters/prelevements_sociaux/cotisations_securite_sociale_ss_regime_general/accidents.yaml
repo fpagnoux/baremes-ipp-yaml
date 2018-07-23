@@ -1,0 +1,85 @@
+description: Cotisations SS accidents du travail-maladies professionnelles (AT-MP),
+  taux bureaux
+employeur_sous_pss:
+  description: Employeur sous PSS
+  metadata:
+    unit: /1
+  values:
+    '1976-01-01':
+      metadata:
+        reference: Arrêté du 01/10/1976
+      value: 0.017
+    '1977-01-01':
+      metadata: {}
+      value: 0.017
+    '1979-01-01':
+      metadata: {}
+      value: 0.018
+    '1983-01-01':
+      metadata: {}
+      value: 0.017
+    '1984-01-01':
+      metadata: {}
+      value: 0.018
+    '1985-01-01':
+      metadata: {}
+      value: 0.017
+    '1986-01-01':
+      metadata: {}
+      value: 0.018
+    '1989-01-01':
+      metadata: {}
+      value: 0.017
+    '1991-01-01':
+      metadata:
+        reference: Loi 90-86 du 23/01/1990, art. 1
+      value: null
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '2008-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2008 du Min. des affaires sociales et de la santé
+      value: null
+    '2016-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2015
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 30/12/2017
+      value: null
+employeur_tout_salaire:
+  description: Employeur tout salaire
+  metadata:
+    unit: /1
+  values:
+    '1976-01-01':
+      metadata:
+        reference: Arrêté du 01/10/1976
+      value: null
+    '1977-01-01':
+      metadata: {}
+      value: null
+    '1991-01-01':
+      metadata:
+        reference: Loi 90-86 du 23/01/1990, art. 1
+      value: 0.013
+    '1992-01-01':
+      metadata: {}
+      value: 0.012
+    '1993-01-01':
+      metadata: {}
+      value: 0.01
+    '2008-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2008 du Min. des affaires sociales et de la santé
+      value: 0.011
+    '2016-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2015
+      value: 0.01
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 30/12/2017
+      value: 0.009

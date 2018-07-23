@@ -1,0 +1,149 @@
+description: Cotisations SS (1930-1966)
+salaire_sous_pss:
+  cotisation_ouvriere:
+    description: Cotisation ouvrière
+    moins_65_ans:
+      description: Moins de 65 ans
+      metadata:
+        unit: /1
+      values:
+        '1930-07-01':
+          metadata:
+            reference: Loi du 05/04/1928, art.2 § 2 ; Loi du 30/04/1930, art. 2 §2
+          value: 0.04
+        '1936-01-01':
+          metadata:
+            reference: Décret loi du 28/10/1935, art.40
+          value: 0.035
+        '1937-01-01':
+          metadata:
+            reference: Décret loi du 28/10/1935, art.2 § 2
+          value: 0.04
+        '1945-01-01':
+          metadata:
+            reference: Ordonnance du 30/12/1944
+          value: 0.06
+        '1947-01-01':
+          metadata:
+            reference: Arrêté du 24/03/1947
+          value: 0.06
+        '1948-07-01':
+          metadata:
+            reference: Loi 48-1306 du 23/08/1948 art.18
+          value: 0.06
+        '1959-01-01':
+          metadata:
+            reference: Ordonnance 58-1374 du 30/12/1958, art.10
+          value: 0.06
+        '1961-01-01':
+          metadata:
+            reference: Décret 60-1485 du 30/12/1960
+          value: 0.06
+        '1962-01-01':
+          metadata:
+            reference: Décret 61-1525 du 30/12/1961
+          value: 0.06
+        '1966-09-01':
+          metadata:
+            reference: Arrêté du 29/07/1966
+          value: 0.06
+        '1967-09-01':
+          metadata: {}
+          value: null
+    plus_65_ans:
+      description: Plus de 65 ans
+      metadata:
+        unit: /1
+      values:
+        '1930-07-01':
+          metadata:
+            reference: Loi du 05/04/1928, art.2 § 2 ; Loi du 30/04/1930, art. 2 §2
+          value: 0.04
+        '1936-01-01':
+          metadata:
+            reference: Décret loi du 28/10/1935, art.40
+          value: 0.035
+        '1937-01-01':
+          metadata:
+            reference: Décret loi du 28/10/1935, art.2 § 2
+          value: 0.04
+        '1945-01-01':
+          metadata:
+            reference: Ordonnance du 30/12/1944
+          value: 0.06
+        '1947-01-01':
+          metadata:
+            reference: Arrêté du 24/03/1947
+          value: 0.06
+        '1948-07-01':
+          metadata:
+            reference: Loi 48-1306 du 23/08/1948 art.18
+          value: 0.02
+        '1959-01-01':
+          metadata:
+            reference: Ordonnance 58-1374 du 30/12/1958, art.10
+          value: 0.02
+        '1961-01-01':
+          metadata:
+            reference: Décret 60-1485 du 30/12/1960
+          value: 0.02
+        '1962-01-01':
+          metadata:
+            reference: Décret 61-1525 du 30/12/1961
+          value: 0.02
+        '1966-09-01':
+          metadata:
+            reference: Arrêté du 29/07/1966
+          value: 0.02
+        '1967-09-01':
+          metadata: {}
+          value: null
+  cotisation_patronale:
+    description: Cotisation patronale
+    metadata:
+      unit: /1
+    values:
+      '1930-07-01':
+        metadata:
+          reference: Loi du 05/04/1928, art.2 § 2 ; Loi du 30/04/1930, art. 2 §2
+        value: 0.04
+      '1936-01-01':
+        metadata:
+          reference: Décret loi du 28/10/1935, art.40
+        value: 0.035
+      '1937-01-01':
+        metadata:
+          reference: Décret loi du 28/10/1935, art.2 § 2
+        value: 0.04
+      '1945-01-01':
+        metadata:
+          reference: Ordonnance du 30/12/1944
+        value: 0.06
+      '1947-01-01':
+        metadata:
+          reference: Arrêté du 24/03/1947
+        value: 0.1
+      '1948-07-01':
+        metadata:
+          reference: Loi 48-1306 du 23/08/1948 art.18
+        value: 0.1
+      '1959-01-01':
+        metadata:
+          reference: Ordonnance 58-1374 du 30/12/1958, art.10
+        value: 0.125
+      '1961-01-01':
+        metadata:
+          reference: Décret 60-1485 du 30/12/1960
+        value: 0.135
+      '1962-01-01':
+        metadata:
+          reference: Décret 61-1525 du 30/12/1961
+        value: 0.1425
+      '1966-09-01':
+        metadata:
+          reference: Arrêté du 29/07/1966
+        value: 0.15
+      '1967-09-01':
+        metadata: {}
+        value: null
+  description: Salaire sous PSS

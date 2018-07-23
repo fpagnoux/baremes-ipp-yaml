@@ -1,0 +1,74 @@
+description: Retenues pour pension - agents de l'Etat
+retenues:
+  description: Retenues
+  metadata:
+    unit: /1
+  values:
+    '1925-01-01':
+      metadata:
+        reference: Loi du 14/04/1924 et Art. L. 61 du CPCM
+      value: 0.06
+    '1984-01-01':
+      metadata:
+        reference: Loi 83-1179 du 29/12/1983 (LF 1984), art. 33
+      value: 0.07
+    '1986-08-01':
+      metadata:
+        reference: Loi 86-966 du 18/08/1986, art. 9
+      value: 0.077
+    '1987-07-01':
+      metadata:
+        reference: Loi 87-516 du 10/07/1987, art. 4
+      value: 0.079
+    '1989-01-01':
+      metadata:
+        reference: Loi 89-18 du 13/01/1989, art. 23
+      value: 0.089
+    '1991-02-01':
+      metadata:
+        reference: Loi 91-73 du 18/01/1991, art. 25
+      value: 0.0785
+    '2011-01-01':
+      metadata:
+        reference: Décret 2010-1749 du 30/12/2010
+      value: 0.0812
+    '2012-01-01':
+      metadata:
+        reference: Décret 2010-1749 du 30/12/2010
+      value: 0.0839
+    '2012-11-01':
+      metadata:
+        reference: Décret 2010-1749 du 30/12/2010
+      value: 0.0849
+    '2013-01-01':
+      metadata:
+        reference: Décret 2010-1749 du 30/12/2010
+      value: 0.0876
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013, art. 8
+      value: 0.0914
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art. 11
+      value: 0.0954
+    '2016-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art. 11
+      value: 0.0994
+    '2017-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art. 11
+      value: 0.1029
+    '2018-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art. 11
+      value: 0.1056
+    '2019-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art. 11
+      value: 0.1083
+    '2020-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art. 11
+      value: 0.111

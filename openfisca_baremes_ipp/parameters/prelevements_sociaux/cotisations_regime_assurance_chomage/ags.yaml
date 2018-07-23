@@ -1,0 +1,128 @@
+description: Cotisations de contribution au régime de garantie des salaires (AGS)
+employeurs:
+  description: Employeurs
+  sous_4_pss:
+    description: Sous 4 PSS
+    metadata:
+      unit: /1
+    values:
+      '1974-01-01':
+        metadata:
+          reference: Loi 73-1194 du 27/12/1973 (JO 30/12/1973).
+        value: 0.0005
+      '1975-07-01':
+        metadata:
+          reference: Circulaire Unedic 75-22 du 21/05/1975
+        value: 0.002
+      '1976-04-01':
+        metadata:
+          reference: Circulaire Unedic 76-05 du 24/03/1976
+        value: 0.0025
+      '1984-10-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 18/07/1984. Circulaire Unedic
+            84-24 du 06/08/1984
+        value: 0.0035
+      '1988-01-01':
+        metadata:
+          reference: Circulaire Unedic (jamais parue)
+        value: 0.0028
+      '1989-01-01':
+        metadata:
+          reference: Circulaire Unedic 89-02 du 06/01/1989
+        value: 0.0024
+      '1990-01-01':
+        metadata:
+          reference: Circulaire Unedic 90-01 du 05/01/1990
+        value: 0.0015
+      '1993-01-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 18/12/1992. Circulaire Unedic
+            93-01 du 19/01/1993
+        value: 0.0035
+      '1996-07-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 26/06/1996.
+        value: 0.0025
+      '1999-07-01':
+        metadata:
+          reference: Circulaire Unedic du 09/06/1999
+        value: 0.002
+      '2000-07-01':
+        metadata:
+          reference: Circulaire Unedic 00-09 du 06/06/2000
+        value: 0.0015
+      '2001-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 0.001
+      '2002-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 0.002
+      '2002-07-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 0.003
+      '2003-01-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 0.0035
+      '2003-09-01':
+        metadata:
+          reference: Référence non trouvée
+        value: 0.004500000000000001
+      '2005-04-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 20/06/2005.
+        value: 0.0035
+      '2006-01-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 25/01/2006. Circulaire Unedic
+            2006-05 du 09/02/2006.
+        value: 0.0025
+      '2006-07-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 28/06/2006. Circulaire Unedic
+            2006-12 du 05/07/2006.
+        value: 0.0015
+      '2008-07-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 19/12/2008. Circulaire Unedic
+            2008-05 du 21/07/2008.
+        value: 0.001
+      '2009-04-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 16/03/2011. Circulaire Unedic
+            2009-07 du 19/03/2009.
+        value: 0.002
+      '2009-07-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 15/06/2011. Circulaire Unedic
+            2009-14 du 23/06/2009.
+        value: 0.003
+      '2009-10-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 15/06/2011. Circulaire Unedic
+            2009-14 du 23/06/2009.
+        value: 0.004
+      '2011-04-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 28/03/2011. Circulaire Unedic
+            2011-16 du 04/04/2011.
+        value: 0.003
+      '2016-01-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 06/01/2016. Circulaire Unedic
+            2016-06 du 14/01/2016.
+        value: 0.0025
+      '2017-01-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 14/12/2016. Circulaire Unedic
+            2016-31 du 19/12/2016.
+        value: 0.002
+      '2017-07-01':
+        metadata:
+          reference: Conseil d'administration de l'AGS du 29/06/2017. Circulaire Unedic
+            2017-19 du 21/07/2017. Conseil d'administration de l'AGS du 12/12/2017.
+        value: 0.0015

@@ -1,0 +1,10 @@
+description: Contribution patronale au financement des organisations syndicales
+taux:
+  description: Taux
+  metadata:
+    unit: /1
+  values:
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1718 du 30/12/2014
+      value: 0.00016

@@ -1,0 +1,41 @@
+description: Taxe exceptionnelle de solidarité sur les hautes rémunérations versées
+  par les entreprises (TEHR, ou "taxe à 75%")
+plafond_en_chiffre_affaire_entreprises:
+  description: Plafond (en % du chiffre d'affaire de l'entreprises)
+  metadata:
+    unit: /1
+  values:
+    '2013-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+      value: 0.05
+    '2015-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+      value: null
+seuil:
+  description: Seuil
+  metadata:
+    unit: currency-EUR
+  values:
+    '2013-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+      value: 1000000.0
+    '2015-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+      value: null
+taux:
+  description: Taux
+  metadata:
+    unit: /1
+  values:
+    '2013-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+      value: 0.5
+    '2015-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+      value: null

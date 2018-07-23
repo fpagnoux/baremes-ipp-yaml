@@ -1,0 +1,25 @@
+description: Réduction du taux de cotisations famille
+plafond_en_nombre_smic:
+  description: Plafond, en nombre de SMIC
+  values:
+    '2015-01-01':
+      metadata:
+        reference: Loi 2014-892 du 08/08/2014 (LFRSS 2014 ), art. 2
+      value: 1.6
+    '2016-04-01':
+      metadata:
+        reference: Loi 2015-1702 du 21/12/2015 (LFSS 2016), art.7
+      value: 3.5
+reduction:
+  description: Réduction
+  metadata:
+    unit: /1
+  values:
+    '2015-01-01':
+      metadata:
+        reference: Loi 2014-892 du 08/08/2014 (LFRSS 2014 ), art. 2
+      value: 0.018
+    '2016-04-01':
+      metadata:
+        reference: Loi 2015-1702 du 21/12/2015 (LFSS 2016), art.7
+      value: 0.018

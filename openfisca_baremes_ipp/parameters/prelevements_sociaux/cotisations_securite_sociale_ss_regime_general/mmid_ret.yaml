@@ -1,0 +1,53 @@
+avantages_retraite:
+  description: Avantages de retraite
+  regime_general:
+    description: Régime général
+    metadata:
+      unit: /1
+    values:
+      '1980-07-01':
+        metadata:
+          reference: Décret 80-298 du 24/04/1980
+        value: 0.01
+      '1987-07-01':
+        metadata:
+          reference: Décret 87-453 du 29/06/1987
+        value: 0.014
+      '1996-01-01':
+        metadata:
+          reference: Décret 95-1356 du 30/12/1995, art. 1 (V)
+        value: 0.026
+      '1997-01-01':
+        metadata:
+          reference: Décret 96-1167 du 26/12/1996,  art. 5
+        value: 0.028
+      '1998-01-01':
+        metadata:
+          reference: Décret 97-1252 du 29/12/1997, art. 4
+        value: null
+  regimes_comp:
+    description: Régimes comp.
+    metadata:
+      unit: /1
+    values:
+      '1980-07-01':
+        metadata:
+          reference: Décret 80-298 du 24/04/1980
+        value: 0.02
+      '1987-07-01':
+        metadata:
+          reference: Décret 87-453 du 29/06/1987
+        value: 0.024
+      '1996-01-01':
+        metadata:
+          reference: Décret 95-1356 du 30/12/1995, art. 1 (V)
+        value: 0.036
+      '1997-01-01':
+        metadata:
+          reference: Décret 96-1167 du 26/12/1996,  art. 5
+        value: 0.038
+      '1998-01-01':
+        metadata:
+          reference: Décret 97-1252 du 29/12/1997, art. 4
+        value: 0.01
+description: Cotisation spéciale assurance maladie sur les avantages retraite

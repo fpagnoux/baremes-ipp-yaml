@@ -1,0 +1,76 @@
+description: Contribution SS additionnelle solidarité autonomie (CASA)
+pensions_retraite_preretraite_invalidite:
+  description: Pensions de retraite, de préretraite et d'invalidité
+  metadata:
+    unit: /1
+  values:
+    '2013-04-01':
+      metadata:
+        reference: Loi 2012-1404 du 03/12/2012 (LFSS pour 2013), art. 17
+      value: 0.003
+    '2015-01-01':
+      metadata:
+        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015), art. 7
+      value: 0.003
+    '2016-04-01':
+      metadata:
+        reference: Loi 2015-1702 du 21/12/2015 (LFSS pour 2016), art. 24
+      value: 0.003
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1827 du 23/12/2016 (LFSS pour 2017), art. 20
+      value: 0.003
+    '2018-01-01':
+      metadata:
+        reference: Circulaire CNAV 2017-34 du 20/10/2017
+      value: 0.003
+seuil_exoneration_irpp_paye_en_n_1:
+  description: Seuil d'exonération (sur l'IRPP payé en N-1)
+  metadata:
+    unit: currency-EUR
+  values:
+    '2013-04-01':
+      metadata:
+        reference: Loi 2012-1404 du 03/12/2012 (LFSS pour 2013), art. 17
+      value: 61.0
+    '2015-01-01':
+      metadata:
+        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015), art. 7
+      value: 61.0
+    '2016-04-01':
+      metadata:
+        reference: Loi 2015-1702 du 21/12/2015 (LFSS pour 2016), art. 24
+      value: 61.0
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1827 du 23/12/2016 (LFSS pour 2017), art. 20
+      value: 61.0
+    '2018-01-01':
+      metadata:
+        reference: Circulaire CNAV 2017-34 du 20/10/2017
+      value: 61.0
+seuil_exoneration_rfr_1_part_qf_en_n_2:
+  description: Seuil d'exonération (RFR pour 1 part de QF en N-2)
+  metadata:
+    unit: currency-EUR
+  values:
+    '2013-04-01':
+      metadata:
+        reference: Loi 2012-1404 du 03/12/2012 (LFSS pour 2013), art. 17
+      value: null
+    '2015-01-01':
+      metadata:
+        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015), art. 7
+      value: 13900.0
+    '2016-04-01':
+      metadata:
+        reference: Loi 2015-1702 du 21/12/2015 (LFSS pour 2016), art. 24
+      value: 13956.0
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1827 du 23/12/2016 (LFSS pour 2017), art. 20
+      value: 14375.0
+    '2018-01-01':
+      metadata:
+        reference: Circulaire CNAV 2017-34 du 20/10/2017
+      value: 14404.0

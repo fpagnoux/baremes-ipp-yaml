@@ -1,0 +1,92 @@
+description: Cotisations pour le Fonds national d'aide au logement (FNAL)
+entreprises_plus_20_salaries:
+  description: Entreprises de plus de 20 salariés
+  dessus_pss:
+    description: Au-dessus du PSS
+    metadata:
+      unit: /1
+    values:
+      '1972-07-01':
+        metadata:
+          reference: Décret 72-526 du 29/06/1972, art. 29
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: Loi 86-1317 du 30/12/1986, art. 82-II et III. (LF pour 1986)
+        value: 0.0013
+      '1989-01-01':
+        metadata:
+          reference: Loi 88-1149 du 23/12/1988, art. 86 (LF pour 1989)
+        value: 0.002
+      '1991-07-01':
+        metadata:
+          reference: Loi 91-716 du 26/07/1991, art. 26
+        value: 0.004
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010, art. 209 (LF pour 2011)
+        value: 0.005
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-1655 du 29/12/2014, art. 29 (LFR pour 2014)
+        value: 0.005
+  sous_pss:
+    description: Sous PSS
+    metadata:
+      unit: /1
+    values:
+      '1972-07-01':
+        metadata:
+          reference: Décret 72-526 du 29/06/1972, art. 29
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: Loi 86-1317 du 30/12/1986, art. 82-II et III. (LF pour 1986)
+        value: 0.0013
+      '1989-01-01':
+        metadata:
+          reference: Loi 88-1149 du 23/12/1988, art. 86 (LF pour 1989)
+        value: 0.002
+      '1991-07-01':
+        metadata:
+          reference: Loi 91-716 du 26/07/1991, art. 26
+        value: 0.004
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010, art. 209 (LF pour 2011)
+        value: 0.004
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-1655 du 29/12/2014, art. 29 (LFR pour 2014)
+        value: 0.005
+tout_employeur:
+  description: Tout employeur
+  sous_pss:
+    description: Sous PSS
+    metadata:
+      unit: /1
+    values:
+      '1972-07-01':
+        metadata:
+          reference: Décret 72-526 du 29/06/1972, art. 29
+        value: 0.001
+      '1986-01-01':
+        metadata:
+          reference: Loi 86-1317 du 30/12/1986, art. 82-II et III. (LF pour 1986)
+        value: 0.001
+      '1989-01-01':
+        metadata:
+          reference: Loi 88-1149 du 23/12/1988, art. 86 (LF pour 1989)
+        value: 0.001
+      '1991-07-01':
+        metadata:
+          reference: Loi 91-716 du 26/07/1991, art. 26
+        value: 0.001
+      '2011-01-01':
+        metadata:
+          reference: Loi 2010-1657 du 29/12/2010, art. 209 (LF pour 2011)
+        value: 0.001
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-1655 du 29/12/2014, art. 29 (LFR pour 2014)
+        value: 0.001

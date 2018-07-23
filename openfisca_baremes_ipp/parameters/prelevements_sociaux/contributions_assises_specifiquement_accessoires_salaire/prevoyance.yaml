@@ -1,0 +1,22 @@
+description: Taxe spéciale sur les contributions patronales de prévoyance (1996-2012)
+taux:
+  description: Taux
+  metadata:
+    unit: /1
+  values:
+    '1996-01-01':
+      metadata:
+        reference: Ordonnance 96-51 du 24/01/96
+      value: 0.06
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1164  de FSS du 19/12/1997
+      value: 0.08
+    '2011-01-01':
+      metadata:
+        reference: Loi 2010-1594 du 20/12/2010, article 17-I
+      value: 0.08
+    '2012-01-01':
+      metadata:
+        reference: Circulaire Acoss du 20/02/2012
+      value: null

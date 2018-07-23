@@ -1,0 +1,163 @@
+description: Allègement de cotisations sociales des lois Aubry II (2000-2003)
+exoneration_annuelle_minimale:
+  description: Exonération annuelle minimale
+  metadata:
+    unit:
+      '2000-02-01': currency-FRF
+      '2001-07-01': currency-EUR
+  values:
+    '2000-02-01':
+      metadata:
+        reference: Décret 2000-73 du 28/01/2000
+      value: 4000.0
+    '2000-07-01':
+      metadata:
+        reference: Décret 2001-107 du 5/02/2001
+      value: 4058.0
+    '2001-07-01':
+      metadata:
+        reference: Décret 2001-1120 du 26/11/2001
+      value: 636.32
+    '2002-07-01':
+      metadata:
+        reference: Arrêté du 20/12/2002
+      value: 647.77
+    '2003-07-01':
+      metadata:
+        reference: Loi 2003-47 du 17/01/2003
+      value: null
+majoration_1:
+  description: Majoration 1
+  metadata:
+    unit:
+      '2000-02-01': currency-FRF
+      '2001-07-01': currency-EUR
+  values:
+    '2000-02-01':
+      metadata:
+        reference: Décret 2000-73 du 28/01/2000
+      value: 1400.0
+    '2000-07-01':
+      metadata:
+        reference: Décret 2001-107 du 5/02/2001
+      value: 1420.0
+    '2001-07-01':
+      metadata:
+        reference: Décret 2001-1120 du 26/11/2001
+      value: 222.58
+    '2002-07-01':
+      metadata:
+        reference: Arrêté du 20/12/2002
+      value: 226.59
+    '2003-07-01':
+      metadata:
+        reference: Loi 2003-47 du 17/01/2003
+      value: null
+marjoration_2:
+  description: Marjoration 2
+  metadata:
+    unit:
+      '2000-02-01': currency-FRF
+      '2001-07-01': currency-EUR
+  values:
+    '2000-02-01':
+      metadata:
+        reference: Décret 2000-73 du 28/01/2000
+      value: 3500.0
+    '2000-07-01':
+      metadata:
+        reference: Décret 2001-107 du 5/02/2001
+      value: 3551.0
+    '2001-07-01':
+      metadata:
+        reference: Décret 2001-1120 du 26/11/2001
+      value: 556.74
+    '2002-07-01':
+      metadata:
+        reference: Arrêté du 20/12/2002
+      value: 566.76
+    '2003-07-01':
+      metadata:
+        reference: Loi 2003-47 du 17/01/2003
+      value: null
+parametre_1:
+  description: Paramètre 1
+  metadata:
+    unit:
+      '2000-02-01': currency-FRF
+      '2001-07-01': currency-EUR
+  values:
+    '2000-02-01':
+      metadata:
+        reference: Décret 2000-73 du 28/01/2000
+      value: 41500.0
+    '2000-07-01':
+      metadata:
+        reference: Décret 2001-107 du 5/02/2001
+      value: 42102.0
+    '2001-07-01':
+      metadata:
+        reference: Décret 2001-1120 du 26/11/2001
+      value: 6601.35
+    '2002-07-01':
+      metadata:
+        reference: Arrêté du 20/12/2002
+      value: 6720.17
+    '2003-07-01':
+      metadata:
+        reference: Loi 2003-47 du 17/01/2003
+      value: null
+parametre_2:
+  description: Paramètre 2
+  metadata:
+    unit:
+      '2000-02-01': currency-FRF
+      '2001-07-01': currency-EUR
+  values:
+    '2000-02-01':
+      metadata:
+        reference: Décret 2000-73 du 28/01/2000
+      value: 6881.68
+    '2000-07-01':
+      metadata:
+        reference: Décret 2001-107 du 5/02/2001
+      value: 6981.46
+    '2001-07-01':
+      metadata:
+        reference: Décret 2001-1120 du 26/11/2001
+      value: 1094.65
+    '2002-07-01':
+      metadata:
+        reference: Arrêté du 20/12/2002
+      value: 1114.35
+    '2003-07-01':
+      metadata:
+        reference: Loi 2003-47 du 17/01/2003
+      value: null
+parametre_3:
+  description: Paramètre 3
+  metadata:
+    unit:
+      '2000-02-01': currency-FRF
+      '2001-07-01': currency-EUR
+  values:
+    '2000-02-01':
+      metadata:
+        reference: Décret 2000-73 du 28/01/2000
+      value: 20000.0
+    '2000-07-01':
+      metadata:
+        reference: Décret 2001-107 du 5/02/2001
+      value: 20290.0
+    '2001-07-01':
+      metadata:
+        reference: Décret 2001-1120 du 26/11/2001
+      value: 3181.31
+    '2002-07-01':
+      metadata:
+        reference: Arrêté du 20/12/2002
+      value: 3238.57
+    '2003-07-01':
+      metadata:
+        reference: Loi 2003-47 du 17/01/2003
+      value: null

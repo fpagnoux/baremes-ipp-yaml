@@ -1,0 +1,271 @@
+description: Cotisation SS prestations familiales, employeurs et travailleurs indépendants
+entre_10_000_frf_1_pss:
+  description: Entre 10 000 FRF et 1 PSS
+  metadata:
+    unit: /1
+  values:
+    '1974-04-01':
+      metadata:
+        reference: Décret 74-313 du 29/03/1974
+      value: 0.09
+    '1982-04-01':
+      metadata:
+        reference: Décret 82-292 du 30/03/1982
+      value: 0.09
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1117 du 27/12/1982
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-48 du 27/01/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-288 du 30/03/1990
+      value: null
+    '1991-02-01':
+      metadata:
+        reference: Décret 91-91 du 23/01/1991
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1164 du 19/12/1997
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013
+      value: null
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art.1
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Décret 2017-1894 du 30/12/2017, art.4
+      value: null
+revenu_professionnel_total:
+  description: Revenu professionnel total
+  metadata:
+    unit: /1
+  values:
+    '1974-04-01':
+      metadata:
+        reference: Décret 74-313 du 29/03/1974
+      value: null
+    '1982-04-01':
+      metadata:
+        reference: Décret 82-292 du 30/03/1982
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1117 du 27/12/1982
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-48 du 27/01/1989
+      value: 0.035
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-288 du 30/03/1990
+      value: 0.049
+    '1991-02-01':
+      metadata:
+        reference: Décret 91-91 du 23/01/1991
+      value: 0.049
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1164 du 19/12/1997
+      value: 0.054
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013
+      value: 0.0525
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art.1
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Décret 2017-1894 du 30/12/2017, art.4
+      value: null
+si_revenu_activite_110_pss:
+  description: Si revenu d'activité < 110 % PSS
+  metadata:
+    unit: /1
+  values:
+    '1974-04-01':
+      metadata:
+        reference: Décret 74-313 du 29/03/1974
+      value: null
+    '1982-04-01':
+      metadata:
+        reference: Décret 82-292 du 30/03/1982
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1117 du 27/12/1982
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-48 du 27/01/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-288 du 30/03/1990
+      value: null
+    '1991-02-01':
+      metadata:
+        reference: Décret 91-91 du 23/01/1991
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1164 du 19/12/1997
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013
+      value: null
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art.1
+      value: 0.0215
+    '2018-01-01':
+      metadata:
+        reference: Décret 2017-1894 du 30/12/2017, art.4
+      value: 0.0
+si_revenu_activite_140_pss:
+  description: Si revenu d'activité > 140 % PSS
+  metadata:
+    unit: /1
+  values:
+    '1974-04-01':
+      metadata:
+        reference: Décret 74-313 du 29/03/1974
+      value: null
+    '1982-04-01':
+      metadata:
+        reference: Décret 82-292 du 30/03/1982
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1117 du 27/12/1982
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-48 du 27/01/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-288 du 30/03/1990
+      value: null
+    '1991-02-01':
+      metadata:
+        reference: Décret 91-91 du 23/01/1991
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1164 du 19/12/1997
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013
+      value: null
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art.1
+      value: 0.0525
+    '2018-01-01':
+      metadata:
+        reference: Décret 2017-1894 du 30/12/2017, art.4
+      value: 0.031
+sous_10_000_frf:
+  description: Sous 10 000 FRF
+  metadata:
+    unit: /1
+  values:
+    '1974-04-01':
+      metadata:
+        reference: Décret 74-313 du 29/03/1974
+      value: 0.0325
+    '1982-04-01':
+      metadata:
+        reference: Décret 82-292 du 30/03/1982
+      value: 0.055
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1117 du 27/12/1982
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-48 du 27/01/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-288 du 30/03/1990
+      value: null
+    '1991-02-01':
+      metadata:
+        reference: Décret 91-91 du 23/01/1991
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1164 du 19/12/1997
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013
+      value: null
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art.1
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Décret 2017-1894 du 30/12/2017, art.4
+      value: null
+sous_pss:
+  description: Sous PSS
+  metadata:
+    unit: /1
+  values:
+    '1974-04-01':
+      metadata:
+        reference: Décret 74-313 du 29/03/1974
+      value: null
+    '1982-04-01':
+      metadata:
+        reference: Décret 82-292 du 30/03/1982
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1117 du 27/12/1982
+      value: 0.09
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-48 du 27/01/1989
+      value: 0.045
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-288 du 30/03/1990
+      value: 0.021
+    '1991-02-01':
+      metadata:
+        reference: Décret 91-91 du 23/01/1991
+      value: 0.005
+    '1998-01-01':
+      metadata:
+        reference: Loi 97-1164 du 19/12/1997
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1290 du 27/12/2013
+      value: null
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1531 du 17/12/2014, art.1
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Décret 2017-1894 du 30/12/2017, art.4
+      value: null

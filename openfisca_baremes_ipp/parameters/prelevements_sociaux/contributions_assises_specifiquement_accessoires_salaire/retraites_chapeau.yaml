@@ -1,0 +1,86 @@
+description: Contribution spéciale sur les contributions versées par l'employeur pour
+  les régimes de retraites supplémentaires à prestations définies
+majoration:
+  description: Majoration
+  metadata:
+    unit: /1
+  values:
+    '2004-01-01':
+      metadata:
+        reference: Loi 2003-775 du 21/08/2003, art. 115
+      value: null
+    '2010-01-01':
+      metadata:
+        reference: Loi 2009-1646 du 24/12/2009 (LFSS pour 2010), art. 15
+      value: 0.3
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-958 du 16/08/2012 (LFR pour 2012), art. 32
+      value: 0.3
+    '2015-11-20':
+      metadata:
+        reference: Décision n° 2015-498 QPC du 20/11/2015
+      value: null
+taux_1:
+  description: Taux 1
+  metadata:
+    unit: /1
+  values:
+    '2004-01-01':
+      metadata:
+        reference: Loi 2003-775 du 21/08/2003, art. 115
+      value: 0.08
+    '2010-01-01':
+      metadata:
+        reference: Loi 2009-1646 du 24/12/2009 (LFSS pour 2010), art. 15
+      value: 0.16
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-958 du 16/08/2012 (LFR pour 2012), art. 32
+      value: 0.32
+    '2015-11-20':
+      metadata:
+        reference: Décision n° 2015-498 QPC du 20/11/2015
+      value: 0.32
+taux_2:
+  description: Taux 2
+  metadata:
+    unit: /1
+  values:
+    '2004-01-01':
+      metadata:
+        reference: Loi 2003-775 du 21/08/2003, art. 115
+      value: 0.06
+    '2010-01-01':
+      metadata:
+        reference: Loi 2009-1646 du 24/12/2009 (LFSS pour 2010), art. 15
+      value: 0.12
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-958 du 16/08/2012 (LFR pour 2012), art. 32
+      value: 0.24
+    '2015-11-20':
+      metadata:
+        reference: Décision n° 2015-498 QPC du 20/11/2015
+      value: 0.24
+taux_3:
+  description: Taux 3
+  metadata:
+    unit: /1
+  values:
+    '2004-01-01':
+      metadata:
+        reference: Loi 2003-775 du 21/08/2003, art. 115
+      value: 0.12
+    '2010-01-01':
+      metadata:
+        reference: Loi 2009-1646 du 24/12/2009 (LFSS pour 2010), art. 15
+      value: 0.24
+    '2013-01-01':
+      metadata:
+        reference: Loi 2012-958 du 16/08/2012 (LFR pour 2012), art. 32
+      value: 0.48
+    '2015-11-20':
+      metadata:
+        reference: Décision n° 2015-498 QPC du 20/11/2015
+      value: 0.48
