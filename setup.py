@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='OpenFisca-Baremes-IPP',
-    version='0.1.0',
+    version='master',
     author='Institut des Politiques Publiques',
     author_email='florian.pagnoux@gmail.com',
     url='https://github.com/fpagnoux/baremes-ipp-yaml',
