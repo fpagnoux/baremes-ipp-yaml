@@ -8,3 +8,5 @@ employeur_sous_plafond:
       metadata:
         reference: Convention AGIRC du 14/03/1947, art. 7.
       value: 0.015
+metadata:
+  rank: 7

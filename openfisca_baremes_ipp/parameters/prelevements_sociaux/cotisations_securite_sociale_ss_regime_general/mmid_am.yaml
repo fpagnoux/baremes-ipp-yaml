@@ -170,6 +170,8 @@ avantages_vieillesses:
       value: 0.015
 description: Cotisations du régime local d'assurance maladie d'Alsace et Moselle MMID-AM
   (1967-2017)
+metadata:
+  rank: 3
 salaries:
   description: Salariés
   sous_plafond:

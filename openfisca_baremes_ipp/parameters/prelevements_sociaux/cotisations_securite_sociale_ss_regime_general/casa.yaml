@@ -1,4 +1,6 @@
 description: Contribution SS additionnelle solidarité autonomie (CASA)
+metadata:
+  rank: 7
 pensions_retraite_preretraite_invalidite:
   description: Pensions de retraite, de préretraite et d'invalidité
   metadata:

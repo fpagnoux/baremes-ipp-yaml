@@ -1,4 +1,6 @@
 description: Plafond de la Sécurité Sociale (1930-2017)
+metadata:
+  rank: 1
 plafond_securite_sociale_annuel:
   description: Plafond de la Sécurité sociale (annuel)
   metadata:

@@ -44,6 +44,8 @@ entre_10_000_frf_1_pss:
       metadata:
         reference: Décret 2017-1894 du 30/12/2017, art.4
       value: null
+metadata:
+  rank: 5
 revenu_professionnel_total:
   description: Revenu professionnel total
   metadata:

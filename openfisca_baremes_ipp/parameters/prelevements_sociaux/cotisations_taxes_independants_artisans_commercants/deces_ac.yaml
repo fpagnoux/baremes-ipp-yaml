@@ -593,3 +593,5 @@ commercants_industriels:
           reference: Décret 2014-775 du 4/07/2014 - art. 2
         value: 0.013
 description: Cotisation SS invalidité-décès, Artisans-Commerçants
+metadata:
+  rank: 3

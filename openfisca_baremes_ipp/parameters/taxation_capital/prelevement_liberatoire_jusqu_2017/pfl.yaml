@@ -1220,6 +1220,8 @@ emis_partir_1_1_1998_avec_anonymat:
         reference: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
           125-0 A, 200 A et art 117 quater du CGI)
       value: null
+metadata:
+  rank: 0
 obligations_titres_participatifs_fonds_salariaux:
   description: Obligations, titres participatifs, fonds salariaux
   metadata:

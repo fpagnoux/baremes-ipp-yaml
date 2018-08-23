@@ -921,3 +921,5 @@ assures_retraites:
         value: null
 description: Cotisation SS branche maladie, maternité, invalidité, décès, Professions
   libérales
+metadata:
+  rank: 0

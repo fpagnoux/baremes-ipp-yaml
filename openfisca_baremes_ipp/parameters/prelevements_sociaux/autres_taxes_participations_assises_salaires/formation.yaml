@@ -838,6 +838,8 @@ employeur_tout_salaire:
         metadata:
           reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.0055
+metadata:
+  rank: 4
 moins_10_salaries:
   contribution_contrats_insertion_en_alternance:
     description: Contribution sur contrats d'insertion en alternance

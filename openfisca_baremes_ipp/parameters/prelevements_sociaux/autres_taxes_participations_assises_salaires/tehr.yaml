@@ -1,5 +1,7 @@
 description: Taxe exceptionnelle de solidarité sur les hautes rémunérations versées
   par les entreprises (TEHR, ou "taxe à 75%")
+metadata:
+  rank: 7
 plafond_en_chiffre_affaire_entreprises:
   description: Plafond (en % du chiffre d'affaire de l'entreprises)
   metadata:

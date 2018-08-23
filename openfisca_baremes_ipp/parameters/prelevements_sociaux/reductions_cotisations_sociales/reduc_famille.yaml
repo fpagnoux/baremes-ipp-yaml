@@ -1,4 +1,6 @@
 description: Réduction du taux de cotisations famille
+metadata:
+  rank: 6
 plafond_en_nombre_smic:
   description: Plafond, en nombre de SMIC
   values:

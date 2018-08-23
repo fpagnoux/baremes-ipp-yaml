@@ -604,6 +604,8 @@ marseille:
       metadata:
         reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 99
       value: 0.02
+metadata:
+  rank: 6
 paris:
   description: Paris
   metadata:

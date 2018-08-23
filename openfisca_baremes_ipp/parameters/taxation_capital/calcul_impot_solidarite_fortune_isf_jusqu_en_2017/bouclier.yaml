@@ -1,4 +1,6 @@
 description: Bouclier fiscal (2005-2010)
+metadata:
+  rank: 5
 taux_bouclier_fiscal:
   description: Taux bouclier fiscal
   metadata:

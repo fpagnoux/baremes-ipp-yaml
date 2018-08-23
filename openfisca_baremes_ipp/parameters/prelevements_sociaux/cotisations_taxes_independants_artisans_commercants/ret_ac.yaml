@@ -151,6 +151,8 @@ industriels_commercants:
         metadata:
           reference: Décret 2015-1856 du 30/12/2015, art. 7
         value: 0.1715
+metadata:
+  rank: 1
 tous_independants:
   description: Tous indépendants
   tout_salaire:

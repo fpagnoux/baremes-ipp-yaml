@@ -1,4 +1,6 @@
 description: Cotisations pour la structure financière ASF (1984-2001)
+metadata:
+  rank: 2
 tranche:
   description: Tranche A
   employeur:

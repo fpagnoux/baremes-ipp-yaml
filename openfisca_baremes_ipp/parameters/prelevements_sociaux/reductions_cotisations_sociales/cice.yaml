@@ -1,4 +1,6 @@
 description: Crédit d'impot sur la compétitivité et l'emploi (CICE)
+metadata:
+  rank: 5
 plafond_smic:
   description: Plafond ( / SMIC)
   values:

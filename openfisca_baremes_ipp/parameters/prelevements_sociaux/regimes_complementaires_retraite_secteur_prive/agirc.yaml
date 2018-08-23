@@ -1,4 +1,6 @@
 description: Cotisations retraites des cadres (AGIRC)
+metadata:
+  rank: 1
 taux_appel:
   description: Taux d'appel
   metadata:

@@ -1,4 +1,6 @@
 description: Cotisations SS branche famille
+metadata:
+  rank: 8
 sous_pss:
   description: Sous PSS
   employeurs:

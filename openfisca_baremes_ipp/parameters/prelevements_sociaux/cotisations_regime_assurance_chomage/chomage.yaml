@@ -296,6 +296,8 @@ employeurs:
         metadata:
           reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018)
         value: 0.0405
+metadata:
+  rank: 0
 salaries:
   description: Salariés
   tranche:

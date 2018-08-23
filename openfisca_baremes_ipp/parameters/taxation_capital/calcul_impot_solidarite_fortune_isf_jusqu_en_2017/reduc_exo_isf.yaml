@@ -33,6 +33,8 @@ abattement_residence_principale:
           885 S du CGI)
       value: null
 description: Réductions et abattements de l'ISF
+metadata:
+  rank: 4
 reduction_isf_enfant_charge:
   description: Réduction ISF enfant à charge
   metadata:

@@ -193,6 +193,8 @@ allocations_chomage:
             du 30/12/2017, art. 67 (LF pour 2018)
         value: 0.062
 description: Contribution sociale généralisée (CSG) sur les revenus d'activité
+metadata:
+  rank: 0
 revenus_activite:
   description: Revenus d'activité
   taux_csg_deductible:

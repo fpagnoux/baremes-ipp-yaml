@@ -1,4 +1,6 @@
 description: Cotisations retraite exceptionnelle et temporaire (CET)
+metadata:
+  rank: 6
 salaire_sous_8_pss:
   description: Salaire sous 8 PSS
   employeur:

@@ -80,6 +80,8 @@ marjoration_2:
       metadata:
         reference: Loi 2003-47 du 17/01/2003
       value: null
+metadata:
+  rank: 3
 parametre_1:
   description: Paramètre 1
   metadata:

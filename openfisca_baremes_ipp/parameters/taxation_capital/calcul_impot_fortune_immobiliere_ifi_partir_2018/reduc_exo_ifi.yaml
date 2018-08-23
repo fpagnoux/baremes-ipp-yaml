@@ -9,3 +9,5 @@ abattement_residence_principale:
           973 du CGI)
       value: 0.3
 description: Réductions et abattements de l'IFI
+metadata:
+  rank: 4

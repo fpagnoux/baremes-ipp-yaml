@@ -1,4 +1,6 @@
 description: Plafonnement de l'IFI
+metadata:
+  rank: 2
 plafonnement_taux_imposition_isf:
   description: Plafonnement taux d'imposition ISF
   metadata:

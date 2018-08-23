@@ -187,6 +187,8 @@ indice_majore_reference:
       metadata:
         reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: null
+metadata:
+  rank: 8
 seuil_assujettissement:
   description: Seuil d'assujettissement
   metadata:

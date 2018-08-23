@@ -1424,3 +1424,5 @@ assures_retraites:
           reference: Décret 2017-1894 du 30/12/2017, art.5
         value: null
 description: Cotisation SS branche maladie, maternité, invalidité, décès, Artisans-Commerçants
+metadata:
+  rank: 0

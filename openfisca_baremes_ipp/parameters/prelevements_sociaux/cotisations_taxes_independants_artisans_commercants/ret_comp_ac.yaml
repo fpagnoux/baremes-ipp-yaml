@@ -469,3 +469,5 @@ industriels_commercants:
       '2016-01-01':
         metadata: {}
         value: null
+metadata:
+  rank: 2

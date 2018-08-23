@@ -1,4 +1,6 @@
 description: Contribution patronale au financement des organisations syndicales
+metadata:
+  rank: 8
 taux:
   description: Taux
   metadata:

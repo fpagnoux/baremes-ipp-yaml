@@ -1,4 +1,6 @@
 description: Plafonnement de l'ISF
+metadata:
+  rank: 2
 plafonnement_plafonnement:
   description: Plafonnement du plafonnement
   metadata:

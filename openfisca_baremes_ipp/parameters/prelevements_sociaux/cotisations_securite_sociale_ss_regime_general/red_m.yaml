@@ -798,3 +798,5 @@ assurances_sociales:
             reference: Arrêté du 15/01/1974
           value: null
 description: Cotisations SS des professions médicales à temps partiel (1961-1974)
+metadata:
+  rank: 13

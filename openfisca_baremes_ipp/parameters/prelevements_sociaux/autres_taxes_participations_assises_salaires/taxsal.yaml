@@ -332,6 +332,8 @@ majoration_3:
       metadata:
         reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
       value: null
+metadata:
+  rank: 1
 plafond1:
   description: Plafond1
   metadata:

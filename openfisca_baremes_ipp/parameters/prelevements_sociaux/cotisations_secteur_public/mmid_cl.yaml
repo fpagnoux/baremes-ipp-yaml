@@ -242,3 +242,5 @@ fp_hospitaliers_collectivites_locales:
           metadata:
             reference: Décret 2017-1890 du 30/12/2017, art. 1
           value: 0.0988
+metadata:
+  rank: 2

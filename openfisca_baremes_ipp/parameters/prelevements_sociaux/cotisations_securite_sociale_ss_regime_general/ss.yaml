@@ -1,4 +1,6 @@
 description: Cotisations SS (1930-1966)
+metadata:
+  rank: 0
 salaire_sous_pss:
   cotisation_ouvriere:
     description: Cotisation ouvrière

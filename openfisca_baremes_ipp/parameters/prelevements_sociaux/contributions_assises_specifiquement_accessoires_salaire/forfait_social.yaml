@@ -1,4 +1,6 @@
 description: Forfait social
+metadata:
+  rank: 1
 taux_plein:
   description: Taux plein
   metadata:

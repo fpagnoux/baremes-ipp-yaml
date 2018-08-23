@@ -1,4 +1,6 @@
 description: Cotisations SS branche maladie, maternité, invalidité, décès MMID (1967-2017)
+metadata:
+  rank: 1
 salaire_sous_plafond:
   description: Salaire sous plafond
   employeurs:

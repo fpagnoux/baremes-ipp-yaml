@@ -139,3 +139,5 @@ assurance_vieillesse:
           reference: Décret 2014-1413 du 27/11/2014
         value: null
 description: Cotisation SS branche vieillesse, Professions libérales
+metadata:
+  rank: 1

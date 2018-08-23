@@ -33,6 +33,8 @@ cotisation_speciale_assurance_maladie:
         metadata: {}
         value: null
 description: Cotisations SS sur les allocations chômage
+metadata:
+  rank: 15
 participation_retraite_complementaire:
   assiette_sjr:
     affiliation_3_6_mois:

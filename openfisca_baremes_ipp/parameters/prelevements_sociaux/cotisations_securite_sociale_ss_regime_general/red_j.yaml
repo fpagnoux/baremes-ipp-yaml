@@ -810,3 +810,5 @@ assurances_sociales_avant_1967:
             reference: Arrêté du 15/01/1974
           value: null
 description: Cotisations SS des journalistes pigistes (1964-1974)
+metadata:
+  rank: 14

@@ -1122,6 +1122,8 @@ medecins:
           metadata:
             reference: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
           value: 0.032
+metadata:
+  rank: 2
 notaires:
   description: Notaires
   moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france:

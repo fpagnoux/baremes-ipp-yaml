@@ -1,4 +1,6 @@
 description: Barème de l'IFI
+metadata:
+  rank: 0
 seuils_tranches_bareme_ifi:
   1ere_tranche:
     description: 1ère tranche

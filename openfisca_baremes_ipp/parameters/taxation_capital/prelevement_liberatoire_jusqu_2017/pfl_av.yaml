@@ -387,3 +387,5 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
               A, 125-0 A, 200 A et art 117 quater du CGI)
           value: null
 description: Prélèvement libératoire sur les assurances vie
+metadata:
+  rank: 1

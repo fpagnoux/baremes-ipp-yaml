@@ -1,4 +1,6 @@
 description: Cotisations SS assurance veuvage (1981-2004)
+metadata:
+  rank: 5
 salaries:
   description: Salariés
   sous_plafond:

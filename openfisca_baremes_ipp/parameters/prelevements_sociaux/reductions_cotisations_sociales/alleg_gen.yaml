@@ -93,6 +93,8 @@ dispositifs_reductions_cotisations_famille_1993_1996:
           reference: Loi 2003-47 du 17/01/2003
         value: null
   description: Dispositifs de réductions des cotisations famille (1993-1996)
+metadata:
+  rank: 0
 ristournes_juppe_i_ii_iii_1995_2003:
   description: Ristournes Juppé (I, II et III) (1995-2003)
   plafond_en_nombre_smic:

@@ -1,4 +1,6 @@
 description: Barème de l'ISF
+metadata:
+  rank: 0
 seuils_tranches_bareme_isf:
   1ere_tranche:
     description: 1ère tranche

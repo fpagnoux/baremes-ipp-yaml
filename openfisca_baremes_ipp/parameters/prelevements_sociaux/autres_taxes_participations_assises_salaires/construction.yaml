@@ -75,3 +75,5 @@ employeur_tout_salaire:
         metadata:
           reference: Ordonnance 2005-895 du 02/08/2005
         value: 0.0045
+metadata:
+  rank: 2

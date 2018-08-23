@@ -292,6 +292,8 @@ contribution_sociale_permanente_cnaf:
         reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: null
 description: Autres prélèvements sociaux sur les revenus financiers
+metadata:
+  rank: 1
 prelevement_social_exceptionnel_cnav:
   description: Prélèvement social exceptionnel (CNAV)
   metadata:

@@ -83,3 +83,5 @@ employeur_tout_salaire:
       metadata:
         reference: Arrêté du 30/12/2017
       value: 0.009
+metadata:
+  rank: 9

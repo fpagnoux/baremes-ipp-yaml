@@ -1,4 +1,6 @@
 description: Cotisations du régime de la SNCF
+metadata:
+  rank: 9
 regime_prevoyance:
   description: Régime prévoyance
   employeurs:

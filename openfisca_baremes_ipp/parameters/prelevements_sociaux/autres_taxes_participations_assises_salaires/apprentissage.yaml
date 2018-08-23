@@ -404,3 +404,5 @@ entreprises_250_salaries_plus:
           reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013), art. 60
         value: null
   description: Entreprises de 250 salariés et plus
+metadata:
+  rank: 5

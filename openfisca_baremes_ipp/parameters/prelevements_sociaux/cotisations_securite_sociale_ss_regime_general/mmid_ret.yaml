@@ -51,3 +51,5 @@ avantages_retraite:
           reference: Décret 97-1252 du 29/12/1997, art. 4
         value: 0.01
 description: Cotisation spéciale assurance maladie sur les avantages retraite
+metadata:
+  rank: 2

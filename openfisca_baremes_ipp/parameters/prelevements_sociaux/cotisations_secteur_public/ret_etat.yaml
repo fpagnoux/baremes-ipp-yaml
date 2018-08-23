@@ -1,4 +1,6 @@
 description: Cotisations retraites de l'Etat-employeur
+metadata:
+  rank: 4
 taux_employeur_explicite:
   ati:
     description: ATI

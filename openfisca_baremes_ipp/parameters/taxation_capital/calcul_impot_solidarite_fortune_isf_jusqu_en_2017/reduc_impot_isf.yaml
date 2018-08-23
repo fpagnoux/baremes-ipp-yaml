@@ -1,4 +1,6 @@
 description: Réductions pour dons ou investissement
+metadata:
+  rank: 3
 plafond_somme_reduction_pme_fcip_fip_pme:
   description: Plafond pour la somme de la réduction pour PME et pour les FCIP et
     FIP des PME

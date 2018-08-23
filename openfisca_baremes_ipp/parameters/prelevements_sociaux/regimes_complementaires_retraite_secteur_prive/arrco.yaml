@@ -1,4 +1,6 @@
 description: Cotisations retraites des non-cadres (ARRCO)
+metadata:
+  rank: 0
 taux_appel:
   description: Taux d'appel
   metadata:

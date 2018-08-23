@@ -21,6 +21,8 @@ majoration:
       metadata:
         reference: Décision n° 2015-498 QPC du 20/11/2015
       value: null
+metadata:
+  rank: 2
 taux_1:
   description: Taux 1
   metadata:

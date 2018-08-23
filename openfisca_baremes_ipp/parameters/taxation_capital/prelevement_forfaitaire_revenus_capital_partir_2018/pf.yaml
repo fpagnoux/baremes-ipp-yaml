@@ -1,4 +1,6 @@
 description: Prélèvements sur revenus du capital
+metadata:
+  rank: 0
 paiement_produits_dans_etat_non_cooperatif_3:
   description: Paiement de produits dans un Etat "non-coopératif" (3)
   metadata:

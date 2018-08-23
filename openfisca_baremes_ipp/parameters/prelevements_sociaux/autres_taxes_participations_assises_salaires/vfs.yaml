@@ -33,6 +33,8 @@ majoration2:
       metadata:
         reference: Loi 68-878 du 09/10/1968
       value: null
+metadata:
+  rank: 0
 plafond1:
   description: Plafond1
   metadata:

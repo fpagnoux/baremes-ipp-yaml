@@ -1,4 +1,6 @@
 description: Cotisations SS branche assurance vieillesse (1967-2017)
+metadata:
+  rank: 4
 remise_forfaitaire_mensuelle_cotisation_salariale:
   description: Remise forfaitaire mensuelle (sur cotisation salariale)
   metadata:

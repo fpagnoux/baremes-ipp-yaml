@@ -1,4 +1,6 @@
 description: Cotisations pour la structure financière AGFF (2001-2017)
+metadata:
+  rank: 2
 tranche_1:
   description: Tranche 1 - A
   employeur:

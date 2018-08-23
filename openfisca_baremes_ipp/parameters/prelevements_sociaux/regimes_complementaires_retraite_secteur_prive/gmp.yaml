@@ -509,6 +509,8 @@ cotisation_forfaitaire_mensuelle_en_euros:
           reference: Circulaire 2017-07-DT du 16/10/2017
         value: 27.6
 description: Cotisations pour la Garantie Minimale de Points (GMP) - cadres
+metadata:
+  rank: 3
 salaire_charniere_annuel:
   description: Salaire charnière annuel
   metadata:

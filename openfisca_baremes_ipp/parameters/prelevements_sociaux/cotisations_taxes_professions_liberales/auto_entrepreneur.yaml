@@ -204,6 +204,8 @@ formation_professionnelle_micro_entrepreneur:
         metadata:
           reference: Décret 2017-1894 du 30/12/2017, art. 1
         value: 0.002
+metadata:
+  rank: 4
 prestations_service:
   chiffre_affaires:
     description: Chiffre d'affaires

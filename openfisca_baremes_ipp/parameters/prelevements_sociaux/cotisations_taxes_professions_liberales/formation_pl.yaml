@@ -14,3 +14,5 @@ formation_professionnelle:
         metadata:
           reference: Loi 2012-958 du 16/08/2012, art. 38
         value: 0.0025
+metadata:
+  rank: 3

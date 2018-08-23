@@ -1,4 +1,6 @@
 description: Cotisations pour l'Association pour l'emploi des cadres (APEC)
+metadata:
+  rank: 4
 sous_4_pss:
   description: Sous 4 PSS
   employeur:

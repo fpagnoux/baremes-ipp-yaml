@@ -1,4 +1,6 @@
 description: Taxe spéciale sur les contributions patronales de prévoyance (1996-2012)
+metadata:
+  rank: 0
 taux:
   description: Taux
   metadata:

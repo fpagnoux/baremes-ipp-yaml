@@ -19,6 +19,8 @@ borne_superieure_decote:
           977 du CGI)
       value: 1400000.0
 description: Calcul de la décote
+metadata:
+  rank: 1
 parametre_calcul_decote_isf:
   description: Paramètre de calcul de la décote ISF
   metadata:

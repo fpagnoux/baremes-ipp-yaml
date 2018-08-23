@@ -246,3 +246,5 @@ forfait_annuel:
         metadata:
           reference: Circulaire AGIRC 2010-5-DF du 29/07/2010
         value: null
+metadata:
+  rank: 5

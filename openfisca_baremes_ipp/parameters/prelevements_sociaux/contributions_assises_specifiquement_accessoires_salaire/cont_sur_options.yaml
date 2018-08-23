@@ -121,6 +121,8 @@ employeur:
         metadata:
           reference: Loi 2017-1836 du 30/12/2017 (LF pour 2018), art. 11
         value: 0.3
+metadata:
+  rank: 3
 salarie:
   description: Salarié
   taux_plein:
