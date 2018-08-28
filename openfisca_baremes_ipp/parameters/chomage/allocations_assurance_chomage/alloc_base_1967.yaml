@@ -1,0 +1,125 @@
+description: Allocation de base d'assurance chômage (1958-1967)
+metadata:
+  rank: 2
+montant_minimum:
+  description: Montant minimum
+  paris:
+    description: Paris
+    metadata:
+      unit: currency-FRF
+    values:
+      '1958-12-31':
+        metadata:
+          reference: Circulaire Unedic 60-19 - décision du 28/03/1960
+        value: 380.0
+      '1960-03-01':
+        metadata:
+          reference: Circulaire Unedic 60-48 - décision du 13/10/1960
+        value: 4.1
+      '1960-09-26':
+        metadata:
+          reference: Circulaire Unedic 62-23 - décision du 26/06/1962
+        value: 4.2
+      '1962-06-18':
+        metadata:
+          reference: Circulaire Unedic 63-41 - décision du 28/11/1963
+        value: 4.8
+      '1963-09-23':
+        metadata:
+          reference: Circulaire Unedic 64-26 - décision du 26/11/1964
+        value: 5.4
+      '1964-11-02':
+        metadata:
+          reference: Circulaire Unedic 65-50 - décision du 25/11/1965
+        value: 5.8
+      '1965-12-27':
+        metadata:
+          reference: Circulaire Unedic 66-41 - décision du 24/11/1966
+        value: 6.2
+      '1967-01-09':
+        metadata:
+          reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
+        value: 6.6
+      '1968-01-01':
+        metadata: {}
+        value: null
+  villes_moins_5000_hab:
+    description: Villes de moins de 5000 hab
+    metadata:
+      unit: currency-FRF
+    values:
+      '1958-12-31':
+        metadata:
+          reference: Circulaire Unedic 60-19 - décision du 28/03/1960
+        value: 350.0
+      '1960-03-01':
+        metadata:
+          reference: Circulaire Unedic 60-48 - décision du 13/10/1960
+        value: 3.8
+      '1960-09-26':
+        metadata:
+          reference: Circulaire Unedic 62-23 - décision du 26/06/1962
+        value: 3.85
+      '1962-06-18':
+        metadata:
+          reference: Circulaire Unedic 63-41 - décision du 28/11/1963
+        value: 4.4
+      '1963-09-23':
+        metadata:
+          reference: Circulaire Unedic 64-26 - décision du 26/11/1964
+        value: 5.0
+      '1964-11-02':
+        metadata:
+          reference: Circulaire Unedic 65-50 - décision du 25/11/1965
+        value: 5.6
+      '1965-12-27':
+        metadata:
+          reference: Circulaire Unedic 66-41 - décision du 24/11/1966
+        value: 6.0
+      '1967-01-09':
+        metadata:
+          reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
+        value: 6.4
+      '1968-01-01':
+        metadata: {}
+        value: null
+  villes_plus_5000_hab:
+    description: Villes de plus de 5000 hab
+    metadata:
+      unit: currency-FRF
+    values:
+      '1958-12-31':
+        metadata:
+          reference: Circulaire Unedic 60-19 - décision du 28/03/1960
+        value: 370.0
+      '1960-03-01':
+        metadata:
+          reference: Circulaire Unedic 60-48 - décision du 13/10/1960
+        value: 4.0
+      '1960-09-26':
+        metadata:
+          reference: Circulaire Unedic 62-23 - décision du 26/06/1962
+        value: 4.1
+      '1962-06-18':
+        metadata:
+          reference: Circulaire Unedic 63-41 - décision du 28/11/1963
+        value: 4.7
+      '1963-09-23':
+        metadata:
+          reference: Circulaire Unedic 64-26 - décision du 26/11/1964
+        value: 5.3
+      '1964-11-02':
+        metadata:
+          reference: Circulaire Unedic 65-50 - décision du 25/11/1965
+        value: 5.6
+      '1965-12-27':
+        metadata:
+          reference: Circulaire Unedic 66-41 - décision du 24/11/1966
+        value: 6.0
+      '1967-01-09':
+        metadata:
+          reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
+        value: 6.4
+      '1968-01-01':
+        metadata: {}
+        value: null

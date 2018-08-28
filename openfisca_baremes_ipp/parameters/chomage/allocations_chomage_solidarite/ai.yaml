@@ -1,0 +1,686 @@
+16_25_ans_recherche_premier_emploi_justifiant_une_certaine_activite_professionnelle:
+  description: 16-25 ans à la recherche d'un premier emploi ou justifiant d'une certaine
+    activité professionnelle
+  metadata:
+    unit: currency-FRF
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: null
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: null
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: null
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: 33.88
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: 40.0
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: 41.4
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: 41.4
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: 41.4
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: null
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+categorie_1:
+  description: Catégorie 1
+  metadata:
+    unit: currency-FRF
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: 40.0
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: 43.0
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: 46.0
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: 60.46
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: null
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: null
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: null
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: null
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: null
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+categorie_2:
+  description: Catégorie 2
+  metadata:
+    unit: currency-FRF
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: 20.0
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: 22.0
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: 23.5
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: 30.23
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: null
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: null
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: null
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: null
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: null
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+categorie_3:
+  description: Catégorie 3
+  metadata:
+    unit: currency-FRF
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: 20.0
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: 22.0
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: 23.5
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: 30.23
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: null
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: null
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: null
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: null
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: null
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+categorie_4:
+  description: Catégorie 4
+  metadata:
+    unit: currency-FRF
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: 30.0
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: 32.0
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: 34.5
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: 45.34
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: null
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: null
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: null
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: null
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: null
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+categorie_5_devenant_categories_diverses_apres_1984:
+  description: Catégorie 5 devenant Catégories diverses après 1984
+  metadata:
+    unit:
+      '1979-07-01': currency-FRF
+      '2002-01-01': currency-EUR
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: 20.0
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: 22.0
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: 23.5
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: 30.23
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: 45.0
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: 40.0
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: 41.4
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: 43.0
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: 43.7
+    '1986-07-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: 44.4
+    '1992-01-01':
+      metadata: {}
+      value: 43.7
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: 56.37
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: 58.06
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: 59.22
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: 60.52
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: 9.41
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: 9.55
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: 9.69
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: 9.86
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: 10.04
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+categorie_6:
+  description: Catégorie 6
+  metadata:
+    unit: currency-FRF
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: 40.0
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: 43.0
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: 46.0
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: 60.46
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: 67.57
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: 80.0
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: 82.4
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: 86.0
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: 87.4
+    '1986-07-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: 88.8
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: null
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+categorie_7:
+  description: Catégorie 7
+  metadata:
+    unit: currency-FRF
+  values:
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 02/05/1979 portant agrément de la convention du 27/03/1979
+      value: 40.0
+    '1979-10-01':
+      metadata:
+        reference: Circulaire Unédic 79-36 de septembre 1979
+      value: 43.0
+    '1980-04-01':
+      metadata:
+        reference: Conseil d'administration de l'Unédic du 27/03/1980
+      value: 46.0
+    '1981-10-01':
+      metadata:
+        reference: Circulaire Unédic 80-40 du 23/09/1980
+      value: 60.46
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-991 du 24/11/1982
+      value: null
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-417 du 30/05/1984
+      value: null
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-1180 du 26/12/1984
+      value: null
+    '1985-04-01':
+      metadata:
+        reference: Décret 85-600 du 10/06/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-110 du 24/01/1986
+      value: null
+    '1992-01-01':
+      metadata: {}
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-151 du 10/03/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1180 du 23/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1044 du 14/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2000-1260 du 26/12/2000
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1354 du 28/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1615 du 31/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1374 du 31/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1537 du 30/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1700 du 29/12/2005
+      value: null
+    '2006-11-16':
+      metadata:
+        reference: Loi 2005-1719, art. 154, du 30/12/2005
+      value: null
+description: Allocation d'insertion (AI)
+metadata:
+  rank: 1

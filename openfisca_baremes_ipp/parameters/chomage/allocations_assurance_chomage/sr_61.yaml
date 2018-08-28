@@ -1,0 +1,81 @@
+description: Revalorisation du salaire de références des chômeurs de plus de 61 ans
+  (1965-1973)
+metadata:
+  rank: 5
+taux:
+  description: Taux
+  metadata:
+    unit: /1
+  values:
+    '1965-01-11':
+      metadata:
+        reference: Circulaire 64-30 - décision du 26/11/1964
+      value: 0.075
+    '1965-03-08':
+      metadata:
+        reference: Circulaire 65-18 - décision du 25/03/1965
+      value: 0.02
+    '1965-09-06':
+      metadata:
+        reference: Circulaire 65-46 - décision du 25/11/1965
+      value: 0.02
+    '1966-03-07':
+      metadata:
+        reference: Circulaire 66-12 - décision du 24/02/1966
+      value: 0.02
+    '1967-01-09':
+      metadata:
+        reference: Circulaire 66-40 - décision du 24/11/1966
+      value: 0.04
+    '1967-07-10':
+      metadata:
+        reference: Circulaire 67-15 - décision du 19/07/1967
+      value: 0.025
+    '1968-02-08':
+      metadata:
+        reference: Circulaire 67-53 - décision du 19/12/1967
+      value: 0.045
+    '1969-01-06':
+      metadata:
+        reference: Circulaire 68-60 - décision du 12/12/1968
+      value: 0.07
+    '1969-07-08':
+      metadata:
+        reference: Circulaire 68-35 - décision du 25/06/1968
+      value: 0.07
+    '1970-01-05':
+      metadata:
+        reference: Circulaire 69-37 - décision du 04/12/1969
+      value: 0.08
+    '1970-07-06':
+      metadata:
+        reference: Circulaire 70-27 - décision du 25/06/1970
+      value: 0.04
+    '1971-01-04':
+      metadata:
+        reference: Circulaire 70-39 - décision du 04/12/1970
+      value: 0.05
+    '1971-08-02':
+      metadata:
+        reference: Circulaire 71-13 - décision du 29/07/1971
+      value: 0.06
+    '1972-01-03':
+      metadata:
+        reference: Circulaire 71-20 - décision du 24/11/1971
+      value: 0.03
+    '1972-07-03':
+      metadata:
+        reference: Circulaire 72-19 - décision du 20/06/1972
+      value: 0.06
+    '1973-01-01':
+      metadata:
+        reference: Circulaire 72-35 - décision du 28/11/1972
+      value: 0.06
+    '1973-07-02':
+      metadata:
+        reference: Circulaire 73-16 - décision du 28/06/1973
+      value: 0.06
+    '1973-12-31':
+      metadata:
+        reference: Circulaire 73-30 - décision du 04/12/1973
+      value: 0.08

@@ -1,0 +1,172 @@
+description: Revalorisation du salaire de référence pour le calcul FNE
+metadata:
+  rank: 4
+revalorisation_sr:
+  description: Revalorisation SR
+  metadata:
+    unit: /1
+  values:
+    '1981-10-01':
+      metadata:
+        reference: Arrêté du 08/02/1982
+      value: 0.0743
+    '1982-04-01':
+      metadata:
+        reference: Arrêté du 26/08/1982
+      value: 0.0831
+    '1983-04-01':
+      metadata:
+        reference: Arrêté du 01/07/1983
+      value: 0.04
+    '1983-10-01':
+      metadata:
+        reference: Arrêté du 27/12/1983
+      value: 0.04
+    '1984-04-01':
+      metadata:
+        reference: Décret 84-495 du 25/06/1984
+      value: 0.018
+    '1984-10-01':
+      metadata:
+        reference: Décret 84-523 du 28/06/1984
+      value: 0.022
+    '1985-01-01':
+      metadata:
+        reference: Arrêté du 12/03/1985
+      value: 0.028
+    '1986-01-01':
+      metadata:
+        reference: Arrêté du 15/01/1986
+      value: 0.013
+    '1986-07-01':
+      metadata:
+        reference: Décret 86-791 du 30/06/1986
+      value: 0.0
+    '1986-10-01':
+      metadata:
+        reference: Arrêté du 01/12/1986
+      value: 0.005
+    '1987-01-01':
+      metadata:
+        reference: Loi du 27/01/1987
+      value: 0.018
+    '1987-07-01':
+      metadata:
+        reference: Loi du 27/01/1987
+      value: 0.01
+    '1988-01-01':
+      metadata:
+        reference: Loi du 05/01/1988
+      value: 0.026
+    '1988-07-01':
+      metadata:
+        reference: Loi du 05/01/1988
+      value: 0.013
+    '1989-01-01':
+      metadata:
+        reference: Loi du 13/01/1989
+      value: 0.013
+    '1989-07-01':
+      metadata:
+        reference: Loi du 13/01/1989
+      value: 0.012
+    '1990-01-01':
+      metadata:
+        reference: Loi du 23/01/1990
+      value: 0.0215
+    '1990-07-01':
+      metadata:
+        reference: Loi du 23/01/1990
+      value: 0.013
+    '1991-01-01':
+      metadata:
+        reference: Loi du 18/01/1991
+      value: 0.017
+    '1991-07-01':
+      metadata:
+        reference: Loi du 31/07/1991
+      value: 0.008
+    '1992-01-01':
+      metadata:
+        reference: Loi du 31/12/1991
+      value: 0.01
+    '1992-07-01':
+      metadata:
+        reference: Loi du 31/12/1991
+      value: 0.018
+    '1993-01-01':
+      metadata:
+        reference: Arrêté du 22/01/1993
+      value: 0.013
+    '1994-01-01':
+      metadata:
+        reference: Arrêté du 24/01/1994
+      value: 0.02
+    '1995-01-01':
+      metadata:
+        reference: Arrêté du 27/01/1995
+      value: 0.012
+    '1995-07-01':
+      metadata:
+        reference: Arrêté du 31/07/1995
+      value: 0.005
+    '1996-01-01':
+      metadata:
+        reference: Arrêté du 30/01/1996
+      value: 0.02
+    '1997-01-01':
+      metadata:
+        reference: Arrêté du 30/12/1996
+      value: 0.012
+    '1998-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1997
+      value: 0.011
+    '1999-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1998
+      value: 0.012
+    '2000-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1999
+      value: 0.005
+    '2001-01-01':
+      metadata:
+        reference: Arrêté du 26/12/2000
+      value: 0.022
+    '2002-01-01':
+      metadata:
+        reference: Arrêté du 25/12/2002
+      value: 0.022
+    '2003-01-01':
+      metadata:
+        reference: Arrêté du 31/12/2002
+      value: 0.015
+    '2004-01-01':
+      metadata:
+        reference: Arrêté du 23/12/2003
+      value: 0.017
+    '2005-01-01':
+      metadata:
+        reference: Arrêté du 16/12/2004
+      value: 0.02
+    '2006-01-01':
+      metadata:
+        reference: Arrêté du 23/12/2005
+      value: 0.018
+    '2007-07-01':
+      metadata:
+        reference: Circulaire 2007-09 du 26/06/2007 - décision du 21/06/2007
+      value: 0.0195
+    '2008-07-01':
+      metadata:
+        reference: Circulaire 2008-04 du 01/07/2008 - décision du 24/06/2008
+      value: 0.025
+    '2009-07-01':
+      metadata:
+        reference: Circulaire 2009-16 du 09/07/2009 -décision du 26/06/2009
+      value: 0.01
+    '2010-07-01':
+      metadata:
+        reference: Circulaire 2010-10 - décision du 29/06/2010
+      value: 0.012

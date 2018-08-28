@@ -1,0 +1,799 @@
+coefficient_degressivite:
+  description: Coefficient de degressivité
+  duree_affiliation_14_mois_cours_24_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 0.85
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 0.85
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 0.85
+    description: durée d'affiliation de 14 mois au cours des 24 derniers mois
+    entre_25_50_ans:
+      description: entre 25 et 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 0.83
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 0.83
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 0.83
+    moins_25_ans:
+      description: moins de 25 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 0.83
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 0.83
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 0.83
+  duree_affiliation_27_mois_cours_36_derniers_mois:
+    50_55_ans:
+      description: 50-55 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 0.85
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 0.85
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 0.85
+    55_ans_plus:
+      description: 55 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 0.92
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 0.92
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 0.92
+    description: durée d'affiliation de 27 mois au cours des 36 derniers mois
+  duree_affiliation_4_mois_cours_8_derniers_mois:
+    description: durée d'affiliation de 4 mois au cours des 8 derniers mois
+    values:
+      '1993-01-01':
+        metadata:
+          reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+            à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
+            annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la
+            convention du 01/01/1993
+        value: 0.75
+      '1993-08-01':
+        metadata:
+          reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+            convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+            n° 3 au règlement annexé à cette convention
+        value: 0.75
+      '1997-01-01':
+        metadata:
+          reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+        value: 1.0
+  duree_affiliation_6_mois_cours_12_derniers_mois:
+    description: durée d'affiliation de 6 mois au cours des 12 derniers mois
+    values:
+      '1993-01-01':
+        metadata:
+          reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+            à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
+            annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la
+            convention du 01/01/1993
+        value: 0.85
+      '1993-08-01':
+        metadata:
+          reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+            convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+            n° 3 au règlement annexé à cette convention
+        value: 0.85
+      '1997-01-01':
+        metadata:
+          reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+        value: 0.85
+  duree_affiliation_8_mois_cours_12_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 0.85
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 0.85
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 0.85
+    description: durée d'affiliation de 8 mois au cours des 12 derniers mois
+    moins_50_ans:
+      description: moins de 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 0.83
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 0.83
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 0.83
+description: 'Allocation unique dégressive: profil temporel'
+duree_indemnisation_taux_degressif_en_mois:
+  description: Durée d'indemnisation au taux dégressif (en mois)
+  duree_affiliation_14_mois_cours_24_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 28.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 30.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 30.0
+    description: durée d'affiliation de 14 mois au cours des 24 derniers mois
+    entre_25_50_ans:
+      description: entre 25 et 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 18.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 21.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 21.0
+    moins_25_ans:
+      description: moins de 25 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 21.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 23.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 21.0
+  duree_affiliation_27_mois_cours_36_derniers_mois:
+    50_55_ans:
+      description: 50-55 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 25.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 25.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 25.0
+    55_ans_plus:
+      description: 55 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 33.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 33.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 33.0
+    description: durée d'affiliation de 27 mois au cours des 36 derniers mois
+  duree_affiliation_4_mois_cours_8_derniers_mois:
+    description: durée d'affiliation de 4 mois au cours des 8 derniers mois
+    values:
+      '1993-01-01':
+        metadata:
+          reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+            à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
+            annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la
+            convention du 01/01/1993
+        value: 4.0
+      '1993-08-01':
+        metadata:
+          reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+            convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+            n° 3 au règlement annexé à cette convention
+        value: 4.0
+      '1997-01-01':
+        metadata:
+          reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+        value: null
+  duree_affiliation_6_mois_cours_12_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 3.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 3.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 3.0
+    description: durée d'affiliation de 6 mois au cours des 12 derniers mois
+    moins_50_ans:
+      description: moins de 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 3.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 3.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 3.0
+  duree_affiliation_8_mois_cours_12_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 13.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 14.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 14.0
+    description: durée d'affiliation de 8 mois au cours des 12 derniers mois
+    moins_50_ans:
+      description: moins de 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 10.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 11.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 11.0
+duree_indemnisation_taux_plein_en_mois:
+  description: Durée d'indemnisation au taux plein (en mois)
+  duree_affiliation_14_mois_cours_24_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 17.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 15.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 15.0
+    description: durée d'affiliation de 14 mois au cours des 24 derniers mois
+    entre_25_50_ans:
+      description: entre 25 et 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 12.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 9.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 9.0
+    moins_25_ans:
+      description: moins de 25 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 9.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 7.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 9.0
+  duree_affiliation_27_mois_cours_36_derniers_mois:
+    50_55_ans:
+      description: 50-55 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 20.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 20.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 20.0
+    55_ans_plus:
+      description: 55 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 27.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 27.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 27.0
+    description: durée d'affiliation de 27 mois au cours des 36 derniers mois
+  duree_affiliation_4_mois_cours_8_derniers_mois:
+    description: durée d'affiliation de 4 mois au cours des 8 derniers mois
+    values:
+      '1993-01-01':
+        metadata:
+          reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+            à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
+            annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la
+            convention du 01/01/1993
+        value: null
+      '1993-08-01':
+        metadata:
+          reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+            convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+            n° 3 au règlement annexé à cette convention
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+        value: 4.0
+  duree_affiliation_6_mois_cours_12_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 4.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 4.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 4.0
+    description: durée d'affiliation de 6 mois au cours des 12 derniers mois
+    moins_50_ans:
+      description: moins de 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 4.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 4.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 4.0
+  duree_affiliation_8_mois_cours_12_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 8.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 7.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 7.0
+    description: durée d'affiliation de 8 mois au cours des 12 derniers mois
+    moins_50_ans:
+      description: moins de 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 4.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 4.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 4.0
+duree_totale_en_mois:
+  description: Durée totale (en mois)
+  duree_affiliation_14_mois_cours_24_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 45.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 45.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 45.0
+    description: durée d'affiliation de 14 mois au cours des 24 derniers mois
+    entre_25_50_ans:
+      description: entre 25 et 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 30.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 30.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 30.0
+    moins_25_ans:
+      description: moins de 25 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 30.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 30.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 30.0
+  duree_affiliation_27_mois_cours_36_derniers_mois:
+    50_55_ans:
+      description: 50-55 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 45.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 45.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 45.0
+    55_ans_plus:
+      description: 55 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 60.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 60.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 60.0
+    description: durée d'affiliation de 27 mois au cours des 36 derniers mois
+  duree_affiliation_4_mois_cours_8_derniers_mois:
+    description: durée d'affiliation de 4 mois au cours des 8 derniers mois
+    values:
+      '1993-01-01':
+        metadata:
+          reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+            à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
+            annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la
+            convention du 01/01/1993
+        value: 4.0
+      '1993-08-01':
+        metadata:
+          reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+            convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+            n° 3 au règlement annexé à cette convention
+        value: 4.0
+      '1997-01-01':
+        metadata:
+          reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+        value: 4.0
+  duree_affiliation_6_mois_cours_12_derniers_mois:
+    description: durée d'affiliation de 6 mois au cours des 12 derniers mois
+    values:
+      '1993-01-01':
+        metadata:
+          reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+            à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
+            annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la
+            convention du 01/01/1993
+        value: 7.0
+      '1993-08-01':
+        metadata:
+          reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+            convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+            n° 3 au règlement annexé à cette convention
+        value: 7.0
+      '1997-01-01':
+        metadata:
+          reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+        value: 7.0
+  duree_affiliation_8_mois_cours_12_derniers_mois:
+    50_ans_plus:
+      description: 50 ans et plus
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 21.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 21.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 21.0
+    description: durée d'affiliation de 8 mois au cours des 12 derniers mois
+    moins_50_ans:
+      description: moins de 50 ans
+      values:
+        '1993-01-01':
+          metadata:
+            reference: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+              à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au
+              règlement annexé à cette convention + Arrêt du 04/01/1993 portant agrément
+              de la convention du 01/01/1993
+          value: 15.0
+        '1993-08-01':
+          metadata:
+            reference: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la
+              convention du 01/01/1983 relative à l'assurance chômage et de l'avenant
+              n° 3 au règlement annexé à cette convention
+          value: 15.0
+        '1997-01-01':
+          metadata:
+            reference: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+          value: 15.0
+metadata:
+  rank: 3

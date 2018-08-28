@@ -1,0 +1,164 @@
+allocation_principale:
+  3_premiers_mois:
+    description: 3 premiers mois
+    metadata:
+      unit: currency-FRF
+    values:
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-667 du 04/08/1967
+        value: 6.05
+      '1968-06-01':
+        metadata:
+          reference: Décret 68-764 du 23/08/1968
+        value: 6.3
+      '1968-09-30':
+        metadata:
+          reference: Décret 68-846 du 28/09/1968
+        value: 7.3
+      '1970-07-06':
+        metadata:
+          reference: Décret 70-577 du 03/07/1970
+        value: 7.75
+      '1972-01-31':
+        metadata:
+          reference: Décret 72-94 du 31/01/1972
+        value: 8.3
+      '1973-01-29':
+        metadata:
+          reference: Décret 73-107 du 02/02/1973
+        value: 8.9
+      '1974-01-14':
+        metadata:
+          reference: Décret 74-55 du 25/01/1974
+        value: 10.0
+      '1975-01-13':
+        metadata:
+          reference: Décret 75-10 du 7/01/1975
+        value: 12.0
+      '1976-02-23':
+        metadata:
+          reference: Décret 76-229 du 09/03/1976
+        value: 13.5
+      '1977-04-04':
+        metadata:
+          reference: Décret 77-314 du 28/03/1977
+        value: 15.0
+      '1978-02-20':
+        metadata:
+          reference: Décret 78-196 du 24/02/1978
+        value: 16.5
+      '1979-04-02':
+        metadata:
+          reference: Décret 79-530 du 03/07/1979
+        value: 18.0
+  apres_3_mois:
+    description: Après 3 mois
+    metadata:
+      unit: currency-FRF
+    values:
+      '1967-10-01':
+        metadata:
+          reference: Décret 67-667 du 04/08/1967
+        value: 5.7
+      '1968-06-01':
+        metadata:
+          reference: Décret 68-764 du 23/08/1968
+        value: 5.8
+      '1968-09-30':
+        metadata:
+          reference: Décret 68-846 du 28/09/1968
+        value: 6.65
+      '1970-07-06':
+        metadata:
+          reference: Décret 70-577 du 03/07/1970
+        value: 7.05
+      '1972-01-31':
+        metadata:
+          reference: Décret 72-94 du 31/01/1972
+        value: 7.55
+      '1973-01-29':
+        metadata:
+          reference: Décret 73-107 du 02/02/1973
+        value: 8.1
+      '1974-01-14':
+        metadata:
+          reference: Décret 74-55 du 25/01/1974
+        value: 9.1
+      '1975-01-13':
+        metadata:
+          reference: Décret 75-10 du 7/01/1975
+        value: 11.0
+      '1976-02-23':
+        metadata:
+          reference: Décret 76-229 du 09/03/1976
+        value: 12.4
+      '1977-04-04':
+        metadata:
+          reference: Décret 77-314 du 28/03/1977
+        value: 13.8
+      '1978-02-20':
+        metadata:
+          reference: Décret 78-196 du 24/02/1978
+        value: 15.2
+      '1979-04-02':
+        metadata:
+          reference: Décret 79-530 du 03/07/1979
+        value: 18.0
+  description: Allocation principale
+description: Allocation d'aide publique
+majoration_conjoint_enfant_charge:
+  description: Majoration (pour conjoint ou enfant à charge)
+  metadata:
+    unit: currency-FRF
+  values:
+    '1967-10-01':
+      metadata:
+        reference: Décret 67-667 du 04/08/1967
+      value: 2.5
+    '1968-06-01':
+      metadata:
+        reference: Décret 68-764 du 23/08/1968
+      value: 2.5
+    '1968-09-30':
+      metadata:
+        reference: Décret 68-846 du 28/09/1968
+      value: 2.85
+    '1970-07-06':
+      metadata:
+        reference: Décret 70-577 du 03/07/1970
+      value: 3.05
+    '1972-01-31':
+      metadata:
+        reference: Décret 72-94 du 31/01/1972
+      value: 3.3
+    '1973-01-29':
+      metadata:
+        reference: Décret 73-107 du 02/02/1973
+      value: 3.6
+    '1974-01-14':
+      metadata:
+        reference: Décret 74-55 du 25/01/1974
+      value: 4.0
+    '1975-01-13':
+      metadata:
+        reference: Décret 75-10 du 7/01/1975
+      value: 4.8
+    '1976-02-23':
+      metadata:
+        reference: Décret 76-229 du 09/03/1976
+      value: 5.4
+    '1977-04-04':
+      metadata:
+        reference: Décret 77-314 du 28/03/1977
+      value: 6.0
+    '1978-02-20':
+      metadata:
+        reference: Décret 78-196 du 24/02/1978
+      value: 6.6
+    '1979-04-02':
+      metadata:
+        reference: Décret 79-530 du 03/07/1979
+      value: 6.6
+metadata:
+  rank: 0
