@@ -10,8 +10,6 @@ valeur_point_retraite_organic_regime_base_droits_acquis_avant_1973:
       unit:
         '1949-10-01': currency-FRF
         '2002-01-01': currency-EUR
-        '2013-04-01': null
-        '2015-10-01': currency-EUR
     values:
       '1949-10-01':
         value: 2.5
@@ -162,7 +160,7 @@ valeur_point_retraite_organic_regime_base_droits_acquis_avant_1973:
       '2012-04-01':
         value: 12.4048
       '2013-04-01':
-        value: '-'
+        value: null
       '2015-10-01':
         value: 12.58032
       '2017-10-01':
