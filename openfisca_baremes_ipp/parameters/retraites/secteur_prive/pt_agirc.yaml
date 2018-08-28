@@ -7,235 +7,158 @@ valeur_point_agirc_en_euros:
     unit: currency-EUR
   values:
     '1947-04-01':
-      metadata: {}
       value: 0.006097960689496415
     '1948-01-01':
-      metadata: {}
       value: 0.00762245086187052
     '1948-10-01':
-      metadata: {}
       value: 0.009146941034244623
     '1950-07-01':
-      metadata: {}
       value: 0.01219592137899283
     '1951-01-01':
-      metadata: {}
       value: 0.01372041155136693
     '1951-07-01':
-      metadata: {}
       value: 0.01676939189611514
     '1952-01-01':
-      metadata: {}
       value: 0.01829388206848925
     '1952-07-01':
-      metadata: {}
       value: 0.0190561271546763
     '1955-01-01':
-      metadata: {}
       value: 0.01981837224086335
     '1956-01-01':
-      metadata: {}
       value: 0.02134286241323746
     '1957-01-01':
-      metadata: {}
       value: 0.02286735258561156
     '1958-01-01':
-      metadata: {}
       value: 0.02515408784417271
     '1958-07-01':
-      metadata: {}
       value: 0.02744082310273387
     '1959-01-01':
-      metadata: {}
       value: 0.02896531327510797
     '1959-07-01':
-      metadata: {}
       value: 0.03048980344748208
     '1960-01-01':
-      metadata: {}
       value: 0.03201429361985618
     '1960-07-01':
-      metadata: {}
       value: 0.03353878379223028
     '1961-01-01':
-      metadata: {}
       value: 0.03506327396460439
     '1962-01-01':
-      metadata: {}
       value: 0.0381122543093526
     '1962-07-01':
-      metadata: {}
       value: 0.03887449939553965
     '1963-07-01':
-      metadata: {}
       value: 0.04116123465410081
     '1964-07-01':
-      metadata: {}
       value: 0.04573470517122311
     '1965-07-01':
-      metadata: {}
       value: 0.04802144042978427
     '1966-01-01':
-      metadata: {}
       value: 0.04878368551597132
     '1966-07-01':
-      metadata: {}
       value: 0.04954593060215837
     '1967-07-01':
-      metadata: {}
       value: 0.05183266586071953
     '1968-07-01':
-      metadata: {}
       value: 0.05564389129165478
     '1969-01-01':
-      metadata: {}
       value: 0.05823552458469076
     '1969-07-01':
-      metadata: {}
       value: 0.06174185198115121
     '1970-07-01':
-      metadata: {}
       value: 0.06631532249827352
     '1971-01-01':
-      metadata: {}
       value: 0.06860205775683467
     '1971-07-01':
-      metadata: {}
       value: 0.07470001844633109
     '1972-07-01':
-      metadata: {}
       value: 0.08308471439438866
     '1973-01-01':
-      metadata: {}
       value: 0.08537144965294982
     '1973-07-01':
-      metadata: {}
       value: 0.09146941034244623
     '1974-01-01':
-      metadata: {}
       value: 0.09451839068719443
     '1974-07-01':
-      metadata: {}
       value: 0.102903086635252
     '1975-01-01':
-      metadata: {}
       value: 0.1097632924109355
     '1975-07-01':
-      metadata: {}
       value: 0.1152514570314822
     '1976-01-01':
-      metadata: {}
       value: 0.1234837039623024
     '1976-07-01':
-      metadata: {}
       value: 0.1295816646517988
     '1977-01-01':
-      metadata: {}
       value: 0.1347649312378708
     '1977-07-01':
-      metadata: {}
       value: 0.1387286056860434
     '1978-01-01':
-      metadata: {}
       value: 0.1451924440169096
     '1978-07-01':
-      metadata: {}
       value: 0.1524490172374104
     '1979-01-01':
-      metadata: {}
       value: 0.1585469779269068
     '1979-07-01':
-      metadata: {}
       value: 0.166779224857727
     '1980-01-01':
-      metadata: {}
       value: 0.1762310639264464
     '1980-07-01':
-      metadata: {}
       value: 0.1859878010296407
     '1981-01-01':
-      metadata: {}
       value: 0.2000131106154824
     '1981-07-01':
-      metadata: {}
       value: 0.2100747457531515
     '1982-01-01':
-      metadata: {}
       value: 0.2241000553389933
     '1982-07-01':
-      metadata: {}
       value: 0.2317225062008638
     '1983-01-01':
-      metadata: {}
       value: 0.2393449570627343
     '1983-07-01':
-      metadata: {}
       value: 0.2530653686141012
     '1984-01-01':
-      metadata: {}
       value: 0.2622123096483459
     '1984-07-01':
-      metadata: {}
       value: 0.2646514939241444
     '1985-01-01':
-      metadata: {}
       value: 0.2728837408549646
     '1985-07-01':
-      metadata: {}
       value: 0.2803537426995977
     '1986-01-01':
-      metadata: {}
       value: 0.2846223151822452
     '1986-07-01':
-      metadata: {}
       value: 0.2873663974925186
     '1987-01-01':
-      metadata: {}
       value: 0.2917874189924035
     '1987-07-01':
-      metadata: {}
       value: 0.2939217052337272
     '1988-01-01':
-      metadata: {}
       value: 0.3007819110094107
     '1989-01-01':
-      metadata: {}
       value: 0.3077945658023316
     '1989-07-01':
-      metadata: {}
       value: 0.3117582402505042
     '1990-01-01':
-      metadata: {}
       value: 0.3190757930778999
     '1991-01-01':
-      metadata: {}
       value: 0.3321864085603172
     '1992-01-01':
-      metadata: {}
       value: 0.3417906966462741
     '1993-01-01':
-      metadata: {}
       value: 0.3510900866977561
     '1996-01-01':
-      metadata: {}
       value: 0.3563495777924467
     '1997-01-01':
-      metadata: {}
       value: 0.3581332312941245
     '1999-01-01':
-      metadata: {}
       value: 0.3595662520561561
     '2001-04-01':
-      metadata: {}
       value: 0.3677984989869763
     '2002-04-01':
-      metadata: {}
       value: 0.3737
     '2003-04-01':
-      metadata: {}
       value: 0.3796
     '2004-04-01':
-      metadata: {}
       value: 0.3862
     '2005-04-01':
       metadata:
@@ -282,235 +205,158 @@ valeur_point_agirc_en_nominal:
       '2002-04-01': currency-EUR
   values:
     '1947-04-01':
-      metadata: {}
       value: 4.0
     '1948-01-01':
-      metadata: {}
       value: 5.0
     '1948-10-01':
-      metadata: {}
       value: 6.0
     '1950-07-01':
-      metadata: {}
       value: 8.0
     '1951-01-01':
-      metadata: {}
       value: 9.0
     '1951-07-01':
-      metadata: {}
       value: 11.0
     '1952-01-01':
-      metadata: {}
       value: 12.0
     '1952-07-01':
-      metadata: {}
       value: 12.5
     '1955-01-01':
-      metadata: {}
       value: 13.0
     '1956-01-01':
-      metadata: {}
       value: 14.0
     '1957-01-01':
-      metadata: {}
       value: 15.0
     '1958-01-01':
-      metadata: {}
       value: 16.5
     '1958-07-01':
-      metadata: {}
       value: 18.0
     '1959-01-01':
-      metadata: {}
       value: 19.0
     '1959-07-01':
-      metadata: {}
       value: 20.0
     '1960-01-01':
-      metadata: {}
       value: 0.21
     '1960-07-01':
-      metadata: {}
       value: 0.22
     '1961-01-01':
-      metadata: {}
       value: 0.23
     '1962-01-01':
-      metadata: {}
       value: 0.25
     '1962-07-01':
-      metadata: {}
       value: 0.255
     '1963-07-01':
-      metadata: {}
       value: 0.27
     '1964-07-01':
-      metadata: {}
       value: 0.3
     '1965-07-01':
-      metadata: {}
       value: 0.315
     '1966-01-01':
-      metadata: {}
       value: 0.32
     '1966-07-01':
-      metadata: {}
       value: 0.325
     '1967-07-01':
-      metadata: {}
       value: 0.34
     '1968-07-01':
-      metadata: {}
       value: 0.365
     '1969-01-01':
-      metadata: {}
       value: 0.382
     '1969-07-01':
-      metadata: {}
       value: 0.405
     '1970-07-01':
-      metadata: {}
       value: 0.435
     '1971-01-01':
-      metadata: {}
       value: 0.45
     '1971-07-01':
-      metadata: {}
       value: 0.49
     '1972-07-01':
-      metadata: {}
       value: 0.545
     '1973-01-01':
-      metadata: {}
       value: 0.56
     '1973-07-01':
-      metadata: {}
       value: 0.6
     '1974-01-01':
-      metadata: {}
       value: 0.62
     '1974-07-01':
-      metadata: {}
       value: 0.675
     '1975-01-01':
-      metadata: {}
       value: 0.72
     '1975-07-01':
-      metadata: {}
       value: 0.756
     '1976-01-01':
-      metadata: {}
       value: 0.81
     '1976-07-01':
-      metadata: {}
       value: 0.85
     '1977-01-01':
-      metadata: {}
       value: 0.884
     '1977-07-01':
-      metadata: {}
       value: 0.91
     '1978-01-01':
-      metadata: {}
       value: 0.9524
     '1978-07-01':
-      metadata: {}
       value: 1.0
     '1979-01-01':
-      metadata: {}
       value: 1.04
     '1979-07-01':
-      metadata: {}
       value: 1.094
     '1980-01-01':
-      metadata: {}
       value: 1.156
     '1980-07-01':
-      metadata: {}
       value: 1.22
     '1981-01-01':
-      metadata: {}
       value: 1.312
     '1981-07-01':
-      metadata: {}
       value: 1.378
     '1982-01-01':
-      metadata: {}
       value: 1.47
     '1982-07-01':
-      metadata: {}
       value: 1.52
     '1983-01-01':
-      metadata: {}
       value: 1.57
     '1983-07-01':
-      metadata: {}
       value: 1.66
     '1984-01-01':
-      metadata: {}
       value: 1.72
     '1984-07-01':
-      metadata: {}
       value: 1.736
     '1985-01-01':
-      metadata: {}
       value: 1.79
     '1985-07-01':
-      metadata: {}
       value: 1.839
     '1986-01-01':
-      metadata: {}
       value: 1.867
     '1986-07-01':
-      metadata: {}
       value: 1.885
     '1987-01-01':
-      metadata: {}
       value: 1.914
     '1987-07-01':
-      metadata: {}
       value: 1.928
     '1988-01-01':
-      metadata: {}
       value: 1.973
     '1989-01-01':
-      metadata: {}
       value: 2.019
     '1989-07-01':
-      metadata: {}
       value: 2.045
     '1990-01-01':
-      metadata: {}
       value: 2.093
     '1991-01-01':
-      metadata: {}
       value: 2.179
     '1992-01-01':
-      metadata: {}
       value: 2.242
     '1993-01-01':
-      metadata: {}
       value: 2.303
     '1996-01-01':
-      metadata: {}
       value: 2.3375
     '1997-01-01':
-      metadata: {}
       value: 2.3492
     '1999-01-01':
-      metadata: {}
       value: 2.3586
     '2001-04-01':
-      metadata: {}
       value: 2.4126
     '2002-04-01':
-      metadata: {}
       value: 0.3737
     '2003-04-01':
-      metadata: {}
       value: 0.3796
     '2004-04-01':
-      metadata: {}
       value: 0.3862
     '2005-04-01':
       metadata:

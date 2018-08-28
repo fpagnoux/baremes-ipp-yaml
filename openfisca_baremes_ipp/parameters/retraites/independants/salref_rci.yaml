@@ -7,11 +7,8 @@ valeur_annuelle_acquisition_point_rsi:
     unit: currency-EUR
   values:
     '2013-01-01':
-      metadata: {}
       value: 17.309
     '2015-10-01':
-      metadata: {}
       value: 17.324
     '2017-10-01':
-      metadata: {}
       value: 17.456

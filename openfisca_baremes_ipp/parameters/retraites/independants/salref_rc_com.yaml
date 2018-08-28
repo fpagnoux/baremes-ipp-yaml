@@ -7,32 +7,22 @@ salaire_reference_rsi_commercants:
     unit: currency-EUR
   values:
     '2005-01-01':
-      metadata: {}
       value: 13.89
     '2006-01-01':
-      metadata: {}
       value: 14.112
     '2007-01-01':
-      metadata: {}
       value: 14.389
     '2008-01-01':
-      metadata: {}
       value: 14.648
     '2008-09-01':
-      metadata: {}
       value: 14.809
     '2009-01-01':
-      metadata: {}
       value: 15.3
     '2010-01-01':
-      metadata: {}
       value: 15.483
     '2011-01-01':
-      metadata: {}
       value: 15.808
     '2012-01-01':
-      metadata: {}
       value: 16.14
     '2013-01-01':
-      metadata: {}
       value: null

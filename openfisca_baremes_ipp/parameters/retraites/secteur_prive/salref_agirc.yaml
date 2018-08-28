@@ -7,178 +7,120 @@ salaire_reference_agirc_prix_achat_en_euros:
     unit: currency-EUR
   values:
     '1947-04-01':
-      metadata: {}
       value: 0.0396
     '1948-01-01':
-      metadata: {}
       value: 0.0564
     '1949-01-01':
-      metadata: {}
       value: 0.064
     '1950-01-01':
-      metadata: {}
       value: 0.0793
     '1951-01-01':
-      metadata: {}
       value: 0.096
     '1952-01-01':
-      metadata: {}
       value: 0.1159
     '1953-01-01':
-      metadata: {}
       value: 0.1189
     '1954-01-01':
-      metadata: {}
       value: 0.1326
     '1955-01-01':
-      metadata: {}
       value: 0.1494
     '1956-01-01':
-      metadata: {}
       value: 0.1631
     '1957-01-01':
-      metadata: {}
       value: 0.1768
     '1958-01-01':
-      metadata: {}
       value: 0.1982
     '1959-01-01':
-      metadata: {}
       value: 0.2165
     '1960-01-01':
-      metadata: {}
       value: 0.2317
     '1961-01-01':
-      metadata: {}
       value: 0.2576
     '1962-01-01':
-      metadata: {}
       value: 0.2836
     '1963-01-01':
-      metadata: {}
       value: 0.3034
     '1964-01-01':
-      metadata: {}
       value: 0.3308
     '1965-01-01':
-      metadata: {}
       value: 0.3476
     '1966-01-01':
-      metadata: {}
       value: 0.3674
     '1967-01-01':
-      metadata: {}
       value: 0.3887
     '1968-01-01':
-      metadata: {}
       value: 0.4223
     '1969-01-01':
-      metadata: {}
       value: 0.4573
     '1970-01-01':
-      metadata: {}
       value: 0.497
     '1971-01-01':
-      metadata: {}
       value: 0.5412
     '1972-01-01':
-      metadata: {}
       value: 0.5915
     '1973-01-01':
-      metadata: {}
       value: 0.6479
     '1974-01-01':
-      metadata: {}
       value: 0.7333
     '1975-01-01':
-      metadata: {}
       value: 0.8446
     '1976-01-01':
-      metadata: {}
       value: 0.933
     '1977-01-01':
-      metadata: {}
       value: 1.0275
     '1978-01-01':
-      metadata: {}
       value: 1.1312
     '1979-01-01':
-      metadata: {}
       value: 1.2638
     '1980-01-01':
-      metadata: {}
       value: 1.4361
     '1981-01-01':
-      metadata: {}
       value: 1.616
     '1982-01-01':
-      metadata: {}
       value: 1.7958
     '1983-01-01':
-      metadata: {}
       value: 1.9925
     '1984-01-01':
-      metadata: {}
       value: 2.116
     '1985-01-01':
-      metadata: {}
       value: 2.2593
     '1986-01-01':
-      metadata: {}
       value: 2.3782
     '1987-01-01':
-      metadata: {}
       value: 2.4422
     '1988-01-01':
-      metadata: {}
       value: 2.5428
     '1989-01-01':
-      metadata: {}
       value: 2.6541
     '1990-01-01':
-      metadata: {}
       value: 2.7761
     '1991-01-01':
-      metadata: {}
       value: 2.866
     '1992-01-01':
-      metadata: {}
       value: 2.9316
     '1993-01-01':
-      metadata: {}
       value: 2.9392
     '1994-01-01':
-      metadata: {}
       value: 2.9758
     '1995-01-01':
-      metadata: {}
       value: 3.0536
     '1996-01-01':
-      metadata: {}
       value: 3.2258
     '1997-01-01':
-      metadata: {}
       value: 3.3935
     '1998-01-01':
-      metadata: {}
       value: 3.5216
     '1999-01-01':
-      metadata: {}
       value: 3.764
     '2000-01-01':
-      metadata: {}
       value: 4.0231
     '2001-01-01':
-      metadata: {}
       value: 4.0841
     '2002-01-01':
-      metadata: {}
       value: 4.1494
     '2003-01-01':
-      metadata: {}
       value: 4.2158
     '2004-04-01':
-      metadata: {}
       value: 4.3128
     '2005-04-01':
       metadata:
@@ -241,178 +183,120 @@ salaire_reference_agirc_prix_achat_valeur_nominale:
       '2002-01-01': currency-EUR
   values:
     '1947-04-01':
-      metadata: {}
       value: 26.0
     '1948-01-01':
-      metadata: {}
       value: 37.0
     '1949-01-01':
-      metadata: {}
       value: 42.0
     '1950-01-01':
-      metadata: {}
       value: 52.0
     '1951-01-01':
-      metadata: {}
       value: 63.0
     '1952-01-01':
-      metadata: {}
       value: 76.0
     '1953-01-01':
-      metadata: {}
       value: 78.0
     '1954-01-01':
-      metadata: {}
       value: 87.0
     '1955-01-01':
-      metadata: {}
       value: 98.0
     '1956-01-01':
-      metadata: {}
       value: 107.0
     '1957-01-01':
-      metadata: {}
       value: 116.0
     '1958-01-01':
-      metadata: {}
       value: 130.0
     '1959-01-01':
-      metadata: {}
       value: 142.0
     '1960-01-01':
-      metadata: {}
       value: 1.52
     '1961-01-01':
-      metadata: {}
       value: 1.69
     '1962-01-01':
-      metadata: {}
       value: 1.86
     '1963-01-01':
-      metadata: {}
       value: 1.99
     '1964-01-01':
-      metadata: {}
       value: 2.17
     '1965-01-01':
-      metadata: {}
       value: 2.28
     '1966-01-01':
-      metadata: {}
       value: 2.41
     '1967-01-01':
-      metadata: {}
       value: 2.55
     '1968-01-01':
-      metadata: {}
       value: 2.77
     '1969-01-01':
-      metadata: {}
       value: 3.0
     '1970-01-01':
-      metadata: {}
       value: 3.26
     '1971-01-01':
-      metadata: {}
       value: 3.55
     '1972-01-01':
-      metadata: {}
       value: 3.88
     '1973-01-01':
-      metadata: {}
       value: 4.25
     '1974-01-01':
-      metadata: {}
       value: 4.81
     '1975-01-01':
-      metadata: {}
       value: 5.54
     '1976-01-01':
-      metadata: {}
       value: 6.12
     '1977-01-01':
-      metadata: {}
       value: 6.74
     '1978-01-01':
-      metadata: {}
       value: 7.42
     '1979-01-01':
-      metadata: {}
       value: 8.29
     '1980-01-01':
-      metadata: {}
       value: 9.42
     '1981-01-01':
-      metadata: {}
       value: 10.6
     '1982-01-01':
-      metadata: {}
       value: 11.78
     '1983-01-01':
-      metadata: {}
       value: 13.07
     '1984-01-01':
-      metadata: {}
       value: 13.88
     '1985-01-01':
-      metadata: {}
       value: 14.82
     '1986-01-01':
-      metadata: {}
       value: 15.6
     '1987-01-01':
-      metadata: {}
       value: 16.02
     '1988-01-01':
-      metadata: {}
       value: 16.68
     '1989-01-01':
-      metadata: {}
       value: 17.41
     '1990-01-01':
-      metadata: {}
       value: 18.21
     '1991-01-01':
-      metadata: {}
       value: 18.8
     '1992-01-01':
-      metadata: {}
       value: 19.23
     '1993-01-01':
-      metadata: {}
       value: 19.28
     '1994-01-01':
-      metadata: {}
       value: 19.52
     '1995-01-01':
-      metadata: {}
       value: 20.03
     '1996-01-01':
-      metadata: {}
       value: 21.16
     '1997-01-01':
-      metadata: {}
       value: 22.26
     '1998-01-01':
-      metadata: {}
       value: 23.1
     '1999-01-01':
-      metadata: {}
       value: 24.69
     '2000-01-01':
-      metadata: {}
       value: 26.39
     '2001-01-01':
-      metadata: {}
       value: 26.79
     '2002-01-01':
-      metadata: {}
       value: 4.1494
     '2003-01-01':
-      metadata: {}
       value: 4.2158
     '2004-04-01':
-      metadata: {}
       value: 4.3128
     '2005-04-01':
       metadata:

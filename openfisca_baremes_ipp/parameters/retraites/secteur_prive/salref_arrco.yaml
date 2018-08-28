@@ -7,22 +7,16 @@ salaire_reference_en_euros:
     unit: currency-EUR
   values:
     '1999-01-01':
-      metadata: {}
       value: 10.953980215166542
     '2000-01-01':
-      metadata: {}
       value: 11.53453656261005
     '2001-01-01':
-      metadata: {}
       value: 11.7076
     '2002-01-01':
-      metadata: {}
       value: 11.8949
     '2003-01-01':
-      metadata: {}
       value: 12.0852
     '2004-01-01':
-      metadata: {}
       value: 12.3632
     '2005-01-01':
       metadata:
@@ -84,22 +78,16 @@ salaire_reference_en_nominal:
       '2001-01-01': currency-EUR
   values:
     '1999-01-01':
-      metadata: {}
       value: 71.8534
     '2000-01-01':
-      metadata: {}
       value: 75.6616
     '2001-01-01':
-      metadata: {}
       value: 11.7076
     '2002-01-01':
-      metadata: {}
       value: 11.8949
     '2003-01-01':
-      metadata: {}
       value: 12.0852
     '2004-01-01':
-      metadata: {}
       value: 12.3632
     '2005-01-01':
       metadata:

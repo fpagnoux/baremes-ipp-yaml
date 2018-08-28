@@ -7,25 +7,18 @@ valeur_point_arrco_en_euros:
     unit: currency-EUR
   values:
     '1999-01-01':
-      metadata: {}
       value: 1.0
     '1999-04-01':
-      metadata: {}
       value: 1.0089990654875243
     '2000-04-01':
-      metadata: {}
       value: 1.0170941083028309
     '2001-04-01':
-      metadata: {}
       value: 1.0364
     '2002-04-01':
-      metadata: {}
       value: 1.053
     '2003-04-01':
-      metadata: {}
       value: 1.0698
     '2004-04-01':
-      metadata: {}
       value: 1.0886
     '2005-04-01':
       metadata:
@@ -67,25 +60,18 @@ valeur_point_arrco_en_nominal:
   description: Valeur du point ARRCO (en nominal)
   values:
     '1999-01-01':
-      metadata: {}
       value: 6.55957
     '1999-04-01':
-      metadata: {}
       value: 6.6186
     '2000-04-01':
-      metadata: {}
       value: 6.6717
     '2001-04-01':
-      metadata: {}
       value: 1.0364
     '2002-04-01':
-      metadata: {}
       value: 1.053
     '2003-04-01':
-      metadata: {}
       value: 1.0698
     '2004-04-01':
-      metadata: {}
       value: 1.0886
     '2005-04-01':
       metadata:
