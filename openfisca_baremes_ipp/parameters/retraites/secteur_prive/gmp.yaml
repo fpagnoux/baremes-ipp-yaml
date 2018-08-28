@@ -1,0 +1,14 @@
+description: Garantie minimale de points (GMP) à l'Agirc
+garantie_minimale_points:
+  description: Garantie minimale de points
+  values:
+    '1947-01-01':
+      metadata:
+        reference: CCN des Cadres du 14/03/1947, art. 6 (§2, F.)
+      value: 144.0
+    '1997-01-01':
+      metadata:
+        reference: BSP n° 36 du 31/01/1997 et BSP n°40 du 31/01/1998
+      value: 120.0
+metadata:
+  rank: 23

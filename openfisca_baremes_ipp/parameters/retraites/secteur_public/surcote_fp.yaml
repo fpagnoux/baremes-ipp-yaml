@@ -1,0 +1,16 @@
+description: 'Surcote FP '
+metadata:
+  rank: 6
+taux_surcote_par_trimestre:
+  description: Taux de surcote par trimestre
+  metadata:
+    unit: /1
+  values:
+    '2004-01-01':
+      metadata:
+        reference: Loi 2003-775 du 21/08/2003, art. 51
+      value: 0.0075
+    '2009-01-01':
+      metadata:
+        reference: Loi 2008-1330 du 17/12/2008 (LFSS pour 2009), art. 89
+      value: 0.0125

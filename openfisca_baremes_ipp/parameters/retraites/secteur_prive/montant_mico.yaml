@@ -1,0 +1,711 @@
+description: Montant du minimum contributif
+metadata:
+  rank: 6
+minimum_contributif:
+  annuel:
+    '7615_94':
+      description: '7615.94'
+      metadata:
+        unit:
+          '1984-01-01': currency-FRF
+          '2002-01-01': currency-EUR
+      values:
+        '1984-01-01':
+          metadata:
+            reference: Circ. CNAV 4/84 du 05/01/1984
+          value: 26875.2
+        '1984-07-01':
+          metadata:
+            reference: Circ. CNAV 62/84 du 06/06/1984
+          value: 27466.44
+        '1985-01-01':
+          metadata:
+            reference: Circ. CNAV 130/84 du 27/12/1984
+          value: 28400.28
+        '1985-07-01':
+          metadata:
+            reference: Circ. CNAV 61/85 du 10/06/1985
+          value: 29195.48
+        '1986-01-01':
+          metadata:
+            reference: Circ. CNAV 1/86 du 02/01/1986
+          value: 29575.04
+        '1986-10-01':
+          metadata:
+            reference: Circ. CNAV 68/86 du 23/09/1986
+          value: 29722.92
+        '1987-01-01':
+          metadata:
+            reference: Circ. CNAV 89/86 du 18/12/1986
+          value: 30257.93
+        '1987-07-01':
+          metadata:
+            reference: Circ. CNAV 51/87 du 05/05/1987
+          value: 30560.5
+        '1988-01-01':
+          metadata:
+            reference: Circ. CNAV 121/87 du 23/12/1987
+          value: 31355.07
+        '1988-07-01':
+          metadata:
+            reference: Circ. CNAV 67/88 du 01/06/1988
+          value: 31762.68
+        '1989-01-01':
+          metadata:
+            reference: Circ. CNAV 138/88 du 15/12/1988
+          value: 32175.59
+        '1989-07-01':
+          metadata:
+            reference: Circ. CNAV 36/89 du 17/03/1989
+          value: 32561.69
+        '1990-01-01':
+          metadata:
+            reference: Circ. CNAV 125/89 du 29/12/1989
+          value: 33261.76
+        '1990-07-01':
+          metadata:
+            reference: Circ. CNAV 62/90 du 13/06/1990
+          value: 33694.16
+        '1991-01-01':
+          metadata:
+            reference: Circ. CNAV 2/91 du 04/01/1991
+          value: 34266.96
+        '1991-07-01':
+          metadata:
+            reference: Circ. CNAV 62/91 du 10/07/1991
+          value: 34541.09
+        '1992-01-01':
+          metadata:
+            reference: Circ. CNAV 8/92 du 06/01/1992
+          value: 34886.5
+        '1992-07-01':
+          metadata:
+            reference: Circ. CNAV 56/92 du 01/06/1992
+          value: 35514.45
+        '1993-01-01':
+          metadata:
+            reference: Circ. CNAV 17/93 du 05/02/1993
+          value: 35976.13
+        '1994-01-01':
+          metadata:
+            reference: Circ. CNAV 22/94 du 31/01/1994
+          value: 36695.65
+        '1995-01-01':
+          metadata:
+            reference: Circ. CNAV 20/95 du 08/02/1995
+          value: 37135.99
+        '1995-07-01':
+          metadata:
+            reference: Circ. CNAV 57/95 du 20/07/1995
+          value: 37321.66
+        '1996-01-01':
+          metadata:
+            reference: Circ. CNAV 6/96 du 16/01/1998
+          value: 38068.09
+        '1997-01-01':
+          metadata:
+            reference: Circ. CNAV 90/96 du 30/12/1996
+          value: 38524.9
+        '1998-01-01':
+          metadata:
+            reference: Circ. CNAV 83/97 du 30/12/1997
+          value: 38948.67
+        '1999-01-01':
+          metadata:
+            reference: Circ. CNAV 78/98 du 30/12/1998
+          value: 39416.05
+        '2000-01-01':
+          metadata:
+            reference: Circ. CNAV 78/99 du 20/12/1999
+          value: 39613.13
+        '2001-01-01':
+          metadata:
+            reference: Circ. CNAV 2000/78 du 22/12/2000
+          value: 40484.61
+        '2002-01-01':
+          metadata:
+            reference: Arrêté du 25/01/2002
+          value: 6307.62
+        '2003-01-01':
+          metadata:
+            reference: Arrêté du 31/12/2002
+          value: 6402.23
+        '2004-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 6511.06
+        '2005-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 6641.28
+        '2006-01-01':
+          metadata:
+            reference: Décret 2005-1770 du 30/12/2005
+          value: 6760.82
+        '2007-01-01':
+          metadata:
+            reference: Circ. Cnav 2006/75 du 20/12/2006
+          value: 6882.51
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-1899 du 26/12/2007
+          value: 6958.21
+        '2008-09-01':
+          metadata:
+            reference: Circ. Cnav 2008/45 du 12/08/2008
+          value: 7013.87
+        '2009-04-01':
+          metadata:
+            reference: Circ. Cnav 2009/31 du 16/04/2009
+          value: 7084.0
+        '2010-04-01':
+          metadata:
+            reference: Circ. Cnav 2010/43 du 23/04/2010
+          value: 7147.75
+        '2011-04-01':
+          metadata:
+            reference: Circ. Cnav 2011/30 du 14/04/2011
+          value: 7297.85
+        '2012-04-01':
+          metadata:
+            reference: Circ. Cnav 2012/35 du 17/04/2012
+          value: 7451.1
+        '2013-04-01':
+          metadata:
+            reference: Circ. Cnav 2013/29 du 18/04/2013
+          value: 7547.96
+        '2015-10-01':
+          metadata:
+            reference: Circ. Cnav 2016/13 du 16/02/2016
+          value: 7555.5
+    description: Annuel
+  description: Minimum contributif
+  mensuel:
+    '634_66':
+      description: '634.66'
+      metadata:
+        unit:
+          '1984-01-01': currency-FRF
+          '2002-01-01': currency-EUR
+      values:
+        '1984-01-01':
+          metadata:
+            reference: Circ. CNAV 4/84 du 05/01/1984
+          value: 2239.6
+        '1984-07-01':
+          metadata:
+            reference: Circ. CNAV 62/84 du 06/06/1984
+          value: 2288.87
+        '1985-01-01':
+          metadata:
+            reference: Circ. CNAV 130/84 du 27/12/1984
+          value: 2366.69
+        '1985-07-01':
+          metadata:
+            reference: Circ. CNAV 61/85 du 10/06/1985
+          value: 2432.95
+        '1986-01-01':
+          metadata:
+            reference: Circ. CNAV 1/86 du 02/01/1986
+          value: 2464.58
+        '1986-10-01':
+          metadata:
+            reference: Circ. CNAV 68/86 du 23/09/1986
+          value: 2476.91
+        '1987-01-01':
+          metadata:
+            reference: Circ. CNAV 89/86 du 18/12/1986
+          value: 2521.49
+        '1987-07-01':
+          metadata:
+            reference: Circ. CNAV 51/87 du 05/05/1987
+          value: 2546.7
+        '1988-01-01':
+          metadata:
+            reference: Circ. CNAV 121/87 du 23/12/1987
+          value: 2612.92
+        '1988-07-01':
+          metadata:
+            reference: Circ. CNAV 67/88 du 01/06/1988
+          value: 2646.89
+        '1989-01-01':
+          metadata:
+            reference: Circ. CNAV 138/88 du 15/12/1988
+          value: 2681.29
+        '1989-07-01':
+          metadata:
+            reference: Circ. CNAV 36/89 du 17/03/1989
+          value: 2713.47
+        '1990-01-01':
+          metadata:
+            reference: Circ. CNAV 125/89 du 29/12/1989
+          value: 2771.81
+        '1990-07-01':
+          metadata:
+            reference: Circ. CNAV 62/90 du 13/06/1990
+          value: 2807.84
+        '1991-01-01':
+          metadata:
+            reference: Circ. CNAV 2/91 du 04/01/1991
+          value: 2855.58
+        '1991-07-01':
+          metadata:
+            reference: Circ. CNAV 62/91 du 10/07/1991
+          value: 2878.42
+        '1992-01-01':
+          metadata:
+            reference: Circ. CNAV 8/92 du 06/01/1992
+          value: 2907.2
+        '1992-07-01':
+          metadata:
+            reference: Circ. CNAV 56/92 du 01/06/1992
+          value: 2959.53
+        '1993-01-01':
+          metadata:
+            reference: Circ. CNAV 17/93 du 05/02/1993
+          value: 2998.01
+        '1994-01-01':
+          metadata:
+            reference: Circ. CNAV 22/94 du 31/01/1994
+          value: 3057.97
+        '1995-01-01':
+          metadata:
+            reference: Circ. CNAV 20/95 du 08/02/1995
+          value: 3094.66
+        '1995-07-01':
+          metadata:
+            reference: Circ. CNAV 57/95 du 20/07/1995
+          value: 3110.13
+        '1996-01-01':
+          metadata:
+            reference: Circ. CNAV 6/96 du 16/01/1998
+          value: 3172.34
+        '1997-01-01':
+          metadata:
+            reference: Circ. CNAV 90/96 du 30/12/1996
+          value: 3210.4
+        '1998-01-01':
+          metadata:
+            reference: Circ. CNAV 83/97 du 30/12/1997
+          value: 3245.72
+        '1999-01-01':
+          metadata:
+            reference: Circ. CNAV 78/98 du 30/12/1998
+          value: 3284.67
+        '2000-01-01':
+          metadata:
+            reference: Circ. CNAV 78/99 du 20/12/1999
+          value: 3301.09
+        '2001-01-01':
+          metadata:
+            reference: Circ. CNAV 2000/78 du 22/12/2000
+          value: 3373.71
+        '2002-01-01':
+          metadata:
+            reference: Arrêté du 25/01/2002
+          value: 525.63
+        '2003-01-01':
+          metadata:
+            reference: Arrêté du 31/12/2002
+          value: 533.51
+        '2004-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 542.58
+        '2005-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 553.44
+        '2006-01-01':
+          metadata:
+            reference: Décret 2005-1770 du 30/12/2005
+          value: 563.4
+        '2007-01-01':
+          metadata:
+            reference: Circ. Cnav 2006/75 du 20/12/2006
+          value: 573.54
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-1899 du 26/12/2007
+          value: 579.85
+        '2008-09-01':
+          metadata:
+            reference: Circ. Cnav 2008/45 du 12/08/2008
+          value: 584.48
+        '2009-04-01':
+          metadata:
+            reference: Circ. Cnav 2009/31 du 16/04/2009
+          value: 590.33
+        '2010-04-01':
+          metadata:
+            reference: Circ. Cnav 2010/43 du 23/04/2010
+          value: 595.64
+        '2011-04-01':
+          metadata:
+            reference: Circ. Cnav 2011/30 du 14/04/2011
+          value: 608.15
+        '2012-04-01':
+          metadata:
+            reference: Circ. Cnav 2012/35 du 17/04/2012
+          value: 620.9250000000001
+        '2013-04-01':
+          metadata:
+            reference: Circ. Cnav 2013/29 du 18/04/2013
+          value: 628.99
+        '2015-10-01':
+          metadata:
+            reference: Circ. Cnav 2016/13 du 16/02/2016
+          value: 629.62
+    description: Mensuel
+minimum_contributif_majore:
+  annuel:
+    '8322_13':
+      description: '8322.13'
+      metadata:
+        unit: currency-EUR
+      values:
+        '1984-01-01':
+          metadata:
+            reference: Circ. CNAV 4/84 du 05/01/1984
+          value: null
+        '1984-07-01':
+          metadata:
+            reference: Circ. CNAV 62/84 du 06/06/1984
+          value: null
+        '1985-01-01':
+          metadata:
+            reference: Circ. CNAV 130/84 du 27/12/1984
+          value: null
+        '1985-07-01':
+          metadata:
+            reference: Circ. CNAV 61/85 du 10/06/1985
+          value: null
+        '1986-01-01':
+          metadata:
+            reference: Circ. CNAV 1/86 du 02/01/1986
+          value: null
+        '1986-10-01':
+          metadata:
+            reference: Circ. CNAV 68/86 du 23/09/1986
+          value: null
+        '1987-01-01':
+          metadata:
+            reference: Circ. CNAV 89/86 du 18/12/1986
+          value: null
+        '1987-07-01':
+          metadata:
+            reference: Circ. CNAV 51/87 du 05/05/1987
+          value: null
+        '1988-01-01':
+          metadata:
+            reference: Circ. CNAV 121/87 du 23/12/1987
+          value: null
+        '1988-07-01':
+          metadata:
+            reference: Circ. CNAV 67/88 du 01/06/1988
+          value: null
+        '1989-01-01':
+          metadata:
+            reference: Circ. CNAV 138/88 du 15/12/1988
+          value: null
+        '1989-07-01':
+          metadata:
+            reference: Circ. CNAV 36/89 du 17/03/1989
+          value: null
+        '1990-01-01':
+          metadata:
+            reference: Circ. CNAV 125/89 du 29/12/1989
+          value: null
+        '1990-07-01':
+          metadata:
+            reference: Circ. CNAV 62/90 du 13/06/1990
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Circ. CNAV 2/91 du 04/01/1991
+          value: null
+        '1991-07-01':
+          metadata:
+            reference: Circ. CNAV 62/91 du 10/07/1991
+          value: null
+        '1992-01-01':
+          metadata:
+            reference: Circ. CNAV 8/92 du 06/01/1992
+          value: null
+        '1992-07-01':
+          metadata:
+            reference: Circ. CNAV 56/92 du 01/06/1992
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Circ. CNAV 17/93 du 05/02/1993
+          value: null
+        '1994-01-01':
+          metadata:
+            reference: Circ. CNAV 22/94 du 31/01/1994
+          value: null
+        '1995-01-01':
+          metadata:
+            reference: Circ. CNAV 20/95 du 08/02/1995
+          value: null
+        '1995-07-01':
+          metadata:
+            reference: Circ. CNAV 57/95 du 20/07/1995
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Circ. CNAV 6/96 du 16/01/1998
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Circ. CNAV 90/96 du 30/12/1996
+          value: null
+        '1998-01-01':
+          metadata:
+            reference: Circ. CNAV 83/97 du 30/12/1997
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Circ. CNAV 78/98 du 30/12/1998
+          value: null
+        '2000-01-01':
+          metadata:
+            reference: Circ. CNAV 78/99 du 20/12/1999
+          value: null
+        '2001-01-01':
+          metadata:
+            reference: Circ. CNAV 2000/78 du 22/12/2000
+          value: null
+        '2002-01-01':
+          metadata:
+            reference: Arrêté du 25/01/2002
+          value: null
+        '2003-01-01':
+          metadata:
+            reference: Arrêté du 31/12/2002
+          value: null
+        '2004-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 6706.39
+        '2005-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 6840.51
+        '2006-01-01':
+          metadata:
+            reference: Décret 2005-1770 du 30/12/2005
+          value: 7172.54
+        '2007-01-01':
+          metadata:
+            reference: Circ. Cnav 2006/75 du 20/12/2006
+          value: 7301.64
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-1899 du 26/12/2007
+          value: 7603.41
+        '2008-09-01':
+          metadata:
+            reference: Circ. Cnav 2008/45 du 12/08/2008
+          value: 7664.23
+        '2009-04-01':
+          metadata:
+            reference: Circ. Cnav 2009/31 du 16/04/2009
+          value: 7740.87
+        '2010-04-01':
+          metadata:
+            reference: Circ. Cnav 2010/43 du 23/04/2010
+          value: 7810.53
+        '2011-04-01':
+          metadata:
+            reference: Circ. Cnav 2011/30 du 14/04/2011
+          value: 7974.55
+        '2012-04-01':
+          metadata:
+            reference: Circ. Cnav 2012/35 du 17/04/2012
+          value: 8142.01
+        '2013-04-01':
+          metadata:
+            reference: Circ. Cnav 2013/29 du 18/04/2013
+          value: 8247.85
+        '2015-10-01':
+          metadata:
+            reference: Circ. Cnav 2016/13 du 16/02/2016
+          value: 8256.09
+    description: Annuel
+  description: Minimum contributif majoré
+  mensuel:
+    '693_51':
+      description: '693.51'
+      metadata:
+        unit: currency-EUR
+      values:
+        '1984-01-01':
+          metadata:
+            reference: Circ. CNAV 4/84 du 05/01/1984
+          value: null
+        '1984-07-01':
+          metadata:
+            reference: Circ. CNAV 62/84 du 06/06/1984
+          value: null
+        '1985-01-01':
+          metadata:
+            reference: Circ. CNAV 130/84 du 27/12/1984
+          value: null
+        '1985-07-01':
+          metadata:
+            reference: Circ. CNAV 61/85 du 10/06/1985
+          value: null
+        '1986-01-01':
+          metadata:
+            reference: Circ. CNAV 1/86 du 02/01/1986
+          value: null
+        '1986-10-01':
+          metadata:
+            reference: Circ. CNAV 68/86 du 23/09/1986
+          value: null
+        '1987-01-01':
+          metadata:
+            reference: Circ. CNAV 89/86 du 18/12/1986
+          value: null
+        '1987-07-01':
+          metadata:
+            reference: Circ. CNAV 51/87 du 05/05/1987
+          value: null
+        '1988-01-01':
+          metadata:
+            reference: Circ. CNAV 121/87 du 23/12/1987
+          value: null
+        '1988-07-01':
+          metadata:
+            reference: Circ. CNAV 67/88 du 01/06/1988
+          value: null
+        '1989-01-01':
+          metadata:
+            reference: Circ. CNAV 138/88 du 15/12/1988
+          value: null
+        '1989-07-01':
+          metadata:
+            reference: Circ. CNAV 36/89 du 17/03/1989
+          value: null
+        '1990-01-01':
+          metadata:
+            reference: Circ. CNAV 125/89 du 29/12/1989
+          value: null
+        '1990-07-01':
+          metadata:
+            reference: Circ. CNAV 62/90 du 13/06/1990
+          value: null
+        '1991-01-01':
+          metadata:
+            reference: Circ. CNAV 2/91 du 04/01/1991
+          value: null
+        '1991-07-01':
+          metadata:
+            reference: Circ. CNAV 62/91 du 10/07/1991
+          value: null
+        '1992-01-01':
+          metadata:
+            reference: Circ. CNAV 8/92 du 06/01/1992
+          value: null
+        '1992-07-01':
+          metadata:
+            reference: Circ. CNAV 56/92 du 01/06/1992
+          value: null
+        '1993-01-01':
+          metadata:
+            reference: Circ. CNAV 17/93 du 05/02/1993
+          value: null
+        '1994-01-01':
+          metadata:
+            reference: Circ. CNAV 22/94 du 31/01/1994
+          value: null
+        '1995-01-01':
+          metadata:
+            reference: Circ. CNAV 20/95 du 08/02/1995
+          value: null
+        '1995-07-01':
+          metadata:
+            reference: Circ. CNAV 57/95 du 20/07/1995
+          value: null
+        '1996-01-01':
+          metadata:
+            reference: Circ. CNAV 6/96 du 16/01/1998
+          value: null
+        '1997-01-01':
+          metadata:
+            reference: Circ. CNAV 90/96 du 30/12/1996
+          value: null
+        '1998-01-01':
+          metadata:
+            reference: Circ. CNAV 83/97 du 30/12/1997
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Circ. CNAV 78/98 du 30/12/1998
+          value: null
+        '2000-01-01':
+          metadata:
+            reference: Circ. CNAV 78/99 du 20/12/1999
+          value: null
+        '2001-01-01':
+          metadata:
+            reference: Circ. CNAV 2000/78 du 22/12/2000
+          value: null
+        '2002-01-01':
+          metadata:
+            reference: Arrêté du 25/01/2002
+          value: null
+        '2003-01-01':
+          metadata:
+            reference: Arrêté du 31/12/2002
+          value: null
+        '2004-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 558.86
+        '2005-01-01':
+          metadata:
+            reference: Circ. CNAV 2003/56 du 30/12/2003
+          value: 570.04
+        '2006-01-01':
+          metadata:
+            reference: Décret 2005-1770 du 30/12/2005
+          value: 597.71
+        '2007-01-01':
+          metadata:
+            reference: Circ. Cnav 2006/75 du 20/12/2006
+          value: 608.47
+        '2008-01-01':
+          metadata:
+            reference: Décret 2007-1899 du 26/12/2007
+          value: 633.61
+        '2008-09-01':
+          metadata:
+            reference: Circ. Cnav 2008/45 du 12/08/2008
+          value: 638.68
+        '2009-04-01':
+          metadata:
+            reference: Circ. Cnav 2009/31 du 16/04/2009
+          value: 645.07
+        '2010-04-01':
+          metadata:
+            reference: Circ. Cnav 2010/43 du 23/04/2010
+          value: 650.87
+        '2011-04-01':
+          metadata:
+            reference: Circ. Cnav 2011/30 du 14/04/2011
+          value: 664.54
+        '2012-04-01':
+          metadata:
+            reference: Circ. Cnav 2012/35 du 17/04/2012
+          value: 678.5
+        '2013-04-01':
+          metadata:
+            reference: Circ. Cnav 2013/29 du 18/04/2013
+          value: 687.32
+        '2015-10-01':
+          metadata:
+            reference: Circ. Cnav 2016/13 du 16/02/2016
+          value: 688.0
+    description: Mensuel

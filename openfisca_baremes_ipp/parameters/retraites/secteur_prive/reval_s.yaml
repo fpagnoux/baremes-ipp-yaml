@@ -1,0 +1,723 @@
+associe:
+  description: '% associé'
+  metadata:
+    unit: /1
+  values:
+    '1949-01-01':
+      metadata:
+        reference: Arrêté du 23/06/1949
+      value: 0.19999999999999996
+    '1950-01-01':
+      metadata:
+        reference: Arrêté du 19/04/1950
+      value: 0.32000000000000006
+    '1951-01-01':
+      metadata:
+        reference: Arrêté du 16/04/1951
+      value: 0.15999999999999992
+    '1952-04-01':
+      metadata:
+        reference: Arrêté du 02/10/1952
+      value: 0.10000000000000009
+    '1953-04-01':
+      metadata:
+        reference: Arrêté du 03/10/1953
+      value: 0.19999999999999996
+    '1955-04-01':
+      metadata:
+        reference: Arrêté du 08/04/1955
+      value: 0.09000000000000008
+    '1956-04-01':
+      metadata:
+        reference: Arrêté du 30/04/1956
+      value: 0.08499999999999996
+    '1957-04-01':
+      metadata:
+        reference: Arrêté du 18/04/1957
+      value: 0.1200000000000001
+    '1958-04-01':
+      metadata:
+        reference: Arrêté du 14/04/1958
+      value: 0.07499999999999996
+    '1959-04-01':
+      metadata:
+        reference: Arrêté du 04/05/1959
+      value: 0.135
+    '1960-04-01':
+      metadata:
+        reference: Arrêté du 11/05/1960
+      value: 0.10499999999999998
+    '1961-04-01':
+      metadata:
+        reference: Arrêté du 25/04/1961
+      value: 0.07699999999999996
+    '1962-04-01':
+      metadata:
+        reference: Arrêté du 14/04/1962
+      value: 0.1499999999999999
+    '1963-04-01':
+      metadata:
+        reference: Arrêté du 25/03/1963
+      value: 0.15999999999999992
+    '1964-04-01':
+      metadata:
+        reference: Arrêté du 13/04/1964
+      value: 0.1200000000000001
+    '1965-04-01':
+      metadata:
+        reference: Arrêté du 22/04/1965
+      value: 0.1100000000000001
+    '1966-04-01':
+      metadata:
+        reference: Arrêté du 14/04/1966
+      value: 0.06899999999999995
+    '1967-04-01':
+      metadata:
+        reference: Arrêté du 31/03/1967
+      value: 0.05800000000000005
+    '1968-04-01':
+      metadata:
+        reference: Arrêté du 08/05/1968
+      value: 0.05600000000000005
+    '1969-01-01':
+      metadata:
+        reference: Arrêté du 27/01/1969
+      value: 0.040000000000000036
+    '1969-04-01':
+      metadata:
+        reference: Arrêté du 09/04/1969
+      value: 0.043500000000000094
+    '1969-11-01':
+      metadata:
+        reference: Arrêté du 01/10/1969
+      value: 0.030000000000000027
+    '1970-04-01':
+      metadata:
+        reference: Arrêté du 25/03/1970
+      value: 0.119
+    '1971-04-01':
+      metadata:
+        reference: Arrêté du 04/03/1971
+      value: 0.10099999999999998
+    '1972-04-01':
+      metadata:
+        reference: Arrêté du 14/03/1972
+      value: 0.11499999999999999
+    '1973-04-01':
+      metadata:
+        reference: Arrêté du 02/03/1973
+      value: 0.10899999999999999
+    '1974-01-01':
+      metadata:
+        reference: Décret 73-1212 du 29/12/1973
+      value: 0.08200000000000007
+    '1974-07-01':
+      metadata:
+        reference: Arrêté du 15/07/1974
+      value: 0.06699999999999995
+    '1975-01-01':
+      metadata:
+        reference: Arrêté du 15/07/1974
+      value: 0.06299999999999994
+    '1975-07-01':
+      metadata:
+        reference: Arrêté du 04/07/1975
+      value: 0.09600000000000009
+    '1976-01-01':
+      metadata:
+        reference: Arrêté du 04/07/1975
+      value: 0.08299999999999996
+    '1976-07-01':
+      metadata:
+        reference: Arrêté du 25/06/1976
+      value: 0.08200000000000007
+    '1977-01-01':
+      metadata:
+        reference: Arrêté du 25/06/1976
+      value: 0.08600000000000008
+    '1977-07-01':
+      metadata:
+        reference: Arrêté du 27/06/1977
+      value: 0.07099999999999995
+    '1978-01-01':
+      metadata:
+        reference: Arrêté du 27/06/1977
+      value: 0.08200000000000007
+    '1978-07-01':
+      metadata:
+        reference: Arrêté du 26/06/1978
+      value: 0.04400000000000004
+    '1979-01-01':
+      metadata:
+        reference: Arrêté du 26/06/1978
+      value: 0.06499999999999995
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 28/06/1979
+      value: 0.040000000000000036
+    '1980-01-01':
+      metadata:
+        reference: Arrêté du 28/06/1979
+      value: 0.05400000000000005
+    '1980-07-01':
+      metadata:
+        reference: Arrêté du 30/06/1980
+      value: 0.06400000000000006
+    '1981-01-01':
+      metadata:
+        reference: Arrêté du 31/12/1980
+      value: 0.06699999999999995
+    '1981-07-01':
+      metadata:
+        reference: Arrêté du 30/06/1981
+      value: 0.062000000000000055
+    '1982-01-01':
+      metadata:
+        reference: Arrêté du 30/06/1981
+      value: 0.06699999999999995
+    '1982-07-01':
+      metadata:
+        reference: Arrêté du 06/07/1982
+      value: 0.07400000000000007
+    '1983-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1982
+      value: 0.040000000000000036
+    '1984-01-01':
+      metadata:
+        reference: Arrêté du 17/01/1984
+      value: 0.018000000000000016
+    '1984-07-01':
+      metadata:
+        reference: Arrêté du 17/01/1984
+      value: 0.02200000000000002
+    '1985-01-01':
+      metadata:
+        reference: Arrêté du 28/12/1984
+      value: 0.03400000000000003
+    '1985-07-01':
+      metadata:
+        reference: Arrêté du 28/12/1984
+      value: 0.028000000000000025
+    '1986-01-01':
+      metadata:
+        reference: Arrêté du 08/01/1986
+      value: 0.0129999999999999
+    '1986-10-01':
+      metadata:
+        reference: Arrêté du 09/10/1986
+      value: 0.004999999999999893
+    '1987-01-01':
+      metadata:
+        reference: Loi 87-39 du 27/01/1987, art. 14
+      value: 0.018000000000000016
+    '1987-07-01':
+      metadata:
+        reference: Loi 87-39 du 27/01/1987, art. 14
+      value: 0.010000000000000009
+    '1988-01-01':
+      metadata:
+        reference: Loi 88-16 du 05/01/1988, art. 3
+      value: 0.026000000000000023
+    '1988-07-01':
+      metadata:
+        reference: Loi 88-16 du 05/01/1988, art. 3
+      value: 0.0129999999999999
+    '1989-01-01':
+      metadata:
+        reference: Loi 89-18 du 13/01/1989, art. 10
+      value: 0.0129999999999999
+    '1989-07-01':
+      metadata:
+        reference: Loi 89-18 du 13/01/1989, art. 10
+      value: 0.01200000000000001
+    '1990-01-01':
+      metadata:
+        reference: Loi 90-86 du 23/01/1990, art. 14
+      value: 0.021500000000000075
+    '1990-07-01':
+      metadata:
+        reference: Loi 90-86 du 23/01/1990, art. 14
+      value: 0.0129999999999999
+    '1991-01-01':
+      metadata:
+        reference: Loi 91-73 du 18/01/1991, art. 30
+      value: 0.016999999999999904
+    '1991-07-01':
+      metadata:
+        reference: Loi 91-738 du 31/07/1991, art. 18
+      value: 0.008000000000000007
+    '1992-01-01':
+      metadata:
+        reference: Loi 91-1406 du 31/12/1991, art. 32
+      value: 0.010000000000000009
+    '1992-07-01':
+      metadata:
+        reference: Loi 91-1406 du 31/12/1991, art. 32
+      value: 0.018000000000000016
+    '1993-01-01':
+      metadata:
+        reference: Arrêté du 22/01/1993
+      value: 0.0129999999999999
+    '1994-01-01':
+      metadata:
+        reference: Arrêté du 24/01/1994
+      value: 0.020000000000000018
+    '1995-01-01':
+      metadata:
+        reference: Arrêté du 27/01/1995
+      value: 0.01200000000000001
+    '1995-07-01':
+      metadata:
+        reference: Arrêté du 31/07/1995
+      value: 0.004999999999999893
+    '1996-01-01':
+      metadata:
+        reference: Arrêté du 30/01/1996
+      value: 0.020000000000000018
+    '1997-01-01':
+      metadata:
+        reference: Arrêté du 30/12/1996
+      value: 0.01200000000000001
+    '1998-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1997
+      value: 0.010999999999999899
+    '1999-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1998
+      value: 0.01200000000000001
+    '2000-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1999
+      value: 0.004999999999999893
+    '2001-01-01':
+      metadata:
+        reference: Arrêté du 26/12/2000
+      value: 0.02200000000000002
+    '2002-01-01':
+      metadata:
+        reference: Arrêté du 25/01/2002
+      value: 0.02200000000000002
+    '2003-01-01':
+      metadata:
+        reference: Arrêté du 31/12/2002
+      value: 0.014999999999999902
+    '2004-01-01':
+      metadata:
+        reference: Arrêté du 23/12/2003
+      value: 0.016999999999999904
+    '2005-01-01':
+      metadata:
+        reference: Arrêté du 16/12/2004
+      value: 0.020000000000000018
+    '2006-01-01':
+      metadata:
+        reference: Arrêté du 23/12/2005
+      value: 0.018000000000000016
+    '2007-01-01':
+      metadata:
+        reference: Arrêté du 19/12/2006
+      value: 0.018000000000000016
+    '2008-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2007
+      value: 0.011
+    '2008-07-31':
+      metadata:
+        reference: Lettre ministérielle du 31/07/2008
+      value: 0.008
+    '2009-04-01':
+      metadata:
+        reference: Lettre ministérielle du 25/03/2009
+      value: 0.01
+    '2010-04-01':
+      metadata:
+        reference: Lettre ministérielle 2010/95 du 24/03/2010
+      value: 0.009
+    '2011-04-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2011/108 du 29/03/2011
+      value: 0.021
+    '2012-01-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2012/128 du 28/03/2012
+      value: 0.021
+    '2013-04-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2013/110 du 19/03/2013
+      value: 0.0129999999999999
+    '2015-10-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2015/299 du 01/10/2015
+      value: 0.0009999999999998899
+    '2016-10-01':
+      metadata:
+        reference: Pas de revalorisation au 01/10/2015
+      value: 0.0
+    '2017-10-01':
+      metadata:
+        reference: Circ. interministérielle DSS/SD3A/2017/272 du 15/09/2017
+      value: 0.008000000000000007
+coefficient:
+  description: Coefficient
+  values:
+    '1949-01-01':
+      metadata:
+        reference: Arrêté du 23/06/1949
+      value: 1.2
+    '1950-01-01':
+      metadata:
+        reference: Arrêté du 19/04/1950
+      value: 1.32
+    '1951-01-01':
+      metadata:
+        reference: Arrêté du 16/04/1951
+      value: 1.16
+    '1952-04-01':
+      metadata:
+        reference: Arrêté du 02/10/1952
+      value: 1.1
+    '1953-04-01':
+      metadata:
+        reference: Arrêté du 03/10/1953
+      value: 1.2
+    '1955-04-01':
+      metadata:
+        reference: Arrêté du 08/04/1955
+      value: 1.09
+    '1956-04-01':
+      metadata:
+        reference: Arrêté du 30/04/1956
+      value: 1.085
+    '1957-04-01':
+      metadata:
+        reference: Arrêté du 18/04/1957
+      value: 1.12
+    '1958-04-01':
+      metadata:
+        reference: Arrêté du 14/04/1958
+      value: 1.075
+    '1959-04-01':
+      metadata:
+        reference: Arrêté du 04/05/1959
+      value: 1.135
+    '1960-04-01':
+      metadata:
+        reference: Arrêté du 11/05/1960
+      value: 1.105
+    '1961-04-01':
+      metadata:
+        reference: Arrêté du 25/04/1961
+      value: 1.077
+    '1962-04-01':
+      metadata:
+        reference: Arrêté du 14/04/1962
+      value: 1.15
+    '1963-04-01':
+      metadata:
+        reference: Arrêté du 25/03/1963
+      value: 1.16
+    '1964-04-01':
+      metadata:
+        reference: Arrêté du 13/04/1964
+      value: 1.12
+    '1965-04-01':
+      metadata:
+        reference: Arrêté du 22/04/1965
+      value: 1.11
+    '1966-04-01':
+      metadata:
+        reference: Arrêté du 14/04/1966
+      value: 1.069
+    '1967-04-01':
+      metadata:
+        reference: Arrêté du 31/03/1967
+      value: 1.058
+    '1968-04-01':
+      metadata:
+        reference: Arrêté du 08/05/1968
+      value: 1.056
+    '1969-01-01':
+      metadata:
+        reference: Arrêté du 27/01/1969
+      value: 1.04
+    '1969-04-01':
+      metadata:
+        reference: Arrêté du 09/04/1969
+      value: 1.0435
+    '1969-11-01':
+      metadata:
+        reference: Arrêté du 01/10/1969
+      value: 1.03
+    '1970-04-01':
+      metadata:
+        reference: Arrêté du 25/03/1970
+      value: 1.119
+    '1971-04-01':
+      metadata:
+        reference: Arrêté du 04/03/1971
+      value: 1.101
+    '1972-04-01':
+      metadata:
+        reference: Arrêté du 14/03/1972
+      value: 1.115
+    '1973-04-01':
+      metadata:
+        reference: Arrêté du 02/03/1973
+      value: 1.109
+    '1974-01-01':
+      metadata:
+        reference: Décret 73-1212 du 29/12/1973
+      value: 1.082
+    '1974-07-01':
+      metadata:
+        reference: Arrêté du 15/07/1974
+      value: 1.067
+    '1975-01-01':
+      metadata:
+        reference: Arrêté du 15/07/1974
+      value: 1.063
+    '1975-07-01':
+      metadata:
+        reference: Arrêté du 04/07/1975
+      value: 1.096
+    '1976-01-01':
+      metadata:
+        reference: Arrêté du 04/07/1975
+      value: 1.083
+    '1976-07-01':
+      metadata:
+        reference: Arrêté du 25/06/1976
+      value: 1.082
+    '1977-01-01':
+      metadata:
+        reference: Arrêté du 25/06/1976
+      value: 1.086
+    '1977-07-01':
+      metadata:
+        reference: Arrêté du 27/06/1977
+      value: 1.071
+    '1978-01-01':
+      metadata:
+        reference: Arrêté du 27/06/1977
+      value: 1.082
+    '1978-07-01':
+      metadata:
+        reference: Arrêté du 26/06/1978
+      value: 1.044
+    '1979-01-01':
+      metadata:
+        reference: Arrêté du 26/06/1978
+      value: 1.065
+    '1979-07-01':
+      metadata:
+        reference: Arrêté du 28/06/1979
+      value: 1.04
+    '1980-01-01':
+      metadata:
+        reference: Arrêté du 28/06/1979
+      value: 1.054
+    '1980-07-01':
+      metadata:
+        reference: Arrêté du 30/06/1980
+      value: 1.064
+    '1981-01-01':
+      metadata:
+        reference: Arrêté du 31/12/1980
+      value: 1.067
+    '1981-07-01':
+      metadata:
+        reference: Arrêté du 30/06/1981
+      value: 1.062
+    '1982-01-01':
+      metadata:
+        reference: Arrêté du 30/06/1981
+      value: 1.067
+    '1982-07-01':
+      metadata:
+        reference: Arrêté du 06/07/1982
+      value: 1.074
+    '1983-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1982
+      value: 1.04
+    '1984-01-01':
+      metadata:
+        reference: Arrêté du 17/01/1984
+      value: 1.018
+    '1984-07-01':
+      metadata:
+        reference: Arrêté du 17/01/1984
+      value: 1.022
+    '1985-01-01':
+      metadata:
+        reference: Arrêté du 28/12/1984
+      value: 1.034
+    '1985-07-01':
+      metadata:
+        reference: Arrêté du 28/12/1984
+      value: 1.028
+    '1986-01-01':
+      metadata:
+        reference: Arrêté du 08/01/1986
+      value: 1.013
+    '1986-10-01':
+      metadata:
+        reference: Arrêté du 09/10/1986
+      value: 1.005
+    '1987-01-01':
+      metadata:
+        reference: Loi 87-39 du 27/01/1987, art. 14
+      value: 1.018
+    '1987-07-01':
+      metadata:
+        reference: Loi 87-39 du 27/01/1987, art. 14
+      value: 1.01
+    '1988-01-01':
+      metadata:
+        reference: Loi 88-16 du 05/01/1988, art. 3
+      value: 1.026
+    '1988-07-01':
+      metadata:
+        reference: Loi 88-16 du 05/01/1988, art. 3
+      value: 1.013
+    '1989-01-01':
+      metadata:
+        reference: Loi 89-18 du 13/01/1989, art. 10
+      value: 1.013
+    '1989-07-01':
+      metadata:
+        reference: Loi 89-18 du 13/01/1989, art. 10
+      value: 1.012
+    '1990-01-01':
+      metadata:
+        reference: Loi 90-86 du 23/01/1990, art. 14
+      value: 1.0215
+    '1990-07-01':
+      metadata:
+        reference: Loi 90-86 du 23/01/1990, art. 14
+      value: 1.013
+    '1991-01-01':
+      metadata:
+        reference: Loi 91-73 du 18/01/1991, art. 30
+      value: 1.017
+    '1991-07-01':
+      metadata:
+        reference: Loi 91-738 du 31/07/1991, art. 18
+      value: 1.008
+    '1992-01-01':
+      metadata:
+        reference: Loi 91-1406 du 31/12/1991, art. 32
+      value: 1.01
+    '1992-07-01':
+      metadata:
+        reference: Loi 91-1406 du 31/12/1991, art. 32
+      value: 1.018
+    '1993-01-01':
+      metadata:
+        reference: Arrêté du 22/01/1993
+      value: 1.013
+    '1994-01-01':
+      metadata:
+        reference: Arrêté du 24/01/1994
+      value: 1.02
+    '1995-01-01':
+      metadata:
+        reference: Arrêté du 27/01/1995
+      value: 1.012
+    '1995-07-01':
+      metadata:
+        reference: Arrêté du 31/07/1995
+      value: 1.005
+    '1996-01-01':
+      metadata:
+        reference: Arrêté du 30/01/1996
+      value: 1.02
+    '1997-01-01':
+      metadata:
+        reference: Arrêté du 30/12/1996
+      value: 1.012
+    '1998-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1997
+      value: 1.011
+    '1999-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1998
+      value: 1.012
+    '2000-01-01':
+      metadata:
+        reference: Arrêté du 29/12/1999
+      value: 1.005
+    '2001-01-01':
+      metadata:
+        reference: Arrêté du 26/12/2000
+      value: 1.022
+    '2002-01-01':
+      metadata:
+        reference: Arrêté du 25/01/2002
+      value: 1.022
+    '2003-01-01':
+      metadata:
+        reference: Arrêté du 31/12/2002
+      value: 1.015
+    '2004-01-01':
+      metadata:
+        reference: Arrêté du 23/12/2003
+      value: 1.017
+    '2005-01-01':
+      metadata:
+        reference: Arrêté du 16/12/2004
+      value: 1.02
+    '2006-01-01':
+      metadata:
+        reference: Arrêté du 23/12/2005
+      value: 1.018
+    '2007-01-01':
+      metadata:
+        reference: Arrêté du 19/12/2006
+      value: 1.018
+    '2008-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2007
+      value: 1.011
+    '2008-07-31':
+      metadata:
+        reference: Lettre ministérielle du 31/07/2008
+      value: 1.008
+    '2009-04-01':
+      metadata:
+        reference: Lettre ministérielle du 25/03/2009
+      value: 1.01
+    '2010-04-01':
+      metadata:
+        reference: Lettre ministérielle 2010/95 du 24/03/2010
+      value: 1.009
+    '2011-04-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2011/108 du 29/03/2011
+      value: 1.021
+    '2012-01-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2012/128 du 28/03/2012
+      value: 1.021
+    '2013-04-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2013/110 du 19/03/2013
+      value: 1.013
+    '2015-10-01':
+      metadata:
+        reference: Circ. interministérielle DSS/3A/2015/299 du 01/10/2015
+      value: 1.001
+    '2016-10-01':
+      metadata:
+        reference: Pas de revalorisation au 01/10/2015
+      value: 1.0
+    '2017-10-01':
+      metadata:
+        reference: Circ. interministérielle DSS/SD3A/2017/272 du 15/09/2017
+      value: 1.008
+description: Revalorisation des salaires portés aux comptes
+metadata:
+  rank: 1

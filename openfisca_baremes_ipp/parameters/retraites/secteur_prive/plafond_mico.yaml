@@ -1,0 +1,46 @@
+description: Plafond du minimum contributif
+metadata:
+  rank: 7
+minimum_contributif_plafond_mensuel:
+  annuel:
+    description: Annuel
+    metadata:
+      unit: currency-EUR
+    values:
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-772 du 28 juin 2011
+        value: 1005.0
+      '2012-07-01':
+        metadata:
+          reference: Décret 2012-828 du 28/06/2012
+        value: 1025.1
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-1429 du 19/12/2012
+        value: 1028.17
+      '2014-01-01':
+        metadata:
+          reference: Décret 2013-1190
+        value: 1039.47
+      '2014-02-01':
+        metadata:
+          reference: Décret 2014-129
+        value: 1120.0
+      '2015-01-01':
+        metadata:
+          reference: Circulaire Cnav 2015/4 du 26/01/2015
+        value: 1128.96
+      '2016-01-01':
+        metadata:
+          reference: Circulaire Cnav 2015/64 du 18/12/2015
+        value: 1135.73
+      '2017-01-01':
+        metadata:
+          reference: ​​Circulaire Cnav 2016/55 du 30/12/2016
+        value: 1145.95
+      '2018-01-01':
+        metadata:
+          reference: ​Circulaire Cnav 2017/44 du 27/12/2017
+        value: 1160.04
+  description: 'Minimum contributif: plafond mensuel'

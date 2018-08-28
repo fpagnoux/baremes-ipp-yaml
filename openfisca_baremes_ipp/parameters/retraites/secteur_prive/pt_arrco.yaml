@@ -1,0 +1,125 @@
+description: Valeur du point ARRCO
+metadata:
+  rank: 13
+valeur_point_arrco_en_euros:
+  description: Valeur du point ARRCO (en euros)
+  metadata:
+    unit: currency-EUR
+  values:
+    '1999-01-01':
+      metadata: {}
+      value: 1.0
+    '1999-04-01':
+      metadata: {}
+      value: 1.0089990654875243
+    '2000-04-01':
+      metadata: {}
+      value: 1.0170941083028309
+    '2001-04-01':
+      metadata: {}
+      value: 1.0364
+    '2002-04-01':
+      metadata: {}
+      value: 1.053
+    '2003-04-01':
+      metadata: {}
+      value: 1.0698
+    '2004-04-01':
+      metadata: {}
+      value: 1.0886
+    '2005-04-01':
+      metadata:
+        reference: Circ. Arrco 2005-02-DT du 21/03/2005
+      value: 1.1104
+    '2006-04-01':
+      metadata:
+        reference: Circ. Arrco 2006-01-DRE du 19/05/2006
+      value: 1.1287
+    '2007-04-01':
+      metadata:
+        reference: Circ. Arrco 2007-02-DT du 14/03/2007
+      value: 1.148
+    '2008-04-01':
+      metadata:
+        reference: Circ. Arrco 2008-02-DT du 14/03/2008
+      value: 1.1648
+    '2009-04-01':
+      metadata:
+        reference: Circ. Arrco 2009-01-DT du 18/03/2009
+      value: 1.1799
+    '2010-04-01':
+      metadata:
+        reference: Circ. Arrco 2010-01-DT du 18/03/2010
+      value: 1.1884
+    '2011-04-01':
+      metadata:
+        reference: Circ. Arrco 2011-01-DT du 14/04/2011
+      value: 1.2135
+    '2012-04-01':
+      metadata:
+        reference: Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
+      value: 1.2414
+    '2013-04-01':
+      metadata:
+        reference: Circ. Agirc-Arrco 2013-6-DT du 02/04/2013
+      value: 1.2513
+valeur_point_arrco_en_nominal:
+  description: Valeur du point ARRCO (en nominal)
+  values:
+    '1999-01-01':
+      metadata: {}
+      value: 6.55957
+    '1999-04-01':
+      metadata: {}
+      value: 6.6186
+    '2000-04-01':
+      metadata: {}
+      value: 6.6717
+    '2001-04-01':
+      metadata: {}
+      value: 1.0364
+    '2002-04-01':
+      metadata: {}
+      value: 1.053
+    '2003-04-01':
+      metadata: {}
+      value: 1.0698
+    '2004-04-01':
+      metadata: {}
+      value: 1.0886
+    '2005-04-01':
+      metadata:
+        reference: Circ. Arrco 2005-02-DT du 21/03/2005
+      value: 1.1104
+    '2006-04-01':
+      metadata:
+        reference: Circ. Arrco 2006-01-DRE du 19/05/2006
+      value: 1.1287
+    '2007-04-01':
+      metadata:
+        reference: Circ. Arrco 2007-02-DT du 14/03/2007
+      value: 1.148
+    '2008-04-01':
+      metadata:
+        reference: Circ. Arrco 2008-02-DT du 14/03/2008
+      value: 1.1648
+    '2009-04-01':
+      metadata:
+        reference: Circ. Arrco 2009-01-DT du 18/03/2009
+      value: 1.1799
+    '2010-04-01':
+      metadata:
+        reference: Circ. Arrco 2010-01-DT du 18/03/2010
+      value: 1.1884
+    '2011-04-01':
+      metadata:
+        reference: Circ. Arrco 2011-01-DT du 14/04/2011
+      value: 1.2135
+    '2012-04-01':
+      metadata:
+        reference: Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
+      value: 1.2414
+    '2013-04-01':
+      metadata:
+        reference: Circ. Agirc-Arrco 2013-6-DT du 02/04/2013
+      value: 1.2513

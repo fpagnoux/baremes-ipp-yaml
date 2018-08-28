@@ -1,0 +1,97 @@
+description: 'Decote FP '
+metadata:
+  rank: 5
+taux_decote_selon_annee_age_ouverture_droits:
+  description: Taux de décote selon l'année de l'âge d'ouverture des droits
+  taux_minore_taux_plein_1_decote_nombre_trimestres_manquants:
+    '17':
+      description: '17'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.01
+    '2006':
+      description: '2006'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.00125
+    '2007':
+      description: '2007'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.0025
+    '2008':
+      description: '2008'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.00375
+    '2009':
+      description: '2009'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.005
+    '2010':
+      description: '2010'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.0065
+    '2011':
+      description: '2011'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.0075
+    '2012':
+      description: '2012'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.00875
+    '2014':
+      description: '2014'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.01125
+    '2015':
+      description: '2015'
+      metadata:
+        unit: /1
+      values:
+        '2006-01-01':
+          metadata:
+            reference: Loi 2003-775 du 21/08/2003, art. 66
+          value: 0.0125
+    description: taux minoré = taux plein * (1 - decote * (nombre de trimestres manquants))
