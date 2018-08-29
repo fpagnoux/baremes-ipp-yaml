@@ -17,7 +17,6 @@ montant_minimal_apres_degressivite:
           reference: Circulaire 75-36 - décision du 23/09/1975
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1976-04-05':
         metadata:
@@ -36,7 +35,6 @@ montant_minimal_apres_degressivite:
           reference: Circulaire 77-28 - décision du 23/09/1977
         value: null
       '1978-01-01':
-        metadata: {}
         value: null
       '1978-04-03':
         metadata:
@@ -275,7 +273,6 @@ montant_minimal_apres_degressivite:
           reference: Circulaire 75-36 - décision du 23/09/1975
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1976-04-05':
         metadata:
@@ -294,7 +291,6 @@ montant_minimal_apres_degressivite:
           reference: Circulaire 77-28 - décision du 23/09/1977
         value: null
       '1978-01-01':
-        metadata: {}
         value: null
       '1978-04-03':
         metadata:
@@ -533,7 +529,6 @@ montant_minimal_are_formation:
         reference: Circulaire 75-36 - décision du 23/09/1975
       value: null
     '1976-01-01':
-      metadata: {}
       value: null
     '1976-04-05':
       metadata:
@@ -552,7 +547,6 @@ montant_minimal_are_formation:
         reference: Circulaire 77-28 - décision du 23/09/1977
       value: null
     '1978-01-01':
-      metadata: {}
       value: null
     '1978-04-03':
       metadata:
@@ -794,7 +788,6 @@ montant_minimum:
           reference: Circulaire 75-36 - décision du 23/09/1975
         value: 21.0
       '1976-01-01':
-        metadata: {}
         value: 21.0
       '1976-04-05':
         metadata:
@@ -813,7 +806,6 @@ montant_minimum:
           reference: Circulaire 77-28 - décision du 23/09/1977
         value: 27.6
       '1978-01-01':
-        metadata: {}
         value: 27.6
       '1978-04-03':
         metadata:
@@ -1055,7 +1047,6 @@ montant_minimum:
           reference: Circulaire 75-36 - décision du 23/09/1975
         value: 18.26
       '1976-01-01':
-        metadata: {}
         value: 18.26
       '1976-04-05':
         metadata:
@@ -1074,7 +1065,6 @@ montant_minimum:
           reference: Circulaire 77-28 - décision du 23/09/1977
         value: 24.0
       '1978-01-01':
-        metadata: {}
         value: 24.0
       '1978-04-03':
         metadata:
@@ -1317,7 +1307,6 @@ partie_fixe:
           reference: Circulaire 75-36 - décision du 23/09/1975
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1976-04-05':
         metadata:
@@ -1336,7 +1325,6 @@ partie_fixe:
           reference: Circulaire 77-28 - décision du 23/09/1977
         value: null
       '1978-01-01':
-        metadata: {}
         value: null
       '1978-04-03':
         metadata:
@@ -1577,7 +1565,6 @@ partie_fixe:
           reference: Circulaire 75-36 - décision du 23/09/1975
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1976-04-05':
         metadata:
@@ -1596,7 +1583,6 @@ partie_fixe:
           reference: Circulaire 77-28 - décision du 23/09/1977
         value: null
       '1978-01-01':
-        metadata: {}
         value: null
       '1978-04-03':
         metadata:

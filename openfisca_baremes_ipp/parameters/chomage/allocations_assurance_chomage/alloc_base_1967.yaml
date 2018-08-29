@@ -41,7 +41,6 @@ montant_minimum:
           reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
         value: 6.6
       '1968-01-01':
-        metadata: {}
         value: null
   villes_moins_5000_hab:
     description: Villes de moins de 5000 hab
@@ -81,7 +80,6 @@ montant_minimum:
           reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
         value: 6.4
       '1968-01-01':
-        metadata: {}
         value: null
   villes_plus_5000_hab:
     description: Villes de plus de 5000 hab
@@ -121,5 +119,4 @@ montant_minimum:
           reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
         value: 6.4
       '1968-01-01':
-        metadata: {}
         value: null

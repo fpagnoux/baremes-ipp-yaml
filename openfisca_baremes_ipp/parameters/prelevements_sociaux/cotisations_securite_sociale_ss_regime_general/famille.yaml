@@ -9,7 +9,6 @@ sous_pss:
       unit: /1
     values:
       '1946-07-01':
-        metadata: {}
         value: 0.12
       '1946-10-01':
         metadata:
@@ -20,7 +19,6 @@ sous_pss:
           reference: Arrêté du 24/09/1947
         value: 0.13
       '1948-03-01':
-        metadata: {}
         value: 0.14
       '1948-10-01':
         metadata:
@@ -86,7 +84,6 @@ tout_salaire:
       unit: /1
     values:
       '1946-07-01':
-        metadata: {}
         value: null
       '1946-10-01':
         metadata:
@@ -97,7 +94,6 @@ tout_salaire:
           reference: Arrêté du 24/09/1947
         value: null
       '1948-03-01':
-        metadata: {}
         value: null
       '1948-10-01':
         metadata:
@@ -161,7 +157,6 @@ tout_salaire:
       unit: /1
     values:
       '1946-07-01':
-        metadata: {}
         value: null
       '1946-10-01':
         metadata:
@@ -172,7 +167,6 @@ tout_salaire:
           reference: Arrêté du 24/09/1947
         value: null
       '1948-03-01':
-        metadata: {}
         value: null
       '1948-10-01':
         metadata:

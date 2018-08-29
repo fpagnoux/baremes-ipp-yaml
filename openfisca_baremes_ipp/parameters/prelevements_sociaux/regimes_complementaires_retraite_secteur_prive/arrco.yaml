@@ -7,19 +7,14 @@ taux_appel:
     unit: /1
   values:
     '1962-01-01':
-      metadata: {}
       value: 1.0
     '1971-01-01':
-      metadata: {}
       value: 1.025
     '1972-01-01':
-      metadata: {}
       value: 1.05
     '1973-01-01':
-      metadata: {}
       value: 1.075
     '1974-01-01':
-      metadata: {}
       value: 1.1
     '1982-01-01':
       metadata:
@@ -30,7 +25,6 @@ taux_appel:
         reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
       value: 1.15
     '1986-01-01':
-      metadata: {}
       value: 1.15
     '1987-01-01':
       metadata:
@@ -41,7 +35,6 @@ taux_appel:
         reference: Accords ARRCO du 12/11/86
       value: 1.2
     '1990-01-01':
-      metadata: {}
       value: 1.2
     '1991-01-01':
       metadata:
@@ -52,7 +45,6 @@ taux_appel:
         reference: Accords ARRCO du 12/11/86 et du 01/12/89
       value: 1.25
     '1995-01-01':
-      metadata: {}
       value: 1.25
     '1996-01-01':
       metadata:
@@ -78,10 +70,8 @@ taux_contractuels:
       unit: /1
     values:
       '1962-01-01':
-        metadata: {}
         value: 0.025
       '1967-01-01':
-        metadata: {}
         value: 0.04
       '1982-01-01':
         metadata:
@@ -92,21 +82,18 @@ taux_contractuels:
           reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
         value: 0.04
       '1986-01-01':
-        metadata: {}
         value: 0.04
       '1987-01-01':
         metadata:
           reference: Accords ARRCO du 12/11/86
         value: 0.04
       '1990-01-01':
-        metadata: {}
         value: 0.04
       '1991-01-01':
         metadata:
           reference: Accords ARRCO du 12/11/86 et du 01/12/89
         value: 0.04
       '1995-01-01':
-        metadata: {}
         value: 0.04
       '1996-01-01':
         metadata:
@@ -140,7 +127,6 @@ taux_contractuels:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: null
         '1982-01-01':
           metadata:
@@ -151,21 +137,18 @@ taux_contractuels:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: null
         '1986-01-01':
-          metadata: {}
           value: null
         '1987-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86
           value: null
         '1990-01-01':
-          metadata: {}
           value: null
         '1991-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: null
         '1995-01-01':
-          metadata: {}
           value: null
         '1996-01-01':
           metadata:
@@ -201,7 +184,6 @@ taux_contractuels:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: null
         '1982-01-01':
           metadata:
@@ -212,21 +194,18 @@ taux_contractuels:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: null
         '1986-01-01':
-          metadata: {}
           value: null
         '1987-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86
           value: null
         '1990-01-01':
-          metadata: {}
           value: null
         '1991-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: null
         '1995-01-01':
-          metadata: {}
           value: null
         '1996-01-01':
           metadata:
@@ -276,22 +255,16 @@ taux_effectifs:
       unit: /1
     values:
       '1962-01-01':
-        metadata: {}
         value: 0.025
       '1967-01-01':
-        metadata: {}
         value: 0.04
       '1971-01-01':
-        metadata: {}
         value: 0.040999999999999995
       '1972-01-01':
-        metadata: {}
         value: 0.042
       '1973-01-01':
-        metadata: {}
         value: 0.043
       '1974-01-01':
-        metadata: {}
         value: 0.044000000000000004
       '1982-01-01':
         metadata:
@@ -302,7 +275,6 @@ taux_effectifs:
           reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
         value: 0.046
       '1986-01-01':
-        metadata: {}
         value: 0.046
       '1987-01-01':
         metadata:
@@ -313,7 +285,6 @@ taux_effectifs:
           reference: Accords ARRCO du 12/11/86
         value: 0.048
       '1990-01-01':
-        metadata: {}
         value: 0.048
       '1991-01-01':
         metadata:
@@ -324,7 +295,6 @@ taux_effectifs:
           reference: Accords ARRCO du 12/11/86 et du 01/12/89
         value: 0.05
       '1995-01-01':
-        metadata: {}
         value: 0.05
       '1996-01-01':
         metadata:
@@ -358,7 +328,6 @@ taux_effectifs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: null
         '1982-01-01':
           metadata:
@@ -369,21 +338,18 @@ taux_effectifs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: null
         '1986-01-01':
-          metadata: {}
           value: null
         '1987-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86
           value: null
         '1990-01-01':
-          metadata: {}
           value: null
         '1991-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: null
         '1995-01-01':
-          metadata: {}
           value: null
         '1996-01-01':
           metadata:
@@ -419,7 +385,6 @@ taux_effectifs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: null
         '1982-01-01':
           metadata:
@@ -430,21 +395,18 @@ taux_effectifs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: null
         '1986-01-01':
-          metadata: {}
           value: null
         '1987-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86
           value: null
         '1990-01-01':
-          metadata: {}
           value: null
         '1991-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: null
         '1995-01-01':
-          metadata: {}
           value: null
         '1996-01-01':
           metadata:
@@ -496,22 +458,16 @@ taux_effectifs_salaries_employeurs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: 0.015
         '1967-01-01':
-          metadata: {}
           value: 0.024
         '1971-01-01':
-          metadata: {}
           value: 0.024599999999999997
         '1972-01-01':
-          metadata: {}
           value: 0.0252
         '1973-01-01':
-          metadata: {}
           value: 0.025799999999999997
         '1974-01-01':
-          metadata: {}
           value: 0.026400000000000003
         '1982-01-01':
           metadata:
@@ -522,7 +478,6 @@ taux_effectifs_salaries_employeurs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: 0.0276
         '1986-01-01':
-          metadata: {}
           value: 0.0276
         '1987-01-01':
           metadata:
@@ -533,7 +488,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86
           value: 0.0288
         '1990-01-01':
-          metadata: {}
           value: 0.0288
         '1991-01-01':
           metadata:
@@ -544,7 +498,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: 0.03
         '1995-01-01':
-          metadata: {}
           value: 0.03
         '1996-01-01':
           metadata:
@@ -576,22 +529,16 @@ taux_effectifs_salaries_employeurs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: 0.010000000000000002
         '1967-01-01':
-          metadata: {}
           value: 0.016
         '1971-01-01':
-          metadata: {}
           value: 0.016399999999999998
         '1972-01-01':
-          metadata: {}
           value: 0.016800000000000002
         '1973-01-01':
-          metadata: {}
           value: 0.0172
         '1974-01-01':
-          metadata: {}
           value: 0.0176
         '1982-01-01':
           metadata:
@@ -602,7 +549,6 @@ taux_effectifs_salaries_employeurs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: 0.0184
         '1986-01-01':
-          metadata: {}
           value: 0.0184
         '1987-01-01':
           metadata:
@@ -613,7 +559,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86
           value: 0.019200000000000002
         '1990-01-01':
-          metadata: {}
           value: 0.019200000000000002
         '1991-01-01':
           metadata:
@@ -624,7 +569,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: 0.020000000000000004
         '1995-01-01':
-          metadata: {}
           value: 0.020000000000000004
         '1996-01-01':
           metadata:
@@ -658,7 +602,6 @@ taux_effectifs_salaries_employeurs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: null
         '1982-01-01':
           metadata:
@@ -669,21 +612,18 @@ taux_effectifs_salaries_employeurs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: null
         '1986-01-01':
-          metadata: {}
           value: null
         '1987-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86
           value: null
         '1990-01-01':
-          metadata: {}
           value: null
         '1991-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: null
         '1995-01-01':
-          metadata: {}
           value: null
         '1996-01-01':
           metadata:
@@ -715,7 +655,6 @@ taux_effectifs_salaries_employeurs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: null
         '1982-01-01':
           metadata:
@@ -726,21 +665,18 @@ taux_effectifs_salaries_employeurs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: null
         '1986-01-01':
-          metadata: {}
           value: null
         '1987-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86
           value: null
         '1990-01-01':
-          metadata: {}
           value: null
         '1991-01-01':
           metadata:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: null
         '1995-01-01':
-          metadata: {}
           value: null
         '1996-01-01':
           metadata:
@@ -774,22 +710,16 @@ taux_effectifs_salaries_employeurs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: 0.015
         '1967-01-01':
-          metadata: {}
           value: 0.024
         '1971-01-01':
-          metadata: {}
           value: 0.024599999999999997
         '1972-01-01':
-          metadata: {}
           value: 0.0252
         '1973-01-01':
-          metadata: {}
           value: 0.025799999999999997
         '1974-01-01':
-          metadata: {}
           value: 0.026400000000000003
         '1982-01-01':
           metadata:
@@ -800,7 +730,6 @@ taux_effectifs_salaries_employeurs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: 0.0276
         '1986-01-01':
-          metadata: {}
           value: 0.0276
         '1987-01-01':
           metadata:
@@ -811,7 +740,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86
           value: 0.0288
         '1990-01-01':
-          metadata: {}
           value: 0.0288
         '1991-01-01':
           metadata:
@@ -822,7 +750,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: 0.03
         '1995-01-01':
-          metadata: {}
           value: 0.03
         '1996-01-01':
           metadata:
@@ -870,22 +797,16 @@ taux_effectifs_salaries_employeurs:
         unit: /1
       values:
         '1962-01-01':
-          metadata: {}
           value: 0.010000000000000002
         '1967-01-01':
-          metadata: {}
           value: 0.016
         '1971-01-01':
-          metadata: {}
           value: 0.016399999999999998
         '1972-01-01':
-          metadata: {}
           value: 0.016800000000000002
         '1973-01-01':
-          metadata: {}
           value: 0.0172
         '1974-01-01':
-          metadata: {}
           value: 0.0176
         '1982-01-01':
           metadata:
@@ -896,7 +817,6 @@ taux_effectifs_salaries_employeurs:
             reference: Lettre-circulaire ARRCO 82-28 du 09/07/82
           value: 0.0184
         '1986-01-01':
-          metadata: {}
           value: 0.0184
         '1987-01-01':
           metadata:
@@ -907,7 +827,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86
           value: 0.019200000000000002
         '1990-01-01':
-          metadata: {}
           value: 0.019200000000000002
         '1991-01-01':
           metadata:
@@ -918,7 +837,6 @@ taux_effectifs_salaries_employeurs:
             reference: Accords ARRCO du 12/11/86 et du 01/12/89
           value: 0.020000000000000004
         '1995-01-01':
-          metadata: {}
           value: 0.020000000000000004
         '1996-01-01':
           metadata:

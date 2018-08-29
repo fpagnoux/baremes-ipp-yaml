@@ -15,14 +15,12 @@ montant_minimum:
         reference: Circulaire 72-19 - décision du 20 /06/ 1972
       value: 21.05
     '1972-11-06':
-      metadata: {}
       value: 22.43
     '1973-01-01':
       metadata:
         reference: Circulaire 72-35 - décision du 28/11/1972
       value: 22.43
     '1973-02-01':
-      metadata: {}
       value: 23.12
     '1973-07-02':
       metadata:
@@ -33,7 +31,6 @@ montant_minimum:
         reference: Circulaire 73-30 - décision du 04/12/1973
       value: 23.89
     '1974-01-14':
-      metadata: {}
       value: 25.15
     '1974-07-01':
       metadata:
@@ -44,7 +41,6 @@ montant_minimum:
         reference: Circulaire 74-31 - décision du 23/12/1974
       value: 31.63
     '1975-01-13':
-      metadata: {}
       value: 33.93
     '1975-06-02':
       metadata:
@@ -55,7 +51,6 @@ montant_minimum:
         reference: Circulaire 75-36 - décision du 23/09/1975
       value: 37.95
     '1976-02-23':
-      metadata: {}
       value: 39.68
     '1976-04-05':
       metadata:
@@ -74,7 +69,6 @@ montant_minimum:
         reference: Circulaire 77-28 - décision du 23/09/1977
       value: 48.99
     '1978-02-20':
-      metadata: {}
       value: 50.72
     '1978-04-03':
       metadata:
@@ -222,16 +216,12 @@ montant_minimum:
         reference: Dir. 25-95 -  décision ASF du 01/03/1995
       value: 157.36
     '1996-01-01':
-      metadata: {}
       value: 159.72
     '1997-01-01':
-      metadata: {}
       value: 161.8
     '1998-01-01':
-      metadata: {}
       value: 163.98
     '1999-01-01':
-      metadata: {}
       value: 165.62
 revalorisation_sjr:
   description: Revalorisation SJR
@@ -247,14 +237,12 @@ revalorisation_sjr:
         reference: Circulaire 72-19 - décision du 20 /06/ 1972
       value: 0.06
     '1972-11-06':
-      metadata: {}
       value: null
     '1973-01-01':
       metadata:
         reference: Circulaire 72-35 - décision du 28/11/1972
       value: 0.06
     '1973-02-01':
-      metadata: {}
       value: null
     '1973-07-02':
       metadata:
@@ -265,7 +253,6 @@ revalorisation_sjr:
         reference: Circulaire 73-30 - décision du 04/12/1973
       value: 0.08
     '1974-01-14':
-      metadata: {}
       value: null
     '1974-07-01':
       metadata:
@@ -276,7 +263,6 @@ revalorisation_sjr:
         reference: Circulaire 74-31 - décision du 23/12/1974
       value: 0.07
     '1975-01-13':
-      metadata: {}
       value: null
     '1975-06-02':
       metadata:
@@ -287,7 +273,6 @@ revalorisation_sjr:
         reference: Circulaire 75-36 - décision du 23/09/1975
       value: 0.07
     '1976-02-23':
-      metadata: {}
       value: null
     '1976-04-05':
       metadata:
@@ -306,7 +291,6 @@ revalorisation_sjr:
         reference: Circulaire 77-28 - décision du 23/09/1977
       value: 0.056
     '1978-02-20':
-      metadata: {}
       value: null
     '1978-04-03':
       metadata:
@@ -454,14 +438,10 @@ revalorisation_sjr:
         reference: Dir. 25-95 -  décision ASF du 01/03/1995
       value: 0.01
     '1996-01-01':
-      metadata: {}
       value: 0.015
     '1997-01-01':
-      metadata: {}
       value: 0.013
     '1998-01-01':
-      metadata: {}
       value: 0.0135
     '1999-01-01':
-      metadata: {}
       value: 0.01

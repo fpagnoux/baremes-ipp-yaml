@@ -151,7 +151,6 @@ montant_minimum:
           reference: Circulaire 2009-16 du 09/07/2009
         value: 29.75
       '2010-04-01':
-        metadata: {}
         value: 30.02
       '2011-04-01':
         metadata:
@@ -313,7 +312,6 @@ montant_minimum:
           reference: Circulaire 2009-16 du 09/07/2009
         value: 14.87
       '2010-04-01':
-        metadata: {}
         value: 15.02
       '2011-04-01':
         metadata:

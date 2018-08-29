@@ -4,7 +4,6 @@ artistes:
     unit: /1
   values:
     '1975-01-01':
-      metadata: {}
       value: 0.3
 description: Abattement de cotisations SS pour les artistes, médecins et journalistes
   (1975-2017)
@@ -14,7 +13,6 @@ journalistes:
     unit: /1
   values:
     '1975-01-01':
-      metadata: {}
       value: 0.2
 medecins:
   description: Médecins
@@ -22,7 +20,6 @@ medecins:
     unit: /1
   values:
     '1975-01-01':
-      metadata: {}
       value: 0.3
 metadata:
   rank: 11

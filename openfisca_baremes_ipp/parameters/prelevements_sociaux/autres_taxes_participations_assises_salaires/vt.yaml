@@ -101,7 +101,6 @@ bourg_en_bresse:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.0075
     '2014-07-01':
-      metadata: {}
       value: 0.0075
     '2015-07-01':
       metadata:
@@ -223,7 +222,6 @@ essonne:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.016
     '2014-07-01':
-      metadata: {}
       value: 0.017
     '2015-07-01':
       metadata:
@@ -344,7 +342,6 @@ hauts_seine:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.027
     '2014-07-01':
-      metadata: {}
       value: 0.027
     '2015-07-01':
       metadata:
@@ -461,7 +458,6 @@ lyon:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.0175
     '2014-07-01':
-      metadata: {}
       value: 0.0175
     '2015-07-01':
       metadata:
@@ -586,7 +582,6 @@ marseille:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.02
     '2014-07-01':
-      metadata: {}
       value: 0.02
     '2015-07-01':
       metadata:
@@ -709,7 +704,6 @@ paris:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.027
     '2014-07-01':
-      metadata: {}
       value: 0.027
     '2015-07-01':
       metadata:
@@ -830,7 +824,6 @@ seine_saint_denis:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.018
     '2014-07-01':
-      metadata: {}
       value: 0.018
     '2015-07-01':
       metadata:
@@ -949,7 +942,6 @@ taux_maximal_hors_ile_france:
           reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
         value: null
       '2014-07-01':
-        metadata: {}
         value: null
       '2015-07-01':
         metadata:
@@ -1066,7 +1058,6 @@ taux_maximal_hors_ile_france:
           reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
         value: 0.0175
       '2014-07-01':
-        metadata: {}
         value: 0.0175
       '2015-07-01':
         metadata:
@@ -1191,7 +1182,6 @@ toulouse:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.02
     '2014-07-01':
-      metadata: {}
       value: 0.02
     '2015-07-01':
       metadata:
@@ -1312,7 +1302,6 @@ val_marne:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.018
     '2014-07-01':
-      metadata: {}
       value: 0.018
     '2015-07-01':
       metadata:
@@ -1433,7 +1422,6 @@ val_oise:
         reference: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
       value: 0.016
     '2014-07-01':
-      metadata: {}
       value: 0.017
     '2015-07-01':
       metadata:

@@ -13,7 +13,6 @@
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -45,7 +44,6 @@
             art. 2
         value: 0.002
       '2004-01-01':
-        metadata: {}
         value: 0.002
       '2005-01-01':
         metadata:
@@ -53,7 +51,6 @@
             du 04/05/2004, art. 18
         value: 0.002
       '2008-05-01':
-        metadata: {}
         value: 0.002
       '2015-01-01':
         metadata:
@@ -77,7 +74,6 @@
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -109,7 +105,6 @@
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -117,7 +112,6 @@
             du 04/05/2004, art. 18
         value: 0.005
       '2008-05-01':
-        metadata: {}
         value: 0.005
       '2015-01-01':
         metadata:
@@ -141,7 +135,6 @@
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -173,7 +166,6 @@
             art. 2
         value: 0.004
       '2004-01-01':
-        metadata: {}
         value: 0.004
       '2005-01-01':
         metadata:
@@ -181,7 +173,6 @@
             du 04/05/2004, art. 18
         value: 0.004
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -207,7 +198,6 @@ decomposition_taux_employeur_50_300_salaries:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -239,7 +229,6 @@ decomposition_taux_employeur_50_300_salaries:
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -247,7 +236,6 @@ decomposition_taux_employeur_50_300_salaries:
             du 04/05/2004, art. 18
         value: null
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -271,7 +259,6 @@ decomposition_taux_employeur_50_300_salaries:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -303,7 +290,6 @@ decomposition_taux_employeur_50_300_salaries:
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -311,7 +297,6 @@ decomposition_taux_employeur_50_300_salaries:
             du 04/05/2004, art. 18
         value: null
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -336,7 +321,6 @@ decomposition_taux_employeur_50_300_salaries:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -368,7 +352,6 @@ decomposition_taux_employeur_50_300_salaries:
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -376,7 +359,6 @@ decomposition_taux_employeur_50_300_salaries:
             du 04/05/2004, art. 18
         value: null
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -400,7 +382,6 @@ decomposition_taux_employeur_50_300_salaries:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -432,7 +413,6 @@ decomposition_taux_employeur_50_300_salaries:
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -440,7 +420,6 @@ decomposition_taux_employeur_50_300_salaries:
             du 04/05/2004, art. 18
         value: null
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -464,7 +443,6 @@ decomposition_taux_employeur_50_300_salaries:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -496,7 +474,6 @@ decomposition_taux_employeur_50_300_salaries:
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -504,7 +481,6 @@ decomposition_taux_employeur_50_300_salaries:
             du 04/05/2004, art. 18
         value: null
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -531,7 +507,6 @@ employeur_tout_salaire:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: 0.01
       '1976-01-01':
-        metadata: {}
         value: 0.01
       '1978-01-01':
         metadata:
@@ -563,7 +538,6 @@ employeur_tout_salaire:
             art. 2
         value: 0.015
       '2004-01-01':
-        metadata: {}
         value: 0.016
       '2005-01-01':
         metadata:
@@ -571,7 +545,6 @@ employeur_tout_salaire:
             du 04/05/2004, art. 18
         value: 0.0105
       '2008-05-01':
-        metadata: {}
         value: 0.0105
       '2015-01-01':
         metadata:
@@ -595,7 +568,6 @@ employeur_tout_salaire:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -627,7 +599,6 @@ employeur_tout_salaire:
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -635,7 +606,6 @@ employeur_tout_salaire:
             du 04/05/2004, art. 18
         value: null
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -659,7 +629,6 @@ employeur_tout_salaire:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: 0.01
       '1976-01-01':
-        metadata: {}
         value: 0.01
       '1978-01-01':
         metadata:
@@ -691,7 +660,6 @@ employeur_tout_salaire:
             art. 2
         value: 0.015
       '2004-01-01':
-        metadata: {}
         value: 0.016
       '2005-01-01':
         metadata:
@@ -699,7 +667,6 @@ employeur_tout_salaire:
             du 04/05/2004, art. 18
         value: 0.016
       '2008-05-01':
-        metadata: {}
         value: 0.016
       '2015-01-01':
         metadata:
@@ -724,7 +691,6 @@ employeur_tout_salaire:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -756,7 +722,6 @@ employeur_tout_salaire:
             art. 2
         value: 0.0015
       '2004-01-01':
-        metadata: {}
         value: 0.004
       '2005-01-01':
         metadata:
@@ -764,7 +729,6 @@ employeur_tout_salaire:
             du 04/05/2004, art. 18
         value: 0.0055
       '2008-05-01':
-        metadata: {}
         value: 0.0055
       '2015-01-01':
         metadata:
@@ -788,7 +752,6 @@ employeur_tout_salaire:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -820,7 +783,6 @@ employeur_tout_salaire:
             art. 2
         value: null
       '2004-01-01':
-        metadata: {}
         value: null
       '2005-01-01':
         metadata:
@@ -828,7 +790,6 @@ employeur_tout_salaire:
             du 04/05/2004, art. 18
         value: null
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -855,7 +816,6 @@ moins_10_salaries:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -887,7 +847,6 @@ moins_10_salaries:
             art. 2
         value: 0.001
       '2004-01-01':
-        metadata: {}
         value: 0.0
       '2005-01-01':
         metadata:
@@ -895,7 +854,6 @@ moins_10_salaries:
             du 04/05/2004, art. 18
         value: 0.0
       '2008-05-01':
-        metadata: {}
         value: null
       '2015-01-01':
         metadata:
@@ -922,7 +880,6 @@ toute_entreprise:
           reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
         value: null
       '1976-01-01':
-        metadata: {}
         value: null
       '1978-01-01':
         metadata:
@@ -954,7 +911,6 @@ toute_entreprise:
             art. 2
         value: 0.01
       '2004-01-01':
-        metadata: {}
         value: 0.01
       '2005-01-01':
         metadata:
@@ -962,7 +918,6 @@ toute_entreprise:
             du 04/05/2004, art. 18
         value: 0.01
       '2008-05-01':
-        metadata: {}
         value: 0.01
       '2015-01-01':
         metadata:

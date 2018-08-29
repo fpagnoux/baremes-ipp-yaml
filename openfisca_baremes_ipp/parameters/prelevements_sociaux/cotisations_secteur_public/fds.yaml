@@ -3,7 +3,6 @@ indice_majore_reference:
   description: Indice majoré de référence
   values:
     '1982-11-01':
-      metadata: {}
       value: null
     '1989-09-01':
       metadata:
@@ -22,7 +21,6 @@ indice_majore_reference:
         reference: Décret 90-1058 du 22/11/1990
       value: 254.0
     '1991-02-01':
-      metadata: {}
       value: 259.0
     '1991-08-01':
       metadata:
@@ -65,7 +63,6 @@ indice_majore_reference:
         reference: Décret 97-877 du 25/09/1997
       value: 261.0
     '1998-01-01':
-      metadata: {}
       value: 280.0
     '1998-04-01':
       metadata:
@@ -197,58 +194,40 @@ seuil_assujettissement:
       '2002-01-01': currency-EUR
   values:
     '1982-11-01':
-      metadata: {}
       value: 4485.25
     '1982-12-01':
-      metadata: {}
       value: 4535.08
     '1983-01-01':
-      metadata: {}
       value: 4629.41
     '1983-04-04':
-      metadata: {}
       value: 4751.66
     '1983-07-06':
-      metadata: {}
       value: 4843.0
     '1983-11-07':
-      metadata: {}
       value: 4983.75
     '1984-01-08':
-      metadata: {}
       value: 5074.25
     '1984-04-10':
-      metadata: {}
       value: 5125.16
     '1984-11-13':
-      metadata: {}
       value: 5226.58
     '1985-02-14':
-      metadata: {}
       value: 5304.91
     '1985-07-16':
-      metadata: {}
       value: 5383.5
     '1985-11-17':
-      metadata: {}
       value: 5461.75
     '1986-02-18':
-      metadata: {}
       value: 5505.83
     '1987-03-22':
-      metadata: {}
       value: 5539.0
     '1987-05-23':
-      metadata: {}
       value: 5594.0
     '1987-08-24':
-      metadata: {}
       value: 5621.5
     '1988-03-21':
-      metadata: {}
       value: 5677.75
     '1988-09-23':
-      metadata: {}
       value: 5734.0
     '1989-09-01':
       metadata:
@@ -267,7 +246,6 @@ seuil_assujettissement:
         reference: Décret 90-1058 du 22/11/1990
       value: 6132.58
     '1991-02-01':
-      metadata: {}
       value: 6253.33
     '1991-08-01':
       metadata:
@@ -318,7 +296,6 @@ seuil_assujettissement:
         reference: Décret 97-877 du 25/09/1997
       value: 7083.33
     '1998-01-01':
-      metadata: {}
       value: 7599.0
     '1998-04-01':
       metadata:
@@ -454,7 +431,6 @@ taux:
     unit: /1
   values:
     '1982-11-01':
-      metadata: {}
       value: 0.01
     '1989-09-01':
       metadata:
@@ -473,7 +449,6 @@ taux:
         reference: Décret 90-1058 du 22/11/1990
       value: 0.01
     '1991-02-01':
-      metadata: {}
       value: 0.01
     '1991-08-01':
       metadata:
@@ -516,7 +491,6 @@ taux:
         reference: Décret 97-877 du 25/09/1997
       value: 0.01
     '1998-01-01':
-      metadata: {}
       value: 0.01
     '1998-04-01':
       metadata:
@@ -646,7 +620,6 @@ traitement_brut_annuel:
       '2002-01-01': currency-EUR
   values:
     '1982-11-01':
-      metadata: {}
       value: null
     '1989-09-01':
       metadata:
@@ -665,7 +638,6 @@ traitement_brut_annuel:
         reference: Décret 90-1058 du 22/11/1990
       value: 73591.0
     '1991-02-01':
-      metadata: {}
       value: 75040.0
     '1991-08-01':
       metadata:
@@ -716,7 +688,6 @@ traitement_brut_annuel:
         reference: Décret 97-877 du 25/09/1997
       value: 85000.0
     '1998-01-01':
-      metadata: {}
       value: 91188.0
     '1998-04-01':
       metadata:
@@ -854,7 +825,6 @@ valeur_annuelle_point_fp:
       '2002-01-01': currency-EUR
   values:
     '1982-11-01':
-      metadata: {}
       value: null
     '1989-09-01':
       metadata:
@@ -873,7 +843,6 @@ valeur_annuelle_point_fp:
         reference: Décret 90-1058 du 22/11/1990
       value: 289.73
     '1991-02-01':
-      metadata: {}
       value: 289.73
     '1991-08-01':
       metadata:
@@ -924,7 +893,6 @@ valeur_annuelle_point_fp:
         reference: Décret 97-877 du 25/09/1997
       value: 325.67
     '1998-01-01':
-      metadata: {}
       value: 325.67
     '1998-04-01':
       metadata:

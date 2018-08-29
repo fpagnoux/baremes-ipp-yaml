@@ -57,7 +57,6 @@ artisans:
           reference: Décret 2012-139 du 30/01/2012
         value: null
       '2016-01-01':
-        metadata: {}
         value: null
   sous_1_pss:
     description: Sous 1 PSS
@@ -116,7 +115,6 @@ artisans:
           reference: Décret 2012-139 du 30/01/2012
         value: null
       '2016-01-01':
-        metadata: {}
         value: null
   sous_3_pss:
     description: Sous 3 PSS
@@ -175,7 +173,6 @@ artisans:
           reference: Décret 2012-139 du 30/01/2012
         value: null
       '2016-01-01':
-        metadata: {}
         value: null
   sous_4_pss:
     description: Sous 4 PSS
@@ -242,7 +239,6 @@ artisans:
           reference: Décret 2012-139 du 30/01/2012
         value: null
       '2016-01-01':
-        metadata: {}
         value: null
 artisans_industriels_commercants:
   description: Artisans-industriels-commerçants
@@ -299,7 +295,6 @@ artisans_industriels_commercants:
           reference: Décret 2012-139 du 30/01/2012
         value: 0.08
       '2016-01-01':
-        metadata: {}
         value: 0.08
   montant_plafond_rci:
     description: Montant du plafond RCI
@@ -354,7 +349,6 @@ artisans_industriels_commercants:
           reference: Décret 2012-139 du 30/01/2012
         value: 37513.0
       '2016-01-01':
-        metadata: {}
         value: 37546.0
   sous_plafond_rci:
     description: Sous plafond RCI
@@ -409,7 +403,6 @@ artisans_industriels_commercants:
           reference: Décret 2012-139 du 30/01/2012
         value: 0.07
       '2016-01-01':
-        metadata: {}
         value: 0.07
 description: Cotisation retraite complémentaire, Artisans-Commerçants
 industriels_commercants:
@@ -467,7 +460,6 @@ industriels_commercants:
           reference: Décret 2012-139 du 30/01/2012
         value: null
       '2016-01-01':
-        metadata: {}
         value: null
 metadata:
   rank: 2

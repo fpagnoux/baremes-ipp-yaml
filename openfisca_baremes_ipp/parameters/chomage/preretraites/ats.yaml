@@ -27,7 +27,6 @@ montant_journalier:
         reference: Décret 2014-1719 du 31/12/2014
       value: 35.09
     '2015-03-01':
-      metadata: {}
       value: null
 plafond_ressources:
   couple:
@@ -56,7 +55,6 @@ plafond_ressources:
           reference: Décret 2014-1719 du 31/12/2014
         value: 2421.21
       '2015-03-01':
-        metadata: {}
         value: null
   description: Plafond de ressources
   personne_seule:
@@ -85,5 +83,4 @@ plafond_ressources:
           reference: Décret 2014-1719 du 31/12/2014
         value: 1684.3200000000002
       '2015-03-01':
-        metadata: {}
         value: null

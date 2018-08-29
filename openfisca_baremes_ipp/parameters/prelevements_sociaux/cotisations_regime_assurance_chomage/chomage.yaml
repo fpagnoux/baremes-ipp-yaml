@@ -15,10 +15,8 @@ employeurs:
           reference: Décision conseil adm. 27 nov. 1961
         value: 0.002
       '1968-01-01':
-        metadata: {}
         value: 0.0028
       '1969-01-01':
-        metadata: {}
         value: 0.0032
       '1973-01-01':
         metadata:
@@ -164,7 +162,6 @@ employeurs:
           reference: Décision conseil adm. 27 nov. 1961
         value: null
       '1968-01-01':
-        metadata: {}
         value: null
       '1973-01-01':
         metadata:
@@ -314,10 +311,8 @@ salaries:
           reference: Décision conseil adm. 27 nov. 1961
         value: 0.0005
       '1968-01-01':
-        metadata: {}
         value: 0.0007
       '1969-01-01':
-        metadata: {}
         value: 0.0008
       '1973-01-01':
         metadata:
@@ -467,7 +462,6 @@ salaries:
           reference: Décision conseil adm. 27 nov. 1961
         value: null
       '1968-01-01':
-        metadata: {}
         value: null
       '1973-01-01':
         metadata:

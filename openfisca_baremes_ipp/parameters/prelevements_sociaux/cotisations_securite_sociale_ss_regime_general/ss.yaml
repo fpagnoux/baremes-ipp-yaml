@@ -50,7 +50,6 @@ salaire_sous_pss:
             reference: Arrêté du 29/07/1966
           value: 0.06
         '1967-09-01':
-          metadata: {}
           value: null
     plus_65_ans:
       description: Plus de 65 ans
@@ -98,7 +97,6 @@ salaire_sous_pss:
             reference: Arrêté du 29/07/1966
           value: 0.02
         '1967-09-01':
-          metadata: {}
           value: null
   cotisation_patronale:
     description: Cotisation patronale
@@ -146,6 +144,5 @@ salaire_sous_pss:
           reference: Arrêté du 29/07/1966
         value: 0.15
       '1967-09-01':
-        metadata: {}
         value: null
   description: Salaire sous PSS

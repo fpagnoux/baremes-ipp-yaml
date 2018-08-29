@@ -11,5 +11,4 @@ montant_mensuel:
         reference: Décret 2015-860 du 15/07/2015
       value: 300.0
     '2018-01-01':
-      metadata: {}
       value: null
