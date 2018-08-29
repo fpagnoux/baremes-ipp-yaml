@@ -1,0 +1,119 @@
+b0_1000_6000_ht:
+  description: B0 (1000-6000) - HT
+  metadata:
+    unit: currency-EUR
+  values:
+    '2010-07-01':
+      value: 45.84
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011
+      value: 51.96
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2012
+      value: 54.36
+    '2013-07-01':
+      metadata:
+        reference: Arrêté du 27/06/2013
+      value: 58.8
+    '2014-07-01':
+      metadata:
+        reference: Arrêté du 30/06/2014
+      value: 66.24
+    '2014-09-01':
+      value: 76.44
+    '2016-08-01':
+      value: 82.32
+    '2018-01-01':
+      value: 79.8
+b1_6_30000_ht:
+  description: B1 (6-30000) - HT
+  metadata:
+    unit: currency-EUR
+  values:
+    '2010-07-01':
+      value: 146.4
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011
+      value: 159.24
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2012
+      value: 166.44
+    '2013-07-01':
+      metadata:
+        reference: Arrêté du 27/06/2013
+      value: 173.76
+    '2014-07-01':
+      metadata:
+        reference: Arrêté du 30/06/2014
+      value: 183.84
+    '2014-09-01':
+      value: 189.84
+    '2016-08-01':
+      value: 193.32
+    '2018-01-01':
+      value: 186.84
+b2i_30000_ht:
+  description: B2I (>30000) - HT
+  metadata:
+    unit: currency-EUR
+  values:
+    '2010-07-01':
+      value: 146.4
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011
+      value: 159.24
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2012
+      value: 166.44
+    '2013-07-01':
+      metadata:
+        reference: Arrêté du 27/06/2013
+      value: 173.76
+    '2014-07-01':
+      metadata:
+        reference: Arrêté du 30/06/2014
+      value: 183.84
+    '2014-09-01':
+      value: 189.84
+    '2016-08-01':
+      value: 193.32
+    '2018-01-01':
+      value: 186.84
+base_0_1000_ht:
+  description: Base (0-1000) - HT
+  metadata:
+    unit: currency-EUR
+  values:
+    '2010-07-01':
+      value: 33.0
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011
+      value: 37.8
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 21/12/2012
+      value: 39.72
+    '2013-07-01':
+      metadata:
+        reference: Arrêté du 27/06/2013
+      value: 47.52
+    '2014-07-01':
+      metadata:
+        reference: Arrêté du 30/06/2014
+      value: 54.96
+    '2014-09-01':
+      value: 62.52
+    '2016-07-02':
+      value: 68.52
+    '2018-01-01':
+      value: 73.32
+description: Part fixe tarif réglementé GDF (hors taxes)
+metadata:
+  rank: 0
