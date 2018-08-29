@@ -1,0 +1,374 @@
+aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles:
+  description: Apéritifs à base de vin, cidre, poiré, vermouth, vins de liqueurs et
+    assimilés
+  metadata:
+    unit: currency-FRF
+  values:
+    '1981-02-01':
+      metadata:
+        reference: Loi 80-1094 du 30/12/1980 (LF pour 1981)
+      value: 6400.0
+    '1982-01-01':
+      metadata:
+        reference: Loi 81-1160 du 30/12/1981 (LF pour 1982)
+      value: 6795.0
+    '1987-02-01':
+      value: 6930.0
+    '1993-02-01':
+      metadata:
+        reference: Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
+      value: null
+    '1993-08-18':
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+      value: null
+    '2002-03-31':
+      value: null
+    '2009-04-10':
+      metadata:
+        reference: Décret 2009-389 du 07/04/2009
+      value: null
+    '2010-05-01':
+      metadata:
+        reference: Décret 2010-421 du 27/04/2010
+      value: null
+    '2010-11-21':
+      metadata:
+        reference: Arrêté du 12/10/2010
+      value: null
+    '2011-12-23':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+      value: null
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011 (tarifs accises alcools 2012)
+      value: null
+    '2012-05-01':
+      metadata:
+        reference: Loi 2012-354 du 14/03/2012 (LFR pour 2012)
+      value: null
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+      value: null
+    '2013-06-07':
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Arrêté du 29/12/2013
+      value: null
+    '2015-06-06':
+      metadata:
+        reference: Décret 2015-608 du 03/06/2015
+      value: null
+    '2016-01-01':
+      metadata:
+        reference: Arrêté du 18/12/2015
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+      value: null
+autres_alcools:
+  description: Autres alcools
+  metadata:
+    unit:
+      '1981-02-01': currency-FRF
+      '2002-03-31': currency-EUR
+  values:
+    '1981-02-01':
+      metadata:
+        reference: Loi 80-1094 du 30/12/1980 (LF pour 1981)
+      value: 8220.0
+    '1982-01-01':
+      metadata:
+        reference: Loi 81-1160 du 30/12/1981 (LF pour 1982)
+      value: 7655.0
+    '1987-02-01':
+      value: 7810.0
+    '1993-02-01':
+      metadata:
+        reference: Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
+      value: 7810.0
+    '1993-08-18':
+      value: 9060.0
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+      value: 9510.0
+    '2002-03-31':
+      value: 1450.0
+    '2009-04-10':
+      metadata:
+        reference: Décret 2009-389 du 07/04/2009
+      value: 1471.75
+    '2010-05-01':
+      metadata:
+        reference: Décret 2010-421 du 27/04/2010
+      value: 1512.96
+    '2010-11-21':
+      metadata:
+        reference: Arrêté du 12/10/2010
+      value: 1514.47
+    '2011-12-23':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+      value: 1660.0
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011 (tarifs accises alcools 2012)
+      value: 1660.0
+    '2012-05-01':
+      metadata:
+        reference: Loi 2012-354 du 14/03/2012 (LFR pour 2012)
+      value: 1660.0
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+      value: 1689.05
+    '2013-06-07':
+      value: 1689.05
+    '2014-01-01':
+      metadata:
+        reference: Arrêté du 29/12/2013
+      value: 1718.61
+    '2015-06-06':
+      metadata:
+        reference: Décret 2015-608 du 03/06/2015
+      value: 1730.64
+    '2016-01-01':
+      metadata:
+        reference: Arrêté du 18/12/2015
+      value: 1737.56
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+      value: 1741.04
+bouilleurs_cru_t_q_definis_art_317:
+  description: Bouilleurs de cru t.q. définis art 317
+  metadata:
+    unit: currency-EUR
+  values:
+    '1981-02-01':
+      metadata:
+        reference: Loi 80-1094 du 30/12/1980 (LF pour 1981)
+      value: null
+    '1982-01-01':
+      metadata:
+        reference: Loi 81-1160 du 30/12/1981 (LF pour 1982)
+      value: null
+    '1987-02-01':
+      value: null
+    '1993-02-01':
+      metadata:
+        reference: Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
+      value: null
+    '1993-08-18':
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+      value: null
+    '2002-03-31':
+      value: 725.0
+    '2009-04-10':
+      metadata:
+        reference: Décret 2009-389 du 07/04/2009
+      value: 735.88
+    '2010-05-01':
+      metadata:
+        reference: Décret 2010-421 du 27/04/2010
+      value: 756.48
+    '2010-11-21':
+      metadata:
+        reference: Arrêté du 12/10/2010
+      value: 757.24
+    '2011-12-23':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+      value: 830.0
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011 (tarifs accises alcools 2012)
+      value: 830.0
+    '2012-05-01':
+      metadata:
+        reference: Loi 2012-354 du 14/03/2012 (LFR pour 2012)
+      value: 830.0
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+      value: 844.53
+    '2013-06-07':
+      value: 844.53
+    '2014-01-01':
+      metadata:
+        reference: Arrêté du 29/12/2013
+      value: 859.31
+    '2015-06-06':
+      metadata:
+        reference: Décret 2015-608 du 03/06/2015
+      value: null
+    '2016-01-01':
+      metadata:
+        reference: Arrêté du 18/12/2015
+      value: 868.79
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+      value: 870.53
+description: Autres alcools (rhum, bouilleurs de cru, etc.)
+metadata:
+  rank: 3
+quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_article_417:
+  description: Quantités ajoutées pour la préparation des vins mousseux et des vins
+    doux naturels mentionnés à l'article 417
+  metadata:
+    unit: currency-FRF
+  values:
+    '1981-02-01':
+      metadata:
+        reference: Loi 80-1094 du 30/12/1980 (LF pour 1981)
+      value: 2395.0
+    '1982-01-01':
+      metadata:
+        reference: Loi 81-1160 du 30/12/1981 (LF pour 1982)
+      value: 2545.0
+    '1987-02-01':
+      value: 2595.0
+    '1993-02-01':
+      metadata:
+        reference: Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
+      value: null
+    '1993-08-18':
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+      value: null
+    '2002-03-31':
+      value: null
+    '2009-04-10':
+      metadata:
+        reference: Décret 2009-389 du 07/04/2009
+      value: null
+    '2010-05-01':
+      metadata:
+        reference: Décret 2010-421 du 27/04/2010
+      value: null
+    '2010-11-21':
+      metadata:
+        reference: Arrêté du 12/10/2010
+      value: null
+    '2011-12-23':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+      value: null
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011 (tarifs accises alcools 2012)
+      value: null
+    '2012-05-01':
+      metadata:
+        reference: Loi 2012-354 du 14/03/2012 (LFR pour 2012)
+      value: null
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+      value: null
+    '2013-06-07':
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Arrêté du 29/12/2013
+      value: null
+    '2015-06-06':
+      metadata:
+        reference: Décret 2015-608 du 03/06/2015
+      value: null
+    '2016-01-01':
+      metadata:
+        reference: Arrêté du 18/12/2015
+      value: null
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+      value: null
+rhum_dom:
+  description: Rhum des DOM
+  metadata:
+    unit:
+      '1981-02-01': currency-FRF
+      '2002-03-31': currency-EUR
+  values:
+    '1981-02-01':
+      metadata:
+        reference: Loi 80-1094 du 30/12/1980 (LF pour 1981)
+      value: 4150.0
+    '1982-01-01':
+      metadata:
+        reference: Loi 81-1160 du 30/12/1981 (LF pour 1982)
+      value: 4405.0
+    '1987-02-01':
+      value: 4495.0
+    '1993-02-01':
+      metadata:
+        reference: Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
+      value: 4495.0
+    '1993-08-18':
+      value: 5215.0
+    '1997-01-01':
+      metadata:
+        reference: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+      value: 5474.0
+    '2002-03-31':
+      value: 835.0
+    '2009-04-10':
+      metadata:
+        reference: Décret 2009-389 du 07/04/2009
+      value: 835.0
+    '2010-05-01':
+      metadata:
+        reference: Décret 2010-421 du 27/04/2010
+      value: 858.38
+    '2010-11-21':
+      metadata:
+        reference: Arrêté du 12/10/2010
+      value: 859.24
+    '2011-12-23':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+      value: 859.24
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2011 (tarifs accises alcools 2012)
+      value: 872.13
+    '2012-05-01':
+      metadata:
+        reference: Loi 2012-354 du 14/03/2012 (LFR pour 2012)
+      value: 903.0
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+      value: 918.8
+    '2013-06-07':
+      value: 845.0
+    '2014-01-01':
+      metadata:
+        reference: Arrêté du 29/12/2013
+      value: 859.79
+    '2015-06-06':
+      metadata:
+        reference: Décret 2015-608 du 03/06/2015
+      value: 865.81
+    '2016-01-01':
+      metadata:
+        reference: Arrêté du 18/12/2015
+      value: 869.27
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+      value: 871.01

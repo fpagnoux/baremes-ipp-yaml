@@ -1,0 +1,86 @@
+cspe:
+  description: CSPE
+  metadata:
+    unit: currency-EUR
+  values:
+    '2003-01-01':
+      value: null
+    '2004-01-01':
+      value: 4.5
+    '2011-01-01':
+      value: 7.5
+    '2011-07-31':
+      value: 9.0
+    '2012-07-01':
+      value: 10.5
+    '2013-01-01':
+      value: 13.5
+    '2014-01-01':
+      value: 16.5
+    '2015-01-01':
+      value: 19.5
+    '2016-01-01':
+      value: 22.5
+cta:
+  description: CTA
+  metadata:
+    unit: /1
+  values:
+    '2003-01-01':
+      value: null
+    '2006-01-01':
+      value: 0.21
+    '2013-05-01':
+      value: 0.2704
+ctssg_prix_par_mwh:
+  description: CTSSG - prix par MWh
+  metadata:
+    unit: currency-EUR
+  values:
+    '2003-01-01':
+      value: null
+    '2008-01-01':
+      value: 0.026
+    '2009-01-01':
+      value: 0.089
+    '2010-01-01':
+      value: 0.045
+    '2013-01-01':
+      value: 0.1
+    '2014-01-01':
+      value: 0.2
+    '2016-01-01':
+      value: null
+description: Taxes électricité et gaz
+metadata:
+  rank: 0
+plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh:
+  description: Plafonds TCFE pour compteurs < ou = à 36 kva - en euros par MWh
+  metadata:
+    unit: currency-EUR
+  values:
+    '2003-01-01':
+      value: null
+    '2013-01-01':
+      value: 9.315
+    '2014-01-01':
+      value: 9.5
+    '2015-01-01':
+      value: 9.6
+    '2017-01-01':
+      value: null
+ticgn_prix_par_mwh:
+  description: TICGN - prix par MWh
+  metadata:
+    unit: currency-EUR
+  values:
+    '2003-01-01':
+      value: 1.19
+    '2015-01-01':
+      value: 2.64
+    '2016-01-01':
+      value: 4.34
+    '2017-01-01':
+      value: 5.88
+    '2018-01-01':
+      value: 8.45

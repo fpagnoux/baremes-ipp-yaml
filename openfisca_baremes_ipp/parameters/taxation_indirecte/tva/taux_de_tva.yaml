@@ -1,0 +1,532 @@
+description: Taux de TVA (1968-2016)
+metadata:
+  rank: 0
+taux_intermediaire:
+  description: Taux intermédiaire
+  metadata:
+    unit: /1
+  values:
+    '1954-07-01':
+      metadata:
+        reference: Loi 54-404 du 10/04/1954
+      value: null
+    '1955-07-01':
+      metadata:
+        reference: Décret 55-465 du 30/04/1955
+      value: 0.12
+    '1968-12-01':
+      metadata:
+        reference: Loi 68-1043 du 29/11/1968, art. 3
+      value: 0.15
+    '1970-01-01':
+      metadata:
+        reference: Loi 69-1161 du 24/12/1969 (LF pour 1970), art. 9
+      value: 0.176
+    '1972-01-01':
+      value: 0.176
+    '1977-01-01':
+      metadata:
+        reference: Loi 76-1232 du 29/12/1976
+      value: null
+    '1982-07-01':
+      metadata:
+        reference: Loi 82-540 du 28/06/1982
+      value: null
+    '1986-07-01':
+      metadata:
+        reference: Loi 85-1403 du 30/12/1985. Décret 86-414 du 13/03/1986
+      value: 0.13
+    '1987-09-17':
+      metadata:
+        reference: Instruction DG Impôt du 17/09/1987
+      value: 0.13
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988
+      value: 0.13
+    '1989-09-08':
+      metadata:
+        reference: Instruction fiscale du 08/09/1989
+      value: 0.13
+    '1990-01-01':
+      metadata:
+        reference: Loi 89-935 du 29/12/1989
+      value: 0.13
+    '1990-09-13':
+      metadata:
+        reference: Loi 90-1168 du 29/12/1990
+      value: 0.13
+    '1991-07-29':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: null
+    '1995-08-01':
+      metadata:
+        reference: Loi 95-858 du 28/07/1995
+      value: null
+    '2000-04-01':
+      metadata:
+        reference: Loi 2000-656 du 13/07/2000
+      value: null
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1978 du 28/12/2011
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012
+      value: 0.1
+taux_majore:
+  description: Taux majoré
+  metadata:
+    unit: /1
+  values:
+    '1954-07-01':
+      metadata:
+        reference: Loi 54-404 du 10/04/1954
+      value: null
+    '1955-07-01':
+      metadata:
+        reference: Décret 55-465 du 30/04/1955
+      value: null
+    '1968-12-01':
+      metadata:
+        reference: Loi 68-1043 du 29/11/1968, art. 3
+      value: 0.25
+    '1970-01-01':
+      metadata:
+        reference: Loi 69-1161 du 24/12/1969 (LF pour 1970), art. 9
+      value: 0.3333
+    '1972-01-01':
+      value: 0.3333
+    '1977-01-01':
+      metadata:
+        reference: Loi 76-1232 du 29/12/1976
+      value: 0.3333
+    '1982-07-01':
+      metadata:
+        reference: Loi 82-540 du 28/06/1982
+      value: 0.3333
+    '1986-07-01':
+      metadata:
+        reference: Loi 85-1403 du 30/12/1985. Décret 86-414 du 13/03/1986
+      value: 0.3333
+    '1987-09-17':
+      metadata:
+        reference: Instruction DG Impôt du 17/09/1987
+      value: 0.3333
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988
+      value: 0.28
+    '1989-09-08':
+      metadata:
+        reference: Instruction fiscale du 08/09/1989
+      value: 0.28
+    '1990-01-01':
+      metadata:
+        reference: Loi 89-935 du 29/12/1989
+      value: 0.25
+    '1990-09-13':
+      metadata:
+        reference: Loi 90-1168 du 29/12/1990
+      value: 0.22
+    '1991-07-29':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: 0.22
+    '1993-01-01':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: null
+    '1995-08-01':
+      metadata:
+        reference: Loi 95-858 du 28/07/1995
+      value: null
+    '2000-04-01':
+      metadata:
+        reference: Loi 2000-656 du 13/07/2000
+      value: null
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1978 du 28/12/2011
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012
+      value: null
+taux_normal:
+  description: Taux normal
+  metadata:
+    unit: /1
+  values:
+    '1954-07-01':
+      metadata:
+        reference: Loi 54-404 du 10/04/1954
+      value: 0.165
+    '1955-07-01':
+      metadata:
+        reference: Décret 55-465 du 30/04/1955
+      value: 0.195
+    '1968-12-01':
+      metadata:
+        reference: Loi 68-1043 du 29/11/1968, art. 3
+      value: 0.19
+    '1970-01-01':
+      metadata:
+        reference: Loi 69-1161 du 24/12/1969 (LF pour 1970), art. 9
+      value: 0.23
+    '1972-01-01':
+      value: 0.2
+    '1977-01-01':
+      metadata:
+        reference: Loi 76-1232 du 29/12/1976
+      value: 0.176
+    '1982-07-01':
+      metadata:
+        reference: Loi 82-540 du 28/06/1982
+      value: 0.186
+    '1986-07-01':
+      metadata:
+        reference: Loi 85-1403 du 30/12/1985. Décret 86-414 du 13/03/1986
+      value: 0.186
+    '1987-09-17':
+      metadata:
+        reference: Instruction DG Impôt du 17/09/1987
+      value: 0.186
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988
+      value: 0.186
+    '1989-09-08':
+      metadata:
+        reference: Instruction fiscale du 08/09/1989
+      value: 0.186
+    '1990-01-01':
+      metadata:
+        reference: Loi 89-935 du 29/12/1989
+      value: 0.186
+    '1990-09-13':
+      metadata:
+        reference: Loi 90-1168 du 29/12/1990
+      value: 0.186
+    '1991-07-29':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: 0.186
+    '1995-08-01':
+      metadata:
+        reference: Loi 95-858 du 28/07/1995
+      value: 0.206
+    '2000-04-01':
+      metadata:
+        reference: Loi 2000-656 du 13/07/2000
+      value: 0.196
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1978 du 28/12/2011
+      value: 0.196
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012
+      value: 0.2
+taux_normal_majore_temporaire:
+  description: Taux normal ou majoré temporaire
+  metadata:
+    unit: /1
+  values:
+    '1954-07-01':
+      metadata:
+        reference: Loi 54-404 du 10/04/1954
+      value: null
+    '1955-07-01':
+      metadata:
+        reference: Décret 55-465 du 30/04/1955
+      value: null
+    '1968-12-01':
+      metadata:
+        reference: Loi 68-1043 du 29/11/1968, art. 3
+      value: null
+    '1970-01-01':
+      metadata:
+        reference: Loi 69-1161 du 24/12/1969 (LF pour 1970), art. 9
+      value: null
+    '1972-01-01':
+      value: null
+    '1977-01-01':
+      metadata:
+        reference: Loi 76-1232 du 29/12/1976
+      value: null
+    '1982-07-01':
+      metadata:
+        reference: Loi 82-540 du 28/06/1982
+      value: null
+    '1986-07-01':
+      metadata:
+        reference: Loi 85-1403 du 30/12/1985. Décret 86-414 du 13/03/1986
+      value: null
+    '1987-09-17':
+      metadata:
+        reference: Instruction DG Impôt du 17/09/1987
+      value: 0.28
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988
+      value: null
+    '1989-09-08':
+      metadata:
+        reference: Instruction fiscale du 08/09/1989
+      value: 0.28
+    '1990-01-01':
+      metadata:
+        reference: Loi 89-935 du 29/12/1989
+      value: null
+    '1990-09-13':
+      metadata:
+        reference: Loi 90-1168 du 29/12/1990
+      value: null
+    '1991-07-29':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: null
+    '1995-08-01':
+      metadata:
+        reference: Loi 95-858 du 28/07/1995
+      value: null
+    '2000-04-01':
+      metadata:
+        reference: Loi 2000-656 du 13/07/2000
+      value: null
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1978 du 28/12/2011
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012
+      value: null
+taux_particulier_super_reduit:
+  description: Taux particulier ("super réduit")
+  metadata:
+    unit: /1
+  values:
+    '1954-07-01':
+      metadata:
+        reference: Loi 54-404 du 10/04/1954
+      value: null
+    '1955-07-01':
+      metadata:
+        reference: Décret 55-465 du 30/04/1955
+      value: null
+    '1968-12-01':
+      metadata:
+        reference: Loi 68-1043 du 29/11/1968, art. 3
+      value: null
+    '1970-01-01':
+      metadata:
+        reference: Loi 69-1161 du 24/12/1969 (LF pour 1970), art. 9
+      value: null
+    '1972-01-01':
+      value: null
+    '1977-01-01':
+      metadata:
+        reference: Loi 76-1232 du 29/12/1976
+      value: null
+    '1982-07-01':
+      metadata:
+        reference: Loi 82-540 du 28/06/1982
+      value: null
+    '1986-07-01':
+      metadata:
+        reference: Loi 85-1403 du 30/12/1985. Décret 86-414 du 13/03/1986
+      value: 0.021
+    '1987-09-17':
+      metadata:
+        reference: Instruction DG Impôt du 17/09/1987
+      value: 0.021
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988
+      value: 0.021
+    '1989-09-08':
+      metadata:
+        reference: Instruction fiscale du 08/09/1989
+      value: 0.021
+    '1990-01-01':
+      metadata:
+        reference: Loi 89-935 du 29/12/1989
+      value: 0.021
+    '1990-09-13':
+      metadata:
+        reference: Loi 90-1168 du 29/12/1990
+      value: 0.021
+    '1991-07-29':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: 0.021
+    '1995-08-01':
+      metadata:
+        reference: Loi 95-858 du 28/07/1995
+      value: 0.021
+    '2000-04-01':
+      metadata:
+        reference: Loi 2000-656 du 13/07/2000
+      value: 0.021
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1978 du 28/12/2011
+      value: 0.021
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012
+      value: 0.021
+taux_reduit:
+  description: Taux réduit
+  metadata:
+    unit: /1
+  values:
+    '1954-07-01':
+      metadata:
+        reference: Loi 54-404 du 10/04/1954
+      value: 0.075
+    '1955-07-01':
+      metadata:
+        reference: Décret 55-465 du 30/04/1955
+      value: 0.1
+    '1968-12-01':
+      metadata:
+        reference: Loi 68-1043 du 29/11/1968, art. 3
+      value: 0.07
+    '1970-01-01':
+      metadata:
+        reference: Loi 69-1161 du 24/12/1969 (LF pour 1970), art. 9
+      value: 0.075
+    '1972-01-01':
+      value: 0.07
+    '1977-01-01':
+      metadata:
+        reference: Loi 76-1232 du 29/12/1976
+      value: 0.07
+    '1982-07-01':
+      metadata:
+        reference: Loi 82-540 du 28/06/1982
+      value: 0.055
+    '1986-07-01':
+      metadata:
+        reference: Loi 85-1403 du 30/12/1985. Décret 86-414 du 13/03/1986
+      value: 0.055
+    '1987-09-17':
+      metadata:
+        reference: Instruction DG Impôt du 17/09/1987
+      value: 0.055
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988
+      value: 0.055
+    '1989-09-08':
+      metadata:
+        reference: Instruction fiscale du 08/09/1989
+      value: 0.055
+    '1990-01-01':
+      metadata:
+        reference: Loi 89-935 du 29/12/1989
+      value: 0.055
+    '1990-09-13':
+      metadata:
+        reference: Loi 90-1168 du 29/12/1990
+      value: 0.055
+    '1991-07-29':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: 0.055
+    '1995-08-01':
+      metadata:
+        reference: Loi 95-858 du 28/07/1995
+      value: 0.055
+    '2000-04-01':
+      metadata:
+        reference: Loi 2000-656 du 13/07/2000
+      value: 0.055
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1978 du 28/12/2011
+      value: 0.055
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012
+      value: 0.055
+taux_reduit_2:
+  description: Taux réduit 2
+  metadata:
+    unit: /1
+  values:
+    '1954-07-01':
+      metadata:
+        reference: Loi 54-404 du 10/04/1954
+      value: null
+    '1955-07-01':
+      metadata:
+        reference: Décret 55-465 du 30/04/1955
+      value: null
+    '1968-12-01':
+      metadata:
+        reference: Loi 68-1043 du 29/11/1968, art. 3
+      value: null
+    '1970-01-01':
+      metadata:
+        reference: Loi 69-1161 du 24/12/1969 (LF pour 1970), art. 9
+      value: null
+    '1972-01-01':
+      value: null
+    '1977-01-01':
+      metadata:
+        reference: Loi 76-1232 du 29/12/1976
+      value: null
+    '1982-07-01':
+      metadata:
+        reference: Loi 82-540 du 28/06/1982
+      value: 0.07
+    '1986-07-01':
+      metadata:
+        reference: Loi 85-1403 du 30/12/1985. Décret 86-414 du 13/03/1986
+      value: 0.07
+    '1987-09-17':
+      metadata:
+        reference: Instruction DG Impôt du 17/09/1987
+      value: 0.07
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1149 du 23/12/1988
+      value: null
+    '1989-09-08':
+      metadata:
+        reference: Instruction fiscale du 08/09/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Loi 89-935 du 29/12/1989
+      value: null
+    '1990-09-13':
+      metadata:
+        reference: Loi 90-1168 du 29/12/1990
+      value: null
+    '1991-07-29':
+      metadata:
+        reference: Loi 91-716 du 26/07/1991
+      value: null
+    '1995-08-01':
+      metadata:
+        reference: Loi 95-858 du 28/07/1995
+      value: null
+    '2000-04-01':
+      metadata:
+        reference: Loi 2000-656 du 13/07/2000
+      value: null
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1978 du 28/12/2011
+      value: null
+    '2014-01-01':
+      metadata:
+        reference: Loi 2012-1510 du 29/12/2012
+      value: null

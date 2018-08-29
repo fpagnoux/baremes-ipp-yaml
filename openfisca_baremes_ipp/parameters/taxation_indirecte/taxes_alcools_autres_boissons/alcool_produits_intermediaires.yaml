@@ -1,0 +1,98 @@
+autres_produits_intermediaires_eur_hl:
+  description: Autres produits intermédiaires (€/hl)
+  metadata:
+    unit:
+      '1993-07-01': currency-FRF
+      '2002-03-31': currency-EUR
+  values:
+    '1993-07-01':
+      value: 1400.0
+    '2002-03-31':
+      value: 214.0
+    '2009-04-10':
+      metadata:
+        reference: Décret 2009-389 du 07/04/2009
+      value: 217.21
+    '2010-05-01':
+      metadata:
+        reference: Décret 2010-421 du 27/04/2010
+      value: 223.29
+    '2010-11-21':
+      metadata:
+        reference: Arrêté du 12/11/2010 - art. 1
+      value: 223.51
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+      value: 180.0
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 15/12/2012 - art. 1
+      value: 183.15
+    '2014-05-30':
+      metadata:
+        reference: Décret 2014-549 du 26/05/2014
+      value: 186.36
+    '2015-06-06':
+      metadata:
+        reference: Décret 2015-608 du 03/06/2015
+      value: 187.66
+    '2017-01-01':
+      metadata:
+        reference: Arrêté du 27/12/2016 (tarifS accises alcools 2017)
+      value: 188.41
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+      value: 188.79
+description: Produits intermédiaires (vins de liqueurs, vins doux naturels, etc.)
+metadata:
+  rank: 2
+vins_doux_naturels_vins_liqueurs_aop_mentionnes_aux_articles_417_417_bis_cgi_eur_hl:
+  description: Vins doux naturels et vins de liqueurs AOP mentionnés aux articles
+    417 et 417 bis du CGI (€/hl)
+  metadata:
+    unit:
+      '1993-07-01': currency-FRF
+      '2002-03-31': currency-EUR
+  values:
+    '1993-07-01':
+      value: 350.0
+    '2002-03-31':
+      value: 54.0
+    '2009-04-10':
+      metadata:
+        reference: Décret 2009-389 du 07/04/2009
+      value: 54.81
+    '2010-05-01':
+      metadata:
+        reference: Décret 2010-421 du 27/04/2010
+      value: 56.34
+    '2010-11-21':
+      metadata:
+        reference: Arrêté du 12/11/2010 - art. 1
+      value: 56.4
+    '2012-01-01':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+      value: 45.0
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 15/12/2012 - art. 1
+      value: 45.79
+    '2014-05-30':
+      metadata:
+        reference: Décret 2014-549 du 26/05/2014
+      value: 46.59
+    '2015-06-06':
+      metadata:
+        reference: Décret 2015-608 du 03/06/2015
+      value: 46.92
+    '2017-01-01':
+      metadata:
+        reference: Arrêté du 27/12/2016 (tarifS accises alcools 2017)
+      value: 47.11
+    '2018-01-01':
+      metadata:
+        reference: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+      value: 47.2

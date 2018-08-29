@@ -1,0 +1,254 @@
+description: TGAP carburants (2005-2015)
+gazole_b30:
+  description: Gazole B30
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2004-1484 du 30/12/2004 (LF pour 2005) - art. 32
+      value: 0.012
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0175
+    '2007-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.035
+    '2008-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0575
+    '2009-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0625
+    '2010-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+      value: 0.077
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1618 du 29/12/2016 (LFR pour 2016) - art.60
+      value: 0.077
+gazole_routier:
+  description: Gazole routier
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2004-1484 du 30/12/2004 (LF pour 2005) - art. 32
+      value: 0.012
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0175
+    '2007-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.035
+    '2008-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0575
+    '2009-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0625
+    '2010-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+      value: 0.077
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1618 du 29/12/2016 (LFR pour 2016) - art.60
+      value: 0.077
+metadata:
+  rank: 5
+super_95:
+  description: Super 95
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2004-1484 du 30/12/2004 (LF pour 2005) - art. 32
+      value: 0.012
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0175
+    '2007-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.035
+    '2008-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0575
+    '2009-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0625
+    '2010-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+      value: 0.07
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1618 du 29/12/2016 (LFR pour 2016) - art.60
+      value: 0.075
+super_98:
+  description: Super 98
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2004-1484 du 30/12/2004 (LF pour 2005) - art. 32
+      value: 0.012
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0175
+    '2007-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.035
+    '2008-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0575
+    '2009-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0625
+    '2010-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+      value: 0.07
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1618 du 29/12/2016 (LFR pour 2016) - art.60
+      value: 0.075
+super_avec_additifs_ars:
+  description: Super avec additifs (ARS)
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2004-1484 du 30/12/2004 (LF pour 2005) - art. 32
+      value: 0.012
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0175
+    '2007-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.035
+    '2008-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0575
+    '2009-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0625
+    '2010-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+      value: 0.07
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1618 du 29/12/2016 (LFR pour 2016) - art.60
+      value: 0.075
+super_e10:
+  description: Super E10
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2004-1484 du 30/12/2004 (LF pour 2005) - art. 32
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: null
+    '2009-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0625
+    '2010-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+      value: 0.07
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1618 du 29/12/2016 (LFR pour 2016) - art.60
+      value: 0.075
+super_e85:
+  description: Super E85
+  metadata:
+    unit: /1
+  values:
+    '2005-01-01':
+      metadata:
+        reference: Loi 2004-1484 du 30/12/2004 (LF pour 2005) - art. 32
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: null
+    '2007-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.035
+    '2008-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0575
+    '2009-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.0625
+    '2010-01-01':
+      metadata:
+        reference: Loi 2005-1719 du 30/12/2005 (LF pour 2006) - art. 19
+      value: 0.07
+    '2014-01-01':
+      metadata:
+        reference: Loi 2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+      value: 0.07
+    '2017-01-01':
+      metadata:
+        reference: Loi 2016-1618 du 29/12/2016 (LFR pour 2016) - art.60
+      value: 0.075

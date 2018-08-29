@@ -1,0 +1,16 @@
+description: Boissons non alcooliques
+droit_specifique_boissons_non_alcooliques_eur_hl:
+  description: Droit spécifique sur les boissons non alcooliques (€/hl)
+  metadata:
+    unit:
+      '1979-07-01': currency-FRF
+      '2002-03-31': currency-EUR
+  values:
+    '1979-07-01':
+      value: 3.5
+    '2002-03-31':
+      metadata:
+        reference: Ordonnance 2000-916 du 19/09/2000
+      value: 0.54
+metadata:
+  rank: 7
