@@ -13,7 +13,7 @@ setup(
     url='https://github.com/fpagnoux/baremes-ipp-yaml',
     include_package_data = True,  # Will read MANIFEST.in
     install_requires=[
-        'OpenFisca-Core >= 23.3, < 25.0',
+        'OpenFisca-Core >= 23.3, < 24.6.0',
         ],
     extras_require = {},
     packages=find_packages(),
