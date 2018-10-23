@@ -1,0 +1,83 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1997-01-01':
+        value: 1996.0
+      '1998-01-01':
+        value: 1997.0
+      '2002-01-01':
+        value: 2001.0
+      '2003-01-01':
+        value: 2002.0
+      '2008-01-01':
+        value: 2007.0
+      '2012-01-01':
+        value: 2011.0
+      '2013-01-01':
+        value: 2012.0
+      '2014-01-01':
+        value: 2013.0
+  description: Date d'entrée en vigueur
+description: Souscription de parts de fonds communs de placement dans l'innovation
+  (1998 - 2016)
+metadata:
+  rank: 5
+reduction_impot_souscriptions_parts_fcpi_fip:
+  description: Réduction d'impôt pour souscriptions de parts de FCPI ou FIP
+  plafond_celibataire:
+    description: Plafond célibataire
+    metadata:
+      unit:
+        '1998-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1997-01-01':
+        value: null
+      '1998-01-01':
+        value: 75000.0
+      '2002-01-01':
+        value: 11434.0
+      '2003-01-01':
+        value: 12000.0
+  plafond_couple_fcpi:
+    description: Plafond couple (FCPI)
+    metadata:
+      unit:
+        '1998-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1997-01-01':
+        value: null
+      '1998-01-01':
+        value: 150000.0
+      '2002-01-01':
+        value: 22868.0
+      '2003-01-01':
+        value: 24000.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1997-01-01':
+        value: null
+      '1998-01-01':
+        value: 0.25
+      '2012-01-01':
+        value: 0.22
+      '2013-01-01':
+        value: 0.18
+  taux_corse_fip:
+    description: Taux (Corse - FIP)
+    metadata:
+      unit: /1
+    values:
+      '1997-01-01':
+        value: null
+      '2008-01-01':
+        value: 0.5
+      '2012-01-01':
+        value: 0.45
+      '2013-01-01':
+        value: 0.38

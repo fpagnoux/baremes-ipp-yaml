@@ -1,0 +1,393 @@
+conditions_ressources_exoneration_ir:
+  apprentis:
+    description: Apprentis
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 15200.0
+      '1979-01-01':
+        value: 16800.0
+      '1980-01-01':
+        value: 18600.0
+      '1981-01-01':
+        value: 21100.0
+      '1982-01-01':
+        value: 24000.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        value: 31800.0
+      '1986-01-01':
+        value: 33600.0
+      '1987-01-01':
+        value: 34500.0
+      '1988-01-01':
+        value: 35700.0
+      '1989-01-01':
+        value: 36700.0
+      '1990-01-01':
+        value: null
+      '1991-01-01':
+        value: 39300.0
+      '1992-01-01':
+        value: 40500.0
+      '1993-01-01':
+        value: 41700.0
+      '1994-01-01':
+        value: 42500.0
+      '1995-01-01':
+        value: 43200.0
+      '1996-01-01':
+        value: 44000.0
+      '1997-01-01':
+        value: 44900.0
+      '1998-01-01':
+        value: 45400.0
+      '1999-01-01':
+        value: 45800.0
+      '2000-01-01':
+        value: 46100.0
+      '2001-01-01':
+        value: 46800.0
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-1276 du 28/12/2001 (LFR pour 2001) - art.51
+        value: 7250.0
+      '2003-01-01':
+        value: 7380.0
+      '2004-01-01':
+        value: 7510.0
+      '2005-01-01':
+        value: 7640.0
+      '2006-01-01':
+        value: 15051.4
+      '2007-01-01':
+        value: 15360.8
+      '2008-01-01':
+        metadata:
+          reference: "Décret 2008-294 du \n01/04/2008 - art. 1"
+        value: 15852.2
+      '2009-01-01':
+        metadata:
+          reference: "Décret 2009-389 du \n07/04/2009 - art. 1"
+        value: 16052.4
+      '2010-01-01':
+        metadata:
+          reference: "Décret 2010-421 du\n 27/04/2010 - art. 1"
+        value: 16125.2
+      '2011-01-01':
+        metadata:
+          reference: "Décret 2011-645 du\n 09/06/2011 - art. 1"
+        value: 16380.0
+      '2012-01-01':
+        value: 16416.0
+      '2013-01-01':
+        value: 16944.0
+      '2014-01-01':
+        value: 17163.0
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015), art. 2
+        value: 17345.0
+      '2016-01-01':
+        value: 17490.0
+      '2017-01-01':
+        value: 17599.0
+      '2018-01-01':
+        value: 17763.0
+  description: Conditions de ressources pour exonération d'IR
+  moins_65_ans_4:
+    description: moins de 65 ans (4)
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 15200.0
+      '1979-01-01':
+        value: 16800.0
+      '1980-01-01':
+        value: 18600.0
+      '1981-01-01':
+        value: 21100.0
+      '1982-01-01':
+        value: 24000.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        value: 31800.0
+      '1986-01-01':
+        value: 33600.0
+      '1987-01-01':
+        value: 34500.0
+      '1988-01-01':
+        value: 35700.0
+      '1989-01-01':
+        value: 36700.0
+      '1990-01-01':
+        value: null
+      '1991-01-01':
+        value: 39300.0
+      '1992-01-01':
+        value: 40500.0
+      '1993-01-01':
+        value: 41700.0
+      '1994-01-01':
+        value: 42500.0
+      '1995-01-01':
+        value: 43200.0
+      '1996-01-01':
+        value: 44000.0
+      '1997-01-01':
+        value: 44900.0
+      '1998-01-01':
+        value: 45400.0
+      '1999-01-01':
+        value: 45800.0
+      '2000-01-01':
+        value: 46100.0
+      '2001-01-01':
+        value: 46800.0
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-1276 du 28/12/2001 (LFR pour 2001) - art.51
+        value: 7250.0
+      '2003-01-01':
+        value: 7380.0
+      '2004-01-01':
+        value: 7510.0
+      '2005-01-01':
+        value: 7640.0
+      '2006-01-01':
+        value: 7780.0
+      '2007-01-01':
+        value: 7920.0
+      '2008-01-01':
+        metadata:
+          reference: "Décret 2008-294 du \n01/04/2008 - art. 1"
+        value: 8030.0
+      '2009-01-01':
+        metadata:
+          reference: "Décret 2009-389 du \n07/04/2009 - art. 1"
+        value: 8270.0
+      '2010-01-01':
+        metadata:
+          reference: "Décret 2010-421 du\n 27/04/2010 - art. 1"
+        value: 8310.0
+      '2011-01-01':
+        metadata:
+          reference: "Décret 2011-645 du\n 09/06/2011 - art. 1"
+        value: 8440.0
+      '2012-01-01':
+        value: 8440.0
+      '2013-01-01':
+        value: 8610.0
+      '2014-01-01':
+        value: 8680.0
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015), art. 2
+        value: null
+      '2016-01-01':
+        value: null
+  plus_65_ans_4:
+    description: plus de 65 ans (4)
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 16600.0
+      '1979-01-01':
+        value: 18300.0
+      '1980-01-01':
+        value: 20300.0
+      '1981-01-01':
+        value: 23000.0
+      '1982-01-01':
+        value: 26200.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        value: 34700.0
+      '1986-01-01':
+        value: 36700.0
+      '1987-01-01':
+        value: 37600.0
+      '1988-01-01':
+        value: 38900.0
+      '1989-01-01':
+        value: 40000.0
+      '1990-01-01':
+        value: null
+      '1991-01-01':
+        value: 42800.0
+      '1992-01-01':
+        value: 44100.0
+      '1993-01-01':
+        value: 45400.0
+      '1994-01-01':
+        value: 46300.0
+      '1995-01-01':
+        value: 47000.0
+      '1996-01-01':
+        value: 47900.0
+      '1997-01-01':
+        value: 48900.0
+      '1998-01-01':
+        value: 49500.0
+      '1999-01-01':
+        value: 50000.0
+      '2000-01-01':
+        value: 50300.0
+      '2001-01-01':
+        value: 51100.0
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-1276 du 28/12/2001 (LFR pour 2001) - art.51
+        value: 7920.0
+      '2003-01-01':
+        value: 8060.0
+      '2004-01-01':
+        value: 8200.0
+      '2005-01-01':
+        value: 8340.0
+      '2006-01-01':
+        value: 8507.0
+      '2007-01-01':
+        value: 8660.0
+      '2008-01-01':
+        metadata:
+          reference: "Décret 2008-294 du \n01/04/2008 - art. 1"
+        value: 8780.0
+      '2009-01-01':
+        metadata:
+          reference: "Décret 2009-389 du \n07/04/2009 - art. 1"
+        value: 9040.0
+      '2010-01-01':
+        metadata:
+          reference: "Décret 2010-421 du\n 27/04/2010 - art. 1"
+        value: 9080.0
+      '2011-01-01':
+        metadata:
+          reference: "Décret 2011-645 du\n 09/06/2011 - art. 1"
+        value: 9220.0
+      '2012-01-01':
+        value: 9220.0
+      '2013-01-01':
+        value: 9410.0
+      '2014-01-01':
+        value: 9490.0
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015), art. 2
+        value: null
+      '2016-01-01':
+        value: null
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1978-01-01':
+        value: 1977.0
+      '1979-01-01':
+        value: 1978.0
+      '1980-01-01':
+        value: 1979.0
+      '1981-01-01':
+        value: 1980.0
+      '1982-01-01':
+        value: 1981.0
+      '1983-01-01':
+        value: 1982.0
+      '1984-01-01':
+        value: 1983.0
+      '1985-01-01':
+        value: 1984.0
+      '1986-01-01':
+        value: 1985.0
+      '1987-01-01':
+        value: 1986.0
+      '1988-01-01':
+        value: 1987.0
+      '1989-01-01':
+        value: 1988.0
+      '1990-01-01':
+        value: 1989.0
+      '1991-01-01':
+        value: 1990.0
+      '1992-01-01':
+        value: 1991.0
+      '1993-01-01':
+        value: 1992.0
+      '1994-01-01':
+        value: 1993.0
+      '1995-01-01':
+        value: 1994.0
+      '1996-01-01':
+        value: 1995.0
+      '1997-01-01':
+        value: 1996.0
+      '1998-01-01':
+        value: 1997.0
+      '1999-01-01':
+        value: 1998.0
+      '2000-01-01':
+        value: 1999.0
+      '2001-01-01':
+        value: 2000.0
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-1276 du 28/12/2001 (LFR pour 2001) - art.51
+        value: 2001.0
+      '2003-01-01':
+        value: 2002.0
+      '2004-01-01':
+        value: 2003.0
+      '2005-01-01':
+        value: 2004.0
+      '2006-01-01':
+        value: 2005.0
+      '2007-01-01':
+        value: 2006.0
+      '2008-01-01':
+        metadata:
+          reference: "Décret 2008-294 du \n01/04/2008 - art. 1"
+        value: 2007.0
+      '2009-01-01':
+        metadata:
+          reference: "Décret 2009-389 du \n07/04/2009 - art. 1"
+        value: 2008.0
+      '2010-01-01':
+        metadata:
+          reference: "Décret 2010-421 du\n 27/04/2010 - art. 1"
+        value: 2009.0
+      '2011-01-01':
+        metadata:
+          reference: "Décret 2011-645 du\n 09/06/2011 - art. 1"
+        value: 2010.0
+      '2012-01-01':
+        value: 2011.0
+      '2013-01-01':
+        value: 2012.0
+      '2014-01-01':
+        value: 2013.0
+      '2015-01-01':
+        metadata:
+          reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015), art. 2
+        value: 2014.0
+      '2016-01-01':
+        value: 2015.0
+      '2017-01-01':
+        value: 2016.0
+      '2018-01-01':
+        value: 2017.0
+  description: Date d'entrée en vigueur
+description: Exonération d'IR (1978 - 2016)
+metadata:
+  rank: 5

@@ -1,0 +1,2111 @@
+abattement_recettes_microentreprises:
+  description: Abattement sur recettes des microentreprises
+  montant_minimum:
+    description: Montant minimum
+    metadata:
+      unit:
+        '1992-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 2000.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 2000.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 2000.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 2000.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 2000.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 2000.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 2000.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 2000.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 2000.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 2000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 305.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 305.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 305.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 305.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 305.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 305.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 305.0
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 305.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 305.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 305.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 305.0
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 305.0
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 305.0
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 305.0
+  taux_prestations_services:
+    description: Taux  (Prestations de services)
+    metadata:
+      unit: /1
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 0.5
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 0.5
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 0.5
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 0.5
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 0.5
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 0.5
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 0.5
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 0.5
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 0.5
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 0.5
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 0.5
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 0.52
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 0.52
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 0.5
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 0.5
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 0.5
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 0.5
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 0.5
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 0.5
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 0.5
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 0.5
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 0.5
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 0.5
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 0.5
+  taux_ventes_marchandises:
+    description: Taux (ventes de marchandises)
+    metadata:
+      unit: /1
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 0.5
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 0.5
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 0.5
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 0.5
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 0.5
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 0.5
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 0.5
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 0.5
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 0.7
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 0.7
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 0.7
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 0.72
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 0.72
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 0.71
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 0.71
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 0.71
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 0.71
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 0.71
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 0.71
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 0.71
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 0.71
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 0.71
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 0.71
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 0.71
+abattement_regime_micro_bnc:
+  description: Abattement pour le régime micro BNC
+  plafond_recettes_marchandises:
+    description: Plafond de recettes (marchandises)
+    metadata:
+      unit:
+        '1992-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 70000.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 70000.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 70000.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 70000.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 70000.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 100000.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 100000.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 100000.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 500000.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 500000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 76224.51
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 76300.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 76300.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 76300.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 76300.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 80000.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 80300.0
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 81500.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 81500.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 82200.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 82200.0
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 82200.0
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 82200.0
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 170000.0
+  plafond_recettes_services:
+    description: Plafond de recettes (services)
+    metadata:
+      unit:
+        '1992-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 70000.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 70000.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 70000.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 70000.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 70000.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 100000.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 100000.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 100000.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 175000.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 175000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 26678.58
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 27000.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 27000.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 27000.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 27000.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 32000.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 32100.0
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 32600.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 32600.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 32900.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 32900.0
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 32900.0
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 32900.0
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 70000.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 0.25
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 0.25
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 0.25
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 0.25
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 0.25
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 0.25
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 0.25
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 0.25
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 0.35
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 0.35
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 0.35
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 0.37
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 0.37
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 0.34
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 0.34
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 0.34
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 0.34
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 0.34
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 0.34
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 0.34
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 0.34
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 0.34
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 0.34
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 0.34
+abattement_regime_microfoncier:
+  description: Abattement pour le régime microfoncier
+  plafond_recettes:
+    description: Plafond de recettes
+    metadata:
+      unit:
+        '1998-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: null
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: null
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: null
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: null
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: null
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 30000.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 30000.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 60000.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 60000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 15000.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 15000.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 15000.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 15000.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 15000.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 15000.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 15000.0
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 15000.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 15000.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 15000.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 15000.0
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 15000.0
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 15000.0
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 15000.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: null
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: null
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: null
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: null
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: null
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 0.333333333333333
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 0.333333333333333
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 0.4
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 0.4
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 0.4
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 0.4
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 0.4
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 0.3
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 0.3
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 0.3
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 0.3
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 0.3
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 0.3
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 0.3
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 0.3
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 0.3
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 0.3
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 0.3
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: 1979.0
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: 1980.0
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: 1981.0
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 1982.0
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 1983.0
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 1984.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 1985.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 1986.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: 1987.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: 1988.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 1989.0
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 1990.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 1991.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 1992.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 1993.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 1994.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 1995.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 1996.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 1997.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 1998.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 1999.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 2000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 2001.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 2002.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 2004.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 2006.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 2007.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 2009.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 2010.0
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 2011.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 2012.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 2013.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 2014.0
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 2015.0
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 2016.0
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 2017.0
+  description: Date d'entrée en vigueur
+description: Régimes micro-entreprise et microfoncier (1980 - 2016)
+imputation_revenu_global:
+  description: Imputation sur le revenu global
+  plafond_deficits_agricoles:
+    description: Plafond (déficits agricoles)
+    metadata:
+      unit:
+        '1980-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: 40000.0
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: 40000.0
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: 40000.0
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 40000.0
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 40000.0
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 40000.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 40000.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 40000.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: 40000.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: 70000.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 100000.0
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 100000.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 100000.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 100000.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 100000.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 150000.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 200000.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 200000.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 200000.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 200000.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 200000.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 350000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 53360.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 53360.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 60000.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 100000.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 101300.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 104238.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 104665.0
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 106225.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 106225.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 107075.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 107610.0
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 107718.0
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 107826.0
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 108904.0
+  plafond_deficits_fonciers:
+    description: Plafond (déficits fonciers)
+    metadata:
+      unit:
+        '1994-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: null
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: null
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: 50000.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: 50000.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: 70000.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: 70000.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: 70000.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: 70000.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: 70000.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: 70000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: 10700.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: 10700.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: 10700.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: 10700.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: 10700.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 10700.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 10700.0
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 10700.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 10700.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 10700.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 10700.0
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 10700.0
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 10700.0
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 10700.0
+metadata:
+  rank: 2
+versement_liberatoire_regime_auto_entrepreneur:
+  description: Versement libératoire (régime auto-entrepreneur)
+  taux_regime_micro_bic_service:
+    description: taux régime micro BIC service
+    metadata:
+      unit: /1
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: null
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: null
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: null
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: null
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: null
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: null
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: null
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: null
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: null
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: null
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 0.017
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 0.017
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 0.017
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 0.017
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 0.017
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 0.017
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 0.017
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 0.017
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 0.017
+  taux_regime_micro_bic_vente:
+    description: taux régime micro BIC vente
+    metadata:
+      unit: /1
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: null
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: null
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: null
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: null
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: null
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: null
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: null
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: null
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: null
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: null
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 0.01
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 0.01
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 0.01
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 0.01
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 0.01
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 0.01
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 0.01
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 0.01
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 0.01
+  taux_regime_micro_bnc:
+    description: taux régime micro BNC
+    metadata:
+      unit: /1
+    values:
+      '1980-01-01':
+        metadata:
+          reference: LF pour 1980
+        value: null
+      '1981-01-01':
+        metadata:
+          reference: LF pour 1981
+        value: null
+      '1982-01-01':
+        metadata:
+          reference: LF pour 1982
+        value: null
+      '1983-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: null
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: null
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1988
+        value: null
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: null
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: null
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: null
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1994
+        value: null
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995
+        value: null
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996
+        value: null
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997
+        value: null
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998
+        value: null
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999
+        value: null
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000
+        value: null
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001
+        value: null
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005
+        value: null
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010
+        value: 0.022
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011
+        value: 0.022
+      '2012-01-01':
+        metadata:
+          reference: LF pour 2012
+        value: 0.022
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 0.022
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 0.022
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 0.022
+      '2016-01-01':
+        metadata:
+          reference: Décret 2016-775 (art. 1) du 10/06/2016
+        value: 0.022
+      '2017-01-01':
+        metadata:
+          reference: Décret 2017-698 (art. 1) du 02/05/2017
+        value: 0.022
+      '2018-01-01':
+        metadata:
+          reference: LOI n°2017-1837 du 30 décembre 2017, art.22
+        value: 0.022

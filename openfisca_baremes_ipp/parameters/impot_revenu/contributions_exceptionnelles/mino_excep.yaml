@@ -1,0 +1,304 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1966-01-01':
+        value: 1965.0
+      '1967-01-01':
+        value: 1966.0
+      '1968-01-01':
+        value: 1967.0
+      '1969-01-01':
+        value: 1968.0
+      '1974-01-01':
+        value: 1973.0
+      '1985-01-01':
+        value: 1984.0
+      '1986-01-01':
+        value: 1985.0
+      '1987-01-01':
+        value: 1986.0
+      '1988-01-01':
+        value: 1987.0
+      '1989-01-01':
+        value: 1988.0
+      '1990-01-01':
+        value: 1989.0
+      '1991-01-01':
+        value: 1990.0
+      '1992-01-01':
+        value: 1991.0
+      '1993-01-01':
+        value: 1992.0
+      '1994-01-01':
+        value: 1993.0
+  description: Date d'entrée en vigueur
+description: Minorations exceptionnelles (1965-1992)
+metadata:
+  rank: 2
+minorations_exceptionnelles_impot:
+  description: Minorations exceptionnelles d'impôt
+  formule_calcul_seuil_2:
+    description: 'Formule de calcul:
+
+      Seuil 2'
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1986-01-01':
+        value: 5680.0
+      '1987-01-01':
+        value: 5820.0
+      '1989-01-01':
+        value: 5970.0
+      '1990-01-01':
+        value: 6170.0
+      '1991-01-01':
+        value: 6370.0
+      '1992-01-01':
+        value: 6560.0
+      '1993-01-01':
+        value: 6745.0
+      '1994-01-01':
+        value: null
+  formule_calcul_seuil_4:
+    description: 'Formule de calcul:
+
+      Seuil 4'
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1987-01-01':
+        value: 6980.0
+      '1989-01-01':
+        value: 7160.0
+      '1990-01-01':
+        value: 7400.0
+      '1991-01-01':
+        value: 7640.0
+      '1992-01-01':
+        value: 7870.0
+      '1993-01-01':
+        value: 8090.0
+      '1994-01-01':
+        value: null
+  formule_calcul_taux_en_impot:
+    description: 'Formule de calcul:
+
+      taux (en % de l''impot)'
+    metadata:
+      unit: /1
+    values:
+      '1966-01-01':
+        value: null
+      '1986-01-01':
+        value: 0.17
+      '1987-01-01':
+        value: 0.14
+      '1994-01-01':
+        value: null
+  seuil_impot_1:
+    description: Seuil d'impot 1
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1967-01-01':
+        value: 0.0
+      '1974-01-01':
+        value: null
+      '1985-01-01':
+        value: 0.0
+      '1994-01-01':
+        value: null
+  seuil_impot_2:
+    description: Seuil d'impot 2
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1967-01-01':
+        value: 45000.0
+      '1969-01-01':
+        value: 1000.0
+      '1974-01-01':
+        value: null
+      '1985-01-01':
+        value: 21520.0
+      '1986-01-01':
+        value: 22730.0
+      '1987-01-01':
+        value: 23280.0
+      '1989-01-01':
+        value: 23890.0
+      '1990-01-01':
+        value: 24680.0
+      '1991-01-01':
+        value: 25480.0
+      '1992-01-01':
+        value: 26250.0
+      '1993-01-01':
+        value: 26990.0
+      '1994-01-01':
+        value: null
+  seuil_impot_3:
+    description: Seuil d'impot 3
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1967-01-01':
+        value: 50000.0
+      '1969-01-01':
+        value: 3500.0
+      '1974-01-01':
+        value: null
+      '1986-01-01':
+        value: 28410.0
+      '1987-01-01':
+        value: 29090.0
+      '1989-01-01':
+        value: 29850.0
+      '1990-01-01':
+        value: 30840.0
+      '1991-01-01':
+        value: 31830.0
+      '1992-01-01':
+        value: 32790.0
+      '1993-01-01':
+        value: 33710.0
+      '1994-01-01':
+        value: null
+  seuil_impot_4:
+    description: Seuil d'impot 4
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1967-01-01':
+        value: 55000.0
+      '1969-01-01':
+        value: 5000.0
+      '1974-01-01':
+        value: null
+      '1986-01-01':
+        value: 34090.0
+      '1987-01-01':
+        value: 34910.0
+      '1989-01-01':
+        value: 35820.0
+      '1990-01-01':
+        value: 37010.0
+      '1991-01-01':
+        value: 38200.0
+      '1992-01-01':
+        value: 39350.0
+      '1993-01-01':
+        value: 40460.0
+      '1994-01-01':
+        value: null
+  seuil_impot_5:
+    description: Seuil d'impot 5
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1987-01-01':
+        value: 41060.0
+      '1989-01-01':
+        value: 42120.0
+      '1990-01-01':
+        value: 43510.0
+      '1991-01-01':
+        value: 44910.0
+      '1992-01-01':
+        value: 46260.0
+      '1993-01-01':
+        value: 47560.0
+      '1994-01-01':
+        value: null
+  seuil_superieur_revenu_imposable_par_part:
+    description: Seuil superieur (revenu imposable par part)
+    metadata:
+      unit: currency-FRF
+    values:
+      '1966-01-01':
+        value: null
+      '1987-01-01':
+        value: 295000.0
+      '1988-01-01':
+        value: 304740.0
+      '1989-01-01':
+        value: 312660.0
+      '1991-01-01':
+        value: 322670.0
+      '1992-01-01':
+        value: 332360.0
+      '1993-01-01':
+        value: 341670.0
+      '1994-01-01':
+        value: null
+  taux_1:
+    description: Taux 1
+    metadata:
+      unit: /1
+    values:
+      '1966-01-01':
+        value: null
+      '1967-01-01':
+        value: 0.05
+      '1968-01-01':
+        value: 0.1
+      '1969-01-01':
+        value: 0.15
+      '1974-01-01':
+        value: null
+      '1985-01-01':
+        value: 0.05
+      '1986-01-01':
+        value: 0.08
+      '1987-01-01':
+        value: 0.11
+      '1994-01-01':
+        value: null
+  taux_3:
+    description: Taux 3
+    metadata:
+      unit: /1
+    values:
+      '1966-01-01':
+        value: null
+      '1986-01-01':
+        value: 0.03
+      '1987-01-01':
+        value: 0.06
+      '1994-01-01':
+        value: null
+  taux_5:
+    description: Taux 5
+    metadata:
+      unit: /1
+    values:
+      '1966-01-01':
+        value: null
+      '1967-01-01':
+        value: 0.02
+      '1968-01-01':
+        value: 0.05
+      '1969-01-01':
+        value: 0.02
+      '1974-01-01':
+        value: null
+      '1987-01-01':
+        value: 0.03
+      '1994-01-01':
+        value: null

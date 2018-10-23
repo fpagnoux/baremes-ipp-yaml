@@ -1,0 +1,57 @@
+compte_epargne_co_developpement:
+  description: Compte épargne co-developpement
+  plafond_en_revenu_net_global:
+    description: Plafond en % du revenu net global
+    metadata:
+      unit: /1
+    values:
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2009 - art. 89
+        value: 0.25
+      '2011-01-01':
+        value: 0.25
+      '2012-01-01':
+        value: null
+  plafond_par_personne:
+    description: Plafond par personne
+    metadata:
+      unit: currency-EUR
+    values:
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2009 - art. 89
+        value: 20000.0
+      '2011-01-01':
+        value: 20000.0
+      '2012-01-01':
+        value: null
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2009 - art. 89
+        value: 0.4
+      '2011-01-01':
+        value: 0.4
+      '2012-01-01':
+        value: null
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2009 - art. 89
+        value: 2009.0
+      '2011-01-01':
+        value: 2010.0
+      '2012-01-01':
+        value: 2011.0
+  description: Date d'entrée en vigueur
+description: Sommes versées sur un compte épargne codéveloppement (2010 - 2016)
+metadata:
+  rank: 12

@@ -1,0 +1,113 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '2009-01-01':
+        value: 2008.0
+      '2010-01-01':
+        metadata:
+          reference: Loi n° 2009-594 du 27 mai 2009 - art. 40
+        value: 2009.0
+      '2011-01-01':
+        metadata:
+          reference: Loi n°2009-1673 du 30 décembre 2009 - art. 81 (V)
+        value: 2010.0
+      '2012-01-01':
+        metadata:
+          reference: Loi n°2010-1657 du 29 décembre 2010 - art. 106 (V)
+        value: 2011.0
+      '2013-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: 2012.0
+      '2014-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: 2013.0
+  description: Date d'entrée en vigueur
+description: Plafonnement global des niches (2009 - 2016)
+metadata:
+  rank: 3
+plafonnement_niches:
+  description: Plafonnement des niches
+  majoration:
+    description: Majoration
+    metadata:
+      unit: currency-EUR
+    values:
+      '2009-01-01':
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: Loi n° 2009-594 du 27 mai 2009 - art. 40
+        value: null
+      '2011-01-01':
+        metadata:
+          reference: Loi n°2009-1673 du 30 décembre 2009 - art. 81 (V)
+        value: null
+      '2012-01-01':
+        metadata:
+          reference: Loi n°2010-1657 du 29 décembre 2010 - art. 106 (V)
+        value: null
+      '2013-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: null
+      '2014-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: 8000.0
+  plafond_1:
+    description: Plafond 1
+    metadata:
+      unit: currency-EUR
+    values:
+      '2009-01-01':
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: Loi n° 2009-594 du 27 mai 2009 - art. 40
+        value: 25000.0
+      '2011-01-01':
+        metadata:
+          reference: Loi n°2009-1673 du 30 décembre 2009 - art. 81 (V)
+        value: 20000.0
+      '2012-01-01':
+        metadata:
+          reference: Loi n°2010-1657 du 29 décembre 2010 - art. 106 (V)
+        value: 18000.0
+      '2013-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: 18000.0
+      '2014-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: 10000.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '2009-01-01':
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: Loi n° 2009-594 du 27 mai 2009 - art. 40
+        value: 0.1
+      '2011-01-01':
+        metadata:
+          reference: Loi n°2009-1673 du 30 décembre 2009 - art. 81 (V)
+        value: 0.08
+      '2012-01-01':
+        metadata:
+          reference: Loi n°2010-1657 du 29 décembre 2010 - art. 106 (V)
+        value: 0.06
+      '2013-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: 0.04
+      '2014-01-01':
+        metadata:
+          reference: Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+        value: null

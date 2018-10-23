@@ -1,0 +1,915 @@
+abattement_personnes_agees_65_ans_invalide_4:
+  description: Abattement pour personnes agées de + de 65 ans ou invalide (4)
+  montant_1:
+    description: Montant 1
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 3400.0
+      '1979-01-01':
+        value: 3720.0
+      '1980-01-01':
+        value: 4080.0
+      '1981-01-01':
+        value: 4630.0
+      '1982-01-01':
+        value: 5260.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 6960.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 7360.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 7540.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 7800.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 8020.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 8580.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 8860.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 9120.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 9300.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995  - art. 2
+        value: 9440.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996  - art. 2
+        value: 9620.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997  - art. 2
+        value: 9820.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998  - art. 2
+        value: 9940.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999  - art. 2
+        value: 10040.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000  - art. 2
+        value: 10100.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001  - art. 2
+        value: 10260.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002  - art. 2
+        value: 1590.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003 - art. 2
+        value: 1618.0
+      '2004-01-01':
+        metadata:
+          reference: LF pour 2004  - art. 2
+        value: 1646.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005  - art. 2
+        value: 1674.0
+      '2006-01-01':
+        metadata:
+          reference: LF pour 2006  - art. 96
+        value: 1706.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007  - art. 2
+        value: 2172.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008  - art. 2
+        value: 2202.0
+      '2009-01-01':
+        metadata:
+          reference: LF pour 2009   - art. 2
+        value: 2266.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010  - art. 18
+        value: 2276.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011  - art. 2
+        value: 2312.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 2312.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 2332.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 2344.0
+      '2016-01-01':
+        metadata:
+          reference: LF pour 2016
+        value: 2348.0
+      '2017-01-01':
+        metadata:
+          reference: LF pour 2017
+        value: 2352.0
+      '2018-01-01':
+        metadata:
+          reference: LF pour 2018
+        value: 2376.0
+  montant_2:
+    description: Montant 2
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 1700.0
+      '1979-01-01':
+        value: 1860.0
+      '1980-01-01':
+        value: 2040.0
+      '1981-01-01':
+        value: 2315.0
+      '1982-01-01':
+        value: 2630.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 3480.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 3680.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 3770.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 3900.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 4010.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 4290.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 4430.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 4560.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 4650.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995  - art. 2
+        value: 4720.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996  - art. 2
+        value: 4810.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997  - art. 2
+        value: 4910.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998  - art. 2
+        value: 4970.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999  - art. 2
+        value: 5020.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000  - art. 2
+        value: 5050.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001  - art. 2
+        value: 5130.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002  - art. 2
+        value: 795.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003 - art. 2
+        value: 809.0
+      '2004-01-01':
+        metadata:
+          reference: LF pour 2004  - art. 2
+        value: 823.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005  - art. 2
+        value: 837.0
+      '2006-01-01':
+        metadata:
+          reference: LF pour 2006  - art. 96
+        value: 853.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007  - art. 2
+        value: 1086.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008  - art. 2
+        value: 1101.0
+      '2009-01-01':
+        metadata:
+          reference: LF pour 2009   - art. 2
+        value: 1133.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010  - art. 18
+        value: 1138.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011  - art. 2
+        value: 1156.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 1156.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 1166.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 1172.0
+      '2016-01-01':
+        metadata:
+          reference: LF pour 2016
+        value: 1174.0
+      '2017-01-01':
+        metadata:
+          reference: LF pour 2017
+        value: 1176.0
+      '2018-01-01':
+        metadata:
+          reference: LF pour 2018
+        value: 1188.0
+  plafond_ressources_1:
+    description: Plafond de ressources 1
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 21000.0
+      '1979-01-01':
+        value: 23000.0
+      '1980-01-01':
+        value: 25200.0
+      '1981-01-01':
+        value: 28600.0
+      '1982-01-01':
+        value: 32500.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 43100.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 45600.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 46800.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 48400.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 49700.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 53100.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 54800.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 56400.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 57000.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995  - art. 2
+        value: 58400.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996  - art. 2
+        value: 59500.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997  - art. 2
+        value: 60700.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998  - art. 2
+        value: 61400.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999  - art. 2
+        value: 61900.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000  - art. 2
+        value: 62300.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001  - art. 2
+        value: 63200.00000000001
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002  - art. 2
+        value: 9790.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003 - art. 2
+        value: 9960.0
+      '2004-01-01':
+        metadata:
+          reference: LF pour 2004  - art. 2
+        value: 10130.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005  - art. 2
+        value: 10310.0
+      '2006-01-01':
+        metadata:
+          reference: LF pour 2006  - art. 96
+        value: 10500.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007  - art. 2
+        value: 13370.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008  - art. 2
+        value: 13550.0
+      '2009-01-01':
+        metadata:
+          reference: LF pour 2009   - art. 2
+        value: 13950.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010  - art. 18
+        value: 14010.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011  - art. 2
+        value: 14220.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 14510.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 14630.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 14710.0
+      '2016-01-01':
+        metadata:
+          reference: LF pour 2016
+        value: 14730.0
+      '2017-01-01':
+        metadata:
+          reference: LF pour 2017
+        value: 14751.0
+      '2018-01-01':
+        metadata:
+          reference: LF pour 2018
+        value: 14900.0
+  plafond_ressources_2:
+    description: Plafond de ressources 2
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 34000.0
+      '1979-01-01':
+        value: 37200.0
+      '1980-01-01':
+        value: 40800.0
+      '1981-01-01':
+        value: 46300.0
+      '1982-01-01':
+        value: 52600.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 69600.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 73600.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 75400.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 78000.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 80200.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: null
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 85800.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 88600.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 91200.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 93000.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995  - art. 2
+        value: 94400.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996  - art. 2
+        value: 96200.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997  - art. 2
+        value: 98100.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998  - art. 2
+        value: 99200.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999  - art. 2
+        value: 100100.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000  - art. 2
+        value: 100600.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001  - art. 2
+        value: 102100.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002  - art. 2
+        value: 15820.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003 - art. 2
+        value: 16090.0
+      '2004-01-01':
+        metadata:
+          reference: LF pour 2004  - art. 2
+        value: 16370.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005  - art. 2
+        value: 16650.0
+      '2006-01-01':
+        metadata:
+          reference: LF pour 2006  - art. 96
+        value: 16950.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007  - art. 2
+        value: 21570.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008  - art. 2
+        value: 21860.0
+      '2009-01-01':
+        metadata:
+          reference: LF pour 2009   - art. 2
+        value: 22500.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010  - art. 18
+        value: 22590.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011  - art. 2
+        value: 22930.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 23390.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 23580.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 23700.0
+      '2016-01-01':
+        metadata:
+          reference: LF pour 2016
+        value: 23730.0
+      '2017-01-01':
+        metadata:
+          reference: LF pour 2017
+        value: 23760.0
+      '2018-01-01':
+        metadata:
+          reference: LF pour 2018
+        value: 24000.0
+abattement_rattachement_enfants_maries:
+  description: Abattement pour rattachement d'enfants mariés
+  montant:
+    description: Montant
+    metadata:
+      unit:
+        '1978-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: 7900.0
+      '1979-01-01':
+        value: 8600.0
+      '1980-01-01':
+        value: 9500.0
+      '1981-01-01':
+        value: 10800.0
+      '1982-01-01':
+        value: 12500.0
+      '1983-01-01':
+        value: 13000.0
+      '1984-01-01':
+        value: 14230.0
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 15330.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 16190.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 18570.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 19600.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 20110.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: 20780.0
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 21450.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 22100.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 22730.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 27120.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995  - art. 2
+        value: 27500.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996  - art. 2
+        value: 27990.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997  - art. 2
+        value: 30000.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998  - art. 2
+        value: 30330.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999  - art. 2
+        value: 20370.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000  - art. 2
+        value: 20480.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001  - art. 2
+        value: 23360.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002  - art. 2
+        value: 3824.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003 - art. 2
+        value: 4137.0
+      '2004-01-01':
+        metadata:
+          reference: LF pour 2004  - art. 2
+        value: 4338.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005  - art. 2
+        value: 4410.0
+      '2006-01-01':
+        metadata:
+          reference: LF pour 2006  - art. 96
+        value: 4489.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007  - art. 2
+        value: 5495.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008  - art. 2
+        value: 5568.0
+      '2009-01-01':
+        metadata:
+          reference: LF pour 2009   - art. 2
+        value: 5729.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010  - art. 18
+        value: 5753.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011  - art. 2
+        value: 5698.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 5698.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 5753.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 5726.0
+      '2016-01-01':
+        metadata:
+          reference: LF pour 2016
+        value: 5732.0
+      '2017-01-01':
+        metadata:
+          reference: LF pour 2017
+        value: 5738.0
+      '2018-01-01':
+        metadata:
+          reference: LF pour 2018
+        value: 5795.0
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1978-01-01':
+        value: 1977.0
+      '1979-01-01':
+        value: 1978.0
+      '1980-01-01':
+        value: 1979.0
+      '1981-01-01':
+        value: 1980.0
+      '1982-01-01':
+        value: 1981.0
+      '1983-01-01':
+        value: 1982.0
+      '1984-01-01':
+        value: 1983.0
+      '1985-01-01':
+        metadata:
+          reference: LF pour 1983
+        value: 1984.0
+      '1986-01-01':
+        metadata:
+          reference: LF pour 1984
+        value: 1985.0
+      '1987-01-01':
+        metadata:
+          reference: LF pour 1985
+        value: 1986.0
+      '1988-01-01':
+        metadata:
+          reference: LF pour 1986
+        value: 1987.0
+      '1989-01-01':
+        metadata:
+          reference: LF pour 1987
+        value: 1988.0
+      '1990-01-01':
+        metadata:
+          reference: LF pour 1989
+        value: 1989.0
+      '1991-01-01':
+        metadata:
+          reference: LF pour 1990
+        value: 1990.0
+      '1992-01-01':
+        metadata:
+          reference: LF pour 1991
+        value: 1991.0
+      '1993-01-01':
+        metadata:
+          reference: LF pour 1992
+        value: 1992.0
+      '1994-01-01':
+        metadata:
+          reference: LF pour 1993
+        value: 1993.0
+      '1995-01-01':
+        metadata:
+          reference: LF pour 1995  - art. 2
+        value: 1994.0
+      '1996-01-01':
+        metadata:
+          reference: LF pour 1996  - art. 2
+        value: 1995.0
+      '1997-01-01':
+        metadata:
+          reference: LF pour 1997  - art. 2
+        value: 1996.0
+      '1998-01-01':
+        metadata:
+          reference: LF pour 1998  - art. 2
+        value: 1997.0
+      '1999-01-01':
+        metadata:
+          reference: LF pour 1999  - art. 2
+        value: 1998.0
+      '2000-01-01':
+        metadata:
+          reference: LF pour 2000  - art. 2
+        value: 1999.0
+      '2001-01-01':
+        metadata:
+          reference: LF pour 2001  - art. 2
+        value: 2000.0
+      '2002-01-01':
+        metadata:
+          reference: LF pour 2002  - art. 2
+        value: 2001.0
+      '2003-01-01':
+        metadata:
+          reference: LF pour 2003 - art. 2
+        value: 2002.0
+      '2004-01-01':
+        metadata:
+          reference: LF pour 2004  - art. 2
+        value: 2003.0
+      '2005-01-01':
+        metadata:
+          reference: LF pour 2005  - art. 2
+        value: 2004.0
+      '2006-01-01':
+        metadata:
+          reference: LF pour 2006  - art. 96
+        value: 2005.0
+      '2007-01-01':
+        metadata:
+          reference: LF pour 2007  - art. 2
+        value: 2006.0
+      '2008-01-01':
+        metadata:
+          reference: LF pour 2008  - art. 2
+        value: 2007.0
+      '2009-01-01':
+        metadata:
+          reference: LF pour 2009   - art. 2
+        value: 2008.0
+      '2010-01-01':
+        metadata:
+          reference: LF pour 2010  - art. 18
+        value: 2009.0
+      '2011-01-01':
+        metadata:
+          reference: LF pour 2011  - art. 2
+        value: 2010.0
+      '2013-01-01':
+        metadata:
+          reference: LF pour 2013
+        value: 2012.0
+      '2014-01-01':
+        metadata:
+          reference: LF pour 2014
+        value: 2013.0
+      '2015-01-01':
+        metadata:
+          reference: LF pour 2015
+        value: 2014.0
+      '2016-01-01':
+        metadata:
+          reference: LF pour 2016
+        value: 2015.0
+      '2017-01-01':
+        metadata:
+          reference: LF pour 2017
+        value: 2016.0
+      '2018-01-01':
+        metadata:
+          reference: LF pour 2018
+        value: 2017.0
+  description: Date d'entrée en vigueur
+description: Abattement pour revenu net imposable (1978 - 2016)
+metadata:
+  rank: 4

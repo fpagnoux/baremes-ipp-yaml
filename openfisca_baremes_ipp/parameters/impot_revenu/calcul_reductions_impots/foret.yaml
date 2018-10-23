@@ -1,0 +1,122 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '2001-01-01':
+        value: 2000.0
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-602 du 9/07/2001
+        value: 2001.0
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-11 (art. 66) du 05/01/2006
+        value: 2006.0
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-520 (art. 1) du 13/05/2011
+        value: 2011.0
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-547 (art. 1) du 23/04/2012
+        value: 2012.0
+  description: Date d'entrée en vigueur
+depenses_investissement_forestier:
+  description: Dépenses d'investissement forestier
+  plafond_depenses:
+    description: Plafond de dépenses
+    metadata:
+      unit: currency-EUR
+    values:
+      '2001-01-01':
+        value: null
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-602 du 9/07/2001
+        value: 5700.0
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-11 (art. 66) du 05/01/2006
+        value: 5700.0
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-520 (art. 1) du 13/05/2011
+        value: 5700.0
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-547 (art. 1) du 23/04/2012
+        value: 5700.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '2001-01-01':
+        value: null
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-602 du 9/07/2001
+        value: 0.25
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-11 (art. 66) du 05/01/2006
+        value: 0.25
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-520 (art. 1) du 13/05/2011
+        value: 0.22
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-547 (art. 1) du 23/04/2012
+        value: 0.18
+description: Investissement et travaux forestiers (2002 - 2016)
+metadata:
+  rank: 8
+reduction_impot_defense_forets_contre_incendies:
+  description: Réduction d'impôt pour la défense des forêts contre les incendies
+  plafond_depenses:
+    description: Plafond de dépenses
+    metadata:
+      unit: currency-EUR
+    values:
+      '2001-01-01':
+        value: null
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-602 du 9/07/2001
+        value: null
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-11 (art. 66) du 05/01/2006
+        value: 1000.0
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-520 (art. 1) du 13/05/2011
+        value: 1000.0
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-547 (art. 1) du 23/04/2012
+        value: 1000.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '2001-01-01':
+        value: null
+      '2002-01-01':
+        metadata:
+          reference: Loi 2001-602 du 9/07/2001
+        value: null
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-11 (art. 66) du 05/01/2006
+        value: 0.5
+      '2012-01-01':
+        metadata:
+          reference: Décret 2011-520 (art. 1) du 13/05/2011
+        value: 0.5
+      '2013-01-01':
+        metadata:
+          reference: Décret 2012-547 (art. 1) du 23/04/2012
+        value: 0.5

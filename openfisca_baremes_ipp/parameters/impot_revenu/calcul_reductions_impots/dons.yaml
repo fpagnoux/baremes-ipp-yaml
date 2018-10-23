@@ -1,0 +1,642 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1976-01-01':
+        value: 1975.0
+      '1977-01-01':
+        value: 1976.0
+      '1982-01-01':
+        value: 1981.0
+      '1985-01-01':
+        value: 1984.0
+      '1988-01-01':
+        value: 1987.0
+      '1989-01-01':
+        value: 1988.0
+      '1990-01-01':
+        value: 1989.0
+      '1991-01-01':
+        value: 1990.0
+      '1992-01-01':
+        value: 1991.0
+      '1993-01-01':
+        value: 1992.0
+      '1994-01-01':
+        value: 1993.0
+      '1995-01-01':
+        value: 1994.0
+      '1996-01-01':
+        value: 1995.0
+      '1997-01-01':
+        value: 1996.0
+      '1998-01-01':
+        value: 1997.0
+      '1999-01-01':
+        value: 1998.0
+      '2000-01-01':
+        value: 1999.0
+      '2001-01-01':
+        value: 2000.0
+      '2002-01-01':
+        value: 2001.0
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 2002.0
+      '2004-01-01':
+        value: 2003.0
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 2004.0
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 2005.0
+      '2007-01-01':
+        value: 2006.0
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 2007.0
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 2008.0
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 2009.0
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 2010.0
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 2011.0
+      '2015-01-01':
+        value: 2014.0
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 2015.0
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 2016.0
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 2017.0
+  description: Date d'entrée en vigueur
+description: Dons (1977 - 2016)
+dons_aux_oeuvres:
+  description: Dons aux œuvres
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1976-01-01':
+        value: null
+      '1990-01-01':
+        value: 0.4
+      '1997-01-01':
+        value: 0.5
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 0.6
+      '2004-01-01':
+        value: 0.6
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 0.6
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 0.66
+      '2007-01-01':
+        value: 0.66
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 0.66
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 0.66
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 0.66
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 0.66
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 0.66
+      '2015-01-01':
+        value: 0.66
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 0.66
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 0.66
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 0.66
+dons_aux_partis_politiques:
+  description: Dons aux partis politiques
+  plafond:
+    description: Plafond
+    metadata:
+      unit: currency-EUR
+    values:
+      '1976-01-01':
+        value: null
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: null
+      '2004-01-01':
+        value: null
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: null
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: null
+      '2007-01-01':
+        value: null
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: null
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: null
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: null
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 15000.0
+      '2015-01-01':
+        value: 15000.0
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 15000.0
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 15000.0
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 15000.0
+  plafond_en_revenu_net_global:
+    description: Plafond en % du revenu net global
+    metadata:
+      unit: /1
+    values:
+      '1976-01-01':
+        value: null
+      '1997-01-01':
+        value: 0.05
+      '2000-01-01':
+        value: 0.06
+      '2002-01-01':
+        value: 0.1
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 0.2
+      '2004-01-01':
+        value: 0.2
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 0.2
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 0.2
+      '2007-01-01':
+        value: 0.2
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 0.2
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 0.2
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 0.2
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 0.2
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 0.2
+      '2015-01-01':
+        value: 0.2
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 0.2
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 0.2
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 0.2
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1976-01-01':
+        value: null
+      '1997-01-01':
+        value: 0.4
+      '2000-01-01':
+        value: 0.5
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 0.6
+      '2004-01-01':
+        value: 0.6
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 0.6
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 0.66
+      '2007-01-01':
+        value: 0.66
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 0.66
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 0.66
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 0.66
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 0.66
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 0.66
+      '2015-01-01':
+        value: 0.66
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 0.66
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 0.66
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 0.66
+dons_coluche:
+  description: Dons Coluche
+  plafond:
+    description: Plafond
+    metadata:
+      unit:
+        '1989-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1976-01-01':
+        value: null
+      '1989-01-01':
+        value: 400.0
+      '1990-01-01':
+        value: 500.0
+      '1991-01-01':
+        value: 520.0
+      '1994-01-01':
+        value: 1000.0
+      '1995-01-01':
+        value: 1020.0
+      '1996-01-01':
+        value: 1040.0
+      '1997-01-01':
+        value: 2000.0
+      '1998-01-01':
+        value: 2030.0
+      '1999-01-01':
+        value: 2050.0
+      '2000-01-01':
+        value: 2070.0
+      '2001-01-01':
+        value: 2100.0
+      '2002-01-01':
+        value: 400.0
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 407.0
+      '2004-01-01':
+        value: 414.0
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 422.0
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 470.0
+      '2007-01-01':
+        value: 479.0
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 488.0
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 495.0
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 510.0
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 513.0
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 521.0
+      '2015-01-01':
+        value: 526.0
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 529.0
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 530.0
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 531.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1976-01-01':
+        value: null
+      '1989-01-01':
+        value: 0.5
+      '1997-01-01':
+        value: 0.6
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 0.6
+      '2004-01-01':
+        value: 0.66
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 0.66
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 0.75
+      '2007-01-01':
+        value: 0.75
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 0.75
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 0.75
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 0.75
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 0.75
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 0.75
+      '2015-01-01':
+        value: 0.75
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 0.75
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 0.75
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 0.75
+dons_interet_general:
+  description: Dons d'intérêt général
+  plafond:
+    description: Plafond
+    metadata:
+      unit: /1
+    values:
+      '1976-01-01':
+        value: null
+      '1977-01-01':
+        value: 0.01
+      '1988-01-01':
+        value: 0.0125
+      '1997-01-01':
+        value: 0.0175
+      '2000-01-01':
+        value: 0.06
+      '2002-01-01':
+        value: 0.1
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 0.2
+      '2004-01-01':
+        value: 0.2
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 0.2
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 0.2
+      '2007-01-01':
+        value: 0.2
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 0.2
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 0.2
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 0.2
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 0.2
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 0.2
+      '2015-01-01':
+        value: 0.2
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 0.2
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 0.2
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 0.2
+metadata:
+  rank: 0
+reduction_impot_dons:
+  description: Réduction d'impôt pour les dons
+  plafond_en_revenu_global:
+    description: Plafond en % du revenu global
+    metadata:
+      unit: /1
+    values:
+      '1976-01-01':
+        value: null
+      '1982-01-01':
+        value: 0.03
+      '1985-01-01':
+        value: 0.05
+      '1997-01-01':
+        value: 0.06
+      '2002-01-01':
+        value: 0.1
+      '2003-01-01':
+        metadata:
+          reference: Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+        value: 0.2
+      '2004-01-01':
+        value: 0.2
+      '2005-01-01':
+        metadata:
+          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+        value: 0.2
+      '2006-01-01':
+        metadata:
+          reference: "Loi de programmation pour la cohésion sociale\n n° 2005-32 du\
+            \ 18/01/2005"
+        value: 0.2
+      '2007-01-01':
+        value: 0.2
+      '2008-01-01':
+        metadata:
+          reference: Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+        value: 0.2
+      '2009-01-01':
+        metadata:
+          reference: Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+        value: 0.2
+      '2010-01-01':
+        metadata:
+          reference: Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+        value: 0.2
+      '2011-01-01':
+        metadata:
+          reference: Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+        value: 0.2
+      '2012-01-01':
+        metadata:
+          reference: BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour
+            les dons aux partis politiques
+        value: 0.2
+      '2015-01-01':
+        value: 0.2
+      '2016-01-01':
+        metadata:
+          reference: LF 2016
+        value: 0.2
+      '2017-01-01':
+        metadata:
+          reference: LF 2017
+        value: 0.2
+      '2018-01-01':
+        metadata:
+          reference: LF 2018
+        value: 0.2

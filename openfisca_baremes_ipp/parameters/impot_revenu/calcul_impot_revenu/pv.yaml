@@ -1,0 +1,229 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1978-01-01':
+        value: 1977.0
+      '1979-01-01':
+        value: 1978.0
+      '1980-01-01':
+        value: 1979.0
+      '1981-01-01':
+        value: 1980.0
+      '1982-01-01':
+        value: 1981.0
+      '1983-01-01':
+        value: 1982.0
+      '1984-01-01':
+        value: 1983.0
+      '1985-01-01':
+        value: 1984.0
+      '1986-01-01':
+        value: 1985.0
+      '1987-01-01':
+        value: 1986.0
+      '1988-01-01':
+        value: 1987.0
+      '1989-01-01':
+        value: 1988.0
+      '1990-01-01':
+        value: 1989.0
+      '1991-01-01':
+        value: 1990.0
+      '1992-01-01':
+        value: 1991.0
+      '1993-01-01':
+        value: 1992.0
+      '1994-01-01':
+        value: 1993.0
+      '1995-01-01':
+        value: 1994.0
+      '1996-01-01':
+        value: 1995.0
+      '1997-01-01':
+        value: 1996.0
+      '1998-01-01':
+        value: 1997.0
+      '1999-01-01':
+        value: 1998.0
+      '2000-01-01':
+        value: 1999.0
+      '2001-01-01':
+        value: 2000.0
+      '2002-01-01':
+        value: 2001.0
+      '2003-01-01':
+        value: 2002.0
+      '2004-01-01':
+        value: 2003.0
+      '2005-01-01':
+        value: 2004.0
+      '2006-01-01':
+        value: 2005.0
+      '2007-01-01':
+        value: 2006.0
+      '2008-01-01':
+        value: 2007.0
+      '2009-01-01':
+        value: 2008.0
+      '2010-01-01':
+        value: 2009.0
+      '2011-01-01':
+        value: 2010.0
+      '2012-01-01':
+        value: 2011.0
+      '2013-01-01':
+        value: 2012.0
+      '2014-01-01':
+        value: 2013.0
+  description: Date d'entrée en vigueur
+description: Imposition des plus-values (1979 - 2016)
+imposition_plus_values_cession_valeurs_mobilieres_plus_values_professionnelles:
+  description: Imposition des plus-values de cession de valeurs mobilières et des
+    plus-values professionnelles
+  seuil_imposition:
+    description: Seuil d'imposition
+    metadata:
+      unit:
+        '1979-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: null
+      '1979-01-01':
+        value: 150000.0
+      '1981-01-01':
+        value: 168000.0
+      '1982-01-01':
+        value: 190700.0
+      '1983-01-01':
+        value: null
+      '1985-01-01':
+        value: 265000.0
+      '1986-01-01':
+        value: 272000.0
+      '1987-01-01':
+        value: 281000.0
+      '1989-01-01':
+        value: 298000.0
+      '1990-01-01':
+        value: 307600.0
+      '1991-01-01':
+        value: 316900.0
+      '1992-01-01':
+        value: 325800.0
+      '1993-01-01':
+        value: null
+      '1995-01-01':
+        value: 336700.0
+      '1996-01-01':
+        value: 342800.0
+      '1997-01-01':
+        value: 200000.0
+      '1998-01-01':
+        value: 100000.0
+      '1999-01-01':
+        value: 50000.0
+      '2002-01-01':
+        value: 7650.0
+      '2003-01-01':
+        value: 15000.0
+      '2008-01-01':
+        value: 20000.0
+      '2009-01-01':
+        value: 25000.0
+      '2010-01-01':
+        value: 25730.0
+      '2011-01-01':
+        value: 25830.0
+      '2012-01-01':
+        value: null
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        value: null
+      '1979-01-01':
+        value: 0.15
+      '1985-01-01':
+        value: 0.16
+      '2009-01-01':
+        value: 0.18
+      '2012-01-01':
+        value: 0.19
+      '2013-01-01':
+        value: 0.24
+      '2014-01-01':
+        value: null
+imposition_plus_values_mobilieres_levees_options_attribuees_depuis_27_4_2000_cessions_realisees_moins_deux_ans_apres_levee:
+  description: Imposition des plus-values mobilières (levées d'options attribuées
+    depuis 27/4/2000 & cessions réalisées moins de deux ans après la levée)
+  seuil_tranche_superieure:
+    description: Seuil tranche supérieure
+    metadata:
+      unit:
+        '2001-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1978-01-01':
+        value: null
+      '2001-01-01':
+        value: 1000000.0
+      '2002-01-01':
+        value: 152000.0
+      '2010-01-01':
+        value: 152500.0
+      '2014-01-01':
+        value: null
+  taux_tranche_inferieure:
+    description: Taux tranche inférieure
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        value: null
+      '1996-01-01':
+        value: 0.3
+      '2014-01-01':
+        value: null
+  taux_tranche_superieure:
+    description: Taux tranche supérieure
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        value: null
+      '2001-01-01':
+        value: 0.4
+      '2011-01-01':
+        value: 0.41
+      '2014-01-01':
+        value: null
+metadata:
+  rank: 1
+pea:
+  description: PEA
+  taux_avant_2_ans:
+    description: Taux avant 2 ans
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        value: null
+      '1992-01-01':
+        value: 0.225
+  taux_posterieur:
+    description: Taux postérieur
+    metadata:
+      unit: /1
+    values:
+      '1978-01-01':
+        value: null
+      '1979-01-01':
+        value: 0.15
+      '1985-01-01':
+        value: 0.16
+      '2014-01-01':
+        value: 0.19

@@ -1,0 +1,95 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1998-01-01':
+        value: 1997.0
+      '1999-01-01':
+        value: 1998.0
+      '2002-01-01':
+        value: 2001.0
+      '2008-01-01':
+        value: 2007.0
+      '2010-01-01':
+        metadata:
+          reference: Loi de finances pour 2011 n° 2010-1657 du 29 décembre 2010 art.
+            105
+        value: 2009.0
+      '2012-01-01':
+        metadata:
+          reference: BOI-IR-DOMIC-40
+        value: 2011.0
+      '2013-01-01':
+        value: 2012.0
+  description: Date d'entrée en vigueur
+description: Souscription au capital de SOFIPECHE (1999 - 2016)
+metadata:
+  rank: 2
+reduction_souscriptions_parts_sofipeche:
+  description: Réduction pour souscriptions de parts de SOFIPECHE
+  plafond:
+    description: Plafond
+    metadata:
+      unit:
+        '1999-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1998-01-01':
+        value: null
+      '1999-01-01':
+        value: 125000.0
+      '2002-01-01':
+        value: 19000.0
+      '2008-01-01':
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: Loi de finances pour 2011 n° 2010-1657 du 29 décembre 2010 art.
+            105
+        value: 19000.0
+      '2012-01-01':
+        metadata:
+          reference: BOI-IR-DOMIC-40
+        value: 19000.0
+      '2013-01-01':
+        value: null
+  plafond_en_rev_net_global:
+    description: Plafond en % du rev net global
+    metadata:
+      unit: /1
+    values:
+      '1998-01-01':
+        value: null
+      '1999-01-01':
+        value: 0.25
+      '2008-01-01':
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: Loi de finances pour 2011 n° 2010-1657 du 29 décembre 2010 art.
+            105
+        value: 0.25
+      '2012-01-01':
+        metadata:
+          reference: BOI-IR-DOMIC-40
+        value: 0.25
+      '2013-01-01':
+        value: null
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1998-01-01':
+        value: null
+      '2010-01-01':
+        metadata:
+          reference: Loi de finances pour 2011 n° 2010-1657 du 29 décembre 2010 art.
+            105
+        value: 0.4
+      '2012-01-01':
+        metadata:
+          reference: BOI-IR-DOMIC-40
+        value: 0.36
+      '2013-01-01':
+        value: null

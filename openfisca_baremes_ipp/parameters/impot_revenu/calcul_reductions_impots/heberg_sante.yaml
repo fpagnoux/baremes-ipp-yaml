@@ -1,0 +1,136 @@
+date_entree_en_vigueur:
+  annee_revenus:
+    description: Année Revenus
+    values:
+      '1989-01-01':
+        value: 1988.0
+      '1990-01-01':
+        value: 1989.0
+      '1991-01-01':
+        metadata:
+          reference: Décret n°91-883 du 09/09/1991 - art. 1 / JORF 10/09/1991
+        value: 1990.0
+      '1992-01-01':
+        metadata:
+          reference: Loi 91-1322 du 30/12/1991 (LF pour 1992) - art. 2
+        value: 1991.0
+      '1997-01-01':
+        metadata:
+          reference: Loi 96-1181 du 30/12/1996 (LF pour 1997) - art. 83
+        value: 1996.0
+      '1998-01-01':
+        metadata:
+          reference: Loi 97-1269 1997 du 30/12/1997 (LF pour 1998) - art. 90
+        value: 1997.0
+      '2001-01-01':
+        metadata:
+          reference: Ordonnance n°2000-916 du 19/09/2000 - art. 6 (V) JORF 22/09/2000
+        value: 2000.0
+      '2002-01-01':
+        value: 2001.0
+      '2004-01-01':
+        value: 2003.0
+      '2005-01-01':
+        metadata:
+          reference: Loi 2003-1311 du 30/12/2003 (LF pour 2004) - art. 4
+        value: 2004.0
+      '2006-01-01':
+        value: 2005.0
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-1666 du 21/12/2006 (LF pour 2006) - art. 11
+        value: 2006.0
+  description: Date d'entrée en vigueur
+description: Dépenses d’accueil dans un établissement pour personnes dépendantes (1990
+  - 2016)
+metadata:
+  rank: 10
+reductions_impot_depenses_accueil_dans_etablissement_personnes_agees:
+  description: Réductions d'impôt pour dépenses d'accueil dans établissement pour
+    les personnes âgées
+  plafond:
+    description: Plafond
+    metadata:
+      unit:
+        '1990-01-01': currency-FRF
+        '2002-01-01': currency-EUR
+    values:
+      '1989-01-01':
+        value: null
+      '1990-01-01':
+        value: 13000.0
+      '1991-01-01':
+        metadata:
+          reference: Décret n°91-883 du 09/09/1991 - art. 1 / JORF 10/09/1991
+        value: 13000.0
+      '1992-01-01':
+        metadata:
+          reference: Loi 91-1322 du 30/12/1991 (LF pour 1992) - art. 2
+        value: 13000.0
+      '1997-01-01':
+        metadata:
+          reference: Loi 96-1181 du 30/12/1996 (LF pour 1997) - art. 83
+        value: 13000.0
+      '1998-01-01':
+        metadata:
+          reference: Loi 97-1269 1997 du 30/12/1997 (LF pour 1998) - art. 90
+        value: 13000.0
+      '2001-01-01':
+        metadata:
+          reference: Ordonnance n°2000-916 du 19/09/2000 - art. 6 (V) JORF 22/09/2000
+        value: 15000.0
+      '2002-01-01':
+        value: 2300.0
+      '2004-01-01':
+        value: 3000.0
+      '2005-01-01':
+        metadata:
+          reference: Loi 2003-1311 du 30/12/2003 (LF pour 2004) - art. 4
+        value: 3000.0
+      '2006-01-01':
+        value: 3000.0
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-1666 du 21/12/2006 (LF pour 2006) - art. 11
+        value: 10000.0
+  taux:
+    description: Taux
+    metadata:
+      unit: /1
+    values:
+      '1989-01-01':
+        value: null
+      '1990-01-01':
+        value: 0.25
+      '1991-01-01':
+        metadata:
+          reference: Décret n°91-883 du 09/09/1991 - art. 1 / JORF 10/09/1991
+        value: 0.25
+      '1992-01-01':
+        metadata:
+          reference: Loi 91-1322 du 30/12/1991 (LF pour 1992) - art. 2
+        value: 0.25
+      '1997-01-01':
+        metadata:
+          reference: Loi 96-1181 du 30/12/1996 (LF pour 1997) - art. 83
+        value: 0.25
+      '1998-01-01':
+        metadata:
+          reference: Loi 97-1269 1997 du 30/12/1997 (LF pour 1998) - art. 90
+        value: 0.25
+      '2001-01-01':
+        metadata:
+          reference: Ordonnance n°2000-916 du 19/09/2000 - art. 6 (V) JORF 22/09/2000
+        value: 0.25
+      '2002-01-01':
+        value: 0.25
+      '2005-01-01':
+        metadata:
+          reference: Loi 2003-1311 du 30/12/2003 (LF pour 2004) - art. 4
+        value: 0.25
+      '2006-01-01':
+        value: 0.25
+      '2007-01-01':
+        metadata:
+          reference: Loi 2006-1666 du 21/12/2006 (LF pour 2006) - art. 11
+        value: 0.25
