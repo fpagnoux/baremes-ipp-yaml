@@ -1,0 +1,1351 @@
+base_mensuelle_calcul_allocations_familiales_bmaf:
+  description: Base mensuelle de calcul des allocations familiales (BMAF)
+  metadata:
+    unit:
+      '1946-07-01': currency-FRF
+      '2002-01-01': currency-EUR
+  values:
+    '1939-04-01':
+      value: null
+    '1946-07-01':
+      metadata:
+        reference: Loi 46-1835 du 22/08/1946
+      value: 56.5
+    '1947-02-01':
+      metadata:
+        reference: Loi 47-614 du 31/03/1947
+      value: 62.15
+    '1947-07-01':
+      value: 62.5
+    '1947-08-01':
+      metadata:
+        reference: Loi 47-1127 du 25/06/1947, art. 17
+      value: 70.0
+    '1947-12-01':
+      metadata:
+        reference: Loi 47-2441 du 31/12/1947, art. 5 (modif loi 47-1127 art.17)
+      value: 85.0
+    '1948-01-01':
+      metadata:
+        reference: Loi 48-354 du 02/03/1948 , art. 1
+      value: 105.0
+    '1948-09-01':
+      metadata:
+        reference: Loi 48-1555 du 06/10/1948, art. 1
+      value: 120.0
+    '1949-10-01':
+      metadata:
+        reference: Arrêté du 13/02/1950
+      value: 120.0
+    '1950-04-01':
+      metadata:
+        reference: Décret 50-667 du 14/06/1950
+      value: 120.0
+    '1950-07-01':
+      metadata:
+        reference: Loi 50-948 du 08/08/1950, art. 7
+      value: 120.0
+    '1950-10-01':
+      metadata:
+        reference: Décret 50-1220 du 30/09/1950
+      value: 120.0
+    '1950-12-01':
+      metadata:
+        reference: Loi 50-1598 du 30/12/1950
+      value: 144.0
+    '1951-04-01':
+      metadata:
+        reference: Loi 51-520 du 09/05/1951, art. 2, 4 et 5
+      value: 150.0
+    '1951-10-01':
+      metadata:
+        reference: Loi 51-1126 du 26/09/1951, art. 9 et 10
+      value: 172.5
+    '1952-04-01':
+      metadata:
+        reference: Loi 52-4 du 03/01/1952, art. 2
+      value: 172.5
+    '1953-01-01':
+      metadata:
+        reference: Décret 53-101 du 12/02/1953
+      value: 172.5
+    '1955-01-01':
+      metadata:
+        reference: Décret 54-1323 du 31/12/1954
+      value: 180.0
+    '1958-01-01':
+      metadata:
+        reference: Loi 57-1344 du 30/12/1957, art. 7 §1 (modif art. L 544 du CSS)
+      value: 190.0
+    '1959-08-01':
+      metadata:
+        reference: Décret 59-911 du 31/07/1959
+      value: 210.0
+    '1960-08-01':
+      metadata:
+        reference: Décret 60-967 du 08/09/1960
+      value: 220.5
+    '1961-01-01':
+      metadata:
+        reference: Décret 61-170 du 16/02/1961
+      value: 227.0
+    '1961-08-01':
+      metadata:
+        reference: Décret 61-170 du 16/02/1961
+      value: 234.0
+    '1962-01-01':
+      metadata:
+        reference: Décret 61-1440 du 27/12/1961
+      value: 243.0
+    '1962-08-01':
+      metadata:
+        reference: Décret 61-1440 du 27/12/1961
+      value: 253.0
+    '1962-11-01':
+      metadata:
+        reference: Décret 62-1268 du 30/10/1962
+      value: 264.5
+    '1963-08-01':
+      metadata:
+        reference: Décret 63-743 du 23/07/1963
+      value: 276.5
+    '1964-08-01':
+      metadata:
+        reference: Décret 64-584 du 23/06/1964
+      value: 288.0
+    '1965-08-01':
+      metadata:
+        reference: Décret 65-573 du 13/07/1965
+      value: 300.0
+    '1966-08-01':
+      metadata:
+        reference: Décret 66-574 du 30/07/1966
+      value: 313.5
+    '1967-08-01':
+      metadata:
+        reference: Décret 67-659 du 4/08/1967
+      value: 328.0
+    '1968-02-01':
+      metadata:
+        reference: Décret 68-150 du 16/02/1968
+      value: 343.0
+    '1969-08-01':
+      metadata:
+        reference: Décret 69-793 du 12/08/1969
+      value: 377.5
+    '1970-08-01':
+      metadata:
+        reference: Décret 70-678 du 30/07/1970
+      value: 394.5
+    '1971-08-01':
+      metadata:
+        reference: Décret 71-624 du 28/07/1971
+      value: 415.5
+    '1972-08-01':
+      metadata:
+        reference: Décret 72-701 du 28/07/1972
+      value: 440.5
+    '1973-01-01':
+      metadata:
+        reference: Décret 72-1248 du 30/12/1972
+      value: 458.2
+    '1973-08-01':
+      metadata:
+        reference: Décret 73-843 du 28/08/1973
+      value: 490.0
+    '1974-08-01':
+      metadata:
+        reference: Décret 74-717 du 14/08/1974
+      value: 553.0
+    '1975-04-01':
+      metadata:
+        reference: Décret 75-211 du 28/03/1975
+      value: 592.0
+    '1975-08-01':
+      metadata:
+        reference: Décret 75-709 du 30/07/1975
+      value: 632.0
+    '1976-08-01':
+      metadata:
+        reference: Décret 76-768 du 16/08/1976
+      value: 694.5
+    '1977-07-01':
+      metadata:
+        reference: Décret 77-692 du 30/06/1977
+      value: 768.0
+    '1978-01-01':
+      metadata:
+        reference: Décret 78-30 du 10/01/1978
+      value: 818.0
+    '1978-07-01':
+      metadata:
+        reference: Décret 78-728 du 11/07/1978
+      value: 850.0
+    '1981-07-01':
+      metadata:
+        reference: Arrêté du 22/04/1981
+      value: 1093.25
+    '1982-07-01':
+      metadata:
+        reference: Décret 82-703 du 09/08/1982
+      value: 1323.0
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1136 du 29/12/1982
+      value: 1422.0
+    '1983-07-01':
+      metadata:
+        reference: Décret 83-554 du 30/06/1983
+      value: 1479.0
+    '1984-01-01':
+      metadata:
+        reference: Décret 84-128 du 22/02/1984
+      value: 1513.76
+    '1984-07-01':
+      metadata:
+        reference: Décret 84-644 du 17/07/1984
+      value: 1549.33
+    '1985-01-01':
+      metadata:
+        reference: Décret 85-286 du 28/02/1985
+      value: 1602.0
+    '1985-07-01':
+      metadata:
+        reference: Décret 85-758 du 18/07/1985
+      value: 1642.05
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-150 du 30/01/1986
+      value: 1662.57
+    '1986-07-01':
+      metadata:
+        reference: Décret 86-150 du 30/01/1986
+      value: 1683.35
+    '1987-07-01':
+      metadata:
+        reference: Décret 87-627 du 04/08/1987
+      value: 1700.18
+    '1988-01-01':
+      metadata:
+        reference: Décret 87-1174 du 24/12/1987
+      value: 1745.4
+    '1988-07-01':
+      metadata:
+        reference: Décret 88-912 du 05/09/1988
+      value: 1770.18
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-36 du 25/01/1989
+      value: 1789.83
+    '1989-07-01':
+      metadata:
+        reference: Décret 89-600 du 28/08/1989
+      value: 1807.9
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-64 du 15/01/1990
+      value: 1848.4
+    '1990-07-01':
+      metadata:
+        reference: Décret 90-64 du 15/01/1990
+      value: 1873.35
+    '1991-01-01':
+      metadata:
+        reference: Décret 91-170 du 13/02/1991
+      value: 1905.2
+    '1991-07-01':
+      metadata:
+        reference: Décret 91-766 du 07/08/1991
+      value: 1920.44
+    '1992-01-01':
+      metadata:
+        reference: Décret 91-1376 du 30/12/1991
+      value: 1939.64
+    '1992-07-01':
+      metadata:
+        reference: Décret 91-1376 du 30/12/1991
+      value: 1974.0
+    '1993-01-01':
+      metadata:
+        reference: Décret 93-144 du 02/02/1993
+      value: 2014.04
+    '1994-01-01':
+      metadata:
+        reference: Décret 93-1344 du 29/12/1993
+      value: 2054.32
+    '1995-01-01':
+      metadata:
+        reference: Décret 94-1231 du 30/12/1994
+      value: 2078.97
+    '1997-01-01':
+      metadata:
+        reference: Décret 96-1246 du 26/12/1996
+      value: 2108.49
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-3 du 05/01/1998
+      value: 2131.68
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1200 du 28/12/1998
+      value: 2146.81
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1222 du 30/12/1999
+      value: 2157.54
+    '2001-01-01':
+      metadata:
+        reference: Décret 2001-8 du 04/01/2001
+      value: 2196.38
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1241 du 21/12/2001
+      value: 341.87
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1567 du 23/12/2002
+      value: 347.68
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1251 du 23/12/2003
+      value: 353.59
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1458 du 23/12/2004
+      value: 361.37
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1769 du 30/12/2005
+      value: 367.87
+    '2007-01-01':
+      metadata:
+        reference: Décret 2006-1754 du 23/12/2006
+      value: 374.12
+    '2008-01-01':
+      metadata:
+        reference: Décret 2007-1755 du 13/12/2007
+      value: 377.86
+    '2009-01-01':
+      metadata:
+        reference: Décret 2008-1559 du 31/12/2008
+      value: 389.2
+    '2011-01-01':
+      metadata:
+        reference: Décret 2010-1766 du 30/12/2010
+      value: 395.04
+    '2012-04-01':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011, art. 104 (modif art. L551-1 du CSS)
+      value: 399.0
+    '2013-04-01':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011, art. 104 (modif art. L551-1 du CSS)
+      value: 403.79
+    '2014-04-01':
+      metadata:
+        reference: Loi 2013-1203 du 23 /12/2013
+      value: 406.21274
+    '2016-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
+      value: 406.62
+    '2017-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+      value: 407.84
+bmaf_e_t_i:
+  description: BMAF E.T.I.
+  metadata:
+    unit: currency-FRF
+  values:
+    '1939-04-01':
+      value: null
+    '1946-07-01':
+      metadata:
+        reference: Loi 46-1835 du 22/08/1946
+      value: 56.5
+    '1947-02-01':
+      metadata:
+        reference: Loi 47-614 du 31/03/1947
+      value: 56.5
+    '1947-07-01':
+      value: 62.5
+    '1947-08-01':
+      metadata:
+        reference: Loi 47-1127 du 25/06/1947, art. 17
+      value: 62.5
+    '1947-12-01':
+      metadata:
+        reference: Loi 47-2441 du 31/12/1947, art. 5 (modif loi 47-1127 art.17)
+      value: 62.5
+    '1948-01-01':
+      metadata:
+        reference: Loi 48-354 du 02/03/1948 , art. 1
+      value: 62.5
+    '1948-09-01':
+      metadata:
+        reference: Loi 48-1555 du 06/10/1948, art. 1
+      value: 62.5
+    '1949-10-01':
+      metadata:
+        reference: Arrêté du 13/02/1950
+      value: 75.0
+    '1950-04-01':
+      metadata:
+        reference: Décret 50-667 du 14/06/1950
+      value: 90.0
+    '1950-07-01':
+      metadata:
+        reference: Loi 50-948 du 08/08/1950, art. 7
+      value: 90.0
+    '1950-10-01':
+      metadata:
+        reference: Décret 50-1220 du 30/09/1950
+      value: 100.0
+    '1950-12-01':
+      metadata:
+        reference: Loi 50-1598 du 30/12/1950
+      value: 120.0
+    '1951-04-01':
+      metadata:
+        reference: Loi 51-520 du 09/05/1951, art. 2, 4 et 5
+      value: 132.0
+    '1951-10-01':
+      metadata:
+        reference: Loi 51-1126 du 26/09/1951, art. 9 et 10
+      value: 151.8
+    '1952-04-01':
+      metadata:
+        reference: Loi 52-4 du 03/01/1952, art. 2
+      value: 151.8
+    '1953-01-01':
+      metadata:
+        reference: Décret 53-101 du 12/02/1953
+      value: 172.5
+    '1955-01-01':
+      metadata:
+        reference: Décret 54-1323 du 31/12/1954
+      value: null
+    '1958-01-01':
+      metadata:
+        reference: Loi 57-1344 du 30/12/1957, art. 7 §1 (modif art. L 544 du CSS)
+      value: null
+    '1959-08-01':
+      metadata:
+        reference: Décret 59-911 du 31/07/1959
+      value: null
+    '1960-08-01':
+      metadata:
+        reference: Décret 60-967 du 08/09/1960
+      value: null
+    '1961-01-01':
+      metadata:
+        reference: Décret 61-170 du 16/02/1961
+      value: null
+    '1962-01-01':
+      metadata:
+        reference: Décret 61-1440 du 27/12/1961
+      value: null
+    '1962-11-01':
+      metadata:
+        reference: Décret 62-1268 du 30/10/1962
+      value: null
+    '1963-08-01':
+      metadata:
+        reference: Décret 63-743 du 23/07/1963
+      value: null
+    '1964-08-01':
+      metadata:
+        reference: Décret 64-584 du 23/06/1964
+      value: null
+    '1965-08-01':
+      metadata:
+        reference: Décret 65-573 du 13/07/1965
+      value: null
+    '1966-08-01':
+      metadata:
+        reference: Décret 66-574 du 30/07/1966
+      value: null
+    '1967-08-01':
+      metadata:
+        reference: Décret 67-659 du 4/08/1967
+      value: null
+    '1968-02-01':
+      metadata:
+        reference: Décret 68-150 du 16/02/1968
+      value: null
+    '1969-08-01':
+      metadata:
+        reference: Décret 69-793 du 12/08/1969
+      value: null
+    '1970-08-01':
+      metadata:
+        reference: Décret 70-678 du 30/07/1970
+      value: null
+    '1971-08-01':
+      metadata:
+        reference: Décret 71-624 du 28/07/1971
+      value: null
+    '1972-08-01':
+      metadata:
+        reference: Décret 72-701 du 28/07/1972
+      value: null
+    '1973-01-01':
+      metadata:
+        reference: Décret 72-1248 du 30/12/1972
+      value: null
+    '1973-08-01':
+      metadata:
+        reference: Décret 73-843 du 28/08/1973
+      value: null
+    '1974-08-01':
+      metadata:
+        reference: Décret 74-717 du 14/08/1974
+      value: null
+    '1975-04-01':
+      metadata:
+        reference: Décret 75-211 du 28/03/1975
+      value: null
+    '1975-08-01':
+      metadata:
+        reference: Décret 75-709 du 30/07/1975
+      value: null
+    '1976-08-01':
+      metadata:
+        reference: Décret 76-768 du 16/08/1976
+      value: null
+    '1977-07-01':
+      metadata:
+        reference: Décret 77-692 du 30/06/1977
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Décret 78-30 du 10/01/1978
+      value: null
+    '1978-07-01':
+      metadata:
+        reference: Décret 78-728 du 11/07/1978
+      value: null
+    '1981-07-01':
+      metadata:
+        reference: Arrêté du 22/04/1981
+      value: null
+    '1982-07-01':
+      metadata:
+        reference: Décret 82-703 du 09/08/1982
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1136 du 29/12/1982
+      value: null
+    '1983-07-01':
+      metadata:
+        reference: Décret 83-554 du 30/06/1983
+      value: null
+    '1984-01-01':
+      metadata:
+        reference: Décret 84-128 du 22/02/1984
+      value: null
+    '1984-07-01':
+      metadata:
+        reference: Décret 84-644 du 17/07/1984
+      value: null
+    '1985-01-01':
+      metadata:
+        reference: Décret 85-286 du 28/02/1985
+      value: null
+    '1985-07-01':
+      metadata:
+        reference: Décret 85-758 du 18/07/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-150 du 30/01/1986
+      value: null
+    '1987-07-01':
+      metadata:
+        reference: Décret 87-627 du 04/08/1987
+      value: null
+    '1988-01-01':
+      metadata:
+        reference: Décret 87-1174 du 24/12/1987
+      value: null
+    '1988-07-01':
+      metadata:
+        reference: Décret 88-912 du 05/09/1988
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-36 du 25/01/1989
+      value: null
+    '1989-07-01':
+      metadata:
+        reference: Décret 89-600 du 28/08/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-64 du 15/01/1990
+      value: null
+    '1991-01-01':
+      metadata:
+        reference: Décret 91-170 du 13/02/1991
+      value: null
+    '1991-07-01':
+      metadata:
+        reference: Décret 91-766 du 07/08/1991
+      value: null
+    '1992-01-01':
+      metadata:
+        reference: Décret 91-1376 du 30/12/1991
+      value: null
+    '1993-01-01':
+      metadata:
+        reference: Décret 93-144 du 02/02/1993
+      value: null
+    '1994-01-01':
+      metadata:
+        reference: Décret 93-1344 du 29/12/1993
+      value: null
+    '1995-01-01':
+      metadata:
+        reference: Décret 94-1231 du 30/12/1994
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Décret 96-1246 du 26/12/1996
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-3 du 05/01/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1200 du 28/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1222 du 30/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2001-8 du 04/01/2001
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1241 du 21/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1567 du 23/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1251 du 23/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1458 du 23/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1769 du 30/12/2005
+      value: null
+    '2007-01-01':
+      metadata:
+        reference: Décret 2006-1754 du 23/12/2006
+      value: null
+    '2008-01-01':
+      metadata:
+        reference: Décret 2007-1755 du 13/12/2007
+      value: null
+    '2009-01-01':
+      metadata:
+        reference: Décret 2008-1559 du 31/12/2008
+      value: null
+    '2011-01-01':
+      metadata:
+        reference: Décret 2010-1766 du 30/12/2010
+      value: null
+    '2012-04-01':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011, art. 104 (modif art. L551-1 du CSS)
+      value: null
+    '2014-04-01':
+      metadata:
+        reference: Loi 2013-1203 du 23 /12/2013
+      value: null
+    '2016-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
+      value: null
+    '2017-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+      value: null
+bmaf_regimes_agricoles:
+  description: BMAF régimes agricoles
+  metadata:
+    unit: currency-FRF
+  values:
+    '1939-04-01':
+      value: null
+    '1946-07-01':
+      metadata:
+        reference: Loi 46-1835 du 22/08/1946
+      value: 56.5
+    '1947-02-01':
+      metadata:
+        reference: Loi 47-614 du 31/03/1947
+      value: 56.5
+    '1947-07-01':
+      value: 62.5
+    '1947-08-01':
+      metadata:
+        reference: Loi 47-1127 du 25/06/1947, art. 17
+      value: 62.5
+    '1947-12-01':
+      metadata:
+        reference: Loi 47-2441 du 31/12/1947, art. 5 (modif loi 47-1127 art.17)
+      value: 62.5
+    '1948-01-01':
+      metadata:
+        reference: Loi 48-354 du 02/03/1948 , art. 1
+      value: 62.5
+    '1948-09-01':
+      metadata:
+        reference: Loi 48-1555 du 06/10/1948, art. 1
+      value: 62.5
+    '1949-10-01':
+      metadata:
+        reference: Arrêté du 13/02/1950
+      value: 62.5
+    '1950-04-01':
+      metadata:
+        reference: Décret 50-667 du 14/06/1950
+      value: 62.5
+    '1950-07-01':
+      metadata:
+        reference: Loi 50-948 du 08/08/1950, art. 7
+      value: 80.0
+    '1950-10-01':
+      metadata:
+        reference: Décret 50-1220 du 30/09/1950
+      value: 80.0
+    '1950-12-01':
+      metadata:
+        reference: Loi 50-1598 du 30/12/1950
+      value: 96.0
+    '1951-04-01':
+      metadata:
+        reference: Loi 51-520 du 09/05/1951, art. 2, 4 et 5
+      value: 104.0
+    '1951-10-01':
+      metadata:
+        reference: Loi 51-1126 du 26/09/1951, art. 9 et 10
+      value: 119.6
+    '1952-04-01':
+      metadata:
+        reference: Loi 52-4 du 03/01/1952, art. 2
+      value: 172.5
+    '1953-01-01':
+      metadata:
+        reference: Décret 53-101 du 12/02/1953
+      value: 172.5
+    '1955-01-01':
+      metadata:
+        reference: Décret 54-1323 du 31/12/1954
+      value: null
+    '1958-01-01':
+      metadata:
+        reference: Loi 57-1344 du 30/12/1957, art. 7 §1 (modif art. L 544 du CSS)
+      value: null
+    '1959-08-01':
+      metadata:
+        reference: Décret 59-911 du 31/07/1959
+      value: null
+    '1960-08-01':
+      metadata:
+        reference: Décret 60-967 du 08/09/1960
+      value: null
+    '1961-01-01':
+      metadata:
+        reference: Décret 61-170 du 16/02/1961
+      value: null
+    '1962-01-01':
+      metadata:
+        reference: Décret 61-1440 du 27/12/1961
+      value: null
+    '1962-11-01':
+      metadata:
+        reference: Décret 62-1268 du 30/10/1962
+      value: null
+    '1963-08-01':
+      metadata:
+        reference: Décret 63-743 du 23/07/1963
+      value: null
+    '1964-08-01':
+      metadata:
+        reference: Décret 64-584 du 23/06/1964
+      value: null
+    '1965-08-01':
+      metadata:
+        reference: Décret 65-573 du 13/07/1965
+      value: null
+    '1966-08-01':
+      metadata:
+        reference: Décret 66-574 du 30/07/1966
+      value: null
+    '1967-08-01':
+      metadata:
+        reference: Décret 67-659 du 4/08/1967
+      value: null
+    '1968-02-01':
+      metadata:
+        reference: Décret 68-150 du 16/02/1968
+      value: null
+    '1969-08-01':
+      metadata:
+        reference: Décret 69-793 du 12/08/1969
+      value: null
+    '1970-08-01':
+      metadata:
+        reference: Décret 70-678 du 30/07/1970
+      value: null
+    '1971-08-01':
+      metadata:
+        reference: Décret 71-624 du 28/07/1971
+      value: null
+    '1972-08-01':
+      metadata:
+        reference: Décret 72-701 du 28/07/1972
+      value: null
+    '1973-01-01':
+      metadata:
+        reference: Décret 72-1248 du 30/12/1972
+      value: null
+    '1973-08-01':
+      metadata:
+        reference: Décret 73-843 du 28/08/1973
+      value: null
+    '1974-08-01':
+      metadata:
+        reference: Décret 74-717 du 14/08/1974
+      value: null
+    '1975-04-01':
+      metadata:
+        reference: Décret 75-211 du 28/03/1975
+      value: null
+    '1975-08-01':
+      metadata:
+        reference: Décret 75-709 du 30/07/1975
+      value: null
+    '1976-08-01':
+      metadata:
+        reference: Décret 76-768 du 16/08/1976
+      value: null
+    '1977-07-01':
+      metadata:
+        reference: Décret 77-692 du 30/06/1977
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Décret 78-30 du 10/01/1978
+      value: null
+    '1978-07-01':
+      metadata:
+        reference: Décret 78-728 du 11/07/1978
+      value: null
+    '1981-07-01':
+      metadata:
+        reference: Arrêté du 22/04/1981
+      value: null
+    '1982-07-01':
+      metadata:
+        reference: Décret 82-703 du 09/08/1982
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1136 du 29/12/1982
+      value: null
+    '1983-07-01':
+      metadata:
+        reference: Décret 83-554 du 30/06/1983
+      value: null
+    '1984-01-01':
+      metadata:
+        reference: Décret 84-128 du 22/02/1984
+      value: null
+    '1984-07-01':
+      metadata:
+        reference: Décret 84-644 du 17/07/1984
+      value: null
+    '1985-01-01':
+      metadata:
+        reference: Décret 85-286 du 28/02/1985
+      value: null
+    '1985-07-01':
+      metadata:
+        reference: Décret 85-758 du 18/07/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-150 du 30/01/1986
+      value: null
+    '1987-07-01':
+      metadata:
+        reference: Décret 87-627 du 04/08/1987
+      value: null
+    '1988-01-01':
+      metadata:
+        reference: Décret 87-1174 du 24/12/1987
+      value: null
+    '1988-07-01':
+      metadata:
+        reference: Décret 88-912 du 05/09/1988
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-36 du 25/01/1989
+      value: null
+    '1989-07-01':
+      metadata:
+        reference: Décret 89-600 du 28/08/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-64 du 15/01/1990
+      value: null
+    '1991-01-01':
+      metadata:
+        reference: Décret 91-170 du 13/02/1991
+      value: null
+    '1991-07-01':
+      metadata:
+        reference: Décret 91-766 du 07/08/1991
+      value: null
+    '1992-01-01':
+      metadata:
+        reference: Décret 91-1376 du 30/12/1991
+      value: null
+    '1993-01-01':
+      metadata:
+        reference: Décret 93-144 du 02/02/1993
+      value: null
+    '1994-01-01':
+      metadata:
+        reference: Décret 93-1344 du 29/12/1993
+      value: null
+    '1995-01-01':
+      metadata:
+        reference: Décret 94-1231 du 30/12/1994
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Décret 96-1246 du 26/12/1996
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-3 du 05/01/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1200 du 28/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1222 du 30/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2001-8 du 04/01/2001
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1241 du 21/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1567 du 23/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1251 du 23/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1458 du 23/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1769 du 30/12/2005
+      value: null
+    '2007-01-01':
+      metadata:
+        reference: Décret 2006-1754 du 23/12/2006
+      value: null
+    '2008-01-01':
+      metadata:
+        reference: Décret 2007-1755 du 13/12/2007
+      value: null
+    '2009-01-01':
+      metadata:
+        reference: Décret 2008-1559 du 31/12/2008
+      value: null
+    '2011-01-01':
+      metadata:
+        reference: Décret 2010-1766 du 30/12/2010
+      value: null
+    '2012-04-01':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011, art. 104 (modif art. L551-1 du CSS)
+      value: null
+    '2014-04-01':
+      metadata:
+        reference: Loi 2013-1203 du 23 /12/2013
+      value: null
+    '2016-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
+      value: null
+    '2017-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+      value: null
+description: Base mensuelle de calcul des allocations familiales (BMAF)
+metadata:
+  rank: 2
+salaire_mensuel_base_dans_departement_seine:
+  description: Salaire mensuel de base dans le département de la Seine
+  metadata:
+    unit: currency-FRF
+  values:
+    '1939-04-01':
+      value: 15.0
+    '1942-01-01':
+      value: 17.0
+    '1944-01-01':
+      value: 22.5
+    '1944-08-01':
+      value: 45.0
+    '1946-07-01':
+      metadata:
+        reference: Loi 46-1835 du 22/08/1946
+      value: 56.5
+    '1947-02-01':
+      metadata:
+        reference: Loi 47-614 du 31/03/1947
+      value: 62.15
+    '1947-07-01':
+      value: 62.5
+    '1947-08-01':
+      metadata:
+        reference: Loi 47-1127 du 25/06/1947, art. 17
+      value: 70.0
+    '1947-12-01':
+      metadata:
+        reference: Loi 47-2441 du 31/12/1947, art. 5 (modif loi 47-1127 art.17)
+      value: 85.0
+    '1948-01-01':
+      metadata:
+        reference: Loi 48-354 du 02/03/1948 , art. 1
+      value: 105.0
+    '1948-09-01':
+      metadata:
+        reference: Loi 48-1555 du 06/10/1948, art. 1
+      value: 120.0
+    '1949-10-01':
+      metadata:
+        reference: Arrêté du 13/02/1950
+      value: 120.0
+    '1950-04-01':
+      metadata:
+        reference: Décret 50-667 du 14/06/1950
+      value: 120.0
+    '1950-07-01':
+      metadata:
+        reference: Loi 50-948 du 08/08/1950, art. 7
+      value: 120.0
+    '1950-10-01':
+      metadata:
+        reference: Décret 50-1220 du 30/09/1950
+      value: 120.0
+    '1950-12-01':
+      metadata:
+        reference: Loi 50-1598 du 30/12/1950
+      value: 120.0
+    '1951-04-01':
+      metadata:
+        reference: Loi 51-520 du 09/05/1951, art. 2, 4 et 5
+      value: 120.0
+    '1951-10-01':
+      metadata:
+        reference: Loi 51-1126 du 26/09/1951, art. 9 et 10
+      value: 120.0
+    '1952-04-01':
+      metadata:
+        reference: Loi 52-4 du 03/01/1952, art. 2
+      value: 120.0
+    '1953-01-01':
+      metadata:
+        reference: Décret 53-101 du 12/02/1953
+      value: 120.0
+    '1955-01-01':
+      metadata:
+        reference: Décret 54-1323 du 31/12/1954
+      value: null
+    '1958-01-01':
+      metadata:
+        reference: Loi 57-1344 du 30/12/1957, art. 7 §1 (modif art. L 544 du CSS)
+      value: null
+    '1959-08-01':
+      metadata:
+        reference: Décret 59-911 du 31/07/1959
+      value: null
+    '1960-08-01':
+      metadata:
+        reference: Décret 60-967 du 08/09/1960
+      value: null
+    '1961-01-01':
+      metadata:
+        reference: Décret 61-170 du 16/02/1961
+      value: null
+    '1962-01-01':
+      metadata:
+        reference: Décret 61-1440 du 27/12/1961
+      value: null
+    '1962-11-01':
+      metadata:
+        reference: Décret 62-1268 du 30/10/1962
+      value: null
+    '1963-08-01':
+      metadata:
+        reference: Décret 63-743 du 23/07/1963
+      value: null
+    '1964-08-01':
+      metadata:
+        reference: Décret 64-584 du 23/06/1964
+      value: null
+    '1965-08-01':
+      metadata:
+        reference: Décret 65-573 du 13/07/1965
+      value: null
+    '1966-08-01':
+      metadata:
+        reference: Décret 66-574 du 30/07/1966
+      value: null
+    '1967-08-01':
+      metadata:
+        reference: Décret 67-659 du 4/08/1967
+      value: null
+    '1968-02-01':
+      metadata:
+        reference: Décret 68-150 du 16/02/1968
+      value: null
+    '1969-08-01':
+      metadata:
+        reference: Décret 69-793 du 12/08/1969
+      value: null
+    '1970-08-01':
+      metadata:
+        reference: Décret 70-678 du 30/07/1970
+      value: null
+    '1971-08-01':
+      metadata:
+        reference: Décret 71-624 du 28/07/1971
+      value: null
+    '1972-08-01':
+      metadata:
+        reference: Décret 72-701 du 28/07/1972
+      value: null
+    '1973-01-01':
+      metadata:
+        reference: Décret 72-1248 du 30/12/1972
+      value: null
+    '1973-08-01':
+      metadata:
+        reference: Décret 73-843 du 28/08/1973
+      value: null
+    '1974-08-01':
+      metadata:
+        reference: Décret 74-717 du 14/08/1974
+      value: null
+    '1975-04-01':
+      metadata:
+        reference: Décret 75-211 du 28/03/1975
+      value: null
+    '1975-08-01':
+      metadata:
+        reference: Décret 75-709 du 30/07/1975
+      value: null
+    '1976-08-01':
+      metadata:
+        reference: Décret 76-768 du 16/08/1976
+      value: null
+    '1977-07-01':
+      metadata:
+        reference: Décret 77-692 du 30/06/1977
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Décret 78-30 du 10/01/1978
+      value: null
+    '1978-07-01':
+      metadata:
+        reference: Décret 78-728 du 11/07/1978
+      value: null
+    '1981-07-01':
+      metadata:
+        reference: Arrêté du 22/04/1981
+      value: null
+    '1982-07-01':
+      metadata:
+        reference: Décret 82-703 du 09/08/1982
+      value: null
+    '1983-01-01':
+      metadata:
+        reference: Décret 82-1136 du 29/12/1982
+      value: null
+    '1983-07-01':
+      metadata:
+        reference: Décret 83-554 du 30/06/1983
+      value: null
+    '1984-01-01':
+      metadata:
+        reference: Décret 84-128 du 22/02/1984
+      value: null
+    '1984-07-01':
+      metadata:
+        reference: Décret 84-644 du 17/07/1984
+      value: null
+    '1985-01-01':
+      metadata:
+        reference: Décret 85-286 du 28/02/1985
+      value: null
+    '1985-07-01':
+      metadata:
+        reference: Décret 85-758 du 18/07/1985
+      value: null
+    '1986-01-01':
+      metadata:
+        reference: Décret 86-150 du 30/01/1986
+      value: null
+    '1987-07-01':
+      metadata:
+        reference: Décret 87-627 du 04/08/1987
+      value: null
+    '1988-01-01':
+      metadata:
+        reference: Décret 87-1174 du 24/12/1987
+      value: null
+    '1988-07-01':
+      metadata:
+        reference: Décret 88-912 du 05/09/1988
+      value: null
+    '1989-01-01':
+      metadata:
+        reference: Décret 89-36 du 25/01/1989
+      value: null
+    '1989-07-01':
+      metadata:
+        reference: Décret 89-600 du 28/08/1989
+      value: null
+    '1990-01-01':
+      metadata:
+        reference: Décret 90-64 du 15/01/1990
+      value: null
+    '1991-01-01':
+      metadata:
+        reference: Décret 91-170 du 13/02/1991
+      value: null
+    '1991-07-01':
+      metadata:
+        reference: Décret 91-766 du 07/08/1991
+      value: null
+    '1992-01-01':
+      metadata:
+        reference: Décret 91-1376 du 30/12/1991
+      value: null
+    '1993-01-01':
+      metadata:
+        reference: Décret 93-144 du 02/02/1993
+      value: null
+    '1994-01-01':
+      metadata:
+        reference: Décret 93-1344 du 29/12/1993
+      value: null
+    '1995-01-01':
+      metadata:
+        reference: Décret 94-1231 du 30/12/1994
+      value: null
+    '1997-01-01':
+      metadata:
+        reference: Décret 96-1246 du 26/12/1996
+      value: null
+    '1998-01-01':
+      metadata:
+        reference: Décret 98-3 du 05/01/1998
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1200 du 28/12/1998
+      value: null
+    '2000-01-01':
+      metadata:
+        reference: Décret 99-1222 du 30/12/1999
+      value: null
+    '2001-01-01':
+      metadata:
+        reference: Décret 2001-8 du 04/01/2001
+      value: null
+    '2002-01-01':
+      metadata:
+        reference: Décret 2001-1241 du 21/12/2001
+      value: null
+    '2003-01-01':
+      metadata:
+        reference: Décret 2002-1567 du 23/12/2002
+      value: null
+    '2004-01-01':
+      metadata:
+        reference: Décret 2003-1251 du 23/12/2003
+      value: null
+    '2005-01-01':
+      metadata:
+        reference: Décret 2004-1458 du 23/12/2004
+      value: null
+    '2006-01-01':
+      metadata:
+        reference: Décret 2005-1769 du 30/12/2005
+      value: null
+    '2007-01-01':
+      metadata:
+        reference: Décret 2006-1754 du 23/12/2006
+      value: null
+    '2008-01-01':
+      metadata:
+        reference: Décret 2007-1755 du 13/12/2007
+      value: null
+    '2009-01-01':
+      metadata:
+        reference: Décret 2008-1559 du 31/12/2008
+      value: null
+    '2011-01-01':
+      metadata:
+        reference: Décret 2010-1766 du 30/12/2010
+      value: null
+    '2012-04-01':
+      metadata:
+        reference: Loi 2011-1906 du 21/12/2011, art. 104 (modif art. L551-1 du CSS)
+      value: null
+    '2014-04-01':
+      metadata:
+        reference: Loi 2013-1203 du 23 /12/2013
+      value: null
+    '2016-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
+      value: null
+    '2017-04-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+      value: null

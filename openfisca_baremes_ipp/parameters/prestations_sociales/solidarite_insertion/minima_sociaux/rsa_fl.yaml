@@ -1,0 +1,35 @@
+description: 'Revenu de solidarité active (RSA) : forfait logement'
+forfait_logement_en_montant_forfaitaire_rsa:
+  1_personne:
+    description: 1 personne
+    metadata:
+      unit: /1
+    values:
+      '2009-06-01':
+        metadata:
+          reference: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-9 et R262-10
+            du CASF)
+        value: 0.12
+  2_personnes:
+    description: 2 personnes
+    metadata:
+      unit: /1
+    values:
+      '2009-06-01':
+        metadata:
+          reference: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-9 et R262-10
+            du CASF)
+        value: 0.16
+  3_personnes_plus:
+    description: 3 personnes ou plus
+    metadata:
+      unit: /1
+    values:
+      '2009-06-01':
+        metadata:
+          reference: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-9 et R262-10
+            du CASF)
+        value: 0.165
+  description: Forfait logement (en % du montant forfaitaire du RSA)
+metadata:
+  rank: 10

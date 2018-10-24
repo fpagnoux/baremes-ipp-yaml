@@ -1,0 +1,109 @@
+description: 'Prime de déménagement (PD) : taux de montant maximum'
+metadata:
+  rank: 0
+taux_en_bmaf:
+  1_enfant:
+    description: 1 enfant
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 2.0
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: null
+  2_enfants:
+    description: 2 enfants
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 2.2
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: null
+  3_enfants:
+    description: 3 enfants
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 2.4
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: 2.4
+  4_enfants:
+    description: 4 enfants
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 2.6
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: 2.6
+  5_enfants:
+    description: 5 enfants
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 2.8
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: 2.8
+  description: Taux (en % de la BMAF)
+  jeune_travailleur_salarie:
+    description: Jeune travailleur salarié
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 1.0
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: null
+  par_enfants_en_plus:
+    description: Par enfants en plus
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 0.2
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: 0.2
+  personne_agee_infirme:
+    description: Personne âgée ou infirme
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 2.0
+      '1995-01-01':
+        metadata:
+          reference: art. R542-31 du CSS
+        value: null

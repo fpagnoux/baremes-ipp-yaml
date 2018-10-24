@@ -1,0 +1,287 @@
+age_maximum_enfant:
+  description: Age maximum de l'enfant
+  values:
+    '1976-08-01':
+      metadata:
+        reference: Loi 75-534 du 30/06/1975                                                              Décrets
+          75-1198, 96, 98 du 16/12/1975                                    Décret
+          76-768 du 16/08/1976
+      value: 20.0
+    '1984-01-01':
+      metadata:
+        reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+      value: 20.0
+    '1991-10-01':
+      metadata:
+        reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+          CSS)
+      value: 20.0
+    '2002-04-01':
+      metadata:
+        reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du CSS)
+          et Décret 2002-421
+      value: 20.0
+    '2003-04-01':
+      value: 20.0
+    '2005-01-01':
+      metadata:
+        reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+      value: 20.0
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+      value: null
+complement_allocation:
+  1ere_categorie:
+    description: 1ere catégorie
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Loi 75-534 du 30/06/1975                                                              Décrets
+            75-1198, 96, 98 du 16/12/1975                                    Décret
+            76-768 du 16/08/1976
+        value: 0.48
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+        value: 0.72
+      '1991-10-01':
+        metadata:
+          reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+            CSS)
+        value: 0.24
+      '2002-04-01':
+        metadata:
+          reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du
+            CSS) et Décret 2002-421
+        value: 0.24
+      '2003-04-01':
+        value: 0.24
+      '2005-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: 0.24
+      '2006-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: null
+  2e_categorie:
+    description: 2e catégorie
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Loi 75-534 du 30/06/1975                                                              Décrets
+            75-1198, 96, 98 du 16/12/1975                                    Décret
+            76-768 du 16/08/1976
+        value: 0.24
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+        value: 0.24
+      '1991-10-01':
+        metadata:
+          reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+            CSS)
+        value: 0.72
+      '2002-04-01':
+        metadata:
+          reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du
+            CSS) et Décret 2002-421
+        value: 0.65
+      '2003-04-01':
+        value: 0.65
+      '2005-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: 0.65
+      '2006-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: null
+  3e_categorie:
+    description: 3e catégorie
+    metadata:
+      unit:
+        '1991-10-01': currency-FRF
+        '2002-04-01': /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Loi 75-534 du 30/06/1975                                                              Décrets
+            75-1198, 96, 98 du 16/12/1975                                    Décret
+            76-768 du 16/08/1976
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+        value: null
+      '1991-10-01':
+        metadata:
+          reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+            CSS)
+        value: 5017.82
+      '2002-04-01':
+        metadata:
+          reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du
+            CSS) et Décret 2002-421
+        value: 0.92
+      '2003-04-01':
+        value: 0.92
+      '2005-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: 0.92
+      '2006-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: null
+  4e_categorie:
+    description: 4e catégorie
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Loi 75-534 du 30/06/1975                                                              Décrets
+            75-1198, 96, 98 du 16/12/1975                                    Décret
+            76-768 du 16/08/1976
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+        value: null
+      '1991-10-01':
+        metadata:
+          reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+            CSS)
+        value: null
+      '2002-04-01':
+        metadata:
+          reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du
+            CSS) et Décret 2002-421
+        value: 1.4257
+      '2003-04-01':
+        value: 1.4257
+      '2005-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: 1.4257
+      '2006-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: null
+  5e_categorie:
+    description: 5e catégorie
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Loi 75-534 du 30/06/1975                                                              Décrets
+            75-1198, 96, 98 du 16/12/1975                                    Décret
+            76-768 du 16/08/1976
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+        value: null
+      '1991-10-01':
+        metadata:
+          reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+            CSS)
+        value: null
+      '2002-04-01':
+        metadata:
+          reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du
+            CSS) et Décret 2002-421
+        value: 1.8221
+      '2003-04-01':
+        value: 1.8221
+      '2005-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: 1.8221
+      '2006-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: null
+  6e_categorie_2:
+    description: 6e catégorie (2)
+    metadata:
+      unit: currency-EUR
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Loi 75-534 du 30/06/1975                                                              Décrets
+            75-1198, 96, 98 du 16/12/1975                                    Décret
+            76-768 du 16/08/1976
+        value: null
+      '1984-01-01':
+        metadata:
+          reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+        value: null
+      '1991-10-01':
+        metadata:
+          reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+            CSS)
+        value: null
+      '2002-04-01':
+        metadata:
+          reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du
+            CSS) et Décret 2002-421
+        value: null
+      '2003-04-01':
+        value: 930.05
+      '2004-04-01':
+        value: 945.87
+      '2005-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: 964.78
+      '2006-01-01':
+        metadata:
+          reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+        value: null
+  description: Complément d'allocation
+description: 'Allocation d''éducation spéciale (AES) : conditions et montants'
+metadata:
+  rank: 7
+montant_bmaf_en_euros:
+  description: Montant (% de BMAF ou en Euros)
+  metadata:
+    unit: /1
+  values:
+    '1976-08-01':
+      metadata:
+        reference: Loi 75-534 du 30/06/1975                                                              Décrets
+          75-1198, 96, 98 du 16/12/1975                                    Décret
+          76-768 du 16/08/1976
+      value: 0.32
+    '1984-01-01':
+      metadata:
+        reference: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+      value: 0.32
+    '1991-10-01':
+      metadata:
+        reference: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du
+          CSS)
+      value: 0.32
+    '2002-04-01':
+      metadata:
+        reference: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du CSS)
+          et Décret 2002-421
+      value: 0.32
+    '2003-04-01':
+      value: 0.32
+    '2005-01-01':
+      metadata:
+        reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+      value: 0.32
+    '2006-01-01':
+      metadata:
+        reference: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+      value: null

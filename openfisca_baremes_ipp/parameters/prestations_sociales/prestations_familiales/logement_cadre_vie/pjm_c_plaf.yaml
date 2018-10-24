@@ -1,0 +1,145 @@
+age_moyen_maximum_conjoints:
+  description: Age moyen maximum des conjoints
+  values:
+    '1978-01-01':
+      metadata:
+        reference: Arrêté du 17/11/1972                             Loi 75-6 du 03/01/1975                                        Décret
+          76-117 du 03/02/1976             Décret 77-1452 (modif Décret 76-117)
+      value: 26.0
+    '1978-07-01':
+      metadata:
+        reference: Décret 77-1452 du 27/12/1977
+      value: 26.0
+    '1979-04-01':
+      metadata:
+        reference: Décret 76-117 du 03/02/1976
+      value: 26.0
+    '1980-07-01':
+      value: 26.0
+    '1982-07-01':
+      metadata:
+        reference: Références manquantes
+      value: 26.0
+    '1983-01-01':
+      value: 26.0
+    '1983-07-01':
+      metadata:
+        reference: Décret 82-1139 du 29/12/1982
+      value: 26.0
+    '1985-05-16':
+      metadata:
+        reference: Décret 85-526 du 13/05/1985
+      value: null
+description: 'Prêt aux jeunes ménages (PJM) : conditions et plafond de ressources'
+majoration_par_enfant_supplementaire:
+  description: Majoration par enfant supplémentaire
+  metadata:
+    unit: /1
+  values:
+    '1978-01-01':
+      metadata:
+        reference: Arrêté du 17/11/1972                             Loi 75-6 du 03/01/1975                                        Décret
+          76-117 du 03/02/1976             Décret 77-1452 (modif Décret 76-117)
+      value: 0.25
+    '1978-07-01':
+      metadata:
+        reference: Décret 77-1452 du 27/12/1977
+      value: 0.25
+    '1979-04-01':
+      metadata:
+        reference: Décret 76-117 du 03/02/1976
+      value: 0.25
+    '1980-07-01':
+      value: 0.25
+    '1982-07-01':
+      metadata:
+        reference: Références manquantes
+      value: 0.25
+    '1983-01-01':
+      value: 0.25
+    '1983-07-01':
+      metadata:
+        reference: Décret 82-1139 du 29/12/1982
+      value: 0.25
+    '1985-05-16':
+      metadata:
+        reference: Décret 85-526 du 13/05/1985
+      value: null
+metadata:
+  rank: 1
+plafond_ressources_sans_enfant_1:
+  description: Plafond de ressources - sans enfant (1)
+  metadata:
+    unit: currency-FRF
+  values:
+    '1978-01-01':
+      metadata:
+        reference: Arrêté du 17/11/1972                             Loi 75-6 du 03/01/1975                                        Décret
+          76-117 du 03/02/1976             Décret 77-1452 (modif Décret 76-117)
+      value: 36560.0
+    '1978-07-01':
+      metadata:
+        reference: Décret 77-1452 du 27/12/1977
+      value: 40820.0
+    '1979-04-01':
+      metadata:
+        reference: Décret 76-117 du 03/02/1976
+      value: 46220.0
+    '1980-07-01':
+      value: 59640.0
+    '1981-07-01':
+      value: 71227.2
+    '1982-07-01':
+      metadata:
+        reference: Références manquantes
+      value: 83666.40000000001
+    '1983-01-01':
+      value: 53564.0
+    '1983-07-01':
+      metadata:
+        reference: Décret 82-1139 du 29/12/1982
+      value: 57935.0
+    '1984-07-01':
+      metadata:
+        reference: Décret 82-1139 du 29/12/1982
+      value: 63323.0
+    '1985-05-16':
+      metadata:
+        reference: Décret 85-526 du 13/05/1985
+      value: null
+smic_annee_reference_n_2:
+  description: Smic de l'année de référence (n-2)
+  metadata:
+    unit: currency-FRF
+  values:
+    '1978-01-01':
+      metadata:
+        reference: Arrêté du 17/11/1972                             Loi 75-6 du 03/01/1975                                        Décret
+          76-117 du 03/02/1976             Décret 77-1452 (modif Décret 76-117)
+      value: 8.58
+    '1978-07-01':
+      metadata:
+        reference: Décret 77-1452 du 27/12/1977
+      value: 9.58
+    '1979-04-01':
+      metadata:
+        reference: Décret 76-117 du 03/02/1976
+      value: 10.85
+    '1980-07-01':
+      value: 14.0
+    '1981-07-01':
+      value: 16.72
+    '1982-07-01':
+      metadata:
+        reference: Références manquantes
+      value: 19.64
+    '1983-01-01':
+      value: null
+    '1983-07-01':
+      metadata:
+        reference: Décret 82-1139 du 29/12/1982
+      value: null
+    '1985-05-16':
+      metadata:
+        reference: Décret 85-526 du 13/05/1985
+      value: null

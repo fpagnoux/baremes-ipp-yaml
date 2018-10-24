@@ -1,0 +1,52 @@
+description: 'Allocation temporaire d''attente (ATA) : montants'
+metadata:
+  rank: 0
+montant_journalier:
+  description: Montant journalier
+  metadata:
+    unit: currency-EUR
+  values:
+    '2006-11-16':
+      metadata:
+        reference: Décret 2006-1381 du 13/11/2006
+      value: 10.04
+    '2007-01-01':
+      metadata:
+        reference: Décret 2007-32 du 08/01/2007
+      value: 10.22
+    '2008-01-01':
+      metadata:
+        reference: Décret 2008-52 du 16/01/2008
+      value: 10.38
+    '2009-01-01':
+      metadata:
+        reference: Décret 2009-124 du 04/02/2009
+      value: 10.54
+    '2010-01-01':
+      metadata:
+        reference: Décret 2009-1703 du 30/12/2009
+      value: 10.67
+    '2011-01-01':
+      metadata:
+        reference: Décret 2011-123 du 29/01/2011
+      value: 10.83
+    '2012-01-01':
+      metadata:
+        reference: Décret 2012-196 du 09/02/2012
+      value: 11.01
+    '2013-01-01':
+      metadata:
+        reference: Décret 2012-1496 du 28/12/2012
+      value: 11.2
+    '2014-01-01':
+      metadata:
+        reference: Décret 2013-1274 du 27/12/2013
+      value: 11.35
+    '2015-01-01':
+      metadata:
+        reference: Décret 2014-1719 du 31/12/2014
+      value: 11.45
+    '2015-11-01':
+      metadata:
+        reference: Loi du 29/07/2015, art. 23
+      value: null

@@ -1,0 +1,59 @@
+description: 'Allocation de la mère au foyer (AMF) : majorations'
+metadata:
+  rank: 12
+regime_agricole_majoration:
+  base:
+    description: Base
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Décret 76-1084 du 29/11/1976 (majoration)
+        value: 388.2
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  description: Régime agricole - Majoration
+  montant:
+    description: Montant
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Décret 76-1084 du 29/11/1976 (majoration)
+        value: 194.1
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+regime_general_majoration:
+  base:
+    description: Base
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Décret 76-1084 du 29/11/1976 (majoration)
+        value: 388.2
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  description: Régime général- Majoration
+  montant:
+    description: Montant
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Décret 76-1084 du 29/11/1976 (majoration)
+        value: 194.1
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null

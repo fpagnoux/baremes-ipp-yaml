@@ -1,0 +1,94 @@
+age_limite_enfants_ouvrant_droit_apje_2:
+  description: Âge limite des enfants ouvrant droit à l'APJE (2)
+  values:
+    '1985-01-01':
+      metadata:
+        reference: Loi 85-17 du 04/01/1985                                                                                         Décret
+          85-475 du 26/04/1985                                                                                        Décret
+          85-1354, art. 1 du 17/12/1985 (crée L531-1, 2, 3 du CSS)
+      value: 3.0
+    '1987-01-01':
+      metadata:
+        reference: Loi 86-1307, art 2 et 13 du 29/12/1986 (modif. Art. L531-1 et 2)
+      value: 3.0
+    '1996-07-01':
+      metadata:
+        reference: 'Ordonnance 96-51 du 24/01/1996, art. 5 (modif art. L531-1, L531-2
+          du CSS)
+
+          Décret 96-553 du 20/06/1996, art. 3 (modif art. R531-1 du CSS)
+
+          Décret 95-180 du 16/02/1995, art. 1 (modif art. D531-1 du CSS)'
+      value: 3.0
+    '2004-01-01':
+      metadata:
+        reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (modif art. L531-1 du
+          CSS)
+
+          Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS)'
+      value: null
+description: 'Allocation pour jeune enfant (APJE) : conditions générales et montants'
+metadata:
+  rank: 2
+mois_grossesse_ouverture_droits_1:
+  description: Mois de grossesse où ouverture des droits (1)
+  values:
+    '1985-01-01':
+      metadata:
+        reference: Loi 85-17 du 04/01/1985                                                                                         Décret
+          85-475 du 26/04/1985                                                                                        Décret
+          85-1354, art. 1 du 17/12/1985 (crée L531-1, 2, 3 du CSS)
+      value: 3.0
+    '1987-01-01':
+      metadata:
+        reference: Loi 86-1307, art 2 et 13 du 29/12/1986 (modif. Art. L531-1 et 2)
+      value: 3.0
+    '1996-07-01':
+      metadata:
+        reference: 'Ordonnance 96-51 du 24/01/1996, art. 5 (modif art. L531-1, L531-2
+          du CSS)
+
+          Décret 96-553 du 20/06/1996, art. 3 (modif art. R531-1 du CSS)
+
+          Décret 95-180 du 16/02/1995, art. 1 (modif art. D531-1 du CSS)'
+      value: 4.0
+    '2004-01-01':
+      metadata:
+        reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (modif art. L531-1 du
+          CSS)
+
+          Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS)'
+      value: null
+montant_apje_en_bmaf:
+  description: 'Montant de l''APJE
+
+    (en % de la BMAF)'
+  metadata:
+    unit: /1
+  values:
+    '1985-01-01':
+      metadata:
+        reference: Loi 85-17 du 04/01/1985                                                                                         Décret
+          85-475 du 26/04/1985                                                                                        Décret
+          85-1354, art. 1 du 17/12/1985 (crée L531-1, 2, 3 du CSS)
+      value: 0.4595
+    '1987-01-01':
+      metadata:
+        reference: Loi 86-1307, art 2 et 13 du 29/12/1986 (modif. Art. L531-1 et 2)
+      value: 0.4595
+    '1996-07-01':
+      metadata:
+        reference: 'Ordonnance 96-51 du 24/01/1996, art. 5 (modif art. L531-1, L531-2
+          du CSS)
+
+          Décret 96-553 du 20/06/1996, art. 3 (modif art. R531-1 du CSS)
+
+          Décret 95-180 du 16/02/1995, art. 1 (modif art. D531-1 du CSS)'
+      value: 0.4595
+    '2004-01-01':
+      metadata:
+        reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (modif art. L531-1 du
+          CSS)
+
+          Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS)'
+      value: null

@@ -1,0 +1,271 @@
+2_enfants_charge:
+  description: 2 enfants à charge
+  metadata:
+    unit: /1
+  values:
+    '1955-06-01':
+      metadata:
+        reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+          55-1429 du 02/11/1955
+      value: null
+    '1956-10-01':
+      value: 0.1
+    '1974-07-01':
+      metadata:
+        reference: 'Loi 72-8 du 03/01/1972
+
+          Décret 72-528 et 530 du 9/06/1972 (AMF)'
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null
+3_enfants_charge:
+  description: 3 enfants à charge
+  metadata:
+    unit: /1
+  values:
+    '1955-06-01':
+      metadata:
+        reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+          55-1429 du 02/11/1955
+      value: 0.15
+    '1956-10-01':
+      value: 0.15
+    '1974-07-01':
+      metadata:
+        reference: 'Loi 72-8 du 03/01/1972
+
+          Décret 72-528 et 530 du 9/06/1972 (AMF)'
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null
+4_enfants_charge:
+  description: 4 enfants à charge
+  metadata:
+    unit: /1
+  values:
+    '1955-06-01':
+      metadata:
+        reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+          55-1429 du 02/11/1955
+      value: 0.25
+    '1956-10-01':
+      value: 0.25
+    '1974-07-01':
+      metadata:
+        reference: 'Loi 72-8 du 03/01/1972
+
+          Décret 72-528 et 530 du 9/06/1972 (AMF)'
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null
+5_enfants_charge:
+  description: 5 enfants à charge
+  metadata:
+    unit: /1
+  values:
+    '1955-06-01':
+      metadata:
+        reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+          55-1429 du 02/11/1955
+      value: 0.4
+    '1956-10-01':
+      value: 0.4
+    '1974-07-01':
+      metadata:
+        reference: 'Loi 72-8 du 03/01/1972
+
+          Décret 72-528 et 530 du 9/06/1972 (AMF)'
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null
+6_enfants_charge:
+  description: 6 enfants à charge
+  metadata:
+    unit: /1
+  values:
+    '1955-06-01':
+      metadata:
+        reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+          55-1429 du 02/11/1955
+      value: 0.5
+    '1956-10-01':
+      value: 0.5
+    '1974-07-01':
+      metadata:
+        reference: 'Loi 72-8 du 03/01/1972
+
+          Décret 72-528 et 530 du 9/06/1972 (AMF)'
+      value: null
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null
+description: 'Allocation de la mère au foyer (AMF) : taux et montant mensuel'
+metadata:
+  rank: 11
+regime_agricole_taux_en_bmaf:
+  3_enfants_plus_2_ans:
+    description: 3 enfants et + de plus de 2 ans
+    metadata:
+      unit: /1
+    values:
+      '1955-06-01':
+        metadata:
+          reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+            55-1429 du 02/11/1955
+        value: null
+      '1956-10-01':
+        value: null
+      '1974-07-01':
+        metadata:
+          reference: 'Loi 72-8 du 03/01/1972
+
+            Décret 72-528 et 530 du 9/06/1972 (AMF)'
+        value: 0.5
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  description: Régime agricole (taux en % de la BMAF)
+  deux_enfants_plus_2_ans:
+    description: Deux enfants de plus de 2 ans
+    metadata:
+      unit: /1
+    values:
+      '1955-06-01':
+        metadata:
+          reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+            55-1429 du 02/11/1955
+        value: null
+      '1956-10-01':
+        value: null
+      '1974-07-01':
+        metadata:
+          reference: 'Loi 72-8 du 03/01/1972
+
+            Décret 72-528 et 530 du 9/06/1972 (AMF)'
+        value: 0.25
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  enfant_plus_moins_2_ans:
+    description: Un enfant et plus, de moins de 2 ans
+    metadata:
+      unit: /1
+    values:
+      '1955-06-01':
+        metadata:
+          reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+            55-1429 du 02/11/1955
+        value: null
+      '1956-10-01':
+        value: null
+      '1974-07-01':
+        metadata:
+          reference: 'Loi 72-8 du 03/01/1972
+
+            Décret 72-528 et 530 du 9/06/1972 (AMF)'
+        value: 0.5
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  plus_enfant_sans_moins_2_ans:
+    description: Au plus un enfant, sans moins de 2 ans
+    metadata:
+      unit: /1
+    values:
+      '1955-06-01':
+        metadata:
+          reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+            55-1429 du 02/11/1955
+        value: null
+      '1956-10-01':
+        value: null
+      '1974-07-01':
+        metadata:
+          reference: 'Loi 72-8 du 03/01/1972
+
+            Décret 72-528 et 530 du 9/06/1972 (AMF)'
+        value: 0.1
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+regime_general_taux_en_bmaf:
+  description: Régime général (taux en % de la BMAF)
+  moins_1_enfant_moins_2_ans:
+    description: Au moins 1 enfant de moins de 2 ans
+    metadata:
+      unit: /1
+    values:
+      '1955-06-01':
+        metadata:
+          reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+            55-1429 du 02/11/1955
+        value: null
+      '1956-10-01':
+        value: null
+      '1974-07-01':
+        metadata:
+          reference: 'Loi 72-8 du 03/01/1972
+
+            Décret 72-528 et 530 du 9/06/1972 (AMF)'
+        value: 0.5
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  plus_6_enfants_tous_plus_2_ans:
+    description: Plus de 6 enfants, tous plus de 2 ans
+    metadata:
+      unit: /1
+    values:
+      '1955-06-01':
+        metadata:
+          reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+            55-1429 du 02/11/1955
+        value: null
+      '1956-10-01':
+        value: null
+      '1974-07-01':
+        metadata:
+          reference: 'Loi 72-8 du 03/01/1972
+
+            Décret 72-528 et 530 du 9/06/1972 (AMF)'
+        value: 0.5
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  points_par_enfant_plus_2_ans_avec_entre_2_6_enfants:
+    description: Points par enfant de plus de 2 ans, avec entre 2 et 6 enfants
+    metadata:
+      unit: /1
+    values:
+      '1955-06-01':
+        metadata:
+          reference: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+            55-1429 du 02/11/1955
+        value: null
+      '1956-10-01':
+        value: null
+      '1974-07-01':
+        metadata:
+          reference: 'Loi 72-8 du 03/01/1972
+
+            Décret 72-528 et 530 du 9/06/1972 (AMF)'
+        value: 0.1
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null

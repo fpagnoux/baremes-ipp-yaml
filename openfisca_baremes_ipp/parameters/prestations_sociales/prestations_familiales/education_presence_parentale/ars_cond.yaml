@@ -1,0 +1,64 @@
+age_maximal_enfant_2:
+  description: Âge maximal de l'enfant (2)
+  values:
+    '1976-08-18':
+      metadata:
+        reference: 'Loi 74-644 du 16/07/1974
+
+          Décret 74-706 du 13/08/1974
+
+          Décret 76-768 du 16/08/1976'
+      value: 16.0
+    '1977-09-17':
+      metadata:
+        reference: Loi 74-644 du 16/07/1974                                                                           Décret
+          74-706 du 13/08/1974                                                                  Décret
+          77-1039 du 14/09/1977
+      value: 16.0
+    '1990-09-06':
+      metadata:
+        reference: Décret 90-776 du 03/09/1990, art. 1 (modif R543-2 du CSS)           Loi
+          90-590 du  06/07/1990
+      value: 18.0
+    '2008-01-01':
+      metadata:
+        reference: Loi 2007-1786 du 19/12/2007, art. 93 (modif art. L 543-1 du CSS)
+      value: 18.0
+    '2009-01-01':
+      metadata:
+        reference: Décret 2008-766 du 30/07/2008, art. 1
+      value: 18.0
+age_minimal_enfant_1:
+  description: Âge minimal de l'enfant (1)
+  values:
+    '1976-08-18':
+      metadata:
+        reference: 'Loi 74-644 du 16/07/1974
+
+          Décret 74-706 du 13/08/1974
+
+          Décret 76-768 du 16/08/1976'
+      value: 6.0
+    '1977-09-17':
+      metadata:
+        reference: Loi 74-644 du 16/07/1974                                                                           Décret
+          74-706 du 13/08/1974                                                                  Décret
+          77-1039 du 14/09/1977
+      value: 6.0
+    '1990-09-06':
+      metadata:
+        reference: Décret 90-776 du 03/09/1990, art. 1 (modif R543-2 du CSS)           Loi
+          90-590 du  06/07/1990
+      value: 6.0
+    '2008-01-01':
+      metadata:
+        reference: Loi 2007-1786 du 19/12/2007, art. 93 (modif art. L 543-1 du CSS)
+      value: 6.0
+    '2009-01-01':
+      metadata:
+        reference: Décret 2008-766 du 30/07/2008, art. 1
+      value: 6.0
+description: 'Allocation de rentrée scolaire (ARS) : condition d''âge des personnes
+  à charge'
+metadata:
+  rank: 0

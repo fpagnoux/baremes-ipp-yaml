@@ -1,0 +1,127 @@
+description: 'Allocation de salaire unique (ASU) : plafond de ressources'
+metadata:
+  rank: 6
+plafond_ressources_droit_salaire_unique:
+  1_enfant:
+    description: 1 enfant
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 28800.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  2_enfants:
+    description: 2 enfants
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 34560.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  description: Plafond de ressources pour le droit au salaire unique
+  par_enfant_supplementaire:
+    description: Par enfant supplémentaire
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 5760.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  sans_enfant:
+    description: Sans enfant
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 23040.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+plafond_ressources_majoration_salaire_unique:
+  1_enfant:
+    description: 1 enfant
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 20100.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  2_enfants:
+    description: 2 enfants
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 24120.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  description: Plafond de ressources pour la majoration du salaire unique
+  par_enfant_supplementaire:
+    description: Par enfant supplémentaire
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 4020.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null
+  sans_enfant:
+    description: Sans enfant
+    metadata:
+      unit: currency-FRF
+    values:
+      '1976-07-01':
+        metadata:
+          reference: Loi 72-8 du 03/01/1972                          Décret 72-530
+            du 29/06/1972 (S.U.)                                                                Décret
+            76-767 du 16/08/1976
+        value: 16080.0
+      '1978-01-01':
+        metadata:
+          reference: Loi 77-765 du 12/07/1977
+        value: null

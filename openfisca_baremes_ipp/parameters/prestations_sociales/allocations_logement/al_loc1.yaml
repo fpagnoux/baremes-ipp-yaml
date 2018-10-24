@@ -1,0 +1,624 @@
+description: Paramètres de calcul dans le secteur locatif (avant la réforme)
+metadata:
+  rank: 5
+plafonds_loyer_en_zone_1:
+  description: Plafonds de loyer en zone 1
+  menage_isole:
+    avec_1_enfant:
+      description: Avec 1 enfant
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1889.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1983.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 2031.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2061.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2082.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_2_enfants:
+      description: Avec 2 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1943.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 2040.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 2089.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2202.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2224.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_3_enfants:
+      description: Avec 3 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1997.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 2197.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 2250.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2412.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2436.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_4_enfants:
+      description: Avec 4 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 2051.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 2256.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 2310.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2554.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2580.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_5_enfants:
+      description: Avec 5 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 2098.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 2308.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 2363.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2692.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2719.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    description: Ménage ou isolé
+    par_enfant_en_plus:
+      description: Par enfant en plus
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 182.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 200.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 205.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 239.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 241.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+  menage_seul:
+    description: Ménage seul
+    metadata:
+      unit: currency-FRF
+    values:
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1 et 3
+        value: 1758.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1 et 3
+        value: 1820.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1 et 3
+        value: 1864.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1 et 3
+        value: 1883.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1902.0
+      '2001-01-01':
+        metadata:
+          reference: Décret 2000-1269 du 26/12/2000
+        value: null
+plafonds_loyer_en_zone_2:
+  description: Plafonds de loyer en zone 2
+  menage_isole:
+    avec_1_enfant:
+      description: Avec 1 enfant
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1697.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1757.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1799.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 1830.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 1648.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_2_enfants:
+      description: Avec 2 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1757.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1819.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1863.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 1965.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 1985.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_3_enfants:
+      description: Avec 3 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1817.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1881.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1926.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2098.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2119.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_4_enfants:
+      description: Avec 4 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1877.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1943.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1990.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2233.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2255.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_5_enfants:
+      description: Avec 5 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 2010.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 2080.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 2130.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2418.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2442.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    description: Ménage ou isolé
+    par_enfant_en_plus:
+      description: Par enfant en plus
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 176.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 182.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 186.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 216.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 218.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+  menage_seul:
+    description: Ménage seul
+    metadata:
+      unit: currency-FRF
+    values:
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1 et 3
+        value: 1568.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1 et 3
+        value: 1623.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1 et 3
+        value: 1662.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1 et 3
+        value: 1679.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1696.0
+      '2001-01-01':
+        metadata:
+          reference: Décret 2000-1269 du 26/12/2000
+        value: null
+plafonds_loyer_en_zone_3:
+  description: Plafonds de loyer en zone 3
+  menage_isole:
+    avec_1_enfant:
+      description: Avec 1 enfant
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1586.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1642.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1681.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 1705.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 1722.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_2_enfants:
+      description: Avec 2 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1652.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1710.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1751.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 1835.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 1853.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_3_enfants:
+      description: Avec 3 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1718.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1778.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1821.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 1965.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 1985.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_4_enfants:
+      description: Avec 4 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1784.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1846.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 1890.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2094.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2115.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    avec_5_enfants:
+      description: Avec 5 enfants
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 1917.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 1984.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 2032.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 2272.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 2295.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+    description: Ménage ou isolé
+    par_enfant_en_plus:
+      description: Par enfant en plus
+      metadata:
+        unit: currency-FRF
+      values:
+        '1994-07-01':
+          metadata:
+            reference: Arrêté du 14/11/1994, art. 1 et 3
+          value: 167.0
+        '1997-07-01':
+          metadata:
+            reference: Arrêté du 10/09/1997, art. 1 et 3
+          value: 173.0
+        '1998-07-01':
+          metadata:
+            reference: Arrêté du 11/09/1998, art. 1 et 3
+          value: 177.0
+        '1999-07-01':
+          metadata:
+            reference: Arrêté du 28/06/1999, art. 1 et 3
+          value: 201.0
+        '2000-07-01':
+          metadata:
+            reference: Arrêté du 01/08/2000, art. 1
+          value: 203.0
+        '2001-01-01':
+          metadata:
+            reference: Décret 2000-1269 du 26/12/2000
+          value: null
+  menage_seul:
+    description: Ménage seul
+    metadata:
+      unit: currency-FRF
+    values:
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1 et 3
+        value: 1456.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1 et 3
+        value: 1507.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1 et 3
+        value: 1543.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1 et 3
+        value: 1558.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1574.0
+      '2001-01-01':
+        metadata:
+          reference: Décret 2000-1269 du 26/12/2000
+        value: null

@@ -1,0 +1,39 @@
+description: 'Allocation journalière de présence parentale (AJPP) : montants'
+duree_allocation_annees:
+  description: Durée de l'allocation (années)
+  values:
+    '2006-06-05':
+      metadata:
+        reference: Décret 2006-659 du 02/06/2006, art. 4 (modif art. D544-1,2 du CSS)
+      value: 3.0
+metadata:
+  rank: 10
+montant_en_bmaf:
+  couple:
+    description: Couple
+    metadata:
+      unit: /1
+    values:
+      '2006-06-05':
+        metadata:
+          reference: Décret 2006-659 du 02/06/2006, art. 4 (modif art. D544-1,2 du
+            CSS)
+        value: 0.1063
+  description: Montant (en % de la BMAF)
+  personne_seule:
+    description: Personne seule
+    metadata:
+      unit: /1
+    values:
+      '2006-06-05':
+        metadata:
+          reference: Décret 2006-659 du 02/06/2006, art. 4 (modif art. D544-1,2 du
+            CSS)
+        value: 0.1263
+nombre_max_allocations_journalieres_par_mois:
+  description: Nombre max d'allocations journalières par mois
+  values:
+    '2006-06-05':
+      metadata:
+        reference: Décret 2006-659 du 02/06/2006, art. 4 (modif art. D544-1,2 du CSS)
+      value: 22.0

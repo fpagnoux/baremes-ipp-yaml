@@ -1,0 +1,2283 @@
+description: Plafonds d'annuités de remboursement pour les accédants à la propriété
+metadata:
+  rank: 4
+plafond_accession_propriete_zone_1:
+  description: Plafond pour accession à la propriété - Zone 1
+  menage_isole_avec_1_enfant:
+    description: Ménage ou isolé avec 1 enfant
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1870.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1955.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2055.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2078.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2116.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2167.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2169.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2191.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 337.98
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 342.04
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 346.14
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 352.37
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 362.24
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 372.24
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 383.22
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 384.45
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 388.68
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 392.57
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 401.01
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 403.3
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 403.62
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 406.65
+  menage_isole_avec_2_enfants:
+    description: Ménage ou isolé avec 2 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1923.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 2009.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2113.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2137.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2176.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2228.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2230.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2252.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 347.43
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 351.6
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 355.82
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 362.22
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 372.36
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 382.64
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 393.93
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 395.19
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 399.54
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 403.54
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 412.22
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 414.57
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 414.9
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 418.01
+  menage_isole_avec_3_enfants:
+    description: Ménage ou isolé avec 3 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1976.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 2063.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2171.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2196.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2236.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2290.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2292.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2315.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 357.19
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 361.48
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 365.82
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 372.4
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 382.83
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 393.4
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 405.01
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 406.31
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 410.78
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 414.89
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 423.81
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 426.23
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 426.57
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 429.77
+  menage_isole_avec_4_enfants:
+    description: Ménage ou isolé avec 4 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 2029.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 2117.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2229.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2255.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2296.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2351.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2353.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2377.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 366.79
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 371.19
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 375.64
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 382.4
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 393.11
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 403.96
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 415.88
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 417.21
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 421.8
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 426.02
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 435.18
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 437.66
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 438.01
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 441.3
+  menage_isole_avec_5_enfants:
+    description: Ménage ou isolé avec 5 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 2075.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 2168.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2280.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2305.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2346.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2402.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2404.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2428.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 374.57
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 379.06
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 383.61
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 390.51
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 401.44
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 412.52
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 424.69
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 426.05
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 430.74
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 435.05
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 444.4
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 446.93
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 447.29
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 450.64
+  menage_isole_par_enfant_en_plus:
+    description: Ménage ou isolé - par enfant en plus
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 180.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 188.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 198.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 200.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 204.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 209.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 209.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 211.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 32.62
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 33.01
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 33.41
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 34.01
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 34.96
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 35.92
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 36.98
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 37.1
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 37.51
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 37.89
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 38.7
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 38.92
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 38.95
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 39.24
+  menage_seul:
+    description: Ménage seul
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1817.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1862.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1913.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1934.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1969.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2016.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2018.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2038.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 314.35
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 318.12
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 321.94
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 327.73
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 336.91
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 346.21
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 356.42
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 357.56
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 361.49
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 365.1
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 372.95
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 375.08
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 375.38
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 378.2
+  personne_isolee_sans_enfant:
+    description: Personne isolée sans enfant
+    metadata:
+      unit: currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: null
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: null
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: null
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: null
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: null
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: null
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: null
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: null
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 260.84
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 263.97
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 267.14
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 271.95
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 279.56
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 287.28
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 297.75
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 296.7
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 299.96
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 302.96
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 309.47
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 311.23
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 311.48
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 313.82
+plafond_accession_propriete_zone_2:
+  description: Plafond pour accession à la propriété - Zone 2
+  menage_isole_avec_1_enfant:
+    description: Ménage ou isolé avec 1 enfant
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1679.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1756.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1847.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1867.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1901.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 1947.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 1949.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1968.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 303.68
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 307.32
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 311.01
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 316.61
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 325.48
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 334.46
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 344.33
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 345.43
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 349.23
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 352.72
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 360.3
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 362.35
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 362.64
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 365.36
+  menage_isole_avec_2_enfants:
+    description: Ménage ou isolé avec 2 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1738.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1818.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1912.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1933.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1968.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2015.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2017.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2037.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 314.2
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 317.97
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 321.79
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 327.58
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 336.75
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 346.04
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 356.25
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 357.39
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 361.32
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 364.93
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 372.78
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 374.9
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 375.2
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 378.01
+  menage_isole_avec_3_enfants:
+    description: Ménage ou isolé avec 3 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1797.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1880.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1977.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1999.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2035.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2084.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2086.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2107.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 325.02
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 328.92
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 332.87
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 338.86
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 348.35
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 357.96
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 368.52
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 369.7
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 373.77
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 377.51
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 385.63
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 387.83
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 388.14
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 391.05
+  menage_isole_avec_4_enfants:
+    description: Ménage ou isolé avec 4 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1856.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1942.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2042.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2065.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2102.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2152.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2154.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2176.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 335.69
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 339.72
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 343.8
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 349.99
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 359.79
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 369.72
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 380.63
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 381.85
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 386.05
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 389.91
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 398.29
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 400.56
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 400.88
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 403.89
+  menage_isole_avec_5_enfants:
+    description: Ménage ou isolé avec 5 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1990.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 2079.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2187.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2211.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2251.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2305.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2307.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2330.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 359.47
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 363.78
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 368.15
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 374.78
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 385.27
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 395.9
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 407.58
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 408.88
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 413.38
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 417.51
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 426.49
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 428.92
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 429.26
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 432.48
+  menage_isole_par_enfant_en_plus:
+    description: Ménage ou isolé - par enfant en plus
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 174.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 182.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 191.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 193.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 196.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 201.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 201.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 203.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 31.25
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 31.63
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 32.01
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 32.59
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 33.5
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 34.42
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 35.44
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 35.55
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 35.94
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 36.3
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 37.08
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 37.29
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 37.32
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 37.6
+  menage_seul:
+    description: Ménage seul
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1620.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1661.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1706.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1725.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1756.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 1798.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 1800.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1818.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 280.51
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 283.88
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 287.29
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 292.46
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 300.65
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 308.95
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 318.06
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 319.08
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 322.59
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 325.82
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 332.83
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 334.73
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 335.0
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 337.51
+  personne_isolee_sans_enfant:
+    description: Personne isolée sans enfant
+    metadata:
+      unit: currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: null
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: null
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: null
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: null
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: null
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: null
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: null
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: null
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 228.83
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 231.58
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 234.36
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 238.58
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 245.26
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 252.03
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 259.46
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 260.29
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 263.15
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 265.78
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 271.49
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 273.04
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 273.26
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 275.31
+plafond_accession_propriete_zone_3:
+  description: Plafond pour accession à la propriété - Zone 3
+  menage_isole_avec_1_enfant:
+    description: Ménage ou isolé avec 1 enfant
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1570.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1640.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1726.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1745.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1777.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 1820.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 1822.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1840.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 283.86
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 287.27
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 290.72
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 295.95
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 304.24
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 312.64
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 321.86
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 322.89
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 326.44
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 329.7
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 336.79
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 338.71
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 338.98
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 341.52
+  menage_isole_avec_2_enfants:
+    description: Ménage ou isolé avec 2 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1635.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1708.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1798.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1818.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1851.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 1895.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 1897.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1916.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 295.6
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 299.15
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 302.74
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 308.19
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 316.82
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 325.56
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 335.16
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 336.23
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 339.93
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 343.33
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 350.71
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 352.71
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 352.99
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 355.64
+  menage_isole_avec_3_enfants:
+    description: Ménage ou isolé avec 3 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1700.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1776.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1870.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1891.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1925.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 1971.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 1973.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1993.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 307.49
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 311.18
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 314.91
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 320.58
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 329.56
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 338.66
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 348.65
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 349.77
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 353.62
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 357.16
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 364.84
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 366.92
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 367.21
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 369.96
+  menage_isole_avec_4_enfants:
+    description: Ménage ou isolé avec 4 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1765.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1844.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1942.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1964.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1999.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2047.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2049.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2069.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 319.23
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 323.06
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 326.94
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 332.82
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 342.14
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 351.58
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 361.95
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 363.11
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 367.1
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 370.77
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 378.74
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 380.9
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 381.2
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 384.06
+  menage_isole_avec_5_enfants:
+    description: Ménage ou isolé avec 5 enfants
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1896.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1982.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 2086.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 2109.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 2147.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 2199.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 2201.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 2223.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 343.01
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 347.13
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 351.3
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 357.62
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 367.63
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 377.78
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 388.92
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 390.16
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 394.45
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 398.39
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 406.96
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 409.28
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 409.61
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 412.68
+  menage_isole_par_enfant_en_plus:
+    description: Ménage ou isolé - par enfant en plus
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 165.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 173.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 182.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 184.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 187.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 191.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 191.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 193.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 29.73
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 30.09
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 30.45
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 31.0
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 31.87
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 32.75
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 33.72
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 33.83
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 34.2
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 34.54
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 35.28
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 35.48
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 35.51
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 35.78
+  menage_seul:
+    description: Ménage seul
+    metadata:
+      unit:
+        '1990-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: 1505.0
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: 1542.0
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: 1584.0
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: 1601.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: 1630.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: 1669.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: 1671.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 1688.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 260.38
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 263.5
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 266.66
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 271.46
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 279.06
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 286.76
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 295.22
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 296.16
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 299.42
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 302.41
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 308.91
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 310.67
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 310.92
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 313.25
+  personne_isolee_sans_enfant:
+    description: Personne isolée sans enfant
+    metadata:
+      unit: currency-EUR
+    values:
+      '1990-07-01':
+        metadata:
+          reference: Arrêté du 24/10/1990, art. 1
+        value: null
+      '1991-07-01':
+        metadata:
+          reference: Arrêté du 08/11/1991, art. 1
+        value: null
+      '1992-07-01':
+        metadata:
+          reference: Arrêté du 23/09/1992, art. 1
+        value: null
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1
+        value: null
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1
+        value: null
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1
+        value: null
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1
+        value: null
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: null
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 2
+        value: 214.65
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 2
+        value: 217.23
+      '2003-07-01':
+        metadata:
+          reference: Arrêté du 28/05/2004, art. 2
+        value: 219.84
+      '2005-09-01':
+        metadata:
+          reference: Arrêté du 19/12/2005, art. 2
+        value: 223.8
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 2
+        value: 230.07
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 2
+        value: 236.42
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 2
+        value: 243.39
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 2
+        value: 244.17
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 2
+        value: 246.86
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 2
+        value: 249.33
+      '2013-01-01':
+        metadata:
+          reference: Décret 2013-49 du 14/01/2013 et arrêté du 14/01/2013
+        value: 254.69
+      '2014-09-01':
+        metadata:
+          reference: Arrêté du 28/10/2014, art. 3
+        value: 256.14
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art. 2
+        value: 256.34
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 14
+        value: 258.26

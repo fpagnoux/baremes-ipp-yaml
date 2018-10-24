@@ -1,0 +1,314 @@
+description: 'Allocations familiales (AF) : majorations'
+duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee:
+  description: 'Durée pendant laquelle la majoration pour les plus de 20 ans est versée
+
+    (En année)'
+  values:
+    '1986-01-01':
+      metadata:
+        reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)
+
+          Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du CSS)
+      value: null
+    '2003-07-01':
+      metadata:
+        reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
+
+          Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+      value: 1.0
+    '2008-05-01':
+      metadata:
+        reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du CSS)
+
+          Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+      value: 1.0
+    '2015-07-01':
+      metadata:
+        reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77 du\
+          \ 15/03/2016"
+      value: 1.0
+majoration_enfants_en_bmaf:
+  allocation_forfaitaire:
+    age_minimum:
+      description: Âge minimum
+      values:
+        '1986-01-01':
+          metadata:
+            reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du
+              CSS)
+
+              Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du
+              CSS)
+          value: null
+        '2003-07-01':
+          metadata:
+            reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du
+              CSS)
+
+              Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+          value: 20.0
+        '2008-05-01':
+          metadata:
+            reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du
+              CSS)
+
+              Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+          value: 20.0
+        '2015-07-01':
+          metadata:
+            reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77\
+              \ du 15/03/2016"
+          value: 20.0
+    description: Allocation forfaitaire
+    taux:
+      description: Taux
+      metadata:
+        unit: /1
+      values:
+        '1986-01-01':
+          metadata:
+            reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du
+              CSS)
+
+              Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+          value: null
+        '1999-01-01':
+          metadata:
+            reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du
+              CSS)
+          value: null
+        '2003-07-01':
+          metadata:
+            reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du
+              CSS)
+
+              Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+          value: 0.20234
+        '2008-05-01':
+          metadata:
+            reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du
+              CSS)
+
+              Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+          value: 0.20234
+        '2015-07-01':
+          metadata:
+            reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77\
+              \ du 15/03/2016"
+          value: 0.20234
+  description: Majoration pour les enfants (en % de la BMAF)
+  taux_appliques_aux_differentes_tranches_age:
+    description: Taux appliqués aux différentes tranches d'âge
+    taux_tranche_1:
+      description: taux de la tranche 1
+      metadata:
+        unit: /1
+      values:
+        '1986-01-01':
+          metadata:
+            reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du
+              CSS)
+
+              Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+          value: 0.09
+        '1999-01-01':
+          metadata:
+            reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du
+              CSS)
+          value: 0.09
+        '2003-07-01':
+          metadata:
+            reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du
+              CSS)
+
+              Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+          value: 0.09
+        '2008-05-01':
+          metadata:
+            reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du
+              CSS)
+
+              Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+          value: 0.16
+        '2015-07-01':
+          metadata:
+            reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77\
+              \ du 15/03/2016"
+          value: 0.16
+    taux_tranche_2:
+      description: taux de la tranche 2
+      metadata:
+        unit: /1
+      values:
+        '1986-01-01':
+          metadata:
+            reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du
+              CSS)
+
+              Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+          value: 0.16
+        '1999-01-01':
+          metadata:
+            reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du
+              CSS)
+          value: 0.16
+        '2003-07-01':
+          metadata:
+            reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du
+              CSS)
+
+              Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+          value: 0.16
+        '2008-05-01':
+          metadata:
+            reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du
+              CSS)
+
+              Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+          value: null
+        '2015-07-01':
+          metadata:
+            reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77\
+              \ du 15/03/2016"
+          value: null
+  tranches_age:
+    age_debut_deuxieme_tranche:
+      description: Âge début de la deuxième tranche
+      values:
+        '1986-01-01':
+          metadata:
+            reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du
+              CSS)
+
+              Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+          value: 16.0
+        '1999-01-01':
+          metadata:
+            reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du
+              CSS)
+          value: 16.0
+        '2003-07-01':
+          metadata:
+            reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du
+              CSS)
+
+              Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+          value: 16.0
+        '2008-05-01':
+          metadata:
+            reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du
+              CSS)
+
+              Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+          value: null
+        '2015-07-01':
+          metadata:
+            reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77\
+              \ du 15/03/2016"
+          value: null
+    age_debut_premiere_tranche:
+      description: Âge début de la première tranche
+      values:
+        '1986-01-01':
+          metadata:
+            reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du
+              CSS)
+
+              Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+          value: 10.0
+        '1999-01-01':
+          metadata:
+            reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du
+              CSS)
+          value: 11.0
+        '2003-07-01':
+          metadata:
+            reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du
+              CSS)
+
+              Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+          value: 11.0
+        '2008-05-01':
+          metadata:
+            reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du
+              CSS)
+
+              Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+          value: 14.0
+        '2015-07-01':
+          metadata:
+            reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77\
+              \ du 15/03/2016"
+          value: 14.0
+    description: Tranches d'âge
+metadata:
+  rank: 2
+nombre_enfant_partir_duquel_aine_donne_droit_majoration:
+  description: Nombre d'enfant à partir duquel l'aîné donne droit à majoration
+  values:
+    '1986-01-01':
+      metadata:
+        reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)
+
+          Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+      value: 3.0
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du CSS)
+      value: 3.0
+    '2003-07-01':
+      metadata:
+        reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
+
+          Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+      value: 3.0
+    '2008-05-01':
+      metadata:
+        reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du CSS)
+
+          Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+      value: 3.0
+    '2015-07-01':
+      metadata:
+        reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77 du\
+          \ 15/03/2016"
+      value: 3.0
+nombre_minimal_enfant_avoir_droit_majoration_forfaitaire_plus_20_ans:
+  description: Nombre minimal d'enfant pour avoir droit à la majoration forfaitaire
+    pour les plus de 20 ans
+  values:
+    '1986-01-01':
+      metadata:
+        reference: 'Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)
+
+          Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)'
+      value: null
+    '1999-01-01':
+      metadata:
+        reference: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du CSS)
+      value: null
+    '2003-07-01':
+      metadata:
+        reference: 'Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
+
+          Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)'
+      value: 3.0
+    '2008-05-01':
+      metadata:
+        reference: 'Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du CSS)
+
+          Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)'
+      value: 3.0
+    '2015-07-01':
+      metadata:
+        reference: "Décret 2015-611 du 03/06/2015 \nCirculaire DSS/SD2B/2016/77 du\
+          \ 15/03/2016"
+      value: 3.0

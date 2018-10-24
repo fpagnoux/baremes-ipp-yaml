@@ -1,0 +1,188 @@
+complement_libre_choix_activite_clca_beneficiaires_allocation_base_enfant_ne_adopte_apres_avril_2014:
+  description: 'Complément de libre choix d''activité (CLCA) pour les bénéficiaires
+    de l''allocation de base
+
+    (enfant né ou adopté après avril 2014)'
+  taux_partiel_50:
+    description: 'Taux partiel
+
+      < 50%'
+    metadata:
+      unit: /1
+    values:
+      '2004-01-01':
+        metadata:
+          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
+            CSS)
+
+            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
+            art. D531-3 du CSS)'
+        value: 0.6246
+      '2008-05-01':
+        metadata:
+          reference: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
+            2006-732 du 22/06/2006, art.1 et 2
+        value: 0.6246
+      '2014-04-01':
+        value: 0.6246
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1708 du 30/12/2014 - art. 1
+        value: null
+  taux_partiel_entre_50_80:
+    description: Taux partiel entre 50% et 80%
+    metadata:
+      unit: /1
+    values:
+      '2004-01-01':
+        metadata:
+          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
+            CSS)
+
+            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
+            art. D531-3 du CSS)'
+        value: 0.3603
+      '2008-05-01':
+        metadata:
+          reference: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
+            2006-732 du 22/06/2006, art.1 et 2
+        value: 0.3603
+      '2014-04-01':
+        value: 0.3603
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1708 du 30/12/2014 - art. 1
+        value: null
+  taux_plein:
+    description: Taux plein
+    metadata:
+      unit: /1
+    values:
+      '2004-01-01':
+        metadata:
+          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
+            CSS)
+
+            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
+            art. D531-3 du CSS)'
+        value: 0.9662
+      '2008-05-01':
+        metadata:
+          reference: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
+            2006-732 du 22/06/2006, art.1 et 2
+        value: 0.9662
+      '2014-04-01':
+        value: 0.9662
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1708 du 30/12/2014 - art. 1
+        value: null
+complement_libre_choix_activite_clca_non_beneficiaires_allocation_base_enfant_ne_adopte_avant_avril_2014:
+  description: 'Complément de libre choix d''activité (CLCA) pour les non bénéficiaires
+    de l''allocation de base
+
+    (enfant né ou adopté avant avril 2014)'
+  taux_partiel_50:
+    description: 'Taux partiel
+
+      < 50%'
+    metadata:
+      unit: /1
+    values:
+      '2004-01-01':
+        metadata:
+          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
+            CSS)
+
+            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
+            art. D531-3 du CSS)'
+        value: 1.0841
+      '2008-05-01':
+        metadata:
+          reference: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
+            2006-732 du 22/06/2006, art.1 et 2
+        value: 1.0841
+      '2014-04-01':
+        value: 0.6246
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1708 du 30/12/2014 - art. 1
+        value: null
+  taux_partiel_entre_50_80:
+    description: Taux partiel entre 50% et 80%
+    metadata:
+      unit: /1
+    values:
+      '2004-01-01':
+        metadata:
+          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
+            CSS)
+
+            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
+            art. D531-3 du CSS)'
+        value: 0.8198
+      '2008-05-01':
+        metadata:
+          reference: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
+            2006-732 du 22/06/2006, art.1 et 2
+        value: 0.8198
+      '2014-04-01':
+        value: 0.3603
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1708 du 30/12/2014 - art. 1
+        value: null
+  taux_plein:
+    description: Taux plein
+    metadata:
+      unit: /1
+    values:
+      '2004-01-01':
+        metadata:
+          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
+            CSS)
+
+            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
+            art. D531-3 du CSS)'
+        value: 1.4257
+      '2008-05-01':
+        metadata:
+          reference: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
+            2006-732 du 22/06/2006, art.1 et 2
+        value: 1.4257
+      '2014-04-01':
+        value: 0.9662
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1708 du 30/12/2014 - art. 1
+        value: null
+complement_optionnel_libre_choix_activite:
+  description: Complément optionnel de libre choix d'activité
+  taux_plein_duree_arret_predeterminee:
+    description: Taux plein (durée de l'arrêt prédéterminée)
+    metadata:
+      unit: /1
+    values:
+      '2004-01-01':
+        metadata:
+          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
+            CSS)
+
+            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
+            art. D531-3 du CSS)'
+        value: 1.5793
+      '2008-05-01':
+        metadata:
+          reference: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
+            2006-732 du 22/06/2006, art.1 et 2
+        value: 1.5793
+      '2014-04-01':
+        value: 1.5793
+      '2015-01-01':
+        metadata:
+          reference: Décret 2014-1708 du 30/12/2014 - art. 1
+        value: null
+description: 'Prestation d''accueil du jeune enfant (PAJE) : Complément de libre choix
+  d''activité (CLCA)'
+metadata:
+  rank: 11

@@ -1,0 +1,59 @@
+description: 'Allocation parent isolé (API) : montants'
+metadata:
+  rank: 5
+montant_en_bmaf:
+  description: Montant (en % de la BMAF)
+  femmes_enceintes_sans_enfant_charge:
+    description: Femmes enceintes sans enfant à charge
+    metadata:
+      unit: /1
+    values:
+      '1976-10-01':
+        metadata:
+          reference: Décret 76-893 du 28/09/1976
+        value: 1.3
+      '1977-11-27':
+        metadata:
+          reference: Décret 77-1290 du 24/11/1977
+        value: 1.5
+      '2009-06-01':
+        metadata:
+          reference: Décret 2009-404 du 15/04/2009, art. 4 (abroge l'art. R524-2 du
+            CSS)
+        value: null
+  personne_isolee_avec_enfant_charge:
+    description: Personne isolée avec un enfant à charge
+    metadata:
+      unit: /1
+    values:
+      '1976-10-01':
+        metadata:
+          reference: Décret 76-893 du 28/09/1976
+        value: 1.74
+      '1977-11-27':
+        metadata:
+          reference: Décret 77-1290 du 24/11/1977
+        value: 2.0
+      '2009-06-01':
+        metadata:
+          reference: Décret 2009-404 du 15/04/2009, art. 4 (abroge l'art. R524-2 du
+            CSS)
+        value: null
+  supplement_par_enfant:
+    description: Supplément par enfant
+    metadata:
+      unit: /1
+    values:
+      '1976-10-01':
+        metadata:
+          reference: Décret 76-893 du 28/09/1976
+        value: 0.44
+      '1977-11-27':
+        metadata:
+          reference: Décret 77-1290 du 24/11/1977
+        value: 0.5
+      '2009-06-01':
+        metadata:
+          reference: Décret 2009-404 du 15/04/2009, art. 4 (abroge l'art. R524-2 du
+            CSS)
+        value: null

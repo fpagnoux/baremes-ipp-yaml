@@ -1,0 +1,25 @@
+description: 'Allocation d''adoption : montants'
+metadata:
+  rank: 4
+montant_allocation_adoption_en_bmaf:
+  description: 'Montant de l''allocation d''adoption
+
+    (en % de la BMAF)'
+  metadata:
+    unit: /1
+  values:
+    '1995-01-01':
+      metadata:
+        reference: Décret 95-165 du 16/02/1995, art. 3 (crée art R 535-1, R 755-14-3
+          du CSS)
+      value: 0.3
+    '1996-08-01':
+      metadata:
+        reference: Loi 96-604 du 05/07/1996, art. 51 et 49 (modif art. L535-1 et L535-2
+          du CSS)
+      value: 0.4595
+    '2007-01-01':
+      metadata:
+        reference: Loi 2003-1199 du 18/12/2003, art. 60 II (abroge art. L535-1 et
+          L535-2 du CSS)
+      value: null

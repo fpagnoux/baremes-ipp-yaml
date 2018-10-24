@@ -1,0 +1,40 @@
+age_limite_enfant_en_annee_2:
+  description: "Âge limite de l'enfant \n(en année) (2)"
+  values:
+    '1976-10-01':
+      metadata:
+        reference: Décret 76-893 du 28/09/1976
+      value: 3.0
+    '2009-06-01':
+      metadata:
+        reference: Décret 2009-404 du 15/04/2009, art. 4 (abroge art. R524-18 du CSS)
+      value: null
+description: 'Allocation parent isolé (API) : conditions générales'
+duree_droit_en_mois:
+  description: 'Durée du droit
+
+    (en mois)'
+  values:
+    '1976-10-01':
+      metadata:
+        reference: Décret 76-893 du 28/09/1976
+      value: 12.0
+    '2009-06-01':
+      metadata:
+        reference: Décret 2009-404 du 15/04/2009, art. 4 (abroge art. R524-18 du CSS)
+      value: null
+limite_duree_en_mois_1:
+  description: 'Limite de durée
+
+    (en mois) (1)'
+  values:
+    '1976-10-01':
+      metadata:
+        reference: Décret 76-893 du 28/09/1976
+      value: 18.0
+    '2009-06-01':
+      metadata:
+        reference: Décret 2009-404 du 15/04/2009, art. 4 (abroge art. R524-18 du CSS)
+      value: null
+metadata:
+  rank: 4

@@ -1,0 +1,25 @@
+condition_age_allocataire:
+  description: Condition d'âge pour l'allocataire
+  values:
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1088 du 01/12/1988, art. 2
+      value: 25.0
+    '2009-06-01':
+      metadata:
+        reference: Loi 2008-1249 du 01/12/2008
+      value: null
+description: 'Revenu minimum d''insertion (RMI) : conditions générales'
+metadata:
+  rank: 0
+nombre_minimal_enfant_si_condition_age_n_est_pas_respectee:
+  description: Nombre minimal d'enfant si la condition d'âge n'est pas respectée
+  values:
+    '1989-01-01':
+      metadata:
+        reference: Loi 88-1088 du 01/12/1988, art. 2
+      value: 1.0
+    '2009-06-01':
+      metadata:
+        reference: Loi 2008-1249 du 01/12/2008
+      value: null

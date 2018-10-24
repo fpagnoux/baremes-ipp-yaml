@@ -1,0 +1,27 @@
+description: 'Allocation pour frais de garde (AFG) : conditions générales et montants'
+metadata:
+  rank: 8
+montant_mensuel_maximum_1:
+  description: Montant mensuel maximum (1)
+  metadata:
+    unit: currency-FRF
+  values:
+    '1976-07-01':
+      metadata:
+        reference: Décret 74-568 du 17/05/1974 Décret 75-556 du 02/07/1975
+      value: 291.35
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null
+nombre_minimal_enfants_charge:
+  description: Nombre minimal d'enfants à charge
+  values:
+    '1976-07-01':
+      metadata:
+        reference: Décret 74-568 du 17/05/1974 Décret 75-556 du 02/07/1975
+      value: 3.0
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null

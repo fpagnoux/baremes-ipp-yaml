@@ -1,0 +1,284 @@
+description: Allocation de solidarité aux personnes âgées (ASPA)
+metadata:
+  rank: 0
+montant_maximum_annuel:
+  couple_lorsqu_seul_conjoint_est_beneficiaire_aspa_autre_allocation_supplementaire_invalidite:
+    description: Couple (ou lorsqu'un seul conjoint est bénéficiaire de l'ASPA et
+      l'autre de l'allocation supplémentaire d'invalidité)
+    metadata:
+      unit: currency-EUR
+    values:
+      '2006-01-01':
+        metadata:
+          reference: Décret 2007-57 du 12/01/2007, art. 1
+        value: 13137.69
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 19/12/2006, art. 1
+        value: 13374.17
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 21/12/2007, art. 1
+        value: 13521.28
+      '2008-09-01':
+        metadata:
+          reference: Circulaire Cnav 2008/45 du 12/08/2008
+        value: 13629.44
+      '2009-04-01':
+        metadata:
+          reference: Décret 2009-473 du 28/04/2009, art. 1
+        value: 13765.73
+      '2010-04-01':
+        metadata:
+          reference: Circulaire Cnav 2010/43 du 23/04/2010
+        value: 13889.62
+      '2011-04-01':
+        metadata:
+          reference: Circulaire Cnav 2011/30 du 14/04/2011
+        value: 14181.3
+      '2012-04-01':
+        metadata:
+          reference: Circulaire Cnav 2012/35 du 17/04/2012
+        value: 14479.1
+      '2013-04-01':
+        metadata:
+          reference: Circulaire Cnav 2013/29 du 18/04/2014
+        value: 14667.32
+      '2014-04-01':
+        metadata:
+          reference: Circulaire Cnav 2014/28 du 09/04/2014
+        value: 14755.32
+      '2014-10-01':
+        metadata:
+          reference: Décret 2014-1215 du 20/10/2014
+        value: 14904.0
+      '2016-04-01':
+        metadata:
+          reference: Circulaire Cnav 2016/18 du 29/03/2016
+        value: 14918.9
+      '2017-04-01':
+        metadata:
+          reference: Circulaire Cnav 2017-13 du 04/04/2017
+        value: 14963.65
+      '2018-04-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 15522.54
+      '2019-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 16174.59
+      '2020-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 16826.64
+  description: Montant maximum annuel
+  personnes_seules_lorsque_seul_conjoints_beneficie_aspa:
+    description: Personnes seules (ou lorsque un seul des conjoints bénéficie de l'ASPA)
+    metadata:
+      unit: currency-EUR
+    values:
+      '2006-01-01':
+        metadata:
+          reference: Décret 2007-57 du 12/01/2007, art. 1
+        value: 7323.48
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 19/12/2006, art. 1
+        value: 7455.3
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 21/12/2007, art. 1
+        value: 7537.3
+      '2008-09-01':
+        metadata:
+          reference: Circulaire Cnav 2008/45 du 12/08/2008
+        value: 7597.59
+      '2009-04-01':
+        metadata:
+          reference: Décret 2009-473 du 28/04/2009, art. 1
+        value: 8125.59
+      '2010-04-01':
+        metadata:
+          reference: Circulaire Cnav 2010/43 du 23/04/2010
+        value: 8507.49
+      '2011-04-01':
+        metadata:
+          reference: Circulaire Cnav 2011/30 du 14/04/2011
+        value: 8907.34
+      '2012-04-01':
+        metadata:
+          reference: Circulaire Cnav 2012/35 du 17/04/2012
+        value: 9325.98
+      '2013-04-01':
+        metadata:
+          reference: Circulaire Cnav 2013/29 du 18/04/2014
+        value: 9447.21
+      '2014-04-01':
+        metadata:
+          reference: Circulaire Cnav 2014/28 du 09/04/2014
+        value: 9503.89
+      '2014-10-01':
+        metadata:
+          reference: Décret 2014-1215 du 20/10/2014
+        value: 9600.0
+      '2016-04-01':
+        metadata:
+          reference: Circulaire Cnav 2016/18 du 29/03/2016
+        value: 9609.6
+      '2017-04-01':
+        metadata:
+          reference: Circulaire Cnav 2017-13 du 04/04/2017
+        value: 9638.42
+      '2018-04-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 9998.4
+      '2019-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 10418.4
+      '2020-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 10838.4
+plafond_ressources:
+  couples:
+    description: Couples
+    metadata:
+      unit: currency-EUR
+    values:
+      '2006-01-01':
+        metadata:
+          reference: Décret 2007-57 du 12/01/2007, art. 1
+        value: 13137.69
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 19/12/2006, art. 1
+        value: 13374.16
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 21/12/2007, art. 1
+        value: 13521.27
+      '2008-09-01':
+        metadata:
+          reference: Circulaire Cnav 2008/45 du 12/08/2008
+        value: 13629.44
+      '2009-04-01':
+        metadata:
+          reference: Décret 2009-473 du 28/04/2009, art. 1
+        value: 13765.73
+      '2010-04-01':
+        metadata:
+          reference: Circulaire Cnav 2010/43 du 23/04/2010
+        value: 13889.62
+      '2011-04-01':
+        metadata:
+          reference: Circulaire Cnav 2011/30 du 14/04/2011
+        value: 14181.3
+      '2012-04-01':
+        metadata:
+          reference: Circulaire Cnav 2012/35 du 17/04/2012
+        value: 14479.1
+      '2013-04-01':
+        metadata:
+          reference: Circulaire Cnav 2013/29 du 18/04/2014
+        value: 14667.32
+      '2014-04-01':
+        metadata:
+          reference: Circulaire Cnav 2014/28 du 09/04/2014
+        value: 14755.32
+      '2014-10-01':
+        metadata:
+          reference: Décret 2014-1215 du 20/10/2014
+        value: 14904.0
+      '2016-04-01':
+        metadata:
+          reference: Circulaire Cnav 2016/18 du 29/03/2016
+        value: 14918.9
+      '2017-04-01':
+        metadata:
+          reference: Circulaire Cnav 2017-13 du 04/04/2017
+        value: 14963.65
+      '2018-04-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 15522.54
+      '2019-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 16174.59
+      '2020-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 16826.64
+  description: Plafond de ressources
+  personnes_seules:
+    description: Personnes seules
+    metadata:
+      unit: currency-EUR
+    values:
+      '2006-01-01':
+        metadata:
+          reference: Décret 2007-57 du 12/01/2007, art. 1
+        value: 7500.53
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 19/12/2006, art. 1
+        value: 7635.53
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 21/12/2007, art. 1
+        value: 7719.52
+      '2008-09-01':
+        metadata:
+          reference: Circulaire Cnav 2008/45 du 12/08/2008
+        value: 7781.27
+      '2009-04-01':
+        metadata:
+          reference: Décret 2009-473 du 28/04/2009, art. 1
+        value: 8309.27
+      '2010-04-01':
+        metadata:
+          reference: Circulaire Cnav 2010/43 du 23/04/2010
+        value: 8507.49
+      '2011-04-01':
+        metadata:
+          reference: Circulaire Cnav 2011/30 du 14/04/2011
+        value: 8907.34
+      '2012-04-01':
+        metadata:
+          reference: Circulaire Cnav 2012/35 du 17/04/2012
+        value: 9325.98
+      '2013-04-01':
+        metadata:
+          reference: Circulaire Cnav 2013/29 du 18/04/2014
+        value: 9447.21
+      '2014-04-01':
+        metadata:
+          reference: Circulaire Cnav 2014/28 du 09/04/2014
+        value: 9503.89
+      '2014-10-01':
+        metadata:
+          reference: Décret 2014-1215 du 20/10/2014
+        value: 9600.0
+      '2016-04-01':
+        metadata:
+          reference: Circulaire Cnav 2016/18 du 29/03/2016
+        value: 9609.6
+      '2017-04-01':
+        metadata:
+          reference: Circulaire Cnav 2017-13 du 04/04/2017
+        value: 9638.42
+      '2018-04-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 9998.4
+      '2019-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 10418.4
+      '2020-01-01':
+        metadata:
+          reference: Décret 2018-227 du 30/04/2018
+        value: 10838.4

@@ -1,0 +1,135 @@
+age_en_dessous_duquel_enfant_prive_famille_complement_familial:
+  description: Age en dessous duquel l'enfant prive la famille du complément familial
+  values:
+    '2002-01-01':
+      value: 3.0
+    '2014-04-01':
+      metadata:
+        reference: Décret 2014-419 du 23/04/2014 - art. 3
+      value: 3.0
+    '2015-04-01':
+      metadata:
+        reference: Décret 2015-488 du 29/04/2015 - art. 1
+      value: 3.0
+    '2016-04-01':
+      metadata:
+        reference: Décret 2016-438 du 11/04/2016 - art. 1
+      value: 3.0
+    '2017-04-01':
+      metadata:
+        reference: Décret 2017-534 du 12 /04/2017 - art. 1
+      value: 3.0
+age_maximal:
+  description: Age maximal
+  values:
+    '2002-01-01':
+      value: 5.0
+    '2014-04-01':
+      metadata:
+        reference: Décret 2014-419 du 23/04/2014 - art. 3
+      value: 5.0
+    '2015-04-01':
+      metadata:
+        reference: Décret 2015-488 du 29/04/2015 - art. 1
+      value: 5.0
+    '2016-04-01':
+      metadata:
+        reference: Décret 2016-438 du 11/04/2016 - art. 1
+      value: 5.0
+    '2017-04-01':
+      metadata:
+        reference: Décret 2017-534 du 12 /04/2017 - art. 1
+      value: 5.0
+age_minimal:
+  description: Age minimal
+  values:
+    '2002-01-01':
+      value: 3.0
+    '2014-04-01':
+      metadata:
+        reference: Décret 2014-419 du 23/04/2014 - art. 3
+      value: 3.0
+    '2015-04-01':
+      metadata:
+        reference: Décret 2015-488 du 29/04/2015 - art. 1
+      value: 3.0
+    '2016-04-01':
+      metadata:
+        reference: Décret 2016-438 du 11/04/2016 - art. 1
+      value: 3.0
+    '2017-04-01':
+      metadata:
+        reference: Décret 2017-534 du 12 /04/2017 - art. 1
+      value: 3.0
+complement_familial_en_bmaf_dom:
+  description: Complément familial (en % de la BMAF) - DOM
+  montant_base:
+    description: Montant de base
+    metadata:
+      unit: /1
+    values:
+      '2002-01-01':
+        value: 0.2379
+      '2014-04-01':
+        metadata:
+          reference: Décret 2014-419 du 23/04/2014 - art. 3
+        value: 0.2379
+      '2015-04-01':
+        metadata:
+          reference: Décret 2015-488 du 29/04/2015 - art. 1
+        value: 0.2379
+      '2016-04-01':
+        metadata:
+          reference: Décret 2016-438 du 11/04/2016 - art. 1
+        value: 0.2379
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-534 du 12 /04/2017 - art. 1
+        value: 0.2379
+  montant_majore:
+    description: Montant majoré
+    metadata:
+      unit: /1
+    values:
+      '2002-01-01':
+        value: 0.2379
+      '2014-04-01':
+        metadata:
+          reference: Décret 2014-419 du 23/04/2014 - art. 3
+        value: 0.2617
+      '2015-04-01':
+        metadata:
+          reference: Décret 2015-488 du 29/04/2015 - art. 1
+        value: 0.2855
+      '2016-04-01':
+        metadata:
+          reference: Décret 2016-438 du 11/04/2016 - art. 1
+        value: 0.3093
+      '2017-04-01':
+        metadata:
+          reference: Décret 2017-534 du 12 /04/2017 - art. 1
+        value: 0.3331
+description: 'Complément familial (CF) : majorations dans les DOM'
+metadata:
+  rank: 16
+nombre_enfant_minimum:
+  description: Nombre d'enfant minimum
+  values:
+    '2002-01-01':
+      value: 1.0
+    '2014-04-01':
+      metadata:
+        reference: Décret 2014-419 du 23/04/2014 - art. 3
+      value: 1.0
+    '2015-04-01':
+      metadata:
+        reference: Décret 2015-488 du 29/04/2015 - art. 1
+      value: 1.0
+    '2016-04-01':
+      metadata:
+        reference: Décret 2016-438 du 11/04/2016 - art. 1
+      value: 1.0
+    '2017-04-01':
+      metadata:
+        reference: Décret 2017-534 du 12 /04/2017 - art. 1
+      value: 1.0

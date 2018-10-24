@@ -1,0 +1,60 @@
+description: 'Allocations familiales (AF): conditions de ressources'
+majoration_ressource_par_enfant_supplementaire:
+  description: Majoration ressource par enfant supplémentaire
+  metadata:
+    unit: currency-EUR
+  values:
+    '2015-07-01':
+      metadata:
+        reference: Décret 2015-611 du 03/06/2015
+      value: 5595.0
+    '2016-01-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2015/371 du 18/12/2015
+      value: 5617.0
+    '2018-01-01':
+      metadata:
+        reference: 'Circulaire DSS/SD2B/2017/352 du 22/12/2017
+
+          Arrêté du 27/12/2017'
+      value: 5628.0
+metadata:
+  rank: 1
+plafond_ressources_tranche_1:
+  description: Plafond de ressources - Tranche 1
+  metadata:
+    unit: currency-EUR
+  values:
+    '2015-07-01':
+      metadata:
+        reference: Décret 2015-611 du 03/06/2015
+      value: 67140.0
+    '2016-01-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2015/371 du 18/12/2015
+      value: 67408.0
+    '2018-01-01':
+      metadata:
+        reference: 'Circulaire DSS/SD2B/2017/352 du 22/12/2017
+
+          Arrêté du 27/12/2017'
+      value: 67542.0
+plafond_ressources_tranche_2:
+  description: Plafond de ressources - Tranche 2
+  metadata:
+    unit: currency-EUR
+  values:
+    '2015-07-01':
+      metadata:
+        reference: Décret 2015-611 du 03/06/2015
+      value: 89490.0
+    '2016-01-01':
+      metadata:
+        reference: Circulaire DSS/SD2B/2015/371 du 18/12/2015
+      value: 89847.0
+    '2018-01-01':
+      metadata:
+        reference: 'Circulaire DSS/SD2B/2017/352 du 22/12/2017
+
+          Arrêté du 27/12/2017'
+      value: 90026.0

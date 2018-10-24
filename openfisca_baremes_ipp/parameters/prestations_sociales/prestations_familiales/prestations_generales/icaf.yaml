@@ -1,0 +1,33 @@
+2_enfants_charge:
+  description: 2 enfants à charge
+  metadata:
+    unit: currency-FRF
+  values:
+    '1948-10-01':
+      value: 650.0
+    '1958-01-01':
+      metadata:
+        reference: Décret 58-962 du 27/09/1958
+      value: 981.0
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null
+description: 'Indemnité compensatrice des avantages fiscaux (ICAF) : montant'
+metadata:
+  rank: 5
+par_enfant_supplementaire:
+  description: Par enfant supplémentaire
+  metadata:
+    unit: currency-FRF
+  values:
+    '1948-10-01':
+      value: 1000.0
+    '1958-01-01':
+      metadata:
+        reference: Décret 58-962 du 27/09/1958
+      value: 1509.0
+    '1978-01-01':
+      metadata:
+        reference: Loi 77-765 du 12/07/1977
+      value: null

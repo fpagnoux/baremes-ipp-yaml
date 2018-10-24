@@ -1,0 +1,223 @@
+description: 'Allocation de soutien familial (ASF) : montants'
+metadata:
+  rank: 6
+montant_asf_dans_calcul_rsa_ppa_en_bmaf:
+  description: Montant de l'ASF dans le calcul du RSA et de la PPA (en % de la BMAF)
+  orphelin_assimile_deux_parents:
+    description: Orphelin ou assimilé des deux parents
+    metadata:
+      unit: /1
+    values:
+      '1970-12-26':
+        metadata:
+          reference: Loi 70-1218 du 23/12/1970 (modif art. L543 du CSS)
+        value: null
+      '1971-07-01':
+        metadata:
+          reference: Décret 71-504 du 29/06/1971
+        value: null
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-82 du 24/01/978, art. 1 (modif art. L 543-5 du CSS)
+        value: null
+      '1982-07-01':
+        metadata:
+          reference: Décret 82-534 du 23/06/1982
+        value: null
+      '1984-12-28':
+        metadata:
+          reference: Loi 84-1171 du 22/12/1984 (modif art. L 543-5 du CSS)
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. art. R523-7 et
+            s. du CSS)
+        value: null
+      '1986-07-01':
+        metadata:
+          reference: Loi 85-17 du 04/01/1985
+        value: null
+      '1999-11-17':
+        metadata:
+          reference: Loi 99-944 du 15/11/1999, art. 10 (modif L523-2 du CSS)
+        value: null
+      '2009-06-01':
+        metadata:
+          reference: Loi 2008-1425 du 27/12/2008, art. 181 (modif L523-1 du CSS)
+        value: 0.3
+      '2014-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
+        value: 0.3
+      '2015-04-01':
+        metadata:
+          reference: Décret 2015-314 du 19/03/2015, art. 1.
+        value: 0.3
+      '2017-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+        value: 0.3
+  orphelin_assimile_seul_parent:
+    description: Orphelin ou assimilé d'un seul parent
+    metadata:
+      unit: /1
+    values:
+      '1970-12-26':
+        metadata:
+          reference: Loi 70-1218 du 23/12/1970 (modif art. L543 du CSS)
+        value: null
+      '1971-07-01':
+        metadata:
+          reference: Décret 71-504 du 29/06/1971
+        value: null
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-82 du 24/01/978, art. 1 (modif art. L 543-5 du CSS)
+        value: null
+      '1982-07-01':
+        metadata:
+          reference: Décret 82-534 du 23/06/1982
+        value: null
+      '1984-12-28':
+        metadata:
+          reference: Loi 84-1171 du 22/12/1984 (modif art. L 543-5 du CSS)
+        value: null
+      '1986-01-01':
+        metadata:
+          reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. art. R523-7 et
+            s. du CSS)
+        value: null
+      '1986-07-01':
+        metadata:
+          reference: Loi 85-17 du 04/01/1985
+        value: null
+      '1999-11-17':
+        metadata:
+          reference: Loi 99-944 du 15/11/1999, art. 10 (modif L523-2 du CSS)
+        value: null
+      '2009-06-01':
+        metadata:
+          reference: Loi 2008-1425 du 27/12/2008, art. 181 (modif L523-1 du CSS)
+        value: 0.225
+      '2014-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
+        value: 0.225
+      '2015-04-01':
+        metadata:
+          reference: Décret 2015-314 du 19/03/2015, art. 1.
+        value: 0.225
+      '2017-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+        value: 0.225
+montant_asf_en_bmaf:
+  description: Montant de l'ASF (en % de la BMAF)
+  orphelin_assimile_deux_parents:
+    description: Orphelin ou assimilé des deux parents
+    metadata:
+      unit: /1
+    values:
+      '1970-12-26':
+        metadata:
+          reference: Loi 70-1218 du 23/12/1970 (modif art. L543 du CSS)
+        value: 0.3
+      '1971-07-01':
+        metadata:
+          reference: Décret 71-504 du 29/06/1971
+        value: 0.3
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-82 du 24/01/978, art. 1 (modif art. L 543-5 du CSS)
+        value: 0.3
+      '1982-07-01':
+        metadata:
+          reference: Décret 82-534 du 23/06/1982
+        value: 0.3
+      '1984-12-28':
+        metadata:
+          reference: Loi 84-1171 du 22/12/1984 (modif art. L 543-5 du CSS)
+        value: 0.3
+      '1986-01-01':
+        metadata:
+          reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. art. R523-7 et
+            s. du CSS)
+        value: 0.3
+      '1986-07-01':
+        metadata:
+          reference: Loi 85-17 du 04/01/1985
+        value: 0.3
+      '1999-11-17':
+        metadata:
+          reference: Loi 99-944 du 15/11/1999, art. 10 (modif L523-2 du CSS)
+        value: 0.3
+      '2009-06-01':
+        metadata:
+          reference: Loi 2008-1425 du 27/12/2008, art. 181 (modif L523-1 du CSS)
+        value: 0.3
+      '2014-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
+        value: 0.315
+      '2015-04-01':
+        metadata:
+          reference: Décret 2015-314 du 19/03/2015, art. 1.
+        value: 0.33
+      '2017-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+        value: 0.36
+  orphelin_assimile_seul_parent:
+    description: Orphelin ou assimilé d'un seul parent
+    metadata:
+      unit: /1
+    values:
+      '1970-12-26':
+        metadata:
+          reference: Loi 70-1218 du 23/12/1970 (modif art. L543 du CSS)
+        value: 0.16
+      '1971-07-01':
+        metadata:
+          reference: Décret 71-504 du 29/06/1971
+        value: 0.16
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-82 du 24/01/978, art. 1 (modif art. L 543-5 du CSS)
+        value: 0.225
+      '1982-07-01':
+        metadata:
+          reference: Décret 82-534 du 23/06/1982
+        value: 0.225
+      '1984-12-28':
+        metadata:
+          reference: Loi 84-1171 du 22/12/1984 (modif art. L 543-5 du CSS)
+        value: 0.225
+      '1986-01-01':
+        metadata:
+          reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. art. R523-7 et
+            s. du CSS)
+        value: 0.225
+      '1986-07-01':
+        metadata:
+          reference: Loi 85-17 du 04/01/1985
+        value: 0.225
+      '1999-11-17':
+        metadata:
+          reference: Loi 99-944 du 15/11/1999, art. 10 (modif L523-2 du CSS)
+        value: 0.225
+      '2009-06-01':
+        metadata:
+          reference: Loi 2008-1425 du 27/12/2008, art. 181 (modif L523-1 du CSS)
+        value: 0.225
+      '2014-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
+        value: 0.2363
+      '2015-04-01':
+        metadata:
+          reference: Décret 2015-314 du 19/03/2015, art. 1.
+        value: 0.2476
+      '2017-04-01':
+        metadata:
+          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+        value: 0.2702

@@ -1,0 +1,97 @@
+bonification:
+  description: Bonification
+  montant_maximal_bonification_en_base_rsa:
+    description: Montant maximal de la bonification (en % de la base RSA)
+    metadata:
+      unit: /1
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 0.12782
+  seuil_salaire_beneficier_bonification_maximale_en_multiple_smic_horaire_brut:
+    description: Seuil de salaire pour bénéficier de la bonification maximale (en
+      multiple du smic horaire brut)
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 95.0
+  seuil_salaire_minimum_beneficier_bonification_en_multiple_smic_horaire_brut:
+    description: Seuil de salaire minimum pour bénéficier de la bonification (en multiple
+      du smic horaire brut)
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 59.0
+description: 'Prime d''activité (PA) : paramètre pour le calcul du montant'
+majoration_isolement_en_base_rsa:
+  description: Majoration isolement (en % de la base RSA)
+  femmes_enceintes:
+    description: Femmes enceintes
+    metadata:
+      unit: /1
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 1.28412
+  par_enfant_charge:
+    description: Par enfant à charge
+    metadata:
+      unit: /1
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 0.42804
+majoration_montant_maximal_en_base_rsa:
+  couple_1_enfant_deuxieme_enfant_1:
+    description: Couple, 1 enfant - ou pour le deuxième enfant (1)
+    metadata:
+      unit: /1
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 0.3
+  couples_seul_avec_enfant:
+    description: Couples ou seul avec un enfant
+    metadata:
+      unit: /1
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 0.5
+  description: Majoration montant maximal (en % de la base RSA)
+  par_enfant_supplementaire:
+    description: Par enfant supplémentaire
+    metadata:
+      unit: /1
+    values:
+      '2016-01-01':
+        metadata:
+          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+        value: 0.4
+majoration_ressources_revenus_activite:
+  description: Majoration des ressources sur les revenus d'activité
+  metadata:
+    unit: /1
+  values:
+    '2016-01-01':
+      metadata:
+        reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+      value: 0.62
+metadata:
+  rank: 11
+montant_minimum_verse:
+  description: Montant minimum versé
+  metadata:
+    unit: currency-EUR
+  values:
+    '2016-01-01':
+      metadata:
+        reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+      value: 15.0

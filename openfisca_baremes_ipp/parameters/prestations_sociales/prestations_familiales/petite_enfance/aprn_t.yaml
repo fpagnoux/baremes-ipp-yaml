@@ -1,0 +1,62 @@
+description: 'Allocations prénatales (APrN) : taux et versement'
+metadata:
+  rank: 1
+taux_en_base:
+  1er_examen:
+    description: 1er examen
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 0.44
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-728 du 11/07/1978
+        value: 0.44
+      '1983-01-01':
+        metadata:
+          reference: Décret 82-1138 du 29/12/1982, art. 2 (modif art. L516 du CSS)
+        value: 0.205
+      '1985-01-01':
+        value: null
+  2e_examen:
+    description: 2e examen
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 0.88
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-728 du 11/07/1978
+        value: 0.88
+      '1983-01-01':
+        metadata:
+          reference: Décret 82-1138 du 29/12/1982, art. 2 (modif art. L516 du CSS)
+        value: 0.205
+      '1985-01-01':
+        value: null
+  3e_examen:
+    description: 3e examen
+    metadata:
+      unit: /1
+    values:
+      '1976-08-01':
+        metadata:
+          reference: Décret 76-768 du 16/08/1976
+        value: 0.66
+      '1978-01-01':
+        metadata:
+          reference: Décret 78-728 du 11/07/1978
+        value: 0.66
+      '1983-01-01':
+        metadata:
+          reference: Décret 82-1138 du 29/12/1982, art. 2 (modif art. L516 du CSS)
+        value: 0.205
+      '1985-01-01':
+        value: null
+  description: Taux en % de la base

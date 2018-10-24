@@ -1,0 +1,230 @@
+description: Majoration forfaitaire au titre des charges
+majoration_par_enfant_majoration_charges_2:
+  description: Majoration par enfant de la majoration pour charges (2)
+  metadata:
+    unit:
+      '1994-07-01': currency-FRF
+      '2001-07-01': currency-EUR
+  values:
+    '1994-07-01':
+      metadata:
+        reference: Arrêté du 14/11/1994, art. 1 et 3
+      value: 61.0
+    '1997-07-01':
+      metadata:
+        reference: Arrêté du 10/09/1997, art. 1 et 3
+      value: 63.0
+    '1998-07-01':
+      metadata:
+        reference: Arrêté du 11/09/1998, art. 1 et 3
+      value: 64.0
+    '1999-07-01':
+      metadata:
+        reference: Arrêté du 28/06/1999, art. 1 et 3
+      value: 65.0
+    '2000-07-01':
+      metadata:
+        reference: Arrêté du 01/08/2000, art. 1
+      value: 66.0
+    '2001-07-01':
+      metadata:
+        reference: Arrêté du 31/07/2001, art. 3
+      value: 10.52
+    '2002-07-01':
+      metadata:
+        reference: Arrêté du 20/12/2002, art. 3
+      value: 10.63
+    '2007-01-01':
+      metadata:
+        reference: Arrêté du 23/12/2006, art. 4
+      value: 10.82
+    '2008-01-01':
+      metadata:
+        reference: Arrêté du 26/12/2007, art. 4
+      value: 11.12
+    '2009-01-01':
+      metadata:
+        reference: Arrêté du 31/12/2008, art. 4
+      value: 11.45
+    '2010-01-01':
+      metadata:
+        reference: Arrêté du 30/12/2009, art. 4
+      value: 11.49
+    '2011-01-01':
+      metadata:
+        reference: Arrêté du 30/12/2010, art. 4
+      value: 11.62
+    '2012-01-01':
+      metadata:
+        reference: Arrêté du 30/12/2011, art. 4
+      value: 11.74
+    '2013-01-01':
+      metadata:
+        reference: Arrêté du 28/12/2012, art. 7
+      value: 11.99
+    '2014-10-01':
+      metadata:
+        reference: Arrêté du 27/10/2014, art. 4
+      value: 12.06
+    '2015-10-01':
+      metadata:
+        reference: Arrêté du 16/10/2015, art.1
+      value: 12.07
+    '2017-10-01':
+      metadata:
+        reference: Arrêté du 28/09/2017, art. 5
+      value: 12.16
+metadata:
+  rank: 7
+personne_isolee_menage_seul:
+  cas_colocataires_proprietaires_1:
+    description: Cas des colocataires ou des propriétaires (1)
+    metadata:
+      unit:
+        '1994-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1 et 3
+        value: 142.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1 et 3
+        value: 145.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1 et 3
+        value: 147.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1 et 3
+        value: 149.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 150.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 3
+        value: 23.25
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 3
+        value: 23.48
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 4
+        value: 23.9
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 4
+        value: 24.56
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 4
+        value: 25.28
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 4
+        value: 25.36
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 4
+        value: 25.64
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 4
+        value: 25.9
+      '2013-01-01':
+        metadata:
+          reference: Arrêté du 28/12/2012, art. 7
+        value: 26.46
+      '2014-10-01':
+        metadata:
+          reference: Arrêté du 27/10/2014, art. 4
+        value: 26.61
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art.1
+        value: 26.63
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 5
+        value: 26.83
+  cas_general:
+    description: Cas général
+    metadata:
+      unit:
+        '1994-07-01': currency-FRF
+        '2001-07-01': currency-EUR
+    values:
+      '1994-07-01':
+        metadata:
+          reference: Arrêté du 14/11/1994, art. 1 et 3
+        value: 282.0
+      '1997-07-01':
+        metadata:
+          reference: Arrêté du 10/09/1997, art. 1 et 3
+        value: 289.0
+      '1998-07-01':
+        metadata:
+          reference: Arrêté du 11/09/1998, art. 1 et 3
+        value: 293.0
+      '1999-07-01':
+        metadata:
+          reference: Arrêté du 28/06/1999, art. 1 et 3
+        value: 297.0
+      '2000-07-01':
+        metadata:
+          reference: Arrêté du 01/08/2000, art. 1
+        value: 300.0
+      '2001-07-01':
+        metadata:
+          reference: Arrêté du 31/07/2001, art. 3
+        value: 46.5
+      '2002-07-01':
+        metadata:
+          reference: Arrêté du 20/12/2002, art. 3
+        value: 46.97
+      '2007-01-01':
+        metadata:
+          reference: Arrêté du 23/12/2006, art. 4
+        value: 47.82
+      '2008-01-01':
+        metadata:
+          reference: Arrêté du 26/12/2007, art. 4
+        value: 49.14
+      '2009-01-01':
+        metadata:
+          reference: Arrêté du 31/12/2008, art. 4
+        value: 50.59
+      '2010-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2009, art. 4
+        value: 50.75
+      '2011-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2010, art. 4
+        value: 51.31
+      '2012-01-01':
+        metadata:
+          reference: Arrêté du 30/12/2011, art. 4
+        value: 51.82
+      '2013-01-01':
+        metadata:
+          reference: Arrêté du 28/12/2012, art. 7
+        value: 52.93
+      '2014-10-01':
+        metadata:
+          reference: Arrêté du 27/10/2014, art. 4
+        value: 53.23
+      '2015-10-01':
+        metadata:
+          reference: Arrêté du 16/10/2015, art.1
+        value: 53.27
+      '2017-10-01':
+        metadata:
+          reference: Arrêté du 28/09/2017, art. 5
+        value: 53.67
+  description: Personne isolée ou ménage seul
