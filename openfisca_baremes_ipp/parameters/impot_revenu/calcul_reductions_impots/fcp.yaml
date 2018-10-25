@@ -1,27 +1,27 @@
 date_entree_en_vigueur:
-  annee_revenus:
-    description: Année Revenus
+  annee_ir:
+    description: Année IR
     values:
-      '1997-01-01':
-        value: 1996.0
-      '1998-01-01':
+      '1996-01-01':
         value: 1997.0
-      '2002-01-01':
-        value: 2001.0
-      '2003-01-01':
+      '1997-01-01':
+        value: 1998.0
+      '2001-01-01':
         value: 2002.0
-      '2008-01-01':
-        value: 2007.0
-      '2012-01-01':
-        value: 2011.0
-      '2013-01-01':
+      '2002-01-01':
+        value: 2003.0
+      '2007-01-01':
+        value: 2008.0
+      '2011-01-01':
         value: 2012.0
-      '2014-01-01':
+      '2012-01-01':
         value: 2013.0
+      '2013-01-01':
+        value: 2014.0
   description: Date d'entrée en vigueur
   metadata:
     order:
-    - annee_revenus
+    - annee_ir
 description: Souscription de parts de fonds communs de placement dans l'innovation
   (1998 - 2016)
 metadata:
@@ -40,55 +40,55 @@ reduction_impot_souscriptions_parts_fcpi_fip:
     description: Plafond célibataire
     metadata:
       unit:
-        '1998-01-01': currency-FRF
-        '2002-01-01': currency-EUR
+        '1997-01-01': currency-FRF
+        '2001-01-01': currency-EUR
     values:
-      '1997-01-01':
+      '1996-01-01':
         value: null
-      '1998-01-01':
+      '1997-01-01':
         value: 75000.0
-      '2002-01-01':
+      '2001-01-01':
         value: 11434.0
-      '2003-01-01':
+      '2002-01-01':
         value: 12000.0
   plafond_couple_fcpi:
     description: Plafond couple (FCPI)
     metadata:
       unit:
-        '1998-01-01': currency-FRF
-        '2002-01-01': currency-EUR
+        '1997-01-01': currency-FRF
+        '2001-01-01': currency-EUR
     values:
-      '1997-01-01':
+      '1996-01-01':
         value: null
-      '1998-01-01':
+      '1997-01-01':
         value: 150000.0
-      '2002-01-01':
+      '2001-01-01':
         value: 22868.0
-      '2003-01-01':
+      '2002-01-01':
         value: 24000.0
   taux:
     description: Taux
     metadata:
       unit: /1
     values:
-      '1997-01-01':
+      '1996-01-01':
         value: null
-      '1998-01-01':
+      '1997-01-01':
         value: 0.25
-      '2012-01-01':
+      '2011-01-01':
         value: 0.22
-      '2013-01-01':
+      '2012-01-01':
         value: 0.18
   taux_corse_fip:
     description: Taux (Corse - FIP)
     metadata:
       unit: /1
     values:
-      '1997-01-01':
+      '1996-01-01':
         value: null
-      '2008-01-01':
+      '2007-01-01':
         value: 0.5
-      '2012-01-01':
+      '2011-01-01':
         value: 0.45
-      '2013-01-01':
+      '2012-01-01':
         value: 0.38

@@ -1,23 +1,23 @@
 date_entree_en_vigueur:
-  annee_revenus:
-    description: Année Revenus
+  annee_ir:
+    description: Année IR
     values:
-      '2009-01-01':
-        value: 2008.0
-      '2010-01-01':
+      '2008-01-01':
         value: 2009.0
-      '2011-01-01':
+      '2009-01-01':
         value: 2010.0
-      '2012-01-01':
+      '2010-01-01':
         value: 2011.0
-      '2013-01-01':
+      '2011-01-01':
         value: 2012.0
-      '2014-01-01':
+      '2012-01-01':
         value: 2013.0
+      '2013-01-01':
+        value: 2014.0
   description: Date d'entrée en vigueur
   metadata:
     order:
-    - annee_revenus
+    - annee_ir
 description: Plafonnement global des niches (2009 - 2016)
 metadata:
   order:
@@ -30,9 +30,9 @@ plafonnement_niches:
     metadata:
       unit: currency-EUR
     values:
-      '2009-01-01':
+      '2008-01-01':
         value: null
-      '2014-01-01':
+      '2013-01-01':
         value: 8000.0
   metadata:
     order:
@@ -44,30 +44,30 @@ plafonnement_niches:
     metadata:
       unit: currency-EUR
     values:
-      '2009-01-01':
+      '2008-01-01':
         value: null
-      '2010-01-01':
+      '2009-01-01':
         value: 25000.0
-      '2011-01-01':
+      '2010-01-01':
         value: 20000.0
-      '2012-01-01':
+      '2011-01-01':
         value: 18000.0
-      '2014-01-01':
+      '2013-01-01':
         value: 10000.0
   taux:
     description: Taux
     metadata:
       unit: /1
     values:
-      '2009-01-01':
+      '2008-01-01':
         value: null
-      '2010-01-01':
+      '2009-01-01':
         value: 0.1
-      '2011-01-01':
+      '2010-01-01':
         value: 0.08
-      '2012-01-01':
+      '2011-01-01':
         value: 0.06
-      '2013-01-01':
+      '2012-01-01':
         value: 0.04
-      '2014-01-01':
+      '2013-01-01':
         value: null

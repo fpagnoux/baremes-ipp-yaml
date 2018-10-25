@@ -1,21 +1,21 @@
 date_entree_en_vigueur:
-  annee_revenus:
-    description: Année Revenus
+  annee_ir:
+    description: Année IR
     values:
-      '2001-01-01':
-        value: 2000.0
-      '2002-01-01':
+      '2000-01-01':
         value: 2001.0
-      '2007-01-01':
-        value: 2006.0
-      '2012-01-01':
-        value: 2011.0
-      '2013-01-01':
+      '2001-01-01':
+        value: 2002.0
+      '2006-01-01':
+        value: 2007.0
+      '2011-01-01':
         value: 2012.0
+      '2012-01-01':
+        value: 2013.0
   description: Date d'entrée en vigueur
   metadata:
     order:
-    - annee_revenus
+    - annee_ir
 depenses_investissement_forestier:
   description: Dépenses d'investissement forestier
   metadata:
@@ -27,22 +27,22 @@ depenses_investissement_forestier:
     metadata:
       unit: currency-EUR
     values:
-      '2001-01-01':
+      '2000-01-01':
         value: null
-      '2002-01-01':
+      '2001-01-01':
         value: 5700.0
   taux:
     description: Taux
     metadata:
       unit: /1
     values:
-      '2001-01-01':
+      '2000-01-01':
         value: null
-      '2002-01-01':
+      '2001-01-01':
         value: 0.25
-      '2012-01-01':
+      '2011-01-01':
         value: 0.22
-      '2013-01-01':
+      '2012-01-01':
         value: 0.18
 description: Investissement et travaux forestiers (2002 - 2016)
 metadata:
@@ -61,16 +61,16 @@ reduction_impot_defense_forets_contre_incendies:
     metadata:
       unit: currency-EUR
     values:
-      '2001-01-01':
+      '2000-01-01':
         value: null
-      '2007-01-01':
+      '2006-01-01':
         value: 1000.0
   taux:
     description: Taux
     metadata:
       unit: /1
     values:
-      '2001-01-01':
+      '2000-01-01':
         value: null
-      '2007-01-01':
+      '2006-01-01':
         value: 0.5

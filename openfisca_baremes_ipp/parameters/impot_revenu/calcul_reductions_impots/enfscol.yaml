@@ -1,17 +1,17 @@
 date_entree_en_vigueur:
-  annee_revenus:
-    description: Année Revenus
+  annee_ir:
+    description: Année IR
     values:
-      '1992-01-01':
-        value: 1991.0
-      '1993-01-01':
+      '1991-01-01':
         value: 1992.0
-      '2002-01-01':
-        value: 2001.0
+      '1992-01-01':
+        value: 1993.0
+      '2001-01-01':
+        value: 2002.0
   description: Date d'entrée en vigueur
   metadata:
     order:
-    - annee_revenus
+    - annee_ir
 description: Réductions pour enfants scolarisés (1993 - 2016)
 metadata:
   order:
@@ -22,28 +22,28 @@ reduction_enfants_scolarises:
     description: Collège
     metadata:
       unit:
-        '1993-01-01': currency-FRF
-        '2002-01-01': currency-EUR
+        '1992-01-01': currency-FRF
+        '2001-01-01': currency-EUR
     values:
-      '1992-01-01':
+      '1991-01-01':
         value: null
-      '1993-01-01':
+      '1992-01-01':
         value: 400.0
-      '2002-01-01':
+      '2001-01-01':
         value: 61.0
   description: Réduction pour enfants scolarisés
   lycee:
     description: Lycée
     metadata:
       unit:
-        '1993-01-01': currency-FRF
-        '2002-01-01': currency-EUR
+        '1992-01-01': currency-FRF
+        '2001-01-01': currency-EUR
     values:
-      '1992-01-01':
+      '1991-01-01':
         value: null
-      '1993-01-01':
+      '1992-01-01':
         value: 1000.0
-      '2002-01-01':
+      '2001-01-01':
         value: 153.0
   metadata:
     order:
@@ -54,12 +54,12 @@ reduction_enfants_scolarises:
     description: Université
     metadata:
       unit:
-        '1993-01-01': currency-FRF
-        '2002-01-01': currency-EUR
+        '1992-01-01': currency-FRF
+        '2001-01-01': currency-EUR
     values:
-      '1992-01-01':
+      '1991-01-01':
         value: null
-      '1993-01-01':
+      '1992-01-01':
         value: 1200.0
-      '2002-01-01':
+      '2001-01-01':
         value: 183.0

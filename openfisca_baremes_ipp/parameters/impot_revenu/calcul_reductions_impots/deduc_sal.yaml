@@ -1,27 +1,27 @@
 date_entree_en_vigueur:
-  annee_revenus:
-    description: Année Revenus
+  annee_ir:
+    description: Année IR
     values:
-      '1988-01-01':
-        value: 1987.0
-      '1989-01-01':
+      '1987-01-01':
         value: 1988.0
-      '1992-01-01':
-        value: 1991.0
-      '2002-01-01':
-        value: 2001.0
-      '2005-01-01':
-        value: 2004.0
-      '2006-01-01':
+      '1988-01-01':
+        value: 1989.0
+      '1991-01-01':
+        value: 1992.0
+      '2001-01-01':
+        value: 2002.0
+      '2004-01-01':
         value: 2005.0
-      '2008-01-01':
-        value: 2007.0
-      '2013-01-01':
-        value: 2012.0
+      '2005-01-01':
+        value: 2006.0
+      '2007-01-01':
+        value: 2008.0
+      '2012-01-01':
+        value: 2013.0
   description: Date d'entrée en vigueur
   metadata:
     order:
-    - annee_revenus
+    - annee_ir
 description: Cotisations syndicales (1989 - 2016)
 metadata:
   order:
@@ -38,22 +38,22 @@ reduction_impot_cotisations_syndicales:
     metadata:
       unit: /1
     values:
-      '1988-01-01':
+      '1987-01-01':
         value: null
-      '1989-01-01':
+      '1988-01-01':
         value: 0.01
   taux:
     description: Taux
     metadata:
       unit: /1
     values:
-      '1988-01-01':
+      '1987-01-01':
         value: null
-      '1989-01-01':
+      '1988-01-01':
         value: 0.2
-      '1992-01-01':
+      '1991-01-01':
         value: 0.3
-      '2002-01-01':
+      '2001-01-01':
         value: 0.5
-      '2006-01-01':
+      '2005-01-01':
         value: 0.66

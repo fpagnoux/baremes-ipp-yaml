@@ -1,35 +1,35 @@
 date_entree_en_vigueur:
-  annee_revenus:
-    description: Année Revenus
+  annee_ir:
+    description: Année IR
     values:
-      '1989-01-01':
-        value: 1988.0
-      '1990-01-01':
+      '1988-01-01':
         value: 1989.0
-      '1991-01-01':
+      '1989-01-01':
         value: 1990.0
-      '1992-01-01':
+      '1990-01-01':
         value: 1991.0
-      '1997-01-01':
-        value: 1996.0
-      '1998-01-01':
+      '1991-01-01':
+        value: 1992.0
+      '1996-01-01':
         value: 1997.0
-      '2001-01-01':
-        value: 2000.0
-      '2002-01-01':
+      '1997-01-01':
+        value: 1998.0
+      '2000-01-01':
         value: 2001.0
-      '2004-01-01':
-        value: 2003.0
-      '2005-01-01':
+      '2001-01-01':
+        value: 2002.0
+      '2003-01-01':
         value: 2004.0
-      '2006-01-01':
+      '2004-01-01':
         value: 2005.0
-      '2007-01-01':
+      '2005-01-01':
         value: 2006.0
+      '2006-01-01':
+        value: 2007.0
   description: Date d'entrée en vigueur
   metadata:
     order:
-    - annee_revenus
+    - annee_ir
 description: Dépenses d’accueil dans un établissement pour personnes dépendantes (1990
   - 2016)
 metadata:
@@ -47,27 +47,27 @@ reductions_impot_depenses_accueil_dans_etablissement_personnes_agees:
     description: Plafond
     metadata:
       unit:
-        '1990-01-01': currency-FRF
-        '2002-01-01': currency-EUR
+        '1989-01-01': currency-FRF
+        '2001-01-01': currency-EUR
     values:
-      '1989-01-01':
+      '1988-01-01':
         value: null
-      '1990-01-01':
+      '1989-01-01':
         value: 13000.0
-      '2001-01-01':
+      '2000-01-01':
         value: 15000.0
-      '2002-01-01':
+      '2001-01-01':
         value: 2300.0
-      '2004-01-01':
+      '2003-01-01':
         value: 3000.0
-      '2007-01-01':
+      '2006-01-01':
         value: 10000.0
   taux:
     description: Taux
     metadata:
       unit: /1
     values:
-      '1989-01-01':
+      '1988-01-01':
         value: null
-      '1990-01-01':
+      '1989-01-01':
         value: 0.25
