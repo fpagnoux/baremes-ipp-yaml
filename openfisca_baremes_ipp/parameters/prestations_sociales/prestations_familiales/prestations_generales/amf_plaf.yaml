@@ -68,11 +68,19 @@ majoration_plafond_majoration:
       '1978-01-01':
         value: null
 metadata:
+  date_parution_jo:
+    '1974-07-01': 17/08/1976
+    '1978-01-01': '1977-07-13'
+  notes:
+    '1978-01-01': Remplacé par "complément familial" depuis 01/01/1978
   order:
   - plafond_ressources_droit_amf_3_enfants
   - majoration_plafond_droit_amf
   - plafond_ressources_majoration_0_enfant
   - majoration_plafond_majoration
+  reference:
+    '1974-07-01': Décret 76-767 du 16/08/1976 (majoration)
+    '1978-01-01': Loi 77-765 du 12/07/1977
 plafond_ressources_droit_amf_3_enfants:
   description: Plafond de ressources pour le droit à l'AMF - 3 enfants
   metadata:

@@ -1,5 +1,9 @@
 description: 'Régime complémentaire des indépendants : valeur de service du point'
 metadata:
+  notes:
+    '2013-04-01': 'A partir du 1er janvier 2013, les artisans et commerçants bénéficient
+      d''un régime complémentaire unique commun : le Régime Complémentaire des Indépendants
+      (RCI).'
   order:
   - valeur_point_rci_date
   - regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013

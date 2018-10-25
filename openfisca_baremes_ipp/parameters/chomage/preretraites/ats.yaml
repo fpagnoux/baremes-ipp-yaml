@@ -1,8 +1,24 @@
 description: Allocation transitoire de solidarité (ATS) (2011-2015)
 metadata:
+  date_parution_jo:
+    '2011-07-01': '2011-11-03'
+    '2012-01-01': '2012-10-02'
+    '2013-01-01': 29/12/2012
+    '2014-01-01': '2013-12-29'
+    '2015-01-01': '2014-12-31'
+  notes:
+    '2015-03-01': 'L''ATS n''existe plus : au 01/03/2015, tous les demandeurs d''emploi
+      justifiant des trimestres pour bénéficier d''une retraite à taux plein nés 1953
+      l''ont atteint au 1er mars 2015 (61 ans et 2 mois).'
   order:
   - montant_journalier
   - plafond_ressources
+  reference:
+    '2011-07-01': Décret 2011-1421 du 02/11/2011
+    '2012-01-01': Décret 2012-196 du 09/02/2012
+    '2013-01-01': Décret 2012-1496 du 28/12/2012
+    '2014-01-01': Décret 2013-1274 du 27/12/2013
+    '2015-01-01': Décret 2014-1719 du 31/12/2014
 montant_journalier:
   description: Montant journalier
   metadata:

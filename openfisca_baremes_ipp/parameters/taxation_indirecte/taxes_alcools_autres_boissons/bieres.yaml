@@ -138,6 +138,20 @@ bieres_plus_28_vol_eur_degre_hl:
       value: 7.42
 description: Bières
 metadata:
+  date_parution_jo:
+    '1981-02-01': '1980-12-31'
+    '1982-01-01': '1981-12-31'
+    '1993-01-01': '1992-12-31'
+    '1997-01-01': '1996-12-29'
+    '2002-03-31': '2000-09-22'
+    '2009-04-10': '2009-04-09'
+    '2010-05-01': '2010-04-30'
+    '2012-01-01': '2012-05-06'
+    '2013-01-01': '2012-12-18'
+    '2014-01-01': '2014-05-29'
+    '2015-10-09': '2015-10-08'
+    '2017-01-01': '2016-12-31'
+    '2018-01-01': '2017-12-27'
   order:
   - bieres_moins_28_vol_eur_degre_hl
   - bieres_plus_28_vol_eur_degre_hl
@@ -146,6 +160,20 @@ metadata:
   - petites_brasseries_10_000hl_eur_degre_hl
   - 10_000hl_petites_brasseries_50_000hl_eur_degre_hl
   - 50_000hl_petites_brasseries_200_000hl_eur_degre_hl
+  reference:
+    '1981-02-01': Loi 80-1094 du 30/12/1980 (LF pour 1981)
+    '1982-01-01': Loi 81-1160 du 30/12/1981 (LF pour 1982)
+    '1993-01-01': Loi 92-1376 du 30/12/1992 (LF pour 1993)
+    '1997-01-01': Loi no 96-1160 du 27/12/1996 (LFSS pour 1997)
+    '2002-03-31': Ordonnance 2000-916 du 19/09/2000
+    '2009-04-10': Décret 2009-389 du 7/04/2009
+    '2010-05-01': Décret 2010-421 du 27/04/2010
+    '2012-01-01': Décret 2012-653 du 4/05/2012
+    '2013-01-01': Loi 2012-1404 du 17/12/2012 (LFSS pour 2013)
+    '2014-01-01': Décret 2014-549 du 26/05/2014
+    '2015-10-09': Ordonnance 2015-1247 du 07/10/2015
+    '2017-01-01': Arrêté du 27/12/2016 (tarifS accises alcools 2017)
+    '2018-01-01': Arrêté du 22/12/2017 (tarifs accises alcools 2018)
 petites_brasseries_10_000hl_eur_degre_hl:
   description: Petites brasseries < 10 000hl (€/degré/hl)
   metadata:

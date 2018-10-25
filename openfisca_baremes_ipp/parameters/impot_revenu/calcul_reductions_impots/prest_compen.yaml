@@ -16,9 +16,17 @@ date_entree_en_vigueur:
     - annee_ir
 description: Prestation compensatoire (2001 - 2016)
 metadata:
+  notes:
+    '2000-01-01': 'Aménagement possible des dispositions fiscales : art. 128  et 275-1
+      du code civil'
+    '2004-01-01': Institution d'une réduction d'impôt en cas de versement de la prestation
+      compensatoire en capital
   order:
   - date_entree_en_vigueur
   - prestations_compensatoires
+  reference:
+    '2000-01-01': Loi 2000-596 du 30 juin 2000
+    '2004-01-01': Loi 2004-439 du 26 mai 2004 - art. 26
 prestations_compensatoires:
   description: Prestations compensatoires
   metadata:

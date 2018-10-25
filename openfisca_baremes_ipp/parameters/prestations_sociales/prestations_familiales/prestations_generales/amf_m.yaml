@@ -47,6 +47,13 @@
       value: null
 description: 'Allocation de la mère au foyer (AMF) : taux et montant mensuel'
 metadata:
+  date_parution_jo:
+    '1955-06-01': 09/05/1955 03/11/1955
+    '1974-07-01': 05/01/1972 30/06/1972
+    '1978-01-01': '1977-07-13'
+  notes:
+    '1955-06-01': Création de l'AMF
+    '1978-01-01': Remplacé par "complément familial" depuis 01/01/1978
   order:
   - regime_general_taux_en_bmaf
   - regime_agricole_taux_en_bmaf
@@ -55,6 +62,13 @@ metadata:
   - 4_enfants_charge
   - 5_enfants_charge
   - 6_enfants_charge
+  reference:
+    '1955-06-01': Loi 55-1045 du 06/08/1955, art. 2                               Décret
+      55-1429 du 02/11/1955
+    '1974-07-01': 'Loi 72-8 du 03/01/1972
+
+      Décret 72-528 et 530 du 9/06/1972 (AMF)'
+    '1978-01-01': Loi 77-765 du 12/07/1977
 regime_agricole_taux_en_bmaf:
   3_enfants_plus_2_ans:
     description: 3 enfants et + de plus de 2 ans

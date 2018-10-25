@@ -7,10 +7,21 @@ duree_maximale_allocation_annee:
     '2006-06-04':
       value: null
 metadata:
+  date_parution_jo:
+    '2001-01-01': '2001-02-07'
+    '2002-04-01': '2002-03-21'
+    '2006-06-04': '2006-06-04'
+  notes:
+    '2001-01-01': Création de l'Allocation de Présence Parentale
+    '2006-06-04': APP devient AJPP
   order:
   - montant_taux_plein_bmaf
   - montant_taux_partiel_bmaf
   - duree_maximale_allocation_annee
+  reference:
+    '2001-01-01': Décret 2001-106 du 05/02/2001, art. 2
+    '2002-04-01': Décret 2002-373 du 19/03/2002, art. 1
+    '2006-06-04': Décret 2006-659 du 02/06/2006
 montant_taux_partiel_bmaf:
   50_duree_legale_couple:
     description: 50% durée légale, Couple

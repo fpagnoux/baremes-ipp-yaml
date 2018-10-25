@@ -342,6 +342,33 @@ date_entree_en_vigueur:
     - annee_ir
 description: Exonération d'IR (1978 - 2016)
 metadata:
+  notes:
+    '2006-01-01': 'Exonération apprentis : fraction du salaire des apprentis exonérée
+      d''IR jusqu''en 2005 inclus : art. 5-2° bis du CGI, à compter de 2006, ce montant
+      est égal au montant annuel du SMIC'
+    '2007-01-01': Voir note (1)
   order:
   - date_entree_en_vigueur
   - conditions_ressources_exoneration_ir
+  reference:
+    '2001-01-01': Loi 2001-1276 du 28/12/2001 (LFR pour 2001) - art.51
+    '2007-01-01': "Décret 2008-294 du \n01/04/2008 - art. 1"
+    '2008-01-01': "Décret 2009-389 du \n07/04/2009 - art. 1"
+    '2009-01-01': "Décret 2010-421 du\n 27/04/2010 - art. 1"
+    '2010-01-01': "Décret 2011-645 du\n 09/06/2011 - art. 1"
+    '2014-01-01': Loi 2014-1654 du 29/12/2014 (LF pour 2015), art. 2
+  reference_boi:
+    '1998-01-01': BOI 5 B-9-01 n°44 du 02/03/2001
+    '1999-01-01': BOI 5 B-19-00 n°163 du 05/09/2000
+    '2000-01-01': BOI 5 B-9-01 n°44 du 02/03/2001
+    '2001-01-01': BOI 5 B-3-02 n°18 du 25/01/2002
+    '2002-01-01': BOI 5 B-6-03 n°16 du 27/01/2003
+    '2003-01-01': BOI 5 B-8-04 n°37 du 25/02/2004
+    '2004-01-01': BOI 5 B-9-05 n°33 du 18/02/2005
+    '2005-01-01': BOI 5 B-6-06 n°8 du 18/01/2006
+    '2006-01-01': "BOI 5 B-10-07\n n°47 du 29/03/2007"
+    '2007-01-01': "BOI 5 B-11-08 \nn°28 du 04/03/2008"
+    '2008-01-01': BOI 5 B-9-09 n°35 du 31/03/2009
+    '2009-01-01': "BOI 5 B-13-10\n n°22 du 16/02/2010"
+    '2010-01-01': "BOI 5 B-7-11 \nn°26 du 28/03/2011"
+    '2011-01-01': BOI 5 F-7-12 du 02/03/2012

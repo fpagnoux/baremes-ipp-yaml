@@ -41,11 +41,25 @@ majoration:
       '1978-01-01':
         value: null
 metadata:
+  date_parution_jo:
+    '1976-07-01': 05/01/1972 30/06/1972 17/08/1976
+    '1978-01-01': '1977-07-13'
+  notes:
+    '1976-07-01': Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint
+      a un revenu ne dépassant pas la moitié de la base de calcul des AF soit 347,25
   order:
   - base_1
   - taux
   - montant
   - majoration
+  reference:
+    '1946-09-01': Loi du 22 aout 1946
+    '1976-07-01': 'Loi 72-8 du 03/01/1972
+
+      Décret 72-530 du 29/06/1972 (S.U.)
+
+      Décret 76-767 du 16/08/1976 ("Majoration")'
+    '1978-01-01': Loi 77-765 du 12/07/1977
 montant:
   1_enfant_plus_2_ans:
     description: 1 enfant, plus de 2 ans

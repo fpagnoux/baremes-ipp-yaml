@@ -469,12 +469,90 @@ maximum_abattement_frais_professionnels:
       '2017-01-01':
         value: 12305.0
 metadata:
+  notes:
+    '1952-01-01': Au titre de l'imposition des revenus des années 1943-1952, les salariés
+      avaient également droit à une déduction forfaitaire pour frais professionnels
+      de 5% au-delà du plafond.
+    '1953-01-01': Création d'un abattement supplémentaire pour les salaires inférieurs
+      au seuil (colonne D)
+    '1974-01-01': Pour les revenus 1973 et 1974, les salariés avaient également droit
+      à un abattement de 10 % au-delà du plafond.
+    '1978-01-01': Le maximum sur les pensions est pris en compte par foyer fiscal
+      pour l'imposition des revenus de 1977 et 1978.
+    '1988-01-01': 'Source: Lefebvre Fiscal 1989'
+    '1993-01-01': Montant révisé chaque année dans la même proportion que la limite
+      supérieure de la première tranche du barème de l'impôt sur le revenu
+    '1997-01-01': "Valeur minimale d'abattement pour les chômeurs de plus d'un an\n\
+      \ (art. 13 de la loi de finances pour 1998)"
+    '1999-01-01': Voir BOFiP archives [DB 5F252]
+    '2001-01-01': Voir aussi BOI 5 F-10-01 N° 37 du 21 FEVRIER 2001
+    '2006-01-01': Intégration de l'abattement de 20% au barème de l'impôt sur le revenu
+    '2012-01-01': "Abattement de 10% salaire et chômeur : art. 83-3 du CGI \nAbattement\
+      \ de 10% pensions et retraites : art. 158-5 du CGI\nAbattement supplémentaire\
+      \ de 20% : art. 158-5 du CGI"
   order:
   - date_entree_en_vigueur
   - deduction_supplementaire
   - abattement_forfaitaire_frais_professionnels_salaires_pensions
   - minimum_abattement_frais_professionnels
   - maximum_abattement_frais_professionnels
+  reference:
+    '1977-01-01': LF pour 1978
+    '1978-01-01': LF pour 1979
+    '1979-01-01': LF pour 1980
+    '1980-01-01': LF pour 1981
+    '1981-01-01': LF pour 1982
+    '1982-01-01': LF pour 1983
+    '1983-01-01': LF pour 1984
+    '1984-01-01': LF pour 1985
+    '1985-01-01': LF pour 1986
+    '1986-01-01': LF pour 1987
+    '1987-01-01': LF pour 1988
+    '1988-01-01': LF pour 1989
+    '1989-01-01': LF pour 1990
+    '1990-01-01': LF pour 1991
+    '1991-01-01': LF pour 1992
+    '1992-01-01': LF pour 1993 -  art. 2-V
+    '1993-01-01': LF pour 1994
+    '1994-01-01': LF pour 1995
+    '1995-01-01': LF pour 1996
+    '1996-01-01': LF pour 1997 - art. 2-III
+    '1997-01-01': LF pour 1998
+    '1998-01-01': LF pour 1999
+    '1999-01-01': LF pour 2000
+    '2000-01-01': LF pour 2001
+    '2001-01-01': LF pour 2002
+    '2002-01-01': LF pour 2003
+    '2003-01-01': LF pour 2004
+    '2004-01-01': LF pour 2005
+    '2005-01-01': LF pour 2006
+    '2006-01-01': LF pour 2007
+    '2007-01-01': LF pour 2008
+    '2008-01-01': LF pour 2009
+    '2009-01-01': LF pour 2010
+    '2010-01-01': LF pour 2011
+    '2011-01-01': LF pour 2012
+    '2012-01-01': LF pour 2013
+    '2013-01-01': LF pour 2014
+    '2014-01-01': LF pour 2015
+    '2015-01-01': LF pour 2016
+    '2016-01-01': LF pour 2017
+    '2017-01-01': LF pour 2018
+  reference_boi:
+    '1998-01-01': BOI 5 F-1-99 n° 4 du 07/01/1999
+    '1999-01-01': BOI 5 B-5-00 n°11 du 17/01/2000
+    '2000-01-01': BOI 5 B-9-01 n°44 du 02/03/2001
+    '2001-01-01': BOI 5 B-3-02 n°18 du 25/01/2002
+    '2002-01-01': BOI 5 B-6-03 n°16 du 27/01/2003
+    '2003-01-01': BOI 5 B-8-04 n°37 du 25/02/2004
+    '2004-01-01': BOI 5 B-9-05 n°33 du 18/02/2005
+    '2005-01-01': BOI 5 B-6-06 n°8 du 18/01/2006
+    '2006-01-01': BOI 5 B-10-07 n°47 du 29/03/2007
+    '2007-01-01': BOI 5 B-11-08 n°28 du 04/03/2008
+    '2008-01-01': BOI 5 B-9-09 n°35 du 31/03/2009
+    '2009-01-01': BOI 5 B-13-10 n°22 du 16/02/2010
+    '2010-01-01': BOI 5 B-7-11 n°26 du 28/03/2011
+    '2011-01-01': BOI 5 F-2-12 n° 10 du 03/02/12
 minimum_abattement_frais_professionnels:
   allocations_chomage:
     description: Allocations chômage

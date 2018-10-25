@@ -14,9 +14,14 @@ date_entree_en_vigueur:
     - annee_ir
 description: Réductions pour enfants scolarisés (1993 - 2016)
 metadata:
+  notes:
+    '1992-01-01': DB 5 B-3315 - JOFR 31/12/1992
   order:
   - date_entree_en_vigueur
   - reduction_enfants_scolarises
+  reference:
+    '1992-01-01': LF pour 1993
+    '2001-01-01': CGI. - Article 199 quater F
 reduction_enfants_scolarises:
   college:
     description: Collège

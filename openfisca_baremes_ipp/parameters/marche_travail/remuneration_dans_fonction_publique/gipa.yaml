@@ -65,7 +65,32 @@ inflation:
     '2017-01-01':
       value: 0.0138
 metadata:
+  date_parution_jo:
+    '2008-01-01': '2008-06-07'
+    '2009-01-01': '2009-05-23'
+    '2010-01-01': '2010-05-22'
+    '2011-01-01': '2011-04-06'
+    '2012-01-01': '2012-04-12'
+    '2013-01-01': '2013-05-04'
+    '2014-01-01': '2014-03-12'
+    '2015-01-01': '2015-02-13'
+    '2016-01-01': 28/06/2016
+    '2017-01-01': '2017-11-18'
+  notes:
+    '2008-01-01': '"Ce dispositif n’a pas vocation à être pérenne, des mesures spécifiques
+      étant prévues pour en traiter les causes."'
   order:
   - indice_1
   - indice_2
   - inflation
+  reference:
+    '2008-01-01': Décret n° 2008-539 du 6 juin 2008
+    '2009-01-01': Arrêté du 20 mai 2009
+    '2010-01-01': Arrêté du 3 mai 2010
+    '2011-01-01': Arrêté du 23 mars 2011
+    '2012-01-01': Arrêté du 20 mars 2012
+    '2013-01-01': Arrêté du 18 avril 2013
+    '2014-01-01': Arrêté du 3 mars 2014
+    '2015-01-01': Arrêté du 4 février 2015
+    '2016-01-01': Arrêté du 27 juin 2016
+    '2017-01-01': Arrêté du 17 novembre 2017

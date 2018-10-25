@@ -11,5 +11,9 @@ droit_specifique_boissons_non_alcooliques_eur_hl:
     '2002-03-31':
       value: 0.54
 metadata:
+  date_parution_jo:
+    '2002-03-31': '2000-09-22'
   order:
   - droit_specifique_boissons_non_alcooliques_eur_hl
+  reference:
+    '2002-03-31': Ordonnance 2000-916 du 19/09/2000

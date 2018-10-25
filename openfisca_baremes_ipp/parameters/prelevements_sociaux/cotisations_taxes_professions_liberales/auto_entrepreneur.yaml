@@ -91,11 +91,34 @@ formation_professionnelle_micro_entrepreneur:
       '2011-01-01':
         value: 0.002
 metadata:
+  date_parution_jo:
+    '2009-01-01': '2008-12-19'
+    '2011-01-01': '2010-12-30'
+    '2013-01-01': '2012-12-30'
+    '2014-01-01': '2013-12-31'
+    '2015-01-01':
+    - '2014-12-19'
+    - '2014-12-19'
+    '2017-04-01': '2017-03-10'
+    '2018-01-01': '2017-12-31'
+  notes:
+    '2017-04-01': Depuis le 1er janvier 2017, la CFP est unifiée pour tous les artisans
+      (en et hors Alsace)
   order:
   - achat_vente_vente_consommer_place_prestations_hebergement_sauf_location_hebergement_meuble
   - prestations_service
   - activites_liberales_relevant_cipav
   - formation_professionnelle_micro_entrepreneur
+  reference:
+    '2009-01-01': Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+    '2011-01-01': Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+    '2013-01-01': Décret 2012-1551 du 28/12/2012
+    '2014-01-01': Décret 2013-1290 du 27/12/2013
+    '2015-01-01':
+    - Décret 2014-1531 du 17/12/2014, art.4, 1°
+    - Décret 2014-1531 du 17/12/2014, art.4, 1°
+    '2017-04-01': Décret 2017-301 du 08/03/2017
+    '2018-01-01': Décret 2017-1894 du 30/12/2017, art. 1
 prestations_service:
   chiffre_affaires:
     description: Chiffre d'affaires

@@ -38,6 +38,20 @@ intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois:
     - 2e_enfant
     - 3e_enfant
 metadata:
+  date_parution_jo:
+    '1985-01-01': '1985-01-05'
+    '1986-07-01': 02/06/1985 02/06/1985 02/02/1986
+    '1987-04-01': '1986-12-30'
+    '1994-07-01': '1994-07-26'
+    '1996-07-01': '1996-07-06'
+    '2004-01-01': '2003-12-19'
+  notes:
+    '1985-01-01': La loi 85-17 du 4 janvier 1985 crée l'Allocation parentale d'éducation
+    '1994-07-01': Prestation d'accueil jeune enfant non cumulable avec CF et ASF.
+      Prolongation jusqu'au 6e anniversaire en cas de naissance multiple
+    '1996-07-01': APE pendant 1 an en cas d'adoption d'un enfant entre 2 et 16 ans.
+      APE pendant 3 ans si adoption simultanée d'au moins 3 enfants
+    '2004-01-01': Remplacée par PAJE. Toujours pas de cumul avec CF
   order:
   - nombre_minimal_enfants_pris_en_charge
   - age_maximal_enfant_1
@@ -45,6 +59,17 @@ metadata:
   - intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois
   - duree_allocation_maximale_mois
   - montant_mensuel_en_base_calcul
+  reference:
+    '1985-01-01': Loi 85-17 du 04/01/1985, art. 6 et 7
+    '1986-07-01': Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
+      du 31/05/1985                                                                                  Décret
+      86-150 du 30/001/1986
+    '1987-04-01': Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
+    '1994-07-01': Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
+      Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
+      94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
+    '1996-07-01': Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
+    '2004-01-01': Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
 montant_mensuel_en_base_calcul:
   description: Montant mensuel (en % de la base de calcul)
   metadata:

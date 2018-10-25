@@ -35,8 +35,16 @@ cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_
       value: 0.05
 description: Taxe sur les fonds de garantie des assurances obligatoires (FGAO)
 metadata:
+  date_parution_jo:
+    '2004-08-05': '2004-08-05'
+    '2008-01-01': '2007-11-14'
+    '2010-08-01': '2010-07-08'
   order:
   - contribution_assures_en_pourcentage_primes
   - cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_normal
   - cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_reduit
   - contributions_entreprises_assurances_titre_1deg_article_r_421_27_1
+  reference:
+    '2004-08-05': Arrêté du 16/07/2004
+    '2008-01-01': Arrêté du 07/11/2007 fixant contribution FGAO
+    '2010-08-01': Arrêté du 09/06/2010 fixant contribution FGAO

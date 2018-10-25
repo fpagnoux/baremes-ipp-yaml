@@ -1,5 +1,9 @@
 description: 'Régime complémentaire des commerçants : valeur de service du point (2004-2012)'
 metadata:
+  notes:
+    '2013-01-01': A partir de 2013, les valeurs du points sont alignées avec le régime
+      complémentaire des artisans, au sein d'un régime complémentaire des indépendants
+      (RCI)
   order:
   - valeur_points_acquis_depuis_1973
 valeur_points_acquis_depuis_1973:

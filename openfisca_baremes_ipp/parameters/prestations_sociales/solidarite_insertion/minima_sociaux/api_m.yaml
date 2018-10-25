@@ -1,7 +1,18 @@
 description: 'Allocation parent isolé (API) : montants'
 metadata:
+  date_parution_jo:
+    '1976-10-01': '1976-09-30'
+    '1977-11-27': '1977-11-26'
+    '2009-06-01': '2009-04-16'
+  notes:
+    '1976-10-01': API créée par la loi 76-617, en insérant un chapitre V-3 au CSS
+    '2009-06-01': Abrogation de l'API
   order:
   - montant_en_bmaf
+  reference:
+    '1976-10-01': Décret 76-893 du 28/09/1976
+    '1977-11-27': Décret 77-1290 du 24/11/1977
+    '2009-06-01': Décret 2009-404 du 15/04/2009, art. 4 (abroge l'art. R524-2 du CSS)
 montant_en_bmaf:
   description: Montant (en % de la BMAF)
   femmes_enceintes_sans_enfant_charge:

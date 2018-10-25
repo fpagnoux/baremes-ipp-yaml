@@ -46,6 +46,10 @@ date_entree_en_vigueur:
     - annee_ir
 description: Taxe exceptionnelle sur les hauts revenus (2012-2016)
 metadata:
+  notes:
+    '2011-01-01': Décret n°2012-653 du 4 mai 2012 - art. 1
   order:
   - date_entree_en_vigueur
   - contribution_exceptionnelle_hauts_revenus
+  reference:
+    '2011-01-01': LF pour 2012 - art. 2

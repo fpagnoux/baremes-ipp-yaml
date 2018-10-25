@@ -1,7 +1,11 @@
 description: Contributions SS solidarité autonomie (CSA)
 metadata:
+  date_parution_jo:
+    '2004-07-01': '2004-07-01'
   order:
   - tout_salaire
+  reference:
+    '2004-07-01': Loi 2004-626 du 26/06/2004, art. 11
 tout_salaire:
   description: Sur tout salaire
   employeurs:

@@ -81,12 +81,16 @@ majoration_ressources_revenus_activite:
     '2016-01-01':
       value: 0.62
 metadata:
+  date_parution_jo:
+    '2016-01-01': '2015-12-22'
   order:
   - majoration_montant_maximal_en_base_rsa
   - majoration_isolement_en_base_rsa
   - majoration_ressources_revenus_activite
   - bonification
   - montant_minimum_verse
+  reference:
+    '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
 montant_minimum_verse:
   description: Montant minimum versé
   metadata:

@@ -1,7 +1,11 @@
 description: 'Decote FP '
 metadata:
+  date_parution_jo:
+    '2006-01-01': '2003-08-22'
   order:
   - taux_decote_selon_annee_age_ouverture_droits
+  reference:
+    '2006-01-01': Loi 2003-775 du 21/08/2003, art. 66
 taux_decote_selon_annee_age_ouverture_droits:
   description: Taux de décote selon l'année de l'âge d'ouverture des droits
   metadata:

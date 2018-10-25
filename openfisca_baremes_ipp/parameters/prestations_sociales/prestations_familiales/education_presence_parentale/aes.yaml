@@ -95,10 +95,39 @@ complement_allocation:
     - 6e_categorie_2
 description: 'Allocation d''éducation spéciale (AES) : conditions et montants'
 metadata:
+  date_parution_jo:
+    '1976-08-01': 01/07/1975       23/12/1975  17/08/1976
+    '1984-01-01': '1983-01-01'
+    '1991-10-01': '1991-09-24'
+    '2002-04-01': '2002-03-30'
+    '2005-01-01': '2005-02-12'
+    '2006-01-01': '2005-02-12'
+  notes:
+    '1976-08-01': Se substitue à l'allocation d'éducation spécialisée, à l'allocation
+      aux mineurs handicapés, à l'allocation spéciale aux parents de mineurs grands
+      infirmés de moins de 15 ans.
+    '1991-10-01': 'Complément 3e catégorie: 6058 au 01/01/1992'
+    '2002-04-01': Création de 6 catégories; les taux de chaque catégorie sont fixés
+      par le décret de 2002; mais pour la 6ème catégorie il est prévu que le montant
+      de l'allocation soit égal au montant de la majoration pour tierce personne accordée
+      aux invalides de la 3e catégorie définis à l'article L. 341-4. »
+    '2006-01-01': La loi du 11 février 2005 pour l'égalité des droits et des chances,
+      la participation et la citoyenneté des personnes handicapées transforme l'AES
+      en l'AEEH
   order:
   - age_maximum_enfant
   - montant_bmaf_en_euros
   - complement_allocation
+  reference:
+    '1976-08-01': Loi 75-534 du 30/06/1975                                                              Décrets
+      75-1198, 96, 98 du 16/12/1975                                    Décret 76-768
+      du 16/08/1976
+    '1984-01-01': Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+    '1991-10-01': Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du CSS)
+    '2002-04-01': Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du CSS)
+      et Décret 2002-421
+    '2005-01-01': Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+    '2006-01-01': Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
 montant_bmaf_en_euros:
   description: Montant (% de BMAF ou en Euros)
   metadata:

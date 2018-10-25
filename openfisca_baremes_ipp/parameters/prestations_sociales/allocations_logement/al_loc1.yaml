@@ -1,9 +1,25 @@
 description: Paramètres de calcul dans le secteur locatif (avant la réforme)
 metadata:
+  date_parution_jo:
+    '1994-07-01': '1994-11-16'
+    '1997-07-01': '1997-09-11'
+    '1998-07-01': '1998-09-13'
+    '1999-07-01': '1999-06-29'
+    '2000-07-01': '2000-08-05'
+    '2001-01-01': '2000-12-28'
+  notes:
+    '2001-01-01': Réforme de 2001 qui change le calcul de l'ALF pour les locataires
   order:
   - plafonds_loyer_en_zone_1
   - plafonds_loyer_en_zone_2
   - plafonds_loyer_en_zone_3
+  reference:
+    '1994-07-01': Arrêté du 14/11/1994, art. 1 et 3
+    '1997-07-01': Arrêté du 10/09/1997, art. 1 et 3
+    '1998-07-01': Arrêté du 11/09/1998, art. 1 et 3
+    '1999-07-01': Arrêté du 28/06/1999, art. 1 et 3
+    '2000-07-01': Arrêté du 01/08/2000, art. 1
+    '2001-01-01': Décret 2000-1269 du 26/12/2000
 plafonds_loyer_en_zone_1:
   description: Plafonds de loyer en zone 1
   menage_isole:

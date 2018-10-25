@@ -1,8 +1,25 @@
 description: Salaire de référence ARRCO
 metadata:
+  notes:
+    '1999-01-01': Unification des régime ARRCO en 1999.
+    '2014-01-01': Pas d'évolution en 2015.
   order:
   - salaire_reference_en_nominal
   - salaire_reference_en_euros
+  reference:
+    '2005-01-01': Circ. Arrco 2005-02-DT du 21/03/2005
+    '2006-01-01': Circ. Arrco 2006-01-DRE du 19/05/2006
+    '2007-01-01': Circ. Arrco 2007-02-DT du 14/03/2007
+    '2008-01-01': Circ. Arrco 2008-02-DT du 14/03/2008
+    '2009-01-01': Circ. Arrco 2009-01-DT du 18/03/2009
+    '2010-01-01': Circ. Arrco 2010-01-DT du 18/03/2010
+    '2011-01-01': Circ. Arrco 2011-01-DT du 14/04/2011
+    '2012-01-01': Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
+    '2013-01-01': Circ. Agirc-Arrco 2013-6-DT du 02/04/2013
+    '2014-01-01': Circ. Arrco 2014-01-DT du 20/03/2014
+    '2016-01-01': Circ. Agirc-Arrco 2015-10-DC
+    '2017-01-01': Circ. Arrco 2016-02-DT du 10/10/2016
+    '2018-01-01': Circ. Arrco 2017-07-DT du 16/10/2017
 salaire_reference_en_euros:
   description: Salaire de référence (en euros)
   metadata:

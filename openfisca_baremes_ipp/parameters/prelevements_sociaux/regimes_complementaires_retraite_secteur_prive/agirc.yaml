@@ -1,10 +1,56 @@
 description: Cotisations retraites des cadres (AGIRC)
 metadata:
+  date_parution_jo:
+    '1986-01-01': '1987-05-13'
+  notes:
+    '1979-01-01': 'Ecrit en toutes lettres dans le BSP : "2% à la charge du salarié,
+      6% à la charge de l''employeur" (p.71 de I/1976)'
+    '1983-01-01': Délais de 2 ans pour cotiser à 12% pour les entreprises créés entre
+      le 01/01/1981 et le 01/01/1983.
+    '1996-01-01': 'BSP : Fin de la clause spéciale pour les entreprises créées après
+      le 01/01/1981.'
+    '1997-01-01': 'BSP : "Le taux contractuel de 13% est donc appelé à 16,25% (10,625%
+      employeur ; 5,625% salarié)'
+    '1998-01-01': 'BSP : Nouveau taux de 14% appelé à 125% (soit 17,5%). Ce taux sera
+      porté à 15% en 1998 et à 16% en 1999'
+    '2014-01-01': 'Sur la tranche C (au 01/01/ 2013, possiblement avant) : répartition
+      libre par accord d’entreprise jusqu’à 20 %, puis de manière prédéterminée sur
+      les 0,30 % restant (0,1 % part patronale et 0,2 % part salariale). Il est cependant
+      conseillé d’appliquer la même répartition que sur la tranche B.'
   order:
   - taux_appel
   - taux_contractuels
   - taux_effectifs
   - taux_effectifs_salaries_employeurs
+  reference:
+    '1948-01-01': Convention AGIRC du 14/03/1947
+    '1952-01-01': Référence non trouvée
+    '1953-01-01': Référence non trouvée
+    '1955-01-01': Référence non trouvée
+    '1961-01-01': Référence non trouvée
+    '1965-01-01': Référence non trouvée
+    '1966-01-01': Référence non trouvée
+    '1976-01-01': Référence non trouvée
+    '1979-01-01': Référence non trouvée
+    '1981-01-01': Avenant A75 du 26/06/1978 (non agréé).
+    '1983-01-01': (pas de référence)
+    '1984-01-01': Avenant A99 du 15/06/1983 agréé par l'arrêté du 14/03/1987.
+    '1986-01-01': Référence non trouvée
+    '1987-01-01': Référence non trouvée
+    '1989-01-01': Référence non trouvée
+    '1990-01-01': Référence non trouvée
+    '1991-01-01': Accord du 24/03/1988
+    '1994-01-01': Accord AGIRC du 09/02/1994
+    '1995-01-01': Accord AGIRC du 09/02/1994
+    '1996-01-01': Accord AGIRC du 09/02/1994
+    '1997-01-01': Accord AGIRC-ARRCO du 25/04/1996
+    '1998-01-01': Accord AGIRC-ARRCO du 25/04/1996
+    '1999-01-01': Accord AGIRC-ARRCO du 25/04/1996
+    '2006-01-01': Accord AGIRC-ARRCO du 13/11/2003
+    '2014-01-01': AGIRC-ARRCO Circulaire 2013-16-DRJ
+    '2015-01-01': AGIRC-ARRCO Circulaire 2014-16-DRJ du 18/12/2014
+    '2016-01-01': AGIRC-ARRCO Circulaire 2015-15-DRJ du 28/12/2015
+    '2017-01-01': AGIRC-ARRCO Circulaire 2016-11-DRJ du 16/12/2016
 taux_appel:
   description: Taux d'appel
   metadata:

@@ -1,8 +1,18 @@
 description: 'Allocation de salaire unique (ASU) : plafond de ressources'
 metadata:
+  date_parution_jo:
+    '1976-07-01': 05/01/1972 30/06/1972 17/08/1976
+    '1978-01-01': '1977-07-13'
+  notes:
+    '1976-07-01': Remplacé par le "Complément Familial" depuis 01/01/1978
   order:
   - plafond_ressources_droit_salaire_unique
   - plafond_ressources_majoration_salaire_unique
+  reference:
+    '1976-07-01': Loi 72-8 du 03/01/1972                          Décret 72-530 du
+      29/06/1972 (S.U.)                                                                Décret
+      76-767 du 16/08/1976
+    '1978-01-01': Loi 77-765 du 12/07/1977
 plafond_ressources_droit_salaire_unique:
   1_enfant:
     description: 1 enfant

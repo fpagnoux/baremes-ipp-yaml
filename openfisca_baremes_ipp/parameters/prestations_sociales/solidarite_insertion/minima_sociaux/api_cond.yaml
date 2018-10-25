@@ -25,7 +25,16 @@ limite_duree_en_mois_1:
     '2009-06-01':
       value: null
 metadata:
+  date_parution_jo:
+    '1976-10-01': '1976-09-30'
+    '2009-06-01': '2009-04-16'
+  notes:
+    '1976-10-01': API créée par la loi 76-617, en insérant un chapitre V-3 au CSS
+    '2009-06-01': Abrogation de l'API
   order:
   - duree_droit_en_mois
   - limite_duree_en_mois_1
   - age_limite_enfant_en_annee_2
+  reference:
+    '1976-10-01': Décret 76-893 du 28/09/1976
+    '2009-06-01': Décret 2009-404 du 15/04/2009, art. 4 (abroge art. R524-18 du CSS)

@@ -1,5 +1,7 @@
 description: Salaire de référence ARRCO, UNIRS (1957-1998)
 metadata:
+  notes:
+    '1957-01-01': Création de l'Unirs en 1957.
   order:
   - salaire_reference_en_nominal
   - salaire_reference_en_euros

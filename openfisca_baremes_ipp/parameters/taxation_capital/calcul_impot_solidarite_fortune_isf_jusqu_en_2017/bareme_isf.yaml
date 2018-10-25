@@ -1,8 +1,91 @@
 description: Barème de l'ISF
 metadata:
+  date_parution_jo:
+    '1982-01-01': '1981-12-31'
+    '1983-01-01': '1982-12-30'
+    '1984-01-01': '1983-12-30'
+    '1985-01-01': '1984-12-30'
+    '1986-01-01': '1985-12-31'
+    '1987-01-01': '1986-07-12'
+    '1989-01-01': '1988-12-28'
+    '1990-01-01': '1989-12-30'
+    '1991-01-01': '1990-12-30'
+    '1992-01-01': '1991-12-31'
+    '1994-01-01': '1993-12-31'
+    '1995-01-01': '1994-12-30'
+    '1996-01-01': '1995-12-31'
+    '1997-01-01': '1996-12-31'
+    '1999-01-01': '1998-12-31'
+    '2002-01-01': '2000-09-22'
+    '2005-01-01': '2004-12-31'
+    '2006-01-01': '2005-12-31'
+    '2007-01-01': 27/12/2006 ; 31/03/2007
+    '2008-01-01': 27/12/2007 ; 02/04/2008
+    '2009-01-01': 28/12/2008 ; 09/04/2009
+    '2010-01-01': 31/12/2009 ; 30/04/2010
+    '2011-01-01': 30/12/2010 ; 11/06/2011
+    '2012-01-01': 30/07/2011 ; 17/08/2012
+    '2013-01-01': '2012-12-30'
+    '2018-01-01': '2017-12-31'
+  notes:
+    '1982-01-01': Voir note (1)
+    '1987-01-01': Voir note (1)
+    '1989-01-01': Voir note (2)
+    '2002-01-01': Ordonnance portant adaptation de la valeur en euros de certains
+      montants exprimés en francs dans les textes législatifs
+    '2006-01-01': Début de l'actualisation annuelle du barème de l'ISF en fonction
+      de l’actualisation retenue pour l’IR. Voir note (3).
+    '2010-01-01': Les taux de l’ISF n’ont pas connu de grands bouleversements depuis
+      la recréation de cet impôt en 1989. Une majoration exceptionnelle de 10 % du
+      produit de l’impôt était en vigueur de 1995 à 1998, avant d’être intégrée au
+      barème en 1998. Une réduction de 150 euros par enfant à charge est appliquée.
+      Entre 1997 et 2002, le barème n’a pas été indexé sur l’inflation.
+    '2012-01-01': 'La réforme instaurée par la loi de finances rectifictative pour
+      2012  ne sera jamais appliquée à cause de l''alternance gouvernmentale : le
+      barème pour l''ISF 2012 correspond de fait à un retour au barème de 2011 ( via
+      la contribution exceptionnelle prévue par la loi  de finances rectificative
+      du 16/08/12) avec suppression temporaire du plafonnement. De plus, la contribution
+      exceptionnelle  ne bénéficie d’aucune des réductions fiscales en vigueur pour
+      l’ISF.'
+    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.
   order:
   - seuils_tranches_bareme_isf
   - taux_marginaux_tranches_bareme_isf
+  reference:
+    '1982-01-01': Loi 81-1160 du 30/12/1981, art. 2 à 11 (LF pour 1982)
+    '1983-01-01': Loi 82-1126 du 29/12/1982, art. 16 (LF pour 1983)
+    '1984-01-01': Loi 83-1179 du 29/12/1983, art. 19 (LF pour 1984)
+    '1985-01-01': Loi 84-1208 du 29/12/1984, art. 26 (LF pour 1985)
+    '1986-01-01': Loi 85-1403 du 30/12/1985, art. 19 (LF pour 1986)
+    '1987-01-01': Loi 86-824 du 11/07/1986, art. 24 (LFR pour 1986)
+    '1989-01-01': Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
+    '1990-01-01': Loi 89-935 du 29/12/1989, art. 10 (LF pour 1990)
+    '1991-01-01': Loi 90-1168 du 29/12/1990, art. 16 (LF pour 1991)
+    '1992-01-01': Loi 91-1322 du 30/12/1991, art. 37 (LF pour 1992)
+    '1994-01-01': Loi 93-1352 du 30/12/1993, art. 7 (LF pour 1994)
+    '1995-01-01': Loi 94-1162 du 29/12/1994, art. 4 (LF pour 1995)
+    '1996-01-01': Loi 95-1346 du 30/12/1995, art. 6 (LF pour 1996)
+    '1997-01-01': Loi 96-1181 du 30/12/1996, art. 25 (LF pour 1997)
+    '1999-01-01': Loi 98-1266 du 30/12/1998, art. 13 (LF pour 1999)
+    '2002-01-01': Ordonnance  2000-916 du 19/09/2000,  art. 6
+    '2005-01-01': Loi 2004-1484 du 30/12/2004, art. 17 (LF pour 2005)
+    '2006-01-01': Loi 2005-1719 du 30 /12/2005, art. 2 (LF pour 2006)
+    '2007-01-01': Loi 2006-1666 du 21/12/2006, art. 2 (LF pour 2007) ; Décret 2007-484
+      du 30/03/2007, art. 1
+    '2008-01-01': Loi 2007-1822 du 24/12/2007, art. 2 (LF pour 2008) ; Décret 2008-294
+      du 01/04/2008, art. 1
+    '2009-01-01': Loi 2008-1425 du 27/12/2008, art. 2 (LF pour 2009) ; Décret 2009-389
+      du 07/04/2009, art. 1
+    '2010-01-01': Loi 2009-1673 du 30/12/2009, art. 18 (LF pour 2010) ; Décret 2010-421
+      du 27/04/2010, art. 1
+    '2011-01-01': Loi 2010-1657 du 29/12/2010, art. 2 (LF pour 2011) ; Décret 2011-645
+      du 09/06/2011, art. 1
+    '2012-01-01': Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011) ; Loi  2012-958
+      du 16/08/2012, art. 4 (LFR pour 2012)
+    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
+    '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
+      885 U du CGI)
 seuils_tranches_bareme_isf:
   1ere_tranche:
     description: 1ère tranche

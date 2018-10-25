@@ -1,10 +1,15 @@
 description: Cotisations pour la structure financière AGFF (2001-2017)
 metadata:
+  notes:
+    '2016-01-01': Extension de la cotisation sur tranche B à la tranche C
   order:
   - tranche_1
   - tranche_2
   - tranche_b
   - tranche_c
+  reference:
+    '2001-04-01': Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+    '2016-01-01': Accord Arrco-Agirc du 30/10/2015 (art.3)
 tranche_1:
   description: Tranche 1 - A
   employeur:

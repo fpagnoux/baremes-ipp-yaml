@@ -105,6 +105,11 @@
       value: 11.5
 description: Contribution sur les boissons sucrées (à partir de juillet 2018)
 metadata:
+  date_parution_jo:
+    '2018-07-01': '2017-12-31'
+  notes:
+    '2018-07-01': Article 1613 ter du CGI. Avant juillet 2018, cette contribution
+      faisait partie de la "contribution sur les boissons sucrées ou édulcorées"
   order:
   - 1_kg_moins_sucres_ajoutes_par_hl_boisson_eur_hl
   - 2_kg_sucres_ajoutes_par_hl_boisson_eur_hl
@@ -122,6 +127,8 @@ metadata:
   - 14_kg_sucres_ajoutes_par_hl_boisson_eur_hl
   - 15_kg_sucres_ajoutes_par_hl_boisson_eur_hl
   - tout_kg_dessus_15_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  reference:
+    '2018-07-01': Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
 tout_kg_dessus_15_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: Pour tout kg au-dessus de 15 kg de sucres ajoutés par hl de boisson
     (€/hl)

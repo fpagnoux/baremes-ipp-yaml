@@ -22,6 +22,14 @@ majoration2:
     '1968-01-01':
       value: null
 metadata:
+  date_parution_jo:
+    '1949-01-01': '1949-01-01'
+    '1957-01-01': '1956-12-30'
+    '1968-01-01': '1968-10-10'
+  notes:
+    '1957-01-01': Anciens francs.
+    '1968-01-01': Fin du versement forfaitaire sur les salaires et création de la
+      taxe sur les salaires.
   order:
   - taux1
   - majoration1
@@ -29,6 +37,10 @@ metadata:
   - plafond1
   - plafond2
   - taux_pensions
+  reference:
+    '1949-01-01': Décret 48-1986 du 09/12/1948, art. 70
+    '1957-01-01': Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
+    '1968-01-01': Loi 68-878 du 09/10/1968
 plafond1:
   description: Plafond1
   metadata:

@@ -74,6 +74,18 @@ exoneration_petillants_voir_conditions_eur_hl:
     '1993-02-01':
       value: null
 metadata:
+  date_parution_jo:
+    '1982-01-01': '1981-12-31'
+    '1993-02-01': '1993-01-04'
+    '2009-04-10': '2009-04-09'
+    '2010-05-01': '2010-04-30'
+    '2010-11-21': '2010-11-20'
+    '2012-01-01': '2012-05-06'
+    '2013-01-01': '2012-12-23'
+    '2014-05-30': '2014-05-29'
+    '2015-06-06': '2015-06-05'
+    '2017-01-01': '2016-12-31'
+    '2018-01-01': '2017-12-27'
   order:
   - vins_mousseux_eur_hl
   - vins_tranquilles_eur_hl
@@ -81,6 +93,18 @@ metadata:
   - cidres_poires_hydromels_eur_hl
   - exoneration_ensemble_vins_eur_hl
   - exoneration_petillants_voir_conditions_eur_hl
+  reference:
+    '1982-01-01': Loi 81-1160 du 30/12/1981 (LF pour 1982)
+    '1993-02-01': Loi 92-1476 du 31/12/1992 (LFR pour 1993)
+    '2009-04-10': Décret 2009-389 du 7/04/2009
+    '2010-05-01': Décret 2010-421 du 27/04/2010
+    '2010-11-21': Arrêté du 12/11/2010
+    '2012-01-01': Décret 2012-653 du 04/05/2012
+    '2013-01-01': Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+    '2014-05-30': Décret 2014-549 du 26/05/2014
+    '2015-06-06': Décret 2015-608 du 03/06/2015
+    '2017-01-01': Arrêté du 27/12/2016 (tarifs accises alcools 2017)
+    '2018-01-01': Arrêté du 22/12/2017 (tarifs accises alcools 2018)
 vins_mousseux_eur_hl:
   description: Vins mousseux (€/hl)
   metadata:

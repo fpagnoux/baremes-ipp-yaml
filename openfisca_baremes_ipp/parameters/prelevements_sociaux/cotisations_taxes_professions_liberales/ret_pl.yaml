@@ -68,5 +68,22 @@ assurance_vieillesse:
         value: null
 description: Cotisation SS branche vieillesse, Professions libérales
 metadata:
+  date_parution_jo:
+    '1993-01-01': '1992-08-28'
+    '2004-01-01': '22/08/2003
+
+      29/05/2003'
+    '2012-07-04': '2012-07-03'
+    '2013-01-01': '2012-11-30'
+    '2014-01-01': '2012-11-30'
+    '2015-01-01': '2014-11-29'
   order:
   - assurance_vieillesse
+  reference:
+    '1993-01-01': Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
+    '2004-01-01': Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
+      - art. 1
+    '2012-07-04': Décret 2012-847 du 2/07/2012 - art. 5
+    '2013-01-01': Décret 2012-1323 du 28/11/2012
+    '2014-01-01': Décret 2012-1323 du 28/11/2012
+    '2015-01-01': Décret 2014-1413 du 27/11/2014

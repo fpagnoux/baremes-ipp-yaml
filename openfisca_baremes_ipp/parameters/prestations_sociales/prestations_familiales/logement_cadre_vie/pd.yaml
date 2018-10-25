@@ -1,7 +1,15 @@
 description: 'Prime de déménagement (PD) : taux de montant maximum'
 metadata:
+  date_parution_jo:
+    '1976-08-01': '1976-08-17'
+    '1995-01-01': '1995-01-03'
+  notes:
+    '1976-08-01': 'Montant maximum: Taux*Base'
   order:
   - taux_en_bmaf
+  reference:
+    '1976-08-01': Décret 76-768 du 16/08/1976
+    '1995-01-01': art. R542-31 du CSS
 taux_en_bmaf:
   1_enfant:
     description: 1 enfant

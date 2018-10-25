@@ -1,5 +1,7 @@
 description: Valeur du point ARRCO, UNIRS (1957-1998)
 metadata:
+  notes:
+    '1976-10-01': Création de l'Unirs en 1957.
   order:
   - valeur_point_unirs_en_nominal
   - valeur_point_unirs_en_euros

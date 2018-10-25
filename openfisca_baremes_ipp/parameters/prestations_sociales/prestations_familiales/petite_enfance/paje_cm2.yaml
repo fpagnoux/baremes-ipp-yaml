@@ -1,8 +1,30 @@
 description: 'Prestation d''accueil du jeune enfant (PAJE) - Prime à la naissance
   et à l''adoption : conditions et montants'
 metadata:
+  date_parution_jo:
+    '2004-01-01': '19/12/2003
+
+      01/01/2004'
+    '2005-08-01': '05/07/2005
+
+      17/09/2005'
+  notes:
+    '2004-01-01': La PAJE remplace entre en vigueur de manière progressive jusqu'à
+      fin 2006 (cf. art. 60, VIII de la loi).
+    '2005-08-01': 'Loi : Le montant de la prime devient majoré en cas d''adoption.
+
+      Décret : précise le nouveau taux pour la prime à l''adoption.
+
+      Taux toujours non modifiés en 2016'
   order:
   - montant_en_bmaf
+  reference:
+    '2004-01-01': 'Loi 2003-1199 du 18/12/2003, art. 60 II (modif art. L531-2 du CSS)
+
+      Décret 2003-1394 du 31/12/2003, art. 1 (crée art. D531-2 du CSS)'
+    '2005-08-01': 'Loi 2005-744 du 04/07/2005, art. 8 (modif art. L531-2 du CSS)
+
+      Décret 2005-1172 du 12/09/2005, art. 1 (modif art. D531-2 du CSS)'
 montant_en_bmaf:
   description: Montant (en % de la BMAF)
   metadata:

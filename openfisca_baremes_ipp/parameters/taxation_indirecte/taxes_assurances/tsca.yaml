@@ -167,6 +167,13 @@ contribution_secu_assurances_automobiles:
       value: 0.15
 description: Taxe spéciale sur les conventions d'assurance (TSCA)
 metadata:
+  date_parution_jo:
+    '1994-09-02': '2001-12-26'
+    '2011-01-01': '2010-12-30'
+    '2011-10-01': '2011-09-20'
+    '2014-01-01': '2013-12-24'
+    '2015-01-01': '2014-12-30'
+    '2016-01-01': '2014-12-24'
   order:
   - assurances_incendie_particuliers
   - assurances_incendie_risques_agricoles_non_exoneres
@@ -185,6 +192,14 @@ metadata:
   - assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances
   - assurances_vehicules_terrestres_moteur_l211_1_autres
   - autres_assurances
+  reference:
+    '1994-09-02': Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
+    '2011-01-01': Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
+    '2011-10-01': Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
+      9
+    '2014-01-01': Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
+    '2015-01-01': Loi 2014-1654 du 29/12/2014 (LF pour 2015)
+    '2016-01-01': Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
 rente_viagere_sous_conditions:
   description: Rente viagère sous conditions
   metadata:

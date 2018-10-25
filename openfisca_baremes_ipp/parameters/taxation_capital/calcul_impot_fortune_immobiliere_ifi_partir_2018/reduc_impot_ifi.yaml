@@ -1,11 +1,19 @@
 description: Réductions pour dons ou investissement
 metadata:
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+  notes:
+    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.
   order:
   - reduction_investissements_capital_pme
   - reduction_investissements_dans_fcpi_1_fip_2_dans_pme
   - plafond_somme_reduction_pme_fcip_fip_pme
   - reduction_dons_certains_organismes_interet_general
   - plafond_somme_trois_reductions_pme_fcip_fip_pme_dons
+  reference:
+    '2018-01-01': 'Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
+      978 du CGI) : Cf. note en bas de la feuille.'
 plafond_somme_reduction_pme_fcip_fip_pme:
   description: Plafond pour la somme de la réduction pour PME et pour les FCIP et
     FIP des PME

@@ -14,5 +14,11 @@ formation_professionnelle:
       '2012-08-18':
         value: 0.0025
 metadata:
+  date_parution_jo:
+    '1992-01-01': '1992-01-04'
+    '2012-08-18': '2012-08-17'
   order:
   - formation_professionnelle
+  reference:
+    '1992-01-01': Loi 91-1405 du 31/12/1991, art. 32
+    '2012-08-18': Loi 2012-958 du 16/08/2012, art. 38

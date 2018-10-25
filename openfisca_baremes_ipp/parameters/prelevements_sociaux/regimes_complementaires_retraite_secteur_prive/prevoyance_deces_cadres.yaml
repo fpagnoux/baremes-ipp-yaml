@@ -9,3 +9,5 @@ employeur_sous_plafond:
 metadata:
   order:
   - employeur_sous_plafond
+  reference:
+    '1948-01-01': Convention AGIRC du 14/03/1947, art. 7.

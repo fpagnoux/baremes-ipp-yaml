@@ -34,12 +34,21 @@ majoration_isolement_en_mois:
     - limite_duree_droit_majoration_isolement_2
     - age_limite_enfant_3_en_annee
 metadata:
+  date_parution_jo:
+    '2009-06-01': 03/12/2008         16/04/2009
+    '2010-09-01': '2010-08-26'
+  notes:
+    '2009-06-01': RSA créé par Loi 2008-1249 du 01/12/2008
   order:
   - age_minimum_allocataire
   - nombre_minimal_enfants_1
   - majoration_isolement_en_mois
   - duree_minimum_titre_sejour_annee
   - rsa_jeune_en_heure_4
+  reference:
+    '2009-06-01': Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
+      2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
+    '2010-09-01': Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
 nombre_minimal_enfants_1:
   description: Nombre minimal d'enfants (1)
   values:

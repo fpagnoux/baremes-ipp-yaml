@@ -20,12 +20,30 @@ majoration_plafond_par_enfant_charge:
     '2014-04-01':
       value: 0.22
 metadata:
+  date_parution_jo:
+    '2004-01-01': '19/12/2003
+
+      01/01/2004'
+    '2014-04-01': '2014-04-26'
+  notes:
+    '2004-01-01': 'art. D531-1 : fixe l''âge limite
+
+      art. D531-3 : fixe le montant de l''aide (en % de la BMAF)
+
+      La PAJE remplace entre en vigueur de manière progressive jusqu''à fin 2006 (cf.
+      art. 60, VIII de la loi).'
   order:
   - age_limite_enfant_adopte_non
   - duree_versement_enfants_adoptes_en_annee
   - periode_reference_justifier_8_trimestres_cotisation_vieillesse_1
   - paje
   - majoration_plafond_par_enfant_charge
+  reference:
+    '2004-01-01': 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
+
+      Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée art.
+      D531-3 du CSS)'
+    '2014-04-01': Décret 2014-422 du 24 avril 2014
 paje:
   allocation_base_en_bmaf:
     description: Allocation de base (en % de la BMAF)

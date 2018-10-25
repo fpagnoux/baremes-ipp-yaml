@@ -1,8 +1,17 @@
 description: Allègements Robien (1996-1998)
 metadata:
+  date_parution_jo:
+    '1996-07-01': '1996-06-12'
+    '1998-06-30': '1998-06-14'
+  notes:
+    '1996-07-01': Voir Notes (1)
+    '1998-06-30': Abrogé par la loi "Aubry I". Voir Notes (2)
   order:
   - reduction_temps_travail_10
   - reduction_temps_travail_15
+  reference:
+    '1996-07-01': Loi 96-502 du 11/06/1996, art. 1 et 2
+    '1998-06-30': Loi 98-461 du 13/06/1998, art. 3
 reduction_temps_travail_10:
   description: Réduction du temps de travail de 10 %
   metadata:

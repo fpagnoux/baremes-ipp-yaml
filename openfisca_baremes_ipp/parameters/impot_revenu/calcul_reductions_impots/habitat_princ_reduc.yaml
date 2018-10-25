@@ -91,6 +91,12 @@ interets_emprunts:
       '2001-01-01':
         value: null
 metadata:
+  notes:
+    '1997-01-01': Dépenses de gros travaux avec même incrément que habitat et majoration
+      comme dans 2 et 3
+    '1999-01-01': Attention plafond réel = la moitié du plafond + incrément
+    '2001-01-01': 'Majoration sur les revenus 2001 : 381 euros pour le 2° enfant et
+      457 à partir du 3°'
   order:
   - date_entree_en_vigueur
   - reduction_impot_interets_emprunt_habitat

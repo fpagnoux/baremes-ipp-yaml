@@ -11,9 +11,18 @@
       value: null
 description: 'Indemnité compensatrice des avantages fiscaux (ICAF) : montant'
 metadata:
+  date_parution_jo:
+    '1958-01-01': 16/10/1958 (rect. 11/11/1958)
+    '1978-01-01': '1977-07-13'
+  notes:
+    '1948-10-01': Pour les salariés uniquement
+    '1978-01-01': Remplacée par le complément familial à partir du 01/01/1978
   order:
   - 2_enfants_charge
   - par_enfant_supplementaire
+  reference:
+    '1958-01-01': Décret 58-962 du 27/09/1958
+    '1978-01-01': Loi 77-765 du 12/07/1977
 par_enfant_supplementaire:
   description: Par enfant supplémentaire
   metadata:

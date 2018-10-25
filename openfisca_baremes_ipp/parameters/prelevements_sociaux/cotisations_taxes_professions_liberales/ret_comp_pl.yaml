@@ -222,6 +222,73 @@ medecins:
         '2018-01-01':
           value: 0.032
 metadata:
+  date_parution_jo:
+    '1949-01-01': '1949-06-01'
+    '1951-01-01': '1951-03-20'
+    '1962-01-01': '1962-04-19'
+    '1963-01-01': '1963-02-13'
+    '1968-01-01': '1967-12-28'
+    '1971-01-01': '1970-10-30'
+    '1983-01-01': '31/12/1982
+
+      10/07/1983'
+    '1991-01-01': '1991-09-05'
+    '1993-01-01': '1992-12-30'
+    '1996-01-01': '1996-07-23'
+    '1997-01-01': '11/09/1997
+
+      29/12/1996'
+    '1998-01-01': '21/12/1997
+
+      17/07/1998'
+    '1999-01-01': '1999-11-25'
+    '2000-01-01': '2000-11-09'
+    '2001-01-01': '2001-12-13'
+    '2002-01-01': '22/09/2001
+
+      28/12/2002'
+    '2004-01-01': '2004-10-17'
+    '2005-01-01': '2004-10-28'
+    '2008-01-01': 25/04/2007 ; 28/03/2007
+    '2009-01-01': '2009-12-26'
+    '2010-01-01': '23/10/2010
+
+      11/10/2008'
+    '2011-01-01': '2011-06-17'
+    '2012-01-01': '03/11/2011
+
+      14/04/2012
+
+      26/11/2011'
+    '2013-01-01': '2011-11-26'
+    '2014-01-01': '2013-12-01'
+    '2015-01-01': '2015-12-30'
+    '2016-01-01': 30/12/2015 ; 26/04/2007
+    '2017-01-01': '2017-05-11'
+    '2018-01-01': 05/05/2017 ; 11/05/2017
+  notes:
+    '1951-01-01': Création d'un régime supplémentaire pour les notaires du ressort
+      de la Cour d'appel de Colmar
+    '1983-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+      forfaitaire qui existait déjà pour les médecins
+    '1996-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+      ofrfaitaire qui existait depuis la création du régime complémentaire en 1984
+      pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
+    '1997-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+      forfaitaire qui existait déjà pour les chirurgiens dentistes
+    '2004-01-01': Création  d'un régime d'assurance invalidité-décès pour les agents
+      généraux d'assurance
+    '2005-01-01': Regroupement des sections A et U en une section C
+    '2010-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
+      les auxiliaires médicaux (infirmiers, masseurs-kiné, etc.)
+    '2012-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
+      les médecins conventionnés
+    '2016-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+      Metz.
+    '2017-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+      Metz.
+    '2018-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+      Metz.
   order:
   - agents_generaux_assurance
   - infirmiers_masseurs_kine_orthophonistes_orthoptistes
@@ -229,6 +296,37 @@ metadata:
   - medecins
   - pharmaciens
   - notaires
+  reference:
+    '1949-01-01': Arrêté du 24/05/1949
+    '1951-01-01': Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+    '1962-01-01': Décret 62-502 du 13/04/1962
+    '1963-01-01': Décret 63-106 du 8/02/1963
+    '1968-01-01': Décret 67-1169 du 22/12/1967
+    '1971-01-01': Décret 71-878 du 22/10/1971
+    '1983-01-01': Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+    '1991-01-01': Décret 91-864 du 30/08/1991
+    '1993-01-01': Décret 92-1372 du 29/12/1992
+    '1996-01-01': Décret 96-654 du 16/07/1996
+    '1997-01-01': Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+    '1998-01-01': Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+    '1999-01-01': Décret 99-959 du 22/11/1999
+    '2000-01-01': Décret 2000-1082 du 7/11/2000
+    '2001-01-01': Décret 2001-1182 du 11/12/2001
+    '2002-01-01': Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+    '2004-01-01': Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+    '2005-01-01': Décret 2004-1142 du 20/10/2004
+    '2008-01-01': Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+    '2009-01-01': Décret 2009-1635 du 23/12/2009
+    '2010-01-01': Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+    '2011-01-01': Décret 2011-674 du 15/06/2011
+    '2012-01-01': Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012; Décret
+      2011-1644 du 25/11/2011
+    '2013-01-01': Décret 2011-1644 du 25/11/2011
+    '2014-01-01': Décret 2013-1081 du 29/11/2013
+    '2015-01-01': Décret 2015-1802 du 29/12/2015
+    '2016-01-01': Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+    '2017-01-01': Décret 2017-730 du 3/05/2017
+    '2018-01-01': Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
 notaires:
   description: Notaires
   metadata:

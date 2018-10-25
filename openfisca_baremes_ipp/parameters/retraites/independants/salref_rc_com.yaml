@@ -1,5 +1,9 @@
 description: 'Régime complémentaire des commerçants : valeur d''achat du point (2005-2012)'
 metadata:
+  notes:
+    '2013-01-01': A partir de 2013, les valeurs du points sont alignées avec le régime
+      complémentaire des commerçants, au sein d'un régime complémentaire des indépendants
+      (RCI)
   order:
   - salaire_reference_rsi_commercants
 salaire_reference_rsi_commercants:

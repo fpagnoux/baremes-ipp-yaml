@@ -1,10 +1,19 @@
 description: Paramètres de calcul du montant forfaitaire R0 (que l'on déduit des ressources)
   - secteur locatif (après 2001)
 metadata:
+  date_parution_jo:
+    '2001-01-01': '2000-12-28'
+  notes:
+    '2002-01-01': Paramètres toutefois disponibles dans "Eléments de calcul des aides
+      personnelles au logement", Ministère de l'égalité des territoires et du logement,
+      2013, p 13.
   order:
   - r1_en_rsa_socle_1
   - r2_en_bmaf_1
   - plafond_r0
+  reference:
+    '2001-01-01': Arrêté du 26/12/2000, art. 2
+    '2002-01-01': Références manquantes
 plafond_r0:
   description: Plafond de R0
   foyers_avec_1_personne_charge_en_r0:

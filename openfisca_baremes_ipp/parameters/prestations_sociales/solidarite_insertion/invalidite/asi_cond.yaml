@@ -1,7 +1,11 @@
 description: 'Allocation supplémentaire d''invalidité (ASI): conditions générales'
 metadata:
+  date_parution_jo:
+    '2006-01-01': '2007-01-13'
   order:
   - taux_minimum_invalidite
+  reference:
+    '2006-01-01': Décret 2007/57 du 12/01/2007
 taux_minimum_invalidite:
   description: Taux minimum d'invalidité
   metadata:

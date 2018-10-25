@@ -28,10 +28,24 @@ date_entree_en_vigueur:
     - annee_ir
 description: Revenu des valeurs et capitaux mobiliers (1980 - 2016)
 metadata:
+  notes:
+    '1997-01-01': 'Abattement forfaitaire sur dividendes  : art. 158-5 du CGI (à doubler
+      pour les couples)'
+    '2004-01-01': Voir art. 200 septies du CGI
+    '2010-01-01': Suppression plafond du crédit d'impôt sur dividendes
   order:
   - date_entree_en_vigueur
   - produits_assurances_vies_assimiles
   - revenus_capitaux_mobiliers_dividendes
+  reference:
+    '1979-01-01': LF pour 1980
+    '1984-01-01': LF pour 1985
+    '1988-01-01': LF pour 1989
+    '1997-01-01': LF pour 1998
+    '2001-01-01': LF pour 2002
+    '2004-01-01': LF pour 2005
+    '2010-01-01': LF pour 2011
+    '2012-01-01': LF pour 2013
 produits_assurances_vies_assimiles:
   abattement:
     description: Abattement

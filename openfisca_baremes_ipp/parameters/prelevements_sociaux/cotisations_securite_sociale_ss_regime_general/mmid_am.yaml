@@ -49,10 +49,58 @@ avantages_vieillesses:
 description: Cotisations du régime local d'assurance maladie d'Alsace et Moselle MMID-AM
   (1967-2017)
 metadata:
+  date_parution_jo:
+    '1946-07-01': '1946-06-14'
+    '1947-07-01': '1947-08-28'
+    '1967-10-01': '1967-09-27'
+    '1986-01-11': '1986-01-04'
+    '1989-09-01': '1989-08-04'
+    '1990-12-01': '1990-12-05'
+    '1992-01-01': '1992-01-03'
+    '1993-01-01': '1993-01-14'
+    '1994-01-01': '1993-12-31'
+    '1995-01-01': '1994-12-29'
+    '1996-01-01': '1995-11-20'
+    '1997-01-01': '1996-12-07'
+    '1998-07-01': '1997-12-28'
+    '1999-07-01': '1998-12-20'
+    '2000-07-01': '2000-06-24'
+    '2003-01-01': '2002-12-28'
+    '2006-01-01': '2006-01-08'
+    '2007-07-01': '2007-06-09'
+    '2008-01-01': '2007-12-19'
+    '2012-01-01': '2011-12-30'
+  notes:
+    '1946-07-01': La date de début d'effet est supputée.
+    '1967-10-01': Erreur de la référence législative dans l'historique des cotisations
+      fourni par le régime local.
+    '2000-07-01': 'Référence de l''avis absent sur légifrance mais disponible ici:
+      http://admi.net/jo/2000/09573.html'
   order:
   - salaries
   - avantages_vieillesses
   - allocations_chomage_preretraite
+  reference:
+    '1946-07-01': Décret 46-1428 du 12/06/1946
+    '1947-07-01': Décret 47-1617 du 23/08/1947
+    '1967-10-01': Décret 67-814 du 25/09/1967
+    '1986-01-11': Décret 85-1507 du 31/12/1985
+    '1989-09-01': Décret 89-541 du 03/08/1989
+    '1990-12-01': Décret 90-1077 du 04/12/1990
+    '1992-01-01': Décret 92-1 du 02/01/1992
+    '1993-01-01': Décret 93-43 du 12/01/1993
+    '1994-01-01': Décret 93-1359 du 30/12/1993
+    '1995-01-01': Décret 94-1152 du 27/12/1994
+    '1996-01-01': Décision du régime local du 20/11/1995 (Avis publié au JO)
+    '1997-01-01': Décision du régime local du 04/11/1996 (Avis publié au JO)
+    '1998-07-01': Décision du régime local du 20/10/1997 (Avis publié au JO)
+    '1999-07-01': Décision du régime local du 26/10/1998 (Avis publié au JO)
+    '2000-07-01': Décision du régime local du 27/03/2000 (Avis publié au JO)
+    '2003-01-01': Décision du régime local du 18/11/2002 (Avis publié au JO)
+    '2006-01-01': Décision du régime local du 19/12/2005 (Avis publié au JO)
+    '2007-07-01': Décision du régime local du 27/11/2007 (Avis publié au JO)
+    '2008-01-01': Décision du régime local du 16/04/2007 (Avis publié au JO)
+    '2012-01-01': Décision du régime local du 28/11/2011 (Avis publié au JO)
 salaries:
   description: Salariés
   metadata:

@@ -1,8 +1,16 @@
 description: Prémix (mélanges alcool et soda)
 metadata:
+  date_parution_jo:
+    '1997-03-31': 29/12/1996
+    '1999-03-31': 27/12/1998
+    '2005-01-01': 11/08/2004
   order:
   - premix_eur_par_decilitre_alcool_pur
   - premix_eur_par_decilitre
+  reference:
+    '1997-03-31': Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+    '1999-03-31': Loi 98-1194 du 23/12/1998 (LFSS pour 1999)
+    '2005-01-01': Loi 2004-806 du 09/08/2004
 premix_eur_par_decilitre:
   description: Prémix (€ par décilitre )
   metadata:

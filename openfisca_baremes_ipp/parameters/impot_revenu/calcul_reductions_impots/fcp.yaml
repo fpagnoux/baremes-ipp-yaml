@@ -25,9 +25,13 @@ date_entree_en_vigueur:
 description: Souscription de parts de fonds communs de placement dans l'innovation
   (1998 - 2016)
 metadata:
+  notes:
+    '2013-01-01': Concerne les versements jusqu'au 31 décembre 2012 (et non 2013)
   order:
   - date_entree_en_vigueur
   - reduction_impot_souscriptions_parts_fcpi_fip
+  reference_boi:
+    '2012-01-01': BOI-IR-RICI-110
 reduction_impot_souscriptions_parts_fcpi_fip:
   description: Réduction d'impôt pour souscriptions de parts de FCPI ou FIP
   metadata:

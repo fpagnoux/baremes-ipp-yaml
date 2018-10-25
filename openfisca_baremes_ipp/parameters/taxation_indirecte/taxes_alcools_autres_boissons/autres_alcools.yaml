@@ -78,12 +78,44 @@ bouilleurs_cru_t_q_definis_art_317:
       value: 870.53
 description: Autres alcools (rhum, bouilleurs de cru, etc.)
 metadata:
+  date_parution_jo:
+    '1981-02-01': '1980-12-31'
+    '1982-01-01': '1981-12-31'
+    '1993-02-01': '1993-01-04'
+    '1997-01-01': '1996-12-29'
+    '2009-04-10': '2009-04-09'
+    '2010-05-01': '2010-04-30'
+    '2010-11-21': '2010-11-20'
+    '2011-12-23': '2011-12-22'
+    '2012-01-01': '2011-12-30'
+    '2012-05-01': '2012-03-15'
+    '2013-01-01': '2012-12-23'
+    '2014-01-01': '2013-12-31'
+    '2015-06-06': '2015-06-05'
+    '2016-01-01': '2015-12-24'
+    '2018-01-01': '2017-12-27'
   order:
   - rhum_dom
   - autres_alcools
   - bouilleurs_cru_t_q_definis_art_317
   - quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_article_417
   - aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles
+  reference:
+    '1981-02-01': Loi 80-1094 du 30/12/1980 (LF pour 1981)
+    '1982-01-01': Loi 81-1160 du 30/12/1981 (LF pour 1982)
+    '1993-02-01': Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
+    '1997-01-01': Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+    '2009-04-10': Décret 2009-389 du 07/04/2009
+    '2010-05-01': Décret 2010-421 du 27/04/2010
+    '2010-11-21': Arrêté du 12/10/2010
+    '2011-12-23': Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+    '2012-01-01': Arrêté du 22/12/2011 (tarifs accises alcools 2012)
+    '2012-05-01': Loi 2012-354 du 14/03/2012 (LFR pour 2012)
+    '2013-01-01': Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+    '2014-01-01': Arrêté du 29/12/2013
+    '2015-06-06': Décret 2015-608 du 03/06/2015
+    '2016-01-01': Arrêté du 18/12/2015
+    '2018-01-01': Arrêté du 22/12/2017 (tarifs accises alcools 2018)
 quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_article_417:
   description: Quantités ajoutées pour la préparation des vins mousseux et des vins
     doux naturels mentionnés à l'article 417

@@ -148,5 +148,29 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
           value: null
 description: Prélèvement libératoire sur les assurances vie
 metadata:
+  date_parution_jo:
+    '1983-01-01': '1997-12-30'
+    '1990-01-01': '1989-12-30'
+    '1998-01-01': '1997-12-31'
+    '1999-04-01': '1998-12-31'
+    '2010-03-01': '2009-12-31'
+    '2013-01-01': '2012-12-30'
+    '2018-01-01': '2017-12-31'
+  notes:
+    '1983-01-01': Création de l'art. 125-0 A du CGI
+    '1998-01-01': Les bons ou contrats principalement investis en actions sont exonérés
+      d'IR après huit ans.
+    '2018-01-01': Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
+      unique non-libératoire, dont la valeur est telle que la somme du taux de ce
+      prélèvement et des prélèvements sociaux est de 30%.
   order:
   - bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat
+  reference:
+    '1983-01-01': Loi 82-1126 du 29/12/1982, art. 14 (LF pour 1983)
+    '1990-01-01': Loi 89-936 du 29/12/1989, art. 112 (LF pour 1990)
+    '1998-01-01': Loi 97-1269 du 30/12/1997, art. 21 (LF pour 1998)
+    '1999-04-01': Loi 98-1266 du 30/12/1998, art. 6 (LF pour 1999)
+    '2010-03-01': Loi 2009-1674 du 30/12/2009, art. 22
+    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 9
+    '2018-01-01': Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+      125-0 A, 200 A et art 117 quater du CGI)

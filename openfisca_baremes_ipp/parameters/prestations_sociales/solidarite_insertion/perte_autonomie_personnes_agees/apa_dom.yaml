@@ -10,6 +10,10 @@ divison_ressources_menage_couples:
     '2002-01-01':
       value: 1.7
 metadata:
+  date_parution_jo:
+    '2002-01-01': '2001-11-21'
+    '2004-10-26': '2004-10-26'
+    '2016-04-01': '2016-02-28'
   order:
   - plafond_apa_domicile_en_part_mtp
   - seuil_revenu_en_part_mtp
@@ -18,6 +22,10 @@ metadata:
   - taux_participation
   - condition_age
   - seuil_versement_en_part_smic_brut_horaire
+  reference:
+    '2002-01-01': Décret 2001-1084 du 20/11/2001
+    '2004-10-26': Décret 2004-1136 du 21/10/2004
+    '2016-04-01': Décret 2016-210 du 26/02/2016
 part_plafond_apa_domicile:
   description: Part du plafond de l'APA à domicile
   values:

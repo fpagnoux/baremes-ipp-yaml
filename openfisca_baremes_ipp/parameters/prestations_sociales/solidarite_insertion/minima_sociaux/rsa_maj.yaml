@@ -62,11 +62,19 @@ majoration_ressources_revenus_activite:
     '2016-01-01':
       value: null
 metadata:
+  date_parution_jo:
+    '2009-06-01': '2009-04-16'
+    '2016-01-01': '2015-12-22'
+  notes:
+    '2016-01-01': Remplacement du RSA activité par la Prime d'activité
   order:
   - majoration_montant_maximal_en_base_rsa
   - majoration_isolement_en_base_rsa
   - majoration_ressources_revenus_activite
   - montant_minimum_verse
+  reference:
+    '2009-06-01': Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
+    '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
 montant_minimum_verse:
   description: Montant minimum versé
   metadata:

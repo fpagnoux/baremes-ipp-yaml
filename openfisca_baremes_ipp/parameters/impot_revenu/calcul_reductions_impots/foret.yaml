@@ -46,10 +46,20 @@ depenses_investissement_forestier:
         value: 0.18
 description: Investissement et travaux forestiers (2002 - 2016)
 metadata:
+  notes:
+    '2001-01-01': Crée par loi d'orientation sur la forêt n°2001-602 du 9 juillet
+      2001 - JOFR 11/07/2001
+    '2006-01-01': Création d'une réduction d'impôt pour la défense des forêts contre
+      l'incendie
   order:
   - date_entree_en_vigueur
   - depenses_investissement_forestier
   - reduction_impot_defense_forets_contre_incendies
+  reference:
+    '2001-01-01': Loi 2001-602 du 9/07/2001
+    '2006-01-01': Loi 2006-11 (art. 66) du 05/01/2006
+    '2011-01-01': Décret 2011-520 (art. 1) du 13/05/2011
+    '2012-01-01': Décret 2012-547 (art. 1) du 23/04/2012
 reduction_impot_defense_forets_contre_incendies:
   description: Réduction d'impôt pour la défense des forêts contre les incendies
   metadata:

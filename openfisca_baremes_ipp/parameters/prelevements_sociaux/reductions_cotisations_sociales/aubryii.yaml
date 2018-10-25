@@ -51,6 +51,17 @@ marjoration_2:
     '2003-07-01':
       value: null
 metadata:
+  date_parution_jo:
+    '2000-02-01': '2000-01-29'
+    '2000-07-01': '2001-02-07'
+    '2001-07-01': '2001-12-29'
+    '2002-07-01': '2002-12-26'
+    '2003-07-01': '2003-01-18'
+  notes:
+    '2000-02-01': Incertitude sur la date d'entrée en vigueur de l'allégement (1er
+      janvier 2000 ?)
+    '2003-07-01': La Loi 2003-47 remplace l'allégement Aubry II par un nouveau dispositif
+      de réduction des cotisations patronales.
   order:
   - parametre_1
   - parametre_2
@@ -58,6 +69,12 @@ metadata:
   - exoneration_annuelle_minimale
   - majoration_1
   - marjoration_2
+  reference:
+    '2000-02-01': Décret 2000-73 du 28/01/2000
+    '2000-07-01': Décret 2001-107 du 5/02/2001
+    '2001-07-01': Décret 2001-1120 du 26/11/2001
+    '2002-07-01': Arrêté du 20/12/2002
+    '2003-07-01': Loi 2003-47 du 17/01/2003
 parametre_1:
   description: Paramètre 1
   metadata:

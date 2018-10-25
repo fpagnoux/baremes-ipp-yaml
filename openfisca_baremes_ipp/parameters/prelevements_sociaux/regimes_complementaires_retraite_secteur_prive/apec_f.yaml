@@ -165,5 +165,17 @@ forfait_annuel:
       '2011-01-01':
         value: null
 metadata:
+  notes:
+    '1976-03-01': Instauration du versement forfaitaire de facto.
+    '2011-01-01': Remplacement de la cotisation forfaitaire par un taux proportionnel
+      sous plafond.
   order:
   - forfait_annuel
+  reference:
+    '1976-03-01': Protocole d'accord Agirc-Apec du 30/12/1975.
+    '2006-03-01': Circulaire AGIRC-ARRCO 2005-19-DRE du 13/12/2005
+    '2007-03-01': Circulaire AGIRC-ARRCO 2006-17-DRE du 18/12/2006
+    '2008-03-01': Circulaire AGIRC-ARRCO 2007-27-DRE du 14/12/2007
+    '2009-03-01': Circulaire AGIRC-ARRCO 2009-1-DRE du 05/01/2009
+    '2010-03-01': Circulaire AGIRC-ARRCO 2009-30- DRE du 16/12/2009
+    '2011-01-01': Circulaire AGIRC 2010-5-DF du 29/07/2010

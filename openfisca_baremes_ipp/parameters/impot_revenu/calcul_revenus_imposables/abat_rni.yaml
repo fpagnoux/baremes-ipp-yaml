@@ -522,7 +522,49 @@ date_entree_en_vigueur:
     - annee_ir
 description: Abattement pour revenu net imposable (1978 - 2016)
 metadata:
+  notes:
+    '2001-01-01': Voir aussi LFR pour 2001 (2001-1276 du 28/12/2001, art. 51)
+    '2005-01-01': Voir aussi LF pour 2006 (2005-1719 du 30/12/2005  art. 76)
+    '2007-01-01': Décret 2008-294 du 01/04/2008 - art. 1 - JORF 02/04/2008
+    '2008-01-01': Décret 2009-389 du 07/04/2009 - art. 1 - JORF 09/04/2009
+    '2009-01-01': Décret 2010-421 du 27/04/2010 - art. 1 - JORF 30/04/2010
+    '2010-01-01': Décret 2011-645 du 09/06/2011 - art. 1 - JORF 11/06/2011
+    '2013-01-01': Voir Notes (1), (2) et (3)
   order:
   - date_entree_en_vigueur
   - abattement_personnes_agees_65_ans_invalide_4
   - abattement_rattachement_enfants_maries
+  reference:
+    '1984-01-01': LF pour 1983
+    '1985-01-01': LF pour 1984
+    '1986-01-01': LF pour 1985
+    '1987-01-01': LF pour 1986
+    '1988-01-01': LF pour 1987
+    '1989-01-01': LF pour 1989
+    '1990-01-01': LF pour 1990
+    '1991-01-01': LF pour 1991
+    '1992-01-01': LF pour 1992
+    '1993-01-01': LF pour 1993
+    '1994-01-01': LF pour 1995  - art. 2
+    '1995-01-01': LF pour 1996  - art. 2
+    '1996-01-01': LF pour 1997  - art. 2
+    '1997-01-01': LF pour 1998  - art. 2
+    '1998-01-01': LF pour 1999  - art. 2
+    '1999-01-01': LF pour 2000  - art. 2
+    '2000-01-01': LF pour 2001  - art. 2
+    '2001-01-01': LF pour 2002  - art. 2
+    '2002-01-01': LF pour 2003 - art. 2
+    '2003-01-01': LF pour 2004  - art. 2
+    '2004-01-01': LF pour 2005  - art. 2
+    '2005-01-01': LF pour 2006  - art. 96
+    '2006-01-01': LF pour 2007  - art. 2
+    '2007-01-01': LF pour 2008  - art. 2
+    '2008-01-01': LF pour 2009   - art. 2
+    '2009-01-01': LF pour 2010  - art. 18
+    '2010-01-01': LF pour 2011  - art. 2
+    '2012-01-01': LF pour 2013
+    '2013-01-01': LF pour 2014
+    '2014-01-01': LF pour 2015
+    '2015-01-01': LF pour 2016
+    '2016-01-01': LF pour 2017
+    '2017-01-01': LF pour 2018

@@ -78,6 +78,24 @@ date_entree_en_vigueur:
     - annee_ir
 description: Frais de garde d'enfants (1979 - 2016)
 metadata:
+  notes:
+    '1978-01-01': Déduction du revenu offerte  aux foyers fiscaux  dont les conjoints
+      justifient d'un emploi à plein temps ou ne peuvent exercer leur emploi du fait
+      d'une longue maladie ou d'une infirmité à partir de 1982.
+    '1988-01-01': Création du dispositif pour l'imposition des revenus de 1988. Avant
+      1989, la réduction d'impôt était une déduction du revenu.
+    '1992-01-01': Depuis l'imposition des revenus de 1992, la réduction d'impôt est
+      réservée aux dépenses nécessitées par la garde des enfants à l'extérieur du
+      domicile du contribuable.
+    '2005-01-01': À partir de l'imposition des revenus de 2005, la réduction d'impot
+      devient un crédit d'impot.
+    '2006-01-01': Passage de 25 % à 50 % du taux de crédit d'impôt.
   order:
   - date_entree_en_vigueur
   - credit_impot_frais_garde_enfants
+  reference:
+    '1988-01-01': LF pour 1989 - art. 4-I
+    '2005-01-01': 'BOI 5 B-13-06
+
+      n°62 du 05/04/2006'
+    '2006-01-01': Loi 2005-1719 (art. 79) du 31/12/2005

@@ -25,6 +25,11 @@ metadata:
   - prix_kwh_b2i_zone_4_ht
   - prix_kwh_b2i_zone_5
   - prix_kwh_b2i_zone_6_ht
+  reference:
+    '2012-01-01': Arrêté du 22/12/2011
+    '2013-01-01': Arrêté du 27/06/2013
+    '2013-07-01': Arrêté du 27/06/2013
+    '2014-07-01': Arrêté du 30/06/2014
 prix_kwh_b0_zone_1_ht:
   description: Prix kWh B0 - zone 1 - HT
   metadata:

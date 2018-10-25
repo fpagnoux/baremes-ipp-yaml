@@ -86,6 +86,21 @@ emprunts_contractes_reprise_une_pme:
       '2015-01-01':
         value: 0.18
 metadata:
+  notes:
+    '1994-01-01': 'plaf_PME1 : sommes versées avant le 31/07/1995'
+    '1995-01-01': 'plaf_PME2 : sommes versées à partir du 01/08/1995'
+    '1999-01-01': Augmentation des seuils des chiffres d'affaires (de 140 à 260 millions
+      FRF) ou de total de bilan (de 70 à 175 millions FRF)
   order:
   - date_entree_en_vigueur
   - emprunts_contractes_reprise_une_pme
+  reference:
+    '2006-01-01': Loi 2006-1771 du 30 décembre 2006 - art. 56 JORF 31 décembre 2006
+    '2007-01-01': Loi 2008-776 du 4 août 2008 - art. 67 (V)
+    '2008-01-01': Loi 2008-1443 du 30 décembre 2008 - art. 114 (V)
+    '2009-01-01': Décret 2009-389 du 7 avril 2009 - art. 1
+    '2010-01-01': Loi 2010-1657 du 29 décembre 2010 - art. 38 (V)
+    '2011-01-01': Loi 2011-1978 du 28 décembre 2011 - art. 59 (V)
+    '2013-01-01': BOI-IR-RICI-130-20 du 06/03/2014
+    '2015-01-01': Loi 2015-1786 du 29 décembre 2015 de finances rectificative pour
+      2015  - art. 26, 2°

@@ -20,9 +20,28 @@ cumul_prets:
 description: 'Prêt aux jeunes ménages (PJM) : montant des prêts susceptibles d''être
   accordés'
 metadata:
+  date_parution_jo:
+    '1975-01-05': "04/01/1975                                   \n05/02/1976"
+    '1978-01-01': 05/02/1976
+    '1978-07-01': '1977-12-29'
+    '1979-07-01': '1979-07-04'
+    '1982-03-01': 29/12/1977 08/04/1979 29/05/1980 24/04/1981 09/04/1982
+    '1985-05-16': '1985-05-16'
+  notes:
+    '1978-01-01': 'Décret 76-117: PJM a 2% du budget total pour les prestations familiales'
+    '1985-05-16': Décret 85-526 abroge le décret 76-117.
   order:
   - pret_maximum
   - cumul_prets
+  reference:
+    '1975-01-05': Loi 75-6 du 03/01/1975 (crée art. L.543 CSS )                                                            Décret
+      76-117 du 03/02/1976
+    '1978-01-01': Décret 76-117 du 03/02/1976
+    '1978-07-01': Décret 77-1452 du 27/12/1977
+    '1979-07-01': Décret 79-526 du 03/07/1979
+    '1982-03-01': Décret 76-117 du 03/02/1976 modifie  décrets 27-12-77, 6-4-79, 23-5-80,
+      22-4-81, 8-4-82
+    '1985-05-16': Décret 85-526 du 13/05/1985
 pret_maximum:
   accession_propriete_logement_neuf_ancien:
     description: Pour l'accession à la propriété d'un logement neuf ou ancien

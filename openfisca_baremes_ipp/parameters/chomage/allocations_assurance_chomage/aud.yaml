@@ -342,8 +342,21 @@ duree_totale_en_mois:
     - duree_affiliation_14_mois_cours_24_derniers_mois
     - duree_affiliation_27_mois_cours_36_derniers_mois
 metadata:
+  date_parution_jo:
+    '1993-01-01': 18/08/1992; 04/01/1993
+    '1993-08-01': 20/08/1993
+    '1997-01-01': 20/03/1997
   order:
   - duree_indemnisation_taux_plein_en_mois
   - duree_indemnisation_taux_degressif_en_mois
   - duree_totale_en_mois
   - coefficient_degressivite
+  reference:
+    '1993-01-01': Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+      à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
+      annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la convention
+      du 01/01/1993
+    '1993-08-01': Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la convention
+      du 01/01/1983 relative à l'assurance chômage et de l'avenant n° 3 au règlement
+      annexé à cette convention
+    '1997-01-01': Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997

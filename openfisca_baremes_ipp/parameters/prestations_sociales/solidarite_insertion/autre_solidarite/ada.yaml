@@ -7,10 +7,25 @@ majoration_par_personne_supplementaire_maximum_10_par_famille:
     '2015-11-01':
       value: 3.4
 metadata:
+  date_parution_jo:
+    '2015-11-01': '2015-10-23'
+    '2017-04-01': '2017-03-30'
+    '2017-05-01': '2018-06-01'
+  notes:
+    '2017-04-01': Décision du Conseil d'Etat du 23/12/2016 d'annuler partiellement
+      le montant de l'ADA (concernant le supplément si non-hébergé qui est insuffisant)
+      et enjoint au Premier Ministre de fixer un nouveau montant
+    '2017-05-01': Décision du Conseil d'Etat du 23/12/2016 d'annuler partiellement
+      le montant de l'ADA (concernant le supplément si non-hébergé qui est insuffisant)
+      et enjoint au Premier Ministre de fixer un nouveau montant
   order:
   - montant_journalier_une_personne
   - majoration_par_personne_supplementaire_maximum_10_par_famille
   - supplement_si_non_heberge_dans_centres_accueil_hebergement_urgence
+  reference:
+    '2015-11-01': Décret 2015-1329 du 21/10/2015, art. 2
+    '2017-04-01': Décret 2017-430 du 29/03/2017, art. 6
+    '2017-05-01': Décret 2018-426 du 31/05/2018
 montant_journalier_une_personne:
   description: Montant journalier pour une personne
   metadata:

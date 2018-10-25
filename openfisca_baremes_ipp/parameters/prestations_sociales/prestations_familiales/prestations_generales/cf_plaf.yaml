@@ -13,9 +13,21 @@ majoration_plafond_ressources_enfant_supplementaire:
     '1986-07-01':
       value: 0.15133371576079163
 metadata:
+  date_parution_jo:
+    '1978-01-01': 13/07/1977                17/11/1977
+    '1978-07-01': '1978-07-12'
+    '1983-01-01': '1982-12-30'
+    '1986-07-01': '1985-05-04'
   order:
   - plafond_ressources_revenu_brut_imposable_1
   - majoration_plafond_ressources_enfant_supplementaire
+  reference:
+    '1978-01-01': Loi 77-765 du 12/07/1977                                                                                                                Décret
+      77-1265 du 16/11/1977
+    '1978-07-01': Décret 78-728 du 11/07/1978
+    '1983-01-01': Décret 82-1137 du 29/12/82 (Taux)
+    '1986-07-01': Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478 du
+      26/04/1985
 plafond_ressources_revenu_brut_imposable_1:
   1_enfant:
     description: 1 enfant

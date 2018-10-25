@@ -12,6 +12,11 @@ majoration_loyer_minimum_lo:
     '2007-07-01':
       value: 45.57
 metadata:
+  date_parution_jo:
+    '2007-07-01': '2007-07-12'
+  notes:
+    '2007-07-01': Paramètres dispo dans "Eléments de calcul des aides personnelles
+      au logement", 2013
   order:
   - constante_coefficient_k
   - multiplicateur_n
@@ -19,6 +24,8 @@ metadata:
   - taux_loyer_minimum_lo_apl_accession
   - seuils_revenus
   - majoration_loyer_minimum_lo
+  reference:
+    '2007-07-01': Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du CSS)
 multiplicateur_n:
   dans_formule_ka:
     description: Dans la formule de KA

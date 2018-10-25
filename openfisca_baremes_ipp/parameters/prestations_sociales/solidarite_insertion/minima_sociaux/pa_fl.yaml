@@ -1,7 +1,11 @@
 description: 'Prime d''activité (PA) : forfait logement'
 metadata:
+  date_parution_jo:
+    '2016-01-01': '2015-12-22'
   order:
   - taux_forfait_logement
+  reference:
+    '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
 taux_forfait_logement:
   description: Taux Forfait logement
   foyer_1_personne:

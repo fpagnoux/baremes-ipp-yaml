@@ -3,6 +3,26 @@ description: Revalorisation du salaire de références des chômeurs de plus de 
 metadata:
   order:
   - taux
+  reference:
+    '1965-01-11': Circulaire 64-30 - décision du 26/11/1964
+    '1965-03-08': Circulaire 65-18 - décision du 25/03/1965
+    '1965-09-06': Circulaire 65-46 - décision du 25/11/1965
+    '1966-01-10': Circulaire 65-46 - décision du 25/11/1965
+    '1966-03-07': Circulaire 66-12 - décision du 24/02/1966
+    '1967-01-09': Circulaire 66-40 - décision du 24/11/1966
+    '1967-07-10': Circulaire 67-15 - décision du 19/07/1967
+    '1968-02-08': Circulaire 67-53 - décision du 19/12/1967
+    '1969-01-06': Circulaire 68-60 - décision du 12/12/1968
+    '1969-07-08': Circulaire 68-35 - décision du 25/06/1968
+    '1970-01-05': Circulaire 69-37 - décision du 04/12/1969
+    '1970-07-06': Circulaire 70-27 - décision du 25/06/1970
+    '1971-01-04': Circulaire 70-39 - décision du 04/12/1970
+    '1971-08-02': Circulaire 71-13 - décision du 29/07/1971
+    '1972-01-03': Circulaire 71-20 - décision du 24/11/1971
+    '1972-07-03': Circulaire 72-19 - décision du 20/06/1972
+    '1973-01-01': Circulaire 72-35 - décision du 28/11/1972
+    '1973-07-02': Circulaire 73-16 - décision du 28/06/1973
+    '1973-12-31': Circulaire 73-30 - décision du 04/12/1973
 taux:
   description: Taux
   metadata:

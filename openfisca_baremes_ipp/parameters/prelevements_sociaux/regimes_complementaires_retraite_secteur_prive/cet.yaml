@@ -1,7 +1,18 @@
 description: Cotisations retraite exceptionnelle et temporaire (CET)
 metadata:
+  notes:
+    '1997-01-01': 'BSP : en 1997, le taux est de 0,07% (0,045% employeur, 0,025% salarié)
+      pour le taux contractuel de 14%. Elle est respectivement de 0,044% et 0,026%
+      pour les taux contractuels de 15 et 16%'
+    '1998-01-01': BSP n°40 du 31/01/1998. Plus qu'un seul taux à partir de 1998.
+    '1999-01-01': BSP n°44 du 31/01/1999
+    '2000-01-01': BSP n°48 du 31/01/2000
+    '2001-01-01': BSP pour 2001  non communicables à la BNF
   order:
   - salaire_sous_8_pss
+  reference:
+    '1997-01-01': CCN des cadres du 14/03/1947, art. 2 de l'annexe III.
+    '1998-01-01': Référence non trouvée
 salaire_sous_8_pss:
   description: Salaire sous 8 PSS
   employeur:

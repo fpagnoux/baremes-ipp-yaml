@@ -1,10 +1,16 @@
 description: Taxe exceptionnelle de solidarité sur les hautes rémunérations versées
   par les entreprises (TEHR, ou "taxe à 75%")
 metadata:
+  date_parution_jo:
+    '2013-01-01': '2013-12-30'
+    '2015-01-01': '2013-12-30'
   order:
   - taux
   - seuil
   - plafond_en_chiffre_affaire_entreprises
+  reference:
+    '2013-01-01': Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+    '2015-01-01': Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
 plafond_en_chiffre_affaire_entreprises:
   description: Plafond (en % du chiffre d'affaire de l'entreprises)
   metadata:

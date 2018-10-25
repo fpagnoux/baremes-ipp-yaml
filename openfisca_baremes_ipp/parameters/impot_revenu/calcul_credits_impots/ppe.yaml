@@ -64,6 +64,20 @@ date_entree_en_vigueur:
     - annee_ir
 description: Prime pour l'emploi (2001 - 2015)
 metadata:
+  date_parution_jo:
+    '2000-01-01': '2000-12-31'
+    '2002-01-01': '2002-12-31'
+    '2003-01-01': '2003-12-31'
+    '2004-01-01': '2004-12-31'
+    '2005-01-01': '2005-12-31'
+    '2006-01-01': '2006-12-27'
+    '2007-01-01': '2007-12-27'
+  notes:
+    '2000-01-01': Doublement de la prime versée théoriquement en 2001 avec l'instauration
+      d'un complément égal au montant inital de PPE calculé pour l'année 2001.
+    '2002-01-01': Introduction de la majoration pour temps partiel
+    '2016-01-01': A compter du 1e janvier 2016, la PPE est remplacée par la prime
+      d'activité .
   order:
   - date_entree_en_vigueur
   - seuil_rfr_etre_eligibilite_ppe
@@ -71,6 +85,41 @@ metadata:
   - coefficient_majoration_ppe_temps_partiel
   - supplements
   - minimun_ppe
+  reference:
+    '2000-01-01': Loi n° 2001-458 du 30 mai 2001
+    '2001-01-01': LF pour 2002 et LFR pour 2001
+    '2002-01-01': LF pour 2003
+    '2003-01-01': LF pour 2004
+    '2004-01-01': LF pour 2005
+    '2005-01-01': LF pour 2006
+    '2006-01-01': LF pour 2007
+    '2007-01-01': LF pour 2008
+  reference_boi:
+    '2000-01-01': 'BOI 5 B-12-01
+
+      n°114 DU 26/06/2001'
+    '2001-01-01': 'BOI 5 B-12-02
+
+      n°100 DU 06/06/2002'
+    '2002-01-01': 'BOI 5 B-12-03
+
+      n°102 DU 06/06/2003'
+    '2003-01-01': 'BOI 5 B-11-04
+
+      n°103 DU 22/06/2004'
+    '2004-01-01': 'BOI 5 B-2-05
+
+      n°11 DU 17/01/2005'
+    '2005-01-01': 'BOI 5 B-16-06
+
+      n°82 DU 17/05/2006'
+    '2006-01-01': 'BOI 5 B-8-07
+
+      n°45 DU 27/03/2007'
+    '2007-01-01': 'BOI 5 B-9-08
+
+      n°27 DU 03/03/2008'
+    '2016-01-01': Décrets 2015-1709 et 2015-1710 du JO 22/12/2015
 minimun_ppe:
   description: Minimun de PPE
   metadata:

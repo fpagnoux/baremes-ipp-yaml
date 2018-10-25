@@ -17,10 +17,25 @@ age_maximal_personnes_charge_en_apprentissage_en_stage_formation_donnant_droit_a
       value: 20.0
 description: Définition des personnes à charge
 metadata:
+  date_parution_jo:
+    '1985-12-22': '1985-12-21'
+    '1990-07-01': '1990-06-29'
+    '1998-01-01': '1997-12-30'
+    '1999-01-01': '1998-12-30'
+    '2000-02-01': '2000-01-29'
+  notes:
+    '1999-01-01': Pour les enfants nés à partir du 01/01/1980
+    '2000-02-01': À partir de 2000, une seule limite d'âge pour tous les enfants.
   order:
   - age_maximal_personnes_charge_1
   - age_maximal_personnes_charge_en_apprentissage_en_stage_formation_donnant_droit_aes_1
   - revenu_plafond_personnes_charge_n_etant_plus_sous_obligation_scolaire_en_smic_2
+  reference:
+    '1985-12-22': Décret 85-1353 du 17/12/1985, art. 1 (crée art. R 512-2 du CSS)
+    '1990-07-01': Décret 90-526 du 28/06/1990, art. 1 et 5 (modif art. R512-2 du CSS)
+    '1998-01-01': Décret 97-1245 du 29/12/1997, art. 1 (modif art. R512-2 du CSS)
+    '1999-01-01': Décret 98-1213 du 29/12/1998, art. 1 (modif art. R512-2 du CSS)
+    '2000-02-01': Décret 2000-71 du 28/01/2000, art. 1 (modif art. R512-2 du CSS)
 revenu_plafond_personnes_charge_n_etant_plus_sous_obligation_scolaire_en_smic_2:
   description: 'Revenu plafond pour les personnes à charge n''étant plus sous l''obligation
     scolaire

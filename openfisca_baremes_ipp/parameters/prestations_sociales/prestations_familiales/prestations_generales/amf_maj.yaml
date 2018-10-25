@@ -1,8 +1,16 @@
 description: 'Allocation de la mère au foyer (AMF) : majorations'
 metadata:
+  date_parution_jo:
+    '1976-07-01': 01/12/1976
+    '1978-01-01': '1977-07-13'
+  notes:
+    '1976-07-01': Remplacé par "complément familial" depuis 01/01/1978
   order:
   - regime_general_majoration
   - regime_agricole_majoration
+  reference:
+    '1976-07-01': Décret 76-1084 du 29/11/1976 (majoration)
+    '1978-01-01': Loi 77-765 du 12/07/1977
 regime_agricole_majoration:
   base:
     description: Base

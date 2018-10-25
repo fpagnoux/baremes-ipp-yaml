@@ -1,11 +1,20 @@
 description: Prélèvements sur revenus du capital
 metadata:
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+  notes:
+    '2018-01-01': Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
+      unique non-libératoire, dont la valeur est telle que la somme du taux de ce
+      prélèvement et des prélèvements sociaux est de 30%.
   order:
   - taux_prelevement_forfaitaire_revenus_capital_eligibles_prelevement_forfaitaire_unique_interets_dividendes_plus_values_produits_assurance_vie_1
   - taux_prelevement_produits_assurance_vie_non_eligibles_prelevement_forfaitaire_unique_2
   - seuil_encours_applique_eligibilite_produits_assurance_vie_prelevement_forfaitaire_unique_2
   - produits_epargne_solidaire_partage
   - paiement_produits_dans_etat_non_cooperatif_3
+  reference:
+    '2018-01-01': Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+      125-0 A, 200 A et art 117 quater du CGI)
 paiement_produits_dans_etat_non_cooperatif_3:
   description: Paiement de produits dans un Etat "non-coopératif" (3)
   metadata:

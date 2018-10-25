@@ -1,7 +1,15 @@
 description: Plafonnement de l'IFI
 metadata:
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+  notes:
+    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.
   order:
   - plafonnement_taux_imposition_isf
+  reference:
+    '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 979
+      du CGI)
 plafonnement_taux_imposition_isf:
   description: Plafonnement taux d'imposition ISF
   metadata:

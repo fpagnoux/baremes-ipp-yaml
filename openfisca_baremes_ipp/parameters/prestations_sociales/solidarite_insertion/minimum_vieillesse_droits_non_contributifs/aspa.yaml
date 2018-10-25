@@ -1,8 +1,36 @@
 description: Allocation de solidarité aux personnes âgées (ASPA)
 metadata:
+  date_parution_jo:
+    '2006-01-01': '2007-01-13'
+    '2007-01-01': '2006-12-30'
+    '2008-01-01': '2007-12-28'
+    '2009-04-01': '2009-04-29'
+    '2014-10-01': '2014-10-23'
+  notes:
+    '2006-01-01': Modifie art. D815-1 et D815-2 du CSS. Les montants ci-contre sont
+      valables à partir du 01/01/2006, même si le décret date de 2007.
+    '2009-04-01': Circulaire Cnav 2009/31 du 16/04/2009
+    '2020-01-01': 'Revalorisation de 10% sur 3 ans : (+3,8%, +4,2% et +4,0%)'
   order:
   - montant_maximum_annuel
   - plafond_ressources
+  reference:
+    '2006-01-01': Décret 2007-57 du 12/01/2007, art. 1
+    '2007-01-01': Arrêté du 19/12/2006, art. 1
+    '2008-01-01': Arrêté du 21/12/2007, art. 1
+    '2008-09-01': Circulaire Cnav 2008/45 du 12/08/2008
+    '2009-04-01': Décret 2009-473 du 28/04/2009, art. 1
+    '2010-04-01': Circulaire Cnav 2010/43 du 23/04/2010
+    '2011-04-01': Circulaire Cnav 2011/30 du 14/04/2011
+    '2012-04-01': Circulaire Cnav 2012/35 du 17/04/2012
+    '2013-04-01': Circulaire Cnav 2013/29 du 18/04/2014
+    '2014-04-01': Circulaire Cnav 2014/28 du 09/04/2014
+    '2014-10-01': Décret 2014-1215 du 20/10/2014
+    '2016-04-01': Circulaire Cnav 2016/18 du 29/03/2016
+    '2017-04-01': Circulaire Cnav 2017-13 du 04/04/2017
+    '2018-04-01': Décret 2018-227 du 30/04/2018
+    '2019-01-01': Décret 2018-227 du 30/04/2018
+    '2020-01-01': Décret 2018-227 du 30/04/2018
 montant_maximum_annuel:
   couple_lorsqu_seul_conjoint_est_beneficiaire_aspa_autre_allocation_supplementaire_invalidite:
     description: Couple (ou lorsqu'un seul conjoint est bénéficiaire de l'ASPA et

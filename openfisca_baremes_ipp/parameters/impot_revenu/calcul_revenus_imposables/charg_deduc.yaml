@@ -505,6 +505,15 @@ deductions_souscription_parts_sofipeche:
         value: null
 description: Charges déductibles du revenu brut global (1975 - 2016)
 metadata:
+  notes:
+    '1999-01-01': Investissement DOM-TOM devient investissement DOM-TOM dans le cadre
+      d'une entreprise (à partir de revenus de 1999)
+    '2003-01-01': À partir de l'imposition des revenus de 2004, différence entre pertes
+      en capital souscription du 01/01/1994 = plaf_capita_soc1 et pertes en capital
+      souscriptions à compter du 01/01/2003 = plaf_capital_soc2, le total des pertes
+      reportés dans les deux cas ne peut excéder plaf_capital_soc2
+    '2006-01-01': SOFICA et SOFIPECHE deviennent des crédits d'impôt à partir de la
+      déclaration des revenus de 2006 (aller aux onglets SOFICA et SOFIPECHE)
   order:
   - date_effet
   - deduction_frais_accueil_une_personne_plus_75_ans
@@ -518,6 +527,50 @@ metadata:
   - deductions_investissements_en_actions
   - reduction_versement_compte_epargne_codev
   - deductions_grosses_reparations
+  reference:
+    '1974-01-01': LF pour 1975
+    '1975-01-01': LF pour 1976
+    '1976-01-01': LF pour 1977
+    '1977-01-01': LF pour 1978
+    '1978-01-01': LF pour 1979
+    '1979-01-01': LF pour 1980
+    '1980-01-01': LF pour 1981
+    '1981-01-01': LF pour 1982
+    '1982-01-01': LF pour 1983
+    '1983-01-01': LF pour 1984
+    '1984-01-01': LF pour 1985
+    '1985-01-01': LF pour 1986
+    '1986-01-01': LF pour 1987
+    '1987-01-01': LF pour 1988
+    '1988-01-01': LF pour 1989
+    '1989-01-01': LF pour 1990
+    '1990-01-01': LF pour 1991
+    '1991-01-01': LF pour 1992
+    '1992-01-01': LF pour 1993
+    '1993-01-01': LF pour 1994
+    '1994-01-01': LF pour 1995
+    '1995-01-01': LF pour 1996
+    '1996-01-01': LF pour 1997
+    '1997-01-01': LF pour 1998
+    '1998-01-01': LF pour 1999
+    '1999-01-01': LF pour 2000
+    '2000-01-01': LF pour 2001
+    '2001-01-01': LF pour 2002
+    '2002-01-01': LF pour 2003
+    '2003-01-01': LF pour 2004
+    '2004-01-01': LF pour 2005
+    '2005-01-01': LF pour 2006
+    '2006-01-01': LF pour 2007
+    '2007-01-01': LF pour 2008
+    '2008-01-01': LF pour 2009
+    '2009-01-01': LF pour 2010
+    '2010-01-01': LF pour 2011
+    '2011-01-01': LF pour 2012
+    '2013-01-01': LF pour 2014
+    '2014-01-01': LF pour 2015
+    '2015-01-01': LF pour 2016
+    '2016-01-01': LF pour 2017
+    '2017-01-01': LF pour 2018
 reduction_souscriptions_parts_sofica:
   description: Réduction pour souscriptions de parts de SOFICA
   metadata:

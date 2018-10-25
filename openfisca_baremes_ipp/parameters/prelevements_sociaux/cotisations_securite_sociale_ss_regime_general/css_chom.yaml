@@ -20,9 +20,17 @@ cotisation_speciale_assurance_maladie:
         value: null
 description: Cotisations SS sur les allocations chômage
 metadata:
+  date_parution_jo:
+    '1988-03-01': '1988-02-02'
+    '1990-01-01': '1990-05-15'
+    '1993-01-01': '1993-01-04'
   order:
   - cotisation_speciale_assurance_maladie
   - participation_retraite_complementaire
+  reference:
+    '1988-03-01': Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
+    '1990-01-01': Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
+    '1993-01-01': Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
 participation_retraite_complementaire:
   assiette_sjr:
     affiliation_3_6_mois:

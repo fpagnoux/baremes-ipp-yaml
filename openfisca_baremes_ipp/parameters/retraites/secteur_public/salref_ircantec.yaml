@@ -1,9 +1,15 @@
 description: Salaire de référence IRCANTEC
 metadata:
+  notes:
+    '1947-01-01': A partir de cette date, les salaires de références sont identiques
+      pour les deux catégories.
+    '1971-01-01': '1971: Création de l''IRCANTEC'
   order:
   - salaire_reference_ircantec
   - salaire_reference_igrante
   - salaire_reference_ipacte
+  reference:
+    '2017-01-01': Ircantec - Notes juridiques n°2144 du 26/03/2015
 salaire_reference_igrante:
   description: Salaire de référence IGRANTE
   metadata:

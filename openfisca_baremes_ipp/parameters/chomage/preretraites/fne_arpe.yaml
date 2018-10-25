@@ -1,7 +1,47 @@
 description: Montant minimum des préretraites FNE-ARPE
 metadata:
+  notes:
+    '2005-01-01': Préretraite progressive abrogée à partir du 01/01/2005, sauf pour
+      les conventions conclues avant cette date
+    '2011-04-01': Préretraite AS-FNE abrogée à partir du 10/10/2011
   order:
   - montant_minimum
+  reference:
+    '1984-04-01': Arrêté du 25/06/1984
+    '1985-01-01': Arrêté du 12/03/1985
+    '1985-07-01': Arrêté du 09/08/1985
+    '1987-07-01': Loi du 27/01/1987
+    '1988-01-01': Loi du 05/01/1988
+    '1988-07-01': Loi du 05/01/1988
+    '1989-01-01': Loi du 13/01/1989
+    '1989-07-01': Loi du 13/01/1989
+    '1990-01-01': Loi du 23/01/1990
+    '1990-07-01': Loi du 23/01/1990
+    '1991-01-01': Loi du 18/01/1991
+    '1991-07-01': Loi du 31/12/1991
+    '1992-01-01': Loi du 31/12/1991
+    '1992-07-01': Loi du 31/12/1991
+    '1993-01-01': Arrêté du 22/01/1993
+    '1994-01-01': Arrêté du 24/01/1994
+    '1995-01-01': Arrêté du 27/01/1995
+    '1995-07-01': Arrêté du 31/07/1995
+    '1996-01-01': Arrêté du 30/01/1996
+    '1997-01-01': Arrêté du 30/12/1996
+    '1998-01-01': Arrêté du 29/12/1997
+    '1999-01-01': Arrêté du 29/12/1998
+    '2000-01-01': Arrêté du 29/12/1999
+    '2001-01-01': Arrêté du 26/12/2000
+    '2002-01-01': Arrêté du 25/12/2002
+    '2003-01-01': Arrêté du 31/12/2002
+    '2004-01-01': Arrêté du 23/12/2003
+    '2005-01-01': Directive Unedic 09-05 du 24/02/2005
+    '2006-01-01': Directive Unedic 2006-04 du 24/01/2006
+    '2007-01-01': Circulaire 2007-09 du 26/06/2007 - décision du 21/06/2007
+    '2008-01-01': Circulaire 2008-04 du 01/07/2008 - décision du 24/06/2008
+    '2009-04-01': Circulaire 2009-16 du 09/07/2009
+    '2011-04-01': DGEFP Instruction 2011-23 du 10/10/2011
+    '2015-10-01': Circulaire de la CNAMTS CIR 13-2015 du 21/10/2015
+    '2017-10-01': Circulaire de la CNAMTS CIR 18-2017 du 17/10/2017
 montant_minimum:
   description: Montant minimum
   lic_demission_arpe:

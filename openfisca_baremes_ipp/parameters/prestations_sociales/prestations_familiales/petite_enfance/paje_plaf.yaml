@@ -166,6 +166,26 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
     - biactifs_parents_isoles_1
     - majoration_enfant_supplementaire
 metadata:
+  date_parution_jo:
+    '2004-01-01': '2004-01-01'
+    '2004-07-01': '2004-07-18'
+    '2005-07-01': '2005-08-03'
+    '2006-07-01': '2006-07-19'
+    '2007-07-01': '2007-07-12'
+    '2009-01-01': '2009-01-01'
+    '2010-01-01': '2009-12-31'
+    '2011-01-01': '2010-12-31'
+    '2012-01-01': '2011-12-30'
+    '2013-01-01': '2013-12-18'
+    '2018-01-01': 29/12/20017
+  notes:
+    '2004-01-01': 'Création de la PAJE. Mais entrée en vigueur progressive : de janvier
+      2004 à décembre 2006 inclus (cf. art. 60, VIII de la loi 2003-1199)'
+    '2016-01-01': Pas de modification pour 2017 cf. Circulaire DSS/SD2B/2016/396 du
+      21/12/2016
+    '2018-01-01': Revalorisation des plafonds de 0,2%. Les plafonds pour les enfants
+      nés avant le 01/04/2014 sont supprimés, car ces enfants ont désormais plus de
+      3 ans.
   order:
   - premier_plafond_ne_adopte_avant_1er_avril_2014
   - majoration_en_eur_en_plafond_ressources_avec_0_enfant
@@ -173,6 +193,24 @@ metadata:
   - majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_partiel
   - deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein
   - majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_plein
+  reference:
+    '2004-01-01': Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du CSS)
+    '2004-07-01': Arrêté du 16/07/2004
+    '2005-07-01': Arrêté du 01/08/2005
+    '2006-07-01': Arrêté du 17/07/2006
+    '2007-07-01': Arrêté du 10/07/2007
+    '2009-01-01': Arrêté du 31/12/2008
+    '2010-01-01': Arrêté du 29/12/2009
+    '2011-01-01': Arrêté du 30/12/2010
+    '2012-01-01': Arrêté du 28/12/2011, art. 2
+    '2013-01-01': Circulaire DSS/SD2B/2012/423
+    '2014-01-01': Circulaire DSS/SD2B/2013/417
+    '2014-04-01': Décret 2014-422 du 24 avril 2014
+    '2015-01-01': Circulaire DSS/SD2B/2014/345
+    '2016-01-01': Circulaire DSS/SD2B/2015/371
+    '2018-01-01': 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
+
+      Arrêté du 27/12/2017'
 premier_plafond_ne_adopte_avant_1er_avril_2014:
   description: Premier plafond (né ou adopté avant le 1er avril 2014)
   metadata:

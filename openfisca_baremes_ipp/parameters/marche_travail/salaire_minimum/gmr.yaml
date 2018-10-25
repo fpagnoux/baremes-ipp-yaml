@@ -1,11 +1,19 @@
 description: Garanties minimales de ressources - GMR (2000-2004)
 metadata:
+  date_parution_jo:
+    '2000-01-01': '2000-01-20'
+    '2003-07-01': '2003-01-18'
+    '2004-07-01': '2004-06-26'
   order:
   - rtt_avant_30_06_99_gmr1
   - rtt_avant_30_06_00_gmr2
   - rtt_avant_30_06_01_gmr3
   - rtt_avant_30_06_02_gmr4
   - rtt_apres_01_07_02_gmr5
+  reference:
+    '2000-01-01': Loi 2000-37 du 19/01/2000, art. 32
+    '2003-07-01': Loi 2003-47 du 17/01/2003, art. 1
+    '2004-07-01': Ordonnance 2004-602 du 24/06/2004, art. 9
 rtt_apres_01_07_02_gmr5:
   description: RTT après 01/07/02 (GMR5)
   metadata:

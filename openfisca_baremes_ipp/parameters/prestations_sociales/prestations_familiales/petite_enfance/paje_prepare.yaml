@@ -38,12 +38,18 @@ condition_prepare_majoree:
 description: 'Prestation d''accueil du jeune enfant (PAJE) : Prestation partagée d''éducation
   de l''enfant (PreParE)'
 metadata:
+  date_parution_jo:
+    '2015-01-01': '2014-12-31'
+  notes:
+    '2015-01-01': Pas de modification pour 2017 cf. DSS/SD2B/2017/97 du 21/03/2017
   order:
   - age_limite
   - age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1
   - prestation_partagee_education_enfant_prepare_en_bmaf
   - condition_prepare_majoree
   - prepare_majoree_en_bmaf
+  reference:
+    '2015-01-01': Décret 2014-1708 du 30/12/2014 - art. 1
 prepare_majoree_en_bmaf:
   description: PreParE majorée (en % de la BMAF)
   metadata:
