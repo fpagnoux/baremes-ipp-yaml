@@ -6,35 +6,27 @@ majoration_plafond:
       unit: currency-FRF
     values:
       '1998-03-01':
-        metadata:
-          reference: 'LFSS 97-1164 du 19/12/1997, art. 23 (modif art. L521-1 du CSS)
-
-            Décret 98-108 du 26/02/1998, art. 1 (crée art. R521-2 du CSS qui fixe
-            les plafonds)'
         value: 60480.0
       '1999-01-01':
-        metadata:
-          reference: LFSS 98-1194 du 23/12/1998, art. 18 (modif art. L521-1 du CSS)
         value: null
   description: Majoration plafond
+  metadata:
+    order:
+    - couples_biactifs_parents_isoles
+    - par_enfant_supplementaire
   par_enfant_supplementaire:
     description: par enfant supplémentaire
     metadata:
       unit: currency-FRF
     values:
       '1998-03-01':
-        metadata:
-          reference: 'LFSS 97-1164 du 19/12/1997, art. 23 (modif art. L521-1 du CSS)
-
-            Décret 98-108 du 26/02/1998, art. 1 (crée art. R521-2 du CSS qui fixe
-            les plafonds)'
         value: 43200.0
       '1999-01-01':
-        metadata:
-          reference: LFSS 98-1194 du 23/12/1998, art. 18 (modif art. L521-1 du CSS)
         value: null
 metadata:
-  rank: 4
+  order:
+  - plafond_ressources
+  - majoration_plafond
 plafond_ressources:
   0_enfant_couples_monoactifs:
     description: 0 enfant - couples monoactifs
@@ -42,14 +34,10 @@ plafond_ressources:
       unit: currency-FRF
     values:
       '1998-03-01':
-        metadata:
-          reference: 'LFSS 97-1164 du 19/12/1997, art. 23 (modif art. L521-1 du CSS)
-
-            Décret 98-108 du 26/02/1998, art. 1 (crée art. R521-2 du CSS qui fixe
-            les plafonds)'
         value: 129600.0
       '1999-01-01':
-        metadata:
-          reference: LFSS 98-1194 du 23/12/1998, art. 18 (modif art. L521-1 du CSS)
         value: null
   description: Plafond de ressources
+  metadata:
+    order:
+    - 0_enfant_couples_monoactifs

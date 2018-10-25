@@ -1,3 +1,7 @@
 description: Contributions assises spécifiquement sur les accessoires du salaire
 metadata:
-  rank: 7
+  order:
+  - prevoyance
+  - forfait_social
+  - retraites_chapeau
+  - cont_sur_options

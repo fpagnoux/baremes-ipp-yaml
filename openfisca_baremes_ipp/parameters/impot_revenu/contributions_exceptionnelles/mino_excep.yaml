@@ -33,9 +33,14 @@ date_entree_en_vigueur:
       '1994-01-01':
         value: 1993.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Minorations exceptionnelles (1965-1992)
 metadata:
-  rank: 2
+  order:
+  - date_entree_en_vigueur
+  - minorations_exceptionnelles_impot
 minorations_exceptionnelles_impot:
   description: Minorations exceptionnelles d'impôt
   formule_calcul_seuil_2:
@@ -101,6 +106,20 @@ minorations_exceptionnelles_impot:
         value: 0.14
       '1994-01-01':
         value: null
+  metadata:
+    order:
+    - taux_1
+    - taux_3
+    - taux_5
+    - formule_calcul_seuil_2
+    - formule_calcul_seuil_4
+    - formule_calcul_taux_en_impot
+    - seuil_impot_1
+    - seuil_impot_2
+    - seuil_impot_3
+    - seuil_impot_4
+    - seuil_impot_5
+    - seuil_superieur_revenu_imposable_par_part
   seuil_impot_1:
     description: Seuil d'impot 1
     metadata:

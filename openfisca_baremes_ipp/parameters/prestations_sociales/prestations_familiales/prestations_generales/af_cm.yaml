@@ -4,108 +4,37 @@
     unit: /1
   values:
     '1946-09-01':
-      metadata:
-        reference: Loi du 22 aout 1946
       value: 0.2
     '1954-01-01':
       value: 0.22
-    '1976-08-01':
-      metadata:
-        reference: Décret 76-768 du 16/08/1976
-      value: 0.22
     '1978-01-01':
-      metadata:
-        reference: 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
-      value: 0.23
-    '1979-07-01':
-      metadata:
-        reference: Décret 79-722 du 27/08/1979
       value: 0.23
     '1981-07-01':
-      metadata:
-        reference: Décret 81-683 du 30 juin 1981
       value: 0.255
     '1982-02-01':
-      metadata:
-        reference: 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
-      value: 0.32
-    '1986-01-01':
-      metadata:
-        reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. D521-1 et R521-1
-          du CSS)
-
-          Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)'
-      value: 0.32
-    '1998-01-01':
-      metadata:
-        reference: Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
-      value: 0.32
-    '2002-12-13':
-      metadata:
-        reference: Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
-      value: 0.32
-    '2015-07-01':
-      metadata:
-        reference: 'Décret 2015-611 du 03/06/2015
-
-          Circulaire DSS/SD2B/2016/77 du 15/03/2016'
       value: 0.32
 description: 'Allocations familiales (AF) : conditions générales et montants'
 metadata:
-  rank: 0
+  order:
+  - nombre_minimal_enfants_avoir_droit_allocation
+  - 2_enfants
+  - par_enfant_supplementaire
+  - modulation
 modulation:
   description: Modulation
+  metadata:
+    order:
+    - tranche_1_en_bmaf
+    - tranche_2_en_bmaf
+    - tranche_3_en_bmaf
   tranche_1_en_bmaf:
     description: Tranche 1 (en % de la BMAF)
     metadata:
       unit: /1
     values:
       '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1954-01-01':
-        value: null
-      '1976-08-01':
-        metadata:
-          reference: Décret 76-768 du 16/08/1976
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
-        value: null
-      '1979-07-01':
-        metadata:
-          reference: Décret 79-722 du 27/08/1979
-        value: null
-      '1981-07-01':
-        metadata:
-          reference: Décret 81-683 du 30 juin 1981
-        value: null
-      '1982-02-01':
-        metadata:
-          reference: 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
-        value: null
-      '1986-01-01':
-        metadata:
-          reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. D521-1 et R521-1
-            du CSS)
-
-            Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)'
-        value: null
-      '1998-01-01':
-        metadata:
-          reference: Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
-        value: null
-      '2002-12-13':
-        metadata:
-          reference: Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
         value: null
       '2015-07-01':
-        metadata:
-          reference: 'Décret 2015-611 du 03/06/2015
-
-            Circulaire DSS/SD2B/2016/77 du 15/03/2016'
         value: 1.0
   tranche_2_en_bmaf:
     description: Tranche 2 (en % de la BMAF)
@@ -113,51 +42,8 @@ modulation:
       unit: /1
     values:
       '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1954-01-01':
-        value: null
-      '1976-08-01':
-        metadata:
-          reference: Décret 76-768 du 16/08/1976
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
-        value: null
-      '1979-07-01':
-        metadata:
-          reference: Décret 79-722 du 27/08/1979
-        value: null
-      '1981-07-01':
-        metadata:
-          reference: Décret 81-683 du 30 juin 1981
-        value: null
-      '1982-02-01':
-        metadata:
-          reference: 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
-        value: null
-      '1986-01-01':
-        metadata:
-          reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. D521-1 et R521-1
-            du CSS)
-
-            Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)'
-        value: null
-      '1998-01-01':
-        metadata:
-          reference: Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
-        value: null
-      '2002-12-13':
-        metadata:
-          reference: Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
         value: null
       '2015-07-01':
-        metadata:
-          reference: 'Décret 2015-611 du 03/06/2015
-
-            Circulaire DSS/SD2B/2016/77 du 15/03/2016'
         value: 0.5
   tranche_3_en_bmaf:
     description: Tranche 3 (en % de la BMAF)
@@ -165,101 +51,13 @@ modulation:
       unit: /1
     values:
       '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1954-01-01':
-        value: null
-      '1976-08-01':
-        metadata:
-          reference: Décret 76-768 du 16/08/1976
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
-        value: null
-      '1979-07-01':
-        metadata:
-          reference: Décret 79-722 du 27/08/1979
-        value: null
-      '1981-07-01':
-        metadata:
-          reference: Décret 81-683 du 30 juin 1981
-        value: null
-      '1982-02-01':
-        metadata:
-          reference: 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
-        value: null
-      '1986-01-01':
-        metadata:
-          reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. D521-1 et R521-1
-            du CSS)
-
-            Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)'
-        value: null
-      '1998-01-01':
-        metadata:
-          reference: Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
-        value: null
-      '2002-12-13':
-        metadata:
-          reference: Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
         value: null
       '2015-07-01':
-        metadata:
-          reference: 'Décret 2015-611 du 03/06/2015
-
-            Circulaire DSS/SD2B/2016/77 du 15/03/2016'
         value: 0.25
 nombre_minimal_enfants_avoir_droit_allocation:
   description: Nombre minimal d'enfants pour avoir droit à l'allocation
   values:
     '1946-09-01':
-      metadata:
-        reference: Loi du 22 aout 1946
-      value: 2.0
-    '1954-01-01':
-      value: 2.0
-    '1976-08-01':
-      metadata:
-        reference: Décret 76-768 du 16/08/1976
-      value: 2.0
-    '1978-01-01':
-      metadata:
-        reference: 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
-      value: 2.0
-    '1979-07-01':
-      metadata:
-        reference: Décret 79-722 du 27/08/1979
-      value: 2.0
-    '1981-07-01':
-      metadata:
-        reference: Décret 81-683 du 30 juin 1981
-      value: 2.0
-    '1982-02-01':
-      metadata:
-        reference: 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
-      value: 2.0
-    '1986-01-01':
-      metadata:
-        reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. D521-1 et R521-1
-          du CSS)
-
-          Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)'
-      value: 2.0
-    '1998-01-01':
-      metadata:
-        reference: Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
-      value: 2.0
-    '2002-12-13':
-      metadata:
-        reference: Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
-      value: 2.0
-    '2015-07-01':
-      metadata:
-        reference: 'Décret 2015-611 du 03/06/2015
-
-          Circulaire DSS/SD2B/2016/77 du 15/03/2016'
       value: 2.0
 par_enfant_supplementaire:
   description: Par enfant supplémentaire
@@ -267,49 +65,12 @@ par_enfant_supplementaire:
     unit: /1
   values:
     '1946-09-01':
-      metadata:
-        reference: Loi du 22 aout 1946
       value: 0.3
     '1954-01-01':
       value: 0.33
-    '1976-08-01':
-      metadata:
-        reference: Décret 76-768 du 16/08/1976
-      value: 0.33
     '1978-01-01':
-      metadata:
-        reference: 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
-      value: 0.35
-    '1979-07-01':
-      metadata:
-        reference: Décret 79-722 du 27/08/1979
       value: 0.35
     '1981-07-01':
-      metadata:
-        reference: Décret 81-683 du 30 juin 1981
-      value: 0.39
-    '1982-02-01':
-      metadata:
-        reference: 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
       value: 0.39
     '1986-01-01':
-      metadata:
-        reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. D521-1 et R521-1
-          du CSS)
-
-          Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)'
-      value: 0.41
-    '1998-01-01':
-      metadata:
-        reference: Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
-      value: 0.41
-    '2002-12-13':
-      metadata:
-        reference: Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
-      value: 0.41
-    '2015-07-01':
-      metadata:
-        reference: 'Décret 2015-611 du 03/06/2015
-
-          Circulaire DSS/SD2B/2016/77 du 15/03/2016'
       value: 0.41

@@ -5,16 +5,10 @@ majoration1:
     unit: /1
   values:
     '1949-01-01':
-      metadata:
-        reference: Décret 48-1986 du 09/12/1948, art. 70
       value: null
     '1957-01-01':
-      metadata:
-        reference: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
       value: 0.05
     '1968-01-01':
-      metadata:
-        reference: Loi 68-878 du 09/10/1968
       value: null
 majoration2:
   description: Majoration2
@@ -22,35 +16,29 @@ majoration2:
     unit: /1
   values:
     '1949-01-01':
-      metadata:
-        reference: Décret 48-1986 du 09/12/1948, art. 70
       value: null
     '1957-01-01':
-      metadata:
-        reference: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
       value: 0.11
     '1968-01-01':
-      metadata:
-        reference: Loi 68-878 du 09/10/1968
       value: null
 metadata:
-  rank: 0
+  order:
+  - taux1
+  - majoration1
+  - majoration2
+  - plafond1
+  - plafond2
+  - taux_pensions
 plafond1:
   description: Plafond1
   metadata:
     unit: currency-FRF
   values:
     '1949-01-01':
-      metadata:
-        reference: Décret 48-1986 du 09/12/1948, art. 70
       value: null
     '1957-01-01':
-      metadata:
-        reference: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
       value: 3000000.0
     '1968-01-01':
-      metadata:
-        reference: Loi 68-878 du 09/10/1968
       value: null
 plafond2:
   description: Plafond2
@@ -58,16 +46,10 @@ plafond2:
     unit: currency-FRF
   values:
     '1949-01-01':
-      metadata:
-        reference: Décret 48-1986 du 09/12/1948, art. 70
       value: null
     '1957-01-01':
-      metadata:
-        reference: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
       value: 6000000.0
     '1968-01-01':
-      metadata:
-        reference: Loi 68-878 du 09/10/1968
       value: null
 taux1:
   description: Taux1
@@ -75,16 +57,8 @@ taux1:
     unit: /1
   values:
     '1949-01-01':
-      metadata:
-        reference: Décret 48-1986 du 09/12/1948, art. 70
-      value: 0.05
-    '1957-01-01':
-      metadata:
-        reference: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
       value: 0.05
     '1968-01-01':
-      metadata:
-        reference: Loi 68-878 du 09/10/1968
       value: null
 taux_pensions:
   description: Taux sur les pensions
@@ -92,14 +66,6 @@ taux_pensions:
     unit: /1
   values:
     '1949-01-01':
-      metadata:
-        reference: Décret 48-1986 du 09/12/1948, art. 70
       value: 0.03
     '1957-01-01':
-      metadata:
-        reference: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
-      value: null
-    '1968-01-01':
-      metadata:
-        reference: Loi 68-878 du 09/10/1968
       value: null

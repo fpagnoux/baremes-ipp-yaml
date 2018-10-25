@@ -5,17 +5,18 @@ date_entree_en_vigueur:
       '1992-01-01':
         value: 1991.0
       '1993-01-01':
-        metadata:
-          reference: LF pour 1993
         value: 1992.0
       '2002-01-01':
-        metadata:
-          reference: CGI. - Article 199 quater F
         value: 2001.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Réductions pour enfants scolarisés (1993 - 2016)
 metadata:
-  rank: 9
+  order:
+  - date_entree_en_vigueur
+  - reduction_enfants_scolarises
 reduction_enfants_scolarises:
   college:
     description: Collège
@@ -27,12 +28,8 @@ reduction_enfants_scolarises:
       '1992-01-01':
         value: null
       '1993-01-01':
-        metadata:
-          reference: LF pour 1993
         value: 400.0
       '2002-01-01':
-        metadata:
-          reference: CGI. - Article 199 quater F
         value: 61.0
   description: Réduction pour enfants scolarisés
   lycee:
@@ -45,13 +42,14 @@ reduction_enfants_scolarises:
       '1992-01-01':
         value: null
       '1993-01-01':
-        metadata:
-          reference: LF pour 1993
         value: 1000.0
       '2002-01-01':
-        metadata:
-          reference: CGI. - Article 199 quater F
         value: 153.0
+  metadata:
+    order:
+    - college
+    - lycee
+    - universite
   universite:
     description: Université
     metadata:
@@ -62,10 +60,6 @@ reduction_enfants_scolarises:
       '1992-01-01':
         value: null
       '1993-01-01':
-        metadata:
-          reference: LF pour 1993
         value: 1200.0
       '2002-01-01':
-        metadata:
-          reference: CGI. - Article 199 quater F
         value: 183.0

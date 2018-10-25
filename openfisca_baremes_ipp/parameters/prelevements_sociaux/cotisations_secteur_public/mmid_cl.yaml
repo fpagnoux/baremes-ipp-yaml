@@ -2,6 +2,10 @@ description: Cotisations maladie - Fonction publique hospitalière et Collectivi
   locales
 fp_hospitaliers_collectivites_locales:
   description: FP hospitaliers/collectivités locales
+  metadata:
+    order:
+    - sous_plafond
+    - tout_traitement
   sous_plafond:
     agent:
       description: Agent
@@ -9,60 +13,14 @@ fp_hospitaliers_collectivites_locales:
         unit: /1
       values:
         '1967-10-01':
-          metadata:
-            reference: Décret 67-850 du 30/09/1967
-          value: 0.0175
-        '1970-08-01':
-          metadata:
-            reference: Décret 70-682 du 30/07/1970
-          value: 0.0175
-        '1976-01-01':
-          metadata:
-            reference: Décret 75-1270 du 29/12/1975
           value: 0.0175
         '1976-10-01':
-          metadata:
-            reference: Décret 76-896 du 29/09/1976
           value: 0.0225
         '1979-01-01':
-          metadata:
-            reference: Décret 78-1215 du 26/12/1978
           value: 0.0025
         '1980-01-01':
-          metadata:
-            reference: Décret 78-1215 du 26/12/1978
-          value: 0.0
-        '1981-11-01':
-          metadata:
-            reference: Décret 81-1015 du 13/11/1981
           value: 0.0
         '1984-01-01':
-          metadata:
-            reference: Décret 83-1196 du 30/12/1983, art. 5
-          value: null
-        '1986-01-01':
-          metadata:
-            reference: Décret 85-1354 du 17/12/1985, art.
-          value: null
-        '1988-07-01':
-          metadata:
-            reference: Décret 88-795 du 22/06/1988, art. 4
-          value: null
-        '1991-01-01':
-          metadata:
-            reference: Décret 91-615 du 28/06/1991, art. 4
-          value: null
-        '1997-01-01':
-          metadata:
-            reference: Décret 96-1151 du 26/12/1996, art. 8
-          value: null
-        '1998-01-01':
-          metadata:
-            reference: Décret 97-1249 du 29/12/1997, art. 8
-          value: null
-        '2018-01-01':
-          metadata:
-            reference: Décret 2017-1890 du 30/12/2017, art. 1
           value: null
     description: Sous plafond
     employeur:
@@ -71,57 +29,21 @@ fp_hospitaliers_collectivites_locales:
         unit: /1
       values:
         '1967-10-01':
-          metadata:
-            reference: Décret 67-850 du 30/09/1967
           value: 0.0625
         '1970-08-01':
-          metadata:
-            reference: Décret 70-682 du 30/07/1970
-          value: 0.07
-        '1976-01-01':
-          metadata:
-            reference: Décret 75-1270 du 29/12/1975
           value: 0.07
         '1976-10-01':
-          metadata:
-            reference: Décret 76-896 du 29/09/1976
           value: 0.075
         '1979-01-01':
-          metadata:
-            reference: Décret 78-1215 du 26/12/1978
           value: 0.055
         '1981-11-01':
-          metadata:
-            reference: Décret 81-1015 du 13/11/1981
           value: 0.02
         '1984-01-01':
-          metadata:
-            reference: Décret 83-1196 du 30/12/1983, art. 5
           value: null
-        '1986-01-01':
-          metadata:
-            reference: Décret 85-1354 du 17/12/1985, art.
-          value: null
-        '1988-07-01':
-          metadata:
-            reference: Décret 88-795 du 22/06/1988, art. 4
-          value: null
-        '1991-01-01':
-          metadata:
-            reference: Décret 91-615 du 28/06/1991, art. 4
-          value: null
-        '1997-01-01':
-          metadata:
-            reference: Décret 96-1151 du 26/12/1996, art. 8
-          value: null
-        '1998-01-01':
-          metadata:
-            reference: Décret 97-1249 du 29/12/1997, art. 8
-          value: null
-        '2018-01-01':
-          metadata:
-            reference: Décret 2017-1890 du 30/12/2017, art. 1
-          value: null
+    metadata:
+      order:
+      - employeur
+      - agent
   tout_traitement:
     agent:
       description: Agent
@@ -129,60 +51,22 @@ fp_hospitaliers_collectivites_locales:
         unit: /1
       values:
         '1967-10-01':
-          metadata:
-            reference: Décret 67-850 du 30/09/1967
-          value: 0.01
-        '1970-08-01':
-          metadata:
-            reference: Décret 70-682 du 30/07/1970
           value: 0.01
         '1976-01-01':
-          metadata:
-            reference: Décret 75-1270 du 29/12/1975
-          value: 0.015
-        '1976-10-01':
-          metadata:
-            reference: Décret 76-896 du 29/09/1976
           value: 0.015
         '1979-01-01':
-          metadata:
-            reference: Décret 78-1215 du 26/12/1978
           value: 0.035
         '1980-01-01':
-          metadata:
-            reference: Décret 78-1215 du 26/12/1978
           value: 0.0375
         '1981-11-01':
-          metadata:
-            reference: Décret 81-1015 du 13/11/1981
-          value: 0.0475
-        '1984-01-01':
-          metadata:
-            reference: Décret 83-1196 du 30/12/1983, art. 5
-          value: 0.0475
-        '1986-01-01':
-          metadata:
-            reference: Décret 85-1354 du 17/12/1985, art.
           value: 0.0475
         '1988-07-01':
-          metadata:
-            reference: Décret 88-795 du 22/06/1988, art. 4
           value: 0.0515
         '1991-01-01':
-          metadata:
-            reference: Décret 91-615 du 28/06/1991, art. 4
           value: 0.0605
         '1997-01-01':
-          metadata:
-            reference: Décret 96-1151 du 26/12/1996, art. 8
           value: 0.0475
         '1998-01-01':
-          metadata:
-            reference: Décret 97-1249 du 29/12/1997, art. 8
-          value: null
-        '2018-01-01':
-          metadata:
-            reference: Décret 2017-1890 du 30/12/2017, art. 1
           value: null
     description: Tout traitement
     employeur:
@@ -191,56 +75,21 @@ fp_hospitaliers_collectivites_locales:
         unit: /1
       values:
         '1967-10-01':
-          metadata:
-            reference: Décret 67-850 du 30/09/1967
-          value: 0.02
-        '1970-08-01':
-          metadata:
-            reference: Décret 70-682 du 30/07/1970
           value: 0.02
         '1976-01-01':
-          metadata:
-            reference: Décret 75-1270 du 29/12/1975
-          value: 0.025
-        '1976-10-01':
-          metadata:
-            reference: Décret 76-896 du 29/09/1976
           value: 0.025
         '1979-01-01':
-          metadata:
-            reference: Décret 78-1215 du 26/12/1978
           value: 0.045
         '1981-11-01':
-          metadata:
-            reference: Décret 81-1015 du 13/11/1981
           value: 0.08
         '1984-01-01':
-          metadata:
-            reference: Décret 83-1196 du 30/12/1983, art. 5
-          value: 0.115
-        '1986-01-01':
-          metadata:
-            reference: Décret 85-1354 du 17/12/1985, art.
-          value: 0.115
-        '1988-07-01':
-          metadata:
-            reference: Décret 88-795 du 22/06/1988, art. 4
-          value: 0.115
-        '1991-01-01':
-          metadata:
-            reference: Décret 91-615 du 28/06/1991, art. 4
-          value: 0.115
-        '1997-01-01':
-          metadata:
-            reference: Décret 96-1151 du 26/12/1996, art. 8
-          value: 0.115
-        '1998-01-01':
-          metadata:
-            reference: Décret 97-1249 du 29/12/1997, art. 8
           value: 0.115
         '2018-01-01':
-          metadata:
-            reference: Décret 2017-1890 du 30/12/2017, art. 1
           value: 0.0988
+    metadata:
+      order:
+      - employeur
+      - agent
 metadata:
-  rank: 2
+  order:
+  - fp_hospitaliers_collectivites_locales

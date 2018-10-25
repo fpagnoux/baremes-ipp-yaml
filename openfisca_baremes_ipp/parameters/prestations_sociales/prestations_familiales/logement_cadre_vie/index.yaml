@@ -1,3 +1,6 @@
 description: Logement et cadre de vie
 metadata:
-  rank: 3
+  order:
+  - pd
+  - pjm_c_plaf
+  - pjm_prets

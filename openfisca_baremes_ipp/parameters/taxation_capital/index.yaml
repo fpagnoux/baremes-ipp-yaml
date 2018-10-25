@@ -1,0 +1,7 @@
+metadata:
+  order:
+  - prelevement_liberatoire_jusqu_2017
+  - prelevement_forfaitaire_revenus_capital_partir_2018
+  - prelevements_sociaux
+  - calcul_impot_solidarite_fortune_isf_jusqu_en_2017
+  - calcul_impot_fortune_immobiliere_ifi_partir_2018

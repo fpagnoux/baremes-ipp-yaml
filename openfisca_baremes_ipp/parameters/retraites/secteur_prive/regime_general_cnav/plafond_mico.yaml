@@ -1,0 +1,32 @@
+description: Plafond du minimum contributif
+metadata:
+  order:
+  - minimum_contributif_plafond_mensuel
+minimum_contributif_plafond_mensuel:
+  annuel:
+    description: Annuel
+    metadata:
+      unit: currency-EUR
+    values:
+      '2012-01-01':
+        value: 1005.0
+      '2012-07-01':
+        value: 1025.1
+      '2013-01-01':
+        value: 1028.17
+      '2014-01-01':
+        value: 1039.47
+      '2014-02-01':
+        value: 1120.0
+      '2015-01-01':
+        value: 1128.96
+      '2016-01-01':
+        value: 1135.73
+      '2017-01-01':
+        value: 1145.95
+      '2018-01-01':
+        value: 1160.04
+  description: 'Minimum contributif: plafond mensuel'
+  metadata:
+    order:
+    - annuel

@@ -1,231 +1,110 @@
 artisans:
   description: Artisans
+  metadata:
+    order:
+    - sous_pss
   sous_pss:
     description: Sous PSS
     metadata:
       unit: /1
     values:
       '1973-01-01':
-        metadata:
-          reference: Loi 72-554 du 03/07/1972
         value: 0.0875
       '1974-01-01':
-        metadata:
-          reference: Décret 73-1209 du 29/12/1973
         value: 0.1025
       '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
         value: 0.1075
       '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
         value: 0.1115
       '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
         value: 0.129
       '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
         value: 0.139
       '1986-08-01':
-        metadata:
-          reference: Décret 86-876 du 29/07/1986
         value: 0.146
       '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
         value: 0.148
       '1989-01-01':
-        metadata:
-          reference: Décret 88-1234 du 30/12/1988
         value: 0.158
       '1991-02-01':
-        metadata:
-          reference: Décret 91-91 du 23/01/1991
         value: 0.1635
       '2004-07-01':
-        metadata:
-          reference: Décret 2004-858 du 24/08/2004
         value: 0.1645
       '2006-01-01':
-        metadata:
-          reference: Décret 2005-1657 du 26/12/2005, art. 1
         value: 0.1665
       '2012-11-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5
         value: 0.1685
       '2014-01-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5; Décret 2013-1290 du 27/12/2013
         value: 0.1695
       '2015-01-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5
         value: 0.1705
       '2016-01-01':
-        metadata:
-          reference: Décret 2014-1531 du 17/12/2014, art. 4 ; Décret 2015-1856 du
-            30/12/2015, art. 10-II
-        value: 0.1715
-      '2017-01-01':
-        metadata:
-          reference: Décret 2015-1856 du 30/12/2015, art. 7
         value: 0.1715
 description: Cotisation SS branche vieillesse, Artisans-Commerçants
 industriels_commercants:
   description: Industriels et commerçants
+  metadata:
+    order:
+    - sous_pss
   sous_pss:
     description: Sous PSS
     metadata:
       unit: /1
     values:
       '1973-01-01':
-        metadata:
-          reference: Loi 72-554 du 03/07/1972
         value: 0.0875
       '1974-01-01':
-        metadata:
-          reference: Décret 73-1209 du 29/12/1973
         value: 0.1025
       '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
         value: 0.1075
       '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
         value: 0.1115
       '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
         value: 0.129
       '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
         value: 0.139
       '1986-08-01':
-        metadata:
-          reference: Décret 86-876 du 29/07/1986
         value: 0.146
       '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
         value: 0.148
       '1989-01-01':
-        metadata:
-          reference: Décret 88-1234 du 30/12/1988
         value: 0.158
       '1991-02-01':
-        metadata:
-          reference: Décret 91-91 du 23/01/1991
         value: 0.1635
       '2004-07-01':
-        metadata:
-          reference: Décret 2004-858 du 24/08/2004
         value: 0.1645
       '2006-01-01':
-        metadata:
-          reference: Décret 2005-1657 du 26/12/2005, art. 1
         value: 0.1665
       '2012-11-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5
         value: 0.1685
       '2014-01-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5; Décret 2013-1290 du 27/12/2013
         value: 0.1695
       '2015-01-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5
         value: 0.1705
       '2016-01-01':
-        metadata:
-          reference: Décret 2014-1531 du 17/12/2014, art. 4 ; Décret 2015-1856 du
-            30/12/2015, art. 10-II
-        value: 0.1715
-      '2017-01-01':
-        metadata:
-          reference: Décret 2015-1856 du 30/12/2015, art. 7
         value: 0.1715
 metadata:
-  rank: 1
+  order:
+  - artisans
+  - industriels_commercants
+  - tous_independants
 tous_independants:
   description: Tous indépendants
+  metadata:
+    order:
+    - tout_salaire
   tout_salaire:
     description: Tout salaire
     metadata:
       unit: /1
     values:
       '1973-01-01':
-        metadata:
-          reference: Loi 72-554 du 03/07/1972
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Décret 73-1209 du 29/12/1973
-        value: null
-      '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
-        value: null
-      '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
-        value: null
-      '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
-        value: null
-      '1986-08-01':
-        metadata:
-          reference: Décret 86-876 du 29/07/1986
-        value: null
-      '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
-        value: null
-      '1989-01-01':
-        metadata:
-          reference: Décret 88-1234 du 30/12/1988
-        value: null
-      '1991-02-01':
-        metadata:
-          reference: Décret 91-91 du 23/01/1991
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Décret 2004-858 du 24/08/2004
-        value: null
-      '2006-01-01':
-        metadata:
-          reference: Décret 2005-1657 du 26/12/2005, art. 1
-        value: null
-      '2012-11-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5
         value: null
       '2014-01-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5; Décret 2013-1290 du 27/12/2013
         value: 0.002
       '2015-01-01':
-        metadata:
-          reference: Décret 2012-847 du 02/07/2012, art. 5
         value: 0.0035
       '2016-01-01':
-        metadata:
-          reference: Décret 2014-1531 du 17/12/2014, art. 4 ; Décret 2015-1856 du
-            30/12/2015, art. 10-II
         value: 0.005
       '2017-01-01':
-        metadata:
-          reference: Décret 2015-1856 du 30/12/2015, art. 7
         value: 0.006

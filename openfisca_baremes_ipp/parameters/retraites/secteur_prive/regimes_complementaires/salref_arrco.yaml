@@ -1,0 +1,93 @@
+description: Salaire de référence ARRCO
+metadata:
+  order:
+  - salaire_reference_en_nominal
+  - salaire_reference_en_euros
+salaire_reference_en_euros:
+  description: Salaire de référence (en euros)
+  metadata:
+    unit: currency-EUR
+  values:
+    '1999-01-01':
+      value: 10.953980215166542
+    '2000-01-01':
+      value: 11.53453656261005
+    '2001-01-01':
+      value: 11.7076
+    '2002-01-01':
+      value: 11.8949
+    '2003-01-01':
+      value: 12.0852
+    '2004-01-01':
+      value: 12.3632
+    '2005-01-01':
+      value: 12.66
+    '2006-01-01':
+      value: 13.0271
+    '2007-01-01':
+      value: 13.5091
+    '2008-01-01':
+      value: 13.9684
+    '2009-01-01':
+      value: 14.2198
+    '2010-01-01':
+      value: 14.4047
+    '2011-01-01':
+      value: 14.7216
+    '2012-01-01':
+      value: 15.0528
+    '2013-01-01':
+      value: 15.2284
+    '2014-01-01':
+      value: 15.2589
+    '2016-01-01':
+      value: 15.6556
+    '2017-01-01':
+      value: 16.1879
+    '2018-01-01':
+      value: 16.7226
+salaire_reference_en_nominal:
+  description: Salaire de référence (en nominal)
+  metadata:
+    unit:
+      '1999-01-01': currency-FRF
+      '2001-01-01': currency-EUR
+  values:
+    '1999-01-01':
+      value: 71.8534
+    '2000-01-01':
+      value: 75.6616
+    '2001-01-01':
+      value: 11.7076
+    '2002-01-01':
+      value: 11.8949
+    '2003-01-01':
+      value: 12.0852
+    '2004-01-01':
+      value: 12.3632
+    '2005-01-01':
+      value: 12.66
+    '2006-01-01':
+      value: 13.0271
+    '2007-01-01':
+      value: 13.5091
+    '2008-01-01':
+      value: 13.9684
+    '2009-01-01':
+      value: 14.2198
+    '2010-01-01':
+      value: 14.4047
+    '2011-01-01':
+      value: 14.7216
+    '2012-01-01':
+      value: 15.0528
+    '2013-01-01':
+      value: 15.2284
+    '2014-01-01':
+      value: 15.2589
+    '2016-01-01':
+      value: 15.6556
+    '2017-01-01':
+      value: 16.1879
+    '2018-01-01':
+      value: 16.7226

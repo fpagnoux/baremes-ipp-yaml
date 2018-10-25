@@ -1,0 +1,126 @@
+coefficient_minoration_par_trimestres_manquants:
+  description: Coefficient de minoration par trimestres manquants
+  metadata:
+    order:
+    - taux_minore_taux_plein_1_decote_nombre_trimestres_manquants
+  taux_minore_taux_plein_1_decote_nombre_trimestres_manquants:
+    '1944_01_01_00_00_00':
+      description: '1944-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.02375
+    '1945_01_01_00_00_00':
+      description: '1945-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.0225
+    '1946_01_01_00_00_00':
+      description: '1946-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.02125
+    '1947_01_01_00_00_00':
+      description: '1947-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.02
+    '1948_01_01_00_00_00':
+      description: '1948-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.01875
+    '1949_01_01_00_00_00':
+      description: '1949-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.0175
+    '1950_01_17_00_00_00':
+      description: '1950-01-17 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.01625
+    '1951_01_01_00_00_00':
+      description: '1951-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.015
+    '1952_01_01_00_00_00':
+      description: '1952-01-01 00:00:00'
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: null
+        '2004-01-01':
+          value: 0.01375
+    avant_1944:
+      description: Avant 1944
+      metadata:
+        unit: /1
+      values:
+        '1946-01-01':
+          value: 0.025
+    description: taux minoré = taux plein * (1 - decote * (nombre de trimestres manquants))
+    metadata:
+      order:
+      - avant_1944
+      - '1944_01_01_00_00_00'
+      - '1945_01_01_00_00_00'
+      - '1946_01_01_00_00_00'
+      - '1947_01_01_00_00_00'
+      - '1948_01_01_00_00_00'
+      - '1949_01_01_00_00_00'
+      - '1950_01_17_00_00_00'
+      - '1951_01_01_00_00_00'
+      - '1952_01_01_00_00_00'
+description: Decote RG
+metadata:
+  order:
+  - coefficient_minoration_par_trimestres_manquants
+  - taux_minore_taux_plein_1_decote_nombre_trimestres_manquants
+taux_minore_taux_plein_1_decote_nombre_trimestres_manquants:
+  '1953_01_01_00_00_00':
+    description: '1953-01-01 00:00:00'
+    metadata:
+      unit: /1
+    values:
+      '1946-01-01':
+        value: null
+      '2004-01-01':
+        value: 0.0125
+  description: taux minoré = taux plein * (1 - decote * (nombre de trimestres manquants))
+  metadata:
+    order:
+    - '1953_01_01_00_00_00'

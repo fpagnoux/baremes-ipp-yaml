@@ -1,18 +1,15 @@
 description: 'Définition d''un couple bi-actif '
 metadata:
-  rank: 1
+  order:
+  - revenu_professionnel_plancher_couples_biactifs
 revenu_professionnel_plancher_couples_biactifs:
   description: Revenu professionnel plancher pour les couples biactifs
   en_nombre_fois_bmaf:
     description: En nombre de fois de la BMAF
     values:
       '1979-01-01':
-        metadata:
-          reference: Références manquantes
         value: 12.0
       '2011-11-01':
-        metadata:
-          reference: Circulaire n° DSS/2B/2011/447 du 01/12/2011
         value: null
   en_pourcentage_pss:
     description: En pourcentage du PSS
@@ -20,10 +17,10 @@ revenu_professionnel_plancher_couples_biactifs:
       unit: /1
     values:
       '1979-01-01':
-        metadata:
-          reference: Références manquantes
         value: null
       '2011-11-01':
-        metadata:
-          reference: Circulaire n° DSS/2B/2011/447 du 01/12/2011
         value: 0.136
+  metadata:
+    order:
+    - en_pourcentage_pss
+    - en_nombre_fois_bmaf

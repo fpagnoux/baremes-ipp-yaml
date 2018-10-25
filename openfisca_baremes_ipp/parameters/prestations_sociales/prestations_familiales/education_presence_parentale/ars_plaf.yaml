@@ -5,104 +5,25 @@ majoration_par_enfant_en_plafond_ressources_avec_0_enfant:
     unit: /1
   values:
     '1978-07-13':
-      metadata:
-        reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. R543-2 du CSS)
       value: 0.3
     '1986-07-01':
       value: 0.23076389659380894
     '1997-07-01':
-      metadata:
-        reference: Arrêté du 14/05/1997
-      value: 0.3
-    '1998-07-01':
-      metadata:
-        reference: Circulaire DSS/4 A 98-395 du 30/061998
-      value: 0.3
-    '1999-07-01':
-      metadata:
-        reference: Décret 99-534 du 25/06/1999
-      value: 0.3
-    '2000-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2000
-      value: 0.3
-    '2001-07-01':
-      metadata:
-        reference: Arrêté du 28/06/2001
-      value: 0.3
-    '2002-07-01':
-      metadata:
-        reference: Arrêté du 29/04/2002
-      value: 0.3
-    '2003-07-01':
-      metadata:
-        reference: Arrêté du 26/06/2003
-      value: 0.3
-    '2004-07-01':
-      metadata:
-        reference: Arrêté du 16/07/2004
-      value: 0.3
-    '2005-07-01':
-      metadata:
-        reference: Arrêté du 01/08/2005
-      value: 0.3
-    '2006-07-01':
-      metadata:
-        reference: Arrêté du 17/07/2006
-      value: 0.3
-    '2007-07-01':
-      metadata:
-        reference: Arrêté du 10/07/2007
       value: 0.3
     '2008-10-10':
-      metadata:
-        reference: Décret 2008-1025 du 07/10/2008                   Décret 2008-767
-          du 30/07/2008, art. 1 (modif art. D543-1)
       value: 0.29999472211959677
     '2009-01-01':
-      metadata:
-        reference: Arrêté du 31/12/2008
-      value: 0.3
-    '2010-01-01':
-      metadata:
-        reference: Arrêté du 29/12/2009
       value: 0.3
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2010
       value: 0.3000169788895806
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 28/12/2011, art. 3
-      value: 0.30001120699316375
-    '2013-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2012/423
       value: 0.30001120699316375
     '2014-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2013/417
-      value: 0.3
-    '2015-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2014/345
-      value: 0.3
-    '2016-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2015/371 du 18/12/2015
-      value: 0.3
-    '2017-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2016/396 du 21/12/2016
-      value: 0.3
-    '2018-01-01':
-      metadata:
-        reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-          Arrêté du 27/12/2017'
       value: 0.3
 metadata:
-  rank: 3
+  order:
+  - plafond_ressources_0_enfant
+  - majoration_par_enfant_en_plafond_ressources_avec_0_enfant
 plafond_ressources_0_enfant:
   description: Plafond de ressources - 0 enfant
   metadata:
@@ -111,99 +32,48 @@ plafond_ressources_0_enfant:
       '2002-07-01': currency-EUR
   values:
     '1978-07-13':
-      metadata:
-        reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. R543-2 du CSS)
       value: 25500.0
     '1986-07-01':
       value: 72104.0
     '1997-07-01':
-      metadata:
-        reference: Arrêté du 14/05/1997
       value: 77182.0
     '1998-07-01':
-      metadata:
-        reference: Circulaire DSS/4 A 98-395 du 30/061998
       value: 78031.0
     '1999-07-01':
-      metadata:
-        reference: Décret 99-534 du 25/06/1999
       value: 78499.0
     '2000-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2000
       value: 78891.0
     '2001-07-01':
-      metadata:
-        reference: Arrêté du 28/06/2001
       value: 80153.0
     '2002-07-01':
-      metadata:
-        reference: Arrêté du 29/04/2002
       value: 12415.0
     '2003-07-01':
-      metadata:
-        reference: Arrêté du 26/06/2003
       value: 12626.0
     '2004-07-01':
-      metadata:
-        reference: Arrêté du 16/07/2004
       value: 12866.0
     '2005-07-01':
-      metadata:
-        reference: Arrêté du 01/08/2005
       value: 13085.0
     '2006-07-01':
-      metadata:
-        reference: Arrêté du 17/07/2006
       value: 13307.0
     '2007-07-01':
-      metadata:
-        reference: Arrêté du 10/07/2007
       value: 16916.0
     '2008-10-10':
-      metadata:
-        reference: Décret 2008-1025 du 07/10/2008                   Décret 2008-767
-          du 30/07/2008, art. 1 (modif art. D543-1)
       value: 18947.0
     '2009-01-01':
-      metadata:
-        reference: Arrêté du 31/12/2008
       value: 17170.0
     '2010-01-01':
-      metadata:
-        reference: Arrêté du 29/12/2009
       value: 17651.0
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2010
       value: 17669.0
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 28/12/2011, art. 3
       value: 17846.0
     '2013-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2012/423
       value: 18221.0
     '2014-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2013/417
       value: 18567.0
     '2015-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2014/345
       value: 18697.0
     '2016-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2015/371 du 18/12/2015
-      value: 18772.0
-    '2017-01-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2016/396 du 21/12/2016
       value: 18772.0
     '2018-01-01':
-      metadata:
-        reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-          Arrêté du 27/12/2017'
       value: 18810.0

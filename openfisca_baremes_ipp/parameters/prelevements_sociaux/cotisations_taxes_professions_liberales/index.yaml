@@ -1,3 +1,8 @@
 description: Cotisations et taxes des professions libérales
 metadata:
-  rank: 9
+  order:
+  - mmid_pl
+  - ret_pl
+  - ret_comp_pl
+  - formation_pl
+  - auto_entrepreneur

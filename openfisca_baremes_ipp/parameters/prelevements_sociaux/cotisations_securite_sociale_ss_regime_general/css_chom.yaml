@@ -1,5 +1,8 @@
 cotisation_speciale_assurance_maladie:
   description: Cotisation spéciale assurance maladie
+  metadata:
+    order:
+    - taux
   taux:
     description: Taux
     metadata:
@@ -7,19 +10,7 @@ cotisation_speciale_assurance_maladie:
     values:
       '1985-04-01':
         value: 0.01
-      '1988-03-01':
-        metadata:
-          reference: Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
-        value: 0.01
       '1988-07-01':
-        value: 0.014
-      '1990-01-01':
-        metadata:
-          reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
-        value: 0.014
-      '1993-01-01':
-        metadata:
-          reference: Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
         value: 0.014
       '1996-01-01':
         value: 0.026
@@ -29,7 +20,9 @@ cotisation_speciale_assurance_maladie:
         value: null
 description: Cotisations SS sur les allocations chômage
 metadata:
-  rank: 15
+  order:
+  - cotisation_speciale_assurance_maladie
+  - participation_retraite_complementaire
 participation_retraite_complementaire:
   assiette_sjr:
     affiliation_3_6_mois:
@@ -40,20 +33,8 @@ participation_retraite_complementaire:
         '1985-04-01':
           value: null
         '1988-03-01':
-          metadata:
-            reference: Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
-          value: 0.4
-        '1988-07-01':
           value: 0.4
         '1990-01-01':
-          metadata:
-            reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
-          value: 1.0
-        '1993-01-01':
-          metadata:
-            reference: Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
-          value: 1.0
-        '1996-01-01':
           value: 1.0
     affiliation_6_mois:
       description: affiliation > 6 mois
@@ -63,23 +44,19 @@ participation_retraite_complementaire:
         '1985-04-01':
           value: null
         '1988-03-01':
-          metadata:
-            reference: Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
-          value: 0.3
-        '1988-07-01':
           value: 0.3
         '1990-01-01':
-          metadata:
-            reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
-          value: 1.0
-        '1993-01-01':
-          metadata:
-            reference: Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
-          value: 1.0
-        '1996-01-01':
           value: 1.0
     description: Assiette (% SJR)
+    metadata:
+      order:
+      - affiliation_3_6_mois
+      - affiliation_6_mois
   description: Participation retraite complémentaire
+  metadata:
+    order:
+    - taux
+    - assiette_sjr
   taux:
     affiliation_3_6_mois:
       description: affiliation 3-6 mois
@@ -89,20 +66,10 @@ participation_retraite_complementaire:
         '1985-04-01':
           value: null
         '1988-03-01':
-          metadata:
-            reference: Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
-          value: 0.01
-        '1988-07-01':
           value: 0.01
         '1990-01-01':
-          metadata:
-            reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
           value: 0.008
         '1993-01-01':
-          metadata:
-            reference: Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
-          value: 0.012
-        '1996-01-01':
           value: 0.012
         '2003-01-01':
           value: 0.03
@@ -114,21 +81,15 @@ participation_retraite_complementaire:
         '1985-04-01':
           value: null
         '1988-03-01':
-          metadata:
-            reference: Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
-          value: 0.01
-        '1988-07-01':
           value: 0.01
         '1990-01-01':
-          metadata:
-            reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
           value: 0.006
         '1993-01-01':
-          metadata:
-            reference: Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
-          value: 0.012
-        '1996-01-01':
           value: 0.012
         '2003-01-01':
           value: 0.03
     description: Taux
+    metadata:
+      order:
+      - affiliation_3_6_mois
+      - affiliation_6_mois

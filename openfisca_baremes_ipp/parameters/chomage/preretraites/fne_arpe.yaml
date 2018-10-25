@@ -1,6 +1,7 @@
 description: Montant minimum des préretraites FNE-ARPE
 metadata:
-  rank: 5
+  order:
+  - montant_minimum
 montant_minimum:
   description: Montant minimum
   lic_demission_arpe:
@@ -11,159 +12,87 @@ montant_minimum:
         '2001-01-01': currency-EUR
     values:
       '1984-04-01':
-        metadata:
-          reference: Arrêté du 25/06/1984
         value: 116.0
       '1985-01-01':
-        metadata:
-          reference: Arrêté du 12/03/1985
         value: 119.25
       '1985-07-01':
-        metadata:
-          reference: Arrêté du 09/08/1985
         value: 122.59
       '1986-01-01':
-        metadata:
-          reference: ''
         value: 124.18
       '1986-10-01':
-        metadata:
-          reference: ''
         value: 124.8
       '1987-01-01':
-        metadata:
-          reference: ''
         value: 127.05
       '1987-07-01':
-        metadata:
-          reference: Loi du 27/01/1987
         value: 128.32
       '1988-01-01':
-        metadata:
-          reference: Loi du 05/01/1988
         value: 131.66
       '1988-07-01':
-        metadata:
-          reference: Loi du 05/01/1988
         value: 133.37
       '1989-01-01':
-        metadata:
-          reference: Loi du 13/01/1989
         value: 135.1
       '1989-07-01':
-        metadata:
-          reference: Loi du 13/01/1989
         value: 136.72
       '1990-01-01':
-        metadata:
-          reference: Loi du 23/01/1990
         value: 139.66
       '1990-07-01':
-        metadata:
-          reference: Loi du 23/01/1990
         value: 141.48
       '1991-01-01':
-        metadata:
-          reference: Loi du 18/01/1991
         value: 143.89
       '1991-07-01':
-        metadata:
-          reference: Loi du 31/12/1991
         value: 145.04
       '1992-01-01':
-        metadata:
-          reference: Loi du 31/12/1991
         value: 146.49
       '1992-07-01':
-        metadata:
-          reference: Loi du 31/12/1991
         value: 149.13
       '1993-01-01':
-        metadata:
-          reference: Arrêté du 22/01/1993
         value: 151.07
       '1994-01-01':
-        metadata:
-          reference: Arrêté du 24/01/1994
         value: 154.09
       '1995-01-01':
-        metadata:
-          reference: Arrêté du 27/01/1995
         value: 155.94
       '1995-07-01':
-        metadata:
-          reference: Arrêté du 31/07/1995
         value: 156.72
       '1996-01-01':
-        metadata:
-          reference: Arrêté du 30/01/1996
         value: 159.85
       '1997-01-01':
-        metadata:
-          reference: Arrêté du 30/12/1996
         value: 161.77
       '1998-01-01':
-        metadata:
-          reference: Arrêté du 29/12/1997
         value: 163.55
       '1999-01-01':
-        metadata:
-          reference: Arrêté du 29/12/1998
         value: 165.51
       '2000-01-01':
-        metadata:
-          reference: Arrêté du 29/12/1999
         value: 166.34
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 25.92
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 25/12/2002
         value: 26.49
       '2003-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2002
         value: 26.89
       '2004-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2003
         value: 27.35
       '2005-01-01':
-        metadata:
-          reference: Directive Unedic 09-05 du 24/02/2005
         value: 27.9
       '2006-01-01':
-        metadata:
-          reference: Directive Unedic 2006-04 du 24/01/2006
         value: 28.4
       '2007-01-01':
-        metadata:
-          reference: Circulaire 2007-09 du 26/06/2007 - décision du 21/06/2007
         value: 28.91
       '2008-01-01':
-        metadata:
-          reference: Circulaire 2008-04 du 01/07/2008 - décision du 24/06/2008
         value: 29.23
       '2009-04-01':
-        metadata:
-          reference: Circulaire 2009-16 du 09/07/2009
         value: 29.75
       '2010-04-01':
         value: 30.02
       '2011-04-01':
-        metadata:
-          reference: DGEFP Instruction 2011-23 du 10/10/2011
         value: 30.65
       '2015-10-01':
-        metadata:
-          reference: Circulaire de la CNAMTS CIR 13-2015 du 21/10/2015
         value: 31.73
       '2017-10-01':
-        metadata:
-          reference: Circulaire de la CNAMTS CIR 18-2017 du 17/10/2017
         value: 31.98
+  metadata:
+    order:
+    - lic_demission_arpe
+    - progress_mi_temps
   progress_mi_temps:
     description: Progress mi temps
     metadata:
@@ -172,156 +101,80 @@ montant_minimum:
         '2001-01-01': currency-EUR
     values:
       '1984-04-01':
-        metadata:
-          reference: Arrêté du 25/06/1984
         value: 58.0
       '1985-01-01':
-        metadata:
-          reference: Arrêté du 12/03/1985
         value: 59.62
       '1985-07-01':
-        metadata:
-          reference: Arrêté du 09/08/1985
         value: 61.29
       '1986-01-01':
-        metadata:
-          reference: ''
         value: 62.09
       '1986-10-01':
-        metadata:
-          reference: ''
         value: 62.4
       '1987-01-01':
-        metadata:
-          reference: ''
         value: 63.52
       '1987-07-01':
-        metadata:
-          reference: Loi du 27/01/1987
         value: 64.16
       '1988-01-01':
-        metadata:
-          reference: Loi du 05/01/1988
         value: 65.83
       '1988-07-01':
-        metadata:
-          reference: Loi du 05/01/1988
         value: 66.69
       '1989-01-01':
-        metadata:
-          reference: Loi du 13/01/1989
         value: 67.55
       '1989-07-01':
-        metadata:
-          reference: Loi du 13/01/1989
         value: 68.36
       '1990-01-01':
-        metadata:
-          reference: Loi du 23/01/1990
         value: 69.83
       '1990-07-01':
-        metadata:
-          reference: Loi du 23/01/1990
         value: 70.74
       '1991-01-01':
-        metadata:
-          reference: Loi du 18/01/1991
         value: 71.94
       '1991-07-01':
-        metadata:
-          reference: Loi du 31/12/1991
         value: 72.52
       '1992-01-01':
-        metadata:
-          reference: Loi du 31/12/1991
         value: 73.25
       '1992-07-01':
-        metadata:
-          reference: Loi du 31/12/1991
         value: 74.57
       '1993-01-01':
-        metadata:
-          reference: Arrêté du 22/01/1993
         value: 75.54
       '1994-01-01':
-        metadata:
-          reference: Arrêté du 24/01/1994
         value: 77.05
       '1995-01-01':
-        metadata:
-          reference: Arrêté du 27/01/1995
         value: 77.97
       '1995-07-01':
-        metadata:
-          reference: Arrêté du 31/07/1995
         value: 78.36
       '1996-01-01':
-        metadata:
-          reference: Arrêté du 30/01/1996
         value: 79.93
       '1997-01-01':
-        metadata:
-          reference: Arrêté du 30/12/1996
         value: 80.89
       '1998-01-01':
-        metadata:
-          reference: Arrêté du 29/12/1997
         value: 81.78
       '1999-01-01':
-        metadata:
-          reference: Arrêté du 29/12/1998
         value: 82.76
       '2000-01-01':
-        metadata:
-          reference: Arrêté du 29/12/1999
         value: 83.17
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 12.96
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 25/12/2002
         value: 13.24
       '2003-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2002
         value: 13.44
       '2004-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2003
         value: 13.67
       '2005-01-01':
-        metadata:
-          reference: Directive Unedic 09-05 du 24/02/2005
         value: 13.95
       '2006-01-01':
-        metadata:
-          reference: Directive Unedic 2006-04 du 24/01/2006
         value: 14.2
       '2007-01-01':
-        metadata:
-          reference: Circulaire 2007-09 du 26/06/2007 - décision du 21/06/2007
         value: 14.45
       '2008-01-01':
-        metadata:
-          reference: Circulaire 2008-04 du 01/07/2008 - décision du 24/06/2008
         value: 14.61
       '2009-04-01':
-        metadata:
-          reference: Circulaire 2009-16 du 09/07/2009
         value: 14.87
       '2010-04-01':
         value: 15.02
       '2011-04-01':
-        metadata:
-          reference: DGEFP Instruction 2011-23 du 10/10/2011
         value: 15.32
       '2015-10-01':
-        metadata:
-          reference: Circulaire de la CNAMTS CIR 13-2015 du 21/10/2015
         value: 15.86
       '2017-10-01':
-        metadata:
-          reference: Circulaire de la CNAMTS CIR 18-2017 du 17/10/2017
         value: 15.99

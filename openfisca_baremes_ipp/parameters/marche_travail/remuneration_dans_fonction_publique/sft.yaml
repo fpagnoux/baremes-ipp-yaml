@@ -3,90 +3,47 @@ im_plafond:
   description: IM Plafond
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
       value: 621.0
     '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
       value: 623.0
     '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 716.0
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 716.0
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 716.0
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 716.0
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 716.0
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
-      value: 716.0
-    '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
       value: 716.0
     '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 717.0
 im_plancher:
   description: IM Plancher
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
       value: 380.0
     '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
       value: 382.0
     '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
       value: 440.0
     '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
       value: 442.0
     '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
       value: 444.0
     '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
       value: 443.0
     '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
       value: 446.0
     '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
       value: 447.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
       value: 448.0
     '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 449.0
 metadata:
-  rank: 0
+  order:
+  - part_fixe_1
+  - part_fixe_2
+  - part_fixe_3
+  - part_fixe_4
+  - taux_2
+  - taux_3
+  - taux_4
+  - im_plancher
+  - im_plafond
 part_fixe_1:
   description: Part fixe 1
   metadata:
@@ -95,44 +52,8 @@ part_fixe_1:
       '2002-01-01': currency-EUR
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
-      value: 180.0
-    '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
-      value: 180.0
-    '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 180.0
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 180.0
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 180.0
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 180.0
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 180.0
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
       value: 180.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
-      value: 2.29
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 2.29
 part_fixe_2:
   description: Part fixe 2
@@ -142,44 +63,10 @@ part_fixe_2:
       '2002-01-01': currency-EUR
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
       value: 480.0
     '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
-      value: 840.0
-    '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 840.0
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 840.0
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 840.0
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 840.0
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 840.0
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
       value: 840.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
-      value: 10.67
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 10.67
 part_fixe_3:
   description: Part fixe 3
@@ -189,44 +76,10 @@ part_fixe_3:
       '2002-01-01': currency-EUR
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
       value: 720.0
     '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
-      value: 1200.0
-    '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 1200.0
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 1200.0
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 1200.0
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 1200.0
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 1200.0
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
       value: 1200.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
-      value: 15.24
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 15.24
 part_fixe_4:
   description: Part fixe 4
@@ -236,44 +89,10 @@ part_fixe_4:
       '2002-01-01': currency-EUR
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
       value: 240.0
     '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
-      value: 360.0
-    '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 360.0
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 360.0
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 360.0
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 360.0
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 360.0
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
       value: 360.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
-      value: 4.57
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 4.57
 taux_2:
   description: Taux 2
@@ -281,44 +100,6 @@ taux_2:
     unit: /1
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
-      value: 0.03
-    '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
-      value: 0.03
-    '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 0.03
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 0.03
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 0.03
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 0.03
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 0.03
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
-      value: 0.03
-    '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
-      value: 0.03
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 0.03
 taux_3:
   description: Taux 3
@@ -326,44 +107,6 @@ taux_3:
     unit: /1
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
-      value: 0.08
-    '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
-      value: 0.08
-    '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 0.08
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 0.08
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 0.08
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 0.08
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 0.08
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
-      value: 0.08
-    '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
-      value: 0.08
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 0.08
 taux_4:
   description: Taux 4
@@ -371,42 +114,4 @@ taux_4:
     unit: /1
   values:
     '1985-11-01':
-      metadata:
-        reference: Décret 85-1148 du 24/10/1985 - art. 10
-      value: 0.06
-    '1988-02-07':
-      metadata:
-        reference: Décret 86-167 du 31/01/1986, art. 1 VI
-      value: 0.06
-    '1988-03-01':
-      metadata:
-        reference: Décret 88-229 du 09/03/1988, art. 5
-      value: 0.06
-    '1988-10-01':
-      metadata:
-        reference: Décret 88-1067 du 23/11/1988, art. 2
-      value: 0.06
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990, art. 2
-      value: 0.06
-    '1990-02-01':
-      metadata:
-        reference: Décret 89-64 du 04/02/1989, art. 2
-      value: 0.06
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 18/11/1991, art. 2
-      value: 0.06
-    '1999-03-20':
-      metadata:
-        reference: Décret 99-491 du 10/06/1999
-      value: 0.06
-    '2002-01-01':
-      metadata:
-        reference: Décret 2001-895 du 26/09/2001
-      value: 0.06
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 0.06

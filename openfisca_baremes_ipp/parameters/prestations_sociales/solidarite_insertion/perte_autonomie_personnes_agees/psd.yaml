@@ -1,57 +1,44 @@
 description: Prestation spécifique dépendance (PSD, 1997-2001)
 metadata:
-  rank: 0
+  order:
+  - seuil_ressources_en_fr_an
+  - plafond_cumul_ressources
+  - seuil_versement_psd_en_part_salaire_horaire_brut_minimum_croissance
 plafond_cumul_ressources:
   description: Plafond pour cumul des ressources
   metadata:
     unit: currency-FRF
   values:
     '1997-05-01':
-      metadata:
-        reference: Arrêté du 28/04/1997
       value: 2129.0
     '1998-01-01':
-      metadata:
-        reference: Arrêté du 02/03/1998
       value: 2083.0
     '1999-01-01':
-      metadata:
-        reference: Arrêté du 06/04/1999
       value: 2062.0
     '2000-01-01':
-      metadata:
-        reference: Arrêté du 13/03/2000
       value: 2022.0
     '2001-01-01':
-      metadata:
-        reference: Arrêté du 01/08/2001
       value: 2000.0
 seuil_ressources_en_fr_an:
   description: Seuil de ressources (en Fr/an)
+  metadata:
+    order:
+    - personne_seule
+    - personne_en_couple
   personne_en_couple:
     description: Personne en couple
     metadata:
       unit: currency-FRF
     values:
       '1997-05-01':
-        metadata:
-          reference: Arrêté du 28/04/1997
         value: 120000.0
       '1998-01-01':
-        metadata:
-          reference: Arrêté du 02/03/1998
         value: 121320.0
       '1999-01-01':
-        metadata:
-          reference: Arrêté du 06/04/1999
         value: 123746.0
       '2000-01-01':
-        metadata:
-          reference: Arrêté du 13/03/2000
         value: 124983.0
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 01/08/2001
         value: 127733.0
   personne_seule:
     description: Personne seule
@@ -59,45 +46,17 @@ seuil_ressources_en_fr_an:
       unit: currency-FRF
     values:
       '1997-05-01':
-        metadata:
-          reference: Arrêté du 28/04/1997
         value: 72000.0
       '1998-01-01':
-        metadata:
-          reference: Arrêté du 02/03/1998
         value: 72792.0
       '1999-01-01':
-        metadata:
-          reference: Arrêté du 06/04/1999
         value: 74248.0
       '2000-01-01':
-        metadata:
-          reference: Arrêté du 13/03/2000
         value: 74990.0
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 01/08/2001
         value: 76640.0
 seuil_versement_psd_en_part_salaire_horaire_brut_minimum_croissance:
   description: Seuil  versement PSD (en part du salaire horaire brut minimum de croissance)
   values:
     '1997-05-01':
-      metadata:
-        reference: Arrêté du 28/04/1997
-      value: 3.0
-    '1998-01-01':
-      metadata:
-        reference: Arrêté du 02/03/1998
-      value: 3.0
-    '1999-01-01':
-      metadata:
-        reference: Arrêté du 06/04/1999
-      value: 3.0
-    '2000-01-01':
-      metadata:
-        reference: Arrêté du 13/03/2000
-      value: 3.0
-    '2001-01-01':
-      metadata:
-        reference: Arrêté du 01/08/2001
       value: 3.0

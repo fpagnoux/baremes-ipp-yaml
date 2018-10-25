@@ -1,6 +1,8 @@
 description: Valeur du point ARRCO, PRO-BTP (1960-1998)
 metadata:
-  rank: 21
+  order:
+  - valeur_point_cnro_en_nominal
+  - valeur_point_cnro_en_euros
 valeur_point_cnro_en_euros:
   description: Valeur du point CNRO (en euros)
   metadata:

@@ -1,3 +1,10 @@
 description: Prestations familiales
 metadata:
-  rank: 1
+  order:
+  - def_pac
+  - def_biactif
+  - bmaf
+  - prestations_generales
+  - petite_enfance
+  - education_presence_parentale
+  - logement_cadre_vie

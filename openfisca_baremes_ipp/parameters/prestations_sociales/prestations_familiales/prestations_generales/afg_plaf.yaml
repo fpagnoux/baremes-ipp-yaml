@@ -1,6 +1,9 @@
 description: 'Allocation pour frais de garde (AFG) : plafonds de ressources'
 metadata:
-  rank: 9
+  order:
+  - plafond_ressources_revenu
+  - plafond_ressources_2_revenus
+  - plafond_unique_montant_mensuel_max_majoration_s_u
 plafond_ressources_2_revenus:
   1_enfant:
     description: 1 enfant
@@ -8,13 +11,8 @@ plafond_ressources_2_revenus:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 40200.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   2_enfants:
     description: 2 enfants
@@ -22,13 +20,8 @@ plafond_ressources_2_revenus:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 48240.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   3_enfants:
     description: 3 enfants
@@ -36,28 +29,24 @@ plafond_ressources_2_revenus:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 56280.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   description: Plafond de ressources pour 2 revenus
+  metadata:
+    order:
+    - 1_enfant
+    - 2_enfants
+    - 3_enfants
+    - par_enfant_supplementaire
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     metadata:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 8040.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
 plafond_ressources_revenu:
   1_enfant:
@@ -66,13 +55,8 @@ plafond_ressources_revenu:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 24120.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   2_enfants:
     description: 2 enfants
@@ -80,13 +64,8 @@ plafond_ressources_revenu:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 32160.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   3_enfants:
     description: 3 enfants
@@ -94,28 +73,24 @@ plafond_ressources_revenu:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 40200.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   description: Plafond de ressources pour un revenu
+  metadata:
+    order:
+    - 1_enfant
+    - 2_enfants
+    - 3_enfants
+    - par_enfant_supplementaire
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     metadata:
       unit: currency-FRF
     values:
       '1976-07-01':
-        metadata:
-          reference: Décret 74-568 du 17/05/1974                                  Décret
-            75-556 du 02/07/1975
         value: 8040.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
 plafond_unique_montant_mensuel_max_majoration_s_u:
   description: Plafond unique (montant mensuel max + majoration du S.U.)
@@ -123,11 +98,6 @@ plafond_unique_montant_mensuel_max_majoration_s_u:
     unit: currency-FRF
   values:
     '1976-07-01':
-      metadata:
-        reference: Décret 74-568 du 17/05/1974                                  Décret
-          75-556 du 02/07/1975
       value: 291.35
     '1978-01-01':
-      metadata:
-        reference: Loi 77-765 du 12/07/1977
       value: null

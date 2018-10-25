@@ -2,267 +2,45 @@ age_limite_enfants_charge:
   description: Âge limite pour les enfants à charge
   values:
     '1991-11-11':
-      metadata:
-        reference: Décret 91-1159 du 08/11/1991, art. 1 (modif art. D542-4 du CSS)
       value: 18.0
     '2000-01-01':
-      metadata:
-        reference: Décret 2000-72 du 28/01/2000, art. 1 (modif art. D542-4 du CSS)
-      value: 21.0
-    '2007-07-01':
-      metadata:
-        reference: Décret 2007-1081 du 10/07/2007, art. 4 (modif art. D542-4 du CSS)
-      value: 21.0
-    '2008-01-01':
-      metadata:
-        reference: Arrêté du 21/12/2007, art. 1
-      value: 21.0
-    '2008-09-01':
-      metadata:
-        reference: Circulaire Cnav 2008/45 du 12/08/2008
-      value: 21.0
-    '2009-04-01':
-      metadata:
-        reference: Décret 2009-473 du 28/04/2009, art. 1
-      value: 21.0
-    '2010-04-01':
-      metadata:
-        reference: Circulaire Cnav 2010/43 du 23/04/2010
-      value: 21.0
-    '2011-04-01':
-      metadata:
-        reference: Circulaire Cnav 2011/30 du 14/04/2011
-      value: 21.0
-    '2012-04-01':
-      metadata:
-        reference: Circulaire Cnav 2012/35 du 17/04/2012
-      value: 21.0
-    '2013-04-01':
-      metadata:
-        reference: Circulaire Cnav 2013/29 du 18/04/2014
-      value: 21.0
-    '2014-04-01':
-      metadata:
-        reference: Circulaire Cnav 2014/28 du 09/04/2014
-      value: 21.0
-    '2014-10-01':
-      metadata:
-        reference: Décret 2014-1215 du 20/10/2014
-      value: 21.0
-    '2016-04-01':
-      metadata:
-        reference: Circulaire Cnav 2016/18 du 29/03/2016
-      value: 21.0
-    '2016-07-01':
-      metadata:
-        reference: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du 14/02/2013
-          (art. 2) (modif. Art. D542-4 du CSS)
-      value: 21.0
-    '2017-04-01':
-      metadata:
-        reference: Circulaire Cnav 2017-13 du 04/04/2017
       value: 21.0
 age_minimal:
   ascendants_leur_conjoint_2:
     description: Pour les ascendants et leur conjoint (2)
     values:
       '1991-11-11':
-        metadata:
-          reference: Décret 91-1159 du 08/11/1991, art. 1 (modif art. D542-4 du CSS)
-        value: 65.0
-      '2000-01-01':
-        metadata:
-          reference: Décret 2000-72 du 28/01/2000, art. 1 (modif art. D542-4 du CSS)
-        value: 65.0
-      '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 4 (modif art. D542-4 du
-            CSS)
-        value: 65.0
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 21/12/2007, art. 1
-        value: 65.0
-      '2008-09-01':
-        metadata:
-          reference: Circulaire Cnav 2008/45 du 12/08/2008
-        value: 65.0
-      '2009-04-01':
-        metadata:
-          reference: Décret 2009-473 du 28/04/2009, art. 1
-        value: 65.0
-      '2010-04-01':
-        metadata:
-          reference: Circulaire Cnav 2010/43 du 23/04/2010
-        value: 65.0
-      '2011-04-01':
-        metadata:
-          reference: Circulaire Cnav 2011/30 du 14/04/2011
-        value: 65.0
-      '2012-04-01':
-        metadata:
-          reference: Circulaire Cnav 2012/35 du 17/04/2012
-        value: 65.0
-      '2013-04-01':
-        metadata:
-          reference: Circulaire Cnav 2013/29 du 18/04/2014
-        value: 65.0
-      '2014-04-01':
-        metadata:
-          reference: Circulaire Cnav 2014/28 du 09/04/2014
-        value: 65.0
-      '2014-10-01':
-        metadata:
-          reference: Décret 2014-1215 du 20/10/2014
-        value: 65.0
-      '2016-04-01':
-        metadata:
-          reference: Circulaire Cnav 2016/18 du 29/03/2016
         value: 65.0
       '2016-07-01':
-        metadata:
-          reference: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du
-            14/02/2013 (art. 2) (modif. Art. D542-4 du CSS)
-        value: 67.0
-      '2017-04-01':
-        metadata:
-          reference: Circulaire Cnav 2017-13 du 04/04/2017
         value: 67.0
   ascendants_leur_conjoint_s_ils_sont_titulaires_aspa:
     description: Pour les ascendants et leur conjoint, s'ils sont titulaires de l'ASPA
     values:
       '1991-11-11':
-        metadata:
-          reference: Décret 91-1159 du 08/11/1991, art. 1 (modif art. D542-4 du CSS)
-        value: null
-      '2000-01-01':
-        metadata:
-          reference: Décret 2000-72 du 28/01/2000, art. 1 (modif art. D542-4 du CSS)
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 4 (modif art. D542-4 du
-            CSS)
-        value: null
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 21/12/2007, art. 1
-        value: null
-      '2008-09-01':
-        metadata:
-          reference: Circulaire Cnav 2008/45 du 12/08/2008
-        value: null
-      '2009-04-01':
-        metadata:
-          reference: Décret 2009-473 du 28/04/2009, art. 1
-        value: null
-      '2010-04-01':
-        metadata:
-          reference: Circulaire Cnav 2010/43 du 23/04/2010
-        value: null
-      '2011-04-01':
-        metadata:
-          reference: Circulaire Cnav 2011/30 du 14/04/2011
-        value: null
-      '2012-04-01':
-        metadata:
-          reference: Circulaire Cnav 2012/35 du 17/04/2012
-        value: null
-      '2013-04-01':
-        metadata:
-          reference: Circulaire Cnav 2013/29 du 18/04/2014
-        value: null
-      '2014-04-01':
-        metadata:
-          reference: Circulaire Cnav 2014/28 du 09/04/2014
-        value: null
-      '2014-10-01':
-        metadata:
-          reference: Décret 2014-1215 du 20/10/2014
-        value: null
-      '2016-04-01':
-        metadata:
-          reference: Circulaire Cnav 2016/18 du 29/03/2016
         value: null
       '2016-07-01':
-        metadata:
-          reference: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du
-            14/02/2013 (art. 2) (modif. Art. D542-4 du CSS)
-        value: 65.0
-      '2017-04-01':
-        metadata:
-          reference: Circulaire Cnav 2017-13 du 04/04/2017
         value: 65.0
   ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2:
     description: Pour les ascendants et leurs conjoints qui sont invalides ou anciens
       déportés ou internés (2)
     values:
       '1991-11-11':
-        metadata:
-          reference: Décret 91-1159 du 08/11/1991, art. 1 (modif art. D542-4 du CSS)
-        value: 60.0
-      '2000-01-01':
-        metadata:
-          reference: Décret 2000-72 du 28/01/2000, art. 1 (modif art. D542-4 du CSS)
-        value: 60.0
-      '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 4 (modif art. D542-4 du
-            CSS)
-        value: 60.0
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 21/12/2007, art. 1
-        value: 60.0
-      '2008-09-01':
-        metadata:
-          reference: Circulaire Cnav 2008/45 du 12/08/2008
-        value: 60.0
-      '2009-04-01':
-        metadata:
-          reference: Décret 2009-473 du 28/04/2009, art. 1
-        value: 60.0
-      '2010-04-01':
-        metadata:
-          reference: Circulaire Cnav 2010/43 du 23/04/2010
-        value: 60.0
-      '2011-04-01':
-        metadata:
-          reference: Circulaire Cnav 2011/30 du 14/04/2011
-        value: 60.0
-      '2012-04-01':
-        metadata:
-          reference: Circulaire Cnav 2012/35 du 17/04/2012
-        value: 60.0
-      '2013-04-01':
-        metadata:
-          reference: Circulaire Cnav 2013/29 du 18/04/2014
-        value: 60.0
-      '2014-04-01':
-        metadata:
-          reference: Circulaire Cnav 2014/28 du 09/04/2014
-        value: 60.0
-      '2014-10-01':
-        metadata:
-          reference: Décret 2014-1215 du 20/10/2014
-        value: 60.0
-      '2016-04-01':
-        metadata:
-          reference: Circulaire Cnav 2016/18 du 29/03/2016
         value: 60.0
       '2016-07-01':
-        metadata:
-          reference: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du
-            14/02/2013 (art. 2) (modif. Art. D542-4 du CSS)
-        value: 62.0
-      '2017-04-01':
-        metadata:
-          reference: Circulaire Cnav 2017-13 du 04/04/2017
         value: 62.0
   description: Age minimal
+  metadata:
+    order:
+    - ascendants_leur_conjoint_2
+    - ascendants_leur_conjoint_s_ils_sont_titulaires_aspa
+    - ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2
 description: Définition des personnes à charge
 metadata:
-  rank: 0
+  order:
+  - age_limite_enfants_charge
+  - age_minimal
+  - pourcentage_minimal_handicap_ascendants_descendants_3eme_degre_maximum
+  - plafonds_ressources_que_potentielles_personnes_charge_autre_que_enfants_doivent_respecter_1
 plafonds_ressources_que_potentielles_personnes_charge_autre_que_enfants_doivent_respecter_1:
   description: Plafonds de ressources que les potentielles personnes à charge autre
     que les enfants doivent respecter (1)
@@ -272,65 +50,30 @@ plafonds_ressources_que_potentielles_personnes_charge_autre_que_enfants_doivent_
       '2007-07-01': currency-EUR
   values:
     '1991-11-11':
-      metadata:
-        reference: Décret 91-1159 du 08/11/1991, art. 1 (modif art. D542-4 du CSS)
-      value: 6997.0
-    '2000-01-01':
-      metadata:
-        reference: Décret 2000-72 du 28/01/2000, art. 1 (modif art. D542-4 du CSS)
       value: 6997.0
     '2007-07-01':
-      metadata:
-        reference: Décret 2007-1081 du 10/07/2007, art. 4 (modif art. D542-4 du CSS)
       value: 9544.4125
     '2008-01-01':
-      metadata:
-        reference: Arrêté du 21/12/2007, art. 1
       value: 9649.400000000001
     '2008-09-01':
-      metadata:
-        reference: Circulaire Cnav 2008/45 du 12/08/2008
       value: 9726.587500000001
     '2009-04-01':
-      metadata:
-        reference: Décret 2009-473 du 28/04/2009, art. 1
       value: 10386.587500000001
     '2010-04-01':
-      metadata:
-        reference: Circulaire Cnav 2010/43 du 23/04/2010
       value: 10634.3625
     '2011-04-01':
-      metadata:
-        reference: Circulaire Cnav 2011/30 du 14/04/2011
       value: 11134.175
     '2012-04-01':
-      metadata:
-        reference: Circulaire Cnav 2012/35 du 17/04/2012
       value: 11657.474999999999
     '2013-04-01':
-      metadata:
-        reference: Circulaire Cnav 2013/29 du 18/04/2014
       value: 11809.012499999999
     '2014-04-01':
-      metadata:
-        reference: Circulaire Cnav 2014/28 du 09/04/2014
       value: 11879.8625
     '2014-10-01':
-      metadata:
-        reference: Décret 2014-1215 du 20/10/2014
       value: 12000.0
     '2016-04-01':
-      metadata:
-        reference: Circulaire Cnav 2016/18 du 29/03/2016
-      value: 12012.0
-    '2016-07-01':
-      metadata:
-        reference: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du 14/02/2013
-          (art. 2) (modif. Art. D542-4 du CSS)
       value: 12012.0
     '2017-04-01':
-      metadata:
-        reference: Circulaire Cnav 2017-13 du 04/04/2017
       value: 12048.025
 pourcentage_minimal_handicap_ascendants_descendants_3eme_degre_maximum:
   description: Pourcentage minimal de handicap pour les ascendants ou descendants
@@ -339,63 +82,6 @@ pourcentage_minimal_handicap_ascendants_descendants_3eme_degre_maximum:
     unit: /1
   values:
     '1991-11-11':
-      metadata:
-        reference: Décret 91-1159 du 08/11/1991, art. 1 (modif art. D542-4 du CSS)
       value: null
     '2000-01-01':
-      metadata:
-        reference: Décret 2000-72 du 28/01/2000, art. 1 (modif art. D542-4 du CSS)
-      value: 0.8
-    '2007-07-01':
-      metadata:
-        reference: Décret 2007-1081 du 10/07/2007, art. 4 (modif art. D542-4 du CSS)
-      value: 0.8
-    '2008-01-01':
-      metadata:
-        reference: Arrêté du 21/12/2007, art. 1
-      value: 0.8
-    '2008-09-01':
-      metadata:
-        reference: Circulaire Cnav 2008/45 du 12/08/2008
-      value: 0.8
-    '2009-04-01':
-      metadata:
-        reference: Décret 2009-473 du 28/04/2009, art. 1
-      value: 0.8
-    '2010-04-01':
-      metadata:
-        reference: Circulaire Cnav 2010/43 du 23/04/2010
-      value: 0.8
-    '2011-04-01':
-      metadata:
-        reference: Circulaire Cnav 2011/30 du 14/04/2011
-      value: 0.8
-    '2012-04-01':
-      metadata:
-        reference: Circulaire Cnav 2012/35 du 17/04/2012
-      value: 0.8
-    '2013-04-01':
-      metadata:
-        reference: Circulaire Cnav 2013/29 du 18/04/2014
-      value: 0.8
-    '2014-04-01':
-      metadata:
-        reference: Circulaire Cnav 2014/28 du 09/04/2014
-      value: 0.8
-    '2014-10-01':
-      metadata:
-        reference: Décret 2014-1215 du 20/10/2014
-      value: 0.8
-    '2016-04-01':
-      metadata:
-        reference: Circulaire Cnav 2016/18 du 29/03/2016
-      value: 0.8
-    '2016-07-01':
-      metadata:
-        reference: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du 14/02/2013
-          (art. 2) (modif. Art. D542-4 du CSS)
-      value: 0.8
-    '2017-04-01':
-      metadata:
-        reference: Circulaire Cnav 2017-13 du 04/04/2017
       value: 0.8

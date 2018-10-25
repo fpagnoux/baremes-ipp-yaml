@@ -1,3 +1,12 @@
 description: Allocations d'assurance chômage
 metadata:
-  rank: 1
+  order:
+  - alloc_base
+  - alloc_base_taux
+  - alloc_base_1967
+  - aud
+  - sr_alloc
+  - sr_61
+  - afd
+  - alloc_journaliere
+  - ass

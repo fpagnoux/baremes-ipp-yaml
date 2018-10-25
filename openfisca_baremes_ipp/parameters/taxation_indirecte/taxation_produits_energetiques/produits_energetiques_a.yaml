@@ -5,104 +5,22 @@ essence_normale_hectolitre:
     unit: currency-FRF
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: null
     '1993-04-15':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: 311.25
     '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
       value: 347.41
     '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
       value: 367.92
     '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
       value: 380.92
     '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
       value: 386.92
     '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
       value: 394.92
     '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
       value: 398.86
     '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
-      value: null
-    '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: null
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
-      value: null
-    '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
-      value: null
-    '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-      value: null
-    '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: null
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: null
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: null
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: null
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-      value: null
-    '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
-      value: null
-    '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
-      value: null
-    '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
-      value: null
-    '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: null
 essences_speciales_utilisees_comme_carburants_combustibles_hectolitre:
   description: Essences spéciales utilisées comme carburants et combustibles (hectolitre)
@@ -112,120 +30,46 @@ essences_speciales_utilisees_comme_carburants_combustibles_hectolitre:
       '2002-01-01': currency-EUR
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: null
     '1993-04-15':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: 311.25
     '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
       value: 347.41
     '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
       value: 367.92
     '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
       value: 380.92
     '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
       value: 386.92
     '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
       value: 394.92
     '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
       value: 398.86
     '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
       value: 384.62
     '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
       value: 58.63
     '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: 58.92
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
       value: 58.92
     '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
       value: 60.69
     '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-      value: 58.92
-    '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: 58.92
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: 58.92
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: 58.92
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: 58.92
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: 58.92
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-      value: 58.92
-    '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
       value: 58.92
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
       value: 60.64
     '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
       value: 62.35
     '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
       value: 64.3
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 67.52
     '2019-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 69.9
     '2020-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 72.28
     '2021-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 74.66
     '2022-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 77.03
 goudrons_utilises_comme_combustibles_100kg:
   description: Goudrons utilisés comme combustibles, (100kg)
@@ -235,120 +79,44 @@ goudrons_utilises_comme_combustibles_100kg:
       '2002-01-01': currency-EUR
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: null
     '1993-04-15':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: 6.65
     '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
       value: 7.39
     '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
       value: 7.52
     '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
       value: 7.66
     '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
       value: 7.82
     '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
       value: 7.92
     '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
       value: 7.99
     '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
       value: 8.03
     '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
-      value: 1.22
-    '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: 1.22
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
-      value: 1.22
-    '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
       value: 1.22
     '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-      value: 1.5
-    '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: 1.5
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: 1.5
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: 1.5
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: 1.5
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: 1.5
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
       value: 1.5
     '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
       value: 1.58
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
       value: 3.28
     '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
       value: 4.97
     '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
       value: 6.89
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 10.08
     '2019-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 12.43
     '2020-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 14.78
     '2021-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 17.13
     '2022-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 19.48
 huiles_legeres_preparation_essence_aviation_hectolitre:
   description: Huiles légères et préparation, essence d'aviation (hectolitre)
@@ -358,123 +126,53 @@ huiles_legeres_preparation_essence_aviation_hectolitre:
       '2002-01-01': currency-EUR
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: null
     '1993-04-15':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: 175.82
     '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
       value: 195.28
     '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
       value: 198.6
     '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
       value: 202.37
     '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
       value: 206.82
     '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
       value: 209.31
     '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
       value: 211.19
     '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
       value: 212.25
     '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
-      value: 32.36
-    '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: 32.36
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
-      value: 32.36
-    '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
       value: 32.36
     '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-      value: 35.9
-    '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: 35.9
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: 35.9
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: 35.9
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: 35.9
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: 35.9
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-      value: 35.9
-    '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
       value: 35.9
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
       value: 37.81
     '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
       value: 39.72
     '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
       value: 41.89
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 45.49
     '2019-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 48.14
     '2020-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 50.79
     '2021-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 53.45
     '2022-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 56.1
 metadata:
-  rank: 0
+  order:
+  - goudrons_utilises_comme_combustibles_100kg
+  - white_spirit_utilise_comme_combustible_hectolitre
+  - essences_speciales_utilisees_comme_carburants_combustibles_hectolitre
+  - huiles_legeres_preparation_essence_aviation_hectolitre
+  - supercarburants_dont_sp95_sp98_hectolitre
+  - supercarburants_contenant_additif_hectolitre
+  - supere10_hectolitre
+  - essence_normale_hectolitre
 supercarburants_contenant_additif_hectolitre:
   description: Supercarburants contenant un additif (hectolitre)
   metadata:
@@ -483,120 +181,42 @@ supercarburants_contenant_additif_hectolitre:
       '2002-01-01': currency-EUR
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: null
     '1993-04-15':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: 326.84
     '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
       value: 363.0
     '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
       value: 383.51
     '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
       value: 396.51
     '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
       value: 403.51
     '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
       value: 411.51
     '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
       value: 415.5
     '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
       value: 417.68
     '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
       value: 63.67
     '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: 63.96
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
-      value: 63.96
-    '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
-      value: 63.96
-    '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-      value: 63.96
-    '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: 63.96
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: 63.96
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: 63.96
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: 63.96
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: 63.96
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-      value: 63.96
-    '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
       value: 63.96
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
       value: 65.68
     '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
       value: 67.39
     '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
       value: 68.34
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 71.56
     '2019-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 73.94
     '2020-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 76.32
     '2021-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 78.7
     '2022-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 81.07
 supercarburants_dont_sp95_sp98_hectolitre:
   description: Supercarburants dont SP95 et SP98 (hectolitre)*
@@ -606,120 +226,42 @@ supercarburants_dont_sp95_sp98_hectolitre:
       '2002-01-01': currency-EUR
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: null
     '1993-04-15':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
       value: 290.12
     '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
       value: 329.5
     '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
       value: 357.23
     '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
       value: 370.23
     '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
       value: 376.23
     '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
       value: 384.23
     '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
-      value: 384.62
-    '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
       value: 384.62
     '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
       value: 58.63
     '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: 58.92
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
       value: 58.92
     '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
-      value: 60.69
-    '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-      value: 60.69
-    '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: 60.69
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: 60.69
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: 60.69
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: 60.69
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: 60.69
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-      value: 60.69
-    '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
       value: 60.69
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
       value: 62.41
     '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
       value: 64.12
     '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
       value: 65.07
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 68.29
     '2019-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 70.67
     '2020-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 73.05
     '2021-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 75.43
     '2022-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 65.07
 supere10_hectolitre:
   description: SuperE10 (hectolitre) *
@@ -727,116 +269,24 @@ supere10_hectolitre:
     unit: currency-EUR
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
-      value: null
-    '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
-      value: null
-    '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
-      value: null
-    '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
-      value: null
-    '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
-      value: null
-    '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
-      value: null
-    '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
-      value: null
-    '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: null
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
-      value: null
-    '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
-      value: null
-    '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
       value: null
     '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: 60.69
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: 60.69
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: 60.69
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: 60.69
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: 60.69
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-      value: 60.69
-    '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
       value: 60.69
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
       value: 62.41
     '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
       value: 62.12
     '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
       value: 63.07
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 66.29
     '2019-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 68.7
     '2020-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 71.05
     '2021-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 73.43
     '2022-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 75.8
 white_spirit_utilise_comme_combustible_hectolitre:
   description: White Spirit utilisé comme combustible (hectolitre)
@@ -846,114 +296,26 @@ white_spirit_utilise_comme_combustible_hectolitre:
       '2002-01-01': currency-EUR
   values:
     '1993-01-01':
-      metadata:
-        reference: Loi  92-1376 du 30/12/1992 (LF pour 1993)
-      value: null
-    '1994-01-01':
-      metadata:
-        reference: Loi  93-1352 du 30/12/1993 (LF pour 1994)
-      value: null
-    '1995-01-01':
-      metadata:
-        reference: Loi  94-1162 du 29/12/1994 (LF pour 1995)
-      value: null
-    '1996-01-01':
-      metadata:
-        reference: Loi  95-1346 du 30/12/1995 (LF pour 1996)
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi  96-1181 du 30/12/1996 (LF pour 1997)
-      value: null
-    '1998-01-01':
-      metadata:
-        reference: Loi  97-1269 du 30/12/1997 (LF pour 1998)
-      value: null
-    '1999-01-01':
-      metadata:
-        reference: Loi  98-1266 du 30/12/1998 (LF pour 1999)
       value: null
     '2000-01-01':
-      metadata:
-        reference: Loi  99-1172 du 30/12/1999 (LF pour 2000)
       value: 51.73
     '2002-01-01':
-      metadata:
-        reference: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
       value: 5.49
     '2003-01-01':
-      metadata:
-        reference: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-      value: 5.66
-    '2004-01-01':
-      metadata:
-        reference: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
-      value: 5.66
-    '2006-01-01':
-      metadata:
-        reference: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
-      value: 5.66
-    '2008-01-01':
-      metadata:
-        reference: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-      value: 5.66
-    '2008-12-29':
-      metadata:
-        reference: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-      value: 5.66
-    '2009-01-01':
-      metadata:
-        reference: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-      value: 5.66
-    '2010-01-01':
-      metadata:
-        reference: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-      value: 5.66
-    '2010-03-11':
-      metadata:
-        reference: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-      value: 5.66
-    '2011-01-01':
-      metadata:
-        reference: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-      value: 5.66
-    '2012-01-01':
-      metadata:
-        reference: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-      value: 5.66
-    '2014-04-01':
-      metadata:
-        reference: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
       value: 5.66
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
       value: 7.87
     '2016-01-01':
-      metadata:
-        reference: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
       value: 10.08
     '2017-01-01':
-      metadata:
-        reference: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
       value: 12.02
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 15.25
     '2019-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 17.64
     '2020-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 20.02
     '2021-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 22.4
     '2022-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: 24.78

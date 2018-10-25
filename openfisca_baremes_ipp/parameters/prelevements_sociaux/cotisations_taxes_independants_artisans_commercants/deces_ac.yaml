@@ -1,118 +1,28 @@
 artisans:
   description: Artisans
+  metadata:
+    order:
+    - sous_pss
   sous_pss:
     description: Sous PSS
     metadata:
       unit: /1
     values:
       '1975-01-01':
-        metadata:
-          reference: Décret 75-969 du 16/10/1975; Décret 75-19 du 8/01/1975
-        value: 0.009
-      '1979-01-01':
-        metadata:
-          reference: Décret 79-412 du 21/05/1979
-        value: 0.009
-      '1980-01-01':
-        metadata:
-          reference: Décret 80-430 du 11/06/1980
-        value: 0.009
-      '1981-01-01':
-        metadata:
-          reference: Décret 81-490 du 08/05/1981
         value: 0.009
       '1982-01-01':
-        metadata:
-          reference: Décret 82-168 du 15/02/1982; Décret 82-170 du 17/02/1982
-        value: 0.01
-      '1983-01-01':
-        metadata:
-          reference: Décret 83-202 du 15/03/1983
-        value: 0.01
-      '1984-01-01':
-        metadata:
-          reference: Décret 84-1039 du 26/11/1984
-        value: 0.01
-      '1985-01-01':
-        metadata:
-          reference: Décret 85-555 du 28/05/1985
-        value: 0.01
-      '1985-12-21':
-        metadata:
-          reference: Décret 85-1354 17/12/1985 art. 1
         value: 0.01
       '1986-01-01':
-        metadata:
-          reference: Décret 86-232 du 18/02/1986 - art. 2 ; Décret 86-852 du 17/07/1986
-        value: 0.0145
-      '1987-01-01':
-        metadata:
-          reference: Décret 87-47 du 30/01/1987
-        value: 0.0145
-      '1988-01-01':
-        metadata:
-          reference: Décret 88-102 du 28/01/1988
         value: 0.0145
       '1989-01-01':
-        metadata:
-          reference: Décret 89-47 27/01/1989 art. 1, art. 2; Décret  89-191 du 28/03/1989
-        value: 0.0165
-      '1990-01-01':
-        metadata:
-          reference: Décret 90-2400 du 14/03/1990
-        value: 0.0165
-      '1991-01-01':
-        metadata:
-          reference: Décret 91-319 du 26/03/1991
-        value: 0.0165
-      '1992-01-01':
-        metadata:
-          reference: Décret 92-351 du 01/04/1992
-        value: 0.0165
-      '1993-01-01':
-        metadata:
-          reference: Décret 93-456 du 23/03/1993
-        value: 0.0165
-      '1994-01-01':
-        metadata:
-          reference: Décret 94-766 du 31/08/1994
         value: 0.0165
       '1995-01-01':
-        metadata:
-          reference: Décret 94-896 du 12/10/1994 - art. 1 ; Décret 95-362 du 31/03/1995
-        value: 0.02
-      '1996-01-01':
-        metadata:
-          reference: Décret 96-451 du 23/05/1996
-        value: 0.02
-      '1997-01-01':
-        metadata:
-          reference: Décret 97-1216 du 26/12/1997
-        value: 0.02
-      '1999-01-01':
-        metadata:
-          reference: Décret 99-1103 du 21/12/1999
-        value: 0.02
-      '2004-08-24':
-        metadata:
-          reference: Décret 2004-848 du 23/08/2004 - art. 1
         value: 0.02
       '2007-01-01':
-        metadata:
-          reference: Décret 2007-50 du 11/01/2007 - art. 2
-        value: 0.018
-      '2012-01-01':
-        metadata:
-          reference: Décret 2011-2038 du 29/12/2011 - art. 3
         value: 0.018
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-139 du 30/01/2012 - art. 10;  Décret 2012-1520 du
-            28/12/2012 - art. 2
         value: 0.016
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-775 du 4/07/2014 - art. 2
         value: 0.013
 commercants_industriels:
   deces:
@@ -123,113 +33,36 @@ commercants_industriels:
         '2004-08-24': /1
     values:
       '1975-01-01':
-        metadata:
-          reference: Décret 75-969 du 16/10/1975; Décret 75-19 du 8/01/1975
-        value: 77.0
-      '1979-01-01':
-        metadata:
-          reference: Décret 79-412 du 21/05/1979
         value: 77.0
       '1980-01-01':
-        metadata:
-          reference: Décret 80-430 du 11/06/1980
-        value: 68.0
-      '1981-01-01':
-        metadata:
-          reference: Décret 81-490 du 08/05/1981
         value: 68.0
       '1982-01-01':
-        metadata:
-          reference: Décret 82-168 du 15/02/1982; Décret 82-170 du 17/02/1982
         value: 56.0
       '1983-01-01':
-        metadata:
-          reference: Décret 83-202 du 15/03/1983
         value: 60.0
       '1984-01-01':
-        metadata:
-          reference: Décret 84-1039 du 26/11/1984
         value: 64.0
       '1985-01-01':
-        metadata:
-          reference: Décret 85-555 du 28/05/1985
-        value: 68.0
-      '1985-12-21':
-        metadata:
-          reference: Décret 85-1354 17/12/1985 art. 1
         value: 68.0
       '1986-01-01':
-        metadata:
-          reference: Décret 86-232 du 18/02/1986 - art. 2 ; Décret 86-852 du 17/07/1986
         value: 70.0
       '1987-01-01':
-        metadata:
-          reference: Décret 87-47 du 30/01/1987
         value: 72.0
       '1988-01-01':
-        metadata:
-          reference: Décret 88-102 du 28/01/1988
         value: 74.0
       '1989-01-01':
-        metadata:
-          reference: Décret 89-47 27/01/1989 art. 1, art. 2; Décret  89-191 du 28/03/1989
         value: 76.0
       '1990-01-01':
-        metadata:
-          reference: Décret 90-2400 du 14/03/1990
         value: 78.0
       '1991-01-01':
-        metadata:
-          reference: Décret 91-319 du 26/03/1991
         value: 58.0
       '1992-01-01':
-        metadata:
-          reference: Décret 92-351 du 01/04/1992
-        value: 48.0
-      '1993-01-01':
-        metadata:
-          reference: Décret 93-456 du 23/03/1993
         value: 48.0
       '1994-01-01':
-        metadata:
-          reference: Décret 94-766 du 31/08/1994
-        value: 32.0
-      '1995-01-01':
-        metadata:
-          reference: Décret 94-896 du 12/10/1994 - art. 1 ; Décret 95-362 du 31/03/1995
-        value: 32.0
-      '1996-01-01':
-        metadata:
-          reference: Décret 96-451 du 23/05/1996
-        value: 32.0
-      '1997-01-01':
-        metadata:
-          reference: Décret 97-1216 du 26/12/1997
-        value: 32.0
-      '1999-01-01':
-        metadata:
-          reference: Décret 99-1103 du 21/12/1999
         value: 32.0
       '2004-08-24':
-        metadata:
-          reference: Décret 2004-848 du 23/08/2004 - art. 1
-        value: 0.001
-      '2007-01-01':
-        metadata:
-          reference: Décret 2007-50 du 11/01/2007 - art. 2
-        value: 0.001
-      '2012-01-01':
-        metadata:
-          reference: Décret 2011-2038 du 29/12/2011 - art. 3
         value: 0.001
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-139 du 30/01/2012 - art. 10;  Décret 2012-1520 du
-            28/12/2012 - art. 2
-        value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-775 du 4/07/2014 - art. 2
         value: null
   description: Commercants-industriels
   invalidite:
@@ -240,243 +73,111 @@ commercants_industriels:
         '2004-08-24': /1
     values:
       '1975-01-01':
-        metadata:
-          reference: Décret 75-969 du 16/10/1975; Décret 75-19 du 8/01/1975
         value: 73.0
       '1979-01-01':
-        metadata:
-          reference: Décret 79-412 du 21/05/1979
         value: 80.0
       '1980-01-01':
-        metadata:
-          reference: Décret 80-430 du 11/06/1980
         value: 100.0
       '1981-01-01':
-        metadata:
-          reference: Décret 81-490 du 08/05/1981
         value: 123.0
       '1982-01-01':
-        metadata:
-          reference: Décret 82-168 du 15/02/1982; Décret 82-170 du 17/02/1982
         value: 161.0
       '1983-01-01':
-        metadata:
-          reference: Décret 83-202 du 15/03/1983
         value: 174.0
       '1984-01-01':
-        metadata:
-          reference: Décret 84-1039 du 26/11/1984
         value: 348.0
       '1985-01-01':
-        metadata:
-          reference: Décret 85-555 du 28/05/1985
-        value: 376.0
-      '1985-12-21':
-        metadata:
-          reference: Décret 85-1354 17/12/1985 art. 1
         value: 376.0
       '1986-01-01':
-        metadata:
-          reference: Décret 86-232 du 18/02/1986 - art. 2 ; Décret 86-852 du 17/07/1986
         value: 392.0
       '1987-01-01':
-        metadata:
-          reference: Décret 87-47 du 30/01/1987
         value: 430.0
       '1988-01-01':
-        metadata:
-          reference: Décret 88-102 du 28/01/1988
         value: 514.0
       '1989-01-01':
-        metadata:
-          reference: Décret 89-47 27/01/1989 art. 1, art. 2; Décret  89-191 du 28/03/1989
         value: 528.0
       '1990-01-01':
-        metadata:
-          reference: Décret 90-2400 du 14/03/1990
         value: 542.0
       '1991-01-01':
-        metadata:
-          reference: Décret 91-319 du 26/03/1991
         value: 580.0
       '1992-01-01':
-        metadata:
-          reference: Décret 92-351 du 01/04/1992
         value: 608.0
       '1993-01-01':
-        metadata:
-          reference: Décret 93-456 du 23/03/1993
         value: 628.0
       '1994-01-01':
-        metadata:
-          reference: Décret 94-766 du 31/08/1994
         value: 660.0
       '1995-01-01':
-        metadata:
-          reference: Décret 94-896 du 12/10/1994 - art. 1 ; Décret 95-362 du 31/03/1995
         value: 668.0
       '1996-01-01':
-        metadata:
-          reference: Décret 96-451 du 23/05/1996
         value: 680.0
       '1997-01-01':
-        metadata:
-          reference: Décret 97-1216 du 26/12/1997
         value: 692.0
       '1998-01-01':
-        metadata:
-          reference: Décret 97-1216 du 26/12/1997
-        value: 764.0
-      '1999-01-01':
-        metadata:
-          reference: Décret 99-1103 du 21/12/1999
         value: 764.0
       '2000-01-01':
-        metadata:
-          reference: Décret 99-1103 du 21/12/1999
         value: 768.0
       '2004-08-24':
-        metadata:
-          reference: Décret 2004-848 du 23/08/2004 - art. 1
         value: 0.014
       '2007-01-01':
-        metadata:
-          reference: Décret 2007-50 du 11/01/2007 - art. 2
-        value: 0.012
-      '2012-01-01':
-        metadata:
-          reference: Décret 2011-2038 du 29/12/2011 - art. 3
         value: 0.012
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-139 du 30/01/2012 - art. 10;  Décret 2012-1520 du
-            28/12/2012 - art. 2
         value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-775 du 4/07/2014 - art. 2
-        value: null
+  metadata:
+    order:
+    - invalidite
+    - deces
+    - sous_pss
+    - montant_forfaitaire_total
   montant_forfaitaire_total:
     description: Montant forfaitaire total
     metadata:
       unit: currency-FRF
     values:
       '1975-01-01':
-        metadata:
-          reference: Décret 75-969 du 16/10/1975; Décret 75-19 du 8/01/1975
         value: 150.0
       '1979-01-01':
-        metadata:
-          reference: Décret 79-412 du 21/05/1979
         value: 157.0
       '1980-01-01':
-        metadata:
-          reference: Décret 80-430 du 11/06/1980
         value: 168.0
       '1981-01-01':
-        metadata:
-          reference: Décret 81-490 du 08/05/1981
         value: 191.0
       '1982-01-01':
-        metadata:
-          reference: Décret 82-168 du 15/02/1982; Décret 82-170 du 17/02/1982
         value: 217.0
       '1983-01-01':
-        metadata:
-          reference: Décret 83-202 du 15/03/1983
         value: 234.0
       '1984-01-01':
-        metadata:
-          reference: Décret 84-1039 du 26/11/1984
         value: 412.0
       '1985-01-01':
-        metadata:
-          reference: Décret 85-555 du 28/05/1985
-        value: 444.0
-      '1985-12-21':
-        metadata:
-          reference: Décret 85-1354 17/12/1985 art. 1
         value: 444.0
       '1986-01-01':
-        metadata:
-          reference: Décret 86-232 du 18/02/1986 - art. 2 ; Décret 86-852 du 17/07/1986
         value: 462.0
       '1987-01-01':
-        metadata:
-          reference: Décret 87-47 du 30/01/1987
         value: 502.0
       '1988-01-01':
-        metadata:
-          reference: Décret 88-102 du 28/01/1988
         value: 588.0
       '1989-01-01':
-        metadata:
-          reference: Décret 89-47 27/01/1989 art. 1, art. 2; Décret  89-191 du 28/03/1989
         value: 604.0
       '1990-01-01':
-        metadata:
-          reference: Décret 90-2400 du 14/03/1990
         value: 620.0
       '1991-01-01':
-        metadata:
-          reference: Décret 91-319 du 26/03/1991
         value: 638.0
       '1992-01-01':
-        metadata:
-          reference: Décret 92-351 du 01/04/1992
         value: 656.0
       '1993-01-01':
-        metadata:
-          reference: Décret 93-456 du 23/03/1993
         value: 676.0
       '1994-01-01':
-        metadata:
-          reference: Décret 94-766 du 31/08/1994
         value: 692.0
       '1995-01-01':
-        metadata:
-          reference: Décret 94-896 du 12/10/1994 - art. 1 ; Décret 95-362 du 31/03/1995
         value: 700.0
       '1996-01-01':
-        metadata:
-          reference: Décret 96-451 du 23/05/1996
         value: 712.0
       '1997-01-01':
-        metadata:
-          reference: Décret 97-1216 du 26/12/1997
         value: 724.0
       '1998-01-01':
-        metadata:
-          reference: Décret 97-1216 du 26/12/1997
-        value: 796.0
-      '1999-01-01':
-        metadata:
-          reference: Décret 99-1103 du 21/12/1999
         value: 796.0
       '2000-01-01':
-        metadata:
-          reference: Décret 99-1103 du 21/12/1999
         value: 800.0
       '2004-08-24':
-        metadata:
-          reference: Décret 2004-848 du 23/08/2004 - art. 1
-        value: null
-      '2007-01-01':
-        metadata:
-          reference: Décret 2007-50 du 11/01/2007 - art. 2
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Décret 2011-2038 du 29/12/2011 - art. 3
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Décret 2012-139 du 30/01/2012 - art. 10;  Décret 2012-1520 du
-            28/12/2012 - art. 2
-        value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-775 du 4/07/2014 - art. 2
         value: null
   sous_pss:
     description: Sous PSS
@@ -484,114 +185,17 @@ commercants_industriels:
       unit: /1
     values:
       '1975-01-01':
-        metadata:
-          reference: Décret 75-969 du 16/10/1975; Décret 75-19 du 8/01/1975
-        value: null
-      '1979-01-01':
-        metadata:
-          reference: Décret 79-412 du 21/05/1979
-        value: null
-      '1980-01-01':
-        metadata:
-          reference: Décret 80-430 du 11/06/1980
-        value: null
-      '1981-01-01':
-        metadata:
-          reference: Décret 81-490 du 08/05/1981
-        value: null
-      '1982-01-01':
-        metadata:
-          reference: Décret 82-168 du 15/02/1982; Décret 82-170 du 17/02/1982
-        value: null
-      '1983-01-01':
-        metadata:
-          reference: Décret 83-202 du 15/03/1983
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Décret 84-1039 du 26/11/1984
-        value: null
-      '1985-01-01':
-        metadata:
-          reference: Décret 85-555 du 28/05/1985
-        value: null
-      '1985-12-21':
-        metadata:
-          reference: Décret 85-1354 17/12/1985 art. 1
-        value: null
-      '1986-01-01':
-        metadata:
-          reference: Décret 86-232 du 18/02/1986 - art. 2 ; Décret 86-852 du 17/07/1986
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Décret 87-47 du 30/01/1987
-        value: null
-      '1988-01-01':
-        metadata:
-          reference: Décret 88-102 du 28/01/1988
-        value: null
-      '1989-01-01':
-        metadata:
-          reference: Décret 89-47 27/01/1989 art. 1, art. 2; Décret  89-191 du 28/03/1989
-        value: null
-      '1990-01-01':
-        metadata:
-          reference: Décret 90-2400 du 14/03/1990
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Décret 91-319 du 26/03/1991
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Décret 92-351 du 01/04/1992
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Décret 93-456 du 23/03/1993
-        value: null
-      '1994-01-01':
-        metadata:
-          reference: Décret 94-766 du 31/08/1994
-        value: null
-      '1995-01-01':
-        metadata:
-          reference: Décret 94-896 du 12/10/1994 - art. 1 ; Décret 95-362 du 31/03/1995
-        value: null
-      '1996-01-01':
-        metadata:
-          reference: Décret 96-451 du 23/05/1996
-        value: null
-      '1997-01-01':
-        metadata:
-          reference: Décret 97-1216 du 26/12/1997
-        value: null
-      '1999-01-01':
-        metadata:
-          reference: Décret 99-1103 du 21/12/1999
         value: null
       '2004-08-24':
-        metadata:
-          reference: Décret 2004-848 du 23/08/2004 - art. 1
         value: 0.015
       '2007-01-01':
-        metadata:
-          reference: Décret 2007-50 du 11/01/2007 - art. 2
-        value: 0.013
-      '2012-01-01':
-        metadata:
-          reference: Décret 2011-2038 du 29/12/2011 - art. 3
         value: 0.013
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-139 du 30/01/2012 - art. 10;  Décret 2012-1520 du
-            28/12/2012 - art. 2
         value: 0.011
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-775 du 4/07/2014 - art. 2
         value: 0.013
 description: Cotisation SS invalidité-décès, Artisans-Commerçants
 metadata:
-  rank: 3
+  order:
+  - artisans
+  - commercants_industriels

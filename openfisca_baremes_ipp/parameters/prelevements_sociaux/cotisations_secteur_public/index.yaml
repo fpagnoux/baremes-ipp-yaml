@@ -1,3 +1,13 @@
 description: Cotisations du secteur public
 metadata:
-  rank: 5
+  order:
+  - assiette_pu
+  - mmid_etat
+  - mmid_cl
+  - rp
+  - ret_etat
+  - rafp
+  - cnracl
+  - ircantec
+  - fds
+  - sncf

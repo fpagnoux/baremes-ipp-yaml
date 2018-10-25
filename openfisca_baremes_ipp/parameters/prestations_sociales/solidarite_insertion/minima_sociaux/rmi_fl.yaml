@@ -6,12 +6,8 @@ forfait_logement_en_montant_forfaitaire_rmi:
       unit: /1
     values:
       '1988-12-14':
-        metadata:
-          reference: Décret 88-1111 du 12/12/1988, art. 4 et 9
         value: 0.12
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008
         value: null
   2_personnes:
     description: 2 personnes
@@ -19,12 +15,8 @@ forfait_logement_en_montant_forfaitaire_rmi:
       unit: /1
     values:
       '1988-12-14':
-        metadata:
-          reference: Décret 88-1111 du 12/12/1988, art. 4 et 9
         value: 0.16
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008
         value: null
   3_personnes_plus:
     description: 3 personnes ou plus
@@ -32,13 +24,15 @@ forfait_logement_en_montant_forfaitaire_rmi:
       unit: /1
     values:
       '1988-12-14':
-        metadata:
-          reference: Décret 88-1111 du 12/12/1988, art. 4 et 9
         value: 0.165
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008
         value: null
   description: Forfait logement (en % du montant forfaitaire du RMI)
+  metadata:
+    order:
+    - 1_personne_1
+    - 2_personnes
+    - 3_personnes_plus
 metadata:
-  rank: 3
+  order:
+  - forfait_logement_en_montant_forfaitaire_rmi

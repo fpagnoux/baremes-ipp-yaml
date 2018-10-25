@@ -1,6 +1,8 @@
 description: Prix du fioul domestique
 metadata:
-  rank: 0
+  order:
+  - prix_annuel_moyen_fioul_domestique_ttc_livraisons_2000_4999_litres_en_euro_par_litre
+  - prix_annuel_moyen_fioul_domestique_ht_livraisons_2000_4999_litres_en_euro_par_litre
 prix_annuel_moyen_fioul_domestique_ht_livraisons_2000_4999_litres_en_euro_par_litre:
   description: Prix annuel moyen du fioul domestique HT - Livraisons de 2000 à 4999
     litres - en euro par litre

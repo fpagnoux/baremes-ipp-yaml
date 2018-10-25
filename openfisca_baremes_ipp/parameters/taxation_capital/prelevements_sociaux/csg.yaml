@@ -1,62 +1,17 @@
 crds:
   description: CRDS
+  metadata:
+    order:
+    - revenus_patrimoine
+    - produits_placement
   produits_placement:
     description: Produits de placement
     metadata:
       unit: /1
     values:
       '1990-01-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
-        value: null
-      '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-936 du 22/07/1993, art. 7 et 8
-        value: null
-      '1996-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
-            du 30/12/1996, art. 94 (LF pour 1997)
         value: null
       '1996-02-01':
-        metadata:
-          reference: Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
-        value: 0.005
-      '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
-            du 30/12/1997, art. 80 (LF pour 1998) ; Loi 97-1164 du 19/12/1997, art.
-            5 (LFSS pour 1998)
-        value: 0.005
-      '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.005
-      '2004-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
-            d (LFR pour 2004), art. 37
-        value: 0.005
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72
-        value: 0.005
-      '2007-01-01':
-        metadata:
-          reference: Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
-        value: 0.005
-      '2012-01-01':
-        metadata:
-          reference: Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
-        value: 0.005
-      '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
-            LOI n°2017-1837 du 30 décembre 2017 - art. 67 (V) (modif art 154 quinquies)
         value: 0.005
   revenus_patrimoine:
     description: Revenus du patrimoine
@@ -64,120 +19,33 @@ crds:
       unit: /1
     values:
       '1990-01-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
-        value: null
-      '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-936 du 22/07/1993, art. 7 et 8
-        value: null
-      '1996-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
-            du 30/12/1996, art. 94 (LF pour 1997)
         value: null
       '1996-02-01':
-        metadata:
-          reference: Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
-        value: 0.005
-      '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
-            du 30/12/1997, art. 80 (LF pour 1998) ; Loi 97-1164 du 19/12/1997, art.
-            5 (LFSS pour 1998)
-        value: 0.005
-      '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.005
-      '2004-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
-            d (LFR pour 2004), art. 37
-        value: 0.005
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72
-        value: 0.005
-      '2007-01-01':
-        metadata:
-          reference: Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
-        value: 0.005
-      '2012-01-01':
-        metadata:
-          reference: Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
-        value: 0.005
-      '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
-            LOI n°2017-1837 du 30 décembre 2017 - art. 67 (V) (modif art 154 quinquies)
         value: 0.005
 description: CSG et CRDS sur les revenus financiers
 metadata:
-  rank: 0
+  order:
+  - taux_global_csg
+  - taux_deductible_csg
+  - crds
 taux_deductible_csg:
   description: Taux déductible de CSG
+  metadata:
+    order:
+    - revenus_patrimoine_1
+    - produits_placement_2
   produits_placement_2:
     description: Produits de placement (2)
     metadata:
       unit: /1
     values:
       '1990-01-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
-        value: null
-      '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-936 du 22/07/1993, art. 7 et 8
-        value: null
-      '1996-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
-            du 30/12/1996, art. 94 (LF pour 1997)
-        value: null
-      '1996-02-01':
-        metadata:
-          reference: Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
-        value: null
-      '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
-            du 30/12/1997, art. 80 (LF pour 1998) ; Loi 97-1164 du 19/12/1997, art.
-            5 (LFSS pour 1998)
-        value: null
-      '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: null
-      '2004-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
-            d (LFR pour 2004), art. 37
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72
         value: null
       '2007-01-01':
-        metadata:
-          reference: Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
         value: 0.058
       '2012-01-01':
-        metadata:
-          reference: Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
         value: 0.051
       '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
-            LOI n°2017-1837 du 30 décembre 2017 - art. 67 (V) (modif art 154 quinquies)
         value: 0.068
   revenus_patrimoine_1:
     description: Revenus du patrimoine (1)
@@ -185,117 +53,41 @@ taux_deductible_csg:
       unit: /1
     values:
       '1990-01-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
-        value: null
-      '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-936 du 22/07/1993, art. 7 et 8
         value: null
       '1996-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
-            du 30/12/1996, art. 94 (LF pour 1997)
-        value: 0.01
-      '1996-02-01':
-        metadata:
-          reference: Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
         value: 0.01
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
-            du 30/12/1997, art. 80 (LF pour 1998) ; Loi 97-1164 du 19/12/1997, art.
-            5 (LFSS pour 1998)
-        value: 0.051
-      '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
         value: 0.051
       '2004-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
-            d (LFR pour 2004), art. 37
-        value: 0.058
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72
-        value: 0.058
-      '2007-01-01':
-        metadata:
-          reference: Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
         value: 0.058
       '2012-01-01':
-        metadata:
-          reference: Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
         value: 0.051
       '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
-            LOI n°2017-1837 du 30 décembre 2017 - art. 67 (V) (modif art 154 quinquies)
         value: 0.068
 taux_global_csg:
   description: Taux global de CSG
+  metadata:
+    order:
+    - revenus_patrimoine
+    - produits_placement
   produits_placement:
     description: Produits de placement
     metadata:
       unit: /1
     values:
       '1990-01-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
         value: null
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
         value: 0.011
       '1993-07-01':
-        metadata:
-          reference: Loi 93-936 du 22/07/1993, art. 7 et 8
-        value: 0.024
-      '1996-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
-            du 30/12/1996, art. 94 (LF pour 1997)
-        value: 0.024
-      '1996-02-01':
-        metadata:
-          reference: Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
         value: 0.024
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
-            du 30/12/1997, art. 80 (LF pour 1998) ; Loi 97-1164 du 19/12/1997, art.
-            5 (LFSS pour 1998)
         value: 0.034
       '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.075
-      '2004-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
-            d (LFR pour 2004), art. 37
         value: 0.075
       '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72
-        value: 0.082
-      '2007-01-01':
-        metadata:
-          reference: Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
-        value: 0.082
-      '2012-01-01':
-        metadata:
-          reference: Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
         value: 0.082
       '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
-            LOI n°2017-1837 du 30 décembre 2017 - art. 67 (V) (modif art 154 quinquies)
         value: 0.099
   revenus_patrimoine:
     description: Revenus du patrimoine
@@ -303,55 +95,14 @@ taux_global_csg:
       unit: /1
     values:
       '1990-01-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
-        value: 0.011
-      '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
         value: 0.011
       '1993-07-01':
-        metadata:
-          reference: Loi 93-936 du 22/07/1993, art. 7 et 8
         value: 0.024
       '1996-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
-            du 30/12/1996, art. 94 (LF pour 1997)
-        value: 0.034
-      '1996-02-01':
-        metadata:
-          reference: Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
         value: 0.034
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
-            du 30/12/1997, art. 80 (LF pour 1998) ; Loi 97-1164 du 19/12/1997, art.
-            5 (LFSS pour 1998)
-        value: 0.075
-      '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
         value: 0.075
       '2004-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
-            d (LFR pour 2004), art. 37
-        value: 0.082
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art. 72
-        value: 0.082
-      '2007-01-01':
-        metadata:
-          reference: Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
-        value: 0.082
-      '2012-01-01':
-        metadata:
-          reference: Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
         value: 0.082
       '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
-            LOI n°2017-1837 du 30 décembre 2017 - art. 67 (V) (modif art 154 quinquies)
         value: 0.099

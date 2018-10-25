@@ -5,187 +5,46 @@ indice_majore_reference:
     '1982-11-01':
       value: null
     '1989-09-01':
-      metadata:
-        reference: Décret 89-598 du 30/08/1989
-      value: 254.0
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990
-      value: 254.0
-    '1990-04-01':
-      metadata:
-        reference: Décret 90-332 du 05/04/1990
-      value: 254.0
-    '1990-12-01':
-      metadata:
-        reference: Décret 90-1058 du 22/11/1990
       value: 254.0
     '1991-02-01':
       value: 259.0
     '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
-      value: 261.0
-    '1992-02-01':
-      metadata:
-        reference: Décret 92-107 du 30/01/1992
-      value: 261.0
-    '1992-10-01':
-      metadata:
-        reference: Décret 92-993 du 18/09/1992
-      value: 261.0
-    '1993-02-01':
-      metadata:
-        reference: Décret 93-93 du 25/01/1993
-      value: 261.0
-    '1994-01-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
-      value: 261.0
-    '1994-12-01':
-      metadata:
-        reference: Décret 94-599 du 15/07/1994
-      value: 261.0
-    '1995-03-01':
-      metadata:
-        reference: Décret 95-167 du 17/02/1995
-      value: 261.0
-    '1995-11-01':
-      metadata:
-        reference: Décret 95-1099 du 9/10/1995
-      value: 261.0
-    '1997-03-01':
-      metadata:
-        reference: Décret 97-141 du 13/02/1997
-      value: 261.0
-    '1997-10-01':
-      metadata:
-        reference: Décret 97-877 du 25/09/1997
       value: 261.0
     '1998-01-01':
       value: 280.0
-    '1998-04-01':
-      metadata:
-        reference: Décret 98-143 du 04/03/1998
-      value: 280.0
     '1998-07-01':
-      metadata:
-        reference: Décret 98-462 du 10/06/1998
-      value: 282.0
-    '1998-11-01':
-      metadata:
-        reference: Décret 98-945 du 21/10/1998
       value: 282.0
     '1999-04-01':
-      metadata:
-        reference: Décret 99-208 du 17/03/1999
       value: 283.0
     '1999-07-01':
-      metadata:
-        reference: Décret 99-941 du 10/06/1999
       value: 285.0
     '1999-12-01':
-      metadata:
-        reference: Décret 99-943 du 12/11/1999
-      value: 286.0
-    '2000-12-01':
-      metadata:
-        reference: Décret 2000-1154 du 29/11/2000
       value: 286.0
     '2001-05-01':
-      metadata:
-        reference: Décret 2001-370 du 25/04/2001
-      value: 288.0
-    '2001-11-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
-      value: 288.0
-    '2002-03-01':
-      metadata:
-        reference: Décret  2002-203 du 14/02/2002
-      value: 288.0
-    '2002-12-01':
-      metadata:
-        reference: Décret 2002-1295 du 24/10/2002
-      value: 288.0
-    '2004-01-01':
-      metadata:
-        reference: Décret  2003-1170 du 08/12/2003
-      value: 288.0
-    '2005-02-01':
-      metadata:
-        reference: Décret  2005-31 du 15/01/2005
-      value: 288.0
-    '2005-07-01':
-      metadata:
-        reference: Décret 2005-726 du 29/06/2005
-      value: 288.0
-    '2005-11-01':
-      metadata:
-        reference: Décret 2005-1301 du 20/10/2005
-      value: 288.0
-    '2006-07-01':
-      metadata:
-        reference: Décret 2006-759 du 29/06/2006
       value: 288.0
     '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
-      value: 289.0
-    '2007-02-01':
-      metadata:
-        reference: Décret 2007-96 du 25/01/2007
-      value: 289.0
-    '2008-03-01':
-      metadata:
-        reference: Décret 2008-198 du 27/02/2008
       value: 289.0
     '2008-07-01':
-      metadata:
-        reference: Décret 2008-622 du 27/06/2008
-      value: 290.0
-    '2008-10-01':
-      metadata:
-        reference: Décret 2008-1016 du 02/10/2008
       value: 290.0
     '2009-07-01':
-      metadata:
-        reference: Décret 2009-824 du 03/07/2009
-      value: 292.0
-    '2009-10-01':
-      metadata:
-        reference: Décret 2009-1158 du 30/09/2009
-      value: 292.0
-    '2010-07-01':
-      metadata:
-        reference: Décret 2010-761 du 07/07/2010
       value: 292.0
     '2011-01-01':
-      metadata:
-        reference: Décret 2011-51 du 13/01/2011
       value: 295.0
     '2012-01-01':
-      metadata:
-        reference: Décret 2012-37 du 11/01/2012
       value: 302.0
     '2012-07-01':
-      metadata:
-        reference: Décret 2012-853 du 5/07/2012
       value: 308.0
     '2013-01-01':
-      metadata:
-        reference: Décret 2013-33 du 10/01/2013
-      value: 309.0
-    '2016-07-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
       value: 309.0
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: null
 metadata:
-  rank: 8
+  order:
+  - taux
+  - seuil_assujettissement
+  - valeur_annuelle_point_fp
+  - indice_majore_reference
+  - traitement_brut_annuel
 seuil_assujettissement:
   description: Seuil d'assujettissement
   metadata:
@@ -230,200 +89,104 @@ seuil_assujettissement:
     '1988-09-23':
       value: 5734.0
     '1989-09-01':
-      metadata:
-        reference: Décret 89-598 du 30/08/1989
       value: 5954.0
     '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990
       value: 5983.83
     '1990-04-01':
-      metadata:
-        reference: Décret 90-332 du 05/04/1990
       value: 6055.16
     '1990-12-01':
-      metadata:
-        reference: Décret 90-1058 du 22/11/1990
       value: 6132.58
     '1991-02-01':
       value: 6253.33
     '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
       value: 6333.16
     '1991-11-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
       value: 6396.25
     '1992-02-01':
-      metadata:
-        reference: Décret 92-107 du 30/01/1992
       value: 6478.0
     '1992-10-01':
-      metadata:
-        reference: Décret 92-993 du 18/09/1992
       value: 6566.33
     '1993-02-01':
-      metadata:
-        reference: Décret 93-93 du 25/01/1993
       value: 6679.66
     '1994-01-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
       value: 6746.41
     '1994-08-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
       value: 6780.16
     '1994-12-01':
-      metadata:
-        reference: Décret 94-599 du 15/07/1994
       value: 6834.25
     '1995-03-01':
-      metadata:
-        reference: Décret 95-167 du 17/02/1995
       value: 6916.25
     '1995-11-01':
-      metadata:
-        reference: Décret 95-1099 du 9/10/1995
       value: 7013.08
     '1997-03-01':
-      metadata:
-        reference: Décret 97-141 du 13/02/1997
       value: 7048.08
     '1997-10-01':
-      metadata:
-        reference: Décret 97-877 du 25/09/1997
       value: 7083.33
     '1998-01-01':
       value: 7599.0
     '1998-04-01':
-      metadata:
-        reference: Décret 98-143 du 04/03/1998
       value: 7659.83
     '1998-07-01':
-      metadata:
-        reference: Décret 98-462 du 10/06/1998
       value: 7714.58
     '1998-11-01':
-      metadata:
-        reference: Décret 98-945 du 21/10/1998
       value: 7752.66
     '1999-04-01':
-      metadata:
-        reference: Décret 99-208 du 17/03/1999
       value: 7819.08
     '1999-07-01':
-      metadata:
-        reference: Décret 99-941 du 10/06/1999
       value: 7937.0
     '1999-12-01':
-      metadata:
-        reference: Décret 99-943 du 12/11/1999
       value: 7964.83
     '2000-12-01':
-      metadata:
-        reference: Décret 2000-1154 du 29/11/2000
       value: 8004.66
     '2001-05-01':
-      metadata:
-        reference: Décret 2001-370 du 25/04/2001
       value: 8101.0
     '2001-11-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
       value: 8157.58
     '2002-01-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
       value: 1243.615054035554
     '2002-03-01':
-      metadata:
-        reference: Décret  2002-203 du 14/02/2002
       value: 1251.08
     '2002-12-01':
-      metadata:
-        reference: Décret 2002-1295 du 24/10/2002
       value: 1259.83
     '2004-01-01':
-      metadata:
-        reference: Décret  2003-1170 du 08/12/2003
       value: 1266.13
     '2005-02-01':
-      metadata:
-        reference: Décret  2005-31 du 15/01/2005
       value: 1272.47
     '2005-07-01':
-      metadata:
-        reference: Décret 2005-726 du 29/06/2005
       value: 1278.83
     '2005-11-01':
-      metadata:
-        reference: Décret 2005-1301 du 20/10/2005
       value: 1289.06
     '2006-07-01':
-      metadata:
-        reference: Décret 2006-759 du 29/06/2006
       value: 1295.5
     '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 1300.0
     '2007-02-01':
-      metadata:
-        reference: Décret 2007-96 du 25/01/2007
       value: 1310.4
     '2008-03-01':
-      metadata:
-        reference: Décret 2008-198 du 27/02/2008
       value: 1316.95
     '2008-07-01':
-      metadata:
-        reference: Décret 2008-622 du 27/06/2008
       value: 1321.51
     '2008-10-01':
-      metadata:
-        reference: Décret 2008-1016 du 02/10/2008
       value: 1325.48
     '2009-07-01':
-      metadata:
-        reference: Décret 2009-824 du 03/07/2009
       value: 1341.29
     '2009-10-01':
-      metadata:
-        reference: Décret 2009-1158 du 30/09/2009
       value: 1345.31
     '2010-07-01':
-      metadata:
-        reference: Décret 2010-761 du 07/07/2010
       value: 1352.04
     '2011-01-01':
-      metadata:
-        reference: Décret 2011-51 du 13/01/2011
       value: 1365.93
     '2012-01-01':
-      metadata:
-        reference: Décret 2012-37 du 11/01/2012
       value: 1398.34
     '2012-07-01':
-      metadata:
-        reference: Décret 2012-853 du 5/07/2012
       value: 1426.12
     '2013-01-01':
-      metadata:
-        reference: Décret 2013-33 du 10/01/2013
       value: 1430.76
     '2016-07-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
       value: 1439.35
     '2017-02-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
       value: 1447.98
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: null
 taux:
   description: Taux
@@ -432,185 +195,7 @@ taux:
   values:
     '1982-11-01':
       value: 0.01
-    '1989-09-01':
-      metadata:
-        reference: Décret 89-598 du 30/08/1989
-      value: 0.01
-    '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990
-      value: 0.01
-    '1990-04-01':
-      metadata:
-        reference: Décret 90-332 du 05/04/1990
-      value: 0.01
-    '1990-12-01':
-      metadata:
-        reference: Décret 90-1058 du 22/11/1990
-      value: 0.01
-    '1991-02-01':
-      value: 0.01
-    '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
-      value: 0.01
-    '1992-02-01':
-      metadata:
-        reference: Décret 92-107 du 30/01/1992
-      value: 0.01
-    '1992-10-01':
-      metadata:
-        reference: Décret 92-993 du 18/09/1992
-      value: 0.01
-    '1993-02-01':
-      metadata:
-        reference: Décret 93-93 du 25/01/1993
-      value: 0.01
-    '1994-01-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
-      value: 0.01
-    '1994-12-01':
-      metadata:
-        reference: Décret 94-599 du 15/07/1994
-      value: 0.01
-    '1995-03-01':
-      metadata:
-        reference: Décret 95-167 du 17/02/1995
-      value: 0.01
-    '1995-11-01':
-      metadata:
-        reference: Décret 95-1099 du 9/10/1995
-      value: 0.01
-    '1997-03-01':
-      metadata:
-        reference: Décret 97-141 du 13/02/1997
-      value: 0.01
-    '1997-10-01':
-      metadata:
-        reference: Décret 97-877 du 25/09/1997
-      value: 0.01
-    '1998-01-01':
-      value: 0.01
-    '1998-04-01':
-      metadata:
-        reference: Décret 98-143 du 04/03/1998
-      value: 0.01
-    '1998-07-01':
-      metadata:
-        reference: Décret 98-462 du 10/06/1998
-      value: 0.01
-    '1998-11-01':
-      metadata:
-        reference: Décret 98-945 du 21/10/1998
-      value: 0.01
-    '1999-04-01':
-      metadata:
-        reference: Décret 99-208 du 17/03/1999
-      value: 0.01
-    '1999-07-01':
-      metadata:
-        reference: Décret 99-941 du 10/06/1999
-      value: 0.01
-    '1999-12-01':
-      metadata:
-        reference: Décret 99-943 du 12/11/1999
-      value: 0.01
-    '2000-12-01':
-      metadata:
-        reference: Décret 2000-1154 du 29/11/2000
-      value: 0.01
-    '2001-05-01':
-      metadata:
-        reference: Décret 2001-370 du 25/04/2001
-      value: 0.01
-    '2001-11-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
-      value: 0.01
-    '2002-03-01':
-      metadata:
-        reference: Décret  2002-203 du 14/02/2002
-      value: 0.01
-    '2002-12-01':
-      metadata:
-        reference: Décret 2002-1295 du 24/10/2002
-      value: 0.01
-    '2004-01-01':
-      metadata:
-        reference: Décret  2003-1170 du 08/12/2003
-      value: 0.01
-    '2005-02-01':
-      metadata:
-        reference: Décret  2005-31 du 15/01/2005
-      value: 0.01
-    '2005-07-01':
-      metadata:
-        reference: Décret 2005-726 du 29/06/2005
-      value: 0.01
-    '2005-11-01':
-      metadata:
-        reference: Décret 2005-1301 du 20/10/2005
-      value: 0.01
-    '2006-07-01':
-      metadata:
-        reference: Décret 2006-759 du 29/06/2006
-      value: 0.01
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
-      value: 0.01
-    '2007-02-01':
-      metadata:
-        reference: Décret 2007-96 du 25/01/2007
-      value: 0.01
-    '2008-03-01':
-      metadata:
-        reference: Décret 2008-198 du 27/02/2008
-      value: 0.01
-    '2008-07-01':
-      metadata:
-        reference: Décret 2008-622 du 27/06/2008
-      value: 0.01
-    '2008-10-01':
-      metadata:
-        reference: Décret 2008-1016 du 02/10/2008
-      value: 0.01
-    '2009-07-01':
-      metadata:
-        reference: Décret 2009-824 du 03/07/2009
-      value: 0.01
-    '2009-10-01':
-      metadata:
-        reference: Décret 2009-1158 du 30/09/2009
-      value: 0.01
-    '2010-07-01':
-      metadata:
-        reference: Décret 2010-761 du 07/07/2010
-      value: 0.01
-    '2011-01-01':
-      metadata:
-        reference: Décret 2011-51 du 13/01/2011
-      value: 0.01
-    '2012-01-01':
-      metadata:
-        reference: Décret 2012-37 du 11/01/2012
-      value: 0.01
-    '2012-07-01':
-      metadata:
-        reference: Décret 2012-853 du 5/07/2012
-      value: 0.01
-    '2013-01-01':
-      metadata:
-        reference: Décret 2013-33 du 10/01/2013
-      value: 0.01
-    '2016-07-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
-      value: 0.01
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: null
 traitement_brut_annuel:
   description: Traitement brut annuel
@@ -622,200 +207,104 @@ traitement_brut_annuel:
     '1982-11-01':
       value: null
     '1989-09-01':
-      metadata:
-        reference: Décret 89-598 du 30/08/1989
       value: 71448.0
     '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990
       value: 71806.0
     '1990-04-01':
-      metadata:
-        reference: Décret 90-332 du 05/04/1990
       value: 72662.0
     '1990-12-01':
-      metadata:
-        reference: Décret 90-1058 du 22/11/1990
       value: 73591.0
     '1991-02-01':
       value: 75040.0
     '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
       value: 75998.0
     '1991-11-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
       value: 76755.0
     '1992-02-01':
-      metadata:
-        reference: Décret 92-107 du 30/01/1992
       value: 77736.0
     '1992-10-01':
-      metadata:
-        reference: Décret 92-993 du 18/09/1992
       value: 78796.0
     '1993-02-01':
-      metadata:
-        reference: Décret 93-93 du 25/01/1993
       value: 80156.0
     '1994-01-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
       value: 80957.0
     '1994-08-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
       value: 81362.0
     '1994-12-01':
-      metadata:
-        reference: Décret 94-599 du 15/07/1994
       value: 82011.0
     '1995-03-01':
-      metadata:
-        reference: Décret 95-167 du 17/02/1995
       value: 82995.0
     '1995-11-01':
-      metadata:
-        reference: Décret 95-1099 du 9/10/1995
       value: 84157.0
     '1997-03-01':
-      metadata:
-        reference: Décret 97-141 du 13/02/1997
       value: 84577.0
     '1997-10-01':
-      metadata:
-        reference: Décret 97-877 du 25/09/1997
       value: 85000.0
     '1998-01-01':
       value: 91188.0
     '1998-04-01':
-      metadata:
-        reference: Décret 98-143 du 04/03/1998
       value: 91918.0
     '1998-07-01':
-      metadata:
-        reference: Décret 98-462 du 10/06/1998
       value: 92575.0
     '1998-11-01':
-      metadata:
-        reference: Décret 98-945 du 21/10/1998
       value: 93032.0
     '1999-04-01':
-      metadata:
-        reference: Décret 99-208 du 17/03/1999
       value: 93829.0
     '1999-07-01':
-      metadata:
-        reference: Décret 99-941 du 10/06/1999
       value: 95244.0
     '1999-12-01':
-      metadata:
-        reference: Décret 99-943 du 12/11/1999
       value: 95578.0
     '2000-12-01':
-      metadata:
-        reference: Décret 2000-1154 du 29/11/2000
       value: 96056.0
     '2001-05-01':
-      metadata:
-        reference: Décret 2001-370 du 25/04/2001
       value: 97212.0
     '2001-11-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
       value: 97891.0
     '2002-01-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
       value: 14923.0
     '2002-03-01':
-      metadata:
-        reference: Décret  2002-203 du 14/02/2002
       value: 15013.0
     '2002-12-01':
-      metadata:
-        reference: Décret 2002-1295 du 24/10/2002
       value: 15118.0
     '2004-01-01':
-      metadata:
-        reference: Décret  2003-1170 du 08/12/2003
       value: 15193.67
     '2005-02-01':
-      metadata:
-        reference: Décret  2005-31 du 15/01/2005
       value: 15269.64
     '2005-07-01':
-      metadata:
-        reference: Décret 2005-726 du 29/06/2005
       value: 15345.99
     '2005-11-01':
-      metadata:
-        reference: Décret 2005-1301 du 20/10/2005
       value: 15468.768
     '2006-07-01':
-      metadata:
-        reference: Décret 2006-759 du 29/06/2006
       value: 15546.096000000001
     '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 15600.0755
     '2007-02-01':
-      metadata:
-        reference: Décret 2007-96 du 25/01/2007
       value: 15724.865699999998
     '2008-03-01':
-      metadata:
-        reference: Décret 2008-198 du 27/02/2008
       value: 15803.5026
     '2008-07-01':
-      metadata:
-        reference: Décret 2008-622 du 27/06/2008
       value: 15858.186
     '2008-10-01':
-      metadata:
-        reference: Décret 2008-1016 du 02/10/2008
       value: 15905.775
     '2009-07-01':
-      metadata:
-        reference: Décret 2009-824 du 03/07/2009
       value: 16095.536399999999
     '2009-10-01':
-      metadata:
-        reference: Décret 2009-1158 du 30/09/2009
       value: 16143.83
     '2010-07-01':
-      metadata:
-        reference: Décret 2010-761 du 07/07/2010
       value: 16224.54
     '2011-01-01':
-      metadata:
-        reference: Décret 2011-51 du 13/01/2011
       value: 16391.2325
     '2012-01-01':
-      metadata:
-        reference: Décret 2012-37 du 11/01/2012
       value: 16780.177
     '2012-07-01':
-      metadata:
-        reference: Décret 2012-853 du 5/07/2012
       value: 17113.558
     '2013-01-01':
-      metadata:
-        reference: Décret 2013-33 du 10/01/2013
       value: 17169.121499999997
     '2016-07-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
       value: 17272.08
     '2017-02-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
       value: 17375.18
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: null
 valeur_annuelle_point_fp:
   description: Valeur annuelle point FP
@@ -827,198 +316,82 @@ valeur_annuelle_point_fp:
     '1982-11-01':
       value: null
     '1989-09-01':
-      metadata:
-        reference: Décret 89-598 du 30/08/1989
       value: 281.29
     '1990-01-01':
-      metadata:
-        reference: Décret 90-321 du 05/04/1990
       value: 282.7
     '1990-04-01':
-      metadata:
-        reference: Décret 90-332 du 05/04/1990
       value: 286.07
     '1990-12-01':
-      metadata:
-        reference: Décret 90-1058 du 22/11/1990
-      value: 289.73
-    '1991-02-01':
       value: 289.73
     '1991-08-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
       value: 291.18
     '1991-11-01':
-      metadata:
-        reference: Décret 91-1191 du 19/11/1991
       value: 294.08
     '1992-02-01':
-      metadata:
-        reference: Décret 92-107 du 30/01/1992
       value: 297.84
     '1992-10-01':
-      metadata:
-        reference: Décret 92-993 du 18/09/1992
       value: 301.9
     '1993-02-01':
-      metadata:
-        reference: Décret 93-93 du 25/01/1993
       value: 307.11
     '1994-01-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
       value: 310.18
     '1994-08-01':
-      metadata:
-        reference: Décret 93-1317 du 20/12/1993
       value: 311.73
     '1994-12-01':
-      metadata:
-        reference: Décret 94-599 du 15/07/1994
       value: 314.22
     '1995-03-01':
-      metadata:
-        reference: Décret 95-167 du 17/02/1995
       value: 317.99
     '1995-11-01':
-      metadata:
-        reference: Décret 95-1099 du 9/10/1995
       value: 322.44
     '1997-03-01':
-      metadata:
-        reference: Décret 97-141 du 13/02/1997
       value: 324.05
     '1997-10-01':
-      metadata:
-        reference: Décret 97-877 du 25/09/1997
-      value: 325.67
-    '1998-01-01':
       value: 325.67
     '1998-04-01':
-      metadata:
-        reference: Décret 98-143 du 04/03/1998
-      value: 328.28
-    '1998-07-01':
-      metadata:
-        reference: Décret 98-462 du 10/06/1998
       value: 328.28
     '1998-11-01':
-      metadata:
-        reference: Décret 98-945 du 21/10/1998
       value: 329.9
     '1999-04-01':
-      metadata:
-        reference: Décret 99-208 du 17/03/1999
       value: 331.55
     '1999-07-01':
-      metadata:
-        reference: Décret 99-941 du 10/06/1999
-      value: 334.19
-    '1999-12-01':
-      metadata:
-        reference: Décret 99-943 du 12/11/1999
       value: 334.19
     '2000-12-01':
-      metadata:
-        reference: Décret 2000-1154 du 29/11/2000
       value: 335.86
     '2001-05-01':
-      metadata:
-        reference: Décret 2001-370 du 25/04/2001
       value: 337.54
     '2001-11-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
       value: 339.9
     '2002-01-01':
-      metadata:
-        reference: Décret  2001-895 du 26/09/2001
       value: 51.81742095899578
     '2002-03-01':
-      metadata:
-        reference: Décret  2002-203 du 14/02/2002
       value: 52.1284
     '2002-12-01':
-      metadata:
-        reference: Décret 2002-1295 du 24/10/2002
       value: 52.493
     '2004-01-01':
-      metadata:
-        reference: Décret  2003-1170 du 08/12/2003
       value: 52.7558
     '2005-02-01':
-      metadata:
-        reference: Décret  2005-31 du 15/01/2005
       value: 53.0196
     '2005-07-01':
-      metadata:
-        reference: Décret 2005-726 du 29/06/2005
       value: 53.2847
     '2005-11-01':
-      metadata:
-        reference: Décret 2005-1301 du 20/10/2005
       value: 53.711
     '2006-07-01':
-      metadata:
-        reference: Décret 2006-759 du 29/06/2006
-      value: 53.9795
-    '2006-11-01':
-      metadata:
-        reference: Décret 2006-1283 du 19/10/2006
       value: 53.9795
     '2007-02-01':
-      metadata:
-        reference: Décret 2007-96 du 25/01/2007
       value: 54.4113
     '2008-03-01':
-      metadata:
-        reference: Décret 2008-198 du 27/02/2008
-      value: 54.6834
-    '2008-07-01':
-      metadata:
-        reference: Décret 2008-622 du 27/06/2008
       value: 54.6834
     '2008-10-01':
-      metadata:
-        reference: Décret 2008-1016 du 02/10/2008
       value: 54.8475
     '2009-07-01':
-      metadata:
-        reference: Décret 2009-824 du 03/07/2009
       value: 55.1217
     '2009-10-01':
-      metadata:
-        reference: Décret 2009-1158 du 30/09/2009
       value: 55.2871
     '2010-07-01':
-      metadata:
-        reference: Décret 2010-761 du 07/07/2010
-      value: 55.5635
-    '2011-01-01':
-      metadata:
-        reference: Décret 2011-51 du 13/01/2011
-      value: 55.5635
-    '2012-01-01':
-      metadata:
-        reference: Décret 2012-37 du 11/01/2012
-      value: 55.5635
-    '2012-07-01':
-      metadata:
-        reference: Décret 2012-853 du 5/07/2012
-      value: 55.5635
-    '2013-01-01':
-      metadata:
-        reference: Décret 2013-33 du 10/01/2013
       value: 55.5635
     '2016-07-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
       value: 55.8969
     '2017-02-01':
-      metadata:
-        reference: Décret 2016-670 du 25/05/2016
       value: 56.2323
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
       value: null

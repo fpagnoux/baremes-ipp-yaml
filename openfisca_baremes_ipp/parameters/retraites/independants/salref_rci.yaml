@@ -1,6 +1,7 @@
 description: 'Régime complémentaire des indépendants : valeur d''achat du point'
 metadata:
-  rank: 4
+  order:
+  - valeur_annuelle_acquisition_point_rsi
 valeur_annuelle_acquisition_point_rsi:
   description: Valeur annuelle d'acquisition du point RSI
   metadata:

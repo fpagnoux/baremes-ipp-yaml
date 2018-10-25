@@ -53,7 +53,12 @@ ctssg_prix_par_mwh:
       value: null
 description: Taxes électricité et gaz
 metadata:
-  rank: 0
+  order:
+  - cspe
+  - cta
+  - ticgn_prix_par_mwh
+  - ctssg_prix_par_mwh
+  - plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh
 plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh:
   description: Plafonds TCFE pour compteurs < ou = à 36 kva - en euros par MWh
   metadata:

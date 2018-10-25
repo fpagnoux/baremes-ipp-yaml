@@ -1,6 +1,7 @@
 description: Cotisations retraite exceptionnelle et temporaire (CET)
 metadata:
-  rank: 6
+  order:
+  - salaire_sous_8_pss
 salaire_sous_8_pss:
   description: Salaire sous 8 PSS
   employeur:
@@ -9,12 +10,8 @@ salaire_sous_8_pss:
       unit: /1
     values:
       '1997-01-01':
-        metadata:
-          reference: CCN des cadres du 14/03/1947, art. 2 de l'annexe III.
         value: 0.00045
       '1998-01-01':
-        metadata:
-          reference: Référence non trouvée
         value: 0.0009
       '1999-01-01':
         value: 0.0013
@@ -22,18 +19,18 @@ salaire_sous_8_pss:
         value: 0.0017
       '2001-01-01':
         value: 0.0022
+  metadata:
+    order:
+    - salarie
+    - employeur
   salarie:
     description: Salarié
     metadata:
       unit: /1
     values:
       '1997-01-01':
-        metadata:
-          reference: CCN des cadres du 14/03/1947, art. 2 de l'annexe III.
         value: 0.00025
       '1998-01-01':
-        metadata:
-          reference: Référence non trouvée
         value: 0.0005
       '1999-01-01':
         value: 0.0008

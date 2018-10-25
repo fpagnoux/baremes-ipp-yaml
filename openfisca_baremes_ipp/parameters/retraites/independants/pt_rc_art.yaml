@@ -1,6 +1,10 @@
 description: 'Régime complémentaire des artisans : valeur de service du point (1980-2012)'
 metadata:
-  rank: 5
+  order:
+  - valeur_points_acquis
+  - valeur_points_acquis_avant_1979
+  - valeur_points_acquis_entre_1979_1996
+  - valeur_points_acquis_entre_1997_2012
 valeur_points_acquis:
   description: Valeur des points acquis
   metadata:

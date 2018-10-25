@@ -1,5 +1,9 @@
 coefficient_majoration_ppe_temps_partiel:
   description: Coefficient de majoration PPE pour temps partiel
+  metadata:
+    order:
+    - taux_1
+    - taux_2
   taux_1:
     description: Taux 1
     metadata:
@@ -7,37 +11,11 @@ coefficient_majoration_ppe_temps_partiel:
     values:
       '2000-01-01':
         value: null
-      '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
-        value: null
-      '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
-        value: null
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
-        value: 0.45
-      '2004-01-01':
-        metadata:
-          reference: LF pour 2004
-        value: 0.45
-      '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 0.45
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 0.65
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
-        value: 0.85
-      '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 0.85
       '2017-01-01':
         value: null
@@ -48,37 +26,11 @@ coefficient_majoration_ppe_temps_partiel:
     values:
       '2000-01-01':
         value: null
-      '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
-        value: null
-      '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
-        value: null
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
-        value: 0.55
-      '2004-01-01':
-        metadata:
-          reference: LF pour 2004
-        value: 0.55
-      '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 0.55
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 0.35
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
-        value: 0.15
-      '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 0.15
       '2017-01-01':
         value: null
@@ -89,45 +41,41 @@ date_entree_en_vigueur:
       '2000-01-01':
         value: 1999.0
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 2000.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 2001.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 2002.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 2003.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 2004.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 2005.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 2006.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 2007.0
       '2017-01-01':
         value: 2016.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Prime pour l'emploi (2001 - 2015)
 metadata:
-  rank: 1
+  order:
+  - date_entree_en_vigueur
+  - seuil_rfr_etre_eligibilite_ppe
+  - taux_ppe
+  - coefficient_majoration_ppe_temps_partiel
+  - supplements
+  - minimun_ppe
 minimun_ppe:
   description: Minimun de PPE
+  metadata:
+    order:
+    - montant
   montant:
     description: Montant
     metadata:
@@ -138,36 +86,10 @@ minimun_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 160.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
-        value: 25.0
-      '2003-01-01':
-        metadata:
-          reference: LF pour 2003
-        value: 25.0
-      '2004-01-01':
-        metadata:
-          reference: LF pour 2004
-        value: 25.0
-      '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 25.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
-        value: 30.0
-      '2007-01-01':
-        metadata:
-          reference: LF pour 2007
-        value: 30.0
-      '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 30.0
       '2017-01-01':
         value: null
@@ -182,36 +104,20 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 152000.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 23544.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 23944.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 24351.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 24765.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 25211.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 32081.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 32498.0
       '2017-01-01':
         value: null
@@ -226,39 +132,33 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 21000.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 3253.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 3308.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 3364.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 3421.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 3483.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 4432.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 4490.0
       '2017-01-01':
         value: null
+  metadata:
+    order:
+    - personne_seule
+    - couple_marie_pacse
+    - increment_par_demi_part_qf_dela_1_2
+    - revenu_activite_individuel_minimum
+    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_cas_general
+    - revenu_activite_individuel_maximum_cas_general
+    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_couples_mono_revenus
+    - revenu_activite_individuel_maximum_couples_mono_emploi_parents_isoles
   personne_seule:
     description: Personne seule
     metadata:
@@ -269,36 +169,20 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 76000.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 11772.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 11972.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 12176.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 12383.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 12606.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 16042.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 16251.0
       '2017-01-01':
         value: null
@@ -312,36 +196,20 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 96016.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 14872.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 15235.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 15735.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 16364.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 16659.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 17227.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 17451.0
       '2017-01-01':
         value: null
@@ -356,36 +224,20 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 146257.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 22654.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 23207.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 23968.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 24927.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 25376.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 26231.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 26572.0
       '2017-01-01':
         value: null
@@ -399,36 +251,20 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 20575.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 3187.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 3265.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 3372.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 3507.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 3570.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 3695.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 3743.0
       '2017-01-01':
         value: null
@@ -443,36 +279,20 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 68583.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 10623.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 10882.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 11239.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 11689.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 11899.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 12315.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 12475.0
       '2017-01-01':
         value: null
@@ -487,36 +307,20 @@ seuil_rfr_etre_eligibilite_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 137166.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 21246.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 21764.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 22478.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 23377.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 23798.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 24630.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 24950.0
       '2017-01-01':
         value: null
@@ -531,40 +335,26 @@ supplements:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 500.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 78.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 79.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 80.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
-        value: 81.0
-      '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 81.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
         value: 82.0
       '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 83.0
       '2017-01-01':
         value: null
   description: Suppléments
+  metadata:
+    order:
+    - couples_mono_emploi
+    - par_personne_charge
   par_personne_charge:
     description: Par personne à charge
     metadata:
@@ -575,41 +365,28 @@ supplements:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 200.0
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
         value: 31.0
       '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 32.0
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
         value: 33.0
       '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 34.0
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 35.0
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
-        value: 36.0
-      '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 36.0
       '2017-01-01':
         value: null
 taux_ppe:
   description: Taux de la PPE
+  metadata:
+    order:
+    - phase_in
+    - phase_out_cas_general
+    - phase_out_couples_mono_emploi
   phase_in:
     description: phase-in
     metadata:
@@ -618,36 +395,14 @@ taux_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 0.022
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
-        value: 0.044000000000000004
-      '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 0.044000000000000004
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
-        value: 0.046
-      '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 0.046
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 0.068
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
-        value: 0.077
-      '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 0.077
       '2017-01-01':
         value: null
@@ -661,36 +416,14 @@ taux_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
         value: 0.055
       '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
-        value: 0.11
-      '2003-01-01':
-        metadata:
-          reference: LF pour 2003
         value: 0.11
       '2004-01-01':
-        metadata:
-          reference: LF pour 2004
-        value: 0.115
-      '2005-01-01':
-        metadata:
-          reference: LF pour 2005
         value: 0.115
       '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 0.17
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
-        value: 0.193
-      '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 0.193
       '2017-01-01':
         value: null
@@ -702,36 +435,8 @@ taux_ppe:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi n° 2001-458 du 30 mai 2001
-        value: 0.055
-      '2002-01-01':
-        metadata:
-          reference: LF pour 2002 et LFR pour 2001
-        value: 0.055
-      '2003-01-01':
-        metadata:
-          reference: LF pour 2003
-        value: 0.055
-      '2004-01-01':
-        metadata:
-          reference: LF pour 2004
-        value: 0.055
-      '2005-01-01':
-        metadata:
-          reference: LF pour 2005
-        value: 0.055
-      '2006-01-01':
-        metadata:
-          reference: LF pour 2006
         value: 0.055
       '2007-01-01':
-        metadata:
-          reference: LF pour 2007
-        value: 0.051
-      '2008-01-01':
-        metadata:
-          reference: LF pour 2008
         value: 0.051
       '2017-01-01':
         value: null

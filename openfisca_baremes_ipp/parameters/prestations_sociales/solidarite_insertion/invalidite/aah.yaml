@@ -3,60 +3,6 @@ age_minimal:
   values:
     '2000-01-01':
       value: 20.0
-    '2004-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2003-630 du 30/12/2004
-      value: 20.0
-    '2005-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2005-411 du 07/09/2005
-      value: 20.0
-    '2006-01-01':
-      value: 20.0
-    '2008-09-01':
-      metadata:
-        reference: Décret 2008-988 du 18/09/2008
-      value: 20.0
-    '2009-04-01':
-      metadata:
-        reference: Décret 2009-353 du 31/03/2009 - art. 1 (V)
-      value: 20.0
-    '2010-04-01':
-      metadata:
-        reference: Décret 2010-307 du 22/03/2010 - art. 1 (V)
-      value: 20.0
-    '2011-04-01':
-      metadata:
-        reference: Décret 2011-658 du 10/06/2011 - art. 1 (V)
-      value: 20.0
-    '2012-04-01':
-      metadata:
-        reference: Décret 2012-486 du 13/04/2012 - art. 1 (V)
-      value: 20.0
-    '2013-09-01':
-      metadata:
-        reference: Décret 2013-831 du 17/09/2013 - art. 1 (V)
-      value: 20.0
-    '2014-09-01':
-      metadata:
-        reference: Décret 2014-1129 du 3/10/2014 - art. 1 (V)
-      value: 20.0
-    '2015-09-01':
-      metadata:
-        reference: Décret 2015-1233 du 6/10/2015 - art. 1 (V)
-      value: 20.0
-    '2016-04-01':
-      metadata:
-        reference: Décret 2016-535 du 27/04/2016 - art. 1 (V)
-      value: 20.0
-    '2017-04-01':
-      metadata:
-        reference: Décret 2017-710 du 03/05/2017 - art. 1
-      value: 20.0
-    '2018-04-01':
-      metadata:
-        reference: Décret 2018-328 du 04/05/2017 - art. 1
-      value: 20.0
 description: Allocations aux adultes handicapés (AAH)
 majoration_par_enfant_supplementaire:
   description: Majoration par enfant supplémentaire
@@ -65,60 +11,6 @@ majoration_par_enfant_supplementaire:
   values:
     '2000-01-01':
       value: 0.5
-    '2004-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2003-630 du 30/12/2004
-      value: 0.5
-    '2005-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2005-411 du 07/09/2005
-      value: 0.5
-    '2006-01-01':
-      value: 0.5
-    '2008-09-01':
-      metadata:
-        reference: Décret 2008-988 du 18/09/2008
-      value: 0.5
-    '2009-04-01':
-      metadata:
-        reference: Décret 2009-353 du 31/03/2009 - art. 1 (V)
-      value: 0.5
-    '2010-04-01':
-      metadata:
-        reference: Décret 2010-307 du 22/03/2010 - art. 1 (V)
-      value: 0.5
-    '2011-04-01':
-      metadata:
-        reference: Décret 2011-658 du 10/06/2011 - art. 1 (V)
-      value: 0.5
-    '2012-04-01':
-      metadata:
-        reference: Décret 2012-486 du 13/04/2012 - art. 1 (V)
-      value: 0.5
-    '2013-09-01':
-      metadata:
-        reference: Décret 2013-831 du 17/09/2013 - art. 1 (V)
-      value: 0.5
-    '2014-09-01':
-      metadata:
-        reference: Décret 2014-1129 du 3/10/2014 - art. 1 (V)
-      value: 0.5
-    '2015-09-01':
-      metadata:
-        reference: Décret 2015-1233 du 6/10/2015 - art. 1 (V)
-      value: 0.5
-    '2016-04-01':
-      metadata:
-        reference: Décret 2016-535 du 27/04/2016 - art. 1 (V)
-      value: 0.5
-    '2017-04-01':
-      metadata:
-        reference: Décret 2017-710 du 03/05/2017 - art. 1
-      value: 0.5
-    '2018-04-01':
-      metadata:
-        reference: Décret 2018-328 du 04/05/2017 - art. 1
-      value: 0.5
 majoration_plafond_couple:
   description: Majoration du plafond pour un couple
   metadata:
@@ -126,62 +18,14 @@ majoration_plafond_couple:
   values:
     '2000-01-01':
       value: 1.0
-    '2004-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2003-630 du 30/12/2004
-      value: 1.0
-    '2005-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2005-411 du 07/09/2005
-      value: 1.0
-    '2006-01-01':
-      value: 1.0
-    '2008-09-01':
-      metadata:
-        reference: Décret 2008-988 du 18/09/2008
-      value: 1.0
-    '2009-04-01':
-      metadata:
-        reference: Décret 2009-353 du 31/03/2009 - art. 1 (V)
-      value: 1.0
-    '2010-04-01':
-      metadata:
-        reference: Décret 2010-307 du 22/03/2010 - art. 1 (V)
-      value: 1.0
-    '2011-04-01':
-      metadata:
-        reference: Décret 2011-658 du 10/06/2011 - art. 1 (V)
-      value: 1.0
-    '2012-04-01':
-      metadata:
-        reference: Décret 2012-486 du 13/04/2012 - art. 1 (V)
-      value: 1.0
-    '2013-09-01':
-      metadata:
-        reference: Décret 2013-831 du 17/09/2013 - art. 1 (V)
-      value: 1.0
-    '2014-09-01':
-      metadata:
-        reference: Décret 2014-1129 du 3/10/2014 - art. 1 (V)
-      value: 1.0
-    '2015-09-01':
-      metadata:
-        reference: Décret 2015-1233 du 6/10/2015 - art. 1 (V)
-      value: 1.0
-    '2016-04-01':
-      metadata:
-        reference: Décret 2016-535 du 27/04/2016 - art. 1 (V)
-      value: 1.0
-    '2017-04-01':
-      metadata:
-        reference: Décret 2017-710 du 03/05/2017 - art. 1
-      value: 1.0
-    '2018-04-01':
-      metadata:
-        reference: Décret 2018-328 du 04/05/2017 - art. 1
-      value: 1.0
 metadata:
-  rank: 0
+  order:
+  - age_minimal
+  - taux_incapcite
+  - montant
+  - plafond_ressources_en_multiple_montant_base
+  - majoration_plafond_couple
+  - majoration_par_enfant_supplementaire
 montant:
   description: Montant
   metadata:
@@ -196,12 +40,8 @@ montant:
     '2003-01-01':
       value: 577.92
     '2004-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2003-630 du 30/12/2004
       value: 587.74
     '2005-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2005-411 du 07/09/2005
       value: 599.49
     '2006-01-01':
       value: 610.28
@@ -210,123 +50,39 @@ montant:
     '2008-01-01':
       value: 628.1
     '2008-09-01':
-      metadata:
-        reference: Décret 2008-988 du 18/09/2008
       value: 652.6
     '2009-04-01':
-      metadata:
-        reference: Décret 2009-353 du 31/03/2009 - art. 1 (V)
       value: 666.96
     '2009-09-01':
-      metadata:
-        reference: Décret 2009-353 du 31/03/2009 - art. 1 (V)
       value: 681.63
     '2010-04-01':
-      metadata:
-        reference: Décret 2010-307 du 22/03/2010 - art. 1 (V)
       value: 696.63
     '2010-09-01':
-      metadata:
-        reference: Décret 2010-307 du 22/03/2010 - art. 1 (V)
       value: 711.95
     '2011-04-01':
-      metadata:
-        reference: Décret 2011-658 du 10/06/2011 - art. 1 (V)
       value: 727.61
     '2011-09-01':
-      metadata:
-        reference: Décret 2011-658 du 10/06/2011 - art. 1 (V)
       value: 743.62
     '2012-04-01':
-      metadata:
-        reference: Décret 2012-486 du 13/04/2012 - art. 1 (V)
       value: 759.98
     '2012-09-01':
-      metadata:
-        reference: Décret 2012-486 du 13/04/2012 - art. 1 (V)
       value: 776.59
     '2013-09-01':
-      metadata:
-        reference: Décret 2013-831 du 17/09/2013 - art. 1 (V)
       value: 790.18
     '2014-09-01':
-      metadata:
-        reference: Décret 2014-1129 du 3/10/2014 - art. 1 (V)
       value: 800.45
     '2015-09-01':
-      metadata:
-        reference: Décret 2015-1233 du 6/10/2015 - art. 1 (V)
       value: 807.65
     '2016-04-01':
-      metadata:
-        reference: Décret 2016-535 du 27/04/2016 - art. 1 (V)
       value: 808.46
     '2017-04-01':
-      metadata:
-        reference: Décret 2017-710 du 03/05/2017 - art. 1
       value: 810.89
     '2018-04-01':
-      metadata:
-        reference: Décret 2018-328 du 04/05/2017 - art. 1
       value: 819.0
 plafond_ressources_en_multiple_montant_base:
   description: Plafond de ressources (en multiple du montant de base)
   values:
     '2000-01-01':
-      value: 12.0
-    '2004-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2003-630 du 30/12/2004
-      value: 12.0
-    '2005-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2005-411 du 07/09/2005
-      value: 12.0
-    '2006-01-01':
-      value: 12.0
-    '2008-09-01':
-      metadata:
-        reference: Décret 2008-988 du 18/09/2008
-      value: 12.0
-    '2009-04-01':
-      metadata:
-        reference: Décret 2009-353 du 31/03/2009 - art. 1 (V)
-      value: 12.0
-    '2010-04-01':
-      metadata:
-        reference: Décret 2010-307 du 22/03/2010 - art. 1 (V)
-      value: 12.0
-    '2011-04-01':
-      metadata:
-        reference: Décret 2011-658 du 10/06/2011 - art. 1 (V)
-      value: 12.0
-    '2012-04-01':
-      metadata:
-        reference: Décret 2012-486 du 13/04/2012 - art. 1 (V)
-      value: 12.0
-    '2013-09-01':
-      metadata:
-        reference: Décret 2013-831 du 17/09/2013 - art. 1 (V)
-      value: 12.0
-    '2014-09-01':
-      metadata:
-        reference: Décret 2014-1129 du 3/10/2014 - art. 1 (V)
-      value: 12.0
-    '2015-09-01':
-      metadata:
-        reference: Décret 2015-1233 du 6/10/2015 - art. 1 (V)
-      value: 12.0
-    '2016-04-01':
-      metadata:
-        reference: Décret 2016-535 du 27/04/2016 - art. 1 (V)
-      value: 12.0
-    '2017-04-01':
-      metadata:
-        reference: Décret 2017-710 du 03/05/2017 - art. 1
-      value: 12.0
-    '2018-04-01':
-      metadata:
-        reference: Décret 2018-328 du 04/05/2017 - art. 1
       value: 12.0
 taux_incapcite:
   description: Taux d'incapcité
@@ -334,58 +90,4 @@ taux_incapcite:
     unit: /1
   values:
     '2000-01-01':
-      value: 0.8
-    '2004-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2003-630 du 30/12/2004
-      value: 0.8
-    '2005-01-01':
-      metadata:
-        reference: Circulaire DGAS/1C 2005-411 du 07/09/2005
-      value: 0.8
-    '2006-01-01':
-      value: 0.8
-    '2008-09-01':
-      metadata:
-        reference: Décret 2008-988 du 18/09/2008
-      value: 0.8
-    '2009-04-01':
-      metadata:
-        reference: Décret 2009-353 du 31/03/2009 - art. 1 (V)
-      value: 0.8
-    '2010-04-01':
-      metadata:
-        reference: Décret 2010-307 du 22/03/2010 - art. 1 (V)
-      value: 0.8
-    '2011-04-01':
-      metadata:
-        reference: Décret 2011-658 du 10/06/2011 - art. 1 (V)
-      value: 0.8
-    '2012-04-01':
-      metadata:
-        reference: Décret 2012-486 du 13/04/2012 - art. 1 (V)
-      value: 0.8
-    '2013-09-01':
-      metadata:
-        reference: Décret 2013-831 du 17/09/2013 - art. 1 (V)
-      value: 0.8
-    '2014-09-01':
-      metadata:
-        reference: Décret 2014-1129 du 3/10/2014 - art. 1 (V)
-      value: 0.8
-    '2015-09-01':
-      metadata:
-        reference: Décret 2015-1233 du 6/10/2015 - art. 1 (V)
-      value: 0.8
-    '2016-04-01':
-      metadata:
-        reference: Décret 2016-535 du 27/04/2016 - art. 1 (V)
-      value: 0.8
-    '2017-04-01':
-      metadata:
-        reference: Décret 2017-710 du 03/05/2017 - art. 1
-      value: 0.8
-    '2018-04-01':
-      metadata:
-        reference: Décret 2018-328 du 04/05/2017 - art. 1
       value: 0.8

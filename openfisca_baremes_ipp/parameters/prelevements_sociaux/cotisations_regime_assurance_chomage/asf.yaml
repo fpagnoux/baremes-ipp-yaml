@@ -1,6 +1,8 @@
 description: Cotisations pour la structure financière ASF (1984-2001)
 metadata:
-  rank: 2
+  order:
+  - tranche
+  - tranche_b
 tranche:
   description: Tranche A
   employeur:
@@ -9,63 +11,29 @@ tranche:
       unit: /1
     values:
       '1984-01-01':
-        metadata:
-          reference: Accord du 10/01/1984
-        value: 0.012
-      '1984-04-01':
-        metadata:
-          reference: Convention et règlement Unedic du 24/02/84 agréés par arrêté
-            du 28/03/84
         value: 0.012
       '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p. 791)
-        value: 0.0108
-      '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 5/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.0108
       '1994-01-01':
-        metadata:
-          reference: Convention et règlement UNEDIC du 01/01/94 agréés par arrêté
-            du 04/01/94
         value: 0.0116
       '2001-04-01':
-        metadata:
-          reference: Accord Arrco-Agirc du 10/02/2001, ch. III
         value: null
+  metadata:
+    order:
+    - salarie
+    - employeur
   salarie:
     description: Salarié
     metadata:
       unit: /1
     values:
       '1984-01-01':
-        metadata:
-          reference: Accord du 10/01/1984
-        value: 0.008
-      '1984-04-01':
-        metadata:
-          reference: Convention et règlement Unedic du 24/02/84 agréés par arrêté
-            du 28/03/84
         value: 0.008
       '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p. 791)
-        value: 0.0072
-      '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 5/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.0072
       '1994-01-01':
-        metadata:
-          reference: Convention et règlement UNEDIC du 01/01/94 agréés par arrêté
-            du 04/01/94
         value: 0.008
       '2001-04-01':
-        metadata:
-          reference: Accord Arrco-Agirc du 10/02/2001, ch. III
         value: null
 tranche_b:
   description: Tranche B
@@ -75,61 +43,27 @@ tranche_b:
       unit: /1
     values:
       '1984-01-01':
-        metadata:
-          reference: Accord du 10/01/1984
         value: null
       '1984-04-01':
-        metadata:
-          reference: Convention et règlement Unedic du 24/02/84 agréés par arrêté
-            du 28/03/84
-        value: 0.012
-      '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p. 791)
-        value: 0.012
-      '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 5/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.012
       '1994-01-01':
-        metadata:
-          reference: Convention et règlement UNEDIC du 01/01/94 agréés par arrêté
-            du 04/01/94
         value: 0.0129
       '2001-04-01':
-        metadata:
-          reference: Accord Arrco-Agirc du 10/02/2001, ch. III
         value: null
+  metadata:
+    order:
+    - salarie
+    - employeur
   salarie:
     description: Salarié
     metadata:
       unit: /1
     values:
       '1984-01-01':
-        metadata:
-          reference: Accord du 10/01/1984
         value: null
       '1984-04-01':
-        metadata:
-          reference: Convention et règlement Unedic du 24/02/84 agréés par arrêté
-            du 28/03/84
-        value: 0.008
-      '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p. 791)
-        value: 0.008
-      '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 5/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.008
       '1994-01-01':
-        metadata:
-          reference: Convention et règlement UNEDIC du 01/01/94 agréés par arrêté
-            du 04/01/94
         value: 0.0089
       '2001-04-01':
-        metadata:
-          reference: Accord Arrco-Agirc du 10/02/2001, ch. III
         value: null

@@ -5,23 +5,11 @@ base_1:
   values:
     '1941-04-01':
       value: null
-    '1946-09-01':
-      metadata:
-        reference: Loi du 22 aout 1946
-      value: null
     '1959-01-01':
       value: 180.0
     '1976-07-01':
-      metadata:
-        reference: 'Loi 72-8 du 03/01/1972
-
-          Décret 72-530 du 29/06/1972 (S.U.)
-
-          Décret 76-767 du 16/08/1976 ("Majoration")'
       value: 194.5
     '1978-01-01':
-      metadata:
-        reference: Loi 77-765 du 12/07/1977
       value: null
 description: 'Allocation de salaire unique (ASU) : montant mensuel'
 majoration:
@@ -32,25 +20,15 @@ majoration:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 388.2
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   description: Majoration
+  metadata:
+    order:
+    - base
+    - montant
   montant:
     description: Montant
     metadata:
@@ -58,26 +36,16 @@ majoration:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 194.1
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
 metadata:
-  rank: 7
+  order:
+  - base_1
+  - taux
+  - montant
+  - majoration
 montant:
   1_enfant_plus_2_ans:
     description: 1 enfant, plus de 2 ans
@@ -86,23 +54,9 @@ montant:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 97.25
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   2_enfants_plus_2_ans:
     description: 2 enfants, plus de 2 ans
@@ -111,23 +65,9 @@ montant:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 77.8
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   3_enfants_plus_2_ans:
     description: 3 ou + enfants, plus de 2 ans
@@ -136,25 +76,17 @@ montant:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 97.25
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   description: Montant
+  metadata:
+    order:
+    - moins_1_enfant_moins_2_ans
+    - 1_enfant_plus_2_ans
+    - 2_enfants_plus_2_ans
+    - 3_enfants_plus_2_ans
   moins_1_enfant_moins_2_ans:
     description: Au moins 1 enfant de moins de 2 ans
     metadata:
@@ -162,23 +94,9 @@ montant:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 97.25
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
 taux:
   1_enfant_moins_5_ans:
@@ -188,23 +106,7 @@ taux:
     values:
       '1941-04-01':
         value: 0.2
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: 0.2
-      '1959-01-01':
-        value: 0.2
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   1_enfant_plus_2_ans:
     description: 1 enfant, plus de 2 ans
@@ -213,23 +115,9 @@ taux:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 0.2
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   1_enfant_plus_5_ans_2:
     description: "1 enfant, plus de 5 ans \n(2)"
@@ -238,23 +126,7 @@ taux:
     values:
       '1941-04-01':
         value: 0.1
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: 0.1
       '1959-01-01':
-        value: null
-      '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   2_enfants_plus_2_ans_3:
     description: "2 enfants, plus de 2 ans \n(3)"
@@ -264,22 +136,10 @@ taux:
       '1941-04-01':
         value: 0.25
       '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: 0.3
-      '1959-01-01':
         value: 0.3
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 0.4
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   3_enfants_plus_2_ans_3:
     description: "3 ou + enfants, plus de 2 ans\n (3)"
@@ -289,24 +149,18 @@ taux:
       '1941-04-01':
         value: 0.3
       '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: 0.5
-      '1959-01-01':
-        value: 0.5
-      '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 0.5
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   description: Taux
+  metadata:
+    order:
+    - 1_enfant_moins_5_ans
+    - 1_enfant_plus_5_ans_2
+    - moins_1_enfant_moins_2_ans
+    - 1_enfant_plus_2_ans
+    - 2_enfants_plus_2_ans_3
+    - 3_enfants_plus_2_ans_3
   moins_1_enfant_moins_2_ans:
     description: Au moins 1 enfant de moins de 2 ans
     metadata:
@@ -314,21 +168,7 @@ taux:
     values:
       '1941-04-01':
         value: null
-      '1946-09-01':
-        metadata:
-          reference: Loi du 22 aout 1946
-        value: null
-      '1959-01-01':
-        value: null
       '1976-07-01':
-        metadata:
-          reference: 'Loi 72-8 du 03/01/1972
-
-            Décret 72-530 du 29/06/1972 (S.U.)
-
-            Décret 76-767 du 16/08/1976 ("Majoration")'
         value: 0.5
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null

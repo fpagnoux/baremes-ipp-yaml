@@ -4,59 +4,8 @@ caps_produits_placement:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: null
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: null
-    '1991-01-01':
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
       value: null
     '2004-07-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: 0.003
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: 0.003
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: 0.003
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: 0.003
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: 0.003
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: 0.003
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
-      value: 0.003
-    '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: 0.003
 caps_revenus_patrimoine:
   description: CAPS sur les revenus du patrimoine
@@ -64,59 +13,10 @@ caps_revenus_patrimoine:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: null
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: null
-    '1991-01-01':
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
       value: null
     '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
       value: 0.0015
     '2004-07-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: 0.003
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: 0.003
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: 0.003
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: 0.003
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: 0.003
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: 0.003
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
-      value: 0.003
-    '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: 0.003
 caps_rsa:
   description: CAPS-RSA
@@ -124,55 +24,10 @@ caps_rsa:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: null
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: null
-    '1991-01-01':
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
       value: null
     '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: 0.011
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: 0.011
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: 0.011
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: 0.011
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: 0.011
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
       value: 0.011
     '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: null
 contribution_sociale_cnav:
   description: Contribution sociale (CNAV)
@@ -180,55 +35,10 @@ contribution_sociale_cnav:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
       value: null
     '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: 0.004
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
       value: 0.004
     '1991-01-01':
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: null
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: null
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: null
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: null
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
-      value: null
-    '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: null
 contribution_sociale_permanente_cnaf:
   description: Contribution sociale permanente (CNAF)
@@ -236,114 +46,32 @@ contribution_sociale_permanente_cnaf:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: 0.01
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: 0.01
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: 0.01
-    '1991-01-01':
       value: 0.01
     '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: null
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: null
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: null
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: null
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
-      value: null
-    '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: null
 description: Autres prélèvements sociaux sur les revenus financiers
 metadata:
-  rank: 1
+  order:
+  - prelevement_social_exceptionnel_cnav
+  - contribution_sociale_permanente_cnaf
+  - contribution_sociale_cnav
+  - prelevement_social_revenus_patrimoine
+  - prelevement_social_produits_placement
+  - caps_revenus_patrimoine
+  - caps_produits_placement
+  - caps_rsa
+  - prelevements_solidarite_revenus_patrimoine
+  - prelevements_solidarite_produits_placement
 prelevement_social_exceptionnel_cnav:
   description: Prélèvement social exceptionnel (CNAV)
   metadata:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
       value: null
     '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: 0.01
-    '1991-01-01':
       value: 0.01
     '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: null
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: null
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: null
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: null
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
-      value: null
-    '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: null
 prelevement_social_produits_placement:
   description: Prélèvement social sur les produits de placement
@@ -351,59 +79,16 @@ prelevement_social_produits_placement:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: null
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: null
-    '1991-01-01':
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
       value: null
     '1998-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: 0.02
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: 0.02
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: 0.02
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
       value: 0.02
     '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
       value: 0.022
     '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: 0.034
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: 0.034
     '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
       value: 0.054
     '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: 0.045
 prelevement_social_revenus_patrimoine:
   description: Prélèvement social sur les revenus du patrimoine
@@ -411,55 +96,16 @@ prelevement_social_revenus_patrimoine:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: null
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: null
-    '1991-01-01':
       value: null
     '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: 0.02
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: 0.02
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
       value: 0.02
     '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: 0.022
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
       value: 0.022
     '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
       value: 0.034
     '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: 0.054
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
       value: 0.054
     '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: 0.045
 prelevements_solidarite_produits_placement:
   description: Prélèvements de solidarité sur les produits de placement
@@ -467,55 +113,8 @@ prelevements_solidarite_produits_placement:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: null
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: null
-    '1991-01-01':
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: null
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: null
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-      value: null
-    '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: null
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
       value: null
     '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: 0.02
 prelevements_solidarite_revenus_patrimoine:
   description: Prélèvements de solidarité sur les revenus du patrimoine
@@ -523,53 +122,6 @@ prelevements_solidarite_revenus_patrimoine:
     unit: /1
   values:
     '1984-01-01':
-      metadata:
-        reference: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
-      value: null
-    '1985-01-01':
-      metadata:
-        reference: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-          du 18/08/1986, art. 2
-      value: null
-    '1987-08-01':
-      metadata:
-        reference: Loi 87-516 du 10/07/1987, art. 2
-      value: null
-    '1991-01-01':
-      value: null
-    '1997-01-01':
-      metadata:
-        reference: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-      value: null
-    '2003-01-01':
-      metadata:
-        reference: Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-      value: null
-    '2009-01-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3
-      value: null
-    '2010-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010, art. 6
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
       value: null
     '2012-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
-      value: 0.02
-    '2012-07-01':
-      metadata:
-        reference: Loi 2012-354 du 14/03/2012, art. 2
-      value: 0.02
-    '2013-01-01':
-      metadata:
-        reference: Loi 2012-1404 du 17/12/2012, art. 3
       value: 0.02

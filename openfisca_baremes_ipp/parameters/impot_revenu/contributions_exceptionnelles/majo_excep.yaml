@@ -5,14 +5,10 @@ date_entree_en_vigueur:
       '1947-01-01':
         value: 1946.0
       '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
         value: 1947.0
       '1949-01-01':
         value: 1948.0
       '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
         value: 1955.0
       '1957-01-01':
         value: 1956.0
@@ -25,8 +21,6 @@ date_entree_en_vigueur:
       '1961-01-01':
         value: 1960.0
       '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
         value: 1961.0
       '1963-01-01':
         value: 1962.0
@@ -39,53 +33,45 @@ date_entree_en_vigueur:
       '1967-01-01':
         value: 1966.0
       '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
         value: 1967.0
       '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
         value: 1968.0
       '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
         value: 1969.0
       '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
         value: 1970.0
       '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
         value: 1971.0
       '1973-01-01':
         value: 1972.0
       '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
         value: 1980.0
       '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
         value: 1981.0
       '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
         value: 1982.0
       '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
         value: 1983.0
       '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
         value: 1984.0
       '1986-01-01':
         value: 1985.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Majorations exceptionnelles (1947-1981)
 majorations_exceptionnelles_impot:
   description: Majorations exceptionnelles d'impôt
+  metadata:
+    order:
+    - taux_1
+    - taux_2
+    - taux_3_superieur
+    - seuil_revenu
+    - seuil_1
+    - seuil_2
+    - seuil_3_superieur
   seuil_1:
     description: Seuil 1
     metadata:
@@ -93,65 +79,27 @@ majorations_exceptionnelles_impot:
     values:
       '1947-01-01':
         value: null
-      '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
-        value: null
-      '1949-01-01':
-        value: null
-      '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
-        value: null
-      '1957-01-01':
-        value: null
-      '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
-        value: null
-      '1963-01-01':
-        value: null
       '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
         value: 5000.0
       '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
         value: 6000.0
       '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
         value: 7000.0
       '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
         value: 10000.0
       '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
         value: 15000.0
       '1973-01-01':
         value: null
       '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
         value: 100000.0
       '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
         value: 15000.0
       '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
         value: 28000.0
       '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
         value: 20000.0
       '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
         value: 32080.0
       '1986-01-01':
         value: null
@@ -162,67 +110,19 @@ majorations_exceptionnelles_impot:
     values:
       '1947-01-01':
         value: null
-      '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
-        value: null
-      '1949-01-01':
-        value: null
-      '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
-        value: null
-      '1957-01-01':
-        value: null
-      '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
-        value: null
-      '1963-01-01':
-        value: null
       '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
         value: 10000.0
       '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
-        value: 12000.0
-      '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
         value: 12000.0
       '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
         value: 15000.0
       '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
         value: 20000.0
       '1973-01-01':
         value: null
-      '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
-        value: null
-      '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
-        value: null
-      '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
-        value: null
       '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
         value: 30000.0
       '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
-        value: null
-      '1986-01-01':
         value: null
   seuil_3_superieur:
     description: Seuil 3 (supérieur)
@@ -231,67 +131,13 @@ majorations_exceptionnelles_impot:
     values:
       '1947-01-01':
         value: null
-      '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
-        value: null
-      '1949-01-01':
-        value: null
-      '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
-        value: null
-      '1957-01-01':
-        value: null
-      '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
-        value: null
-      '1963-01-01':
-        value: null
       '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
         value: 20000.0
       '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
-        value: 14000.0
-      '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
         value: 14000.0
       '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
         value: 20000.0
       '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
-        value: null
-      '1973-01-01':
-        value: null
-      '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
-        value: null
-      '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
-        value: null
-      '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
-        value: null
-      '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
-        value: null
-      '1986-01-01':
         value: null
   seuil_revenu:
     description: Seuil revenu
@@ -301,22 +147,12 @@ majorations_exceptionnelles_impot:
       '1947-01-01':
         value: null
       '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
         value: 50000.0
       '1949-01-01':
         value: null
       '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
-        value: 600000.0
-      '1957-01-01':
         value: 600000.0
       '1961-01-01':
-        value: 6000.0
-      '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
         value: 6000.0
       '1963-01-01':
         value: 8000.0
@@ -328,50 +164,6 @@ majorations_exceptionnelles_impot:
         value: 50000.0
       '1967-01-01':
         value: null
-      '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
-        value: null
-      '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
-        value: null
-      '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
-        value: null
-      '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
-        value: null
-      '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
-        value: null
-      '1973-01-01':
-        value: null
-      '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
-        value: null
-      '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
-        value: null
-      '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
-        value: null
-      '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
-        value: null
-      '1986-01-01':
-        value: null
   taux_1:
     description: Taux 1
     metadata:
@@ -380,66 +172,32 @@ majorations_exceptionnelles_impot:
       '1947-01-01':
         value: null
       '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
         value: 0.2
       '1949-01-01':
         value: null
       '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
-        value: 0.1
-      '1957-01-01':
         value: 0.1
       '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
-        value: 0.05
-      '1963-01-01':
         value: 0.05
       '1967-01-01':
         value: null
       '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
         value: 0.1
       '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
-        value: 0.02
-      '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
         value: 0.02
       '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
-        value: 0.01
-      '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
         value: 0.01
       '1973-01-01':
         value: null
       '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
         value: 0.25
       '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
         value: 0.1
       '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
         value: 0.07
       '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
         value: 0.05
       '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
         value: 0.03
       '1986-01-01':
         value: null
@@ -450,67 +208,19 @@ majorations_exceptionnelles_impot:
     values:
       '1947-01-01':
         value: null
-      '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
-        value: null
-      '1949-01-01':
-        value: null
-      '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
-        value: null
-      '1957-01-01':
-        value: null
-      '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
-        value: null
-      '1963-01-01':
-        value: null
       '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
         value: 0.2
       '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
         value: 0.14
       '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
         value: 0.07
       '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
-        value: 0.02
-      '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
         value: 0.02
       '1973-01-01':
         value: null
-      '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
-        value: null
-      '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
-        value: null
-      '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
-        value: null
       '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
         value: 0.08
       '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
-        value: null
-      '1986-01-01':
         value: null
   taux_3_superieur:
     description: Taux 3 (supérieur)
@@ -519,67 +229,17 @@ majorations_exceptionnelles_impot:
     values:
       '1947-01-01':
         value: null
-      '1948-01-01':
-        metadata:
-          reference: '1948-09-24 00:00:00'
-        value: null
-      '1949-01-01':
-        value: null
-      '1956-01-01':
-        metadata:
-          reference: Loi 56-639 du 30/06/1956 - art. 1
-        value: null
-      '1957-01-01':
-        value: null
-      '1962-01-01':
-        metadata:
-          reference: Loi 60-1384 du 23/12/1960 (LF pour 1961) - art. 4 II et III
-        value: null
-      '1963-01-01':
-        value: null
       '1968-01-01':
-        metadata:
-          reference: Loi 68-695 du 31/07/1968 (LFR pour 1968) - art. 15
         value: 0.25
       '1969-01-01':
-        metadata:
-          reference: Loi 68-1172 du 27/12/1968 (LF pour 1969) - art. 2-I-2
         value: 0.15
       '1970-01-01':
-        metadata:
-          reference: Loi 69-1161 du 24/12/1969 (LF pour 1970) - art.  3-V
         value: 0.075
       '1971-01-01':
-        metadata:
-          reference: Loi 70-1199 du 21/12/1970 (LF pour 1971) - art. 2-IX
         value: 0.03
       '1972-01-01':
-        metadata:
-          reference: Loi 71-1061 du 29/12/1971 (LF pour 1972) - art. 3-III
-        value: null
-      '1973-01-01':
-        value: null
-      '1981-01-01':
-        metadata:
-          reference: Loi 81-734 du 03/08/1981 (LFR pour 1981) - art. 1
-        value: null
-      '1982-01-01':
-        metadata:
-          reference: Loi 81-1160 du 30/12/1981 (LF pour 1982) - art. 14
-        value: null
-      '1983-01-01':
-        metadata:
-          reference: Loi 82-1126 du 29/12/1982 (LF pour 1983) - art. 2
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 83-1179 du 29/12/1983 (LF pour 1984) - art. 2-VIII
-        value: null
-      '1985-01-01':
-        metadata:
-          reference: Loi 84-1208 du 29/12/1984 (LF pour 1985) - art. 2-VII
-        value: null
-      '1986-01-01':
         value: null
 metadata:
-  rank: 1
+  order:
+  - date_entree_en_vigueur
+  - majorations_exceptionnelles_impot

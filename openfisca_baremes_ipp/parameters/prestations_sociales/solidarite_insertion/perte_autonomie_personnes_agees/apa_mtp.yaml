@@ -1,73 +1,41 @@
 description: Montant de la majoration pour aide constante d'une tierce personne (MTP)
 metadata:
-  rank: 1
+  order:
+  - mtp
 mtp:
   description: MTP
   metadata:
     unit: currency-EUR
   values:
     '2002-01-01':
-      metadata:
-        reference: "Loi 2001-647 du 20/07/2001\nDécret 2001-1084 du 20/11/2001, art.\
-          \ 6 \nArrêté du 25/01/2002"
       value: 916.31
     '2003-01-01':
-      metadata:
-        reference: Arrêté du 31/12/2002
       value: 930.05
     '2004-01-01':
-      metadata:
-        reference: Arrêté du 23/12/2003
       value: 945.87
     '2005-01-01':
-      metadata:
-        reference: Arrêté du 16/12/2004
       value: 964.78
     '2006-01-01':
-      metadata:
-        reference: Arrêté du 23/12/2005
       value: 982.15
     '2007-01-01':
-      metadata:
-        reference: Arrêté du 19/12/2006
       value: 999.83
     '2008-01-01':
-      metadata:
-        reference: Arrêté du 21/12/2007
       value: 1010.82
     '2008-09-01':
-      metadata:
-        reference: Circulaire Cnav 2008/45 du 12/08/2008
       value: 1018.91
     '2009-04-01':
-      metadata:
-        reference: Circulaire Cnav 2009/31 du 16/04/2008
       value: 1029.1
     '2010-04-01':
-      metadata:
-        reference: Circulaire Cnav 2010/43 du 23/04/2010
       value: 1038.36
     '2011-04-01':
-      metadata:
-        reference: Circulaire Cnav 2011/30 du 14/04/2011
       value: 1060.16
     '2012-04-01':
-      metadata:
-        reference: Circulaire Cnav 2012/35 du 17/04/2012
       value: 1082.43
     '2013-04-01':
-      metadata:
-        reference: Circulaire Cnav 2013/29 du 18/04/2013
       value: 1096.5
     '2014-04-01':
-      metadata:
-        reference: Circulaire Cnav 2014/28 du 09/04/204
       value: 1103.08
     '2016-04-01':
-      metadata:
-        reference: Circulaire Cnav 2016-21 du 04/04/2016
       value: 1104.18
     '2017-04-01':
-      metadata:
-        reference: Circulaire Cnav 2017/13 du 04/04/2017
       value: 1107.49

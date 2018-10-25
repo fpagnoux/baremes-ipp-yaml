@@ -1,6 +1,8 @@
 description: Valeur du point RAFP
 metadata:
-  rank: 11
+  order:
+  - valeur_acquisition_point_rafp
+  - valeur_service_point_rafp
 valeur_acquisition_point_rafp:
   description: Valeur d'acquisition du point RAFP
   metadata:

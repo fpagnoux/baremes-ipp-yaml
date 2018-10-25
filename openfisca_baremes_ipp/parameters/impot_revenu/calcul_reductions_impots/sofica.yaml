@@ -5,45 +5,41 @@ date_entree_en_vigueur:
       '1985-01-01':
         value: 1984.0
       '1986-01-01':
-        metadata:
-          reference: Loi n° 85-695 du 11/07/1985 - art. 40-IV
         value: 1985.0
       '1998-01-01':
         value: 1997.0
       '2002-01-01':
-        metadata:
-          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000596281&idArticle=LEGIARTI000006212781&dateTexte=20040531&categorieLien=id
         value: 2001.0
       '2007-01-01':
-        metadata:
-          reference: Loi n° 2006-1771 du 30/12/2006 (LFR pour 2006) - art. 102
         value: 2006.0
       '2008-01-01':
-        metadata:
-          reference: Loi n° 2008-1443 du 30/12/2008 (LFR pour 2008) - art. 87
         value: 2007.0
       '2011-01-01':
-        metadata:
-          reference: Décret n° 2010-13 du 6/01/2010
         value: 2010.0
       '2012-01-01':
-        metadata:
-          reference: Loi n° 2011-1977 du 28/12/2011 (LF pour 2012) - art. 9
         value: 2011.0
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-547 (art. 1) du 23/04/2012
         value: 2012.0
       '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1837 du 30 décembre 2017 - art. 76
         value: 2017.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Souscription au capital de SOFICA (1986 - 2016)
 metadata:
-  rank: 6
+  order:
+  - date_entree_en_vigueur
+  - reduction_souscriptions_parts_sofica
 reduction_souscriptions_parts_sofica:
   description: Réduction pour souscriptions de parts de SOFICA
+  metadata:
+    order:
+    - taux_1
+    - taux_2
+    - taux_3
+    - plafond
+    - plafond_en_revenu_net_global
   plafond:
     description: Plafond
     metadata:
@@ -53,39 +49,9 @@ reduction_souscriptions_parts_sofica:
     values:
       '1985-01-01':
         value: null
-      '1986-01-01':
-        metadata:
-          reference: Loi n° 85-695 du 11/07/1985 - art. 40-IV
-        value: null
       '1998-01-01':
         value: 120000.0
       '2002-01-01':
-        metadata:
-          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000596281&idArticle=LEGIARTI000006212781&dateTexte=20040531&categorieLien=id
-        value: 18000.0
-      '2007-01-01':
-        metadata:
-          reference: Loi n° 2006-1771 du 30/12/2006 (LFR pour 2006) - art. 102
-        value: 18000.0
-      '2008-01-01':
-        metadata:
-          reference: Loi n° 2008-1443 du 30/12/2008 (LFR pour 2008) - art. 87
-        value: 18000.0
-      '2011-01-01':
-        metadata:
-          reference: Décret n° 2010-13 du 6/01/2010
-        value: 18000.0
-      '2012-01-01':
-        metadata:
-          reference: Loi n° 2011-1977 du 28/12/2011 (LF pour 2012) - art. 9
-        value: 18000.0
-      '2013-01-01':
-        metadata:
-          reference: Décret 2012-547 (art. 1) du 23/04/2012
-        value: 18000.0
-      '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1837 du 30 décembre 2017 - art. 76
         value: 18000.0
   plafond_en_revenu_net_global:
     description: Plafond en % du revenu net global
@@ -95,38 +61,6 @@ reduction_souscriptions_parts_sofica:
       '1985-01-01':
         value: null
       '1986-01-01':
-        metadata:
-          reference: Loi n° 85-695 du 11/07/1985 - art. 40-IV
-        value: 0.25
-      '1998-01-01':
-        value: 0.25
-      '2002-01-01':
-        metadata:
-          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000596281&idArticle=LEGIARTI000006212781&dateTexte=20040531&categorieLien=id
-        value: 0.25
-      '2007-01-01':
-        metadata:
-          reference: Loi n° 2006-1771 du 30/12/2006 (LFR pour 2006) - art. 102
-        value: 0.25
-      '2008-01-01':
-        metadata:
-          reference: Loi n° 2008-1443 du 30/12/2008 (LFR pour 2008) - art. 87
-        value: 0.25
-      '2011-01-01':
-        metadata:
-          reference: Décret n° 2010-13 du 6/01/2010
-        value: 0.25
-      '2012-01-01':
-        metadata:
-          reference: Loi n° 2011-1977 du 28/12/2011 (LF pour 2012) - art. 9
-        value: 0.25
-      '2013-01-01':
-        metadata:
-          reference: Décret 2012-547 (art. 1) du 23/04/2012
-        value: 0.25
-      '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1837 du 30 décembre 2017 - art. 76
         value: 0.25
   taux_1:
     description: Taux 1
@@ -135,39 +69,11 @@ reduction_souscriptions_parts_sofica:
     values:
       '1985-01-01':
         value: null
-      '1986-01-01':
-        metadata:
-          reference: Loi n° 85-695 du 11/07/1985 - art. 40-IV
-        value: null
-      '1998-01-01':
-        value: null
-      '2002-01-01':
-        metadata:
-          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000596281&idArticle=LEGIARTI000006212781&dateTexte=20040531&categorieLien=id
-        value: null
       '2007-01-01':
-        metadata:
-          reference: Loi n° 2006-1771 du 30/12/2006 (LFR pour 2006) - art. 102
-        value: 0.48
-      '2008-01-01':
-        metadata:
-          reference: Loi n° 2008-1443 du 30/12/2008 (LFR pour 2008) - art. 87
-        value: 0.48
-      '2011-01-01':
-        metadata:
-          reference: Décret n° 2010-13 du 6/01/2010
         value: 0.48
       '2012-01-01':
-        metadata:
-          reference: Loi n° 2011-1977 du 28/12/2011 (LF pour 2012) - art. 9
         value: 0.43
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-547 (art. 1) du 23/04/2012
-        value: 0.36
-      '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1837 du 30 décembre 2017 - art. 76
         value: 0.36
   taux_2:
     description: Taux 2
@@ -176,39 +82,11 @@ reduction_souscriptions_parts_sofica:
     values:
       '1985-01-01':
         value: null
-      '1986-01-01':
-        metadata:
-          reference: Loi n° 85-695 du 11/07/1985 - art. 40-IV
-        value: null
-      '1998-01-01':
-        value: null
-      '2002-01-01':
-        metadata:
-          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000596281&idArticle=LEGIARTI000006212781&dateTexte=20040531&categorieLien=id
-        value: null
       '2007-01-01':
-        metadata:
-          reference: Loi n° 2006-1771 du 30/12/2006 (LFR pour 2006) - art. 102
-        value: 0.4
-      '2008-01-01':
-        metadata:
-          reference: Loi n° 2008-1443 du 30/12/2008 (LFR pour 2008) - art. 87
-        value: 0.4
-      '2011-01-01':
-        metadata:
-          reference: Décret n° 2010-13 du 6/01/2010
         value: 0.4
       '2012-01-01':
-        metadata:
-          reference: Loi n° 2011-1977 du 28/12/2011 (LF pour 2012) - art. 9
         value: 0.36
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-547 (art. 1) du 23/04/2012
-        value: 0.3
-      '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1837 du 30 décembre 2017 - art. 76
         value: 0.3
   taux_3:
     description: Taux 3
@@ -217,37 +95,5 @@ reduction_souscriptions_parts_sofica:
     values:
       '1985-01-01':
         value: null
-      '1986-01-01':
-        metadata:
-          reference: Loi n° 85-695 du 11/07/1985 - art. 40-IV
-        value: null
-      '1998-01-01':
-        value: null
-      '2002-01-01':
-        metadata:
-          reference: http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000596281&idArticle=LEGIARTI000006212781&dateTexte=20040531&categorieLien=id
-        value: null
-      '2007-01-01':
-        metadata:
-          reference: Loi n° 2006-1771 du 30/12/2006 (LFR pour 2006) - art. 102
-        value: null
-      '2008-01-01':
-        metadata:
-          reference: Loi n° 2008-1443 du 30/12/2008 (LFR pour 2008) - art. 87
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Décret n° 2010-13 du 6/01/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Loi n° 2011-1977 du 28/12/2011 (LF pour 2012) - art. 9
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Décret 2012-547 (art. 1) du 23/04/2012
-        value: null
       '2018-01-01':
-        metadata:
-          reference: LOI n°2017-1837 du 30 décembre 2017 - art. 76
         value: 0.48

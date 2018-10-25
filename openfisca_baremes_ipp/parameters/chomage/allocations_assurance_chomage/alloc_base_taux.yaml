@@ -1,44 +1,21 @@
 description: 'Allocation de base d''assurance chômage : taux et maximum'
 metadata:
-  rank: 1
+  order:
+  - pourcentage_sjr_en_complement_partie_fixe
+  - pourcentage_sjr
+  - montant_maximum_sjr
 montant_maximum_sjr:
   description: Montant maximum (% SJR)
   metadata:
     unit: /1
   values:
     '1968-07-22':
-      metadata:
-        reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
       value: null
     '1979-07-01':
-      metadata:
-        reference: Loi cadre 79-32 du 16/01/1979; Arrêté du 02/05/1979 portant agrément
-          de la convention du 27/03/1979
       value: 0.9
     '1983-10-01':
       value: 0.8
     '1984-04-01':
-      metadata:
-        reference: Arrêté du 24/02/1984 portant agrément de la convention du 24/02/1984
-      value: 0.75
-    '1985-10-01':
-      value: 0.75
-    '1986-04-01':
-      metadata:
-        reference: Arrété du 11/12/1985 portant agrément de la convention du 19/11/1985
-      value: 0.75
-    '1989-10-01':
-      metadata:
-        reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
-      value: 0.75
-    '1992-07-01':
-      metadata:
-        reference: Arrêté du 04/01/1994 portant agrément de la convention du 01/01/1994
-      value: 0.75
-    '2014-07-01':
-      metadata:
-        reference: Arrêté du 25/06/2014 portant agrément de la convention, art. 14
-          du titre 1er
       value: 0.75
 pourcentage_sjr:
   description: Pourcentage du SJR
@@ -46,79 +23,33 @@ pourcentage_sjr:
     unit: /1
   values:
     '1968-07-22':
-      metadata:
-        reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
-      value: null
-    '1979-07-01':
-      metadata:
-        reference: Loi cadre 79-32 du 16/01/1979; Arrêté du 02/05/1979 portant agrément
-          de la convention du 27/03/1979
-      value: null
-    '1983-10-01':
       value: null
     '1984-04-01':
-      metadata:
-        reference: Arrêté du 24/02/1984 portant agrément de la convention du 24/02/1984
       value: 0.6
     '1985-10-01':
       value: 0.57
-    '1986-04-01':
-      metadata:
-        reference: Arrété du 11/12/1985 portant agrément de la convention du 19/11/1985
-      value: 0.57
     '1989-10-01':
-      metadata:
-        reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
-      value: 0.574
-    '1992-07-01':
-      metadata:
-        reference: Arrêté du 04/01/1994 portant agrément de la convention du 01/01/1994
       value: 0.574
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 25/06/2014 portant agrément de la convention, art. 14
-          du titre 1er
       value: 0.57
 pourcentage_sjr_en_complement_partie_fixe:
   description: Pourcentage du SJR (en complément de partie fixe)
+  metadata:
+    order:
+    - si_affiliation_entre_3_6_mois
+    - si_affiliation_6_mois
   si_affiliation_6_mois:
     description: Si affiliation > 6 mois
     metadata:
       unit: /1
     values:
       '1968-07-22':
-        metadata:
-          reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
         value: 0.35
       '1979-07-01':
-        metadata:
-          reference: Loi cadre 79-32 du 16/01/1979; Arrêté du 02/05/1979 portant agrément
-            de la convention du 27/03/1979
-        value: 0.42
-      '1983-10-01':
-        value: 0.42
-      '1984-04-01':
-        metadata:
-          reference: Arrêté du 24/02/1984 portant agrément de la convention du 24/02/1984
-        value: 0.42
-      '1985-10-01':
         value: 0.42
       '1986-04-01':
-        metadata:
-          reference: Arrété du 11/12/1985 portant agrément de la convention du 19/11/1985
         value: 0.4
       '1989-10-01':
-        metadata:
-          reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
-        value: 0.404
-      '1992-07-01':
-        metadata:
-          reference: Arrêté du 04/01/1994 portant agrément de la convention du 01/01/1994
-        value: 0.404
-      '2014-07-01':
-        metadata:
-          reference: Arrêté du 25/06/2014 portant agrément de la convention, art.
-            14 du titre 1er
         value: 0.404
   si_affiliation_entre_3_6_mois:
     description: Si affiliation entre 3-6 mois
@@ -126,36 +57,12 @@ pourcentage_sjr_en_complement_partie_fixe:
       unit: /1
     values:
       '1968-07-22':
-        metadata:
-          reference: Ordonnance 67-580 du 13/07/1967; Avenant du 10/07/1967
         value: 0.35
       '1979-07-01':
-        metadata:
-          reference: Loi cadre 79-32 du 16/01/1979; Arrêté du 02/05/1979 portant agrément
-            de la convention du 27/03/1979
-        value: 0.42
-      '1983-10-01':
         value: 0.42
       '1984-04-01':
-        metadata:
-          reference: Arrêté du 24/02/1984 portant agrément de la convention du 24/02/1984
-        value: 0.3
-      '1985-10-01':
-        value: 0.3
-      '1986-04-01':
-        metadata:
-          reference: Arrété du 11/12/1985 portant agrément de la convention du 19/11/1985
         value: 0.3
       '1989-10-01':
-        metadata:
-          reference: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
         value: 0.303
       '1992-07-01':
-        metadata:
-          reference: Arrêté du 04/01/1994 portant agrément de la convention du 01/01/1994
-        value: 0.404
-      '2014-07-01':
-        metadata:
-          reference: Arrêté du 25/06/2014 portant agrément de la convention, art.
-            14 du titre 1er
         value: 0.404

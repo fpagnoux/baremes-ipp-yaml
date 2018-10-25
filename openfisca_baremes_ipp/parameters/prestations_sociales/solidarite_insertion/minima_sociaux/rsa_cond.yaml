@@ -2,26 +2,12 @@ age_minimum_allocataire:
   description: Âge minimum pour l'allocataire
   values:
     '2009-06-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
-          2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
-      value: 25.0
-    '2010-09-01':
-      metadata:
-        reference: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
       value: 25.0
 description: 'Revenu de solidarité active (RSA) : conditions générales'
 duree_minimum_titre_sejour_annee:
   description: Durée minimum du titre de séjour (année)
   values:
     '2009-06-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
-          2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
-      value: 5.0
-    '2010-09-01':
-      metadata:
-        reference: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
       value: 5.0
 majoration_isolement_en_mois:
   age_limite_enfant_3_en_annee:
@@ -30,65 +16,39 @@ majoration_isolement_en_mois:
       (en année)'
     values:
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
-            2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
-        value: 3.0
-      '2010-09-01':
-        metadata:
-          reference: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du
-            CASF)
         value: 3.0
   description: Majoration pour isolement (en mois)
   duree_droit:
     description: Durée du droit
     values:
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
-            2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
-        value: 12.0
-      '2010-09-01':
-        metadata:
-          reference: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du
-            CASF)
         value: 12.0
   limite_duree_droit_majoration_isolement_2:
     description: Limite de durée du droit à la majoration pour isolement (2)
     values:
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
-            2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
         value: 18.0
-      '2010-09-01':
-        metadata:
-          reference: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du
-            CASF)
-        value: 18.0
+  metadata:
+    order:
+    - duree_droit
+    - limite_duree_droit_majoration_isolement_2
+    - age_limite_enfant_3_en_annee
 metadata:
-  rank: 7
+  order:
+  - age_minimum_allocataire
+  - nombre_minimal_enfants_1
+  - majoration_isolement_en_mois
+  - duree_minimum_titre_sejour_annee
+  - rsa_jeune_en_heure_4
 nombre_minimal_enfants_1:
   description: Nombre minimal d'enfants (1)
   values:
     '2009-06-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
-          2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
-      value: 1.0
-    '2010-09-01':
-      metadata:
-        reference: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
       value: 1.0
 rsa_jeune_en_heure_4:
   description: RSA jeune (en heure) (4)
   values:
     '2009-06-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
-          2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
       value: null
     '2010-09-01':
-      metadata:
-        reference: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
       value: 3214.0

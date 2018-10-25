@@ -1,3 +1,10 @@
 description: Calcul de l'impôt de solidarité sur la fortune (ISF) - jusqu'en 2017
 metadata:
-  rank: 4
+  order:
+  - bareme_isf
+  - decote_isf
+  - plaf_isf
+  - reduc_impot_isf
+  - reduc_exo_isf
+  - bouclier
+  - forfait_mobilier_isf

@@ -2,15 +2,6 @@ age_limite_enfant_adopte_non:
   description: Age limite de l'enfant (adopté ou non)
   values:
     '2004-01-01':
-      metadata:
-        reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
-
-          Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
-          art. D531-3 du CSS)'
-      value: 3.0
-    '2014-04-01':
-      metadata:
-        reference: Décret 2014-422 du 24 avril 2014
       value: 3.0
 description: 'Prestation d''accueil du jeune enfant (PAJE) - Allocation de base :
   conditions et montants'
@@ -18,15 +9,6 @@ duree_versement_enfants_adoptes_en_annee:
   description: "Durée de versement pour les enfants adoptés \n(en année)"
   values:
     '2004-01-01':
-      metadata:
-        reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
-
-          Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
-          art. D531-3 du CSS)'
-      value: 3.0
-    '2014-04-01':
-      metadata:
-        reference: Décret 2014-422 du 24 avril 2014
       value: 3.0
 majoration_plafond_par_enfant_charge:
   description: Majoration du plafond par enfant à charge
@@ -34,18 +16,16 @@ majoration_plafond_par_enfant_charge:
     unit: /1
   values:
     '2004-01-01':
-      metadata:
-        reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
-
-          Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
-          art. D531-3 du CSS)'
       value: null
     '2014-04-01':
-      metadata:
-        reference: Décret 2014-422 du 24 avril 2014
       value: 0.22
 metadata:
-  rank: 6
+  order:
+  - age_limite_enfant_adopte_non
+  - duree_versement_enfants_adoptes_en_annee
+  - periode_reference_justifier_8_trimestres_cotisation_vieillesse_1
+  - paje
+  - majoration_plafond_par_enfant_charge
 paje:
   allocation_base_en_bmaf:
     description: Allocation de base (en % de la BMAF)
@@ -53,18 +33,11 @@ paje:
       unit: /1
     values:
       '2004-01-01':
-        metadata:
-          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
-            CSS)
-
-            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
-            art. D531-3 du CSS)'
-        value: 0.4595
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 0.4595
   description: PAJE
+  metadata:
+    order:
+    - allocation_base_en_bmaf
 periode_reference_justifier_8_trimestres_cotisation_vieillesse_1:
   description: Période de référence pour justifier les 8 trimestres de cotisation
     vieillesse (1)
@@ -72,44 +45,19 @@ periode_reference_justifier_8_trimestres_cotisation_vieillesse_1:
     description: Deux enfants
     values:
       '2004-01-01':
-        metadata:
-          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
-            CSS)
-
-            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
-            art. D531-3 du CSS)'
-        value: 4.0
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 4.0
   enfant:
     description: Un enfant
     values:
       '2004-01-01':
-        metadata:
-          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
-            CSS)
-
-            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
-            art. D531-3 du CSS)'
         value: 2.0
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
-        value: 2.0
+  metadata:
+    order:
+    - enfant
+    - deux_enfants
+    - trois_enfants_plus
   trois_enfants_plus:
     description: Trois enfants ou plus
     values:
       '2004-01-01':
-        metadata:
-          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du
-            CSS)
-
-            Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée
-            art. D531-3 du CSS)'
-        value: 5.0
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 5.0

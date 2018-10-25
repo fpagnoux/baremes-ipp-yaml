@@ -1,3 +1,7 @@
 description: Calcul des crédits d'impôts
 metadata:
-  rank: 4
+  order:
+  - gardenf
+  - ppe
+  - habitat_princ_credit
+  - plaf_nich

@@ -22,4 +22,7 @@ medecins:
     '1975-01-01':
       value: 0.3
 metadata:
-  rank: 11
+  order:
+  - artistes
+  - medecins
+  - journalistes

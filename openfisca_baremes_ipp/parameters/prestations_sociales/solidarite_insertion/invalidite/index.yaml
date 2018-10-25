@@ -1,3 +1,7 @@
 description: Invalidité
 metadata:
-  rank: 1
+  order:
+  - aah
+  - caah
+  - asi_cond
+  - asi_m_plaf

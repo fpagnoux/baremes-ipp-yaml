@@ -1,3 +1,15 @@
 description: Secteur public
 metadata:
-  rank: 2
+  order:
+  - la_fp_s
+  - la_fp_a
+  - aod_fp_s
+  - aod_fp_a
+  - aad_fp
+  - decote_fp
+  - surcote_fp
+  - prorat_fp
+  - trimtp_fp
+  - pt_ircantec
+  - salref_ircantec
+  - rafp

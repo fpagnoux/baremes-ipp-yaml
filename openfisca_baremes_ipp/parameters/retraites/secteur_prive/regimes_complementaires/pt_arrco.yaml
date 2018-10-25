@@ -1,6 +1,8 @@
 description: Valeur du point ARRCO
 metadata:
-  rank: 13
+  order:
+  - valeur_point_arrco_en_nominal
+  - valeur_point_arrco_en_euros
 valeur_point_arrco_en_euros:
   description: Valeur du point ARRCO (en euros)
   metadata:
@@ -21,40 +23,22 @@ valeur_point_arrco_en_euros:
     '2004-04-01':
       value: 1.0886
     '2005-04-01':
-      metadata:
-        reference: Circ. Arrco 2005-02-DT du 21/03/2005
       value: 1.1104
     '2006-04-01':
-      metadata:
-        reference: Circ. Arrco 2006-01-DRE du 19/05/2006
       value: 1.1287
     '2007-04-01':
-      metadata:
-        reference: Circ. Arrco 2007-02-DT du 14/03/2007
       value: 1.148
     '2008-04-01':
-      metadata:
-        reference: Circ. Arrco 2008-02-DT du 14/03/2008
       value: 1.1648
     '2009-04-01':
-      metadata:
-        reference: Circ. Arrco 2009-01-DT du 18/03/2009
       value: 1.1799
     '2010-04-01':
-      metadata:
-        reference: Circ. Arrco 2010-01-DT du 18/03/2010
       value: 1.1884
     '2011-04-01':
-      metadata:
-        reference: Circ. Arrco 2011-01-DT du 14/04/2011
       value: 1.2135
     '2012-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
       value: 1.2414
     '2013-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2013-6-DT du 02/04/2013
       value: 1.2513
 valeur_point_arrco_en_nominal:
   description: Valeur du point ARRCO (en nominal)
@@ -74,38 +58,20 @@ valeur_point_arrco_en_nominal:
     '2004-04-01':
       value: 1.0886
     '2005-04-01':
-      metadata:
-        reference: Circ. Arrco 2005-02-DT du 21/03/2005
       value: 1.1104
     '2006-04-01':
-      metadata:
-        reference: Circ. Arrco 2006-01-DRE du 19/05/2006
       value: 1.1287
     '2007-04-01':
-      metadata:
-        reference: Circ. Arrco 2007-02-DT du 14/03/2007
       value: 1.148
     '2008-04-01':
-      metadata:
-        reference: Circ. Arrco 2008-02-DT du 14/03/2008
       value: 1.1648
     '2009-04-01':
-      metadata:
-        reference: Circ. Arrco 2009-01-DT du 18/03/2009
       value: 1.1799
     '2010-04-01':
-      metadata:
-        reference: Circ. Arrco 2010-01-DT du 18/03/2010
       value: 1.1884
     '2011-04-01':
-      metadata:
-        reference: Circ. Arrco 2011-01-DT du 14/04/2011
       value: 1.2135
     '2012-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
       value: 1.2414
     '2013-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2013-6-DT du 02/04/2013
       value: 1.2513

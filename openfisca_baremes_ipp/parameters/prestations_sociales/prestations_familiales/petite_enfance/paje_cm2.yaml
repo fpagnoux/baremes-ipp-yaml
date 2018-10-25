@@ -1,9 +1,14 @@
 description: 'Prestation d''accueil du jeune enfant (PAJE) - Prime à la naissance
   et à l''adoption : conditions et montants'
 metadata:
-  rank: 7
+  order:
+  - montant_en_bmaf
 montant_en_bmaf:
   description: Montant (en % de la BMAF)
+  metadata:
+    order:
+    - prime_naissance_paje_1
+    - prime_adoption_paje_2
   prime_adoption_paje_2:
     description: 'Prime à l''adoption de la PAJE
 
@@ -12,17 +17,8 @@ montant_en_bmaf:
       unit: /1
     values:
       '2004-01-01':
-        metadata:
-          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (modif art. L531-2 du
-            CSS)
-
-            Décret 2003-1394 du 31/12/2003, art. 1 (crée art. D531-2 du CSS)'
         value: 2.2975
       '2005-08-01':
-        metadata:
-          reference: 'Loi 2005-744 du 04/07/2005, art. 8 (modif art. L531-2 du CSS)
-
-            Décret 2005-1172 du 12/09/2005, art. 1 (modif art. D531-2 du CSS)'
         value: 4.595
   prime_naissance_paje_1:
     description: 'Prime à la naissance de la PAJE
@@ -32,15 +28,4 @@ montant_en_bmaf:
       unit: /1
     values:
       '2004-01-01':
-        metadata:
-          reference: 'Loi 2003-1199 du 18/12/2003, art. 60 II (modif art. L531-2 du
-            CSS)
-
-            Décret 2003-1394 du 31/12/2003, art. 1 (crée art. D531-2 du CSS)'
-        value: 2.2975
-      '2005-08-01':
-        metadata:
-          reference: 'Loi 2005-744 du 04/07/2005, art. 8 (modif art. L531-2 du CSS)
-
-            Décret 2005-1172 du 12/09/2005, art. 1 (modif art. D531-2 du CSS)'
         value: 2.2975

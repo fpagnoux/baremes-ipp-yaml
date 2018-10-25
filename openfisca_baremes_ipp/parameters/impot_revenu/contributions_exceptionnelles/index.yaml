@@ -1,3 +1,7 @@
 description: Contributions exceptionnelles
 metadata:
-  rank: 5
+  order:
+  - taxe_hr
+  - majo_excep
+  - mino_excep
+  - taxe_prop

@@ -1,6 +1,8 @@
 description: Salaire de référence ARRCO, UNIRS (1957-1998)
 metadata:
-  rank: 20
+  order:
+  - salaire_reference_en_nominal
+  - salaire_reference_en_euros
 salaire_reference_en_euros:
   description: Salaire de référence (en euros)
   metadata:

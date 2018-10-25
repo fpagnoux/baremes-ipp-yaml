@@ -1,6 +1,7 @@
 description: 'Régime complémentaire des commerçants : valeur d''achat du point (2005-2012)'
 metadata:
-  rank: 8
+  order:
+  - salaire_reference_rsi_commercants
 salaire_reference_rsi_commercants:
   description: Salaire de référence RSI commerçants
   metadata:

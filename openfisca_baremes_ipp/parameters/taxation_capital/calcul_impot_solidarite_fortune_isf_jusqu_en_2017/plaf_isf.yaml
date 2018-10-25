@@ -1,35 +1,18 @@
 description: Plafonnement de l'ISF
 metadata:
-  rank: 2
+  order:
+  - plafonnement_taux_imposition_isf
+  - plafonnement_plafonnement
 plafonnement_plafonnement:
   description: Plafonnement du plafonnement
   metadata:
     unit: /1
   values:
     '1989-01-01':
-      metadata:
-        reference: Loi 88-1149 du 23/12/1988 , art. 26 (LF pour 1989)
-      value: null
-    '1991-01-01':
-      metadata:
-        reference: Loi 90-1168 du 29/12/1990, art. 16 (LF pour 1991)
       value: null
     '1996-01-01':
-      metadata:
-        reference: Loi 95-1346 du 30/12/1995, art. 6 (LF pour 1996)
       value: 0.5
     '2012-01-01':
-      metadata:
-        reference: Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011)
-      value: null
-    '2013-01-01':
-      metadata:
-        reference: Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
-      value: null
-    '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
-          885 V bis du CGI)
       value: null
 plafonnement_taux_imposition_isf:
   description: Plafonnement taux d'imposition ISF
@@ -37,27 +20,12 @@ plafonnement_taux_imposition_isf:
     unit: /1
   values:
     '1989-01-01':
-      metadata:
-        reference: Loi 88-1149 du 23/12/1988 , art. 26 (LF pour 1989)
       value: 0.7
     '1991-01-01':
-      metadata:
-        reference: Loi 90-1168 du 29/12/1990, art. 16 (LF pour 1991)
-      value: 0.85
-    '1996-01-01':
-      metadata:
-        reference: Loi 95-1346 du 30/12/1995, art. 6 (LF pour 1996)
       value: 0.85
     '2012-01-01':
-      metadata:
-        reference: Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011)
       value: null
     '2013-01-01':
-      metadata:
-        reference: Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
       value: 0.75
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
-          885 V bis du CGI)
       value: null

@@ -1,3 +1,9 @@
 description: Préretraites
 metadata:
-  rank: 3
+  order:
+  - ats
+  - pts
+  - aer
+  - gr
+  - sr_fne
+  - fne_arpe

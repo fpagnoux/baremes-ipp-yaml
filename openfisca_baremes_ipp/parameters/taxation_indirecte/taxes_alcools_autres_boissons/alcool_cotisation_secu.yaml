@@ -4,38 +4,18 @@ cotisation_alcools_taux_plein_eur_hlap:
     unit: currency-EUR
   values:
     '1983-04-01':
-      metadata:
-        reference: Loi 83-25 du 19/01/1983 - art. 26
-      value: null
-    '1985-12-21':
-      value: null
-    '2008-12-19':
-      metadata:
-        reference: Loi 2008-1330 du 17/12/2008 (LFSS pour 2009) - art. 16
       value: null
     '2011-12-23':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
       value: 533.0
     '2013-01-01':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
       value: 542.33
     '2014-01-01':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
       value: 551.82
     '2015-01-01':
-      metadata:
-        reference: Arrêté du 19/12/2014
       value: 555.68
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
       value: 557.9
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
       value: 559.02
 cotisation_produits_intermediaires_titrant_plus_18_vol_taux_plein_eur_hl:
   description: Cotisation sur les produits intermédiaires titrant plus de 18% vol.
@@ -44,38 +24,18 @@ cotisation_produits_intermediaires_titrant_plus_18_vol_taux_plein_eur_hl:
     unit: currency-EUR
   values:
     '1983-04-01':
-      metadata:
-        reference: Loi 83-25 du 19/01/1983 - art. 26
-      value: null
-    '1985-12-21':
-      value: null
-    '2008-12-19':
-      metadata:
-        reference: Loi 2008-1330 du 17/12/2008 (LFSS pour 2009) - art. 16
       value: null
     '2011-12-23':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
       value: 45.0
     '2013-01-01':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
       value: 45.79
     '2014-01-01':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
       value: 46.59
     '2015-01-01':
-      metadata:
-        reference: Arrêté du 19/12/2014
       value: 46.92
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
       value: 47.11
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
       value: 47.2
 cotisation_securite_sociale_eur_par_decilitre:
   description: Cotisation sécurité sociale (€ par décilitre)
@@ -85,37 +45,18 @@ cotisation_securite_sociale_eur_par_decilitre:
       '2002-01-01': currency-EUR
   values:
     '1983-04-01':
-      metadata:
-        reference: Loi 83-25 du 19/01/1983 - art. 26
       value: 1.0
     '1985-12-21':
       value: 0.84
     '2002-01-01':
       value: 0.13
     '2008-12-19':
-      metadata:
-        reference: Loi 2008-1330 du 17/12/2008 (LFSS pour 2009) - art. 16
       value: 0.16
     '2011-12-23':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Arrêté du 19/12/2014
-      value: null
-    '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
-      value: null
-    '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
       value: null
 description: Cotisation sécurité sociale sur les boissons alcooliques
 metadata:
-  rank: 8
+  order:
+  - cotisation_securite_sociale_eur_par_decilitre
+  - cotisation_alcools_taux_plein_eur_hlap
+  - cotisation_produits_intermediaires_titrant_plus_18_vol_taux_plein_eur_hl

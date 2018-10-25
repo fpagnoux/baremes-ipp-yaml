@@ -1,6 +1,8 @@
 description: Cotisations SS branche maladie, maternité, invalidité, décès MMID (1967-2017)
 metadata:
-  rank: 1
+  order:
+  - salaire_sous_plafond
+  - tout_salaire
 salaire_sous_plafond:
   description: Salaire sous plafond
   employeurs:
@@ -9,161 +11,34 @@ salaire_sous_plafond:
       unit: /1
     values:
       '1967-10-01':
-        metadata:
-          reference: Décret 67-803 du 20/09/1967
-        value: 0.095
-      '1968-07-01':
-        metadata:
-          reference: Décret 68-579 du 29/06/1968
         value: 0.095
       '1970-08-01':
-        metadata:
-          reference: Décret 70-680 du 30/07/1970
         value: 0.1025
       '1971-01-01':
-        metadata:
-          reference: Décret 70-1316 du 23/12/1970
-        value: 0.1045
-      '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
         value: 0.1045
       '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
-        value: 0.1095
-      '1977-07-01':
-        metadata:
-          reference: Décret 77-677 du 29/06/1977
         value: 0.1095
       '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
-        value: 0.0895
-      '1979-08-01':
-        metadata:
-          reference: Décret 79-650 du 30/07/1979
         value: 0.0895
       '1981-11-01':
-        metadata:
-          reference: Décret 81-1013 du 13/11/1981
         value: 0.0545
       '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
         value: null
-      '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
-        value: null
-      '1991-07-01':
-        metadata:
-          reference: Décret 91-614 du 28/06/1991
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Décret 91-1388 du 31/12/1991
-        value: null
-      '1997-01-01':
-        metadata:
-          reference: Décret 96-1167 du 26/12/1996
-        value: null
-      '1998-01-01':
-        metadata:
-          reference: Décret 97-1249 du 29/12/1997
-        value: null
-      '2016-01-01':
-        metadata:
-          reference: Décret 2015-1852 du 29/12/2015
-        value: null
-      '2017-01-01':
-        metadata:
-          reference: Décret 2016-1932 du 28/12/2016
-        value: null
-      '2018-01-01':
-        metadata:
-          reference: Décret 2017-1891 du 30/12/2017, art.1
-        value: null
+  metadata:
+    order:
+    - salaries
+    - reduction_65_ans
+    - employeurs
   reduction_65_ans:
     description: Réduction > 65 ans
     metadata:
       unit: /1
     values:
       '1967-10-01':
-        metadata:
-          reference: Décret 67-803 du 20/09/1967
         value: null
       '1968-07-01':
-        metadata:
-          reference: Décret 68-579 du 29/06/1968
-        value: 0.01
-      '1970-08-01':
-        metadata:
-          reference: Décret 70-680 du 30/07/1970
-        value: 0.01
-      '1971-01-01':
-        metadata:
-          reference: Décret 70-1316 du 23/12/1970
-        value: 0.01
-      '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
-        value: 0.01
-      '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
         value: 0.01
       '1977-07-01':
-        metadata:
-          reference: Décret 77-677 du 29/06/1977
-        value: null
-      '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
-        value: null
-      '1979-08-01':
-        metadata:
-          reference: Décret 79-650 du 30/07/1979
-        value: null
-      '1981-11-01':
-        metadata:
-          reference: Décret 81-1013 du 13/11/1981
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
-        value: null
-      '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
-        value: null
-      '1991-07-01':
-        metadata:
-          reference: Décret 91-614 du 28/06/1991
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Décret 91-1388 du 31/12/1991
-        value: null
-      '1997-01-01':
-        metadata:
-          reference: Décret 96-1167 du 26/12/1996
-        value: null
-      '1998-01-01':
-        metadata:
-          reference: Décret 97-1249 du 29/12/1997
-        value: null
-      '2016-01-01':
-        metadata:
-          reference: Décret 2015-1852 du 29/12/2015
-        value: null
-      '2017-01-01':
-        metadata:
-          reference: Décret 2016-1932 du 28/12/2016
-        value: null
-      '2018-01-01':
-        metadata:
-          reference: Décret 2017-1891 du 30/12/2017, art.1
         value: null
   salaries:
     description: Salariés
@@ -171,84 +46,12 @@ salaire_sous_plafond:
       unit: /1
     values:
       '1967-10-01':
-        metadata:
-          reference: Décret 67-803 du 20/09/1967
-        value: 0.025
-      '1968-07-01':
-        metadata:
-          reference: Décret 68-579 du 29/06/1968
-        value: 0.025
-      '1970-08-01':
-        metadata:
-          reference: Décret 70-680 du 30/07/1970
-        value: 0.025
-      '1971-01-01':
-        metadata:
-          reference: Décret 70-1316 du 23/12/1970
-        value: 0.025
-      '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
         value: 0.025
       '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
-        value: 0.03
-      '1977-07-01':
-        metadata:
-          reference: Décret 77-677 du 29/06/1977
         value: 0.03
       '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
-        value: 0.01
-      '1979-08-01':
-        metadata:
-          reference: Décret 79-650 du 30/07/1979
         value: 0.01
       '1980-01-01':
-        metadata:
-          reference: Décret 79-650 du 30/07/1979
-        value: null
-      '1981-11-01':
-        metadata:
-          reference: Décret 81-1013 du 13/11/1981
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
-        value: null
-      '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
-        value: null
-      '1991-07-01':
-        metadata:
-          reference: Décret 91-614 du 28/06/1991
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Décret 91-1388 du 31/12/1991
-        value: null
-      '1997-01-01':
-        metadata:
-          reference: Décret 96-1167 du 26/12/1996
-        value: null
-      '1998-01-01':
-        metadata:
-          reference: Décret 97-1249 du 29/12/1997
-        value: null
-      '2016-01-01':
-        metadata:
-          reference: Décret 2015-1852 du 29/12/2015
-        value: null
-      '2017-01-01':
-        metadata:
-          reference: Décret 2016-1932 du 28/12/2016
-        value: null
-      '2018-01-01':
-        metadata:
-          reference: Décret 2017-1891 du 30/12/2017, art.1
         value: null
 tout_salaire:
   description: Sur tout salaire
@@ -258,163 +61,49 @@ tout_salaire:
       unit: /1
     values:
       '1967-10-01':
-        metadata:
-          reference: Décret 67-803 du 20/09/1967
-        value: 0.02
-      '1968-07-01':
-        metadata:
-          reference: Décret 68-579 du 29/06/1968
-        value: 0.02
-      '1970-08-01':
-        metadata:
-          reference: Décret 70-680 du 30/07/1970
-        value: 0.02
-      '1971-01-01':
-        metadata:
-          reference: Décret 70-1316 du 23/12/1970
         value: 0.02
       '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
-        value: 0.025
-      '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
-        value: 0.025
-      '1977-07-01':
-        metadata:
-          reference: Décret 77-677 du 29/06/1977
         value: 0.025
       '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
-        value: 0.045
-      '1979-08-01':
-        metadata:
-          reference: Décret 79-650 du 30/07/1979
         value: 0.045
       '1981-11-01':
-        metadata:
-          reference: Décret 81-1013 du 13/11/1981
         value: 0.08
       '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
-        value: 0.126
-      '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
-        value: 0.126
-      '1991-07-01':
-        metadata:
-          reference: Décret 91-614 du 28/06/1991
         value: 0.126
       '1992-01-01':
-        metadata:
-          reference: Décret 91-1388 du 31/12/1991
-        value: 0.128
-      '1997-01-01':
-        metadata:
-          reference: Décret 96-1167 du 26/12/1996
-        value: 0.128
-      '1998-01-01':
-        metadata:
-          reference: Décret 97-1249 du 29/12/1997
         value: 0.128
       '2016-01-01':
-        metadata:
-          reference: Décret 2015-1852 du 29/12/2015
         value: 0.1284
       '2017-01-01':
-        metadata:
-          reference: Décret 2016-1932 du 28/12/2016
         value: 0.1289
       '2018-01-01':
-        metadata:
-          reference: Décret 2017-1891 du 30/12/2017, art.1
         value: 0.13
+  metadata:
+    order:
+    - salaries
+    - employeurs
   salaries:
     description: Salariés
     metadata:
       unit: /1
     values:
       '1967-10-01':
-        metadata:
-          reference: Décret 67-803 du 20/09/1967
-        value: 0.01
-      '1968-07-01':
-        metadata:
-          reference: Décret 68-579 du 29/06/1968
-        value: 0.01
-      '1970-08-01':
-        metadata:
-          reference: Décret 70-680 du 30/07/1970
-        value: 0.01
-      '1971-01-01':
-        metadata:
-          reference: Décret 70-1316 du 23/12/1970
         value: 0.01
       '1976-01-01':
-        metadata:
-          reference: Décret 75-1273 du 29/12/1975
-        value: 0.015
-      '1976-10-01':
-        metadata:
-          reference: Décret 76-894 du 29/09/1976
-        value: 0.015
-      '1977-07-01':
-        metadata:
-          reference: Décret 77-677 du 29/06/1977
         value: 0.015
       '1979-01-01':
-        metadata:
-          reference: Décret 78-1213 du 26/12/1978
         value: 0.035
       '1979-08-01':
-        metadata:
-          reference: Décret 79-650 du 30/07/1979
         value: 0.045
       '1980-01-01':
-        metadata:
-          reference: Décret 79-650 du 30/07/1979
-        value: 0.055
-      '1981-11-01':
-        metadata:
-          reference: Décret 81-1013 du 13/11/1981
-        value: 0.055
-      '1984-01-01':
-        metadata:
-          reference: Décret 83-1198 du 30/12/1983
         value: 0.055
       '1987-07-01':
-        metadata:
-          reference: Décret 87-453 du 29/06/1987
         value: 0.059
       '1991-07-01':
-        metadata:
-          reference: Décret 91-614 du 28/06/1991
-        value: 0.068
-      '1992-01-01':
-        metadata:
-          reference: Décret 91-1388 du 31/12/1991
         value: 0.068
       '1997-01-01':
-        metadata:
-          reference: Décret 96-1167 du 26/12/1996
         value: 0.055
       '1998-01-01':
-        metadata:
-          reference: Décret 97-1249 du 29/12/1997
-        value: 0.0075
-      '2016-01-01':
-        metadata:
-          reference: Décret 2015-1852 du 29/12/2015
-        value: 0.0075
-      '2017-01-01':
-        metadata:
-          reference: Décret 2016-1932 du 28/12/2016
         value: 0.0075
       '2018-01-01':
-        metadata:
-          reference: Décret 2017-1891 du 30/12/2017, art.1
         value: null

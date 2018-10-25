@@ -1,3 +1,7 @@
 description: Salaire minimum
 metadata:
-  rank: 1
+  order:
+  - smic
+  - smig
+  - minstage
+  - gmr

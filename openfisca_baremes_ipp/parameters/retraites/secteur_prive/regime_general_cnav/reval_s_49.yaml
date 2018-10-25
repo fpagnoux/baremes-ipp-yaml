@@ -160,6 +160,12 @@ coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees:
         value: 1.02
   description: Coefficient par lequel est multiplié le salaire résultant des cotisations
     passées
+  metadata:
+    order:
+    - arrete_23_06_1949_jo_29_06_1949
+    - arrete_02_10_1952_jo_03_10_1952
+    - arrete_24_01_1994_jo_27_01_1994
 description: Revalorisation des salaires (1949-1952)
 metadata:
-  rank: 2
+  order:
+  - coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees

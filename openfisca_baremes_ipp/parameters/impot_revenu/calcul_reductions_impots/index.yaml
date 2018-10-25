@@ -1,3 +1,17 @@
 description: Calcul des réductions d'impôts
 metadata:
-  rank: 3
+  order:
+  - dons
+  - deduc_sal
+  - sofipeche
+  - sal_dom
+  - prest_compen
+  - fcp
+  - sofica
+  - pme
+  - foret
+  - enfscol
+  - heberg_sante
+  - habitat_princ_reduc
+  - codev
+  - divers

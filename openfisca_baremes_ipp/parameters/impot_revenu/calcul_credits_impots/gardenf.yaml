@@ -1,5 +1,9 @@
 credit_impot_frais_garde_enfants:
   description: Crédit d'impôt pour frais de garde d'enfants
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -20,22 +24,10 @@ credit_impot_frais_garde_enfants:
       '1987-01-01':
         value: 10000.0
       '1989-01-01':
-        metadata:
-          reference: LF pour 1989 - art. 4-I
         value: 13000.0
       '1992-01-01':
         value: 15000.0
       '2002-01-01':
-        value: 2300.0
-      '2006-01-01':
-        metadata:
-          reference: 'BOI 5 B-13-06
-
-            n°62 du 05/04/2006'
-        value: 2300.0
-      '2007-01-01':
-        metadata:
-          reference: Loi 2005-1719 (art. 79) du 31/12/2005
         value: 2300.0
   taux:
     description: Taux
@@ -47,20 +39,8 @@ credit_impot_frais_garde_enfants:
       '1979-01-01':
         value: 0.0
       '1989-01-01':
-        metadata:
-          reference: LF pour 1989 - art. 4-I
-        value: 0.25
-      '1992-01-01':
-        value: 0.25
-      '2006-01-01':
-        metadata:
-          reference: 'BOI 5 B-13-06
-
-            n°62 du 05/04/2006'
         value: 0.25
       '2007-01-01':
-        metadata:
-          reference: Loi 2005-1719 (art. 79) du 31/12/2005
         value: 0.5
 date_entree_en_vigueur:
   annee_revenus:
@@ -81,8 +61,6 @@ date_entree_en_vigueur:
       '1988-01-01':
         value: 1987.0
       '1989-01-01':
-        metadata:
-          reference: LF pour 1989 - art. 4-I
         value: 1988.0
       '1992-01-01':
         value: 1991.0
@@ -91,16 +69,15 @@ date_entree_en_vigueur:
       '2002-01-01':
         value: 2001.0
       '2006-01-01':
-        metadata:
-          reference: 'BOI 5 B-13-06
-
-            n°62 du 05/04/2006'
         value: 2005.0
       '2007-01-01':
-        metadata:
-          reference: Loi 2005-1719 (art. 79) du 31/12/2005
         value: 2006.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Frais de garde d'enfants (1979 - 2016)
 metadata:
-  rank: 0
+  order:
+  - date_entree_en_vigueur
+  - credit_impot_frais_garde_enfants

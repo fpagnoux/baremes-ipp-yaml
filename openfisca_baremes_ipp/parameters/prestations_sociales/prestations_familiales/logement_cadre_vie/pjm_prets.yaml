@@ -4,39 +4,25 @@ cumul_prets:
     unit: currency-FRF
   values:
     '1975-01-05':
-      metadata:
-        reference: Loi 75-6 du 03/01/1975 (crée art. L.543 CSS )                                                            Décret
-          76-117 du 03/02/1976
       value: 8600.0
     '1978-01-01':
-      metadata:
-        reference: Décret 76-117 du 03/02/1976
       value: 8300.0
     '1978-07-01':
-      metadata:
-        reference: Décret 77-1452 du 27/12/1977
       value: 8600.0
     '1979-07-01':
-      metadata:
-        reference: Décret 79-526 du 03/07/1979
       value: 7500.0
     '1980-07-01':
       value: null
     '1982-03-01':
-      metadata:
-        reference: Décret 76-117 du 03/02/1976 modifie  décrets 27-12-77, 6-4-79,
-          23-5-80, 22-4-81, 8-4-82
       value: 10800.0
     '1982-07-01':
-      value: null
-    '1985-05-16':
-      metadata:
-        reference: Décret 85-526 du 13/05/1985
       value: null
 description: 'Prêt aux jeunes ménages (PJM) : montant des prêts susceptibles d''être
   accordés'
 metadata:
-  rank: 2
+  order:
+  - pret_maximum
+  - cumul_prets
 pret_maximum:
   accession_propriete_logement_neuf_ancien:
     description: Pour l'accession à la propriété d'un logement neuf ou ancien
@@ -44,34 +30,18 @@ pret_maximum:
       unit: currency-FRF
     values:
       '1975-01-05':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975 (crée art. L.543 CSS )                                                            Décret
-            76-117 du 03/02/1976
         value: 8600.0
       '1978-01-01':
-        metadata:
-          reference: Décret 76-117 du 03/02/1976
         value: 8300.0
       '1978-07-01':
-        metadata:
-          reference: Décret 77-1452 du 27/12/1977
         value: 8600.0
       '1979-07-01':
-        metadata:
-          reference: Décret 79-526 du 03/07/1979
         value: 7500.0
       '1980-07-01':
         value: null
       '1982-03-01':
-        metadata:
-          reference: Décret 76-117 du 03/02/1976 modifie  décrets 27-12-77, 6-4-79,
-            23-5-80, 22-4-81, 8-4-82
         value: 10800.0
       '1982-07-01':
-        value: null
-      '1985-05-16':
-        metadata:
-          reference: Décret 85-526 du 13/05/1985
         value: null
   description: Prêt maximum
   equipement_mobilier_menager:
@@ -80,67 +50,40 @@ pret_maximum:
       unit: currency-FRF
     values:
       '1975-01-05':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975 (crée art. L.543 CSS )                                                            Décret
-            76-117 du 03/02/1976
         value: 8600.0
       '1978-01-01':
-        metadata:
-          reference: Décret 76-117 du 03/02/1976
         value: 8300.0
       '1978-07-01':
-        metadata:
-          reference: Décret 77-1452 du 27/12/1977
         value: 8600.0
       '1979-07-01':
-        metadata:
-          reference: Décret 79-526 du 03/07/1979
         value: 7500.0
       '1980-07-01':
         value: null
       '1982-03-01':
-        metadata:
-          reference: Décret 76-117 du 03/02/1976 modifie  décrets 27-12-77, 6-4-79,
-            23-5-80, 22-4-81, 8-4-82
         value: 10800.0
       '1982-07-01':
         value: null
-      '1985-05-16':
-        metadata:
-          reference: Décret 85-526 du 13/05/1985
-        value: null
+  metadata:
+    order:
+    - premiers_frais_location
+    - equipement_mobilier_menager
+    - accession_propriete_logement_neuf_ancien
   premiers_frais_location:
     description: Pour les premiers frais de location
     metadata:
       unit: currency-FRF
     values:
       '1975-01-05':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975 (crée art. L.543 CSS )                                                            Décret
-            76-117 du 03/02/1976
         value: null
       '1978-01-01':
-        metadata:
-          reference: Décret 76-117 du 03/02/1976
         value: 2450.0
       '1978-07-01':
-        metadata:
-          reference: Décret 77-1452 du 27/12/1977
         value: 2550.0
       '1979-07-01':
-        metadata:
-          reference: Décret 79-526 du 03/07/1979
         value: 2200.0
       '1980-07-01':
         value: null
       '1982-03-01':
-        metadata:
-          reference: Décret 76-117 du 03/02/1976 modifie  décrets 27-12-77, 6-4-79,
-            23-5-80, 22-4-81, 8-4-82
         value: 10800.0
       '1982-07-01':
-        value: null
-      '1985-05-16':
-        metadata:
-          reference: Décret 85-526 du 13/05/1985
         value: null

@@ -5,21 +5,13 @@ majoration_forfaitaire:
     unit: /1
   values:
     '1982-01-01':
-      metadata:
-        reference: Loi 81-1160 du 30/12/1981, art. 3 (LF pour 1982)
       value: 0.05
     '1987-01-01':
-      metadata:
-        reference: Loi 86-824 du 11/07/1986, art. 24 (LFR pour 1986)
       value: null
     '1989-01-01':
-      metadata:
-        reference: Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
       value: 0.05
     '2018-01-01':
-      metadata:
-        reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
-          885 S du CGI)
       value: null
 metadata:
-  rank: 6
+  order:
+  - majoration_forfaitaire

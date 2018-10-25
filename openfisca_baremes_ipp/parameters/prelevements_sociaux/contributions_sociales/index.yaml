@@ -1,3 +1,6 @@
 description: Contributions sociales
 metadata:
-  rank: 1
+  order:
+  - csg_activite
+  - csg_remplacement
+  - crds

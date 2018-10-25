@@ -1,6 +1,7 @@
 description: Contributions SS solidarité autonomie (CSA)
 metadata:
-  rank: 6
+  order:
+  - tout_salaire
 tout_salaire:
   description: Sur tout salaire
   employeurs:
@@ -9,6 +10,7 @@ tout_salaire:
       unit: /1
     values:
       '2004-07-01':
-        metadata:
-          reference: Loi 2004-626 du 26/06/2004, art. 11
         value: 0.003
+  metadata:
+    order:
+    - employeurs

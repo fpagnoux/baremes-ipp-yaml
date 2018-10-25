@@ -1,6 +1,30 @@
 description: Prix unitaire tarif réglementé GDF (hors taxes)
 metadata:
-  rank: 1
+  order:
+  - prix_kwh_base_zone_1_ht
+  - prix_kwh_base_zone_2_ht
+  - prix_kwh_base_zone_3_ht
+  - prix_kwh_base_zone_4_ht_ht
+  - prix_kwh_base_zone_5
+  - prix_kwh_base_zone_6_ht
+  - prix_kwh_b0_zone_1_ht
+  - prix_kwh_b0_zone_2_ht
+  - prix_kwh_b0_zone_3_ht
+  - prix_kwh_b0_zone_4_ht_ht
+  - prix_kwh_b0_zone_5
+  - prix_kwh_b0_zone_6_ht
+  - prix_kwh_b1_zone_1_ht
+  - prix_kwh_b1_zone_2_ht
+  - prix_kwh_b1_zone_3_ht
+  - prix_kwh_b1_zone_4_ht
+  - prix_kwh_b1_zone_5
+  - prix_kwh_b1_zone_6_ht
+  - prix_kwh_b2i_zone_1_ht
+  - prix_kwh_b2i_zone_2_ht
+  - prix_kwh_b2i_zone_3_ht
+  - prix_kwh_b2i_zone_4_ht
+  - prix_kwh_b2i_zone_5
+  - prix_kwh_b2i_zone_6_ht
 prix_kwh_b0_zone_1_ht:
   description: Prix kWh B0 - zone 1 - HT
   metadata:
@@ -9,20 +33,12 @@ prix_kwh_b0_zone_1_ht:
     '2010-07-01':
       value: 6.2
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 6.77
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.25
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.26
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 6.67
     '2015-01-01':
       value: 6.84
@@ -40,20 +56,12 @@ prix_kwh_b0_zone_2_ht:
     '2010-07-01':
       value: 6.2
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 6.77
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.25
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.26
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 6.67
     '2015-01-01':
       value: 6.84
@@ -71,20 +79,12 @@ prix_kwh_b0_zone_3_ht:
     '2010-07-01':
       value: 6.2
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 6.77
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.25
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.26
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 6.67
     '2015-01-01':
       value: 6.84
@@ -102,20 +102,12 @@ prix_kwh_b0_zone_4_ht_ht:
     '2010-07-01':
       value: 6.2
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 6.77
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.25
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.26
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 6.67
     '2015-01-01':
       value: 6.84
@@ -133,20 +125,12 @@ prix_kwh_b0_zone_5:
     '2010-07-01':
       value: 6.2
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 6.77
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.25
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.26
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 6.67
     '2015-01-01':
       value: 6.84
@@ -164,20 +148,12 @@ prix_kwh_b0_zone_6_ht:
     '2010-07-01':
       value: 6.2
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 6.77
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.25
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 7.26
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 6.67
     '2015-01-01':
       value: 6.84
@@ -195,20 +171,12 @@ prix_kwh_b1_zone_1_ht:
     '2010-07-01':
       value: 4.17
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.58
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.9
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.76
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.4
     '2015-01-01':
       value: 4.57
@@ -226,20 +194,12 @@ prix_kwh_b1_zone_2_ht:
     '2010-07-01':
       value: 4.23
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.64
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.96
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.82
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.46
     '2015-01-01':
       value: 4.63
@@ -257,20 +217,12 @@ prix_kwh_b1_zone_3_ht:
     '2010-07-01':
       value: 4.29
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.7
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.02
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.88
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.52
     '2015-01-01':
       value: 4.69
@@ -288,20 +240,12 @@ prix_kwh_b1_zone_4_ht:
     '2010-07-01':
       value: 4.35
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.76
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.08
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.94
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.58
     '2015-01-01':
       value: 4.75
@@ -319,20 +263,12 @@ prix_kwh_b1_zone_5:
     '2010-07-01':
       value: 4.41
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.82
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.14
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.0
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.64
     '2015-01-01':
       value: 4.81
@@ -350,20 +286,12 @@ prix_kwh_b1_zone_6_ht:
     '2010-07-01':
       value: 4.47
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.88
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.2
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.06
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.7
     '2015-01-01':
       value: 4.87
@@ -381,20 +309,12 @@ prix_kwh_b2i_zone_1_ht:
     '2010-07-01':
       value: 4.17
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.58
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.9
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.76
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.4
     '2015-01-01':
       value: 4.57
@@ -412,20 +332,12 @@ prix_kwh_b2i_zone_2_ht:
     '2010-07-01':
       value: 4.23
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.64
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.96
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.82
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.46
     '2015-01-01':
       value: 4.63
@@ -443,20 +355,12 @@ prix_kwh_b2i_zone_3_ht:
     '2010-07-01':
       value: 4.29
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.7
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.02
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.88
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.52
     '2015-01-01':
       value: 4.69
@@ -474,20 +378,12 @@ prix_kwh_b2i_zone_4_ht:
     '2010-07-01':
       value: 4.35
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.76
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.08
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 4.94
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.58
     '2015-01-01':
       value: 4.75
@@ -505,20 +401,12 @@ prix_kwh_b2i_zone_5:
     '2010-07-01':
       value: 4.41
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.82
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.14
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.0
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.64
     '2015-01-01':
       value: 4.81
@@ -536,20 +424,12 @@ prix_kwh_b2i_zone_6_ht:
     '2010-07-01':
       value: 4.47
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 4.88
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.2
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 5.06
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 4.7
     '2015-01-01':
       value: 4.87
@@ -567,20 +447,12 @@ prix_kwh_base_zone_1_ht:
     '2010-07-01':
       value: 7.24
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 7.95
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.59
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.58
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 8.19
     '2015-01-01':
       value: 8.36
@@ -598,20 +470,12 @@ prix_kwh_base_zone_2_ht:
     '2010-07-01':
       value: 7.24
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 7.95
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.59
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.58
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 8.19
     '2015-01-01':
       value: 8.36
@@ -629,20 +493,12 @@ prix_kwh_base_zone_3_ht:
     '2010-07-01':
       value: 7.24
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 7.95
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.59
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.58
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 8.19
     '2015-01-01':
       value: 8.36
@@ -660,20 +516,12 @@ prix_kwh_base_zone_4_ht_ht:
     '2010-07-01':
       value: 7.24
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 7.95
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.59
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.58
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 8.19
     '2015-01-01':
       value: 8.36
@@ -691,20 +539,12 @@ prix_kwh_base_zone_5:
     '2010-07-01':
       value: 7.24
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 7.95
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.59
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.58
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 8.19
     '2015-01-01':
       value: 8.36
@@ -722,20 +562,12 @@ prix_kwh_base_zone_6_ht:
     '2010-07-01':
       value: 7.24
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2011
       value: 7.95
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.59
     '2013-07-01':
-      metadata:
-        reference: Arrêté du 27/06/2013
       value: 8.58
     '2014-07-01':
-      metadata:
-        reference: Arrêté du 30/06/2014
       value: 8.19
     '2015-01-01':
       value: 8.36

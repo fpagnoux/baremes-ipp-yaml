@@ -1,3 +1,13 @@
 description: Indépendants
 metadata:
-  rank: 3
+  order:
+  - ram
+  - pt_organic
+  - pt_cancava
+  - pt_rci
+  - salref_rci
+  - pt_rc_art
+  - salref_rc_art
+  - pt_rc_com
+  - salref_rc_com
+  - rsi_vp

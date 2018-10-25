@@ -1,6 +1,12 @@
 description: Part fixe tarif de base EDF (toutes taxes comprises)
 metadata:
-  rank: 2
+  order:
+  - tarif_fixe_3_kva
+  - tarif_fixe_6_kva
+  - tarif_fixe_9_kva
+  - tarif_fixe_12_kva
+  - tarif_fixe_15_kva
+  - tarif_fixe_18_kva
 tarif_fixe_12_kva:
   description: Tarif fixe - 12 kVA
   metadata:

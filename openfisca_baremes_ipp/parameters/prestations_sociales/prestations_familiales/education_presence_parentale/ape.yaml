@@ -2,197 +2,66 @@ age_maximal_enfant_1:
   description: Âge maximal de l'enfant (1)
   values:
     '1985-01-01':
-      metadata:
-        reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-      value: 3.0
-    '1986-07-01':
-      metadata:
-        reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-          du 31/05/1985                                                                                  Décret
-          86-150 du 30/001/1986
-      value: 3.0
-    '1987-04-01':
-      metadata:
-        reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-      value: 3.0
-    '1994-07-01':
-      metadata:
-        reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-          Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-          94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-      value: 3.0
-    '1996-07-01':
-      metadata:
-        reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-      value: 3.0
-    '2004-01-01':
-      metadata:
-        reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
       value: 3.0
 annees_activite_precedant_demande:
   description: Années d'activité précédant la demande
   values:
     '1985-01-01':
-      metadata:
-        reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-      value: 2.0
-    '1986-07-01':
-      metadata:
-        reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-          du 31/05/1985                                                                                  Décret
-          86-150 du 30/001/1986
-      value: 2.0
-    '1987-04-01':
-      metadata:
-        reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-      value: 2.0
-    '1994-07-01':
-      metadata:
-        reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-          Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-          94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-      value: 2.0
-    '1996-07-01':
-      metadata:
-        reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-      value: 2.0
-    '2004-01-01':
-      metadata:
-        reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
       value: 2.0
 description: 'Allocation parentale d''éducation (APE) : conditions et montant'
 duree_allocation_maximale_mois:
   description: Durée de l'allocation maximale (mois)
   values:
     '1985-01-01':
-      metadata:
-        reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-      value: 24.0
-    '1986-07-01':
-      metadata:
-        reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-          du 31/05/1985                                                                                  Décret
-          86-150 du 30/001/1986
       value: 24.0
     '1987-04-01':
-      metadata:
-        reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-      value: 36.0
-    '1994-07-01':
-      metadata:
-        reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-          Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-          94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-      value: 36.0
-    '1996-07-01':
-      metadata:
-        reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-      value: 36.0
-    '2004-01-01':
-      metadata:
-        reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
       value: 36.0
 intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois:
   2e_enfant:
     description: Pour le 2e enfant
     values:
       '1985-01-01':
-        metadata:
-          reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-        value: null
-      '1986-07-01':
-        metadata:
-          reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-            du 31/05/1985                                                                                  Décret
-            86-150 du 30/001/1986
-        value: null
-      '1987-04-01':
-        metadata:
-          reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
         value: null
       '1994-07-01':
-        metadata:
-          reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-            Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-            94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-        value: 60.0
-      '1996-07-01':
-        metadata:
-          reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-        value: 60.0
-      '2004-01-01':
-        metadata:
-          reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
         value: 60.0
   3e_enfant:
     description: Pour le 3e enfant
     values:
       '1985-01-01':
-        metadata:
-          reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-        value: 30.0
-      '1986-07-01':
-        metadata:
-          reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-            du 31/05/1985                                                                                  Décret
-            86-150 du 30/001/1986
         value: 30.0
       '1987-04-01':
-        metadata:
-          reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-        value: 120.0
-      '1994-07-01':
-        metadata:
-          reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-            Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-            94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-        value: 120.0
-      '1996-07-01':
-        metadata:
-          reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-        value: 120.0
-      '2004-01-01':
-        metadata:
-          reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
         value: 120.0
   description: Intervalle considéré pour le calcul du nombre d'années d'activité précédant
     la demande d'APE (mois)
+  metadata:
+    order:
+    - 2e_enfant
+    - 3e_enfant
 metadata:
-  rank: 5
+  order:
+  - nombre_minimal_enfants_pris_en_charge
+  - age_maximal_enfant_1
+  - annees_activite_precedant_demande
+  - intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois
+  - duree_allocation_maximale_mois
+  - montant_mensuel_en_base_calcul
 montant_mensuel_en_base_calcul:
   description: Montant mensuel (en % de la base de calcul)
+  metadata:
+    order:
+    - taux_plein
+    - une_activite_plus_85h_mois_50_duree_legale
+    - une_activite_formation_comprise_entre_50_80_duree_legale
   taux_plein:
     description: A taux plein
     metadata:
       unit: /1
     values:
       '1985-01-01':
-        metadata:
-          reference: Loi 85-17 du 04/01/1985, art. 6 et 7
         value: 0.624
       '1986-07-01':
-        metadata:
-          reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-            du 31/05/1985                                                                                  Décret
-            86-150 du 30/001/1986
         value: 0.902
       '1987-04-01':
-        metadata:
-          reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-        value: 1.4257
-      '1994-07-01':
-        metadata:
-          reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-            Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-            94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-        value: 1.4257
-      '1996-07-01':
-        metadata:
-          reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-        value: 1.4257
-      '2004-01-01':
-        metadata:
-          reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
         value: 1.4257
   une_activite_formation_comprise_entre_50_80_duree_legale:
     description: Pour une activité ou formation comprise entre 50% et 80% de la durée
@@ -201,32 +70,8 @@ montant_mensuel_en_base_calcul:
       unit: /1
     values:
       '1985-01-01':
-        metadata:
-          reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-        value: 0.451
-      '1986-07-01':
-        metadata:
-          reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-            du 31/05/1985                                                                                  Décret
-            86-150 du 30/001/1986
         value: 0.451
       '1987-04-01':
-        metadata:
-          reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-        value: 0.7129
-      '1994-07-01':
-        metadata:
-          reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-            Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-            94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-        value: 0.7129
-      '1996-07-01':
-        metadata:
-          reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-        value: 0.7129
-      '2004-01-01':
-        metadata:
-          reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
         value: 0.7129
   une_activite_plus_85h_mois_50_duree_legale:
     description: Pour une activité de plus de 85h/mois (50% durée légale)
@@ -234,61 +79,13 @@ montant_mensuel_en_base_calcul:
       unit: /1
     values:
       '1985-01-01':
-        metadata:
-          reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-        value: 0.451
-      '1986-07-01':
-        metadata:
-          reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-            du 31/05/1985                                                                                  Décret
-            86-150 du 30/001/1986
-        value: 0.451
-      '1987-04-01':
-        metadata:
-          reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
         value: 0.451
       '1994-07-01':
-        metadata:
-          reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-            Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-            94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-        value: 0.9427
-      '1996-07-01':
-        metadata:
-          reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-        value: 0.9427
-      '2004-01-01':
-        metadata:
-          reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
         value: 0.9427
 nombre_minimal_enfants_pris_en_charge:
   description: Nombre minimal d'enfants pris en charge
   values:
     '1985-01-01':
-      metadata:
-        reference: Loi 85-17 du 04/01/1985, art. 6 et 7
-      value: 3.0
-    '1986-07-01':
-      metadata:
-        reference: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-          du 31/05/1985                                                                                  Décret
-          86-150 du 30/001/1986
-      value: 3.0
-    '1987-04-01':
-      metadata:
-        reference: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
       value: 3.0
     '1994-07-01':
-      metadata:
-        reference: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-          Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-          94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
-      value: 2.0
-    '1996-07-01':
-      metadata:
-        reference: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-      value: 2.0
-    '2004-01-01':
-      metadata:
-        reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
       value: 2.0

@@ -1,6 +1,7 @@
 description: 'Prime d''activité (PA) : forfait logement'
 metadata:
-  rank: 12
+  order:
+  - taux_forfait_logement
 taux_forfait_logement:
   description: Taux Forfait logement
   foyer_1_personne:
@@ -9,8 +10,6 @@ taux_forfait_logement:
       unit: /1
     values:
       '2016-01-01':
-        metadata:
-          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
         value: 0.12
   foyer_2_personnes:
     description: Foyer - 2 personnes
@@ -18,8 +17,6 @@ taux_forfait_logement:
       unit: /1
     values:
       '2016-01-01':
-        metadata:
-          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
         value: 0.16
   foyer_3_personnes:
     description: Foyer - 3 personnes
@@ -27,6 +24,9 @@ taux_forfait_logement:
       unit: /1
     values:
       '2016-01-01':
-        metadata:
-          reference: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
         value: 0.165
+  metadata:
+    order:
+    - foyer_1_personne
+    - foyer_2_personnes
+    - foyer_3_personnes

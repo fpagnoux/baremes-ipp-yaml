@@ -5,25 +5,17 @@ majoration_plafond_ressources_enfant_supplementaire:
     unit: /1
   values:
     '1978-01-01':
-      metadata:
-        reference: Loi 77-765 du 12/07/1977                                                                                                                Décret
-          77-1265 du 16/11/1977
       value: 0.17011220411927452
     '1978-07-01':
-      metadata:
-        reference: Décret 78-728 du 11/07/1978
       value: 0.1701118553020773
     '1983-01-01':
-      metadata:
-        reference: Décret 82-1137 du 29/12/82 (Taux)
       value: 0.17009515267324415
     '1986-07-01':
-      metadata:
-        reference: Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478 du
-          26/04/1985
       value: 0.15133371576079163
 metadata:
-  rank: 15
+  order:
+  - plafond_ressources_revenu_brut_imposable_1
+  - majoration_plafond_ressources_enfant_supplementaire
 plafond_ressources_revenu_brut_imposable_1:
   1_enfant:
     description: 1 enfant
@@ -31,22 +23,12 @@ plafond_ressources_revenu_brut_imposable_1:
       unit: currency-FRF
     values:
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977                                                                                                                Décret
-            77-1265 du 16/11/1977
         value: 44270.0
       '1978-07-01':
-        metadata:
-          reference: Décret 78-728 du 11/07/1978
         value: 50034.0
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1137 du 29/12/82 (Taux)
         value: 87242.0
       '1986-07-01':
-        metadata:
-          reference: Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478
-            du 26/04/1985
         value: 105528.0
   1_enfant_biactifs_parents_isoles_2:
     description: 1 enfant, biactifs et parents isolés (2)
@@ -54,22 +36,12 @@ plafond_ressources_revenu_brut_imposable_1:
       unit: currency-FRF
     values:
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977                                                                                                                Décret
-            77-1265 du 16/11/1977
         value: 52048.0
       '1978-07-01':
-        metadata:
-          reference: Décret 78-728 du 11/07/1978
         value: 58826.0
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1137 du 29/12/82 (Taux)
         value: 102572.0
       '1986-07-01':
-        metadata:
-          reference: Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478
-            du 26/04/1985
         value: 139460.0
   description: Plafond de ressources pour un revenu (brut imposable) (1)
   enfant_supplementaire:
@@ -78,20 +50,15 @@ plafond_ressources_revenu_brut_imposable_1:
       unit: /1
     values:
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977                                                                                                                Décret
-            77-1265 du 16/11/1977
         value: 0.20002258866049244
       '1978-07-01':
-        metadata:
-          reference: Décret 78-728 du 11/07/1978
         value: 0.20000399728184834
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1137 du 29/12/82 (Taux)
         value: 0.20571513720455745
       '1986-07-01':
-        metadata:
-          reference: Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478
-            du 26/04/1985
         value: 0.1999943143052081
+  metadata:
+    order:
+    - 1_enfant
+    - enfant_supplementaire
+    - 1_enfant_biactifs_parents_isoles_2

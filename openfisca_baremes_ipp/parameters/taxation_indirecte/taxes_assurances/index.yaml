@@ -1,3 +1,5 @@
 description: Taxes sur les assurances
 metadata:
-  rank: 5
+  order:
+  - tsca
+  - fgao

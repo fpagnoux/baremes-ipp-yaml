@@ -6,29 +6,14 @@ assurance_vieillesse:
       unit: /1
     values:
       '1993-01-01':
-        metadata:
-          reference: Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
         value: null
       '2004-01-01':
-        metadata:
-          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
-            - art. 1
-        value: 0.016
-      '2012-07-04':
-        metadata:
-          reference: Décret 2012-847 du 2/07/2012 - art. 5
         value: 0.016
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-1323 du 28/11/2012
         value: 0.0181
       '2014-01-01':
-        metadata:
-          reference: Décret 2012-1323 du 28/11/2012
         value: 0.0187
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1413 du 27/11/2014
         value: null
   entre_1_5_pss:
     description: Entre 1 et 5 PSS
@@ -36,55 +21,32 @@ assurance_vieillesse:
       unit: /1
     values:
       '1993-01-01':
-        metadata:
-          reference: Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
-        value: null
-      '2004-01-01':
-        metadata:
-          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
-            - art. 1
-        value: null
-      '2012-07-04':
-        metadata:
-          reference: Décret 2012-847 du 2/07/2012 - art. 5
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Décret 2012-1323 du 28/11/2012
         value: null
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1413 du 27/11/2014
         value: 0.0187
+  metadata:
+    order:
+    - sous_5_pss
+    - sous_085_pss
+    - sous_1_pss
+    - entre_085_5_pss
+    - entre_1_5_pss
   sous_085_pss:
     description: Sous 0,85 PSS
     metadata:
       unit: /1
     values:
       '1993-01-01':
-        metadata:
-          reference: Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
         value: null
       '2004-01-01':
-        metadata:
-          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
-            - art. 1
         value: 0.086
       '2012-07-04':
-        metadata:
-          reference: Décret 2012-847 du 2/07/2012 - art. 5
         value: 0.0863
       '2013-01-01':
-        metadata:
-          reference: Décret 2012-1323 du 28/11/2012
         value: 0.0975
       '2014-01-01':
-        metadata:
-          reference: Décret 2012-1323 du 28/11/2012
         value: 0.101
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1413 du 27/11/2014
         value: null
   sous_1_pss:
     description: Sous 1 PSS
@@ -92,25 +54,8 @@ assurance_vieillesse:
       unit: /1
     values:
       '1993-01-01':
-        metadata:
-          reference: Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
-        value: null
-      '2004-01-01':
-        metadata:
-          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
-            - art. 1
-        value: null
-      '2012-07-04':
-        metadata:
-          reference: Décret 2012-847 du 2/07/2012 - art. 5
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Décret 2012-1323 du 28/11/2012
         value: null
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1413 du 27/11/2014
         value: 0.0823
   sous_5_pss:
     description: Sous 5 PSS
@@ -118,26 +63,10 @@ assurance_vieillesse:
       unit: /1
     values:
       '1993-01-01':
-        metadata:
-          reference: Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
         value: 0.014
       '2004-01-01':
-        metadata:
-          reference: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
-            - art. 1
-        value: null
-      '2012-07-04':
-        metadata:
-          reference: Décret 2012-847 du 2/07/2012 - art. 5
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Décret 2012-1323 du 28/11/2012
-        value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-1413 du 27/11/2014
         value: null
 description: Cotisation SS branche vieillesse, Professions libérales
 metadata:
-  rank: 1
+  order:
+  - assurance_vieillesse

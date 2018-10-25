@@ -1,3 +1,11 @@
 description: Régimes complémentaires de retraite (secteur privé)
 metadata:
-  rank: 4
+  order:
+  - arrco
+  - agirc
+  - agff
+  - gmp
+  - apec
+  - apec_f
+  - cet
+  - prevoyance_deces_cadres

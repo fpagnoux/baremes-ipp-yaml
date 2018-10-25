@@ -1,3 +1,4 @@
 description: Prélèvement forfaitaire sur les revenus du capital (à partir de 2018)
 metadata:
-  rank: 2
+  order:
+  - pf

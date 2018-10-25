@@ -1,3 +1,8 @@
 description: Solidarité et insertion
 metadata:
-  rank: 3
+  order:
+  - minima_sociaux
+  - invalidite
+  - perte_autonomie_personnes_agees
+  - minimum_vieillesse_droits_non_contributifs
+  - autre_solidarite

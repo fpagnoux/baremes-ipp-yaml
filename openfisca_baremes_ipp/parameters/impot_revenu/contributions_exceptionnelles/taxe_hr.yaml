@@ -1,13 +1,17 @@
 contribution_exceptionnelle_hauts_revenus:
   description: Contribution exceptionnelle sur les hauts revenus
+  metadata:
+    order:
+    - seuil_1ere_tranche
+    - seuil_2eme_tranche
+    - taux_marginal_1ere_tranche
+    - taux_marginal_2eme_tranche
   seuil_1ere_tranche:
     description: Seuil de la 1ère tranche
     metadata:
       unit: currency-EUR
     values:
       '2012-01-01':
-        metadata:
-          reference: LF pour 2012 - art. 2
         value: 250000.0
   seuil_2eme_tranche:
     description: Seuil de la 2ème tranche
@@ -15,8 +19,6 @@ contribution_exceptionnelle_hauts_revenus:
       unit: currency-EUR
     values:
       '2012-01-01':
-        metadata:
-          reference: LF pour 2012 - art. 2
         value: 500000.0
   taux_marginal_1ere_tranche:
     description: Taux marginal de la 1ère tranche
@@ -24,8 +26,6 @@ contribution_exceptionnelle_hauts_revenus:
       unit: /1
     values:
       '2012-01-01':
-        metadata:
-          reference: LF pour 2012 - art. 2
         value: 0.03
   taux_marginal_2eme_tranche:
     description: Taux marginal de la 2ème tranche
@@ -33,18 +33,19 @@ contribution_exceptionnelle_hauts_revenus:
       unit: /1
     values:
       '2012-01-01':
-        metadata:
-          reference: LF pour 2012 - art. 2
         value: 0.04
 date_entree_en_vigueur:
   annee_revenus:
     description: Année Revenus
     values:
       '2012-01-01':
-        metadata:
-          reference: LF pour 2012 - art. 2
         value: 2011.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Taxe exceptionnelle sur les hauts revenus (2012-2016)
 metadata:
-  rank: 0
+  order:
+  - date_entree_en_vigueur
+  - contribution_exceptionnelle_hauts_revenus

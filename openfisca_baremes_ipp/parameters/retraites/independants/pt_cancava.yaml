@@ -1,9 +1,15 @@
 description: Valeur des points acquis avant 1973 - CANCAVA
 metadata:
-  rank: 2
+  order:
+  - valeur_point_retraite_cancava_regime_base_droits_acquis_avant_1973
 valeur_point_retraite_cancava_regime_base_droits_acquis_avant_1973:
   description: Valeur du point retraite CANCAVA - régime de base, droits acquis avant
     1973
+  metadata:
+    order:
+    - valeur_annuelle
+    - valeur_trimestrielle
+    - valeur_mensuelle
   valeur_annuelle:
     description: Valeur annuelle
     metadata:

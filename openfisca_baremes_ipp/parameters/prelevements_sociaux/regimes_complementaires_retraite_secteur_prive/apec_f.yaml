@@ -10,8 +10,6 @@ forfait_annuel:
         '2002-03-01': currency-EUR
     values:
       '1976-03-01':
-        metadata:
-          reference: Protocole d'accord Agirc-Apec du 30/12/1975.
         value: 13.68
       '1977-03-01':
         value: 15.6
@@ -72,29 +70,21 @@ forfait_annuel:
       '2005-03-01':
         value: 10.87
       '2006-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2005-19-DRE du 13/12/2005
         value: 11.18
       '2007-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2006-17-DRE du 18/12/2006
         value: 11.59
       '2008-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2007-27-DRE du 14/12/2007
         value: 11.98
       '2009-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2009-1-DRE du 05/01/2009
         value: 12.35
       '2010-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2009-30- DRE du 16/12/2009
         value: 12.46
       '2011-01-01':
-        metadata:
-          reference: Circulaire AGIRC 2010-5-DF du 29/07/2010
         value: null
+  metadata:
+    order:
+    - salarie
+    - employeur
   salarie:
     description: Salarié
     metadata:
@@ -103,8 +93,6 @@ forfait_annuel:
         '2002-03-01': currency-EUR
     values:
       '1976-03-01':
-        metadata:
-          reference: Protocole d'accord Agirc-Apec du 30/12/1975.
         value: 9.12
       '1977-03-01':
         value: 10.4
@@ -165,28 +153,17 @@ forfait_annuel:
       '2005-03-01':
         value: 7.25
       '2006-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2005-19-DRE du 13/12/2005
         value: 7.46
       '2007-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2006-17-DRE du 18/12/2006
         value: 7.72
       '2008-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2007-27-DRE du 14/12/2007
         value: 7.99
       '2009-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2009-1-DRE du 05/01/2009
         value: 8.23
       '2010-03-01':
-        metadata:
-          reference: Circulaire AGIRC-ARRCO 2009-30- DRE du 16/12/2009
         value: 8.31
       '2011-01-01':
-        metadata:
-          reference: Circulaire AGIRC 2010-5-DF du 29/07/2010
         value: null
 metadata:
-  rank: 5
+  order:
+  - forfait_annuel

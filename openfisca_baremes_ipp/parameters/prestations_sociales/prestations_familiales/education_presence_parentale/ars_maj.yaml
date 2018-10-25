@@ -5,40 +5,23 @@ majoration_exceptionnelle:
     unit: currency-FRF
   values:
     '1977-09-17':
-      metadata:
-        reference: Décret 11-1039 du 14/09/1977
       value: 300.0
     '1993-08-26':
-      metadata:
-        reference: Décret 93-1016 du 25/08/1993
       value: 1097.0
     '1994-08-12':
-      metadata:
-        reference: Décret 94-691 du 11/08/1994
       value: 1089.0
     '1995-08-12':
-      metadata:
-        reference: Décret 95-909 du 11/08/1995
       value: 830.0
     '1996-08-21':
-      metadata:
-        reference: Décret 96-730 du 14/08/1996
       value: 584.206
     '1997-08-24':
-      metadata:
-        reference: Décret 97-794 du 22/08/1997
       value: 1178.3
     '1998-08-22':
-      metadata:
-        reference: Décret 98-718 du 19/08/1998
       value: 1176.13
     '1999-08-12':
-      metadata:
-        reference: Décret 99-712 du 03/08/1999
       value: 1173.14
     '2000-08-10':
-      metadata:
-        reference: Décret 2000-776 du 01/08/2000
       value: 1170.16
 metadata:
-  rank: 2
+  order:
+  - majoration_exceptionnelle

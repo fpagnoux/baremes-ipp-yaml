@@ -1,6 +1,8 @@
 description: Barème de l'IFI
 metadata:
-  rank: 0
+  order:
+  - seuils_tranches_bareme_ifi
+  - taux_marginaux_tranches_bareme_ifi
 seuils_tranches_bareme_ifi:
   1ere_tranche:
     description: 1ère tranche
@@ -8,9 +10,6 @@ seuils_tranches_bareme_ifi:
       unit: currency-EUR
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 800000.0
   2eme_tranche:
     description: 2ème tranche
@@ -18,9 +17,6 @@ seuils_tranches_bareme_ifi:
       unit: currency-EUR
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 1300000.0
   3eme_tranche:
     description: 3ème tranche
@@ -28,9 +24,6 @@ seuils_tranches_bareme_ifi:
       unit: currency-EUR
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 2570000.0
   4eme_tranche:
     description: 4ème tranche
@@ -38,9 +31,6 @@ seuils_tranches_bareme_ifi:
       unit: currency-EUR
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 5000000.0
   5eme_tranche:
     description: 5ème  tranche
@@ -48,11 +38,15 @@ seuils_tranches_bareme_ifi:
       unit: currency-EUR
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 10000000.0
   description: Seuils des tranches du barème de l'IFI
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
 taux_marginaux_tranches_bareme_ifi:
   1ere_tranche:
     description: 1ère tranche
@@ -60,9 +54,6 @@ taux_marginaux_tranches_bareme_ifi:
       unit: /1
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 0.005
   2eme_tranche:
     description: 2ème tranche
@@ -70,9 +61,6 @@ taux_marginaux_tranches_bareme_ifi:
       unit: /1
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 0.007
   3eme_tranche:
     description: 3ème tranche
@@ -80,9 +68,6 @@ taux_marginaux_tranches_bareme_ifi:
       unit: /1
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 0.01
   4eme_tranche:
     description: 4ème tranche
@@ -90,9 +75,6 @@ taux_marginaux_tranches_bareme_ifi:
       unit: /1
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 0.0125
   5eme_tranche:
     description: 5ème  tranche
@@ -100,16 +82,18 @@ taux_marginaux_tranches_bareme_ifi:
       unit: /1
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 0.015
   description: Taux marginaux des tranches du barème de l'IFI
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
+    - nombre_tranches_bareme
   nombre_tranches_bareme:
     description: Nombre de tranches du barème
     values:
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art.
-            977 du CGI)
         value: 5.0

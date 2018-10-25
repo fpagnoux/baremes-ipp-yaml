@@ -1,8 +1,14 @@
 description: Salaire minimum garanti - SMIG (1950-1969)
 metadata:
-  rank: 1
+  order:
+  - smig_brut_horaire
+  - smig_brut_mensuel
 smig_brut_horaire:
   description: Smig brut (horaire)
+  metadata:
+    order:
+    - zone_sans_abattement
+    - zone_abattement_maximale
   zone_abattement_maximale:
     description: Zone abattement maximale
     metadata:
@@ -192,3 +198,6 @@ smig_brut_mensuel:
       '1970-01-01':
         value: null
   description: Smig brut (mensuel)
+  metadata:
+    order:
+    - 17333h_travail

@@ -1,6 +1,7 @@
 description: Valeur du point IRCANTEC
 metadata:
-  rank: 9
+  order:
+  - valeur_point_ircantec_en_euros
 valeur_point_ircantec_en_euros:
   description: Valeur du point IRCANTEC (en euros)
   metadata:

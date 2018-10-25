@@ -1,0 +1,9 @@
+metadata:
+  order:
+  - bareme_ir
+  - bareme_igr
+  - calcul_revenus_imposables
+  - calcul_impot_revenu
+  - calcul_reductions_impots
+  - calcul_credits_impots
+  - contributions_exceptionnelles

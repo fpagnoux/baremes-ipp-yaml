@@ -1,3 +1,7 @@
 description: Perte d'autonomie des personnes âgées
 metadata:
-  rank: 2
+  order:
+  - psd
+  - apa_mtp
+  - apa_dom
+  - apa_instit

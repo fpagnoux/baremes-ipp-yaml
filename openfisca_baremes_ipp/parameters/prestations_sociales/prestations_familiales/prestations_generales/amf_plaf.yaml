@@ -6,12 +6,8 @@ majoration_plafond_droit_amf:
       unit: currency-FRF
     values:
       '1974-07-01':
-        metadata:
-          reference: Décret 76-767 du 16/08/1976 (majoration)
         value: 28800.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   5_enfants:
     description: 5 enfants
@@ -19,12 +15,8 @@ majoration_plafond_droit_amf:
       unit: currency-FRF
     values:
       '1974-07-01':
-        metadata:
-          reference: Décret 76-767 du 16/08/1976 (majoration)
         value: 34560.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   6_enfants:
     description: 6+ enfants
@@ -32,14 +24,15 @@ majoration_plafond_droit_amf:
       unit: currency-FRF
     values:
       '1974-07-01':
-        metadata:
-          reference: Décret 76-767 du 16/08/1976 (majoration)
         value: 5760.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   description: Majoration plafond pour le droit à l'AMF
+  metadata:
+    order:
+    - 4_enfants
+    - 5_enfants
+    - 6_enfants
 majoration_plafond_majoration:
   1_enfant:
     description: 1 enfant
@@ -47,12 +40,8 @@ majoration_plafond_majoration:
       unit: currency-FRF
     values:
       '1974-07-01':
-        metadata:
-          reference: Décret 76-767 du 16/08/1976 (majoration)
         value: 20100.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   2_enfants:
     description: 2 enfants
@@ -60,41 +49,38 @@ majoration_plafond_majoration:
       unit: currency-FRF
     values:
       '1974-07-01':
-        metadata:
-          reference: Décret 76-767 du 16/08/1976 (majoration)
         value: 24120.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
   description: Majoration plafond pour la majoration
+  metadata:
+    order:
+    - 1_enfant
+    - 2_enfants
+    - par_enfant_supplementaire
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     metadata:
       unit: currency-FRF
     values:
       '1974-07-01':
-        metadata:
-          reference: Décret 76-767 du 16/08/1976 (majoration)
         value: 4010.0
       '1978-01-01':
-        metadata:
-          reference: Loi 77-765 du 12/07/1977
         value: null
 metadata:
-  rank: 10
+  order:
+  - plafond_ressources_droit_amf_3_enfants
+  - majoration_plafond_droit_amf
+  - plafond_ressources_majoration_0_enfant
+  - majoration_plafond_majoration
 plafond_ressources_droit_amf_3_enfants:
   description: Plafond de ressources pour le droit à l'AMF - 3 enfants
   metadata:
     unit: currency-FRF
   values:
     '1974-07-01':
-      metadata:
-        reference: Décret 76-767 du 16/08/1976 (majoration)
       value: 23040.0
     '1978-01-01':
-      metadata:
-        reference: Loi 77-765 du 12/07/1977
       value: null
 plafond_ressources_majoration_0_enfant:
   description: Plafond de ressources pour la majoration - 0 enfant
@@ -102,10 +88,6 @@ plafond_ressources_majoration_0_enfant:
     unit: currency-FRF
   values:
     '1974-07-01':
-      metadata:
-        reference: Décret 76-767 du 16/08/1976 (majoration)
       value: 16080.0
     '1978-01-01':
-      metadata:
-        reference: Loi 77-765 du 12/07/1977
       value: null

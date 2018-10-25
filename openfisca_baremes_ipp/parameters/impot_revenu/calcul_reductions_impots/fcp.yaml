@@ -19,12 +19,23 @@ date_entree_en_vigueur:
       '2014-01-01':
         value: 2013.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Souscription de parts de fonds communs de placement dans l'innovation
   (1998 - 2016)
 metadata:
-  rank: 5
+  order:
+  - date_entree_en_vigueur
+  - reduction_impot_souscriptions_parts_fcpi_fip
 reduction_impot_souscriptions_parts_fcpi_fip:
   description: Réduction d'impôt pour souscriptions de parts de FCPI ou FIP
+  metadata:
+    order:
+    - taux
+    - taux_corse_fip
+    - plafond_celibataire
+    - plafond_couple_fcpi
   plafond_celibataire:
     description: Plafond célibataire
     metadata:

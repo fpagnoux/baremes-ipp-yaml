@@ -1,6 +1,10 @@
 description: Prix unitaire tarif réglementé GDF (toutes taxes comprises)
 metadata:
-  rank: 3
+  order:
+  - prix_kwh_base_ttc
+  - prix_kwh_b0_ttc
+  - prix_kwh_b1_ttc
+  - prix_kwh_b2i_ttc
 prix_kwh_b0_ttc:
   description: Prix kWh B0 - TTC
   metadata:

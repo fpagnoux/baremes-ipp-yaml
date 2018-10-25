@@ -4,20 +4,6 @@ allocations_familiales_enfant_en_bmaf:
     unit: /1
   values:
     '1991-08-06':
-      metadata:
-        reference: Décret 91-761 du 5/08/1991 - art. 1
-      value: 0.0588
-    '1992-02-12':
-      metadata:
-        reference: Décret 92-135 du 11/02/1992 - art. 1
-      value: 0.0588
-    '1993-01-01':
-      metadata:
-        reference: Décret 92-1433 du 30/12/1992 - art. 1
-      value: 0.0588
-    '1999-01-01':
-      metadata:
-        reference: Décret 98-1214 du 29/12/1998
       value: 0.0588
 description: 'Allocations familiales (AF) : majorations pour les DOM'
 duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee:
@@ -26,47 +12,32 @@ duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee:
     (En année)'
   values:
     '1991-08-06':
-      metadata:
-        reference: Décret 91-761 du 5/08/1991 - art. 1
-      value: 1.0
-    '1992-02-12':
-      metadata:
-        reference: Décret 92-135 du 11/02/1992 - art. 1
-      value: 1.0
-    '1993-01-01':
-      metadata:
-        reference: Décret 92-1433 du 30/12/1992 - art. 1
-      value: 1.0
-    '1999-01-01':
-      metadata:
-        reference: Décret 98-1214 du 29/12/1998
       value: 1.0
 majoration_partir_deuxieme_enfant_en_bmaf_dom:
   description: Majoration à partir du deuxième enfant (en % de la BMAF) - DOM
+  metadata:
+    order:
+    - taux_2eme_enfant
+    - taux_3eme_enfant
+    - taux_4eme_enfant
+    - taux_5eme_enfant
+    - taux_6eme_enfant_plus
+    - taux_majoration_1ere_tranche_age
+    - taux_majoration_2eme_tranche_age
   taux_2eme_enfant:
     description: Taux 2ème enfant
     metadata:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
         value: 0.2463
       '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.2594
       '1992-07-01':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.2715
       '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 0.2788
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: null
   taux_3eme_enfant:
     description: Taux 3ème enfant
@@ -74,24 +45,14 @@ majoration_partir_deuxieme_enfant_en_bmaf_dom:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
         value: 0.2572
       '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.283
       '1992-07-01':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.3084
       '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 0.3236
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: null
   taux_4eme_enfant:
     description: Taux 4ème enfant
@@ -99,24 +60,14 @@ majoration_partir_deuxieme_enfant_en_bmaf_dom:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
         value: 0.2978
       '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.3155
       '1992-07-01':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.3344
       '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 0.3457
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: null
   taux_5eme_enfant:
     description: Taux 5ème enfant
@@ -124,24 +75,14 @@ majoration_partir_deuxieme_enfant_en_bmaf_dom:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
         value: 0.1812
       '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.2197
       '1992-07-01':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.2578
       '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 0.2806
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: null
   taux_6eme_enfant_plus:
     description: Taux 6ème enfant et plus
@@ -149,24 +90,14 @@ majoration_partir_deuxieme_enfant_en_bmaf_dom:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
         value: 0.1411
       '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.1859
       '1992-07-01':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.2307
       '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 0.2576
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: null
   taux_majoration_1ere_tranche_age:
     description: Taux de majoration de la 1ère tranche d'âge
@@ -174,24 +105,14 @@ majoration_partir_deuxieme_enfant_en_bmaf_dom:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
         value: 0.0505
       '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.0567
       '1992-07-01':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.0634
       '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 0.0674
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: null
   taux_majoration_2eme_tranche_age:
     description: Taux de majoration de la 2ème tranche d'âge
@@ -199,47 +120,27 @@ majoration_partir_deuxieme_enfant_en_bmaf_dom:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
         value: 0.0827
       '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.0954
       '1992-07-01':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
         value: 0.1083
       '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 0.1161
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: null
 majoration_premier_enfant_en_bmaf_dom:
   description: Majoration pour le premier enfant (en % de la BMAF) - DOM
+  metadata:
+    order:
+    - taux_tranche_1
+    - taux_tranche_2
   taux_tranche_1:
     description: Taux de la tranche 1
     metadata:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
-        value: 0.0369
-      '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
-        value: 0.0369
-      '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
-        value: 0.0369
-      '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: 0.0369
   taux_tranche_2:
     description: Taux de la tranche 2
@@ -247,99 +148,44 @@ majoration_premier_enfant_en_bmaf_dom:
       unit: /1
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
-        value: 0.0567
-      '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
-        value: 0.0567
-      '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
-        value: 0.0567
-      '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: 0.0567
 metadata:
-  rank: 3
+  order:
+  - allocations_familiales_enfant_en_bmaf
+  - tranches_age
+  - majoration_premier_enfant_en_bmaf_dom
+  - majoration_partir_deuxieme_enfant_en_bmaf_dom
+  - nombre_minimal_enfant_avoir_droit_majoration_forfaitaire_plus_20_ans
+  - duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee
+  - nombre_enfant_partir_duquel_aine_donne_droit_majoration
 nombre_enfant_partir_duquel_aine_donne_droit_majoration:
   description: Nombre d'enfant à partir duquel l'aîné donne droit à majoration
   values:
     '1991-08-06':
-      metadata:
-        reference: Décret 91-761 du 5/08/1991 - art. 1
-      value: 3.0
-    '1992-02-12':
-      metadata:
-        reference: Décret 92-135 du 11/02/1992 - art. 1
-      value: 3.0
-    '1993-01-01':
-      metadata:
-        reference: Décret 92-1433 du 30/12/1992 - art. 1
-      value: 3.0
-    '1999-01-01':
-      metadata:
-        reference: Décret 98-1214 du 29/12/1998
       value: 3.0
 nombre_minimal_enfant_avoir_droit_majoration_forfaitaire_plus_20_ans:
   description: Nombre minimal d'enfant pour avoir droit à la majoration forfaitaire
     pour les plus de 20 ans
   values:
     '1991-08-06':
-      metadata:
-        reference: Décret 91-761 du 5/08/1991 - art. 1
-      value: 3.0
-    '1992-02-12':
-      metadata:
-        reference: Décret 92-135 du 11/02/1992 - art. 1
-      value: 3.0
-    '1993-01-01':
-      metadata:
-        reference: Décret 92-1433 du 30/12/1992 - art. 1
-      value: 3.0
-    '1999-01-01':
-      metadata:
-        reference: Décret 98-1214 du 29/12/1998
       value: 3.0
 tranches_age:
   age_debut_deuxieme_tranche:
     description: Âge début de la deuxième tranche
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
-        value: 15.0
-      '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
-        value: 15.0
-      '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 15.0
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: 16.0
   age_debut_premiere_tranche:
     description: Âge début de la première tranche
     values:
       '1991-08-06':
-        metadata:
-          reference: Décret 91-761 du 5/08/1991 - art. 1
-        value: 10.0
-      '1992-02-12':
-        metadata:
-          reference: Décret 92-135 du 11/02/1992 - art. 1
-        value: 10.0
-      '1993-01-01':
-        metadata:
-          reference: Décret 92-1433 du 30/12/1992 - art. 1
         value: 10.0
       '1999-01-01':
-        metadata:
-          reference: Décret 98-1214 du 29/12/1998
         value: 11.0
   description: Tranches d'âge
+  metadata:
+    order:
+    - age_debut_premiere_tranche
+    - age_debut_deuxieme_tranche

@@ -4,8 +4,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 13.5
 11_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 11 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -13,8 +11,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 15.5
 12_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 12 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -22,8 +18,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 17.5
 13_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 13 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -31,8 +25,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 19.5
 14_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 14 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -40,8 +32,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 21.5
 15_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 15 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -49,8 +39,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 23.5
 1_kg_moins_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 1 kg ou moins de sucres ajoutés  par hl de boisson (€ / hl)
@@ -58,8 +46,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 3.0
 2_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 2 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -67,8 +53,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 3.5
 3_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 3 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -76,8 +60,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 4.0
 4_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 4 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -85,8 +67,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 4.5
 5_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 5 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -94,8 +74,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 5.5
 6_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 6 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -103,8 +81,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 6.5
 7_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 7 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -112,8 +88,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 7.5
 8_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 8 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -121,8 +95,6 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 9.5
 9_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 9 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -130,12 +102,26 @@
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 11.5
 description: Contribution sur les boissons sucrées (à partir de juillet 2018)
 metadata:
-  rank: 6
+  order:
+  - 1_kg_moins_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 2_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 3_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 4_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 5_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 6_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 7_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 8_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 9_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 10_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 11_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 12_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 13_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 14_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - 15_kg_sucres_ajoutes_par_hl_boisson_eur_hl
+  - tout_kg_dessus_15_kg_sucres_ajoutes_par_hl_boisson_eur_hl
 tout_kg_dessus_15_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: Pour tout kg au-dessus de 15 kg de sucres ajoutés par hl de boisson
     (€/hl)
@@ -143,6 +129,4 @@ tout_kg_dessus_15_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
     unit: currency-EUR
   values:
     '2018-07-01':
-      metadata:
-        reference: Loi 2017-1836 du 30/12/2017 (LFSS pour 2018), art. 19
       value: 2.0

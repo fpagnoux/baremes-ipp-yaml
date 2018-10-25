@@ -1,3 +1,6 @@
 description: Allocations chômage de solidarité
 metadata:
-  rank: 2
+  order:
+  - aide_pu
+  - ai
+  - ata

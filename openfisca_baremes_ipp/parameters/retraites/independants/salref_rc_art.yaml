@@ -1,6 +1,7 @@
 description: 'Régime complémentaire des artisans : valeur d''achat du point (1979-2012)'
 metadata:
-  rank: 6
+  order:
+  - salaire_reference_rsi_artisans
 salaire_reference_rsi_artisans:
   description: Salaire de référence RSI  artisans
   metadata:

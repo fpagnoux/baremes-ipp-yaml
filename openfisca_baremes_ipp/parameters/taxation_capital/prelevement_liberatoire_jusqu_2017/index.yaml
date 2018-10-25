@@ -1,3 +1,5 @@
 description: Prélèvement libératoire (jusqu'à 2017)
 metadata:
-  rank: 1
+  order:
+  - pfl
+  - pfl_av

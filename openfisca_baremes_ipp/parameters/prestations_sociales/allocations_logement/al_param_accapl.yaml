@@ -2,8 +2,6 @@ constante_coefficient_k:
   description: Constante du coefficient K
   values:
     '2007-07-01':
-      metadata:
-        reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du CSS)
       value: 0.95
 description: Paramètres de calcul dans le secteur en accession (APL)
 majoration_loyer_minimum_lo:
@@ -12,11 +10,15 @@ majoration_loyer_minimum_lo:
     unit: currency-EUR
   values:
     '2007-07-01':
-      metadata:
-        reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du CSS)
       value: 45.57
 metadata:
-  rank: 3
+  order:
+  - constante_coefficient_k
+  - multiplicateur_n
+  - n_0_personnes_charge
+  - taux_loyer_minimum_lo_apl_accession
+  - seuils_revenus
+  - majoration_loyer_minimum_lo
 multiplicateur_n:
   dans_formule_ka:
     description: Dans la formule de KA
@@ -24,9 +26,6 @@ multiplicateur_n:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 22111.33
   dans_formule_kl:
     description: Dans la formule de KL
@@ -34,9 +33,6 @@ multiplicateur_n:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 13393.4
   dans_formule_kl_numerateur:
     description: Dans la formule de KL (numérateur)
@@ -44,29 +40,29 @@ multiplicateur_n:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 1217.26
   description: Multiplicateur de N
+  metadata:
+    order:
+    - dans_formule_ka
+    - dans_formule_kl
+    - dans_formule_kl_numerateur
 n_0_personnes_charge:
   description: N (0 personnes à charge)
   isole:
     description: Isolé
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 1.4
   menage:
     description: Ménage
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 1.8
+  metadata:
+    order:
+    - isole
+    - menage
 seuils_revenus:
   1ere_tranche:
     description: 1ère tranche
@@ -74,9 +70,6 @@ seuils_revenus:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 1948.1
   2eme_tranche:
     description: 2ème tranche
@@ -84,9 +77,6 @@ seuils_revenus:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 2678.71
   3eme_tranche:
     description: 3ème tranche
@@ -94,9 +84,6 @@ seuils_revenus:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 3896.18
   4eme_tranche_debut_5eme_tranche:
     description: 4ème tranche (et début 5ème tranche)
@@ -104,9 +91,6 @@ seuils_revenus:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 5357.44
   5eme_tranche_debut_6eme_tranche:
     description: 5ème tranche (et début 6ème tranche)
@@ -114,11 +98,15 @@ seuils_revenus:
       unit: currency-EUR
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 6331.29
   description: Seuils de revenus
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche_debut_5eme_tranche
+    - 5eme_tranche_debut_6eme_tranche
 taux_loyer_minimum_lo_apl_accession:
   1ere_tranche:
     description: 1ère tranche
@@ -126,9 +114,6 @@ taux_loyer_minimum_lo_apl_accession:
       unit: /1
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 0.04
   2eme_tranche:
     description: 2ème tranche
@@ -136,9 +121,6 @@ taux_loyer_minimum_lo_apl_accession:
       unit: /1
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 0.104
   3eme_tranche:
     description: 3ème tranche
@@ -146,9 +128,6 @@ taux_loyer_minimum_lo_apl_accession:
       unit: /1
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 0.216
   4eme_tranche:
     description: 4ème tranche
@@ -156,9 +135,6 @@ taux_loyer_minimum_lo_apl_accession:
       unit: /1
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 0.264
   5eme_tranche:
     description: 5ème tranche
@@ -166,9 +142,6 @@ taux_loyer_minimum_lo_apl_accession:
       unit: /1
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 0.32
   6eme_tranche:
     description: 6ème tranche
@@ -176,8 +149,13 @@ taux_loyer_minimum_lo_apl_accession:
       unit: /1
     values:
       '2007-07-01':
-        metadata:
-          reference: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du
-            CSS)
         value: 0.48
   description: Taux pour le loyer minimum (Lo) pour l'APL accession
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
+    - 6eme_tranche

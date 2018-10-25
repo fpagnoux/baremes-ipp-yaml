@@ -1,6 +1,7 @@
 description: 'Revenu minimum d''insertion (RMI) : montant de base'
 metadata:
-  rank: 1
+  order:
+  - montant_base_rmi
 montant_base_rmi:
   description: Montant de base du RMI
   metadata:
@@ -9,106 +10,54 @@ montant_base_rmi:
       '2002-01-01': currency-EUR
   values:
     '1989-01-01':
-      metadata:
-        reference: Décret 88-1112 du 12/12/1988
       value: 2000.0
     '1989-07-01':
-      metadata:
-        reference: Décret 89-619 du 01/09/1989
       value: 2025.0
     '1990-01-01':
-      metadata:
-        reference: Décret 90-163 du 20/02/1990
       value: 2080.0
     '1990-07-01':
-      metadata:
-        reference: Décret 90-163 du 20/02/1990
       value: 2110.0
     '1991-01-01':
-      metadata:
-        reference: Décret 91-194 du 21/02/1991
       value: 2146.0
     '1991-07-01':
-      metadata:
-        reference: Décret 91-923 du 12/09/1991
       value: 2163.16
     '1992-01-01':
-      metadata:
-        reference: Décret 91-1373 du 30/12/91
       value: 2184.79
     '1992-07-01':
-      metadata:
-        reference: Décret 91-1373 du 30/12/91
       value: 2224.11
     '1993-01-01':
-      metadata:
-        reference: Décret 93-143 du 02/02/1993
       value: 2253.02
     '1994-01-01':
-      metadata:
-        reference: Décret 93-1356 du 30/12/1993
       value: 2298.08
     '1995-01-01':
-      metadata:
-        reference: Décret 94-1164 du 29/12/1994
       value: 2325.66
     '1996-01-01':
-      metadata:
-        reference: Décret 96-93 du 06/02/1996
       value: 2374.5
     '1997-01-01':
-      metadata:
-        reference: Décret 96-1168 du 26/12/1996
       value: 2402.99
     '1998-01-01':
-      metadata:
-        reference: Décret 97-1250 du 29/12/1997
       value: 2429.42
     '1999-01-01':
-      metadata:
-        reference: Décret 98-1181 du 23/12/1998
       value: 2502.3
     '2000-01-01':
-      metadata:
-        reference: Décret 99-1045 du 14/12/1999
       value: 2552.35
     '2001-01-01':
-      metadata:
-        reference: Décret 2000-1286 du 26/12/2000
       value: 2608.5
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-1319 du 28/12/2001
       value: 405.62
     '2003-01-01':
-      metadata:
-        reference: Décret 2002-1617 du 31/12/2002
       value: 411.7
     '2004-01-01':
-      metadata:
-        reference: Décret 2003-1282 du 26/12/2003
       value: 417.88
     '2005-01-01':
-      metadata:
-        reference: Décret 2004-1537 du 30/12/2004
       value: 425.4
     '2006-01-01':
-      metadata:
-        reference: Décret 2005-1700 du 29/12/2005
       value: 433.06
     '2007-01-01':
-      metadata:
-        reference: Décret 2007-32 du 08/01/2007
       value: 440.86
     '2008-01-01':
-      metadata:
-        reference: Décret 2008-52 du 16/01/2008
       value: 447.91
     '2009-01-01':
-      metadata:
-        reference: Décret 2009-190 du 17/02/2009
       value: 454.63
     '2009-06-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008
       value: null

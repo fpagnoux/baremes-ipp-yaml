@@ -6,115 +6,43 @@ abattement:
       unit: /1
     values:
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
-        value: 0.05
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
-        value: 0.05
-      '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
-        value: 0.05
-      '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
         value: 0.05
       '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art.72
         value: 0.03
       '2011-01-01':
-        metadata:
-          reference: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
         value: null
-      '2012-01-01':
-        metadata:
-          reference: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
-        value: null
-      '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-            du 30/12/2017, art. 67 (LF pour 2018)
-        value: null
+  metadata:
+    order:
+    - sous_4_pss
+    - dessus_4_pss
   sous_4_pss:
     description: Sous 4 PSS
     metadata:
       unit: /1
     values:
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
-        value: 0.05
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
-        value: 0.05
-      '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
-        value: 0.05
-      '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
         value: 0.05
       '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art.72
-        value: 0.03
-      '2011-01-01':
-        metadata:
-          reference: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
         value: 0.03
       '2012-01-01':
-        metadata:
-          reference: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
-        value: 0.0175
-      '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-            du 30/12/2017, art. 67 (LF pour 2018)
         value: 0.0175
 allocations_chomage:
   description: Allocations chômage
+  metadata:
+    order:
+    - taux_global_csg
+    - taux_csg_deductible
+    - taux_csg_reduit
   taux_csg_deductible:
     description: Taux CSG deductible
     metadata:
       unit: /1
     values:
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
         value: null
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
         value: 0.01
       '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.038
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art.72
-        value: 0.038
-      '2011-01-01':
-        metadata:
-          reference: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-        value: 0.038
-      '2012-01-01':
-        metadata:
-          reference: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
-        value: 0.038
-      '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-            du 30/12/2017, art. 67 (LF pour 2018)
         value: 0.038
   taux_csg_reduit:
     description: Taux CSG réduit
@@ -122,37 +50,10 @@ allocations_chomage:
       unit: /1
     values:
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
         value: null
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
         value: 0.01
       '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.038
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art.72
-        value: 0.038
-      '2011-01-01':
-        metadata:
-          reference: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-        value: 0.038
-      '2012-01-01':
-        metadata:
-          reference: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
-        value: 0.038
-      '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-            du 30/12/2017, art. 67 (LF pour 2018)
         value: 0.038
   taux_global_csg:
     description: Taux global CSG
@@ -160,80 +61,35 @@ allocations_chomage:
       unit: /1
     values:
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
         value: null
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
         value: 0.034
       '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.062
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art.72
-        value: 0.062
-      '2011-01-01':
-        metadata:
-          reference: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-        value: 0.062
-      '2012-01-01':
-        metadata:
-          reference: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
-        value: 0.062
-      '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-            du 30/12/2017, art. 67 (LF pour 2018)
         value: 0.062
 description: Contribution sociale généralisée (CSG) sur les revenus d'activité
 metadata:
-  rank: 0
+  order:
+  - revenus_activite
+  - allocations_chomage
+  - abattement
 revenus_activite:
   description: Revenus d'activité
+  metadata:
+    order:
+    - taux_global_csg
+    - taux_csg_deductible
   taux_csg_deductible:
     description: Taux CSG deductible
     metadata:
       unit: /1
     values:
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
-        value: null
-      '1993-07-01':
-        metadata:
-          reference: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
         value: null
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
         value: 0.01
       '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.051
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art.72
-        value: 0.051
-      '2011-01-01':
-        metadata:
-          reference: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-        value: 0.051
-      '2012-01-01':
-        metadata:
-          reference: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
         value: 0.051
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-            du 30/12/2017, art. 67 (LF pour 2018)
         value: 0.068
   taux_global_csg:
     description: Taux global CSG
@@ -241,35 +97,12 @@ revenus_activite:
       unit: /1
     values:
       '1991-02-01':
-        metadata:
-          reference: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
         value: 0.011
       '1993-07-01':
-        metadata:
-          reference: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
         value: 0.024
       '1997-01-01':
-        metadata:
-          reference: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
         value: 0.034
       '1998-01-01':
-        metadata:
-          reference: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-        value: 0.075
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-810 du 13/08/2004, art.72
-        value: 0.075
-      '2011-01-01':
-        metadata:
-          reference: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-        value: 0.075
-      '2012-01-01':
-        metadata:
-          reference: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
         value: 0.075
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-            du 30/12/2017, art. 67 (LF pour 2018)
         value: 0.092

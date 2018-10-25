@@ -29,6 +29,9 @@ date_entree_en_vigueur:
       '2004-01-01':
         value: 2003.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 deduction_charges:
   description: Déduction des charges
   increment:
@@ -42,6 +45,10 @@ deduction_charges:
         value: 1000.0
       '1985-01-01':
         value: null
+  metadata:
+    order:
+    - plafond
+    - increment
   plafond:
     description: Plafond
     metadata:
@@ -68,6 +75,10 @@ interets_emprunts:
         value: 1500.0
       '2002-01-01':
         value: null
+  metadata:
+    order:
+    - plafond
+    - increment
   plafond:
     description: Plafond
     metadata:
@@ -80,9 +91,18 @@ interets_emprunts:
       '2002-01-01':
         value: null
 metadata:
-  rank: 11
+  order:
+  - date_entree_en_vigueur
+  - reduction_impot_interets_emprunt_habitat
+  - reduction_impot_gros_travaux
+  - interets_emprunts
+  - deduction_charges
 reduction_impot_gros_travaux:
   description: Réduction d'impôt pour gros travaux
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -128,6 +148,13 @@ reduction_impot_interets_emprunt_habitat:
         value: 305.0
       '2004-01-01':
         value: null
+  metadata:
+    order:
+    - taux
+    - plafond_1
+    - plafond_2
+    - plafond_3
+    - increment_plafond
   plafond_1:
     description: Plafond 1
     metadata:

@@ -5,21 +5,26 @@ date_entree_en_vigueur:
       '2000-01-01':
         value: 1999.0
       '2001-01-01':
-        metadata:
-          reference: Loi 2000-596 du 30 juin 2000
         value: 2000.0
       '2002-01-01':
         value: 2001.0
       '2005-01-01':
-        metadata:
-          reference: Loi 2004-439 du 26 mai 2004 - art. 26
         value: 2004.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Prestation compensatoire (2001 - 2016)
 metadata:
-  rank: 4
+  order:
+  - date_entree_en_vigueur
+  - prestations_compensatoires
 prestations_compensatoires:
   description: Prestations compensatoires
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -30,14 +35,8 @@ prestations_compensatoires:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi 2000-596 du 30 juin 2000
         value: 200000.0
       '2002-01-01':
-        value: 30500.0
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-439 du 26 mai 2004 - art. 26
         value: 30500.0
   taux:
     description: Taux
@@ -47,12 +46,4 @@ prestations_compensatoires:
       '2000-01-01':
         value: null
       '2001-01-01':
-        metadata:
-          reference: Loi 2000-596 du 30 juin 2000
-        value: 0.25
-      '2002-01-01':
-        value: 0.25
-      '2005-01-01':
-        metadata:
-          reference: Loi 2004-439 du 26 mai 2004 - art. 26
         value: 0.25

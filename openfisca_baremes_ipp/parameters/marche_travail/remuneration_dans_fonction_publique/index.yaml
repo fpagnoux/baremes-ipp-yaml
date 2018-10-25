@@ -1,3 +1,7 @@
 description: Rémunération dans la fonction publique
 metadata:
-  rank: 2
+  order:
+  - sft
+  - indicefp
+  - ib_im
+  - gipa

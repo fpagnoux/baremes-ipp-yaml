@@ -1,5 +1,9 @@
 aide_aux_repreneurs_entreprise_cf_10:
   description: Aide aux repreneurs d'entreprise (cf. 10)
+  metadata:
+    order:
+    - reduction
+    - surplus_si_invalide
   reduction:
     description: Réduction
     metadata:
@@ -37,6 +41,11 @@ assurances_vie:
         value: 150.0
       '2006-01-01':
         value: null
+  metadata:
+    order:
+    - taux
+    - plafond
+    - increment
   plafond:
     description: Plafond
     metadata:
@@ -120,8 +129,15 @@ date_entree_en_vigueur:
       '2017-01-01':
         value: 2016.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 depenses_formation_chefs_entreprises:
   description: Dépenses pour la formation des chefs d'entreprises
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -146,6 +162,10 @@ depenses_formation_chefs_entreprises:
         value: null
 depenses_restauration_monuments_historiques_cf_11:
   description: Dépenses de restauration des monuments historiques (cf. 11)
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -171,6 +191,9 @@ depenses_restauration_monuments_historiques_cf_11:
 description: Autres réductions d'impôts (1979 - 2016)
 frais_comptabilite_cf_3:
   description: Frais de comptabilité (cf. 3)
+  metadata:
+    order:
+    - montant
   montant:
     description: Montant
     metadata:
@@ -190,6 +213,10 @@ frais_comptabilite_cf_3:
         value: 915.0
 interets_emprunt_reprise_societe_cf_8:
   description: Intérêts d'emprunt pour reprise de société (cf. 8)
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -212,6 +239,10 @@ interets_emprunt_reprise_societe_cf_8:
         value: 0.25
 interets_paiements_differes_agriculteurs_cf_9:
   description: Intérêts paiements différés agriculteurs (cf. 9)
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -231,9 +262,27 @@ interets_paiements_differes_agriculteurs_cf_9:
       '2006-01-01':
         value: 0.5
 metadata:
-  rank: 13
+  order:
+  - date_entree_en_vigueur
+  - depenses_formation_chefs_entreprises
+  - assurances_vie
+  - frais_comptabilite_cf_3
+  - rente_survie_cf_4
+  - rachat_entreprise
+  - versement_fond_salarial
+  - prets_consommation_cf_7
+  - interets_emprunt_reprise_societe_cf_8
+  - interets_paiements_differes_agriculteurs_cf_9
+  - aide_aux_repreneurs_entreprise_cf_10
+  - depenses_restauration_monuments_historiques_cf_11
+  - restauration_patrimoine_bati_cf_12
+  - protection_patrimoine_naturel_cf_13
 prets_consommation_cf_7:
   description: Prêts à la consommation (cf. 7)
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -262,6 +311,10 @@ prets_consommation_cf_7:
         value: null
 protection_patrimoine_naturel_cf_13:
   description: Protection du patrimoine naturel (cf. 13)
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -286,6 +339,10 @@ protection_patrimoine_naturel_cf_13:
         value: 0.18
 rachat_entreprise:
   description: Rachat d'entreprise
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -331,6 +388,11 @@ rente_survie_cf_4:
         value: 230.0
       '2005-01-01':
         value: 300.0
+  metadata:
+    order:
+    - taux
+    - plafond
+    - increment
   plafond:
     description: Plafond
     metadata:
@@ -363,6 +425,11 @@ rente_survie_cf_4:
         value: 0.25
 restauration_patrimoine_bati_cf_12:
   description: Réstauration du patrimoine bâti (cf. 12)
+  metadata:
+    order:
+    - taux_1
+    - taux_2
+    - plafond
   plafond:
     description: Plafond
     metadata:
@@ -402,6 +469,10 @@ restauration_patrimoine_bati_cf_12:
         value: 0.3
 versement_fond_salarial:
   description: Versement fond salarial
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     metadata:

@@ -1,3 +1,5 @@
 description: Secteur privé
 metadata:
-  rank: 1
+  order:
+  - regime_general_cnav
+  - regimes_complementaires

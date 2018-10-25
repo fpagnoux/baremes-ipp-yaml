@@ -18,6 +18,9 @@ autres_revenus_non_salariaux:
       '1970-01-01':
         value: null
   description: Autres revenus non salariaux
+  metadata:
+    order:
+    - abattement
 bnc_autres_produits_charges_offices_bic_artisans_assimiles:
   abattement:
     description: abattement
@@ -31,6 +34,10 @@ bnc_autres_produits_charges_offices_bic_artisans_assimiles:
   description: 'BNC "autres produits des charges et offices"
 
     BIC "artisans et assimilés"'
+  metadata:
+    order:
+    - abattement
+    - seuil
   seuil:
     description: seuil
     values:
@@ -48,6 +55,9 @@ bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba:
     BIC autres que"artisans et assimilés"
 
     BA'
+  metadata:
+    order:
+    - seuil
   seuil:
     description: seuil
     values:
@@ -84,9 +94,21 @@ date_entree_en_vigueur:
       '1971-01-01':
         value: 1970.0
   description: Date d'entrée en vigueur
+  metadata:
+    order:
+    - annee_revenus
 description: Taxes proportionnelles et taxes complémentaires (1948-1969)
 metadata:
-  rank: 3
+  order:
+  - date_entree_en_vigueur
+  - taux
+  - taux_reduit
+  - abattement_general
+  - autres_revenus_non_salariaux
+  - bnc_autres_produits_charges_offices_bic_artisans_assimiles
+  - bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba
+  - reduction_impot_charge_famille
+  - plafond_maximum_reduction_par_pac
 plafond_maximum_reduction_par_pac:
   description: 'plafond:
 
@@ -102,6 +124,10 @@ plafond_maximum_reduction_par_pac:
         value: 5000.0
       '1960-01-01':
         value: null
+  metadata:
+    order:
+    - jusqu_2_pacs
+    - plus_3_pacs
   plus_3_pacs:
     description: Plus de 3 pacs
     metadata:
@@ -151,6 +177,12 @@ reduction_impot_charge_famille:
       '1960-01-01':
         value: null
   description: Réduction d'impôt pour charge de famille
+  metadata:
+    order:
+    - 1_pac
+    - 2_pac
+    - 3_pac
+    - 4_pac
 taux:
   description: Taux
   metadata:

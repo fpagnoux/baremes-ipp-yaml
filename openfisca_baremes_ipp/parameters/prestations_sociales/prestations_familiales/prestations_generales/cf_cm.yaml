@@ -2,175 +2,40 @@ age_maximal_enfants_pris_en_compte:
   description: Âge maximal des enfants pris en compte
   values:
     '1978-01-01':
-      metadata:
-        reference: 'Loi 77-765 du 12/07/1977
-
-          Décret 77-1265 du 16/11/1977
-
-          Décret 78-957 du 05/09/1978'
-      value: 3.0
-    '1983-01-01':
-      metadata:
-        reference: cf. "évolution de la législation familiale en métropole depuis
-          1945"
       value: 3.0
     '1986-07-01':
-      metadata:
-        reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-1 et R522-1
-          du CSS)
-
-          Décret 89-600 du 28/08/1989, art. 4 (modif art. D522-1)'
-      value: 17.0
-    '1987-01-01':
-      metadata:
-        reference: Loi 86-1307 du 29/12/1986, art. 10 et 14 (modif art. L522-1 du
-          CSS)
       value: 17.0
     '1997-01-01':
-      metadata:
-        reference: Ordonnance 96-51 du 24/01/1996, art. 4
       value: 18.0
     '2000-02-01':
-      metadata:
-        reference: Décret 2000-71 du 28/01/2000, art. 3 (modif art. R522-1 du CSS)
-      value: 21.0
-    '2003-12-19':
-      metadata:
-        reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif L522-1 du CSS)
-      value: 21.0
-    '2014-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
-      value: 21.0
-    '2015-04-01':
-      metadata:
-        reference: Décret 2015-314 du 19/03/2015, art. 1
-      value: 21.0
-    '2016-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-      value: 21.0
-    '2017-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
       value: 21.0
 age_minimal_enfants_pris_en_compte:
   description: Âge minimal des enfants pris en compte
   values:
     '1978-01-01':
-      metadata:
-        reference: 'Loi 77-765 du 12/07/1977
-
-          Décret 77-1265 du 16/11/1977
-
-          Décret 78-957 du 05/09/1978'
-      value: 0.0
-    '1983-01-01':
-      metadata:
-        reference: cf. "évolution de la législation familiale en métropole depuis
-          1945"
       value: 0.0
     '1986-07-01':
-      metadata:
-        reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-1 et R522-1
-          du CSS)
-
-          Décret 89-600 du 28/08/1989, art. 4 (modif art. D522-1)'
       value: 3.0
     '1987-01-01':
-      metadata:
-        reference: Loi 86-1307 du 29/12/1986, art. 10 et 14 (modif art. L522-1 du
-          CSS)
       value: null
     '1997-01-01':
-      metadata:
-        reference: Ordonnance 96-51 du 24/01/1996, art. 4
-      value: 3.0
-    '2000-02-01':
-      metadata:
-        reference: Décret 2000-71 du 28/01/2000, art. 3 (modif art. R522-1 du CSS)
-      value: 3.0
-    '2003-12-19':
-      metadata:
-        reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif L522-1 du CSS)
-      value: 3.0
-    '2014-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
-      value: 3.0
-    '2015-04-01':
-      metadata:
-        reference: Décret 2015-314 du 19/03/2015, art. 1
-      value: 3.0
-    '2016-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-      value: 3.0
-    '2017-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
       value: 3.0
 complement_familial_en_bmaf_en_bmaf:
   description: 'Complément familial (en % de la BMAF)
 
     (en % de la BMAF)'
+  metadata:
+    order:
+    - montant_base
+    - montant_majore
   montant_base:
     description: Montant de base
     metadata:
       unit: /1
     values:
       '1978-01-01':
-        metadata:
-          reference: 'Loi 77-765 du 12/07/1977
-
-            Décret 77-1265 du 16/11/1977
-
-            Décret 78-957 du 05/09/1978'
         value: 0.4475
       '1983-01-01':
-        metadata:
-          reference: cf. "évolution de la législation familiale en métropole depuis
-            1945"
-        value: 0.4165
-      '1986-07-01':
-        metadata:
-          reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-1 et R522-1
-            du CSS)
-
-            Décret 89-600 du 28/08/1989, art. 4 (modif art. D522-1)'
-        value: 0.4165
-      '1987-01-01':
-        metadata:
-          reference: Loi 86-1307 du 29/12/1986, art. 10 et 14 (modif art. L522-1 du
-            CSS)
-        value: 0.4165
-      '1997-01-01':
-        metadata:
-          reference: Ordonnance 96-51 du 24/01/1996, art. 4
-        value: 0.4165
-      '2000-02-01':
-        metadata:
-          reference: Décret 2000-71 du 28/01/2000, art. 3 (modif art. R522-1 du CSS)
-        value: 0.4165
-      '2003-12-19':
-        metadata:
-          reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif L522-1 du CSS)
-        value: 0.4165
-      '2014-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
-        value: 0.4165
-      '2015-04-01':
-        metadata:
-          reference: Décret 2015-314 du 19/03/2015, art. 1
-        value: 0.4165
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.4165
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.4165
   montant_majore:
     description: Montant majoré
@@ -178,114 +43,30 @@ complement_familial_en_bmaf_en_bmaf:
       unit: /1
     values:
       '1978-01-01':
-        metadata:
-          reference: 'Loi 77-765 du 12/07/1977
-
-            Décret 77-1265 du 16/11/1977
-
-            Décret 78-957 du 05/09/1978'
-        value: null
-      '1983-01-01':
-        metadata:
-          reference: cf. "évolution de la législation familiale en métropole depuis
-            1945"
-        value: null
-      '1986-07-01':
-        metadata:
-          reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-1 et R522-1
-            du CSS)
-
-            Décret 89-600 du 28/08/1989, art. 4 (modif art. D522-1)'
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 86-1307 du 29/12/1986, art. 10 et 14 (modif art. L522-1 du
-            CSS)
-        value: null
-      '1997-01-01':
-        metadata:
-          reference: Ordonnance 96-51 du 24/01/1996, art. 4
-        value: null
-      '2000-02-01':
-        metadata:
-          reference: Décret 2000-71 du 28/01/2000, art. 3 (modif art. R522-1 du CSS)
-        value: null
-      '2003-12-19':
-        metadata:
-          reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif L522-1 du CSS)
         value: null
       '2014-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
         value: 0.4582
       '2015-04-01':
-        metadata:
-          reference: Décret 2015-314 du 19/03/2015, art. 1
         value: 0.4999
       '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
         value: 0.5416
       '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.5833
 description: 'Complément familial (CF) : conditions générales et montants'
 metadata:
-  rank: 13
+  order:
+  - age_minimal_enfants_pris_en_compte
+  - age_maximal_enfants_pris_en_compte
+  - nombre_enfants_minimal
+  - complement_familial_en_bmaf_en_bmaf
 nombre_enfants_minimal:
   description: Nombre d'enfants minimal
   values:
     '1978-01-01':
-      metadata:
-        reference: 'Loi 77-765 du 12/07/1977
-
-          Décret 77-1265 du 16/11/1977
-
-          Décret 78-957 du 05/09/1978'
-      value: 1.0
-    '1983-01-01':
-      metadata:
-        reference: cf. "évolution de la législation familiale en métropole depuis
-          1945"
       value: 1.0
     '1986-07-01':
-      metadata:
-        reference: 'Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-1 et R522-1
-          du CSS)
-
-          Décret 89-600 du 28/08/1989, art. 4 (modif art. D522-1)'
       value: 3.0
     '1987-01-01':
-      metadata:
-        reference: Loi 86-1307 du 29/12/1986, art. 10 et 14 (modif art. L522-1 du
-          CSS)
       value: null
     '1997-01-01':
-      metadata:
-        reference: Ordonnance 96-51 du 24/01/1996, art. 4
-      value: 3.0
-    '2000-02-01':
-      metadata:
-        reference: Décret 2000-71 du 28/01/2000, art. 3 (modif art. R522-1 du CSS)
-      value: 3.0
-    '2003-12-19':
-      metadata:
-        reference: Loi 2003-1199 du 18/12/2003, art. 60 (modif L522-1 du CSS)
-      value: 3.0
-    '2014-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2014/84 du 20/03/2014
-      value: 3.0
-    '2015-04-01':
-      metadata:
-        reference: Décret 2015-314 du 19/03/2015, art. 1
-      value: 3.0
-    '2016-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-      value: 3.0
-    '2017-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
       value: 3.0

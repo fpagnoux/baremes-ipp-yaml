@@ -5,60 +5,14 @@
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
         value: null
       '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: 0.001
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: 0.001
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
         value: 0.001
       '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: 0.0015
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
         value: 0.0015
       '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: 0.002
-      '2004-01-01':
-        value: 0.002
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: 0.002
-      '2008-05-01':
         value: 0.002
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: null
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: null
   contrats_periodes_professionnalisation_dif:
     description: Contrats et périodes de professionnalisation et DIF
@@ -66,60 +20,10 @@
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
         value: null
       '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: 0.005
-      '2008-05-01':
         value: 0.005
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: null
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: null
   cotisation_formation_alternee:
     description: Cotisation formation alternée
@@ -127,62 +31,19 @@
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
         value: null
       '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: 0.003
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: 0.003
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: 0.003
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
         value: 0.003
       '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: 0.004
-      '2004-01-01':
-        value: 0.004
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
         value: 0.004
       '2008-05-01':
         value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: null
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
-        value: null
   description: 10 salariés ou plus
+  metadata:
+    order:
+    - cotisation_formation_alternee
+    - contrats_periodes_professionnalisation_dif
+    - conges_formation
 decomposition_taux_employeur_50_300_salaries:
   compte_personnel_formation:
     description: Compte personnel de formation
@@ -190,60 +51,8 @@ decomposition_taux_employeur_50_300_salaries:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: null
-      '2008-05-01':
         value: null
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: 0.002
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.002
   conge_individuel_formation:
     description: Congé individuel de formation
@@ -251,122 +60,25 @@ decomposition_taux_employeur_50_300_salaries:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: null
-      '2008-05-01':
         value: null
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: 0.002
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.002
   description: 'Décomposition du taux employeur  : de 50 à 300 salariés'
+  metadata:
+    order:
+    - securisation_parcours_professionnels
+    - conge_individuel_formation
+    - professionnalisation
+    - plan_formation
+    - compte_personnel_formation
   plan_formation:
     description: Plan de formation
     metadata:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: null
-      '2008-05-01':
         value: null
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: 0.001
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.001
   professionnalisation:
     description: Professionnalisation
@@ -374,60 +86,8 @@ decomposition_taux_employeur_50_300_salaries:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: null
-      '2008-05-01':
         value: null
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: 0.003
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.003
   securisation_parcours_professionnels:
     description: Sécurisation des parcours professionnels
@@ -435,60 +95,8 @@ decomposition_taux_employeur_50_300_salaries:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: null
-      '2008-05-01':
         value: null
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: 0.002
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.002
 description: Participation des employeurs à la formation professionnelle continue
   (PEFPC)
@@ -499,60 +107,24 @@ employeur_tout_salaire:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
         value: 0.008
       '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: 0.01
-      '1976-01-01':
         value: 0.01
       '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: 0.011
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
         value: 0.011
       '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: 0.012
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: 0.012
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
         value: 0.012
       '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
         value: 0.014
       '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
         value: 0.015
       '2004-01-01':
         value: 0.016
       '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: 0.0105
-      '2008-05-01':
         value: 0.0105
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
         value: 0.01
       '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: null
   11_salaries_plus:
     description: 11 salariés et plus
@@ -560,60 +132,8 @@ employeur_tout_salaire:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: null
-      '2008-05-01':
-        value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
         value: null
       '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.01
   20_salaries_plus:
     description: 20 salariés et plus
@@ -621,122 +141,45 @@ employeur_tout_salaire:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
         value: 0.008
       '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: 0.01
-      '1976-01-01':
         value: 0.01
       '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: 0.011
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
         value: 0.011
       '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: 0.012
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: 0.012
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
         value: 0.012
       '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
         value: 0.014
       '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
         value: 0.015
       '2004-01-01':
         value: 0.016
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: 0.016
-      '2008-05-01':
-        value: 0.016
       '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
         value: 0.01
       '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: null
   description: Employeur (tout salaire)
+  metadata:
+    order:
+    - moins_10_salaries
+    - moins_11_salaries
+    - 10_19_salaries
+    - 20_salaries_plus
+    - 11_salaries_plus
   moins_10_salaries:
     description: Moins de 10 salariés
     metadata:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
         value: null
       '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: 0.0015
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
         value: 0.0015
       '2004-01-01':
         value: 0.004
       '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: 0.0055
-      '2008-05-01':
-        value: 0.0055
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
         value: 0.0055
       '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: null
   moins_11_salaries:
     description: Moins de 11 salariés
@@ -744,63 +187,16 @@ employeur_tout_salaire:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: null
-      '2004-01-01':
-        value: null
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: null
-      '2008-05-01':
-        value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
         value: null
       '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.0055
 metadata:
-  rank: 4
+  order:
+  - employeur_tout_salaire
+  - moins_10_salaries
+  - 10_salaries_plus
+  - decomposition_taux_employeur_50_300_salaries
+  - toute_entreprise
 moins_10_salaries:
   contribution_contrats_insertion_en_alternance:
     description: Contribution sur contrats d'insertion en alternance
@@ -808,122 +204,28 @@ moins_10_salaries:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
-        value: null
-      '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: null
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
         value: null
       '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
         value: 0.001
       '2004-01-01':
         value: 0.0
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: 0.0
       '2008-05-01':
         value: null
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: null
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
-        value: null
   description: Moins de 10 salariés
+  metadata:
+    order:
+    - contribution_contrats_insertion_en_alternance
 toute_entreprise:
   description: Toute entreprise
+  metadata:
+    order:
+    - salaires_cdd
   salaires_cdd:
     description: Salaires CDD
     metadata:
       unit: /1
     values:
       '1972-01-01':
-        metadata:
-          reference: Loi 71-575 du 16/07/1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-        value: null
-      '1976-01-01':
-        value: null
-      '1978-01-01':
-        metadata:
-          reference: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-        value: null
-      '1984-01-01':
-        metadata:
-          reference: Loi 84-130 du 24/02/1984, art. 29
-        value: null
-      '1987-01-01':
-        metadata:
-          reference: Loi 87-588 du 30/07/1987
         value: null
       '1990-07-14':
-        metadata:
-          reference: Loi 90-613 du 12/07/1990, art. 25
-        value: 0.01
-      '1991-01-01':
-        metadata:
-          reference: Loi 90-579 du 04/07/1990, art. 14
-        value: 0.01
-      '1992-01-01':
-        metadata:
-          reference: Loi 91-1405 du 31/12/1991
-        value: 0.01
-      '1993-01-01':
-        metadata:
-          reference: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992,
-            art. 2
-        value: 0.01
-      '2004-01-01':
-        value: 0.01
-      '2005-01-01':
-        metadata:
-          reference: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391
-            du 04/05/2004, art. 18
-        value: 0.01
-      '2008-05-01':
-        value: 0.01
-      '2015-01-01':
-        metadata:
-          reference: Décret 2014-1240 du 24/10/2014, art. 9
-        value: 0.01
-      '2016-01-01':
-        metadata:
-          reference: Loi 2015-1785 du 29/12/2015, art. 15
         value: 0.01

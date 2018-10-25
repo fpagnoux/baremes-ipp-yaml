@@ -1,3 +1,10 @@
 description: Réductions de cotisations sociales
 metadata:
-  rank: 10
+  order:
+  - alleg_gen
+  - robien
+  - aubryi
+  - aubryii
+  - fillon
+  - cice
+  - reduc_famille

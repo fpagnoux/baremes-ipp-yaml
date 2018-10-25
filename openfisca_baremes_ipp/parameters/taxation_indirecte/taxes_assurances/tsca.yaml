@@ -9,33 +9,6 @@ assurance_bateaux_sport_plaisance:
       value: 0.12
     '1984-01-01':
       value: 0.19
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.19
-    '2002-01-01':
-      value: 0.19
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.19
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.19
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.19
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.19
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-      value: 0.19
 assurance_pertes_exploitations_dues_incendie_industrie_etc:
   description: Assurance pertes d'exploitations dues à incendie industrie etc.
   metadata:
@@ -44,33 +17,6 @@ assurance_pertes_exploitations_dues_incendie_industrie_etc:
     '1979-07-01':
       value: 0.0875
     '1989-01-01':
-      value: 0.07
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.07
-    '2002-01-01':
-      value: 0.07
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.07
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.07
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.07
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.07
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.07
 assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_navigation_aerienne:
   description: Assurance risques non exonérés navigation fluviale ou maritimes, tous
@@ -84,33 +30,6 @@ assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_n
       value: 0.046
     '1989-01-01':
       value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
-    '2002-01-01':
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: null
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-      value: null
 assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances:
   description: Assurance véhicules terrestres à moteur lourds, du L211-1 code des
     assurances
@@ -119,32 +38,7 @@ assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances:
   values:
     '1979-07-01':
       value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
-    '2002-01-01':
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: null
     '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.15
 assurance_vehicules_terrestres_moteurs_particuliers:
   description: Assurance pour les véhicules terrestres à moteurs (pour les particuliers)
@@ -159,33 +53,6 @@ assurance_vehicules_terrestres_moteurs_particuliers:
       value: 0.07
     '1991-01-01':
       value: 0.18
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.18
-    '2002-01-01':
-      value: 0.18
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.18
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.18
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.18
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.18
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-      value: 0.18
 assurances_credit_exportation:
   description: Assurances de crédit à l'exportation
   metadata:
@@ -195,66 +62,12 @@ assurances_credit_exportation:
       value: 0.0025
     '1989-01-01':
       value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
-    '2002-01-01':
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: null
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-      value: null
 assurances_incendie_particuliers:
   description: Assurances incendie pour les particuliers
   metadata:
     unit: /1
   values:
     '1979-07-01':
-      value: 0.3
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.3
-    '2002-01-01':
-      value: 0.3
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.3
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.3
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.3
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.3
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.3
 assurances_incendie_risques_agricoles_non_exoneres:
   description: Assurances incendie risques agricoles non exonérés
@@ -265,66 +78,12 @@ assurances_incendie_risques_agricoles_non_exoneres:
       value: 0.18
     '1989-01-01':
       value: 0.07
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.07
-    '2002-01-01':
-      value: 0.07
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.07
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.07
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.07
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.07
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-      value: 0.07
 assurances_incendie_souscrites_aupres_caisses_departementales:
   description: Assurances incendie souscrites auprès des caisses départementales
   metadata:
     unit: /1
   values:
     '1979-07-01':
-      value: 0.24
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.24
-    '2002-01-01':
-      value: 0.24
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.24
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.24
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.24
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.24
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.24
 assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite:
   description: Assurances de protection juridique art L127-1 code des assurances et
@@ -334,32 +93,9 @@ assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite
   values:
     '1979-07-01':
       value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
-    '2002-01-01':
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: null
     '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
       value: 0.116
     '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.134
 assurances_vehicules_terrestres_moteur_l211_1_autres:
   description: Assurances véhicules terrestres à moteur L211-1 autres
@@ -368,32 +104,7 @@ assurances_vehicules_terrestres_moteur_l211_1_autres:
   values:
     '1979-07-01':
       value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
-    '2002-01-01':
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: null
     '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.33
 assurances_vie_assimilees:
   description: Assurances vie et assimilées
@@ -406,66 +117,12 @@ assurances_vie_assimilees:
       value: 0.0515
     '1990-01-01':
       value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
-    '2002-01-01':
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: null
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-      value: null
 autres_assurances:
   description: Autres assurances
   metadata:
     unit: /1
   values:
     '1979-07-01':
-      value: 0.09
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.09
-    '2002-01-01':
-      value: 0.09
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.09
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.09
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.09
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.09
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.09
 contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter:
   description: Contrats d'assurance maladie individuelles et collectives, cas général
@@ -476,31 +133,12 @@ contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter:
     '1979-07-01':
       value: null
     '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.07
-    '2002-01-01':
-      value: 0.07
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
       value: 0.07
     '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
       value: 0.09
     '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.14
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
       value: 0.14
     '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: null
 contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_bis:
   description: Contrats d'assurance maladie individuelles et collectives, "solidaires
@@ -511,31 +149,12 @@ contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_b
     '1979-07-01':
       value: null
     '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: 0.0
-    '2002-01-01':
       value: 0.0
     '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
       value: 0.035
     '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.07
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.07
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
       value: 0.07
     '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: null
 contribution_secu_assurances_automobiles:
   description: Contribution sécu assurances automobiles
@@ -544,36 +163,28 @@ contribution_secu_assurances_automobiles:
   values:
     '1979-07-01':
       value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
     '2002-01-01':
-      value: 0.15
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: 0.15
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: 0.15
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: 0.15
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: 0.15
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: 0.15
 description: Taxe spéciale sur les conventions d'assurance (TSCA)
 metadata:
-  rank: 0
+  order:
+  - assurances_incendie_particuliers
+  - assurances_incendie_risques_agricoles_non_exoneres
+  - assurances_incendie_souscrites_aupres_caisses_departementales
+  - assurance_pertes_exploitations_dues_incendie_industrie_etc
+  - contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_bis
+  - contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter
+  - assurance_bateaux_sport_plaisance
+  - assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_navigation_aerienne
+  - assurances_vie_assimilees
+  - rente_viagere_sous_conditions
+  - assurances_credit_exportation
+  - contribution_secu_assurances_automobiles
+  - assurance_vehicules_terrestres_moteurs_particuliers
+  - assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite
+  - assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances
+  - assurances_vehicules_terrestres_moteur_l211_1_autres
+  - autres_assurances
 rente_viagere_sous_conditions:
   description: Rente viagère sous conditions
   metadata:
@@ -582,31 +193,4 @@ rente_viagere_sous_conditions:
     '1979-07-01':
       value: 0.024
     '1990-01-01':
-      value: null
-    '1994-09-02':
-      metadata:
-        reference: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-      value: null
-    '2002-01-01':
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-      value: null
-    '2011-10-01':
-      metadata:
-        reference: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-          9
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-      value: null
-    '2016-01-01':
-      metadata:
-        reference: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
       value: null

@@ -1,24 +1,21 @@
 description: Cotisations SS assurance veuvage (1981-2004)
 metadata:
-  rank: 5
+  order:
+  - salaries
 salaries:
   description: Salariés
+  metadata:
+    order:
+    - sous_plafond
+    - tout_salaire
   sous_plafond:
     description: Sous plafond
     metadata:
       unit: /1
     values:
       '1981-01-01':
-        metadata:
-          reference: Décret 80-1098 du 30/12/1980
         value: 0.001
       '1982-01-01':
-        metadata:
-          reference: Loi 82-1 du 04/01/1982
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Décret 2004-858 du 24/08/2004
         value: null
   tout_salaire:
     description: Sur tout salaire
@@ -26,14 +23,8 @@ salaries:
       unit: /1
     values:
       '1981-01-01':
-        metadata:
-          reference: Décret 80-1098 du 30/12/1980
         value: null
       '1982-01-01':
-        metadata:
-          reference: Loi 82-1 du 04/01/1982
         value: 0.001
       '2004-07-01':
-        metadata:
-          reference: Décret 2004-858 du 24/08/2004
         value: null

@@ -1,28 +1,21 @@
 description: 'Allocations postnatales (APN) : taux et versement'
 majoration_naissance_adoption:
   description: Majoration naissance ou adoption
+  metadata:
+    order:
+    - partir_2e_enfant
+    - partir_3e_enfant
+    - naissances_multiples
   naissances_multiples:
     description: Naissances multiples
     metadata:
       unit: /1
     values:
       '1975-04-25':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
         value: null
       '1979-09-01':
-        metadata:
-          reference: Décret 79-724 du 27/08/1979
-        value: 1.98
-      '1980-07-01':
-        metadata:
-          reference: Loi 80-545 du 17 juillet 1980
         value: 1.98
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
-        value: null
-      '1985-01-01':
         value: null
   partir_2e_enfant:
     description: A partir du 2e enfant
@@ -30,20 +23,10 @@ majoration_naissance_adoption:
       unit: /1
     values:
       '1975-04-25':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
-        value: null
-      '1979-09-01':
-        metadata:
-          reference: Décret 79-724 du 27/08/1979
         value: null
       '1980-07-01':
-        metadata:
-          reference: Loi 80-545 du 17 juillet 1980
         value: 0.0
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
         value: 1.845
       '1985-01-01':
         value: null
@@ -53,43 +36,23 @@ majoration_naissance_adoption:
       unit: /1
     values:
       '1975-04-25':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
-        value: null
-      '1979-09-01':
-        metadata:
-          reference: Décret 79-724 du 27/08/1979
         value: null
       '1980-07-01':
-        metadata:
-          reference: Loi 80-545 du 17 juillet 1980
         value: 4.57
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
         value: 2.13
       '1985-01-01':
         value: null
 metadata:
-  rank: 0
+  order:
+  - taux_base_calcul_verse
+  - nombre_fractions_versement
+  - taux
+  - majoration_naissance_adoption
 nombre_fractions_versement:
   description: Nombre de fractions de versement
   values:
     '1975-04-25':
-      metadata:
-        reference: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
-      value: 3.0
-    '1979-09-01':
-      metadata:
-        reference: Décret 79-724 du 27/08/1979
-      value: 3.0
-    '1980-07-01':
-      metadata:
-        reference: Loi 80-545 du 17 juillet 1980
-      value: 3.0
-    '1983-01-01':
-      metadata:
-        reference: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
       value: 3.0
     '1985-01-01':
       value: null
@@ -100,20 +63,10 @@ taux:
       unit: /1
     values:
       '1975-04-25':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
-        value: 1.3
-      '1979-09-01':
-        metadata:
-          reference: Décret 79-724 du 27/08/1979
         value: 1.3
       '1980-07-01':
-        metadata:
-          reference: Loi 80-545 du 17 juillet 1980
         value: 1.84
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
         value: 1.71
       '1985-01-01':
         value: null
@@ -123,44 +76,26 @@ taux:
       unit: /1
     values:
       '1975-04-25':
-        metadata:
-          reference: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
-        value: 0.65
-      '1979-09-01':
-        metadata:
-          reference: Décret 79-724 du 27/08/1979
         value: 0.65
       '1980-07-01':
-        metadata:
-          reference: Loi 80-545 du 17 juillet 1980
         value: 0.38
       '1983-01-01':
-        metadata:
-          reference: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
         value: 0.355
       '1985-01-01':
         value: null
   description: Taux
+  metadata:
+    order:
+    - 1er_versement
+    - dernier_versement
 taux_base_calcul_verse:
   description: Taux de la base de calcul versé
   metadata:
     unit: /1
   values:
     '1975-04-25':
-      metadata:
-        reference: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
-      value: 2.6
-    '1979-09-01':
-      metadata:
-        reference: Décret 79-724 du 27/08/1979
-      value: 2.6
-    '1980-07-01':
-      metadata:
-        reference: Loi 80-545 du 17 juillet 1980
       value: 2.6
     '1983-01-01':
-      metadata:
-        reference: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
       value: 2.42
     '1985-01-01':
       value: null

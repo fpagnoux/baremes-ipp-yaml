@@ -1,6 +1,8 @@
 description: Salaire de référence AGIRC
 metadata:
-  rank: 17
+  order:
+  - salaire_reference_agirc_prix_achat_valeur_nominale
+  - salaire_reference_agirc_prix_achat_en_euros
 salaire_reference_agirc_prix_achat_en_euros:
   description: Salaire de référence AGIRC (prix d'achat) en euros
   metadata:
@@ -123,56 +125,30 @@ salaire_reference_agirc_prix_achat_en_euros:
     '2004-04-01':
       value: 4.3128
     '2005-04-01':
-      metadata:
-        reference: Circ. Agirc 2005-02-DT du 21/03/2005
       value: 4.4163
     '2006-04-01':
-      metadata:
-        reference: Circ. Agirc 2006-02-DRE du 19/05/2006
       value: 4.5444
     '2007-04-01':
-      metadata:
-        reference: Circ. Agirc 2007-01-DT du 14/03/2007
       value: 4.7125
     '2008-04-01':
-      metadata:
-        reference: Circ. Agirc 2008-04-DT du 15/02/2008
       value: 4.8727
     '2009-04-01':
-      metadata:
-        reference: Circ. Agirc 2009-01-DT du 18/03/2009
       value: 4.9604
     '2010-04-01':
-      metadata:
-        reference: Circ. Agirc 2010-02-DT du 18/03/2010
       value: 5.0249
     '2011-04-01':
-      metadata:
-        reference: Circ. Agirc 2011-02-DT du 14/04/2011
       value: 5.1354
     '2012-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
       value: 5.2509
     '2013-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2013-6-DT du 02/04/2014
       value: 5.3006
     '2014-04-01':
-      metadata:
-        reference: Circ. Agirc 2014-2-DT. Décision CA Agirc du 13/03/2014.
       value: 5.3075
     '2016-01-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2015-10-DC
       value: 5.4455
     '2017-01-01':
-      metadata:
-        reference: Circ. Arrco 2016-02-DT du 10/10/2016
       value: 5.6306
     '2018-01-01':
-      metadata:
-        reference: Circ. Arrco 2017-07-DT du 16/10/2017
       value: 5.8166
 salaire_reference_agirc_prix_achat_valeur_nominale:
   description: Salaire de référence AGIRC (prix d'achat) valeur nominale
@@ -299,54 +275,28 @@ salaire_reference_agirc_prix_achat_valeur_nominale:
     '2004-04-01':
       value: 4.3128
     '2005-04-01':
-      metadata:
-        reference: Circ. Agirc 2005-02-DT du 21/03/2005
       value: 4.4163
     '2006-04-01':
-      metadata:
-        reference: Circ. Agirc 2006-02-DRE du 19/05/2006
       value: 4.5444
     '2007-04-01':
-      metadata:
-        reference: Circ. Agirc 2007-01-DT du 14/03/2007
       value: 47125.0
     '2008-04-01':
-      metadata:
-        reference: Circ. Agirc 2008-04-DT du 15/02/2008
       value: 4.8727
     '2009-04-01':
-      metadata:
-        reference: Circ. Agirc 2009-01-DT du 18/03/2009
       value: 4.9604
     '2010-04-01':
-      metadata:
-        reference: Circ. Agirc 2010-02-DT du 18/03/2010
       value: 5.0249
     '2011-04-01':
-      metadata:
-        reference: Circ. Agirc 2011-02-DT du 14/04/2011
       value: 5.1354
     '2012-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
       value: 5.2509
     '2013-04-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2013-6-DT du 02/04/2014
       value: 5.3006
     '2014-04-01':
-      metadata:
-        reference: Circ. Agirc 2014-2-DT. Décision CA Agirc du 13/03/2014.
       value: 5.3075
     '2016-01-01':
-      metadata:
-        reference: Circ. Agirc-Arrco 2015-10-DC
       value: 5.4455
     '2017-01-01':
-      metadata:
-        reference: Circ. Arrco 2016-02-DT du 10/10/2016
       value: 5.6306
     '2018-01-01':
-      metadata:
-        reference: Circ. Arrco 2017-07-DT du 16/10/2017
       value: 5.8166

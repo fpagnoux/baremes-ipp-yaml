@@ -1,6 +1,7 @@
 description: Salaire validant un trimestre d'assurance
 metadata:
-  rank: 3
+  order:
+  - salaire_validant_trimestre
 salaire_validant_trimestre:
   description: Salaire validant un trimestre
   guadeloupe_guyane_martinique:
@@ -11,20 +12,10 @@ salaire_validant_trimestre:
         '2002-01-01': currency-EUR
     values:
       '1930-01-01':
-        metadata:
-          reference: Décret 45-0179 du 29/12/1945, art. 71, §2
-        value: null
-      '1936-01-01':
-        value: null
-      '1946-01-01':
-        metadata:
-          reference: Décret 45-0179 du 29/12/1945, art. 71, §2
         value: null
       '1948-01-01':
         value: 1800.0
       '1949-01-01':
-        metadata:
-          reference: Décret 49-328 du 07/03/1949
         value: 3750.0
       '1950-01-01':
         value: 5625.0
@@ -57,8 +48,6 @@ salaire_validant_trimestre:
       '1971-01-01':
         value: 437.5
       '1972-01-01':
-        metadata:
-          reference: Décret 72-78 du 28/01/1972, art. 2
         value: 661.65
       '1973-01-01':
         value: 743.15
@@ -87,8 +76,6 @@ salaire_validant_trimestre:
       '1985-01-01':
         value: 4062.51
       '1986-01-01':
-        metadata:
-          reference: Décret 85-1353 du 17/12/1985, art. 1
         value: 4341.64
       '1987-01-01':
         value: 4448.82
@@ -145,25 +132,20 @@ salaire_validant_trimestre:
       '2013-01-01':
         value: 1886.0
       '2014-01-01':
-        metadata:
-          reference: Décret 2014-349 du 19/03/2014
         value: 1429.5
       '2015-01-01':
-        metadata:
-          reference: Circulaire Cnav 2015/4 du 26/01/2015
         value: 1441.5
       '2016-01-01':
-        metadata:
-          reference: Circulaire Cnav 201/64 du 18/12/2015
         value: 1450.5
       '2017-01-01':
-        metadata:
-          reference: ​​Circulaire Cnav 2016/55 du 30/12/2016
         value: 1464.0
       '2018-01-01':
-        metadata:
-          reference: ​Circulaire Cnav 2017/44 du 27/12/2017
         value: 1482.0
+  metadata:
+    order:
+    - metropole
+    - guadeloupe_guyane_martinique
+    - reunion
   metropole:
     description: Métropole
     metadata:
@@ -173,22 +155,14 @@ salaire_validant_trimestre:
         '2002-01-01': currency-EUR
     values:
       '1930-01-01':
-        metadata:
-          reference: Décret 45-0179 du 29/12/1945, art. 71, §2
         value: 60.0
       '1936-01-01':
         value: 15.0
       '1942-01-01':
         value: 60.0
       '1946-01-01':
-        metadata:
-          reference: Décret 45-0179 du 29/12/1945, art. 71, §2
-        value: 1800.0
-      '1948-01-01':
         value: 1800.0
       '1949-01-01':
-        metadata:
-          reference: Décret 49-328 du 07/03/1949
         value: 8500.0
       '1950-01-01':
         value: 11250.0
@@ -221,8 +195,6 @@ salaire_validant_trimestre:
       '1971-01-01':
         value: 437.5
       '1972-01-01':
-        metadata:
-          reference: Décret 72-78 du 28/01/1972, art. 2
         value: 788.0
       '1973-01-01':
         value: 910.0
@@ -251,8 +223,6 @@ salaire_validant_trimestre:
       '1985-01-01':
         value: 4872.0
       '1986-01-01':
-        metadata:
-          reference: Décret 85-1353 du 17/12/1985, art. 1
         value: 5208.0
       '1987-01-01':
         value: 5384.0
@@ -309,24 +279,14 @@ salaire_validant_trimestre:
       '2013-01-01':
         value: 1886.0
       '2014-01-01':
-        metadata:
-          reference: Décret 2014-349 du 19/03/2014
         value: 1429.5
       '2015-01-01':
-        metadata:
-          reference: Circulaire Cnav 2015/4 du 26/01/2015
         value: 1441.5
       '2016-01-01':
-        metadata:
-          reference: Circulaire Cnav 201/64 du 18/12/2015
         value: 1450.5
       '2017-01-01':
-        metadata:
-          reference: ​​Circulaire Cnav 2016/55 du 30/12/2016
         value: 1464.0
       '2018-01-01':
-        metadata:
-          reference: ​Circulaire Cnav 2017/44 du 27/12/2017
         value: 1482.0
   reunion:
     description: Réunion
@@ -337,20 +297,10 @@ salaire_validant_trimestre:
         '2002-01-01': currency-EUR
     values:
       '1930-01-01':
-        metadata:
-          reference: Décret 45-0179 du 29/12/1945, art. 71, §2
-        value: null
-      '1936-01-01':
-        value: null
-      '1946-01-01':
-        metadata:
-          reference: Décret 45-0179 du 29/12/1945, art. 71, §2
         value: null
       '1948-01-01':
         value: 900.0
       '1949-01-01':
-        metadata:
-          reference: Décret 49-328 du 07/03/1949
         value: 3750.0
       '1950-01-01':
         value: 5625.0
@@ -383,8 +333,6 @@ salaire_validant_trimestre:
       '1971-01-01':
         value: 437.5
       '1972-01-01':
-        metadata:
-          reference: Décret 72-78 du 28/01/1972, art. 2
         value: 540.77
       '1973-01-01':
         value: 606.29
@@ -413,8 +361,6 @@ salaire_validant_trimestre:
       '1985-01-01':
         value: 3790.61
       '1986-01-01':
-        metadata:
-          reference: Décret 85-1353 du 17/12/1985, art. 1
         value: 4051.07
       '1987-01-01':
         value: 4188.41
@@ -471,22 +417,12 @@ salaire_validant_trimestre:
       '2013-01-01':
         value: 1886.0
       '2014-01-01':
-        metadata:
-          reference: Décret 2014-349 du 19/03/2014
         value: 1429.5
       '2015-01-01':
-        metadata:
-          reference: Circulaire Cnav 2015/4 du 26/01/2015
         value: 1441.5
       '2016-01-01':
-        metadata:
-          reference: Circulaire Cnav 201/64 du 18/12/2015
         value: 1450.5
       '2017-01-01':
-        metadata:
-          reference: ​​Circulaire Cnav 2016/55 du 30/12/2016
         value: 1464.0
       '2018-01-01':
-        metadata:
-          reference: ​Circulaire Cnav 2017/44 du 27/12/2017
         value: 1482.0

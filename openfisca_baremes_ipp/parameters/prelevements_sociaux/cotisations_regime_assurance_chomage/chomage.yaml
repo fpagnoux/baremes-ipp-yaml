@@ -1,152 +1,76 @@
 description: Cotisations assurance chômage
 employeurs:
   description: Employeurs
+  metadata:
+    order:
+    - tranche
+    - tranche_b
   tranche:
     description: Tranche A
     metadata:
       unit: /1
     values:
       '1959-01-01':
-        metadata:
-          reference: Convention du 31/12/1958
         value: 0.008
       '1962-01-01':
-        metadata:
-          reference: Décision conseil adm. 27 nov. 1961
         value: 0.002
       '1968-01-01':
         value: 0.0028
       '1969-01-01':
         value: 0.0032
       '1973-01-01':
-        metadata:
-          reference: Bureau Unedic du 22 nov. 1971
         value: 0.0056
       '1974-01-01':
-        metadata:
-          reference: Décision du conseil administration du 04/12/1973.
         value: 0.0064
       '1975-01-01':
-        metadata:
-          reference: Décision du conseil administration du 27/11/1974.
         value: 0.0144
       '1975-07-01':
-        metadata:
-          reference: Circulaire Unedic 75-22 du 21/05/1975
         value: 0.0192
       '1977-01-01':
-        metadata:
-          reference: Circulaire Unedic 76-22 du 03/12/1976
         value: 0.0176
       '1978-01-01':
-        metadata:
-          reference: Circulaire Unedic 77-29 du 05/12/1977
         value: 0.0192
       '1978-05-01':
-        metadata:
-          reference: Circulaire Unedic 78-19 du 27/04/1978
         value: 0.024
       '1979-04-01':
-        metadata:
-          reference: Circulaire Unedic 79-14 du 02/04/1979
         value: 0.0276
       '1982-11-06':
-        metadata:
-          reference: Décret 82-940 du 04/11/1982
         value: 0.0348
       '1983-07-01':
-        metadata:
-          reference: Décret 83-553 du 30/06/1983. Accord du 04/02/1983 (ASF) et conseil
-            adm. Unedic (Drouin et Greffe)
         value: 0.0408
       '1984-04-01':
-        metadata:
-          reference: Ordonnance 84-198 du 21/03/1984. Convention et Règlement Unedic
-            du 24/02/1984 agréés par arrêté du 28/03/1984
         value: 0.0288
       '1985-07-01':
-        metadata:
-          reference: Arrêté du 12/08/1985 ; Protocole d'accord du 18/07/1985 (agréé)
         value: 0.0408
       '1985-11-01':
-        metadata:
-          reference: Protocole du 18/07/1985 (agréé) ; avenant du 29/10/1985
         value: 0.0307
       '1988-01-01':
-        metadata:
-          reference: Convention et Règlement UNEDIC du 19/11/1985. Accord et Convention
-            UNEDIC du 30/12/1987
         value: 0.0323
       '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p791)
         value: 0.0311
       '1991-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1990 agréés par arrêté
-            du 14/05/1990 . Protocole d'accord du 22/12/1989 - Circ. 90-08 du 06/06/1990
         value: 0.0305
       '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 05/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.0323
       '1992-08-01':
-        metadata:
-          reference: Protocole d'accord du 18/07/1992 (avenants du 24/07/92, agréés);
-            accord du 30/12/1992
         value: 0.0363
       '1993-08-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/93 agréés par l'arrêté
-            du 04/01/93. Avenant n°1 du 30/12/92
         value: 0.0418
       '1997-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1997 agréés par l'arrêté
-            du 18/02/1997
         value: 0.0397
       '2001-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.037
       '2002-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.036
       '2002-07-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 19/06/2002
         value: 0.037
       '2003-01-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 27/12/2002
-        value: 0.04
-      '2004-01-01':
-        metadata:
-          reference: Convention du 01/01/2005
-        value: 0.04
-      '2005-01-01':
-        metadata:
-          reference: Convention du 01/01/2004
         value: 0.04
       '2006-01-01':
-        metadata:
-          reference: Circulaire Unedic 2006-08 du 27/03/2006. Convention du 18/01/2006,
-            agréé par l'arrêté du 23/02/2006
         value: 0.0404
       '2007-01-01':
-        metadata:
-          reference: Circulaire Unedic 2007-02 du 18/01/2007. Convention du 18/01/2006
         value: 0.04
       '2017-10-01':
-        metadata:
-          reference: Circulaire Unedic 2017-21 du 24/07/2017. Convention relative
-            à l'assurance chômage du 14/04/2017 (arrêté ministériel du 04/05/2017)
-        value: 0.0405
-      '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018)
         value: 0.0405
   tranche_b:
     description: Tranche B
@@ -154,299 +78,131 @@ employeurs:
       unit: /1
     values:
       '1959-01-01':
-        metadata:
-          reference: Convention du 31/12/1958
-        value: null
-      '1962-01-01':
-        metadata:
-          reference: Décision conseil adm. 27 nov. 1961
-        value: null
-      '1968-01-01':
-        value: null
-      '1973-01-01':
-        metadata:
-          reference: Bureau Unedic du 22 nov. 1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Décision du conseil administration du 04/12/1973.
-        value: null
-      '1975-01-01':
-        metadata:
-          reference: Décision du conseil administration du 27/11/1974.
         value: null
       '1975-07-01':
-        metadata:
-          reference: Circulaire Unedic 75-22 du 21/05/1975
         value: 0.0192
       '1977-01-01':
-        metadata:
-          reference: Circulaire Unedic 76-22 du 03/12/1976
         value: 0.0176
       '1978-01-01':
-        metadata:
-          reference: Circulaire Unedic 77-29 du 05/12/1977
         value: 0.0192
       '1978-05-01':
-        metadata:
-          reference: Circulaire Unedic 78-19 du 27/04/1978
         value: 0.024
       '1979-04-01':
-        metadata:
-          reference: Circulaire Unedic 79-14 du 02/04/1979
         value: 0.0276
       '1982-11-06':
-        metadata:
-          reference: Décret 82-940 du 04/11/1982
         value: 0.0348
       '1983-07-01':
-        metadata:
-          reference: Décret 83-553 du 30/06/1983. Accord du 04/02/1983 (ASF) et conseil
-            adm. Unedic (Drouin et Greffe)
         value: 0.0408
       '1984-04-01':
-        metadata:
-          reference: Ordonnance 84-198 du 21/03/1984. Convention et Règlement Unedic
-            du 24/02/1984 agréés par arrêté du 28/03/1984
         value: 0.0288
       '1985-07-01':
-        metadata:
-          reference: Arrêté du 12/08/1985 ; Protocole d'accord du 18/07/1985 (agréé)
         value: 0.0408
       '1985-11-01':
-        metadata:
-          reference: Protocole du 18/07/1985 (agréé) ; avenant du 29/10/1985
         value: 0.0307
       '1988-01-01':
-        metadata:
-          reference: Convention et Règlement UNEDIC du 19/11/1985. Accord et Convention
-            UNEDIC du 30/12/1987
-        value: 0.0323
-      '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p791)
         value: 0.0323
       '1991-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1990 agréés par arrêté
-            du 14/05/1990 . Protocole d'accord du 22/12/1989 - Circ. 90-08 du 06/06/1990
         value: 0.0317
       '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 05/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.0323
       '1992-08-01':
-        metadata:
-          reference: Protocole d'accord du 18/07/1992 (avenants du 24/07/92, agréés);
-            accord du 30/12/1992
         value: 0.0363
       '1993-08-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/93 agréés par l'arrêté
-            du 04/01/93. Avenant n°1 du 30/12/92
         value: 0.0418
       '1997-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1997 agréés par l'arrêté
-            du 18/02/1997
         value: 0.0397
       '2001-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.037
       '2002-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.036
       '2002-07-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 19/06/2002
         value: 0.037
       '2003-01-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 27/12/2002
-        value: 0.04
-      '2004-01-01':
-        metadata:
-          reference: Convention du 01/01/2005
-        value: 0.04
-      '2005-01-01':
-        metadata:
-          reference: Convention du 01/01/2004
         value: 0.04
       '2006-01-01':
-        metadata:
-          reference: Circulaire Unedic 2006-08 du 27/03/2006. Convention du 18/01/2006,
-            agréé par l'arrêté du 23/02/2006
         value: 0.0404
       '2007-01-01':
-        metadata:
-          reference: Circulaire Unedic 2007-02 du 18/01/2007. Convention du 18/01/2006
         value: 0.04
       '2017-10-01':
-        metadata:
-          reference: Circulaire Unedic 2017-21 du 24/07/2017. Convention relative
-            à l'assurance chômage du 14/04/2017 (arrêté ministériel du 04/05/2017)
-        value: 0.0405
-      '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018)
         value: 0.0405
 metadata:
-  rank: 0
+  order:
+  - salaries
+  - employeurs
 salaries:
   description: Salariés
+  metadata:
+    order:
+    - tranche
+    - tranche_b
   tranche:
     description: Tranche A
     metadata:
       unit: /1
     values:
       '1959-01-01':
-        metadata:
-          reference: Convention du 31/12/1958
         value: 0.002
       '1962-01-01':
-        metadata:
-          reference: Décision conseil adm. 27 nov. 1961
         value: 0.0005
       '1968-01-01':
         value: 0.0007
       '1969-01-01':
         value: 0.0008
       '1973-01-01':
-        metadata:
-          reference: Bureau Unedic du 22 nov. 1971
         value: 0.0014
       '1974-01-01':
-        metadata:
-          reference: Décision du conseil administration du 04/12/1973.
         value: 0.0016
       '1975-01-01':
-        metadata:
-          reference: Décision du conseil administration du 27/11/1974.
         value: 0.0036
       '1975-07-01':
-        metadata:
-          reference: Circulaire Unedic 75-22 du 21/05/1975
         value: 0.0048
       '1977-01-01':
-        metadata:
-          reference: Circulaire Unedic 76-22 du 03/12/1976
         value: 0.0044
       '1978-01-01':
-        metadata:
-          reference: Circulaire Unedic 77-29 du 05/12/1977
         value: 0.0048
       '1978-05-01':
-        metadata:
-          reference: Circulaire Unedic 78-19 du 27/04/1978
         value: 0.006
       '1979-04-01':
-        metadata:
-          reference: Circulaire Unedic 79-14 du 02/04/1979
         value: 0.0084
       '1982-11-06':
-        metadata:
-          reference: Décret 82-940 du 04/11/1982
         value: 0.0132
       '1983-07-01':
-        metadata:
-          reference: Décret 83-553 du 30/06/1983. Accord du 04/02/1983 (ASF) et conseil
-            adm. Unedic (Drouin et Greffe)
         value: 0.0172
       '1984-04-01':
-        metadata:
-          reference: Ordonnance 84-198 du 21/03/1984. Convention et Règlement Unedic
-            du 24/02/1984 agréés par arrêté du 28/03/1984
         value: 0.0112
       '1985-07-01':
-        metadata:
-          reference: Arrêté du 12/08/1985 ; Protocole d'accord du 18/07/1985 (agréé)
         value: 0.0212
       '1985-11-01':
-        metadata:
-          reference: Protocole du 18/07/1985 (agréé) ; avenant du 29/10/1985
         value: 0.0151
       '1988-01-01':
-        metadata:
-          reference: Convention et Règlement UNEDIC du 19/11/1985. Accord et Convention
-            UNEDIC du 30/12/1987
         value: 0.0167
       '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p791)
         value: 0.0159
       '1991-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1990 agréés par arrêté
-            du 14/05/1990 . Protocole d'accord du 22/12/1989 - Circ. 90-08 du 06/06/1990
         value: 0.0153
       '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 05/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.0167
       '1992-08-01':
-        metadata:
-          reference: Protocole d'accord du 18/07/1992 (avenants du 24/07/92, agréés);
-            accord du 30/12/1992
         value: 0.0207
       '1993-08-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/93 agréés par l'arrêté
-            du 04/01/93. Avenant n°1 du 30/12/92
         value: 0.0242
       '1997-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1997 agréés par l'arrêté
-            du 18/02/1997
         value: 0.0221
       '2001-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.021
       '2002-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.02
       '2002-07-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 19/06/2002
         value: 0.021
       '2003-01-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 27/12/2002
-        value: 0.024
-      '2004-01-01':
-        metadata:
-          reference: Convention du 01/01/2005
-        value: 0.024
-      '2005-01-01':
-        metadata:
-          reference: Convention du 01/01/2004
         value: 0.024
       '2006-01-01':
-        metadata:
-          reference: Circulaire Unedic 2006-08 du 27/03/2006. Convention du 18/01/2006,
-            agréé par l'arrêté du 23/02/2006
         value: 0.0244
       '2007-01-01':
-        metadata:
-          reference: Circulaire Unedic 2007-02 du 18/01/2007. Convention du 18/01/2006
-        value: 0.024
-      '2017-10-01':
-        metadata:
-          reference: Circulaire Unedic 2017-21 du 24/07/2017. Convention relative
-            à l'assurance chômage du 14/04/2017 (arrêté ministériel du 04/05/2017)
         value: 0.024
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018)
         value: 0.0095
       '2018-10-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018)
         value: null
   tranche_b:
     description: Tranche B
@@ -454,146 +210,52 @@ salaries:
       unit: /1
     values:
       '1959-01-01':
-        metadata:
-          reference: Convention du 31/12/1958
-        value: null
-      '1962-01-01':
-        metadata:
-          reference: Décision conseil adm. 27 nov. 1961
-        value: null
-      '1968-01-01':
-        value: null
-      '1973-01-01':
-        metadata:
-          reference: Bureau Unedic du 22 nov. 1971
-        value: null
-      '1974-01-01':
-        metadata:
-          reference: Décision du conseil administration du 04/12/1973.
-        value: null
-      '1975-01-01':
-        metadata:
-          reference: Décision du conseil administration du 27/11/1974.
         value: null
       '1975-07-01':
-        metadata:
-          reference: Circulaire Unedic 75-22 du 21/05/1975
         value: 0.0048
       '1977-01-01':
-        metadata:
-          reference: Circulaire Unedic 76-22 du 03/12/1976
         value: 0.0044
       '1978-01-01':
-        metadata:
-          reference: Circulaire Unedic 77-29 du 05/12/1977
         value: 0.0048
       '1978-05-01':
-        metadata:
-          reference: Circulaire Unedic 78-19 du 27/04/1978
         value: 0.006
       '1979-04-01':
-        metadata:
-          reference: Circulaire Unedic 79-14 du 02/04/1979
         value: 0.0084
       '1982-11-06':
-        metadata:
-          reference: Décret 82-940 du 04/11/1982
         value: 0.0132
       '1983-07-01':
-        metadata:
-          reference: Décret 83-553 du 30/06/1983. Accord du 04/02/1983 (ASF) et conseil
-            adm. Unedic (Drouin et Greffe)
         value: 0.0172
       '1984-04-01':
-        metadata:
-          reference: Ordonnance 84-198 du 21/03/1984. Convention et Règlement Unedic
-            du 24/02/1984 agréés par arrêté du 28/03/1984
         value: 0.0162
       '1985-07-01':
-        metadata:
-          reference: Arrêté du 12/08/1985 ; Protocole d'accord du 18/07/1985 (agréé)
         value: 0.0262
       '1985-11-01':
-        metadata:
-          reference: Protocole du 18/07/1985 (agréé) ; avenant du 29/10/1985
         value: 0.0201
       '1988-01-01':
-        metadata:
-          reference: Convention et Règlement UNEDIC du 19/11/1985. Accord et Convention
-            UNEDIC du 30/12/1987
-        value: 0.0217
-      '1990-10-01':
-        metadata:
-          reference: Compromis du 25/06/1990 (Dupeyroux 1993, p791)
         value: 0.0217
       '1991-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1990 agréés par arrêté
-            du 14/05/1990 . Protocole d'accord du 22/12/1989 - Circ. 90-08 du 06/06/1990
         value: 0.0211
       '1992-01-01':
-        metadata:
-          reference: Protocole d'accord du 05/12/1991 (avenants n° 1 et 8 du 13/12/91,
-            agréés)
         value: 0.0217
       '1992-08-01':
-        metadata:
-          reference: Protocole d'accord du 18/07/1992 (avenants du 24/07/92, agréés);
-            accord du 30/12/1992
         value: 0.0257
       '1993-08-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/93 agréés par l'arrêté
-            du 04/01/93. Avenant n°1 du 30/12/92
         value: 0.0297
       '1997-01-01':
-        metadata:
-          reference: Convention et règlement Unedic du 01/01/1997 agréés par l'arrêté
-            du 18/02/1997
         value: 0.0271
       '2001-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.026
       '2002-01-01':
-        metadata:
-          reference: Convention du 01/01/2001 agréé par l'arrêté du 04/12/2000
         value: 0.02
       '2002-07-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 19/06/2002
         value: 0.021
       '2003-01-01':
-        metadata:
-          reference: Convention du 01/01/2001, avenant du 27/12/2002
-        value: 0.024
-      '2004-01-01':
-        metadata:
-          reference: Convention du 01/01/2005
-        value: 0.024
-      '2005-01-01':
-        metadata:
-          reference: Convention du 01/01/2004
         value: 0.024
       '2006-01-01':
-        metadata:
-          reference: Circulaire Unedic 2006-08 du 27/03/2006. Convention du 18/01/2006,
-            agréé par l'arrêté du 23/02/2006
         value: 0.0244
       '2007-01-01':
-        metadata:
-          reference: Circulaire Unedic 2007-02 du 18/01/2007. Convention du 18/01/2006
-        value: 0.024
-      '2017-10-01':
-        metadata:
-          reference: Circulaire Unedic 2017-21 du 24/07/2017. Convention relative
-            à l'assurance chômage du 14/04/2017 (arrêté ministériel du 04/05/2017)
         value: 0.024
       '2018-01-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018)
         value: 0.0095
       '2018-10-01':
-        metadata:
-          reference: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018)
         value: null

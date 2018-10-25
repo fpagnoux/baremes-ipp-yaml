@@ -1,7 +1,10 @@
 description: Paramètres de calcul du montant forfaitaire R0 (que l'on déduit des ressources)
   - secteur locatif (après 2001)
 metadata:
-  rank: 2
+  order:
+  - r1_en_rsa_socle_1
+  - r2_en_bmaf_1
+  - plafond_r0
 plafond_r0:
   description: Plafond de R0
   foyers_avec_1_personne_charge_en_r0:
@@ -12,12 +15,8 @@ plafond_r0:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
         value: 0.69
       '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.0
   foyers_avec_2_personnes_charge_en_r0:
     description: 'Foyers avec 2 personnes à charge
@@ -27,12 +26,8 @@ plafond_r0:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
         value: 0.72
       '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.0
   foyers_avec_3_personnes_charge_en_r0:
     description: 'Foyers avec 3 personnes à charge
@@ -42,12 +37,8 @@ plafond_r0:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
         value: 0.75
       '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.0
   foyers_avec_4_personnes_charge_plus_en_r0:
     description: 'Foyers avec 4 personnes à charge et plus
@@ -57,12 +48,8 @@ plafond_r0:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
         value: 0.83
       '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.0
   foyers_sans_personne_charge_en_r0:
     description: 'Foyers sans personne à charge
@@ -72,13 +59,16 @@ plafond_r0:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
         value: 0.75
       '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.0
+  metadata:
+    order:
+    - foyers_sans_personne_charge_en_r0
+    - foyers_avec_1_personne_charge_en_r0
+    - foyers_avec_2_personnes_charge_en_r0
+    - foyers_avec_3_personnes_charge_en_r0
+    - foyers_avec_4_personnes_charge_plus_en_r0
 r1_en_rsa_socle_1:
   couples_en_rmi_base:
     description: "Couples \n(en % du RMI de base)"
@@ -86,12 +76,6 @@ r1_en_rsa_socle_1:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
-        value: 1.26
-      '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.26
   description: R1 (en % du RSA socle) (1)
   majoration_par_enfant_charge_supplementaire_en_rmi_base:
@@ -102,13 +86,14 @@ r1_en_rsa_socle_1:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
         value: 0.4
-      '2002-01-01':
-        metadata:
-          reference: Références manquantes
-        value: 0.4
+  metadata:
+    order:
+    - personnes_isolees_en_rmi_base
+    - couples_en_rmi_base
+    - personnes_isolees_couples_avec_1_enfant_en_rmi_base
+    - personnes_isolees_couples_avec_2_enfants_en_rmi_base
+    - majoration_par_enfant_charge_supplementaire_en_rmi_base
   personnes_isolees_couples_avec_1_enfant_en_rmi_base:
     description: 'Personnes isolées ou couples avec 1 enfant
 
@@ -117,12 +102,6 @@ r1_en_rsa_socle_1:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
-        value: 1.503
-      '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.503
   personnes_isolees_couples_avec_2_enfants_en_rmi_base:
     description: 'Personnes isolées ou couples avec 2 enfants
@@ -132,12 +111,6 @@ r1_en_rsa_socle_1:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
-        value: 1.803
-      '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 1.803
   personnes_isolees_en_rmi_base:
     description: "Personnes isolées \n(en % du RMI de base)"
@@ -145,12 +118,6 @@ r1_en_rsa_socle_1:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
-        value: 0.88
-      '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 0.88
 r2_en_bmaf_1:
   description: R2 (en % de la BMAF) (1)
@@ -162,13 +129,11 @@ r2_en_bmaf_1:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
         value: 0.41
-      '2002-01-01':
-        metadata:
-          reference: Références manquantes
-        value: 0.41
+  metadata:
+    order:
+    - personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2
+    - majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2
   personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2:
     description: 'Personnes isolées ou couples avec 2 enfants
 
@@ -177,10 +142,4 @@ r2_en_bmaf_1:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000, art. 2
-        value: 0.32
-      '2002-01-01':
-        metadata:
-          reference: Références manquantes
         value: 0.32

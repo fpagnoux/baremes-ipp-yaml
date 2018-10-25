@@ -1,3 +1,4 @@
 description: Taxes sur l'énergie dans le logement
 metadata:
-  rank: 6
+  order:
+  - taxes_electricite_et_gaz

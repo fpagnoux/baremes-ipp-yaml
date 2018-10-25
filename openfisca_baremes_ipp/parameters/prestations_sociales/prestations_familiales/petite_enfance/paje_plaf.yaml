@@ -1,143 +1,43 @@
 description: 'Prestation d''accueil du jeune enfant (PAJE) : plafonds de ressources'
 deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_partiel:
   description: Deuxième plafond (né ou adopté après le 1er avril 2014) - Taux partiel
+  metadata:
+    order:
+    - plafond_ressources_0_enfant
   plafond_ressources_0_enfant:
     description: Plafond de ressources - 0 enfant
     metadata:
       unit: currency-EUR
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: null
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: null
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: null
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
         value: null
       '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 29082.0
       '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
         value: 29286.0
       '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 29403.0
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: 29462.0
 deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein:
   description: Deuxième plafond (né ou adopté après le 1er avril 2014) - Taux plein
+  metadata:
+    order:
+    - plafond_ressources_0_enfant
   plafond_ressources_0_enfant:
     description: Plafond de ressources - 0 enfant
     metadata:
       unit: currency-EUR
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: null
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: null
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: null
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
         value: null
       '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 24344.0
       '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
         value: 24514.0
       '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 24612.0
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: 24661.0
 majoration_en_eur_en_plafond_ressources_avec_0_enfant:
   1er_2eme_enfant:
@@ -146,67 +46,8 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
       unit: /1
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: 0.25
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: 0.25
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: 0.25
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: 0.25
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.25
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.25
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: 0.25
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.25
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: 0.25
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: 0.25
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
-        value: 0.25
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
-        value: 0.25
-      '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
-        value: 0.25
-      '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 0.25
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: null
   3eme_enfant_plus:
     description: 3ème enfant et plus
@@ -214,67 +55,8 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
       unit: /1
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: 0.3
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: 0.3
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: 0.3
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: 0.3
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.3
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.3
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: 0.3
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.3
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: 0.3
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: 0.3
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
-        value: 0.3
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
-        value: 0.3
-      '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
-        value: 0.3
-      '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 0.3
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: null
   biactifs_parents_isoles_1:
     description: 'Biactifs et parents isolés
@@ -284,69 +66,39 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
       unit: currency-EUR
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
         value: 7758.0
       '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
         value: 7905.0
       '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
         value: 8039.0
       '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
         value: 8176.0
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 10394.0
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 10550.0
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
         value: 10845.0
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 10856.0
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
         value: 10965.0
       '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
         value: 11195.0
       '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
-        value: 11408.0
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 11408.0
       '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
         value: 11488.0
       '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 11534.0
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: null
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant)
+  metadata:
+    order:
+    - biactifs_parents_isoles_1
+    - 1er_2eme_enfant
+    - 3eme_enfant_plus
 majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_partiel:
   biactifs_parents_isoles_1:
     description: 'Biactifs et parents isolés
@@ -356,67 +108,14 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       unit: currency-EUR
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: null
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: null
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: null
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
         value: null
       '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 9597.0
       '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
         value: 9664.0
       '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 9703.0
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: 9722.0
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né
     ou adopté avant le 1er après 2014)- Taux partiel
@@ -426,68 +125,13 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       unit: /1
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: null
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: null
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: null
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
         value: null
       '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 0.22
-      '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
-        value: 0.22
-      '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
-        value: 0.22
-      '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
-        value: 0.22
+  metadata:
+    order:
+    - biactifs_parents_isoles_1
+    - majoration_enfant_supplementaire
 majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_plein:
   biactifs_parents_isoles_1:
     description: 'Biactifs et parents isolés
@@ -497,67 +141,14 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       unit: currency-EUR
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: null
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: null
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: null
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
         value: null
       '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 8033.0
       '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
         value: 8089.0
       '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 8121.0
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: 8137.0
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né
     ou adopté avant le 1er après 2014) - Taux plein
@@ -567,137 +158,56 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       unit: /1
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
-        value: null
-      '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
-        value: null
-      '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
-        value: null
-      '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
-        value: null
-      '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
-        value: null
-      '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
         value: null
       '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 0.22
-      '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
-        value: 0.22
-      '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
-        value: 0.22
-      '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
-        value: 0.22
+  metadata:
+    order:
+    - biactifs_parents_isoles_1
+    - majoration_enfant_supplementaire
 metadata:
-  rank: 8
+  order:
+  - premier_plafond_ne_adopte_avant_1er_avril_2014
+  - majoration_en_eur_en_plafond_ressources_avec_0_enfant
+  - deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_partiel
+  - majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_partiel
+  - deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein
+  - majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_plein
 premier_plafond_ne_adopte_avant_1er_avril_2014:
   description: Premier plafond (né ou adopté avant le 1er avril 2014)
+  metadata:
+    order:
+    - plafond_ressources_0_enfant
   plafond_ressources_0_enfant:
     description: Plafond de ressources - 0 enfant
     metadata:
       unit: currency-EUR
     values:
       '2004-01-01':
-        metadata:
-          reference: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du
-            CSS)
         value: 19303.0
       '2004-07-01':
-        metadata:
-          reference: Arrêté du 16/07/2004
         value: 19670.0
       '2005-07-01':
-        metadata:
-          reference: Arrêté du 01/08/2005
         value: 20004.0
       '2006-07-01':
-        metadata:
-          reference: Arrêté du 17/07/2006
         value: 20344.0
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 25862.0
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 26250.0
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 29/12/2009
         value: 26985.0
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 27012.0
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 28/12/2011, art. 2
         value: 27282.0
       '2013-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2012/423
         value: 27855.0
       '2014-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2013/417
-        value: 28384.0
-      '2014-04-01':
-        metadata:
-          reference: Décret 2014-422 du 24 avril 2014
         value: 28384.0
       '2015-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2014/345
         value: 28583.0
       '2016-01-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2015/371
         value: 28697.0
       '2018-01-01':
-        metadata:
-          reference: 'Circulaire DSS/SD2B/2017/352  du 22/12/2017
-
-            Arrêté du 27/12/2017'
         value: null

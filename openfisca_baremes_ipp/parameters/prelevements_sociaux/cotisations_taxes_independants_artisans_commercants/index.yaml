@@ -1,3 +1,9 @@
 description: Cotisations et taxes des indépendants artisans-commerçants
 metadata:
-  rank: 8
+  order:
+  - mmid_ac
+  - ret_ac
+  - ret_comp_ac
+  - deces_ac
+  - formation_ac
+  - famille_ind

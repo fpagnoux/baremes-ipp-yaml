@@ -6,24 +6,8 @@ majoration_montant_maximal_en_base_rmi:
       unit: /1
     values:
       '1988-12-14':
-        metadata:
-          reference: Décret 88-1111 du 12/12/1988, art. 1 (pour les majorations)                                     Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-        value: 0.5
-      '1990-04-01':
-        metadata:
-          reference: Décret 90-386 du 09/05/1990, art. 1 (modif Décret 88-1111 du
-            12/12/1988, art. 1) (pour les majorations)                                                                                                                  Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-        value: 0.5
-      '2002-01-01':
-        metadata:
-          reference: Décret 2001-1203 du 17/12/2001, art. 2 (modif Décret 88-1112,
-            art. 2 du 12/12/1988) (pour le montant minimum)
         value: 0.5
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008
         value: null
   couple_1_enfant_deuxieme_enfant_1:
     description: Couple, 1 enfant - ou pour le deuxième enfant (1)
@@ -31,24 +15,8 @@ majoration_montant_maximal_en_base_rmi:
       unit: /1
     values:
       '1988-12-14':
-        metadata:
-          reference: Décret 88-1111 du 12/12/1988, art. 1 (pour les majorations)                                     Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-        value: 0.3
-      '1990-04-01':
-        metadata:
-          reference: Décret 90-386 du 09/05/1990, art. 1 (modif Décret 88-1111 du
-            12/12/1988, art. 1) (pour les majorations)                                                                                                                  Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-        value: 0.3
-      '2002-01-01':
-        metadata:
-          reference: Décret 2001-1203 du 17/12/2001, art. 2 (modif Décret 88-1112,
-            art. 2 du 12/12/1988) (pour le montant minimum)
         value: 0.3
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008
         value: null
   couples:
     description: Couples
@@ -56,53 +24,31 @@ majoration_montant_maximal_en_base_rmi:
       unit: /1
     values:
       '1988-12-14':
-        metadata:
-          reference: Décret 88-1111 du 12/12/1988, art. 1 (pour les majorations)                                     Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-        value: 0.5
-      '1990-04-01':
-        metadata:
-          reference: Décret 90-386 du 09/05/1990, art. 1 (modif Décret 88-1111 du
-            12/12/1988, art. 1) (pour les majorations)                                                                                                                  Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-        value: 0.5
-      '2002-01-01':
-        metadata:
-          reference: Décret 2001-1203 du 17/12/2001, art. 2 (modif Décret 88-1112,
-            art. 2 du 12/12/1988) (pour le montant minimum)
         value: 0.5
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008
         value: null
   description: Majoration du montant maximal (en % de la base de RMI)
+  metadata:
+    order:
+    - couples
+    - celibataire_1_enfant
+    - couple_1_enfant_deuxieme_enfant_1
+    - par_enfant_supplementaire
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     metadata:
       unit: /1
     values:
       '1988-12-14':
-        metadata:
-          reference: Décret 88-1111 du 12/12/1988, art. 1 (pour les majorations)                                     Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
         value: 0.3
       '1990-04-01':
-        metadata:
-          reference: Décret 90-386 du 09/05/1990, art. 1 (modif Décret 88-1111 du
-            12/12/1988, art. 1) (pour les majorations)                                                                                                                  Décret
-            88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-        value: 0.4
-      '2002-01-01':
-        metadata:
-          reference: Décret 2001-1203 du 17/12/2001, art. 2 (modif Décret 88-1112,
-            art. 2 du 12/12/1988) (pour le montant minimum)
         value: 0.4
       '2009-06-01':
-        metadata:
-          reference: Loi 2008-1249 du 01/12/2008
         value: null
 metadata:
-  rank: 2
+  order:
+  - majoration_montant_maximal_en_base_rmi
+  - montant_minimum_verse
 montant_minimum_verse:
   description: Montant minimum versé
   metadata:
@@ -111,22 +57,8 @@ montant_minimum_verse:
       '2002-01-01': currency-EUR
   values:
     '1988-12-14':
-      metadata:
-        reference: Décret 88-1111 du 12/12/1988, art. 1 (pour les majorations)                                     Décret
-          88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
-      value: 40.0
-    '1990-04-01':
-      metadata:
-        reference: Décret 90-386 du 09/05/1990, art. 1 (modif Décret 88-1111 du 12/12/1988,
-          art. 1) (pour les majorations)                                                                                                                  Décret
-          88-1112 du 12/12/1988, art. 2 (pour le montant minimum)
       value: 40.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-1203 du 17/12/2001, art. 2 (modif Décret 88-1112, art.
-          2 du 12/12/1988) (pour le montant minimum)
       value: 6.0
     '2009-06-01':
-      metadata:
-        reference: Loi 2008-1249 du 01/12/2008
       value: null

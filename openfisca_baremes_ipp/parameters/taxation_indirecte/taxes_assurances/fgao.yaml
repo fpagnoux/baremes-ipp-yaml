@@ -4,16 +4,10 @@ contribution_assures_en_pourcentage_primes:
     unit: /1
   values:
     '2004-08-05':
-      metadata:
-        reference: Arrêté du 16/07/2004
       value: 0.001
     '2008-01-01':
-      metadata:
-        reference: Arrêté du 07/11/2007 fixant contribution FGAO
       value: 0.006
     '2010-08-01':
-      metadata:
-        reference: Arrêté du 09/06/2010 fixant contribution FGAO
       value: 0.012
 contributions_entreprises_assurances_titre_1deg_article_r_421_27_1:
   description: Contributions des entreprises d'assurances au titre du 1° de l'article
@@ -22,16 +16,6 @@ contributions_entreprises_assurances_titre_1deg_article_r_421_27_1:
     unit: /1
   values:
     '2004-08-05':
-      metadata:
-        reference: Arrêté du 16/07/2004
-      value: 0.01
-    '2008-01-01':
-      metadata:
-        reference: Arrêté du 07/11/2007 fixant contribution FGAO
-      value: 0.01
-    '2010-08-01':
-      metadata:
-        reference: Arrêté du 09/06/2010 fixant contribution FGAO
       value: 0.01
 cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_normal:
   description: Cotisation des responsables d'accidents non-assurés (en pourcentage
@@ -40,16 +24,6 @@ cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_
     unit: /1
   values:
     '2004-08-05':
-      metadata:
-        reference: Arrêté du 16/07/2004
-      value: 0.1
-    '2008-01-01':
-      metadata:
-        reference: Arrêté du 07/11/2007 fixant contribution FGAO
-      value: 0.1
-    '2010-08-01':
-      metadata:
-        reference: Arrêté du 09/06/2010 fixant contribution FGAO
       value: 0.1
 cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_reduit:
   description: Cotisation des responsables d'accidents non-assurés (en pourcentage
@@ -58,17 +32,11 @@ cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_
     unit: /1
   values:
     '2004-08-05':
-      metadata:
-        reference: Arrêté du 16/07/2004
-      value: 0.05
-    '2008-01-01':
-      metadata:
-        reference: Arrêté du 07/11/2007 fixant contribution FGAO
-      value: 0.05
-    '2010-08-01':
-      metadata:
-        reference: Arrêté du 09/06/2010 fixant contribution FGAO
       value: 0.05
 description: Taxe sur les fonds de garantie des assurances obligatoires (FGAO)
 metadata:
-  rank: 1
+  order:
+  - contribution_assures_en_pourcentage_primes
+  - cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_normal
+  - cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_reduit
+  - contributions_entreprises_assurances_titre_1deg_article_r_421_27_1

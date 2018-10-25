@@ -7,40 +7,16 @@ enfants_15_ans_en_bmaf_3:
     unit: /1
   values:
     '1978-01-01':
-      metadata:
-        reference: Loi 74-644 du 16/07/1974                                                                           Décret
-          74-706 du 13/08/1974                                                                  Décret
-          78-728 du 11/07/1978
-      value: 0.2
-    '1986-08-01':
-      metadata:
-        reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. D543-1 du CSS)
-      value: 0.2
-    '1990-08-01':
-      metadata:
-        reference: Loi 90-590 du 06/07/1990, art.1 (modif art. L543-1 du CSS)
       value: 0.2
     '1995-08-01':
-      metadata:
-        reference: Décret 95-909 du 11/08/1995, art. 1
       value: 0.3223
     '1997-08-01':
-      metadata:
-        reference: Décret 97-794 du 22/08/1997, art.1
       value: 0.2
     '2001-08-01':
-      metadata:
-        reference: Décret 2001-719 du 31/07/2001, art. 1 (modif art. D543-1 du CSS)
       value: 0.7322
     '2008-08-03':
-      metadata:
-        reference: 'Loi 2007-1786 du 19/12/2007, art. 93 (modif art. L543-1 du CSS)
-
-          Décret 2008-767 du 31/07/2008, art. 1 (modif art. D543-1 du CSS)'
       value: 0.7915
     '2012-09-03':
-      metadata:
-        reference: Décret 2012-830 du 27/06/2012
       value: 0.9795
 enfants_entre_11_14_ans_en_bmaf_2:
   description: 'Enfants entre 11 et 14 ans
@@ -50,40 +26,16 @@ enfants_entre_11_14_ans_en_bmaf_2:
     unit: /1
   values:
     '1978-01-01':
-      metadata:
-        reference: Loi 74-644 du 16/07/1974                                                                           Décret
-          74-706 du 13/08/1974                                                                  Décret
-          78-728 du 11/07/1978
-      value: 0.2
-    '1986-08-01':
-      metadata:
-        reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. D543-1 du CSS)
-      value: 0.2
-    '1990-08-01':
-      metadata:
-        reference: Loi 90-590 du 06/07/1990, art.1 (modif art. L543-1 du CSS)
       value: 0.2
     '1995-08-01':
-      metadata:
-        reference: Décret 95-909 du 11/08/1995, art. 1
       value: 0.3223
     '1997-08-01':
-      metadata:
-        reference: Décret 97-794 du 22/08/1997, art.1
       value: 0.2
     '2001-08-01':
-      metadata:
-        reference: Décret 2001-719 du 31/07/2001, art. 1 (modif art. D543-1 du CSS)
       value: 0.7322
     '2008-08-03':
-      metadata:
-        reference: 'Loi 2007-1786 du 19/12/2007, art. 93 (modif art. L543-1 du CSS)
-
-          Décret 2008-767 du 31/07/2008, art. 1 (modif art. D543-1 du CSS)'
       value: 0.7649
     '2012-09-03':
-      metadata:
-        reference: Décret 2012-830 du 27/06/2012
       value: 0.9467
 enfants_entre_6_10_ans_en_bmaf_1:
   description: 'Enfants entre 6 et 10 ans
@@ -93,40 +45,21 @@ enfants_entre_6_10_ans_en_bmaf_1:
     unit: /1
   values:
     '1978-01-01':
-      metadata:
-        reference: Loi 74-644 du 16/07/1974                                                                           Décret
-          74-706 du 13/08/1974                                                                  Décret
-          78-728 du 11/07/1978
       value: null
     '1986-08-01':
-      metadata:
-        reference: Décret 85-1353 du 17/12/1985, art. 1 (crée art. D543-1 du CSS)
-      value: 0.2
-    '1990-08-01':
-      metadata:
-        reference: Loi 90-590 du 06/07/1990, art.1 (modif art. L543-1 du CSS)
       value: 0.2
     '1995-08-01':
-      metadata:
-        reference: Décret 95-909 du 11/08/1995, art. 1
       value: 0.3222749727028288
     '1997-08-01':
-      metadata:
-        reference: Décret 97-794 du 22/08/1997, art.1
       value: 0.2
     '2001-08-01':
-      metadata:
-        reference: Décret 2001-719 du 31/07/2001, art. 1 (modif art. D543-1 du CSS)
       value: 0.7322
     '2008-08-03':
-      metadata:
-        reference: 'Loi 2007-1786 du 19/12/2007, art. 93 (modif art. L543-1 du CSS)
-
-          Décret 2008-767 du 31/07/2008, art. 1 (modif art. D543-1 du CSS)'
       value: 0.725
     '2012-09-03':
-      metadata:
-        reference: Décret 2012-830 du 27/06/2012
       value: 0.8972
 metadata:
-  rank: 1
+  order:
+  - enfants_entre_6_10_ans_en_bmaf_1
+  - enfants_entre_11_14_ans_en_bmaf_2
+  - enfants_15_ans_en_bmaf_3

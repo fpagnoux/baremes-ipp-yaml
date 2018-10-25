@@ -1,3 +1,9 @@
 description: Calcul de l'impôt sur la fortune immobilière (IFI) - à partir de 2018
 metadata:
-  rank: 5
+  order:
+  - bareme_ifi
+  - decote_ifi
+  - plaf_ifi
+  - reduc_impot_ifi
+  - reduc_exo_ifi
+  - forfait_mobilier_ifi

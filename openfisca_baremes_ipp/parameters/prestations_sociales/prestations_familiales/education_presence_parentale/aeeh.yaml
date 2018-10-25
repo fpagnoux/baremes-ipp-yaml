@@ -2,24 +2,6 @@ age_maximum_enfant:
   description: Age maximum de l'enfant
   values:
     '2006-01-01':
-      metadata:
-        reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-          Décret 2005-1761 du 29/12/2005, art. 12'
-      value: 20.0
-    '2006-04-01':
-      value: 20.0
-    '2013-04-01':
-      metadata:
-        reference: Art. L. 341-6 du CSS
-      value: 20.0
-    '2016-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-      value: 20.0
-    '2017-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
       value: 20.0
 complement_allocation:
   1ere_categorie:
@@ -28,24 +10,6 @@ complement_allocation:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 0.24
-      '2006-04-01':
-        value: 0.24
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 0.24
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.24
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.24
   2e_categorie:
     description: 2e catégorie
@@ -53,24 +17,6 @@ complement_allocation:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 0.65
-      '2006-04-01':
-        value: 0.65
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 0.65
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.65
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.65
   3e_categorie:
     description: 3e catégorie
@@ -78,24 +24,6 @@ complement_allocation:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 0.92
-      '2006-04-01':
-        value: 0.92
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 0.92
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.92
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.92
   4e_categorie:
     description: 4e catégorie
@@ -103,24 +31,6 @@ complement_allocation:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 1.4257
-      '2006-04-01':
-        value: 1.4257
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 1.4257
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 1.4257
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 1.4257
   5e_categorie:
     description: 5e catégorie
@@ -128,24 +38,6 @@ complement_allocation:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 1.8221
-      '2006-04-01':
-        value: 1.8221
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 1.8221
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 1.8221
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 1.8221
   6e_categorie_1:
     description: 6e catégorie (1)
@@ -153,10 +45,6 @@ complement_allocation:
       unit: currency-EUR
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
         value: 964.78
       '2006-04-01':
         value: 982.15
@@ -175,22 +63,22 @@ complement_allocation:
       '2012-04-01':
         value: 1082.43
       '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
         value: 1096.5
       '2014-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
         value: 1103.08
       '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
         value: 1104.18
       '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 1107.49
   description: Complément d'allocation
+  metadata:
+    order:
+    - 1ere_categorie
+    - 2e_categorie
+    - 3e_categorie
+    - 4e_categorie
+    - 5e_categorie
+    - 6e_categorie_1
 description: 'Allocation d''éducation de l''enfant handicapé (AEEH) : conditions et
   montants'
 majoration_parent_isole:
@@ -200,24 +88,6 @@ majoration_parent_isole:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 0.13
-      '2006-04-01':
-        value: 0.13
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 0.13
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.13
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.13
   3e_categorie:
     description: 3e catégorie
@@ -225,24 +95,6 @@ majoration_parent_isole:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 0.18
-      '2006-04-01':
-        value: 0.18
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 0.18
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.18
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.18
   4e_categorie:
     description: 4e catégorie
@@ -250,24 +102,6 @@ majoration_parent_isole:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 0.57
-      '2006-04-01':
-        value: 0.57
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 0.57
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.57
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.57
   5e_categorie:
     description: 5e catégorie
@@ -275,24 +109,6 @@ majoration_parent_isole:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 0.73
-      '2006-04-01':
-        value: 0.73
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 0.73
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 0.73
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 0.73
   6e_categorie:
     description: 6e catégorie
@@ -300,50 +116,25 @@ majoration_parent_isole:
       unit: /1
     values:
       '2006-01-01':
-        metadata:
-          reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-            Décret 2005-1761 du 29/12/2005, art. 12'
-        value: 1.07
-      '2006-04-01':
-        value: 1.07
-      '2013-04-01':
-        metadata:
-          reference: Art. L. 341-6 du CSS
-        value: 1.07
-      '2016-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-        value: 1.07
-      '2017-04-01':
-        metadata:
-          reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
         value: 1.07
   description: Majoration pour parent isolé
+  metadata:
+    order:
+    - 2e_categorie
+    - 3e_categorie
+    - 4e_categorie
+    - 5e_categorie
+    - 6e_categorie
 metadata:
-  rank: 8
+  order:
+  - age_maximum_enfant
+  - montant_bmaf
+  - complement_allocation
+  - majoration_parent_isole
 montant_bmaf:
   description: Montant (% de BMAF)
   metadata:
     unit: /1
   values:
     '2006-01-01':
-      metadata:
-        reference: 'Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-
-          Décret 2005-1761 du 29/12/2005, art. 12'
-      value: 0.32
-    '2006-04-01':
-      value: 0.32
-    '2013-04-01':
-      metadata:
-        reference: Art. L. 341-6 du CSS
-      value: 0.32
-    '2016-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-      value: 0.32
-    '2017-04-01':
-      metadata:
-        reference: Circulaire DSS/SD2B/2017/97 du 21/03/2017
       value: 0.32

@@ -1,3 +1,20 @@
 description: Prestations générales
 metadata:
-  rank: 0
+  order:
+  - af_cm
+  - af_cond
+  - af_maj
+  - af_maj_dom
+  - af_plaf
+  - icaf
+  - asu_plaf
+  - asu_m
+  - afg_c
+  - afg_plaf
+  - amf_plaf
+  - amf_m
+  - amf_maj
+  - cf_cm
+  - cf_maj
+  - cf_plaf
+  - cf_cm_dom

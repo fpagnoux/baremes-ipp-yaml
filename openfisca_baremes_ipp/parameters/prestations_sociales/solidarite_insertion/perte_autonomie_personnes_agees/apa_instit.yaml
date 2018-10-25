@@ -1,6 +1,9 @@
 description: Allocation personnalisée d'autonomie en institution (APA)
 metadata:
-  rank: 3
+  order:
+  - seuil_inferieur
+  - seuil_superieur
+  - part_tarif_dependance_gir_1_2_etablissement_accueil
 part_tarif_dependance_gir_1_2_etablissement_accueil:
   description: Part du tarif dépendance GIR 1-2 de l'établissement d'accueil
   values:

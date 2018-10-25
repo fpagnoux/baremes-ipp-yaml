@@ -1,6 +1,8 @@
 description: Plafond de la Sécurité Sociale (1930-2017)
 metadata:
-  rank: 1
+  order:
+  - plafond_securite_sociale_mensuel
+  - plafond_securite_sociale_annuel
 plafond_securite_sociale_annuel:
   description: Plafond de la Sécurité sociale (annuel)
   metadata:
@@ -9,344 +11,164 @@ plafond_securite_sociale_annuel:
       '2002-01-01': currency-EUR
   values:
     '1930-07-01':
-      metadata:
-        reference: Loi du 05/04/1928 modifiée
       value: 10800.0
     '1936-01-01':
-      metadata:
-        reference: Décret-loi du 28/10/1935 art. 2 § 2
       value: 12000.0
     '1937-01-01':
-      metadata:
-        reference: Loi du 26/08/1936 modifiée
       value: 15000.0
     '1938-07-01':
-      metadata:
-        reference: Décret-loi du 14/06/1938
       value: 18000.0
     '1941-04-01':
-      metadata:
-        reference: Loi du 14/03/1941 art.19
       value: 30000.0
     '1942-01-01':
-      metadata:
-        reference: Loi du 06/01/1942
       value: 42000.0
     '1944-01-01':
-      metadata:
-        reference: Loi du 06/01/1942
       value: 48000.0
     '1944-09-01':
-      metadata:
-        reference: Ordonnance du 20/10/1944
       value: 60000.0
     '1945-04-01':
-      metadata:
-        reference: Ordonnance du 20/06/1945
-      value: 120000.0
-    '1946-07-01':
-      metadata:
-        reference: Ordonnance 45-2250 du 04/10/1945 art. 31
       value: 120000.0
     '1946-10-01':
-      metadata:
-        reference: Décret 46-2155 du 07/10/1946
       value: 150000.0
     '1947-10-01':
-      metadata:
-        reference: Décret 47-1881 du 24/09/1947
       value: 204000.0
     '1948-03-01':
-      metadata:
-        reference: Décret 48-361 du 02/03/1948
       value: 228000.0
     '1949-03-01':
-      metadata:
-        reference: Loi 49-244 du 24/02/1949
       value: 264000.0
     '1951-01-01':
-      metadata:
-        reference: Loi 50-1598 du 30/12/1950
       value: 324000.0
     '1951-10-01':
-      metadata:
-        reference: Loi 51-1126 du 26/09/1951, art. 8
       value: 408000.0
     '1952-04-01':
-      metadata:
-        reference: Loi 52-401 du 14/04/1952, art. 18
       value: 456000.0
     '1955-10-01':
-      metadata:
-        reference: Décret 55-1272 du 29/09/1955
       value: 528000.0
     '1958-01-01':
-      metadata:
-        reference: Décret 57-1322 du 23/12/1957
       value: 600000.0
     '1959-01-01':
-      metadata:
-        reference: Décret 58-1436 du 31/12/1958
       value: 660000.0
     '1960-01-01':
-      metadata:
-        reference: Décret 58-1436 du 31/12/1958
       value: 6600.0
     '1960-07-01':
-      metadata:
-        reference: Décret 60-620 du 29/06/1960
       value: 7080.0
     '1961-01-01':
-      metadata:
-        reference: Décret 60-620 du 29/06/1960
       value: 7200.0
     '1961-04-01':
-      metadata:
-        reference: Décret 61-169 du 16/02/1961
       value: 8400.0
     '1962-01-01':
-      metadata:
-        reference: Décret 61-1489 du 29/12/1961
       value: 9600.0
     '1963-01-01':
-      metadata:
-        reference: Décret 62-1570 du 26/12/1962
       value: 10440.0
     '1964-01-01':
-      metadata:
-        reference: Décret 63-1320 du 24/12/1963
       value: 11400.0
     '1965-01-01':
-      metadata:
-        reference: Décret 64-1320 du 24/12/1964
       value: 12240.0
     '1966-01-01':
-      metadata:
-        reference: Décret 65-1152 du 24/12/1965
       value: 12960.0
     '1967-01-01':
-      metadata:
-        reference: Décret 66-1004 du 23/12/1966
       value: 13680.0
     '1968-01-01':
-      metadata:
-        reference: Décret 67-1233 du 22/12/1967
       value: 14400.0
     '1969-01-01':
-      metadata:
-        reference: Décret 68-1186 du 30/12/1968
       value: 16320.0
     '1970-01-01':
-      metadata:
-        reference: Décret 69-1234 du 30/12/1969
       value: 18000.0
     '1971-01-01':
-      metadata:
-        reference: Décret 70-1205 du 22/12/1970
       value: 19800.0
     '1972-01-01':
-      metadata:
-        reference: Décret 71-1109 du 30/12/1971
       value: 21960.0
     '1973-01-01':
-      metadata:
-        reference: Décret 72-1230 du 29/12/1972
       value: 24480.0
     '1974-01-01':
-      metadata:
-        reference: Décret 73-1208 du 29/12/1973
       value: 27840.0
     '1975-01-01':
-      metadata:
-        reference: Décret 74-1133 du 30/12/1974
       value: 33000.0
     '1976-01-01':
-      metadata:
-        reference: Décret 75-1271 du 29/12/1975
       value: 37920.0
     '1977-01-01':
-      metadata:
-        reference: Décret 76-1244 du 29/12/1976
       value: 43320.0
     '1978-01-01':
-      metadata:
-        reference: Décret 77-1444 du 27/12/1977
       value: 48000.0
     '1979-01-01':
-      metadata:
-        reference: Décret 78-1212 du 26/12/1978
       value: 53640.0
     '1980-01-01':
-      metadata:
-        reference: Décret 79-1136 du 28/12/1979
       value: 60120.0
     '1981-01-01':
-      metadata:
-        reference: Décret 80-1080 du 24/12/1980
       value: 68760.0
     '1982-01-01':
-      metadata:
-        reference: Décret 81-1164 du 30/12/1981
-      value: 82020.0
-    '1982-07-01':
-      metadata:
-        reference: Décret 82-543 du 29/06/1982
       value: 82020.0
     '1983-01-01':
-      metadata:
-        reference: Décret 82-1119 du 28/12/1982
-      value: 91680.0
-    '1983-07-01':
-      metadata:
-        reference: Décret 83-530 du 28/06/1983
       value: 91680.0
     '1984-01-01':
-      metadata:
-        reference: Décret 83-1197 du 30/12/1983
-      value: 99600.0
-    '1984-07-01':
-      metadata:
-        reference: Décret 84-520 du 28/06/1984
       value: 99600.0
     '1985-01-01':
-      metadata:
-        reference: Décret 84-1197 du 28/12/1984
       value: 106740.0
     '1986-01-01':
-      metadata:
-        reference: Décret 85-1492 du 31/12/1985
       value: 112200.0
     '1987-01-01':
-      metadata:
-        reference: Décret 86-1374 du 31/12/1986
       value: 116820.0
     '1988-01-01':
-      metadata:
-        reference: Décret 87-1057 du 29/12/1987
       value: 120360.0
     '1989-01-01':
-      metadata:
-        reference: Décret 88-1236 du 30/12/1988
-      value: 125280.0
-    '1989-07-01':
-      metadata:
-        reference: Décret 89-439 du 30/06/1989
       value: 125280.0
     '1990-01-01':
-      metadata:
-        reference: Décret 90-6 du 02/01/1990
       value: 131040.0
     '1991-01-01':
-      metadata:
-        reference: Décret 90-1240 du 31/12/1990
       value: 137760.0
     '1992-01-01':
-      metadata:
-        reference: Décret 91-1374 du 30/12/1991
       value: 144120.0
     '1993-01-01':
-      metadata:
-        reference: Décret 92-1371 du 29/12/1992
       value: 149820.0
     '1994-01-01':
-      metadata:
-        reference: Décret 93-1308 du 15/12/1993
       value: 153120.0
     '1995-01-01':
-      metadata:
-        reference: Décret 94-1154 du 28/12/1994
       value: 155940.0
     '1996-01-01':
-      metadata:
-        reference: Décret 95-1357 du 30/12/1995
       value: 161220.0
     '1997-01-01':
-      metadata:
-        reference: Décret 96-1169 du 27/12/1996
       value: 164640.0
     '1998-01-01':
-      metadata:
-        reference: Décret 97-1251 du 29/12/1997
       value: 169080.0
     '1999-01-01':
-      metadata:
-        reference: Décret 98-1225 du 29/12/1998
       value: 173640.0
     '2000-01-01':
-      metadata:
-        reference: Décret 99-1029 du 09/12/1999
       value: 176400.0
     '2001-01-01':
-      metadata:
-        reference: Décret 2000-1284 du 26/12/2000
       value: 179400.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-1069 du 16/11/2001
       value: 28224.0
     '2003-01-01':
-      metadata:
-        reference: Décret 2002-1374 du 22/11/2002
       value: 29184.0
     '2004-01-01':
-      metadata:
-        reference: Décret 2003-1159 du 04/12/2003
       value: 29712.0
     '2005-01-01':
-      metadata:
-        reference: Décret 2004-1292 du 26/11/2004
       value: 30192.0
     '2006-01-01':
-      metadata:
-        reference: Arrêté du 02/12/2005
       value: 31068.0
     '2007-01-01':
-      metadata:
-        reference: Arrêté du 15/11/2006
       value: 32184.0
     '2008-01-01':
-      metadata:
-        reference: Arrêté du 30/10/2007
       value: 33276.0
     '2009-01-01':
-      metadata:
-        reference: Décret 2008-1394 du 19/12/2008
       value: 34308.0
     '2010-01-01':
-      metadata:
-        reference: Arrêté du 18/11/2009
       value: 34620.0
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 26/11/2010
       value: 35352.0
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2011
       value: 36372.0
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 12/12/2012
       value: 37032.0
     '2014-01-01':
-      metadata:
-        reference: Arrêté du 07/11/2013
       value: 37548.0
     '2015-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2014
       value: 38040.0
     '2016-01-01':
-      metadata:
-        reference: Arrêté du 17/12/2015
       value: 38616.0
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 05/12/2016
       value: 39228.0
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 05/12/2017
       value: 39732.0
 plafond_securite_sociale_mensuel:
   description: Plafond de la Sécurité sociale (mensuel)
@@ -356,382 +178,178 @@ plafond_securite_sociale_mensuel:
       '2002-01-01': currency-EUR
   values:
     '1930-07-01':
-      metadata:
-        reference: Loi du 05/04/1928 modifiée
-      value: null
-    '1936-01-01':
-      metadata:
-        reference: Décret-loi du 28/10/1935 art. 2 § 2
-      value: null
-    '1937-01-01':
-      metadata:
-        reference: Loi du 26/08/1936 modifiée
-      value: null
-    '1938-07-01':
-      metadata:
-        reference: Décret-loi du 14/06/1938
-      value: null
-    '1941-04-01':
-      metadata:
-        reference: Loi du 14/03/1941 art.19
-      value: null
-    '1942-01-01':
-      metadata:
-        reference: Loi du 06/01/1942
-      value: null
-    '1944-09-01':
-      metadata:
-        reference: Ordonnance du 20/10/1944
-      value: null
-    '1945-04-01':
-      metadata:
-        reference: Ordonnance du 20/06/1945
       value: null
     '1946-07-01':
-      metadata:
-        reference: Ordonnance 45-2250 du 04/10/1945 art. 31
       value: 10000.0
     '1946-10-01':
-      metadata:
-        reference: Décret 46-2155 du 07/10/1946
       value: 12500.0
     '1947-10-01':
-      metadata:
-        reference: Décret 47-1881 du 24/09/1947
       value: 17000.0
     '1948-03-01':
-      metadata:
-        reference: Décret 48-361 du 02/03/1948
       value: 19000.0
     '1949-03-01':
-      metadata:
-        reference: Loi 49-244 du 24/02/1949
       value: 22000.0
     '1951-01-01':
-      metadata:
-        reference: Loi 50-1598 du 30/12/1950
       value: 27000.0
     '1951-10-01':
-      metadata:
-        reference: Loi 51-1126 du 26/09/1951, art. 8
       value: 34000.0
     '1952-04-01':
-      metadata:
-        reference: Loi 52-401 du 14/04/1952, art. 18
       value: 38000.0
     '1955-10-01':
-      metadata:
-        reference: Décret 55-1272 du 29/09/1955
       value: 44000.0
     '1958-01-01':
-      metadata:
-        reference: Décret 57-1322 du 23/12/1957
       value: 50000.0
     '1959-01-01':
-      metadata:
-        reference: Décret 58-1436 du 31/12/1958
       value: 55000.0
     '1960-01-01':
-      metadata:
-        reference: Décret 58-1436 du 31/12/1958
       value: 550.0
     '1960-07-01':
-      metadata:
-        reference: Décret 60-620 du 29/06/1960
       value: 590.0
     '1961-01-01':
-      metadata:
-        reference: Décret 60-620 du 29/06/1960
       value: 600.0
     '1961-04-01':
-      metadata:
-        reference: Décret 61-169 du 16/02/1961
       value: 700.0
     '1962-01-01':
-      metadata:
-        reference: Décret 61-1489 du 29/12/1961
       value: 800.0
     '1963-01-01':
-      metadata:
-        reference: Décret 62-1570 du 26/12/1962
       value: 870.0
     '1964-01-01':
-      metadata:
-        reference: Décret 63-1320 du 24/12/1963
       value: 950.0
     '1965-01-01':
-      metadata:
-        reference: Décret 64-1320 du 24/12/1964
       value: 1020.0
     '1966-01-01':
-      metadata:
-        reference: Décret 65-1152 du 24/12/1965
       value: 1080.0
     '1967-01-01':
-      metadata:
-        reference: Décret 66-1004 du 23/12/1966
       value: 1140.0
     '1968-01-01':
-      metadata:
-        reference: Décret 67-1233 du 22/12/1967
       value: 1200.0
     '1969-01-01':
-      metadata:
-        reference: Décret 68-1186 du 30/12/1968
       value: 1360.0
     '1970-01-01':
-      metadata:
-        reference: Décret 69-1234 du 30/12/1969
       value: 1500.0
     '1971-01-01':
-      metadata:
-        reference: Décret 70-1205 du 22/12/1970
       value: 1650.0
     '1972-01-01':
-      metadata:
-        reference: Décret 71-1109 du 30/12/1971
       value: 1830.0
     '1973-01-01':
-      metadata:
-        reference: Décret 72-1230 du 29/12/1972
       value: 2040.0
     '1974-01-01':
-      metadata:
-        reference: Décret 73-1208 du 29/12/1973
       value: 2320.0
     '1975-01-01':
-      metadata:
-        reference: Décret 74-1133 du 30/12/1974
       value: 2750.0
     '1976-01-01':
-      metadata:
-        reference: Décret 75-1271 du 29/12/1975
       value: 3160.0
     '1977-01-01':
-      metadata:
-        reference: Décret 76-1244 du 29/12/1976
       value: 3610.0
     '1978-01-01':
-      metadata:
-        reference: Décret 77-1444 du 27/12/1977
       value: 4000.0
     '1979-01-01':
-      metadata:
-        reference: Décret 78-1212 du 26/12/1978
       value: 4470.0
     '1980-01-01':
-      metadata:
-        reference: Décret 79-1136 du 28/12/1979
       value: 5010.0
     '1981-01-01':
-      metadata:
-        reference: Décret 80-1080 du 24/12/1980
       value: 5730.0
     '1982-01-01':
-      metadata:
-        reference: Décret 81-1164 du 30/12/1981
       value: 6590.0
     '1982-07-01':
-      metadata:
-        reference: Décret 82-543 du 29/06/1982
       value: 7080.0
     '1983-01-01':
-      metadata:
-        reference: Décret 82-1119 du 28/12/1982
       value: 7410.0
     '1983-07-01':
-      metadata:
-        reference: Décret 83-530 du 28/06/1983
       value: 7870.0
     '1984-01-01':
-      metadata:
-        reference: Décret 83-1197 du 30/12/1983
       value: 8110.0
     '1984-07-01':
-      metadata:
-        reference: Décret 84-520 du 28/06/1984
       value: 8490.0
     '1985-01-01':
-      metadata:
-        reference: Décret 84-1197 du 28/12/1984
       value: 8730.0
     '1985-07-01':
-      metadata:
-        reference: Décret 84-1197 du 28/12/1984
       value: 9060.0
     '1986-01-01':
-      metadata:
-        reference: Décret 85-1492 du 31/12/1985
       value: 9220.0
     '1986-07-01':
-      metadata:
-        reference: Décret 85-1492 du 31/12/1985
       value: 9480.0
     '1987-01-01':
-      metadata:
-        reference: Décret 86-1374 du 31/12/1986
       value: 9630.0
     '1987-07-01':
-      metadata:
-        reference: Décret 86-1374 du 31/12/1986
       value: 9840.0
     '1988-01-01':
-      metadata:
-        reference: Décret 87-1057 du 29/12/1987
       value: 9950.0
     '1988-07-01':
-      metadata:
-        reference: Décret 87-1057 du 29/12/1987
       value: 10110.0
     '1989-01-01':
-      metadata:
-        reference: Décret 88-1236 du 30/12/1988
       value: 10340.0
     '1989-07-01':
-      metadata:
-        reference: Décret 89-439 du 30/06/1989
       value: 10540.0
     '1990-01-01':
-      metadata:
-        reference: Décret 90-6 du 02/01/1990
       value: 10800.0
     '1990-07-01':
-      metadata:
-        reference: Décret 90-6 du 02/01/1990
       value: 11040.0
     '1991-01-01':
-      metadata:
-        reference: Décret 90-1240 du 31/12/1990
       value: 11340.0
     '1991-07-01':
-      metadata:
-        reference: Décret 90-1240 du 31/12/1990
       value: 11620.0
     '1992-01-01':
-      metadata:
-        reference: Décret 91-1374 du 30/12/1991
       value: 11870.0
     '1992-07-01':
-      metadata:
-        reference: Décret 91-1374 du 30/12/1991
       value: 12150.0
     '1993-01-01':
-      metadata:
-        reference: Décret 92-1371 du 29/12/1992
       value: 12360.0
     '1993-07-01':
-      metadata:
-        reference: Décret 92-1371 du 29/12/1992
       value: 12610.0
     '1994-01-01':
-      metadata:
-        reference: Décret 93-1308 du 15/12/1993
       value: 12680.0
     '1994-07-01':
-      metadata:
-        reference: Décret 93-1308 du 15/12/1993
       value: 12840.0
     '1995-01-01':
-      metadata:
-        reference: Décret 94-1154 du 28/12/1994
       value: 12930.0
     '1995-07-01':
-      metadata:
-        reference: Décret 94-1154 du 28/12/1994
       value: 13060.0
     '1996-01-01':
-      metadata:
-        reference: Décret 95-1357 du 30/12/1995
       value: 13330.0
     '1996-07-01':
-      metadata:
-        reference: Décret 95-1357 du 30/12/1995
       value: 13540.0
     '1997-01-01':
-      metadata:
-        reference: Décret 96-1169 du 27/12/1996
       value: 13720.0
     '1998-01-01':
-      metadata:
-        reference: Décret 97-1251 du 29/12/1997
       value: 14090.0
     '1999-01-01':
-      metadata:
-        reference: Décret 98-1225 du 29/12/1998
       value: 14470.0
     '2000-01-01':
-      metadata:
-        reference: Décret 99-1029 du 09/12/1999
       value: 14700.0
     '2001-01-01':
-      metadata:
-        reference: Décret 2000-1284 du 26/12/2000
       value: 14950.0
     '2002-01-01':
-      metadata:
-        reference: Décret 2001-1069 du 16/11/2001
       value: 2352.0
     '2003-01-01':
-      metadata:
-        reference: Décret 2002-1374 du 22/11/2002
       value: 2432.0
     '2004-01-01':
-      metadata:
-        reference: Décret 2003-1159 du 04/12/2003
       value: 2476.0
     '2005-01-01':
-      metadata:
-        reference: Décret 2004-1292 du 26/11/2004
       value: 2516.0
     '2006-01-01':
-      metadata:
-        reference: Arrêté du 02/12/2005
       value: 2589.0
     '2007-01-01':
-      metadata:
-        reference: Arrêté du 15/11/2006
       value: 2682.0
     '2008-01-01':
-      metadata:
-        reference: Arrêté du 30/10/2007
       value: 2773.0
     '2009-01-01':
-      metadata:
-        reference: Décret 2008-1394 du 19/12/2008
       value: 2859.0
     '2010-01-01':
-      metadata:
-        reference: Arrêté du 18/11/2009
       value: 2885.0
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 26/11/2010
       value: 2946.0
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2011
       value: 3031.0
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 12/12/2012
       value: 3086.0
     '2014-01-01':
-      metadata:
-        reference: Arrêté du 07/11/2013
       value: 3129.0
     '2015-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2014
       value: 3170.0
     '2016-01-01':
-      metadata:
-        reference: Arrêté du 17/12/2015
       value: 3218.0
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 05/12/2016
       value: 3269.0
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 05/12/2017
       value: 3311.0

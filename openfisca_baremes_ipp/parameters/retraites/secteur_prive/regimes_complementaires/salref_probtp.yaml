@@ -1,8 +1,13 @@
 description: Salaire de référence ARRCO, PRO-BTP (1961-1998)
 metadata:
-  rank: 22
+  order:
+  - section_cnro
 section_cnro:
   description: Section CNRO
+  metadata:
+    order:
+    - salaire_reference_en_nominal
+    - salaire_reference_en_euros
   salaire_reference_en_euros:
     description: Salaire de référence (en euros)
     metadata:

@@ -5,44 +5,22 @@ indice_1:
     unit: currency-EUR
   values:
     '2008-01-01':
-      metadata:
-        reference: Décret n° 2008-539 du 6 juin 2008
       value: 52.4933
     '2009-01-01':
-      metadata:
-        reference: Arrêté du 20 mai 2009
       value: 52.7558
     '2010-01-01':
-      metadata:
-        reference: Arrêté du 3 mai 2010
       value: 53.2012
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 23 mars 2011
       value: 53.8453
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 20 mars 2012
       value: 54.3753
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 18 avril 2013
       value: 54.6791
     '2014-01-01':
-      metadata:
-        reference: Arrêté du 3 mars 2014
       value: 55.026
     '2015-01-01':
-      metadata:
-        reference: Arrêté du 4 février 2015
       value: 55.4253
     '2016-01-01':
-      metadata:
-        reference: Arrêté du 27 juin 2016
-      value: 55.5635
-    '2017-01-01':
-      metadata:
-        reference: Arrêté du 17 novembre 2017
       value: 55.5635
 indice_2:
   description: Indice 2
@@ -50,44 +28,16 @@ indice_2:
     unit: currency-EUR
   values:
     '2008-01-01':
-      metadata:
-        reference: Décret n° 2008-539 du 6 juin 2008
       value: 54.3753
     '2009-01-01':
-      metadata:
-        reference: Arrêté du 20 mai 2009
       value: 54.6791
     '2010-01-01':
-      metadata:
-        reference: Arrêté du 3 mai 2010
       value: 55.026
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 23 mars 2011
       value: 55.4253
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 20 mars 2012
-      value: 55.5635
-    '2013-01-01':
-      metadata:
-        reference: Arrêté du 18 avril 2013
-      value: 55.5635
-    '2014-01-01':
-      metadata:
-        reference: Arrêté du 3 mars 2014
-      value: 55.5635
-    '2015-01-01':
-      metadata:
-        reference: Arrêté du 4 février 2015
-      value: 55.5635
-    '2016-01-01':
-      metadata:
-        reference: Arrêté du 27 juin 2016
       value: 55.5635
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 17 novembre 2017
       value: 55.7302
 inflation:
   description: Inflation
@@ -95,44 +45,27 @@ inflation:
     unit: /1
   values:
     '2008-01-01':
-      metadata:
-        reference: Décret n° 2008-539 du 6 juin 2008
       value: 0.068
     '2009-01-01':
-      metadata:
-        reference: Arrêté du 20 mai 2009
       value: 0.079
     '2010-01-01':
-      metadata:
-        reference: Arrêté du 3 mai 2010
       value: 0.062
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 23 mars 2011
       value: 0.059
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 20 mars 2012
       value: 0.065
     '2013-01-01':
-      metadata:
-        reference: Arrêté du 18 avril 2013
       value: 0.055
     '2014-01-01':
-      metadata:
-        reference: Arrêté du 3 mars 2014
       value: 0.063
     '2015-01-01':
-      metadata:
-        reference: Arrêté du 4 février 2015
       value: 0.0516
     '2016-01-01':
-      metadata:
-        reference: Arrêté du 27 juin 2016
       value: 0.0308
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 17 novembre 2017
       value: 0.0138
 metadata:
-  rank: 3
+  order:
+  - indice_1
+  - indice_2
+  - inflation

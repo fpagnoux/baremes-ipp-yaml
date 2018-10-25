@@ -1,62 +1,20 @@
 description: Paramètres de calcul dans le secteur locatif (après la réforme)
 metadata:
-  rank: 6
+  order:
+  - plafond_loyers_zone_1
+  - plafond_loyers_zone_2
+  - plafond_loyers_zone_3
+  - montant_forfaitaire_participation_minimale_po
+  - montant_proportionnel_participation_minimale_po
+  - tf
+  - tl
+  - montant_forfaitaire
 montant_forfaitaire:
   description: Montant forfaitaire
   metadata:
     unit: currency-EUR
   values:
     '2001-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2000
-      value: null
-    '2001-07-01':
-      metadata:
-        reference: Arrêté du 31/07/2001
-      value: null
-    '2002-07-01':
-      metadata:
-        reference: Arrêté du 20/12/2002
-      value: null
-    '2003-07-01':
-      metadata:
-        reference: Arrêté du 28/05/2004
-      value: null
-    '2004-06-01':
-      value: null
-    '2005-09-01':
-      metadata:
-        reference: Arrêté du 19/12/2005
-      value: null
-    '2007-01-01':
-      metadata:
-        reference: Arrêté du 23/12/2006
-      value: null
-    '2007-07-01':
-      metadata:
-        reference: Arrêté du 10/07/2007
-      value: null
-    '2008-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2007
-      value: null
-    '2009-01-01':
-      metadata:
-        reference: Arrêté du 31/12/2008
-      value: null
-    '2010-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2009
-      value: null
-    '2011-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2010
-      value: null
-    '2012-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2011
-      value: null
-    '2013-01-01':
       value: null
     '2017-10-01':
       value: 5.0
@@ -68,58 +26,24 @@ montant_forfaitaire_participation_minimale_po:
       '2002-01-01': currency-EUR
   values:
     '2001-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2000
-      value: 175.0
-    '2001-07-01':
-      metadata:
-        reference: Arrêté du 31/07/2001
       value: 175.0
     '2002-01-01':
-      metadata:
-        reference: Arrêté du 31/07/2001
       value: 26.68
     '2002-07-01':
-      metadata:
-        reference: Arrêté du 20/12/2002
-      value: 28.0
-    '2003-07-01':
-      metadata:
-        reference: Arrêté du 28/05/2004
       value: 28.0
     '2004-06-01':
       value: 29.0
-    '2005-09-01':
-      metadata:
-        reference: Arrêté du 19/12/2005
-      value: 29.0
     '2007-01-01':
-      metadata:
-        reference: Arrêté du 23/12/2006
-      value: 30.0
-    '2007-07-01':
-      metadata:
-        reference: Arrêté du 10/07/2007
       value: 30.0
     '2008-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2007
       value: 31.0
     '2009-01-01':
-      metadata:
-        reference: Arrêté du 31/12/2008
       value: 33.0
     '2010-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2009
       value: 33.11
     '2011-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2010
       value: 33.47
     '2012-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2011
       value: 33.8
     '2013-01-01':
       value: 34.53
@@ -135,56 +59,6 @@ montant_proportionnel_participation_minimale_po:
     unit: /1
   values:
     '2001-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2000
-      value: 0.085
-    '2001-07-01':
-      metadata:
-        reference: Arrêté du 31/07/2001
-      value: 0.085
-    '2002-07-01':
-      metadata:
-        reference: Arrêté du 20/12/2002
-      value: 0.085
-    '2003-07-01':
-      metadata:
-        reference: Arrêté du 28/05/2004
-      value: 0.085
-    '2004-06-01':
-      value: 0.085
-    '2005-09-01':
-      metadata:
-        reference: Arrêté du 19/12/2005
-      value: 0.085
-    '2007-01-01':
-      metadata:
-        reference: Arrêté du 23/12/2006
-      value: 0.085
-    '2007-07-01':
-      metadata:
-        reference: Arrêté du 10/07/2007
-      value: 0.085
-    '2008-01-01':
-      metadata:
-        reference: Arrêté du 26/12/2007
-      value: 0.085
-    '2009-01-01':
-      metadata:
-        reference: Arrêté du 31/12/2008
-      value: 0.085
-    '2010-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2009
-      value: 0.085
-    '2011-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2010
-      value: 0.085
-    '2012-01-01':
-      metadata:
-        reference: Arrêté du 30/12/2011
-      value: 0.085
-    '2013-01-01':
       value: 0.085
 plafond_loyers_zone_1:
   couples:
@@ -195,58 +69,28 @@ plafond_loyers_zone_1:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1902.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1925.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 293.46
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 299.33
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 302.92
-      '2004-06-01':
         value: 302.92
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 308.37
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 317.0
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 317.0
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 325.75
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 335.36
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 336.43
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 340.13
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 343.53
       '2013-01-01':
         value: 350.92
@@ -265,58 +109,28 @@ plafond_loyers_zone_1:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 310.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 314.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 47.87
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 48.44
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 49.65
-      '2004-06-01':
         value: 49.65
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 50.54
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 51.96
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 51.96
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 53.39
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 54.97
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 55.15
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 55.76
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 56.32
       '2013-01-01':
         value: 57.53
@@ -326,6 +140,12 @@ plafond_loyers_zone_1:
         value: 57.91
       '2017-10-01':
         value: 58.34
+  metadata:
+    order:
+    - personnes_seules
+    - couples
+    - personnes_seules_couples_avec_1_enfant
+    - majoration_par_enfant_supplementaire
   personnes_seules:
     description: Personnes seules
     metadata:
@@ -334,58 +154,28 @@ plafond_loyers_zone_1:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1577.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1596.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 243.31
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 248.18
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 251.16
-      '2004-06-01':
         value: 251.16
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 255.68
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 262.84
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 262.84
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 270.09
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 278.06
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 278.95
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 282.02
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 284.84
       '2013-01-01':
         value: 290.96
@@ -403,58 +193,28 @@ plafond_loyers_zone_1:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 2139.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 2165.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 330.05
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 334.01
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 342.36
-      '2004-06-01':
         value: 342.36
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 348.52
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 358.28
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 358.28
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 368.17
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 379.03
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 380.24
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 384.42
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 388.26
       '2013-01-01':
         value: 396.61
@@ -473,58 +233,28 @@ plafond_loyers_zone_2:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1696.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1716.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 261.6
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 264.74
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 267.92
-      '2004-06-01':
         value: 267.92
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 272.74
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 280.38
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 280.38
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 288.12
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 296.62
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 297.57
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 300.84
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 303.85
       '2013-01-01':
         value: 310.38
@@ -543,58 +273,28 @@ plafond_loyers_zone_2:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 278.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 281.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 42.84
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 43.35
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 43.87
-      '2004-06-01':
         value: 43.87
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 44.66
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 45.91
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 45.91
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 47.18
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 48.57
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 48.73
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 49.27
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 49.76
       '2013-01-01':
         value: 50.83
@@ -604,6 +304,12 @@ plafond_loyers_zone_2:
         value: 51.16
       '2017-10-01':
         value: 51.54
+  metadata:
+    order:
+    - personnes_seules
+    - couples
+    - personnes_seules_couples_avec_1_enfant
+    - majoration_par_enfant_supplementaire
   personnes_seules:
     description: Personnes seules
     metadata:
@@ -612,58 +318,28 @@ plafond_loyers_zone_2:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1385.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1402.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 213.73
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 216.29
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 218.89
-      '2004-06-01':
         value: 218.89
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 222.83
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 229.07
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 229.07
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 235.39
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 242.33
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 243.11
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 245.78
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 248.24
       '2013-01-01':
         value: 253.58
@@ -681,58 +357,28 @@ plafond_loyers_zone_2:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1908.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1931.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 294.38
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 297.91
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 301.48
-      '2004-06-01':
         value: 301.48
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 306.91
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 315.5
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 315.5
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 324.21
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 333.77
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 334.84
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 338.52
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 341.91
       '2013-01-01':
         value: 349.26
@@ -751,58 +397,28 @@ plafond_loyers_zone_3:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1574.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1593.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 242.85
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 245.76
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 248.71
-      '2004-06-01':
         value: 248.71
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 253.19
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 260.28
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 260.28
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 267.46
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 275.35
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 276.23
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 279.27
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 282.06
       '2013-01-01':
         value: 288.12
@@ -821,58 +437,28 @@ plafond_loyers_zone_3:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 253.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 256.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 39.03
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 39.5
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 39.97
-      '2004-06-01':
         value: 39.97
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 40.69
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 41.83
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 41.83
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 42.98
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 44.25
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 44.39
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 44.88
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 45.33
       '2013-01-01':
         value: 46.3
@@ -882,6 +468,12 @@ plafond_loyers_zone_3:
         value: 46.6
       '2017-10-01':
         value: 46.95
+  metadata:
+    order:
+    - personnes_seules
+    - couples
+    - personnes_seules_couples_avec_1_enfant
+    - majoration_par_enfant_supplementaire
   personnes_seules:
     description: Personnes seules
     metadata:
@@ -890,58 +482,28 @@ plafond_loyers_zone_3:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1298.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1314.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 200.32
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 202.72
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 205.15
-      '2004-06-01':
         value: 205.15
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 208.84
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 214.69
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 214.69
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 220.62
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 227.13
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 227.86
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 230.37
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 232.67
       '2013-01-01':
         value: 237.67
@@ -959,58 +521,28 @@ plafond_loyers_zone_3:
         '2002-01-01': currency-EUR
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
         value: 1765.0
       '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 1786.0
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 272.27
       '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
         value: 275.54
       '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 278.85
-      '2004-06-01':
         value: 278.85
       '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
         value: 283.87
       '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 291.82
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
         value: 291.82
       '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
         value: 299.87
       '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
         value: 308.72
       '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
         value: 309.71
       '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
         value: 313.12
       '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: 316.25
       '2013-01-01':
         value: 323.05
@@ -1027,122 +559,31 @@ tf:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0331
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 0.0331
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0394
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0394
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0394
-      '2004-06-01':
-        value: 0.0394
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0394
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0394
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0315
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0315
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0315
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0315
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0315
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0315
-      '2013-01-01':
         value: 0.0315
   description: TF
+  metadata:
+    order:
+    - personnes_isolees
+    - couples_sans_enfant
+    - personnes_seules_couples_avec_1_enfant
+    - personnes_seules_couples_avec_2_enfants
+    - personnes_seules_couples_avec_3_enfants
+    - personnes_seules_couples_avec_4_enfants
+    - variation_tf_par_enfant_supplementaire
   personnes_isolees:
     description: Personnes isolées
     metadata:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0308
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 0.0308
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0354
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0354
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0354
-      '2004-06-01':
-        value: 0.0354
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0354
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0354
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0283
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0283
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0283
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0283
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0283
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0283
-      '2013-01-01':
         value: 0.0283
   personnes_seules_couples_avec_1_enfant:
     description: Personnes seules et couples avec 1 enfant
@@ -1150,60 +591,10 @@ tf:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0278
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 0.0278
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0338
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0338
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0338
-      '2004-06-01':
-        value: 0.0338
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0338
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0338
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.027
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.027
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.027
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.027
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.027
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.027
-      '2013-01-01':
         value: 0.027
   personnes_seules_couples_avec_2_enfants:
     description: Personnes seules et couples avec 2 enfants
@@ -1211,60 +602,10 @@ tf:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0257
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 0.0257
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0297
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0297
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0297
-      '2004-06-01':
-        value: 0.0297
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0297
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0297
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0238
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0238
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0238
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0238
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0238
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0238
-      '2013-01-01':
         value: 0.0238
   personnes_seules_couples_avec_3_enfants:
     description: Personnes seules et couples avec 3 enfants
@@ -1272,60 +613,10 @@ tf:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0228
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 0.0228
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0251
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0251
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0251
-      '2004-06-01':
-        value: 0.0251
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0251
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0251
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0201
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0201
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0201
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0201
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0201
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0201
-      '2013-01-01':
         value: 0.0201
   personnes_seules_couples_avec_4_enfants:
     description: Personnes seules et couples avec 4 enfants
@@ -1333,60 +624,10 @@ tf:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0217
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: 0.0217
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0231
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0231
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0231
-      '2004-06-01':
-        value: 0.0231
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0231
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0231
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0185
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0185
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0185
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0185
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0185
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0185
-      '2013-01-01':
         value: 0.0185
   variation_tf_par_enfant_supplementaire:
     description: Variation de TF par enfant supplémentaire
@@ -1394,60 +635,10 @@ tf:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: -0.0006
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
         value: -0.0006
       '2002-01-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: -0.0007
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: -0.0007
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: -0.0007
-      '2004-06-01':
-        value: -0.0007
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: -0.0007
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: -0.0007
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: -0.0006
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: -0.0006
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: -0.0006
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: -0.0006
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: -0.0006
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: -0.0006
-      '2013-01-01':
         value: -0.0006
 tl:
   debut_2eme_tranche_calcul_tl_fin_1ere_tranche:
@@ -1457,56 +648,6 @@ tl:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.45
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.45
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.45
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.45
-      '2004-06-01':
-        value: 0.45
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.45
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 0.45
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.45
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.45
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.45
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.45
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.45
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.45
-      '2013-01-01':
         value: 0.45
   debut_3eme_tranche_calcul_tl:
     description: Début de la 3ème tranche pour le calcul de TL
@@ -1514,110 +655,22 @@ tl:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.75
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.75
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.75
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.75
-      '2004-06-01':
-        value: 0.75
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.75
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 0.75
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.75
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.75
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.75
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.75
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.75
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.75
-      '2013-01-01':
         value: 0.75
   description: TL
+  metadata:
+    order:
+    - tl_1ere_tranche
+    - tl_2eme_tranche
+    - tl_3eme_tranche
+    - debut_2eme_tranche_calcul_tl_fin_1ere_tranche
+    - debut_3eme_tranche_calcul_tl
+    - minorant_1e_tranche
+    - minorant_2e_tranche
+    - minorant_3e_tranche
   minorant_1e_tranche:
     description: Minorant pour la 1e tranche
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: null
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: null
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: null
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: null
-      '2004-06-01':
-        value: null
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: null
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: null
       '2013-01-01':
         value: 0.0
@@ -1625,54 +678,6 @@ tl:
     description: Minorant pour la 2e tranche
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: null
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: null
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: null
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: null
-      '2004-06-01':
-        value: null
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: null
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: null
       '2013-01-01':
         value: 20.25
@@ -1680,54 +685,6 @@ tl:
     description: Minorant pour la 3e tranche
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: null
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: null
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: null
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: null
-      '2004-06-01':
-        value: null
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: null
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: null
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: null
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: null
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: null
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
         value: null
       '2013-01-01':
         value: 37.5
@@ -1737,56 +694,6 @@ tl:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0
-      '2004-06-01':
-        value: 0.0
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
-        value: 0.0
-      '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0
-      '2013-01-01':
         value: 0.0
   tl_2eme_tranche:
     description: TL pour la 2ème tranche
@@ -1794,56 +701,8 @@ tl:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0056
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0056
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0056
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0056
-      '2004-06-01':
-        value: 0.0056
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0056
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0056
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0045
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0045
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0045
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0045
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0045
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0045
-      '2013-01-01':
         value: 0.0045
   tl_3eme_tranche:
     description: TL pour la 3ème tranche
@@ -1851,54 +710,6 @@ tl:
       unit: /1
     values:
       '2001-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2000
-        value: 0.0085
-      '2001-07-01':
-        metadata:
-          reference: Arrêté du 31/07/2001
-        value: 0.0085
-      '2002-07-01':
-        metadata:
-          reference: Arrêté du 20/12/2002
-        value: 0.0085
-      '2003-07-01':
-        metadata:
-          reference: Arrêté du 28/05/2004
-        value: 0.0085
-      '2004-06-01':
-        value: 0.0085
-      '2005-09-01':
-        metadata:
-          reference: Arrêté du 19/12/2005
-        value: 0.0085
-      '2007-01-01':
-        metadata:
-          reference: Arrêté du 23/12/2006
         value: 0.0085
       '2007-07-01':
-        metadata:
-          reference: Arrêté du 10/07/2007
-        value: 0.0068
-      '2008-01-01':
-        metadata:
-          reference: Arrêté du 26/12/2007
-        value: 0.0068
-      '2009-01-01':
-        metadata:
-          reference: Arrêté du 31/12/2008
-        value: 0.0068
-      '2010-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2009
-        value: 0.0068
-      '2011-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2010
-        value: 0.0068
-      '2012-01-01':
-        metadata:
-          reference: Arrêté du 30/12/2011
-        value: 0.0068
-      '2013-01-01':
         value: 0.0068

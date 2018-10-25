@@ -1,6 +1,8 @@
 description: Prix unitaire tarif de base EDF (toutes taxes comprises)
 metadata:
-  rank: 3
+  order:
+  - prix_kwh_3_kva
+  - prix_kwh_6_kva
 prix_kwh_3_kva:
   description: Prix du kWh - 3 kVA
   metadata:

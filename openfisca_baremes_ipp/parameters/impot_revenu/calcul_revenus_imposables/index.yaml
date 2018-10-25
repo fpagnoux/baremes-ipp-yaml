@@ -1,3 +1,9 @@
 description: Calcul des revenus imposables
 metadata:
-  rank: 1
+  order:
+  - deductions
+  - rcm
+  - micro
+  - charg_deduc
+  - abat_rni
+  - exo_ir

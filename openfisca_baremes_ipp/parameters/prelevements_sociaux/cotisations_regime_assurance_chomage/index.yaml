@@ -1,3 +1,6 @@
 description: Cotisations au régime de l'assurance chômage
 metadata:
-  rank: 3
+  order:
+  - chomage
+  - ags
+  - asf

@@ -282,4 +282,8 @@ base_0_1000:
       value: 85.83
 description: Part fixe tarif réglementé GDF (toutes taxes comprises)
 metadata:
-  rank: 2
+  order:
+  - base_0_1000
+  - b0_1000_6000
+  - b1_6_30000
+  - b2i_30000

@@ -1,0 +1,135 @@
+description: Nombre d'années prises en compte dans la calcul du SAM
+metadata:
+  order:
+  - nombre_annees_carriere_entrant_en_jeu_dans_determination_salaire_annuel_moyen
+nombre_annees_carriere_entrant_en_jeu_dans_determination_salaire_annuel_moyen:
+  '1934':
+    description: '1934'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 11.0
+  '1935':
+    description: '1935'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 12.0
+  '1936':
+    description: '1936'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 13.0
+  '1937':
+    description: '1937'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 14.0
+  '1938':
+    description: '1938'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 15.0
+  '1939':
+    description: '1939'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 16.0
+  '1940':
+    description: '1940'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 17.0
+  '1941':
+    description: '1941'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 18.0
+  '1942':
+    description: '1942'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 19.0
+  '1943':
+    description: '1943'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 20.0
+  '1944':
+    description: '1944'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 21.0
+  '1945':
+    description: '1945'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 22.0
+  '1946':
+    description: '1946'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 23.0
+  '1947':
+    description: '1947'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 24.0
+  '1948':
+    description: '1948'
+    values:
+      '1972-01-01':
+        value: null
+      '1994-01-01':
+        value: 25.0
+  avant_1933:
+    description: Avant 1933
+    values:
+      '1972-01-01':
+        value: 10.0
+  description: Nombre d'années de carrière entrant en jeu dans la détermination du
+    salaire annuel moyen
+  metadata:
+    order:
+    - avant_1933
+    - '1934'
+    - '1935'
+    - '1936'
+    - '1937'
+    - '1938'
+    - '1939'
+    - '1940'
+    - '1941'
+    - '1942'
+    - '1943'
+    - '1944'
+    - '1945'
+    - '1946'
+    - '1947'
+    - '1948'

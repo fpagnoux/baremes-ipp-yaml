@@ -4,38 +4,14 @@ boissons_energisantes:
     unit: currency-EUR
   values:
     '2012-05-07':
-      metadata:
-        reference: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
-          2012 - art. 1
-      value: null
-    '2013-06-07':
-      metadata:
-        reference: Décret 2013-463 du 03/062013
       value: null
     '2014-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
       value: 100.0
     '2014-05-30':
-      metadata:
-        reference: Décret 2014-549 du 26/05/2014
       value: 101.9
     '2015-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
       value: 102.61
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
-      value: null
-    '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
-      value: null
-    '2018-07-01':
-      metadata:
-        reference: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
-          de la sécurité sociale pour 2018.
       value: null
 contribution_boissons_edulcorees_y_compris_mayotte:
   description: Contribution sur les boissons édulcorées, y compris à Mayotte
@@ -43,38 +19,10 @@ contribution_boissons_edulcorees_y_compris_mayotte:
     unit: currency-EUR
   values:
     '2012-05-07':
-      metadata:
-        reference: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
-          2012 - art. 1
-      value: null
-    '2013-06-07':
-      metadata:
-        reference: Décret 2013-463 du 03/062013
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
-      value: null
-    '2014-05-30':
-      metadata:
-        reference: Décret 2014-549 du 26/05/2014
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
-      value: null
-    '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
       value: null
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
       value: 7.55
     '2018-07-01':
-      metadata:
-        reference: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
-          de la sécurité sociale pour 2018.
       value: 3.0
 contribution_boissons_sucrees_edulcorees_eur_hl:
   description: Contribution sur les boissons sucrées ou édulcorées (€/hl)
@@ -82,38 +30,16 @@ contribution_boissons_sucrees_edulcorees_eur_hl:
     unit: currency-EUR
   values:
     '2012-05-07':
-      metadata:
-        reference: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
-          2012 - art. 1
       value: 7.16
     '2013-06-07':
-      metadata:
-        reference: Décret 2013-463 du 03/062013
       value: 7.31
     '2014-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
-      value: 7.45
-    '2014-05-30':
-      metadata:
-        reference: Décret 2014-549 du 26/05/2014
       value: 7.45
     '2015-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
       value: 7.5
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
       value: 7.53
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
-      value: null
-    '2018-07-01':
-      metadata:
-        reference: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
-          de la sécurité sociale pour 2018.
       value: null
 contribution_boissons_sucrees_edulcorees_taux_applicables_uniquement_mayotte_eur_hl:
   description: Contribution sur les boissons sucrées ou édulcorées - Taux applicables
@@ -122,42 +48,16 @@ contribution_boissons_sucrees_edulcorees_taux_applicables_uniquement_mayotte_eur
     unit: currency-EUR
   values:
     '2012-05-07':
-      metadata:
-        reference: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
-          2012 - art. 1
-      value: null
-    '2013-06-07':
-      metadata:
-        reference: Décret 2013-463 du 03/062013
       value: null
     '2014-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
-      value: 3.31
-    '2014-05-30':
-      metadata:
-        reference: Décret 2014-549 du 26/05/2014
       value: 3.31
     '2015-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
       value: 4.31
     '2016-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
       value: 5.31
     '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
       value: 7.31
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
-      value: null
-    '2018-07-01':
-      metadata:
-        reference: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
-          de la sécurité sociale pour 2018.
       value: null
 contribution_boissons_sucrees_y_compris_mayotte:
   description: Contribution sur les boissons sucrées y compris à Mayotte
@@ -165,39 +65,16 @@ contribution_boissons_sucrees_y_compris_mayotte:
     unit: currency-EUR
   values:
     '2012-05-07':
-      metadata:
-        reference: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
-          2012 - art. 1
-      value: null
-    '2013-06-07':
-      metadata:
-        reference: Décret 2013-463 du 03/062013
-      value: null
-    '2014-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
-      value: null
-    '2014-05-30':
-      metadata:
-        reference: Décret 2014-549 du 26/05/2014
-      value: null
-    '2015-01-01':
-      metadata:
-        reference: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
-      value: null
-    '2017-01-01':
-      metadata:
-        reference: Arrêté du 27/12/2016
       value: null
     '2018-01-01':
-      metadata:
-        reference: Arrêté du 22/12/2017
       value: 7.55
     '2018-07-01':
-      metadata:
-        reference: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
-          de la sécurité sociale pour 2018.
       value: null
 description: Boissons sucrées, édulcorées ou énergisantes
 metadata:
-  rank: 5
+  order:
+  - contribution_boissons_sucrees_edulcorees_eur_hl
+  - contribution_boissons_sucrees_edulcorees_taux_applicables_uniquement_mayotte_eur_hl
+  - contribution_boissons_edulcorees_y_compris_mayotte
+  - contribution_boissons_sucrees_y_compris_mayotte
+  - boissons_energisantes

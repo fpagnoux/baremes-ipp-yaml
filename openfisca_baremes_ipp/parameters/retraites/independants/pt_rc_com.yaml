@@ -1,6 +1,7 @@
 description: 'Régime complémentaire des commerçants : valeur de service du point (2004-2012)'
 metadata:
-  rank: 7
+  order:
+  - valeur_points_acquis_depuis_1973
 valeur_points_acquis_depuis_1973:
   description: Valeur des points acquis depuis 1973
   metadata:

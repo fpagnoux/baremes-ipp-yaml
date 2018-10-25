@@ -1,3 +1,5 @@
 description: TVA
 metadata:
-  rank: 1
+  order:
+  - taux_de_tva
+  - tva_par_produit

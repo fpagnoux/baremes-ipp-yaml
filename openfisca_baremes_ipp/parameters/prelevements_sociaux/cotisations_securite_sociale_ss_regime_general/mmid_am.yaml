@@ -4,84 +4,22 @@ allocations_chomage_preretraite:
     unit: /1
   values:
     '1946-07-01':
-      metadata:
-        reference: Décret 46-1428 du 12/06/1946
-      value: null
-    '1947-07-01':
-      metadata:
-        reference: Décret 47-1617 du 23/08/1947
-      value: null
-    '1967-10-01':
-      metadata:
-        reference: Décret 67-814 du 25/09/1967
-      value: null
-    '1986-01-11':
-      metadata:
-        reference: Décret 85-1507 du 31/12/1985
-      value: null
-    '1989-09-01':
-      metadata:
-        reference: Décret 89-541 du 03/08/1989
-      value: null
-    '1990-12-01':
-      metadata:
-        reference: Décret 90-1077 du 04/12/1990
-      value: null
-    '1992-01-01':
-      metadata:
-        reference: Décret 92-1 du 02/01/1992
-      value: null
-    '1993-01-01':
-      metadata:
-        reference: Décret 93-43 du 12/01/1993
-      value: null
-    '1994-01-01':
-      metadata:
-        reference: Décret 93-1359 du 30/12/1993
-      value: null
-    '1995-01-01':
-      metadata:
-        reference: Décret 94-1152 du 27/12/1994
-      value: null
-    '1996-01-01':
-      metadata:
-        reference: Décision du régime local du 20/11/1995 (Avis publié au JO)
       value: null
     '1997-01-01':
-      metadata:
-        reference: Décision du régime local du 04/11/1996 (Avis publié au JO)
       value: 0.01
     '1998-07-01':
-      metadata:
-        reference: Décision du régime local du 20/10/1997 (Avis publié au JO)
       value: 0.0125
     '1999-07-01':
-      metadata:
-        reference: Décision du régime local du 26/10/1998 (Avis publié au JO)
-      value: 0.015
-    '2000-07-01':
-      metadata:
-        reference: Décision du régime local du 27/03/2000 (Avis publié au JO)
       value: 0.015
     '2003-01-01':
-      metadata:
-        reference: Décision du régime local du 18/11/2002 (Avis publié au JO)
       value: 0.017
     '2006-01-01':
-      metadata:
-        reference: Décision du régime local du 19/12/2005 (Avis publié au JO)
       value: 0.018
     '2007-07-01':
-      metadata:
-        reference: Décision du régime local du 27/11/2007 (Avis publié au JO)
       value: 0.017
     '2008-01-01':
-      metadata:
-        reference: Décision du régime local du 16/04/2007 (Avis publié au JO)
       value: 0.016
     '2012-01-01':
-      metadata:
-        reference: Décision du régime local du 28/11/2011 (Avis publié au JO)
       value: 0.015
 avantages_vieillesses:
   description: Avantages vieillesses
@@ -89,175 +27,50 @@ avantages_vieillesses:
     unit: /1
   values:
     '1946-07-01':
-      metadata:
-        reference: Décret 46-1428 du 12/06/1946
-      value: null
-    '1947-07-01':
-      metadata:
-        reference: Décret 47-1617 du 23/08/1947
-      value: null
-    '1967-10-01':
-      metadata:
-        reference: Décret 67-814 du 25/09/1967
-      value: null
-    '1986-01-11':
-      metadata:
-        reference: Décret 85-1507 du 31/12/1985
       value: null
     '1989-09-01':
-      metadata:
-        reference: Décret 89-541 du 03/08/1989
-      value: 0.007
-    '1990-12-01':
-      metadata:
-        reference: Décret 90-1077 du 04/12/1990
-      value: 0.007
-    '1992-01-01':
-      metadata:
-        reference: Décret 92-1 du 02/01/1992
-      value: 0.007
-    '1993-01-01':
-      metadata:
-        reference: Décret 93-43 du 12/01/1993
       value: 0.007
     '1994-01-01':
-      metadata:
-        reference: Décret 93-1359 du 30/12/1993
-      value: 0.01
-    '1995-01-01':
-      metadata:
-        reference: Décret 94-1152 du 27/12/1994
-      value: 0.01
-    '1996-01-01':
-      metadata:
-        reference: Décision du régime local du 20/11/1995 (Avis publié au JO)
-      value: 0.01
-    '1997-01-01':
-      metadata:
-        reference: Décision du régime local du 04/11/1996 (Avis publié au JO)
       value: 0.01
     '1998-07-01':
-      metadata:
-        reference: Décision du régime local du 20/10/1997 (Avis publié au JO)
       value: 0.0125
     '1999-07-01':
-      metadata:
-        reference: Décision du régime local du 26/10/1998 (Avis publié au JO)
-      value: 0.015
-    '2000-07-01':
-      metadata:
-        reference: Décision du régime local du 27/03/2000 (Avis publié au JO)
       value: 0.015
     '2003-01-01':
-      metadata:
-        reference: Décision du régime local du 18/11/2002 (Avis publié au JO)
       value: 0.017
     '2006-01-01':
-      metadata:
-        reference: Décision du régime local du 19/12/2005 (Avis publié au JO)
       value: 0.018
     '2007-07-01':
-      metadata:
-        reference: Décision du régime local du 27/11/2007 (Avis publié au JO)
       value: 0.017
     '2008-01-01':
-      metadata:
-        reference: Décision du régime local du 16/04/2007 (Avis publié au JO)
       value: 0.016
     '2012-01-01':
-      metadata:
-        reference: Décision du régime local du 28/11/2011 (Avis publié au JO)
       value: 0.015
 description: Cotisations du régime local d'assurance maladie d'Alsace et Moselle MMID-AM
   (1967-2017)
 metadata:
-  rank: 3
+  order:
+  - salaries
+  - avantages_vieillesses
+  - allocations_chomage_preretraite
 salaries:
   description: Salariés
+  metadata:
+    order:
+    - sous_plafond
+    - tout_salaire
   sous_plafond:
     description: Sous-plafond
     metadata:
       unit: /1
     values:
       '1946-07-01':
-        metadata:
-          reference: Décret 46-1428 du 12/06/1946
         value: 0.02
       '1947-07-01':
-        metadata:
-          reference: Décret 47-1617 du 23/08/1947
         value: 0.01
       '1967-10-01':
-        metadata:
-          reference: Décret 67-814 du 25/09/1967
         value: 0.015
       '1986-01-11':
-        metadata:
-          reference: Décret 85-1507 du 31/12/1985
-        value: null
-      '1989-09-01':
-        metadata:
-          reference: Décret 89-541 du 03/08/1989
-        value: null
-      '1990-12-01':
-        metadata:
-          reference: Décret 90-1077 du 04/12/1990
-        value: null
-      '1992-01-01':
-        metadata:
-          reference: Décret 92-1 du 02/01/1992
-        value: null
-      '1993-01-01':
-        metadata:
-          reference: Décret 93-43 du 12/01/1993
-        value: null
-      '1994-01-01':
-        metadata:
-          reference: Décret 93-1359 du 30/12/1993
-        value: null
-      '1995-01-01':
-        metadata:
-          reference: Décret 94-1152 du 27/12/1994
-        value: null
-      '1996-01-01':
-        metadata:
-          reference: Décision du régime local du 20/11/1995 (Avis publié au JO)
-        value: null
-      '1997-01-01':
-        metadata:
-          reference: Décision du régime local du 04/11/1996 (Avis publié au JO)
-        value: null
-      '1998-07-01':
-        metadata:
-          reference: Décision du régime local du 20/10/1997 (Avis publié au JO)
-        value: null
-      '1999-07-01':
-        metadata:
-          reference: Décision du régime local du 26/10/1998 (Avis publié au JO)
-        value: null
-      '2000-07-01':
-        metadata:
-          reference: Décision du régime local du 27/03/2000 (Avis publié au JO)
-        value: null
-      '2003-01-01':
-        metadata:
-          reference: Décision du régime local du 18/11/2002 (Avis publié au JO)
-        value: null
-      '2006-01-01':
-        metadata:
-          reference: Décision du régime local du 19/12/2005 (Avis publié au JO)
-        value: null
-      '2007-07-01':
-        metadata:
-          reference: Décision du régime local du 27/11/2007 (Avis publié au JO)
-        value: null
-      '2008-01-01':
-        metadata:
-          reference: Décision du régime local du 16/04/2007 (Avis publié au JO)
-        value: null
-      '2012-01-01':
-        metadata:
-          reference: Décision du régime local du 28/11/2011 (Avis publié au JO)
         value: null
   tout_salaire:
     description: Sur tout salaire
@@ -265,82 +78,28 @@ salaries:
       unit: /1
     values:
       '1946-07-01':
-        metadata:
-          reference: Décret 46-1428 du 12/06/1946
-        value: null
-      '1947-07-01':
-        metadata:
-          reference: Décret 47-1617 du 23/08/1947
-        value: null
-      '1967-10-01':
-        metadata:
-          reference: Décret 67-814 du 25/09/1967
         value: null
       '1986-01-11':
-        metadata:
-          reference: Décret 85-1507 du 31/12/1985
         value: 0.015
       '1989-09-01':
-        metadata:
-          reference: Décret 89-541 du 03/08/1989
-        value: 0.017
-      '1990-12-01':
-        metadata:
-          reference: Décret 90-1077 du 04/12/1990
-        value: 0.017
-      '1992-01-01':
-        metadata:
-          reference: Décret 92-1 du 02/01/1992
         value: 0.017
       '1993-01-01':
-        metadata:
-          reference: Décret 93-43 du 12/01/1993
         value: 0.016
       '1994-01-01':
-        metadata:
-          reference: Décret 93-1359 du 30/12/1993
-        value: 0.0215
-      '1995-01-01':
-        metadata:
-          reference: Décret 94-1152 du 27/12/1994
         value: 0.0215
       '1996-01-01':
-        metadata:
-          reference: Décision du régime local du 20/11/1995 (Avis publié au JO)
         value: 0.0195
       '1997-01-01':
-        metadata:
-          reference: Décision du régime local du 04/11/1996 (Avis publié au JO)
-        value: 0.018
-      '1998-07-01':
-        metadata:
-          reference: Décision du régime local du 20/10/1997 (Avis publié au JO)
-        value: 0.018
-      '1999-07-01':
-        metadata:
-          reference: Décision du régime local du 26/10/1998 (Avis publié au JO)
         value: 0.018
       '2000-07-01':
-        metadata:
-          reference: Décision du régime local du 27/03/2000 (Avis publié au JO)
         value: 0.0165
       '2003-01-01':
-        metadata:
-          reference: Décision du régime local du 18/11/2002 (Avis publié au JO)
         value: 0.017
       '2006-01-01':
-        metadata:
-          reference: Décision du régime local du 19/12/2005 (Avis publié au JO)
         value: 0.018
       '2007-07-01':
-        metadata:
-          reference: Décision du régime local du 27/11/2007 (Avis publié au JO)
         value: 0.017
       '2008-01-01':
-        metadata:
-          reference: Décision du régime local du 16/04/2007 (Avis publié au JO)
         value: 0.016
       '2012-01-01':
-        metadata:
-          reference: Décision du régime local du 28/11/2011 (Avis publié au JO)
         value: 0.015

@@ -1,6 +1,9 @@
 description: Salaire de référence IRCANTEC
 metadata:
-  rank: 10
+  order:
+  - salaire_reference_ircantec
+  - salaire_reference_igrante
+  - salaire_reference_ipacte
 salaire_reference_igrante:
   description: Salaire de référence IGRANTE
   metadata:
@@ -82,10 +85,6 @@ salaire_reference_igrante:
       value: 0.395
     '1971-01-01':
       value: null
-    '2017-01-01':
-      metadata:
-        reference: Ircantec - Notes juridiques n°2144 du 26/03/2015
-      value: null
 salaire_reference_ipacte:
   description: Salaire de référence IPACTE
   metadata:
@@ -164,10 +163,6 @@ salaire_reference_ipacte:
     '1970-01-01':
       value: 0.395
     '1971-01-01':
-      value: null
-    '2017-01-01':
-      metadata:
-        reference: Ircantec - Notes juridiques n°2144 du 26/03/2015
       value: null
 salaire_reference_ircantec:
   description: Salaire de référence IRCANTEC
@@ -269,6 +264,4 @@ salaire_reference_ircantec:
     '2016-01-01':
       value: 4.766
     '2017-01-01':
-      metadata:
-        reference: Ircantec - Notes juridiques n°2144 du 26/03/2015
       value: 4.904
