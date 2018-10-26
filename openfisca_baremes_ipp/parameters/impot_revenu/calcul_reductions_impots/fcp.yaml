@@ -30,7 +30,7 @@ metadata:
   order:
   - date_entree_en_vigueur
   - reduction_impot_souscriptions_parts_fcpi_fip
-  reference_boi:
+  reference:
     '2012-01-01': BOI-IR-RICI-110
 reduction_impot_souscriptions_parts_fcpi_fip:
   description: Réduction d'impôt pour souscriptions de parts de FCPI ou FIP

@@ -237,7 +237,7 @@ metadata:
   - imposition_plus_values_cession_valeurs_mobilieres_plus_values_professionnelles
   - imposition_plus_values_mobilieres_levees_options_attribuees_depuis_27_4_2000_cessions_realisees_moins_deux_ans_apres_levee
   - pea
-  reference_boi:
+  reference:
     '2002-01-01': 'BOI 5 C-1-03
 
       n°51 du 18/03/2003'

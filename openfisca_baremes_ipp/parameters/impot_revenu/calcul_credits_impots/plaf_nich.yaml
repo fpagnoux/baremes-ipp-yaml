@@ -32,9 +32,9 @@ metadata:
     '2010-01-01': Loi n°2009-1673 du 30 décembre 2009 - art. 81 (V)
     '2011-01-01': Loi n°2010-1657 du 29 décembre 2010 - art. 106 (V)
     '2012-01-01': Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
-    '2013-01-01': Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
-  reference_boi:
-    '2013-01-01': BOI-IR-LIQ-20-20-10-20130704
+    '2013-01-01':
+    - Loi n°2012-1509 du 29 décembre 2012 - art. 73 (VD)
+    - BOI-IR-LIQ-20-20-10-20130704
 plafonnement_niches:
   description: Plafonnement des niches
   majoration:
