@@ -1,55 +1,62 @@
-borne_inferieure_decote:
-  description: Borne inférieure de la décote
-  metadata:
-    unit: currency-EUR
-  values:
-    '2013-01-01':
-      value: 1300000.0
-    '2018-01-01':
-      value: null
-borne_superieure_decote:
-  description: Borne supérieure de la décote
-  metadata:
-    unit: currency-EUR
-  values:
-    '2013-01-01':
-      value: 1400000.0
-    '2018-01-01':
-      value: null
 description: Calcul de la décote
+parametre_calcul_decote_isf:
+  description: Paramètre de calcul de la décote ISF
+  values:
+    '2018-01-01':
+      value: null
+    '2013-01-01':
+      value: 17500.0
+  metadata:
+    unit: currency-EUR
 metadata:
-  date_parution_jo:
-    '2013-01-01': '2012-12-30'
-    '2018-01-01': '2017-12-31'
-  notes:
-    '2013-01-01': Décote = 17 500 € ― 1,25 % P, où P est la valeur nette taxable du
-      patrimoine, pour les patrimoines inférieurs à 1 400 000 €
-    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
   order:
   - parametre_calcul_decote_isf
   - borne_inferieure_decote
   - borne_superieure_decote
   - taux_decote_isf
   reference:
-    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
     '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
       885 U du CGI)
-parametre_calcul_decote_isf:
-  description: Paramètre de calcul de la décote ISF
+    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+    '2013-01-01': '2012-12-30'
+  notes:
+    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.
+    '2013-01-01': Décote = 17 500 € ― 1,25 % P, où P est la valeur nette taxable du
+      patrimoine, pour les patrimoines inférieurs à 1 400 000 €
+borne_inferieure_decote:
+  description: Borne inférieure de la décote
+  values:
+    '2018-01-01':
+      value: null
+    '2013-01-01':
+      value: 1300000.0
   metadata:
     unit: currency-EUR
+borne_superieure_decote:
+  description: Borne supérieure de la décote
   values:
-    '2013-01-01':
-      value: 17500.0
     '2018-01-01':
       value: null
+    '2013-01-01':
+      value: 1400000.0
+  metadata:
+    unit: currency-EUR
 taux_decote_isf:
   description: Taux de la décote ISF
-  metadata:
-    unit: /1
   values:
-    '2013-01-01':
-      value: 0.0125
     '2018-01-01':
       value: null
+    '2013-01-01':
+      value: 0.0125
+  metadata:
+    unit: /1
+documentation: |
+  Note : La décote prévue par la loi 2011-900 du 29/07/2011 de finances rectificative pour 2012 ne s'est jamais appliquée. En effet, bien que la décote ait été utilisée dans le calcul de l'ISF 2012, la contribution exceptionnelle sur la fortune instaurée par la loi de finances rectificative pour 2012 en neutralise l'effet. Le montant de la contribution correspond à la différence entre l'ISF déjà acquitté en 2012 et le montant calculé sur la base du barème de 2011.
+  Note : La décote prévue par la loi 2011-900 du 29/07/2011 de finances rectificative pour 2012 ne s'est jamais appliquée. En effet, bien que la décote ait été utilisée dans le calcul de l'ISF 2012, la contribution exceptionnelle sur la fortune instaurée par la loi de finances rectificative pour 2012 en neutralise l'effet. Le montant de la contribution correspond à la différence entre l'ISF déjà acquitté en 2012 et le montant calculé sur la base du barème de 2011.
+  Note : La décote prévue par la loi 2011-900 du 29/07/2011 de finances rectificative pour 2012 ne s'est jamais appliquée. En effet, bien que la décote ait été utilisée dans le calcul de l'ISF 2012, la contribution exceptionnelle sur la fortune instaurée par la loi de finances rectificative pour 2012 en neutralise l'effet. Le montant de la contribution correspond à la différence entre l'ISF déjà acquitté en 2012 et le montant calculé sur la base du barème de 2011.
+  Note : La décote prévue par la loi 2011-900 du 29/07/2011 de finances rectificative pour 2012 ne s'est jamais appliquée. En effet, bien que la décote ait été utilisée dans le calcul de l'ISF 2012, la contribution exceptionnelle sur la fortune instaurée par la loi de finances rectificative pour 2012 en neutralise l'effet. Le montant de la contribution correspond à la différence entre l'ISF déjà acquitté en 2012 et le montant calculé sur la base du barème de 2011.
+  Note : La décote prévue par la loi 2011-900 du 29/07/2011 de finances rectificative pour 2012 ne s'est jamais appliquée. En effet, bien que la décote ait été utilisée dans le calcul de l'ISF 2012, la contribution exceptionnelle sur la fortune instaurée par la loi de finances rectificative pour 2012 en neutralise l'effet. Le montant de la contribution correspond à la différence entre l'ISF déjà acquitté en 2012 et le montant calculé sur la base du barème de 2011.
+  Note : La décote prévue par la loi 2011-900 du 29/07/2011 de finances rectificative pour 2012 ne s'est jamais appliquée. En effet, bien que la décote ait été utilisée dans le calcul de l'ISF 2012, la contribution exceptionnelle sur la fortune instaurée par la loi de finances rectificative pour 2012 en neutralise l'effet. Le montant de la contribution correspond à la différence entre l'ISF déjà acquitté en 2012 et le montant calculé sur la base du barème de 2011.

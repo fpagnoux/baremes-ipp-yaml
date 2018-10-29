@@ -1,176 +1,106 @@
+description: Prélèvement libératoire sur les assurances vie
 bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat:
-  avec_anonymat:
-    description: Avec anonymat
-    metadata:
-      unit: /1
-    values:
-      '1983-01-01':
-        value: 0.5
-      '1999-04-01':
-        value: 0.6
-      '2018-01-01':
-        value: null
   description: Bons ou contrats de capitalisation et placements de même nature (assurance-vie)
     lors du dénouement du contrat
-  metadata:
-    order:
-    - souscrits_entre_1_1_83_31_12_89_une_duree
-    - souscrits_apres_1_1_90_une_duree
-    - avec_anonymat
-    - produits_beneficiant_personnes_etablies_dans_etat_non_cooperatif_6
   produits_beneficiant_personnes_etablies_dans_etat_non_cooperatif_6:
     description: Produits bénéficiant à des personnes établies dans un Etat "non-coopératif"
       (6)
-    metadata:
-      unit: /1
     values:
-      '1983-01-01':
-        value: null
-      '2010-03-01':
-        value: 0.5
-      '2013-01-01':
-        value: 0.75
       '2018-01-01':
         value: null
-  souscrits_apres_1_1_90_une_duree:
-    4_8_ans:
-      description: 4 à 8 ans
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: null
-        '1990-01-01':
-          value: 0.15
-        '2018-01-01':
-          value: null
-    8_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date:
-      description: 8 ans et plus (pour les primes versées avant le 01/01/1998 et les
-        produits afférents acquis après cette date)
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: null
-        '1990-01-01':
-          value: 0.0
-        '2018-01-01':
-          value: null
-    8_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5:
-      description: 8 ans et plus (pour les produits acquis après le 01/01/1998) avec
-        abattement sur l'IR (5)
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: null
-        '1998-01-01':
-          value: 0.075
-        '2018-01-01':
-          value: null
-    description: Souscrits après le 1/1/90 et le  pour une durée de
+      '2013-01-01':
+        value: 0.75
+      '2010-03-01':
+        value: 0.5
+      '1983-01-01':
+        value: null
     metadata:
-      order:
-      - moins_4_ans
-      - 4_8_ans
-      - 8_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date
-      - 8_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5
-    moins_4_ans:
-      description: moins de 4 ans
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: null
-        '1990-01-01':
-          value: 0.35
-        '2018-01-01':
-          value: null
-  souscrits_entre_1_1_83_31_12_89_une_duree:
-    2_4_ans_3:
-      description: "2 à 4 ans \n(3)"
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: 0.25
-        '1998-01-01':
-          value: null
-    4_6_ans_4:
-      description: '4 à 6 ans
-
-        (4)'
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: 0.15
-        '1998-01-01':
-          value: null
-    6_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date:
-      description: 6 ans et plus (pour les primes versées avant le 01/01/1998 et les
-        produits afférents acquis après cette date)
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: 0.0
-        '2018-01-01':
-          value: null
-    6_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5:
-      description: 6 ans et plus (pour les produits acquis après le 01/01/1998) avec
-        abattement sur l'IR (5)
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: null
-        '1998-01-01':
-          value: 0.075
-        '2018-01-01':
-          value: null
-    description: Souscrits entre le 1/1/83 et le 31/12/89 pour une durée de
-    metadata:
-      order:
-      - moins_2_ans_2
-      - 2_4_ans_3
-      - 4_6_ans_4
-      - 6_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date
-      - 6_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5
-    moins_2_ans_2:
-      description: "moins de 2 ans \n(2)"
-      metadata:
-        unit: /1
-      values:
-        '1983-01-01':
-          value: 0.45
-        '1998-01-01':
-          value: null
-description: Prélèvement libératoire sur les assurances vie
+      unit: /1
+  metadata:
+    order:
+    - produits_beneficiant_personnes_etablies_dans_etat_non_cooperatif_6
 metadata:
-  date_parution_jo:
-    '1983-01-01': '1997-12-30'
-    '1990-01-01': '1989-12-30'
-    '1998-01-01': '1997-12-31'
-    '1999-04-01': '1998-12-31'
-    '2010-03-01': '2009-12-31'
-    '2013-01-01': '2012-12-30'
-    '2018-01-01': '2017-12-31'
-  notes:
-    '1983-01-01': Création de l'art. 125-0 A du CGI
-    '1998-01-01': Les bons ou contrats principalement investis en actions sont exonérés
-      d'IR après huit ans.
-    '2018-01-01': Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
-      unique non-libératoire, dont la valeur est telle que la somme du taux de ce
-      prélèvement et des prélèvements sociaux est de 30%.
   order:
   - bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat
   reference:
-    '1983-01-01': Loi 82-1126 du 29/12/1982, art. 14 (LF pour 1983)
-    '1990-01-01': Loi 89-936 du 29/12/1989, art. 112 (LF pour 1990)
-    '1998-01-01': Loi 97-1269 du 30/12/1997, art. 21 (LF pour 1998)
-    '1999-04-01': Loi 98-1266 du 30/12/1998, art. 6 (LF pour 1999)
-    '2010-03-01': Loi 2009-1674 du 30/12/2009, art. 22
-    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 9
     '2018-01-01': Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
       125-0 A, 200 A et art 117 quater du CGI)
+    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 9
+    '2010-03-01': Loi 2009-1674 du 30/12/2009, art. 22
+    '1999-04-01': Loi 98-1266 du 30/12/1998, art. 6 (LF pour 1999)
+    '1998-01-01': Loi 97-1269 du 30/12/1997, art. 21 (LF pour 1998)
+    '1990-01-01': Loi 89-936 du 29/12/1989, art. 112 (LF pour 1990)
+    '1983-01-01': Loi 82-1126 du 29/12/1982, art. 14 (LF pour 1983)
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+    '2013-01-01': '2012-12-30'
+    '2010-03-01': '2009-12-31'
+    '1999-04-01': '1998-12-31'
+    '1998-01-01': '1997-12-31'
+    '1990-01-01': '1989-12-30'
+    '1983-01-01': '1997-12-30'
+  notes:
+    '2018-01-01': Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
+      unique non-libératoire, dont la valeur est telle que la somme du taux de ce
+      prélèvement et des prélèvements sociaux est de 30%.
+    '1998-01-01': Les bons ou contrats principalement investis en actions sont exonérés
+      d'IR après huit ans.
+    '1983-01-01': Création de l'art. 125-0 A du CGI
+documentation: |
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
+  (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.
+  (3) Au 1er janvier 1994, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de quatre ans.
+  (4) Au 1er janvier 1996, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de six ans.
+  (5) L'abattement sur l'impôt sur le revenu s'élève à 30 000 FRF (60 000 FRF pour les couples) à partir du 01/01/1998, puis à 4 600 € (9 200 € pour les couples) à partir du 01/01/2002.
+  (6) Etat "non-coopératif" : défini à l'article 238-0 A du CGI
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.
+  Référence du Code général des impôts : l'article 125-0 A du CGI régit le prélèvement sur les produits des bons ou contrats de capitalisation.

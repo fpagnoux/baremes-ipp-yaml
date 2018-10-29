@@ -1,70 +1,62 @@
 description: Cotisations pour le Fonds national d'aide au logement (FNAL)
-entreprises_plus_20_salaries:
-  description: Entreprises de plus de 20 salariés
-  dessus_pss:
-    description: Au-dessus du PSS
-    metadata:
-      unit: /1
+tout_employeur:
+  description: Tout employeur
+  sous_pss:
+    description: Sous PSS
     values:
       '1972-07-01':
-        value: null
-      '1986-01-01':
-        value: 0.0013
-      '1989-01-01':
-        value: 0.002
-      '1991-07-01':
-        value: 0.004
-      '2011-01-01':
-        value: 0.005
+        value: 0.001
+    metadata:
+      unit: /1
   metadata:
     order:
     - sous_pss
-    - dessus_pss
-  sous_pss:
-    description: Sous PSS
-    metadata:
-      unit: /1
-    values:
-      '1972-07-01':
-        value: null
-      '1986-01-01':
-        value: 0.0013
-      '1989-01-01':
-        value: 0.002
-      '1991-07-01':
-        value: 0.004
-      '2015-01-01':
-        value: 0.005
 metadata:
-  date_parution_jo:
-    '1972-07-01': '1972-06-30'
-    '1986-01-01': '1985-12-31'
-    '1989-01-01': '1988-12-28'
-    '1991-07-01': '1991-07-27'
-    '2011-01-01': '2010-12-30'
-    '2015-01-01': '2014-12-30'
-  notes:
-    '2015-01-01': Plus de distinction de tranches pour les entreprise de plus de 50
-      salariés
   order:
   - tout_employeur
   - entreprises_plus_20_salaries
   reference:
-    '1972-07-01': Décret 72-526 du 29/06/1972, art. 29
-    '1986-01-01': Loi 86-1317 du 30/12/1986, art. 82-II et III. (LF pour 1986)
-    '1989-01-01': Loi 88-1149 du 23/12/1988, art. 86 (LF pour 1989)
-    '1991-07-01': Loi 91-716 du 26/07/1991, art. 26
-    '2011-01-01': Loi 2010-1657 du 29/12/2010, art. 209 (LF pour 2011)
     '2015-01-01': Loi 2014-1655 du 29/12/2014, art. 29 (LFR pour 2014)
-tout_employeur:
-  description: Tout employeur
-  metadata:
-    order:
-    - sous_pss
-  sous_pss:
-    description: Sous PSS
+    '2011-01-01': Loi 2010-1657 du 29/12/2010, art. 209 (LF pour 2011)
+    '1991-07-01': Loi 91-716 du 26/07/1991, art. 26
+    '1989-01-01': Loi 88-1149 du 23/12/1988, art. 86 (LF pour 1989)
+    '1986-01-01': Loi 86-1317 du 30/12/1986, art. 82-II et III. (LF pour 1986)
+    '1972-07-01': Décret 72-526 du 29/06/1972, art. 29
+  date_parution_jo:
+    '2015-01-01': '2014-12-30'
+    '2011-01-01': '2010-12-30'
+    '1991-07-01': '1991-07-27'
+    '1989-01-01': '1988-12-28'
+    '1986-01-01': '1985-12-31'
+    '1972-07-01': '1972-06-30'
+  notes:
+    '2015-01-01': Plus de distinction de tranches pour les entreprise de plus de 50
+      salariés
+entreprises_plus_20_salaries:
+  description: Entreprises de plus de 20 salariés
+  dessus_pss:
+    description: Au-dessus du PSS
+    values:
+      '2011-01-01':
+        value: 0.005
+      '1991-07-01':
+        value: 0.004
+      '1989-01-01':
+        value: 0.002
+      '1986-01-01':
+        value: 0.0013
+      '1972-07-01':
+        value: null
     metadata:
       unit: /1
-    values:
-      '1972-07-01':
-        value: 0.001
+  metadata:
+    order:
+    - dessus_pss
+documentation: |
+  Notes :
+  FNAL: Fonds National d'Aide au Logement
+  Les employeurs de plus de 20 salariés relevant du régime agricole sont exclus de la cotisation supplémentaire.
+  Pour la fonction publique, la cotisation Fnal au taux de 0,10 % et la contribution Fnal supplémentaire sont calculées par application d’un taux unique de 0,50% appliqué sur le montant total du traitement soumis à retenue pour pension (TIB+ NBI) ou 
+  des rémunérations brutes (cotisation Fnal plafonné à 0,10 % + contribution Fnal supplémentaire à 0,40% sur la part des salaires plafonnés + contribution Fnal supplémentaire à 0,50 % sur la part des salaires dépassant le plafond).
+  Références législatives :
+  Loi 71-582 du 16/07/1971 (JO 01/07/1971)

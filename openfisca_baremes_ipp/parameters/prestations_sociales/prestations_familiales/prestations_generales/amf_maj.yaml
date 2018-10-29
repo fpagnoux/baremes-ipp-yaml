@@ -1,61 +1,44 @@
 description: 'Allocation de la mère au foyer (AMF) : majorations'
+regime_general_majoration:
+  description: Régime général- Majoration
+  montant:
+    description: Montant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 194.1
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - montant
 metadata:
-  date_parution_jo:
-    '1976-07-01': 01/12/1976
-    '1978-01-01': '1977-07-13'
-  notes:
-    '1976-07-01': Remplacé par "complément familial" depuis 01/01/1978
   order:
   - regime_general_majoration
   - regime_agricole_majoration
   reference:
-    '1976-07-01': Décret 76-1084 du 29/11/1976 (majoration)
     '1978-01-01': Loi 77-765 du 12/07/1977
+    '1976-07-01': Décret 76-1084 du 29/11/1976 (majoration)
+  date_parution_jo:
+    '1978-01-01': '1977-07-13'
+    '1976-07-01': 01/12/1976
+  notes:
+    '1976-07-01': Remplacé par "complément familial" depuis 01/01/1978
 regime_agricole_majoration:
-  base:
-    description: Base
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 388.2
-      '1978-01-01':
-        value: null
   description: Régime agricole - Majoration
-  metadata:
-    order:
-    - base
-    - montant
   montant:
     description: Montant
-    metadata:
-      unit: currency-FRF
     values:
+      '1978-01-01':
+        value: null
       '1976-07-01':
         value: 194.1
-      '1978-01-01':
-        value: null
-regime_general_majoration:
-  base:
-    description: Base
     metadata:
       unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 388.2
-      '1978-01-01':
-        value: null
-  description: Régime général- Majoration
   metadata:
     order:
-    - base
     - montant
-  montant:
-    description: Montant
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 194.1
-      '1978-01-01':
-        value: null
+documentation: |
+  Notes :
+   La majoration est instituée par la loi 72-8 du 3 janvier 1972, art 2

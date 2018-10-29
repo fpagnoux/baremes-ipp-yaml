@@ -1,130 +1,84 @@
-abattement:
-  description: Abattement
-  dessus_4_pss:
-    description: Au-dessus de 4 PSS
-    metadata:
-      unit: /1
-    values:
-      '1991-02-01':
-        value: 0.05
-      '2005-01-01':
-        value: 0.03
-      '2011-01-01':
-        value: null
-  metadata:
-    order:
-    - sous_4_pss
-    - dessus_4_pss
-  sous_4_pss:
-    description: Sous 4 PSS
-    metadata:
-      unit: /1
-    values:
-      '1991-02-01':
-        value: 0.05
-      '2005-01-01':
-        value: 0.03
-      '2012-01-01':
-        value: 0.0175
-allocations_chomage:
-  description: Allocations chômage
-  metadata:
-    order:
-    - taux_global_csg
-    - taux_csg_deductible
-    - taux_csg_reduit
+description: Contribution sociale généralisée (CSG) sur les revenus d'activité
+revenus_activite:
+  description: Revenus d'activité
   taux_csg_deductible:
     description: Taux CSG deductible
-    metadata:
-      unit: /1
     values:
-      '1991-02-01':
-        value: null
+      '2018-01-01':
+        value: 0.068
+      '1998-01-01':
+        value: 0.051
       '1997-01-01':
         value: 0.01
-      '1998-01-01':
-        value: 0.038
-  taux_csg_reduit:
-    description: Taux CSG réduit
-    metadata:
-      unit: /1
-    values:
       '1991-02-01':
         value: null
-      '1997-01-01':
-        value: 0.01
-      '1998-01-01':
-        value: 0.038
-  taux_global_csg:
-    description: Taux global CSG
     metadata:
       unit: /1
-    values:
-      '1991-02-01':
-        value: null
-      '1997-01-01':
-        value: 0.034
-      '1998-01-01':
-        value: 0.062
-description: Contribution sociale généralisée (CSG) sur les revenus d'activité
+  metadata:
+    order:
+    - taux_csg_deductible
 metadata:
-  date_parution_jo:
-    '1991-02-01': '1990-12-30'
-    '1993-07-01': '1993-06-23'
-    '1997-01-01': '1996-12-29'
-    '1998-01-01': '1997-12-23'
-    '2005-01-01': 17/08/2004
-    '2011-01-01': 21/12/2010
-    '2012-01-01': '2011-12-29'
-    '2018-01-01': 30/12/2017 ; 31/12/2017
-  notes:
-    '1991-02-01': Une circulaire ministérielle du 16/01/1991 relative à la mise en
-      œuvre de la CSG fournit des indications sur les assiettes et les exonérations.
   order:
   - revenus_activite
   - allocations_chomage
   - abattement
   reference:
-    '1991-02-01': Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
-    '1993-07-01': Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
-    '1997-01-01': Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
-    '1998-01-01': Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-    '2005-01-01': Loi 2004-810 du 13/08/2004, art.72
-    '2011-01-01': Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-    '2012-01-01': Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
     '2018-01-01': Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
       du 30/12/2017, art. 67 (LF pour 2018)
-revenus_activite:
-  description: Revenus d'activité
-  metadata:
-    order:
-    - taux_global_csg
-    - taux_csg_deductible
-  taux_csg_deductible:
-    description: Taux CSG deductible
-    metadata:
-      unit: /1
+    '2012-01-01': Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
+    '2011-01-01': Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
+    '2005-01-01': Loi 2004-810 du 13/08/2004, art.72
+    '1998-01-01': Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
+    '1997-01-01': Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
+    '1993-07-01': Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
+    '1991-02-01': Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
+  date_parution_jo:
+    '2018-01-01': 30/12/2017 ; 31/12/2017
+    '2012-01-01': '2011-12-29'
+    '2011-01-01': 21/12/2010
+    '2005-01-01': 17/08/2004
+    '1998-01-01': '1997-12-23'
+    '1997-01-01': '1996-12-29'
+    '1993-07-01': '1993-06-23'
+    '1991-02-01': '1990-12-30'
+  notes:
+    '1991-02-01': Une circulaire ministérielle du 16/01/1991 relative à la mise en
+      œuvre de la CSG fournit des indications sur les assiettes et les exonérations.
+allocations_chomage:
+  description: Allocations chômage
+  taux_csg_reduit:
+    description: Taux CSG réduit
     values:
-      '1991-02-01':
-        value: null
+      '1998-01-01':
+        value: 0.038
       '1997-01-01':
         value: 0.01
-      '1998-01-01':
-        value: 0.051
-      '2018-01-01':
-        value: 0.068
-  taux_global_csg:
-    description: Taux global CSG
+      '1991-02-01':
+        value: null
     metadata:
       unit: /1
+  metadata:
+    order:
+    - taux_csg_reduit
+abattement:
+  description: Abattement
+  dessus_4_pss:
+    description: Au-dessus de 4 PSS
     values:
+      '2011-01-01':
+        value: null
+      '2005-01-01':
+        value: 0.03
       '1991-02-01':
-        value: 0.011
-      '1993-07-01':
-        value: 0.024
-      '1997-01-01':
-        value: 0.034
-      '1998-01-01':
-        value: 0.075
-      '2018-01-01':
-        value: 0.092
+        value: 0.05
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - dessus_4_pss
+documentation: |
+  Notes :
+  L'art. 2.III de la loi 93-1352 publiée au JO le 30/12/1993 (LF pour 1994) a annulé la déductibilité prévue et a donc empêché l'application de la déductibilité de la CSG pour les revenus 1993.
+  (ii) La mise en place de la CSG a été accompagnée d'une baisse de la cotisation vieillesse et d'une remise forfaitaire. Voir feuille "CNAV".
+  Référence du Codes général des impôts :
+  La loi 96-1181 du 30/12/1996 (LF pour 1997)  a créé l'art. 154 quinquies (M) du Code général des impôts (CGI) qui régit les dispositions relatives à la CSG depuis 1997.

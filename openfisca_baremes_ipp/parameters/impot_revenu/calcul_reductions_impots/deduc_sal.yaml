@@ -1,72 +1,59 @@
+description: Cotisations syndicales (1989 - 2016)
 date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
   annee_ir:
     description: Année IR
     values:
-      '1987-01-01':
-        value: 1988.0
-      '1988-01-01':
-        value: 1989.0
-      '1991-01-01':
-        value: 1992.0
-      '2001-01-01':
-        value: 2002.0
-      '2004-01-01':
-        value: 2005.0
-      '2005-01-01':
-        value: 2006.0
-      '2007-01-01':
-        value: 2008.0
       '2012-01-01':
         value: 2013.0
-  description: Date d'entrée en vigueur
+      '2007-01-01':
+        value: 2008.0
+      '2005-01-01':
+        value: 2006.0
+      '2004-01-01':
+        value: 2005.0
+      '2001-01-01':
+        value: 2002.0
+      '1991-01-01':
+        value: 1992.0
+      '1988-01-01':
+        value: 1989.0
+      '1987-01-01':
+        value: 1988.0
   metadata:
     order:
     - annee_ir
-description: Cotisations syndicales (1989 - 2016)
 metadata:
-  date_parution_jo:
-    '2001-01-01': '2002-06-08'
-    '2004-01-01': '2004-12-31'
-    '2007-01-01': '2008-04-02'
-  notes:
-    '2012-01-01': La réduction d'impôt devient un crédit d'impôt à compter de l'imposition
-      des revenus 2012
   order:
   - date_entree_en_vigueur
   - reduction_impot_cotisations_syndicales
   reference:
-    '1988-01-01': Loi 1988-1149 du 28/12/1988, art. 8-I, II (LF pour 1989)
-    '2001-01-01': Décret 2002-923 du 06/06/2002 - art. 4
-    '2004-01-01': Loi 2004-1485 du 30/12/2004  - art. 31 et 35 (V)
-    '2007-01-01': Décret 2008-294 du 01/04/2008 - art. 1
     '2012-01-01': Loi n° 2012-1510 du 29/12/2012
+    '2007-01-01': Décret 2008-294 du 01/04/2008 - art. 1
+    '2004-01-01': Loi 2004-1485 du 30/12/2004  - art. 31 et 35 (V)
+    '2001-01-01': Décret 2002-923 du 06/06/2002 - art. 4
+    '1988-01-01': Loi 1988-1149 du 28/12/1988, art. 8-I, II (LF pour 1989)
+  date_parution_jo:
+    '2007-01-01': '2008-04-02'
+    '2004-01-01': '2004-12-31'
+    '2001-01-01': '2002-06-08'
+  notes:
+    '2012-01-01': La réduction d'impôt devient un crédit d'impôt à compter de l'imposition
+      des revenus 2012
 reduction_impot_cotisations_syndicales:
   description: Réduction d'impôt pour cotisations syndicales
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
-    metadata:
-      unit: /1
     values:
-      '1987-01-01':
-        value: null
       '1988-01-01':
         value: 0.01
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
       '1987-01-01':
         value: null
-      '1988-01-01':
-        value: 0.2
-      '1991-01-01':
-        value: 0.3
-      '2001-01-01':
-        value: 0.5
-      '2005-01-01':
-        value: 0.66
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - plafond
+documentation: |
+  Notes :
+  (1) Cotisations syndicales : art. 199 quater C du CGI 

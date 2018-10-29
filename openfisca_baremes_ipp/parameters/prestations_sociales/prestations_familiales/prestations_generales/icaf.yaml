@@ -1,36 +1,40 @@
+description: 'Indemnité compensatrice des avantages fiscaux (ICAF) : montant'
 2_enfants_charge:
   description: 2 enfants à charge
-  metadata:
-    unit: currency-FRF
   values:
-    '1948-10-01':
-      value: 650.0
-    '1958-01-01':
-      value: 981.0
     '1978-01-01':
       value: null
-description: 'Indemnité compensatrice des avantages fiscaux (ICAF) : montant'
+    '1958-01-01':
+      value: 981.0
+    '1948-10-01':
+      value: 650.0
+  metadata:
+    unit: currency-FRF
 metadata:
-  date_parution_jo:
-    '1958-01-01': 16/10/1958 (rect. 11/11/1958)
-    '1978-01-01': '1977-07-13'
-  notes:
-    '1948-10-01': Pour les salariés uniquement
-    '1978-01-01': Remplacée par le complément familial à partir du 01/01/1978
   order:
   - 2_enfants_charge
   - par_enfant_supplementaire
   reference:
-    '1958-01-01': Décret 58-962 du 27/09/1958
     '1978-01-01': Loi 77-765 du 12/07/1977
+    '1958-01-01': Décret 58-962 du 27/09/1958
+  date_parution_jo:
+    '1978-01-01': '1977-07-13'
+    '1958-01-01': 16/10/1958 (rect. 11/11/1958)
+  notes:
+    '1978-01-01': Remplacée par le complément familial à partir du 01/01/1978
+    '1948-10-01': Pour les salariés uniquement
 par_enfant_supplementaire:
   description: Par enfant supplémentaire
-  metadata:
-    unit: currency-FRF
   values:
-    '1948-10-01':
-      value: 1000.0
-    '1958-01-01':
-      value: 1509.0
     '1978-01-01':
       value: null
+    '1958-01-01':
+      value: 1509.0
+    '1948-10-01':
+      value: 1000.0
+  metadata:
+    unit: currency-FRF
+documentation: |
+  Note:
+  ICAF instaurée en octobre 1948. Les montants ont été progressivement relevés entre 1948 et 1958), mais le détail de l'évolution est à préciser
+  Indemnité accordée aux familles au titre de l'ancien impôt sur les salaires

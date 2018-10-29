@@ -1,17 +1,18 @@
 description: 'Allocation de rentrée scolaire (ARS) : montant minimum'
+montant_minimum_verse:
+  description: Montant minimum versé
+  values:
+    '2002-08-09':
+      value: 15.0
+  metadata:
+    unit: currency-EUR
 metadata:
-  date_parution_jo:
-    '2002-08-09': '2002-08-08'
-  notes:
-    '2002-08-09': Crée le montant minimal d'ARS (suite à l'instauration de l'ARS différentielle).
   order:
   - montant_minimum_verse
   reference:
     '2002-08-09': Décret 2002-1060 du 07/08/2002, art. 2 (crée art. D543-2 du CSS)
-montant_minimum_verse:
-  description: Montant minimum versé
-  metadata:
-    unit: currency-EUR
-  values:
-    '2002-08-09':
-      value: 15.0
+  date_parution_jo:
+    '2002-08-09': '2002-08-08'
+  notes:
+    '2002-08-09': Crée le montant minimal d'ARS (suite à l'instauration de l'ARS différentielle).
+documentation: ''

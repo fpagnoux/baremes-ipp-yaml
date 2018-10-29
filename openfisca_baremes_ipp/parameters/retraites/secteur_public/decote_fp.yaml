@@ -1,97 +1,50 @@
 description: 'Decote FP '
+taux_decote_selon_annee_age_ouverture_droits:
+  description: Taux de décote selon l'année de l'âge d'ouverture des droits
+  taux_minore_taux_plein_1_decote_nombre_trimestres_manquants:
+    description: taux minoré = taux plein * (1 - decote * (nombre de trimestres manquants))
+    '2015':
+      description: '2015'
+      values:
+        '2006-01-01':
+          value: 0.0125
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - '2015'
+  metadata:
+    order:
+    - taux_minore_taux_plein_1_decote_nombre_trimestres_manquants
 metadata:
-  date_parution_jo:
-    '2006-01-01': '2003-08-22'
   order:
   - taux_decote_selon_annee_age_ouverture_droits
   reference:
     '2006-01-01': Loi 2003-775 du 21/08/2003, art. 66
-taux_decote_selon_annee_age_ouverture_droits:
-  description: Taux de décote selon l'année de l'âge d'ouverture des droits
-  metadata:
-    order:
-    - taux_minore_taux_plein_1_decote_nombre_trimestres_manquants
-  taux_minore_taux_plein_1_decote_nombre_trimestres_manquants:
-    '17':
-      description: '17'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.01
-    '2006':
-      description: '2006'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.00125
-    '2007':
-      description: '2007'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.0025
-    '2008':
-      description: '2008'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.00375
-    '2009':
-      description: '2009'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.005
-    '2010':
-      description: '2010'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.0065
-    '2011':
-      description: '2011'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.0075
-    '2012':
-      description: '2012'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.00875
-    '2014':
-      description: '2014'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.01125
-    '2015':
-      description: '2015'
-      metadata:
-        unit: /1
-      values:
-        '2006-01-01':
-          value: 0.0125
-    description: taux minoré = taux plein * (1 - decote * (nombre de trimestres manquants))
-    metadata:
-      order:
-      - '2006'
-      - '2007'
-      - '2008'
-      - '2009'
-      - '2010'
-      - '2011'
-      - '2012'
-      - '17'
-      - '2014'
-      - '2015'
+  date_parution_jo:
+    '2006-01-01': '2003-08-22'
+documentation: |
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.

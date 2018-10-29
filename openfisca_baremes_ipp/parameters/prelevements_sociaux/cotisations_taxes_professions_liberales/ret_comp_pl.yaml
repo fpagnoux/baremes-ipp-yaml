@@ -1,294 +1,26 @@
+description: Cotisation SS retraite complémentaire, Professions libérales
 agents_generaux_assurance:
+  description: Agents généraux d'assurance
   commissions_remunerations_brutes_dans_limite_plafond:
     description: Commissions et rémunérations brutes dans la limite d'un plafond
-    metadata:
-      order:
-      - taux_contractuel
-      - taux_effectif
-      - taux_invalidite_deces
-    taux_contractuel:
-      description: Taux contractuel
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '1968-01-01':
-          value: 0.036
-        '1971-01-01':
-          value: 0.063
-    taux_effectif:
-      description: Taux effectif
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '1968-01-01':
-          value: 0.036
-        '1971-01-01':
-          value: 0.063
-        '1993-01-01':
-          value: 0.0693
-        '1998-01-01':
-          value: 0.080325
-        '2002-01-01':
-          value: 0.081585
-        '2004-01-01':
-          value: 0.09
     taux_invalidite_deces:
       description: Taux invalidité-décès
-      metadata:
-        unit: /1
       values:
-        '1949-01-01':
-          value: null
-        '2004-01-01':
-          value: 0.01
         '2012-01-01':
           value: 0.007
-  description: Agents généraux d'assurance
+        '2004-01-01':
+          value: 0.01
+        '1949-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - taux_invalidite_deces
   metadata:
     order:
     - commissions_remunerations_brutes_dans_limite_plafond
-chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
-  description: Chirurgiens-dentistes (+ sages femmes depuis janvier 2009)
-  entre_085_5_pss:
-    description: Entre 0,85 et 5 PSS
-    metadata:
-      order:
-      - retraite_complementaire
-    retraite_complementaire:
-      description: Retraite complémentaire
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '1997-01-01':
-          value: 0.08
-        '2001-01-01':
-          value: 0.083
-        '2002-01-01':
-          value: 0.09
-        '2004-01-01':
-          value: 0.095
-        '2009-01-01':
-          value: 0.099
-        '2010-01-01':
-          value: 0.0995
-        '2011-01-01':
-          value: 0.1
-        '2012-01-01':
-          value: 0.1005
-        '2013-01-01':
-          value: 0.102
-        '2014-01-01':
-          value: 0.103
-        '2015-01-01':
-          value: 0.104
-        '2016-01-01':
-          value: 0.105
-        '2017-01-01':
-          value: 0.106
-        '2018-01-01':
-          value: 0.1065
-  metadata:
-    order:
-    - entre_085_5_pss
-    - sous_5_pss
-  sous_5_pss:
-    description: Sous 5 PSS
-    metadata:
-      order:
-      - regime_supplementaire_chirurgiens_dentistes_conventionnes
-    regime_supplementaire_chirurgiens_dentistes_conventionnes:
-      description: Régime supplémentaire pour les chirurgiens dentistes conventionnés
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '2008-01-01':
-          value: 0.0075
-        '2018-01-01':
-          value: 0.011
-description: Cotisation SS retraite complémentaire, Professions libérales
-infirmiers_masseurs_kine_orthophonistes_orthoptistes:
-  commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond:
-    description: Commissions et rémunérations brutes entre un seuil plancher et un
-      seuil plafond
-    metadata:
-      order:
-      - retraite_complementaire
-    retraite_complementaire:
-      description: Retraite complémentaire
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '1996-01-01':
-          value: 0.03
-  description: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
-  metadata:
-    order:
-    - commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond
-    - sous_5_pss
-  sous_5_pss:
-    description: Sous 5 PSS
-    metadata:
-      order:
-      - regime_supplementaire_auxilliaires_medicaux_conventionnes_asv
-    regime_supplementaire_auxilliaires_medicaux_conventionnes_asv:
-      description: Régime supplémentaire pour les auxilliaires médicaux conventionnés
-        (ASV)
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '2010-01-01':
-          value: 0.0025
-        '2011-01-01':
-          value: 0.004
-medecins:
-  description: Médecins
-  metadata:
-    order:
-    - sous_35_pss
-    - sous_5_pss
-  sous_35_pss:
-    description: Sous 3,5 PSS
-    metadata:
-      order:
-      - retraite_complementaire
-    retraite_complementaire:
-      description: Retraite complémentaire
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '1983-01-01':
-          value: 0.02
-        '1991-01-01':
-          value: 0.05
-        '1996-01-01':
-          value: 0.075
-        '1997-01-01':
-          value: 0.081
-        '1999-01-01':
-          value: 0.087
-        '2000-01-01':
-          value: 0.09
-        '2009-01-01':
-          value: 0.092
-        '2013-01-01':
-          value: 0.093
-        '2015-01-01':
-          value: 0.095
-        '2016-01-01':
-          value: 0.096
-        '2017-01-01':
-          value: 0.097
-        '2018-01-01':
-          value: 0.098
-  sous_5_pss:
-    description: Sous 5 PSS
-    metadata:
-      order:
-      - regime_supplementaire_obligatoire_medecins_conventionnes_asv
-    regime_supplementaire_obligatoire_medecins_conventionnes_asv:
-      description: Régime supplémentaire obligatoire pour les médecins conventionnés
-        (ASV)
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: null
-        '2012-01-01':
-          value: 0.0025
-        '2013-01-01':
-          value: 0.009
-        '2014-01-01':
-          value: 0.015
-        '2015-01-01':
-          value: 0.021
-        '2016-01-01':
-          value: 0.026
-        '2017-01-01':
-          value: 0.028
-        '2018-01-01':
-          value: 0.032
 metadata:
-  date_parution_jo:
-    '1949-01-01': '1949-06-01'
-    '1951-01-01': '1951-03-20'
-    '1962-01-01': '1962-04-19'
-    '1963-01-01': '1963-02-13'
-    '1968-01-01': '1967-12-28'
-    '1971-01-01': '1970-10-30'
-    '1983-01-01': '31/12/1982
-
-      10/07/1983'
-    '1991-01-01': '1991-09-05'
-    '1993-01-01': '1992-12-30'
-    '1996-01-01': '1996-07-23'
-    '1997-01-01': '11/09/1997
-
-      29/12/1996'
-    '1998-01-01': '21/12/1997
-
-      17/07/1998'
-    '1999-01-01': '1999-11-25'
-    '2000-01-01': '2000-11-09'
-    '2001-01-01': '2001-12-13'
-    '2002-01-01': '22/09/2001
-
-      28/12/2002'
-    '2004-01-01': '2004-10-17'
-    '2005-01-01': '2004-10-28'
-    '2008-01-01': 25/04/2007 ; 28/03/2007
-    '2009-01-01': '2009-12-26'
-    '2010-01-01': '23/10/2010
-
-      11/10/2008'
-    '2011-01-01': '2011-06-17'
-    '2012-01-01': '03/11/2011
-
-      14/04/2012
-
-      26/11/2011'
-    '2013-01-01': '2011-11-26'
-    '2014-01-01': '2013-12-01'
-    '2015-01-01': '2015-12-30'
-    '2016-01-01': 30/12/2015 ; 26/04/2007
-    '2017-01-01': '2017-05-11'
-    '2018-01-01': 05/05/2017 ; 11/05/2017
-  notes:
-    '1951-01-01': Création d'un régime supplémentaire pour les notaires du ressort
-      de la Cour d'appel de Colmar
-    '1983-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
-      forfaitaire qui existait déjà pour les médecins
-    '1996-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
-      ofrfaitaire qui existait depuis la création du régime complémentaire en 1984
-      pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
-    '1997-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
-      forfaitaire qui existait déjà pour les chirurgiens dentistes
-    '2004-01-01': Création  d'un régime d'assurance invalidité-décès pour les agents
-      généraux d'assurance
-    '2005-01-01': Regroupement des sections A et U en une section C
-    '2010-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
-      les auxiliaires médicaux (infirmiers, masseurs-kiné, etc.)
-    '2012-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
-      les médecins conventionnés
-    '2016-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
-      Metz.
-    '2017-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
-      Metz.
-    '2018-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
-      Metz.
   order:
   - agents_generaux_assurance
   - infirmiers_masseurs_kine_orthophonistes_orthoptistes
@@ -297,107 +29,246 @@ metadata:
   - pharmaciens
   - notaires
   reference:
-    '1949-01-01': Arrêté du 24/05/1949
-    '1951-01-01': Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
-    '1962-01-01': Décret 62-502 du 13/04/1962
-    '1963-01-01': Décret 63-106 du 8/02/1963
-    '1968-01-01': Décret 67-1169 du 22/12/1967
-    '1971-01-01': Décret 71-878 du 22/10/1971
-    '1983-01-01': Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
-    '1991-01-01': Décret 91-864 du 30/08/1991
-    '1993-01-01': Décret 92-1372 du 29/12/1992
-    '1996-01-01': Décret 96-654 du 16/07/1996
-    '1997-01-01': Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
-    '1998-01-01': Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
-    '1999-01-01': Décret 99-959 du 22/11/1999
-    '2000-01-01': Décret 2000-1082 du 7/11/2000
-    '2001-01-01': Décret 2001-1182 du 11/12/2001
-    '2002-01-01': Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
-    '2004-01-01': Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
-    '2005-01-01': Décret 2004-1142 du 20/10/2004
-    '2008-01-01': Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
-    '2009-01-01': Décret 2009-1635 du 23/12/2009
-    '2010-01-01': Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
-    '2011-01-01': Décret 2011-674 du 15/06/2011
+    '2018-01-01': Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+    '2017-01-01': Décret 2017-730 du 3/05/2017
+    '2016-01-01': Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+    '2015-01-01': Décret 2015-1802 du 29/12/2015
+    '2014-01-01': Décret 2013-1081 du 29/11/2013
+    '2013-01-01': Décret 2011-1644 du 25/11/2011
     '2012-01-01': Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012; Décret
       2011-1644 du 25/11/2011
-    '2013-01-01': Décret 2011-1644 du 25/11/2011
-    '2014-01-01': Décret 2013-1081 du 29/11/2013
-    '2015-01-01': Décret 2015-1802 du 29/12/2015
-    '2016-01-01': Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
-    '2017-01-01': Décret 2017-730 du 3/05/2017
-    '2018-01-01': Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
-notaires:
-  description: Notaires
-  metadata:
-    order:
-    - moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france
-  moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france:
-    colmar_metz:
-      description: Colmar-Metz
-      metadata:
-        unit: /1
+    '2011-01-01': Décret 2011-674 du 15/06/2011
+    '2010-01-01': Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+    '2009-01-01': Décret 2009-1635 du 23/12/2009
+    '2008-01-01': Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+    '2005-01-01': Décret 2004-1142 du 20/10/2004
+    '2004-01-01': Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+    '2002-01-01': Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+    '2001-01-01': Décret 2001-1182 du 11/12/2001
+    '2000-01-01': Décret 2000-1082 du 7/11/2000
+    '1999-01-01': Décret 99-959 du 22/11/1999
+    '1998-01-01': Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+    '1997-01-01': Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+    '1996-01-01': Décret 96-654 du 16/07/1996
+    '1993-01-01': Décret 92-1372 du 29/12/1992
+    '1991-01-01': Décret 91-864 du 30/08/1991
+    '1983-01-01': Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+    '1971-01-01': Décret 71-878 du 22/10/1971
+    '1968-01-01': Décret 67-1169 du 22/12/1967
+    '1963-01-01': Décret 63-106 du 8/02/1963
+    '1962-01-01': Décret 62-502 du 13/04/1962
+    '1951-01-01': Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+    '1949-01-01': Arrêté du 24/05/1949
+  date_parution_jo:
+    '2018-01-01': 05/05/2017 ; 11/05/2017
+    '2017-01-01': '2017-05-11'
+    '2016-01-01': 30/12/2015 ; 26/04/2007
+    '2015-01-01': '2015-12-30'
+    '2014-01-01': '2013-12-01'
+    '2013-01-01': '2011-11-26'
+    '2012-01-01': |-
+      03/11/2011
+      14/04/2012
+      26/11/2011
+    '2011-01-01': '2011-06-17'
+    '2010-01-01': |-
+      23/10/2010
+      11/10/2008
+    '2009-01-01': '2009-12-26'
+    '2008-01-01': 25/04/2007 ; 28/03/2007
+    '2005-01-01': '2004-10-28'
+    '2004-01-01': '2004-10-17'
+    '2002-01-01': |-
+      22/09/2001
+      28/12/2002
+    '2001-01-01': '2001-12-13'
+    '2000-01-01': '2000-11-09'
+    '1999-01-01': '1999-11-25'
+    '1998-01-01': |-
+      21/12/1997
+      17/07/1998
+    '1997-01-01': |-
+      11/09/1997
+      29/12/1996
+    '1996-01-01': '1996-07-23'
+    '1993-01-01': '1992-12-30'
+    '1991-01-01': '1991-09-05'
+    '1983-01-01': |-
+      31/12/1982
+      10/07/1983
+    '1971-01-01': '1970-10-30'
+    '1968-01-01': '1967-12-28'
+    '1963-01-01': '1963-02-13'
+    '1962-01-01': '1962-04-19'
+    '1951-01-01': '1951-03-20'
+    '1949-01-01': '1949-06-01'
+  notes:
+    '2018-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+      Metz.
+    '2017-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+      Metz.
+    '2016-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+      Metz.
+    '2012-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
+      les médecins conventionnés
+    '2010-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
+      les auxiliaires médicaux (infirmiers, masseurs-kiné, etc.)
+    '2005-01-01': Regroupement des sections A et U en une section C
+    '2004-01-01': Création  d'un régime d'assurance invalidité-décès pour les agents
+      généraux d'assurance
+    '1997-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+      forfaitaire qui existait déjà pour les chirurgiens dentistes
+    '1996-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+      ofrfaitaire qui existait depuis la création du régime complémentaire en 1984
+      pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
+    '1983-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+      forfaitaire qui existait déjà pour les médecins
+    '1951-01-01': Création d'un régime supplémentaire pour les notaires du ressort
+      de la Cour d'appel de Colmar
+infirmiers_masseurs_kine_orthophonistes_orthoptistes:
+  description: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_auxilliaires_medicaux_conventionnes_asv:
+      description: Régime supplémentaire pour les auxilliaires médicaux conventionnés
+        (ASV)
       values:
+        '2011-01-01':
+          value: 0.004
+        '2010-01-01':
+          value: 0.0025
         '1949-01-01':
           value: null
-        '1951-01-01':
-          value: 0.02
-        '1963-01-01':
-          value: 0.04
-        '2015-01-01':
-          value: 0.036
-        '2016-01-01':
-          value: null
-    description: Moyenne des produits de base de l'office des 3 dernières années,
-      limitée à 3*moyenne générale des produits des offices de France
+      metadata:
+        unit: /1
     metadata:
       order:
-      - section_allocation_variable
-      - section_u_allocation_uniforme
-      - colmar_metz
-    section_allocation_variable:
-      description: Section A (allocation variable)
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: 0.05
-        '1962-01-01':
-          value: 0.025
-        '2005-01-01':
-          value: 0.045
-        '2017-01-01':
-          value: 0.0414
-    section_u_allocation_uniforme:
-      description: Section U (allocation uniforme)
-      metadata:
-        unit: /1
-      values:
-        '1949-01-01':
-          value: 0.05
-        '1962-01-01':
-          value: 0.02
-        '2005-01-01':
-          value: 0.045
-        '2017-01-01':
-          value: 0.0414
-pharmaciens:
-  description: Pharmaciens
+      - regime_supplementaire_auxilliaires_medicaux_conventionnes_asv
   metadata:
     order:
     - sous_5_pss
+chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
+  description: Chirurgiens-dentistes (+ sages femmes depuis janvier 2009)
   sous_5_pss:
     description: Sous 5 PSS
+    regime_supplementaire_chirurgiens_dentistes_conventionnes:
+      description: Régime supplémentaire pour les chirurgiens dentistes conventionnés
+      values:
+        '2018-01-01':
+          value: 0.011
+        '2008-01-01':
+          value: 0.0075
+        '1949-01-01':
+          value: null
+      metadata:
+        unit: /1
     metadata:
       order:
-      - regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv
+      - regime_supplementaire_chirurgiens_dentistes_conventionnes
+  metadata:
+    order:
+    - sous_5_pss
+medecins:
+  description: Médecins
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_obligatoire_medecins_conventionnes_asv:
+      description: Régime supplémentaire obligatoire pour les médecins conventionnés
+        (ASV)
+      values:
+        '2018-01-01':
+          value: 0.032
+        '2017-01-01':
+          value: 0.028
+        '2016-01-01':
+          value: 0.026
+        '2015-01-01':
+          value: 0.021
+        '2014-01-01':
+          value: 0.015
+        '2013-01-01':
+          value: 0.009
+        '2012-01-01':
+          value: 0.0025
+        '1949-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - regime_supplementaire_obligatoire_medecins_conventionnes_asv
+  metadata:
+    order:
+    - sous_5_pss
+pharmaciens:
+  description: Pharmaciens
+  sous_5_pss:
+    description: Sous 5 PSS
     regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv:
       description: Régime supplémentaire pour les biologistes médicaux conventionnés
         uniquement (ASV)
-      metadata:
-        unit: /1
       values:
-        '1949-01-01':
-          value: null
         '2008-01-01':
           value: 0.003
+        '1949-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv
+  metadata:
+    order:
+    - sous_5_pss
+notaires:
+  description: Notaires
+  moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france:
+    description: Moyenne des produits de base de l'office des 3 dernières années,
+      limitée à 3*moyenne générale des produits des offices de France
+    colmar_metz:
+      description: Colmar-Metz
+      values:
+        '2016-01-01':
+          value: null
+        '2015-01-01':
+          value: 0.036
+        '1963-01-01':
+          value: 0.04
+        '1951-01-01':
+          value: 0.02
+        '1949-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - colmar_metz
+  metadata:
+    order:
+    - moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france
+documentation: |
+  Notes :
+  (1) La Caisse nationale d'assurance vieillesse des professions libérales (CNAVPL) comprend 10 sections professionnelles gérant différents régimes:
+  Agents généraux d'assurance: Assiette limitée par une valeur plancher (fixée chaque année) et une valeur plafond (égale à 10*plancher de janvier 1998 à décembre 2001, puis 12*plancher de janvier 2002 à 2012, puis fixée annuellement . Exemple: égal à 437634€ en 2013.
+  Infirmiers, masseurs-kiné, orthophonistes, orthoptistes (=auxiliaires médicaux): seuils fixés chaque année (en 2013 = 25 246 € - 144 046 €), et l'Assurance maladie prend en charge 60% de la cotisation due au titre du régime supplémentaire (0,24%).
+  Notaires: L'assiette a varié au cours du temps (initialement, moyenne sur 5 ans des produits demi-nets des études en cours (la première tranche de 100 000 FRF est comptée pour moitié de sa valeur), puis moyenne sur 3 ans des produits de base de l'office (date du changement?).
+  Existence de 3 sections, A, U et B, la B étant financée par une cotisation forfaitaire dépendant de la classe du notaire. Régime spécial à Colmar et Metz instituté par Décret 51-310 du 03/03/1951. Le taux indiqué correspond au maximum du taux supplémentaire décidé chaque année par conseil d'administration de la section professionnelle d'allocation vieillesse des notaires
+  Architectes, agréés en architecture, ingénieurs, techniciens, géomètres, experts et conseils paient une cotisation uniquement forfaitaire au titre de leur retraite complémentaire, qui dépend du revenu (plusieurs tranches)
+  Officiers ministériels, officiers publics et des compagnies judiciaires: cotisation forfaitaire au titre de la retraite complémentaire et de l'invalidité décès
+  Experts comptables paient une cotisation uniquement forfaitaire au titre de leur retraite complémentaire, qui dépend du revenu (plusieurs tranches)
+  Vétérinaires : cotisation forfaitaire au titre de la retraite complémentaire et au titre de l'invalidité-décès
+  Chirurgiens dentistes et sages femmes: une cotisation forfaitaire supplémentaire est due. Rattachement des sages femmes aux chirurgiens dentistes depuis le 01/01/2009
+  Sages-femmes: Avant 2009, les sages-femmes ne cotisaient pas à un régime de retraite complémentaire, mais à un régime de retraite supplémentaire géré par la CARSAF.
+  Pharmaciens: cotisation forfaitaire pour le régime complémentaire et pour le régime invalidité-décès, et cotisation forfaitaire supplémentaire pour le régime supplémentaire ASV (concernant la cotisation proportionnelle, la motié des 0,30% est versée par l'Assurance maladie)
+  Médecins: cotisation invalidité-décès forfaitaire, et pour le régime supplémentaire, cotisation forfaitaire supplémentaire, et 2/3 du taux est pris en charge par l'assurance maladie pour les médecins de secteur 1. Avant le 01/01/2011, le plafond utilisé n'était pas 3,5PSS mais une somme fixée annuellement
+  (2) L'ASV (allocations supplémentaires vieillesse) devient obligatoire pour les médecins conventionnés en juillet 1972 (décret 72-968 du 27/10/1972). Créé à la base pour compenser la fixation des honoraires de médecins par l'Etat, et les encourager à être conventionnés.
+  L'affiliation à un régime supplémentaire d'ASV est également obligatoire pour les sages-femmes conventionnés, depuis 1984.
+  Le taux de la cotisation dépend du forfait accouchement simple en vigueur.
+  (3) Loi 2005-1579 du 19/12/2005: introduit principe de la cotisation d'ajustement proportionnelle pour financer l'ASV, ensuite appliquée par décret dans les différentes sections professionnelles
+  Cotisation minimale :
+  (i) Retraite complémentaire
+  Pour les affiliés percevant un revenu professionnel inférieur à 5,25% du PSS par an, une cotisation minimale annuelle est due.
+  Cotisation minimale = 0,0525*PSS annuel*taux de cotisation (effectif)
+  (ii) Invalidité-décès
+  Pour les affiliés percevant un revenu professionnel inférieur à 20% du PSS par an, une cotisation minimale annuelle est due.
+  Cotisation minimale = 0,2*PSS annuel*taux de cotisation 

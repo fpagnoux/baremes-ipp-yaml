@@ -1,66 +1,53 @@
-compte_epargne_co_developpement:
-  description: Compte épargne co-developpement
-  metadata:
-    order:
-    - taux
-    - plafond_par_personne
-    - plafond_en_revenu_net_global
-  plafond_en_revenu_net_global:
-    description: Plafond en % du revenu net global
-    metadata:
-      unit: /1
-    values:
-      '2009-01-01':
-        value: 0.25
-      '2011-01-01':
-        value: null
-  plafond_par_personne:
-    description: Plafond par personne
-    metadata:
-      unit: currency-EUR
-    values:
-      '2009-01-01':
-        value: 20000.0
-      '2011-01-01':
-        value: null
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
-      '2009-01-01':
-        value: 0.4
-      '2011-01-01':
-        value: null
+description: Sommes versées sur un compte épargne codéveloppement (2010 - 2016)
 date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
   annee_ir:
     description: Année IR
     values:
-      '2009-01-01':
-        value: 2010.0
-      '2010-01-01':
-        value: 2011.0
       '2011-01-01':
         value: 2012.0
-  description: Date d'entrée en vigueur
+      '2010-01-01':
+        value: 2011.0
+      '2009-01-01':
+        value: 2010.0
   metadata:
     order:
     - annee_ir
-description: Sommes versées sur un compte épargne codéveloppement (2010 - 2016)
 metadata:
-  notes:
-    '2009-01-01': Avant les revenus 2009, les versements sur le compte étaient déductibles
-      du revenu global.
-    '2010-01-01':
-    - Dispositif abrogé de façon anticipée à compter de l'imposition des revenus de
-      2010.
-    - B.O.I. N° 8 du 15/01/2010 [BOI 5B-5-10 ]
-    '2011-01-01': 'Les comptes existants deviennent de simples comptes épargne.
-
-      Article 107 de la loi  n°2010-1657  du  29  décembre  2010  de  finances  pour  2011'
   order:
   - date_entree_en_vigueur
   - compte_epargne_co_developpement
   reference:
-    '2009-01-01': LF pour 2009 - art. 89
     '2010-01-01': LF pour 2011 - art. 107
+    '2009-01-01': LF pour 2009 - art. 89
+  notes:
+    '2011-01-01': |-
+      Les comptes existants deviennent de simples comptes épargne.
+      Article 107 de la loi  n°2010-1657  du  29  décembre  2010  de  finances  pour  2011
+    '2010-01-01':
+    - Dispositif abrogé de façon anticipée à compter de l'imposition des revenus de
+      2010.
+    - B.O.I. N° 8 du 15/01/2010 [BOI 5B-5-10 ]
+    '2009-01-01': Avant les revenus 2009, les versements sur le compte étaient déductibles
+      du revenu global.
+compte_epargne_co_developpement:
+  description: Compte épargne co-developpement
+  plafond_en_revenu_net_global:
+    description: Plafond en % du revenu net global
+    values:
+      '2011-01-01':
+        value: null
+      '2009-01-01':
+        value: 0.25
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - plafond_en_revenu_net_global
+documentation: |
+  Notes :
+  (1) Réduction d'impôt pour sommes versées sur un compte épargne codéveloppement; art. 163 quinvicies CGI et art. L. 221-33 du code monétaire et financier
+  (2) Le plafonnement par foyer fiscal (art. 199 sexvicies CGI) s'applique dans la limite des deux plafonds.
+  (4) Modalités de création : décret n° 2007-218 du 19 février 2007 relatif au compte épargne codéveloppement en vigueur 01/03/2007
+  Loi n° 2007-1631 du 20/11/2007 (art. 52 et 53)  relative à la maîtrise de l'immigration, à l'intégration et à l'asile - JORF n°270 du 21/11/2007
+  Loi n° 2006-911 du 24/07/2006 - art. 1 relative à l'immigration et à l'intégration - JORF n°170 du 25 juillet 2006 

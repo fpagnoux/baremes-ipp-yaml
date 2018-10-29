@@ -1,46 +1,55 @@
-description: 'Aide exceptionnelle de fin d''année (AEFA): montant'
+description: "Aide exceptionnelle de fin d'année (AEFA): montant"
+montant_prime:
+  description: Montant de la prime
+  values:
+    '2003-01-01':
+      value: 152.45
+  metadata:
+    unit: currency-EUR
 metadata:
-  date_parution_jo:
-    '2003-01-01': '2003-12-30'
-  notes:
-    '2003-01-01': Idem en 2017
   order:
   - montant_prime
   - taux_majoration_selon_taille_foyer_1
   reference:
     '2003-01-01': Décret 2003-1283 du 26/12/2003
-montant_prime:
-  description: Montant de la prime
-  metadata:
-    unit: currency-EUR
-  values:
-    '2003-01-01':
-      value: 152.45
+  date_parution_jo:
+    '2003-01-01': '2003-12-30'
+  notes:
+    '2003-01-01': Idem en 2017
 taux_majoration_selon_taille_foyer_1:
   description: Taux de majoration selon la taille du foyer (1)
-  deux_personnes:
-    description: Deux personnes
-    metadata:
-      unit: /1
-    values:
-      '2003-01-01':
-        value: 0.5
-  metadata:
-    order:
-    - deux_personnes
-    - personne_supplementaire_si_conjoint
-    - taux_dela_troisieme_personne_charge_incluse
-  personne_supplementaire_si_conjoint:
-    description: Personne supplémentaire si conjoint
-    metadata:
-      unit: /1
-    values:
-      '2003-01-01':
-        value: 0.3
   taux_dela_troisieme_personne_charge_incluse:
     description: Taux au delà de la troisième personne à charge incluse
-    metadata:
-      unit: /1
     values:
       '2003-01-01':
         value: 0.4
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - taux_dela_troisieme_personne_charge_incluse
+documentation: |
+  Notes :
+  (1) Le montant de l'aide mentionnée à l'article 3 est égal à 152,45 euros pour une personne seule, majoré de 50 % lorsque le foyer se compose de deux personnes et de 30 % pour chaque personne supplémentaire présente au foyer, à condition que ces personnes soient le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin de l'intéressé ou soient à sa charge.
+  Lorsque le foyer comporte plus de deux enfants ou personnes de moins de vingt-cinq ans à charge, à l'exception du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin de l'intéressé, la majoration à laquelle ouvre droit chacun des enfants ou chacune des personnes est portée à 40 % à partir du troisième enfant ou de la troisième personne
+  (1) Le montant de l'aide mentionnée à l'article 3 est égal à 152,45 euros pour une personne seule, majoré de 50 % lorsque le foyer se compose de deux personnes et de 30 % pour chaque personne supplémentaire présente au foyer, à condition que ces personnes soient le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin de l'intéressé ou soient à sa charge.
+  Lorsque le foyer comporte plus de deux enfants ou personnes de moins de vingt-cinq ans à charge, à l'exception du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin de l'intéressé, la majoration à laquelle ouvre droit chacun des enfants ou chacune des personnes est portée à 40 % à partir du troisième enfant ou de la troisième personne
+  (1) Le montant de l'aide mentionnée à l'article 3 est égal à 152,45 euros pour une personne seule, majoré de 50 % lorsque le foyer se compose de deux personnes et de 30 % pour chaque personne supplémentaire présente au foyer, à condition que ces personnes soient le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin de l'intéressé ou soient à sa charge.
+  Lorsque le foyer comporte plus de deux enfants ou personnes de moins de vingt-cinq ans à charge, à l'exception du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin de l'intéressé, la majoration à laquelle ouvre droit chacun des enfants ou chacune des personnes est portée à 40 % à partir du troisième enfant ou de la troisième personne
+  (1) Le montant de l'aide mentionnée à l'article 3 est égal à 152,45 euros pour une personne seule, majoré de 50 % lorsque le foyer se compose de deux personnes et de 30 % pour chaque personne supplémentaire présente au foyer, à condition que ces personnes soient le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin de l'intéressé ou soient à sa charge.
+  Lorsque le foyer comporte plus de deux enfants ou personnes de moins de vingt-cinq ans à charge, à l'exception du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin de l'intéressé, la majoration à laquelle ouvre droit chacun des enfants ou chacune des personnes est portée à 40 % à partir du troisième enfant ou de la troisième personne
+  (1) Le montant de l'aide mentionnée à l'article 3 est égal à 152,45 euros pour une personne seule, majoré de 50 % lorsque le foyer se compose de deux personnes et de 30 % pour chaque personne supplémentaire présente au foyer, à condition que ces personnes soient le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin de l'intéressé ou soient à sa charge.
+  Lorsque le foyer comporte plus de deux enfants ou personnes de moins de vingt-cinq ans à charge, à l'exception du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin de l'intéressé, la majoration à laquelle ouvre droit chacun des enfants ou chacune des personnes est portée à 40 % à partir du troisième enfant ou de la troisième personne
+  (1) Le montant de l'aide mentionnée à l'article 3 est égal à 152,45 euros pour une personne seule, majoré de 50 % lorsque le foyer se compose de deux personnes et de 30 % pour chaque personne supplémentaire présente au foyer, à condition que ces personnes soient le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin de l'intéressé ou soient à sa charge.
+  Lorsque le foyer comporte plus de deux enfants ou personnes de moins de vingt-cinq ans à charge, à l'exception du conjoint, du partenaire lié par un pacte civil de solidarité ou du concubin de l'intéressé, la majoration à laquelle ouvre droit chacun des enfants ou chacune des personnes est portée à 40 % à partir du troisième enfant ou de la troisième personne
+  (2) la prime existe depuis 1988 mais nous n'avons pu remonter que jusqu'à 2003
+  https://www.service-public.fr/particuliers/vosdroits/F1325
+  (2) la prime existe depuis 1988 mais nous n'avons pu remonter que jusqu'à 2003
+  https://www.service-public.fr/particuliers/vosdroits/F1325
+  (2) la prime existe depuis 1988 mais nous n'avons pu remonter que jusqu'à 2003
+  https://www.service-public.fr/particuliers/vosdroits/F1325
+  Décret 2015-1870 du 30 décembre 2015
+  Décret 2014-1709 du 30 décembre 2014
+  Décret 2013-1294 du 30 décembre 2013
+  Décret 2010-1677 du 29 décembre 2010 
+  Décret 2003-1283 du 26 décembre 2003

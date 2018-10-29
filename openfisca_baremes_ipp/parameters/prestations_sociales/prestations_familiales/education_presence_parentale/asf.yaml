@@ -1,98 +1,79 @@
 description: 'Allocation de soutien familial (ASF) : montants'
+montant_asf_en_bmaf:
+  description: Montant de l'ASF (en % de la BMAF)
+  orphelin_assimile_deux_parents:
+    description: Orphelin ou assimilé des deux parents
+    values:
+      '2017-04-01':
+        value: 0.36
+      '2015-04-01':
+        value: 0.33
+      '2014-04-01':
+        value: 0.315
+      '1970-12-26':
+        value: 0.3
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - orphelin_assimile_deux_parents
 metadata:
-  date_parution_jo:
-    '1970-12-26': '1970-12-25'
-    '1971-07-01': '1971-06-30'
-    '1978-01-01': '1978-01-26'
-    '1982-07-01': '1982-06-24'
-    '1984-12-28': '1984-12-27'
-    '1986-01-01': '1985-12-21'
-    '1986-07-01': '1985-01-05'
-    '1999-11-17': '1999-11-16'
-    '2009-06-01': '2008-12-28'
-    '2015-04-01': '2015-03-21'
-  notes:
-    '1970-12-26': Création de l'allocation d'orphelin
-    '1971-07-01': Appelé "Allocation d'orphelin"
-    '1978-01-01': Appelé "Allocation d'orphelin"
-    '1982-07-01': Droit à l'allocation pour abandon manifeste au bout de 2 mois et
-      non 6 mois
-    '1984-12-28': Allocation de Soutien Familial
-    '2009-06-01': Le RSA intègre dans son calcul l'ASF mais avec des taux différents
-    '2014-04-01': Majoration de 25 % en plus de l'inflation à horizon 2018
-    '2015-04-01': Taux non modifiés en 2016
   order:
   - montant_asf_en_bmaf
   - montant_asf_dans_calcul_rsa_ppa_en_bmaf
   reference:
-    '1970-12-26': Loi 70-1218 du 23/12/1970 (modif art. L543 du CSS)
-    '1971-07-01': Décret 71-504 du 29/06/1971
-    '1978-01-01': Décret 78-82 du 24/01/978, art. 1 (modif art. L 543-5 du CSS)
-    '1982-07-01': Décret 82-534 du 23/06/1982
-    '1984-12-28': Loi 84-1171 du 22/12/1984 (modif art. L 543-5 du CSS)
+    '2017-04-01': Circulaire DSS/SD2B/2017/97 du 21/03/2017
+    '2015-04-01': Décret 2015-314 du 19/03/2015, art. 1.
+    '2014-04-01': Circulaire DSS/SD2B/2014/84 du 20/03/2014
+    '2009-06-01': Loi 2008-1425 du 27/12/2008, art. 181 (modif L523-1 du CSS)
+    '1999-11-17': Loi 99-944 du 15/11/1999, art. 10 (modif L523-2 du CSS)
+    '1986-07-01': Loi 85-17 du 04/01/1985
     '1986-01-01': Décret 85-1353 du 17/12/1985, art. 1 (crée art. art. R523-7 et s.
       du CSS)
-    '1986-07-01': Loi 85-17 du 04/01/1985
-    '1999-11-17': Loi 99-944 du 15/11/1999, art. 10 (modif L523-2 du CSS)
-    '2009-06-01': Loi 2008-1425 du 27/12/2008, art. 181 (modif L523-1 du CSS)
-    '2014-04-01': Circulaire DSS/SD2B/2014/84 du 20/03/2014
-    '2015-04-01': Décret 2015-314 du 19/03/2015, art. 1.
-    '2017-04-01': Circulaire DSS/SD2B/2017/97 du 21/03/2017
+    '1984-12-28': Loi 84-1171 du 22/12/1984 (modif art. L 543-5 du CSS)
+    '1982-07-01': Décret 82-534 du 23/06/1982
+    '1978-01-01': Décret 78-82 du 24/01/978, art. 1 (modif art. L 543-5 du CSS)
+    '1971-07-01': Décret 71-504 du 29/06/1971
+    '1970-12-26': Loi 70-1218 du 23/12/1970 (modif art. L543 du CSS)
+  date_parution_jo:
+    '2015-04-01': '2015-03-21'
+    '2009-06-01': '2008-12-28'
+    '1999-11-17': '1999-11-16'
+    '1986-07-01': '1985-01-05'
+    '1986-01-01': '1985-12-21'
+    '1984-12-28': '1984-12-27'
+    '1982-07-01': '1982-06-24'
+    '1978-01-01': '1978-01-26'
+    '1971-07-01': '1971-06-30'
+    '1970-12-26': '1970-12-25'
+  notes:
+    '2015-04-01': Taux non modifiés en 2016
+    '2014-04-01': Majoration de 25 % en plus de l'inflation à horizon 2018
+    '2009-06-01': Le RSA intègre dans son calcul l'ASF mais avec des taux différents
+    '1984-12-28': Allocation de Soutien Familial
+    '1982-07-01': Droit à l'allocation pour abandon manifeste au bout de 2 mois et
+      non 6 mois
+    '1978-01-01': Appelé "Allocation d'orphelin"
+    '1971-07-01': Appelé "Allocation d'orphelin"
+    '1970-12-26': Création de l'allocation d'orphelin
 montant_asf_dans_calcul_rsa_ppa_en_bmaf:
   description: Montant de l'ASF dans le calcul du RSA et de la PPA (en % de la BMAF)
-  metadata:
-    order:
-    - orphelin_assimile_seul_parent
-    - orphelin_assimile_deux_parents
   orphelin_assimile_deux_parents:
     description: Orphelin ou assimilé des deux parents
-    metadata:
-      unit: /1
     values:
-      '1970-12-26':
-        value: null
       '2009-06-01':
         value: 0.3
-  orphelin_assimile_seul_parent:
-    description: Orphelin ou assimilé d'un seul parent
-    metadata:
-      unit: /1
-    values:
       '1970-12-26':
         value: null
-      '2009-06-01':
-        value: 0.225
-montant_asf_en_bmaf:
-  description: Montant de l'ASF (en % de la BMAF)
+    metadata:
+      unit: /1
   metadata:
     order:
-    - orphelin_assimile_seul_parent
     - orphelin_assimile_deux_parents
-  orphelin_assimile_deux_parents:
-    description: Orphelin ou assimilé des deux parents
-    metadata:
-      unit: /1
-    values:
-      '1970-12-26':
-        value: 0.3
-      '2014-04-01':
-        value: 0.315
-      '2015-04-01':
-        value: 0.33
-      '2017-04-01':
-        value: 0.36
-  orphelin_assimile_seul_parent:
-    description: Orphelin ou assimilé d'un seul parent
-    metadata:
-      unit: /1
-    values:
-      '1970-12-26':
-        value: 0.16
-      '1978-01-01':
-        value: 0.225
-      '2014-04-01':
-        value: 0.2363
-      '2015-04-01':
-        value: 0.2476
-      '2017-04-01':
-        value: 0.2702
+documentation: |
+  Notes : 
+  Notes : 
+  Notes : 
+  Notes : 
+  Notes : 
+  le RSA n'a pas complètement éliminé l'ASF, mais les deux prestations se complètent (les montants sont indiqués pour 2013)

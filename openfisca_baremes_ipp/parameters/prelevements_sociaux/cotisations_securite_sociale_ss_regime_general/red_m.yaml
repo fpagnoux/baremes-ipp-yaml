@@ -1,302 +1,28 @@
-accidents_travail:
-  description: Accidents travail
-  metadata:
-    order:
-    - sous_pss
-  sous_pss:
-    description: Sous PSS
-    employeur:
-      description: Employeur
-      metadata:
-        unit: /1
-      values:
-        '1961-05-01':
-          value: 0.018
-        '1969-01-01':
-          value: 0.017
-        '1970-01-01':
-          value: 0.0161
-        '1971-01-01':
-          value: 0.0154
-        '1972-01-01':
-          value: 0.0108
-        '1973-01-01':
-          value: 0.0147
-    metadata:
-      order:
-      - employeur
-allocations_familiales:
-  description: Allocations familiales
-  metadata:
-    order:
-    - sous_pss
-  sous_pss:
-    description: Sous PSS
-    employeurs_sous_pss:
-      description: Employeurs (sous PSS)
-      metadata:
-        unit: /1
-      values:
-        '1961-05-01':
-          value: 0.1
-        '1962-04-01':
-          value: 0.095
-        '1967-10-01':
-          value: 0.0805
-        '1971-01-01':
-          value: 0.0735
-        '1974-01-01':
-          value: 0.063
-    metadata:
-      order:
-      - employeurs_sous_pss
+description: Cotisations SS des professions médicales à temps partiel (1961-1974)
 assurance_maladie:
   description: Assurance maladie
-  metadata:
-    order:
-    - totalite_remuneration
-    - sous_pss
   sous_pss:
     description: Sous PSS
-    employe_am:
-      description: Employé AM
-      metadata:
-        order:
-        - moins_65_ans
-        - plus_65_ans
-      moins_65_ans:
-        description: Moins de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.018
-          '1969-01-01':
-            value: 0.028
-      plus_65_ans:
-        description: Plus de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.018
-          '1969-01-01':
-            value: 0.021
-    employe_hors_am:
-      description: Employé (hors AM)
-      metadata:
-        order:
-        - moins_65_ans
-        - plus_65_ans
-      moins_65_ans:
-        description: Moins de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.0145
-          '1969-01-01':
-            value: 0.0175
-      plus_65_ans:
-        description: Plus de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.0145
-          '1969-01-01':
-            value: 0.0105
     employeur:
       description: Employeur
-      metadata:
-        unit: /1
       values:
-        '1961-05-01':
-          value: null
-        '1967-10-01':
-          value: 0.0605
-        '1969-01-01':
-          value: 0.0665
         '1971-01-01':
           value: 0.0732
-    metadata:
-      order:
-      - employe_hors_am
-      - employe_am
-      - employeur
-  totalite_remuneration:
-    description: Totalité rémunération
-    metadata:
-      order:
-      - totalite_remuneration
-    totalite_remuneration:
-      description: Totalité rémunération
-      employe:
-        description: Employé
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.007
-      employeur:
-        description: Employeur
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.014
-      metadata:
-        order:
-        - employeur
-        - employe
-assurance_vieillesse:
-  description: Assurance vieillesse
-  metadata:
-    order:
-    - sous_pss
-  sous_pss:
-    description: Sous PSS
-    employe:
-      description: Employé
-      metadata:
-        order:
-        - moins_65_ans
-        - plus_65_ans
-      moins_65_ans:
-        description: Moins de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.021
-      plus_65_ans:
-        description: Plus de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: null
-          '1967-10-01':
-            value: 0.0
-    employeur:
-      description: Employeur
-      metadata:
-        unit: /1
-      values:
+        '1969-01-01':
+          value: 0.0665
+        '1967-10-01':
+          value: 0.0605
         '1961-05-01':
           value: null
-        '1967-10-01':
-          value: 0.0385
-        '1971-01-01':
-          value: 0.0403
-        '1974-01-01':
-          value: 0.0508
+      metadata:
+        unit: /1
     metadata:
       order:
       - employeur
-      - employe
-assurances_sociales:
-  description: Assurances sociales
   metadata:
     order:
     - sous_pss
-  sous_pss:
-    description: Sous PSS
-    employe_am_sous_pss:
-      description: Employé AM                    (sous PSS)
-      metadata:
-        order:
-        - moins_65_ans
-        - plus_65_ans
-      moins_65_ans:
-        description: Moins de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: 0.049
-          '1967-10-01':
-            value: null
-      plus_65_ans:
-        description: Plus de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: 0.021
-          '1967-10-01':
-            value: null
-    employe_hors_am:
-      description: Employé (hors AM)
-      metadata:
-        order:
-        - moins_65_ans
-        - plus_65_ans
-      moins_65_ans:
-        description: Moins de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: 0.014
-          '1967-10-01':
-            value: null
-      plus_65_ans:
-        description: Plus de 65 ans
-        metadata:
-          unit: /1
-        values:
-          '1961-05-01':
-            value: 0.042
-          '1967-10-01':
-            value: null
-    employeur_sous_pss:
-      description: Employeur (sous PSS)
-      metadata:
-        unit: /1
-      values:
-        '1961-05-01':
-          value: 0.0945
-        '1962-04-01':
-          value: 0.0995
-        '1966-10-01':
-          value: 0.105
-        '1967-10-01':
-          value: null
-    metadata:
-      order:
-      - employe_hors_am
-      - employe_am_sous_pss
-      - employeur_sous_pss
-description: Cotisations SS des professions médicales à temps partiel (1961-1974)
 metadata:
-  date_parution_jo:
-    '1961-05-01': '1961-05-20'
-    '1962-04-01': '1962-03-18'
-    '1966-10-01': '1966-09-27'
-    '1967-10-01': '1967-10-01'
-    '1969-01-01': '1969-01-01'
-    '1970-01-01': '1970-01-01'
-    '1971-01-01': '1971-01-15'
-    '1972-01-01': '1972-03-16'
-    '1973-01-01': '1973-03-17'
-    '1974-01-01': '1974-02-07'
-  notes:
-    '1967-10-01': Il n'y a pas de distinctions d'âge pour les cotisations mmid.
   order:
   - assurance_maladie
   - assurance_vieillesse
@@ -304,13 +30,129 @@ metadata:
   - allocations_familiales
   - assurances_sociales
   reference:
-    '1961-05-01': Arrêté du 01/05/1961
-    '1962-04-01': Arrêté du 26/02/1962
-    '1966-10-01': Arrêté du 15/09/1966
-    '1967-10-01': Arrêté du 29/09/1967
-    '1969-01-01': Arrêté du 31/12/1968
-    '1970-01-01': Arrêté du 31/12/1969
-    '1971-01-01': Arrêté du 30/12/1970
-    '1972-01-01': Arrêté du 24/02/1972
-    '1973-01-01': Arrêté du 31/01/1973
     '1974-01-01': Arrêté du 15/01/1974
+    '1973-01-01': Arrêté du 31/01/1973
+    '1972-01-01': Arrêté du 24/02/1972
+    '1971-01-01': Arrêté du 30/12/1970
+    '1970-01-01': Arrêté du 31/12/1969
+    '1969-01-01': Arrêté du 31/12/1968
+    '1967-10-01': Arrêté du 29/09/1967
+    '1966-10-01': Arrêté du 15/09/1966
+    '1962-04-01': Arrêté du 26/02/1962
+    '1961-05-01': Arrêté du 01/05/1961
+  date_parution_jo:
+    '1974-01-01': '1974-02-07'
+    '1973-01-01': '1973-03-17'
+    '1972-01-01': '1972-03-16'
+    '1971-01-01': '1971-01-15'
+    '1970-01-01': '1970-01-01'
+    '1969-01-01': '1969-01-01'
+    '1967-10-01': '1967-10-01'
+    '1966-10-01': '1966-09-27'
+    '1962-04-01': '1962-03-18'
+    '1961-05-01': '1961-05-20'
+  notes:
+    '1967-10-01': Il n'y a pas de distinctions d'âge pour les cotisations mmid.
+assurance_vieillesse:
+  description: Assurance vieillesse
+  sous_pss:
+    description: Sous PSS
+    employe:
+      description: Employé
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1967-10-01':
+            value: 0.0
+          '1961-05-01':
+            value: null
+        metadata:
+          unit: /1
+      metadata:
+        order:
+        - plus_65_ans
+    metadata:
+      order:
+      - employe
+  metadata:
+    order:
+    - sous_pss
+accidents_travail:
+  description: Accidents travail
+  sous_pss:
+    description: Sous PSS
+    employeur:
+      description: Employeur
+      values:
+        '1973-01-01':
+          value: 0.0147
+        '1972-01-01':
+          value: 0.0108
+        '1971-01-01':
+          value: 0.0154
+        '1970-01-01':
+          value: 0.0161
+        '1969-01-01':
+          value: 0.017
+        '1961-05-01':
+          value: 0.018
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - employeur
+  metadata:
+    order:
+    - sous_pss
+allocations_familiales:
+  description: Allocations familiales
+  sous_pss:
+    description: Sous PSS
+    employeurs_sous_pss:
+      description: Employeurs (sous PSS)
+      values:
+        '1974-01-01':
+          value: 0.063
+        '1971-01-01':
+          value: 0.0735
+        '1967-10-01':
+          value: 0.0805
+        '1962-04-01':
+          value: 0.095
+        '1961-05-01':
+          value: 0.1
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - employeurs_sous_pss
+  metadata:
+    order:
+    - sous_pss
+assurances_sociales:
+  description: Assurances sociales
+  sous_pss:
+    description: Sous PSS
+    employeur_sous_pss:
+      description: Employeur (sous PSS)
+      values:
+        '1967-10-01':
+          value: null
+        '1966-10-01':
+          value: 0.105
+        '1962-04-01':
+          value: 0.0995
+        '1961-05-01':
+          value: 0.0945
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - employeur_sous_pss
+  metadata:
+    order:
+    - sous_pss
+documentation: |
+  Note générale :
+  Les membres des professions médicales exerçant à temps partiel pour plusieurs employeurs bénéficient de taux réduits de cotisations sociales qui sont précisés par arrêté entre 1961 et 1974.
+  A partir de 1975, ces taux réduits apparaissent sous la forme d'un abattement généralisé sur les taux de droit commun de 30%.

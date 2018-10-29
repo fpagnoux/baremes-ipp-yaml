@@ -1,86 +1,64 @@
 description: 'Revenu de solidarité active (RSA) : majorations (montant de base et
   revenus) et montant minimum versé'
-majoration_isolement_en_base_rsa:
-  description: Majoration isolement (en % de la base RSA)
-  metadata:
-    order:
-    - parents_isoles_2_femmes_enceintes
-    - par_enfant_charge
-  par_enfant_charge:
-    description: Par enfant à charge
-    metadata:
-      unit: /1
-    values:
-      '2009-06-01':
-        value: 0.428
-      '2016-01-01':
-        value: 0.42804
-  parents_isoles_2_femmes_enceintes:
-    description: Parents isolés (2) / femmes enceintes
-    metadata:
-      unit: /1
-    values:
-      '2009-06-01':
-        value: 1.284
-      '2016-01-01':
-        value: 1.28412
 majoration_montant_maximal_en_base_rsa:
-  couple_1_enfant_deuxieme_enfant_1:
-    description: Couple, 1 enfant - ou pour le deuxième enfant (1)
-    metadata:
-      unit: /1
-    values:
-      '2009-06-01':
-        value: 0.3
-  couples_celibataire_avec_enfant:
-    description: Couples ou célibataire avec un enfant
-    metadata:
-      unit: /1
-    values:
-      '2009-06-01':
-        value: 0.5
   description: Majoration montant maximal (en % de la base RSA)
-  metadata:
-    order:
-    - couples_celibataire_avec_enfant
-    - couple_1_enfant_deuxieme_enfant_1
-    - par_enfant_supplementaire
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
-    metadata:
-      unit: /1
     values:
       '2009-06-01':
         value: 0.4
-majoration_ressources_revenus_activite:
-  description: Majoration des ressources sur les revenus d'activité
+    metadata:
+      unit: /1
   metadata:
-    unit: /1
-  values:
-    '2009-06-01':
-      value: 0.62
-    '2016-01-01':
-      value: null
+    order:
+    - par_enfant_supplementaire
 metadata:
-  date_parution_jo:
-    '2009-06-01': '2009-04-16'
-    '2016-01-01': '2015-12-22'
-  notes:
-    '2016-01-01': Remplacement du RSA activité par la Prime d'activité
   order:
   - majoration_montant_maximal_en_base_rsa
   - majoration_isolement_en_base_rsa
   - majoration_ressources_revenus_activite
   - montant_minimum_verse
   reference:
-    '2009-06-01': Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
     '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
-montant_minimum_verse:
-  description: Montant minimum versé
+    '2009-06-01': Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
+  date_parution_jo:
+    '2016-01-01': '2015-12-22'
+    '2009-06-01': '2009-04-16'
+  notes:
+    '2016-01-01': Remplacement du RSA activité par la Prime d'activité
+majoration_isolement_en_base_rsa:
+  description: Majoration isolement (en % de la base RSA)
+  par_enfant_charge:
+    description: Par enfant à charge
+    values:
+      '2016-01-01':
+        value: 0.42804
+      '2009-06-01':
+        value: 0.428
+    metadata:
+      unit: /1
   metadata:
-    unit: currency-EUR
+    order:
+    - par_enfant_charge
+majoration_ressources_revenus_activite:
+  description: Majoration des ressources sur les revenus d'activité
   values:
-    '2009-06-01':
-      value: 6.0
     '2016-01-01':
       value: null
+    '2009-06-01':
+      value: 0.62
+  metadata:
+    unit: /1
+montant_minimum_verse:
+  description: Montant minimum versé
+  values:
+    '2016-01-01':
+      value: null
+    '2009-06-01':
+      value: 6.0
+  metadata:
+    unit: currency-EUR
+documentation: |
+  Notes :
+  (1) Quel que soit le type de ménage.
+  (2) Le terme de "parents isolés" est défini dans l'article L. 842-7.

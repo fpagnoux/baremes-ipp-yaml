@@ -1,48 +1,12 @@
-complement_libre_choix_mode_garde_en_bmaf_1:
-  description: Complément libre choix du mode de garde (en % de la BMAF) (1)
-  metadata:
-    order:
-    - revenus_inferieurs_45_plafond_allocation
-    - revenus_superieurs_45_plafond_allocation
-    - revenus_superieurs_plafond_allocation
-  revenus_inferieurs_45_plafond_allocation:
-    description: Revenus inférieurs à 45% du plafond d'allocation
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 1.0067
-      '2008-05-01':
-        value: 1.1404
-  revenus_superieurs_45_plafond_allocation:
-    description: Revenus supérieurs à 45% du plafond d'allocation
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 0.7191
-  revenus_superieurs_plafond_allocation:
-    description: Revenus supérieurs au plafond d'allocation
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 0.4314
-description: 'Prestation d''accueil du jeune enfant (PAJE) : Complément de libre choix
-  de mode de garde (CMG)'
-majoration_plafond_une_personne_isolee:
-  description: Majoration du plafond pour une personne isolée
-  metadata:
-    unit: /1
+description: "Prestation d'accueil du jeune enfant (PAJE) : Complément de libre choix\
+  \ de mode de garde (CMG)"
+remuneration_brute_maximale_assistante_maternelle_par_jour_par_enfant_en_multiple_smic_horaire:
+  description: Rémunération brute maximale de l'assistante maternelle (par jour et
+    par enfant) (en multiple du SMIC horaire)
   values:
     '2004-01-01':
-      value: null
-    '2008-05-01':
-      value: 0.4
+      value: 5.0
 metadata:
-  date_parution_jo:
-    '2004-01-01': '2004-01-01'
-    '2008-05-01': '2008-04-11'
   order:
   - remuneration_brute_maximale_assistante_maternelle_par_jour_par_enfant_en_multiple_smic_horaire
   - complement_libre_choix_mode_garde_en_bmaf_1
@@ -51,75 +15,99 @@ metadata:
   - majoration_plafond_une_personne_isolee
   - notes_bis
   reference:
-    '2004-01-01': 'Décret 2003-1394 du 31/12/2003 - art. 1 JORF 1er janvier 2004
-
-      Article D531-17 (multiplicateur du smic horaire)'
     '2008-05-01': Décret 2008-331 du 9/04/2008 - art. 1
+    '2004-01-01': |-
+      Décret 2003-1394 du 31/12/2003 - art. 1 JORF 1er janvier 2004
+      Article D531-17 (multiplicateur du smic horaire)
+  date_parution_jo:
+    '2008-05-01': '2008-04-11'
+    '2004-01-01': '2004-01-01'
+complement_libre_choix_mode_garde_en_bmaf_1:
+  description: Complément libre choix du mode de garde (en % de la BMAF) (1)
+  revenus_superieurs_plafond_allocation:
+    description: Revenus supérieurs au plafond d'allocation
+    values:
+      '2004-01-01':
+        value: 0.4314
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - revenus_superieurs_plafond_allocation
+taux_recours_une_assistante_maternelle_une_association_une_entreprise_une_microcreche_en_bmaf:
+  description: Taux pour recours à une assistante maternelle, une association, une
+    entreprise ou une microcréche (en % de la BMAF)
+  apres_second_plafond:
+    description: Après le second plafond
+    values:
+      '2004-01-01':
+        value: 1.1505
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - apres_second_plafond
+taux_recours_une_garde_domicile_en_bmaf:
+  description: Taux pour recours à une garde à domicile (en % de la BMAF)
+  apres_second_plafond:
+    description: Après le second plafond
+    values:
+      '2004-01-01':
+        value: 1.51
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - apres_second_plafond
+majoration_plafond_une_personne_isolee:
+  description: Majoration du plafond pour une personne isolée
+  values:
+    '2008-05-01':
+      value: 0.4
+    '2004-01-01':
+      value: null
+  metadata:
+    unit: /1
 notes_bis:
   description: Notes bis
   values:
     '2004-01-01':
       value: null
-remuneration_brute_maximale_assistante_maternelle_par_jour_par_enfant_en_multiple_smic_horaire:
-  description: Rémunération brute maximale de l'assistante maternelle (par jour et
-    par enfant) (en multiple du SMIC horaire)
-  values:
-    '2004-01-01':
-      value: 5.0
-taux_recours_une_assistante_maternelle_une_association_une_entreprise_une_microcreche_en_bmaf:
-  apres_second_plafond:
-    description: Après le second plafond
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 1.1505
-  description: Taux pour recours à une assistante maternelle, une association, une
-    entreprise ou une microcréche (en % de la BMAF)
-  metadata:
-    order:
-    - sous_premier_plafond
-    - sous_second_plafond
-    - apres_second_plafond
-  sous_premier_plafond:
-    description: Sous le premier plafond
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 1.7257
-  sous_second_plafond:
-    description: Sous le second plafond
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 1.4381
-taux_recours_une_garde_domicile_en_bmaf:
-  apres_second_plafond:
-    description: Après le second plafond
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 1.51
-  description: Taux pour recours à une garde à domicile (en % de la BMAF)
-  metadata:
-    order:
-    - sous_premier_plafond
-    - sous_second_plafond
-    - apres_second_plafond
-  sous_premier_plafond:
-    description: Sous le premier plafond
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 2.0853
-  sous_second_plafond:
-    description: Sous le second plafond
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 1.7979
+documentation: |
+  Notes :
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond
+  (1)Pour les enfants de 3 à 6 ans, le taux du CLCMG est égal à la moitié de celui pour un enfant de moins de 3 ans. En 2012 :
+  57,02 % si < 45 %*plafond
+  35,96 % si < plafond & > 45 %*plafond

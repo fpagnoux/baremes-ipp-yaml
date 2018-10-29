@@ -1,121 +1,40 @@
 description: Taux spécifique tabac
+taux_specifique:
+  description: Taux spécifique
+  tabacs_chiquer:
+    description: Tabacs à chiquer
+    values:
+      '2013-01-01':
+        value: 0.0
+      '1979-01-01':
+        value: null
+    metadata:
+      unit:
+        '2015-01-01': currency-EUR
+        '2013-01-01': /1
+  metadata:
+    order:
+    - tabacs_chiquer
 metadata:
-  date_parution_jo:
-    '2004-01-05': '2003-12-31'
-    '2011-01-01': '2010-12-30'
-    '2012-01-01': '2011-12-29'
-    '2013-01-01': '2012-12-18'
-    '2013-07-01': '2012-12-18'
-    '2015-01-01': '2014-12-30'
-    '2018-03-01': '2017-12-31'
   order:
   - taux_specifique
   reference:
-    '1979-01-01': Art. 575 CGI
-    '2004-01-05': Loi 2003-1311 du 30/12/2003
-    '2011-01-01': Loi 2010-1658 du 29/12/2010
-    '2012-01-01': Loi 2011-1978 du 28/12/2011
-    '2013-01-01': Loi 2012-1404 du 17/12/2012
-    '2013-07-01': Loi 2012-1404 du 17/12/2012, art. 23 (LFSS pour 2013)
-    '2015-01-01': Loi 2014-1655 du 29/12/2014
     '2018-03-01': Loi 2017-1836 du 30/12/2017 (LF pour 2018) - art. 17
-taux_specifique:
-  autres_tabacs:
-    description: Autres tabacs
-    metadata:
-      unit:
-        '2013-01-01': /1
-        '2015-01-01': currency-EUR
-    values:
-      '1979-01-01':
-        value: null
-      '2013-01-01':
-        value: 0.1
-      '2015-01-01':
-        value: 17.0
-      '2018-03-01':
-        value: 21.5
-  cigares:
-    description: Cigares
-    metadata:
-      unit:
-        '2013-01-01': /1
-        '2015-01-01': currency-EUR
-    values:
-      '1979-01-01':
-        value: null
-      '2013-01-01':
-        value: 0.05
-      '2015-01-01':
-        value: 19.0
-      '2018-03-01':
-        value: 24.7
-  cigarettes:
-    description: Cigarettes
-    metadata:
-      unit:
-        '1979-01-01': /1
-        '2015-01-01': currency-EUR
-    values:
-      '1979-01-01':
-        value: 0.05
-      '2004-01-05':
-        value: 0.075
-      '2011-01-01':
-        value: 0.09
-      '2012-01-01':
-        value: 0.12
-      '2013-01-01':
-        value: 0.125
-      '2013-07-01':
-        value: 0.15
-      '2015-01-01':
-        value: 48.75
-      '2018-03-01':
-        value: 59.9
-  description: Taux spécifique
-  metadata:
-    order:
-    - cigarettes
-    - cigares
-    - tabac_rouler
-    - autres_tabacs
-    - tabacs_priser
-    - tabacs_chiquer
-  tabac_rouler:
-    description: Tabac à rouler
-    metadata:
-      unit:
-        '2013-01-01': /1
-        '2015-01-01': currency-EUR
-    values:
-      '1979-01-01':
-        value: null
-      '2013-01-01':
-        value: 0.3
-      '2015-01-01':
-        value: 67.5
-      '2018-03-01':
-        value: 68.5
-  tabacs_chiquer:
-    description: Tabacs à chiquer
-    metadata:
-      unit:
-        '2013-01-01': /1
-        '2015-01-01': currency-EUR
-    values:
-      '1979-01-01':
-        value: null
-      '2013-01-01':
-        value: 0.0
-  tabacs_priser:
-    description: Tabacs à priser
-    metadata:
-      unit:
-        '2013-01-01': /1
-        '2015-01-01': currency-EUR
-    values:
-      '1979-01-01':
-        value: null
-      '2013-01-01':
-        value: 0.0
+    '2015-01-01': Loi 2014-1655 du 29/12/2014
+    '2013-07-01': Loi 2012-1404 du 17/12/2012, art. 23 (LFSS pour 2013)
+    '2013-01-01': Loi 2012-1404 du 17/12/2012
+    '2012-01-01': Loi 2011-1978 du 28/12/2011
+    '2011-01-01': Loi 2010-1658 du 29/12/2010
+    '2004-01-05': Loi 2003-1311 du 30/12/2003
+    '1979-01-01': Art. 575 CGI
+  date_parution_jo:
+    '2018-03-01': '2017-12-31'
+    '2015-01-01': '2014-12-30'
+    '2013-07-01': '2012-12-18'
+    '2013-01-01': '2012-12-18'
+    '2012-01-01': '2011-12-29'
+    '2011-01-01': '2010-12-30'
+    '2004-01-05': '2003-12-31'
+documentation: |
+  Notes :
+  A partir de 2015 la part spécifique est en euro et non plus en pourcentage

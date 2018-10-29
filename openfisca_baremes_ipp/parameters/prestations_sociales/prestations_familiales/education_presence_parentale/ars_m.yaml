@@ -1,98 +1,134 @@
 description: 'Allocation de rentrée scolaire (ARS) : montants'
-enfants_15_ans_en_bmaf_3:
-  description: 'Enfants 15 ans et +
-
-    (En % de la BMAF) (3)'
-  metadata:
-    unit: /1
-  values:
-    '1978-01-01':
-      value: 0.2
-    '1995-08-01':
-      value: 0.3223
-    '1997-08-01':
-      value: 0.2
-    '2001-08-01':
-      value: 0.7322
-    '2008-08-03':
-      value: 0.7915
-    '2012-09-03':
-      value: 0.9795
-enfants_entre_11_14_ans_en_bmaf_2:
-  description: 'Enfants entre 11 et 14 ans
-
-    (En % de la BMAF) (2)'
-  metadata:
-    unit: /1
-  values:
-    '1978-01-01':
-      value: 0.2
-    '1995-08-01':
-      value: 0.3223
-    '1997-08-01':
-      value: 0.2
-    '2001-08-01':
-      value: 0.7322
-    '2008-08-03':
-      value: 0.7649
-    '2012-09-03':
-      value: 0.9467
 enfants_entre_6_10_ans_en_bmaf_1:
-  description: 'Enfants entre 6 et 10 ans
-
-    (En % de la BMAF) (1)'
-  metadata:
-    unit: /1
+  description: |-
+    Enfants entre 6 et 10 ans
+    (En % de la BMAF) (1)
   values:
-    '1978-01-01':
-      value: null
-    '1986-08-01':
+    '2012-09-03':
+      value: 0.8972
+    '2008-08-03':
+      value: 0.725
+    '2001-08-01':
+      value: 0.7322
+    '1997-08-01':
       value: 0.2
     '1995-08-01':
       value: 0.3222749727028288
-    '1997-08-01':
+    '1986-08-01':
       value: 0.2
-    '2001-08-01':
-      value: 0.7322
-    '2008-08-03':
-      value: 0.725
-    '2012-09-03':
-      value: 0.8972
+    '1978-01-01':
+      value: null
+  metadata:
+    unit: /1
 metadata:
-  date_parution_jo:
-    '1978-01-01': 17/07/1974                       14/08/1974                 12/07/1978
-    '1986-08-01': '1985-12-21'
-    '1990-08-01': '1990-07-11'
-    '1995-08-01': '1995-08-12'
-    '1997-08-01': '1997-08-23'
-    '2001-08-01': '2001-08-04'
-    '2008-08-03': '21/12/2007
-
-      02/08/2008'
-    '2012-09-03': '2012-06-30'
-  notes:
-    '1995-08-01': Modification du taux.
-    '2001-08-01': Changement de taux. Au regard de la date, ce changement s'applique
-      à la rentrée 2001
-    '2008-08-03': 'La loi : Le montant varie avec l''âge
-
-      Le décret : Changement de taux. Au regard de la date du JO, ce nouveau taux
-      devrait s''appliquer pour la rentrée 2008. Or, ce n''est pas la cas : cf. dico
-      permanent'
   order:
   - enfants_entre_6_10_ans_en_bmaf_1
   - enfants_entre_11_14_ans_en_bmaf_2
   - enfants_15_ans_en_bmaf_3
   reference:
+    '2012-09-03': Décret 2012-830 du 27/06/2012
+    '2008-08-03': |-
+      Loi 2007-1786 du 19/12/2007, art. 93 (modif art. L543-1 du CSS)
+      Décret 2008-767 du 31/07/2008, art. 1 (modif art. D543-1 du CSS)
+    '2001-08-01': Décret 2001-719 du 31/07/2001, art. 1 (modif art. D543-1 du CSS)
+    '1997-08-01': Décret 97-794 du 22/08/1997, art.1
+    '1995-08-01': Décret 95-909 du 11/08/1995, art. 1
+    '1990-08-01': Loi 90-590 du 06/07/1990, art.1 (modif art. L543-1 du CSS)
+    '1986-08-01': Décret 85-1353 du 17/12/1985, art. 1 (crée art. D543-1 du CSS)
     '1978-01-01': Loi 74-644 du 16/07/1974                                                                           Décret
       74-706 du 13/08/1974                                                                  Décret
       78-728 du 11/07/1978
-    '1986-08-01': Décret 85-1353 du 17/12/1985, art. 1 (crée art. D543-1 du CSS)
-    '1990-08-01': Loi 90-590 du 06/07/1990, art.1 (modif art. L543-1 du CSS)
-    '1995-08-01': Décret 95-909 du 11/08/1995, art. 1
-    '1997-08-01': Décret 97-794 du 22/08/1997, art.1
-    '2001-08-01': Décret 2001-719 du 31/07/2001, art. 1 (modif art. D543-1 du CSS)
-    '2008-08-03': 'Loi 2007-1786 du 19/12/2007, art. 93 (modif art. L543-1 du CSS)
-
-      Décret 2008-767 du 31/07/2008, art. 1 (modif art. D543-1 du CSS)'
-    '2012-09-03': Décret 2012-830 du 27/06/2012
+  date_parution_jo:
+    '2012-09-03': '2012-06-30'
+    '2008-08-03': |-
+      21/12/2007
+      02/08/2008
+    '2001-08-01': '2001-08-04'
+    '1997-08-01': '1997-08-23'
+    '1995-08-01': '1995-08-12'
+    '1990-08-01': '1990-07-11'
+    '1986-08-01': '1985-12-21'
+    '1978-01-01': 17/07/1974                       14/08/1974                 12/07/1978
+  notes:
+    '2008-08-03': |-
+      La loi : Le montant varie avec l'âge
+      Le décret : Changement de taux. Au regard de la date du JO, ce nouveau taux devrait s'appliquer pour la rentrée 2008. Or, ce n'est pas la cas : cf. dico permanent
+    '2001-08-01': Changement de taux. Au regard de la date, ce changement s'applique
+      à la rentrée 2001
+    '1995-08-01': Modification du taux.
+enfants_entre_11_14_ans_en_bmaf_2:
+  description: |-
+    Enfants entre 11 et 14 ans
+    (En % de la BMAF) (2)
+  values:
+    '2012-09-03':
+      value: 0.9467
+    '2008-08-03':
+      value: 0.7649
+    '2001-08-01':
+      value: 0.7322
+    '1997-08-01':
+      value: 0.2
+    '1995-08-01':
+      value: 0.3223
+    '1978-01-01':
+      value: 0.2
+  metadata:
+    unit: /1
+enfants_15_ans_en_bmaf_3:
+  description: |-
+    Enfants 15 ans et +
+    (En % de la BMAF) (3)
+  values:
+    '2012-09-03':
+      value: 0.9795
+    '2008-08-03':
+      value: 0.7915
+    '2001-08-01':
+      value: 0.7322
+    '1997-08-01':
+      value: 0.2
+    '1995-08-01':
+      value: 0.3223
+    '1978-01-01':
+      value: 0.2
+  metadata:
+    unit: /1
+documentation: |
+  Notes :
+  L'ARS a un plafond variable selon le nombre d'enfants dès 1974 (Loi 74-644 du 16/07/1974)
+  Décret 2002-1059, art 1 du 07/08/2002 (JORF 08/08/2002): L'allocation différentielle de rentrée scolaire est égale, pour chaque enfant, à la différence entre, d'une part, le plafond défini au deuxième alinéa de l'article R. 543-5, majoré du montant de l'allocation de rentrée scolaire en vigueur au 1er juillet de l'année en cours multiplié par le nombre d'enfants y ouvrant droit au titre de la rentrée scolaire en cours et, d'autre part, le montant des ressources, cette différence étant divisée par le nombre d'enfants à charge ouvrant droit à cette allocation.
+  Décret 2002-1059, art 1 du 07/08/2002 (JORF 08/08/2002): L'allocation différentielle de rentrée scolaire est égale, pour chaque enfant, à la différence entre, d'une part, le plafond défini au deuxième alinéa de l'article R. 543-5, majoré du montant de l'allocation de rentrée scolaire en vigueur au 1er juillet de l'année en cours multiplié par le nombre d'enfants y ouvrant droit au titre de la rentrée scolaire en cours et, d'autre part, le montant des ressources, cette différence étant divisée par le nombre d'enfants à charge ouvrant droit à cette allocation.
+  Décret 2002-1059, art 1 du 07/08/2002 (JORF 08/08/2002): L'allocation différentielle de rentrée scolaire est égale, pour chaque enfant, à la différence entre, d'une part, le plafond défini au deuxième alinéa de l'article R. 543-5, majoré du montant de l'allocation de rentrée scolaire en vigueur au 1er juillet de l'année en cours multiplié par le nombre d'enfants y ouvrant droit au titre de la rentrée scolaire en cours et, d'autre part, le montant des ressources, cette différence étant divisée par le nombre d'enfants à charge ouvrant droit à cette allocation.
+  Décret 2002-1059, art 1 du 07/08/2002 (JORF 08/08/2002): L'allocation différentielle de rentrée scolaire est égale, pour chaque enfant, à la différence entre, d'une part, le plafond défini au deuxième alinéa de l'article R. 543-5, majoré du montant de l'allocation de rentrée scolaire en vigueur au 1er juillet de l'année en cours multiplié par le nombre d'enfants y ouvrant droit au titre de la rentrée scolaire en cours et, d'autre part, le montant des ressources, cette différence étant divisée par le nombre d'enfants à charge ouvrant droit à cette allocation.
+  Décret 2002-1059, art 1 du 07/08/2002 (JORF 08/08/2002): L'allocation différentielle de rentrée scolaire est égale, pour chaque enfant, à la différence entre, d'une part, le plafond défini au deuxième alinéa de l'article R. 543-5, majoré du montant de l'allocation de rentrée scolaire en vigueur au 1er juillet de l'année en cours multiplié par le nombre d'enfants y ouvrant droit au titre de la rentrée scolaire en cours et, d'autre part, le montant des ressources, cette différence étant divisée par le nombre d'enfants à charge ouvrant droit à cette allocation.
+  (1) Entrée à 6 ans : Chaque enfant "qui atteindra son sixième anniversaire avant le 1er février de l'année suivant celle de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 11 ans : l'enfant sort de cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (1) Entrée à 6 ans : Chaque enfant "qui atteindra son sixième anniversaire avant le 1er février de l'année suivant celle de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 11 ans : l'enfant sort de cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (1) Entrée à 6 ans : Chaque enfant "qui atteindra son sixième anniversaire avant le 1er février de l'année suivant celle de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 11 ans : l'enfant sort de cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (1) Entrée à 6 ans : Chaque enfant "qui atteindra son sixième anniversaire avant le 1er février de l'année suivant celle de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 11 ans : l'enfant sort de cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (1) Entrée à 6 ans : Chaque enfant "qui atteindra son sixième anniversaire avant le 1er février de l'année suivant celle de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 11 ans : l'enfant sort de cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (2) Limite de 11 ans : l'enfant entre dans cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 15 ans : l'enfant sort de cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (2) Limite de 11 ans : l'enfant entre dans cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 15 ans : l'enfant sort de cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (2) Limite de 11 ans : l'enfant entre dans cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 15 ans : l'enfant sort de cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (2) Limite de 11 ans : l'enfant entre dans cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 15 ans : l'enfant sort de cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (2) Limite de 11 ans : l'enfant entre dans cette catégorie s'il atteint ses 11 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 15 ans : l'enfant sort de cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  (3)Limite de 15 ans : l'enfant entre dans cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 18 ans : "tout enfant qui n'a pas atteint l'âge de dix-huit ans révolus au 15 septembre de l'année considérée"(art. R543-2 du CSS)
+  (3)Limite de 15 ans : l'enfant entre dans cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 18 ans : "tout enfant qui n'a pas atteint l'âge de dix-huit ans révolus au 15 septembre de l'année considérée"(art. R543-2 du CSS)
+  (3)Limite de 15 ans : l'enfant entre dans cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 18 ans : "tout enfant qui n'a pas atteint l'âge de dix-huit ans révolus au 15 septembre de l'année considérée"(art. R543-2 du CSS)
+  (3)Limite de 15 ans : l'enfant entre dans cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 18 ans : "tout enfant qui n'a pas atteint l'âge de dix-huit ans révolus au 15 septembre de l'année considérée"(art. R543-2 du CSS)
+  (3)Limite de 15 ans : l'enfant entre dans cette catégorie s'il atteint ses 15 ans "au cours de l'année civile de la rentrée scolaire" (art. R543-2 du CSS)
+  Limite de 18 ans : "tout enfant qui n'a pas atteint l'âge de dix-huit ans révolus au 15 septembre de l'année considérée"(art. R543-2 du CSS)

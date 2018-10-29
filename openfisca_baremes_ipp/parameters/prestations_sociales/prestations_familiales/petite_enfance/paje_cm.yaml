@@ -1,37 +1,11 @@
+description: "Prestation d'accueil du jeune enfant (PAJE) - Allocation de base : conditions\
+  \ et montants"
 age_limite_enfant_adopte_non:
   description: Age limite de l'enfant (adopté ou non)
   values:
     '2004-01-01':
       value: 3.0
-description: 'Prestation d''accueil du jeune enfant (PAJE) - Allocation de base :
-  conditions et montants'
-duree_versement_enfants_adoptes_en_annee:
-  description: "Durée de versement pour les enfants adoptés \n(en année)"
-  values:
-    '2004-01-01':
-      value: 3.0
-majoration_plafond_par_enfant_charge:
-  description: Majoration du plafond par enfant à charge
-  metadata:
-    unit: /1
-  values:
-    '2004-01-01':
-      value: null
-    '2014-04-01':
-      value: 0.22
 metadata:
-  date_parution_jo:
-    '2004-01-01': '19/12/2003
-
-      01/01/2004'
-    '2014-04-01': '2014-04-26'
-  notes:
-    '2004-01-01': 'art. D531-1 : fixe l''âge limite
-
-      art. D531-3 : fixe le montant de l''aide (en % de la BMAF)
-
-      La PAJE remplace entre en vigueur de manière progressive jusqu''à fin 2006 (cf.
-      art. 60, VIII de la loi).'
   order:
   - age_limite_enfant_adopte_non
   - duree_versement_enfants_adoptes_en_annee
@@ -39,43 +13,60 @@ metadata:
   - paje
   - majoration_plafond_par_enfant_charge
   reference:
-    '2004-01-01': 'Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
-
-      Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée art.
-      D531-3 du CSS)'
     '2014-04-01': Décret 2014-422 du 24 avril 2014
-paje:
-  allocation_base_en_bmaf:
-    description: Allocation de base (en % de la BMAF)
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 0.4595
-  description: PAJE
-  metadata:
-    order:
-    - allocation_base_en_bmaf
+    '2004-01-01': |-
+      Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
+      Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée art. D531-3 du CSS)
+  date_parution_jo:
+    '2014-04-01': '2014-04-26'
+    '2004-01-01': |-
+      19/12/2003
+      01/01/2004
+  notes:
+    '2004-01-01': |-
+      art. D531-1 : fixe l'âge limite
+      art. D531-3 : fixe le montant de l'aide (en % de la BMAF)
+      La PAJE remplace entre en vigueur de manière progressive jusqu'à fin 2006 (cf. art. 60, VIII de la loi).
+duree_versement_enfants_adoptes_en_annee:
+  description: |-
+    Durée de versement pour les enfants adoptés 
+    (en année)
+  values:
+    '2004-01-01':
+      value: 3.0
 periode_reference_justifier_8_trimestres_cotisation_vieillesse_1:
   description: Période de référence pour justifier les 8 trimestres de cotisation
     vieillesse (1)
-  deux_enfants:
-    description: Deux enfants
-    values:
-      '2004-01-01':
-        value: 4.0
-  enfant:
-    description: Un enfant
-    values:
-      '2004-01-01':
-        value: 2.0
-  metadata:
-    order:
-    - enfant
-    - deux_enfants
-    - trois_enfants_plus
   trois_enfants_plus:
     description: Trois enfants ou plus
     values:
       '2004-01-01':
         value: 5.0
+  metadata:
+    order:
+    - trois_enfants_plus
+paje:
+  description: PAJE
+  allocation_base_en_bmaf:
+    description: Allocation de base (en % de la BMAF)
+    values:
+      '2004-01-01':
+        value: 0.4595
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - allocation_base_en_bmaf
+majoration_plafond_par_enfant_charge:
+  description: Majoration du plafond par enfant à charge
+  values:
+    '2014-04-01':
+      value: 0.22
+    '2004-01-01':
+      value: null
+  metadata:
+    unit: /1
+documentation: |
+  Notes : 
+  Depuis le 01/06/2012 (cf. Décret 2012-666 du 4 mai 2012 - art. 2), la prise en charge partielle de la rémunération par l'organisme débiteur des prestations familiales est fixée au maximum à 85 % du salaire net servi et des indemnités mentionnées à l'article L. 423-4 du code de l'action sociale et des familles.
+  (1) Pour bénéficier de la CLCA ou ensuite de la PrePare, on doit justifier d'au moins 8 trimestres de cotisation sur une période de référence précédant la naissance, l'adoption ou l'accueil de l'enfant concerné.

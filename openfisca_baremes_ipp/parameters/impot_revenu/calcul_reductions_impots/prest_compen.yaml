@@ -1,57 +1,50 @@
+description: Prestation compensatoire (2001 - 2016)
 date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
   annee_ir:
     description: Année IR
     values:
-      '1999-01-01':
-        value: 2000.0
-      '2000-01-01':
-        value: 2001.0
-      '2001-01-01':
-        value: 2002.0
       '2004-01-01':
         value: 2005.0
-  description: Date d'entrée en vigueur
+      '2001-01-01':
+        value: 2002.0
+      '2000-01-01':
+        value: 2001.0
+      '1999-01-01':
+        value: 2000.0
   metadata:
     order:
     - annee_ir
-description: Prestation compensatoire (2001 - 2016)
 metadata:
-  notes:
-    '2000-01-01': 'Aménagement possible des dispositions fiscales : art. 128  et 275-1
-      du code civil'
-    '2004-01-01': Institution d'une réduction d'impôt en cas de versement de la prestation
-      compensatoire en capital
   order:
   - date_entree_en_vigueur
   - prestations_compensatoires
   reference:
-    '2000-01-01': Loi 2000-596 du 30 juin 2000
     '2004-01-01': Loi 2004-439 du 26 mai 2004 - art. 26
+    '2000-01-01': Loi 2000-596 du 30 juin 2000
+  notes:
+    '2004-01-01': Institution d'une réduction d'impôt en cas de versement de la prestation
+      compensatoire en capital
+    '2000-01-01': 'Aménagement possible des dispositions fiscales : art. 128  et 275-1
+      du code civil'
 prestations_compensatoires:
   description: Prestations compensatoires
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
-    metadata:
-      unit:
-        '2000-01-01': currency-FRF
-        '2001-01-01': currency-EUR
     values:
-      '1999-01-01':
-        value: null
-      '2000-01-01':
-        value: 200000.0
       '2001-01-01':
         value: 30500.0
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
+      '2000-01-01':
+        value: 200000.0
       '1999-01-01':
         value: null
-      '2000-01-01':
-        value: 0.25
+    metadata:
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  metadata:
+    order:
+    - plafond
+documentation: |
+  Notes : 
+  (1) Voir art. 270 et 271 du code civil

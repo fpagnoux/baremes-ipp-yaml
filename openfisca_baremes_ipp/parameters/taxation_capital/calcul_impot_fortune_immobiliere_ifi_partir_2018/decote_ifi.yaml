@@ -1,24 +1,12 @@
-borne_inferieure_decote:
-  description: Borne inférieure de la décote
-  metadata:
-    unit: currency-EUR
-  values:
-    '2018-01-01':
-      value: 1300000.0
-borne_superieure_decote:
-  description: Borne supérieure de la décote
-  metadata:
-    unit: currency-EUR
-  values:
-    '2018-01-01':
-      value: 1400000.0
 description: Calcul de la décote
+parametre_calcul_decote_isf:
+  description: Paramètre de calcul de la décote ISF
+  values:
+    '2018-01-01':
+      value: 17500.0
+  metadata:
+    unit: currency-EUR
 metadata:
-  date_parution_jo:
-    '2018-01-01': '2017-12-31'
-  notes:
-    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
   order:
   - parametre_calcul_decote_isf
   - borne_inferieure_decote
@@ -27,17 +15,30 @@ metadata:
   reference:
     '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 977
       du CGI)
-parametre_calcul_decote_isf:
-  description: Paramètre de calcul de la décote ISF
-  metadata:
-    unit: currency-EUR
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+  notes:
+    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.
+borne_inferieure_decote:
+  description: Borne inférieure de la décote
   values:
     '2018-01-01':
-      value: 17500.0
+      value: 1300000.0
+  metadata:
+    unit: currency-EUR
+borne_superieure_decote:
+  description: Borne supérieure de la décote
+  values:
+    '2018-01-01':
+      value: 1400000.0
+  metadata:
+    unit: currency-EUR
 taux_decote_isf:
   description: Taux de la décote ISF
-  metadata:
-    unit: /1
   values:
     '2018-01-01':
       value: 0.0125
+  metadata:
+    unit: /1
+documentation: ''

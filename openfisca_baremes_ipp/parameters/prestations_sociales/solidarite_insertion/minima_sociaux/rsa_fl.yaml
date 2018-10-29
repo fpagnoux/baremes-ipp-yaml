@@ -1,42 +1,26 @@
 description: 'Revenu de solidarité active (RSA) : forfait logement'
 forfait_logement_en_montant_forfaitaire_rsa:
-  1_personne:
-    description: 1 personne
-    metadata:
-      unit: /1
-    values:
-      '2009-06-01':
-        value: 0.12
-  2_personnes:
-    description: 2 personnes
-    metadata:
-      unit: /1
-    values:
-      '2009-06-01':
-        value: 0.16
+  description: Forfait logement (en % du montant forfaitaire du RSA)
   3_personnes_plus:
     description: 3 personnes ou plus
-    metadata:
-      unit: /1
     values:
       '2009-06-01':
         value: 0.165
-  description: Forfait logement (en % du montant forfaitaire du RSA)
+    metadata:
+      unit: /1
   metadata:
     order:
-    - 1_personne
-    - 2_personnes
     - 3_personnes_plus
 metadata:
-  date_parution_jo:
-    '2009-06-01': '2009-04-16'
-  notes:
-    '2009-06-01': 'Art. R262-9 : pour les propriétaires sans AL et les logés à titre
-      gratuit (on entend par AL les 3 types d''aides au logement).
-
-      Art. R262-10 : pour les bénéficiaires des AL.'
   order:
   - forfait_logement_en_montant_forfaitaire_rsa
   reference:
     '2009-06-01': Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-9 et R262-10
       du CASF)
+  date_parution_jo:
+    '2009-06-01': '2009-04-16'
+  notes:
+    '2009-06-01': |-
+      Art. R262-9 : pour les propriétaires sans AL et les logés à titre gratuit (on entend par AL les 3 types d'aides au logement).
+      Art. R262-10 : pour les bénéficiaires des AL.
+documentation: ''

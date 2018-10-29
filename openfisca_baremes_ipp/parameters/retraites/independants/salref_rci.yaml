@@ -1,19 +1,23 @@
-description: 'Régime complémentaire des indépendants : valeur d''achat du point'
-metadata:
-  notes:
-    '2013-01-01': 'A partir du 1er janvier 2013, les artisans et commerçants bénéficient
-      d''un régime complémentaire unique commun : le Régime Complémentaire des Indépendants
-      (RCI).'
-  order:
-  - valeur_annuelle_acquisition_point_rsi
+description: "Régime complémentaire des indépendants : valeur d'achat du point"
 valeur_annuelle_acquisition_point_rsi:
   description: Valeur annuelle d'acquisition du point RSI
-  metadata:
-    unit: currency-EUR
   values:
-    '2013-01-01':
-      value: 17.309
-    '2015-10-01':
-      value: 17.324
     '2017-10-01':
       value: 17.456
+    '2015-10-01':
+      value: 17.324
+    '2013-01-01':
+      value: 17.309
+  metadata:
+    unit: currency-EUR
+metadata:
+  order:
+  - valeur_annuelle_acquisition_point_rsi
+  notes:
+    '2013-01-01': "A partir du 1er janvier 2013, les artisans et commerçants bénéficient\
+      \ d'un régime complémentaire unique commun : le Régime Complémentaire des Indépendants\
+      \ (RCI)."
+documentation: |
+  Sources : 
+  rsi.fr
+  http://www.rsi.fr/baremes/prestations-vieillesse-et-invalidite-deces.html#c5206

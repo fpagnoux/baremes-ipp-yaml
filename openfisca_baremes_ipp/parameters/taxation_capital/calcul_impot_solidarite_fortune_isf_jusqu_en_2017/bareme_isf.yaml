@@ -1,506 +1,147 @@
 description: Barème de l'ISF
+seuils_tranches_bareme_isf:
+  description: Seuils des tranches du barème de l'ISF
+  6eme_tranche:
+    description: 6ème tranche
+    values:
+      '2013-01-01':
+        value: null
+      '2011-01-01':
+        value: 16790000.0
+      '2010-01-01':
+        value: 16540000.0
+      '2009-01-01':
+        value: 16480000.0
+      '2008-01-01':
+        value: 16020000.0
+      '2007-01-01':
+        value: 15810000.0
+      '2006-01-01':
+        value: 15530000.0
+      '2005-01-01':
+        value: 15255000.0
+      '2002-01-01':
+        value: 15000000.0
+      '1999-01-01':
+        value: 100000000.0
+      '1982-01-01':
+        value: null
+    metadata:
+      unit:
+        '2002-01-01': currency-EUR
+        '1999-01-01': currency-FRF
+  metadata:
+    order:
+    - 6eme_tranche
 metadata:
+  order:
+  - seuils_tranches_bareme_isf
+  - taux_marginaux_tranches_bareme_isf
+  reference:
+    '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
+      885 U du CGI)
+    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
+    '2012-01-01': Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011) ; Loi  2012-958
+      du 16/08/2012, art. 4 (LFR pour 2012)
+    '2011-01-01': Loi 2010-1657 du 29/12/2010, art. 2 (LF pour 2011) ; Décret 2011-645
+      du 09/06/2011, art. 1
+    '2010-01-01': Loi 2009-1673 du 30/12/2009, art. 18 (LF pour 2010) ; Décret 2010-421
+      du 27/04/2010, art. 1
+    '2009-01-01': Loi 2008-1425 du 27/12/2008, art. 2 (LF pour 2009) ; Décret 2009-389
+      du 07/04/2009, art. 1
+    '2008-01-01': Loi 2007-1822 du 24/12/2007, art. 2 (LF pour 2008) ; Décret 2008-294
+      du 01/04/2008, art. 1
+    '2007-01-01': Loi 2006-1666 du 21/12/2006, art. 2 (LF pour 2007) ; Décret 2007-484
+      du 30/03/2007, art. 1
+    '2006-01-01': Loi 2005-1719 du 30 /12/2005, art. 2 (LF pour 2006)
+    '2005-01-01': Loi 2004-1484 du 30/12/2004, art. 17 (LF pour 2005)
+    '2002-01-01': Ordonnance  2000-916 du 19/09/2000,  art. 6
+    '1999-01-01': Loi 98-1266 du 30/12/1998, art. 13 (LF pour 1999)
+    '1997-01-01': Loi 96-1181 du 30/12/1996, art. 25 (LF pour 1997)
+    '1996-01-01': Loi 95-1346 du 30/12/1995, art. 6 (LF pour 1996)
+    '1995-01-01': Loi 94-1162 du 29/12/1994, art. 4 (LF pour 1995)
+    '1994-01-01': Loi 93-1352 du 30/12/1993, art. 7 (LF pour 1994)
+    '1992-01-01': Loi 91-1322 du 30/12/1991, art. 37 (LF pour 1992)
+    '1991-01-01': Loi 90-1168 du 29/12/1990, art. 16 (LF pour 1991)
+    '1990-01-01': Loi 89-935 du 29/12/1989, art. 10 (LF pour 1990)
+    '1989-01-01': Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
+    '1987-01-01': Loi 86-824 du 11/07/1986, art. 24 (LFR pour 1986)
+    '1986-01-01': Loi 85-1403 du 30/12/1985, art. 19 (LF pour 1986)
+    '1985-01-01': Loi 84-1208 du 29/12/1984, art. 26 (LF pour 1985)
+    '1984-01-01': Loi 83-1179 du 29/12/1983, art. 19 (LF pour 1984)
+    '1983-01-01': Loi 82-1126 du 29/12/1982, art. 16 (LF pour 1983)
+    '1982-01-01': Loi 81-1160 du 30/12/1981, art. 2 à 11 (LF pour 1982)
   date_parution_jo:
-    '1982-01-01': '1981-12-31'
-    '1983-01-01': '1982-12-30'
-    '1984-01-01': '1983-12-30'
-    '1985-01-01': '1984-12-30'
-    '1986-01-01': '1985-12-31'
-    '1987-01-01': '1986-07-12'
-    '1989-01-01': '1988-12-28'
-    '1990-01-01': '1989-12-30'
-    '1991-01-01': '1990-12-30'
-    '1992-01-01': '1991-12-31'
-    '1994-01-01': '1993-12-31'
-    '1995-01-01': '1994-12-30'
-    '1996-01-01': '1995-12-31'
-    '1997-01-01': '1996-12-31'
-    '1999-01-01': '1998-12-31'
-    '2002-01-01': '2000-09-22'
-    '2005-01-01': '2004-12-31'
-    '2006-01-01': '2005-12-31'
-    '2007-01-01': 27/12/2006 ; 31/03/2007
-    '2008-01-01': 27/12/2007 ; 02/04/2008
-    '2009-01-01': 28/12/2008 ; 09/04/2009
-    '2010-01-01': 31/12/2009 ; 30/04/2010
-    '2011-01-01': 30/12/2010 ; 11/06/2011
-    '2012-01-01': 30/07/2011 ; 17/08/2012
-    '2013-01-01': '2012-12-30'
     '2018-01-01': '2017-12-31'
+    '2013-01-01': '2012-12-30'
+    '2012-01-01': 30/07/2011 ; 17/08/2012
+    '2011-01-01': 30/12/2010 ; 11/06/2011
+    '2010-01-01': 31/12/2009 ; 30/04/2010
+    '2009-01-01': 28/12/2008 ; 09/04/2009
+    '2008-01-01': 27/12/2007 ; 02/04/2008
+    '2007-01-01': 27/12/2006 ; 31/03/2007
+    '2006-01-01': '2005-12-31'
+    '2005-01-01': '2004-12-31'
+    '2002-01-01': '2000-09-22'
+    '1999-01-01': '1998-12-31'
+    '1997-01-01': '1996-12-31'
+    '1996-01-01': '1995-12-31'
+    '1995-01-01': '1994-12-30'
+    '1994-01-01': '1993-12-31'
+    '1992-01-01': '1991-12-31'
+    '1991-01-01': '1990-12-30'
+    '1990-01-01': '1989-12-30'
+    '1989-01-01': '1988-12-28'
+    '1987-01-01': '1986-07-12'
+    '1986-01-01': '1985-12-31'
+    '1985-01-01': '1984-12-30'
+    '1984-01-01': '1983-12-30'
+    '1983-01-01': '1982-12-30'
+    '1982-01-01': '1981-12-31'
   notes:
-    '1982-01-01': Voir note (1)
-    '1987-01-01': Voir note (1)
-    '1989-01-01': Voir note (2)
-    '2002-01-01': Ordonnance portant adaptation de la valeur en euros de certains
-      montants exprimés en francs dans les textes législatifs
-    '2006-01-01': Début de l'actualisation annuelle du barème de l'ISF en fonction
-      de l’actualisation retenue pour l’IR. Voir note (3).
+    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.
+    '2012-01-01': "La réforme instaurée par la loi de finances rectifictative pour\
+      \ 2012  ne sera jamais appliquée à cause de l'alternance gouvernmentale : le\
+      \ barème pour l'ISF 2012 correspond de fait à un retour au barème de 2011 (\
+      \ via la contribution exceptionnelle prévue par la loi  de finances rectificative\
+      \ du 16/08/12) avec suppression temporaire du plafonnement. De plus, la contribution\
+      \ exceptionnelle  ne bénéficie d’aucune des réductions fiscales en vigueur pour\
+      \ l’ISF."
     '2010-01-01': Les taux de l’ISF n’ont pas connu de grands bouleversements depuis
       la recréation de cet impôt en 1989. Une majoration exceptionnelle de 10 % du
       produit de l’impôt était en vigueur de 1995 à 1998, avant d’être intégrée au
       barème en 1998. Une réduction de 150 euros par enfant à charge est appliquée.
       Entre 1997 et 2002, le barème n’a pas été indexé sur l’inflation.
-    '2012-01-01': 'La réforme instaurée par la loi de finances rectifictative pour
-      2012  ne sera jamais appliquée à cause de l''alternance gouvernmentale : le
-      barème pour l''ISF 2012 correspond de fait à un retour au barème de 2011 ( via
-      la contribution exceptionnelle prévue par la loi  de finances rectificative
-      du 16/08/12) avec suppression temporaire du plafonnement. De plus, la contribution
-      exceptionnelle  ne bénéficie d’aucune des réductions fiscales en vigueur pour
-      l’ISF.'
-    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
-  order:
-  - seuils_tranches_bareme_isf
-  - taux_marginaux_tranches_bareme_isf
-  reference:
-    '1982-01-01': Loi 81-1160 du 30/12/1981, art. 2 à 11 (LF pour 1982)
-    '1983-01-01': Loi 82-1126 du 29/12/1982, art. 16 (LF pour 1983)
-    '1984-01-01': Loi 83-1179 du 29/12/1983, art. 19 (LF pour 1984)
-    '1985-01-01': Loi 84-1208 du 29/12/1984, art. 26 (LF pour 1985)
-    '1986-01-01': Loi 85-1403 du 30/12/1985, art. 19 (LF pour 1986)
-    '1987-01-01': Loi 86-824 du 11/07/1986, art. 24 (LFR pour 1986)
-    '1989-01-01': Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
-    '1990-01-01': Loi 89-935 du 29/12/1989, art. 10 (LF pour 1990)
-    '1991-01-01': Loi 90-1168 du 29/12/1990, art. 16 (LF pour 1991)
-    '1992-01-01': Loi 91-1322 du 30/12/1991, art. 37 (LF pour 1992)
-    '1994-01-01': Loi 93-1352 du 30/12/1993, art. 7 (LF pour 1994)
-    '1995-01-01': Loi 94-1162 du 29/12/1994, art. 4 (LF pour 1995)
-    '1996-01-01': Loi 95-1346 du 30/12/1995, art. 6 (LF pour 1996)
-    '1997-01-01': Loi 96-1181 du 30/12/1996, art. 25 (LF pour 1997)
-    '1999-01-01': Loi 98-1266 du 30/12/1998, art. 13 (LF pour 1999)
-    '2002-01-01': Ordonnance  2000-916 du 19/09/2000,  art. 6
-    '2005-01-01': Loi 2004-1484 du 30/12/2004, art. 17 (LF pour 2005)
-    '2006-01-01': Loi 2005-1719 du 30 /12/2005, art. 2 (LF pour 2006)
-    '2007-01-01': Loi 2006-1666 du 21/12/2006, art. 2 (LF pour 2007) ; Décret 2007-484
-      du 30/03/2007, art. 1
-    '2008-01-01': Loi 2007-1822 du 24/12/2007, art. 2 (LF pour 2008) ; Décret 2008-294
-      du 01/04/2008, art. 1
-    '2009-01-01': Loi 2008-1425 du 27/12/2008, art. 2 (LF pour 2009) ; Décret 2009-389
-      du 07/04/2009, art. 1
-    '2010-01-01': Loi 2009-1673 du 30/12/2009, art. 18 (LF pour 2010) ; Décret 2010-421
-      du 27/04/2010, art. 1
-    '2011-01-01': Loi 2010-1657 du 29/12/2010, art. 2 (LF pour 2011) ; Décret 2011-645
-      du 09/06/2011, art. 1
-    '2012-01-01': Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011) ; Loi  2012-958
-      du 16/08/2012, art. 4 (LFR pour 2012)
-    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
-    '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
-      885 U du CGI)
-seuils_tranches_bareme_isf:
-  1ere_tranche:
-    description: 1ère tranche
-    metadata:
-      unit:
-        '1982-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1982-01-01':
-        value: 3000000.0
-      '1983-01-01':
-        value: 3200000.0
-      '1984-01-01':
-        value: 3400000.0
-      '1985-01-01':
-        value: 3500000.0
-      '1986-01-01':
-        value: 3600000.0
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 4000000.0
-      '1990-01-01':
-        value: 4130000.0
-      '1991-01-01':
-        value: 4260000.0
-      '1992-01-01':
-        value: 4390000.0
-      '1994-01-01':
-        value: 4470000.0
-      '1995-01-01':
-        value: 4530000.0
-      '1996-01-01':
-        value: 4610000.0
-      '1997-01-01':
-        value: 4700000.0
-      '2002-01-01':
-        value: 720000.0
-      '2005-01-01':
-        value: 732000.0
-      '2006-01-01':
-        value: 750000.0
-      '2007-01-01':
-        value: 760000.0
-      '2008-01-01':
-        value: 770000.0
-      '2009-01-01':
-        value: 790000.0
-      '2011-01-01':
-        value: 800000.0
-      '2018-01-01':
-        value: null
-  2eme_tranche:
-    description: 2ème tranche
-    metadata:
-      unit:
-        '1982-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1982-01-01':
-        value: 5000000.0
-      '1983-01-01':
-        value: 5300000.0
-      '1984-01-01':
-        value: 5600000.0
-      '1985-01-01':
-        value: 5800000.0
-      '1986-01-01':
-        value: 6000000.0
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 6500000.0
-      '1990-01-01':
-        value: 6710000.0
-      '1991-01-01':
-        value: 6920000.0
-      '1992-01-01':
-        value: 7130000.0
-      '1994-01-01':
-        value: 7270000.0
-      '1995-01-01':
-        value: 7370000.0
-      '1996-01-01':
-        value: 7500000.0
-      '1997-01-01':
-        value: 7640000.0
-      '2002-01-01':
-        value: 1160000.0
-      '2005-01-01':
-        value: 1180000.0
-      '2006-01-01':
-        value: 1200000.0
-      '2007-01-01':
-        value: 1220000.0
-      '2008-01-01':
-        value: 1240000.0
-      '2009-01-01':
-        value: 1280000.0
-      '2010-01-01':
-        value: 1290000.0
-      '2011-01-01':
-        value: 1310000.0
-      '2013-01-01':
-        value: 1300000.0
-      '2018-01-01':
-        value: null
-  3eme_tranche:
-    description: 3ème tranche
-    metadata:
-      unit:
-        '1982-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1982-01-01':
-        value: 10000000.0
-      '1983-01-01':
-        value: 10600000.0
-      '1984-01-01':
-        value: 11200000.0
-      '1985-01-01':
-        value: 11500000.0
-      '1986-01-01':
-        value: 11900000.0
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 12900000.0
-      '1990-01-01':
-        value: 13320000.0
-      '1991-01-01':
-        value: 13740000.0
-      '1992-01-01':
-        value: 14150000.0
-      '1994-01-01':
-        value: 14420000.0
-      '1995-01-01':
-        value: 14620000.0
-      '1996-01-01':
-        value: 14880000.0
-      '1997-01-01':
-        value: 15160000.0
-      '2002-01-01':
-        value: 2300000.0
-      '2005-01-01':
-        value: 2339000.0
-      '2006-01-01':
-        value: 2380000.0
-      '2007-01-01':
-        value: 2420000.0
-      '2008-01-01':
-        value: 2450000.0
-      '2009-01-01':
-        value: 2520000.0
-      '2010-01-01':
-        value: 2530000.0
-      '2011-01-01':
-        value: 2570000.0
-      '2018-01-01':
-        value: null
-  4eme_tranche:
-    description: 4ème tranche
-    metadata:
-      unit:
-        '1985-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1982-01-01':
-        value: null
-      '1985-01-01':
-        value: 20000000.0
-      '1986-01-01':
-        value: 20600000.0
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 20000000.0
-      '1990-01-01':
-        value: 20660000.0
-      '1991-01-01':
-        value: 21320000.0
-      '1992-01-01':
-        value: 21960000.0
-      '1994-01-01':
-        value: 22380000.0
-      '1995-01-01':
-        value: 22690000.0
-      '1996-01-01':
-        value: 23100000.0
-      '1997-01-01':
-        value: 23540000.0
-      '2002-01-01':
-        value: 3600000.0
-      '2005-01-01':
-        value: 3661000.0
-      '2006-01-01':
-        value: 3730000.0
-      '2007-01-01':
-        value: 3800000.0
-      '2008-01-01':
-        value: 3850000.0
-      '2009-01-01':
-        value: 3960000.0
-      '2010-01-01':
-        value: 3980000.0
-      '2011-01-01':
-        value: 4040000.0
-      '2013-01-01':
-        value: 5000000.0
-      '2018-01-01':
-        value: null
-  5eme_tranche:
-    description: 5ème  tranche
-    metadata:
-      unit:
-        '1990-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1982-01-01':
-        value: null
-      '1990-01-01':
-        value: 40000000.0
-      '1991-01-01':
-        value: 41280000.0
-      '1992-01-01':
-        value: 42520000.0
-      '1994-01-01':
-        value: 43330000.0
-      '1995-01-01':
-        value: 43940000.0
-      '1996-01-01':
-        value: 44730000.0
-      '1997-01-01':
-        value: 45580000.0
-      '2002-01-01':
-        value: 6900000.0
-      '2005-01-01':
-        value: 7017000.0
-      '2006-01-01':
-        value: 7140000.0
-      '2007-01-01':
-        value: 7270000.0
-      '2008-01-01':
-        value: 7360000.0
-      '2009-01-01':
-        value: 7570000.0
-      '2010-01-01':
-        value: 7600000.0
-      '2011-01-01':
-        value: 7710000.0
-      '2013-01-01':
-        value: 10000000.0
-      '2018-01-01':
-        value: null
-  6eme_tranche:
-    description: 6ème tranche
-    metadata:
-      unit:
-        '1999-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1982-01-01':
-        value: null
-      '1999-01-01':
-        value: 100000000.0
-      '2002-01-01':
-        value: 15000000.0
-      '2005-01-01':
-        value: 15255000.0
-      '2006-01-01':
-        value: 15530000.0
-      '2007-01-01':
-        value: 15810000.0
-      '2008-01-01':
-        value: 16020000.0
-      '2009-01-01':
-        value: 16480000.0
-      '2010-01-01':
-        value: 16540000.0
-      '2011-01-01':
-        value: 16790000.0
-      '2013-01-01':
-        value: null
-  description: Seuils des tranches du barème de l'ISF
-  metadata:
-    order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche
-    - 5eme_tranche
-    - 6eme_tranche
+    '2006-01-01': Début de l'actualisation annuelle du barème de l'ISF en fonction
+      de l’actualisation retenue pour l’IR. Voir note (3).
+    '2002-01-01': Ordonnance portant adaptation de la valeur en euros de certains
+      montants exprimés en francs dans les textes législatifs
+    '1989-01-01': Voir note (2)
+    '1987-01-01': Voir note (1)
+    '1982-01-01': Voir note (1)
 taux_marginaux_tranches_bareme_isf:
-  1ere_tranche:
-    description: 1ère tranche
-    metadata:
-      unit: /1
-    values:
-      '1982-01-01':
-        value: 0.005
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 0.005
-      '1999-01-01':
-        value: 0.0055
-      '2013-01-01':
-        value: 0.005
-      '2018-01-01':
-        value: null
-  2eme_tranche:
-    description: 2ème tranche
-    metadata:
-      unit: /1
-    values:
-      '1982-01-01':
-        value: 0.01
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 0.007
-      '1999-01-01':
-        value: 0.0075
-      '2013-01-01':
-        value: 0.007
-      '2018-01-01':
-        value: null
-  3eme_tranche:
-    description: 3ème tranche
-    metadata:
-      unit: /1
-    values:
-      '1982-01-01':
-        value: 0.015
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 0.009
-      '1999-01-01':
-        value: 0.01
-      '2018-01-01':
-        value: null
-  4eme_tranche:
-    description: 4ème tranche
-    metadata:
-      unit: /1
-    values:
-      '1982-01-01':
-        value: null
-      '1985-01-01':
-        value: 0.02
-      '1987-01-01':
-        value: null
-      '1989-01-01':
-        value: 0.011
-      '1990-01-01':
-        value: 0.012
-      '1999-01-01':
-        value: 0.013
-      '2013-01-01':
-        value: 0.0125
-      '2018-01-01':
-        value: null
-  5eme_tranche:
-    description: 5ème  tranche
-    metadata:
-      unit: /1
-    values:
-      '1982-01-01':
-        value: null
-      '1990-01-01':
-        value: 0.015
-      '1999-01-01':
-        value: 0.0165
-      '2013-01-01':
-        value: 0.015
-      '2018-01-01':
-        value: null
-  6eme_tranche:
-    description: 6ème tranche
-    metadata:
-      unit: /1
-    values:
-      '1982-01-01':
-        value: null
-      '1999-01-01':
-        value: 0.018
-      '2013-01-01':
-        value: null
   description: Taux marginaux des tranches du barème de l'ISF
-  metadata:
-    order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche
-    - 5eme_tranche
-    - 6eme_tranche
-    - nombre_tranches_bareme
   nombre_tranches_bareme:
     description: Nombre de tranches du barème
     values:
-      '1982-01-01':
-        value: 3.0
-      '1985-01-01':
-        value: 4.0
-      '1987-01-01':
+      '2018-01-01':
         value: null
-      '1989-01-01':
-        value: 4.0
-      '1990-01-01':
+      '2013-01-01':
         value: 5.0
       '1999-01-01':
         value: 6.0
-      '2013-01-01':
+      '1990-01-01':
         value: 5.0
-      '2018-01-01':
+      '1989-01-01':
+        value: 4.0
+      '1987-01-01':
         value: null
+      '1985-01-01':
+        value: 4.0
+      '1982-01-01':
+        value: 3.0
+  metadata:
+    order:
+    - nombre_tranches_bareme
+documentation: ''

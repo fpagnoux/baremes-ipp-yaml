@@ -1,188 +1,110 @@
+description: Emploi d'un salarié à domicile (1992 - 2016)
 date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
   annee_ir:
     description: Année IR
     values:
-      '1990-01-01':
-        value: 1991.0
-      '1991-01-01':
-        value: 1992.0
-      '1993-01-01':
-        value: 1994.0
-      '1995-01-01':
-        value: 1996.0
-      '1997-01-01':
-        value: 1998.0
-      '2001-01-01':
-        value: 2002.0
-      '2002-01-01':
-        value: 2003.0
-      '2003-01-01':
-        value: 2004.0
-      '2004-01-01':
-        value: 2005.0
-      '2005-01-01':
-        value: 2006.0
-      '2007-01-01':
-        value: 2008.0
-      '2008-01-01':
-        value: 2009.0
-      '2009-01-01':
-        value: 2010.0
-      '2010-01-01':
-        value: 2011.0
       '2011-01-01':
         value: 2012.0
-  description: Date d'entrée en vigueur
+      '2010-01-01':
+        value: 2011.0
+      '2009-01-01':
+        value: 2010.0
+      '2008-01-01':
+        value: 2009.0
+      '2007-01-01':
+        value: 2008.0
+      '2005-01-01':
+        value: 2006.0
+      '2004-01-01':
+        value: 2005.0
+      '2003-01-01':
+        value: 2004.0
+      '2002-01-01':
+        value: 2003.0
+      '2001-01-01':
+        value: 2002.0
+      '1997-01-01':
+        value: 1998.0
+      '1995-01-01':
+        value: 1996.0
+      '1993-01-01':
+        value: 1994.0
+      '1991-01-01':
+        value: 1992.0
+      '1990-01-01':
+        value: 1991.0
   metadata:
     order:
     - annee_ir
-description: Emploi d'un salarié à domicile (1992 - 2016)
-emploi_salarie_domicile:
-  description: Emploi d'un salarié à domicile
-  increment_plafond:
-    description: Increment du plafond
-    metadata:
-      unit: currency-EUR
-    values:
-      '1990-01-01':
-        value: null
-      '2005-01-01':
-        value: 1500.0
-  metadata:
-    order:
-    - taux
-    - plafond
-    - increment_plafond
-    - plafond_maximum
-    - plafond_premiere_annee_emploi_salarie_domicile
-    - plafond_maximum_premiere_annee_emploi_salarie_domicile
-    - plafond_invalides
-  plafond:
-    description: Plafond
-    metadata:
-      unit:
-        '1991-01-01': currency-FRF
-        '2001-01-01': currency-EUR
-    values:
-      '1990-01-01':
-        value: null
-      '1991-01-01':
-        value: 25000.0
-      '1993-01-01':
-        value: 26000.0
-      '1995-01-01':
-        value: 90000.0
-      '1997-01-01':
-        value: 45000.0
-      '2001-01-01':
-        value: 6900.0
-      '2002-01-01':
-        value: 7400.0
-      '2003-01-01':
-        value: 10000.0
-      '2005-01-01':
-        value: 12000.0
-  plafond_invalides:
-    description: Plafond pour invalides
-    metadata:
-      unit:
-        '1997-01-01': currency-FRF
-        '2001-01-01': currency-EUR
-    values:
-      '1990-01-01':
-        value: null
-      '1997-01-01':
-        value: 90000.0
-      '2001-01-01':
-        value: 13800.0
-      '2005-01-01':
-        value: 20000.0
-  plafond_maximum:
-    description: Plafond maximum
-    metadata:
-      unit: currency-EUR
-    values:
-      '1990-01-01':
-        value: null
-      '2005-01-01':
-        value: 15000.0
-  plafond_maximum_premiere_annee_emploi_salarie_domicile:
-    description: Plafond maximum la première année de l'emploi d'un salarié à domicile
-    metadata:
-      unit: currency-EUR
-    values:
-      '1990-01-01':
-        value: null
-      '2008-01-01':
-        value: 18000.0
-  plafond_premiere_annee_emploi_salarie_domicile:
-    description: Plafond la première année de l'emploi d'un salarié à domicile
-    metadata:
-      unit: currency-EUR
-    values:
-      '1990-01-01':
-        value: null
-      '2008-01-01':
-        value: 15000.0
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
-      '1990-01-01':
-        value: null
-      '1991-01-01':
-        value: 0.5
 metadata:
-  notes:
-    '1991-01-01': "Création du dispositif pour l'imposition des revenus de 1991. \n\
-      Le contribuable doit choisir entre la réduction d'impôt pour l'emploi d'un salarié\
-      \ travaillant à la résidence d'un ascendant et le bénéfice des dispositions\
-      \ relatives aux pensions alimentaires, pour la pension versée à ce même ascendant.\
-      \ Le choix effectué en faveur de la réduction d'impôt entraîne renonciation\
-      \ à la déduction de l'ensemble des sommes versées à titre de pension alimentaire\
-      \ pour un même ascendant et non pas seulement à la fraction relative aux frais\
-      \ d'emploi du salarié à domicile."
-    '1997-01-01': Création d'un plafond supérieur pour les invalides
-    '2007-01-01': Depuis le 01/01/2008, la réduction d'impôt peut également devenir
-      un crédit d'impôt
-    '2009-01-01': Depuis le 01/01/2010, pour la première utilisation du dispositif,
-      les limites du plafonnement  passent de 12 000 € à 15 000 € et de 15 000 € à
-      18 000 €.
-    '2011-01-01': 'Méthode de calcul : en 2011, les dépenses sont retenues dans la
-      limite d''un plafond annuel de 12 000 € , majorée de 1 500 € par enfant à charge
-      et par membre du foyer âgé de plus de 65 ans, sans toutefois dépasser 15 000
-      € .   Le plafond est porté à 20 000 € en cas d''invalidité'
   order:
   - date_entree_en_vigueur
   - emploi_salarie_domicile
   reference:
-    '1991-01-01': LF pour 1992
-    '1993-01-01': LF pour 1994
-    '1995-01-01': LF pour 1996
-    '1997-01-01': LF pour 1998
-    '2001-01-01': LF pour 2002
-    '2003-01-01':
-    - LF pour 2003 - art. 8
-    - 'BOI 5 B-8-03
-
-      n°34 du 21/02/2003'
-    '2004-01-01': LF pour 2004
-    '2005-01-01':
-    - LF pour 2005 - art. 87
-    - 'BOI 5 B-20-05
-
-      n°121 du 15/07/2005'
-    '2007-01-01':
-    - LFR pour 2006 - art. 70
-    - 'BOI 5 B-1-08
-
-      n°6 du 14/01/2008'
-    '2008-01-01': LF pour 2009
+    '2011-01-01': LF pour 2012
+    '2010-01-01': LF pour 2011
     '2009-01-01':
     - LF pour 2010
-    - 'BOI 5 B-6-10
-
-      n°9 du 19/01/2010'
-    '2010-01-01': LF pour 2011
-    '2011-01-01': LF pour 2012
+    - |-
+      BOI 5 B-6-10
+      n°9 du 19/01/2010
+    '2008-01-01': LF pour 2009
+    '2007-01-01':
+    - LFR pour 2006 - art. 70
+    - |-
+      BOI 5 B-1-08
+      n°6 du 14/01/2008
+    '2005-01-01':
+    - LF pour 2005 - art. 87
+    - |-
+      BOI 5 B-20-05
+      n°121 du 15/07/2005
+    '2004-01-01': LF pour 2004
+    '2003-01-01':
+    - LF pour 2003 - art. 8
+    - |-
+      BOI 5 B-8-03
+      n°34 du 21/02/2003
+    '2001-01-01': LF pour 2002
+    '1997-01-01': LF pour 1998
+    '1995-01-01': LF pour 1996
+    '1993-01-01': LF pour 1994
+    '1991-01-01': LF pour 1992
+  notes:
+    '2011-01-01': "Méthode de calcul : en 2011, les dépenses sont retenues dans la\
+      \ limite d'un plafond annuel de 12 000 € , majorée de 1 500 € par enfant à charge\
+      \ et par membre du foyer âgé de plus de 65 ans, sans toutefois dépasser 15 000\
+      \ € .   Le plafond est porté à 20 000 € en cas d'invalidité"
+    '2009-01-01': Depuis le 01/01/2010, pour la première utilisation du dispositif,
+      les limites du plafonnement  passent de 12 000 € à 15 000 € et de 15 000 € à
+      18 000 €.
+    '2007-01-01': Depuis le 01/01/2008, la réduction d'impôt peut également devenir
+      un crédit d'impôt
+    '1997-01-01': Création d'un plafond supérieur pour les invalides
+    '1991-01-01': |-
+      Création du dispositif pour l'imposition des revenus de 1991. 
+      Le contribuable doit choisir entre la réduction d'impôt pour l'emploi d'un salarié travaillant à la résidence d'un ascendant et le bénéfice des dispositions relatives aux pensions alimentaires, pour la pension versée à ce même ascendant. Le choix effectué en faveur de la réduction d'impôt entraîne renonciation à la déduction de l'ensemble des sommes versées à titre de pension alimentaire pour un même ascendant et non pas seulement à la fraction relative aux frais d'emploi du salarié à domicile.
+emploi_salarie_domicile:
+  description: Emploi d'un salarié à domicile
+  plafond_invalides:
+    description: Plafond pour invalides
+    values:
+      '2005-01-01':
+        value: 20000.0
+      '2001-01-01':
+        value: 13800.0
+      '1997-01-01':
+        value: 90000.0
+      '1990-01-01':
+        value: null
+    metadata:
+      unit:
+        '2001-01-01': currency-EUR
+        '1997-01-01': currency-FRF
+  metadata:
+    order:
+    - plafond_invalides
+documentation: |
+  Notes :
+  (1) Dépenses de services à la personne à domicile : art. 199 sexdecies du CGI

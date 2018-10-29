@@ -1,188 +1,93 @@
+description: 'Allocation de salaire unique (ASU) : montant mensuel'
 base_1:
-  description: "Base \n(1)"
-  metadata:
-    unit: currency-FRF
+  description: |-
+    Base 
+    (1)
   values:
-    '1941-04-01':
-      value: null
-    '1959-01-01':
-      value: 180.0
-    '1976-07-01':
-      value: 194.5
     '1978-01-01':
       value: null
-description: 'Allocation de salaire unique (ASU) : montant mensuel'
-majoration:
-  base:
-    description: Base
-    metadata:
-      unit: currency-FRF
-    values:
-      '1941-04-01':
-        value: null
-      '1976-07-01':
-        value: 388.2
-      '1978-01-01':
-        value: null
-  description: Majoration
+    '1976-07-01':
+      value: 194.5
+    '1959-01-01':
+      value: 180.0
+    '1941-04-01':
+      value: null
   metadata:
-    order:
-    - base
-    - montant
-  montant:
-    description: Montant
-    metadata:
-      unit: currency-FRF
-    values:
-      '1941-04-01':
-        value: null
-      '1976-07-01':
-        value: 194.1
-      '1978-01-01':
-        value: null
+    unit: currency-FRF
 metadata:
-  date_parution_jo:
-    '1976-07-01': 05/01/1972 30/06/1972 17/08/1976
-    '1978-01-01': '1977-07-13'
-  notes:
-    '1976-07-01': Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint
-      a un revenu ne dépassant pas la moitié de la base de calcul des AF soit 347,25
   order:
   - base_1
   - taux
   - montant
   - majoration
   reference:
-    '1946-09-01': Loi du 22 aout 1946
-    '1976-07-01': 'Loi 72-8 du 03/01/1972
-
-      Décret 72-530 du 29/06/1972 (S.U.)
-
-      Décret 76-767 du 16/08/1976 ("Majoration")'
     '1978-01-01': Loi 77-765 du 12/07/1977
+    '1976-07-01': |-
+      Loi 72-8 du 03/01/1972
+      Décret 72-530 du 29/06/1972 (S.U.)
+      Décret 76-767 du 16/08/1976 ("Majoration")
+    '1946-09-01': Loi du 22 aout 1946
+  date_parution_jo:
+    '1978-01-01': '1977-07-13'
+    '1976-07-01': 05/01/1972 30/06/1972 17/08/1976
+  notes:
+    '1976-07-01': Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint
+      a un revenu ne dépassant pas la moitié de la base de calcul des AF soit 347,25
+taux:
+  description: Taux
+  3_enfants_plus_2_ans_3:
+    description: |-
+      3 ou + enfants, plus de 2 ans
+       (3)
+    values:
+      '1978-01-01':
+        value: null
+      '1946-09-01':
+        value: 0.5
+      '1941-04-01':
+        value: 0.3
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - 3_enfants_plus_2_ans_3
 montant:
-  1_enfant_plus_2_ans:
-    description: 1 enfant, plus de 2 ans
-    metadata:
-      unit: currency-FRF
-    values:
-      '1941-04-01':
-        value: null
-      '1976-07-01':
-        value: 97.25
-      '1978-01-01':
-        value: null
-  2_enfants_plus_2_ans:
-    description: 2 enfants, plus de 2 ans
-    metadata:
-      unit: currency-FRF
-    values:
-      '1941-04-01':
-        value: null
-      '1976-07-01':
-        value: 77.8
-      '1978-01-01':
-        value: null
+  description: Montant
   3_enfants_plus_2_ans:
     description: 3 ou + enfants, plus de 2 ans
-    metadata:
-      unit: currency-FRF
     values:
-      '1941-04-01':
+      '1978-01-01':
         value: null
       '1976-07-01':
         value: 97.25
-      '1978-01-01':
+      '1941-04-01':
         value: null
-  description: Montant
+    metadata:
+      unit: currency-FRF
   metadata:
     order:
-    - moins_1_enfant_moins_2_ans
-    - 1_enfant_plus_2_ans
-    - 2_enfants_plus_2_ans
     - 3_enfants_plus_2_ans
-  moins_1_enfant_moins_2_ans:
-    description: Au moins 1 enfant de moins de 2 ans
+majoration:
+  description: Majoration
+  montant:
+    description: Montant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 194.1
+      '1941-04-01':
+        value: null
     metadata:
       unit: currency-FRF
-    values:
-      '1941-04-01':
-        value: null
-      '1976-07-01':
-        value: 97.25
-      '1978-01-01':
-        value: null
-taux:
-  1_enfant_moins_5_ans:
-    description: 1 enfant, moins de 5 ans
-    metadata:
-      unit: /1
-    values:
-      '1941-04-01':
-        value: 0.2
-      '1976-07-01':
-        value: null
-  1_enfant_plus_2_ans:
-    description: 1 enfant, plus de 2 ans
-    metadata:
-      unit: /1
-    values:
-      '1941-04-01':
-        value: null
-      '1976-07-01':
-        value: 0.2
-      '1978-01-01':
-        value: null
-  1_enfant_plus_5_ans_2:
-    description: "1 enfant, plus de 5 ans \n(2)"
-    metadata:
-      unit: /1
-    values:
-      '1941-04-01':
-        value: 0.1
-      '1959-01-01':
-        value: null
-  2_enfants_plus_2_ans_3:
-    description: "2 enfants, plus de 2 ans \n(3)"
-    metadata:
-      unit: /1
-    values:
-      '1941-04-01':
-        value: 0.25
-      '1946-09-01':
-        value: 0.3
-      '1976-07-01':
-        value: 0.4
-      '1978-01-01':
-        value: null
-  3_enfants_plus_2_ans_3:
-    description: "3 ou + enfants, plus de 2 ans\n (3)"
-    metadata:
-      unit: /1
-    values:
-      '1941-04-01':
-        value: 0.3
-      '1946-09-01':
-        value: 0.5
-      '1978-01-01':
-        value: null
-  description: Taux
   metadata:
     order:
-    - 1_enfant_moins_5_ans
-    - 1_enfant_plus_5_ans_2
-    - moins_1_enfant_moins_2_ans
-    - 1_enfant_plus_2_ans
-    - 2_enfants_plus_2_ans_3
-    - 3_enfants_plus_2_ans_3
-  moins_1_enfant_moins_2_ans:
-    description: Au moins 1 enfant de moins de 2 ans
-    metadata:
-      unit: /1
-    values:
-      '1941-04-01':
-        value: null
-      '1976-07-01':
-        value: 0.5
-      '1978-01-01':
-        value: null
+    - montant
+documentation: |
+  Notes : 
+  L'Allocation de salaire unique est instituée en 1941 par la loi du 29 mars 1941 parue au JO du 11 avril 1941 page 1555
+  l'ASU ne peut se cumuler avec l'allocation de la mère au foyer.
+  L'ASU est versée tant que l'âge du plus jeune enfant est inférieur à 
+  (1) La base est identique à celle des allocations familiales (au salaire moyen départemental) jusqu'en 1954, puis une base inférieure à celle des AF est créée en 1955  (égale à 180 FRF en 1959 pour la région parisienne, 162FRF pour la dernière zone contre 210FRF et 189FRF respectivement pour les AF)
+  (2) Allocation supprimée en 1949 pour les ménages ayant un enfant unique de plus de 10 ans
+  (3) La condition est d'avoir 2 ou 3 enfants de plus de 2 ans à partir de 1976, mais elle ne dépend pas de l'âge jusqu'en 1976

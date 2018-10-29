@@ -1,89 +1,94 @@
 description: Valeur du point ARRCO
+valeur_point_arrco_en_nominal:
+  description: Valeur du point ARRCO (en nominal)
+  values:
+    '2013-04-01':
+      value: 1.2513
+    '2012-04-01':
+      value: 1.2414
+    '2011-04-01':
+      value: 1.2135
+    '2010-04-01':
+      value: 1.1884
+    '2009-04-01':
+      value: 1.1799
+    '2008-04-01':
+      value: 1.1648
+    '2007-04-01':
+      value: 1.148
+    '2006-04-01':
+      value: 1.1287
+    '2005-04-01':
+      value: 1.1104
+    '2004-04-01':
+      value: 1.0886
+    '2003-04-01':
+      value: 1.0698
+    '2002-04-01':
+      value: 1.053
+    '2001-04-01':
+      value: 1.0364
+    '2000-04-01':
+      value: 6.6717
+    '1999-04-01':
+      value: 6.6186
+    '1999-01-01':
+      value: 6.55957
 metadata:
-  notes:
-    '2013-04-01': Pas de modification en 2014, 2015, 2016, 2017 et 2018
   order:
   - valeur_point_arrco_en_nominal
   - valeur_point_arrco_en_euros
   reference:
-    '2005-04-01': Circ. Arrco 2005-02-DT du 21/03/2005
-    '2006-04-01': Circ. Arrco 2006-01-DRE du 19/05/2006
-    '2007-04-01': Circ. Arrco 2007-02-DT du 14/03/2007
-    '2008-04-01': Circ. Arrco 2008-02-DT du 14/03/2008
-    '2009-04-01': Circ. Arrco 2009-01-DT du 18/03/2009
-    '2010-04-01': Circ. Arrco 2010-01-DT du 18/03/2010
-    '2011-04-01': Circ. Arrco 2011-01-DT du 14/04/2011
-    '2012-04-01': Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
     '2013-04-01': Circ. Agirc-Arrco 2013-6-DT du 02/04/2013
+    '2012-04-01': Circ. Agirc-Arrco 2012-09-DT du 20/03/2012
+    '2011-04-01': Circ. Arrco 2011-01-DT du 14/04/2011
+    '2010-04-01': Circ. Arrco 2010-01-DT du 18/03/2010
+    '2009-04-01': Circ. Arrco 2009-01-DT du 18/03/2009
+    '2008-04-01': Circ. Arrco 2008-02-DT du 14/03/2008
+    '2007-04-01': Circ. Arrco 2007-02-DT du 14/03/2007
+    '2006-04-01': Circ. Arrco 2006-01-DRE du 19/05/2006
+    '2005-04-01': Circ. Arrco 2005-02-DT du 21/03/2005
+  notes:
+    '2013-04-01': Pas de modification en 2014, 2015, 2016, 2017 et 2018
 valeur_point_arrco_en_euros:
   description: Valeur du point ARRCO (en euros)
-  metadata:
-    unit: currency-EUR
   values:
-    '1999-01-01':
-      value: 1.0
-    '1999-04-01':
-      value: 1.0089990654875243
+    '2013-04-01':
+      value: 1.2513
+    '2012-04-01':
+      value: 1.2414
+    '2011-04-01':
+      value: 1.2135
+    '2010-04-01':
+      value: 1.1884
+    '2009-04-01':
+      value: 1.1799
+    '2008-04-01':
+      value: 1.1648
+    '2007-04-01':
+      value: 1.148
+    '2006-04-01':
+      value: 1.1287
+    '2005-04-01':
+      value: 1.1104
+    '2004-04-01':
+      value: 1.0886
+    '2003-04-01':
+      value: 1.0698
+    '2002-04-01':
+      value: 1.053
+    '2001-04-01':
+      value: 1.0364
     '2000-04-01':
       value: 1.0170941083028309
-    '2001-04-01':
-      value: 1.0364
-    '2002-04-01':
-      value: 1.053
-    '2003-04-01':
-      value: 1.0698
-    '2004-04-01':
-      value: 1.0886
-    '2005-04-01':
-      value: 1.1104
-    '2006-04-01':
-      value: 1.1287
-    '2007-04-01':
-      value: 1.148
-    '2008-04-01':
-      value: 1.1648
-    '2009-04-01':
-      value: 1.1799
-    '2010-04-01':
-      value: 1.1884
-    '2011-04-01':
-      value: 1.2135
-    '2012-04-01':
-      value: 1.2414
-    '2013-04-01':
-      value: 1.2513
-valeur_point_arrco_en_nominal:
-  description: Valeur du point ARRCO (en nominal)
-  values:
-    '1999-01-01':
-      value: 6.55957
     '1999-04-01':
-      value: 6.6186
-    '2000-04-01':
-      value: 6.6717
-    '2001-04-01':
-      value: 1.0364
-    '2002-04-01':
-      value: 1.053
-    '2003-04-01':
-      value: 1.0698
-    '2004-04-01':
-      value: 1.0886
-    '2005-04-01':
-      value: 1.1104
-    '2006-04-01':
-      value: 1.1287
-    '2007-04-01':
-      value: 1.148
-    '2008-04-01':
-      value: 1.1648
-    '2009-04-01':
-      value: 1.1799
-    '2010-04-01':
-      value: 1.1884
-    '2011-04-01':
-      value: 1.2135
-    '2012-04-01':
-      value: 1.2414
-    '2013-04-01':
-      value: 1.2513
+      value: 1.0089990654875243
+    '1999-01-01':
+      value: 1.0
+  metadata:
+    unit: currency-EUR
+documentation: |
+  Note :
+  Avant l'unification du point Arrco en 1999, il existait autant de valeurs du point que de régimes Arrco. Voir par exemple les feuilles UNIRS et PRO-BTP.
+  Sources : 
+  Site web Agirc-Arrco, http://www.agirc-arrco.fr/.

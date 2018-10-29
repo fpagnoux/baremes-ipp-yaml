@@ -1,72 +1,56 @@
 description: Cotisations pour l'Association pour l'emploi des cadres (APEC)
-metadata:
-  notes:
-    '1967-01-01': Cotisation forfaitaire d'un montant de 2 FF par cadre.
-    '1971-01-01': Passage d'une cotisation forfaitaire à une cotisation proportionnelle.
-    '1975-01-01': Augmentation du taux de 0,04 % à 0,06 %.
-    '2011-01-01': Remplacement de la cotisation forfaitaire par un taux proportionnel
-      sous plafond.
-  order:
-  - tranche_b_1_4_pss
-  - sous_4_pss
-  reference:
-    '1967-01-01': Convention APEC du 18/11/1966, art. 3
-    '1971-01-01': Avenant n° 2 du 09/06/1969
-    '1975-01-01': Avenant A 56 du 05/02/1974 ; avenant n°5 du 17/11/1975
-    '2011-01-01': Circulaire AGIRC 2010-5-DF du 29/07/2010
-sous_4_pss:
-  description: Sous 4 PSS
-  employeur:
-    description: Employeur
-    metadata:
-      unit: /1
-    values:
-      '1967-01-01':
-        value: null
-      '2011-01-01':
-        value: 0.00036
-  metadata:
-    order:
-    - salarie
-    - employeur
-  salarie:
-    description: Salarié
-    metadata:
-      unit: /1
-    values:
-      '1967-01-01':
-        value: null
-      '2011-01-01':
-        value: 0.00024
 tranche_b_1_4_pss:
   description: Tranche B (de 1 à 4 PSS)
   employeur:
     description: Employeur
-    metadata:
-      unit: /1
     values:
-      '1967-01-01':
+      '2011-01-01':
         value: null
-      '1971-01-01':
-        value: 0.00024
       '1975-01-01':
         value: 0.00036
-      '2011-01-01':
-        value: null
-  metadata:
-    order:
-    - salarie
-    - employeur
-  salarie:
-    description: Salarié
-    metadata:
-      unit: /1
-    values:
+      '1971-01-01':
+        value: 0.00024
       '1967-01-01':
         value: null
-      '1971-01-01':
-        value: 0.00016
-      '1975-01-01':
-        value: 0.00024
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - employeur
+metadata:
+  order:
+  - tranche_b_1_4_pss
+  - sous_4_pss
+  reference:
+    '2011-01-01': Circulaire AGIRC 2010-5-DF du 29/07/2010
+    '1975-01-01': Avenant A 56 du 05/02/1974 ; avenant n°5 du 17/11/1975
+    '1971-01-01': Avenant n° 2 du 09/06/1969
+    '1967-01-01': Convention APEC du 18/11/1966, art. 3
+  notes:
+    '2011-01-01': Remplacement de la cotisation forfaitaire par un taux proportionnel
+      sous plafond.
+    '1975-01-01': Augmentation du taux de 0,04 % à 0,06 %.
+    '1971-01-01': Passage d'une cotisation forfaitaire à une cotisation proportionnelle.
+    '1967-01-01': Cotisation forfaitaire d'un montant de 2 FF par cadre.
+sous_4_pss:
+  description: Sous 4 PSS
+  employeur:
+    description: Employeur
+    values:
       '2011-01-01':
+        value: 0.00036
+      '1967-01-01':
         value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - employeur
+documentation: |
+  Note :
+  L'Association pour l'emploi des cadres (APEC) a été mise en place par la convention du 18/11/1966.
+  La cotisation APEC est recouvrée par l'AGIRC.
+  Références contractuelles et législatives :
+  La convention du 18/11/1966 et ses avenants successifs  (Avenants n° 1 du 03/01/1969, n° 2 du 09/06/1969, n° 3 du 10/04/1973, n° 4 du 21/12/1973) ont été étendus, 
+  en application de l'article L. 133-8, par l'arrêté du 13/08/1974 (JO 29/08/1974).
+  Protocole d'accord Agirc-Apec du 30/12/1975.

@@ -1,81 +1,16 @@
-caps_produits_placement:
-  description: CAPS sur les produits de placement
-  metadata:
-    unit: /1
+description: Autres prélèvements sociaux sur les revenus financiers
+prelevement_social_exceptionnel_cnav:
+  description: Prélèvement social exceptionnel (CNAV)
   values:
-    '1984-01-01':
-      value: null
-    '2004-07-01':
-      value: 0.003
-caps_revenus_patrimoine:
-  description: CAPS sur les revenus du patrimoine
-  metadata:
-    unit: /1
-  values:
-    '1984-01-01':
-      value: null
-    '2003-01-01':
-      value: 0.0015
-    '2004-07-01':
-      value: 0.003
-caps_rsa:
-  description: CAPS-RSA
-  metadata:
-    unit: /1
-  values:
-    '1984-01-01':
-      value: null
-    '2009-01-01':
-      value: 0.011
-    '2013-01-01':
-      value: null
-contribution_sociale_cnav:
-  description: Contribution sociale (CNAV)
-  metadata:
-    unit: /1
-  values:
-    '1984-01-01':
-      value: null
-    '1985-01-01':
-      value: 0.004
-    '1991-01-01':
-      value: null
-contribution_sociale_permanente_cnaf:
-  description: Contribution sociale permanente (CNAF)
-  metadata:
-    unit: /1
-  values:
-    '1984-01-01':
-      value: 0.01
     '1997-01-01':
       value: null
-description: Autres prélèvements sociaux sur les revenus financiers
+    '1987-08-01':
+      value: 0.01
+    '1984-01-01':
+      value: null
+  metadata:
+    unit: /1
 metadata:
-  date_parution_jo:
-    '1984-01-01': '1983-12-30'
-    '1985-01-01': '1986-08-19'
-    '1987-08-01': '1987-07-12'
-    '1997-01-01': '1997-12-23'
-    '1998-01-01': '1997-12-23'
-    '2003-01-01': '2004-07-01'
-    '2004-07-01': '2004-07-01'
-    '2009-01-01': '2008-12-03'
-    '2010-01-01': '2010-12-30'
-    '2011-01-01': '2010-12-30'
-    '2011-10-01': '2011-09-20'
-    '2012-01-01': '2012-12-18'
-    '2012-07-01': '2012-03-15'
-    '2013-01-01': '2012-12-18'
-  notes:
-    '1984-01-01': Il s'agit du "1% Delors" reversé à la CNAF.
-    '1985-01-01': 'Il s''agit du "0,4% Balladur" qui s''applique à l''ensemble des
-      revenus imposables.  La date de parution au JOFR de la Loi 84-1208 du 29/12/1984,
-      art. 106 (LF pour 1985) est : 30/12/1984'
-    '1991-01-01': Avec l'instauration de la CSG, la contribution sociale de 0,4% est
-      supprimée.
-    '1998-01-01': Les prélèvements sociaux de 2% instaurés en 1997 remplacent le prélèvement
-      social exceptionnel affecté à la CNAF et la contribution sociale permanente
-      affectée à la CNAV.
   order:
   - prelevement_social_exceptionnel_cnav
   - contribution_sociale_permanente_cnaf
@@ -88,81 +23,195 @@ metadata:
   - prelevements_solidarite_revenus_patrimoine
   - prelevements_solidarite_produits_placement
   reference:
-    '1984-01-01': Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
+    '2013-01-01': Loi 2012-1404 du 17/12/2012, art. 3
+    '2012-07-01': Loi 2012-354 du 14/03/2012, art. 2
+    '2012-01-01': Loi 2012-1404 du 17/12/2012, art. 3
+    '2011-10-01': Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
+    '2011-01-01': Loi 2010-1657 du 29/12/2010, art. 6
+    '2010-01-01': Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
+    '2009-01-01': Loi 2008-1249 du 01/12/2008, art. 3
+    '2004-07-01': Loi 2004-626 du 30/06/2004, art. 11 et art. 19
+    '2003-01-01': Loi 2004-626 du 30/06/2004, art. 11 et art. 19
+    '1998-01-01': Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
+    '1997-01-01': Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
+    '1987-08-01': Loi 87-516 du 10/07/1987, art. 2
     '1985-01-01': Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
       du 18/08/1986, art. 2
-    '1987-08-01': Loi 87-516 du 10/07/1987, art. 2
-    '1997-01-01': Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-    '1998-01-01': Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
-    '2003-01-01': Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-    '2004-07-01': Loi 2004-626 du 30/06/2004, art. 11 et art. 19
-    '2009-01-01': Loi 2008-1249 du 01/12/2008, art. 3
-    '2010-01-01': Loi 2010-1657 du 29/12/2010, art. 6 (LF 2011)
-    '2011-01-01': Loi 2010-1657 du 29/12/2010, art. 6
-    '2011-10-01': Loi 2011-1117 du 19/09/2011, art. 10 (LFR pour 2011)
-    '2012-01-01': Loi 2012-1404 du 17/12/2012, art. 3
-    '2012-07-01': Loi 2012-354 du 14/03/2012, art. 2
-    '2013-01-01': Loi 2012-1404 du 17/12/2012, art. 3
-prelevement_social_exceptionnel_cnav:
-  description: Prélèvement social exceptionnel (CNAV)
-  metadata:
-    unit: /1
+    '1984-01-01': Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
+  date_parution_jo:
+    '2013-01-01': '2012-12-18'
+    '2012-07-01': '2012-03-15'
+    '2012-01-01': '2012-12-18'
+    '2011-10-01': '2011-09-20'
+    '2011-01-01': '2010-12-30'
+    '2010-01-01': '2010-12-30'
+    '2009-01-01': '2008-12-03'
+    '2004-07-01': '2004-07-01'
+    '2003-01-01': '2004-07-01'
+    '1998-01-01': '1997-12-23'
+    '1997-01-01': '1997-12-23'
+    '1987-08-01': '1987-07-12'
+    '1985-01-01': '1986-08-19'
+    '1984-01-01': '1983-12-30'
+  notes:
+    '1998-01-01': Les prélèvements sociaux de 2% instaurés en 1997 remplacent le prélèvement
+      social exceptionnel affecté à la CNAF et la contribution sociale permanente
+      affectée à la CNAV.
+    '1991-01-01': Avec l'instauration de la CSG, la contribution sociale de 0,4% est
+      supprimée.
+    '1985-01-01': "Il s'agit du \"0,4% Balladur\" qui s'applique à l'ensemble des\
+      \ revenus imposables.  La date de parution au JOFR de la Loi 84-1208 du 29/12/1984,\
+      \ art. 106 (LF pour 1985) est : 30/12/1984"
+    '1984-01-01': Il s'agit du "1% Delors" reversé à la CNAF.
+contribution_sociale_permanente_cnaf:
+  description: Contribution sociale permanente (CNAF)
   values:
-    '1984-01-01':
-      value: null
-    '1987-08-01':
-      value: 0.01
     '1997-01-01':
       value: null
-prelevement_social_produits_placement:
-  description: Prélèvement social sur les produits de placement
+    '1984-01-01':
+      value: 0.01
   metadata:
     unit: /1
+contribution_sociale_cnav:
+  description: Contribution sociale (CNAV)
   values:
+    '1991-01-01':
+      value: null
+    '1985-01-01':
+      value: 0.004
     '1984-01-01':
       value: null
-    '1998-01-01':
-      value: 0.02
-    '2011-01-01':
-      value: 0.022
-    '2011-10-01':
-      value: 0.034
-    '2012-07-01':
-      value: 0.054
-    '2013-01-01':
-      value: 0.045
+  metadata:
+    unit: /1
 prelevement_social_revenus_patrimoine:
   description: Prélèvement social sur les revenus du patrimoine
-  metadata:
-    unit: /1
   values:
-    '1984-01-01':
-      value: null
-    '1997-01-01':
-      value: 0.02
-    '2010-01-01':
-      value: 0.022
-    '2011-10-01':
-      value: 0.034
-    '2012-01-01':
-      value: 0.054
     '2013-01-01':
       value: 0.045
-prelevements_solidarite_produits_placement:
-  description: Prélèvements de solidarité sur les produits de placement
-  metadata:
-    unit: /1
-  values:
+    '2012-01-01':
+      value: 0.054
+    '2011-10-01':
+      value: 0.034
+    '2010-01-01':
+      value: 0.022
+    '1997-01-01':
+      value: 0.02
     '1984-01-01':
       value: null
+  metadata:
+    unit: /1
+prelevement_social_produits_placement:
+  description: Prélèvement social sur les produits de placement
+  values:
     '2013-01-01':
+      value: 0.045
+    '2012-07-01':
+      value: 0.054
+    '2011-10-01':
+      value: 0.034
+    '2011-01-01':
+      value: 0.022
+    '1998-01-01':
       value: 0.02
+    '1984-01-01':
+      value: null
+  metadata:
+    unit: /1
+caps_revenus_patrimoine:
+  description: CAPS sur les revenus du patrimoine
+  values:
+    '2004-07-01':
+      value: 0.003
+    '2003-01-01':
+      value: 0.0015
+    '1984-01-01':
+      value: null
+  metadata:
+    unit: /1
+caps_produits_placement:
+  description: CAPS sur les produits de placement
+  values:
+    '2004-07-01':
+      value: 0.003
+    '1984-01-01':
+      value: null
+  metadata:
+    unit: /1
+caps_rsa:
+  description: CAPS-RSA
+  values:
+    '2013-01-01':
+      value: null
+    '2009-01-01':
+      value: 0.011
+    '1984-01-01':
+      value: null
+  metadata:
+    unit: /1
 prelevements_solidarite_revenus_patrimoine:
   description: Prélèvements de solidarité sur les revenus du patrimoine
-  metadata:
-    unit: /1
   values:
-    '1984-01-01':
-      value: null
     '2012-01-01':
       value: 0.02
+    '1984-01-01':
+      value: null
+  metadata:
+    unit: /1
+prelevements_solidarite_produits_placement:
+  description: Prélèvements de solidarité sur les produits de placement
+  values:
+    '2013-01-01':
+      value: 0.02
+    '1984-01-01':
+      value: null
+  metadata:
+    unit: /1
+documentation: |
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.
+  Références dans les codes législatifs : 
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
+  - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.

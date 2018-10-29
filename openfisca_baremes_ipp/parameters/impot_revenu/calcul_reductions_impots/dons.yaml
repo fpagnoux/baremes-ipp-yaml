@@ -1,260 +1,79 @@
+description: Dons (1977 - 2016)
 date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
   annee_ir:
     description: Année IR
     values:
-      '1975-01-01':
-        value: 1976.0
-      '1976-01-01':
-        value: 1977.0
-      '1981-01-01':
-        value: 1982.0
-      '1984-01-01':
-        value: 1985.0
-      '1987-01-01':
-        value: 1988.0
-      '1988-01-01':
-        value: 1989.0
-      '1989-01-01':
-        value: 1990.0
-      '1990-01-01':
-        value: 1991.0
-      '1991-01-01':
-        value: 1992.0
-      '1992-01-01':
-        value: 1993.0
-      '1993-01-01':
-        value: 1994.0
-      '1994-01-01':
-        value: 1995.0
-      '1995-01-01':
-        value: 1996.0
-      '1996-01-01':
-        value: 1997.0
-      '1997-01-01':
-        value: 1998.0
-      '1998-01-01':
-        value: 1999.0
-      '1999-01-01':
-        value: 2000.0
-      '2000-01-01':
-        value: 2001.0
-      '2001-01-01':
-        value: 2002.0
-      '2002-01-01':
-        value: 2003.0
-      '2003-01-01':
-        value: 2004.0
-      '2004-01-01':
-        value: 2005.0
-      '2005-01-01':
-        value: 2006.0
-      '2006-01-01':
-        value: 2007.0
-      '2007-01-01':
-        value: 2008.0
-      '2008-01-01':
-        value: 2009.0
-      '2009-01-01':
-        value: 2010.0
-      '2010-01-01':
-        value: 2011.0
-      '2011-01-01':
-        value: 2012.0
-      '2014-01-01':
-        value: 2015.0
-      '2015-01-01':
-        value: 2016.0
-      '2016-01-01':
-        value: 2017.0
       '2017-01-01':
         value: 2018.0
-  description: Date d'entrée en vigueur
+      '2016-01-01':
+        value: 2017.0
+      '2015-01-01':
+        value: 2016.0
+      '2014-01-01':
+        value: 2015.0
+      '2011-01-01':
+        value: 2012.0
+      '2010-01-01':
+        value: 2011.0
+      '2009-01-01':
+        value: 2010.0
+      '2008-01-01':
+        value: 2009.0
+      '2007-01-01':
+        value: 2008.0
+      '2006-01-01':
+        value: 2007.0
+      '2005-01-01':
+        value: 2006.0
+      '2004-01-01':
+        value: 2005.0
+      '2003-01-01':
+        value: 2004.0
+      '2002-01-01':
+        value: 2003.0
+      '2001-01-01':
+        value: 2002.0
+      '2000-01-01':
+        value: 2001.0
+      '1999-01-01':
+        value: 2000.0
+      '1998-01-01':
+        value: 1999.0
+      '1997-01-01':
+        value: 1998.0
+      '1996-01-01':
+        value: 1997.0
+      '1995-01-01':
+        value: 1996.0
+      '1994-01-01':
+        value: 1995.0
+      '1993-01-01':
+        value: 1994.0
+      '1992-01-01':
+        value: 1993.0
+      '1991-01-01':
+        value: 1992.0
+      '1990-01-01':
+        value: 1991.0
+      '1989-01-01':
+        value: 1990.0
+      '1988-01-01':
+        value: 1989.0
+      '1987-01-01':
+        value: 1988.0
+      '1984-01-01':
+        value: 1985.0
+      '1981-01-01':
+        value: 1982.0
+      '1976-01-01':
+        value: 1977.0
+      '1975-01-01':
+        value: 1976.0
   metadata:
     order:
     - annee_ir
-description: Dons (1977 - 2016)
-dons_aux_oeuvres:
-  description: Dons aux œuvres
-  metadata:
-    order:
-    - taux
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
-      '1975-01-01':
-        value: null
-      '1989-01-01':
-        value: 0.4
-      '1996-01-01':
-        value: 0.5
-      '2002-01-01':
-        value: 0.6
-      '2005-01-01':
-        value: 0.66
-dons_aux_partis_politiques:
-  description: Dons aux partis politiques
-  metadata:
-    order:
-    - taux
-    - plafond_en_revenu_net_global
-    - plafond
-  plafond:
-    description: Plafond
-    metadata:
-      unit: currency-EUR
-    values:
-      '1975-01-01':
-        value: null
-      '2011-01-01':
-        value: 15000.0
-  plafond_en_revenu_net_global:
-    description: Plafond en % du revenu net global
-    metadata:
-      unit: /1
-    values:
-      '1975-01-01':
-        value: null
-      '1996-01-01':
-        value: 0.05
-      '1999-01-01':
-        value: 0.06
-      '2001-01-01':
-        value: 0.1
-      '2002-01-01':
-        value: 0.2
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
-      '1975-01-01':
-        value: null
-      '1996-01-01':
-        value: 0.4
-      '1999-01-01':
-        value: 0.5
-      '2002-01-01':
-        value: 0.6
-      '2005-01-01':
-        value: 0.66
-dons_coluche:
-  description: Dons Coluche
-  metadata:
-    order:
-    - taux
-    - plafond
-  plafond:
-    description: Plafond
-    metadata:
-      unit:
-        '1988-01-01': currency-FRF
-        '2001-01-01': currency-EUR
-    values:
-      '1975-01-01':
-        value: null
-      '1988-01-01':
-        value: 400.0
-      '1989-01-01':
-        value: 500.0
-      '1990-01-01':
-        value: 520.0
-      '1993-01-01':
-        value: 1000.0
-      '1994-01-01':
-        value: 1020.0
-      '1995-01-01':
-        value: 1040.0
-      '1996-01-01':
-        value: 2000.0
-      '1997-01-01':
-        value: 2030.0
-      '1998-01-01':
-        value: 2050.0
-      '1999-01-01':
-        value: 2070.0
-      '2000-01-01':
-        value: 2100.0
-      '2001-01-01':
-        value: 400.0
-      '2002-01-01':
-        value: 407.0
-      '2003-01-01':
-        value: 414.0
-      '2004-01-01':
-        value: 422.0
-      '2005-01-01':
-        value: 470.0
-      '2006-01-01':
-        value: 479.0
-      '2007-01-01':
-        value: 488.0
-      '2008-01-01':
-        value: 495.0
-      '2009-01-01':
-        value: 510.0
-      '2010-01-01':
-        value: 513.0
-      '2011-01-01':
-        value: 521.0
-      '2014-01-01':
-        value: 526.0
-      '2015-01-01':
-        value: 529.0
-      '2016-01-01':
-        value: 530.0
-      '2017-01-01':
-        value: 531.0
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
-      '1975-01-01':
-        value: null
-      '1988-01-01':
-        value: 0.5
-      '1996-01-01':
-        value: 0.6
-      '2003-01-01':
-        value: 0.66
-      '2005-01-01':
-        value: 0.75
-dons_interet_general:
-  description: Dons d'intérêt général
-  metadata:
-    order:
-    - plafond
-  plafond:
-    description: Plafond
-    metadata:
-      unit: /1
-    values:
-      '1975-01-01':
-        value: null
-      '1976-01-01':
-        value: 0.01
-      '1987-01-01':
-        value: 0.0125
-      '1996-01-01':
-        value: 0.0175
-      '1999-01-01':
-        value: 0.06
-      '2001-01-01':
-        value: 0.1
-      '2002-01-01':
-        value: 0.2
 metadata:
-  notes:
-    '1989-01-01': À partir de 1989, les avantages fiscaux prennent la forme de réduction
-      d'impôt  et non plus de déduction du revenu imposable (sauf dons Coluche)
-    '1990-01-01': 'Avant 1990 (inclus) : Dons coluche et autre dons dans art. 238-2
-      bis du CGI'
-    '2008-01-01': Depuis revenus 1999, regroupement des dons aux œuvres reconnues
-      d'utilité publique, d'intérêt général et pour le financement des partis politiques
-      et des campagnes électorales
-    '2014-01-01': JORF 13/03/2012
   order:
   - date_entree_en_vigueur
   - dons_coluche
@@ -263,37 +82,177 @@ metadata:
   - dons_interet_general
   - dons_aux_partis_politiques
   reference:
-    '2002-01-01': Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
-    '2004-01-01': http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
-    '2005-01-01': "Loi de programmation pour la cohésion sociale\n n° 2005-32 du 18/01/2005"
-    '2007-01-01': Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
-    '2008-01-01': Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
-    '2009-01-01': Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
-    '2010-01-01': Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+    '2017-01-01': LF 2018
+    '2016-01-01': LF 2017
+    '2015-01-01': LF 2016
     '2011-01-01': BOI 5-B-11-12 + loi 2011-1978 pour la création du plafond pour les
       dons aux partis politiques
-    '2015-01-01': LF 2016
-    '2016-01-01': LF 2017
-    '2017-01-01': LF 2018
+    '2010-01-01': Décret 2011-645 du 9 juin 2011 - art. 1 / JORF 11/06/2011
+    '2009-01-01': Décret 2010-421 du 27 avril 2010 - art. 1 / JORF 30/04/2010
+    '2008-01-01': Décret 2009-389 du 7 avril 2009 - art. 1 / JORF 09/04/2009
+    '2007-01-01': Décret 2008-294 du 1er avril 2008 - art. 1 / JORF 02/04/2008
+    '2005-01-01': |-
+      Loi de programmation pour la cohésion sociale
+       n° 2005-32 du 18/01/2005
+    '2004-01-01': http://legifrance.gouv.fr/affichTexteArticle.do;jsessionid=74B6FCBBE75E37F0115D9428F2169E51.tpdjo12v_1?cidTexte=JORFTEXT000000240757&idArticle=LEGIARTI000006322286&dateTexte=20071227&categorieLien=id
+    '2002-01-01': Loi 2003-709 du 01/08/2003 - art. 1 (V) - JORF 02/08/2003
+  notes:
+    '2014-01-01': JORF 13/03/2012
+    '2008-01-01': Depuis revenus 1999, regroupement des dons aux œuvres reconnues
+      d'utilité publique, d'intérêt général et pour le financement des partis politiques
+      et des campagnes électorales
+    '1990-01-01': 'Avant 1990 (inclus) : Dons coluche et autre dons dans art. 238-2
+      bis du CGI'
+    '1989-01-01': À partir de 1989, les avantages fiscaux prennent la forme de réduction
+      d'impôt  et non plus de déduction du revenu imposable (sauf dons Coluche)
+dons_coluche:
+  description: Dons Coluche
+  plafond:
+    description: Plafond
+    values:
+      '2017-01-01':
+        value: 531.0
+      '2016-01-01':
+        value: 530.0
+      '2015-01-01':
+        value: 529.0
+      '2014-01-01':
+        value: 526.0
+      '2011-01-01':
+        value: 521.0
+      '2010-01-01':
+        value: 513.0
+      '2009-01-01':
+        value: 510.0
+      '2008-01-01':
+        value: 495.0
+      '2007-01-01':
+        value: 488.0
+      '2006-01-01':
+        value: 479.0
+      '2005-01-01':
+        value: 470.0
+      '2004-01-01':
+        value: 422.0
+      '2003-01-01':
+        value: 414.0
+      '2002-01-01':
+        value: 407.0
+      '2001-01-01':
+        value: 400.0
+      '2000-01-01':
+        value: 2100.0
+      '1999-01-01':
+        value: 2070.0
+      '1998-01-01':
+        value: 2050.0
+      '1997-01-01':
+        value: 2030.0
+      '1996-01-01':
+        value: 2000.0
+      '1995-01-01':
+        value: 1040.0
+      '1994-01-01':
+        value: 1020.0
+      '1993-01-01':
+        value: 1000.0
+      '1990-01-01':
+        value: 520.0
+      '1989-01-01':
+        value: 500.0
+      '1988-01-01':
+        value: 400.0
+      '1975-01-01':
+        value: null
+    metadata:
+      unit:
+        '2001-01-01': currency-EUR
+        '1988-01-01': currency-FRF
+  metadata:
+    order:
+    - plafond
+dons_aux_oeuvres:
+  description: Dons aux œuvres
+  taux:
+    description: Taux
+    values:
+      '2005-01-01':
+        value: 0.66
+      '2002-01-01':
+        value: 0.6
+      '1996-01-01':
+        value: 0.5
+      '1989-01-01':
+        value: 0.4
+      '1975-01-01':
+        value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - taux
 reduction_impot_dons:
   description: Réduction d'impôt pour les dons
+  plafond_en_revenu_global:
+    description: Plafond en % du revenu global
+    values:
+      '2002-01-01':
+        value: 0.2
+      '2001-01-01':
+        value: 0.1
+      '1996-01-01':
+        value: 0.06
+      '1984-01-01':
+        value: 0.05
+      '1981-01-01':
+        value: 0.03
+      '1975-01-01':
+        value: null
+    metadata:
+      unit: /1
   metadata:
     order:
     - plafond_en_revenu_global
-  plafond_en_revenu_global:
-    description: Plafond en % du revenu global
-    metadata:
-      unit: /1
+dons_interet_general:
+  description: Dons d'intérêt général
+  plafond:
+    description: Plafond
     values:
-      '1975-01-01':
-        value: null
-      '1981-01-01':
-        value: 0.03
-      '1984-01-01':
-        value: 0.05
-      '1996-01-01':
-        value: 0.06
-      '2001-01-01':
-        value: 0.1
       '2002-01-01':
         value: 0.2
+      '2001-01-01':
+        value: 0.1
+      '1999-01-01':
+        value: 0.06
+      '1996-01-01':
+        value: 0.0175
+      '1987-01-01':
+        value: 0.0125
+      '1976-01-01':
+        value: 0.01
+      '1975-01-01':
+        value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - plafond
+dons_aux_partis_politiques:
+  description: Dons aux partis politiques
+  plafond:
+    description: Plafond
+    values:
+      '2011-01-01':
+        value: 15000.0
+      '1975-01-01':
+        value: null
+    metadata:
+      unit: currency-EUR
+  metadata:
+    order:
+    - plafond
+documentation: |
+  Notes :
+  (1) Dons Coluche (organismes d'aide aux personnes en difficulté)  : art. 200-1 ter du CGI 
+  (2) Dons : art. 200-1 du CGI
+  (3) Dons aux partis politiques : 3. de l'art. 200 du CGI

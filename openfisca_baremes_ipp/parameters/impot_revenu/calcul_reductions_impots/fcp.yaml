@@ -1,98 +1,60 @@
+description: Souscription de parts de fonds communs de placement dans l'innovation
+  (1998 - 2016)
 date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
   annee_ir:
     description: Année IR
     values:
-      '1996-01-01':
-        value: 1997.0
-      '1997-01-01':
-        value: 1998.0
-      '2001-01-01':
-        value: 2002.0
-      '2002-01-01':
-        value: 2003.0
-      '2007-01-01':
-        value: 2008.0
-      '2011-01-01':
-        value: 2012.0
-      '2012-01-01':
-        value: 2013.0
       '2013-01-01':
         value: 2014.0
-  description: Date d'entrée en vigueur
+      '2012-01-01':
+        value: 2013.0
+      '2011-01-01':
+        value: 2012.0
+      '2007-01-01':
+        value: 2008.0
+      '2002-01-01':
+        value: 2003.0
+      '2001-01-01':
+        value: 2002.0
+      '1997-01-01':
+        value: 1998.0
+      '1996-01-01':
+        value: 1997.0
   metadata:
     order:
     - annee_ir
-description: Souscription de parts de fonds communs de placement dans l'innovation
-  (1998 - 2016)
 metadata:
-  notes:
-    '2013-01-01': Concerne les versements jusqu'au 31 décembre 2012 (et non 2013)
   order:
   - date_entree_en_vigueur
   - reduction_impot_souscriptions_parts_fcpi_fip
   reference:
     '2012-01-01': BOI-IR-RICI-110
+  notes:
+    '2013-01-01': Concerne les versements jusqu'au 31 décembre 2012 (et non 2013)
 reduction_impot_souscriptions_parts_fcpi_fip:
   description: Réduction d'impôt pour souscriptions de parts de FCPI ou FIP
-  metadata:
-    order:
-    - taux
-    - taux_corse_fip
-    - plafond_celibataire
-    - plafond_couple_fcpi
-  plafond_celibataire:
-    description: Plafond célibataire
-    metadata:
-      unit:
-        '1997-01-01': currency-FRF
-        '2001-01-01': currency-EUR
-    values:
-      '1996-01-01':
-        value: null
-      '1997-01-01':
-        value: 75000.0
-      '2001-01-01':
-        value: 11434.0
-      '2002-01-01':
-        value: 12000.0
   plafond_couple_fcpi:
     description: Plafond couple (FCPI)
-    metadata:
-      unit:
-        '1997-01-01': currency-FRF
-        '2001-01-01': currency-EUR
     values:
-      '1996-01-01':
-        value: null
-      '1997-01-01':
-        value: 150000.0
-      '2001-01-01':
-        value: 22868.0
       '2002-01-01':
         value: 24000.0
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
-      '1996-01-01':
-        value: null
+      '2001-01-01':
+        value: 22868.0
       '1997-01-01':
-        value: 0.25
-      '2011-01-01':
-        value: 0.22
-      '2012-01-01':
-        value: 0.18
-  taux_corse_fip:
-    description: Taux (Corse - FIP)
-    metadata:
-      unit: /1
-    values:
+        value: 150000.0
       '1996-01-01':
         value: null
-      '2007-01-01':
-        value: 0.5
-      '2011-01-01':
-        value: 0.45
-      '2012-01-01':
-        value: 0.38
+    metadata:
+      unit:
+        '2001-01-01': currency-EUR
+        '1997-01-01': currency-FRF
+  metadata:
+    order:
+    - plafond_couple_fcpi
+documentation: |
+  Notes :
+  (1) Souscriptions de parts de fonds communs de placement dans l'innovation (FCPI) ou de fonds d'investissements de proximité (FIP)
+
+  (2) Art. 199 terdecies-0-A CGI. Pour les FIP en Corse voir BOI-IR-RICI-120
+  (3) Plafond à doubler pour couples mariés ou pacsés pour fonds d'investissement de proximité (FIP)

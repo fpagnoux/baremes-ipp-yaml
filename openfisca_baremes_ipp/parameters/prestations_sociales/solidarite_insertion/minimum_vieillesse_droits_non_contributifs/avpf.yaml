@@ -1,341 +1,174 @@
 description: Assurance vieillesse des parents au foyer (AVPF )
+salaire_forfaitaire_assurance_vieillesse_parents_foyer_avpf:
+  description: Salaire forfaitaire de l'Assurance vieillesse des parents au foyer
+    (AVPF)
+  reunion:
+    description: Réunion
+    values:
+      '2017-01-01':
+        value: 1634.23
+      '2016-01-01':
+        value: 1624.09
+      '2015-01-01':
+        value: 1610.57
+      '2014-01-01':
+        value: 1594.0
+      '2013-01-01':
+        value: 1588.6
+      '2012-01-01':
+        value: 1521.0
+      '2011-01-01':
+        value: 1497.34
+      '2010-01-01':
+        value: 1490.58
+      '2009-01-01':
+        value: 1471.99
+      '2008-01-01':
+        value: 1426.36
+      '2007-01-01':
+        value: 1397.63
+      '2006-01-01':
+        value: 1357.07
+      '2005-01-01':
+        value: 1286.09
+      '2004-01-01':
+        value: 1215.11
+      '2003-01-01':
+        value: 1154.27
+      '2002-01-01':
+        value: 1127.23
+      '2001-01-01':
+        value: 7101.38
+      '2000-01-01':
+        value: 6881.68
+      '1999-01-01':
+        value: 6797.18
+      '1998-01-01':
+        value: 6663.67
+      '1997-01-01':
+        value: 6406.79
+      '1996-01-01':
+        value: 5854.16
+      '1995-01-01':
+        value: 5370.82
+      '1994-01-01':
+        value: 5260.97
+      '1993-01-01':
+        value: 4995.64
+      '1992-01-01':
+        value: 4570.7
+      '1991-01-01':
+        value: 4207.98
+      '1990-01-01':
+        value: 3928.99
+      '1989-01-01':
+        value: 3777.83
+      '1988-01-01':
+        value: 3656.72
+      '1987-01-01':
+        value: 3536.48
+      '1986-01-01':
+        value: 3420.52
+      '1985-01-01':
+        value: 3131.71
+      '1984-01-01':
+        value: 2875.94
+      '1983-01-01':
+        value: 2554.22
+      '1982-01-01':
+        value: 2208.9
+      '1981-01-01':
+        value: 1815.26
+      '1980-01-01':
+        value: 1554.51
+      '1979-01-01':
+        value: 1351.69
+      '1978-01-01':
+        value: 1169.31
+      '1972-07-01':
+        value: null
+    metadata:
+      unit:
+        '2002-01-01': currency-EUR
+        '1978-01-01': currency-FRF
+  metadata:
+    order:
+    - reunion
 metadata:
-  notes:
-    '2001-01-01': Convergence des trois montants
-    '2016-01-01': 'Le salaire forfaitaire est calculé sur la base du SMIC: SMIC horaire
-      en vigueur au 1er juillet de l’année précédente * 169 (durée hebdomadaire légale
-      du travail (39h) * 52 / 12)
-
-      cf. article Article R381-3 du CSS'
   order:
   - salaire_forfaitaire_assurance_vieillesse_parents_foyer_avpf
   - taux
   reference:
-    '2014-01-01': Circulaire Cnav 2014/27 du 03/04/2014
-    '2015-01-01': Circulaire Cnav 2015/4 du 26/01/2015
-    '2016-01-01': Circulaire Cnav 2015/64 du 18/12/2015
     '2017-01-01': ​​Circulaire Cnav 2016/55 du 30/12/2016
-salaire_forfaitaire_assurance_vieillesse_parents_foyer_avpf:
-  description: Salaire forfaitaire de l'Assurance vieillesse des parents au foyer
-    (AVPF)
-  guadeloupe_guyane_martinique:
-    description: Guadeloupe Guyane Martinique
-    metadata:
-      unit:
-        '1978-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1972-07-01':
-        value: null
-      '1978-01-01':
-        value: 1354.2
-      '1979-01-01':
-        value: 1534.63
-      '1980-01-01':
-        value: 1719.18
-      '1981-01-01':
-        value: 1980.88
-      '1982-01-01':
-        value: 2367.42
-      '1983-01-01':
-        value: 2737.42
-      '1984-01-01':
-        value: 3082.22
-      '1985-01-01':
-        value: 3356.35
-      '1986-01-01':
-        value: 3665.86
-      '1987-01-01':
-        value: 3790.13
-      '1988-01-01':
-        value: 3918.99
-      '1989-01-01':
-        value: 4048.8
-      '1990-01-01':
-        value: 4210.79
-      '1991-01-01':
-        value: 4404.34
-      '1992-01-01':
-        value: 4691.68
-      '1993-01-01':
-        value: 4995.64
-      '1994-01-01':
-        value: 5260.97
-      '1995-01-01':
-        value: 5370.82
-      '1996-01-01':
-        value: 5854.16
-      '1997-01-01':
-        value: 6406.79
-      '1998-01-01':
-        value: 6663.67
-      '1999-01-01':
-        value: 6797.18
-      '2000-01-01':
-        value: 6881.68
-      '2001-01-01':
-        value: 7101.38
-      '2002-01-01':
-        value: 1127.23
-      '2003-01-01':
-        value: 1154.27
-      '2004-01-01':
-        value: 1215.11
-      '2005-01-01':
-        value: 1286.09
-      '2006-01-01':
-        value: 1357.07
-      '2007-01-01':
-        value: 1397.63
-      '2008-01-01':
-        value: 1426.36
-      '2009-01-01':
-        value: 1471.99
-      '2010-01-01':
-        value: 1490.58
-      '2011-01-01':
-        value: 1497.34
-      '2012-01-01':
-        value: 1521.0
-      '2013-01-01':
-        value: 1588.6
-      '2014-01-01':
-        value: 1594.0
-      '2015-01-01':
-        value: 1610.57
-      '2016-01-01':
-        value: 1624.09
-      '2017-01-01':
-        value: 1634.23
-  metadata:
-    order:
-    - metropole
-    - guadeloupe_guyane_martinique
-    - reunion
-  metropole:
-    description: Métropole
-    metadata:
-      unit:
-        '1972-07-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1972-07-01':
-        value: 667.32
-      '1973-01-01':
-        value: 745.32
-      '1974-01-01':
-        value: 901.32
-      '1975-01-01':
-        value: 1109.31
-      '1976-01-01':
-        value: 1308.64
-      '1977-01-01':
-        value: 1487.17
-      '1978-01-01':
-        value: 1660.5
-      '1979-01-01':
-        value: 1880.63
-      '1980-01-01':
-        value: 2105.95
-      '1981-01-01':
-        value: 2426.62
-      '1982-01-01':
-        value: 2898.07
-      '1983-01-01':
-        value: 3319.16
-      '1984-01-01':
-        value: 3699.41
-      '1985-01-01':
-        value: 4028.96
-      '1986-01-01':
-        value: 4400.76
-      '1987-01-01':
-        value: 4549.48
-      '1988-01-01':
-        value: 4704.96
-      '1989-01-01':
-        value: 4860.44
-      '1990-01-01':
-        value: 5054.79
-      '1991-01-01':
-        value: 5286.32
-      '1992-01-01':
-        value: 5519.54
-      '1993-01-01':
-        value: 5756.14
-      '1994-01-01':
-        value: 5886.27
-      '1995-01-01':
-        value: 6009.64
-      '1996-01-01':
-        value: 6249.62
-      '1997-01-01':
-        value: 6406.79
-      '1998-01-01':
-        value: 6663.67
-      '1999-01-01':
-        value: 6797.18
-      '2000-01-01':
-        value: 6881.68
-      '2001-01-01':
-        value: 7101.38
-      '2002-01-01':
-        value: 1127.23
-      '2003-01-01':
-        value: 1154.27
-      '2004-01-01':
-        value: 1215.11
-      '2005-01-01':
-        value: 1286.09
-      '2006-01-01':
-        value: 1357.07
-      '2007-01-01':
-        value: 1397.63
-      '2008-01-01':
-        value: 1426.36
-      '2009-01-01':
-        value: 1471.99
-      '2010-01-01':
-        value: 1490.58
-      '2011-01-01':
-        value: 1497.34
-      '2012-01-01':
-        value: 1521.0
-      '2013-01-01':
-        value: 1588.6
-      '2014-01-01':
-        value: 1594.0
-      '2015-01-01':
-        value: 1610.57
-      '2016-01-01':
-        value: 1624.09
-      '2017-01-01':
-        value: 1634.23
-  reunion:
-    description: Réunion
-    metadata:
-      unit:
-        '1978-01-01': currency-FRF
-        '2002-01-01': currency-EUR
-    values:
-      '1972-07-01':
-        value: null
-      '1978-01-01':
-        value: 1169.31
-      '1979-01-01':
-        value: 1351.69
-      '1980-01-01':
-        value: 1554.51
-      '1981-01-01':
-        value: 1815.26
-      '1982-01-01':
-        value: 2208.9
-      '1983-01-01':
-        value: 2554.22
-      '1984-01-01':
-        value: 2875.94
-      '1985-01-01':
-        value: 3131.71
-      '1986-01-01':
-        value: 3420.52
-      '1987-01-01':
-        value: 3536.48
-      '1988-01-01':
-        value: 3656.72
-      '1989-01-01':
-        value: 3777.83
-      '1990-01-01':
-        value: 3928.99
-      '1991-01-01':
-        value: 4207.98
-      '1992-01-01':
-        value: 4570.7
-      '1993-01-01':
-        value: 4995.64
-      '1994-01-01':
-        value: 5260.97
-      '1995-01-01':
-        value: 5370.82
-      '1996-01-01':
-        value: 5854.16
-      '1997-01-01':
-        value: 6406.79
-      '1998-01-01':
-        value: 6663.67
-      '1999-01-01':
-        value: 6797.18
-      '2000-01-01':
-        value: 6881.68
-      '2001-01-01':
-        value: 7101.38
-      '2002-01-01':
-        value: 1127.23
-      '2003-01-01':
-        value: 1154.27
-      '2004-01-01':
-        value: 1215.11
-      '2005-01-01':
-        value: 1286.09
-      '2006-01-01':
-        value: 1357.07
-      '2007-01-01':
-        value: 1397.63
-      '2008-01-01':
-        value: 1426.36
-      '2009-01-01':
-        value: 1471.99
-      '2010-01-01':
-        value: 1490.58
-      '2011-01-01':
-        value: 1497.34
-      '2012-01-01':
-        value: 1521.0
-      '2013-01-01':
-        value: 1588.6
-      '2014-01-01':
-        value: 1594.0
-      '2015-01-01':
-        value: 1610.57
-      '2016-01-01':
-        value: 1624.09
-      '2017-01-01':
-        value: 1634.23
+    '2016-01-01': Circulaire Cnav 2015/64 du 18/12/2015
+    '2015-01-01': Circulaire Cnav 2015/4 du 26/01/2015
+    '2014-01-01': Circulaire Cnav 2014/27 du 03/04/2014
+  notes:
+    '2016-01-01': |-
+      Le salaire forfaitaire est calculé sur la base du SMIC: SMIC horaire en vigueur au 1er juillet de l’année précédente * 169 (durée hebdomadaire légale du travail (39h) * 52 / 12)
+      cf. article Article R381-3 du CSS
+    '2001-01-01': Convergence des trois montants
 taux:
   description: Taux
-  metadata:
-    unit: /1
   values:
-    '1972-07-01':
-      value: 0.0875
-    '1974-01-01':
-      value: 0.1025
-    '1976-01-01':
-      value: 0.1075
-    '1976-10-01':
-      value: 0.1115
-    '1979-01-01':
-      value: 0.129
-    '1984-01-01':
-      value: 0.139
-    '1986-08-01':
-      value: 0.146
-    '1987-07-01':
-      value: 0.148
-    '1989-01-01':
-      value: 0.158
-    '1991-02-01':
-      value: 0.1635
-    '2004-07-01':
-      value: 0.1645
-    '2006-01-01':
-      value: 0.1665
-    '2012-11-01':
-      value: 0.1685
-    '2014-01-01':
-      value: 0.1725
-    '2015-01-01':
-      value: 0.1745
-    '2016-01-01':
-      value: 0.1765
     '2017-01-01':
       value: 0.1775
+    '2016-01-01':
+      value: 0.1765
+    '2015-01-01':
+      value: 0.1745
+    '2014-01-01':
+      value: 0.1725
+    '2012-11-01':
+      value: 0.1685
+    '2006-01-01':
+      value: 0.1665
+    '2004-07-01':
+      value: 0.1645
+    '1991-02-01':
+      value: 0.1635
+    '1989-01-01':
+      value: 0.158
+    '1987-07-01':
+      value: 0.148
+    '1986-08-01':
+      value: 0.146
+    '1984-01-01':
+      value: 0.139
+    '1979-01-01':
+      value: 0.129
+    '1976-10-01':
+      value: 0.1115
+    '1976-01-01':
+      value: 0.1075
+    '1974-01-01':
+      value: 0.1025
+    '1972-07-01':
+      value: 0.0875
+  metadata:
+    unit: /1
+documentation: |
+  Note : 
+  Les bénéficiaires de certaines prestations familiales sont affiliées obligatoirement à l'assurance vieillesse des parents au foyer (AVPF) au régime général depuis le :
+  - 01/07/1972 pour les femmes,
+  - 01/07/1979 pour les hommes
+  Note : 
+  Les bénéficiaires de certaines prestations familiales sont affiliées obligatoirement à l'assurance vieillesse des parents au foyer (AVPF) au régime général depuis le :
+  - 01/07/1972 pour les femmes,
+  - 01/07/1979 pour les hommes
+  Note : 
+  Les bénéficiaires de certaines prestations familiales sont affiliées obligatoirement à l'assurance vieillesse des parents au foyer (AVPF) au régime général depuis le :
+  - 01/07/1972 pour les femmes,
+  - 01/07/1979 pour les hommes
+  Note : 
+  Les bénéficiaires de certaines prestations familiales sont affiliées obligatoirement à l'assurance vieillesse des parents au foyer (AVPF) au régime général depuis le :
+  - 01/07/1972 pour les femmes,
+  - 01/07/1979 pour les hommes
+  Note : 
+  Les bénéficiaires de certaines prestations familiales sont affiliées obligatoirement à l'assurance vieillesse des parents au foyer (AVPF) au régime général depuis le :
+  - 01/07/1972 pour les femmes,
+  - 01/07/1979 pour les hommes
+  Note : 
+  Les bénéficiaires de certaines prestations familiales sont affiliées obligatoirement à l'assurance vieillesse des parents au foyer (AVPF) au régime général depuis le :
+  - 01/07/1972 pour les femmes,
+  - 01/07/1979 pour les hommes

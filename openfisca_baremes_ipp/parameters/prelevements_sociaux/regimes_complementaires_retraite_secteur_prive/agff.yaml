@@ -1,96 +1,70 @@
 description: Cotisations pour la structure financière AGFF (2001-2017)
+tranche_1:
+  description: Tranche 1 - A
+  employeur:
+    description: Employeur
+    values:
+      '2001-04-01':
+        value: 0.012
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - employeur
 metadata:
-  notes:
-    '2016-01-01': Extension de la cotisation sur tranche B à la tranche C
   order:
   - tranche_1
   - tranche_2
   - tranche_b
   - tranche_c
   reference:
-    '2001-04-01': Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
     '2016-01-01': Accord Arrco-Agirc du 30/10/2015 (art.3)
-tranche_1:
-  description: Tranche 1 - A
-  employeur:
-    description: Employeur
-    metadata:
-      unit: /1
-    values:
-      '2001-04-01':
-        value: 0.012
-  metadata:
-    order:
-    - salarie
-    - employeur
-  salarie:
-    description: Salarié
-    metadata:
-      unit: /1
-    values:
-      '2001-04-01':
-        value: 0.008
+    '2001-04-01': Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+  notes:
+    '2016-01-01': Extension de la cotisation sur tranche B à la tranche C
 tranche_2:
   description: Tranche 2
   employeur:
     description: Employeur
-    metadata:
-      unit: /1
     values:
       '2001-04-01':
         value: 0.013
-  metadata:
-    order:
-    - salarie
-    - employeur
-  salarie:
-    description: Salarié
     metadata:
       unit: /1
-    values:
-      '2001-04-01':
-        value: 0.009
+  metadata:
+    order:
+    - employeur
 tranche_b:
   description: Tranche B
   employeur:
     description: Employeur
-    metadata:
-      unit: /1
     values:
       '2001-04-01':
         value: 0.013
-  metadata:
-    order:
-    - salarie
-    - employeur
-  salarie:
-    description: Salarié
     metadata:
       unit: /1
-    values:
-      '2001-04-01':
-        value: 0.009
+  metadata:
+    order:
+    - employeur
 tranche_c:
   description: Tranche C
   employeur:
     description: Employeur
-    metadata:
-      unit: /1
     values:
-      '2001-04-01':
-        value: null
       '2016-01-01':
         value: 0.013
-  metadata:
-    order:
-    - salarie
-    - employeur
-  salarie:
-    description: Salarié
-    metadata:
-      unit: /1
-    values:
       '2001-04-01':
         value: null
-      '2016-01-01':
-        value: 0.009
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - employeur
+documentation: |
+  Notes :
+  (i) L'Association pour la Gestion du Fonds de Financement de l'AGIRC et de l'ARRCO (AGFF) remplace depuis le 1er avril 2001, l'Association pour la structure Financière (ASF).
+  (voir feuille "ASF")
+  L'ASF était perçue par les ASSEDIC quand l'AGFF est perçue par les régimes complémentaires AGIRC-ARRCO.
+  Le dispositif est reconduit jusqu'à 2018.
+  (ii) La tranche 2 est située entre 1 et 3 fois le PSS et s'applique pour les non cadres; la tranche B, entre 1 et 4 fois le plafond, s'applique pour les cadres.
+  La tranche 1 (pour les non-cadres) et la tranche A (pour les cadres) correspond au salaire au dessous d'un PFF

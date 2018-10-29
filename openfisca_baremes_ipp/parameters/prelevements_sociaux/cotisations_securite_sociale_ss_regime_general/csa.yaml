@@ -1,20 +1,26 @@
 description: Contributions SS solidarité autonomie (CSA)
-metadata:
-  date_parution_jo:
-    '2004-07-01': '2004-07-01'
-  order:
-  - tout_salaire
-  reference:
-    '2004-07-01': Loi 2004-626 du 26/06/2004, art. 11
 tout_salaire:
   description: Sur tout salaire
   employeurs:
     description: Employeurs
-    metadata:
-      unit: /1
     values:
       '2004-07-01':
         value: 0.003
+    metadata:
+      unit: /1
   metadata:
     order:
     - employeurs
+metadata:
+  order:
+  - tout_salaire
+  reference:
+    '2004-07-01': Loi 2004-626 du 26/06/2004, art. 11
+  date_parution_jo:
+    '2004-07-01': '2004-07-01'
+documentation: |
+  Sources :
+  Journal Officiel via www.legifrance.gouv.fr
+  Notes :
+  Parfois le taux de maladie (MMID) est présenté en incluant le taux de CSA (notamment sur le site de l'URSSAFF). Ici nous distinguons les deux.
+  L'art.11 de la Loi 2004-626 du 26/06/2004 a été transféré et devient l'article M.14-10-4 du Code de l'action sociale et des familles, titre IV, chapitre X.

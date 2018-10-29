@@ -1,103 +1,47 @@
 description: 'Allocation de salaire unique (ASU) : plafond de ressources'
+plafond_ressources_droit_salaire_unique:
+  description: Plafond de ressources pour le droit au salaire unique
+  par_enfant_supplementaire:
+    description: Par enfant supplémentaire
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 5760.0
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - par_enfant_supplementaire
 metadata:
-  date_parution_jo:
-    '1976-07-01': 05/01/1972 30/06/1972 17/08/1976
-    '1978-01-01': '1977-07-13'
-  notes:
-    '1976-07-01': Remplacé par le "Complément Familial" depuis 01/01/1978
   order:
   - plafond_ressources_droit_salaire_unique
   - plafond_ressources_majoration_salaire_unique
   reference:
+    '1978-01-01': Loi 77-765 du 12/07/1977
     '1976-07-01': Loi 72-8 du 03/01/1972                          Décret 72-530 du
       29/06/1972 (S.U.)                                                                Décret
       76-767 du 16/08/1976
-    '1978-01-01': Loi 77-765 du 12/07/1977
-plafond_ressources_droit_salaire_unique:
-  1_enfant:
-    description: 1 enfant
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 28800.0
-      '1978-01-01':
-        value: null
-  2_enfants:
-    description: 2 enfants
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 34560.0
-      '1978-01-01':
-        value: null
-  description: Plafond de ressources pour le droit au salaire unique
-  metadata:
-    order:
-    - sans_enfant
-    - 1_enfant
-    - 2_enfants
-    - par_enfant_supplementaire
-  par_enfant_supplementaire:
-    description: Par enfant supplémentaire
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 5760.0
-      '1978-01-01':
-        value: null
-  sans_enfant:
-    description: Sans enfant
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 23040.0
-      '1978-01-01':
-        value: null
+  date_parution_jo:
+    '1978-01-01': '1977-07-13'
+    '1976-07-01': 05/01/1972 30/06/1972 17/08/1976
+  notes:
+    '1976-07-01': Remplacé par le "Complément Familial" depuis 01/01/1978
 plafond_ressources_majoration_salaire_unique:
-  1_enfant:
-    description: 1 enfant
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 20100.0
-      '1978-01-01':
-        value: null
-  2_enfants:
-    description: 2 enfants
-    metadata:
-      unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 24120.0
-      '1978-01-01':
-        value: null
   description: Plafond de ressources pour la majoration du salaire unique
-  metadata:
-    order:
-    - sans_enfant
-    - 1_enfant
-    - 2_enfants
-    - par_enfant_supplementaire
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
-    metadata:
-      unit: currency-FRF
     values:
+      '1978-01-01':
+        value: null
       '1976-07-01':
         value: 4020.0
-      '1978-01-01':
-        value: null
-  sans_enfant:
-    description: Sans enfant
     metadata:
       unit: currency-FRF
-    values:
-      '1976-07-01':
-        value: 16080.0
-      '1978-01-01':
-        value: null
+  metadata:
+    order:
+    - par_enfant_supplementaire
+documentation: |
+  Notes :
+  (1) Majoration pour les ménages avec 4 enfants et plus ou au moins 1 enfant de moins de 3 ans et des ressources ne dépassant pas le plafond.
+  (2) La loi 72-8 du 3 janvier 1972 met en place les plafonds des ressource auxquels est conditionnée l'allocation de salaire unique

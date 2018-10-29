@@ -1,28 +1,29 @@
+description: "Revenu minimum d'insertion (RMI) : conditions générales"
 condition_age_allocataire:
   description: Condition d'âge pour l'allocataire
   values:
-    '1989-01-01':
-      value: 25.0
     '2009-06-01':
       value: null
-description: 'Revenu minimum d''insertion (RMI) : conditions générales'
+    '1989-01-01':
+      value: 25.0
 metadata:
-  date_parution_jo:
-    '1989-01-01': '1988-12-03'
-    '2009-06-01': '2008-12-03'
-  notes:
-    '1989-01-01': Création du RMI
-    '2009-06-01': Création du RSA qui remplace le RMI
   order:
   - condition_age_allocataire
   - nombre_minimal_enfant_si_condition_age_n_est_pas_respectee
   reference:
-    '1989-01-01': Loi 88-1088 du 01/12/1988, art. 2
     '2009-06-01': Loi 2008-1249 du 01/12/2008
+    '1989-01-01': Loi 88-1088 du 01/12/1988, art. 2
+  date_parution_jo:
+    '2009-06-01': '2008-12-03'
+    '1989-01-01': '1988-12-03'
+  notes:
+    '2009-06-01': Création du RSA qui remplace le RMI
+    '1989-01-01': Création du RMI
 nombre_minimal_enfant_si_condition_age_n_est_pas_respectee:
   description: Nombre minimal d'enfant si la condition d'âge n'est pas respectée
   values:
-    '1989-01-01':
-      value: 1.0
     '2009-06-01':
       value: null
+    '1989-01-01':
+      value: 1.0
+documentation: ''

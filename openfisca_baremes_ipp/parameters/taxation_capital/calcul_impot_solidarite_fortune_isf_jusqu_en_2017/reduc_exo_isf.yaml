@@ -1,57 +1,74 @@
-abattement_residence_principale:
-  description: Abattement sur résidence principale
-  metadata:
-    unit: /1
-  values:
-    '1989-01-01':
-      value: null
-    '1999-01-01':
-      value: 0.2
-    '2008-01-01':
-      value: 0.3
-    '2018-01-01':
-      value: null
 description: Réductions et abattements de l'ISF
+reduction_isf_enfant_charge:
+  description: Réduction ISF enfant à charge
+  values:
+    '2013-01-01':
+      value: null
+    '2012-01-01':
+      value: 300.0
+    '2002-01-01':
+      value: 150.0
+    '1989-01-01':
+      value: 1000.0
+  metadata:
+    unit:
+      '2002-01-01': currency-EUR
+      '1989-01-01': currency-FRF
 metadata:
-  date_parution_jo:
-    '1989-01-01': '1988-12-28'
-    '1999-01-01': '1998-12-31'
-    '2002-01-01': '2000-09-22'
-    '2008-01-01': '2007-08-22'
-    '2012-01-01': '2011-07-30'
-    '2013-01-01': '2012-12-30'
-    '2018-01-01': '2017-12-31'
-  notes:
-    '2002-01-01': Ordonnance portant adaptation de la valeur en euros de certains
-      montants exprimés en francs dans les textes législatifs
-    '2013-01-01': La réduction pour enfant à charge est supprimée par la loi de finances
-      pour 2013.
-    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
   order:
   - reduction_isf_enfant_charge
   - abattement_residence_principale
   reference:
-    '1989-01-01': Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
-    '1999-01-01': Loi 98-1266 du 30/12/1998, art. 17 (LF pour 1999)
-    '2002-01-01': Ordonnance  2000-916 du 19/09/2000,  art. 6
-    '2008-01-01': Loi 2007-1223 du 21/08/2007, art. 14
-    '2012-01-01': Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011)
-    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
     '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
       885 S du CGI)
-reduction_isf_enfant_charge:
-  description: Réduction ISF enfant à charge
-  metadata:
-    unit:
-      '1989-01-01': currency-FRF
-      '2002-01-01': currency-EUR
+    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
+    '2012-01-01': Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011)
+    '2008-01-01': Loi 2007-1223 du 21/08/2007, art. 14
+    '2002-01-01': Ordonnance  2000-916 du 19/09/2000,  art. 6
+    '1999-01-01': Loi 98-1266 du 30/12/1998, art. 17 (LF pour 1999)
+    '1989-01-01': Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+    '2013-01-01': '2012-12-30'
+    '2012-01-01': '2011-07-30'
+    '2008-01-01': '2007-08-22'
+    '2002-01-01': '2000-09-22'
+    '1999-01-01': '1998-12-31'
+    '1989-01-01': '1988-12-28'
+  notes:
+    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.
+    '2013-01-01': La réduction pour enfant à charge est supprimée par la loi de finances
+      pour 2013.
+    '2002-01-01': Ordonnance portant adaptation de la valeur en euros de certains
+      montants exprimés en francs dans les textes législatifs
+abattement_residence_principale:
+  description: Abattement sur résidence principale
   values:
-    '1989-01-01':
-      value: 1000.0
-    '2002-01-01':
-      value: 150.0
-    '2012-01-01':
-      value: 300.0
-    '2013-01-01':
+    '2018-01-01':
       value: null
+    '2008-01-01':
+      value: 0.3
+    '1999-01-01':
+      value: 0.2
+    '1989-01-01':
+      value: null
+  metadata:
+    unit: /1
+documentation: |
+  Note : L'IGF (1982-1986) n'a jamais bénéficié de réduction pour personne à charge ou d'abattement sur la résidence principale. La réduction est instaurée à la création de l'ISF à partir du 1er janvier 1989, tandis que l'abattement est introduit à partir de 1999 par la loi de finances pour 1999.
+  Note : L'IGF (1982-1986) n'a jamais bénéficié de réduction pour personne à charge ou d'abattement sur la résidence principale. La réduction est instaurée à la création de l'ISF à partir du 1er janvier 1989, tandis que l'abattement est introduit à partir de 1999 par la loi de finances pour 1999.
+  Note : L'IGF (1982-1986) n'a jamais bénéficié de réduction pour personne à charge ou d'abattement sur la résidence principale. La réduction est instaurée à la création de l'ISF à partir du 1er janvier 1989, tandis que l'abattement est introduit à partir de 1999 par la loi de finances pour 1999.
+  Note : L'IGF (1982-1986) n'a jamais bénéficié de réduction pour personne à charge ou d'abattement sur la résidence principale. La réduction est instaurée à la création de l'ISF à partir du 1er janvier 1989, tandis que l'abattement est introduit à partir de 1999 par la loi de finances pour 1999.
+  Référence dans les codes législatifs : 
+  - La réduction pour personne à charge portant sur l'ISF est codifié à l'article 885 V du CGI.
+  - L'abattement sur la valeur vénale réelle de la résidence principale dans le calcul de l'assiette de l'ISF est codifié à l'article 885 S du CGI.
+  Référence dans les codes législatifs : 
+  - La réduction pour personne à charge portant sur l'ISF est codifié à l'article 885 V du CGI.
+  - L'abattement sur la valeur vénale réelle de la résidence principale dans le calcul de l'assiette de l'ISF est codifié à l'article 885 S du CGI.
+  Référence dans les codes législatifs : 
+  - La réduction pour personne à charge portant sur l'ISF est codifié à l'article 885 V du CGI.
+  - L'abattement sur la valeur vénale réelle de la résidence principale dans le calcul de l'assiette de l'ISF est codifié à l'article 885 S du CGI.
+  Référence dans les codes législatifs : 
+  - La réduction pour personne à charge portant sur l'ISF est codifié à l'article 885 V du CGI.
+  - L'abattement sur la valeur vénale réelle de la résidence principale dans le calcul de l'assiette de l'ISF est codifié à l'article 885 S du CGI.

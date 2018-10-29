@@ -1,37 +1,41 @@
 description: Prémix (mélanges alcool et soda)
+premix_eur_par_decilitre_alcool_pur:
+  description: Prémix (€ par décilitre d'alcool pur)
+  values:
+    '2005-01-01':
+      value: 11.0
+    '2002-03-31':
+      value: 5.5
+    '1999-03-31':
+      value: 36.4
+    '1997-03-31':
+      value: null
+  metadata:
+    unit:
+      '2002-03-31': currency-EUR
+      '1999-03-31': currency-FRF
 metadata:
-  date_parution_jo:
-    '1997-03-31': 29/12/1996
-    '1999-03-31': 27/12/1998
-    '2005-01-01': 11/08/2004
   order:
   - premix_eur_par_decilitre_alcool_pur
   - premix_eur_par_decilitre
   reference:
-    '1997-03-31': Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
-    '1999-03-31': Loi 98-1194 du 23/12/1998 (LFSS pour 1999)
     '2005-01-01': Loi 2004-806 du 09/08/2004
+    '1999-03-31': Loi 98-1194 du 23/12/1998 (LFSS pour 1999)
+    '1997-03-31': Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+  date_parution_jo:
+    '2005-01-01': 11/08/2004
+    '1999-03-31': 27/12/1998
+    '1997-03-31': 29/12/1996
 premix_eur_par_decilitre:
   description: Prémix (€ par décilitre )
-  metadata:
-    unit: currency-FRF
   values:
+    '1999-03-31':
+      value: null
     '1997-03-31':
       value: 1.5
-    '1999-03-31':
-      value: null
-premix_eur_par_decilitre_alcool_pur:
-  description: Prémix (€ par décilitre d'alcool pur)
   metadata:
-    unit:
-      '1999-03-31': currency-FRF
-      '2002-03-31': currency-EUR
-  values:
-    '1997-03-31':
-      value: null
-    '1999-03-31':
-      value: 36.4
-    '2002-03-31':
-      value: 5.5
-    '2005-01-01':
-      value: 11.0
+    unit: currency-FRF
+documentation: |
+  Notes :
+  Données renseignées dans l'article 1613 bis du code général des impôts
+  Définition prémix : mélange pré-fait d'un alcool et d'une boisson non alcoolisée, le plus souvent un soda

@@ -1,86 +1,71 @@
+description: Investissement et travaux forestiers (2002 - 2016)
 date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
   annee_ir:
     description: Année IR
     values:
-      '2000-01-01':
-        value: 2001.0
-      '2001-01-01':
-        value: 2002.0
-      '2006-01-01':
-        value: 2007.0
-      '2011-01-01':
-        value: 2012.0
       '2012-01-01':
         value: 2013.0
-  description: Date d'entrée en vigueur
+      '2011-01-01':
+        value: 2012.0
+      '2006-01-01':
+        value: 2007.0
+      '2001-01-01':
+        value: 2002.0
+      '2000-01-01':
+        value: 2001.0
   metadata:
     order:
     - annee_ir
-depenses_investissement_forestier:
-  description: Dépenses d'investissement forestier
-  metadata:
-    order:
-    - plafond_depenses
-    - taux
-  plafond_depenses:
-    description: Plafond de dépenses
-    metadata:
-      unit: currency-EUR
-    values:
-      '2000-01-01':
-        value: null
-      '2001-01-01':
-        value: 5700.0
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
-      '2000-01-01':
-        value: null
-      '2001-01-01':
-        value: 0.25
-      '2011-01-01':
-        value: 0.22
-      '2012-01-01':
-        value: 0.18
-description: Investissement et travaux forestiers (2002 - 2016)
 metadata:
-  notes:
-    '2001-01-01': Crée par loi d'orientation sur la forêt n°2001-602 du 9 juillet
-      2001 - JOFR 11/07/2001
-    '2006-01-01': Création d'une réduction d'impôt pour la défense des forêts contre
-      l'incendie
   order:
   - date_entree_en_vigueur
   - depenses_investissement_forestier
   - reduction_impot_defense_forets_contre_incendies
   reference:
-    '2001-01-01': Loi 2001-602 du 9/07/2001
-    '2006-01-01': Loi 2006-11 (art. 66) du 05/01/2006
-    '2011-01-01': Décret 2011-520 (art. 1) du 13/05/2011
     '2012-01-01': Décret 2012-547 (art. 1) du 23/04/2012
-reduction_impot_defense_forets_contre_incendies:
-  description: Réduction d'impôt pour la défense des forêts contre les incendies
+    '2011-01-01': Décret 2011-520 (art. 1) du 13/05/2011
+    '2006-01-01': Loi 2006-11 (art. 66) du 05/01/2006
+    '2001-01-01': Loi 2001-602 du 9/07/2001
+  notes:
+    '2006-01-01': Création d'une réduction d'impôt pour la défense des forêts contre
+      l'incendie
+    '2001-01-01': Crée par loi d'orientation sur la forêt n°2001-602 du 9 juillet
+      2001 - JOFR 11/07/2001
+depenses_investissement_forestier:
+  description: Dépenses d'investissement forestier
+  taux:
+    description: Taux
+    values:
+      '2012-01-01':
+        value: 0.18
+      '2011-01-01':
+        value: 0.22
+      '2001-01-01':
+        value: 0.25
+      '2000-01-01':
+        value: null
+    metadata:
+      unit: /1
   metadata:
     order:
     - taux
-    - plafond_depenses
+reduction_impot_defense_forets_contre_incendies:
+  description: Réduction d'impôt pour la défense des forêts contre les incendies
   plafond_depenses:
     description: Plafond de dépenses
-    metadata:
-      unit: currency-EUR
     values:
-      '2000-01-01':
-        value: null
       '2006-01-01':
         value: 1000.0
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
-    values:
       '2000-01-01':
         value: null
-      '2006-01-01':
-        value: 0.5
+    metadata:
+      unit: currency-EUR
+  metadata:
+    order:
+    - plafond_depenses
+documentation: |
+  Notes :
+  (1) En 2007, investissements forestiers renommés en investissements et travaux forestiers  
+  (2) Réduction pour dépenses d'investissement forestier : art. 199 decies H du CGI
+  (3) Réduction pour la défense des fôrets contre les incendies : art. 200 decies A du CGI

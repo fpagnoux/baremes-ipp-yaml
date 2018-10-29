@@ -1,57 +1,63 @@
+description: Participation à la formation professionnelle continue, Artisans-Commerçants
 artisans:
   description: Artisans
-  metadata:
-    order:
-    - sous_pss
   sous_pss:
     description: Sous PSS
-    metadata:
-      unit: /1
     values:
-      '1992-01-01':
-        value: null
-      '2000-01-01':
+      '2008-01-01':
         value: 0.0029
       '2004-01-01':
         value: 0.0024
-      '2008-01-01':
+      '2000-01-01':
         value: 0.0029
-commercants_industriels:
-  description: Commerçants-industriels
+      '1992-01-01':
+        value: null
+    metadata:
+      unit: /1
   metadata:
     order:
     - sous_pss
-  sous_pss:
-    description: Sous PSS
-    metadata:
-      unit: /1
-    values:
-      '1992-01-01':
-        value: 0.0015
-      '2012-08-18':
-        value: 0.0025
-description: Participation à la formation professionnelle continue, Artisans-Commerçants
 metadata:
-  date_parution_jo:
-    '1992-01-01': '1992-01-04'
-    '2000-01-01': '1999-12-31'
-    '2004-01-01': '2003-12-31'
-    '2005-08-03': '2005-08-03'
-    '2008-01-01': '2006-12-31'
-    '2012-08-18': '2012-08-17'
-  notes:
-    '2008-01-01': Le taux maximal pour les commerçants, auparavant de 0,24 %, est
-      passé à 0,17 %, avec ajout d'un droit additionnel à la taxe pour frais de chambre
-      de métiers à 0,12 %
-    '2012-08-18': Pour les artisans, le taux est de 0,17 % en Alsace-Moselle. Cette
-      disposition prend fin à partir du 01/01/2017.
   order:
   - artisans
   - commercants_industriels
   reference:
-    '1992-01-01': Loi 91-1405 du 31/12/1991, art. 32
-    '2000-01-01': Loi 99-1172 du 30/12/1999
-    '2004-01-01': Loi 2003-1311 du 30/12/2003
-    '2005-08-03': Loi 2005-882 du 02/08/2005, art. 16
-    '2008-01-01': Loi 2006-1771 du 30/12/2006 (LFR pour 2006), art. 127 (V)
     '2012-08-18': Loi 2012-958 du 16/08/2012 (LFR pour 2012), art. 38
+    '2008-01-01': Loi 2006-1771 du 30/12/2006 (LFR pour 2006), art. 127 (V)
+    '2005-08-03': Loi 2005-882 du 02/08/2005, art. 16
+    '2004-01-01': Loi 2003-1311 du 30/12/2003
+    '2000-01-01': Loi 99-1172 du 30/12/1999
+    '1992-01-01': Loi 91-1405 du 31/12/1991, art. 32
+  date_parution_jo:
+    '2012-08-18': '2012-08-17'
+    '2008-01-01': '2006-12-31'
+    '2005-08-03': '2005-08-03'
+    '2004-01-01': '2003-12-31'
+    '2000-01-01': '1999-12-31'
+    '1992-01-01': '1992-01-04'
+  notes:
+    '2012-08-18': Pour les artisans, le taux est de 0,17 % en Alsace-Moselle. Cette
+      disposition prend fin à partir du 01/01/2017.
+    '2008-01-01': Le taux maximal pour les commerçants, auparavant de 0,24 %, est
+      passé à 0,17 %, avec ajout d'un droit additionnel à la taxe pour frais de chambre
+      de métiers à 0,12 %
+commercants_industriels:
+  description: Commerçants-industriels
+  sous_pss:
+    description: Sous PSS
+    values:
+      '2012-08-18':
+        value: 0.0025
+      '1992-01-01':
+        value: 0.0015
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - sous_pss
+documentation: |
+  Note :
+  Depuis 2005, les commerçants et industriels paient un supplément de 0,9% si leur conjoint a le statut de conjoint collaborateur.
+  Sources :
+  CGI pour artisans (article 1601B).
+  Code du travail pour les commerçants (article L953-1, puis L6331-48).

@@ -1,154 +1,74 @@
 description: Paramètres de calcul du montant forfaitaire R0 (que l'on déduit des ressources)
   - secteur locatif (après 2001)
+r1_en_rsa_socle_1:
+  description: R1 (en % du RSA socle) (1)
+  majoration_par_enfant_charge_supplementaire_en_rmi_base:
+    description: |-
+      Majoration par enfant à charge supplémentaire
+      (en % du RMI de base)
+    values:
+      '2001-01-01':
+        value: 0.4
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - majoration_par_enfant_charge_supplementaire_en_rmi_base
 metadata:
+  order:
+  - r1_en_rsa_socle_1
+  - r2_en_bmaf_1
+  - plafond_r0
+  reference:
+    '2002-01-01': Références manquantes
+    '2001-01-01': Arrêté du 26/12/2000, art. 2
   date_parution_jo:
     '2001-01-01': '2000-12-28'
   notes:
     '2002-01-01': Paramètres toutefois disponibles dans "Eléments de calcul des aides
       personnelles au logement", Ministère de l'égalité des territoires et du logement,
       2013, p 13.
-  order:
-  - r1_en_rsa_socle_1
-  - r2_en_bmaf_1
-  - plafond_r0
-  reference:
-    '2001-01-01': Arrêté du 26/12/2000, art. 2
-    '2002-01-01': Références manquantes
-plafond_r0:
-  description: Plafond de R0
-  foyers_avec_1_personne_charge_en_r0:
-    description: 'Foyers avec 1 personne à charge
-
-      (en % du R0)'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 0.69
-      '2002-01-01':
-        value: 1.0
-  foyers_avec_2_personnes_charge_en_r0:
-    description: 'Foyers avec 2 personnes à charge
-
-      (en % du R0)'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 0.72
-      '2002-01-01':
-        value: 1.0
-  foyers_avec_3_personnes_charge_en_r0:
-    description: 'Foyers avec 3 personnes à charge
-
-      (en % du R0 )'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 0.75
-      '2002-01-01':
-        value: 1.0
-  foyers_avec_4_personnes_charge_plus_en_r0:
-    description: 'Foyers avec 4 personnes à charge et plus
-
-      (en % du R0 )'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 0.83
-      '2002-01-01':
-        value: 1.0
-  foyers_sans_personne_charge_en_r0:
-    description: 'Foyers sans personne à charge
-
-      (en % du R0 )'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 0.75
-      '2002-01-01':
-        value: 1.0
-  metadata:
-    order:
-    - foyers_sans_personne_charge_en_r0
-    - foyers_avec_1_personne_charge_en_r0
-    - foyers_avec_2_personnes_charge_en_r0
-    - foyers_avec_3_personnes_charge_en_r0
-    - foyers_avec_4_personnes_charge_plus_en_r0
-r1_en_rsa_socle_1:
-  couples_en_rmi_base:
-    description: "Couples \n(en % du RMI de base)"
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 1.26
-  description: R1 (en % du RSA socle) (1)
-  majoration_par_enfant_charge_supplementaire_en_rmi_base:
-    description: 'Majoration par enfant à charge supplémentaire
-
-      (en % du RMI de base)'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 0.4
-  metadata:
-    order:
-    - personnes_isolees_en_rmi_base
-    - couples_en_rmi_base
-    - personnes_isolees_couples_avec_1_enfant_en_rmi_base
-    - personnes_isolees_couples_avec_2_enfants_en_rmi_base
-    - majoration_par_enfant_charge_supplementaire_en_rmi_base
-  personnes_isolees_couples_avec_1_enfant_en_rmi_base:
-    description: 'Personnes isolées ou couples avec 1 enfant
-
-      (en % du RMI de base)'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 1.503
-  personnes_isolees_couples_avec_2_enfants_en_rmi_base:
-    description: 'Personnes isolées ou couples avec 2 enfants
-
-      (en % du RMI de base)'
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 1.803
-  personnes_isolees_en_rmi_base:
-    description: "Personnes isolées \n(en % du RMI de base)"
-    metadata:
-      unit: /1
-    values:
-      '2001-01-01':
-        value: 0.88
 r2_en_bmaf_1:
   description: R2 (en % de la BMAF) (1)
   majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2:
-    description: 'Majoration par enfant à charge supplémentaire
-
-      (en % de la BMAF au 01/01/N-2)'
-    metadata:
-      unit: /1
+    description: |-
+      Majoration par enfant à charge supplémentaire
+      (en % de la BMAF au 01/01/N-2)
     values:
       '2001-01-01':
         value: 0.41
-  metadata:
-    order:
-    - personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2
-    - majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2
-  personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2:
-    description: 'Personnes isolées ou couples avec 2 enfants
-
-      (en % de la BMAF au 01/01/N-2)'
     metadata:
       unit: /1
+  metadata:
+    order:
+    - majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2
+plafond_r0:
+  description: Plafond de R0
+  foyers_avec_4_personnes_charge_plus_en_r0:
+    description: |-
+      Foyers avec 4 personnes à charge et plus
+      (en % du R0 )
     values:
+      '2002-01-01':
+        value: 1.0
       '2001-01-01':
-        value: 0.32
+        value: 0.83
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - foyers_avec_4_personnes_charge_plus_en_r0
+documentation: |
+  Notes :
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)
+  (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)

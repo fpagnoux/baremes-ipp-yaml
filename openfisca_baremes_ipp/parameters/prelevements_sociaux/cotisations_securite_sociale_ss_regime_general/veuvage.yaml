@@ -1,43 +1,36 @@
 description: Cotisations SS assurance veuvage (1981-2004)
+salaries:
+  description: Salariés
+  tout_salaire:
+    description: Sur tout salaire
+    values:
+      '2004-07-01':
+        value: null
+      '1982-01-01':
+        value: 0.001
+      '1981-01-01':
+        value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - tout_salaire
 metadata:
-  date_parution_jo:
-    '1981-01-01': '1980-12-31'
-    '1982-01-01': '1982-01-05'
-    '2004-07-01': '2004-08-25'
-  notes:
-    '1981-01-01': En 1981, la cotisation veuvage nouvellemement créée de 0,1% ne s'applique
-      que sous la partie du salaire sous-plafond.
-    '1982-01-01': La cotisation veuvage est déplafonnée à compter du 1er janvier 1982.
-    '2004-07-01': La cotisation veuvage est transférée à la Cnav.
   order:
   - salaries
   reference:
-    '1981-01-01': Décret 80-1098 du 30/12/1980
-    '1982-01-01': Loi 82-1 du 04/01/1982
     '2004-07-01': Décret 2004-858 du 24/08/2004
-salaries:
-  description: Salariés
-  metadata:
-    order:
-    - sous_plafond
-    - tout_salaire
-  sous_plafond:
-    description: Sous plafond
-    metadata:
-      unit: /1
-    values:
-      '1981-01-01':
-        value: 0.001
-      '1982-01-01':
-        value: null
-  tout_salaire:
-    description: Sur tout salaire
-    metadata:
-      unit: /1
-    values:
-      '1981-01-01':
-        value: null
-      '1982-01-01':
-        value: 0.001
-      '2004-07-01':
-        value: null
+    '1982-01-01': Loi 82-1 du 04/01/1982
+    '1981-01-01': Décret 80-1098 du 30/12/1980
+  date_parution_jo:
+    '2004-07-01': '2004-08-25'
+    '1982-01-01': '1982-01-05'
+    '1981-01-01': '1980-12-31'
+  notes:
+    '2004-07-01': La cotisation veuvage est transférée à la Cnav.
+    '1982-01-01': La cotisation veuvage est déplafonnée à compter du 1er janvier 1982.
+    '1981-01-01': En 1981, la cotisation veuvage nouvellemement créée de 0,1% ne s'applique
+      que sous la partie du salaire sous-plafond.
+documentation: |
+  Sources :
+  www.legislation.cnav.fr, Journal Officiel via www.legifrance.gouv.fr

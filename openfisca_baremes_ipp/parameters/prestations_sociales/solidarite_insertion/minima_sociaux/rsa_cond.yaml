@@ -1,44 +1,10 @@
+description: 'Revenu de solidarité active (RSA) : conditions générales'
 age_minimum_allocataire:
   description: Âge minimum pour l'allocataire
   values:
     '2009-06-01':
       value: 25.0
-description: 'Revenu de solidarité active (RSA) : conditions générales'
-duree_minimum_titre_sejour_annee:
-  description: Durée minimum du titre de séjour (année)
-  values:
-    '2009-06-01':
-      value: 5.0
-majoration_isolement_en_mois:
-  age_limite_enfant_3_en_annee:
-    description: 'Âge limite de l''enfant (3)
-
-      (en année)'
-    values:
-      '2009-06-01':
-        value: 3.0
-  description: Majoration pour isolement (en mois)
-  duree_droit:
-    description: Durée du droit
-    values:
-      '2009-06-01':
-        value: 12.0
-  limite_duree_droit_majoration_isolement_2:
-    description: Limite de durée du droit à la majoration pour isolement (2)
-    values:
-      '2009-06-01':
-        value: 18.0
-  metadata:
-    order:
-    - duree_droit
-    - limite_duree_droit_majoration_isolement_2
-    - age_limite_enfant_3_en_annee
 metadata:
-  date_parution_jo:
-    '2009-06-01': 03/12/2008         16/04/2009
-    '2010-09-01': '2010-08-26'
-  notes:
-    '2009-06-01': RSA créé par Loi 2008-1249 du 01/12/2008
   order:
   - age_minimum_allocataire
   - nombre_minimal_enfants_1
@@ -46,18 +12,64 @@ metadata:
   - duree_minimum_titre_sejour_annee
   - rsa_jeune_en_heure_4
   reference:
+    '2010-09-01': Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
     '2009-06-01': Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
       2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
-    '2010-09-01': Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
+  date_parution_jo:
+    '2010-09-01': '2010-08-26'
+    '2009-06-01': 03/12/2008         16/04/2009
+  notes:
+    '2009-06-01': RSA créé par Loi 2008-1249 du 01/12/2008
 nombre_minimal_enfants_1:
   description: Nombre minimal d'enfants (1)
   values:
     '2009-06-01':
       value: 1.0
+majoration_isolement_en_mois:
+  description: Majoration pour isolement (en mois)
+  age_limite_enfant_3_en_annee:
+    description: |-
+      Âge limite de l'enfant (3)
+      (en année)
+    values:
+      '2009-06-01':
+        value: 3.0
+  metadata:
+    order:
+    - age_limite_enfant_3_en_annee
+duree_minimum_titre_sejour_annee:
+  description: Durée minimum du titre de séjour (année)
+  values:
+    '2009-06-01':
+      value: 5.0
 rsa_jeune_en_heure_4:
   description: RSA jeune (en heure) (4)
   values:
-    '2009-06-01':
-      value: null
     '2010-09-01':
       value: 3214.0
+    '2009-06-01':
+      value: null
+documentation: |
+  Notes :
+  (1) Nés ou à naître si la condition d'âge n'est pas respectée.
+  (1) Nés ou à naître si la condition d'âge n'est pas respectée.
+  (1) Nés ou à naître si la condition d'âge n'est pas respectée.
+  (1) Nés ou à naître si la condition d'âge n'est pas respectée.
+  (1) Nés ou à naître si la condition d'âge n'est pas respectée.
+  (1) Nés ou à naître si la condition d'âge n'est pas respectée.
+  (1) Nés ou à naître si la condition d'âge n'est pas respectée.
+  (2) Par rapport au moment où le droit aurait pu être ouvert.
+  (2) Par rapport au moment où le droit aurait pu être ouvert.
+  (2) Par rapport au moment où le droit aurait pu être ouvert.
+  (2) Par rapport au moment où le droit aurait pu être ouvert.
+  (2) Par rapport au moment où le droit aurait pu être ouvert.
+  (3) Pour prolongation du droit à la majoration pour isolement.
+  (3) Pour prolongation du droit à la majoration pour isolement.
+  (3) Pour prolongation du droit à la majoration pour isolement.
+  (3) Pour prolongation du droit à la majoration pour isolement.
+  (3) Pour prolongation du droit à la majoration pour isolement.
+  (4) Activité préalable pendant les 3 dernières années si non respect de la condition d'âge minimal ou d'enfant à charge.
+  (4) Activité préalable pendant les 3 dernières années si non respect de la condition d'âge minimal ou d'enfant à charge.
+  (4) Activité préalable pendant les 3 dernières années si non respect de la condition d'âge minimal ou d'enfant à charge.
+  (4) Activité préalable pendant les 3 dernières années si non respect de la condition d'âge minimal ou d'enfant à charge.
+  (4) Activité préalable pendant les 3 dernières années si non respect de la condition d'âge minimal ou d'enfant à charge.

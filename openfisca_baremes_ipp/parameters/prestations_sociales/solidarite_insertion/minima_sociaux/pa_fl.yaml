@@ -1,36 +1,23 @@
-description: 'Prime d''activité (PA) : forfait logement'
+description: "Prime d'activité (PA) : forfait logement"
+taux_forfait_logement:
+  description: Taux Forfait logement
+  foyer_3_personnes:
+    description: Foyer - 3 personnes
+    values:
+      '2016-01-01':
+        value: 0.165
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - foyer_3_personnes
 metadata:
-  date_parution_jo:
-    '2016-01-01': '2015-12-22'
   order:
   - taux_forfait_logement
   reference:
     '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
-taux_forfait_logement:
-  description: Taux Forfait logement
-  foyer_1_personne:
-    description: Foyer - 1 personne
-    metadata:
-      unit: /1
-    values:
-      '2016-01-01':
-        value: 0.12
-  foyer_2_personnes:
-    description: Foyer - 2 personnes
-    metadata:
-      unit: /1
-    values:
-      '2016-01-01':
-        value: 0.16
-  foyer_3_personnes:
-    description: Foyer - 3 personnes
-    metadata:
-      unit: /1
-    values:
-      '2016-01-01':
-        value: 0.165
-  metadata:
-    order:
-    - foyer_1_personne
-    - foyer_2_personnes
-    - foyer_3_personnes
+  date_parution_jo:
+    '2016-01-01': '2015-12-22'
+documentation: |
+  Notes :
+  Il faut appliquer ces taux au montant du RSA en tenant compte de la composition du foyer

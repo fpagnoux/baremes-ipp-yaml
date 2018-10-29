@@ -1,160 +1,132 @@
 description: Allocation équivalent retraite (AER)
+montant_journalier:
+  description: Montant journalier
+  values:
+    '2017-04-01':
+      value: 35.24
+    '2016-04-01':
+      value: 35.13
+    '2015-01-01':
+      value: 35.09
+    '2014-01-01':
+      value: 34.78
+    '2013-01-01':
+      value: 34.33
+    '2012-01-01':
+      value: 33.74
+    '2011-01-01':
+      value: 33.18
+    '2010-01-01':
+      value: 32.69
+    '2009-01-01':
+      value: 32.3
+    '2008-01-01':
+      value: 31.82
+    '2007-01-01':
+      value: 31.32
+    '2006-01-01':
+      value: 30.77
+    '2005-01-01':
+      value: 30.23
+    '2004-01-01':
+      value: 29.7
+    '2003-01-01':
+      value: 29.26
+    '2002-04-06':
+      value: 28.83
+  metadata:
+    unit: currency-EUR
 metadata:
-  date_parution_jo:
-    '2002-04-06': '2002-04-06'
-    '2003-01-01': '2003-01-01'
-    '2004-01-01': '2004-01-01'
-    '2005-01-01': '2005-01-01'
-    '2006-01-01': '2005-12-30'
-    '2007-01-01': '2007-01-09'
-    '2008-01-01': '2008-01-17'
-    '2009-01-01': '2009-02-05'
-    '2010-01-01': '2009-12-31'
-    '2011-01-01': 30/01/2011
-    '2011-11-04': '2011-11-03'
-    '2012-01-01': '2012-10-02'
-    '2013-01-01': 29/12/2012
-    '2014-01-01': '2013-12-29'
-    '2015-01-01': '2014-12-31'
-    '2016-04-01': '2016-05-04'
-    '2017-04-01': '2017-05-11'
-  notes:
-    '2011-01-01': L'AER est supprimé au 01/01/2011.
   order:
   - montant_journalier
   - plafond_ressources
   reference:
-    '2002-04-06': Décret 2002-462 du 05/04/2002
-    '2003-01-01': Décret 2002-1615 du 31/12/2002
-    '2004-01-01': Décret 2003-1374 du 31/12/2003
-    '2005-01-01': Décret 2004-1537 du 30/12/2004
-    '2006-01-01': Décret 2005-1700 du 29/12/2005
-    '2007-01-01': Décret 2007-32 du 08/01/2007
-    '2008-01-01': Décret 2008-52 du 16/01/2008
-    '2009-01-01': Décret 2009-124 du 04/02/2009
-    '2010-01-01': Décret 2009-1703 du 30/12/2009
-    '2011-01-01': Décret 2011-123 du 29/01/2011
-    '2011-11-04': Décret 2011-1421 du 02/11/2011
-    '2012-01-01': Décret 2012-196 du 09/02/2012
-    '2013-01-01': Décret 2012-1496 du 28/12/2012
-    '2014-01-01': Décret 2013-1274 du 27/12/2013
-    '2015-01-01': Décret 2014-1719 du 31/12/2014
-    '2016-04-01': Décret 2016-540 du 03/05/2016
     '2017-04-01': Décret 2017-1022 du 10/05/2017
-montant_journalier:
-  description: Montant journalier
-  metadata:
-    unit: currency-EUR
-  values:
-    '2002-04-06':
-      value: 28.83
-    '2003-01-01':
-      value: 29.26
-    '2004-01-01':
-      value: 29.7
-    '2005-01-01':
-      value: 30.23
-    '2006-01-01':
-      value: 30.77
-    '2007-01-01':
-      value: 31.32
-    '2008-01-01':
-      value: 31.82
-    '2009-01-01':
-      value: 32.3
-    '2010-01-01':
-      value: 32.69
-    '2011-01-01':
-      value: 33.18
-    '2012-01-01':
-      value: 33.74
-    '2013-01-01':
-      value: 34.33
-    '2014-01-01':
-      value: 34.78
-    '2015-01-01':
-      value: 35.09
-    '2016-04-01':
-      value: 35.13
-    '2017-04-01':
-      value: 35.24
+    '2016-04-01': Décret 2016-540 du 03/05/2016
+    '2015-01-01': Décret 2014-1719 du 31/12/2014
+    '2014-01-01': Décret 2013-1274 du 27/12/2013
+    '2013-01-01': Décret 2012-1496 du 28/12/2012
+    '2012-01-01': Décret 2012-196 du 09/02/2012
+    '2011-11-04': Décret 2011-1421 du 02/11/2011
+    '2011-01-01': Décret 2011-123 du 29/01/2011
+    '2010-01-01': Décret 2009-1703 du 30/12/2009
+    '2009-01-01': Décret 2009-124 du 04/02/2009
+    '2008-01-01': Décret 2008-52 du 16/01/2008
+    '2007-01-01': Décret 2007-32 du 08/01/2007
+    '2006-01-01': Décret 2005-1700 du 29/12/2005
+    '2005-01-01': Décret 2004-1537 du 30/12/2004
+    '2004-01-01': Décret 2003-1374 du 31/12/2003
+    '2003-01-01': Décret 2002-1615 du 31/12/2002
+    '2002-04-06': Décret 2002-462 du 05/04/2002
+  date_parution_jo:
+    '2017-04-01': '2017-05-11'
+    '2016-04-01': '2016-05-04'
+    '2015-01-01': '2014-12-31'
+    '2014-01-01': '2013-12-29'
+    '2013-01-01': 29/12/2012
+    '2012-01-01': '2012-10-02'
+    '2011-11-04': '2011-11-03'
+    '2011-01-01': 30/01/2011
+    '2010-01-01': '2009-12-31'
+    '2009-01-01': '2009-02-05'
+    '2008-01-01': '2008-01-17'
+    '2007-01-01': '2007-01-09'
+    '2006-01-01': '2005-12-30'
+    '2005-01-01': '2005-01-01'
+    '2004-01-01': '2004-01-01'
+    '2003-01-01': '2003-01-01'
+    '2002-04-06': '2002-04-06'
+  notes:
+    '2011-01-01': L'AER est supprimé au 01/01/2011.
 plafond_ressources:
+  description: Plafond de ressources
   couple:
     description: Couple
-    metadata:
-      unit: currency-EUR
     values:
-      '2002-04-06':
-        value: 1989.27
-      '2003-01-01':
-        value: 2018.94
-      '2004-01-01':
-        value: 2049.2999999999997
-      '2005-01-01':
-        value: 2085.87
-      '2006-01-01':
-        value: 2123.13
-      '2007-01-01':
-        value: 2161.08
-      '2008-01-01':
-        value: 2195.58
-      '2009-01-01':
-        value: 2228.7
-      '2010-01-01':
-        value: 2255.6099999999997
-      '2011-01-01':
-        value: 2289.42
-      '2012-01-01':
-        value: 2328.06
-      '2013-01-01':
-        value: 2368.77
-      '2014-01-01':
-        value: 2399.82
-      '2015-01-01':
-        value: 2421.21
-      '2016-04-01':
-        value: 2423.9700000000003
       '2017-04-01':
         value: 2431.56
-  description: Plafond de ressources
-  metadata:
-    order:
-    - personne_seule
-    - couple
-  personne_seule:
-    description: Personne seule
+      '2016-04-01':
+        value: 2423.9700000000003
+      '2015-01-01':
+        value: 2421.21
+      '2014-01-01':
+        value: 2399.82
+      '2013-01-01':
+        value: 2368.77
+      '2012-01-01':
+        value: 2328.06
+      '2011-01-01':
+        value: 2289.42
+      '2010-01-01':
+        value: 2255.6099999999997
+      '2009-01-01':
+        value: 2228.7
+      '2008-01-01':
+        value: 2195.58
+      '2007-01-01':
+        value: 2161.08
+      '2006-01-01':
+        value: 2123.13
+      '2005-01-01':
+        value: 2085.87
+      '2004-01-01':
+        value: 2049.2999999999997
+      '2003-01-01':
+        value: 2018.94
+      '2002-04-06':
+        value: 1989.27
     metadata:
       unit: currency-EUR
-    values:
-      '2002-04-06':
-        value: 1383.84
-      '2003-01-01':
-        value: 1404.48
-      '2004-01-01':
-        value: 1425.6
-      '2005-01-01':
-        value: 1451.04
-      '2006-01-01':
-        value: 1476.96
-      '2007-01-01':
-        value: 1503.3600000000001
-      '2008-01-01':
-        value: 1527.3600000000001
-      '2009-01-01':
-        value: 1550.3999999999999
-      '2010-01-01':
-        value: 1569.12
-      '2011-01-01':
-        value: 1592.6399999999999
-      '2012-01-01':
-        value: 1619.52
-      '2013-01-01':
-        value: 1647.84
-      '2014-01-01':
-        value: 1669.44
-      '2015-01-01':
-        value: 1684.3200000000002
-      '2016-04-01':
-        value: 1686.2400000000002
-      '2017-04-01':
-        value: 1691.52
+  metadata:
+    order:
+    - couple
+documentation: |
+  Notes :
+  Seules les personnes dont les droits à l'AER ont été ouverts avant le 1er janvier 2011 continuent à la percevoir jusqu'à l'expiration de leurs droits. L'AER est remplacée depuis le 1er juillet 2011 par l'allocation transitoire de solidarité (ATS).
+  Allocation équivalent retraite destinée aux demandeurs d'emploi n'ayant pas atteint l'âge de la retraite mais justifiant des trimestres requis pour bénéficier d'une retraite à taux plein. 
+  Le plafond est égal à 48 fois le montant de l'allocation équivalent retraite pour une personne seule, et à 69 fois pour un couple
+  L'AER remplace l'Allocation chômeur âgé (ACA).
+  Sources:
+  Bozio, A. (2006), Réformes des retraites : estimations sur données françaises, thèse de doctorat, EHESS, p. 87 et annexe B.
+  Loi 2002-1275 du 28/12/2001 (LF pour 2002) remplace l'article L. 351-10-1 du code de la Sécurité sociale et est complété par les décrets 2002-461 et 2002-462 du 05/04/2002.
+  Convention Etat-Unedic du 3 mai 2002.

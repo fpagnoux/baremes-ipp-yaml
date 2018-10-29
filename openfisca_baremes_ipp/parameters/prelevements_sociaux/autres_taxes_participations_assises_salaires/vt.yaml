@@ -1,142 +1,23 @@
-bourg_en_bresse:
-  description: Bourg-en-Bresse
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: null
-    '1983-07-01':
-      value: 0.005
-    '2004-07-01':
-      value: 0.006
-    '2011-07-01':
-      value: 0.0075
-    '2017-07-01':
-      value: 0.008
 description: Versement transport (VT)
-essonne:
-  description: Essonne
+taux_maximal_hors_ile_france:
+  description: Taux maximal (hors Ile-de-France)
+  tout_salaire:
+    description: Tout salaire
+    values:
+      '2003-01-01':
+        value: 0.0175
+      '1994-01-01':
+        value: 0.0163
+      '1993-04-01':
+        value: 0.015
+      '1971-09-01':
+        value: null
+    metadata:
+      unit: /1
   metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: null
-    '1975-08-01':
-      value: 0.01
-    '1979-01-01':
-      value: 0.012
-    '1989-01-01':
-      value: 0.015
-    '1993-01-01':
-      value: 0.013
-    '1996-02-01':
-      value: 0.01
-    '2001-01-01':
-      value: 0.013
-    '2004-01-01':
-      value: 0.014
-    '2013-01-01':
-      value: 0.015
-    '2013-07-01':
-      value: 0.016
-    '2014-07-01':
-      value: 0.017
-    '2015-07-01':
-      value: 0.0191
-    '2017-01-01':
-      value: 0.0201
-hauts_seine:
-  description: Hauts-de-seine
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: 0.017
-    '1975-07-01':
-      value: 0.019
-    '1979-01-01':
-      value: 0.02
-    '1989-01-01':
-      value: 0.022
-    '1991-07-19':
-      value: 0.024
-    '1993-01-01':
-      value: 0.022
-    '1996-01-01':
-      value: 0.025
-    '2004-01-01':
-      value: 0.026
-    '2013-01-01':
-      value: 0.027
-    '2015-07-01':
-      value: 0.0285
-    '2017-01-01':
-      value: 0.0295
-lyon:
-  description: Lyon
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: null
-    '1974-01-01':
-      value: 0.0075
-    '1975-08-01':
-      value: 0.0125
-    '1977-01-01':
-      value: 0.015
-    '1989-09-01':
-      value: 0.0175
-    '1993-04-01':
-      value: 0.015
-    '1994-01-01':
-      value: 0.0163
-    '2003-01-01':
-      value: 0.0175
-    '2016-01-01':
-      value: 0.0185
-marseille:
-  description: Marseille
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: null
-    '1974-01-01':
-      value: 0.015
-    '1989-01-01':
-      value: 0.0175
-    '2001-01-01':
-      value: 0.018
-    '2011-01-01':
-      value: 0.02
+    order:
+    - tout_salaire
 metadata:
-  date_parution_jo:
-    '1971-09-01': 13/07/1971 31/08/1971
-    '1974-01-01': 12/07/1973 30/01/1974
-    '1975-01-01': '1974-11-08'
-    '1975-07-01': '1975-06-29'
-    '1975-08-01': '1975-07-06'
-    '1989-01-01': '1988-12-30'
-    '1991-07-19': '1991-07-19'
-    '1993-01-01': '1992-12-31'
-    '1993-04-01': '1992-12-31'
-    '1996-01-01': '1995-12-31'
-    '1996-02-01': '1996-01-11'
-    '2004-01-01': '31/12/2003
-
-      01/01/2004'
-    '2013-01-01': '2012-12-30'
-    '2017-01-01': '2016-12-30'
-    '2018-01-01': '2017-12-31'
-  notes:
-    '1971-09-01': Le VT est instauré uniquement pour Paris, le 92 et le 94.
-    '1974-01-01': La loi 73-640 autorise les communes de plus de 300 000 habitants
-      à instaurer un VT, dont le taux (au maximum de 1,5%) sera fixé par décret.
-    '1975-01-01': Le décret 74-933 abaisse le seuil à 10 000 habitants.
-    '1993-04-01': Déplafonnement du versement transport
-    '2013-07-01': Evolution progressive en Essonne et Val d'Oise (objectif de 1,80%
-      en juillet 2015)
   order:
   - taux_maximal_hors_ile_france
   - paris
@@ -150,197 +31,316 @@ metadata:
   - toulouse
   - bourg_en_bresse
   reference:
-    '1971-09-01': Loi 71-559 du 12/07/1971; Décret 71-710 du 30/08/1971
-    '1974-01-01': Loi 73-640 du 11/07/1973, art. 1; décret 74-66 du 29/01/1974
-    '1975-01-01': Décret 74-933 du 07/11/1974
-    '1975-07-01': Décret 75-533 du 27/06/1975
-    '1975-08-01': Loi 75-580 du 5/07/1975; Décret 75-784 du 22/08/1975
-    '1977-01-01': Référence manquante
-    '1979-01-01': Référence manquante
-    '1983-07-01': Référence manquante
-    '1986-04-01': Référence manquante
-    '1989-01-01': Loi 88-1193 du 29/12/1988 - art. 45
-    '1989-09-01': Référence manquante
-    '1991-04-01': Référence manquante
-    '1991-07-19': Loi 91-662 du 13/07/1991 - art. 36
-    '1993-01-01': Loi 92-1376 du 30/12/1992 (LF pour 1993), art. 115
-    '1993-04-01': Loi 92-1376 du 30/12/1992, art. 115
-    '1994-01-01': Référence manquante
-    '1996-01-01': Loi 95-1346 - art. 96 du 30/12/1995
-    '1996-02-01': Décret 96-17 du 10/01/1996
-    '2001-01-01': Référence manquante
-    '2001-07-01': Référence manquante
-    '2003-01-01': Lettre circulaire URSSAF 2002-218
-    '2004-01-01': "Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132 ; \nDécret\
-      \ 2003-1385 du 31/12/2003"
-    '2004-07-01': Lettre circulaire URSSAF 2004-102
-    '2007-01-01': Lettre circulaire URSSAF 2006-106
-    '2008-01-01': Référence manquante
-    '2011-01-01': Référence manquante
-    '2011-07-01': Lettre circulaire ACOSS 2011-0000075
-    '2013-01-01': Loi 2012-1509 du 29/12/2012 - art. 84
-    '2013-07-01': Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
-    '2015-07-01': Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
-    '2016-01-01': Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
-    '2017-01-01': Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 91
-    '2017-07-01': Lettre circulaire ACOSS 2016­0000014 du 24/05/2016
     '2018-01-01': Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 99
+    '2017-07-01': Lettre circulaire ACOSS 2016­0000014 du 24/05/2016
+    '2017-01-01': Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 91
+    '2016-01-01': Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
+    '2015-07-01': Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
+    '2013-07-01': Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
+    '2013-01-01': Loi 2012-1509 du 29/12/2012 - art. 84
+    '2011-07-01': Lettre circulaire ACOSS 2011-0000075
+    '2011-01-01': Référence manquante
+    '2008-01-01': Référence manquante
+    '2007-01-01': Lettre circulaire URSSAF 2006-106
+    '2004-07-01': Lettre circulaire URSSAF 2004-102
+    '2004-01-01': |-
+      Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132 ; 
+      Décret 2003-1385 du 31/12/2003
+    '2003-01-01': Lettre circulaire URSSAF 2002-218
+    '2001-07-01': Référence manquante
+    '2001-01-01': Référence manquante
+    '1996-02-01': Décret 96-17 du 10/01/1996
+    '1996-01-01': Loi 95-1346 - art. 96 du 30/12/1995
+    '1994-01-01': Référence manquante
+    '1993-04-01': Loi 92-1376 du 30/12/1992, art. 115
+    '1993-01-01': Loi 92-1376 du 30/12/1992 (LF pour 1993), art. 115
+    '1991-07-19': Loi 91-662 du 13/07/1991 - art. 36
+    '1991-04-01': Référence manquante
+    '1989-09-01': Référence manquante
+    '1989-01-01': Loi 88-1193 du 29/12/1988 - art. 45
+    '1986-04-01': Référence manquante
+    '1983-07-01': Référence manquante
+    '1979-01-01': Référence manquante
+    '1977-01-01': Référence manquante
+    '1975-08-01': Loi 75-580 du 5/07/1975; Décret 75-784 du 22/08/1975
+    '1975-07-01': Décret 75-533 du 27/06/1975
+    '1975-01-01': Décret 74-933 du 07/11/1974
+    '1974-01-01': Loi 73-640 du 11/07/1973, art. 1; décret 74-66 du 29/01/1974
+    '1971-09-01': Loi 71-559 du 12/07/1971; Décret 71-710 du 30/08/1971
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+    '2017-01-01': '2016-12-30'
+    '2013-01-01': '2012-12-30'
+    '2004-01-01': |-
+      31/12/2003
+      01/01/2004
+    '1996-02-01': '1996-01-11'
+    '1996-01-01': '1995-12-31'
+    '1993-04-01': '1992-12-31'
+    '1993-01-01': '1992-12-31'
+    '1991-07-19': '1991-07-19'
+    '1989-01-01': '1988-12-30'
+    '1975-08-01': '1975-07-06'
+    '1975-07-01': '1975-06-29'
+    '1975-01-01': '1974-11-08'
+    '1974-01-01': 12/07/1973 30/01/1974
+    '1971-09-01': 13/07/1971 31/08/1971
+  notes:
+    '2013-07-01': Evolution progressive en Essonne et Val d'Oise (objectif de 1,80%
+      en juillet 2015)
+    '1993-04-01': Déplafonnement du versement transport
+    '1975-01-01': Le décret 74-933 abaisse le seuil à 10 000 habitants.
+    '1974-01-01': La loi 73-640 autorise les communes de plus de 300 000 habitants
+      à instaurer un VT, dont le taux (au maximum de 1,5%) sera fixé par décret.
+    '1971-09-01': Le VT est instauré uniquement pour Paris, le 92 et le 94.
 paris:
   description: Paris
-  metadata:
-    unit: /1
   values:
-    '1971-09-01':
-      value: 0.017
-    '1975-07-01':
-      value: 0.019
-    '1979-01-01':
-      value: 0.02
-    '1989-01-01':
+    '2017-01-01':
+      value: 0.0295
+    '2015-07-01':
+      value: 0.0285
+    '2013-01-01':
+      value: 0.027
+    '2004-01-01':
+      value: 0.026
+    '1996-01-01':
+      value: 0.025
+    '1993-01-01':
       value: 0.022
     '1991-07-19':
       value: 0.024
-    '1993-01-01':
+    '1989-01-01':
       value: 0.022
-    '1996-01-01':
-      value: 0.025
-    '2004-01-01':
-      value: 0.026
-    '2013-01-01':
-      value: 0.027
-    '2015-07-01':
-      value: 0.0285
-    '2017-01-01':
-      value: 0.0295
-seine_saint_denis:
-  description: Seine-Saint-Denis
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: 0.017
+    '1979-01-01':
+      value: 0.02
     '1975-07-01':
       value: 0.019
-    '1979-01-01':
-      value: 0.02
-    '1989-01-01':
-      value: 0.018
-    '1993-01-01':
-      value: 0.016
-    '2004-01-01':
+    '1971-09-01':
       value: 0.017
-    '2013-01-01':
-      value: 0.018
+  metadata:
+    unit: /1
+essonne:
+  description: Essonne
+  values:
+    '2017-01-01':
+      value: 0.0201
     '2015-07-01':
       value: 0.0191
-    '2017-01-01':
-      value: 0.0212
-    '2018-01-01':
-      value: 0.0233
-taux_maximal_hors_ile_france:
-  description: Taux maximal (hors Ile-de-France)
-  metadata:
-    order:
-    - sous_pss
-    - tout_salaire
-  sous_pss:
-    description: Sous PSS
-    metadata:
-      unit: /1
-    values:
-      '1971-09-01':
-        value: null
-      '1974-01-01':
-        value: 0.015
-      '1989-09-01':
-        value: 0.0175
-      '1993-04-01':
-        value: null
-  tout_salaire:
-    description: Tout salaire
-    metadata:
-      unit: /1
-    values:
-      '1971-09-01':
-        value: null
-      '1993-04-01':
-        value: 0.015
-      '1994-01-01':
-        value: 0.0163
-      '2003-01-01':
-        value: 0.0175
-toulouse:
-  description: Toulouse
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: null
-    '1974-01-01':
-      value: 0.0091
-    '1975-01-01':
-      value: 0.01
-    '1986-04-01':
-      value: 0.015
-    '1991-04-01':
-      value: 0.0175
-    '2007-01-01':
-      value: 0.018
-    '2011-07-01':
-      value: 0.02
-val_marne:
-  description: Val-de-Marne
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
+    '2014-07-01':
       value: 0.017
-    '1975-07-01':
-      value: 0.019
-    '1979-01-01':
-      value: 0.02
-    '1989-01-01':
-      value: 0.018
-    '1993-01-01':
+    '2013-07-01':
       value: 0.016
-    '2004-01-01':
-      value: 0.017
     '2013-01-01':
-      value: 0.018
-    '2015-07-01':
-      value: 0.0191
-    '2017-01-01':
-      value: 0.0212
-    '2018-01-01':
-      value: 0.0233
-val_oise:
-  description: Val-d'Oise
-  metadata:
-    unit: /1
-  values:
-    '1971-09-01':
-      value: null
-    '1975-08-01':
-      value: 0.01
-    '1979-01-01':
-      value: 0.012
-    '1989-01-01':
       value: 0.015
-    '1993-01-01':
+    '2004-01-01':
+      value: 0.014
+    '2001-01-01':
       value: 0.013
     '1996-02-01':
       value: 0.01
-    '2001-01-01':
+    '1993-01-01':
       value: 0.013
-    '2004-01-01':
-      value: 0.014
-    '2013-01-01':
+    '1989-01-01':
       value: 0.015
-    '2013-07-01':
-      value: 0.016
-    '2014-07-01':
+    '1979-01-01':
+      value: 0.012
+    '1975-08-01':
+      value: 0.01
+    '1971-09-01':
+      value: null
+  metadata:
+    unit: /1
+hauts_seine:
+  description: Hauts-de-seine
+  values:
+    '2017-01-01':
+      value: 0.0295
+    '2015-07-01':
+      value: 0.0285
+    '2013-01-01':
+      value: 0.027
+    '2004-01-01':
+      value: 0.026
+    '1996-01-01':
+      value: 0.025
+    '1993-01-01':
+      value: 0.022
+    '1991-07-19':
+      value: 0.024
+    '1989-01-01':
+      value: 0.022
+    '1979-01-01':
+      value: 0.02
+    '1975-07-01':
+      value: 0.019
+    '1971-09-01':
       value: 0.017
+  metadata:
+    unit: /1
+seine_saint_denis:
+  description: Seine-Saint-Denis
+  values:
+    '2018-01-01':
+      value: 0.0233
+    '2017-01-01':
+      value: 0.0212
     '2015-07-01':
       value: 0.0191
+    '2013-01-01':
+      value: 0.018
+    '2004-01-01':
+      value: 0.017
+    '1993-01-01':
+      value: 0.016
+    '1989-01-01':
+      value: 0.018
+    '1979-01-01':
+      value: 0.02
+    '1975-07-01':
+      value: 0.019
+    '1971-09-01':
+      value: 0.017
+  metadata:
+    unit: /1
+val_marne:
+  description: Val-de-Marne
+  values:
+    '2018-01-01':
+      value: 0.0233
+    '2017-01-01':
+      value: 0.0212
+    '2015-07-01':
+      value: 0.0191
+    '2013-01-01':
+      value: 0.018
+    '2004-01-01':
+      value: 0.017
+    '1993-01-01':
+      value: 0.016
+    '1989-01-01':
+      value: 0.018
+    '1979-01-01':
+      value: 0.02
+    '1975-07-01':
+      value: 0.019
+    '1971-09-01':
+      value: 0.017
+  metadata:
+    unit: /1
+val_oise:
+  description: Val-d'Oise
+  values:
     '2017-01-01':
       value: 0.0201
+    '2015-07-01':
+      value: 0.0191
+    '2014-07-01':
+      value: 0.017
+    '2013-07-01':
+      value: 0.016
+    '2013-01-01':
+      value: 0.015
+    '2004-01-01':
+      value: 0.014
+    '2001-01-01':
+      value: 0.013
+    '1996-02-01':
+      value: 0.01
+    '1993-01-01':
+      value: 0.013
+    '1989-01-01':
+      value: 0.015
+    '1979-01-01':
+      value: 0.012
+    '1975-08-01':
+      value: 0.01
+    '1971-09-01':
+      value: null
+  metadata:
+    unit: /1
+lyon:
+  description: Lyon
+  values:
+    '2016-01-01':
+      value: 0.0185
+    '2003-01-01':
+      value: 0.0175
+    '1994-01-01':
+      value: 0.0163
+    '1993-04-01':
+      value: 0.015
+    '1989-09-01':
+      value: 0.0175
+    '1977-01-01':
+      value: 0.015
+    '1975-08-01':
+      value: 0.0125
+    '1974-01-01':
+      value: 0.0075
+    '1971-09-01':
+      value: null
+  metadata:
+    unit: /1
+marseille:
+  description: Marseille
+  values:
+    '2011-01-01':
+      value: 0.02
+    '2001-01-01':
+      value: 0.018
+    '1989-01-01':
+      value: 0.0175
+    '1974-01-01':
+      value: 0.015
+    '1971-09-01':
+      value: null
+  metadata:
+    unit: /1
+toulouse:
+  description: Toulouse
+  values:
+    '2011-07-01':
+      value: 0.02
+    '2007-01-01':
+      value: 0.018
+    '1991-04-01':
+      value: 0.0175
+    '1986-04-01':
+      value: 0.015
+    '1975-01-01':
+      value: 0.01
+    '1974-01-01':
+      value: 0.0091
+    '1971-09-01':
+      value: null
+  metadata:
+    unit: /1
+bourg_en_bresse:
+  description: Bourg-en-Bresse
+  values:
+    '2017-07-01':
+      value: 0.008
+    '2011-07-01':
+      value: 0.0075
+    '2004-07-01':
+      value: 0.006
+    '1983-07-01':
+      value: 0.005
+    '1971-09-01':
+      value: null
+  metadata:
+    unit: /1
+documentation: |
+  Notes :
+  (i) Le versement transport est recouvré par les URSSAF comme les cotisations de Sécurité sociale, et reversé aux collectivités locales.
+  (ii) Sont assujettis les employeurs de plus de 9 salariés en région parisienne et de certaines agglomérations
+  (iii) Le taux du versement transport varie avec la localisation géographique de l'entreprise. Nous n'avons reporté ici que les taux pour certaines grandes agglomérations ou régions.
+  En région parisienne, le taux diffère entre Paris, une zone 2 et une zone 3. 
+  (iv) Le taux maximal reporté dans les deux premières colonnes ne s'applique pas pour l'Ile de France. A l'heure actuelle, il varie avec la taille de la commune (voir art. L2333-67 du code général des collectivités locales).
+  Celui que nous avons reporté correspond au taux maximal applicable aux agglomérations de plus de 100 000 habitants.
+  (v) La loi 82-684 du 04/08/1982 (JO du 05/08/1982) a abaissé le seuil d'assujettissement de 100 000 à 30 000 habitants. Il est aujourd'hui  de 10 000 habitants.
+  Assiette :
+  Elle est identique à l'assiette des cotisations sociales (Loi 73-640 du 11/07/1973, art. 2).
+  Source :
+  http://www.efl.fr/en-direct/indices_taux/social/salaire/versement_transport.html

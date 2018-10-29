@@ -1,78 +1,17 @@
-'1953_01_01_00_00_00':
-  description: '1953-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2012-01-01':
-      value: 165.0
-'1955_01_01_00_00_00':
-  description: '1955-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2013-01-01':
-      value: 166.0
-'1958_01_01_00_00_00':
-  description: '1958-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2015-01-01':
-      value: 167.0
-'1961_01_01_00_00_00':
-  description: '1961-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2015-01-01':
-      value: 168.0
-'1964_01_01_00_00_00':
-  description: '1964-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2015-01-01':
-      value: 169.0
-'1967_01_01_00_00_00':
-  description: '1967-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2015-01-01':
-      value: 170.0
-'1970_01_01_00_00_00':
-  description: '1970-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2015-01-01':
-      value: 171.0
-'1973_01_01_00_00_00':
-  description: '1973-01-01 00:00:00'
-  values:
-    '1983-01-01':
-      value: null
-    '2015-01-01':
-      value: 172.0
 description: Durée d'assurance cible pour le taux plein
+nombre_trimestres_cibles_par_generation:
+  description: Nombre de trimestres cibles par génération
+  '1952_01_01_00_00_00':
+    description: '1952-01-01 00:00:00'
+    values:
+      '2009-01-01':
+        value: 164.0
+      '1983-01-01':
+        value: null
+  metadata:
+    order:
+    - '1952_01_01_00_00_00'
 metadata:
-  date_parution_jo:
-    '1983-01-01': '1982-07-23'
-    '2012-01-01': 10/11/2010 ; 31/12/2010
-    '2013-01-01': '2012-12-29'
-    '2015-01-01': '2014-01-21'
-  notes:
-    '1983-01-01': Voir également la circulaire n°22/83 du 16/02/1983 relative à l'application
-      dans le régime général de la sécurité sociale des ordonnances n° 82-270  du
-      26/03/1982 et n° 82-290 du 30/03/1982 et du décret n°82-628 du 21/07/1982
-    '1994-01-01': Article L351-1 du code de la sécurité sociale
-    '2012-01-01': Circulaire CNAV 2011/20 du 01/03/2011 transcrivant l'application
-      de l'art. 17 de la loi 2010-1330 du 09/11/2010.
-    '2013-01-01': Circulaire CNAV 2013-14 du 25/02/2013 pour les modalités de mise
-      en application du décret 2012-1487.
-    '2015-01-01': Circulaire CNAV 2014-20 du 27/02/2014 de mise en application de
-      l’article 2 de la loi du 20/01/2014 revient sur cette procédure et définit par
-      une disposition législative, en insérant l’article L. 161-17-3 CSS
   order:
   - nombre_trimestres_cibles_par_generation
   - '1953_01_01_00_00_00'
@@ -84,132 +23,87 @@ metadata:
   - '1970_01_01_00_00_00'
   - '1973_01_01_00_00_00'
   reference:
-    '1983-01-01': Décret 82-628 du 21/07/1982
-    '1994-01-01': Circulaire CNAV 103/93 du 30/12/1993
-    '2009-01-01': Circulaire CNAV 2008/41 du 25/07/2008
+    '2015-01-01': Loi 2014-40 du 20/01/2014, art. 2
+    '2013-01-01': Décret 2012-1487 du 27/12/2012
     '2012-01-01': Loi 2010-1330 du 9/11/2010, art. 17 ; Décret 2010-1734 du 30/12/2010,
       art. 9
-    '2013-01-01': Décret 2012-1487 du 27/12/2012
-    '2015-01-01': Loi 2014-40 du 20/01/2014, art. 2
-nombre_trimestres_cibles_par_generation:
-  '1934_01_01_00_00_00':
-    description: '1934-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 151.0
-  '1935_01_01_00_00_00':
-    description: '1935-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 152.0
-  '1936_01_01_00_00_00':
-    description: '1936-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 153.0
-  '1937_01_01_00_00_00':
-    description: '1937-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 154.0
-  '1938_01_01_00_00_00':
-    description: '1938-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 155.0
-  '1939_01_01_00_00_00':
-    description: '1939-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 156.0
-  '1940_01_01_00_00_00':
-    description: '1940-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 157.0
-  '1941_01_01_00_00_00':
-    description: '1941-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 158.0
-  '1942_01_01_00_00_00':
-    description: '1942-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 159.0
-  '1943_01_01_00_00_00':
-    description: '1943-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '1994-01-01':
-        value: 160.0
-  '1949_01_01_00_00_00':
-    description: '1949-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '2009-01-01':
-        value: 161.0
-  '1950_01_01_00_00_00':
-    description: '1950-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '2009-01-01':
-        value: 162.0
-  '1951_01_01_00_00_00':
-    description: '1951-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '2009-01-01':
-        value: 163.0
-  '1952_01_01_00_00_00':
-    description: '1952-01-01 00:00:00'
-    values:
-      '1983-01-01':
-        value: null
-      '2009-01-01':
-        value: 164.0
-  avant_1934:
-    description: Avant 1934
-    values:
-      '1983-01-01':
-        value: 150.0
-  description: Nombre de trimestres cibles par génération
-  metadata:
-    order:
-    - avant_1934
-    - '1934_01_01_00_00_00'
-    - '1935_01_01_00_00_00'
-    - '1936_01_01_00_00_00'
-    - '1937_01_01_00_00_00'
-    - '1938_01_01_00_00_00'
-    - '1939_01_01_00_00_00'
-    - '1940_01_01_00_00_00'
-    - '1941_01_01_00_00_00'
-    - '1942_01_01_00_00_00'
-    - '1943_01_01_00_00_00'
-    - '1949_01_01_00_00_00'
-    - '1950_01_01_00_00_00'
-    - '1951_01_01_00_00_00'
-    - '1952_01_01_00_00_00'
+    '2009-01-01': Circulaire CNAV 2008/41 du 25/07/2008
+    '1994-01-01': Circulaire CNAV 103/93 du 30/12/1993
+    '1983-01-01': Décret 82-628 du 21/07/1982
+  date_parution_jo:
+    '2015-01-01': '2014-01-21'
+    '2013-01-01': '2012-12-29'
+    '2012-01-01': 10/11/2010 ; 31/12/2010
+    '1983-01-01': '1982-07-23'
+  notes:
+    '2015-01-01': Circulaire CNAV 2014-20 du 27/02/2014 de mise en application de
+      l’article 2 de la loi du 20/01/2014 revient sur cette procédure et définit par
+      une disposition législative, en insérant l’article L. 161-17-3 CSS
+    '2013-01-01': Circulaire CNAV 2013-14 du 25/02/2013 pour les modalités de mise
+      en application du décret 2012-1487.
+    '2012-01-01': Circulaire CNAV 2011/20 du 01/03/2011 transcrivant l'application
+      de l'art. 17 de la loi 2010-1330 du 09/11/2010.
+    '1994-01-01': Article L351-1 du code de la sécurité sociale
+    '1983-01-01': Voir également la circulaire n°22/83 du 16/02/1983 relative à l'application
+      dans le régime général de la sécurité sociale des ordonnances n° 82-270  du
+      26/03/1982 et n° 82-290 du 30/03/1982 et du décret n°82-628 du 21/07/1982
+'1953_01_01_00_00_00':
+  description: '1953-01-01 00:00:00'
+  values:
+    '2012-01-01':
+      value: 165.0
+    '1983-01-01':
+      value: null
+'1955_01_01_00_00_00':
+  description: '1955-01-01 00:00:00'
+  values:
+    '2013-01-01':
+      value: 166.0
+    '1983-01-01':
+      value: null
+'1958_01_01_00_00_00':
+  description: '1958-01-01 00:00:00'
+  values:
+    '2015-01-01':
+      value: 167.0
+    '1983-01-01':
+      value: null
+'1961_01_01_00_00_00':
+  description: '1961-01-01 00:00:00'
+  values:
+    '2015-01-01':
+      value: 168.0
+    '1983-01-01':
+      value: null
+'1964_01_01_00_00_00':
+  description: '1964-01-01 00:00:00'
+  values:
+    '2015-01-01':
+      value: 169.0
+    '1983-01-01':
+      value: null
+'1967_01_01_00_00_00':
+  description: '1967-01-01 00:00:00'
+  values:
+    '2015-01-01':
+      value: 170.0
+    '1983-01-01':
+      value: null
+'1970_01_01_00_00_00':
+  description: '1970-01-01 00:00:00'
+  values:
+    '2015-01-01':
+      value: 171.0
+    '1983-01-01':
+      value: null
+'1973_01_01_00_00_00':
+  description: '1973-01-01 00:00:00'
+  values:
+    '2015-01-01':
+      value: 172.0
+    '1983-01-01':
+      value: null
+documentation: |
+  Lecture :
+  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.

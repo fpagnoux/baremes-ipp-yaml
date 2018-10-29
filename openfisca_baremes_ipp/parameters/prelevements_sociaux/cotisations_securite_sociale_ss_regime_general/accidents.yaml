@@ -2,69 +2,84 @@ description: Cotisations SS accidents du travail-maladies professionnelles (AT-M
   taux bureaux
 employeur_sous_pss:
   description: Employeur sous PSS
-  metadata:
-    unit: /1
   values:
-    '1976-01-01':
-      value: 0.017
-    '1979-01-01':
-      value: 0.018
-    '1983-01-01':
-      value: 0.017
-    '1984-01-01':
-      value: 0.018
-    '1985-01-01':
+    '1991-01-01':
+      value: null
+    '1989-01-01':
       value: 0.017
     '1986-01-01':
       value: 0.018
-    '1989-01-01':
+    '1985-01-01':
       value: 0.017
-    '1991-01-01':
-      value: null
-employeur_tout_salaire:
-  description: Employeur tout salaire
+    '1984-01-01':
+      value: 0.018
+    '1983-01-01':
+      value: 0.017
+    '1979-01-01':
+      value: 0.018
+    '1976-01-01':
+      value: 0.017
   metadata:
     unit: /1
-  values:
-    '1976-01-01':
-      value: null
-    '1991-01-01':
-      value: 0.013
-    '1992-01-01':
-      value: 0.012
-    '1993-01-01':
-      value: 0.01
-    '2008-01-01':
-      value: 0.011
-    '2016-01-01':
-      value: 0.01
-    '2018-01-01':
-      value: 0.009
 metadata:
-  date_parution_jo:
-    '1976-01-01': '1976-10-10'
-    '1991-01-01': '1990-01-25'
-    '2008-01-01': '2008-12-27'
-    '2016-01-01': '2015-12-22'
-    '2018-01-01': '2017-12-31'
-  notes:
-    '1977-01-01': Référence manquante
-    '1979-01-01': Référence manquante
-    '1983-01-01': Référence manquante
-    '1984-01-01': Référence manquante
-    '1985-01-01': Référence manquante
-    '1986-01-01': Référence manquante
-    '1989-01-01': Référence manquante
-    '1991-01-01': Cotisation déplafonnée avec réduction des taux.
-    '1992-01-01': Référence manquante
-    '1993-01-01': Référence manquante
-    '2008-01-01': La date du passage du taux de 1,0 à 1,1% doit être vérifiée.
   order:
   - employeur_sous_pss
   - employeur_tout_salaire
   reference:
-    '1976-01-01': Arrêté du 01/10/1976
-    '1991-01-01': Loi 90-86 du 23/01/1990, art. 1
-    '2008-01-01': Arrêté du 22/12/2008 du Min. des affaires sociales et de la santé
-    '2016-01-01': Arrêté du 21/12/2015
     '2018-01-01': Arrêté du 30/12/2017
+    '2016-01-01': Arrêté du 21/12/2015
+    '2008-01-01': Arrêté du 22/12/2008 du Min. des affaires sociales et de la santé
+    '1991-01-01': Loi 90-86 du 23/01/1990, art. 1
+    '1976-01-01': Arrêté du 01/10/1976
+  date_parution_jo:
+    '2018-01-01': '2017-12-31'
+    '2016-01-01': '2015-12-22'
+    '2008-01-01': '2008-12-27'
+    '1991-01-01': '1990-01-25'
+    '1976-01-01': '1976-10-10'
+  notes:
+    '2008-01-01': La date du passage du taux de 1,0 à 1,1% doit être vérifiée.
+    '1993-01-01': Référence manquante
+    '1992-01-01': Référence manquante
+    '1991-01-01': Cotisation déplafonnée avec réduction des taux.
+    '1989-01-01': Référence manquante
+    '1986-01-01': Référence manquante
+    '1985-01-01': Référence manquante
+    '1984-01-01': Référence manquante
+    '1983-01-01': Référence manquante
+    '1979-01-01': Référence manquante
+    '1977-01-01': Référence manquante
+employeur_tout_salaire:
+  description: Employeur tout salaire
+  values:
+    '2018-01-01':
+      value: 0.009
+    '2016-01-01':
+      value: 0.01
+    '2008-01-01':
+      value: 0.011
+    '1993-01-01':
+      value: 0.01
+    '1992-01-01':
+      value: 0.012
+    '1991-01-01':
+      value: 0.013
+    '1976-01-01':
+      value: null
+  metadata:
+    unit: /1
+documentation: |
+  Notes sur la tarification AT-MP :
+  La tarification des risques accidents du travail et maladies professionnelles (AT-MP) est complexe: il existe un taux propre à chaque entreprise, variant avec la taille et les risques d'AT-MP de l'entreprise.
+  Les taux ici sont ceux des bureaux indépendants et sièges sociaux; ils sont considérés comme des établissements distincts et sont par suite justiciables des règles générales de tarification.
+  Les règles de tarification en matière d'AT-MP étaient initialement fixées par l'arrêté du 01/10/1976.
+  Le décret 85-1353 du 17/12/1985 (JO du 21/12/1985) a créé l'article L242-5 du CSS qui régit les dispositions relatives à la cotisation due au titre des AT-MP.
+  L'art. L242-5 du CSS prévoit que les règles de calcul des taux soient fixées par arrêté ministériel (jusqu'en 1994)
+  puis par décret (depuis la Loi 94-637 du 25/07/1994, art. 10 (JO du 27/07/1994)).
+  Depuis le 01/01/2012, une nouvelle tarification des taux AT-MP a été instaurée.
+  La tarification dépend notamment de la taille de l'entreprise: 
+  Moins de 20 salariés: tarification collective
+  Entre 20 et 149 salariés: tarification mixte
+  Plus de 149 salariés: tarification individuelle réelle
+  Voir la nomenclature des risques établie par l'arrêté du 17/10/1995 et modifiée par les arrêtés successifs.
+  Le taux applicable à chaque entreprise une année donnée est notifié par la CNAM-TS de la région (ou la CRAM pour les entreprises situées en Ile-de-France).

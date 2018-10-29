@@ -1,157 +1,36 @@
-10_000hl_petites_brasseries_50_000hl_eur_degre_hl:
-  description: 10 000hl < petites brasseries < 50 000hl (€/degré/hl)
-  metadata:
-    unit: currency-EUR
-  values:
-    '1979-07-01':
-      value: null
-    '2006-01-01':
-      value: 1.56
-    '2009-04-10':
-      value: 1.58
-    '2010-05-01':
-      value: 1.62
-    '2012-01-01':
-      value: 1.64
-    '2013-01-01':
-      value: 3.6
-    '2014-01-01':
-      value: 3.66
-    '2015-10-09':
-      value: 3.69
-    '2017-01-01':
-      value: 3.7
-    '2018-01-01':
-      value: 3.71
-50_000hl_petites_brasseries_200_000hl_eur_degre_hl:
-  description: 50 000hl < petites brasseries < 200 000hl (€/degré/hl)
-  metadata:
-    unit: currency-EUR
-  values:
-    '1979-07-01':
-      value: null
-    '2006-01-01':
-      value: 1.95
-    '2009-04-10':
-      value: 1.98
-    '2010-05-01':
-      value: 2.04
-    '2012-01-01':
-      value: 2.07
-    '2013-01-01':
-      value: 3.6
-    '2014-01-01':
-      value: 3.66
-    '2015-10-09':
-      value: 3.69
-    '2017-01-01':
-      value: 3.7
-    '2018-01-01':
-      value: 3.71
+description: Bières
 bieres_moins_28_vol_eur_degre_hl:
   description: Bières moins de 2,8% vol. (€/degré/hl)
-  metadata:
-    unit:
-      '1993-01-01': currency-FRF
-      '2002-03-31': currency-EUR
   values:
-    '1979-07-01':
-      value: null
-    '1993-01-01':
-      value: 6.25
-    '1997-01-01':
-      value: 8.5
-    '2002-03-31':
-      value: 1.3
-    '2009-04-10':
-      value: 1.32
-    '2010-05-01':
-      value: 1.36
-    '2012-01-01':
-      value: 1.38
-    '2013-01-01':
-      value: 3.6
-    '2014-01-01':
-      value: 3.66
-    '2015-10-09':
-      value: 3.69
-    '2017-01-01':
-      value: 3.7
     '2018-01-01':
       value: 3.71
-bieres_moins_46_vol_recipient_entre_65cl_1l:
-  description: Bières moins de 4,6% vol ou récipient entre 65cL et 1L
-  metadata:
-    unit: currency-FRF
-  values:
-    '1979-07-01':
-      value: 4.5
-    '1981-02-01':
-      value: 13.6
-    '1982-01-01':
-      value: 11.0
+    '2017-01-01':
+      value: 3.7
+    '2015-10-09':
+      value: 3.69
+    '2014-01-01':
+      value: 3.66
+    '2013-01-01':
+      value: 3.6
+    '2012-01-01':
+      value: 1.38
+    '2010-05-01':
+      value: 1.36
+    '2009-04-10':
+      value: 1.32
+    '2002-03-31':
+      value: 1.3
+    '1997-01-01':
+      value: 8.5
     '1993-01-01':
-      value: null
-bieres_non_comprises_dans_mention_precedente:
-  description: Bières non comprises dans la mention précédente
-  metadata:
-    unit: currency-FRF
-  values:
+      value: 6.25
     '1979-07-01':
-      value: 8.0
-    '1981-02-01':
-      value: 24.0
-    '1982-01-01':
-      value: 19.5
-    '1993-01-01':
       value: null
-bieres_plus_28_vol_eur_degre_hl:
-  description: Bières plus de 2,8% vol. (€/degré/hl)
   metadata:
     unit:
-      '1993-01-01': currency-FRF
       '2002-03-31': currency-EUR
-  values:
-    '1979-07-01':
-      value: null
-    '1993-01-01':
-      value: 12.5
-    '1997-01-01':
-      value: 17.0
-    '2002-03-31':
-      value: 2.6
-    '2009-04-10':
-      value: 2.64
-    '2010-05-01':
-      value: 2.71
-    '2012-01-01':
-      value: 2.75
-    '2013-01-01':
-      value: 7.2
-    '2014-01-01':
-      value: 7.33
-    '2015-10-09':
-      value: 7.38
-    '2017-01-01':
-      value: 7.41
-    '2018-01-01':
-      value: 7.42
-description: Bières
+      '1993-01-01': currency-FRF
 metadata:
-  date_parution_jo:
-    '1981-02-01': '1980-12-31'
-    '1982-01-01': '1981-12-31'
-    '1993-01-01': '1992-12-31'
-    '1997-01-01': '1996-12-29'
-    '2002-03-31': '2000-09-22'
-    '2009-04-10': '2009-04-09'
-    '2010-05-01': '2010-04-30'
-    '2012-01-01': '2012-05-06'
-    '2013-01-01': '2012-12-18'
-    '2014-01-01': '2014-05-29'
-    '2015-10-09': '2015-10-08'
-    '2017-01-01': '2016-12-31'
-    '2018-01-01': '2017-12-27'
   order:
   - bieres_moins_28_vol_eur_degre_hl
   - bieres_plus_28_vol_eur_degre_hl
@@ -161,41 +40,165 @@ metadata:
   - 10_000hl_petites_brasseries_50_000hl_eur_degre_hl
   - 50_000hl_petites_brasseries_200_000hl_eur_degre_hl
   reference:
-    '1981-02-01': Loi 80-1094 du 30/12/1980 (LF pour 1981)
-    '1982-01-01': Loi 81-1160 du 30/12/1981 (LF pour 1982)
-    '1993-01-01': Loi 92-1376 du 30/12/1992 (LF pour 1993)
-    '1997-01-01': Loi no 96-1160 du 27/12/1996 (LFSS pour 1997)
-    '2002-03-31': Ordonnance 2000-916 du 19/09/2000
-    '2009-04-10': Décret 2009-389 du 7/04/2009
-    '2010-05-01': Décret 2010-421 du 27/04/2010
-    '2012-01-01': Décret 2012-653 du 4/05/2012
-    '2013-01-01': Loi 2012-1404 du 17/12/2012 (LFSS pour 2013)
-    '2014-01-01': Décret 2014-549 du 26/05/2014
-    '2015-10-09': Ordonnance 2015-1247 du 07/10/2015
-    '2017-01-01': Arrêté du 27/12/2016 (tarifS accises alcools 2017)
     '2018-01-01': Arrêté du 22/12/2017 (tarifs accises alcools 2018)
-petites_brasseries_10_000hl_eur_degre_hl:
-  description: Petites brasseries < 10 000hl (€/degré/hl)
-  metadata:
-    unit: currency-EUR
+    '2017-01-01': Arrêté du 27/12/2016 (tarifS accises alcools 2017)
+    '2015-10-09': Ordonnance 2015-1247 du 07/10/2015
+    '2014-01-01': Décret 2014-549 du 26/05/2014
+    '2013-01-01': Loi 2012-1404 du 17/12/2012 (LFSS pour 2013)
+    '2012-01-01': Décret 2012-653 du 4/05/2012
+    '2010-05-01': Décret 2010-421 du 27/04/2010
+    '2009-04-10': Décret 2009-389 du 7/04/2009
+    '2002-03-31': Ordonnance 2000-916 du 19/09/2000
+    '1997-01-01': Loi no 96-1160 du 27/12/1996 (LFSS pour 1997)
+    '1993-01-01': Loi 92-1376 du 30/12/1992 (LF pour 1993)
+    '1982-01-01': Loi 81-1160 du 30/12/1981 (LF pour 1982)
+    '1981-02-01': Loi 80-1094 du 30/12/1980 (LF pour 1981)
+  date_parution_jo:
+    '2018-01-01': '2017-12-27'
+    '2017-01-01': '2016-12-31'
+    '2015-10-09': '2015-10-08'
+    '2014-01-01': '2014-05-29'
+    '2013-01-01': '2012-12-18'
+    '2012-01-01': '2012-05-06'
+    '2010-05-01': '2010-04-30'
+    '2009-04-10': '2009-04-09'
+    '2002-03-31': '2000-09-22'
+    '1997-01-01': '1996-12-29'
+    '1993-01-01': '1992-12-31'
+    '1982-01-01': '1981-12-31'
+    '1981-02-01': '1980-12-31'
+bieres_plus_28_vol_eur_degre_hl:
+  description: Bières plus de 2,8% vol. (€/degré/hl)
   values:
+    '2018-01-01':
+      value: 7.42
+    '2017-01-01':
+      value: 7.41
+    '2015-10-09':
+      value: 7.38
+    '2014-01-01':
+      value: 7.33
+    '2013-01-01':
+      value: 7.2
+    '2012-01-01':
+      value: 2.75
+    '2010-05-01':
+      value: 2.71
+    '2009-04-10':
+      value: 2.64
+    '2002-03-31':
+      value: 2.6
+    '1997-01-01':
+      value: 17.0
+    '1993-01-01':
+      value: 12.5
     '1979-07-01':
       value: null
-    '2006-01-01':
-      value: 1.3
-    '2009-04-10':
-      value: 1.32
-    '2010-05-01':
-      value: 1.36
-    '2012-01-01':
-      value: 1.38
-    '2013-01-01':
-      value: 3.6
-    '2014-01-01':
-      value: 3.66
-    '2015-10-09':
-      value: 3.69
-    '2017-01-01':
-      value: 3.7
+  metadata:
+    unit:
+      '2002-03-31': currency-EUR
+      '1993-01-01': currency-FRF
+bieres_moins_46_vol_recipient_entre_65cl_1l:
+  description: Bières moins de 4,6% vol ou récipient entre 65cL et 1L
+  values:
+    '1993-01-01':
+      value: null
+    '1982-01-01':
+      value: 11.0
+    '1981-02-01':
+      value: 13.6
+    '1979-07-01':
+      value: 4.5
+  metadata:
+    unit: currency-FRF
+bieres_non_comprises_dans_mention_precedente:
+  description: Bières non comprises dans la mention précédente
+  values:
+    '1993-01-01':
+      value: null
+    '1982-01-01':
+      value: 19.5
+    '1981-02-01':
+      value: 24.0
+    '1979-07-01':
+      value: 8.0
+  metadata:
+    unit: currency-FRF
+petites_brasseries_10_000hl_eur_degre_hl:
+  description: Petites brasseries < 10 000hl (€/degré/hl)
+  values:
     '2018-01-01':
       value: 3.71
+    '2017-01-01':
+      value: 3.7
+    '2015-10-09':
+      value: 3.69
+    '2014-01-01':
+      value: 3.66
+    '2013-01-01':
+      value: 3.6
+    '2012-01-01':
+      value: 1.38
+    '2010-05-01':
+      value: 1.36
+    '2009-04-10':
+      value: 1.32
+    '2006-01-01':
+      value: 1.3
+    '1979-07-01':
+      value: null
+  metadata:
+    unit: currency-EUR
+10_000hl_petites_brasseries_50_000hl_eur_degre_hl:
+  description: 10 000hl < petites brasseries < 50 000hl (€/degré/hl)
+  values:
+    '2018-01-01':
+      value: 3.71
+    '2017-01-01':
+      value: 3.7
+    '2015-10-09':
+      value: 3.69
+    '2014-01-01':
+      value: 3.66
+    '2013-01-01':
+      value: 3.6
+    '2012-01-01':
+      value: 1.64
+    '2010-05-01':
+      value: 1.62
+    '2009-04-10':
+      value: 1.58
+    '2006-01-01':
+      value: 1.56
+    '1979-07-01':
+      value: null
+  metadata:
+    unit: currency-EUR
+50_000hl_petites_brasseries_200_000hl_eur_degre_hl:
+  description: 50 000hl < petites brasseries < 200 000hl (€/degré/hl)
+  values:
+    '2018-01-01':
+      value: 3.71
+    '2017-01-01':
+      value: 3.7
+    '2015-10-09':
+      value: 3.69
+    '2014-01-01':
+      value: 3.66
+    '2013-01-01':
+      value: 3.6
+    '2012-01-01':
+      value: 2.07
+    '2010-05-01':
+      value: 2.04
+    '2009-04-10':
+      value: 1.98
+    '2006-01-01':
+      value: 1.95
+    '1979-07-01':
+      value: null
+  metadata:
+    unit: currency-EUR
+documentation: |
+  Notes :
+  Données renseignées dans l'article 520A du code général des impôts

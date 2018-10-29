@@ -1,19 +1,23 @@
 description: 'Surcote FP '
+taux_surcote_par_trimestre:
+  description: Taux de surcote par trimestre
+  values:
+    '2009-01-01':
+      value: 0.0125
+    '2004-01-01':
+      value: 0.0075
+  metadata:
+    unit: /1
 metadata:
-  date_parution_jo:
-    '2004-01-01': '2003-08-22'
-    '2009-01-01': '2008-12-18'
   order:
   - taux_surcote_par_trimestre
   reference:
-    '2004-01-01': Loi 2003-775 du 21/08/2003, art. 51
     '2009-01-01': Loi 2008-1330 du 17/12/2008 (LFSS pour 2009), art. 89
-taux_surcote_par_trimestre:
-  description: Taux de surcote par trimestre
-  metadata:
-    unit: /1
-  values:
-    '2004-01-01':
-      value: 0.0075
-    '2009-01-01':
-      value: 0.0125
+    '2004-01-01': Loi 2003-775 du 21/08/2003, art. 51
+  date_parution_jo:
+    '2009-01-01': '2008-12-18'
+    '2004-01-01': '2003-08-22'
+documentation: |
+  Note :
+  La date d'effet porte sur les pensions liquidées à partir de cette date. 
+  La décote est définie d'après la formule suivante: taux minoré = taux plein * (1 + surcote * (nombre de trimestres de surcote))

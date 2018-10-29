@@ -1,3 +1,5 @@
+description: "Prestation d'accueil du jeune enfant (PAJE) : Prestation partagée d'éducation\
+  \ de l'enfant (PreParE)"
 age_limite:
   description: Age limite
   etre_ne_adopte_apres:
@@ -8,40 +10,7 @@ age_limite:
   metadata:
     order:
     - etre_ne_adopte_apres
-age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1:
-  description: Age maximal du plus jeune enfant pour bénéficier de la PrePare (en
-    année) (1)
-  deux_enfants_plus:
-    description: deux enfants ou plus
-    values:
-      '2015-01-01':
-        value: 3.0
-  enfant:
-    description: Un enfant
-    values:
-      '2015-01-01':
-        value: 1.0
-  metadata:
-    order:
-    - enfant
-    - deux_enfants_plus
-condition_prepare_majoree:
-  description: Condition PreParE majorée
-  metadata:
-    order:
-    - nombre_enfants_charge_minimum
-  nombre_enfants_charge_minimum:
-    description: Nombre d'enfants à charge minimum
-    values:
-      '2015-01-01':
-        value: 3.0
-description: 'Prestation d''accueil du jeune enfant (PAJE) : Prestation partagée d''éducation
-  de l''enfant (PreParE)'
 metadata:
-  date_parution_jo:
-    '2015-01-01': '2014-12-31'
-  notes:
-    '2015-01-01': Pas de modification pour 2017 cf. DSS/SD2B/2017/97 du 21/03/2017
   order:
   - age_limite
   - age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1
@@ -50,45 +19,65 @@ metadata:
   - prepare_majoree_en_bmaf
   reference:
     '2015-01-01': Décret 2014-1708 du 30/12/2014 - art. 1
-prepare_majoree_en_bmaf:
-  description: PreParE majorée (en % de la BMAF)
-  metadata:
-    order:
-    - taux
-  taux:
-    description: Taux
-    metadata:
-      unit: /1
+  date_parution_jo:
+    '2015-01-01': '2014-12-31'
+  notes:
+    '2015-01-01': Pas de modification pour 2017 cf. DSS/SD2B/2017/97 du 21/03/2017
+age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1:
+  description: Age maximal du plus jeune enfant pour bénéficier de la PrePare (en
+    année) (1)
+  deux_enfants_plus:
+    description: deux enfants ou plus
     values:
       '2015-01-01':
-        value: 1.5793
+        value: 3.0
+  metadata:
+    order:
+    - deux_enfants_plus
 prestation_partagee_education_enfant_prepare_en_bmaf:
   description: Prestation partagée d'éducation de l'enfant (PreParE) (en % de la BMAF)
-  metadata:
-    order:
-    - prestation_partagee_education_enfant_prepare
-    - taux_partiel_50
-    - taux_partiel_entre_50_80
-  prestation_partagee_education_enfant_prepare:
-    description: Prestation partagée d'éducation de l'enfant (PreParE)
-    metadata:
-      unit: /1
-    values:
-      '2015-01-01':
-        value: 0.9662
-  taux_partiel_50:
-    description: 'Taux partiel
-
-      < 50%'
-    metadata:
-      unit: /1
-    values:
-      '2015-01-01':
-        value: 0.6246
   taux_partiel_entre_50_80:
     description: Taux partiel entre 50% et 80%
-    metadata:
-      unit: /1
     values:
       '2015-01-01':
         value: 0.3603
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - taux_partiel_entre_50_80
+condition_prepare_majoree:
+  description: Condition PreParE majorée
+  nombre_enfants_charge_minimum:
+    description: Nombre d'enfants à charge minimum
+    values:
+      '2015-01-01':
+        value: 3.0
+  metadata:
+    order:
+    - nombre_enfants_charge_minimum
+prepare_majoree_en_bmaf:
+  description: PreParE majorée (en % de la BMAF)
+  taux:
+    description: Taux
+    values:
+      '2015-01-01':
+        value: 1.5793
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - taux
+documentation: |
+  Notes :
+  (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants. 
+  Aussi, un couple avec plus de trois enfants demandant la PreParE majorée aura une limitiation à 8 mois maximum pour chaque parent
+  (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants. 
+  Aussi, un couple avec plus de trois enfants demandant la PreParE majorée aura une limitiation à 8 mois maximum pour chaque parent
+  (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants. 
+  Aussi, un couple avec plus de trois enfants demandant la PreParE majorée aura une limitiation à 8 mois maximum pour chaque parent
+  (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants. 
+  Aussi, un couple avec plus de trois enfants demandant la PreParE majorée aura une limitiation à 8 mois maximum pour chaque parent
+  (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants. 
+  Aussi, un couple avec plus de trois enfants demandant la PreParE majorée aura une limitiation à 8 mois maximum pour chaque parent
+  (2) La PreParE remplace la CLCA pour les enfants nés ou adoptés à compter du 1er janvier 2015

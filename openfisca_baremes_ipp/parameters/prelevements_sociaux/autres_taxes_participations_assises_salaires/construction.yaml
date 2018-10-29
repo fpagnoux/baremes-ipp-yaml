@@ -1,68 +1,52 @@
 description: Participation des employeurs à l'effort de construction (PEEC)
 employeur_tout_salaire:
-  10_19_salaries:
-    description: De 10 à 19 salariés
-    metadata:
-      unit: /1
-    values:
-      '1953-09-01':
-        value: 0.01
-      '1978-01-01':
-        value: 0.009
-      '1986-01-01':
-        value: 0.0077
-      '1988-01-01':
-        value: 0.0072
-      '1989-01-01':
-        value: 0.0065
-      '1991-01-01':
-        value: 0.0055
-      '1992-01-01':
-        value: 0.0045
-      '2005-01-01':
-        value: null
   description: Employeur sur tout salaire
-  metadata:
-    order:
-    - 10_19_salaries
-    - plus_20_salaries
   plus_20_salaries:
     description: Plus de 20 salariés
-    metadata:
-      unit: /1
     values:
-      '1953-09-01':
-        value: 0.01
-      '1978-01-01':
-        value: 0.009
-      '1986-01-01':
-        value: 0.0077
-      '1988-01-01':
-        value: 0.0072
-      '1989-01-01':
-        value: 0.0065
-      '1991-01-01':
-        value: 0.0055
       '1992-01-01':
         value: 0.0045
+      '1991-01-01':
+        value: 0.0055
+      '1989-01-01':
+        value: 0.0065
+      '1988-01-01':
+        value: 0.0072
+      '1986-01-01':
+        value: 0.0077
+      '1978-01-01':
+        value: 0.009
+      '1953-09-01':
+        value: 0.01
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - plus_20_salaries
 metadata:
-  date_parution_jo:
-    '1953-09-01': '1953-08-10'
-    '1978-01-01': '1978-06-23'
-    '1986-01-01': '1985-12-31'
-    '1988-01-01': '1988-01-01'
-    '1989-01-01': '1988-12-28'
-    '1991-01-01': '1991-07-27'
-    '1992-01-01': '1990-01-17'
-    '2005-01-01': '2005-08-03'
   order:
   - employeur_tout_salaire
   reference:
-    '1953-09-01': Décret 53-701 du 09/08/1953
-    '1978-01-01': Loi 78-653 du 22/06/1978
-    '1986-01-01': Loi 85-1403 du 30/12/1985, art. 82-I, II, III (LF pour 1986)
-    '1988-01-01': Loi 87-1128 du 31/12/1987
-    '1989-01-01': Loi 88-1149 du 23/12/1988 (LF pour 1989), art. 86
-    '1991-01-01': Loi 91-716 du 26/07/1991
-    '1992-01-01': Décret 90-64 du 15/01/1990
     '2005-01-01': Ordonnance 2005-895 du 02/08/2005
+    '1992-01-01': Décret 90-64 du 15/01/1990
+    '1991-01-01': Loi 91-716 du 26/07/1991
+    '1989-01-01': Loi 88-1149 du 23/12/1988 (LF pour 1989), art. 86
+    '1988-01-01': Loi 87-1128 du 31/12/1987
+    '1986-01-01': Loi 85-1403 du 30/12/1985, art. 82-I, II, III (LF pour 1986)
+    '1978-01-01': Loi 78-653 du 22/06/1978
+    '1953-09-01': Décret 53-701 du 09/08/1953
+  date_parution_jo:
+    '2005-01-01': '2005-08-03'
+    '1992-01-01': '1990-01-17'
+    '1991-01-01': '1991-07-27'
+    '1989-01-01': '1988-12-28'
+    '1988-01-01': '1988-01-01'
+    '1986-01-01': '1985-12-31'
+    '1978-01-01': '1978-06-23'
+    '1953-09-01': '1953-08-10'
+documentation: |
+  Notes :
+  La participation des employeurs à l'effort de construction (PEEC) ou le "1% logement", rebaptisé en 2010 "Action logement" (www.actionlogement.fr).
+  Autres références :
+  Loi de finances 1975 (Loi 74-1129 du 30/12/74, JO 31/12/1974)
+  Code de l'urbanisme (art. 272 à 276), loi 71-582 du 16/07/71 (JO 17/07/71), Décret 72-526 du 29/06/72 (JO 30/06/72)

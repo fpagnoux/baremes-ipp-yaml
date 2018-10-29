@@ -1,45 +1,50 @@
 description: Plafond du minimum contributif
-metadata:
-  date_parution_jo:
-    '2012-01-01': '2011-11-30'
-    '2012-07-01': '2012-06-29'
-  order:
-  - minimum_contributif_plafond_mensuel
-  reference:
-    '2012-01-01': Décret 2011-772 du 28 juin 2011
-    '2012-07-01': Décret 2012-828 du 28/06/2012
-    '2013-01-01': Décret 2012-1429 du 19/12/2012
-    '2014-01-01': Décret 2013-1190
-    '2014-02-01': Décret 2014-129
-    '2015-01-01': Circulaire Cnav 2015/4 du 26/01/2015
-    '2016-01-01': Circulaire Cnav 2015/64 du 18/12/2015
-    '2017-01-01': ​​Circulaire Cnav 2016/55 du 30/12/2016
-    '2018-01-01': ​Circulaire Cnav 2017/44 du 27/12/2017
 minimum_contributif_plafond_mensuel:
+  description: 'Minimum contributif: plafond mensuel'
   annuel:
     description: Annuel
-    metadata:
-      unit: currency-EUR
     values:
-      '2012-01-01':
-        value: 1005.0
-      '2012-07-01':
-        value: 1025.1
-      '2013-01-01':
-        value: 1028.17
-      '2014-01-01':
-        value: 1039.47
-      '2014-02-01':
-        value: 1120.0
-      '2015-01-01':
-        value: 1128.96
-      '2016-01-01':
-        value: 1135.73
-      '2017-01-01':
-        value: 1145.95
       '2018-01-01':
         value: 1160.04
-  description: 'Minimum contributif: plafond mensuel'
+      '2017-01-01':
+        value: 1145.95
+      '2016-01-01':
+        value: 1135.73
+      '2015-01-01':
+        value: 1128.96
+      '2014-02-01':
+        value: 1120.0
+      '2014-01-01':
+        value: 1039.47
+      '2013-01-01':
+        value: 1028.17
+      '2012-07-01':
+        value: 1025.1
+      '2012-01-01':
+        value: 1005.0
+    metadata:
+      unit: currency-EUR
   metadata:
     order:
     - annuel
+metadata:
+  order:
+  - minimum_contributif_plafond_mensuel
+  reference:
+    '2018-01-01': ​Circulaire Cnav 2017/44 du 27/12/2017
+    '2017-01-01': ​​Circulaire Cnav 2016/55 du 30/12/2016
+    '2016-01-01': Circulaire Cnav 2015/64 du 18/12/2015
+    '2015-01-01': Circulaire Cnav 2015/4 du 26/01/2015
+    '2014-02-01': Décret 2014-129
+    '2014-01-01': Décret 2013-1190
+    '2013-01-01': Décret 2012-1429 du 19/12/2012
+    '2012-07-01': Décret 2012-828 du 28/06/2012
+    '2012-01-01': Décret 2011-772 du 28 juin 2011
+  date_parution_jo:
+    '2012-07-01': '2012-06-29'
+    '2012-01-01': '2011-11-30'
+documentation: |
+  Sources : 
+  http://www.legislation.cnav.fr/Pages/bareme.aspx?Nom=retraite_personnelle_minimum_plafond_retraite_bar
+  Note: 
+  Le plafond du minimum contributif suit l'évolution du SMIC comme le dispose l'article D173-21-0-0-1 du CSS. 

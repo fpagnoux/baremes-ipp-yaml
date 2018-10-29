@@ -1,79 +1,34 @@
 description: Surcote RG
+taux_surcote_par_trimestre_cotise_selon_date_cotisation:
+  description: Taux de surcote par trimestre cotisé, selon la date de cotisation
+  '2009_01_01_00_00_00':
+    description: '2009-01-01 00:00:00'
+    values:
+      '2009-04-01':
+        value: 0.0125
+      '2004-01-01':
+        value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - '2009_01_01_00_00_00'
 metadata:
-  date_parution_jo:
-    '2004-01-01': '2003-08-22'
-    '2007-01-01': '2006-12-17'
-    '2009-04-01': '2008-12-31'
-  notes:
-    '2004-01-01': Voir également la circulaire CNAV 2004/37 du 15/07/2004
-    '2007-01-01': Voir aussi circulaire CNAV 2007/5 du 16/01/2007
-    '2009-04-01': Voir également la circulaire CNAV 2009/10 du 09/02/2009
   order:
   - taux_surcote_par_trimestre_cotise_selon_date_cotisation
   reference:
-    '2004-01-01': Loi 2003-775 du 21/08/2003. Décret 2004-156 du 16/02/2004
-    '2007-01-01': Décret 2006-1611 du 15/12/2006
     '2009-04-01': Décret 2008-1509 du 30/12/2008, art. 5
-taux_surcote_par_trimestre_cotise_selon_date_cotisation:
-  '2003_01_01_00_00_00':
-    description: '2003-01-01 00:00:00'
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 0.0075
-  '2004_01_01_00_00_00':
-    1_4_trimestres:
-      description: De 1 à 4 trimestres
-      metadata:
-        unit: /1
-      values:
-        '2004-01-01':
-          value: 0.0075
-    description: '2004-01-01 00:00:00'
-    metadata:
-      order:
-      - 1_4_trimestres
-      - partir_5_trimestres
-      - partir_65_ans
-    partir_5_trimestres:
-      description: A partir de 5 trimestres
-      metadata:
-        unit: /1
-      values:
-        '2004-01-01':
-          value: 0.0075
-        '2007-01-01':
-          value: 0.01
-    partir_65_ans:
-      description: A partir de 65 ans
-      metadata:
-        unit: /1
-      values:
-        '2004-01-01':
-          value: 0.0075
-        '2007-01-01':
-          value: 0.0125
-  '2009_01_01_00_00_00':
-    description: '2009-01-01 00:00:00'
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: null
-      '2009-04-01':
-        value: 0.0125
-  avant_01_01_2003:
-    description: Avant 01/01/2003
-    metadata:
-      unit: /1
-    values:
-      '2004-01-01':
-        value: 0.0
-  description: Taux de surcote par trimestre cotisé, selon la date de cotisation
-  metadata:
-    order:
-    - avant_01_01_2003
-    - '2003_01_01_00_00_00'
-    - '2004_01_01_00_00_00'
-    - '2009_01_01_00_00_00'
+    '2007-01-01': Décret 2006-1611 du 15/12/2006
+    '2004-01-01': Loi 2003-775 du 21/08/2003. Décret 2004-156 du 16/02/2004
+  date_parution_jo:
+    '2009-04-01': '2008-12-31'
+    '2007-01-01': '2006-12-17'
+    '2004-01-01': '2003-08-22'
+  notes:
+    '2009-04-01': Voir également la circulaire CNAV 2009/10 du 09/02/2009
+    '2007-01-01': Voir aussi circulaire CNAV 2007/5 du 16/01/2007
+    '2004-01-01': Voir également la circulaire CNAV 2004/37 du 15/07/2004
+documentation: |
+  Lecture :
+  Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.

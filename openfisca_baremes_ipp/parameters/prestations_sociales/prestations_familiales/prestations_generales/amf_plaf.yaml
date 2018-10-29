@@ -1,101 +1,64 @@
 description: 'Allocation de la mère au foyer (AMF) : plafond de ressources'
-majoration_plafond_droit_amf:
-  4_enfants:
-    description: 4 enfants
-    metadata:
-      unit: currency-FRF
-    values:
-      '1974-07-01':
-        value: 28800.0
-      '1978-01-01':
-        value: null
-  5_enfants:
-    description: 5 enfants
-    metadata:
-      unit: currency-FRF
-    values:
-      '1974-07-01':
-        value: 34560.0
-      '1978-01-01':
-        value: null
-  6_enfants:
-    description: 6+ enfants
-    metadata:
-      unit: currency-FRF
-    values:
-      '1974-07-01':
-        value: 5760.0
-      '1978-01-01':
-        value: null
-  description: Majoration plafond pour le droit à l'AMF
+plafond_ressources_droit_amf_3_enfants:
+  description: Plafond de ressources pour le droit à l'AMF - 3 enfants
+  values:
+    '1978-01-01':
+      value: null
+    '1974-07-01':
+      value: 23040.0
   metadata:
-    order:
-    - 4_enfants
-    - 5_enfants
-    - 6_enfants
-majoration_plafond_majoration:
-  1_enfant:
-    description: 1 enfant
-    metadata:
-      unit: currency-FRF
-    values:
-      '1974-07-01':
-        value: 20100.0
-      '1978-01-01':
-        value: null
-  2_enfants:
-    description: 2 enfants
-    metadata:
-      unit: currency-FRF
-    values:
-      '1974-07-01':
-        value: 24120.0
-      '1978-01-01':
-        value: null
-  description: Majoration plafond pour la majoration
-  metadata:
-    order:
-    - 1_enfant
-    - 2_enfants
-    - par_enfant_supplementaire
-  par_enfant_supplementaire:
-    description: Par enfant supplémentaire
-    metadata:
-      unit: currency-FRF
-    values:
-      '1974-07-01':
-        value: 4010.0
-      '1978-01-01':
-        value: null
+    unit: currency-FRF
 metadata:
-  date_parution_jo:
-    '1974-07-01': 17/08/1976
-    '1978-01-01': '1977-07-13'
-  notes:
-    '1978-01-01': Remplacé par "complément familial" depuis 01/01/1978
   order:
   - plafond_ressources_droit_amf_3_enfants
   - majoration_plafond_droit_amf
   - plafond_ressources_majoration_0_enfant
   - majoration_plafond_majoration
   reference:
-    '1974-07-01': Décret 76-767 du 16/08/1976 (majoration)
     '1978-01-01': Loi 77-765 du 12/07/1977
-plafond_ressources_droit_amf_3_enfants:
-  description: Plafond de ressources pour le droit à l'AMF - 3 enfants
+    '1974-07-01': Décret 76-767 du 16/08/1976 (majoration)
+  date_parution_jo:
+    '1978-01-01': '1977-07-13'
+    '1974-07-01': 17/08/1976
+  notes:
+    '1978-01-01': Remplacé par "complément familial" depuis 01/01/1978
+majoration_plafond_droit_amf:
+  description: Majoration plafond pour le droit à l'AMF
+  6_enfants:
+    description: 6+ enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1974-07-01':
+        value: 5760.0
+    metadata:
+      unit: currency-FRF
   metadata:
-    unit: currency-FRF
-  values:
-    '1974-07-01':
-      value: 23040.0
-    '1978-01-01':
-      value: null
+    order:
+    - 6_enfants
 plafond_ressources_majoration_0_enfant:
   description: Plafond de ressources pour la majoration - 0 enfant
-  metadata:
-    unit: currency-FRF
   values:
-    '1974-07-01':
-      value: 16080.0
     '1978-01-01':
       value: null
+    '1974-07-01':
+      value: 16080.0
+  metadata:
+    unit: currency-FRF
+majoration_plafond_majoration:
+  description: Majoration plafond pour la majoration
+  par_enfant_supplementaire:
+    description: Par enfant supplémentaire
+    values:
+      '1978-01-01':
+        value: null
+      '1974-07-01':
+        value: 4010.0
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - par_enfant_supplementaire
+documentation: |
+  Notes : 
+  Ce plafond est institué par la loi 72-8 du 3 janvier 1972, art 2

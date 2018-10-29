@@ -1,190 +1,49 @@
 description: Durée de service maximale cible pour le taux plein FP
+nombre_trimestres_cibles_taux_plein_par_generation:
+  description: Nombre de trimestres cibles pour le taux plein par génération
+  '1973_01_01_00_00_00':
+    description: '1973-01-01 00:00:00'
+    values:
+      '2014-01-01':
+        value: 172.0
+      '1948-01-01':
+        value: null
+  metadata:
+    order:
+    - '1973_01_01_00_00_00'
 metadata:
+  order:
+  - nombre_trimestres_cibles_taux_plein_par_generation
+  reference:
+    '2014-01-01': Loi 2014-40 du 20/01/2014, art. 2
+    '2011-08-01': Décret 2011-916 du 01/08/2011
+    '2011-01-01': Décret 2010-1734 du 30/12/2010, art. 9
+    '2003-01-01':
+    - Loi 2003-775 du 21/08/2003, art. 5
+    - Loi 2003-775 du 21/08/2003, art. 5
+    '1948-01-01': Loi 48-1450 du 20/09/1948
   date_parution_jo:
-    '1948-01-01': '1948-09-21'
-    '2003-01-01':
-    - '2003-08-22'
-    - '2003-08-22'
-    '2011-01-01': '2010-12-31'
-    '2011-08-01': '2011-08-02'
     '2014-01-01': '2014-01-21'
-  notes:
+    '2011-08-01': '2011-08-02'
+    '2011-01-01': '2010-12-31'
     '2003-01-01':
-    - Voir note (1)
-    - Voir note (1)
+    - '2003-08-22'
+    - '2003-08-22'
+    '1948-01-01': '1948-09-21'
+  notes:
+    '2014-01-01': La loi de 2014 crée l'art. L161-17-3 du CSS décrivant l'évolution
+      de la durée d'assurance par génération.
     '2011-08-01': Plus précisément, le décret cité précise le nombre de trimestres
       pour les assurés nés en 1955. Le Décret 2012-1487 du 27/12/2012 (JO 29/12/2012)
       étend ce nombre de trimestres aux assurés nés en 1956, et le Décret 2013-1155
       du 13/12/2013 (JO 15/12/2013) étend ce nombre à la génération née en 1957..
-    '2014-01-01': La loi de 2014 crée l'art. L161-17-3 du CSS décrivant l'évolution
-      de la durée d'assurance par génération.
-  order:
-  - nombre_trimestres_cibles_taux_plein_par_generation
-  reference:
-    '1948-01-01': Loi 48-1450 du 20/09/1948
     '2003-01-01':
-    - Loi 2003-775 du 21/08/2003, art. 5
-    - Loi 2003-775 du 21/08/2003, art. 5
-    '2011-01-01': Décret 2010-1734 du 30/12/2010, art. 9
-    '2011-08-01': Décret 2011-916 du 01/08/2011
-    '2014-01-01': Loi 2014-40 du 20/01/2014, art. 2
-nombre_trimestres_cibles_taux_plein_par_generation:
-  '1944_01_01_00_00_00':
-    description: '1944-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 152.0
-      '2014-01-01':
-        value: 151.0
-  '1945_01_01_00_00_00':
-    description: '1945-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 154.0
-      '2014-01-01':
-        value: 152.0
-  '1946_01_01_00_00_00':
-    description: '1946-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 156.0
-      '2014-01-01':
-        value: 153.0
-  '1947_01_01_00_00_00':
-    description: '1947-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 158.0
-      '2014-01-01':
-        value: 154.0
-  '1948_01_01_00_00_00':
-    description: '1948-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 160.0
-      '2014-01-01':
-        value: 155.0
-  '1949_01_01_00_00_00':
-    description: '1949-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 161.0
-  '1950_01_01_00_00_00':
-    description: '1950-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 162.0
-  '1951_01_01_00_00_00':
-    description: '1951-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 163.0
-  '1952_01_01_00_00_00':
-    description: '1952-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 164.0
-  '1953_01_01_00_00_00':
-    description: '1953-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 165.0
-  '1955_01_01_00_00_00':
-    description: '1955-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2003-01-01':
-        value: 166.0
-      '2011-01-01':
-        value: null
-      '2011-08-01':
-        value: 166.0
-  '1958_01_01_00_00_00':
-    description: '1958-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2014-01-01':
-        value: 167.0
-  '1961_01_01_00_00_00':
-    description: '1961-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2014-01-01':
-        value: 168.0
-  '1964_01_01_00_00_00':
-    description: '1964-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2014-01-01':
-        value: 169.0
-  '1967_01_01_00_00_00':
-    description: '1967-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2014-01-01':
-        value: 170.0
-  '1970_01_01_00_00_00':
-    description: '1970-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2014-01-01':
-        value: 171.0
-  '1973_01_01_00_00_00':
-    description: '1973-01-01 00:00:00'
-    values:
-      '1948-01-01':
-        value: null
-      '2014-01-01':
-        value: 172.0
-  avant_1944:
-    description: Avant 1944
-    values:
-      '1948-01-01':
-        value: 150.0
-  description: Nombre de trimestres cibles pour le taux plein par génération
-  metadata:
-    order:
-    - avant_1944
-    - '1944_01_01_00_00_00'
-    - '1945_01_01_00_00_00'
-    - '1946_01_01_00_00_00'
-    - '1947_01_01_00_00_00'
-    - '1948_01_01_00_00_00'
-    - '1949_01_01_00_00_00'
-    - '1950_01_01_00_00_00'
-    - '1951_01_01_00_00_00'
-    - '1952_01_01_00_00_00'
-    - '1953_01_01_00_00_00'
-    - '1955_01_01_00_00_00'
-    - '1958_01_01_00_00_00'
-    - '1961_01_01_00_00_00'
-    - '1964_01_01_00_00_00'
-    - '1967_01_01_00_00_00'
-    - '1970_01_01_00_00_00'
-    - '1973_01_01_00_00_00'
+    - Voir note (1)
+    - Voir note (1)
+documentation: |
+  Lecture :
+  Ce tableau renseigne, pour une date de législation donnée (la date d'entrée en vigueur, en ligne), le paramètre en fonction de la date de naissance (en ordonnée).
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Notes :
+  (1) La loi de 2003 prévoit une augmentation de la durée cible pour l'obtention du taux plein, pour le régime général (et les régimes alignés) et la fonction publique. La durée est fixée par génération.
+   Après une convergence entre les durées du régime général et du privé pour les générations 1943-1948, la durée est fixée chaque année jusqu'à 2020 en fonction des gains d'espérance de vie. 

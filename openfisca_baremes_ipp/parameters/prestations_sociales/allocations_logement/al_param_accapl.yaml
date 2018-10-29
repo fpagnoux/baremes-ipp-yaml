@@ -1,22 +1,10 @@
+description: Paramètres de calcul dans le secteur en accession (APL)
 constante_coefficient_k:
   description: Constante du coefficient K
   values:
     '2007-07-01':
       value: 0.95
-description: Paramètres de calcul dans le secteur en accession (APL)
-majoration_loyer_minimum_lo:
-  description: Majoration du loyer minimum (Lo)
-  metadata:
-    unit: currency-EUR
-  values:
-    '2007-07-01':
-      value: 45.57
 metadata:
-  date_parution_jo:
-    '2007-07-01': '2007-07-12'
-  notes:
-    '2007-07-01': Paramètres dispo dans "Eléments de calcul des aides personnelles
-      au logement", 2013
   order:
   - constante_coefficient_k
   - multiplicateur_n
@@ -26,41 +14,25 @@ metadata:
   - majoration_loyer_minimum_lo
   reference:
     '2007-07-01': Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du CSS)
+  date_parution_jo:
+    '2007-07-01': '2007-07-12'
+  notes:
+    '2007-07-01': Paramètres dispo dans "Eléments de calcul des aides personnelles
+      au logement", 2013
 multiplicateur_n:
-  dans_formule_ka:
-    description: Dans la formule de KA
-    metadata:
-      unit: currency-EUR
-    values:
-      '2007-07-01':
-        value: 22111.33
-  dans_formule_kl:
-    description: Dans la formule de KL
-    metadata:
-      unit: currency-EUR
-    values:
-      '2007-07-01':
-        value: 13393.4
+  description: Multiplicateur de N
   dans_formule_kl_numerateur:
     description: Dans la formule de KL (numérateur)
-    metadata:
-      unit: currency-EUR
     values:
       '2007-07-01':
         value: 1217.26
-  description: Multiplicateur de N
+    metadata:
+      unit: currency-EUR
   metadata:
     order:
-    - dans_formule_ka
-    - dans_formule_kl
     - dans_formule_kl_numerateur
 n_0_personnes_charge:
   description: N (0 personnes à charge)
-  isole:
-    description: Isolé
-    values:
-      '2007-07-01':
-        value: 1.4
   menage:
     description: Ménage
     values:
@@ -68,101 +40,38 @@ n_0_personnes_charge:
         value: 1.8
   metadata:
     order:
-    - isole
     - menage
-seuils_revenus:
-  1ere_tranche:
-    description: 1ère tranche
-    metadata:
-      unit: currency-EUR
-    values:
-      '2007-07-01':
-        value: 1948.1
-  2eme_tranche:
-    description: 2ème tranche
-    metadata:
-      unit: currency-EUR
-    values:
-      '2007-07-01':
-        value: 2678.71
-  3eme_tranche:
-    description: 3ème tranche
-    metadata:
-      unit: currency-EUR
-    values:
-      '2007-07-01':
-        value: 3896.18
-  4eme_tranche_debut_5eme_tranche:
-    description: 4ème tranche (et début 5ème tranche)
-    metadata:
-      unit: currency-EUR
-    values:
-      '2007-07-01':
-        value: 5357.44
-  5eme_tranche_debut_6eme_tranche:
-    description: 5ème tranche (et début 6ème tranche)
-    metadata:
-      unit: currency-EUR
-    values:
-      '2007-07-01':
-        value: 6331.29
-  description: Seuils de revenus
-  metadata:
-    order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche_debut_5eme_tranche
-    - 5eme_tranche_debut_6eme_tranche
 taux_loyer_minimum_lo_apl_accession:
-  1ere_tranche:
-    description: 1ère tranche
-    metadata:
-      unit: /1
-    values:
-      '2007-07-01':
-        value: 0.04
-  2eme_tranche:
-    description: 2ème tranche
-    metadata:
-      unit: /1
-    values:
-      '2007-07-01':
-        value: 0.104
-  3eme_tranche:
-    description: 3ème tranche
-    metadata:
-      unit: /1
-    values:
-      '2007-07-01':
-        value: 0.216
-  4eme_tranche:
-    description: 4ème tranche
-    metadata:
-      unit: /1
-    values:
-      '2007-07-01':
-        value: 0.264
-  5eme_tranche:
-    description: 5ème tranche
-    metadata:
-      unit: /1
-    values:
-      '2007-07-01':
-        value: 0.32
+  description: Taux pour le loyer minimum (Lo) pour l'APL accession
   6eme_tranche:
     description: 6ème tranche
-    metadata:
-      unit: /1
     values:
       '2007-07-01':
         value: 0.48
-  description: Taux pour le loyer minimum (Lo) pour l'APL accession
+    metadata:
+      unit: /1
   metadata:
     order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche
-    - 5eme_tranche
     - 6eme_tranche
+seuils_revenus:
+  description: Seuils de revenus
+  5eme_tranche_debut_6eme_tranche:
+    description: 5ème tranche (et début 6ème tranche)
+    values:
+      '2007-07-01':
+        value: 6331.29
+    metadata:
+      unit: currency-EUR
+  metadata:
+    order:
+    - 5eme_tranche_debut_6eme_tranche
+majoration_loyer_minimum_lo:
+  description: Majoration du loyer minimum (Lo)
+  values:
+    '2007-07-01':
+      value: 45.57
+  metadata:
+    unit: currency-EUR
+documentation: |
+  Notes :
+  L'APL est réformée en 2001 et les paramètres ci-dessus peuvent remonter jusqu'à 2001. 
