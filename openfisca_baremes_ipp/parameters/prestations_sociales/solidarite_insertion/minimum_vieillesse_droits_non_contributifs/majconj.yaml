@@ -161,7 +161,9 @@ metadata:
       pour les bénéficiaires au 31 décembre 2010, tant quele conjoint à charge remplit
       la condition de ressources.
     '2002-01-01': Passage à l'euro
-documentation: |
-  Conditions d'attribution : La majoration pour conjoint à charge était attribuée au titulaire d'une pension de retraite et aux bénéficiaires de l'AVTS, de l'AMF ou d'une rente garantie. Le conjoint est considére à charge dès lors que ses revenus personnels sont inférieures aux montants précisés dans l'onglet suivant. Il doit être âgé de plus de 65 ans (plus de 60 ans en cas d'inaptitude au travail). 
-  Conditions d'attribution : La majoration pour conjoint à charge était attribuée au titulaire d'une pension de retraite et aux bénéficiaires de l'AVTS, de l'AMF ou d'une rente garantie. Le conjoint est considére à charge dès lors que ses revenus personnels sont inférieures aux montants précisés dans l'onglet suivant. Il doit être âgé de plus de 65 ans (plus de 60 ans en cas d'inaptitude au travail). 
-  Conditions d'attribution : La majoration pour conjoint à charge était attribuée au titulaire d'une pension de retraite et aux bénéficiaires de l'AVTS, de l'AMF ou d'une rente garantie. Le conjoint est considére à charge dès lors que ses revenus personnels sont inférieures aux montants précisés dans l'onglet suivant. Il doit être âgé de plus de 65 ans (plus de 60 ans en cas d'inaptitude au travail). 
+documentation: "Conditions d'attribution : La majoration pour conjoint à charge était\
+  \ attribuée au titulaire d'une pension de retraite et aux bénéficiaires de l'AVTS,\
+  \ de l'AMF ou d'une rente garantie. Le conjoint est considére à charge dès lors\
+  \ que ses revenus personnels sont inférieures aux montants précisés dans l'onglet\
+  \ suivant. Il doit être âgé de plus de 65 ans (plus de 60 ans en cas d'inaptitude\
+  \ au travail). \n"
