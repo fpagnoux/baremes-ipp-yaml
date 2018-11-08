@@ -1,0 +1,75 @@
+description: Abattement exceptionnel (1978)
+date_entree_en_vigueur:
+  description: Date d'entrée en vigueur
+  annee_ir:
+    description: Année IR
+    values:
+      '1985-01-01':
+        value: 1986.0
+      '1984-01-01':
+        value: 1985.0
+      '1983-01-01':
+        value: 1984.0
+      '1982-01-01':
+        value: 1983.0
+      '1981-01-01':
+        value: 1982.0
+      '1980-01-01':
+        value: 1981.0
+      '1979-01-01':
+        value: 1980.0
+      '1978-01-01':
+        value: 1979.0
+      '1977-01-01':
+        value: 1978.0
+      '1976-01-01':
+        value: 1977.0
+      '1975-01-01':
+        value: 1976.0
+      '1974-01-01':
+        value: 1975.0
+      '1973-01-01':
+        value: 1974.0
+  metadata:
+    order:
+    - annee_ir
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - en_faveur_certains_contribuables_seuls_1
+  - en_faveur_personnes_agees_invalides_2
+en_faveur_certains_contribuables_seuls_1:
+  description: En faveur de certains contribuables seuls (1)
+  maximum_revenu_net_global:
+    description: Maximum revenu net global
+    values:
+      '1979-01-01':
+        value: null
+      '1978-01-01':
+        value: 16000.0
+      '1973-01-01':
+        value: null
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - maximum_revenu_net_global
+en_faveur_personnes_agees_invalides_2:
+  description: En faveur des personnes âgées ou invalides (2)
+  abattement_2:
+    description: Abattement 2
+    values:
+      '1979-01-01':
+        value: null
+      '1978-01-01':
+        value: 1860.0
+      '1973-01-01':
+        value: null
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - abattement_2
+documentation: |
+  Notes
+  (1) L'abattement de 2000 FRF s'applique au foyer dont le nombre de part est égal à 1 et dont les revenus nets globaux sont 1/ inférieurs à 16000 et 2/ constitués de traitements et salaires au moins pour moitié
