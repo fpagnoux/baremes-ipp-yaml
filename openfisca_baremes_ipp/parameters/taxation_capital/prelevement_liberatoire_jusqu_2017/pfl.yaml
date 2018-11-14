@@ -17,6 +17,7 @@ obligations_titres_participatifs_fonds_salariaux:
     '1965-01-01':
       value: 0.25
   metadata:
+    ipp_csv_id: tx_pl_int
     unit: /1
 metadata:
   order:
@@ -100,6 +101,7 @@ dividendes:
     '1965-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_pl_div
     unit: /1
 ? titres_creances_negociables_billets_tresorerie_certificats_depots_negociables_bons_tresor_negociables_bons_institutions_financieres_specialisees
 : description: Titres de créances négociables (billets de trésorerie, certificats
@@ -127,6 +129,7 @@ dividendes:
     '1965-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_titres
     unit: /1
 bons_caisse_banque_bons_tresor_formules_bons_epargne_ptt:
   description: Bons de caisse des banque; Bons du Trésor sur formules; bons d'épargne
@@ -145,6 +148,7 @@ bons_caisse_banque_bons_tresor_formules_bons_epargne_ptt:
       '1965-01-01':
         value: null
     metadata:
+      ipp_csv_id: bons_8398
       unit: /1
   metadata:
     order:
@@ -161,6 +165,7 @@ emis_partir_1_1_1998_avec_anonymat:
     '1965-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_bons_ap98
     unit: /1
 autres_produits_placement_revenu_fixe_comptes_livrets_creances_depots_cautionnement_comptes_courants:
   description: Autres produits de placement à revenu fixe (comptes sur livrets, créances,
@@ -183,6 +188,7 @@ autres_produits_placement_revenu_fixe_comptes_livrets_creances_depots_cautionnem
       '1965-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_plac_ap95
       unit: /1
   metadata:
     order:
@@ -199,6 +205,7 @@ plan_epargne_populaire:
       '1965-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_epargne_ap8
       unit: /1
   metadata:
     order:

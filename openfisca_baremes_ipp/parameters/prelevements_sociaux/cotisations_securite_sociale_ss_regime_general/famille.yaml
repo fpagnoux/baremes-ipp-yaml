@@ -33,6 +33,7 @@ sous_pss:
       '1946-07-01':
         value: 0.12
     metadata:
+      ipp_csv_id: fam_p_0_1
       unit: /1
   metadata:
     order:

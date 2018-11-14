@@ -39,6 +39,7 @@ personne_isolee_menage_seul:
       '1994-07-01':
         value: 142.0
     metadata:
+      ipp_csv_id: plaf_char_col
       unit:
         '2001-07-01': currency-EUR
         '1994-07-01': currency-FRF
@@ -125,6 +126,7 @@ majoration_par_enfant_majoration_charges_2:
     '1994-07-01':
       value: 61.0
   metadata:
+    ipp_csv_id: plaf_maj
     unit:
       '2001-07-01': currency-EUR
       '1994-07-01': currency-FRF

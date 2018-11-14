@@ -114,6 +114,7 @@ assures_retraites:
       '1970-04-01':
         value: null
     metadata:
+      ipp_csv_id: mmid_ac_ret_0_5
       unit: /1
   metadata:
     order:

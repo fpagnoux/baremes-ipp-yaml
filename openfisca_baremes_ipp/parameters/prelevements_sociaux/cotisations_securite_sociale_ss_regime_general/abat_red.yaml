@@ -6,6 +6,7 @@ artistes:
     '1975-01-01':
       value: 0.3
   metadata:
+    ipp_csv_id: abat_a
     unit: /1
 metadata:
   order:
@@ -18,6 +19,7 @@ medecins:
     '1975-01-01':
       value: 0.3
   metadata:
+    ipp_csv_id: abat_m
     unit: /1
 journalistes:
   description: Journalistes
@@ -25,6 +27,7 @@ journalistes:
     '1975-01-01':
       value: 0.2
   metadata:
+    ipp_csv_id: abat_j
     unit: /1
 documentation: |
   Notes artistes et musiciens du spectacle :

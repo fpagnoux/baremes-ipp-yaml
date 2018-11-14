@@ -11,6 +11,7 @@ montant_en_bmaf:
       '1976-10-01':
         value: 0.44
     metadata:
+      ipp_csv_id: api_enf_sup
       unit: /1
   metadata:
     order:

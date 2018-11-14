@@ -19,6 +19,7 @@ plafonds_loyer_en_zone_1:
         '1994-07-01':
           value: 182.0
       metadata:
+        ipp_csv_id: plaf_loy_enfsupp_z1_acc
         unit: currency-FRF
     metadata:
       order:
@@ -67,6 +68,7 @@ plafonds_loyer_en_zone_2:
         '1994-07-01':
           value: 176.0
       metadata:
+        ipp_csv_id: plaf_loy_enfsupp_z2_acc
         unit: currency-FRF
     metadata:
       order:
@@ -94,6 +96,7 @@ plafonds_loyer_en_zone_3:
         '1994-07-01':
           value: 167.0
       metadata:
+        ipp_csv_id: plaf_loy_enfsupp_z3_acc
         unit: currency-FRF
     metadata:
       order:

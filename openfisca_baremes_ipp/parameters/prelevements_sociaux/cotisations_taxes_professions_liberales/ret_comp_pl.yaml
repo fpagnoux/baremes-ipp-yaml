@@ -13,6 +13,7 @@ agents_generaux_assurance:
         '1949-01-01':
           value: null
       metadata:
+        ipp_csv_id: invald_ass_0_
         unit: /1
     metadata:
       order:
@@ -140,6 +141,7 @@ infirmiers_masseurs_kine_orthophonistes_orthoptistes:
         '1949-01-01':
           value: null
       metadata:
+        ipp_csv_id: asv_aux_0_5
         unit: /1
     metadata:
       order:
@@ -161,6 +163,7 @@ chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
         '1949-01-01':
           value: null
       metadata:
+        ipp_csv_id: retc_chird_85_5
         unit: /1
     metadata:
       order:
@@ -193,6 +196,7 @@ medecins:
         '1949-01-01':
           value: null
       metadata:
+        ipp_csv_id: asv_med_0_5
         unit: /1
     metadata:
       order:
@@ -213,6 +217,7 @@ pharmaciens:
         '1949-01-01':
           value: null
       metadata:
+        ipp_csv_id: asv_bio_0_5
         unit: /1
     metadata:
       order:
@@ -239,6 +244,7 @@ notaires:
         '1949-01-01':
           value: null
       metadata:
+        ipp_csv_id: retc_not_cm_0_
         unit: /1
     metadata:
       order:

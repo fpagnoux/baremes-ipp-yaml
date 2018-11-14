@@ -43,6 +43,7 @@ loyer_considere_comme_paye_par_etudiants_logeant_en_residence_universitaire:
       '1994-07-01':
         value: 416.0
     metadata:
+      ipp_csv_id: alf_etudiant_menage
       unit:
         '2001-07-01': currency-EUR
         '1994-07-01': currency-FRF
@@ -128,6 +129,7 @@ autres_dont_etudiants_en_chambres_rehabilitees_residences_universitaires:
       '1994-07-01':
         value: null
     metadata:
+      ipp_csv_id: alf_autre_menage
       unit: currency-EUR
   metadata:
     order:

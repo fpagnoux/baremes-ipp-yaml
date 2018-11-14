@@ -8,6 +8,8 @@ nombre_trimestres_cibles_taux_plein_par_generation:
         value: 172.0
       '1948-01-01':
         value: null
+    metadata:
+      ipp_csv_id: trimfp_0173
   metadata:
     order:
     - '1973_01_01_00_00_00'

@@ -4,6 +4,8 @@ age_minimum_allocataire:
   values:
     '2009-06-01':
       value: 25.0
+  metadata:
+    ipp_csv_id: age_rsa_rmi
 metadata:
   order:
   - age_minimum_allocataire
@@ -25,6 +27,8 @@ nombre_minimal_enfants_1:
   values:
     '2009-06-01':
       value: 1.0
+  metadata:
+    ipp_csv_id: min_npac_rmi
 majoration_isolement_en_mois:
   description: Majoration pour isolement (en mois)
   age_limite_enfant_3_en_annee:
@@ -34,6 +38,8 @@ majoration_isolement_en_mois:
     values:
       '2009-06-01':
         value: 3.0
+    metadata:
+      ipp_csv_id: rsa_maj_ageenf_max
   metadata:
     order:
     - age_limite_enfant_3_en_annee
@@ -42,6 +48,8 @@ duree_minimum_titre_sejour_annee:
   values:
     '2009-06-01':
       value: 5.0
+  metadata:
+    ipp_csv_id: duree_min_titre_sejour
 rsa_jeune_en_heure_4:
   description: RSA jeune (en heure) (4)
   values:
@@ -49,6 +57,8 @@ rsa_jeune_en_heure_4:
       value: 3214.0
     '2009-06-01':
       value: null
+  metadata:
+    ipp_csv_id: rsa_jeune_activite
 documentation: |
   Notes :
   (1) Nés ou à naître si la condition d'âge n'est pas respectée.

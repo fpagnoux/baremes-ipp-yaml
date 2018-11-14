@@ -9,6 +9,7 @@ alsace:
     '2007-01-01':
       value: 1.4
   metadata:
+    ipp_csv_id: maj_ticpe_super_als
     unit: currency-EUR
 metadata:
   order:
@@ -44,6 +45,7 @@ aquitaine:
     '2007-01-01':
       value: 1.12
   metadata:
+    ipp_csv_id: maj_ticpe_super_aqui
     unit: currency-EUR
 auvergne:
   description: Auvergne
@@ -55,6 +57,7 @@ auvergne:
     '2007-01-01':
       value: 1.22
   metadata:
+    ipp_csv_id: maj_ticpe_super_auv
     unit: currency-EUR
 basse_normandie:
   description: Basse Normandie
@@ -66,6 +69,7 @@ basse_normandie:
     '2007-01-01':
       value: 1.39
   metadata:
+    ipp_csv_id: maj_ticpe_super_b_n
     unit: currency-EUR
 bourgogne:
   description: Bourgogne
@@ -77,6 +81,7 @@ bourgogne:
     '2007-01-01':
       value: 0.86
   metadata:
+    ipp_csv_id: maj_ticpe_super_bourg
     unit: currency-EUR
 bretagne:
   description: Bretagne
@@ -88,6 +93,7 @@ bretagne:
     '2007-01-01':
       value: 1.1
   metadata:
+    ipp_csv_id: maj_ticpe_super_bre
     unit: currency-EUR
 centre:
   description: Centre
@@ -97,6 +103,7 @@ centre:
     '2007-01-01':
       value: 1.77
   metadata:
+    ipp_csv_id: maj_ticpe_super_cen
     unit: currency-EUR
 champagne_ardennes:
   description: Champagne Ardennes
@@ -108,6 +115,7 @@ champagne_ardennes:
     '2007-01-01':
       value: 1.17
   metadata:
+    ipp_csv_id: maj_ticpe_super_ch_ar
     unit: currency-EUR
 corse:
   description: Corse
@@ -121,6 +129,7 @@ corse:
     '2007-01-01':
       value: 0.0
   metadata:
+    ipp_csv_id: maj_ticpe_super_cor
     unit: currency-EUR
 franche_comte:
   description: Franche Comté
@@ -132,6 +141,7 @@ franche_comte:
     '2007-01-01':
       value: 1.35
   metadata:
+    ipp_csv_id: maj_ticpe_super_f_c
     unit: currency-EUR
 haute_normandie:
   description: Haute Normandie
@@ -141,6 +151,7 @@ haute_normandie:
     '2007-01-01':
       value: 1.77
   metadata:
+    ipp_csv_id: maj_ticpe_super_h_n
     unit: currency-EUR
 ile_france:
   description: Ile de France
@@ -152,6 +163,7 @@ ile_france:
     '2007-01-01':
       value: 1.77
   metadata:
+    ipp_csv_id: maj_ticpe_super_idf
     unit: currency-EUR
 languedoc_roussillon:
   description: Languedoc Roussillon
@@ -163,6 +175,7 @@ languedoc_roussillon:
     '2007-01-01':
       value: 1.28
   metadata:
+    ipp_csv_id: maj_ticpe_super_l_r
     unit: currency-EUR
 limousin:
   description: Limousin
@@ -174,6 +187,7 @@ limousin:
     '2007-01-01':
       value: 1.66
   metadata:
+    ipp_csv_id: maj_ticpe_super_lim
     unit: currency-EUR
 lorraine:
   description: Lorraine
@@ -183,6 +197,7 @@ lorraine:
     '2007-01-01':
       value: 1.77
   metadata:
+    ipp_csv_id: maj_ticpe_super_lor
     unit: currency-EUR
 midi_pyrenees:
   description: Midi Pyrénées
@@ -194,6 +209,7 @@ midi_pyrenees:
     '2007-01-01':
       value: 1.11
   metadata:
+    ipp_csv_id: maj_ticpe_super_m_p
     unit: currency-EUR
 nord_pas_calais:
   description: Nord Pas de Calais
@@ -203,6 +219,7 @@ nord_pas_calais:
     '2007-01-01':
       value: 1.77
   metadata:
+    ipp_csv_id: maj_ticpe_super_n_cal
     unit: currency-EUR
 pays_loire:
   description: Pays de la Loire
@@ -214,6 +231,7 @@ pays_loire:
     '2007-01-01':
       value: 1.01
   metadata:
+    ipp_csv_id: maj_ticpe_super_p_loi
     unit: currency-EUR
 picardie:
   description: Picardie
@@ -223,6 +241,7 @@ picardie:
     '2007-01-01':
       value: 1.77
   metadata:
+    ipp_csv_id: maj_ticpe_super_pic
     unit: currency-EUR
 poitou_charentes:
   description: Poitou Charentes
@@ -232,6 +251,7 @@ poitou_charentes:
     '2007-01-01':
       value: 0.0
   metadata:
+    ipp_csv_id: maj_ticpe_super_p_c
     unit: currency-EUR
 rhone_alpes:
   description: Rhône Alpes
@@ -243,6 +263,7 @@ rhone_alpes:
     '2007-01-01':
       value: 1.17
   metadata:
+    ipp_csv_id: maj_ticpe_super_r_a
     unit: currency-EUR
 paca:
   description: PACA
@@ -254,6 +275,7 @@ paca:
     '2007-01-01':
       value: 0.98
   metadata:
+    ipp_csv_id: maj_ticpe_super_paca
     unit: currency-EUR
 documentation: |
   Notes :

@@ -55,6 +55,7 @@ smig_brut_horaire:
       '1950-09-01':
         value: 64.0
     metadata:
+      ipp_csv_id: smig_h_ab_max
       unit:
         '1960-10-01': currency-FRF
         '1950-09-01': currency-AFRF
@@ -132,6 +133,7 @@ smig_brut_mensuel:
       '1950-09-01':
         value: 13519.740000000002
     metadata:
+      ipp_csv_id: smig_brut
       unit:
         '1960-10-01': currency-FRF
         '1950-09-01': currency-AFRF

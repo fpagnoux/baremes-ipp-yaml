@@ -41,6 +41,7 @@ salaire_reference_en_nominal:
     '1999-01-01':
       value: 71.8534
   metadata:
+    ipp_csv_id: sal_ref_arrco_nom
     unit:
       '2001-01-01': currency-EUR
       '1999-01-01': currency-FRF
@@ -107,5 +108,6 @@ salaire_reference_en_euros:
     '1999-01-01':
       value: 10.953980215166542
   metadata:
+    ipp_csv_id: sal_ref_arrco_euros
     unit: currency-EUR
 documentation: ''

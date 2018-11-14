@@ -7,6 +7,7 @@ forfait_logement_en_montant_forfaitaire_rsa:
       '2009-06-01':
         value: 0.165
     metadata:
+      ipp_csv_id: rsa_rmi_logt3
       unit: /1
   metadata:
     order:

@@ -7,6 +7,7 @@ taux1:
     '1949-01-01':
       value: 0.05
   metadata:
+    ipp_csv_id: vf1
     unit: /1
 metadata:
   order:
@@ -38,6 +39,7 @@ majoration1:
     '1949-01-01':
       value: null
   metadata:
+    ipp_csv_id: vf_maj1
     unit: /1
 majoration2:
   description: Majoration2
@@ -49,6 +51,7 @@ majoration2:
     '1949-01-01':
       value: null
   metadata:
+    ipp_csv_id: vf_maj2
     unit: /1
 plafond1:
   description: Plafond1
@@ -60,6 +63,7 @@ plafond1:
     '1949-01-01':
       value: null
   metadata:
+    ipp_csv_id: vf_plaf1
     unit: currency-FRF
 plafond2:
   description: Plafond2
@@ -71,6 +75,7 @@ plafond2:
     '1949-01-01':
       value: null
   metadata:
+    ipp_csv_id: vf_plaf2
     unit: currency-FRF
 taux_pensions:
   description: Taux sur les pensions
@@ -80,6 +85,7 @@ taux_pensions:
     '1949-01-01':
       value: 0.03
   metadata:
+    ipp_csv_id: vf_pens
     unit: /1
 documentation: |
   Notes :

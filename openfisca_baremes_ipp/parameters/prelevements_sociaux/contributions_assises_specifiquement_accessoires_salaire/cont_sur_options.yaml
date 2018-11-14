@@ -53,6 +53,7 @@ salarie:
       '2007-10-16':
         value: null
     metadata:
+      ipp_csv_id: cont_opt_s_tx2
       unit: /1
   metadata:
     order:

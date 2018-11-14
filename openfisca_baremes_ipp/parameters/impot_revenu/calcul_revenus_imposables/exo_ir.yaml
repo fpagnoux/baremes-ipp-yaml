@@ -226,6 +226,7 @@ conditions_ressources_exoneration_ir:
       '1977-01-01':
         value: 15200.0
     metadata:
+      ipp_csv_id: exo_apprenti
       unit:
         '2001-01-01': currency-EUR
         '1977-01-01': currency-FRF

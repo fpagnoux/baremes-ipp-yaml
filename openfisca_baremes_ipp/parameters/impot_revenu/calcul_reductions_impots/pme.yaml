@@ -74,6 +74,7 @@ emprunts_contractes_reprise_une_pme:
       '1991-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_pme2
       unit:
         '2001-01-01': currency-EUR
         '1995-01-01': currency-FRF

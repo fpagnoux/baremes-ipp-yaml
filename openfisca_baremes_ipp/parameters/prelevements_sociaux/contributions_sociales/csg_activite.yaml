@@ -13,6 +13,7 @@ revenus_activite:
       '1991-02-01':
         value: null
     metadata:
+      ipp_csv_id: csg_act_ded
       unit: /1
   metadata:
     order:
@@ -56,6 +57,7 @@ allocations_chomage:
       '1991-02-01':
         value: null
     metadata:
+      ipp_csv_id: csg_cho_red
       unit: /1
   metadata:
     order:
@@ -72,6 +74,7 @@ abattement:
       '1991-02-01':
         value: 0.05
     metadata:
+      ipp_csv_id: csg_abt_4_
       unit: /1
   metadata:
     order:

@@ -13,6 +13,7 @@ taux_plein:
     '2009-01-01':
       value: 0.02
   metadata:
+    ipp_csv_id: forf_soc_tx1
     unit: /1
 metadata:
   order:
@@ -45,6 +46,7 @@ taux_reduit_1:
     '2009-01-01':
       value: null
   metadata:
+    ipp_csv_id: forf_soc_tx2
     unit: /1
 taux_reduit_2:
   description: Taux réduit 2

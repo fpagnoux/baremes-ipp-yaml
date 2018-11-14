@@ -6,6 +6,8 @@ nombre_minimal_enfants_pris_en_charge:
       value: 2.0
     '1985-01-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: ape_nenf_min
 metadata:
   order:
   - nombre_minimal_enfants_pris_en_charge
@@ -44,11 +46,15 @@ age_maximal_enfant_1:
   values:
     '1985-01-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: ape_agemax
 annees_activite_precedant_demande:
   description: Années d'activité précédant la demande
   values:
     '1985-01-01':
       value: 2.0
+  metadata:
+    ipp_csv_id: min_annee_act
 intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois:
   description: Intervalle considéré pour le calcul du nombre d'années d'activité précédant
     la demande d'APE (mois)
@@ -59,6 +65,8 @@ intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois:
         value: 120.0
       '1985-01-01':
         value: 30.0
+    metadata:
+      ipp_csv_id: intervalle_3enf
   metadata:
     order:
     - 3e_enfant
@@ -69,6 +77,8 @@ duree_allocation_maximale_mois:
       value: 36.0
     '1985-01-01':
       value: 24.0
+  metadata:
+    ipp_csv_id: duree_max_alloc
 montant_mensuel_en_base_calcul:
   description: Montant mensuel (en % de la base de calcul)
   une_activite_formation_comprise_entre_50_80_duree_legale:
@@ -80,6 +90,7 @@ montant_mensuel_en_base_calcul:
       '1985-01-01':
         value: 0.451
     metadata:
+      ipp_csv_id: ape_taux_80
       unit: /1
   metadata:
     order:

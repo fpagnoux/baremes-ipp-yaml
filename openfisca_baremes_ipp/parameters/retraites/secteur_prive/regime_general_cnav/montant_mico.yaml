@@ -91,6 +91,7 @@ minimum_contributif:
         '1984-01-01':
           value: 2239.6
       metadata:
+        ipp_csv_id: min_cont_mensuel
         unit:
           '2002-01-01': currency-EUR
           '1984-01-01': currency-FRF
@@ -186,6 +187,7 @@ minimum_contributif_majore:
         '1984-01-01':
           value: null
       metadata:
+        ipp_csv_id: min_cont_maj_mensuel
         unit: currency-EUR
     metadata:
       order:

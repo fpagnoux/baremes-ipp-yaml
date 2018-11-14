@@ -366,6 +366,7 @@ seuils_inferieurs_tranches:
       '1945-01-01':
         value: null
     metadata:
+      ipp_csv_id: tranche14
       unit: currency-FRF
   metadata:
     order:
@@ -382,6 +383,7 @@ taux_marginaux_tranches:
       '1945-01-01':
         value: null
     metadata:
+      ipp_csv_id: txmarg14
       unit: /1
   metadata:
     order:
@@ -413,6 +415,8 @@ nombre_tranches:
       value: 6.0
     '1945-01-01':
       value: 5.0
+  metadata:
+    ipp_csv_id: ntranche
 taxe_complementaire_tc:
   description: Taxe complémentaire (TC)
   values:
@@ -427,6 +431,7 @@ taxe_complementaire_tc:
     '1945-01-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_comp
     unit: /1
 taxe_proportionnelle_tp:
   description: Taxe proportionnelle (TP)
@@ -440,6 +445,7 @@ taxe_proportionnelle_tp:
     '1945-01-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_prop
     unit: /1
 documentation: |
   Référence générale :

@@ -58,6 +58,7 @@ produits_assurances_vies_assimiles:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: abt_av
       unit:
         '2001-01-01': currency-EUR
         '1997-01-01': currency-FRF
@@ -76,6 +77,7 @@ revenus_capitaux_mobiliers_dividendes:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_creditrcm
       unit: currency-EUR
   metadata:
     order:

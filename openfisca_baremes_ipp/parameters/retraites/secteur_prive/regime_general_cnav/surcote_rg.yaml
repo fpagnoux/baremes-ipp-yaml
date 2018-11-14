@@ -9,6 +9,7 @@ taux_surcote_par_trimestre_cotise_selon_date_cotisation:
       '2004-01-01':
         value: null
     metadata:
+      ipp_csv_id: surcote_0109
       unit: /1
   metadata:
     order:

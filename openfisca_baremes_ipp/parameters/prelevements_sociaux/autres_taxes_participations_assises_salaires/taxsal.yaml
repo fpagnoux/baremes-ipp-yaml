@@ -5,6 +5,7 @@ taux1:
     '1968-11-01':
       value: 0.0425
   metadata:
+    ipp_csv_id: taxsal1
     unit: /1
 metadata:
   order:
@@ -71,6 +72,7 @@ majoration1:
     '1968-11-01':
       value: 0.0425
   metadata:
+    ipp_csv_id: taxsal_maj1
     unit: /1
 majoration2:
   description: Majoration2
@@ -78,6 +80,7 @@ majoration2:
     '1968-11-01':
       value: 0.0935
   metadata:
+    ipp_csv_id: taxsal_maj2
     unit: /1
 majoration_3:
   description: Majoration 3
@@ -89,6 +92,7 @@ majoration_3:
     '1968-11-01':
       value: null
   metadata:
+    ipp_csv_id: taxsal_maj3
     unit: /1
 taux_guyane:
   description: Taux Guyane
@@ -96,6 +100,7 @@ taux_guyane:
     '1968-11-01':
       value: 0.0255
   metadata:
+    ipp_csv_id: taxsal_guy
     unit: /1
 taux_guadeloupe_martinique_reunion:
   description: Taux Guadeloupe, Martinique, Réunion
@@ -103,6 +108,7 @@ taux_guadeloupe_martinique_reunion:
     '1968-11-01':
       value: 0.0295
   metadata:
+    ipp_csv_id: taxsal_mgr
     unit: /1
 plafond1:
   description: Plafond1
@@ -168,6 +174,7 @@ plafond1:
     '1968-11-01':
       value: 30000.0
   metadata:
+    ipp_csv_id: taxsal_plaf1
     unit:
       '2002-01-01': currency-EUR
       '1968-11-01': currency-FRF
@@ -235,6 +242,7 @@ plafond2:
     '1968-11-01':
       value: 60000.0
   metadata:
+    ipp_csv_id: taxsal_plaf2
     unit:
       '2002-01-01': currency-EUR
       '1968-11-01': currency-FRF
@@ -256,6 +264,7 @@ plafond_3:
     '1968-11-01':
       value: null
   metadata:
+    ipp_csv_id: taxsal_plaf3
     unit: currency-EUR
 documentation: |
   Notes :

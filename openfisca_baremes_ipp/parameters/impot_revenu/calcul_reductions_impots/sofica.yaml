@@ -62,6 +62,7 @@ reduction_souscriptions_parts_sofica:
       '1984-01-01':
         value: null
     metadata:
+      ipp_csv_id: base_sofica
       unit: /1
   metadata:
     order:

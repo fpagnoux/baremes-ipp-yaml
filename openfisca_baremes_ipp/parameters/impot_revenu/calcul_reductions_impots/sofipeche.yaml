@@ -51,6 +51,7 @@ reduction_souscriptions_parts_sofipeche:
       '1997-01-01':
         value: null
     metadata:
+      ipp_csv_id: base_sofipeche
       unit: /1
   metadata:
     order:

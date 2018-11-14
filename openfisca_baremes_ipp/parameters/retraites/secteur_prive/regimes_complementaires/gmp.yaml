@@ -6,6 +6,8 @@ garantie_minimale_points:
       value: 120.0
     '1947-01-01':
       value: 144.0
+  metadata:
+    ipp_csv_id: gmp
 metadata:
   order:
   - garantie_minimale_points

@@ -5,6 +5,7 @@ plafonnement_taux_imposition_isf:
     '2018-01-01':
       value: 0.75
   metadata:
+    ipp_csv_id: tx_plaf_ifi
     unit: /1
 metadata:
   order:

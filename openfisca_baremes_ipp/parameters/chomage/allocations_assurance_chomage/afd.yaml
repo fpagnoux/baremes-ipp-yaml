@@ -37,6 +37,7 @@ montant_base:
     '1979-10-01':
       value: 22.0
   metadata:
+    ipp_csv_id: afd_fixe
     unit: currency-FRF
 metadata:
   order:

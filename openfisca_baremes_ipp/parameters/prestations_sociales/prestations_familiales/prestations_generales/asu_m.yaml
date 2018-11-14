@@ -13,6 +13,7 @@ base_1:
     '1941-04-01':
       value: null
   metadata:
+    ipp_csv_id: base_asu
     unit: currency-FRF
 metadata:
   order:
@@ -47,6 +48,7 @@ taux:
       '1941-04-01':
         value: 0.3
     metadata:
+      ipp_csv_id: tx_asu_3_enf
       unit: /1
   metadata:
     order:
@@ -63,6 +65,7 @@ montant:
       '1941-04-01':
         value: null
     metadata:
+      ipp_csv_id: montant_3_enf
       unit: currency-FRF
   metadata:
     order:
@@ -79,6 +82,7 @@ majoration:
       '1941-04-01':
         value: null
     metadata:
+      ipp_csv_id: majo_montant
       unit: currency-FRF
   metadata:
     order:

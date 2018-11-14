@@ -7,6 +7,7 @@ tranche_1:
       '2001-04-01':
         value: 0.012
     metadata:
+      ipp_csv_id: agff_p_0_1
       unit: /1
   metadata:
     order:
@@ -30,6 +31,7 @@ tranche_2:
       '2001-04-01':
         value: 0.013
     metadata:
+      ipp_csv_id: agff_p_1_3
       unit: /1
   metadata:
     order:
@@ -42,6 +44,7 @@ tranche_b:
       '2001-04-01':
         value: 0.013
     metadata:
+      ipp_csv_id: agff_p_1_4
       unit: /1
   metadata:
     order:

@@ -37,6 +37,7 @@ retenues:
     '1925-01-01':
       value: 0.06
   metadata:
+    ipp_csv_id: retpens_pu_s
     unit: /1
 metadata:
   order:

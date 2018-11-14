@@ -88,6 +88,7 @@ salaire_forfaitaire_assurance_vieillesse_parents_foyer_avpf:
       '1972-07-01':
         value: null
     metadata:
+      ipp_csv_id: avpf_r
       unit:
         '2002-01-01': currency-EUR
         '1978-01-01': currency-FRF
@@ -146,6 +147,7 @@ taux:
     '1972-07-01':
       value: 0.0875
   metadata:
+    ipp_csv_id: avpf_taux
     unit: /1
 documentation: |
   Note : 

@@ -9,6 +9,7 @@ taux_bouclier_fiscal:
     '2005-01-01':
       value: 0.6
   metadata:
+    ipp_csv_id: tx_bouclier
     unit: /1
 metadata:
   order:

@@ -95,6 +95,7 @@ valeur_point_cnro_en_nominal:
     '1960-01-01':
       value: 0.1824
   metadata:
+    ipp_csv_id: val_point_arcco_nom
     unit: currency-FRF
 metadata:
   order:
@@ -196,6 +197,7 @@ valeur_point_cnro_en_euros:
     '1960-01-01':
       value: 0.027806700744103654
   metadata:
+    ipp_csv_id: val_point_arrco
     unit: currency-FRF
 documentation: |+
   Sources : Centre de documentation Arrco depuis 1961; Manuel de l'employeur entre 1957 et 1960.

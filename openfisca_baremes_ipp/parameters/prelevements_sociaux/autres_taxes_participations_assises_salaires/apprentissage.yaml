@@ -11,6 +11,7 @@ employeur_tout_salaire:
       '1972-07-01':
         value: null
     metadata:
+      ipp_csv_id: apprensup_p_0_
       unit: /1
   metadata:
     order:
@@ -91,6 +92,7 @@ entreprises_250_salaries_plus:
       '1972-07-01':
         value: null
     metadata:
+      ipp_csv_id: apprencsa_p_0_
       unit: /1
   metadata:
     order:

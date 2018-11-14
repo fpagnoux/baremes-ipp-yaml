@@ -9,6 +9,8 @@ nombre_trimestres_cibles_maximal_pris_en_compte_proratisation_par_generation:
         value: 172.0
       '1948-01-01':
         value: null
+    metadata:
+      ipp_csv_id: trimmaxfp_0173
   metadata:
     order:
     - '1973_01_01_00_00_00'

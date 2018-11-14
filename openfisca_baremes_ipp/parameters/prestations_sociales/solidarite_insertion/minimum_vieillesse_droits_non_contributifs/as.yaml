@@ -171,6 +171,7 @@ allocation_supplementaire_personnes_isolees:
     '1956-04-01':
       value: 31200.0
   metadata:
+    ipp_csv_id: alloc_sup_seul
     unit:
       '2002-01-01': currency-EUR
       '1961-01-01': currency-FRF
@@ -478,6 +479,7 @@ allocation_supplementaire_menages:
     '1956-04-01':
       value: null
   metadata:
+    ipp_csv_id: alloc_sup_men
     unit:
       '2002-01-01': currency-EUR
       '1982-07-01': currency-FRF
@@ -517,6 +519,7 @@ complement_exceptionnel:
     '1956-04-01':
       value: null
   metadata:
+    ipp_csv_id: complement
     unit:
       '1961-01-01': currency-FRF
       '1958-01-01': currency-AFRF
@@ -710,6 +713,7 @@ plafond_ressources_personnes_seules:
     '1956-04-01':
       value: 201000.0
   metadata:
+    ipp_csv_id: plaf_mv_seul
     unit:
       '2002-01-01': currency-EUR
       '1961-01-01': currency-FRF
@@ -902,6 +906,7 @@ plafond_ressources_menages:
     '1956-04-01':
       value: 258000.0
   metadata:
+    ipp_csv_id: plaf_mv_men
     unit:
       '2002-01-01': currency-EUR
       '1961-01-01': currency-FRF

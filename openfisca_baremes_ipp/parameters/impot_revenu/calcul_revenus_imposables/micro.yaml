@@ -149,6 +149,7 @@ abattement_recettes_microentreprises:
       '1979-01-01':
         value: null
     metadata:
+      ipp_csv_id: abtmin_micro
       unit:
         '2001-01-01': currency-EUR
         '1991-01-01': currency-FRF
@@ -171,6 +172,7 @@ abattement_regime_micro_bnc:
       '1979-01-01':
         value: null
     metadata:
+      ipp_csv_id: txabt_microbnc
       unit: /1
   metadata:
     order:
@@ -189,6 +191,7 @@ abattement_regime_microfoncier:
       '1979-01-01':
         value: null
     metadata:
+      ipp_csv_id: abt_micro_fon
       unit: /1
   metadata:
     order:
@@ -207,6 +210,7 @@ imputation_revenu_global:
       '1979-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_def_fonc
       unit:
         '2001-01-01': currency-EUR
         '1993-01-01': currency-FRF
@@ -223,6 +227,7 @@ versement_liberatoire_regime_auto_entrepreneur:
       '1979-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_bnc_vl
       unit: /1
   metadata:
     order:

@@ -83,6 +83,7 @@ section_cnro:
       '1961-10-01':
         value: 0.2103796437876263
     metadata:
+      ipp_csv_id: salref_cnro
       unit: currency-EUR
   metadata:
     order:

@@ -46,6 +46,7 @@ depenses_investissement_forestier:
       '2000-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_foret
       unit: /1
   metadata:
     order:
@@ -60,6 +61,7 @@ reduction_impot_defense_forets_contre_incendies:
       '2000-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_incendie
       unit: currency-EUR
   metadata:
     order:

@@ -59,6 +59,7 @@ employeurs:
       '1974-01-01':
         value: 0.0005
     metadata:
+      ipp_csv_id: ags_p_0_4
       unit: /1
   metadata:
     order:

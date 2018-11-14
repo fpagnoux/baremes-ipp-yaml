@@ -27,6 +27,7 @@ vins_mousseux_eur_hl:
     '1982-01-01':
       value: 54.8
   metadata:
+    ipp_csv_id: taxe_vins_mousseux
     unit:
       '2002-03-31': currency-EUR
       '1982-01-01': currency-FRF
@@ -88,6 +89,7 @@ vins_tranquilles_eur_hl:
     '1982-01-01':
       value: 22.0
   metadata:
+    ipp_csv_id: taxe_vins_tranquilles
     unit:
       '2002-03-31': currency-EUR
       '1982-01-01': currency-FRF
@@ -117,6 +119,7 @@ boissons_fermentees_autres_que_vin_biere_eur_hl:
     '1982-01-01':
       value: 22.0
   metadata:
+    ipp_csv_id: taxe_boiss_fermen_sauf_vin_biere
     unit:
       '2002-03-31': currency-EUR
       '1982-01-01': currency-FRF
@@ -144,6 +147,7 @@ cidres_poires_hydromels_eur_hl:
     '1982-01-01':
       value: 7.6
   metadata:
+    ipp_csv_id: taxe_cidre_poire_hydromel
     unit:
       '2002-03-31': currency-EUR
       '1982-01-01': currency-FRF
@@ -155,6 +159,7 @@ exoneration_ensemble_vins_eur_hl:
     '1982-01-01':
       value: 12.7
   metadata:
+    ipp_csv_id: exoneration_taxe_vins
     unit: currency-FRF
 exoneration_petillants_voir_conditions_eur_hl:
   description: Exonération des pétillants (voir conditions) (€/hl)
@@ -164,6 +169,7 @@ exoneration_petillants_voir_conditions_eur_hl:
     '1982-01-01':
       value: 5.4
   metadata:
+    ipp_csv_id: exoneration_taxe_petillants
     unit: currency-FRF
 documentation: |
   Notes :

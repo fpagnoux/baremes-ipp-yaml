@@ -4,6 +4,8 @@ seuil_inferieur:
   values:
     '2002-01-01':
       value: 2.21
+  metadata:
+    ipp_csv_id: Seuil de revenu (en part du MTP)
 metadata:
   order:
   - seuil_inferieur
@@ -19,4 +21,6 @@ part_tarif_dependance_gir_1_2_etablissement_accueil:
   values:
     '2002-01-01':
       value: 0.5
+  metadata:
+    ipp_csv_id: APA d'urgence
 documentation: ''

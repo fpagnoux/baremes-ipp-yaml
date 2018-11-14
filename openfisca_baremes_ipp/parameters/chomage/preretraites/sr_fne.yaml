@@ -79,6 +79,7 @@ revalorisation_sr:
     '1981-10-01':
       value: 0.0743
   metadata:
+    ipp_csv_id: sr_fne
     unit: /1
 metadata:
   order:

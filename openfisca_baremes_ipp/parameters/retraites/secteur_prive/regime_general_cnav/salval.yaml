@@ -135,6 +135,7 @@ salaire_validant_trimestre:
       '1930-01-01':
         value: null
     metadata:
+      ipp_csv_id: saltrim_reu
       unit:
         '2002-01-01': currency-EUR
         '1949-01-01': currency-FRF

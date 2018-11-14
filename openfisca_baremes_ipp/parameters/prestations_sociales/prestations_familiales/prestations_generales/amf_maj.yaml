@@ -9,6 +9,7 @@ regime_general_majoration:
       '1976-07-01':
         value: 194.1
     metadata:
+      ipp_csv_id: maj_gene_montant
       unit: currency-FRF
   metadata:
     order:
@@ -35,6 +36,7 @@ regime_agricole_majoration:
       '1976-07-01':
         value: 194.1
     metadata:
+      ipp_csv_id: maj_agri_montant
       unit: currency-FRF
   metadata:
     order:

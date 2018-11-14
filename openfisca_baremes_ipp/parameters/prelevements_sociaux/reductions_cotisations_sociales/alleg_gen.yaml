@@ -12,6 +12,7 @@ dispositifs_reductions_cotisations_famille_1993_1996:
       '1993-07-01':
         value: null
     metadata:
+      ipp_csv_id: tx_csp_exo_fam_1_3
       unit: /1
   metadata:
     order:
@@ -56,6 +57,8 @@ ristournes_juppe_i_ii_iii_1995_2003:
         value: 1.2
       '1993-07-01':
         value: null
+    metadata:
+      ipp_csv_id: plaf_juppe
   metadata:
     order:
     - plafond_en_nombre_smic

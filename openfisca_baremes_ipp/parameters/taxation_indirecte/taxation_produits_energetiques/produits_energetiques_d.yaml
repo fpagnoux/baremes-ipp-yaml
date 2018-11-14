@@ -38,6 +38,7 @@ autres_gaz_petrole_liquefies_utilises_comme_carburants_sous_conditions_100kg:
     '1993-01-01':
       value: 53.43
   metadata:
+    ipp_csv_id: ticpe_autres_gaz_liq_cond
     unit:
       '2002-01-01': currency-EUR
       '1993-01-01': currency-FRF
@@ -152,6 +153,7 @@ autres_gaz_petrole_liquefies_utilises_comme_carburants_autres_100kg:
     '1993-01-01':
       value: 216.0
   metadata:
+    ipp_csv_id: ticpe_autres_gaz_liq_autres
     unit:
       '2002-01-01': currency-EUR
       '1993-01-01': currency-FRF
@@ -189,6 +191,7 @@ gaz_naturel_etat_gazeux_utilises_comme_carburants_100m3:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_gaz_naturels_gazeux
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -219,6 +222,7 @@ gaz_naturel_etat_gazeux_utilise_sous_conditions_aux_moteurs_stationnaires_100m3:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_gaz_naturels_gazeux_cond
     unit: currency-EUR
 documentation: |
   Notes : 

@@ -7,6 +7,7 @@ taux:
     '1982-11-01':
       value: 0.01
   metadata:
+    ipp_csv_id: fds_s_0_4
     unit: /1
 metadata:
   order:
@@ -266,6 +267,7 @@ seuil_assujettissement:
     '1982-11-01':
       value: 4485.25
   metadata:
+    ipp_csv_id: fds_seuil
     unit:
       '2002-01-01': currency-EUR
       '1982-11-01': currency-FRF
@@ -355,6 +357,7 @@ valeur_annuelle_point_fp:
     '1982-11-01':
       value: null
   metadata:
+    ipp_csv_id: pt_ind
     unit:
       '2002-01-01': currency-EUR
       '1989-09-01': currency-FRF
@@ -397,6 +400,8 @@ indice_majore_reference:
       value: 254.0
     '1982-11-01':
       value: null
+  metadata:
+    ipp_csv_id: ind_maj_ref
 traitement_brut_annuel:
   description: Traitement brut annuel
   values:

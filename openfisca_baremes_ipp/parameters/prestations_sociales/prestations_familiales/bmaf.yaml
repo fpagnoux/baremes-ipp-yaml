@@ -167,6 +167,7 @@ base_mensuelle_calcul_allocations_familiales_bmaf:
     '1939-04-01':
       value: null
   metadata:
+    ipp_csv_id: bmaf
     unit:
       '2002-01-01': currency-EUR
       '1946-07-01': currency-FRF
@@ -417,6 +418,7 @@ bmaf_regimes_agricoles:
     '1939-04-01':
       value: null
   metadata:
+    ipp_csv_id: reg_spec_agri
     unit: currency-FRF
 bmaf_e_t_i:
   description: BMAF E.T.I.
@@ -444,6 +446,7 @@ bmaf_e_t_i:
     '1939-04-01':
       value: null
   metadata:
+    ipp_csv_id: reg_spec_eti
     unit: currency-FRF
 salaire_mensuel_base_dans_departement_seine:
   description: Salaire mensuel de base dans le département de la Seine
@@ -473,6 +476,7 @@ salaire_mensuel_base_dans_departement_seine:
     '1939-04-01':
       value: 15.0
   metadata:
+    ipp_csv_id: bmaf_seine
     unit: currency-FRF
 documentation: |
   Notes : 

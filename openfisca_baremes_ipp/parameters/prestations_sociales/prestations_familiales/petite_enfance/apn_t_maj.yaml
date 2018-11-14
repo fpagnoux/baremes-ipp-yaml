@@ -9,6 +9,7 @@ taux_base_calcul_verse:
     '1975-04-25':
       value: 2.6
   metadata:
+    ipp_csv_id: tx_base
     unit: /1
 metadata:
   order:
@@ -40,6 +41,8 @@ nombre_fractions_versement:
       value: null
     '1975-04-25':
       value: 3.0
+  metadata:
+    ipp_csv_id: nb_frac
 taux:
   description: Taux
   dernier_versement:
@@ -54,6 +57,7 @@ taux:
       '1975-04-25':
         value: 0.65
     metadata:
+      ipp_csv_id: tx_versement3
       unit: /1
   metadata:
     order:
@@ -70,6 +74,7 @@ majoration_naissance_adoption:
       '1975-04-25':
         value: null
     metadata:
+      ipp_csv_id: majo_mult
       unit: /1
   metadata:
     order:

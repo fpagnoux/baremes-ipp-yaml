@@ -27,6 +27,7 @@ salaire_sous_plafond:
       '1967-10-01':
         value: 0.055
     metadata:
+      ipp_csv_id: cnav_p_0_1
       unit: /1
   metadata:
     order:
@@ -97,6 +98,7 @@ tout_salaire:
       '1967-10-01':
         value: null
     metadata:
+      ipp_csv_id: cnav_p_0_
       unit: /1
   metadata:
     order:
@@ -111,6 +113,7 @@ remise_forfaitaire_mensuelle_cotisation_salariale:
     '1967-10-01':
       value: null
   metadata:
+    ipp_csv_id: cnav_remise_forf
     unit: currency-FRF
 documentation: |
   Sources :

@@ -15,6 +15,7 @@ salaire_sous_8_pss:
       '1997-01-01':
         value: 0.00045
     metadata:
+      ipp_csv_id: cet_p_0_8
       unit: /1
   metadata:
     order:

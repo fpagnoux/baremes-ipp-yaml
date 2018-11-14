@@ -69,6 +69,7 @@ montant_base:
     '1984-04-01':
       value: 40.0
   metadata:
+    ipp_csv_id: ass_base
     unit:
       '2002-01-01': currency-EUR
       '1984-04-01': currency-FRF
@@ -222,6 +223,7 @@ avec_majoration:
     '1984-04-01':
       value: 80.0
   metadata:
+    ipp_csv_id: ass_maj
     unit:
       '2002-01-01': currency-EUR
       '1984-04-01': currency-FRF
@@ -297,6 +299,7 @@ plafond_ressources_mensuel:
       '1984-04-01':
         value: 4400.0
     metadata:
+      ipp_csv_id: ass_plaf_couple
       unit:
         '2002-01-01': currency-EUR
         '1984-04-01': currency-FRF

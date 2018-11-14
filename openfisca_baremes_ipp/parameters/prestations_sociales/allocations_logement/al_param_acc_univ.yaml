@@ -5,6 +5,8 @@ constante_coefficient_k:
   values:
     '1972-07-01':
       value: 0.9
+  metadata:
+    ipp_csv_id: cons_k_al
 metadata:
   order:
   - constante_coefficient_k
@@ -120,6 +122,8 @@ multiplicateur_n_dans_formule_k:
       value: 79000.0
     '1972-07-01':
       value: 84000.0
+  metadata:
+    ipp_csv_id: mult_k_al
 menage_0_personnes_charge:
   description: Menage - 0 personnes à charge
   values:
@@ -129,6 +133,8 @@ menage_0_personnes_charge:
       value: 0.9
     '1972-07-01':
       value: 1.0
+  metadata:
+    ipp_csv_id: n_coup_al
 1_personne_charge:
   description: 1 personne à charge
   values:
@@ -140,6 +146,8 @@ menage_0_personnes_charge:
       value: 1.4
     '1972-07-01':
       value: 1.5
+  metadata:
+    ipp_csv_id: n_1enf
 2_personnes_charge:
   description: 2 personnes à charge
   values:
@@ -147,6 +155,8 @@ menage_0_personnes_charge:
       value: 3.0
     '1972-07-01':
       value: null
+  metadata:
+    ipp_csv_id: n_2enf
 3_personnes_charge:
   description: 3 personnes à charge
   values:
@@ -154,6 +164,8 @@ menage_0_personnes_charge:
       value: 3.7
     '1972-07-01':
       value: null
+  metadata:
+    ipp_csv_id: n_3enf
 4_personnes_charge:
   description: 4 personnes à charge
   values:
@@ -161,6 +173,8 @@ menage_0_personnes_charge:
       value: 4.3
     '1972-07-01':
       value: null
+  metadata:
+    ipp_csv_id: n_4enf
 majoration_n_par_personne_charge_supplementaire:
   description: Majoration N par personne à charge supplémentaire
   values:
@@ -170,6 +184,8 @@ majoration_n_par_personne_charge_supplementaire:
       value: 0.4
     '1972-07-01':
       value: 0.5
+  metadata:
+    ipp_csv_id: n_enfsupp
 taux_loyer_minimum_lo_en_al_accession:
   description: Taux pour le loyer minimum (Lo) en AL accession
   5eme_tranche:
@@ -184,6 +200,7 @@ taux_loyer_minimum_lo_en_al_accession:
       '1972-07-01':
         value: 0.33
     metadata:
+      ipp_csv_id: lo_tx5
       unit: /1
   metadata:
     order:
@@ -226,6 +243,7 @@ seuils:
       '1972-07-01':
         value: 15000.0
     metadata:
+      ipp_csv_id: seuil_tr4_lo
       unit:
         '2001-07-01': currency-EUR
         '1972-07-01': currency-FRF
@@ -264,6 +282,7 @@ majoration_loyer_minimum_lo:
     '1972-07-01':
       value: null
   metadata:
+    ipp_csv_id: maj_lo
     unit:
       '2001-07-01': currency-EUR
       '1986-07-01': currency-FRF
@@ -279,6 +298,7 @@ intervalles_ressources_consideres:
     '1972-07-01':
       value: null
   metadata:
+    ipp_csv_id: interv_ress
     unit:
       '2001-07-01': currency-EUR
       '1997-02-01': currency-FRF
@@ -290,6 +310,7 @@ montant_forfaitaire_mf0:
     '1972-07-01':
       value: null
   metadata:
+    ipp_csv_id: interv_ress
     unit: currency-EUR
 documentation: |
   Notes : 

@@ -32,6 +32,7 @@ salaries:
       '1946-07-01':
         value: null
     metadata:
+      ipp_csv_id: am_s_0_
       unit: /1
   metadata:
     order:
@@ -113,6 +114,7 @@ avantages_vieillesses:
     '1946-07-01':
       value: null
   metadata:
+    ipp_csv_id: am_pens
     unit: /1
 allocations_chomage_preretraite:
   description: Allocations chômage et préretraite
@@ -136,6 +138,7 @@ allocations_chomage_preretraite:
     '1946-07-01':
       value: null
   metadata:
+    ipp_csv_id: am_cho
     unit: /1
 documentation: |
   Sources :

@@ -21,6 +21,7 @@ artisans:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: retc_art_0_4
       unit: /1
   metadata:
     order:
@@ -95,6 +96,7 @@ industriels_commercants:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: retc_ic_0_3
       unit: /1
   metadata:
     order:
@@ -113,6 +115,7 @@ artisans_industriels_commercants:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_retc_rci
       unit: currency-EUR
   metadata:
     order:

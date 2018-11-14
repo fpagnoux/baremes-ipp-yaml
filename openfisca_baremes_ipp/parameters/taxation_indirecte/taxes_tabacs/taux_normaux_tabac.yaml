@@ -23,6 +23,7 @@ taux_normal:
       '1991-01-01':
         value: 0.2371
     metadata:
+      ipp_csv_id: tx_tabac_chiquer
       unit: /1
   metadata:
     order:

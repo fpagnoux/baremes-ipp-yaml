@@ -19,6 +19,7 @@ taux_global_csg:
       '1990-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_csg_rk_plac
       unit: /1
   metadata:
     order:
@@ -76,6 +77,7 @@ taux_deductible_csg:
       '1990-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_csg_ded_rk_plac
       unit: /1
   metadata:
     order:
@@ -90,6 +92,7 @@ crds:
       '1990-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_crds_rk_plac
       unit: /1
   metadata:
     order:

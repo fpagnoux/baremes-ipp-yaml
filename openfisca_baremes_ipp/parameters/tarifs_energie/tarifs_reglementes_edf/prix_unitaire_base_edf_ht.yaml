@@ -37,6 +37,7 @@ prix_kwh_3_kva:
     '2001-05-01':
       value: 0.095
   metadata:
+    ipp_csv_id: tarif_fixe_base_3kva_ht
     unit: currency-EUR
 metadata:
   order:
@@ -87,6 +88,7 @@ prix_kwh_6_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_6kva_ht
     unit: currency-EUR
 prix_kwh_9_kva:
   description: Prix du kWh - 9 kVA
@@ -124,6 +126,7 @@ prix_kwh_9_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_9kva_ht
     unit: currency-EUR
 prix_kwh_12_kva:
   description: Prix du kWh - 12 kVA
@@ -161,6 +164,7 @@ prix_kwh_12_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_12kva_ht
     unit: currency-EUR
 prix_kwh_15_kva:
   description: Prix du kWh - 15 kVA
@@ -198,6 +202,7 @@ prix_kwh_15_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_15kva_ht
     unit: currency-EUR
 prix_kwh_18_kva:
   description: Prix du kWh - 18 kVA
@@ -235,6 +240,7 @@ prix_kwh_18_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_18kva_ht
     unit: currency-EUR
 prix_kwh_24_kva:
   description: Prix du kWh - 24 kVA
@@ -272,6 +278,7 @@ prix_kwh_24_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_24kva_ht
     unit: currency-EUR
 prix_kwh_30_kva:
   description: Prix du kWh - 30 kVA
@@ -309,6 +316,7 @@ prix_kwh_30_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_30kva_ht
     unit: currency-EUR
 prix_kwh_36_kva:
   description: Prix du kWh - 36 kVA
@@ -346,6 +354,7 @@ prix_kwh_36_kva:
     '2001-05-01':
       value: 0.0779
   metadata:
+    ipp_csv_id: tarif_fixe_base_36kva_ht
     unit: currency-EUR
 documentation: |
   Source : http://www.cre.fr/marches/marche-de-detail/marche-de-l-electricite#section2

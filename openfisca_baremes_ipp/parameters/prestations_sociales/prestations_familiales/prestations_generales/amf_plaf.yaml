@@ -7,6 +7,7 @@ plafond_ressources_droit_amf_3_enfants:
     '1974-07-01':
       value: 23040.0
   metadata:
+    ipp_csv_id: plaf_3_enf
     unit: currency-FRF
 metadata:
   order:
@@ -32,6 +33,7 @@ majoration_plafond_droit_amf:
       '1974-07-01':
         value: 5760.0
     metadata:
+      ipp_csv_id: majplaf_6plus_enf
       unit: currency-FRF
   metadata:
     order:
@@ -44,6 +46,7 @@ plafond_ressources_majoration_0_enfant:
     '1974-07-01':
       value: 16080.0
   metadata:
+    ipp_csv_id: plafmaj_0_enf
     unit: currency-FRF
 majoration_plafond_majoration:
   description: Majoration plafond pour la majoration
@@ -55,6 +58,7 @@ majoration_plafond_majoration:
       '1974-07-01':
         value: 4010.0
     metadata:
+      ipp_csv_id: plafmaj_supp_enf
       unit: currency-FRF
   metadata:
     order:

@@ -11,6 +11,7 @@ salaries:
       '1981-01-01':
         value: null
     metadata:
+      ipp_csv_id: veuv_s_0_
       unit: /1
   metadata:
     order:

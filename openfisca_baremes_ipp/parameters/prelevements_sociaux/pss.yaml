@@ -179,6 +179,7 @@ plafond_securite_sociale_mensuel:
     '1930-07-01':
       value: null
   metadata:
+    ipp_csv_id: pss_m
     unit:
       '2002-01-01': currency-EUR
       '1946-07-01': currency-FRF
@@ -549,6 +550,7 @@ plafond_securite_sociale_annuel:
     '1930-07-01':
       value: 10800.0
   metadata:
+    ipp_csv_id: pss_a
     unit:
       '2002-01-01': currency-EUR
       '1930-07-01': currency-FRF

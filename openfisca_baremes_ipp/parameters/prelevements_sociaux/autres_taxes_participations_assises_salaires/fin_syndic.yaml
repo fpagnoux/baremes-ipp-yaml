@@ -5,6 +5,7 @@ taux:
     '2015-01-01':
       value: 0.00016
   metadata:
+    ipp_csv_id: taux
     unit: /1
 metadata:
   order:

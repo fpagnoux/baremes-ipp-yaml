@@ -125,6 +125,7 @@ majorations_exceptionnelles_impot:
       '1946-01-01':
         value: null
     metadata:
+      ipp_csv_id: seuil3_majo
       unit: currency-FRF
   metadata:
     order:

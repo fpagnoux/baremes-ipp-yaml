@@ -9,6 +9,7 @@ reduction_investissements_capital_pme:
       '2008-01-01':
         value: 0.5
     metadata:
+      ipp_csv_id: plaf_plaf
       unit: /1
   metadata:
     order:

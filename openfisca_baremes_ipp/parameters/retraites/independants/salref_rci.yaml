@@ -9,6 +9,7 @@ valeur_annuelle_acquisition_point_rsi:
     '2013-01-01':
       value: 17.309
   metadata:
+    ipp_csv_id: sal_ref_ircantec
     unit: currency-EUR
 metadata:
   order:

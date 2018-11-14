@@ -123,6 +123,7 @@ valeur_point_unirs_en_nominal:
     '1957-01-01':
       value: 0.16
   metadata:
+    ipp_csv_id: val_point_arcco_nom
     unit: currency-FRF
 metadata:
   order:
@@ -254,6 +255,7 @@ valeur_point_unirs_en_euros:
     '1957-01-01':
       value: 0.02439184275798566
   metadata:
+    ipp_csv_id: val_point_arrco
     unit: currency-EUR
 documentation: |
   Note :

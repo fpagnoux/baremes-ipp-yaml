@@ -9,6 +9,7 @@ prelevement_social_exceptionnel_cnav:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_prel_cnav
     unit: /1
 metadata:
   order:
@@ -71,6 +72,7 @@ contribution_sociale_permanente_cnaf:
     '1984-01-01':
       value: 0.01
   metadata:
+    ipp_csv_id: tx_contri_cnaf
     unit: /1
 contribution_sociale_cnav:
   description: Contribution sociale (CNAV)
@@ -82,6 +84,7 @@ contribution_sociale_cnav:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_contr_cnav
     unit: /1
 prelevement_social_revenus_patrimoine:
   description: Prélèvement social sur les revenus du patrimoine
@@ -99,6 +102,7 @@ prelevement_social_revenus_patrimoine:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_ps_patr
     unit: /1
 prelevement_social_produits_placement:
   description: Prélèvement social sur les produits de placement
@@ -116,6 +120,7 @@ prelevement_social_produits_placement:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_ps_plac
     unit: /1
 caps_revenus_patrimoine:
   description: CAPS sur les revenus du patrimoine
@@ -127,6 +132,7 @@ caps_revenus_patrimoine:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_caps_patr
     unit: /1
 caps_produits_placement:
   description: CAPS sur les produits de placement
@@ -136,6 +142,7 @@ caps_produits_placement:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_caps_plac
     unit: /1
 caps_rsa:
   description: CAPS-RSA
@@ -147,6 +154,7 @@ caps_rsa:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_caps_rsa
     unit: /1
 prelevements_solidarite_revenus_patrimoine:
   description: Prélèvements de solidarité sur les revenus du patrimoine
@@ -156,6 +164,7 @@ prelevements_solidarite_revenus_patrimoine:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_pds_patr
     unit: /1
 prelevements_solidarite_produits_placement:
   description: Prélèvements de solidarité sur les produits de placement
@@ -165,6 +174,7 @@ prelevements_solidarite_produits_placement:
     '1984-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_pds_plac
     unit: /1
 documentation: |
   Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 

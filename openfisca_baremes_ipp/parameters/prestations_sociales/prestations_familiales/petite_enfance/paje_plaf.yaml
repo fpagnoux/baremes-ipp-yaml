@@ -33,6 +33,7 @@ premier_plafond_ne_adopte_avant_1er_avril_2014:
       '2004-01-01':
         value: 19303.0
     metadata:
+      ipp_csv_id: plaf_paje_0enf
       unit: currency-EUR
   metadata:
     order:
@@ -93,6 +94,7 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
       '2004-01-01':
         value: 0.3
     metadata:
+      ipp_csv_id: maj_plaf_paje_enf3pl
       unit: /1
   metadata:
     order:
@@ -113,6 +115,7 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_partiel:
       '2004-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_paje_0enf_2
       unit: currency-EUR
   metadata:
     order:
@@ -128,6 +131,7 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       '2004-01-01':
         value: null
     metadata:
+      ipp_csv_id: maj_plaf_paje_enf_2
       unit: /1
   metadata:
     order:
@@ -148,6 +152,7 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein:
       '2004-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_paje_0enf_2_tx_plein
       unit: currency-EUR
   metadata:
     order:
@@ -163,6 +168,7 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       '2004-01-01':
         value: null
     metadata:
+      ipp_csv_id: maj_plaf_paje_enf_2_tx_plein
       unit: /1
   metadata:
     order:

@@ -34,6 +34,8 @@ valeur_point_arrco_en_nominal:
       value: 6.6186
     '1999-01-01':
       value: 6.55957
+  metadata:
+    ipp_csv_id: val_point_arrco_nom
 metadata:
   order:
   - valeur_point_arrco_en_nominal
@@ -86,6 +88,7 @@ valeur_point_arrco_en_euros:
     '1999-01-01':
       value: 1.0
   metadata:
+    ipp_csv_id: val_point_arrco_eur
     unit: currency-EUR
 documentation: |
   Note :

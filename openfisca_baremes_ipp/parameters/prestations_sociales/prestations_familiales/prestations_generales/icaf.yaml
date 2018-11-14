@@ -9,6 +9,7 @@ description: 'Indemnité compensatrice des avantages fiscaux (ICAF) : montant'
     '1948-10-01':
       value: 650.0
   metadata:
+    ipp_csv_id: icaf_enf
     unit: currency-FRF
 metadata:
   order:
@@ -33,6 +34,7 @@ par_enfant_supplementaire:
     '1948-10-01':
       value: 1000.0
   metadata:
+    ipp_csv_id: icaf_enf_supp
     unit: currency-FRF
 documentation: |
   Note:

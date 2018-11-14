@@ -79,6 +79,7 @@ credit_impot_frais_garde_enfants:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plafgardenf
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF

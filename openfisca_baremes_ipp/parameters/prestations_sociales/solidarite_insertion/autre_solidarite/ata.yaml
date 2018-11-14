@@ -25,6 +25,7 @@ montant_journalier:
     '2006-11-16':
       value: 10.04
   metadata:
+    ipp_csv_id: ata_fixe
     unit: currency-EUR
 metadata:
   order:

@@ -25,6 +25,7 @@ contribution_exceptionnelle_hauts_revenus:
       '2011-01-01':
         value: 0.04
     metadata:
+      ipp_csv_id: txmarg2_hr
       unit: /1
   metadata:
     order:

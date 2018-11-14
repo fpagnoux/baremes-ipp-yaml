@@ -232,6 +232,7 @@ deduction_frais_accueil_une_personne_plus_75_ans:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_frais
       unit:
         '2001-01-01': currency-EUR
         '1984-01-01': currency-FRF
@@ -287,6 +288,7 @@ deduction_versements_perp:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: max_deduc_perp
       unit: currency-EUR
   metadata:
     order:
@@ -303,6 +305,7 @@ reduction_souscriptions_parts_sofica:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: base_sofica
       unit: /1
   metadata:
     order:
@@ -319,6 +322,7 @@ acquisition_navire:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_navire
       unit: /1
   metadata:
     order:
@@ -335,6 +339,7 @@ deductions_navires_commerce:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_navirecom
       unit: currency-FRF
   metadata:
     order:
@@ -351,6 +356,7 @@ deductions_pertes_en_capital_societes_nouvelles:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_capital_soc2
       unit: currency-EUR
   metadata:
     order:
@@ -367,6 +373,7 @@ deductions_souscription_parts_sofipeche:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: base_sofipeche_charge
       unit: /1
   metadata:
     order:
@@ -383,6 +390,7 @@ deductions_investissements_en_actions:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: increment_action
       unit: currency-FRF
   metadata:
     order:
@@ -399,6 +407,7 @@ reduction_versement_compte_epargne_codev:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_epargnecodev
       unit: currency-EUR
   metadata:
     order:
@@ -415,6 +424,7 @@ deductions_grosses_reparations:
       '1973-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_grossedepense
       unit: currency-EUR
   metadata:
     order:

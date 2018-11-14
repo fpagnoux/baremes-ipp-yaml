@@ -31,6 +31,8 @@ reduction_impot_exceptionnelle:
         value: 350.0
       '2012-01-01':
         value: null
+    metadata:
+      ipp_csv_id: reduc_except_montant
   metadata:
     order:
     - montant

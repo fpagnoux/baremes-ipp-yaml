@@ -5,6 +5,7 @@ reduction:
     '2015-01-01':
       value: 0.018
   metadata:
+    ipp_csv_id: tx_red_fam
     unit: /1
 metadata:
   order:
@@ -23,4 +24,6 @@ plafond_en_nombre_smic:
       value: 3.5
     '2015-01-01':
       value: 1.6
+  metadata:
+    ipp_csv_id: pss_red_fam
 documentation: ''

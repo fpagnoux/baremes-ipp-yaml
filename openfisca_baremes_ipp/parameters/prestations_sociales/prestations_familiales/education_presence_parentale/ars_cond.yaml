@@ -5,6 +5,8 @@ age_minimal_enfant_1:
   values:
     '1976-08-18':
       value: 6.0
+  metadata:
+    ipp_csv_id: ars_enf_agemin
 metadata:
   order:
   - age_minimal_enfant_1
@@ -45,6 +47,8 @@ age_maximal_enfant_2:
       value: 18.0
     '1976-08-18':
       value: 16.0
+  metadata:
+    ipp_csv_id: ars_enf_agemax
 documentation: |
   Notes :
   (1) Age de l'enfant à charge avant le 1er février de l'année suivant celle la rentrée scolaire. 

@@ -9,6 +9,7 @@ taux:
     '1996-01-01':
       value: 0.06
   metadata:
+    ipp_csv_id: prev_p
     unit: /1
 metadata:
   order:

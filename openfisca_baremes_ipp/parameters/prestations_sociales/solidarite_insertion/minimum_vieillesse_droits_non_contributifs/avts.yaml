@@ -159,6 +159,7 @@ montants_annuels:
     '1962-04-01':
       value: 800.0
   metadata:
+    ipp_csv_id: avts
     unit:
       '2014-04-01': EUR
       '2002-01-01': currency-EUR
@@ -517,6 +518,7 @@ plafonds_ressources_personnes_seules:
     '1962-04-01':
       value: 2300.0
   metadata:
+    ipp_csv_id: plaf_mv_seul
     unit:
       '2014-04-01': EUR
       '2002-01-01': currency-EUR
@@ -693,6 +695,7 @@ plafonds_ressources_menages:
     '1962-04-01':
       value: 3200.0
   metadata:
+    ipp_csv_id: plaf_mv_men
     unit:
       '2014-04-01': EUR
       '2002-01-01': currency-EUR

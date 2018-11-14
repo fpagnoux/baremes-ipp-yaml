@@ -63,6 +63,7 @@ salaire_charniere_annuel:
     '1989-01-01':
       value: 156619.22743
   metadata:
+    ipp_csv_id: gmp_sal_char
     unit:
       '2002-01-01': currency-EUR
       '1989-01-01': currency-FRF
@@ -173,6 +174,7 @@ cotisation_forfaitaire_annuelle_en_euros:
     '1989-01-01':
       value: 2843.0
   metadata:
+    ipp_csv_id: gmp_cot_f_a
     unit:
       '2002-01-01': currency-EUR
       '1989-01-01': currency-FRF
@@ -240,6 +242,7 @@ cotisation_forfaitaire_mensuelle_en_euros:
       '1989-01-01':
         value: 177.6875
     metadata:
+      ipp_csv_id: gmp_cot_f_m_p
       unit:
         '2002-01-01': currency-EUR
         '1989-01-01': currency-FRF

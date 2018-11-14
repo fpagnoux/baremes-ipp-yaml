@@ -69,6 +69,7 @@ tarif_fixe_3_kva:
     '1983-01-01':
       value: 40.5
   metadata:
+    ipp_csv_id: tarif_fixe_base_3kva_ttc
     unit: currency-EUR
 metadata:
   order:
@@ -146,6 +147,7 @@ tarif_fixe_6_kva:
     '1983-01-01':
       value: 80.36
   metadata:
+    ipp_csv_id: tarif_fixe_base_6kva_ttc
     unit: currency-EUR
 tarif_fixe_9_kva:
   description: Tarif fixe - 9 kVA
@@ -219,6 +221,7 @@ tarif_fixe_9_kva:
     '1983-01-01':
       value: 141.59
   metadata:
+    ipp_csv_id: tarif_fixe_base_9kva_ttc
     unit: currency-EUR
 tarif_fixe_12_kva:
   description: Tarif fixe - 12 kVA
@@ -294,6 +297,7 @@ tarif_fixe_12_kva:
     '1983-01-01':
       value: 205.0
   metadata:
+    ipp_csv_id: tarif_fixe_base_12kva_ttc
     unit: currency-EUR
 tarif_fixe_15_kva:
   description: Tarif fixe - 15 kVA
@@ -369,6 +373,7 @@ tarif_fixe_15_kva:
     '1983-01-01':
       value: 268.41
   metadata:
+    ipp_csv_id: tarif_fixe_base_15kva_ttc
     unit: currency-EUR
 tarif_fixe_18_kva:
   description: Tarif fixe - 18 kVA
@@ -442,6 +447,7 @@ tarif_fixe_18_kva:
     '1983-01-01':
       value: 331.82
   metadata:
+    ipp_csv_id: tarif_fixe_base_18kva_ttc
     unit: currency-EUR
 documentation: |
   Source : base Pégase, prix pour un ménage, tarif bleu option base, en euros TTC, données annuelles

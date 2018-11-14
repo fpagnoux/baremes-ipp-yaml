@@ -69,6 +69,7 @@ salaire_reference_rsi_artisans:
     '1979-01-01':
       value: 5.86
   metadata:
+    ipp_csv_id: sal_ref_ircantec
     unit:
       '2002-01-01': currency-EUR
       '1979-01-01': currency-FRF

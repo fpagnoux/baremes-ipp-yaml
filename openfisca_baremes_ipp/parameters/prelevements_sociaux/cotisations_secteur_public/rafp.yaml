@@ -8,6 +8,7 @@ taux_cotisation:
       '2005-01-01':
         value: 0.05
     metadata:
+      ipp_csv_id: rafp_p
       unit: /1
   metadata:
     order:

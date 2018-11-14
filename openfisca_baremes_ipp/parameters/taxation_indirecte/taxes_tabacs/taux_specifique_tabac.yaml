@@ -9,6 +9,7 @@ taux_specifique:
       '1979-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_spec_tabac_chiquer
       unit:
         '2015-01-01': currency-EUR
         '2013-01-01': /1

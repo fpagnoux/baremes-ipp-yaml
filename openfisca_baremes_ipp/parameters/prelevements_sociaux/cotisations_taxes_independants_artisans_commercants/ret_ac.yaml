@@ -37,6 +37,7 @@ artisans:
       '1973-01-01':
         value: 0.0875
     metadata:
+      ipp_csv_id: ret_art_0_1
       unit: /1
   metadata:
     order:
@@ -128,6 +129,7 @@ industriels_commercants:
       '1973-01-01':
         value: 0.0875
     metadata:
+      ipp_csv_id: ret_ic_0_1
       unit: /1
   metadata:
     order:

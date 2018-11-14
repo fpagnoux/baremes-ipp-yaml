@@ -111,6 +111,7 @@ revalorisation_sr:
     '1968-07-08':
       value: 0.07
   metadata:
+    ipp_csv_id: sr_alloc
     unit: /1
 metadata:
   order:

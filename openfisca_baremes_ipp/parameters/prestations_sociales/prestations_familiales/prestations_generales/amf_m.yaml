@@ -11,6 +11,7 @@ regime_general_taux_en_bmaf:
       '1955-06-01':
         value: null
     metadata:
+      ipp_csv_id: tx_gene_6ans
       unit: /1
   metadata:
     order:
@@ -50,6 +51,7 @@ regime_agricole_taux_en_bmaf:
       '1955-06-01':
         value: null
     metadata:
+      ipp_csv_id: tx_agri_3enf_02ans
       unit: /1
   metadata:
     order:
@@ -64,6 +66,7 @@ regime_agricole_taux_en_bmaf:
     '1955-06-01':
       value: null
   metadata:
+    ipp_csv_id: tx_amf_2enf
     unit: /1
 3_enfants_charge:
   description: 3 enfants à charge
@@ -73,6 +76,7 @@ regime_agricole_taux_en_bmaf:
     '1955-06-01':
       value: 0.15
   metadata:
+    ipp_csv_id: tx_amf_3enf
     unit: /1
 4_enfants_charge:
   description: 4 enfants à charge
@@ -82,6 +86,7 @@ regime_agricole_taux_en_bmaf:
     '1955-06-01':
       value: 0.25
   metadata:
+    ipp_csv_id: tx_amf_4enf
     unit: /1
 5_enfants_charge:
   description: 5 enfants à charge
@@ -91,6 +96,7 @@ regime_agricole_taux_en_bmaf:
     '1955-06-01':
       value: 0.4
   metadata:
+    ipp_csv_id: tx_amf_5enf
     unit: /1
 6_enfants_charge:
   description: 6 enfants à charge
@@ -100,6 +106,7 @@ regime_agricole_taux_en_bmaf:
     '1955-06-01':
       value: 0.5
   metadata:
+    ipp_csv_id: tx_amf_6enf
     unit: /1
 documentation: |
   Notes

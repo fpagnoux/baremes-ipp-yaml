@@ -17,6 +17,7 @@ super_95:
     '2005-01-01':
       value: 0.012
   metadata:
+    ipp_csv_id: tgap_super95
     unit: /1
 metadata:
   order:
@@ -63,6 +64,7 @@ super_98:
     '2005-01-01':
       value: 0.012
   metadata:
+    ipp_csv_id: tgap_super98
     unit: /1
 super_avec_additifs_ars:
   description: Super avec additifs (ARS)
@@ -82,6 +84,7 @@ super_avec_additifs_ars:
     '2005-01-01':
       value: 0.012
   metadata:
+    ipp_csv_id: tgap_ars
     unit: /1
 super_e10:
   description: Super E10
@@ -95,6 +98,7 @@ super_e10:
     '2005-01-01':
       value: null
   metadata:
+    ipp_csv_id: tgap_e10
     unit: /1
 super_e85:
   description: Super E85
@@ -112,6 +116,7 @@ super_e85:
     '2005-01-01':
       value: null
   metadata:
+    ipp_csv_id: tgap_e85
     unit: /1
 gazole_routier:
   description: Gazole routier
@@ -131,6 +136,7 @@ gazole_routier:
     '2005-01-01':
       value: 0.012
   metadata:
+    ipp_csv_id: tgap_gazole
     unit: /1
 gazole_b30:
   description: Gazole B30
@@ -150,6 +156,7 @@ gazole_b30:
     '2005-01-01':
       value: 0.012
   metadata:
+    ipp_csv_id: tgap_b30
     unit: /1
 documentation: |
   Notes :

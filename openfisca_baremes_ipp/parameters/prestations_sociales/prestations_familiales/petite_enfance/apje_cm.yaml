@@ -8,6 +8,8 @@ mois_grossesse_ouverture_droits_1:
       value: 4.0
     '1985-01-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: nb_mois
 metadata:
   order:
   - mois_grossesse_ouverture_droits_1
@@ -56,6 +58,8 @@ age_limite_enfants_ouvrant_droit_apje_2:
       value: null
     '1985-01-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: apje_enf_agemax
 montant_apje_en_bmaf:
   description: |-
     Montant de l'APJE
@@ -66,6 +70,7 @@ montant_apje_en_bmaf:
     '1985-01-01':
       value: 0.4595
   metadata:
+    ipp_csv_id: tx_apje
     unit: /1
 documentation: |
   Notes :

@@ -7,6 +7,7 @@ tout_employeur:
       '1972-07-01':
         value: 0.001
     metadata:
+      ipp_csv_id: fnal_p_0_1
       unit: /1
   metadata:
     order:
@@ -48,6 +49,7 @@ entreprises_plus_20_salaries:
       '1972-07-01':
         value: null
     metadata:
+      ipp_csv_id: fnal_p20_1_
       unit: /1
   metadata:
     order:

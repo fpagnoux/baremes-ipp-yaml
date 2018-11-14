@@ -9,6 +9,8 @@ nombre_annees_carriere_entrant_en_jeu_dans_determination_salaire_annuel_moyen:
         value: 25.0
       '1972-01-01':
         value: null
+    metadata:
+      ipp_csv_id: nbsam_0148
   metadata:
     order:
     - '1948'

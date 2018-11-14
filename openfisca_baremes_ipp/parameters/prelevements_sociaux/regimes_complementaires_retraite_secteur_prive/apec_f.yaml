@@ -78,6 +78,7 @@ forfait_annuel:
       '1976-03-01':
         value: 13.68
     metadata:
+      ipp_csv_id: apec_p_f
       unit:
         '2002-03-01': currency-EUR
         '1976-03-01': currency-FRF

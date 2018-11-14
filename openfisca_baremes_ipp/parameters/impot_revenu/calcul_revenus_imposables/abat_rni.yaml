@@ -218,6 +218,7 @@ abattement_personnes_agees_65_ans_invalide_4:
       '1977-01-01':
         value: 34000.0
     metadata:
+      ipp_csv_id: plaf_pers_age2
       unit:
         '2001-01-01': currency-EUR
         '1977-01-01': currency-FRF
@@ -308,6 +309,7 @@ abattement_rattachement_enfants_maries:
       '1977-01-01':
         value: 7900.0
     metadata:
+      ipp_csv_id: abt_enfmaries
       unit:
         '2001-01-01': currency-EUR
         '1977-01-01': currency-FRF

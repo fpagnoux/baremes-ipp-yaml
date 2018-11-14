@@ -118,6 +118,7 @@ seuil_rfr_etre_eligibilite_ppe:
       '1999-01-01':
         value: null
     metadata:
+      ipp_csv_id: seuil_ppe_max_coup
       unit:
         '2001-01-01': currency-EUR
         '2000-01-01': currency-FRF
@@ -138,6 +139,7 @@ taux_ppe:
       '1999-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_ret_ppe_coup
       unit: /1
   metadata:
     order:
@@ -158,6 +160,7 @@ coefficient_majoration_ppe_temps_partiel:
       '1999-01-01':
         value: null
     metadata:
+      ipp_csv_id: maj_ppe_tpbis
       unit: /1
   metadata:
     order:
@@ -186,6 +189,7 @@ supplements:
       '1999-01-01':
         value: null
     metadata:
+      ipp_csv_id: supp_ppe_enf
       unit:
         '2001-01-01': currency-EUR
         '2000-01-01': currency-FRF
@@ -208,6 +212,7 @@ minimun_ppe:
       '1999-01-01':
         value: null
     metadata:
+      ipp_csv_id: ppe_min
       unit:
         '2001-01-01': currency-EUR
         '2000-01-01': currency-FRF

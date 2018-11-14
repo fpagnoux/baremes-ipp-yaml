@@ -302,6 +302,7 @@ plafond_avantages_procures_par_demi_part_qf:
       '1950-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_qf_inv
       unit:
         '2001-01-01': currency-EUR
         '1998-01-01': currency-FRF
@@ -350,6 +351,7 @@ veuf_avec_plusieurs_enfants_charge:
     '1950-01-01':
       value: null
   metadata:
+    ipp_csv_id: plaf_qf_veuf
     unit:
       '2001-01-01': currency-EUR
       '1998-01-01': currency-FRF
@@ -368,6 +370,8 @@ decote:
         value: 1.5
       '1950-01-01':
         value: null
+    metadata:
+      ipp_csv_id: nbp_dec
   metadata:
     order:
     - nombre_part_limite
@@ -383,6 +387,7 @@ reduction_impot_sous_condition_revenus:
       '1950-01-01':
         value: null
     metadata:
+      ipp_csv_id: reduc_bas_revenus_plaf_enf
       unit: currency-EUR
   metadata:
     order:

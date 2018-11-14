@@ -99,6 +99,7 @@ salaire_reference_ircantec:
     '1925-01-01':
       value: null
   metadata:
+    ipp_csv_id: sal_ref_ircantec
     unit: currency-EUR
 metadata:
   order:
@@ -191,6 +192,7 @@ salaire_reference_igrante:
     '1925-01-01':
       value: 0.00305
   metadata:
+    ipp_csv_id: sal_ref_igrante
     unit: currency-EUR
 salaire_reference_ipacte:
   description: Salaire de référence IPACTE
@@ -270,6 +272,7 @@ salaire_reference_ipacte:
     '1925-01-01':
       value: 0.00419
   metadata:
+    ipp_csv_id: sal_ref_ipacte
     unit: currency-EUR
 documentation: |
   Sources : 

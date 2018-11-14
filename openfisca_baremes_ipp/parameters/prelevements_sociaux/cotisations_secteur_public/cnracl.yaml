@@ -66,6 +66,7 @@ cnracl:
       '1947-09-19':
         value: 0.12
     metadata:
+      ipp_csv_id: cnracl_p
       unit: /1
   metadata:
     order:
@@ -177,6 +178,7 @@ atiacl:
       '1947-09-19':
         value: null
     metadata:
+      ipp_csv_id: atiacl_p
       unit: /1
   metadata:
     order:
@@ -195,6 +197,7 @@ fccpa:
       '1947-09-19':
         value: null
     metadata:
+      ipp_csv_id: fccpa_p
       unit: /1
   metadata:
     order:
@@ -219,6 +222,7 @@ feh:
       '1947-09-19':
         value: null
     metadata:
+      ipp_csv_id: feh_p
       unit: /1
   metadata:
     order:

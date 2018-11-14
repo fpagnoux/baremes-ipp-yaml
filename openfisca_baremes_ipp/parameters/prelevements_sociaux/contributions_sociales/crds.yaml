@@ -5,6 +5,7 @@ taux:
     '1996-02-01':
       value: 0.005
   metadata:
+    ipp_csv_id: crds
     unit: /1
 metadata:
   order:

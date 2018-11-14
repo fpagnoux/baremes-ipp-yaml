@@ -9,6 +9,7 @@ taux_en_bmaf:
       '1976-08-01':
         value: 1.0
     metadata:
+      ipp_csv_id: tx_jeune_travailleur
       unit: /1
   metadata:
     order:

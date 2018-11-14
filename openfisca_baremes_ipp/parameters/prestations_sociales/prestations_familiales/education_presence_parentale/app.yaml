@@ -11,6 +11,7 @@ montant_taux_plein_bmaf:
       '2001-01-01':
         value: 1.8854
     metadata:
+      ipp_csv_id: app_tx_plein_seul
       unit: /1
   metadata:
     order:
@@ -43,6 +44,7 @@ montant_taux_partiel_bmaf:
       '2001-01-01':
         value: 1.2444
     metadata:
+      ipp_csv_id: app_tx_partiel2_seul
       unit: /1
   metadata:
     order:
@@ -54,4 +56,6 @@ duree_maximale_allocation_annee:
       value: null
     '2001-01-01':
       value: 1.0
+  metadata:
+    ipp_csv_id: app_duree_max
 documentation: ''

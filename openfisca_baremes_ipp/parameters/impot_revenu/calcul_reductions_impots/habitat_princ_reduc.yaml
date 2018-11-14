@@ -61,6 +61,7 @@ reduction_impot_interets_emprunt_habitat:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: increment_habitat
       unit:
         '2001-01-01': currency-EUR
         '1985-01-01': currency-FRF
@@ -83,6 +84,7 @@ reduction_impot_gros_travaux:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_grostravaux
       unit: currency-FRF
   metadata:
     order:
@@ -99,6 +101,7 @@ interets_emprunts:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: inc_int_emp
       unit: currency-FRF
   metadata:
     order:
@@ -115,6 +118,7 @@ deduction_charges:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: inc_deduc
       unit: currency-FRF
   metadata:
     order:

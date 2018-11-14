@@ -30,6 +30,7 @@ complement_libre_choix_mode_garde_en_bmaf_1:
       '2004-01-01':
         value: 0.4314
     metadata:
+      ipp_csv_id: clcmg_03ans_rev3
       unit: /1
   metadata:
     order:

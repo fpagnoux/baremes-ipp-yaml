@@ -55,6 +55,7 @@ salaries:
       '1959-01-01':
         value: null
     metadata:
+      ipp_csv_id: chom_s_1_4
       unit: /1
   metadata:
     order:
@@ -202,6 +203,7 @@ employeurs:
       '1959-01-01':
         value: null
     metadata:
+      ipp_csv_id: chom_p_1_4
       unit: /1
   metadata:
     order:

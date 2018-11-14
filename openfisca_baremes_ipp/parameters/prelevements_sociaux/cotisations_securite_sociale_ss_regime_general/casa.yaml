@@ -5,6 +5,7 @@ pensions_retraite_preretraite_invalidite:
     '2013-04-01':
       value: 0.003
   metadata:
+    ipp_csv_id: casa_pens
     unit: /1
 metadata:
   order:
@@ -34,6 +35,7 @@ seuil_exoneration_irpp_paye_en_n_1:
     '2013-04-01':
       value: 61.0
   metadata:
+    ipp_csv_id: casa_seuil
     unit: currency-EUR
 seuil_exoneration_rfr_1_part_qf_en_n_2:
   description: Seuil d'exonération (RFR pour 1 part de QF en N-2)

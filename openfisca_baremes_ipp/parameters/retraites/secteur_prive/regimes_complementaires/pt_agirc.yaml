@@ -371,6 +371,7 @@ valeur_point_agirc_en_euros:
     '1947-04-01':
       value: 0.00609796068949642
   metadata:
+    ipp_csv_id: val_point_agirc
     unit: currency-EUR
 documentation: |
   15 AF*B104

@@ -9,6 +9,7 @@ plafond_ressources_revenu:
       '1976-07-01':
         value: 8040.0
     metadata:
+      ipp_csv_id: agf_plaf_sup3_enf
       unit: currency-FRF
   metadata:
     order:
@@ -39,6 +40,7 @@ plafond_ressources_2_revenus:
       '1976-07-01':
         value: 8040.0
     metadata:
+      ipp_csv_id: agf_plaf_sup3_enf_biact
       unit: currency-FRF
   metadata:
     order:
@@ -51,6 +53,7 @@ plafond_unique_montant_mensuel_max_majoration_s_u:
     '1976-07-01':
       value: 291.35
   metadata:
+    ipp_csv_id: agf_plaf_unique
     unit: currency-FRF
 documentation: |
   Notes : 

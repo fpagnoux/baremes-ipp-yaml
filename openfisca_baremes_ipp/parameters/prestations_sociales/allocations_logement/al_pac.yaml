@@ -6,6 +6,8 @@ age_limite_enfants_charge:
       value: 21.0
     '1991-11-11':
       value: 18.0
+  metadata:
+    ipp_csv_id: ag_max_pac_alf
 metadata:
   order:
   - age_limite_enfants_charge
@@ -58,6 +60,8 @@ age_minimal:
         value: 62.0
       '1991-11-11':
         value: 60.0
+    metadata:
+      ipp_csv_id: ag_min_ascendants2
   metadata:
     order:
     - ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2
@@ -70,6 +74,7 @@ pourcentage_minimal_handicap_ascendants_descendants_3eme_degre_maximum:
     '1991-11-11':
       value: null
   metadata:
+    ipp_csv_id: pct_handicap
     unit: /1
 plafonds_ressources_que_potentielles_personnes_charge_autre_que_enfants_doivent_respecter_1:
   description: Plafonds de ressources que les potentielles personnes à charge autre

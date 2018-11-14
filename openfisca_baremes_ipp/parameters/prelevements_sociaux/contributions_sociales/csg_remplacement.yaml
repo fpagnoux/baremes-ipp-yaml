@@ -15,6 +15,7 @@ pensions_retraite_invalidite:
       '1991-02-01':
         value: null
     metadata:
+      ipp_csv_id: seuil_csg_pens_red2_demip
       unit: currency-EUR
   metadata:
     order:
@@ -70,6 +71,7 @@ allocations_preretraite:
       '1991-02-01':
         value: null
     metadata:
+      ipp_csv_id: csg_pre_red
       unit: /1
   metadata:
     order:
@@ -86,6 +88,7 @@ indemnites_journalieres_ij:
       '1991-02-01':
         value: null
     metadata:
+      ipp_csv_id: csg_ij_ded
       unit: /1
   metadata:
     order:

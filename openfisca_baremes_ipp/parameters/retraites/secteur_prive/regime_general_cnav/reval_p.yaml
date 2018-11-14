@@ -170,6 +170,8 @@ coefficient:
       value: 1.15
     '1949-01-01':
       value: 1.17
+  metadata:
+    ipp_csv_id: revalorg
 metadata:
   order:
   - coefficient
@@ -548,6 +550,7 @@ associe:
     '1949-01-01':
       value: 0.16999999999999993
   metadata:
+    ipp_csv_id: revalorg_pct
     unit: /1
 documentation: |
   Notes :

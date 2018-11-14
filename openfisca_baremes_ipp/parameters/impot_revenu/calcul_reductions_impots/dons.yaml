@@ -165,6 +165,7 @@ dons_coluche:
       '1975-01-01':
         value: null
     metadata:
+      ipp_csv_id: plafcoluche
       unit:
         '2001-01-01': currency-EUR
         '1988-01-01': currency-FRF
@@ -187,6 +188,7 @@ dons_aux_oeuvres:
       '1975-01-01':
         value: null
     metadata:
+      ipp_csv_id: txdons
       unit: /1
   metadata:
     order:
@@ -209,6 +211,7 @@ reduction_impot_dons:
       '1975-01-01':
         value: null
     metadata:
+      ipp_csv_id: plafdons
       unit: /1
   metadata:
     order:
@@ -233,6 +236,7 @@ dons_interet_general:
       '1975-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_donsintgene
       unit: /1
   metadata:
     order:

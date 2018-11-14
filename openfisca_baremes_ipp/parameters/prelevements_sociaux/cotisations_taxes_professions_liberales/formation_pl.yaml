@@ -9,6 +9,7 @@ formation_professionnelle:
       '1992-01-01':
         value: 0.0015
     metadata:
+      ipp_csv_id: form_plib_0_1
       unit: /1
   metadata:
     order:

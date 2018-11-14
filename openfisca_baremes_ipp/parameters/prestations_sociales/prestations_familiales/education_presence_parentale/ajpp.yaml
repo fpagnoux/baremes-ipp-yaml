@@ -7,6 +7,7 @@ montant_en_bmaf:
       '2006-06-05':
         value: 0.1263
     metadata:
+      ipp_csv_id: ajpp_seul
       unit: /1
   metadata:
     order:
@@ -27,9 +28,13 @@ nombre_max_allocations_journalieres_par_mois:
   values:
     '2006-06-05':
       value: 22.0
+  metadata:
+    ipp_csv_id: ajpp_nbjours_max
 duree_allocation_annees:
   description: Durée de l'allocation (années)
   values:
     '2006-06-05':
       value: 3.0
+  metadata:
+    ipp_csv_id: ajpp_duree_alloc
 documentation: ''

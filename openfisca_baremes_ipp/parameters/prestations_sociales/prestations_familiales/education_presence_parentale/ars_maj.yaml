@@ -21,6 +21,7 @@ majoration_exceptionnelle:
     '1977-09-17':
       value: 300.0
   metadata:
+    ipp_csv_id: maj_ars
     unit: currency-FRF
 metadata:
   order:

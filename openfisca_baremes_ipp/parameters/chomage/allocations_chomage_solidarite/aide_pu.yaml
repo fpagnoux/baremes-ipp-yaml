@@ -29,6 +29,7 @@ allocation_principale:
       '1967-10-01':
         value: 5.7
     metadata:
+      ipp_csv_id: aide_pu_3_
       unit: currency-FRF
   metadata:
     order:
@@ -91,6 +92,7 @@ majoration_conjoint_enfant_charge:
     '1967-10-01':
       value: 2.5
   metadata:
+    ipp_csv_id: aide_pu_maj
     unit: currency-FRF
 documentation: |
   Allocation de solidarité versée sans limite de durée, mais les allocations et majorations sont réduites de 10% après 12 mois pour chaque année supplémentaire.

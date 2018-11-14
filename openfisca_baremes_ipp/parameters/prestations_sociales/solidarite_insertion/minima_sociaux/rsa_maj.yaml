@@ -8,6 +8,7 @@ majoration_montant_maximal_en_base_rsa:
       '2009-06-01':
         value: 0.4
     metadata:
+      ipp_csv_id: rsa_rmi_enf3
       unit: /1
   metadata:
     order:
@@ -36,6 +37,7 @@ majoration_isolement_en_base_rsa:
       '2009-06-01':
         value: 0.428
     metadata:
+      ipp_csv_id: rsa_isole_enf
       unit: /1
   metadata:
     order:
@@ -48,6 +50,7 @@ majoration_ressources_revenus_activite:
     '2009-06-01':
       value: 0.62
   metadata:
+    ipp_csv_id: tx_rsa
     unit: /1
 montant_minimum_verse:
   description: Montant minimum versé
@@ -57,6 +60,7 @@ montant_minimum_verse:
     '2009-06-01':
       value: 6.0
   metadata:
+    ipp_csv_id: min_rsa_rmi
     unit: currency-EUR
 documentation: |
   Notes :

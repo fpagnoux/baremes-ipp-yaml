@@ -25,6 +25,7 @@ fp_etat:
         '1967-10-01':
           value: 0.01
       metadata:
+        ipp_csv_id: mmid_e_s_0_
         unit: /1
     metadata:
       order:

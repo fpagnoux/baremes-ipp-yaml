@@ -23,6 +23,7 @@ salaire_reference_rsi_commercants:
     '2005-01-01':
       value: 13.89
   metadata:
+    ipp_csv_id: sal_ref_igrante
     unit: currency-EUR
 metadata:
   order:

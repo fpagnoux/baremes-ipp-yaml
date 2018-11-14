@@ -4,6 +4,8 @@ constante_coefficient_k:
   values:
     '2007-07-01':
       value: 0.95
+  metadata:
+    ipp_csv_id: cons_k_apl
 metadata:
   order:
   - constante_coefficient_k
@@ -27,6 +29,7 @@ multiplicateur_n:
       '2007-07-01':
         value: 1217.26
     metadata:
+      ipp_csv_id: mult_kl2_apl
       unit: currency-EUR
   metadata:
     order:
@@ -38,6 +41,8 @@ n_0_personnes_charge:
     values:
       '2007-07-01':
         value: 1.8
+    metadata:
+      ipp_csv_id: n_coup_apl
   metadata:
     order:
     - menage
@@ -49,6 +54,7 @@ taux_loyer_minimum_lo_apl_accession:
       '2007-07-01':
         value: 0.48
     metadata:
+      ipp_csv_id: lo_apl_tx6
       unit: /1
   metadata:
     order:
@@ -61,6 +67,7 @@ seuils_revenus:
       '2007-07-01':
         value: 6331.29
     metadata:
+      ipp_csv_id: seuil_tr5_lo_apl
       unit: currency-EUR
   metadata:
     order:
@@ -71,6 +78,7 @@ majoration_loyer_minimum_lo:
     '2007-07-01':
       value: 45.57
   metadata:
+    ipp_csv_id: maj_lo_apl
     unit: currency-EUR
 documentation: |
   Notes :

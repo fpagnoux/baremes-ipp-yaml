@@ -40,6 +40,7 @@ compte_epargne_co_developpement:
       '2009-01-01':
         value: 0.25
     metadata:
+      ipp_csv_id: base_codev
       unit: /1
   metadata:
     order:

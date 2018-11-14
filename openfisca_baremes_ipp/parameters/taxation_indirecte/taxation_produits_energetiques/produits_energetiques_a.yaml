@@ -43,6 +43,7 @@ goudrons_utilises_comme_combustibles_100kg:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_goudron_combustible
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -149,6 +150,7 @@ white_spirit_utilise_comme_combustible_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_white_spirit_combustible
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -198,6 +200,7 @@ essences_speciales_utilisees_comme_carburants_combustibles_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_essences_speciales
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -243,6 +246,7 @@ huiles_legeres_preparation_essence_aviation_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_huiles_legeres_ess_avion
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -288,6 +292,7 @@ supercarburants_dont_sp95_sp98_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_sp95_sp98
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -333,6 +338,7 @@ supercarburants_contenant_additif_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_super_additif
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -360,6 +366,7 @@ supere10_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_super_e10
     unit: currency-EUR
 essence_normale_hectolitre:
   description: Essence normale (hectolitre)
@@ -383,6 +390,7 @@ essence_normale_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_essence_normale
     unit: currency-FRF
 documentation: |
   Notes :

@@ -186,6 +186,7 @@ taux_effectifs_salaries_employeurs:
         '1948-01-01':
           value: null
       metadata:
+        ipp_csv_id: agirc81_p_4_8
         unit: /1
     metadata:
       order:

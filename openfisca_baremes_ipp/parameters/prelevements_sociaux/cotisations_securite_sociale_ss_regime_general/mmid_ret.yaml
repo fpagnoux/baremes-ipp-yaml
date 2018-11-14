@@ -15,6 +15,7 @@ avantages_retraite:
       '1980-07-01':
         value: 0.02
     metadata:
+      ipp_csv_id: mmid_ret_comp
       unit: /1
   metadata:
     order:

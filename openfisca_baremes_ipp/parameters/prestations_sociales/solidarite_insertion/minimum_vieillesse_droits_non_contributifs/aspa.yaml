@@ -38,6 +38,7 @@ montant_maximum_annuel:
       '2006-01-01':
         value: 13137.69
     metadata:
+      ipp_csv_id: aspa_men
       unit: currency-EUR
   metadata:
     order:
@@ -112,6 +113,7 @@ plafond_ressources:
       '2006-01-01':
         value: 13137.69
     metadata:
+      ipp_csv_id: plaf_mv_men
       unit: currency-EUR
   metadata:
     order:

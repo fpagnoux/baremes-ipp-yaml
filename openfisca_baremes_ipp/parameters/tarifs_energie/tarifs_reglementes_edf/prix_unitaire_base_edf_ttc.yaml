@@ -73,6 +73,7 @@ prix_kwh_3_kva:
     '1983-01-01':
       value: 0.0891
   metadata:
+    ipp_csv_id: tarif_fixe_base_3kva_ttc
     unit: currency-EUR
 metadata:
   order:
@@ -152,6 +153,7 @@ prix_kwh_6_kva:
     '1983-01-01':
       value: 0.084
   metadata:
+    ipp_csv_id: tarif_fixe_base_6kva_ttc
     unit: currency-EUR
 documentation: "Source : base Pégase, prix pour un ménage, tarif bleu option base,\
   \ en euros TTC, données annuelles\n"

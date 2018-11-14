@@ -19,6 +19,7 @@ enfants_entre_6_10_ans_en_bmaf_1:
     '1978-01-01':
       value: null
   metadata:
+    ipp_csv_id: ars610
     unit: /1
 metadata:
   order:
@@ -74,6 +75,7 @@ enfants_entre_11_14_ans_en_bmaf_2:
     '1978-01-01':
       value: 0.2
   metadata:
+    ipp_csv_id: ars1114
     unit: /1
 enfants_15_ans_en_bmaf_3:
   description: |-
@@ -93,6 +95,7 @@ enfants_15_ans_en_bmaf_3:
     '1978-01-01':
       value: 0.2
   metadata:
+    ipp_csv_id: ars1517
     unit: /1
 documentation: |
   Notes :

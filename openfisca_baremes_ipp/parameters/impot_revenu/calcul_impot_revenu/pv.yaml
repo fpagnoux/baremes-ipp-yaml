@@ -173,6 +173,7 @@ imposition_plus_values_cession_valeurs_mobilieres_plus_values_professionnelles:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: seuil_pv
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
@@ -196,6 +197,7 @@ imposition_plus_values_mobilieres_levees_options_attribuees_depuis_27_4_2000_ces
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: seuil_pv1
       unit:
         '2001-01-01': currency-EUR
         '2000-01-01': currency-FRF
@@ -216,6 +218,7 @@ pea:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_pv_pro
       unit: /1
   metadata:
     order:

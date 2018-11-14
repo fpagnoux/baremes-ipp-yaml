@@ -13,6 +13,7 @@ taux_maximal_hors_ile_france:
       '1971-09-01':
         value: null
     metadata:
+      ipp_csv_id: vt_p_0_
       unit: /1
   metadata:
     order:
@@ -119,6 +120,7 @@ paris:
     '1971-09-01':
       value: 0.017
   metadata:
+    ipp_csv_id: vt_75
     unit: /1
 essonne:
   description: Essonne
@@ -150,6 +152,7 @@ essonne:
     '1971-09-01':
       value: null
   metadata:
+    ipp_csv_id: vt_91
     unit: /1
 hauts_seine:
   description: Hauts-de-seine
@@ -177,6 +180,7 @@ hauts_seine:
     '1971-09-01':
       value: 0.017
   metadata:
+    ipp_csv_id: vt_92
     unit: /1
 seine_saint_denis:
   description: Seine-Saint-Denis
@@ -202,6 +206,7 @@ seine_saint_denis:
     '1971-09-01':
       value: 0.017
   metadata:
+    ipp_csv_id: vt_93
     unit: /1
 val_marne:
   description: Val-de-Marne
@@ -227,6 +232,7 @@ val_marne:
     '1971-09-01':
       value: 0.017
   metadata:
+    ipp_csv_id: vt_94
     unit: /1
 val_oise:
   description: Val-d'Oise
@@ -258,6 +264,7 @@ val_oise:
     '1971-09-01':
       value: null
   metadata:
+    ipp_csv_id: vt_95
     unit: /1
 lyon:
   description: Lyon
@@ -281,6 +288,7 @@ lyon:
     '1971-09-01':
       value: null
   metadata:
+    ipp_csv_id: vt_lyon
     unit: /1
 marseille:
   description: Marseille
@@ -296,6 +304,7 @@ marseille:
     '1971-09-01':
       value: null
   metadata:
+    ipp_csv_id: vt_marseille
     unit: /1
 toulouse:
   description: Toulouse
@@ -315,6 +324,7 @@ toulouse:
     '1971-09-01':
       value: null
   metadata:
+    ipp_csv_id: vt_toulouse
     unit: /1
 bourg_en_bresse:
   description: Bourg-en-Bresse
@@ -330,6 +340,7 @@ bourg_en_bresse:
     '1971-09-01':
       value: null
   metadata:
+    ipp_csv_id: vt_beb
     unit: /1
 documentation: |
   Notes :

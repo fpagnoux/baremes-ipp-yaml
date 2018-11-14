@@ -32,6 +32,7 @@ montant:
       '2006-01-01':
         value: 7118.77
     metadata:
+      ipp_csv_id: asi2
       unit: currency-EUR
   metadata:
     order:
@@ -94,6 +95,7 @@ plafond_ressources:
       '2006-01-01':
         value: 13137.69
     metadata:
+      ipp_csv_id: plaf_ressource_couple
       unit: currency-EUR
   metadata:
     order:

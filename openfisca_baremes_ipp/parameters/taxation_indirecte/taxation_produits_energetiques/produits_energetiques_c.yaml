@@ -45,6 +45,7 @@ gazole_autres_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_diesel
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -172,6 +173,7 @@ fioul_lourd_100kg_net:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_fioul_lourd
     unit: currency-EUR
 fioul_avec_point_eclair_inferieur_120deg_c_hectolitre:
   description: Fioul avec point d'éclair inférieur à 120° C (hectolitre)
@@ -185,6 +187,7 @@ fioul_avec_point_eclair_inferieur_120deg_c_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_fioul_lourd_cond
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -214,6 +217,7 @@ fioul_lourd_hts_100kg:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_fioul_lourd_hts
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -243,6 +247,7 @@ fioul_lourd_bts_100kg:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_fioul_lourd_bts
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -274,6 +279,7 @@ propane_utilise_comme_carburants_sous_conditions_100kg_nets:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_propane_cond
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -305,6 +311,7 @@ propane_utilise_comme_carburants_autres_100kg_nets:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_propane_autres
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -354,6 +361,7 @@ butanes_liquefies_sous_condition_100kg_nets:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_butane_cond
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -385,6 +393,7 @@ butanes_liquefies_autres_100kg_nets:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_butane_autres
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF

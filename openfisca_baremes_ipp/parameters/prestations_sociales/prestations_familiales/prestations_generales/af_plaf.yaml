@@ -9,6 +9,7 @@ plafond_ressources:
       '1998-03-01':
         value: 129600.0
     metadata:
+      ipp_csv_id: plaf_af_0enf
       unit: currency-FRF
   metadata:
     order:
@@ -41,6 +42,7 @@ majoration_plafond:
       '1998-03-01':
         value: 43200.0
     metadata:
+      ipp_csv_id: maj_plaf_af_enf
       unit: currency-FRF
   metadata:
     order:

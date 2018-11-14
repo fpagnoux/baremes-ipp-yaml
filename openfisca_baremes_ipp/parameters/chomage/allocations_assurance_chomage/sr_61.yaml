@@ -30,6 +30,7 @@ taux:
     '1965-01-11':
       value: 0.075
   metadata:
+    ipp_csv_id: sr_61
     unit: /1
 metadata:
   order:

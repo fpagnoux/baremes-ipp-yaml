@@ -10,6 +10,7 @@ taux_1:
     '2004-01-01':
       value: 0.08
   metadata:
+    ipp_csv_id: retchap_tx1
     unit: /1
 metadata:
   order:
@@ -39,6 +40,7 @@ taux_2:
     '2004-01-01':
       value: 0.06
   metadata:
+    ipp_csv_id: retchap_tx2
     unit: /1
 taux_3:
   description: Taux 3
@@ -50,6 +52,7 @@ taux_3:
     '2004-01-01':
       value: 0.12
   metadata:
+    ipp_csv_id: retchap_tx3
     unit: /1
 majoration:
   description: Majoration
@@ -61,6 +64,7 @@ majoration:
     '2004-01-01':
       value: null
   metadata:
+    ipp_csv_id: retchap_maj
     unit: /1
 documentation: |
   Références du CSS :

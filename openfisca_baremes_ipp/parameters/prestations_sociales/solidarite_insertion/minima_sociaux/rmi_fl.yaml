@@ -9,6 +9,7 @@ forfait_logement_en_montant_forfaitaire_rmi:
       '1988-12-14':
         value: 0.165
     metadata:
+      ipp_csv_id: rmi_logt3
       unit: /1
   metadata:
     order:

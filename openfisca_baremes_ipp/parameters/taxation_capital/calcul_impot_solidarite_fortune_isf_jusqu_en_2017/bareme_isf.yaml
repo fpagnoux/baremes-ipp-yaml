@@ -27,6 +27,7 @@ seuils_tranches_bareme_isf:
       '1982-01-01':
         value: null
     metadata:
+      ipp_csv_id: seuil6_isf
       unit:
         '2002-01-01': currency-EUR
         '1999-01-01': currency-FRF
@@ -141,6 +142,8 @@ taux_marginaux_tranches_bareme_isf:
         value: 4.0
       '1982-01-01':
         value: 3.0
+    metadata:
+      ipp_csv_id: nbtranches
   metadata:
     order:
     - nombre_tranches_bareme

@@ -6,6 +6,8 @@ age_moyen_maximum_conjoints:
       value: null
     '1978-01-01':
       value: 26.0
+  metadata:
+    ipp_csv_id: age_moyen_conjoint
 metadata:
   order:
   - age_moyen_maximum_conjoints
@@ -52,6 +54,7 @@ smic_annee_reference_n_2:
     '1978-01-01':
       value: 8.58
   metadata:
+    ipp_csv_id: smic_ref
     unit: currency-FRF
 plafond_ressources_sans_enfant_1:
   description: Plafond de ressources - sans enfant (1)
@@ -77,6 +80,7 @@ plafond_ressources_sans_enfant_1:
     '1978-01-01':
       value: 36560.0
   metadata:
+    ipp_csv_id: plaf_0enf
     unit: currency-FRF
 majoration_par_enfant_supplementaire:
   description: Majoration par enfant supplémentaire
@@ -86,6 +90,7 @@ majoration_par_enfant_supplementaire:
     '1978-01-01':
       value: 0.25
   metadata:
+    ipp_csv_id: palf_enfsup
     unit: /1
 documentation: |
   Notes :

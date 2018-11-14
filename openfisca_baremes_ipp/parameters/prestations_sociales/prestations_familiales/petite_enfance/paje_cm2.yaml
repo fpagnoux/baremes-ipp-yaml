@@ -12,6 +12,7 @@ montant_en_bmaf:
       '2004-01-01':
         value: 2.2975
     metadata:
+      ipp_csv_id: tx_paje_adopt
       unit: /1
   metadata:
     order:

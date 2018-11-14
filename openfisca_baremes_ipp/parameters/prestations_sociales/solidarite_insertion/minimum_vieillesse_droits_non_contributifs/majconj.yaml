@@ -67,6 +67,7 @@ montant_majoration_conjoint_charge:
     '1948-07-01':
       value: 14500.0
   metadata:
+    ipp_csv_id: maj_avts_conj
     unit:
       '2002-01-01': currency-EUR
       '1960-01-01': currency-FRF

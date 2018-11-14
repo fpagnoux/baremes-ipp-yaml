@@ -5,6 +5,7 @@ employeur_sous_plafond:
     '1948-01-01':
       value: 0.015
   metadata:
+    ipp_csv_id: deces_p_0_1
     unit: /1
 metadata:
   order:

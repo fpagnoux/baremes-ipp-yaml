@@ -10,6 +10,8 @@ age_minimal_enfants_pris_en_compte:
       value: 3.0
     '1978-01-01':
       value: 0.0
+  metadata:
+    ipp_csv_id: cf_enf_agemin
 metadata:
   order:
   - age_minimal_enfants_pris_en_compte
@@ -63,6 +65,8 @@ age_maximal_enfants_pris_en_compte:
       value: 17.0
     '1978-01-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: cf_enf_agemax
 nombre_enfants_minimal:
   description: Nombre d'enfants minimal
   values:
@@ -74,6 +78,8 @@ nombre_enfants_minimal:
       value: 3.0
     '1978-01-01':
       value: 1.0
+  metadata:
+    ipp_csv_id: nenf_cf_min
 complement_familial_en_bmaf_en_bmaf:
   description: |-
     Complément familial (en % de la BMAF)
@@ -92,6 +98,7 @@ complement_familial_en_bmaf_en_bmaf:
       '1978-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_cf_maj
       unit: /1
   metadata:
     order:

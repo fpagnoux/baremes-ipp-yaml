@@ -31,6 +31,7 @@ villes_plus_5000_ha:
       '1941-01-01':
         value: 500.0
     metadata:
+      ipp_csv_id: bonif_sup5000
       unit:
         '1960-01-01': currency-FRF
         '1941-01-01': currency-AFRF
@@ -112,6 +113,7 @@ villes_moins_5000_ha:
       '1941-01-01':
         value: 500.0
     metadata:
+      ipp_csv_id: bonif_inf5000
       unit:
         '1960-01-01': currency-FRF
         '1941-01-01': currency-AFRF
@@ -150,6 +152,7 @@ majoration_conjoint:
     '1941-01-01':
       value: 1000.0
   metadata:
+    ipp_csv_id: majconj
     unit:
       '1960-01-01': currency-FRF
       '1941-01-01': currency-AFRF
@@ -167,6 +170,7 @@ region_parisienne:
     '1941-01-01':
       value: 1600.0
   metadata:
+    ipp_csv_id: ildf
     unit:
       '1960-01-01': currency-FRF
       '1941-01-01': currency-AFRF

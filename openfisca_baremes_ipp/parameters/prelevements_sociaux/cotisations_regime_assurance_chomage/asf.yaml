@@ -13,6 +13,7 @@ tranche:
       '1984-01-01':
         value: 0.012
     metadata:
+      ipp_csv_id: asf_p_0_1
       unit: /1
   metadata:
     order:
@@ -51,6 +52,7 @@ tranche_b:
       '1984-01-01':
         value: null
     metadata:
+      ipp_csv_id: asf_p_1_4
       unit: /1
   metadata:
     order:

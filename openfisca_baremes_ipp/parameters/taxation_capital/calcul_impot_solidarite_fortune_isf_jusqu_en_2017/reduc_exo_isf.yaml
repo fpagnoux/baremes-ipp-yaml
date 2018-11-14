@@ -11,6 +11,7 @@ reduction_isf_enfant_charge:
     '1989-01-01':
       value: 1000.0
   metadata:
+    ipp_csv_id: reduc_isf_enf
     unit:
       '2002-01-01': currency-EUR
       '1989-01-01': currency-FRF
@@ -54,6 +55,7 @@ abattement_residence_principale:
     '1989-01-01':
       value: null
   metadata:
+    ipp_csv_id: abt_residence
     unit: /1
 documentation: |
   Note : L'IGF (1982-1986) n'a jamais bénéficié de réduction pour personne à charge ou d'abattement sur la résidence principale. La réduction est instaurée à la création de l'ISF à partir du 1er janvier 1989, tandis que l'abattement est introduit à partir de 1999 par la loi de finances pour 1999.

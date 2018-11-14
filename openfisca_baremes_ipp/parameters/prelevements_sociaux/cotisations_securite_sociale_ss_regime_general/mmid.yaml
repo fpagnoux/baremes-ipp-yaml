@@ -19,6 +19,7 @@ salaire_sous_plafond:
       '1967-10-01':
         value: 0.095
     metadata:
+      ipp_csv_id: mmid_p_0_1
       unit: /1
   metadata:
     order:
@@ -99,6 +100,7 @@ tout_salaire:
       '1967-10-01':
         value: 0.02
     metadata:
+      ipp_csv_id: mmid_p_0_
       unit: /1
   metadata:
     order:

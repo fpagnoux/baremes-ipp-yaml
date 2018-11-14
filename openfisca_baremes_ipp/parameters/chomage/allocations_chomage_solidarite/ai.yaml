@@ -14,6 +14,7 @@ description: Allocation d'insertion (AI)
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: ai_16_25
     unit: currency-FRF
 metadata:
   order:
@@ -83,6 +84,7 @@ categorie_1:
     '1979-07-01':
       value: 40.0
   metadata:
+    ipp_csv_id: ai_16_techno
     unit: currency-FRF
 categorie_7:
   description: Catégorie 7
@@ -98,6 +100,7 @@ categorie_7:
     '1979-07-01':
       value: 40.0
   metadata:
+    ipp_csv_id: ai_femme_stage
     unit: currency-FRF
 categorie_6:
   description: Catégorie 6
@@ -125,6 +128,7 @@ categorie_6:
     '1979-07-01':
       value: 40.0
   metadata:
+    ipp_csv_id: ai_femme
     unit: currency-FRF
 categorie_5_devenant_categories_diverses_apres_1984:
   description: Catégorie 5 devenant Catégories diverses après 1984
@@ -172,6 +176,7 @@ categorie_5_devenant_categories_diverses_apres_1984:
     '1979-07-01':
       value: 20.0
   metadata:
+    ipp_csv_id: ai_detenu
     unit:
       '2002-01-01': currency-EUR
       '1979-07-01': currency-FRF
@@ -189,6 +194,7 @@ categorie_4:
     '1979-07-01':
       value: 30.0
   metadata:
+    ipp_csv_id: ai_service
     unit: currency-FRF
 categorie_2:
   description: Catégorie 2
@@ -204,6 +210,7 @@ categorie_2:
     '1979-07-01':
       value: 20.0
   metadata:
+    ipp_csv_id: ai_jeune_lic
     unit: currency-FRF
 categorie_3:
   description: Catégorie 3
@@ -219,6 +226,7 @@ categorie_3:
     '1979-07-01':
       value: 20.0
   metadata:
+    ipp_csv_id: ai_soutien
     unit: currency-FRF
 documentation: |
   Notes :

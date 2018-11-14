@@ -45,6 +45,7 @@ plafonnement_niches:
       '2008-01-01':
         value: null
     metadata:
+      ipp_csv_id: majo_nich
       unit: currency-EUR
   metadata:
     order:

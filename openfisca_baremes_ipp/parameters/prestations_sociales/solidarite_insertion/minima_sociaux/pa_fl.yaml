@@ -7,6 +7,7 @@ taux_forfait_logement:
       '2016-01-01':
         value: 0.165
     metadata:
+      ipp_csv_id: pa_logt3
       unit: /1
   metadata:
     order:

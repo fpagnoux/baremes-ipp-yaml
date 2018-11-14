@@ -13,6 +13,7 @@ pourcentage_sjr_en_complement_partie_fixe:
       '1968-07-22':
         value: 0.35
     metadata:
+      ipp_csv_id: base_prct_6_
       unit: /1
   metadata:
     order:
@@ -54,6 +55,7 @@ pourcentage_sjr:
     '1968-07-22':
       value: null
   metadata:
+    ipp_csv_id: base_prct
     unit: /1
 montant_maximum_sjr:
   description: Montant maximum (% SJR)
@@ -67,6 +69,7 @@ montant_maximum_sjr:
     '1968-07-22':
       value: null
   metadata:
+    ipp_csv_id: base_max
     unit: /1
 documentation: |
   Allocation égale au maximum entre un premier pourcentage du salaire journalier de référence, plus une partie fixe, ou un pourcentage plus élevé du salaire journalier de référence sans partie fixe

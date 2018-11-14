@@ -71,6 +71,7 @@ prix_kwh_base_ttc:
     '1983-01-01':
       value: 0.0537
   metadata:
+    ipp_csv_id: prix_unitaire_gdf_base_ttc
     unit: currency-EUR
 metadata:
   order:
@@ -150,6 +151,7 @@ prix_kwh_b0_ttc:
     '1983-01-01':
       value: 0.0438
   metadata:
+    ipp_csv_id: prix_unitaire_gdf_b0_ttc
     unit: currency-EUR
 prix_kwh_b1_ttc:
   description: Prix kWh B1 - TTC
@@ -221,6 +223,7 @@ prix_kwh_b1_ttc:
     '1983-01-01':
       value: 0.0315
   metadata:
+    ipp_csv_id: prix_unitaire_gdf_b1_ttc
     unit: currency-EUR
 prix_kwh_b2i_ttc:
   description: Prix kWh B2I - TTC
@@ -292,5 +295,6 @@ prix_kwh_b2i_ttc:
     '1983-01-01':
       value: null
   metadata:
+    ipp_csv_id: prix_unitaire_gdf_b2i_ttc
     unit: currency-EUR
 documentation: "Source : base Pégase, prix pour un ménage, en euros TTC, données annuelles\n"

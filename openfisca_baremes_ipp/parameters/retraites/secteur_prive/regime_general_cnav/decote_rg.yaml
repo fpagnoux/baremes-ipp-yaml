@@ -11,6 +11,7 @@ coefficient_minoration_par_trimestres_manquants:
         '1946-01-01':
           value: null
       metadata:
+        ipp_csv_id: decote_0152
         unit: /1
     metadata:
       order:
@@ -40,6 +41,7 @@ taux_minore_taux_plein_1_decote_nombre_trimestres_manquants:
       '1946-01-01':
         value: null
     metadata:
+      ipp_csv_id: decote_0153
       unit: /1
   metadata:
     order:

@@ -50,6 +50,7 @@ reduction_impot_cotisations_syndicales:
       '1987-01-01':
         value: null
     metadata:
+      ipp_csv_id: plafcotsynd
       unit: /1
   metadata:
     order:

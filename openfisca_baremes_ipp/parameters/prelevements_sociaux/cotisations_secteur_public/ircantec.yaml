@@ -16,6 +16,7 @@ taux_appel:
     '1971-01-01':
       value: 0.6
   metadata:
+    ipp_csv_id: ircantec_assiette
     unit: /1
 metadata:
   order:
@@ -83,6 +84,7 @@ taux_cotisations_contractuels:
         '1971-01-01':
           value: 0.0825
       metadata:
+        ipp_csv_id: ircantec_p_1_4ou8_75_theo
         unit: /1
     metadata:
       order:
@@ -116,6 +118,7 @@ taux_cotisations_effectifs:
         '1971-01-01':
           value: null
       metadata:
+        ipp_csv_id: ircantec_p_1_8
         unit: /1
     metadata:
       order:

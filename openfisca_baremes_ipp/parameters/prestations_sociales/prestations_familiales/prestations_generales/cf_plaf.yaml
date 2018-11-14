@@ -13,6 +13,7 @@ plafond_ressources_revenu_brut_imposable_1:
       '1978-01-01':
         value: 52048.0
     metadata:
+      ipp_csv_id: plaf_1enf_biact
       unit: currency-FRF
   metadata:
     order:
@@ -45,6 +46,7 @@ majoration_plafond_ressources_enfant_supplementaire:
     '1978-01-01':
       value: 0.17011220411927452
   metadata:
+    ipp_csv_id: plaf_suppenf_biact
     unit: /1
 documentation: |
   Notes :

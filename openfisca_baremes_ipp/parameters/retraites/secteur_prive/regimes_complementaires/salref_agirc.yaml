@@ -145,6 +145,7 @@ salaire_reference_agirc_prix_achat_valeur_nominale:
     '1947-04-01':
       value: 26.0
   metadata:
+    ipp_csv_id: sal_ref_agirc_nominal
     unit:
       '2002-01-01': currency-EUR
       '1960-01-01': currency-FRF
@@ -315,6 +316,7 @@ salaire_reference_agirc_prix_achat_en_euros:
     '1947-04-01':
       value: 0.0396
   metadata:
+    ipp_csv_id: sal_ref_agirc_euros
     unit: currency-EUR
 documentation: |
   Sources : 

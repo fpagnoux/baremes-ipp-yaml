@@ -5,6 +5,7 @@ assurances_incendie_particuliers:
     '1979-07-01':
       value: 0.3
   metadata:
+    ipp_csv_id: taxe_assu_incendie_particuliers
     unit: /1
 metadata:
   order:
@@ -48,6 +49,7 @@ assurances_incendie_risques_agricoles_non_exoneres:
     '1979-07-01':
       value: 0.18
   metadata:
+    ipp_csv_id: taxe_assu_incendie_agricole
     unit: /1
 assurances_incendie_souscrites_aupres_caisses_departementales:
   description: Assurances incendie souscrites auprès des caisses départementales
@@ -55,6 +57,7 @@ assurances_incendie_souscrites_aupres_caisses_departementales:
     '1979-07-01':
       value: 0.24
   metadata:
+    ipp_csv_id: taxe_assu_incendie_caisse_dep
     unit: /1
 assurance_pertes_exploitations_dues_incendie_industrie_etc:
   description: Assurance pertes d'exploitations dues à incendie industrie etc.
@@ -64,6 +67,7 @@ assurance_pertes_exploitations_dues_incendie_industrie_etc:
     '1979-07-01':
       value: 0.0875
   metadata:
+    ipp_csv_id: taxe_assu_incendie_industrie
     unit: /1
 contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_bis:
   description: Contrats d'assurance maladie individuelles et collectives, "solidaires
@@ -80,6 +84,7 @@ contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_b
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_assu_maladie_solidaire_responsable
     unit: /1
 contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter:
   description: Contrats d'assurance maladie individuelles et collectives, cas général
@@ -96,6 +101,7 @@ contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter:
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_assu_maladie_autres
     unit: /1
 assurance_bateaux_sport_plaisance:
   description: Assurance bateaux de sport ou de plaisance
@@ -107,6 +113,7 @@ assurance_bateaux_sport_plaisance:
     '1979-07-01':
       value: 0.0875
   metadata:
+    ipp_csv_id: taxe_assu_bateaux_sport_plaisance
     unit: /1
 assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_navigation_aerienne:
   description: Assurance risques non exonérés navigation fluviale ou maritimes, tous
@@ -119,6 +126,7 @@ assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_n
     '1979-07-01':
       value: 0.048
   metadata:
+    ipp_csv_id: taxe_assu_navig_fluviale_aerienne
     unit: /1
 assurances_vie_assimilees:
   description: Assurances vie et assimilées
@@ -130,6 +138,7 @@ assurances_vie_assimilees:
     '1979-07-01':
       value: 0.048
   metadata:
+    ipp_csv_id: taxe_assu_vie_et_assimiliees
     unit: /1
 rente_viagere_sous_conditions:
   description: Rente viagère sous conditions
@@ -139,6 +148,7 @@ rente_viagere_sous_conditions:
     '1979-07-01':
       value: 0.024
   metadata:
+    ipp_csv_id: taxe_rente_viagere_cond
     unit: /1
 assurances_credit_exportation:
   description: Assurances de crédit à l'exportation
@@ -148,6 +158,7 @@ assurances_credit_exportation:
     '1979-07-01':
       value: 0.0025
   metadata:
+    ipp_csv_id: taxe_assu_credit_export
     unit: /1
 contribution_secu_assurances_automobiles:
   description: Contribution sécu assurances automobiles
@@ -157,6 +168,7 @@ contribution_secu_assurances_automobiles:
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: contrib_secu_assu_auto
     unit: /1
 assurance_vehicules_terrestres_moteurs_particuliers:
   description: Assurance pour les véhicules terrestres à moteurs (pour les particuliers)
@@ -170,6 +182,7 @@ assurance_vehicules_terrestres_moteurs_particuliers:
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_assu_vtm_particuliers
     unit: /1
 assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite:
   description: Assurances de protection juridique art L127-1 code des assurances et
@@ -182,6 +195,7 @@ assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_assu_protec_juridique
     unit: /1
 assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances:
   description: Assurance véhicules terrestres à moteur lourds, du L211-1 code des
@@ -192,6 +206,7 @@ assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances:
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_assu_vtm_lourds
     unit: /1
 assurances_vehicules_terrestres_moteur_l211_1_autres:
   description: Assurances véhicules terrestres à moteur L211-1 autres
@@ -201,6 +216,7 @@ assurances_vehicules_terrestres_moteur_l211_1_autres:
     '1979-07-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_assu_vtm_autres
     unit: /1
 autres_assurances:
   description: Autres assurances
@@ -208,6 +224,7 @@ autres_assurances:
     '1979-07-01':
       value: 0.09
   metadata:
+    ipp_csv_id: taxe_autres_assu
     unit: /1
 documentation: |
   Notes :

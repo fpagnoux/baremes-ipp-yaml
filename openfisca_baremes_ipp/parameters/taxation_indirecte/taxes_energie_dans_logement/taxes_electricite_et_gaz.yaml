@@ -21,6 +21,7 @@ cspe:
     '2003-01-01':
       value: null
   metadata:
+    ipp_csv_id: cspe
     unit: currency-EUR
 metadata:
   order:
@@ -39,6 +40,7 @@ cta:
     '2003-01-01':
       value: null
   metadata:
+    ipp_csv_id: cta
     unit: /1
 ticgn_prix_par_mwh:
   description: TICGN - prix par MWh
@@ -54,6 +56,7 @@ ticgn_prix_par_mwh:
     '2003-01-01':
       value: 1.19
   metadata:
+    ipp_csv_id: ticgn
     unit: currency-EUR
 ctssg_prix_par_mwh:
   description: CTSSG - prix par MWh
@@ -73,6 +76,7 @@ ctssg_prix_par_mwh:
     '2003-01-01':
       value: null
   metadata:
+    ipp_csv_id: ctssg
     unit: currency-EUR
 plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh:
   description: Plafonds TCFE pour compteurs < ou = à 36 kva - en euros par MWh
@@ -88,6 +92,7 @@ plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh:
     '2003-01-01':
       value: null
   metadata:
+    ipp_csv_id: plafond_tcfe
     unit: currency-EUR
 documentation: |
   Source :

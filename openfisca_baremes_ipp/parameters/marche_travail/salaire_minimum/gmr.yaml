@@ -17,6 +17,7 @@ rtt_avant_30_06_99_gmr1:
     '2000-01-01':
       value: 6797.18
   metadata:
+    ipp_csv_id: GMR1
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -53,6 +54,7 @@ rtt_avant_30_06_00_gmr2:
     '2000-01-01':
       value: 6881.68
   metadata:
+    ipp_csv_id: GMR2
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -74,6 +76,7 @@ rtt_avant_30_06_01_gmr3:
     '2000-01-01':
       value: null
   metadata:
+    ipp_csv_id: GMR3
     unit:
       '2002-01-01': currency-EUR
       '2000-07-01': currency-FRF
@@ -93,6 +96,7 @@ rtt_avant_30_06_02_gmr4:
     '2000-01-01':
       value: null
   metadata:
+    ipp_csv_id: GMR4
     unit:
       '2002-01-01': currency-EUR
       '2001-07-01': currency-FRF
@@ -108,6 +112,7 @@ rtt_apres_01_07_02_gmr5:
     '2000-01-01':
       value: null
   metadata:
+    ipp_csv_id: GMR5
     unit: currency-EUR
 documentation: |
   Notes:

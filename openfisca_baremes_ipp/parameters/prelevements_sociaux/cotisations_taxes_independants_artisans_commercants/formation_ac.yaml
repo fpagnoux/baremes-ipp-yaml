@@ -13,6 +13,7 @@ artisans:
       '1992-01-01':
         value: null
     metadata:
+      ipp_csv_id: form_art_0_1
       unit: /1
   metadata:
     order:
@@ -51,6 +52,7 @@ commercants_industriels:
       '1992-01-01':
         value: 0.0015
     metadata:
+      ipp_csv_id: form_ic_0_1
       unit: /1
   metadata:
     order:

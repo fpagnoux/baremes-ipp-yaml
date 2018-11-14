@@ -95,6 +95,7 @@ partie_fixe:
       '1968-07-22':
         value: null
     metadata:
+      ipp_csv_id: base_fixe_6_
       unit:
         '2002-07-01': currency-EUR
         '1979-07-01': currency-FRF
@@ -352,6 +353,7 @@ montant_minimum:
       '1968-07-22':
         value: 7.1
     metadata:
+      ipp_csv_id: base_min_3_
       unit:
         '2002-07-01': currency-EUR
         '1968-07-22': currency-FRF

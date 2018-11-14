@@ -27,6 +27,7 @@ emulsion_eau_dans_gazole_sous_conditions_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_emulsion_eau_gazole_cond
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -136,6 +137,7 @@ emulsion_eau_dans_gazole_autres_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_emulsion_eau_gazole_autres
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -171,6 +173,7 @@ super_e_85_utilise_comme_carburant_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_super_e85
     unit: currency-EUR
 carburant_constitue_minimum_90_alcool_ethylique_agricole_hectolitre:
   description: Carburant constitué d'au minimum 90% d'alcool éthylique agricole (hectolitre)
@@ -190,6 +193,7 @@ carburant_constitue_minimum_90_alcool_ethylique_agricole_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_carburant_ethanol_agricole
     unit: currency-EUR
 carburant_constitue_100_estars_methyliques_acides_gras_hectolitre:
   description: Carburant constitué à 100% d'estars méthyliques d'acides gras (hectolitre)

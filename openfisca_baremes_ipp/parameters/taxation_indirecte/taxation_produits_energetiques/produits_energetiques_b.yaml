@@ -328,6 +328,7 @@ carbureacteurs_type_petrole_lampant_sous_conditions_hectolitre:
     '1993-01-01':
       value: 11.97
   metadata:
+    ipp_csv_id: ticpe_carbu_petrole_lampant_cond
     unit:
       '2002-01-01': currency-EUR
       '1993-01-01': currency-FRF
@@ -365,6 +366,7 @@ carbureacteurs_type_petrole_lampant_carburant_moteurs_avion_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_carbu_petrole_lampant
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -392,6 +394,7 @@ carbureacteurs_type_petrole_lampant_autres_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_carbu_petrole_lampant_autres
     unit: currency-EUR
 autres_huiles_moyennes_hectolitre:
   description: Autres huiles moyennes (hectolitre)
@@ -427,6 +430,7 @@ autres_huiles_moyennes_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_autres_huiles_moyennes
     unit:
       '2002-01-01': currency-EUR
       '2000-01-01': currency-FRF
@@ -476,6 +480,7 @@ gazole_comme_carburants_sous_conditions_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_gazole_cond
     unit:
       '2002-01-01': currency-EUR
       '1993-04-15': currency-FRF
@@ -503,6 +508,7 @@ gazole_fioul_domestique_hectolitre:
     '1993-01-01':
       value: null
   metadata:
+    ipp_csv_id: ticpe_fioul_domestique
     unit: currency-EUR
 documentation: |
   Notes :

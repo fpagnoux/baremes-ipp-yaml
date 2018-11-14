@@ -7,6 +7,7 @@ taux_surcote_par_trimestre:
     '2004-01-01':
       value: 0.0075
   metadata:
+    ipp_csv_id: surcotefp
     unit: /1
 metadata:
   order:

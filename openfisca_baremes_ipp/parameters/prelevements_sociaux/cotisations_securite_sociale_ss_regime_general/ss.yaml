@@ -25,6 +25,7 @@ salaire_sous_pss:
       '1930-07-01':
         value: 0.04
     metadata:
+      ipp_csv_id: css_p_0_1
       unit: /1
   metadata:
     order:

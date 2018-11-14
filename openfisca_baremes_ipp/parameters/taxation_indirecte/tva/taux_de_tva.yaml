@@ -15,6 +15,7 @@ taux_reduit:
     '1954-07-01':
       value: 0.075
   metadata:
+    ipp_csv_id: tx_reduit
     unit: /1
 metadata:
   order:
@@ -83,6 +84,7 @@ taux_intermediaire:
     '1954-07-01':
       value: null
   metadata:
+    ipp_csv_id: tx_inter
     unit: /1
 taux_normal:
   description: Taux normal
@@ -108,6 +110,7 @@ taux_normal:
     '1954-07-01':
       value: 0.165
   metadata:
+    ipp_csv_id: tx_normal
     unit: /1
 taux_majore:
   description: Taux majoré
@@ -127,6 +130,7 @@ taux_majore:
     '1954-07-01':
       value: null
   metadata:
+    ipp_csv_id: tx_maj
     unit: /1
 taux_particulier_super_reduit:
   description: Taux particulier ("super réduit")
@@ -136,6 +140,7 @@ taux_particulier_super_reduit:
     '1954-07-01':
       value: null
   metadata:
+    ipp_csv_id: tx_superreduit
     unit: /1
 taux_reduit_2:
   description: Taux réduit 2
@@ -147,6 +152,7 @@ taux_reduit_2:
     '1954-07-01':
       value: null
   metadata:
+    ipp_csv_id: tx_reduit2
     unit: /1
 taux_normal_majore_temporaire:
   description: Taux normal ou majoré temporaire
@@ -162,6 +168,7 @@ taux_normal_majore_temporaire:
     '1954-07-01':
       value: null
   metadata:
+    ipp_csv_id: tx_majtempo
     unit: /1
 documentation: |
   Notes :

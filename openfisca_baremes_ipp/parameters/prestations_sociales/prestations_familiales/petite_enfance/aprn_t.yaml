@@ -11,6 +11,7 @@ taux_en_base:
       '1976-08-01':
         value: 0.66
     metadata:
+      ipp_csv_id: tx_3exam
       unit: /1
   metadata:
     order:

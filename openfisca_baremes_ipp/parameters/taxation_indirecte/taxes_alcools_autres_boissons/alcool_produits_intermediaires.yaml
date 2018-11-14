@@ -26,6 +26,7 @@ vins_doux_naturels_vins_liqueurs_aop_mentionnes_aux_articles_417_417_bis_cgi_eur
     '1993-07-01':
       value: 350.0
   metadata:
+    ipp_csv_id: taxe_vdn_vdl
     unit:
       '2002-03-31': currency-EUR
       '1993-07-01': currency-FRF
@@ -79,6 +80,7 @@ autres_produits_intermediaires_eur_hl:
     '1993-07-01':
       value: 1400.0
   metadata:
+    ipp_csv_id: taxe_autres_produits_inter_alcool
     unit:
       '2002-03-31': currency-EUR
       '1993-07-01': currency-FRF

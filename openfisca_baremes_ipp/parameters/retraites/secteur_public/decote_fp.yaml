@@ -9,6 +9,7 @@ taux_decote_selon_annee_age_ouverture_droits:
         '2006-01-01':
           value: 0.0125
       metadata:
+        ipp_csv_id: decotefp_15
         unit: /1
     metadata:
       order:

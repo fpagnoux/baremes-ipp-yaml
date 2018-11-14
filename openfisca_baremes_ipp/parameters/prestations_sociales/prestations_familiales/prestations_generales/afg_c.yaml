@@ -6,6 +6,8 @@ nombre_minimal_enfants_charge:
       value: null
     '1976-07-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: asu_nenf_min
 metadata:
   order:
   - nombre_minimal_enfants_charge

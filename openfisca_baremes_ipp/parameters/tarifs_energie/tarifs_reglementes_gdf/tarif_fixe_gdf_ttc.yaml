@@ -71,6 +71,7 @@ base_0_1000:
     '1983-01-01':
       value: 22.09
   metadata:
+    ipp_csv_id: tarif_fixe_gdf_base_ttc
     unit: currency-EUR
 metadata:
   order:
@@ -142,6 +143,7 @@ b0_1000_6000:
     '1983-01-01':
       value: 33.17
   metadata:
+    ipp_csv_id: tarif_fixe_gdf_b0_ttc
     unit: currency-EUR
 b1_6_30000:
   description: B1 (6-30000)
@@ -215,6 +217,7 @@ b1_6_30000:
     '1983-01-01':
       value: 223.77
   metadata:
+    ipp_csv_id: tarif_fixe_gdf_b1_ttc
     unit: currency-EUR
 b2i_30000:
   description: B2I (>30000)
@@ -286,5 +289,6 @@ b2i_30000:
     '1983-01-01':
       value: null
   metadata:
+    ipp_csv_id: tarif_fixe_gdf_b2i_ttc
     unit: currency-EUR
 documentation: "Source : base Pégase, prix pour un ménage, en euros TTC, données annuelles\n"

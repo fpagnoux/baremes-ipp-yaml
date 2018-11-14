@@ -9,6 +9,7 @@ plafond_ressources_droit_salaire_unique:
       '1976-07-01':
         value: 5760.0
     metadata:
+      ipp_csv_id: plaf_asu_enf_sup
       unit: currency-FRF
   metadata:
     order:
@@ -37,6 +38,7 @@ plafond_ressources_majoration_salaire_unique:
       '1976-07-01':
         value: 4020.0
     metadata:
+      ipp_csv_id: plaf_maj_asu_enf_sup
       unit: currency-FRF
   metadata:
     order:

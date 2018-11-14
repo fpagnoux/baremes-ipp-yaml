@@ -5,6 +5,7 @@ taux_minimum_invalidite:
     '2006-01-01':
       value: 0.6666
   metadata:
+    ipp_csv_id: tx_min
     unit: /1
 metadata:
   order:

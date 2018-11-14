@@ -37,6 +37,7 @@ plafond_loyers_zone_1:
       '2001-01-01':
         value: 310.0
     metadata:
+      ipp_csv_id: plaf_loy_enfsupp_z1
       unit:
         '2002-01-01': currency-EUR
         '2001-01-01': currency-FRF
@@ -192,6 +193,7 @@ plafond_loyers_zone_2:
       '2001-01-01':
         value: 278.0
     metadata:
+      ipp_csv_id: plaf_loy_enfsupp_z2
       unit:
         '2002-01-01': currency-EUR
         '2001-01-01': currency-FRF
@@ -236,6 +238,7 @@ plafond_loyers_zone_3:
       '2001-01-01':
         value: 253.0
     metadata:
+      ipp_csv_id: plaf_loy_enfsupp_z3
       unit:
         '2002-01-01': currency-EUR
         '2001-01-01': currency-FRF
@@ -274,6 +277,7 @@ montant_forfaitaire_participation_minimale_po:
     '2001-01-01':
       value: 175.0
   metadata:
+    ipp_csv_id: p0_cons
     unit:
       '2002-01-01': currency-EUR
       '2001-01-01': currency-FRF
@@ -283,6 +287,7 @@ montant_proportionnel_participation_minimale_po:
     '2001-01-01':
       value: 0.085
   metadata:
+    ipp_csv_id: p0_tx
     unit: /1
 tf:
   description: TF
@@ -296,6 +301,7 @@ tf:
       '2001-01-01':
         value: -0.0006
     metadata:
+      ipp_csv_id: tf_enfsupp
       unit: /1
   metadata:
     order:
@@ -309,6 +315,8 @@ tl:
         value: 37.5
       '2001-01-01':
         value: null
+    metadata:
+      ipp_csv_id: tl_min_tr2
   metadata:
     order:
     - minorant_3e_tranche

@@ -15,6 +15,7 @@ revenu_professionnel_total:
     '1974-04-01':
       value: null
   metadata:
+    ipp_csv_id: fam_inde_0_
     unit: /1
 metadata:
   order:
@@ -69,6 +70,7 @@ sous_pss:
     '1974-04-01':
       value: null
   metadata:
+    ipp_csv_id: fam_inde_0_1
     unit: /1
 sous_10_000_frf:
   description: Sous 10 000 FRF
@@ -80,6 +82,7 @@ sous_10_000_frf:
     '1974-04-01':
       value: 0.0325
   metadata:
+    ipp_csv_id: fam_inde_0_10000
     unit: /1
 entre_10_000_frf_1_pss:
   description: Entre 10 000 FRF et 1 PSS
@@ -89,6 +92,7 @@ entre_10_000_frf_1_pss:
     '1974-04-01':
       value: 0.09
   metadata:
+    ipp_csv_id: fam_inde_10000_1
     unit: /1
 si_revenu_activite_110_pss:
   description: Si revenu d'activité < 110 % PSS

@@ -15,6 +15,7 @@ assurance_maladie:
         '1964-01-01':
           value: null
       metadata:
+        ipp_csv_id: mmid_j_p_0_1
         unit: /1
     metadata:
       order:
@@ -61,6 +62,7 @@ assurance_vieillesse:
         '1964-01-01':
           value: null
       metadata:
+        ipp_csv_id: ret_j_s_0_1
         unit: /1
     metadata:
       order:
@@ -86,6 +88,7 @@ accidents_travail_sous_pss:
         '1964-01-01':
           value: 0.017
       metadata:
+        ipp_csv_id: acc_pp_p_0_1
         unit: /1
     metadata:
       order:
@@ -109,6 +112,7 @@ allocations_familiales:
         '1964-01-01':
           value: 0.108
       metadata:
+        ipp_csv_id: fam_j_p_0_1
         unit: /1
     metadata:
       order:
@@ -130,6 +134,7 @@ assurances_sociales_avant_1967:
         '1964-01-01':
           value: 0.114
       metadata:
+        ipp_csv_id: css_j_p_0_1
         unit: /1
     metadata:
       order:

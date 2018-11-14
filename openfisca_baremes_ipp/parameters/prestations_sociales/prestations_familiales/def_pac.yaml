@@ -10,6 +10,8 @@ age_maximal_personnes_charge_1:
       value: 18.0
     '1985-12-22':
       value: 17.0
+  metadata:
+    ipp_csv_id: age_max_pac
 metadata:
   order:
   - age_maximal_personnes_charge_1
@@ -36,6 +38,8 @@ age_maximal_personnes_charge_en_apprentissage_en_stage_formation_donnant_droit_a
   values:
     '1985-12-22':
       value: 20.0
+  metadata:
+    ipp_csv_id: age_min_pac
 revenu_plafond_personnes_charge_n_etant_plus_sous_obligation_scolaire_en_smic_2:
   description: |-
     Revenu plafond pour les personnes à charge n'étant plus sous l'obligation scolaire
@@ -44,6 +48,7 @@ revenu_plafond_personnes_charge_n_etant_plus_sous_obligation_scolaire_en_smic_2:
     '1985-12-22':
       value: 0.55
   metadata:
+    ipp_csv_id: af_plaf_revenf
     unit: /1
 documentation: |
   Notes :

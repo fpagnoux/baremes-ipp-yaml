@@ -58,6 +58,7 @@ taux:
     '1947-01-01':
       value: null
   metadata:
+    ipp_csv_id: tp_taux
     unit: /1
 taux_reduit:
   description: Taux réduit
@@ -73,6 +74,7 @@ taux_reduit:
     '1947-01-01':
       value: null
   metadata:
+    ipp_csv_id: tp_taux_reduit
     unit: /1
 abattement_general:
   description: Abattement général
@@ -83,6 +85,8 @@ abattement_general:
       value: 30000.0
     '1947-01-01':
       value: null
+  metadata:
+    ipp_csv_id: tp_abat
 autres_revenus_non_salariaux:
   description: Autres revenus non salariaux
   abattement:
@@ -94,6 +98,8 @@ autres_revenus_non_salariaux:
         value: 3000.0
       '1947-01-01':
         value: null
+    metadata:
+      ipp_csv_id: tp_abat_nonsal
   metadata:
     order:
     - abattement
@@ -112,6 +118,8 @@ bnc_autres_produits_charges_offices_bic_artisans_assimiles:
         value: 200000.0
       '1947-01-01':
         value: null
+    metadata:
+      ipp_csv_id: tp_seuil_nonsal_autre
   metadata:
     order:
     - seuil
@@ -129,6 +137,8 @@ bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba:
         value: 300000.0
       '1947-01-01':
         value: null
+    metadata:
+      ipp_csv_id: tp_seuil_nonsal
   metadata:
     order:
     - seuil
@@ -143,6 +153,8 @@ reduction_impot_charge_famille:
         value: 1.0
       '1947-01-01':
         value: null
+    metadata:
+      ipp_csv_id: tp_reduc4
   metadata:
     order:
     - 4_pac
@@ -160,6 +172,7 @@ plafond_maximum_reduction_par_pac:
       '1947-01-01':
         value: null
     metadata:
+      ipp_csv_id: tp_plaf_3
       unit: currency-FRF
   metadata:
     order:

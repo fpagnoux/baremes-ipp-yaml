@@ -8,6 +8,7 @@ taux:
     '2013-01-01':
       value: 0.5
   metadata:
+    ipp_csv_id: tehr_tx
     unit: /1
 metadata:
   order:
@@ -28,6 +29,7 @@ seuil:
     '2013-01-01':
       value: 1000000.0
   metadata:
+    ipp_csv_id: tehr_seuil
     unit: currency-EUR
 plafond_en_chiffre_affaire_entreprises:
   description: Plafond (en % du chiffre d'affaire de l'entreprises)
@@ -37,6 +39,7 @@ plafond_en_chiffre_affaire_entreprises:
     '2013-01-01':
       value: 0.05
   metadata:
+    ipp_csv_id: tehr_plaf
     unit: /1
 documentation: |
   Note :

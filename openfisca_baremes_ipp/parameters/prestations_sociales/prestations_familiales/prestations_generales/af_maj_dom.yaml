@@ -80,6 +80,8 @@ nombre_minimal_enfant_avoir_droit_majoration_forfaitaire_plus_20_ans:
   values:
     '1991-08-06':
       value: 3.0
+  metadata:
+    ipp_csv_id: afmaj_nenf_min_dom
 duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee:
   description: |-
     Durée pendant laquelle la majoration pour les plus de 20 ans est versée
@@ -87,11 +89,15 @@ duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee:
   values:
     '1991-08-06':
       value: 1.0
+  metadata:
+    ipp_csv_id: duree_maj_dom
 nombre_enfant_partir_duquel_aine_donne_droit_majoration:
   description: Nombre d'enfant à partir duquel l'aîné donne droit à majoration
   values:
     '1991-08-06':
       value: 3.0
+  metadata:
+    ipp_csv_id: nb_enf_maj_dom
 documentation: |
   Notes :
   A partir du 01/01/1993, les taux et majorations à partir du 2ème enfant sont les mêmes qu'en métropôle (cf article D. 521-1)

@@ -5,6 +5,7 @@ description: Contribution sur les boissons sucrées (à partir de juillet 2018)
     '2018-07-01':
       value: 3.0
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_1kg
     unit: currency-EUR
 metadata:
   order:
@@ -37,6 +38,7 @@ metadata:
     '2018-07-01':
       value: 3.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_2kg
     unit: currency-EUR
 3_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 3 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -44,6 +46,7 @@ metadata:
     '2018-07-01':
       value: 4.0
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_3kg
     unit: currency-EUR
 4_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 4 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -51,6 +54,7 @@ metadata:
     '2018-07-01':
       value: 4.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_4kg
     unit: currency-EUR
 5_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 5 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -58,6 +62,7 @@ metadata:
     '2018-07-01':
       value: 5.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_5kg
     unit: currency-EUR
 6_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 6 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -65,6 +70,7 @@ metadata:
     '2018-07-01':
       value: 6.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_6kg
     unit: currency-EUR
 7_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 7 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -72,6 +78,7 @@ metadata:
     '2018-07-01':
       value: 7.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_7kg
     unit: currency-EUR
 8_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 8 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -79,6 +86,7 @@ metadata:
     '2018-07-01':
       value: 9.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_8kg
     unit: currency-EUR
 9_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 9 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -86,6 +94,7 @@ metadata:
     '2018-07-01':
       value: 11.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_9kg
     unit: currency-EUR
 10_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 10 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -93,6 +102,7 @@ metadata:
     '2018-07-01':
       value: 13.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_10kg
     unit: currency-EUR
 11_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 11 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -100,6 +110,7 @@ metadata:
     '2018-07-01':
       value: 15.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_11kg
     unit: currency-EUR
 12_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 12 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -107,6 +118,7 @@ metadata:
     '2018-07-01':
       value: 17.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_12kg
     unit: currency-EUR
 13_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 13 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -114,6 +126,7 @@ metadata:
     '2018-07-01':
       value: 19.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_13kg
     unit: currency-EUR
 14_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 14 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -121,6 +134,7 @@ metadata:
     '2018-07-01':
       value: 21.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_14kg
     unit: currency-EUR
 15_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: 15 kg de sucres ajoutés  par hl de boisson (€ / hl)
@@ -128,6 +142,7 @@ metadata:
     '2018-07-01':
       value: 23.5
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_15kg
     unit: currency-EUR
 tout_kg_dessus_15_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
   description: Pour tout kg au-dessus de 15 kg de sucres ajoutés par hl de boisson
@@ -136,5 +151,6 @@ tout_kg_dessus_15_kg_sucres_ajoutes_par_hl_boisson_eur_hl:
     '2018-07-01':
       value: 2.0
   metadata:
+    ipp_csv_id: taxe_boiss_sucrees_kg_sup_15kg
     unit: currency-EUR
 documentation: ''

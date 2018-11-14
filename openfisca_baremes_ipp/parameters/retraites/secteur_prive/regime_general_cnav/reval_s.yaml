@@ -172,6 +172,8 @@ coefficient:
       value: 1.32
     '1949-01-01':
       value: 1.2
+  metadata:
+    ipp_csv_id: revalospc
 metadata:
   order:
   - coefficient
@@ -580,6 +582,7 @@ associe:
     '1949-01-01':
       value: 0.19999999999999996
   metadata:
+    ipp_csv_id: revalospc_pct
     unit: /1
 documentation: |
   Notes :

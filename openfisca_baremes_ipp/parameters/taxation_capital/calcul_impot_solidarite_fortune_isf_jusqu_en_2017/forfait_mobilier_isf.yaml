@@ -11,6 +11,7 @@ majoration_forfaitaire:
     '1982-01-01':
       value: 0.05
   metadata:
+    ipp_csv_id: tx_majo_isf
     unit: /1
 metadata:
   order:

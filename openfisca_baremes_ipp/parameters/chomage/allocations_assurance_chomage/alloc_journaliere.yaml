@@ -11,6 +11,7 @@ partie_fixe:
     '1979-07-01':
       value: 20.0
   metadata:
+    ipp_csv_id: journ_fixe
     unit: currency-FRF
 metadata:
   order:
@@ -36,6 +37,7 @@ partie_proportionnelle:
       '1979-07-01':
         value: 0.5
     metadata:
+      ipp_csv_id: journ_4
       unit: /1
   metadata:
     order:
@@ -48,6 +50,7 @@ montant_minimum_en_sjr:
       '1979-07-01':
         value: 0.7
     metadata:
+      ipp_csv_id: journ_min_prct
       unit: /1
   metadata:
     order:
@@ -60,6 +63,7 @@ montant_maximum_en_sjr:
     '1979-07-01':
       value: 0.9
   metadata:
+    ipp_csv_id: journ_max_prct
     unit: /1
 documentation: |
   L'allocation spéciale remplace l'ancienne allocation supplémentaire d'attente depuis la Loi du 16 janvier 1979. Allocation destinée aux salariés licenciés pour motif économique structurel ou conjoncturel, âgés de moins de 60 ans lors de la rupture du contrat

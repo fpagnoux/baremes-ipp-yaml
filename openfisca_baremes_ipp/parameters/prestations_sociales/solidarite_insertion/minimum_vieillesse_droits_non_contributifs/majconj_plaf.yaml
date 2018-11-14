@@ -172,6 +172,7 @@ plafond_ressources_personnelles_conjoint_beneficier_majoration_personne_charge:
     '1948-10-01':
       value: 58000.0
   metadata:
+    ipp_csv_id: maj_avts_conj
     unit:
       '2002-01-01': currency-EUR
       '1960-01-01': currency-FRF

@@ -20,6 +20,7 @@ pret_maximum:
       '1975-01-05':
         value: 8600.0
     metadata:
+      ipp_csv_id: pret_max_accession
       unit: currency-FRF
   metadata:
     order:
@@ -67,6 +68,7 @@ cumul_prets:
     '1975-01-05':
       value: 8600.0
   metadata:
+    ipp_csv_id: cumul_pret
     unit: currency-FRF
 documentation: |
   Notes : 

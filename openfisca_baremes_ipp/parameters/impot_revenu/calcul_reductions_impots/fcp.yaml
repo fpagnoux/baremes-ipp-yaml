@@ -46,6 +46,7 @@ reduction_impot_souscriptions_parts_fcpi_fip:
       '1996-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaffcp_couple
       unit:
         '2001-01-01': currency-EUR
         '1997-01-01': currency-FRF

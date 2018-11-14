@@ -9,6 +9,7 @@ plafond_ressources_tranche_1:
     '2015-07-01':
       value: 67140.0
   metadata:
+    ipp_csv_id: plaf_t1_2enf
     unit: currency-EUR
 metadata:
   order:
@@ -39,6 +40,7 @@ plafond_ressources_tranche_2:
     '2015-07-01':
       value: 89490.0
   metadata:
+    ipp_csv_id: plaf_t2_2enf
     unit: currency-EUR
 majoration_ressource_par_enfant_supplementaire:
   description: Majoration ressource par enfant supplémentaire
@@ -50,5 +52,6 @@ majoration_ressource_par_enfant_supplementaire:
     '2015-07-01':
       value: 5595.0
   metadata:
+    ipp_csv_id: plaf_enf_sup
     unit: currency-EUR
 documentation: ''

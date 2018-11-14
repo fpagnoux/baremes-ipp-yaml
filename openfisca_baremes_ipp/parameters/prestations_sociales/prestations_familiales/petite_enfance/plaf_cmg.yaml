@@ -33,6 +33,8 @@ premier_plafond_ne_adopte_avant_1er_avril_2014:
         value: 2655.0
       '2004-01-01':
         value: 2626.0
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev3
   metadata:
     order:
     - majoration_enfant_supplementaire
@@ -135,6 +137,8 @@ premier_plafond_ne_adopte_apres_1er_avril_2014:
         value: 2900.0
       '2004-01-01':
         value: null
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev3
   metadata:
     order:
     - majoration_enfant_supplementaire

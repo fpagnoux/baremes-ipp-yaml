@@ -6,6 +6,8 @@ condition_age_allocataire:
       value: null
     '1989-01-01':
       value: 25.0
+  metadata:
+    ipp_csv_id: age_rmi
 metadata:
   order:
   - condition_age_allocataire
@@ -26,4 +28,6 @@ nombre_minimal_enfant_si_condition_age_n_est_pas_respectee:
       value: null
     '1989-01-01':
       value: 1.0
+  metadata:
+    ipp_csv_id: min_npac_rmi_rsa
 documentation: ''

@@ -7,6 +7,7 @@ parametre_calcul_decote_isf:
     '2013-01-01':
       value: 17500.0
   metadata:
+    ipp_csv_id: decote_isf1
     unit: currency-EUR
 metadata:
   order:
@@ -43,6 +44,7 @@ borne_superieure_decote:
     '2013-01-01':
       value: 1400000.0
   metadata:
+    ipp_csv_id: sup_decote1
     unit: currency-EUR
 taux_decote_isf:
   description: Taux de la décote ISF
@@ -52,6 +54,7 @@ taux_decote_isf:
     '2013-01-01':
       value: 0.0125
   metadata:
+    ipp_csv_id: tx_decote_isf
     unit: /1
 documentation: "Note : La décote prévue par la loi 2011-900 du 29/07/2011 de finances\
   \ rectificative pour 2012 ne s'est jamais appliquée. En effet, bien que la décote\

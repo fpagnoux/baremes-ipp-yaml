@@ -19,6 +19,7 @@ employeur_tout_salaire:
       '1953-09-01':
         value: 0.01
     metadata:
+      ipp_csv_id: cons_p20_0_
       unit: /1
   metadata:
     order:

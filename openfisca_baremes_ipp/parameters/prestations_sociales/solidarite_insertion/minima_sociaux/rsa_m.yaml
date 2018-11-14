@@ -33,6 +33,7 @@ montant_base_rsa:
     '2009-06-01':
       value: 454.63
   metadata:
+    ipp_csv_id: brsa
     unit: currency-EUR
 metadata:
   order:

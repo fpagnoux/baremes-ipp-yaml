@@ -103,6 +103,7 @@ salaire_reference_en_nominal:
     '1949-01-01':
       value: 0.415
   metadata:
+    ipp_csv_id: sal_ref_unirs_nom
     unit: currency-FRF
 metadata:
   order:
@@ -212,6 +213,7 @@ salaire_reference_en_euros:
     '1949-01-01':
       value: 0.45
   metadata:
+    ipp_csv_id: sal_ref_arrco_euros
     unit: currency-EUR
 documentation: |
   Note :

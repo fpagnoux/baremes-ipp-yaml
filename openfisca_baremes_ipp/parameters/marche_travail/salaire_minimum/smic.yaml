@@ -225,6 +225,7 @@ smic_brut_horaire:
     '1970-01-01':
       value: 3.27
   metadata:
+    ipp_csv_id: smic_h
     unit:
       '2002-01-01': currency-EUR
       '1970-01-01': currency-FRF
@@ -483,6 +484,8 @@ heures_temps_plein:
       value: 169.0
     '1970-01-01':
       value: 173.333333333333
+  metadata:
+    ipp_csv_id: htp
 smic_brut_mensuel:
   description: Smic brut (mensuel)
   values:
@@ -709,6 +712,7 @@ smic_brut_mensuel:
     '1970-01-01':
       value: 566.7999999999989
   metadata:
+    ipp_csv_id: smic_m
     unit:
       '2002-01-01': currency-EUR
       '1970-01-01': currency-FRF

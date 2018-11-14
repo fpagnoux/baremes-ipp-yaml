@@ -23,6 +23,7 @@ minimum_contributif_plafond_mensuel:
       '2012-01-01':
         value: 1005.0
     metadata:
+      ipp_csv_id: min_cont
       unit: currency-EUR
   metadata:
     order:

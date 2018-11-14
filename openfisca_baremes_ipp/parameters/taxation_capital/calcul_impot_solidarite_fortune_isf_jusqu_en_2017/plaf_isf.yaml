@@ -13,6 +13,7 @@ plafonnement_taux_imposition_isf:
     '1989-01-01':
       value: 0.7
   metadata:
+    ipp_csv_id: tx_plaf
     unit: /1
 metadata:
   order:
@@ -47,6 +48,7 @@ plafonnement_plafonnement:
     '1989-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_plaf_plaf
     unit: /1
 documentation: |
   Note : L'IGF (1982-1986) ne bénéficie d'aucun plafonnement. Le plafonnement est instauré avec la création de l'ISF à partir du 1er janvier 1989. 

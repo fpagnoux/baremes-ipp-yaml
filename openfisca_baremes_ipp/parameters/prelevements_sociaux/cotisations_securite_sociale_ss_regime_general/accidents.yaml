@@ -20,6 +20,7 @@ employeur_sous_pss:
     '1976-01-01':
       value: 0.017
   metadata:
+    ipp_csv_id: acc_p_0_1
     unit: /1
 metadata:
   order:
@@ -67,6 +68,7 @@ employeur_tout_salaire:
     '1976-01-01':
       value: null
   metadata:
+    ipp_csv_id: acc_p_0_
     unit: /1
 documentation: |
   Notes sur la tarification AT-MP :

@@ -146,6 +146,7 @@ valeur_point_retraite_organic_regime_base_droits_acquis_avant_1973:
       '1949-10-01':
         value: 2.5
     metadata:
+      ipp_csv_id: organic_rachat
       unit:
         '2002-01-01': currency-EUR
         '1949-10-01': currency-FRF

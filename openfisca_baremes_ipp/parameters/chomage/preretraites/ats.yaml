@@ -15,6 +15,7 @@ montant_journalier:
     '2011-07-01':
       value: 33.18
   metadata:
+    ipp_csv_id: solid_fixe
     unit: currency-EUR
 metadata:
   order:
@@ -54,6 +55,7 @@ plafond_ressources:
       '2011-07-01':
         value: 2289.42
     metadata:
+      ipp_csv_id: solid_plaf_couple
       unit: currency-EUR
   metadata:
     order:

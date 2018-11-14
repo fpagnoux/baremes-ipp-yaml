@@ -279,6 +279,7 @@ deduction_supplementaire:
       '1942-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_ab_dedsal
       unit:
         '2001-01-01': currency-EUR
         '1973-01-01': currency-FRF
@@ -296,6 +297,7 @@ abattement_forfaitaire_frais_professionnels_salaires_pensions:
       '1942-01-01':
         value: null
     metadata:
+      ipp_csv_id: tx_abt_sal
       unit: /1
   metadata:
     order:
@@ -352,6 +354,7 @@ minimum_abattement_frais_professionnels:
       '1942-01-01':
         value: null
     metadata:
+      ipp_csv_id: min_abtpen
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
@@ -444,6 +447,7 @@ maximum_abattement_frais_professionnels:
       '1942-01-01':
         value: null
     metadata:
+      ipp_csv_id: max_abtpen
       unit:
         '2001-01-01': currency-EUR
         '1977-01-01': currency-FRF

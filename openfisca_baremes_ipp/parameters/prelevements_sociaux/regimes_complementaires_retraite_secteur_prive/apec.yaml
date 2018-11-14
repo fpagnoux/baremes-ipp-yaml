@@ -13,6 +13,7 @@ tranche_b_1_4_pss:
       '1967-01-01':
         value: null
     metadata:
+      ipp_csv_id: apec_p_1_4
       unit: /1
   metadata:
     order:
@@ -42,6 +43,7 @@ sous_4_pss:
       '1967-01-01':
         value: null
     metadata:
+      ipp_csv_id: apec_p_0_4
       unit: /1
   metadata:
     order:

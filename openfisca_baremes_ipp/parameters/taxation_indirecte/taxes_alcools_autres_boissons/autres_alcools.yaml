@@ -35,6 +35,7 @@ rhum_dom:
     '1981-02-01':
       value: 4150.0
   metadata:
+    ipp_csv_id: taxe_rhum_dom
     unit:
       '2002-03-31': currency-EUR
       '1981-02-01': currency-FRF
@@ -111,6 +112,7 @@ autres_alcools:
     '1981-02-01':
       value: 8220.0
   metadata:
+    ipp_csv_id: taxe_autres_alcools
     unit:
       '2002-03-31': currency-EUR
       '1981-02-01': currency-FRF
@@ -140,6 +142,7 @@ bouilleurs_cru_t_q_definis_art_317:
     '1981-02-01':
       value: null
   metadata:
+    ipp_csv_id: taxe_bouilleurs_cru
     unit: currency-EUR
 quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_article_417:
   description: Quantités ajoutées pour la préparation des vins mousseux et des vins
@@ -154,6 +157,7 @@ quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_artic
     '1981-02-01':
       value: 2395.0
   metadata:
+    ipp_csv_id: taxe_ajout_vins
     unit: currency-FRF
 aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles:
   description: Apéritifs à base de vin, cidre, poiré, vermouth, vins de liqueurs et
@@ -168,6 +172,7 @@ aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles:
     '1981-02-01':
       value: 6400.0
   metadata:
+    ipp_csv_id: taxe_aperitifs_base_divers_alcools
     unit: currency-FRF
 documentation: |
   Notes :

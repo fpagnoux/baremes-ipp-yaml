@@ -11,6 +11,7 @@ majoration_montant_maximal_en_base_rmi:
       '1988-12-14':
         value: 0.3
     metadata:
+      ipp_csv_id: rmi_enf3
       unit: /1
   metadata:
     order:
@@ -47,6 +48,7 @@ montant_minimum_verse:
     '1988-12-14':
       value: 40.0
   metadata:
+    ipp_csv_id: min_rmi
     unit:
       '2002-01-01': currency-EUR
       '1988-12-14': currency-FRF

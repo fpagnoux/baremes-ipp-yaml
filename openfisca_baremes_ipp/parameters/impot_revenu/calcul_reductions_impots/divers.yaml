@@ -92,6 +92,7 @@ depenses_formation_chefs_entreprises:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_formachef
       unit: currency-FRF
   metadata:
     order:
@@ -112,6 +113,7 @@ assurances_vie:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: increment_avie
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
@@ -134,6 +136,7 @@ frais_comptabilite_cf_3:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: frais_compta
       unit:
         '2001-01-01': currency-EUR
         '1982-01-01': currency-FRF
@@ -156,6 +159,7 @@ rente_survie_cf_4:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: increment_survie
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
@@ -176,6 +180,7 @@ rachat_entreprise:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_rachat
       unit: currency-FRF
   metadata:
     order:
@@ -192,6 +197,7 @@ versement_fond_salarial:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_salarial
       unit: currency-FRF
   metadata:
     order:
@@ -208,6 +214,7 @@ prets_consommation_cf_7:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_conso
       unit: currency-EUR
   metadata:
     order:
@@ -224,6 +231,7 @@ interets_emprunt_reprise_societe_cf_8:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_repsoc
       unit: currency-EUR
   metadata:
     order:
@@ -238,6 +246,7 @@ interets_paiements_differes_agriculteurs_cf_9:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_intagri
       unit: currency-EUR
   metadata:
     order:
@@ -252,6 +261,7 @@ aide_aux_repreneurs_entreprise_cf_10:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: crea_entr2
       unit: currency-EUR
   metadata:
     order:
@@ -266,6 +276,7 @@ depenses_restauration_monuments_historiques_cf_11:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_monhist
       unit: currency-EUR
   metadata:
     order:
@@ -282,6 +293,7 @@ restauration_patrimoine_bati_cf_12:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_restauimmo
       unit: currency-EUR
   metadata:
     order:
@@ -296,6 +308,7 @@ protection_patrimoine_naturel_cf_13:
       '1977-01-01':
         value: null
     metadata:
+      ipp_csv_id: plaf_protecpat
       unit: currency-EUR
   metadata:
     order:

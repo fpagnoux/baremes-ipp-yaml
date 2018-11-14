@@ -80,6 +80,7 @@ minorations_exceptionnelles_impot:
       '1965-01-01':
         value: null
     metadata:
+      ipp_csv_id: seuil_rimpmax
       unit: currency-FRF
   metadata:
     order:

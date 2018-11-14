@@ -6,6 +6,8 @@ age_maximum_enfant:
       value: null
     '1976-08-01':
       value: 20.0
+  metadata:
+    ipp_csv_id: aes_enf_agemax
 metadata:
   order:
   - age_maximum_enfant
@@ -48,6 +50,7 @@ montant_bmaf_en_euros:
     '1976-08-01':
       value: 0.32
   metadata:
+    ipp_csv_id: aes_montant
     unit: /1
 complement_allocation:
   description: Complément d'allocation
@@ -65,6 +68,7 @@ complement_allocation:
       '1976-08-01':
         value: null
     metadata:
+      ipp_csv_id: aes_cplt6
       unit: currency-EUR
   metadata:
     order:

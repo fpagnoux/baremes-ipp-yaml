@@ -5,6 +5,8 @@ age_maximum_enfant:
   values:
     '2006-01-01':
       value: 20.0
+  metadata:
+    ipp_csv_id: aeeh_enf_agemax
 metadata:
   order:
   - age_maximum_enfant
@@ -29,6 +31,7 @@ montant_bmaf:
     '2006-01-01':
       value: 0.32
   metadata:
+    ipp_csv_id: aeeh_montant
     unit: /1
 complement_allocation:
   description: Complément d'allocation
@@ -62,6 +65,7 @@ complement_allocation:
       '2006-01-01':
         value: 964.78
     metadata:
+      ipp_csv_id: aeeh_cplt6
       unit: currency-EUR
   metadata:
     order:
@@ -74,6 +78,7 @@ majoration_parent_isole:
       '2006-01-01':
         value: 1.07
     metadata:
+      ipp_csv_id: aeeh_majo6
       unit: /1
   metadata:
     order:

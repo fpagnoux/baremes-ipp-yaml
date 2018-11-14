@@ -5,6 +5,8 @@ age_limite_enfant_adopte_non:
   values:
     '2004-01-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: clca_age_min
 metadata:
   order:
   - age_limite_enfant_adopte_non
@@ -34,6 +36,8 @@ duree_versement_enfants_adoptes_en_annee:
   values:
     '2004-01-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: duree_adopt
 periode_reference_justifier_8_trimestres_cotisation_vieillesse_1:
   description: Période de référence pour justifier les 8 trimestres de cotisation
     vieillesse (1)
@@ -53,6 +57,7 @@ paje:
       '2004-01-01':
         value: 0.4595
     metadata:
+      ipp_csv_id: tx_paje_base
       unit: /1
   metadata:
     order:
@@ -65,6 +70,7 @@ majoration_plafond_par_enfant_charge:
     '2004-01-01':
       value: null
   metadata:
+    ipp_csv_id: tx_paje_base_maj
     unit: /1
 documentation: |
   Notes : 

@@ -8,6 +8,8 @@ duree_droit_en_mois:
       value: null
     '1976-10-01':
       value: 12.0
+  metadata:
+    ipp_csv_id: duree_droit_api
 metadata:
   order:
   - duree_droit_en_mois
@@ -31,6 +33,8 @@ limite_duree_en_mois_1:
       value: null
     '1976-10-01':
       value: 18.0
+  metadata:
+    ipp_csv_id: limite_duree_api
 age_limite_enfant_en_annee_2:
   description: |-
     Âge limite de l'enfant 
@@ -40,6 +44,8 @@ age_limite_enfant_en_annee_2:
       value: null
     '1976-10-01':
       value: 3.0
+  metadata:
+    ipp_csv_id: api_ageenf_max
 documentation: |
   Notes :
   (1) Par rapport au moment où le droit aurait pu être ouvert.

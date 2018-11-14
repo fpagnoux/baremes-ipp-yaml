@@ -7,6 +7,7 @@ seuils_tranches_bareme_ifi:
       '2018-01-01':
         value: 10000000.0
     metadata:
+      ipp_csv_id: seuil5_ifi
       unit: currency-EUR
   metadata:
     order:
@@ -30,6 +31,8 @@ taux_marginaux_tranches_bareme_ifi:
     values:
       '2018-01-01':
         value: 5.0
+    metadata:
+      ipp_csv_id: nbtranches_ifi
   metadata:
     order:
     - nombre_tranches_bareme

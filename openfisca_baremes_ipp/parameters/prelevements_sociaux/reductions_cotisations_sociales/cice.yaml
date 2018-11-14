@@ -13,6 +13,7 @@ taux:
     '2013-01-01':
       value: 0.04
   metadata:
+    ipp_csv_id: cice_tx
     unit: /1
 metadata:
   order:
@@ -39,6 +40,8 @@ plafond_smic:
       value: null
     '2013-01-01':
       value: 2.5
+  metadata:
+    ipp_csv_id: cice_plaf
 documentation: |
   Note :
   Formellement le CICE est une réduction de l'impôt sur les sociétés (IS) calculée en proportion des salaires versées par l'entreprise en dessous du plafond.

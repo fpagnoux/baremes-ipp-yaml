@@ -21,6 +21,7 @@ artisans:
       '1975-01-01':
         value: 0.009
     metadata:
+      ipp_csv_id: id_art_0_1
       unit: /1
   metadata:
     order:
@@ -158,6 +159,7 @@ commercants_industriels:
       '1975-01-01':
         value: 150.0
     metadata:
+      ipp_csv_id: id_ic_forfait
       unit: currency-FRF
   metadata:
     order:
