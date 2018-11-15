@@ -95,8 +95,8 @@ inflation:
   metadata:
     unit: /1
 documentation: |
-  Notes:
-  GIPA = Garantie Individuelle du Pouvoir d'Achat - compense l'érosion des bas salaires de la FP dûe à l'inflation
+  Notes :
+  GIPA = Garantie Individuelle du Pouvoir d'Achat - compense l'érosion des bas salaires de la FP due à l'inflation
   G = TIB de l'année de début de la période de référence * (1 + inflation sur la période de référence) - TIB de l'année de fin de la période de référence.
   (1) La période de référence s'étend sur 4 ans, du 31/12 de l'année de la date d'effet moins cinq ans, au 31/12 de l'année précédent la date d'effet
   (2) Inflation sur la période de référence = (Moyenne IPC de l'année de fin de la période de référence/Moyenne IPC de l'année de début de la période de référence) ― 1
