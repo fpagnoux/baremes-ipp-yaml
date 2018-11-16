@@ -1,8 +1,78 @@
 description: 'Allocations familiales (AF) : majorations'
 majoration_enfants_en_bmaf:
   description: Majoration pour les enfants (en % de la BMAF)
+  tranches_age:
+    description: Tranches d'âge
+    age_debut_premiere_tranche:
+      description: Âge début de la première tranche
+      values:
+        '2008-05-01':
+          value: 14.0
+        '1999-01-01':
+          value: 11.0
+        '1986-01-01':
+          value: 10.0
+      metadata:
+        ipp_csv_id: maj_enf_age1
+    metadata:
+      order:
+      - age_debut_premiere_tranche
+      - age_debut_deuxieme_tranche
+    age_debut_deuxieme_tranche:
+      description: Âge début de la deuxième tranche
+      values:
+        '2008-05-01':
+          value: null
+        '1986-01-01':
+          value: 16.0
+      metadata:
+        ipp_csv_id: maj_enf_age2
+  metadata:
+    order:
+    - tranches_age
+    - taux_appliques_aux_differentes_tranches_age
+    - allocation_forfaitaire
+  taux_appliques_aux_differentes_tranches_age:
+    description: Taux appliqués aux différentes tranches d'âge
+    taux_tranche_1:
+      description: taux de la tranche 1
+      values:
+        '2008-05-01':
+          value: 0.16
+        '1986-01-01':
+          value: 0.09
+      metadata:
+        ipp_csv_id: maj_enf_tx1
+        unit: /1
+    metadata:
+      order:
+      - taux_tranche_1
+      - taux_tranche_2
+    taux_tranche_2:
+      description: taux de la tranche 2
+      values:
+        '2008-05-01':
+          value: null
+        '1986-01-01':
+          value: 0.16
+      metadata:
+        ipp_csv_id: maj_enf_tx2
+        unit: /1
   allocation_forfaitaire:
     description: Allocation forfaitaire
+    age_minimum:
+      description: Âge minimum
+      values:
+        '2003-07-01':
+          value: 20.0
+        '1986-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: maj_forf_age
+    metadata:
+      order:
+      - age_minimum
+      - taux
     taux:
       description: Taux
       values:
@@ -13,12 +83,6 @@ majoration_enfants_en_bmaf:
       metadata:
         ipp_csv_id: maj_forf_tx
         unit: /1
-    metadata:
-      order:
-      - taux
-  metadata:
-    order:
-    - allocation_forfaitaire
 metadata:
   order:
   - majoration_enfants_en_bmaf

@@ -215,6 +215,97 @@ metadata:
       de 5% au-delà du plafond.
 deduction_supplementaire:
   description: Déduction supplémentaire
+  taux:
+    description: Taux
+    values:
+      '2006-01-01':
+        value: null
+      '1960-01-01':
+        value: 0.2
+      '1959-01-01':
+        value: 0.19
+      '1954-01-01':
+        value: 0.15
+      '1953-01-01':
+        value: 0.1
+      '1942-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_ded_sal
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - abattement_maximal
+    - salaire_plafond
+  abattement_maximal:
+    description: Abattement maximal
+    values:
+      '2006-01-01':
+        value: null
+      '2005-01-01':
+        value: 24020.0
+      '2004-01-01':
+        value: 23580.0
+      '2003-01-01':
+        value: 23180.0
+      '2002-01-01':
+        value: 22780.0
+      '2001-01-01':
+        value: 22380.0
+      '2000-01-01':
+        value: 144400.0
+      '1999-01-01':
+        value: 142200.0
+      '1998-01-01':
+        value: 141400.0
+      '1997-01-01':
+        value: 140200.0
+      '1996-01-01':
+        value: 138600.0
+      '1995-01-01':
+        value: 136000.0
+      '1994-01-01':
+        value: 133400.0
+      '1993-01-01':
+        value: 131400.0
+      '1992-01-01':
+        value: 128800.0
+      '1991-01-01':
+        value: 125200.0
+      '1990-01-01':
+        value: 121400.0
+      '1989-01-01':
+        value: 117600.0
+      '1988-01-01':
+        value: 113800.0
+      '1987-01-01':
+        value: 110800.0
+      '1986-01-01':
+        value: 107200.0
+      '1985-01-01':
+        value: 104600.0
+      '1984-01-01':
+        value: 99000.0
+      '1981-01-01':
+        value: 92000.0
+      '1980-01-01':
+        value: 82000.0
+      '1977-01-01':
+        value: 72000.0
+      '1975-01-01':
+        value: 68000.0
+      '1974-01-01':
+        value: 62000.0
+      '1973-01-01':
+        value: 56000.0
+      '1942-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: max_abt_dedsal
+      unit:
+        '2001-01-01': currency-EUR
+        '1973-01-01': currency-FRF
   salaire_plafond:
     description: Salaire plafond
     values:
@@ -283,9 +374,6 @@ deduction_supplementaire:
       unit:
         '2001-01-01': currency-EUR
         '1973-01-01': currency-FRF
-  metadata:
-    order:
-    - salaire_plafond
 abattement_forfaitaire_frais_professionnels_salaires_pensions:
   description: Abattement forfaitaire pour frais professionnels sur les salaires et
     pensions
@@ -304,6 +392,121 @@ abattement_forfaitaire_frais_professionnels_salaires_pensions:
     - taux
 minimum_abattement_frais_professionnels:
   description: Minimum de l'abattement pour frais professionnels
+  salaires:
+    description: Salaires
+    values:
+      '2017-01-01':
+        value: 430.0
+      '2014-01-01':
+        value: 426.0
+      '2013-01-01':
+        value: 424.0
+      '2010-01-01':
+        value: 421.0
+      '2009-01-01':
+        value: 415.0
+      '2008-01-01':
+        value: 413.0
+      '2007-01-01':
+        value: 401.0
+      '2006-01-01':
+        value: 396.0
+      '2005-01-01':
+        value: 389.0
+      '2004-01-01':
+        value: 382.0
+      '2003-01-01':
+        value: 376.0
+      '2002-01-01':
+        value: 370.0
+      '2001-01-01':
+        value: 364.0
+      '2000-01-01':
+        value: 2350.0
+      '1999-01-01':
+        value: 2320.0
+      '1998-01-01':
+        value: 2310.0
+      '1997-01-01':
+        value: 2290.0
+      '1996-01-01':
+        value: 2270.0
+      '1995-01-01':
+        value: 2230.0
+      '1994-01-01':
+        value: 2190.0
+      '1993-01-01':
+        value: 2160.0
+      '1992-01-01':
+        value: 2120.0
+      '1991-01-01':
+        value: 2060.0
+      '1990-01-01':
+        value: 2000.0
+      '1978-01-01':
+        value: 1800.0
+      '1977-01-01':
+        value: 1500.0
+      '1942-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: min_abtsal
+      unit:
+        '2001-01-01': currency-EUR
+        '1977-01-01': currency-FRF
+  metadata:
+    order:
+    - salaires
+    - allocations_chomage
+    - pensions
+  allocations_chomage:
+    description: Allocations chômage
+    values:
+      '2017-01-01':
+        value: 947.0
+      '2016-01-01':
+        value: 938.0
+      '2015-01-01':
+        value: 937.0
+      '2014-01-01':
+        value: 936.0
+      '2013-01-01':
+        value: 931.0
+      '2010-01-01':
+        value: 924.0
+      '2009-01-01':
+        value: 910.0
+      '2008-01-01':
+        value: 906.0
+      '2007-01-01':
+        value: 880.0
+      '2006-01-01':
+        value: 869.0
+      '2005-01-01':
+        value: 854.0
+      '2004-01-01':
+        value: 839.0
+      '2003-01-01':
+        value: 825.0
+      '2002-01-01':
+        value: 811.0
+      '2001-01-01':
+        value: 797.0
+      '2000-01-01':
+        value: 5140.0
+      '1999-01-01':
+        value: 5070.0
+      '1998-01-01':
+        value: 5040.0
+      '1997-01-01':
+        value: 5000.0
+      '1942-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: min_abtsal_chom
+      unit:
+        '2001-01-01': currency-EUR
+        '1997-01-01': currency-FRF
   pensions:
     description: Pensions
     values:
@@ -358,11 +561,102 @@ minimum_abattement_frais_professionnels:
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
-  metadata:
-    order:
-    - pensions
 maximum_abattement_frais_professionnels:
   description: Maximum de l'abattement pour frais professionnels
+  salaires:
+    description: Salaires
+    values:
+      '2017-01-01':
+        value: 12305.0
+      '2016-01-01':
+        value: 12183.0
+      '2015-01-01':
+        value: 12170.0
+      '2014-01-01':
+        value: 12157.0
+      '2013-01-01':
+        value: 12097.0
+      '2012-01-01':
+        value: 12000.0
+      '2010-01-01':
+        value: 14157.0
+      '2009-01-01':
+        value: 13948.0
+      '2008-01-01':
+        value: 13893.0
+      '2007-01-01':
+        value: 13501.0
+      '2006-01-01':
+        value: 13328.0
+      '2005-01-01':
+        value: 13093.0
+      '2004-01-01':
+        value: 12862.0
+      '2003-01-01':
+        value: 12648.0
+      '2002-01-01':
+        value: 12437.0
+      '2001-01-01':
+        value: 12229.0
+      '2000-01-01':
+        value: 78950.0
+      '1999-01-01':
+        value: 77850.0
+      '1998-01-01':
+        value: 77460.0
+      '1997-01-01':
+        value: 76840.0
+      '1996-01-01':
+        value: 76010.0
+      '1995-01-01':
+        value: 74590.0
+      '1994-01-01':
+        value: 73270.0
+      '1993-01-01':
+        value: 72250.0
+      '1992-01-01':
+        value: 70900.0
+      '1991-01-01':
+        value: 68960.0
+      '1990-01-01':
+        value: 66950.0
+      '1989-01-01':
+        value: 64870.0
+      '1988-01-01':
+        value: 62790.0
+      '1987-01-01':
+        value: 61190.0
+      '1986-01-01':
+        value: 59230.0
+      '1985-01-01':
+        value: 57840.0
+      '1984-01-01':
+        value: 54770.0
+      '1981-01-01':
+        value: 50900.0
+      '1980-01-01':
+        value: 44800.0
+      '1979-01-01':
+        value: 40000.0
+      '1952-01-01':
+        value: null
+      '1951-01-01':
+        value: 200000.0
+      '1946-01-01':
+        value: 50000.0
+      '1943-01-01':
+        value: 20000.0
+      '1942-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: max_abtsal
+      unit:
+        '2001-01-01': currency-EUR
+        '1943-01-01': currency-FRF
+  metadata:
+    order:
+    - salaires
+    - pensions
   pensions:
     description: Pensions
     values:
@@ -451,9 +745,6 @@ maximum_abattement_frais_professionnels:
       unit:
         '2001-01-01': currency-EUR
         '1977-01-01': currency-FRF
-  metadata:
-    order:
-    - pensions
 documentation: |
   Notes :
   (1) Entre 1915 et 1944, des déductions du revenu imposable pour charges des familles étaient appliquées pour le calcul de l'impôt général sur le revenu (et de l'impôt cédulaire sur les salaires) sous forme d'abattement général dépendant du statut marital et du nombre d'enfant.

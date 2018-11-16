@@ -1,6 +1,61 @@
 description: Aides incitatives à la RTT (Aubry I)
 accord_1:
   description: Accord 1
+  annee_1:
+    description: Annee 1
+    values:
+      '2002-01-01':
+        value: null
+      '2001-01-01':
+        value: 6000.0
+      '1999-07-01':
+        value: 7000.0
+      '1998-01-01':
+        value: 9000.0
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
+    - annee_5
+  annee_2:
+    description: Annee 2
+    values:
+      '2002-01-01':
+        value: null
+      '2001-01-01':
+        value: 5000.0
+      '1999-07-01':
+        value: 6000.0
+      '1998-01-01':
+        value: 8000.0
+    metadata:
+      unit: currency-FRF
+  annee_3:
+    description: Annee 3
+    values:
+      '2002-01-01':
+        value: null
+      '1999-07-01':
+        value: 5000.0
+      '1998-01-01':
+        value: 7000.0
+    metadata:
+      unit: currency-FRF
+  annee_4:
+    description: Annee 4
+    values:
+      '2002-01-01':
+        value: null
+      '1999-07-01':
+        value: 5000.0
+      '1998-01-01':
+        value: 6000.0
+    metadata:
+      unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
@@ -10,9 +65,6 @@ accord_1:
         value: 5000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_5
 metadata:
   order:
   - accord_1
@@ -22,6 +74,61 @@ metadata:
   - accord_5
 accord_2:
   description: Accord 2
+  annee_1:
+    description: Annee 1
+    values:
+      '2002-01-01':
+        value: null
+      '2001-01-01':
+        value: 10000.0
+      '1999-07-01':
+        value: 11000.0
+      '1998-01-01':
+        value: 13000.0
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
+    - annee_5
+  annee_2:
+    description: Annee 2
+    values:
+      '2002-01-01':
+        value: null
+      '2001-01-01':
+        value: 9000.0
+      '1999-07-01':
+        value: 10000.0
+      '1998-01-01':
+        value: 12000.0
+    metadata:
+      unit: currency-FRF
+  annee_3:
+    description: Annee 3
+    values:
+      '2002-01-01':
+        value: null
+      '1999-07-01':
+        value: 9000.0
+      '1998-01-01':
+        value: 11000.0
+    metadata:
+      unit: currency-FRF
+  annee_4:
+    description: Annee 4
+    values:
+      '2002-01-01':
+        value: null
+      '1999-07-01':
+        value: 9000.0
+      '1998-01-01':
+        value: 10000.0
+    metadata:
+      unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
@@ -31,13 +138,10 @@ accord_2:
         value: 9000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_5
 accord_3:
   description: Accord 3
-  annee_5:
-    description: Annee 5
+  annee_1:
+    description: Annee 1
     values:
       '2002-01-01':
         value: null
@@ -47,9 +151,92 @@ accord_3:
       unit: currency-FRF
   metadata:
     order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
     - annee_5
+  annee_2:
+    description: Annee 2
+    values:
+      '2002-01-01':
+        value: null
+      '1998-01-01':
+        value: 1000.0
+    metadata:
+      unit: currency-FRF
+  annee_3:
+    description: Annee 3
+    values:
+      '2002-01-01':
+        value: null
+      '1998-01-01':
+        value: 1000.0
+    metadata:
+      unit: currency-FRF
+  annee_4:
+    description: Annee 4
+    values:
+      '2002-01-01':
+        value: null
+      '1998-01-01':
+        value: 1000.0
+    metadata:
+      unit: currency-FRF
+  annee_5:
+    description: Annee 5
+    values:
+      '2002-01-01':
+        value: null
+      '1998-01-01':
+        value: 1000.0
+    metadata:
+      unit: currency-FRF
 accord_4:
   description: Accord 4
+  annee_1:
+    description: Annee 1
+    values:
+      '1999-07-01':
+        value: null
+      '1998-01-01':
+        value: 4000.0
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - accord2
+    - annee_3
+    - annee_4
+    - annee_5
+  accord2:
+    description: Accord2
+    values:
+      '1999-07-01':
+        value: null
+      '1998-01-01':
+        value: 2000.0
+    metadata:
+      unit: currency-FRF
+  annee_3:
+    description: Annee 3
+    values:
+      '1999-07-01':
+        value: null
+      '1998-01-01':
+        value: 1000.0
+    metadata:
+      unit: currency-FRF
+  annee_4:
+    description: Annee 4
+    values:
+      '1999-07-01':
+        value: null
+      '1998-01-01':
+        value: 0.0
+    metadata:
+      unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
@@ -59,11 +246,57 @@ accord_4:
         value: 0.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_5
 accord_5:
   description: Accord 5
+  annee_1:
+    description: Annee 1
+    values:
+      '2000-01-01':
+        value: null
+      '1999-07-01':
+        value: 2000.0
+      '1998-01-01':
+        value: 3000.0
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
+    - annee_5
+  annee_2:
+    description: Annee 2
+    values:
+      '2000-01-01':
+        value: null
+      '1999-07-01':
+        value: 1000.0
+      '1998-01-01':
+        value: 2000.0
+    metadata:
+      unit: currency-FRF
+  annee_3:
+    description: Annee 3
+    values:
+      '2000-01-01':
+        value: null
+      '1999-07-01':
+        value: 0.0
+      '1998-01-01':
+        value: 1000.0
+    metadata:
+      unit: currency-FRF
+  annee_4:
+    description: Annee 4
+    values:
+      '2000-01-01':
+        value: null
+      '1998-01-01':
+        value: 0.0
+    metadata:
+      unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
@@ -73,9 +306,6 @@ accord_5:
         value: 0.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_5
 documentation: |
   Notes :
   La date d'effet correspond ici à la date de signature de l'accord de réduction du temps de travail.

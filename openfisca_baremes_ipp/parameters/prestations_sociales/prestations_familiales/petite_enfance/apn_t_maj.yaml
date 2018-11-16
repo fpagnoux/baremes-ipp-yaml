@@ -45,6 +45,24 @@ nombre_fractions_versement:
     ipp_csv_id: nb_frac
 taux:
   description: Taux
+  1er_versement:
+    description: 1er versement
+    values:
+      '1985-01-01':
+        value: null
+      '1983-01-01':
+        value: 1.71
+      '1980-07-01':
+        value: 1.84
+      '1975-04-25':
+        value: 1.3
+    metadata:
+      ipp_csv_id: tx_versement1
+      unit: /1
+  metadata:
+    order:
+    - 1er_versement
+    - dernier_versement
   dernier_versement:
     description: Dernier versement
     values:
@@ -59,11 +77,41 @@ taux:
     metadata:
       ipp_csv_id: tx_versement3
       unit: /1
-  metadata:
-    order:
-    - dernier_versement
 majoration_naissance_adoption:
   description: Majoration naissance ou adoption
+  partir_2e_enfant:
+    description: A partir du 2e enfant
+    values:
+      '1985-01-01':
+        value: null
+      '1983-01-01':
+        value: 1.845
+      '1980-07-01':
+        value: 0.0
+      '1975-04-25':
+        value: null
+    metadata:
+      ipp_csv_id: majo_naiss_adop
+      unit: /1
+  metadata:
+    order:
+    - partir_2e_enfant
+    - partir_3e_enfant
+    - naissances_multiples
+  partir_3e_enfant:
+    description: A partir du 3e enfant
+    values:
+      '1985-01-01':
+        value: null
+      '1983-01-01':
+        value: 2.13
+      '1980-07-01':
+        value: 4.57
+      '1975-04-25':
+        value: null
+    metadata:
+      ipp_csv_id: majo_3enf
+      unit: /1
   naissances_multiples:
     description: Naissances multiples
     values:
@@ -76,9 +124,6 @@ majoration_naissance_adoption:
     metadata:
       ipp_csv_id: majo_mult
       unit: /1
-  metadata:
-    order:
-    - naissances_multiples
 documentation: |
   Notes :   
   (1) Le versement s'effectue en trois fois. Le taux de la base de calcul versé est égal au taux du premier versement plus 2 fois le taux du dernier versement. 

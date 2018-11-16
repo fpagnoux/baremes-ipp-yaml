@@ -2,6 +2,51 @@ description: "Prêt aux jeunes ménages (PJM) : montant des prêts susceptibles 
   \ accordés"
 pret_maximum:
   description: Prêt maximum
+  premiers_frais_location:
+    description: Pour les premiers frais de location
+    values:
+      '1982-03-01':
+        value: 10800.0
+      '1982-07-01':
+        value: null
+      '1980-07-01':
+        value: null
+      '1979-07-01':
+        value: 2200.0
+      '1978-07-01':
+        value: 2550.0
+      '1978-01-01':
+        value: 2450.0
+      '1975-01-05':
+        value: null
+    metadata:
+      ipp_csv_id: pret_max_location
+      unit: currency-FRF
+  metadata:
+    order:
+    - premiers_frais_location
+    - equipement_mobilier_menager
+    - accession_propriete_logement_neuf_ancien
+  equipement_mobilier_menager:
+    description: Pour l'équipement mobilier et ménager
+    values:
+      '1982-03-01':
+        value: 10800.0
+      '1982-07-01':
+        value: null
+      '1980-07-01':
+        value: null
+      '1979-07-01':
+        value: 7500.0
+      '1978-07-01':
+        value: 8600.0
+      '1978-01-01':
+        value: 8300.0
+      '1975-01-05':
+        value: 8600.0
+    metadata:
+      ipp_csv_id: pret_max_equipement
+      unit: currency-FRF
   accession_propriete_logement_neuf_ancien:
     description: Pour l'accession à la propriété d'un logement neuf ou ancien
     values:
@@ -22,9 +67,6 @@ pret_maximum:
     metadata:
       ipp_csv_id: pret_max_accession
       unit: currency-FRF
-  metadata:
-    order:
-    - accession_propriete_logement_neuf_ancien
 metadata:
   order:
   - pret_maximum

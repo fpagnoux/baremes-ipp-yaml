@@ -1,6 +1,58 @@
 description: Taxe d'apprentissage
 employeur_tout_salaire:
   description: 'Employeur: tout salaire'
+  taxe_apprentissage:
+    description: Taxe d'apprentissage
+    values:
+      '2014-01-01':
+        value: 0.0068
+      '1993-01-01':
+        value: 0.005
+      '1977-01-01':
+        value: 0.006
+      '1972-07-01':
+        value: 0.005
+    metadata:
+      ipp_csv_id: appren_p_0_
+      unit: /1
+  metadata:
+    order:
+    - taxe_apprentissage
+    - taxe_apprentissage_alsace_moselle
+    - contribution_developpement_apprentissage
+    - cotisation_supplementaire
+  taxe_apprentissage_alsace_moselle:
+    description: Taxe d'apprentissage (Alsace-Moselle)
+    values:
+      '2014-01-01':
+        value: 0.0044
+      '2007-01-01':
+        value: 0.0026
+      '1997-01-01':
+        value: 0.002
+      '1979-01-01':
+        value: 0.001
+      '1972-07-01':
+        value: null
+    metadata:
+      ipp_csv_id: appren_am_p_0_
+      unit: /1
+  contribution_developpement_apprentissage:
+    description: Contribution au développement de l'apprentissage
+    values:
+      '2014-01-01':
+        value: null
+      '2006-01-01':
+        value: 0.0018
+      '2005-01-01':
+        value: 0.0012
+      '2004-01-01':
+        value: 0.0006
+      '1972-07-01':
+        value: null
+    metadata:
+      ipp_csv_id: apprencda_p_0_
+      unit: /1
   cotisation_supplementaire:
     description: Cotisation supplémentaire
     values:
@@ -13,9 +65,6 @@ employeur_tout_salaire:
     metadata:
       ipp_csv_id: apprensup_p_0_
       unit: /1
-  metadata:
-    order:
-    - cotisation_supplementaire
 metadata:
   order:
   - employeur_tout_salaire

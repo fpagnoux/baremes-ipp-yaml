@@ -264,6 +264,231 @@ metadata:
     '1969-01-01': 'Sources : voir notes (3) et (4)'
 plafond_avantages_procures_par_demi_part_qf:
   description: Plafond des avantages procurés par demi-part de QF
+  enfant_majeur_celibataire:
+    description: Enfant majeur célibataire
+    values:
+      '1981-01-01':
+        value: null
+      '1980-01-01':
+        value: 10800.0
+      '1979-01-01':
+        value: 9500.0
+      '1978-01-01':
+        value: 8600.0
+      '1977-01-01':
+        value: 7900.0
+      '1976-01-01':
+        value: 7300.0
+      '1975-01-01':
+        value: 6700.0
+      '1974-01-01':
+        value: 6000.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_qf_foy_maj
+      unit: currency-FRF
+  metadata:
+    order:
+    - enfant_majeur_celibataire
+    - general
+    - part_1er_enfant_parents_isoles
+    - personnes_seules_ayant_eus_enfants
+    - invalidite_ancien_combattant
+  general:
+    description: Général
+    values:
+      '2017-01-01':
+        value: 1527.0
+      '2016-01-01':
+        value: 1512.0
+      '2015-01-01':
+        value: 1510.0
+      '2014-01-01':
+        value: 1508.0
+      '2013-01-01':
+        value: 1500.0
+      '2012-01-01':
+        value: 2000.0
+      '2010-01-01':
+        value: 2336.0
+      '2009-01-01':
+        value: 2301.0
+      '2008-01-01':
+        value: 2292.0
+      '2007-01-01':
+        value: 2227.0
+      '2006-01-01':
+        value: 2198.0
+      '2005-01-01':
+        value: 2159.0
+      '2004-01-01':
+        value: 2121.0
+      '2003-01-01':
+        value: 2086.0
+      '2002-01-01':
+        value: 2051.0
+      '2001-01-01':
+        value: 2017.0
+      '2000-01-01':
+        value: 12440.0
+      '1999-01-01':
+        value: 11060.0
+      '1998-01-01':
+        value: 11000.0
+      '1997-01-01':
+        value: 16380.0
+      '1996-01-01':
+        value: 16200.0
+      '1995-01-01':
+        value: 15900.0
+      '1994-01-01':
+        value: 15620.0
+      '1993-01-01':
+        value: 15400.0
+      '1992-01-01':
+        value: 12910.0
+      '1991-01-01':
+        value: 12550.0
+      '1990-01-01':
+        value: 12180.0
+      '1989-01-01':
+        value: 11800.0
+      '1988-01-01':
+        value: 11420.0
+      '1987-01-01':
+        value: 11130.0
+      '1986-01-01':
+        value: 10770.0
+      '1985-01-01':
+        value: 10520.0
+      '1984-01-01':
+        value: 9960.0
+      '1983-01-01':
+        value: 9250.0
+      '1982-01-01':
+        value: 8450.0
+      '1981-01-01':
+        value: 7500.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_qf
+      unit:
+        '2001-01-01': currency-EUR
+        '1981-01-01': currency-FRF
+  part_1er_enfant_parents_isoles:
+    description: Part pour le 1er enfant des parents isolés
+    values:
+      '2017-01-01':
+        value: 3602.0
+      '2016-01-01':
+        value: 3566.0
+      '2015-01-01':
+        value: 3562.0
+      '2014-01-01':
+        value: 3558.0
+      '2013-01-01':
+        value: 3540.0
+      '2010-01-01':
+        value: 4040.0
+      '2009-01-01':
+        value: 3980.0
+      '2008-01-01':
+        value: 3964.0
+      '2007-01-01':
+        value: 3852.0
+      '2006-01-01':
+        value: 3803.0
+      '2005-01-01':
+        value: 3736.0
+      '2004-01-01':
+        value: 3670.0
+      '2003-01-01':
+        value: 3609.0
+      '2002-01-01':
+        value: 3549.0
+      '2001-01-01':
+        value: 3490.0
+      '2000-01-01':
+        value: 21930.0
+      '1999-01-01':
+        value: 20370.0
+      '1997-01-01':
+        value: 20270.0
+      '1996-01-01':
+        value: 20050.0
+      '1995-01-01':
+        value: 19680.0
+      '1994-01-01':
+        value: 19330.0
+      '1993-01-01':
+        value: 19060.0
+      '1992-01-01':
+        value: 16500.0
+      '1991-01-01':
+        value: 16050.0
+      '1990-01-01':
+        value: 15580.0
+      '1989-01-01':
+        value: 15090.0
+      '1988-01-01':
+        value: 14600.0
+      '1987-01-01':
+        value: 14230.0
+      '1986-01-01':
+        value: 13770.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_qf_parentisole
+      unit:
+        '2001-01-01': currency-EUR
+        '1986-01-01': currency-FRF
+  personnes_seules_ayant_eus_enfants:
+    description: Personnes seules ayant eus des enfants
+    values:
+      '2017-01-01':
+        value: 912.0
+      '2016-01-01':
+        value: 903.0
+      '2015-01-01':
+        value: 902.0
+      '2014-01-01':
+        value: 901.0
+      '2010-01-01':
+        value: 897.0
+      '2009-01-01':
+        value: 884.0
+      '2008-01-01':
+        value: 880.0
+      '2007-01-01':
+        value: 855.0
+      '2006-01-01':
+        value: 844.0
+      '2005-01-01':
+        value: 829.0
+      '2004-01-01':
+        value: 814.0
+      '2003-01-01':
+        value: 800.0
+      '2002-01-01':
+        value: 980.0
+      '2001-01-01':
+        value: 964.0
+      '2000-01-01':
+        value: 6220.0
+      '1999-01-01':
+        value: 6130.0
+      '1997-01-01':
+        value: 6100.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_qf_persseule
+      unit:
+        '2001-01-01': currency-EUR
+        '1997-01-01': currency-FRF
   invalidite_ancien_combattant:
     description: Invalidité - Ancien combattant
     values:
@@ -306,9 +531,6 @@ plafond_avantages_procures_par_demi_part_qf:
       unit:
         '2001-01-01': currency-EUR
         '1998-01-01': currency-FRF
-  metadata:
-    order:
-    - invalidite_ancien_combattant
 veuf_avec_plusieurs_enfants_charge:
   description: Veuf avec un ou plusieurs enfants à charge
   values:
@@ -357,6 +579,219 @@ veuf_avec_plusieurs_enfants_charge:
       '1998-01-01': currency-FRF
 decote:
   description: Décote
+  seuil1:
+    description: Seuil1
+    values:
+      '2017-01-01':
+        value: 1177.0
+      '2015-01-01':
+        value: 1165.0
+      '2014-01-01':
+        value: 1135.0
+      '2013-01-01':
+        value: 508.0
+      '2012-01-01':
+        value: 480.0
+      '2010-01-01':
+        value: 439.0
+      '2009-01-01':
+        value: 433.0
+      '2008-01-01':
+        value: 431.0
+      '2007-01-01':
+        value: 419.0
+      '2006-01-01':
+        value: 414.0
+      '2005-01-01':
+        value: 407.0
+      '2004-01-01':
+        value: 400.0
+      '2003-01-01':
+        value: 393.0
+      '2002-01-01':
+        value: 386.0
+      '2001-01-01':
+        value: 380.0
+      '2000-01-01':
+        value: 2450.0
+      '1999-01-01':
+        value: 3350.0
+      '1998-01-01':
+        value: 3330.0
+      '1997-01-01':
+        value: 3300.0
+      '1996-01-01':
+        value: 3260.0
+      '1995-01-01':
+        value: 4320.0
+      '1994-01-01':
+        value: 4240.0
+      '1993-01-01':
+        value: 4180.0
+      '1992-01-01':
+        value: 5110.0
+      '1991-01-01':
+        value: 4970.0
+      '1990-01-01':
+        value: 4820.0
+      '1989-01-01':
+        value: 4670.0
+      '1987-01-01':
+        value: 4520.0
+      '1986-01-01':
+        value: 4400.0
+      '1973-01-01':
+        value: null
+      '1969-01-01':
+        value: 100.0
+      '1962-01-01':
+        value: 80.0
+      '1961-01-01':
+        value: 70.0
+      '1959-01-01':
+        value: 7000.0
+      '1958-01-01':
+        value: 8000.0
+      '1957-01-01':
+        value: 5000.0
+      '1953-01-01':
+        value: null
+      '1951-01-01':
+        value: 4000.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: param_decote
+      unit:
+        '2001-01-01': currency-EUR
+        '1951-01-01': currency-FRF
+  metadata:
+    order:
+    - seuil1
+    - seuil2
+    - seuil_1_1_part
+    - seuil_1_15_part
+    - seuil_1_faible_nombre_part
+    - seuil_2_faible_nombre_part
+    - nombre_part_limite
+  seuil2:
+    description: Seuil2
+    values:
+      '2017-01-01':
+        value: 1939.0
+      '2015-01-01':
+        value: 1920.0
+      '2014-01-01':
+        value: 1870.0
+      '1973-01-01':
+        value: null
+      '1969-01-01':
+        value: 300.0
+      '1962-01-01':
+        value: 240.0
+      '1961-01-01':
+        value: 210.0
+      '1959-01-01':
+        value: 14000.0
+      '1958-01-01':
+        value: 12000.0
+      '1957-01-01':
+        value: 10000.0
+      '1953-01-01':
+        value: null
+      '1951-01-01':
+        value: 8000.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: param_decote_b
+      unit:
+        '2014-01-01': currency-EUR
+        '1951-01-01': currency-FRF
+  seuil_1_1_part:
+    description: |-
+      Seuil 1 
+      1 part
+    values:
+      '1986-01-01':
+        value: null
+      '1985-01-01':
+        value: 4300.0
+      '1984-01-01':
+        value: 4000.0
+      '1983-01-01':
+        value: 3700.0
+      '1982-01-01':
+        value: 3200.0
+      '1981-01-01':
+        value: 2600.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: decote_np1
+      unit: currency-FRF
+  seuil_1_15_part:
+    description: |-
+      Seuil 1 
+      1,5 part
+    values:
+      '1986-01-01':
+        value: null
+      '1985-01-01':
+        value: 1700.0
+      '1984-01-01':
+        value: 1600.0
+      '1983-01-01':
+        value: 1400.0
+      '1982-01-01':
+        value: 1100.0
+      '1981-01-01':
+        value: 800.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: decote_np1_5
+      unit: currency-FRF
+  seuil_1_faible_nombre_part:
+    description: Seuil 1 pour faible nombre de part
+    values:
+      '1973-01-01':
+        value: null
+      '1969-01-01':
+        value: 230.0
+      '1967-01-01':
+        value: null
+      '1966-01-01':
+        value: 190.0
+      '1965-01-01':
+        value: 160.0
+      '1964-01-01':
+        value: 120.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: decote_x_qf
+      unit: currency-FRF
+  seuil_2_faible_nombre_part:
+    description: Seuil 2 pour faible nombre de part
+    values:
+      '1973-01-01':
+        value: null
+      '1969-01-01':
+        value: 690.0
+      '1967-01-01':
+        value: null
+      '1966-01-01':
+        value: 570.0
+      '1965-01-01':
+        value: 480.0
+      '1964-01-01':
+        value: 240.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: decote_y_qf
+      unit: currency-FRF
   nombre_part_limite:
     description: Nombre de part limite
     values:
@@ -372,11 +807,48 @@ decote:
         value: null
     metadata:
       ipp_csv_id: nbp_dec
-  metadata:
-    order:
-    - nombre_part_limite
 reduction_impot_sous_condition_revenus:
   description: Réduction d'impôt sous condition de revenus
+  taux:
+    description: Taux
+    values:
+      '2016-01-01':
+        value: 0.2
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: reduc_bas_revenus_tx
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond_rfr_1
+    - plafond_rfr_2
+    - majoration_plafond_par_demi_parts_supplementaires
+  plafond_rfr_1:
+    description: Plafond RFR 1
+    values:
+      '2017-01-01':
+        value: 18685.0
+      '2016-01-01':
+        value: 18500.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: reduc_bas_revenus_plaf1
+      unit: currency-EUR
+  plafond_rfr_2:
+    description: Plafond RFR 2
+    values:
+      '2017-01-01':
+        value: 20705.0
+      '2016-01-01':
+        value: 20500.0
+      '1950-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: reduc_bas_revenus_plaf2
+      unit: currency-EUR
   majoration_plafond_par_demi_parts_supplementaires:
     description: Majoration du plafond par demi-parts supplémentaires
     values:
@@ -389,9 +861,6 @@ reduction_impot_sous_condition_revenus:
     metadata:
       ipp_csv_id: reduc_bas_revenus_plaf_enf
       unit: currency-EUR
-  metadata:
-    order:
-    - majoration_plafond_par_demi_parts_supplementaires
 documentation: |
   Notes : 
   > Création du quotient familial en 1945 (Loi n° 45-0195 du 31/02/1945).

@@ -19,6 +19,36 @@ metadata:
     '2011-01-01': Décret n°2012-653 du 4 mai 2012 - art. 1
 contribution_exceptionnelle_hauts_revenus:
   description: Contribution exceptionnelle sur les hauts revenus
+  seuil_1ere_tranche:
+    description: Seuil de la 1ère tranche
+    values:
+      '2011-01-01':
+        value: 250000.0
+    metadata:
+      ipp_csv_id: tranche1_hr
+      unit: currency-EUR
+  metadata:
+    order:
+    - seuil_1ere_tranche
+    - seuil_2eme_tranche
+    - taux_marginal_1ere_tranche
+    - taux_marginal_2eme_tranche
+  seuil_2eme_tranche:
+    description: Seuil de la 2ème tranche
+    values:
+      '2011-01-01':
+        value: 500000.0
+    metadata:
+      ipp_csv_id: tranche2_hr
+      unit: currency-EUR
+  taux_marginal_1ere_tranche:
+    description: Taux marginal de la 1ère tranche
+    values:
+      '2011-01-01':
+        value: 0.03
+    metadata:
+      ipp_csv_id: txmarg1_hr
+      unit: /1
   taux_marginal_2eme_tranche:
     description: Taux marginal de la 2ème tranche
     values:
@@ -27,9 +57,6 @@ contribution_exceptionnelle_hauts_revenus:
     metadata:
       ipp_csv_id: txmarg2_hr
       unit: /1
-  metadata:
-    order:
-    - taux_marginal_2eme_tranche
 documentation: |
   Notes :
   (1) Les seuils du barème exprimés ici sont pour les célibataires. Il faut donc les doubler pour les couples mariés ou pacsés .

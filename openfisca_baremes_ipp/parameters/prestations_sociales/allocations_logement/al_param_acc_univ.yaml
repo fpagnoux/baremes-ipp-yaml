@@ -188,6 +188,65 @@ majoration_n_par_personne_charge_supplementaire:
     ipp_csv_id: n_enfsupp
 taux_loyer_minimum_lo_en_al_accession:
   description: Taux pour le loyer minimum (Lo) en AL accession
+  1ere_tranche:
+    description: 1ère tranche
+    values:
+      '1972-07-01':
+        value: 0.0
+    metadata:
+      ipp_csv_id: lo_tx1
+      unit: /1
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
+  2eme_tranche:
+    description: 2ème tranche
+    values:
+      '2007-07-01':
+        value: 0.024
+      '1988-07-01':
+        value: 0.03
+      '1978-07-01':
+        value: 0.15
+      '1972-07-01':
+        value: 0.18
+    metadata:
+      ipp_csv_id: lo_tx2
+      unit: /1
+  3eme_tranche:
+    description: 3ème tranche
+    values:
+      '2007-07-01':
+        value: 0.208
+      '1986-01-01':
+        value: 0.26
+      '1978-07-01':
+        value: 0.25
+      '1972-07-01':
+        value: 0.23
+    metadata:
+      ipp_csv_id: lo_tx3
+      unit: /1
+  4eme_tranche:
+    description: 4ème tranche
+    values:
+      '2007-07-01':
+        value: 0.232
+      '1988-07-01':
+        value: 0.29
+      '1986-01-01':
+        value: 0.36
+      '1978-07-01':
+        value: 0.34
+      '1972-07-01':
+        value: 0.28
+    metadata:
+      ipp_csv_id: lo_tx4
+      unit: /1
   5eme_tranche:
     description: 5ème tranche
     values:
@@ -202,11 +261,152 @@ taux_loyer_minimum_lo_en_al_accession:
     metadata:
       ipp_csv_id: lo_tx5
       unit: /1
-  metadata:
-    order:
-    - 5eme_tranche
 seuils:
   description: Seuils
+  1ere_tranche:
+    description: 1ère tranche
+    values:
+      '2007-07-01':
+        value: 1423.03
+      '2003-07-01':
+        value: 1138.42
+      '2002-07-01':
+        value: 1118.29
+      '2001-07-01':
+        value: 1100.68
+      '2000-07-01':
+        value: 7106.0
+      '1999-07-01':
+        value: 7071.0
+      '1998-07-01':
+        value: 7029.0
+      '1997-07-01':
+        value: 6953.0
+      '1994-07-01':
+        value: 6823.0
+      '1992-07-01':
+        value: 6722.0
+      '1991-07-01':
+        value: 6545.0
+      '1990-07-01':
+        value: 6354.0
+      '1989-07-01':
+        value: 6151.0
+      '1988-07-01':
+        value: 5983.0
+      '1987-07-01':
+        value: 9738.0
+      '1986-07-01':
+        value: 9500.0
+      '1986-01-01':
+        value: 6675.0
+      '1978-07-01':
+        value: 3675.0
+      '1972-07-01':
+        value: 2500.0
+    metadata:
+      ipp_csv_id: seuil_tr1_lo
+      unit:
+        '2001-07-01': currency-EUR
+        '1972-07-01': currency-FRF
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche_debut_5eme_tranche
+  2eme_tranche:
+    description: 2ème tranche
+    values:
+      '2007-07-01':
+        value: 2047.61
+      '2003-07-01':
+        value: 1638.09
+      '2002-07-01':
+        value: 1609.13
+      '2001-07-01':
+        value: 1583.79
+      '2000-07-01':
+        value: 10225.0
+      '1999-07-01':
+        value: 10174.0
+      '1998-07-01':
+        value: 10113.0
+      '1997-07-01':
+        value: 10003.0
+      '1994-07-01':
+        value: 9816.0
+      '1992-07-01':
+        value: 9671.0
+      '1991-07-01':
+        value: 9417.0
+      '1990-07-01':
+        value: 9143.0
+      '1989-07-01':
+        value: 8851.0
+      '1988-07-01':
+        value: 8610.0
+      '1987-07-01':
+        value: 14013.0
+      '1986-07-01':
+        value: 13671.0
+      '1986-01-01':
+        value: 13350.0
+      '1978-07-01':
+        value: 7350.0
+      '1972-07-01':
+        value: 5000.0
+    metadata:
+      ipp_csv_id: seuil_tr2_lo
+      unit:
+        '2001-07-01': currency-EUR
+        '1972-07-01': currency-FRF
+  3eme_tranche:
+    description: 3ème tranche
+    values:
+      '2007-07-01':
+        value: 2629.85
+      '2003-07-01':
+        value: 2103.88
+      '2002-07-01':
+        value: 2066.68
+      '2001-07-01':
+        value: 2034.13
+      '2000-07-01':
+        value: 13133.0
+      '1999-07-01':
+        value: 13068.0
+      '1998-07-01':
+        value: 12990.0
+      '1997-07-01':
+        value: 12849.0
+      '1994-07-01':
+        value: 12609.0
+      '1992-07-01':
+        value: 12423.0
+      '1991-07-01':
+        value: 12096.0
+      '1990-07-01':
+        value: 11744.0
+      '1989-07-01':
+        value: 11369.0
+      '1988-07-01':
+        value: 11059.0
+      '1987-07-01':
+        value: 28026.0
+      '1986-07-01':
+        value: 27342.0
+      '1986-01-01':
+        value: 26700.0
+      '1978-07-01':
+        value: 14700.0
+      '1972-07-01':
+        value: 10000.0
+    metadata:
+      ipp_csv_id: seuil_tr3_lo
+      unit:
+        '2001-07-01': currency-EUR
+        '1972-07-01': currency-FRF
   4eme_tranche_debut_5eme_tranche:
     description: 4ème tranche (et début 5ème tranche)
     values:
@@ -247,9 +447,6 @@ seuils:
       unit:
         '2001-07-01': currency-EUR
         '1972-07-01': currency-FRF
-  metadata:
-    order:
-    - 4eme_tranche_debut_5eme_tranche
 majoration_loyer_minimum_lo:
   description: Majoration du loyer minimum (Lo)
   values:

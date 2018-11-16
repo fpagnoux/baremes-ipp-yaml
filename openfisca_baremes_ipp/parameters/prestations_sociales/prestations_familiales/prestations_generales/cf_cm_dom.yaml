@@ -38,6 +38,17 @@ age_en_dessous_duquel_enfant_prive_famille_complement_familial:
       value: 3.0
 complement_familial_en_bmaf_dom:
   description: Complément familial (en % de la BMAF) - DOM
+  montant_base:
+    description: Montant de base
+    values:
+      '2002-01-01':
+        value: 0.2379
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - montant_base
+    - montant_majore
   montant_majore:
     description: Montant majoré
     values:
@@ -53,7 +64,4 @@ complement_familial_en_bmaf_dom:
         value: 0.2379
     metadata:
       unit: /1
-  metadata:
-    order:
-    - montant_majore
 documentation: ''

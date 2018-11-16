@@ -1,6 +1,24 @@
 description: Cotisations pour la structure financière ASF (1984-2001)
 tranche:
   description: Tranche A
+  salarie:
+    description: Salarié
+    values:
+      '2001-04-01':
+        value: null
+      '1994-01-01':
+        value: 0.008
+      '1990-10-01':
+        value: 0.0072
+      '1984-01-01':
+        value: 0.008
+    metadata:
+      ipp_csv_id: asf_s_0_1
+      unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
   employeur:
     description: Employeur
     values:
@@ -15,9 +33,6 @@ tranche:
     metadata:
       ipp_csv_id: asf_p_0_1
       unit: /1
-  metadata:
-    order:
-    - employeur
 metadata:
   order:
   - tranche
@@ -40,6 +55,24 @@ metadata:
     '2001-04-01': Le taux AGFF se substitute à l'ASF.
 tranche_b:
   description: Tranche B
+  salarie:
+    description: Salarié
+    values:
+      '2001-04-01':
+        value: null
+      '1994-01-01':
+        value: 0.0089
+      '1984-04-01':
+        value: 0.008
+      '1984-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: asf_s_1_4
+      unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
   employeur:
     description: Employeur
     values:
@@ -54,9 +87,6 @@ tranche_b:
     metadata:
       ipp_csv_id: asf_p_1_4
       unit: /1
-  metadata:
-    order:
-    - employeur
 documentation: |
   Notes :
   (i) L'Association pour la gestion de la structure financière (ASF) a eu pour mission:

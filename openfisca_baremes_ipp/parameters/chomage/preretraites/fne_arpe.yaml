@@ -1,6 +1,96 @@
 description: Montant minimum des préretraites FNE-ARPE
 montant_minimum:
   description: Montant minimum
+  lic_demission_arpe:
+    description: Lic. Démission/ARPE
+    values:
+      '2017-10-01':
+        value: 31.98
+      '2015-10-01':
+        value: 31.73
+      '2011-04-01':
+        value: 30.65
+      '2010-04-01':
+        value: 30.02
+      '2009-04-01':
+        value: 29.75
+      '2008-01-01':
+        value: 29.23
+      '2007-01-01':
+        value: 28.91
+      '2006-01-01':
+        value: 28.4
+      '2005-01-01':
+        value: 27.9
+      '2004-01-01':
+        value: 27.35
+      '2003-01-01':
+        value: 26.89
+      '2002-01-01':
+        value: 26.49
+      '2001-01-01':
+        value: 25.92
+      '2000-01-01':
+        value: 166.34
+      '1999-01-01':
+        value: 165.51
+      '1998-01-01':
+        value: 163.55
+      '1997-01-01':
+        value: 161.77
+      '1996-01-01':
+        value: 159.85
+      '1995-07-01':
+        value: 156.72
+      '1995-01-01':
+        value: 155.94
+      '1994-01-01':
+        value: 154.09
+      '1993-01-01':
+        value: 151.07
+      '1992-07-01':
+        value: 149.13
+      '1992-01-01':
+        value: 146.49
+      '1991-07-01':
+        value: 145.04
+      '1991-01-01':
+        value: 143.89
+      '1990-07-01':
+        value: 141.48
+      '1990-01-01':
+        value: 139.66
+      '1989-07-01':
+        value: 136.72
+      '1989-01-01':
+        value: 135.1
+      '1988-07-01':
+        value: 133.37
+      '1988-01-01':
+        value: 131.66
+      '1987-07-01':
+        value: 128.32
+      '1987-01-01':
+        value: 127.05
+      '1986-10-01':
+        value: 124.8
+      '1986-01-01':
+        value: 124.18
+      '1985-07-01':
+        value: 122.59
+      '1985-01-01':
+        value: 119.25
+      '1984-04-01':
+        value: 116.0
+    metadata:
+      ipp_csv_id: arpe_min
+      unit:
+        '2001-01-01': currency-EUR
+        '1984-04-01': currency-FRF
+  metadata:
+    order:
+    - lic_demission_arpe
+    - progress_mi_temps
   progress_mi_temps:
     description: Progress mi temps
     values:
@@ -87,9 +177,6 @@ montant_minimum:
       unit:
         '2001-01-01': currency-EUR
         '1984-04-01': currency-FRF
-  metadata:
-    order:
-    - progress_mi_temps
 metadata:
   order:
   - montant_minimum

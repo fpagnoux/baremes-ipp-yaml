@@ -1,6 +1,24 @@
 description: Cotisations pour l'Association pour l'emploi des cadres (APEC)
 tranche_b_1_4_pss:
   description: Tranche B (de 1 à 4 PSS)
+  salarie:
+    description: Salarié
+    values:
+      '2011-01-01':
+        value: null
+      '1975-01-01':
+        value: 0.00024
+      '1971-01-01':
+        value: 0.00016
+      '1967-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: apec_s_1_4
+      unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
   employeur:
     description: Employeur
     values:
@@ -15,9 +33,6 @@ tranche_b_1_4_pss:
     metadata:
       ipp_csv_id: apec_p_1_4
       unit: /1
-  metadata:
-    order:
-    - employeur
 metadata:
   order:
   - tranche_b_1_4_pss
@@ -35,6 +50,20 @@ metadata:
     '1967-01-01': Cotisation forfaitaire d'un montant de 2 FF par cadre.
 sous_4_pss:
   description: Sous 4 PSS
+  salarie:
+    description: Salarié
+    values:
+      '2011-01-01':
+        value: 0.00024
+      '1967-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: apec_s_0_4
+      unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
   employeur:
     description: Employeur
     values:
@@ -45,9 +74,6 @@ sous_4_pss:
     metadata:
       ipp_csv_id: apec_p_0_4
       unit: /1
-  metadata:
-    order:
-    - employeur
 documentation: |
   Note :
   L'Association pour l'emploi des cadres (APEC) a été mise en place par la convention du 18/11/1966.

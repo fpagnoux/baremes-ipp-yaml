@@ -1,6 +1,150 @@
 description: Cotisation SS branche maladie, maternité, invalidité, décès, Artisans-Commerçants
 assures_actifs:
   description: Assurés actifs
+  toute_remuneration:
+    description: Toute rémunération
+    values:
+      '2017-01-01':
+        value: null
+      '2013-03-01':
+        value: 0.065
+      '1974-10-01':
+        value: null
+      '1973-04-01':
+        value: 0.107
+      '1970-04-01':
+        value: 0.145
+    metadata:
+      ipp_csv_id: mmid_ac_0_
+      unit: /1
+  metadata:
+    order:
+    - toute_remuneration
+    - sous_pss
+    - sous_4_pss
+    - sous_5_pss
+    - sous_5_pss_supplement_artisans_verse_titre_indemnites_journalieres_ij
+    - dela_70_pss_1
+    - entre_11_5_pss_2
+    - dela_5_pss
+  sous_pss:
+    description: Sous PSS
+    values:
+      '2013-03-01':
+        value: null
+      '1998-01-01':
+        value: 0.006
+      '1997-01-01':
+        value: 0.024
+      '1984-10-01':
+        value: 0.031
+      '1981-10-01':
+        value: 0.037
+      '1979-04-01':
+        value: 0.0465
+      '1977-10-01':
+        value: 0.0765
+      '1976-10-01':
+        value: 0.0735
+      '1975-10-01':
+        value: 0.069
+      '1975-04-01':
+        value: 0.067
+      '1974-10-01':
+        value: 0.0625
+      '1970-04-01':
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_0_1
+      unit: /1
+  sous_4_pss:
+    description: Sous 4 PSS
+    values:
+      '1981-10-01':
+        value: null
+      '1979-04-01':
+        value: 0.07
+      '1977-10-01':
+        value: 0.04
+      '1976-10-01':
+        value: 0.035
+      '1974-10-01':
+        value: 0.025
+      '1970-04-01':
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_0_4
+      unit: /1
+  sous_5_pss:
+    description: Sous 5 PSS
+    values:
+      '2013-03-01':
+        value: null
+      '2007-01-01':
+        value: 0.066
+      '2001-01-01':
+        value: 0.064
+      '1998-01-01':
+        value: 0.053
+      '1997-01-01':
+        value: 0.09
+      '1995-04-01':
+        value: 0.098
+      '1992-04-01':
+        value: 0.0945
+      '1991-10-01':
+        value: 0.0975
+      '1991-08-01':
+        value: 0.0915
+      '1989-04-01':
+        value: 0.0885
+      '1987-07-01':
+        value: 0.0865
+      '1984-10-01':
+        value: 0.0845
+      '1981-10-01':
+        value: 0.0795
+      '1970-04-01':
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_0_5
+      unit: /1
+  sous_5_pss_supplement_artisans_verse_titre_indemnites_journalieres_ij:
+    description: 'Sous 5 PSS: supplément pour les artisans, versé au titre des indemnités
+      journalières (IJ)'
+    values:
+      '2001-01-01':
+        value: null
+      '1997-01-01':
+        value: 0.005
+      '1995-07-01':
+        value: 0.0025
+      '1970-04-01':
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_0_5
+      unit: /1
+  dela_70_pss_1:
+    description: Au-delà de 70 % du PSS (1)
+    values:
+      '2018-01-01':
+        value: null
+      '2017-01-01':
+        value: 0.065
+      '1970-04-01':
+        value: null
+    metadata:
+      ipp_csv_id: ij_ac_0_5
+      unit: /1
+  entre_11_5_pss_2:
+    description: Entre 1,1 et 5 PSS (2)
+    values:
+      '2018-01-01':
+        value: 0.072
+      '1970-04-01':
+        value: null
+    metadata:
+      unit: /1
   dela_5_pss:
     description: Au-delà de 5 PSS
     values:
@@ -10,9 +154,6 @@ assures_actifs:
         value: null
     metadata:
       unit: /1
-  metadata:
-    order:
-    - dela_5_pss
 metadata:
   order:
   - assures_actifs
@@ -96,6 +237,66 @@ metadata:
       et commerçants et régime général achevée au plus tard le 31 décembre 1977
 assures_retraites:
   description: Assurés retraités
+  pension_totale:
+    description: Pension totale
+    values:
+      '1974-10-01':
+        value: null
+      '1973-04-01':
+        value: 0.107
+      '1970-04-01':
+        value: 0.145
+    metadata:
+      ipp_csv_id: mmid_ac_ret_0_
+      unit: /1
+  metadata:
+    order:
+    - pension_totale
+    - sous_pss
+    - sous_4_pss
+    - pensions_sous_5_pss
+  sous_pss:
+    description: Sous PSS
+    values:
+      '1981-10-01':
+        value: null
+      '1981-04-01':
+        value: 0.03
+      '1979-04-01':
+        value: 0.0465
+      '1977-10-01':
+        value: 0.0765
+      '1976-10-01':
+        value: 0.0735
+      '1975-10-01':
+        value: 0.069
+      '1975-04-01':
+        value: 0.067
+      '1974-10-01':
+        value: 0.0625
+      '1970-04-01':
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_ret_0_1
+      unit: /1
+  sous_4_pss:
+    description: Sous 4 PSS
+    values:
+      '1981-10-01':
+        value: null
+      '1979-04-01':
+        value: 0.07
+      '1977-10-01':
+        value: 0.04
+      '1976-10-01':
+        value: 0.035
+      '1974-10-01':
+        value: 0.025
+      '1970-04-01':
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_ret_0_4
+      unit: /1
   pensions_sous_5_pss:
     description: Pensions sous 5 PSS
     values:
@@ -116,9 +317,6 @@ assures_retraites:
     metadata:
       ipp_csv_id: mmid_ac_ret_0_5
       unit: /1
-  metadata:
-    order:
-    - pensions_sous_5_pss
 documentation: |
   Loi 66-509 du 12/07/1966
   1966-07-13

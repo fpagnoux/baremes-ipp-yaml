@@ -2,6 +2,27 @@ description: 'Revenu de solidarité active (RSA) : majorations (montant de base 
   revenus) et montant minimum versé'
 majoration_montant_maximal_en_base_rsa:
   description: Majoration montant maximal (en % de la base RSA)
+  couples_celibataire_avec_enfant:
+    description: Couples ou célibataire avec un enfant
+    values:
+      '2009-06-01':
+        value: 0.5
+    metadata:
+      ipp_csv_id: rsa_rmi_coup
+      unit: /1
+  metadata:
+    order:
+    - couples_celibataire_avec_enfant
+    - couple_1_enfant_deuxieme_enfant_1
+    - par_enfant_supplementaire
+  couple_1_enfant_deuxieme_enfant_1:
+    description: Couple, 1 enfant - ou pour le deuxième enfant (1)
+    values:
+      '2009-06-01':
+        value: 0.3
+    metadata:
+      ipp_csv_id: rsa_rmi_enf2
+      unit: /1
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
@@ -10,9 +31,6 @@ majoration_montant_maximal_en_base_rsa:
     metadata:
       ipp_csv_id: rsa_rmi_enf3
       unit: /1
-  metadata:
-    order:
-    - par_enfant_supplementaire
 metadata:
   order:
   - majoration_montant_maximal_en_base_rsa
@@ -29,6 +47,20 @@ metadata:
     '2016-01-01': Remplacement du RSA activité par la Prime d'activité
 majoration_isolement_en_base_rsa:
   description: Majoration isolement (en % de la base RSA)
+  parents_isoles_2_femmes_enceintes:
+    description: Parents isolés (2) / femmes enceintes
+    values:
+      '2016-01-01':
+        value: 1.28412
+      '2009-06-01':
+        value: 1.284
+    metadata:
+      ipp_csv_id: rsa_isole_enceinte
+      unit: /1
+  metadata:
+    order:
+    - parents_isoles_2_femmes_enceintes
+    - par_enfant_charge
   par_enfant_charge:
     description: Par enfant à charge
     values:
@@ -39,9 +71,6 @@ majoration_isolement_en_base_rsa:
     metadata:
       ipp_csv_id: rsa_isole_enf
       unit: /1
-  metadata:
-    order:
-    - par_enfant_charge
 majoration_ressources_revenus_activite:
   description: Majoration des ressources sur les revenus d'activité
   values:

@@ -1,6 +1,26 @@
 description: Contribution sociale généralisée (CSG) sur les revenus d'activité
 revenus_activite:
   description: Revenus d'activité
+  taux_global_csg:
+    description: Taux global CSG
+    values:
+      '2018-01-01':
+        value: 0.092
+      '1998-01-01':
+        value: 0.075
+      '1997-01-01':
+        value: 0.034
+      '1993-07-01':
+        value: 0.024
+      '1991-02-01':
+        value: 0.011
+    metadata:
+      ipp_csv_id: csg_act
+      unit: /1
+  metadata:
+    order:
+    - taux_global_csg
+    - taux_csg_deductible
   taux_csg_deductible:
     description: Taux CSG deductible
     values:
@@ -15,9 +35,6 @@ revenus_activite:
     metadata:
       ipp_csv_id: csg_act_ded
       unit: /1
-  metadata:
-    order:
-    - taux_csg_deductible
 metadata:
   order:
   - revenus_activite
@@ -47,6 +64,35 @@ metadata:
       œuvre de la CSG fournit des indications sur les assiettes et les exonérations.
 allocations_chomage:
   description: Allocations chômage
+  taux_global_csg:
+    description: Taux global CSG
+    values:
+      '1998-01-01':
+        value: 0.062
+      '1997-01-01':
+        value: 0.034
+      '1991-02-01':
+        value: null
+    metadata:
+      ipp_csv_id: csg_cho
+      unit: /1
+  metadata:
+    order:
+    - taux_global_csg
+    - taux_csg_deductible
+    - taux_csg_reduit
+  taux_csg_deductible:
+    description: Taux CSG deductible
+    values:
+      '1998-01-01':
+        value: 0.038
+      '1997-01-01':
+        value: 0.01
+      '1991-02-01':
+        value: null
+    metadata:
+      ipp_csv_id: csg_cho_ded
+      unit: /1
   taux_csg_reduit:
     description: Taux CSG réduit
     values:
@@ -59,11 +105,24 @@ allocations_chomage:
     metadata:
       ipp_csv_id: csg_cho_red
       unit: /1
-  metadata:
-    order:
-    - taux_csg_reduit
 abattement:
   description: Abattement
+  sous_4_pss:
+    description: Sous 4 PSS
+    values:
+      '2012-01-01':
+        value: 0.0175
+      '2005-01-01':
+        value: 0.03
+      '1991-02-01':
+        value: 0.05
+    metadata:
+      ipp_csv_id: csg_abt_0_4
+      unit: /1
+  metadata:
+    order:
+    - sous_4_pss
+    - dessus_4_pss
   dessus_4_pss:
     description: Au-dessus de 4 PSS
     values:
@@ -76,9 +135,6 @@ abattement:
     metadata:
       ipp_csv_id: csg_abt_4_
       unit: /1
-  metadata:
-    order:
-    - dessus_4_pss
 documentation: |
   Notes :
   L'art. 2.III de la loi 93-1352 publiée au JO le 30/12/1993 (LF pour 1994) a annulé la déductibilité prévue et a donc empêché l'application de la déductibilité de la CSG pour les revenus 1993.

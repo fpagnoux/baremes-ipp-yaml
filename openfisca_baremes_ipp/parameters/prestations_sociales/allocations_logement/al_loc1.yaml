@@ -1,8 +1,128 @@
 description: Paramètres de calcul dans le secteur locatif (avant la réforme)
 plafonds_loyer_en_zone_1:
   description: Plafonds de loyer en zone 1
+  menage_seul:
+    description: Ménage seul
+    values:
+      '2001-01-01':
+        value: null
+      '2000-07-01':
+        value: 1902.0
+      '1999-07-01':
+        value: 1883.0
+      '1998-07-01':
+        value: 1864.0
+      '1997-07-01':
+        value: 1820.0
+      '1994-07-01':
+        value: 1758.0
+    metadata:
+      ipp_csv_id: plaf_loy_coup_z1_acc
+      unit: currency-FRF
+  metadata:
+    order:
+    - menage_seul
+    - menage_isole
   menage_isole:
     description: Ménage ou isolé
+    avec_1_enfant:
+      description: Avec 1 enfant
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2082.0
+        '1999-07-01':
+          value: 2061.0
+        '1998-07-01':
+          value: 2031.0
+        '1997-07-01':
+          value: 1983.0
+        '1994-07-01':
+          value: 1889.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf1_z1_acc
+        unit: currency-FRF
+    metadata:
+      order:
+      - avec_1_enfant
+      - avec_2_enfants
+      - avec_3_enfants
+      - avec_4_enfants
+      - avec_5_enfants
+      - par_enfant_en_plus
+    avec_2_enfants:
+      description: Avec 2 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2224.0
+        '1999-07-01':
+          value: 2202.0
+        '1998-07-01':
+          value: 2089.0
+        '1997-07-01':
+          value: 2040.0
+        '1994-07-01':
+          value: 1943.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf2_z1_acc
+        unit: currency-FRF
+    avec_3_enfants:
+      description: Avec 3 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2436.0
+        '1999-07-01':
+          value: 2412.0
+        '1998-07-01':
+          value: 2250.0
+        '1997-07-01':
+          value: 2197.0
+        '1994-07-01':
+          value: 1997.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf3_z1_acc
+        unit: currency-FRF
+    avec_4_enfants:
+      description: Avec 4 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2580.0
+        '1999-07-01':
+          value: 2554.0
+        '1998-07-01':
+          value: 2310.0
+        '1997-07-01':
+          value: 2256.0
+        '1994-07-01':
+          value: 2051.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf4_z1_acc
+        unit: currency-FRF
+    avec_5_enfants:
+      description: Avec 5 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2719.0
+        '1999-07-01':
+          value: 2692.0
+        '1998-07-01':
+          value: 2363.0
+        '1997-07-01':
+          value: 2308.0
+        '1994-07-01':
+          value: 2098.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf5_z1_acc
+        unit: currency-FRF
     par_enfant_en_plus:
       description: Par enfant en plus
       values:
@@ -21,12 +141,6 @@ plafonds_loyer_en_zone_1:
       metadata:
         ipp_csv_id: plaf_loy_enfsupp_z1_acc
         unit: currency-FRF
-    metadata:
-      order:
-      - par_enfant_en_plus
-  metadata:
-    order:
-    - menage_isole
 metadata:
   order:
   - plafonds_loyer_en_zone_1
@@ -50,8 +164,128 @@ metadata:
     '2001-01-01': Réforme de 2001 qui change le calcul de l'ALF pour les locataires
 plafonds_loyer_en_zone_2:
   description: Plafonds de loyer en zone 2
+  menage_seul:
+    description: Ménage seul
+    values:
+      '2001-01-01':
+        value: null
+      '2000-07-01':
+        value: 1696.0
+      '1999-07-01':
+        value: 1679.0
+      '1998-07-01':
+        value: 1662.0
+      '1997-07-01':
+        value: 1623.0
+      '1994-07-01':
+        value: 1568.0
+    metadata:
+      ipp_csv_id: plaf_loy_coup_z2_acc
+      unit: currency-FRF
+  metadata:
+    order:
+    - menage_seul
+    - menage_isole
   menage_isole:
     description: Ménage ou isolé
+    avec_1_enfant:
+      description: Avec 1 enfant
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 1648.0
+        '1999-07-01':
+          value: 1830.0
+        '1998-07-01':
+          value: 1799.0
+        '1997-07-01':
+          value: 1757.0
+        '1994-07-01':
+          value: 1697.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf1_z2_acc_acc
+        unit: currency-FRF
+    metadata:
+      order:
+      - avec_1_enfant
+      - avec_2_enfants
+      - avec_3_enfants
+      - avec_4_enfants
+      - avec_5_enfants
+      - par_enfant_en_plus
+    avec_2_enfants:
+      description: Avec 2 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 1985.0
+        '1999-07-01':
+          value: 1965.0
+        '1998-07-01':
+          value: 1863.0
+        '1997-07-01':
+          value: 1819.0
+        '1994-07-01':
+          value: 1757.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf2_z2_acc
+        unit: currency-FRF
+    avec_3_enfants:
+      description: Avec 3 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2119.0
+        '1999-07-01':
+          value: 2098.0
+        '1998-07-01':
+          value: 1926.0
+        '1997-07-01':
+          value: 1881.0
+        '1994-07-01':
+          value: 1817.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf3_z2_acc
+        unit: currency-FRF
+    avec_4_enfants:
+      description: Avec 4 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2255.0
+        '1999-07-01':
+          value: 2233.0
+        '1998-07-01':
+          value: 1990.0
+        '1997-07-01':
+          value: 1943.0
+        '1994-07-01':
+          value: 1877.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf4_z2_acc
+        unit: currency-FRF
+    avec_5_enfants:
+      description: Avec 5 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2442.0
+        '1999-07-01':
+          value: 2418.0
+        '1998-07-01':
+          value: 2130.0
+        '1997-07-01':
+          value: 2080.0
+        '1994-07-01':
+          value: 2010.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf5_z2_acc
+        unit: currency-FRF
     par_enfant_en_plus:
       description: Par enfant en plus
       values:
@@ -70,16 +304,130 @@ plafonds_loyer_en_zone_2:
       metadata:
         ipp_csv_id: plaf_loy_enfsupp_z2_acc
         unit: currency-FRF
-    metadata:
-      order:
-      - par_enfant_en_plus
-  metadata:
-    order:
-    - menage_isole
 plafonds_loyer_en_zone_3:
   description: Plafonds de loyer en zone 3
+  menage_seul:
+    description: Ménage seul
+    values:
+      '2001-01-01':
+        value: null
+      '2000-07-01':
+        value: 1574.0
+      '1999-07-01':
+        value: 1558.0
+      '1998-07-01':
+        value: 1543.0
+      '1997-07-01':
+        value: 1507.0
+      '1994-07-01':
+        value: 1456.0
+    metadata:
+      ipp_csv_id: plaf_loy_coup_z3_acc
+      unit: currency-FRF
+  metadata:
+    order:
+    - menage_seul
+    - menage_isole
   menage_isole:
     description: Ménage ou isolé
+    avec_1_enfant:
+      description: Avec 1 enfant
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 1722.0
+        '1999-07-01':
+          value: 1705.0
+        '1998-07-01':
+          value: 1681.0
+        '1997-07-01':
+          value: 1642.0
+        '1994-07-01':
+          value: 1586.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf1_z3_acc
+        unit: currency-FRF
+    metadata:
+      order:
+      - avec_1_enfant
+      - avec_2_enfants
+      - avec_3_enfants
+      - avec_4_enfants
+      - avec_5_enfants
+      - par_enfant_en_plus
+    avec_2_enfants:
+      description: Avec 2 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 1853.0
+        '1999-07-01':
+          value: 1835.0
+        '1998-07-01':
+          value: 1751.0
+        '1997-07-01':
+          value: 1710.0
+        '1994-07-01':
+          value: 1652.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf2_z3_acc
+        unit: currency-FRF
+    avec_3_enfants:
+      description: Avec 3 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 1985.0
+        '1999-07-01':
+          value: 1965.0
+        '1998-07-01':
+          value: 1821.0
+        '1997-07-01':
+          value: 1778.0
+        '1994-07-01':
+          value: 1718.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf3_z3_acc
+        unit: currency-FRF
+    avec_4_enfants:
+      description: Avec 4 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2115.0
+        '1999-07-01':
+          value: 2094.0
+        '1998-07-01':
+          value: 1890.0
+        '1997-07-01':
+          value: 1846.0
+        '1994-07-01':
+          value: 1784.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf4_z3_acc
+        unit: currency-FRF
+    avec_5_enfants:
+      description: Avec 5 enfants
+      values:
+        '2001-01-01':
+          value: null
+        '2000-07-01':
+          value: 2295.0
+        '1999-07-01':
+          value: 2272.0
+        '1998-07-01':
+          value: 2032.0
+        '1997-07-01':
+          value: 1984.0
+        '1994-07-01':
+          value: 1917.0
+      metadata:
+        ipp_csv_id: plaf_loy_enf5_z3_acc
+        unit: currency-FRF
     par_enfant_en_plus:
       description: Par enfant en plus
       values:
@@ -98,12 +446,6 @@ plafonds_loyer_en_zone_3:
       metadata:
         ipp_csv_id: plaf_loy_enfsupp_z3_acc
         unit: currency-FRF
-    metadata:
-      order:
-      - par_enfant_en_plus
-  metadata:
-    order:
-    - menage_isole
 documentation: |
   Notes : 
   APL créée en 1977.

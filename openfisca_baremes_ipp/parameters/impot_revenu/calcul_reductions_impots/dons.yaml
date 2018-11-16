@@ -107,6 +107,26 @@ metadata:
       d'impôt  et non plus de déduction du revenu imposable (sauf dons Coluche)
 dons_coluche:
   description: Dons Coluche
+  taux:
+    description: Taux
+    values:
+      '2005-01-01':
+        value: 0.75
+      '2003-01-01':
+        value: 0.66
+      '1996-01-01':
+        value: 0.6
+      '1988-01-01':
+        value: 0.5
+      '1975-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txcoluche
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -169,9 +189,6 @@ dons_coluche:
       unit:
         '2001-01-01': currency-EUR
         '1988-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond
 dons_aux_oeuvres:
   description: Dons aux œuvres
   taux:
@@ -243,6 +260,43 @@ dons_interet_general:
     - plafond
 dons_aux_partis_politiques:
   description: Dons aux partis politiques
+  taux:
+    description: Taux
+    values:
+      '2005-01-01':
+        value: 0.66
+      '2002-01-01':
+        value: 0.6
+      '1999-01-01':
+        value: 0.5
+      '1996-01-01':
+        value: 0.4
+      '1975-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_partipol
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond_en_revenu_net_global
+    - plafond
+  plafond_en_revenu_net_global:
+    description: Plafond en % du revenu net global
+    values:
+      '2002-01-01':
+        value: 0.2
+      '2001-01-01':
+        value: 0.1
+      '1999-01-01':
+        value: 0.06
+      '1996-01-01':
+        value: 0.05
+      '1975-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_partipol
+      unit: /1
   plafond:
     description: Plafond
     values:
@@ -252,9 +306,6 @@ dons_aux_partis_politiques:
         value: null
     metadata:
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond
 documentation: |
   Notes :
   (1) Dons Coluche (organismes d'aide aux personnes en difficulté)  : art. 200-1 ter du CGI 

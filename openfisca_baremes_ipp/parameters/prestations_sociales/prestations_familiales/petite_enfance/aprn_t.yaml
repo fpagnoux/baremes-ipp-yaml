@@ -1,6 +1,35 @@
 description: 'Allocations prénatales (APrN) : taux et versement'
 taux_en_base:
   description: Taux en % de la base
+  1er_examen:
+    description: 1er examen
+    values:
+      '1985-01-01':
+        value: null
+      '1983-01-01':
+        value: 0.205
+      '1976-08-01':
+        value: 0.44
+    metadata:
+      ipp_csv_id: tx_1exam
+      unit: /1
+  metadata:
+    order:
+    - 1er_examen
+    - 2e_examen
+    - 3e_examen
+  2e_examen:
+    description: 2e examen
+    values:
+      '1985-01-01':
+        value: null
+      '1983-01-01':
+        value: 0.205
+      '1976-08-01':
+        value: 0.88
+    metadata:
+      ipp_csv_id: tx_2exam
+      unit: /1
   3e_examen:
     description: 3e examen
     values:
@@ -13,9 +42,6 @@ taux_en_base:
     metadata:
       ipp_csv_id: tx_3exam
       unit: /1
-  metadata:
-    order:
-    - 3e_examen
 metadata:
   order:
   - taux_en_base

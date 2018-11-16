@@ -54,6 +54,64 @@ metadata:
     '1985-01-01': Charge déductible du revenu global
 reduction_souscriptions_parts_sofica:
   description: Réduction pour souscriptions de parts de SOFICA
+  taux_1:
+    description: Taux 1
+    values:
+      '2012-01-01':
+        value: 0.36
+      '2011-01-01':
+        value: 0.43
+      '2006-01-01':
+        value: 0.48
+      '1984-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_sofica_1
+      unit: /1
+  metadata:
+    order:
+    - taux_1
+    - taux_2
+    - taux_3
+    - plafond
+    - plafond_en_revenu_net_global
+  taux_2:
+    description: Taux 2
+    values:
+      '2012-01-01':
+        value: 0.3
+      '2011-01-01':
+        value: 0.36
+      '2006-01-01':
+        value: 0.4
+      '1984-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_sofica_2
+      unit: /1
+  taux_3:
+    description: Taux 3
+    values:
+      '2017-01-01':
+        value: 0.48
+      '1984-01-01':
+        value: null
+    metadata:
+      unit: /1
+  plafond:
+    description: Plafond
+    values:
+      '2001-01-01':
+        value: 18000.0
+      '1997-01-01':
+        value: 120000.0
+      '1984-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_sofica
+      unit:
+        '2001-01-01': currency-EUR
+        '1997-01-01': currency-FRF
   plafond_en_revenu_net_global:
     description: Plafond en % du revenu net global
     values:
@@ -64,9 +122,6 @@ reduction_souscriptions_parts_sofica:
     metadata:
       ipp_csv_id: base_sofica
       unit: /1
-  metadata:
-    order:
-    - plafond_en_revenu_net_global
 documentation: |
   Notes :
   (1) Sociétés pour le financement de l’industrie cinématographique ou audiovisuelle 

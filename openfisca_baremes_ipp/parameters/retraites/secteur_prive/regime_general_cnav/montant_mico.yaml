@@ -1,6 +1,107 @@
 description: Montant du minimum contributif
 minimum_contributif:
   description: Minimum contributif
+  annuel:
+    description: Annuel
+    '7615_94':
+      description: '7615.94'
+      values:
+        '2015-10-01':
+          value: 7555.5
+        '2013-04-01':
+          value: 7547.96
+        '2012-04-01':
+          value: 7451.1
+        '2011-04-01':
+          value: 7297.85
+        '2010-04-01':
+          value: 7147.75
+        '2009-04-01':
+          value: 7084.0
+        '2008-09-01':
+          value: 7013.87
+        '2008-01-01':
+          value: 6958.21
+        '2007-01-01':
+          value: 6882.51
+        '2006-01-01':
+          value: 6760.82
+        '2005-01-01':
+          value: 6641.28
+        '2004-01-01':
+          value: 6511.06
+        '2003-01-01':
+          value: 6402.23
+        '2002-01-01':
+          value: 6307.62
+        '2001-01-01':
+          value: 40484.61
+        '2000-01-01':
+          value: 39613.13
+        '1999-01-01':
+          value: 39416.05
+        '1998-01-01':
+          value: 38948.67
+        '1997-01-01':
+          value: 38524.9
+        '1996-01-01':
+          value: 38068.09
+        '1995-07-01':
+          value: 37321.66
+        '1995-01-01':
+          value: 37135.99
+        '1994-01-01':
+          value: 36695.65
+        '1993-01-01':
+          value: 35976.13
+        '1992-07-01':
+          value: 35514.45
+        '1992-01-01':
+          value: 34886.5
+        '1991-07-01':
+          value: 34541.09
+        '1991-01-01':
+          value: 34266.96
+        '1990-07-01':
+          value: 33694.16
+        '1990-01-01':
+          value: 33261.76
+        '1989-07-01':
+          value: 32561.69
+        '1989-01-01':
+          value: 32175.59
+        '1988-07-01':
+          value: 31762.68
+        '1988-01-01':
+          value: 31355.07
+        '1987-07-01':
+          value: 30560.5
+        '1987-01-01':
+          value: 30257.93
+        '1986-10-01':
+          value: 29722.92
+        '1986-01-01':
+          value: 29575.04
+        '1985-07-01':
+          value: 29195.48
+        '1985-01-01':
+          value: 28400.28
+        '1984-07-01':
+          value: 27466.44
+        '1984-01-01':
+          value: 26875.2
+      metadata:
+        ipp_csv_id: min_cont
+        unit:
+          '2002-01-01': currency-EUR
+          '1984-01-01': currency-FRF
+    metadata:
+      order:
+      - '7615_94'
+  metadata:
+    order:
+    - annuel
+    - mensuel
   mensuel:
     description: Mensuel
     '634_66':
@@ -98,9 +199,6 @@ minimum_contributif:
     metadata:
       order:
       - '634_66'
-  metadata:
-    order:
-    - mensuel
 metadata:
   order:
   - minimum_contributif
@@ -155,6 +253,47 @@ metadata:
     '2002-01-01': '2002-01-29'
 minimum_contributif_majore:
   description: Minimum contributif majoré
+  annuel:
+    description: Annuel
+    '8322_13':
+      description: '8322.13'
+      values:
+        '2015-10-01':
+          value: 8256.09
+        '2013-04-01':
+          value: 8247.85
+        '2012-04-01':
+          value: 8142.01
+        '2011-04-01':
+          value: 7974.55
+        '2010-04-01':
+          value: 7810.53
+        '2009-04-01':
+          value: 7740.87
+        '2008-09-01':
+          value: 7664.23
+        '2008-01-01':
+          value: 7603.41
+        '2007-01-01':
+          value: 7301.64
+        '2006-01-01':
+          value: 7172.54
+        '2005-01-01':
+          value: 6840.51
+        '2004-01-01':
+          value: 6706.39
+        '1984-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: min_cont_maj
+        unit: currency-EUR
+    metadata:
+      order:
+      - '8322_13'
+  metadata:
+    order:
+    - annuel
+    - mensuel
   mensuel:
     description: Mensuel
     '693_51':
@@ -192,9 +331,6 @@ minimum_contributif_majore:
     metadata:
       order:
       - '693_51'
-  metadata:
-    order:
-    - mensuel
 documentation: |
   Note :
   Le premier montant pour 2004 est celui en vigueur pour les pensions liquidées à partir de 2004.

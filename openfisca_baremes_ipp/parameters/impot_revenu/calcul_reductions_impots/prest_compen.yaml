@@ -29,6 +29,20 @@ metadata:
       du code civil'
 prestations_compensatoires:
   description: Prestations compensatoires
+  taux:
+    description: Taux
+    values:
+      '2000-01-01':
+        value: 0.25
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_prestcomp
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -43,9 +57,6 @@ prestations_compensatoires:
       unit:
         '2001-01-01': currency-EUR
         '2000-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond
 documentation: |
   Notes : 
   (1) Voir art. 270 et 271 du code civil

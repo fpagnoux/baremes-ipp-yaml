@@ -1,6 +1,44 @@
 description: Cotisations SS branche assurance vieillesse (1967-2017)
 salaire_sous_plafond:
   description: Salaire sous plafond
+  salaries:
+    description: Salariés
+    values:
+      '2016-01-01':
+        value: 0.069
+      '2015-01-01':
+        value: 0.0685
+      '2014-01-01':
+        value: 0.068
+      '2012-11-01':
+        value: 0.0675
+      '2006-01-01':
+        value: 0.0665
+      '1991-02-01':
+        value: 0.0655
+      '1989-01-01':
+        value: 0.076
+      '1987-07-01':
+        value: 0.066
+      '1986-08-01':
+        value: 0.064
+      '1984-01-01':
+        value: 0.057
+      '1979-01-01':
+        value: 0.047
+      '1976-10-01':
+        value: 0.0345
+      '1976-01-01':
+        value: 0.0325
+      '1967-10-01':
+        value: 0.03
+    metadata:
+      ipp_csv_id: cnav_s_0_1
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
   employeurs:
     description: Employeurs
     values:
@@ -29,9 +67,6 @@ salaire_sous_plafond:
     metadata:
       ipp_csv_id: cnav_p_0_1
       unit: /1
-  metadata:
-    order:
-    - employeurs
 metadata:
   order:
   - salaire_sous_plafond
@@ -82,6 +117,28 @@ metadata:
     '1991-02-01': Voir note (i).
 tout_salaire:
   description: Sur tout salaire
+  salaries:
+    description: Salariés
+    values:
+      '2017-01-01':
+        value: 0.004
+      '2016-01-01':
+        value: 0.0035
+      '2015-01-01':
+        value: 0.003
+      '2014-01-01':
+        value: 0.0025
+      '2004-07-01':
+        value: 0.001
+      '1967-10-01':
+        value: null
+    metadata:
+      ipp_csv_id: cnav_s_0_
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
   employeurs:
     description: Employeurs
     values:
@@ -100,9 +157,6 @@ tout_salaire:
     metadata:
       ipp_csv_id: cnav_p_0_
       unit: /1
-  metadata:
-    order:
-    - employeurs
 remise_forfaitaire_mensuelle_cotisation_salariale:
   description: Remise forfaitaire mensuelle (sur cotisation salariale)
   values:

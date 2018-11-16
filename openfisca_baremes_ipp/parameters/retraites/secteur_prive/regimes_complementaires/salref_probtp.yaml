@@ -1,6 +1,94 @@
 description: Salaire de référence ARRCO, PRO-BTP (1961-1998)
 section_cnro:
   description: Section CNRO
+  salaire_reference_en_nominal:
+    description: Salaire de référence (en nominal)
+    values:
+      '1998-07-01':
+        value: 28.11
+      '1997-07-01':
+        value: 26.62
+      '1996-07-24':
+        value: 25.18
+      '1996-07-01':
+        value: 23.82
+      '1995-07-01':
+        value: 23.42
+      '1994-07-01':
+        value: 23.05
+      '1993-07-01':
+        value: 21.8
+      '1992-07-01':
+        value: 20.91
+      '1991-07-01':
+        value: 19.71
+      '1990-10-01':
+        value: 18.56
+      '1989-10-01':
+        value: 17.59
+      '1988-10-01':
+        value: 16.75
+      '1987-10-01':
+        value: 16.11
+      '1986-10-01':
+        value: 15.47
+      '1985-10-01':
+        value: 14.59
+      '1984-10-01':
+        value: 13.56
+      '1983-10-01':
+        value: 12.1
+      '1982-10-01':
+        value: 10.99
+      '1981-10-01':
+        value: 9.8
+      '1980-10-01':
+        value: 8.71
+      '1979-10-01':
+        value: 7.81
+      '1978-10-01':
+        value: 7.06
+      '1977-10-01':
+        value: 6.48
+      '1976-10-01':
+        value: 5.73
+      '1975-07-01':
+        value: 5.05
+      '1975-01-01':
+        value: 4.3
+      '1973-10-01':
+        value: 3.74
+      '1972-10-01':
+        value: 3.41
+      '1971-10-01':
+        value: 3.1
+      '1970-10-01':
+        value: 2.74
+      '1969-10-01':
+        value: 2.44
+      '1968-10-01':
+        value: 2.21
+      '1967-10-01':
+        value: 2.12
+      '1966-10-01':
+        value: 1.99
+      '1965-10-01':
+        value: 1.89
+      '1964-10-01':
+        value: 1.78
+      '1963-10-01':
+        value: 1.63
+      '1962-10-01':
+        value: 1.49
+      '1961-10-01':
+        value: 1.38
+    metadata:
+      ipp_csv_id: salref_cnro_nom
+      unit: currency-FRF
+  metadata:
+    order:
+    - salaire_reference_en_nominal
+    - salaire_reference_en_euros
   salaire_reference_en_euros:
     description: Salaire de référence (en euros)
     values:
@@ -85,9 +173,6 @@ section_cnro:
     metadata:
       ipp_csv_id: salref_cnro
       unit: currency-EUR
-  metadata:
-    order:
-    - salaire_reference_en_euros
 metadata:
   order:
   - section_cnro

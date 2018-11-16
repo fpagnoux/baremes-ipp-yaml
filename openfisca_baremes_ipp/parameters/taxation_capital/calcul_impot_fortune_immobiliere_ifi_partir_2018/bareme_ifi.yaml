@@ -1,6 +1,45 @@
 description: Barème de l'IFI
 seuils_tranches_bareme_ifi:
   description: Seuils des tranches du barème de l'IFI
+  1ere_tranche:
+    description: 1ère tranche
+    values:
+      '2018-01-01':
+        value: 800000.0
+    metadata:
+      ipp_csv_id: seuil1_ifi
+      unit: currency-EUR
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
+  2eme_tranche:
+    description: 2ème tranche
+    values:
+      '2018-01-01':
+        value: 1300000.0
+    metadata:
+      ipp_csv_id: seuil2_ifi
+      unit: currency-EUR
+  3eme_tranche:
+    description: 3ème tranche
+    values:
+      '2018-01-01':
+        value: 2570000.0
+    metadata:
+      ipp_csv_id: seuil3_ifi
+      unit: currency-EUR
+  4eme_tranche:
+    description: 4ème tranche
+    values:
+      '2018-01-01':
+        value: 5000000.0
+    metadata:
+      ipp_csv_id: seuil4_ifi
+      unit: currency-EUR
   5eme_tranche:
     description: 5ème  tranche
     values:
@@ -9,9 +48,6 @@ seuils_tranches_bareme_ifi:
     metadata:
       ipp_csv_id: seuil5_ifi
       unit: currency-EUR
-  metadata:
-    order:
-    - 5eme_tranche
 metadata:
   order:
   - seuils_tranches_bareme_ifi
@@ -26,6 +62,54 @@ metadata:
       est réduite aux seuls biens immobiliers.
 taux_marginaux_tranches_bareme_ifi:
   description: Taux marginaux des tranches du barème de l'IFI
+  1ere_tranche:
+    description: 1ère tranche
+    values:
+      '2018-01-01':
+        value: 0.005
+    metadata:
+      ipp_csv_id: tx1_ifi
+      unit: /1
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
+    - nombre_tranches_bareme
+  2eme_tranche:
+    description: 2ème tranche
+    values:
+      '2018-01-01':
+        value: 0.007
+    metadata:
+      ipp_csv_id: tx2_ifi
+      unit: /1
+  3eme_tranche:
+    description: 3ème tranche
+    values:
+      '2018-01-01':
+        value: 0.01
+    metadata:
+      ipp_csv_id: tx3_ifi
+      unit: /1
+  4eme_tranche:
+    description: 4ème tranche
+    values:
+      '2018-01-01':
+        value: 0.0125
+    metadata:
+      ipp_csv_id: tx4_ifi
+      unit: /1
+  5eme_tranche:
+    description: 5ème  tranche
+    values:
+      '2018-01-01':
+        value: 0.015
+    metadata:
+      ipp_csv_id: tx5_ifi
+      unit: /1
   nombre_tranches_bareme:
     description: Nombre de tranches du barème
     values:
@@ -33,7 +117,4 @@ taux_marginaux_tranches_bareme_ifi:
         value: 5.0
     metadata:
       ipp_csv_id: nbtranches_ifi
-  metadata:
-    order:
-    - nombre_tranches_bareme
 documentation: ''

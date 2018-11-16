@@ -37,6 +37,45 @@ metadata:
     '1998-01-01': Création sous forme de charge déductible du revenu global
 reduction_souscriptions_parts_sofipeche:
   description: Réduction pour souscriptions de parts de SOFIPECHE
+  taux:
+    description: Taux
+    values:
+      '2012-01-01':
+        value: null
+      '2011-01-01':
+        value: 0.36
+      '2009-01-01':
+        value: 0.4
+      '1997-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txsofipeche
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
+    - plafond_en_rev_net_global
+  plafond:
+    description: Plafond
+    values:
+      '2012-01-01':
+        value: null
+      '2009-01-01':
+        value: 19000.0
+      '2007-01-01':
+        value: null
+      '2001-01-01':
+        value: 19000.0
+      '1998-01-01':
+        value: 125000.0
+      '1997-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_sofipeche
+      unit:
+        '2001-01-01': currency-EUR
+        '1998-01-01': currency-FRF
   plafond_en_rev_net_global:
     description: Plafond en % du rev net global
     values:
@@ -53,9 +92,6 @@ reduction_souscriptions_parts_sofipeche:
     metadata:
       ipp_csv_id: base_sofipeche
       unit: /1
-  metadata:
-    order:
-    - plafond_en_rev_net_global
 documentation: |
   Notes :
   (1) Souscription au capital d'une SOFIPECHE : plafonnement à doubler pour couple

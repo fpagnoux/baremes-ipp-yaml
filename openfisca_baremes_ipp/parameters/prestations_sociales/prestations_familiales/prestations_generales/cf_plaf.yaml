@@ -1,6 +1,39 @@
 description: 'Complément familial (CF) : plafonds de ressources'
 plafond_ressources_revenu_brut_imposable_1:
   description: Plafond de ressources pour un revenu (brut imposable) (1)
+  1_enfant:
+    description: 1 enfant
+    values:
+      '1986-07-01':
+        value: 105528.0
+      '1983-01-01':
+        value: 87242.0
+      '1978-07-01':
+        value: 50034.0
+      '1978-01-01':
+        value: 44270.0
+    metadata:
+      ipp_csv_id: plaf_1enf_monoact
+      unit: currency-FRF
+  metadata:
+    order:
+    - 1_enfant
+    - enfant_supplementaire
+    - 1_enfant_biactifs_parents_isoles_2
+  enfant_supplementaire:
+    description: Enfant supplémentaire
+    values:
+      '1986-07-01':
+        value: 0.1999943143052081
+      '1983-01-01':
+        value: 0.20571513720455745
+      '1978-07-01':
+        value: 0.20000399728184834
+      '1978-01-01':
+        value: 0.20002258866049244
+    metadata:
+      ipp_csv_id: plaf_suppenf_monoact
+      unit: /1
   1_enfant_biactifs_parents_isoles_2:
     description: 1 enfant, biactifs et parents isolés (2)
     values:
@@ -15,9 +48,6 @@ plafond_ressources_revenu_brut_imposable_1:
     metadata:
       ipp_csv_id: plaf_1enf_biact
       unit: currency-FRF
-  metadata:
-    order:
-    - 1_enfant_biactifs_parents_isoles_2
 metadata:
   order:
   - plafond_ressources_revenu_brut_imposable_1

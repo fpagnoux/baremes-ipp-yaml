@@ -1,6 +1,25 @@
 description: Prestation spécifique dépendance (PSD, 1997-2001)
 seuil_ressources_en_fr_an:
   description: Seuil de ressources (en Fr/an)
+  personne_seule:
+    description: Personne seule
+    values:
+      '2001-01-01':
+        value: 76640.0
+      '2000-01-01':
+        value: 74990.0
+      '1999-01-01':
+        value: 74248.0
+      '1998-01-01':
+        value: 72792.0
+      '1997-05-01':
+        value: 72000.0
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - personne_seule
+    - personne_en_couple
   personne_en_couple:
     description: Personne en couple
     values:
@@ -16,9 +35,6 @@ seuil_ressources_en_fr_an:
         value: 120000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - personne_en_couple
 metadata:
   order:
   - seuil_ressources_en_fr_an

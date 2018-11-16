@@ -2,6 +2,77 @@ description: "Prestation d'accueil du jeune enfant (PAJE) : Plafonds de ressourc
   \ pour le CMG"
 premier_plafond_ne_adopte_avant_1er_avril_2014:
   description: Premier plafond (né ou adopté avant le 1er avril 2014)
+  enfant:
+    description: Un enfant
+    values:
+      '2018-01-01':
+        value: null
+      '2016-01-01':
+        value: 21332.0
+      '2015-01-01':
+        value: 21248.0
+      '2014-01-01':
+        value: 21100.0
+      '2013-01-01':
+        value: 20706.0
+      '2012-01-01':
+        value: 20281.0
+      '2011-01-01':
+        value: 20079.0
+      '2010-01-01':
+        value: 20059.0
+      '2009-01-01':
+        value: 19513.0
+      '2007-07-01':
+        value: 19255.0
+      '2006-07-01':
+        value: 15123.0
+      '2005-07-01':
+        value: 14870.0
+      '2004-07-01':
+        value: 14622.0
+      '2004-01-01':
+        value: 14349.0
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev1
+  metadata:
+    order:
+    - enfant
+    - deux_enfants
+    - majoration_enfant_supplementaire
+  deux_enfants:
+    description: Deux enfants
+    values:
+      '2018-01-01':
+        value: null
+      '2016-01-01':
+        value: 24561.0
+      '2015-01-01':
+        value: 2463.0
+      '2014-01-01':
+        value: 24293.0
+      '2013-01-01':
+        value: 23840.0
+      '2012-01-01':
+        value: 23350.0
+      '2011-01-01':
+        value: 23118.0
+      '2010-01-01':
+        value: 23095.0
+      '2009-01-01':
+        value: 22467.0
+      '2007-07-01':
+        value: 22135.0
+      '2006-07-01':
+        value: 17411.0
+      '2005-07-01':
+        value: 17120.0
+      '2004-07-01':
+        value: 16835.0
+      '2004-01-01':
+        value: 16521.0
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev2
   majoration_enfant_supplementaire:
     description: Majoration pour un enfant supplémentaire
     values:
@@ -35,9 +106,6 @@ premier_plafond_ne_adopte_avant_1er_avril_2014:
         value: 2626.0
     metadata:
       ipp_csv_id: clcmg_03ans_rev3
-  metadata:
-    order:
-    - majoration_enfant_supplementaire
 metadata:
   order:
   - premier_plafond_ne_adopte_avant_1er_avril_2014
@@ -90,6 +158,73 @@ metadata:
       les références n'ont pas encore été trouvées
 deuxieme_plafond_ne_adopte_avant_1er_avril_2014:
   description: Deuxième plafond (né ou adopté avant le 1er avril 2014)
+  enfant:
+    description: Un enfant
+    values:
+      '2018-01-01':
+        value: null
+      '2016-01-01':
+        value: 47405.0
+      '2015-01-01':
+        value: 47217.0
+      '2014-01-01':
+        value: 46888.0
+      '2013-01-01':
+        value: 46014.0
+      '2012-01-01':
+        value: 45068.0
+      '2011-01-01':
+        value: 44621.0
+      '2010-01-01':
+        value: 44576.0
+      '2009-01-01':
+        value: 43363.0
+      '2007-07-01':
+        value: 42722.0
+      '2006-07-01':
+        value: 33606.0
+      '2005-07-01':
+        value: 33044.0
+      '2004-07-01':
+        value: 32493.0
+      '2004-01-01':
+        value: 31887.0
+  metadata:
+    order:
+    - enfant
+    - deux_enfants
+    - majoration_enfant_supplementaire
+  deux_enfants:
+    description: Deux enfants
+    values:
+      '2018-01-01':
+        value: null
+      '2016-01-01':
+        value: 54579.0
+      '2015-01-01':
+        value: 54363.0
+      '2014-01-01':
+        value: 53984.0
+      '2013-01-01':
+        value: 52978.0
+      '2012-01-01':
+        value: 51889.0
+      '2011-01-01':
+        value: 51374.0
+      '2010-01-01':
+        value: 51322.0
+      '2009-01-01':
+        value: 49926.0
+      '2007-07-01':
+        value: 49188.0
+      '2006-07-01':
+        value: 38692.0
+      '2005-07-01':
+        value: 38045.0
+      '2004-07-01':
+        value: 37411.0
+      '2004-01-01':
+        value: 36713.0
   majoration_enfant_supplementaire:
     description: Majoration pour un enfant supplémentaire
     values:
@@ -121,11 +256,39 @@ deuxieme_plafond_ne_adopte_avant_1er_avril_2014:
         value: 5901.0
       '2004-01-01':
         value: 5791.0
-  metadata:
-    order:
-    - majoration_enfant_supplementaire
 premier_plafond_ne_adopte_apres_1er_avril_2014:
   description: Premier plafond (né ou adopté après le 1er avril 2014)
+  enfant:
+    description: Un enfant
+    values:
+      '2018-01-01':
+        value: 20550.0
+      '2016-01-01':
+        value: 20509.0
+      '2015-01-01':
+        value: 20247.0
+      '2004-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev1
+  metadata:
+    order:
+    - enfant
+    - deux_enfants
+    - majoration_enfant_supplementaire
+  deux_enfants:
+    description: Deux enfants
+    values:
+      '2018-01-01':
+        value: 23467.0
+      '2016-01-01':
+        value: 23420.0
+      '2015-01-01':
+        value: 23326.0
+      '2004-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev2
   majoration_enfant_supplementaire:
     description: Majoration pour un enfant supplémentaire
     values:
@@ -139,11 +302,35 @@ premier_plafond_ne_adopte_apres_1er_avril_2014:
         value: null
     metadata:
       ipp_csv_id: clcmg_03ans_rev3
-  metadata:
-    order:
-    - majoration_enfant_supplementaire
 deuxieme_plafond_ne_adopte_apres_1er_avril_2014:
   description: Deuxième plafond (né ou adopté après le 1er avril 2014)
+  enfant:
+    description: Un enfant
+    values:
+      '2018-01-01':
+        value: 45666.0
+      '2016-01-01':
+        value: 45575.0
+      '2015-01-01':
+        value: 45393.0
+      '2004-01-01':
+        value: null
+  metadata:
+    order:
+    - enfant
+    - deux_enfants
+    - majoration_enfant_supplementaire
+  deux_enfants:
+    description: Deux enfants
+    values:
+      '2018-01-01':
+        value: 52148.0
+      '2016-01-01':
+        value: 52044.0
+      '2015-01-01':
+        value: 51836.0
+      '2004-01-01':
+        value: null
   majoration_enfant_supplementaire:
     description: Majoration pour un enfant supplémentaire
     values:
@@ -155,11 +342,35 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014:
         value: 6443.0
       '2004-01-01':
         value: null
-  metadata:
-    order:
-    - majoration_enfant_supplementaire
 montant_maximal_prise_en_charge:
   description: Montant maximal de la prise en charge
+  enfant_moins_3_ans:
+    description: Enfant de moins de 3 ans
+    values:
+      '2018-01-01':
+        value: 448.0
+      '2016-01-01':
+        value: 447.0
+      '2015-01-01':
+        value: 445.0
+      '2014-01-01':
+        value: 442.0
+      '2013-01-01':
+        value: 434.0
+      '2012-01-01':
+        value: 425.0
+      '2010-01-01':
+        value: 419.0
+      '2009-01-01':
+        value: 408.0
+      '2007-07-01':
+        value: 402.0
+      '2004-01-01':
+        value: null
+  metadata:
+    order:
+    - enfant_moins_3_ans
+    - enfant_3_6_ans
   enfant_3_6_ans:
     description: Enfant de 3 à 6 ans
     values:
@@ -181,7 +392,4 @@ montant_maximal_prise_en_charge:
         value: 201.0
       '2004-01-01':
         value: null
-  metadata:
-    order:
-    - enfant_3_6_ans
 documentation: ''

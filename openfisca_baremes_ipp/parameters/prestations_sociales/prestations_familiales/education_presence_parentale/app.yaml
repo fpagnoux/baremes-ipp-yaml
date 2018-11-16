@@ -1,6 +1,22 @@
 description: 'Allocation de présence parentale (APP) : montants'
 montant_taux_plein_bmaf:
   description: Montant taux plein (% BMAF)
+  couple:
+    description: Couple
+    values:
+      '2006-06-04':
+        value: null
+      '2002-04-01':
+        value: 2.3401
+      '2001-01-01':
+        value: 1.4257
+    metadata:
+      ipp_csv_id: app_tx_plein_couple
+      unit: /1
+  metadata:
+    order:
+    - couple
+    - seul
   seul:
     description: Seul
     values:
@@ -13,9 +29,6 @@ montant_taux_plein_bmaf:
     metadata:
       ipp_csv_id: app_tx_plein_seul
       unit: /1
-  metadata:
-    order:
-    - seul
 metadata:
   order:
   - montant_taux_plein_bmaf
@@ -34,6 +47,44 @@ metadata:
     '2001-01-01': Création de l'Allocation de Présence Parentale
 montant_taux_partiel_bmaf:
   description: Montant taux partiel (% BMAF)
+  80_duree_legale_couple:
+    description: 80% durée légale, Couple
+    values:
+      '2006-06-04':
+        value: null
+      '2001-01-01':
+        value: 0.7129
+    metadata:
+      ipp_csv_id: app_tx_partiel1_couple
+      unit: /1
+  metadata:
+    order:
+    - 80_duree_legale_couple
+    - 80_duree_legale_seul
+    - 50_duree_legale_couple
+    - 50_duree_legale_seul
+  80_duree_legale_seul:
+    description: 80% durée légale, Seul
+    values:
+      '2006-06-04':
+        value: null
+      '2001-01-01':
+        value: 0.9427
+    metadata:
+      ipp_csv_id: app_tx_partiel1_seul
+      unit: /1
+  50_duree_legale_couple:
+    description: 50% durée légale, Couple
+    values:
+      '2006-06-04':
+        value: null
+      '2002-04-01':
+        value: 1.1701
+      '2001-01-01':
+        value: 0.9427
+    metadata:
+      ipp_csv_id: app_tx_partiel2_couple
+      unit: /1
   50_duree_legale_seul:
     description: 50% durée légale, Seul
     values:
@@ -46,9 +97,6 @@ montant_taux_partiel_bmaf:
     metadata:
       ipp_csv_id: app_tx_partiel2_seul
       unit: /1
-  metadata:
-    order:
-    - 50_duree_legale_seul
 duree_maximale_allocation_annee:
   description: Durée maximale de l'allocation (année)
   values:

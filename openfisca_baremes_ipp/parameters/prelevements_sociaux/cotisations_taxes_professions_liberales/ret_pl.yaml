@@ -1,6 +1,67 @@
 description: Cotisation SS branche vieillesse, Professions libérales
 assurance_vieillesse:
   description: Assurance vieillesse
+  sous_5_pss:
+    description: Sous 5 PSS
+    values:
+      '2004-01-01':
+        value: null
+      '1993-01-01':
+        value: 0.014
+    metadata:
+      ipp_csv_id: ret_plib_0_5
+      unit: /1
+  metadata:
+    order:
+    - sous_5_pss
+    - sous_085_pss
+    - sous_1_pss
+    - entre_085_5_pss
+    - entre_1_5_pss
+  sous_085_pss:
+    description: Sous 0,85 PSS
+    values:
+      '2015-01-01':
+        value: null
+      '2014-01-01':
+        value: 0.101
+      '2013-01-01':
+        value: 0.0975
+      '2012-07-04':
+        value: 0.0863
+      '2004-01-01':
+        value: 0.086
+      '1993-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: ret_plib_0_85
+      unit: /1
+  sous_1_pss:
+    description: Sous 1 PSS
+    values:
+      '2015-01-01':
+        value: 0.0823
+      '1993-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: ret_plib_1
+      unit: /1
+  entre_085_5_pss:
+    description: Entre 0,85 et 5 PSS
+    values:
+      '2015-01-01':
+        value: null
+      '2014-01-01':
+        value: 0.0187
+      '2013-01-01':
+        value: 0.0181
+      '2004-01-01':
+        value: 0.016
+      '1993-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: ret_plib_85_5
+      unit: /1
   entre_1_5_pss:
     description: Entre 1 et 5 PSS
     values:
@@ -11,9 +72,6 @@ assurance_vieillesse:
     metadata:
       ipp_csv_id: ret_plib_1_5
       unit: /1
-  metadata:
-    order:
-    - entre_1_5_pss
 metadata:
   order:
   - assurance_vieillesse

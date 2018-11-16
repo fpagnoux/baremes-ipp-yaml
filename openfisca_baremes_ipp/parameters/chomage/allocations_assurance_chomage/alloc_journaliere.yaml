@@ -29,6 +29,38 @@ metadata:
     '1979-07-01': '1979-05-20'
 partie_proportionnelle:
   description: Partie proportionnelle
+  1er_trimsestre:
+    description: 1er trimsestre
+    values:
+      '1979-07-01':
+        value: 0.65
+    metadata:
+      ipp_csv_id: journ_1
+      unit: /1
+  metadata:
+    order:
+    - 1er_trimsestre
+    - 2nd_trimestre
+    - 3eme_trimestre
+    - 4eme_trismestre
+  2nd_trimestre:
+    description: 2nd trimestre
+    values:
+      '1979-07-01':
+        value: 0.6
+    metadata:
+      ipp_csv_id: journ_2
+      unit: /1
+  3eme_trimestre:
+    description: 3ème trimestre
+    values:
+      '1983-01-01':
+        value: null
+      '1979-07-01':
+        value: 0.55
+    metadata:
+      ipp_csv_id: journ_3
+      unit: /1
   4eme_trismestre:
     description: 4ème trismestre
     values:
@@ -39,11 +71,56 @@ partie_proportionnelle:
     metadata:
       ipp_csv_id: journ_4
       unit: /1
-  metadata:
-    order:
-    - 4eme_trismestre
 montant_minimum_en_sjr:
   description: Montant minimum (en % SJR)
+  1er_trimsestre:
+    description: 1er trimsestre
+    values:
+      '1979-07-01':
+        value: 0.75
+    metadata:
+      ipp_csv_id: journ_min_1
+      unit: /1
+  metadata:
+    order:
+    - 1er_trimsestre
+    - 2nd_trimestre
+    - 3eme_trimestre
+    - 4eme_trismestre
+    - valable_tout_temps_en_smic
+    - valable_tt_tps_en_smic_partie_fixe
+  2nd_trimestre:
+    description: 2nd trimestre
+    values:
+      '1979-07-01':
+        value: 0.7
+    metadata:
+      ipp_csv_id: journ_min_2
+      unit: /1
+  3eme_trimestre:
+    description: 3ème trimestre
+    values:
+      '1979-07-01':
+        value: 0.65
+    metadata:
+      ipp_csv_id: journ_min_3
+      unit: /1
+  4eme_trismestre:
+    description: 4ème trismestre
+    values:
+      '1979-07-01':
+        value: 0.6
+    metadata:
+      ipp_csv_id: journ_min_4
+      unit: /1
+  valable_tout_temps_en_smic:
+    description: Valable tout le temps (en % SMIC)
+    values:
+      '1979-07-01':
+        value: 0.9
+    metadata:
+      ipp_csv_id: journ_min
+      unit: /1
   valable_tt_tps_en_smic_partie_fixe:
     description: Valable tt le tps (en % SMIC + partie fixe)
     values:
@@ -52,9 +129,6 @@ montant_minimum_en_sjr:
     metadata:
       ipp_csv_id: journ_min_prct
       unit: /1
-  metadata:
-    order:
-    - valable_tt_tps_en_smic_partie_fixe
 montant_maximum_en_sjr:
   description: Montant maximum (en % SJR)
   values:

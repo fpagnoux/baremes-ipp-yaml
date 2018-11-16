@@ -1,6 +1,27 @@
 description: 'Revenu de solidarité active (RSA) : forfait logement'
 forfait_logement_en_montant_forfaitaire_rsa:
   description: Forfait logement (en % du montant forfaitaire du RSA)
+  1_personne:
+    description: 1 personne
+    values:
+      '2009-06-01':
+        value: 0.12
+    metadata:
+      ipp_csv_id: rsa_rmi_logt1
+      unit: /1
+  metadata:
+    order:
+    - 1_personne
+    - 2_personnes
+    - 3_personnes_plus
+  2_personnes:
+    description: 2 personnes
+    values:
+      '2009-06-01':
+        value: 0.16
+    metadata:
+      ipp_csv_id: rsa_rmi_logt2
+      unit: /1
   3_personnes_plus:
     description: 3 personnes ou plus
     values:
@@ -9,9 +30,6 @@ forfait_logement_en_montant_forfaitaire_rsa:
     metadata:
       ipp_csv_id: rsa_rmi_logt3
       unit: /1
-  metadata:
-    order:
-    - 3_personnes_plus
 metadata:
   order:
   - forfait_logement_en_montant_forfaitaire_rsa

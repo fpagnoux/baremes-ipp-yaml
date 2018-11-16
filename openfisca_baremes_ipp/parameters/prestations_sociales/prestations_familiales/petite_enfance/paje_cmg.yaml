@@ -24,6 +24,29 @@ metadata:
     '2004-01-01': '2004-01-01'
 complement_libre_choix_mode_garde_en_bmaf_1:
   description: Complément libre choix du mode de garde (en % de la BMAF) (1)
+  revenus_inferieurs_45_plafond_allocation:
+    description: Revenus inférieurs à 45% du plafond d'allocation
+    values:
+      '2008-05-01':
+        value: 1.1404
+      '2004-01-01':
+        value: 1.0067
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev1
+      unit: /1
+  metadata:
+    order:
+    - revenus_inferieurs_45_plafond_allocation
+    - revenus_superieurs_45_plafond_allocation
+    - revenus_superieurs_plafond_allocation
+  revenus_superieurs_45_plafond_allocation:
+    description: Revenus supérieurs à 45% du plafond d'allocation
+    values:
+      '2004-01-01':
+        value: 0.7191
+    metadata:
+      ipp_csv_id: clcmg_03ans_rev2
+      unit: /1
   revenus_superieurs_plafond_allocation:
     description: Revenus supérieurs au plafond d'allocation
     values:
@@ -32,12 +55,28 @@ complement_libre_choix_mode_garde_en_bmaf_1:
     metadata:
       ipp_csv_id: clcmg_03ans_rev3
       unit: /1
-  metadata:
-    order:
-    - revenus_superieurs_plafond_allocation
 taux_recours_une_assistante_maternelle_une_association_une_entreprise_une_microcreche_en_bmaf:
   description: Taux pour recours à une assistante maternelle, une association, une
     entreprise ou une microcréche (en % de la BMAF)
+  sous_premier_plafond:
+    description: Sous le premier plafond
+    values:
+      '2004-01-01':
+        value: 1.7257
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - sous_premier_plafond
+    - sous_second_plafond
+    - apres_second_plafond
+  sous_second_plafond:
+    description: Sous le second plafond
+    values:
+      '2004-01-01':
+        value: 1.4381
+    metadata:
+      unit: /1
   apres_second_plafond:
     description: Après le second plafond
     values:
@@ -45,11 +84,27 @@ taux_recours_une_assistante_maternelle_une_association_une_entreprise_une_microc
         value: 1.1505
     metadata:
       unit: /1
-  metadata:
-    order:
-    - apres_second_plafond
 taux_recours_une_garde_domicile_en_bmaf:
   description: Taux pour recours à une garde à domicile (en % de la BMAF)
+  sous_premier_plafond:
+    description: Sous le premier plafond
+    values:
+      '2004-01-01':
+        value: 2.0853
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - sous_premier_plafond
+    - sous_second_plafond
+    - apres_second_plafond
+  sous_second_plafond:
+    description: Sous le second plafond
+    values:
+      '2004-01-01':
+        value: 1.7979
+    metadata:
+      unit: /1
   apres_second_plafond:
     description: Après le second plafond
     values:
@@ -57,9 +112,6 @@ taux_recours_une_garde_domicile_en_bmaf:
         value: 1.51
     metadata:
       unit: /1
-  metadata:
-    order:
-    - apres_second_plafond
 majoration_plafond_une_personne_isolee:
   description: Majoration du plafond pour une personne isolée
   values:

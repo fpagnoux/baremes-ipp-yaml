@@ -4,6 +4,33 @@ complement_libre_choix_activite_clca_beneficiaires_allocation_base_enfant_ne_ado
   description: |-
     Complément de libre choix d'activité (CLCA) pour les bénéficiaires de l'allocation de base
     (enfant né ou adopté après avril 2014)
+  taux_plein:
+    description: Taux plein
+    values:
+      '2015-01-01':
+        value: null
+      '2004-01-01':
+        value: 0.9662
+    metadata:
+      ipp_csv_id: tx_clca_base
+      unit: /1
+  metadata:
+    order:
+    - taux_plein
+    - taux_partiel_50
+    - taux_partiel_entre_50_80
+  taux_partiel_50:
+    description: |-
+      Taux partiel
+      < 50%
+    values:
+      '2015-01-01':
+        value: null
+      '2004-01-01':
+        value: 0.6246
+    metadata:
+      ipp_csv_id: tx_clca_base_partiel1
+      unit: /1
   taux_partiel_entre_50_80:
     description: Taux partiel entre 50% et 80%
     values:
@@ -14,9 +41,6 @@ complement_libre_choix_activite_clca_beneficiaires_allocation_base_enfant_ne_ado
     metadata:
       ipp_csv_id: tx_clca_base_partiel2
       unit: /1
-  metadata:
-    order:
-    - taux_partiel_entre_50_80
 metadata:
   order:
   - complement_libre_choix_activite_clca_beneficiaires_allocation_base_enfant_ne_adopte_apres_avril_2014
@@ -48,6 +72,37 @@ complement_libre_choix_activite_clca_non_beneficiaires_allocation_base_enfant_ne
   description: |-
     Complément de libre choix d'activité (CLCA) pour les non bénéficiaires de l'allocation de base
     (enfant né ou adopté avant avril 2014)
+  taux_plein:
+    description: Taux plein
+    values:
+      '2015-01-01':
+        value: null
+      '2014-04-01':
+        value: 0.9662
+      '2004-01-01':
+        value: 1.4257
+    metadata:
+      ipp_csv_id: tx_clca_nonbase
+      unit: /1
+  metadata:
+    order:
+    - taux_plein
+    - taux_partiel_50
+    - taux_partiel_entre_50_80
+  taux_partiel_50:
+    description: |-
+      Taux partiel
+      < 50%
+    values:
+      '2015-01-01':
+        value: null
+      '2014-04-01':
+        value: 0.6246
+      '2004-01-01':
+        value: 1.0841
+    metadata:
+      ipp_csv_id: tx_clca_nonbase_partiel1
+      unit: /1
   taux_partiel_entre_50_80:
     description: Taux partiel entre 50% et 80%
     values:
@@ -60,9 +115,6 @@ complement_libre_choix_activite_clca_non_beneficiaires_allocation_base_enfant_ne
     metadata:
       ipp_csv_id: tx_clca_nonbase_partiel2
       unit: /1
-  metadata:
-    order:
-    - taux_partiel_entre_50_80
 complement_optionnel_libre_choix_activite:
   description: Complément optionnel de libre choix d'activité
   taux_plein_duree_arret_predeterminee:

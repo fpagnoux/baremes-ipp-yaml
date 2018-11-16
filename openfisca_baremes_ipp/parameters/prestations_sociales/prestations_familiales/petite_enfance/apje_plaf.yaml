@@ -69,6 +69,51 @@ metadata:
       Circulaire du 08/08/1996 relative à diverses mesures concernant les familles
 majoration_en_eur_en_en_plafond_ressources_avec_0_enfant:
   description: Majoration en € ou en en % du plafond de ressources avec 0 enfant
+  biactifs_parents_isoles_1:
+    description: Biactifs et parents isolés (1)
+    values:
+      '2007-01-01':
+        value: null
+      '2005-07-01':
+        value: 5869.0
+      '2004-07-01':
+        value: 5771.0
+      '2003-07-01':
+        value: 5663.0
+      '2002-07-01':
+        value: 5568.0
+      '2001-07-01':
+        value: 5480.69
+      '2000-07-01':
+        value: 35385.0
+      '1999-07-01':
+        value: 35209.0
+      '1998-07-01':
+        value: 34999.0
+      '1997-07-01':
+        value: 34618.0
+      '1996-07-01':
+        value: 33973.0
+    metadata:
+      ipp_csv_id: maj_plaf_apje_adopt_bi
+      unit:
+        '2001-07-01': currency-EUR
+        '1996-07-01': currency-FRF
+  metadata:
+    order:
+    - biactifs_parents_isoles_1
+    - 1er_2eme_enfant
+    - 3eme_enfant_plus
+  1er_2eme_enfant:
+    description: 1er et 2ème enfant
+    values:
+      '2007-01-01':
+        value: null
+      '1996-07-01':
+        value: 0.25
+    metadata:
+      ipp_csv_id: maj_plaf_apje_adopt_enf1et2
+      unit: /1
   3eme_enfant_plus:
     description: 3ème enfant et plus
     values:
@@ -79,9 +124,6 @@ majoration_en_eur_en_en_plafond_ressources_avec_0_enfant:
     metadata:
       ipp_csv_id: maj_plaf_apje_adopt_enf3pl
       unit: /1
-  metadata:
-    order:
-    - 3eme_enfant_plus
 documentation: |
   Note:
   (1) Définition biactifs : cf. feuille "def_biactifs"

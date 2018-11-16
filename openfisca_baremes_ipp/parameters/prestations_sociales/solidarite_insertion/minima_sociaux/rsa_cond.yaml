@@ -31,6 +31,25 @@ nombre_minimal_enfants_1:
     ipp_csv_id: min_npac_rmi
 majoration_isolement_en_mois:
   description: Majoration pour isolement (en mois)
+  duree_droit:
+    description: Durée du droit
+    values:
+      '2009-06-01':
+        value: 12.0
+    metadata:
+      ipp_csv_id: duree_droit_rsa
+  metadata:
+    order:
+    - duree_droit
+    - limite_duree_droit_majoration_isolement_2
+    - age_limite_enfant_3_en_annee
+  limite_duree_droit_majoration_isolement_2:
+    description: Limite de durée du droit à la majoration pour isolement (2)
+    values:
+      '2009-06-01':
+        value: 18.0
+    metadata:
+      ipp_csv_id: limite_dureet_rsa
   age_limite_enfant_3_en_annee:
     description: |-
       Âge limite de l'enfant (3)
@@ -40,9 +59,6 @@ majoration_isolement_en_mois:
         value: 3.0
     metadata:
       ipp_csv_id: rsa_maj_ageenf_max
-  metadata:
-    order:
-    - age_limite_enfant_3_en_annee
 duree_minimum_titre_sejour_annee:
   description: Durée minimum du titre de séjour (année)
   values:

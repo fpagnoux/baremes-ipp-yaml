@@ -52,6 +52,27 @@ metadata:
     '2000-01-01': Instaure un nouvel âge limite pour les enfants
 age_minimal:
   description: Age minimal
+  ascendants_leur_conjoint_2:
+    description: Pour les ascendants et leur conjoint (2)
+    values:
+      '2016-07-01':
+        value: 67.0
+      '1991-11-11':
+        value: 65.0
+    metadata:
+      ipp_csv_id: ag_min_ascendants1
+  metadata:
+    order:
+    - ascendants_leur_conjoint_2
+    - ascendants_leur_conjoint_s_ils_sont_titulaires_aspa
+    - ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2
+  ascendants_leur_conjoint_s_ils_sont_titulaires_aspa:
+    description: Pour les ascendants et leur conjoint, s'ils sont titulaires de l'ASPA
+    values:
+      '2016-07-01':
+        value: 65.0
+      '1991-11-11':
+        value: null
   ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2:
     description: Pour les ascendants et leurs conjoints qui sont invalides ou anciens
       déportés ou internés (2)
@@ -62,9 +83,6 @@ age_minimal:
         value: 60.0
     metadata:
       ipp_csv_id: ag_min_ascendants2
-  metadata:
-    order:
-    - ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2
 pourcentage_minimal_handicap_ascendants_descendants_3eme_degre_maximum:
   description: Pourcentage minimal de handicap pour les ascendants ou descendants
     du 3ème degré maximum

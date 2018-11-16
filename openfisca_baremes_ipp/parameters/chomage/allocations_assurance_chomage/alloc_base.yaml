@@ -1,6 +1,108 @@
 description: "Allocation de base d'assurance chômage : partie fixe et minimum"
 partie_fixe:
   description: Partie fixe
+  si_affiliation_entre_3_6_mois:
+    description: Si affiliation entre 3-6 mois
+    values:
+      '2017-07-01':
+        value: 11.84
+      '2015-07-01':
+        value: 11.76
+      '2014-07-01':
+        value: 11.72
+      '2013-07-01':
+        value: 11.64
+      '2012-07-01':
+        value: 11.57
+      '2011-07-01':
+        value: 11.34
+      '2010-07-01':
+        value: 11.17
+      '2009-07-01':
+        value: 11.04
+      '2008-07-01':
+        value: 10.93
+      '2007-07-01':
+        value: 10.66
+      '2006-07-01':
+        value: 10.46
+      '2004-07-01':
+        value: 10.25
+      '2003-07-01':
+        value: 10.15
+      '2002-07-01':
+        value: 9.94
+      '2001-07-01':
+        value: 64.24
+      '2000-07-01':
+        value: 62.73
+      '1999-07-01':
+        value: 61.5
+      '1998-07-01':
+        value: 60.76
+      '1997-07-01':
+        value: 59.63
+      '1996-07-01':
+        value: 58.35
+      '1995-07-01':
+        value: 56.95
+      '1994-07-01':
+        value: 55.29
+      '1992-07-01':
+        value: 54.15
+      '1991-07-01':
+        value: 39.55
+      '1990-10-01':
+        value: 38.74
+      '1989-10-01':
+        value: 37.14
+      '1988-10-01':
+        value: 35.78
+      '1987-10-01':
+        value: 34.74
+      '1987-04-01':
+        value: 34.16
+      '1986-10-01':
+        value: 33.5
+      '1985-10-01':
+        value: 32.9
+      '1985-04-01':
+        value: 32.1
+      '1984-10-01':
+        value: 31.05
+      '1984-04-01':
+        value: 30.0
+      '1983-10-01':
+        value: 37.8
+      '1983-04-01':
+        value: 36.0
+      '1982-11-01':
+        value: 34.05
+      '1982-04-01':
+        value: 32.46
+      '1981-10-01':
+        value: 30.23
+      '1981-04-01':
+        value: 26.5
+      '1980-10-01':
+        value: 25.0
+      '1980-04-01':
+        value: 23.5
+      '1979-10-01':
+        value: 22.0
+      '1979-07-01':
+        value: 20.0
+      '1968-07-22':
+        value: null
+    metadata:
+      ipp_csv_id: base_fixe_3_6
+      unit:
+        '2002-07-01': currency-EUR
+        '1979-07-01': currency-FRF
+  metadata:
+    order:
+    - si_affiliation_entre_3_6_mois
+    - si_affiliation_6_mois
   si_affiliation_6_mois:
     description: Si affiliation > 6 mois
     values:
@@ -99,9 +201,6 @@ partie_fixe:
       unit:
         '2002-07-01': currency-EUR
         '1979-07-01': currency-FRF
-  metadata:
-    order:
-    - si_affiliation_6_mois
 metadata:
   order:
   - partie_fixe
@@ -227,6 +326,140 @@ metadata:
     '1979-07-01': "Nouvelle convention: fusion des régimes d'assurance et de solidarité"
 montant_minimum:
   description: Montant minimum
+  3_premiers_mois:
+    description: 3 premiers mois
+    values:
+      '2017-07-01':
+        value: 28.86
+      '2015-07-01':
+        value: 28.67
+      '2014-07-01':
+        value: 28.58
+      '2013-07-01':
+        value: 28.38
+      '2012-07-01':
+        value: 28.21
+      '2011-07-01':
+        value: 27.66
+      '2010-07-01':
+        value: 27.25
+      '2009-07-01':
+        value: 26.93
+      '2008-07-01':
+        value: 26.66
+      '2007-07-01':
+        value: 26.01
+      '2006-07-01':
+        value: 25.51
+      '2004-07-01':
+        value: 25.01
+      '2003-07-01':
+        value: 24.76
+      '2002-07-01':
+        value: 24.24
+      '2001-07-01':
+        value: 156.61
+      '2000-07-01':
+        value: 152.94
+      '1999-07-01':
+        value: 149.94
+      '1998-07-01':
+        value: 148.13
+      '1997-07-01':
+        value: 145.37
+      '1996-07-01':
+        value: 142.24
+      '1995-07-01':
+        value: 138.84
+      '1994-07-01':
+        value: 133.76
+      '1992-07-01':
+        value: 131.01
+      '1991-07-01':
+        value: 127.57
+      '1990-10-01':
+        value: 124.77
+      '1989-10-01':
+        value: 119.8
+      '1988-10-01':
+        value: 115.19
+      '1987-10-01':
+        value: 111.51
+      '1987-04-01':
+        value: 109.65
+      '1986-10-01':
+        value: 107.61
+      '1986-04-01':
+        value: 105.5
+      '1985-10-01':
+        value: 104.55
+      '1984-10-01':
+        value: 102.0
+      '1983-10-01':
+        value: 100.1
+      '1983-04-01':
+        value: 95.34
+      '1982-11-01':
+        value: 90.2
+      '1982-04-01':
+        value: 85.99
+      '1981-10-01':
+        value: 80.08
+      '1981-07-01':
+        value: 75.0
+      '1981-04-01':
+        value: 70.2
+      '1980-10-01':
+        value: 66.0
+      '1980-04-01':
+        value: 61.5
+      '1979-10-01':
+        value: 57.0
+      '1979-07-01':
+        value: 53.0
+      '1979-04-02':
+        value: 33.5
+      '1978-10-02':
+        value: 31.91
+      '1978-04-03':
+        value: 29.55
+      '1977-10-03':
+        value: 27.6
+      '1977-04-04':
+        value: 26.0
+      '1976-10-04':
+        value: 24.38
+      '1976-04-05':
+        value: 22.54
+      '1975-10-06':
+        value: 21.0
+      '1975-06-02':
+        value: 20.0
+      '1974-12-30':
+        value: 17.5
+      '1974-07-01':
+        value: 16.0
+      '1973-07-02':
+        value: 11.87
+      '1972-11-06':
+        value: 11.2
+      '1971-10-11':
+        value: 10.0
+      '1971-03-29':
+        value: 9.43
+      '1970-01-05':
+        value: 8.86
+      '1968-07-22':
+        value: 8.1
+    metadata:
+      ipp_csv_id: base_min_0_3
+      unit:
+        '2002-07-01': currency-EUR
+        '1968-07-22': currency-FRF
+  metadata:
+    order:
+    - 3_premiers_mois
+    - ensuite
   ensuite:
     description: Ensuite
     values:
@@ -357,11 +590,37 @@ montant_minimum:
       unit:
         '2002-07-01': currency-EUR
         '1968-07-22': currency-FRF
-  metadata:
-    order:
-    - ensuite
 montant_minimal_apres_degressivite:
   description: Montant minimal après dégressivité
+  tous:
+    description: Tous
+    values:
+      '2000-07-01':
+        value: null
+      '1999-07-01':
+        value: 107.43
+      '1998-07-01':
+        value: 106.14
+      '1997-07-01':
+        value: 104.16
+      '1996-07-01':
+        value: 101.92
+      '1995-07-01':
+        value: 88.66
+      '1994-07-01':
+        value: 85.25
+      '1992-07-01':
+        value: 83.5
+      '1991-07-01':
+        value: 81.3
+      '1968-07-22':
+        value: null
+    metadata:
+      unit: currency-FRF
+  metadata:
+    order:
+    - tous
+    - plus_52_ans_sous_conditions
   plus_52_ans_sous_conditions:
     description: Plus de 52 ans sous conditions
     values:
@@ -387,9 +646,6 @@ montant_minimal_apres_degressivite:
         value: null
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - plus_52_ans_sous_conditions
 montant_minimal_are_formation:
   description: Montant minimal ARE-formation
   values:

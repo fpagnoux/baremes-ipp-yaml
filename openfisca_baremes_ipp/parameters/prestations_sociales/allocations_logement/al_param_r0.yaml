@@ -2,6 +2,53 @@ description: Paramètres de calcul du montant forfaitaire R0 (que l'on déduit d
   - secteur locatif (après 2001)
 r1_en_rsa_socle_1:
   description: R1 (en % du RSA socle) (1)
+  personnes_isolees_en_rmi_base:
+    description: |-
+      Personnes isolées 
+      (en % du RMI de base)
+    values:
+      '2001-01-01':
+        value: 0.88
+    metadata:
+      ipp_csv_id: r1_isol
+      unit: /1
+  metadata:
+    order:
+    - personnes_isolees_en_rmi_base
+    - couples_en_rmi_base
+    - personnes_isolees_couples_avec_1_enfant_en_rmi_base
+    - personnes_isolees_couples_avec_2_enfants_en_rmi_base
+    - majoration_par_enfant_charge_supplementaire_en_rmi_base
+  couples_en_rmi_base:
+    description: |-
+      Couples 
+      (en % du RMI de base)
+    values:
+      '2001-01-01':
+        value: 1.26
+    metadata:
+      ipp_csv_id: r1_coup
+      unit: /1
+  personnes_isolees_couples_avec_1_enfant_en_rmi_base:
+    description: |-
+      Personnes isolées ou couples avec 1 enfant
+      (en % du RMI de base)
+    values:
+      '2001-01-01':
+        value: 1.503
+    metadata:
+      ipp_csv_id: r1_enf1
+      unit: /1
+  personnes_isolees_couples_avec_2_enfants_en_rmi_base:
+    description: |-
+      Personnes isolées ou couples avec 2 enfants
+      (en % du RMI de base)
+    values:
+      '2001-01-01':
+        value: 1.803
+    metadata:
+      ipp_csv_id: r1_enf2
+      unit: /1
   majoration_par_enfant_charge_supplementaire_en_rmi_base:
     description: |-
       Majoration par enfant à charge supplémentaire
@@ -12,9 +59,6 @@ r1_en_rsa_socle_1:
     metadata:
       ipp_csv_id: r1_enfsupp
       unit: /1
-  metadata:
-    order:
-    - majoration_par_enfant_charge_supplementaire_en_rmi_base
 metadata:
   order:
   - r1_en_rsa_socle_1
@@ -31,6 +75,20 @@ metadata:
       2013, p 13.
 r2_en_bmaf_1:
   description: R2 (en % de la BMAF) (1)
+  personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2:
+    description: |-
+      Personnes isolées ou couples avec 2 enfants
+      (en % de la BMAF au 01/01/N-2)
+    values:
+      '2001-01-01':
+        value: 0.32
+    metadata:
+      ipp_csv_id: r2_enf2
+      unit: /1
+  metadata:
+    order:
+    - personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2
+    - majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2
   majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2:
     description: |-
       Majoration par enfant à charge supplémentaire
@@ -41,11 +99,63 @@ r2_en_bmaf_1:
     metadata:
       ipp_csv_id: r2_enfsupp
       unit: /1
-  metadata:
-    order:
-    - majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2
 plafond_r0:
   description: Plafond de R0
+  foyers_sans_personne_charge_en_r0:
+    description: |-
+      Foyers sans personne à charge
+      (en % du R0 )
+    values:
+      '2002-01-01':
+        value: 1.0
+      '2001-01-01':
+        value: 0.75
+    metadata:
+      ipp_csv_id: tx_plaf_r0_enf0
+      unit: /1
+  metadata:
+    order:
+    - foyers_sans_personne_charge_en_r0
+    - foyers_avec_1_personne_charge_en_r0
+    - foyers_avec_2_personnes_charge_en_r0
+    - foyers_avec_3_personnes_charge_en_r0
+    - foyers_avec_4_personnes_charge_plus_en_r0
+  foyers_avec_1_personne_charge_en_r0:
+    description: |-
+      Foyers avec 1 personne à charge
+      (en % du R0)
+    values:
+      '2002-01-01':
+        value: 1.0
+      '2001-01-01':
+        value: 0.69
+    metadata:
+      ipp_csv_id: tx_plaf_r0_enf1
+      unit: /1
+  foyers_avec_2_personnes_charge_en_r0:
+    description: |-
+      Foyers avec 2 personnes à charge
+      (en % du R0)
+    values:
+      '2002-01-01':
+        value: 1.0
+      '2001-01-01':
+        value: 0.72
+    metadata:
+      ipp_csv_id: tx_plaf_r0_enf2
+      unit: /1
+  foyers_avec_3_personnes_charge_en_r0:
+    description: |-
+      Foyers avec 3 personnes à charge
+      (en % du R0 )
+    values:
+      '2002-01-01':
+        value: 1.0
+      '2001-01-01':
+        value: 0.75
+    metadata:
+      ipp_csv_id: tx_plaf_r0_enf3
+      unit: /1
   foyers_avec_4_personnes_charge_plus_en_r0:
     description: |-
       Foyers avec 4 personnes à charge et plus
@@ -58,9 +168,6 @@ plafond_r0:
     metadata:
       ipp_csv_id: tx_plaf_r0_enf4pl
       unit: /1
-  metadata:
-    order:
-    - foyers_avec_4_personnes_charge_plus_en_r0
 documentation: |
   Notes :
   (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)

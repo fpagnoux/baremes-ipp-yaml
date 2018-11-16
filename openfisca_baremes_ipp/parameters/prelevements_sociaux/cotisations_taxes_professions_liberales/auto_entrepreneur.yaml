@@ -98,6 +98,42 @@ activites_liberales_relevant_cipav:
     - chiffre_affaires
 formation_professionnelle_micro_entrepreneur:
   description: Formation professionnelle (micro-entrepreneur)
+  commercants_chiffre_affaires:
+    description: "Commerçants : chiffre d'affaires"
+    values:
+      '2011-01-01':
+        value: 0.001
+      '2009-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: auto_com_form_ca
+      unit: /1
+  metadata:
+    order:
+    - commercants_chiffre_affaires
+    - professions_liberales_chiffre_affaires
+    - artisans_hors_alsace_chiffre_affaires
+    - artisans_alsace_chiffre_affaires
+  professions_liberales_chiffre_affaires:
+    description: "Professions libérales : chiffre d'affaires"
+    values:
+      '2011-01-01':
+        value: 0.002
+      '2009-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: auto_plib_form_ca
+      unit: /1
+  artisans_hors_alsace_chiffre_affaires:
+    description: "Artisans hors Alsace : chiffre d'affaires"
+    values:
+      '2011-01-01':
+        value: 0.003
+      '2009-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: auto_art_form_ca
+      unit: /1
   artisans_alsace_chiffre_affaires:
     description: "Artisans Alsace : chiffre d'affaires"
     values:
@@ -110,9 +146,6 @@ formation_professionnelle_micro_entrepreneur:
     metadata:
       ipp_csv_id: auto_art_form_als_ca
       unit: /1
-  metadata:
-    order:
-    - artisans_alsace_chiffre_affaires
 documentation: |
   Notes :
   (i) L’auto-entrepreneur bénéficie d’un régime simplifié de calcul et de paiement des cotisations et contributions sociales obligatoires.

@@ -1,6 +1,42 @@
 description: 'Allocation pour frais de garde (AFG) : plafonds de ressources'
 plafond_ressources_revenu:
   description: Plafond de ressources pour un revenu
+  1_enfant:
+    description: 1 enfant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 24120.0
+    metadata:
+      ipp_csv_id: agf_plaf_1_enf
+      unit: currency-FRF
+  metadata:
+    order:
+    - 1_enfant
+    - 2_enfants
+    - 3_enfants
+    - par_enfant_supplementaire
+  2_enfants:
+    description: 2 enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 32160.0
+    metadata:
+      ipp_csv_id: agf_plaf_2_enf
+      unit: currency-FRF
+  3_enfants:
+    description: 3 enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 40200.0
+    metadata:
+      ipp_csv_id: agf_plaf_3_enf
+      unit: currency-FRF
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
@@ -11,9 +47,6 @@ plafond_ressources_revenu:
     metadata:
       ipp_csv_id: agf_plaf_sup3_enf
       unit: currency-FRF
-  metadata:
-    order:
-    - par_enfant_supplementaire
 metadata:
   order:
   - plafond_ressources_revenu
@@ -32,6 +65,42 @@ metadata:
       de paiement 01/07/76-30/06/1977
 plafond_ressources_2_revenus:
   description: Plafond de ressources pour 2 revenus
+  1_enfant:
+    description: 1 enfant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 40200.0
+    metadata:
+      ipp_csv_id: agf_plaf_1_enf_biact
+      unit: currency-FRF
+  metadata:
+    order:
+    - 1_enfant
+    - 2_enfants
+    - 3_enfants
+    - par_enfant_supplementaire
+  2_enfants:
+    description: 2 enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 48240.0
+    metadata:
+      ipp_csv_id: agf_plaf_2_enf_biact
+      unit: currency-FRF
+  3_enfants:
+    description: 3 enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 56280.0
+    metadata:
+      ipp_csv_id: agf_plaf_3_enf_biact
+      unit: currency-FRF
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
@@ -42,9 +111,6 @@ plafond_ressources_2_revenus:
     metadata:
       ipp_csv_id: agf_plaf_sup3_enf_biact
       unit: currency-FRF
-  metadata:
-    order:
-    - par_enfant_supplementaire
 plafond_unique_montant_mensuel_max_majoration_s_u:
   description: Plafond unique (montant mensuel max + majoration du S.U.)
   values:

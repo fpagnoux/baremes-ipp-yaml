@@ -64,6 +64,59 @@ metadata:
       le cadre de la LOLF.
 taux_employeur_explicite:
   description: Taux employeur explicite
+  pensions_civils:
+    description: Pensions civils
+    values:
+      '2014-01-01':
+        value: 0.7428
+      '2013-12-01':
+        value: 0.4428
+      '2013-01-01':
+        value: 0.7428
+      '2012-01-01':
+        value: 0.6859
+      '2011-01-01':
+        value: 0.6539
+      '2010-01-01':
+        value: 0.6214
+      '2009-12-01':
+        value: 0.4014
+      '2009-01-01':
+        value: 0.6014
+      '2008-01-01':
+        value: 0.5571
+      '2007-01-01':
+        value: 0.5074
+      '2006-01-01':
+        value: 0.499
+      '1995-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txexp_civ_p
+      unit: /1
+  metadata:
+    order:
+    - pensions_civils
+    - ati
+    - pensions_militaires
+  ati:
+    description: ATI
+    values:
+      '2013-01-01':
+        value: 0.0032
+      '2010-01-01':
+        value: 0.0033
+      '2009-01-01':
+        value: 0.0032
+      '2007-01-01':
+        value: 0.0031
+      '2006-01-01':
+        value: 0.003
+      '1995-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txexp_ati_p
+      unit: /1
   pensions_militaires:
     description: Pensions militaires
     values:
@@ -88,9 +141,6 @@ taux_employeur_explicite:
     metadata:
       ipp_csv_id: txexp_mil_p
       unit: /1
-  metadata:
-    order:
-    - pensions_militaires
 documentation: |
   Notes :
   Ce tableau reporte les taux de la contribution de l'Etat sur les traitements de ses agents civils et militaires destinée au financement de leurs pensions de retraite de base,

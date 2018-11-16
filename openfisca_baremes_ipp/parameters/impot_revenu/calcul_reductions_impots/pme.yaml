@@ -60,6 +60,35 @@ metadata:
     '1994-01-01': 'plaf_PME1 : sommes versées avant le 31/07/1995'
 emprunts_contractes_reprise_une_pme:
   description: Emprunts contractés pour la reprise d'une PME
+  taux:
+    description: Taux
+    values:
+      '2015-01-01':
+        value: 0.18
+      '1992-01-01':
+        value: 0.25
+      '1991-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_pme
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond_1
+    - plafond_2
+  plafond_1:
+    description: Plafond 1
+    values:
+      '1998-01-01':
+        value: null
+      '1992-01-01':
+        value: 25000.0
+      '1991-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_pme1
+      unit: currency-FRF
   plafond_2:
     description: Plafond 2
     values:
@@ -78,9 +107,6 @@ emprunts_contractes_reprise_une_pme:
       unit:
         '2001-01-01': currency-EUR
         '1995-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond_2
 documentation: |
   Notes : 
   (1) Souscription au capital des PME : 1° du I de l'article 199 terdecies OA du CGI

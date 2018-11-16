@@ -2,6 +2,88 @@ description: Participation des employeurs à la formation professionnelle contin
   (PEFPC)
 employeur_tout_salaire:
   description: Employeur (tout salaire)
+  moins_10_salaries:
+    description: Moins de 10 salariés
+    values:
+      '2016-01-01':
+        value: null
+      '2005-01-01':
+        value: 0.0055
+      '2004-01-01':
+        value: 0.004
+      '1992-01-01':
+        value: 0.0015
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: form_m10_p_0_
+      unit: /1
+  metadata:
+    order:
+    - moins_10_salaries
+    - moins_11_salaries
+    - 10_19_salaries
+    - 20_salaries_plus
+    - 11_salaries_plus
+  moins_11_salaries:
+    description: Moins de 11 salariés
+    values:
+      '2016-01-01':
+        value: 0.0055
+      '1972-01-01':
+        value: null
+    metadata:
+      unit: /1
+  10_19_salaries:
+    description: De 10 à 19 salariés
+    values:
+      '2016-01-01':
+        value: null
+      '2015-01-01':
+        value: 0.01
+      '2005-01-01':
+        value: 0.0105
+      '2004-01-01':
+        value: 0.016
+      '1993-01-01':
+        value: 0.015
+      '1992-01-01':
+        value: 0.014
+      '1987-01-01':
+        value: 0.012
+      '1978-01-01':
+        value: 0.011
+      '1974-01-01':
+        value: 0.01
+      '1972-01-01':
+        value: 0.008
+    metadata:
+      ipp_csv_id: form_1020_p_0_
+      unit: /1
+  20_salaries_plus:
+    description: 20 salariés et plus
+    values:
+      '2016-01-01':
+        value: null
+      '2015-01-01':
+        value: 0.01
+      '2004-01-01':
+        value: 0.016
+      '1993-01-01':
+        value: 0.015
+      '1992-01-01':
+        value: 0.014
+      '1987-01-01':
+        value: 0.012
+      '1978-01-01':
+        value: 0.011
+      '1974-01-01':
+        value: 0.01
+      '1972-01-01':
+        value: 0.008
+    metadata:
+      ipp_csv_id: form_p20_p_0_
+      unit: /1
   11_salaries_plus:
     description: 11 salariés et plus
     values:
@@ -11,9 +93,6 @@ employeur_tout_salaire:
         value: null
     metadata:
       unit: /1
-  metadata:
-    order:
-    - 11_salaries_plus
 metadata:
   order:
   - employeur_tout_salaire
@@ -90,6 +169,37 @@ moins_10_salaries:
     - contribution_contrats_insertion_en_alternance
 10_salaries_plus:
   description: 10 salariés ou plus
+  cotisation_formation_alternee:
+    description: Cotisation formation alternée
+    values:
+      '2008-05-01':
+        value: null
+      '1993-01-01':
+        value: 0.004
+      '1987-01-01':
+        value: 0.003
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: altern_p10_p_0
+      unit: /1
+  metadata:
+    order:
+    - cotisation_formation_alternee
+    - contrats_periodes_professionnalisation_dif
+    - conges_formation
+  contrats_periodes_professionnalisation_dif:
+    description: Contrats et périodes de professionnalisation et DIF
+    values:
+      '2015-01-01':
+        value: null
+      '2005-01-01':
+        value: 0.005
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: dif_p10_p_0_
+      unit: /1
   conges_formation:
     description: Congés de formation
     values:
@@ -106,13 +216,10 @@ moins_10_salaries:
     metadata:
       ipp_csv_id: congform_p10_p_0_
       unit: /1
-  metadata:
-    order:
-    - conges_formation
 decomposition_taux_employeur_50_300_salaries:
   description: 'Décomposition du taux employeur  : de 50 à 300 salariés'
-  compte_personnel_formation:
-    description: Compte personnel de formation
+  securisation_parcours_professionnels:
+    description: Sécurisation des parcours professionnels
     values:
       '2015-01-01':
         value: 0.002
@@ -122,7 +229,47 @@ decomposition_taux_employeur_50_300_salaries:
       unit: /1
   metadata:
     order:
+    - securisation_parcours_professionnels
+    - conge_individuel_formation
+    - professionnalisation
+    - plan_formation
     - compte_personnel_formation
+  conge_individuel_formation:
+    description: Congé individuel de formation
+    values:
+      '2015-01-01':
+        value: 0.002
+      '1972-01-01':
+        value: null
+    metadata:
+      unit: /1
+  professionnalisation:
+    description: Professionnalisation
+    values:
+      '2015-01-01':
+        value: 0.003
+      '1972-01-01':
+        value: null
+    metadata:
+      unit: /1
+  plan_formation:
+    description: Plan de formation
+    values:
+      '2015-01-01':
+        value: 0.001
+      '1972-01-01':
+        value: null
+    metadata:
+      unit: /1
+  compte_personnel_formation:
+    description: Compte personnel de formation
+    values:
+      '2015-01-01':
+        value: 0.002
+      '1972-01-01':
+        value: null
+    metadata:
+      unit: /1
 toute_entreprise:
   description: Toute entreprise
   salaires_cdd:

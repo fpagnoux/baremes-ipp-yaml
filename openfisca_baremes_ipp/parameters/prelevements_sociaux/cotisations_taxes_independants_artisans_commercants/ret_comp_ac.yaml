@@ -1,6 +1,58 @@
 description: Cotisation retraite complémentaire, Artisans-Commerçants
 artisans:
   description: Artisans
+  sous_1_pss:
+    description: Sous 1 PSS
+    values:
+      '2013-01-01':
+        value: null
+      '2010-01-01':
+        value: 0.072
+      '2009-01-01':
+        value: 0.071
+      '2008-01-01':
+        value: 0.07
+      '1978-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: retc_art_0_1
+      unit: /1
+  metadata:
+    order:
+    - sous_1_pss
+    - entre_1_4_pss
+    - sous_3_pss
+    - sous_4_pss
+  entre_1_4_pss:
+    description: Entre 1 et 4 PSS
+    values:
+      '2013-01-01':
+        value: null
+      '2010-01-01':
+        value: 0.076
+      '2009-01-01':
+        value: 0.075
+      '2008-01-01':
+        value: 0.07
+      '1978-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: retc_art_1_4
+      unit: /1
+  sous_3_pss:
+    description: Sous 3 PSS
+    values:
+      '1998-01-01':
+        value: null
+      '1997-01-01':
+        value: 0.049
+      '1985-01-01':
+        value: 0.045
+      '1978-01-01':
+        value: 0.044
+    metadata:
+      ipp_csv_id: retc_art_0_3
+      unit: /1
   sous_4_pss:
     description: Sous 4 PSS
     values:
@@ -23,9 +75,6 @@ artisans:
     metadata:
       ipp_csv_id: retc_art_0_4
       unit: /1
-  metadata:
-    order:
-    - sous_4_pss
 metadata:
   order:
   - artisans
@@ -103,6 +152,31 @@ industriels_commercants:
     - sous_3_pss
 artisans_industriels_commercants:
   description: Artisans-industriels-commerçants
+  sous_plafond_rci:
+    description: Sous plafond RCI
+    values:
+      '2013-01-01':
+        value: 0.07
+      '1978-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: retc_rci_0_1plaf
+      unit: /1
+  metadata:
+    order:
+    - sous_plafond_rci
+    - entre_1_plafond_rci_4_plafonds_pss
+    - montant_plafond_rci
+  entre_1_plafond_rci_4_plafonds_pss:
+    description: Entre 1 plafond RCI et 4 plafonds PSS
+    values:
+      '2013-01-01':
+        value: 0.08
+      '1978-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: retc_rci_1_4plaf
+      unit: /1
   montant_plafond_rci:
     description: Montant du plafond RCI
     values:
@@ -117,9 +191,6 @@ artisans_industriels_commercants:
     metadata:
       ipp_csv_id: plaf_retc_rci
       unit: currency-EUR
-  metadata:
-    order:
-    - montant_plafond_rci
 documentation: |
   Notes : 
   (i) Les cotisations reportées financent les régimes complémentaires d'assurance vieillesse des artisans, industriels et commerçants. 

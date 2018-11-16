@@ -93,6 +93,214 @@ metadata:
       d'un complément égal au montant inital de PPE calculé pour l'année 2001.
 seuil_rfr_etre_eligibilite_ppe:
   description: Seuil de RFR pour être éligibilité à la PPE
+  personne_seule:
+    description: Personne seule
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 16251.0
+      '2006-01-01':
+        value: 16042.0
+      '2005-01-01':
+        value: 12606.0
+      '2004-01-01':
+        value: 12383.0
+      '2003-01-01':
+        value: 12176.0
+      '2002-01-01':
+        value: 11972.0
+      '2001-01-01':
+        value: 11772.0
+      '2000-01-01':
+        value: 76000.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_rfr_ppe
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  metadata:
+    order:
+    - personne_seule
+    - couple_marie_pacse
+    - increment_par_demi_part_qf_dela_1_2
+    - revenu_activite_individuel_minimum
+    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_cas_general
+    - revenu_activite_individuel_maximum_cas_general
+    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_couples_mono_revenus
+    - revenu_activite_individuel_maximum_couples_mono_emploi_parents_isoles
+  couple_marie_pacse:
+    description: Couple marié ou pacsé
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 32498.0
+      '2006-01-01':
+        value: 32081.0
+      '2005-01-01':
+        value: 25211.0
+      '2004-01-01':
+        value: 24765.0
+      '2003-01-01':
+        value: 24351.0
+      '2002-01-01':
+        value: 23944.0
+      '2001-01-01':
+        value: 23544.0
+      '2000-01-01':
+        value: 152000.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_rfr_ppe_coup
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  increment_par_demi_part_qf_dela_1_2:
+    description: Incrément par demi-part de QF au-delà de 1 ou 2
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 4490.0
+      '2006-01-01':
+        value: 4432.0
+      '2005-01-01':
+        value: 3483.0
+      '2004-01-01':
+        value: 3421.0
+      '2003-01-01':
+        value: 3364.0
+      '2002-01-01':
+        value: 3308.0
+      '2001-01-01':
+        value: 3253.0
+      '2000-01-01':
+        value: 21000.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_rfr_ppe_enf
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  revenu_activite_individuel_minimum:
+    description: Revenu d'activité individuel minimum
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 3743.0
+      '2006-01-01':
+        value: 3695.0
+      '2005-01-01':
+        value: 3570.0
+      '2004-01-01':
+        value: 3507.0
+      '2003-01-01':
+        value: 3372.0
+      '2002-01-01':
+        value: 3265.0
+      '2001-01-01':
+        value: 3187.0
+      '2000-01-01':
+        value: 20575.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_ppe_min
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_cas_general:
+    description: Revenu d'activité individuel permettant d'obtenir la PPE à taux plein
+      (cas général)
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 12475.0
+      '2006-01-01':
+        value: 12315.0
+      '2005-01-01':
+        value: 11899.0
+      '2004-01-01':
+        value: 11689.0
+      '2003-01-01':
+        value: 11239.0
+      '2002-01-01':
+        value: 10882.0
+      '2001-01-01':
+        value: 10623.0
+      '2000-01-01':
+        value: 68583.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_ppe
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  revenu_activite_individuel_maximum_cas_general:
+    description: Revenu d'activité individuel maximum (cas général)
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 17451.0
+      '2006-01-01':
+        value: 17227.0
+      '2005-01-01':
+        value: 16659.0
+      '2004-01-01':
+        value: 16364.0
+      '2003-01-01':
+        value: 15735.0
+      '2002-01-01':
+        value: 15235.0
+      '2001-01-01':
+        value: 14872.0
+      '2000-01-01':
+        value: 96016.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_ppe_max
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_couples_mono_revenus:
+    description: Revenu d'activité individuel permettant d'obtenir la PPE à taux plein
+      (couples mono-revenus)
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 24950.0
+      '2006-01-01':
+        value: 24630.0
+      '2005-01-01':
+        value: 23798.0
+      '2004-01-01':
+        value: 23377.0
+      '2003-01-01':
+        value: 22478.0
+      '2002-01-01':
+        value: 21764.0
+      '2001-01-01':
+        value: 21246.0
+      '2000-01-01':
+        value: 137166.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_ppe_coup
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
   revenu_activite_individuel_maximum_couples_mono_emploi_parents_isoles:
     description: Revenu d'activité individuel maximum (couples mono-emploi et parents
       isolés)
@@ -122,11 +330,55 @@ seuil_rfr_etre_eligibilite_ppe:
       unit:
         '2001-01-01': currency-EUR
         '2000-01-01': currency-FRF
-  metadata:
-    order:
-    - revenu_activite_individuel_maximum_couples_mono_emploi_parents_isoles
 taux_ppe:
   description: Taux de la PPE
+  phase_in:
+    description: phase-in
+    values:
+      '2016-01-01':
+        value: null
+      '2006-01-01':
+        value: 0.077
+      '2005-01-01':
+        value: 0.068
+      '2003-01-01':
+        value: 0.046
+      '2001-01-01':
+        value: 0.044000000000000004
+      '2000-01-01':
+        value: 0.022
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_ppe
+      unit: /1
+  metadata:
+    order:
+    - phase_in
+    - phase_out_cas_general
+    - phase_out_couples_mono_emploi
+  phase_out_cas_general:
+    description: |-
+      phase-out
+      (cas général)
+    values:
+      '2016-01-01':
+        value: null
+      '2006-01-01':
+        value: 0.193
+      '2005-01-01':
+        value: 0.17
+      '2003-01-01':
+        value: 0.115
+      '2001-01-01':
+        value: 0.11
+      '2000-01-01':
+        value: 0.055
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_ret_ppe
+      unit: /1
   phase_out_couples_mono_emploi:
     description: phase-out (couples mono-emploi)
     values:
@@ -141,11 +393,28 @@ taux_ppe:
     metadata:
       ipp_csv_id: tx_ret_ppe_coup
       unit: /1
-  metadata:
-    order:
-    - phase_out_couples_mono_emploi
 coefficient_majoration_ppe_temps_partiel:
   description: Coefficient de majoration PPE pour temps partiel
+  taux_1:
+    description: Taux 1
+    values:
+      '2016-01-01':
+        value: null
+      '2006-01-01':
+        value: 0.85
+      '2005-01-01':
+        value: 0.65
+      '2002-01-01':
+        value: 0.45
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: maj_ppe_tp
+      unit: /1
+  metadata:
+    order:
+    - taux_1
+    - taux_2
   taux_2:
     description: Taux 2
     values:
@@ -162,11 +431,38 @@ coefficient_majoration_ppe_temps_partiel:
     metadata:
       ipp_csv_id: maj_ppe_tpbis
       unit: /1
-  metadata:
-    order:
-    - taux_2
 supplements:
   description: Suppléments
+  couples_mono_emploi:
+    description: Couples mono-emploi
+    values:
+      '2016-01-01':
+        value: null
+      '2007-01-01':
+        value: 83.0
+      '2006-01-01':
+        value: 82.0
+      '2004-01-01':
+        value: 81.0
+      '2003-01-01':
+        value: 80.0
+      '2002-01-01':
+        value: 79.0
+      '2001-01-01':
+        value: 78.0
+      '2000-01-01':
+        value: 500.0
+      '1999-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: supp_ppe_coup
+      unit:
+        '2001-01-01': currency-EUR
+        '2000-01-01': currency-FRF
+  metadata:
+    order:
+    - couples_mono_emploi
+    - par_personne_charge
   par_personne_charge:
     description: Par personne à charge
     values:
@@ -193,9 +489,6 @@ supplements:
       unit:
         '2001-01-01': currency-EUR
         '2000-01-01': currency-FRF
-  metadata:
-    order:
-    - par_personne_charge
 minimun_ppe:
   description: Minimun de PPE
   montant:

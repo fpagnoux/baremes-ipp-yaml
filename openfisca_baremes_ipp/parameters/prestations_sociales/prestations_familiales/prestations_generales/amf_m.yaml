@@ -1,6 +1,35 @@
 description: 'Allocation de la mère au foyer (AMF) : taux et montant mensuel'
 regime_general_taux_en_bmaf:
   description: Régime général (taux en % de la BMAF)
+  moins_1_enfant_moins_2_ans:
+    description: Au moins 1 enfant de moins de 2 ans
+    values:
+      '1978-01-01':
+        value: null
+      '1974-07-01':
+        value: 0.5
+      '1955-06-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_gene_02ans
+      unit: /1
+  metadata:
+    order:
+    - moins_1_enfant_moins_2_ans
+    - points_par_enfant_plus_2_ans_avec_entre_2_6_enfants
+    - plus_6_enfants_tous_plus_2_ans
+  points_par_enfant_plus_2_ans_avec_entre_2_6_enfants:
+    description: Points par enfant de plus de 2 ans, avec entre 2 et 6 enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1974-07-01':
+        value: 0.1
+      '1955-06-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_gene_26ans
+      unit: /1
   plus_6_enfants_tous_plus_2_ans:
     description: Plus de 6 enfants, tous plus de 2 ans
     values:
@@ -13,9 +42,6 @@ regime_general_taux_en_bmaf:
     metadata:
       ipp_csv_id: tx_gene_6ans
       unit: /1
-  metadata:
-    order:
-    - plus_6_enfants_tous_plus_2_ans
 metadata:
   order:
   - regime_general_taux_en_bmaf
@@ -41,6 +67,48 @@ metadata:
     '1955-06-01': Création de l'AMF
 regime_agricole_taux_en_bmaf:
   description: Régime agricole (taux en % de la BMAF)
+  enfant_plus_moins_2_ans:
+    description: Un enfant et plus, de moins de 2 ans
+    values:
+      '1978-01-01':
+        value: null
+      '1974-07-01':
+        value: 0.5
+      '1955-06-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_agri_1enf_02ans
+      unit: /1
+  metadata:
+    order:
+    - enfant_plus_moins_2_ans
+    - plus_enfant_sans_moins_2_ans
+    - deux_enfants_plus_2_ans
+    - 3_enfants_plus_2_ans
+  plus_enfant_sans_moins_2_ans:
+    description: Au plus un enfant, sans moins de 2 ans
+    values:
+      '1978-01-01':
+        value: null
+      '1974-07-01':
+        value: 0.1
+      '1955-06-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_agri_2ans
+      unit: /1
+  deux_enfants_plus_2_ans:
+    description: Deux enfants de plus de 2 ans
+    values:
+      '1978-01-01':
+        value: null
+      '1974-07-01':
+        value: 0.25
+      '1955-06-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_agri_2enf_02ans
+      unit: /1
   3_enfants_plus_2_ans:
     description: 3 enfants et + de plus de 2 ans
     values:
@@ -53,9 +121,6 @@ regime_agricole_taux_en_bmaf:
     metadata:
       ipp_csv_id: tx_agri_3enf_02ans
       unit: /1
-  metadata:
-    order:
-    - 3_enfants_plus_2_ans
 2_enfants_charge:
   description: 2 enfants à charge
   values:

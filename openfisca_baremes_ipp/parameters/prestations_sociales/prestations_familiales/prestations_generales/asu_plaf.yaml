@@ -1,6 +1,42 @@
 description: 'Allocation de salaire unique (ASU) : plafond de ressources'
 plafond_ressources_droit_salaire_unique:
   description: Plafond de ressources pour le droit au salaire unique
+  sans_enfant:
+    description: Sans enfant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 23040.0
+    metadata:
+      ipp_csv_id: plaf_asu_0enf
+      unit: currency-FRF
+  metadata:
+    order:
+    - sans_enfant
+    - 1_enfant
+    - 2_enfants
+    - par_enfant_supplementaire
+  1_enfant:
+    description: 1 enfant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 28800.0
+    metadata:
+      ipp_csv_id: plaf_asu_1enf
+      unit: currency-FRF
+  2_enfants:
+    description: 2 enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 34560.0
+    metadata:
+      ipp_csv_id: plaf_asu_2enf
+      unit: currency-FRF
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
@@ -11,9 +47,6 @@ plafond_ressources_droit_salaire_unique:
     metadata:
       ipp_csv_id: plaf_asu_enf_sup
       unit: currency-FRF
-  metadata:
-    order:
-    - par_enfant_supplementaire
 metadata:
   order:
   - plafond_ressources_droit_salaire_unique
@@ -30,6 +63,42 @@ metadata:
     '1976-07-01': Remplacé par le "Complément Familial" depuis 01/01/1978
 plafond_ressources_majoration_salaire_unique:
   description: Plafond de ressources pour la majoration du salaire unique
+  sans_enfant:
+    description: Sans enfant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 16080.0
+    metadata:
+      ipp_csv_id: plaf_maj_asu_0enf
+      unit: currency-FRF
+  metadata:
+    order:
+    - sans_enfant
+    - 1_enfant
+    - 2_enfants
+    - par_enfant_supplementaire
+  1_enfant:
+    description: 1 enfant
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 20100.0
+    metadata:
+      ipp_csv_id: plaf_maj_asu_1enf
+      unit: currency-FRF
+  2_enfants:
+    description: 2 enfants
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 24120.0
+    metadata:
+      ipp_csv_id: plaf_maj_asu_2enf
+      unit: currency-FRF
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
@@ -40,9 +109,6 @@ plafond_ressources_majoration_salaire_unique:
     metadata:
       ipp_csv_id: plaf_maj_asu_enf_sup
       unit: currency-FRF
-  metadata:
-    order:
-    - par_enfant_supplementaire
 documentation: |
   Notes :
   (1) Majoration pour les ménages avec 4 enfants et plus ou au moins 1 enfant de moins de 3 ans et des ressources ne dépassant pas le plafond.

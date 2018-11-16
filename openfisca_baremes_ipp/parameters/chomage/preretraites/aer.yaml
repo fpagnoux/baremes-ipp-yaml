@@ -81,6 +81,48 @@ metadata:
     '2011-01-01': L'AER est supprimé au 01/01/2011.
 plafond_ressources:
   description: Plafond de ressources
+  personne_seule:
+    description: Personne seule
+    values:
+      '2017-04-01':
+        value: 1691.52
+      '2016-04-01':
+        value: 1686.2400000000002
+      '2015-01-01':
+        value: 1684.3200000000002
+      '2014-01-01':
+        value: 1669.44
+      '2013-01-01':
+        value: 1647.84
+      '2012-01-01':
+        value: 1619.52
+      '2011-01-01':
+        value: 1592.6399999999999
+      '2010-01-01':
+        value: 1569.12
+      '2009-01-01':
+        value: 1550.3999999999999
+      '2008-01-01':
+        value: 1527.3600000000001
+      '2007-01-01':
+        value: 1503.3600000000001
+      '2006-01-01':
+        value: 1476.96
+      '2005-01-01':
+        value: 1451.04
+      '2004-01-01':
+        value: 1425.6
+      '2003-01-01':
+        value: 1404.48
+      '2002-04-06':
+        value: 1383.84
+    metadata:
+      ipp_csv_id: aer_plaf_seul
+      unit: currency-EUR
+  metadata:
+    order:
+    - personne_seule
+    - couple
   couple:
     description: Couple
     values:
@@ -119,9 +161,6 @@ plafond_ressources:
     metadata:
       ipp_csv_id: aer_plaf_couple
       unit: currency-EUR
-  metadata:
-    order:
-    - couple
 documentation: |
   Notes :
   Seules les personnes dont les droits à l'AER ont été ouverts avant le 1er janvier 2011 continuent à la percevoir jusqu'à l'expiration de leurs droits. L'AER est remplacée depuis le 1er juillet 2011 par l'allocation transitoire de solidarité (ATS).

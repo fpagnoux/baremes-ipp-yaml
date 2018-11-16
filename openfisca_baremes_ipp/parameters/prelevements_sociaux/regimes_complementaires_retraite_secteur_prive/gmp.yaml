@@ -180,6 +180,143 @@ cotisation_forfaitaire_annuelle_en_euros:
       '1989-01-01': currency-FRF
 cotisation_forfaitaire_mensuelle_en_euros:
   description: Cotisation forfaitaire mensuelle (en euros)
+  cotisation_totale:
+    description: Cotisation totale
+    values:
+      '2018-01-01':
+        value: 72.71
+      '2017-01-01':
+        value: 70.38
+      '2016-01-01':
+        value: 68.07
+      '2014-01-01':
+        value: 66.34
+      '2013-01-01':
+        value: 66.26
+      '2012-01-01':
+        value: 65.64
+      '2011-01-01':
+        value: 64.19
+      '2010-01-01':
+        value: 62.81
+      '2009-01-01':
+        value: 62.0
+      '2008-01-01':
+        value: 60.92
+      '2007-01-01':
+        value: 58.92
+      '2006-01-01':
+        value: 56.83
+      '2005-01-01':
+        value: 55.33
+      '2004-01-01':
+        value: 54.0
+      '2003-01-01':
+        value: 52.75
+      '2002-01-01':
+        value: 51.875
+      '2001-01-01':
+        value: 334.8660485
+      '2000-01-01':
+        value: 329.8749999999999
+      '1999-01-01':
+        value: 308.63
+      '1998-01-01':
+        value: 288.75
+      '1997-01-01':
+        value: 278.25
+      '1996-01-01':
+        value: 300.45
+      '1995-01-01':
+        value: 301.05
+      '1994-01-01':
+        value: 280.3833333333333
+      '1993-01-01':
+        value: 275.6083333333333
+      '1992-01-01':
+        value: 273.075
+      '1991-01-01':
+        value: 266.3416666666666
+      '1990-01-01':
+        value: 255.6666666666667
+      '1989-01-01':
+        value: 236.9166666666667
+    metadata:
+      ipp_csv_id: gmp_cot_f_m
+      unit:
+        '2002-01-01': currency-EUR
+        '1989-01-01': currency-FRF
+  metadata:
+    order:
+    - cotisation_totale
+    - part_salariale
+    - part_patronale
+  part_salariale:
+    description: Part salariale
+    values:
+      '2018-01-01':
+        value: 27.6
+      '2017-01-01':
+        value: 26.71
+      '2016-01-01':
+        value: 25.84
+      '2014-01-01':
+        value: 25.17
+      '2013-01-01':
+        value: 25.13
+      '2012-01-01':
+        value: 24.9
+      '2011-01-01':
+        value: 24.35
+      '2010-01-01':
+        value: 23.82
+      '2009-01-01':
+        value: 23.52
+      '2008-01-01':
+        value: 23.11
+      '2007-01-01':
+        value: 22.35
+      '2006-01-01':
+        value: 21.56
+      '2005-01-01':
+        value: 20.75
+      '2004-01-01':
+        value: 20.25
+      '2003-01-01':
+        value: 19.78125
+      '2002-01-01':
+        value: 19.453125
+      '2001-01-01':
+        value: 125.5747681875
+      '2000-01-01':
+        value: 123.703125
+      '1999-01-01':
+        value: 115.74
+      '1998-01-01':
+        value: 108.28125
+      '1997-01-01':
+        value: 102.025
+      '1996-01-01':
+        value: 107.3035714285714
+      '1995-01-01':
+        value: 104.2096153846154
+      '1994-01-01':
+        value: 93.46111111111111
+      '1993-01-01':
+        value: 68.90208333333332
+      '1992-01-01':
+        value: 68.26875
+      '1991-01-01':
+        value: 66.58541666666666
+      '1990-01-01':
+        value: 63.91666666666666
+      '1989-01-01':
+        value: 59.22916666666666
+    metadata:
+      ipp_csv_id: gmp_cot_f_m_s
+      unit:
+        '2002-01-01': currency-EUR
+        '1989-01-01': currency-FRF
   part_patronale:
     description: Part patronale
     values:
@@ -246,9 +383,6 @@ cotisation_forfaitaire_mensuelle_en_euros:
       unit:
         '2002-01-01': currency-EUR
         '1989-01-01': currency-FRF
-  metadata:
-    order:
-    - part_patronale
 documentation: |
   Notes :
   Les montants apparaissant en vert n'ont pas été trouvés dans les textes officiels, mais ont été recalculés à partir de la formule de la GMP (voir note ci-dessous).

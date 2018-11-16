@@ -2,6 +2,24 @@ description: Cotisations du régime local d'assurance maladie d'Alsace et Mosell
   (1967-2017)
 salaries:
   description: Salariés
+  sous_plafond:
+    description: Sous-plafond
+    values:
+      '1986-01-11':
+        value: null
+      '1967-10-01':
+        value: 0.015
+      '1947-07-01':
+        value: 0.01
+      '1946-07-01':
+        value: 0.02
+    metadata:
+      ipp_csv_id: am_s_0_1
+      unit: /1
+  metadata:
+    order:
+    - sous_plafond
+    - tout_salaire
   tout_salaire:
     description: Sur tout salaire
     values:
@@ -34,9 +52,6 @@ salaries:
     metadata:
       ipp_csv_id: am_s_0_
       unit: /1
-  metadata:
-    order:
-    - tout_salaire
 metadata:
   order:
   - salaries

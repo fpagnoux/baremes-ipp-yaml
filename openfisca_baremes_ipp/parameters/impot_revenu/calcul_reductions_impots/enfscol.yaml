@@ -24,6 +24,39 @@ metadata:
     '1992-01-01': DB 5 B-3315 - JOFR 31/12/1992
 reduction_enfants_scolarises:
   description: Réduction pour enfants scolarisés
+  college:
+    description: Collège
+    values:
+      '2001-01-01':
+        value: 61.0
+      '1992-01-01':
+        value: 400.0
+      '1991-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: reduc_enfscol1
+      unit:
+        '2001-01-01': currency-EUR
+        '1992-01-01': currency-FRF
+  metadata:
+    order:
+    - college
+    - lycee
+    - universite
+  lycee:
+    description: Lycée
+    values:
+      '2001-01-01':
+        value: 153.0
+      '1992-01-01':
+        value: 1000.0
+      '1991-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: reduc_enfscol2
+      unit:
+        '2001-01-01': currency-EUR
+        '1992-01-01': currency-FRF
   universite:
     description: Université
     values:
@@ -38,7 +71,4 @@ reduction_enfants_scolarises:
       unit:
         '2001-01-01': currency-EUR
         '1992-01-01': currency-FRF
-  metadata:
-    order:
-    - universite
 documentation: ''

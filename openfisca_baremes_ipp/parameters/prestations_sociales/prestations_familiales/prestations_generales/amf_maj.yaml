@@ -1,6 +1,20 @@
 description: 'Allocation de la mère au foyer (AMF) : majorations'
 regime_general_majoration:
   description: Régime général- Majoration
+  base:
+    description: Base
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 388.2
+    metadata:
+      ipp_csv_id: maj_gene_base
+      unit: currency-FRF
+  metadata:
+    order:
+    - base
+    - montant
   montant:
     description: Montant
     values:
@@ -11,9 +25,6 @@ regime_general_majoration:
     metadata:
       ipp_csv_id: maj_gene_montant
       unit: currency-FRF
-  metadata:
-    order:
-    - montant
 metadata:
   order:
   - regime_general_majoration
@@ -28,6 +39,20 @@ metadata:
     '1976-07-01': Remplacé par "complément familial" depuis 01/01/1978
 regime_agricole_majoration:
   description: Régime agricole - Majoration
+  base:
+    description: Base
+    values:
+      '1978-01-01':
+        value: null
+      '1976-07-01':
+        value: 388.2
+    metadata:
+      ipp_csv_id: maj_agri_base
+      unit: currency-FRF
+  metadata:
+    order:
+    - base
+    - montant
   montant:
     description: Montant
     values:
@@ -38,9 +63,6 @@ regime_agricole_majoration:
     metadata:
       ipp_csv_id: maj_agri_montant
       unit: currency-FRF
-  metadata:
-    order:
-    - montant
 documentation: |
   Notes :
    La majoration est instituée par la loi 72-8 du 3 janvier 1972, art 2

@@ -1,6 +1,21 @@
 description: Allègements Robien (1996-1998)
 reduction_temps_travail_10:
   description: Réduction du temps de travail de 10 %
+  taux_1ere_annee:
+    description: |-
+      Taux 
+      (1ère année)
+    values:
+      '1998-06-30':
+        value: null
+      '1996-07-01':
+        value: 0.4
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - taux_1ere_annee
+    - taux_6_annees_suivantes
   taux_6_annees_suivantes:
     description: |-
       Taux 
@@ -12,9 +27,6 @@ reduction_temps_travail_10:
         value: 0.3
     metadata:
       unit: /1
-  metadata:
-    order:
-    - taux_6_annees_suivantes
 metadata:
   order:
   - reduction_temps_travail_10
@@ -30,6 +42,21 @@ metadata:
     '1996-07-01': Voir Notes (1)
 reduction_temps_travail_15:
   description: Réduction du temps de travail de 15 %
+  taux_1ere_annee:
+    description: |-
+      Taux 
+      (1ère année)
+    values:
+      '1998-06-30':
+        value: null
+      '1996-07-01':
+        value: 0.5
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - taux_1ere_annee
+    - taux_6_annees_suivantes
   taux_6_annees_suivantes:
     description: |-
       Taux 
@@ -41,9 +68,6 @@ reduction_temps_travail_15:
         value: 0.4
     metadata:
       unit: /1
-  metadata:
-    order:
-    - taux_6_annees_suivantes
 documentation: |
   Notes :
   (1) Les taux indiqués sont des taux de réduction du montant des cotisations patronales, pour l'ensemble des salariés de  l'entreprise.

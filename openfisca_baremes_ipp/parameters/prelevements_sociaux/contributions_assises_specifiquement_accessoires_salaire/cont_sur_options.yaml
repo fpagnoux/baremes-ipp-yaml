@@ -1,6 +1,47 @@
 description: Contributions sur options et actions attribuées gratuitement
 employeur:
   description: Employeur
+  taux_plein:
+    description: Taux plein
+    values:
+      '2015-08-08':
+        value: null
+      '2012-07-11':
+        value: 0.3
+      '2011-01-01':
+        value: 0.14
+      '2007-10-16':
+        value: 0.1
+    metadata:
+      ipp_csv_id: cont_opt_p_tx1
+      unit: /1
+  metadata:
+    order:
+    - taux_plein
+    - taux_reduit
+    - taux_stock_options
+    - taux_attributions_gratuites_options
+  taux_reduit:
+    description: Taux réduit
+    values:
+      '2012-07-11':
+        value: null
+      '2011-01-01':
+        value: 0.1
+      '2007-10-16':
+        value: null
+    metadata:
+      ipp_csv_id: cont_opt_p_tx2
+      unit: /1
+  taux_stock_options:
+    description: Taux stock-options
+    values:
+      '2015-08-08':
+        value: 0.3
+      '2007-10-16':
+        value: null
+    metadata:
+      unit: /1
   taux_attributions_gratuites_options:
     description: Taux attributions gratuites d'options
     values:
@@ -14,9 +55,6 @@ employeur:
         value: null
     metadata:
       unit: /1
-  metadata:
-    order:
-    - taux_attributions_gratuites_options
 metadata:
   order:
   - employeur
@@ -43,6 +81,22 @@ metadata:
       d'options acquises postérieurement à la loi dite "loi Macron"
 salarie:
   description: Salarié
+  taux_plein:
+    description: Taux plein
+    values:
+      '2012-07-11':
+        value: 0.1
+      '2011-01-01':
+        value: 0.08
+      '2007-10-16':
+        value: 0.025
+    metadata:
+      ipp_csv_id: cont_opt_s_tx1
+      unit: /1
+  metadata:
+    order:
+    - taux_plein
+    - taux_reduit
   taux_reduit:
     description: Taux réduit
     values:
@@ -55,9 +109,6 @@ salarie:
     metadata:
       ipp_csv_id: cont_opt_s_tx2
       unit: /1
-  metadata:
-    order:
-    - taux_reduit
 documentation: |
   Principe de la contribution sur les actions gratuites et stock-options :
   L'attribution d'actions gratuites et de stock-options donne lieu à prélèvement de CSG et de CRDS, mais est exonérée de cotisations sociales (du moment que les périodes d'indisponibilité fiscale des fonds sont respectées)

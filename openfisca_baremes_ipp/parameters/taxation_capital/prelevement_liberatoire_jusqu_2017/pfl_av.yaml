@@ -2,6 +2,151 @@ description: Prélèvement libératoire sur les assurances vie
 bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat:
   description: Bons ou contrats de capitalisation et placements de même nature (assurance-vie)
     lors du dénouement du contrat
+  souscrits_entre_1_1_83_31_12_89_une_duree:
+    description: Souscrits entre le 1/1/83 et le 31/12/89 pour une durée de
+    moins_2_ans_2:
+      description: |-
+        moins de 2 ans 
+        (2)
+      values:
+        '1998-01-01':
+          value: null
+        '1983-01-01':
+          value: 0.45
+      metadata:
+        ipp_csv_id: tx_pl_av_2
+        unit: /1
+    metadata:
+      order:
+      - moins_2_ans_2
+      - 2_4_ans_3
+      - 4_6_ans_4
+      - 6_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date
+      - 6_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5
+    2_4_ans_3:
+      description: |-
+        2 à 4 ans 
+        (3)
+      values:
+        '1998-01-01':
+          value: null
+        '1983-01-01':
+          value: 0.25
+      metadata:
+        ipp_csv_id: tx_pl_av_24
+        unit: /1
+    4_6_ans_4:
+      description: |-
+        4 à 6 ans
+        (4)
+      values:
+        '1998-01-01':
+          value: null
+        '1983-01-01':
+          value: 0.15
+      metadata:
+        ipp_csv_id: tx_pl_av_46
+        unit: /1
+    6_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date:
+      description: 6 ans et plus (pour les primes versées avant le 01/01/1998 et les
+        produits afférents acquis après cette date)
+      values:
+        '2018-01-01':
+          value: null
+        '1983-01-01':
+          value: 0.0
+      metadata:
+        ipp_csv_id: tx_pl_av_6a
+        unit: /1
+    6_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5:
+      description: 6 ans et plus (pour les produits acquis après le 01/01/1998) avec
+        abattement sur l'IR (5)
+      values:
+        '2018-01-01':
+          value: null
+        '1998-01-01':
+          value: 0.075
+        '1983-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: tx_pl_av_6b
+        unit: /1
+  metadata:
+    order:
+    - souscrits_entre_1_1_83_31_12_89_une_duree
+    - souscrits_apres_1_1_90_une_duree
+    - avec_anonymat
+    - produits_beneficiant_personnes_etablies_dans_etat_non_cooperatif_6
+  souscrits_apres_1_1_90_une_duree:
+    description: Souscrits après le 1/1/90 et le  pour une durée de
+    moins_4_ans:
+      description: moins de 4 ans
+      values:
+        '2018-01-01':
+          value: null
+        '1990-01-01':
+          value: 0.35
+        '1983-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: tx_pl_av_4
+        unit: /1
+    metadata:
+      order:
+      - moins_4_ans
+      - 4_8_ans
+      - 8_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date
+      - 8_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5
+    4_8_ans:
+      description: 4 à 8 ans
+      values:
+        '2018-01-01':
+          value: null
+        '1990-01-01':
+          value: 0.15
+        '1983-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: tx_pl_av_48
+        unit: /1
+    8_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date:
+      description: 8 ans et plus (pour les primes versées avant le 01/01/1998 et les
+        produits afférents acquis après cette date)
+      values:
+        '2018-01-01':
+          value: null
+        '1990-01-01':
+          value: 0.0
+        '1983-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: tx_pl_av_8
+        unit: /1
+    8_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5:
+      description: 8 ans et plus (pour les produits acquis après le 01/01/1998) avec
+        abattement sur l'IR (5)
+      values:
+        '2018-01-01':
+          value: null
+        '1998-01-01':
+          value: 0.075
+        '1983-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: tx_pl_av
+        unit: /1
+  avec_anonymat:
+    description: Avec anonymat
+    values:
+      '2018-01-01':
+        value: null
+      '1999-04-01':
+        value: 0.6
+      '1983-01-01':
+        value: 0.5
+    metadata:
+      ipp_csv_id: tx_pl_av_anonym
+      unit: /1
   produits_beneficiant_personnes_etablies_dans_etat_non_cooperatif_6:
     description: Produits bénéficiant à des personnes établies dans un Etat "non-coopératif"
       (6)
@@ -16,9 +161,6 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         value: null
     metadata:
       unit: /1
-  metadata:
-    order:
-    - produits_beneficiant_personnes_etablies_dans_etat_non_cooperatif_6
 metadata:
   order:
   - bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat

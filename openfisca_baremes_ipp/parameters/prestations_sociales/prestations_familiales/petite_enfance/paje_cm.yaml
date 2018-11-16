@@ -41,14 +41,28 @@ duree_versement_enfants_adoptes_en_annee:
 periode_reference_justifier_8_trimestres_cotisation_vieillesse_1:
   description: Période de référence pour justifier les 8 trimestres de cotisation
     vieillesse (1)
+  enfant:
+    description: Un enfant
+    values:
+      '2004-01-01':
+        value: 2.0
+    metadata:
+      ipp_csv_id: colca_tx_plein
+  metadata:
+    order:
+    - enfant
+    - deux_enfants
+    - trois_enfants_plus
+  deux_enfants:
+    description: Deux enfants
+    values:
+      '2004-01-01':
+        value: 4.0
   trois_enfants_plus:
     description: Trois enfants ou plus
     values:
       '2004-01-01':
         value: 5.0
-  metadata:
-    order:
-    - trois_enfants_plus
 paje:
   description: PAJE
   allocation_base_en_bmaf:

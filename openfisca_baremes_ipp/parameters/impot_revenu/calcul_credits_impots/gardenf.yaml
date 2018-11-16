@@ -57,6 +57,24 @@ metadata:
       d'une longue maladie ou d'une infirmité à partir de 1982.
 credit_impot_frais_garde_enfants:
   description: Crédit d'impôt pour frais de garde d'enfants
+  taux:
+    description: Taux
+    values:
+      '2006-01-01':
+        value: 0.5
+      '1988-01-01':
+        value: 0.25
+      '1978-01-01':
+        value: 0.0
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txgardenf
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -83,9 +101,6 @@ credit_impot_frais_garde_enfants:
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond
 documentation: |
   Notes :
   (1) Frais de garde des enfants à l'extérieur du domicile. 

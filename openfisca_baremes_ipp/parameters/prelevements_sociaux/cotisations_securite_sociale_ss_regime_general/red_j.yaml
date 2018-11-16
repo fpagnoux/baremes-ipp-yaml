@@ -1,8 +1,103 @@
 description: Cotisations SS des journalistes pigistes (1964-1974)
 assurance_maladie:
   description: Assurance maladie
+  totalite_remuneration:
+    description: Totalité rémunération
+    employeur:
+      description: Employeur
+      values:
+        '1967-10-01':
+          value: 0.016
+        '1964-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: mmid_j_p_0_
+        unit: /1
+    metadata:
+      order:
+      - employeur
+      - employe
+    employe:
+      description: Employé
+      values:
+        '1967-10-01':
+          value: 0.008
+        '1964-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: mmid_j_s_0_
+        unit: /1
+  metadata:
+    order:
+    - totalite_remuneration
+    - sous_pss
   sous_pss:
     description: Sous PSS
+    employe_hors_am:
+      description: Employé (hors AM)
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.02
+          '1967-10-01':
+            value: 0.018
+          '1964-01-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_j_i65_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.012
+          '1967-10-01':
+            value: 0.018
+          '1964-01-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_j_s65_s_0_1
+          unit: /1
+    metadata:
+      order:
+      - employe_hors_am
+      - employe_am
+      - employeur
+    employe_am:
+      description: Employé AM
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.032
+          '1967-10-01':
+            value: 0.022
+          '1964-01-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_j_am_i65_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.024
+          '1967-10-01':
+            value: 0.022
+          '1964-01-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_j_am_s65_s_0_1
+          unit: /1
     employeur:
       description: Employeur
       values:
@@ -17,12 +112,6 @@ assurance_maladie:
       metadata:
         ipp_csv_id: mmid_j_p_0_1
         unit: /1
-    metadata:
-      order:
-      - employeur
-  metadata:
-    order:
-    - sous_pss
 metadata:
   order:
   - assurance_maladie
@@ -54,6 +143,24 @@ assurance_vieillesse:
   description: Assurance vieillesse
   sous_pss:
     description: Sous PSS
+    employeurs:
+      description: Employeurs
+      values:
+        '1974-01-01':
+          value: 0.058
+        '1971-01-01':
+          value: 0.046
+        '1967-10-01':
+          value: 0.044
+        '1964-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: ret_j_p_0_1
+        unit: /1
+    metadata:
+      order:
+      - employeurs
+      - employes
     employes:
       description: Employés
       values:
@@ -64,16 +171,71 @@ assurance_vieillesse:
       metadata:
         ipp_csv_id: ret_j_s_0_1
         unit: /1
-    metadata:
-      order:
-      - employes
   metadata:
     order:
     - sous_pss
 accidents_travail_sous_pss:
   description: 'Accidents travail: Sous PSS'
+  employeurs_am:
+    description: Employeurs AM
+    presse_quotidienne:
+      description: presse quotidienne
+      values:
+        '1974-01-01':
+          value: 0.0208
+        '1973-03-01':
+          value: 0.0192
+        '1964-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: acc_pq_am_p_0_1
+        unit: /1
+    metadata:
+      order:
+      - presse_quotidienne
+      - presse_periodique
+    presse_periodique:
+      description: presse périodique
+      values:
+        '1974-01-01':
+          value: 0.0144
+        '1973-03-01':
+          value: 0.0176
+        '1964-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: acc_pp_am_p_0_1
+        unit: /1
+  metadata:
+    order:
+    - employeurs_am
+    - employeurs_france_hors_am
+    - employeurs_am
+    - employeurs_france_hors_am
   employeurs_france_hors_am:
     description: Employeurs France hors AM
+    presse_quotidienne:
+      description: presse quotidienne
+      values:
+        '1974-01-01':
+          value: 0.0248
+        '1973-03-01':
+          value: 0.024
+        '1970-01-01':
+          value: 0.0256
+        '1969-01-01':
+          value: 0.024
+        '1966-10-01':
+          value: 0.0225
+        '1964-01-01':
+          value: 0.017
+      metadata:
+        ipp_csv_id: acc_pq_p_0_1
+        unit: /1
+    metadata:
+      order:
+      - presse_quotidienne
+      - presse_periodique
     presse_periodique:
       description: presse périodique
       values:
@@ -90,12 +252,6 @@ accidents_travail_sous_pss:
       metadata:
         ipp_csv_id: acc_pp_p_0_1
         unit: /1
-    metadata:
-      order:
-      - presse_periodique
-  metadata:
-    order:
-    - employeurs_france_hors_am
 allocations_familiales:
   description: Allocations familiales
   sous_pss:
@@ -124,6 +280,63 @@ assurances_sociales_avant_1967:
   description: Assurances sociales (avant 1967)
   sous_pss:
     description: Sous PSS
+    employe_hors_am:
+      description: Employé (hors AM)
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1964-01-01':
+            value: 0.016
+        metadata:
+          ipp_csv_id: css_j_i65_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1964-01-01':
+            value: 0.048
+        metadata:
+          ipp_csv_id: css_j_s65_s_0_1
+          unit: /1
+    metadata:
+      order:
+      - employe_hors_am
+      - employe_am
+      - employeur
+    employe_am:
+      description: Employé AM
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1964-01-01':
+            value: 0.056
+        metadata:
+          ipp_csv_id: css_j_am_i65_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1964-01-01':
+            value: 0.024
+        metadata:
+          ipp_csv_id: css_j_am_s65_s_0_1
+          unit: /1
     employeur:
       description: Employeur
       values:
@@ -136,9 +349,6 @@ assurances_sociales_avant_1967:
       metadata:
         ipp_csv_id: css_j_p_0_1
         unit: /1
-    metadata:
-      order:
-      - employeur
   metadata:
     order:
     - sous_pss

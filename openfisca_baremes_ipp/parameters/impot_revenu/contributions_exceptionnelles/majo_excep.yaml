@@ -111,6 +111,173 @@ metadata:
       les contribuables dont le revenu est supérieur de 50 000 FRF au seuil d'imposition.
 majorations_exceptionnelles_impot:
   description: Majorations exceptionnelles d'impôt
+  taux_1:
+    description: Taux 1
+    values:
+      '1985-01-01':
+        value: null
+      '1984-01-01':
+        value: 0.03
+      '1983-01-01':
+        value: 0.05
+      '1982-01-01':
+        value: 0.07
+      '1981-01-01':
+        value: 0.1
+      '1980-01-01':
+        value: 0.25
+      '1972-01-01':
+        value: null
+      '1970-01-01':
+        value: 0.01
+      '1968-01-01':
+        value: 0.02
+      '1967-01-01':
+        value: 0.1
+      '1966-01-01':
+        value: null
+      '1961-01-01':
+        value: 0.05
+      '1955-01-01':
+        value: 0.1
+      '1948-01-01':
+        value: null
+      '1947-01-01':
+        value: 0.2
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: taux1_majo
+      unit: /1
+  metadata:
+    order:
+    - taux_1
+    - taux_2
+    - taux_3_superieur
+    - seuil_revenu
+    - seuil_1
+    - seuil_2
+    - seuil_3_superieur
+  taux_2:
+    description: Taux 2
+    values:
+      '1984-01-01':
+        value: null
+      '1983-01-01':
+        value: 0.08
+      '1972-01-01':
+        value: null
+      '1970-01-01':
+        value: 0.02
+      '1969-01-01':
+        value: 0.07
+      '1968-01-01':
+        value: 0.14
+      '1967-01-01':
+        value: 0.2
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: taux2_majo
+      unit: /1
+  taux_3_superieur:
+    description: Taux 3 (supérieur)
+    values:
+      '1971-01-01':
+        value: null
+      '1970-01-01':
+        value: 0.03
+      '1969-01-01':
+        value: 0.075
+      '1968-01-01':
+        value: 0.15
+      '1967-01-01':
+        value: 0.25
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: taux3_majo
+      unit: /1
+  seuil_revenu:
+    description: Seuil revenu
+    values:
+      '1966-01-01':
+        value: null
+      '1965-01-01':
+        value: 50000.0
+      '1964-01-01':
+        value: 45000.0
+      '1963-01-01':
+        value: 36000.0
+      '1962-01-01':
+        value: 8000.0
+      '1960-01-01':
+        value: 6000.0
+      '1955-01-01':
+        value: 600000.0
+      '1948-01-01':
+        value: null
+      '1947-01-01':
+        value: 50000.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_rev_majo
+      unit: currency-FRF
+  seuil_1:
+    description: Seuil 1
+    values:
+      '1985-01-01':
+        value: null
+      '1984-01-01':
+        value: 32080.0
+      '1983-01-01':
+        value: 20000.0
+      '1982-01-01':
+        value: 28000.0
+      '1981-01-01':
+        value: 15000.0
+      '1980-01-01':
+        value: 100000.0
+      '1972-01-01':
+        value: null
+      '1971-01-01':
+        value: 15000.0
+      '1970-01-01':
+        value: 10000.0
+      '1969-01-01':
+        value: 7000.0
+      '1968-01-01':
+        value: 6000.0
+      '1967-01-01':
+        value: 5000.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil1_majo
+      unit: currency-FRF
+  seuil_2:
+    description: Seuil 2
+    values:
+      '1984-01-01':
+        value: null
+      '1983-01-01':
+        value: 30000.0
+      '1972-01-01':
+        value: null
+      '1971-01-01':
+        value: 20000.0
+      '1970-01-01':
+        value: 15000.0
+      '1968-01-01':
+        value: 12000.0
+      '1967-01-01':
+        value: 10000.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil2_majo
+      unit: currency-FRF
   seuil_3_superieur:
     description: Seuil 3 (supérieur)
     values:
@@ -127,9 +294,6 @@ majorations_exceptionnelles_impot:
     metadata:
       ipp_csv_id: seuil3_majo
       unit: currency-FRF
-  metadata:
-    order:
-    - seuil_3_superieur
 documentation: |
   Notes :
   > Voir tableau 4-6 dans Thomas Piketty, Les hauts revenus en France au XXe siècle (Grasset, 2001)

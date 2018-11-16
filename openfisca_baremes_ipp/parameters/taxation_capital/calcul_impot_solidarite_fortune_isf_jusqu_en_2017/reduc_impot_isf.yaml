@@ -1,6 +1,22 @@
 description: Réductions pour dons ou investissement
 reduction_investissements_capital_pme:
   description: Réduction pour investissements au capital de PME
+  plafond_investissement_dans_pme:
+    description: Plafond pour investissement dans les PME
+    values:
+      '2018-01-01':
+        value: null
+      '2011-01-01':
+        value: 45000.0
+      '2008-01-01':
+        value: 50000.0
+    metadata:
+      ipp_csv_id: plaf_taux_imp_isf
+      unit: currency-EUR
+  metadata:
+    order:
+    - plafond_investissement_dans_pme
+    - taux_investissement_direct_soc_holdings_fip_fcpi
   taux_investissement_direct_soc_holdings_fip_fcpi:
     description: Taux pour investissement direct soc, holdings, fip, fcpi
     values:
@@ -11,9 +27,6 @@ reduction_investissements_capital_pme:
     metadata:
       ipp_csv_id: plaf_plaf
       unit: /1
-  metadata:
-    order:
-    - taux_investissement_direct_soc_holdings_fip_fcpi
 metadata:
   order:
   - reduction_investissements_capital_pme
@@ -44,6 +57,21 @@ metadata:
       est réduite aux seuls biens immobiliers.
 reduction_investissements_dans_fcpi_1_fip_2_dans_pme:
   description: Réduction pour investissements dans FCPI (1) ou FIP (2) dans les PME
+  plafond:
+    description: Plafond
+    values:
+      '2018-01-01':
+        value: null
+      '2011-01-01':
+        value: 18000.0
+      '2008-01-01':
+        value: 20000.0
+    metadata:
+      unit: currency-EUR
+  metadata:
+    order:
+    - plafond
+    - taux_investissement
   taux_investissement:
     description: Taux pour investissement
     values:
@@ -53,9 +81,6 @@ reduction_investissements_dans_fcpi_1_fip_2_dans_pme:
         value: 0.5
     metadata:
       unit: /1
-  metadata:
-    order:
-    - taux_investissement
 plafond_somme_reduction_pme_fcip_fip_pme:
   description: Plafond pour la somme de la réduction pour PME et pour les FCIP et
     FIP des PME
@@ -70,6 +95,19 @@ plafond_somme_reduction_pme_fcip_fip_pme:
     unit: currency-EUR
 reduction_dons_certains_organismes_interet_general:
   description: Réduction pour dons à certains organismes d'intérêt général
+  taux_dons_certains_organismes_interet_general:
+    description: Taux pour dons à certains organismes d'intérêt général
+    values:
+      '2018-01-01':
+        value: null
+      '2008-01-01':
+        value: 0.75
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - taux_dons_certains_organismes_interet_general
+    - limite_reduction_isf_lie_aux_dons_realises
   limite_reduction_isf_lie_aux_dons_realises:
     description: Limite réduction de l'ISF lié aux dons réalisés
     values:
@@ -79,9 +117,6 @@ reduction_dons_certains_organismes_interet_general:
         value: 50000.0
     metadata:
       unit: currency-EUR
-  metadata:
-    order:
-    - limite_reduction_isf_lie_aux_dons_realises
 plafond_somme_trois_reductions_pme_fcip_fip_pme_dons:
   description: Plafond pour la somme des trois réductions (PME, FCIP/FIP sur PME et
     dons)

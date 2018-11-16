@@ -1,6 +1,132 @@
 description: Paramètres de calcul dans le secteur locatif (après la réforme)
 plafond_loyers_zone_1:
   description: Plafond de loyers - Zone 1
+  personnes_seules:
+    description: Personnes seules
+    values:
+      '2017-10-01':
+        value: 295.05
+      '2015-10-01':
+        value: 292.85
+      '2014-10-01':
+        value: 292.62
+      '2013-01-01':
+        value: 290.96
+      '2012-01-01':
+        value: 284.84
+      '2011-01-01':
+        value: 282.02
+      '2010-01-01':
+        value: 278.95
+      '2009-01-01':
+        value: 278.06
+      '2008-01-01':
+        value: 270.09
+      '2007-01-01':
+        value: 262.84
+      '2005-09-01':
+        value: 255.68
+      '2003-07-01':
+        value: 251.16
+      '2002-07-01':
+        value: 248.18
+      '2002-01-01':
+        value: 243.31
+      '2001-07-01':
+        value: 1596.0
+      '2001-01-01':
+        value: 1577.0
+    metadata:
+      ipp_csv_id: plaf_loy_isol_z1
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
+  metadata:
+    order:
+    - personnes_seules
+    - couples
+    - personnes_seules_couples_avec_1_enfant
+    - majoration_par_enfant_supplementaire
+  couples:
+    description: Couples
+    values:
+      '2017-10-01':
+        value: 355.85
+      '2015-10-01':
+        value: 353.2
+      '2014-10-01':
+        value: 352.92
+      '2013-01-01':
+        value: 350.92
+      '2012-01-01':
+        value: 343.53
+      '2011-01-01':
+        value: 340.13
+      '2010-01-01':
+        value: 336.43
+      '2009-01-01':
+        value: 335.36
+      '2008-01-01':
+        value: 325.75
+      '2007-01-01':
+        value: 317.0
+      '2005-09-01':
+        value: 308.37
+      '2003-07-01':
+        value: 302.92
+      '2002-07-01':
+        value: 299.33
+      '2002-01-01':
+        value: 293.46
+      '2001-07-01':
+        value: 1925.0
+      '2001-01-01':
+        value: 1902.0
+    metadata:
+      ipp_csv_id: plaf_loy_coup_z1
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
+  personnes_seules_couples_avec_1_enfant:
+    description: Personnes seules ou couples avec 1 enfant
+    values:
+      '2017-10-01':
+        value: 402.18
+      '2015-10-01':
+        value: 399.19
+      '2014-10-01':
+        value: 398.87
+      '2013-01-01':
+        value: 396.61
+      '2012-01-01':
+        value: 388.26
+      '2011-01-01':
+        value: 384.42
+      '2010-01-01':
+        value: 380.24
+      '2009-01-01':
+        value: 379.03
+      '2008-01-01':
+        value: 368.17
+      '2007-01-01':
+        value: 358.28
+      '2005-09-01':
+        value: 348.52
+      '2003-07-01':
+        value: 342.36
+      '2002-07-01':
+        value: 334.01
+      '2002-01-01':
+        value: 330.05
+      '2001-07-01':
+        value: 2165.0
+      '2001-01-01':
+        value: 2139.0
+    metadata:
+      ipp_csv_id: plaf_loy_enf1_z1
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
   majoration_par_enfant_supplementaire:
     description: Majoration par enfant supplémentaire
     values:
@@ -41,9 +167,6 @@ plafond_loyers_zone_1:
       unit:
         '2002-01-01': currency-EUR
         '2001-01-01': currency-FRF
-  metadata:
-    order:
-    - majoration_par_enfant_supplementaire
 metadata:
   order:
   - plafond_loyers_zone_1
@@ -157,6 +280,132 @@ metadata:
       minimale)
 plafond_loyers_zone_2:
   description: Plafond de loyers - Zone 2
+  personnes_seules:
+    description: Personnes seules
+    values:
+      '2017-10-01':
+        value: 257.14
+      '2015-10-01':
+        value: 255.23
+      '2014-10-01':
+        value: 255.03
+      '2013-01-01':
+        value: 253.58
+      '2012-01-01':
+        value: 248.24
+      '2011-01-01':
+        value: 245.78
+      '2010-01-01':
+        value: 243.11
+      '2009-01-01':
+        value: 242.33
+      '2008-01-01':
+        value: 235.39
+      '2007-01-01':
+        value: 229.07
+      '2005-09-01':
+        value: 222.83
+      '2003-07-01':
+        value: 218.89
+      '2002-07-01':
+        value: 216.29
+      '2002-01-01':
+        value: 213.73
+      '2001-07-01':
+        value: 1402.0
+      '2001-01-01':
+        value: 1385.0
+    metadata:
+      ipp_csv_id: plaf_loy_isol_z2
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
+  metadata:
+    order:
+    - personnes_seules
+    - couples
+    - personnes_seules_couples_avec_1_enfant
+    - majoration_par_enfant_supplementaire
+  couples:
+    description: Couples
+    values:
+      '2017-10-01':
+        value: 314.74
+      '2015-10-01':
+        value: 312.4
+      '2014-10-01':
+        value: 312.15
+      '2013-01-01':
+        value: 310.38
+      '2012-01-01':
+        value: 303.85
+      '2011-01-01':
+        value: 300.84
+      '2010-01-01':
+        value: 297.57
+      '2009-01-01':
+        value: 296.62
+      '2008-01-01':
+        value: 288.12
+      '2007-01-01':
+        value: 280.38
+      '2005-09-01':
+        value: 272.74
+      '2003-07-01':
+        value: 267.92
+      '2002-07-01':
+        value: 264.74
+      '2002-01-01':
+        value: 261.6
+      '2001-07-01':
+        value: 1716.0
+      '2001-01-01':
+        value: 1696.0
+    metadata:
+      ipp_csv_id: plaf_loy_coup_z2
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
+  personnes_seules_couples_avec_1_enfant:
+    description: Personnes seules ou couples avec 1 enfant
+    values:
+      '2017-10-01':
+        value: 354.17
+      '2015-10-01':
+        value: 351.53
+      '2014-10-01':
+        value: 351.25
+      '2013-01-01':
+        value: 349.26
+      '2012-01-01':
+        value: 341.91
+      '2011-01-01':
+        value: 338.52
+      '2010-01-01':
+        value: 334.84
+      '2009-01-01':
+        value: 333.77
+      '2008-01-01':
+        value: 324.21
+      '2007-01-01':
+        value: 315.5
+      '2005-09-01':
+        value: 306.91
+      '2003-07-01':
+        value: 301.48
+      '2002-07-01':
+        value: 297.91
+      '2002-01-01':
+        value: 294.38
+      '2001-07-01':
+        value: 1931.0
+      '2001-01-01':
+        value: 1908.0
+    metadata:
+      ipp_csv_id: plaf_loy_enf1_z2
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
   majoration_par_enfant_supplementaire:
     description: Majoration par enfant supplémentaire
     values:
@@ -197,11 +446,134 @@ plafond_loyers_zone_2:
       unit:
         '2002-01-01': currency-EUR
         '2001-01-01': currency-FRF
-  metadata:
-    order:
-    - majoration_par_enfant_supplementaire
 plafond_loyers_zone_3:
   description: Plafond de loyers - Zone 3
+  personnes_seules:
+    description: Personnes seules
+    values:
+      '2017-10-01':
+        value: 241.0
+      '2015-10-01':
+        value: 239.21
+      '2014-10-01':
+        value: 239.02
+      '2013-01-01':
+        value: 237.67
+      '2012-01-01':
+        value: 232.67
+      '2011-01-01':
+        value: 230.37
+      '2010-01-01':
+        value: 227.86
+      '2009-01-01':
+        value: 227.13
+      '2008-01-01':
+        value: 220.62
+      '2007-01-01':
+        value: 214.69
+      '2005-09-01':
+        value: 208.84
+      '2003-07-01':
+        value: 205.15
+      '2002-07-01':
+        value: 202.72
+      '2002-01-01':
+        value: 200.32
+      '2001-07-01':
+        value: 1314.0
+      '2001-01-01':
+        value: 1298.0
+    metadata:
+      ipp_csv_id: plaf_loy_isol_z3
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
+  metadata:
+    order:
+    - personnes_seules
+    - couples
+    - personnes_seules_couples_avec_1_enfant
+    - majoration_par_enfant_supplementaire
+  couples:
+    description: Couples
+    values:
+      '2017-10-01':
+        value: 292.16
+      '2015-10-01':
+        value: 289.99
+      '2014-10-01':
+        value: 289.76
+      '2013-01-01':
+        value: 288.12
+      '2012-01-01':
+        value: 282.06
+      '2011-01-01':
+        value: 279.27
+      '2010-01-01':
+        value: 276.23
+      '2009-01-01':
+        value: 275.35
+      '2008-01-01':
+        value: 267.46
+      '2007-01-01':
+        value: 260.28
+      '2005-09-01':
+        value: 253.19
+      '2003-07-01':
+        value: 248.71
+      '2002-07-01':
+        value: 245.76
+      '2002-01-01':
+        value: 242.85
+      '2001-07-01':
+        value: 1593.0
+      '2001-01-01':
+        value: 1574.0
+    metadata:
+      ipp_csv_id: plaf_loy_coup_z3
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
+  personnes_seules_couples_avec_1_enfant:
+    description: Personnes seules ou couples avec 1 enfant
+    values:
+      '2017-10-01':
+        value: 327.59
+      '2015-10-01':
+        value: 325.15
+      '2014-10-01':
+        value: 324.89
+      '2013-01-01':
+        value: 323.05
+      '2012-01-01':
+        value: 316.25
+      '2011-01-01':
+        value: 313.12
+      '2010-01-01':
+        value: 309.71
+      '2009-01-01':
+        value: 308.72
+      '2008-01-01':
+        value: 299.87
+      '2007-01-01':
+        value: 291.82
+      '2005-09-01':
+        value: 283.87
+      '2003-07-01':
+        value: 278.85
+      '2002-07-01':
+        value: 275.54
+      '2002-01-01':
+        value: 272.27
+      '2001-07-01':
+        value: 1786.0
+      '2001-01-01':
+        value: 1765.0
+    metadata:
+      ipp_csv_id: plaf_loy_enf1_z3
+      unit:
+        '2002-01-01': currency-EUR
+        '2001-01-01': currency-FRF
   majoration_par_enfant_supplementaire:
     description: Majoration par enfant supplémentaire
     values:
@@ -242,9 +614,6 @@ plafond_loyers_zone_3:
       unit:
         '2002-01-01': currency-EUR
         '2001-01-01': currency-FRF
-  metadata:
-    order:
-    - majoration_par_enfant_supplementaire
 montant_forfaitaire_participation_minimale_po:
   description: Montant forfaitaire de la participation minimale (Po)
   values:
@@ -291,6 +660,87 @@ montant_proportionnel_participation_minimale_po:
     unit: /1
 tf:
   description: TF
+  personnes_isolees:
+    description: Personnes isolées
+    values:
+      '2007-07-01':
+        value: 0.0283
+      '2002-01-01':
+        value: 0.0354
+      '2001-01-01':
+        value: 0.0308
+    metadata:
+      ipp_csv_id: tf_isol
+      unit: /1
+  metadata:
+    order:
+    - personnes_isolees
+    - couples_sans_enfant
+    - personnes_seules_couples_avec_1_enfant
+    - personnes_seules_couples_avec_2_enfants
+    - personnes_seules_couples_avec_3_enfants
+    - personnes_seules_couples_avec_4_enfants
+    - variation_tf_par_enfant_supplementaire
+  couples_sans_enfant:
+    description: Couples sans enfant
+    values:
+      '2007-07-01':
+        value: 0.0315
+      '2002-01-01':
+        value: 0.0394
+      '2001-01-01':
+        value: 0.0331
+    metadata:
+      ipp_csv_id: tf_coup
+      unit: /1
+  personnes_seules_couples_avec_1_enfant:
+    description: Personnes seules et couples avec 1 enfant
+    values:
+      '2007-07-01':
+        value: 0.027
+      '2002-01-01':
+        value: 0.0338
+      '2001-01-01':
+        value: 0.0278
+    metadata:
+      ipp_csv_id: tf_enf1
+      unit: /1
+  personnes_seules_couples_avec_2_enfants:
+    description: Personnes seules et couples avec 2 enfants
+    values:
+      '2007-07-01':
+        value: 0.0238
+      '2002-01-01':
+        value: 0.0297
+      '2001-01-01':
+        value: 0.0257
+    metadata:
+      ipp_csv_id: tf_enf2
+      unit: /1
+  personnes_seules_couples_avec_3_enfants:
+    description: Personnes seules et couples avec 3 enfants
+    values:
+      '2007-07-01':
+        value: 0.0201
+      '2002-01-01':
+        value: 0.0251
+      '2001-01-01':
+        value: 0.0228
+    metadata:
+      ipp_csv_id: tf_enf3
+      unit: /1
+  personnes_seules_couples_avec_4_enfants:
+    description: Personnes seules et couples avec 4 enfants
+    values:
+      '2007-07-01':
+        value: 0.0185
+      '2002-01-01':
+        value: 0.0231
+      '2001-01-01':
+        value: 0.0217
+    metadata:
+      ipp_csv_id: tf_enf4
+      unit: /1
   variation_tf_par_enfant_supplementaire:
     description: Variation de TF par enfant supplémentaire
     values:
@@ -303,11 +753,81 @@ tf:
     metadata:
       ipp_csv_id: tf_enfsupp
       unit: /1
-  metadata:
-    order:
-    - variation_tf_par_enfant_supplementaire
 tl:
   description: TL
+  tl_1ere_tranche:
+    description: TL pour la 1ère tranche
+    values:
+      '2001-01-01':
+        value: 0.0
+    metadata:
+      ipp_csv_id: tl_0
+      unit: /1
+  metadata:
+    order:
+    - tl_1ere_tranche
+    - tl_2eme_tranche
+    - tl_3eme_tranche
+    - debut_2eme_tranche_calcul_tl_fin_1ere_tranche
+    - debut_3eme_tranche_calcul_tl
+    - minorant_1e_tranche
+    - minorant_2e_tranche
+    - minorant_3e_tranche
+  tl_2eme_tranche:
+    description: TL pour la 2ème tranche
+    values:
+      '2007-07-01':
+        value: 0.0045
+      '2001-01-01':
+        value: 0.0056
+    metadata:
+      ipp_csv_id: tl_1
+      unit: /1
+  tl_3eme_tranche:
+    description: TL pour la 3ème tranche
+    values:
+      '2007-07-01':
+        value: 0.0068
+      '2001-01-01':
+        value: 0.0085
+    metadata:
+      ipp_csv_id: tl_2
+      unit: /1
+  debut_2eme_tranche_calcul_tl_fin_1ere_tranche:
+    description: Début de la 2ème tranche pour le calcul de TL (et fin de la 1ère
+      tranche)
+    values:
+      '2001-01-01':
+        value: 0.45
+    metadata:
+      ipp_csv_id: tl_tr1
+      unit: /1
+  debut_3eme_tranche_calcul_tl:
+    description: Début de la 3ème tranche pour le calcul de TL
+    values:
+      '2001-01-01':
+        value: 0.75
+    metadata:
+      ipp_csv_id: tl_tr2
+      unit: /1
+  minorant_1e_tranche:
+    description: Minorant pour la 1e tranche
+    values:
+      '2013-01-01':
+        value: 0.0
+      '2001-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tl_min_tr0
+  minorant_2e_tranche:
+    description: Minorant pour la 2e tranche
+    values:
+      '2013-01-01':
+        value: 20.25
+      '2001-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tl_min_tr1
   minorant_3e_tranche:
     description: Minorant pour la 3e tranche
     values:
@@ -317,9 +837,6 @@ tl:
         value: null
     metadata:
       ipp_csv_id: tl_min_tr2
-  metadata:
-    order:
-    - minorant_3e_tranche
 montant_forfaitaire:
   description: Montant forfaitaire
   values:

@@ -82,6 +82,22 @@ metadata:
       en une déduction du revenu net.
 depenses_formation_chefs_entreprises:
   description: Dépenses pour la formation des chefs d'entreprises
+  taux:
+    description: Taux
+    values:
+      '1997-01-01':
+        value: null
+      '1992-01-01':
+        value: 0.35
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_formachef
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -94,11 +110,49 @@ depenses_formation_chefs_entreprises:
     metadata:
       ipp_csv_id: plaf_formachef
       unit: currency-FRF
-  metadata:
-    order:
-    - plafond
 assurances_vie:
   description: Assurances-vie
+  taux:
+    description: Taux
+    values:
+      '2005-01-01':
+        value: null
+      '1987-01-01':
+        value: 0.25
+      '1983-01-01':
+        value: 0.2
+      '1978-01-01':
+        value: 0.0
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_avie
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
+    - increment
+  plafond:
+    description: Plafond
+    values:
+      '2005-01-01':
+        value: null
+      '2001-01-01':
+        value: 610.0
+      '1983-01-01':
+        value: 4000.0
+      '1982-01-01':
+        value: 3225.0
+      '1978-01-01':
+        value: 3250.0
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_avie
+      unit:
+        '2001-01-01': currency-EUR
+        '1978-01-01': currency-FRF
   increment:
     description: Incrément
     values:
@@ -117,9 +171,6 @@ assurances_vie:
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
-  metadata:
-    order:
-    - increment
 frais_comptabilite_cf_3:
   description: Frais de comptabilité (cf. 3)
   montant:
@@ -145,6 +196,43 @@ frais_comptabilite_cf_3:
     - montant
 rente_survie_cf_4:
   description: Rente survie (cf. 4)
+  taux:
+    description: Taux
+    values:
+      '1983-01-01':
+        value: 0.25
+      '1978-01-01':
+        value: 0.0
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_survie
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
+    - increment
+  plafond:
+    description: Plafond
+    values:
+      '2004-01-01':
+        value: 1525.0
+      '2001-01-01':
+        value: 1070.0
+      '1983-01-01':
+        value: 7000.0
+      '1982-01-01':
+        value: 3225.0
+      '1978-01-01':
+        value: 3250.0
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_survie
+      unit:
+        '2001-01-01': currency-EUR
+        '1978-01-01': currency-FRF
   increment:
     description: Incrément
     values:
@@ -163,11 +251,26 @@ rente_survie_cf_4:
       unit:
         '2001-01-01': currency-EUR
         '1978-01-01': currency-FRF
-  metadata:
-    order:
-    - increment
 rachat_entreprise:
   description: Rachat d'entreprise
+  taux:
+    description: Taux
+    values:
+      '2000-01-01':
+        value: null
+      '1992-01-01':
+        value: 0.25
+      '1987-01-01':
+        value: 0.0
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_rachat
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -182,11 +285,24 @@ rachat_entreprise:
     metadata:
       ipp_csv_id: plaf_rachat
       unit: currency-FRF
-  metadata:
-    order:
-    - plafond
 versement_fond_salarial:
   description: Versement fond salarial
+  taux:
+    description: Taux
+    values:
+      '1997-01-01':
+        value: null
+      '1996-01-01':
+        value: 0.25
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_salarial
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -199,11 +315,28 @@ versement_fond_salarial:
     metadata:
       ipp_csv_id: plaf_salarial
       unit: currency-FRF
-  metadata:
-    order:
-    - plafond
 prets_consommation_cf_7:
   description: Prêts à la consommation (cf. 7)
+  taux:
+    description: Taux
+    values:
+      '2006-01-01':
+        value: null
+      '2004-01-01':
+        value: 0.25
+      '1998-01-01':
+        value: null
+      '1996-01-01':
+        value: 0.25
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: pret_conso
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -216,11 +349,22 @@ prets_consommation_cf_7:
     metadata:
       ipp_csv_id: plaf_conso
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond
 interets_emprunt_reprise_societe_cf_8:
   description: Intérêts d'emprunt pour reprise de société (cf. 8)
+  taux:
+    description: Taux
+    values:
+      '2004-01-01':
+        value: 0.25
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_repsoc
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -233,11 +377,22 @@ interets_emprunt_reprise_societe_cf_8:
     metadata:
       ipp_csv_id: plaf_repsoc
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond
 interets_paiements_differes_agriculteurs_cf_9:
   description: Intérêts paiements différés agriculteurs (cf. 9)
+  taux:
+    description: Taux
+    values:
+      '2005-01-01':
+        value: 0.5
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: taux_intagri
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -248,11 +403,22 @@ interets_paiements_differes_agriculteurs_cf_9:
     metadata:
       ipp_csv_id: plaf_intagri
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond
 aide_aux_repreneurs_entreprise_cf_10:
   description: Aide aux repreneurs d'entreprise (cf. 10)
+  reduction:
+    description: Réduction
+    values:
+      '2006-01-01':
+        value: 1000.0
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: crea_entr
+      unit: currency-EUR
+  metadata:
+    order:
+    - reduction
+    - surplus_si_invalide
   surplus_si_invalide:
     description: Surplus si invalide
     values:
@@ -263,11 +429,26 @@ aide_aux_repreneurs_entreprise_cf_10:
     metadata:
       ipp_csv_id: crea_entr2
       unit: currency-EUR
-  metadata:
-    order:
-    - surplus_si_invalide
 depenses_restauration_monuments_historiques_cf_11:
   description: Dépenses de restauration des monuments historiques (cf. 11)
+  taux:
+    description: Taux
+    values:
+      '2012-01-01':
+        value: 0.18
+      '2011-01-01':
+        value: 0.22
+      '2008-01-01':
+        value: 0.25
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_monhist
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -278,11 +459,41 @@ depenses_restauration_monuments_historiques_cf_11:
     metadata:
       ipp_csv_id: plaf_monhist
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond
 restauration_patrimoine_bati_cf_12:
   description: Réstauration du patrimoine bâti (cf. 12)
+  taux_1:
+    description: Taux 1
+    values:
+      '2012-01-01':
+        value: 0.22
+      '2011-01-01':
+        value: 0.27
+      '2009-01-01':
+        value: 0.3
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_restauimmo1
+      unit: /1
+  metadata:
+    order:
+    - taux_1
+    - taux_2
+    - plafond
+  taux_2:
+    description: Taux 2
+    values:
+      '2012-01-01':
+        value: 0.3
+      '2011-01-01':
+        value: 0.36
+      '2009-01-01':
+        value: 0.4
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_restauimmo2
+      unit: /1
   plafond:
     description: Plafond
     values:
@@ -295,11 +506,26 @@ restauration_patrimoine_bati_cf_12:
     metadata:
       ipp_csv_id: plaf_restauimmo
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond
 protection_patrimoine_naturel_cf_13:
   description: Protection du patrimoine naturel (cf. 13)
+  taux:
+    description: Taux
+    values:
+      '2012-01-01':
+        value: 0.18
+      '2011-01-01':
+        value: 0.22
+      '2010-01-01':
+        value: 0.25
+      '1977-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_protecpat
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -310,9 +536,6 @@ protection_patrimoine_naturel_cf_13:
     metadata:
       ipp_csv_id: plaf_protecpat
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond
 documentation: |
   Notes : Intitulés précis 
   (1) Dépenses de formation du chef d'entreprise individuelle : ensemble des dépenses effectuées entre le 01/01/1994 et le 31/12/1996

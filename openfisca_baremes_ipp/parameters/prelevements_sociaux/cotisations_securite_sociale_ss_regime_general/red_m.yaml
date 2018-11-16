@@ -1,8 +1,108 @@
 description: Cotisations SS des professions médicales à temps partiel (1961-1974)
 assurance_maladie:
   description: Assurance maladie
+  totalite_remuneration:
+    description: Totalité rémunération
+    totalite_remuneration:
+      description: Totalité rémunération
+      employeur:
+        description: Employeur
+        values:
+          '1967-10-01':
+            value: 0.014
+          '1961-05-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_m_p_0_
+          unit: /1
+      metadata:
+        order:
+        - employeur
+        - employe
+      employe:
+        description: Employé
+        values:
+          '1967-10-01':
+            value: 0.007
+          '1961-05-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_m_s_0_
+          unit: /1
+    metadata:
+      order:
+      - totalite_remuneration
+  metadata:
+    order:
+    - totalite_remuneration
+    - sous_pss
   sous_pss:
     description: Sous PSS
+    employe_hors_am:
+      description: Employé (hors AM)
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.0175
+          '1967-10-01':
+            value: 0.0145
+          '1961-05-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_m_p_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.0105
+          '1967-10-01':
+            value: 0.0145
+          '1961-05-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_m_am_s65_s_0_1
+          unit: /1
+    metadata:
+      order:
+      - employe_hors_am
+      - employe_am
+      - employeur
+    employe_am:
+      description: Employé AM
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.028
+          '1967-10-01':
+            value: 0.018
+          '1961-05-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_m_am_i65_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1969-01-01':
+            value: 0.021
+          '1967-10-01':
+            value: 0.018
+          '1961-05-01':
+            value: null
+        metadata:
+          ipp_csv_id: mmid_m_s65_s_0_1
+          unit: /1
     employeur:
       description: Employeur
       values:
@@ -17,12 +117,6 @@ assurance_maladie:
       metadata:
         ipp_csv_id: mmid_m_i65_s_0_1
         unit: /1
-    metadata:
-      order:
-      - employeur
-  metadata:
-    order:
-    - sous_pss
 metadata:
   order:
   - assurance_maladie
@@ -58,8 +152,40 @@ assurance_vieillesse:
   description: Assurance vieillesse
   sous_pss:
     description: Sous PSS
+    employeur:
+      description: Employeur
+      values:
+        '1974-01-01':
+          value: 0.0508
+        '1971-01-01':
+          value: 0.0403
+        '1967-10-01':
+          value: 0.0385
+        '1961-05-01':
+          value: null
+      metadata:
+        ipp_csv_id: ret_m_p_0_1
+        unit: /1
+    metadata:
+      order:
+      - employeur
+      - employe
     employe:
       description: Employé
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1967-10-01':
+            value: 0.021
+          '1961-05-01':
+            value: null
+        metadata:
+          ipp_csv_id: ret_m_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
       plus_65_ans:
         description: Plus de 65 ans
         values:
@@ -70,12 +196,6 @@ assurance_vieillesse:
         metadata:
           ipp_csv_id: ret_m_s_s65_0_1
           unit: /1
-      metadata:
-        order:
-        - plus_65_ans
-    metadata:
-      order:
-      - employe
   metadata:
     order:
     - sous_pss
@@ -137,6 +257,63 @@ assurances_sociales:
   description: Assurances sociales
   sous_pss:
     description: Sous PSS
+    employe_hors_am:
+      description: Employé (hors AM)
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1961-05-01':
+            value: 0.014
+        metadata:
+          ipp_csv_id: css_m_am_i65_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1961-05-01':
+            value: 0.042
+        metadata:
+          ipp_csv_id: css_m_am_s65_s_0_1
+          unit: /1
+    metadata:
+      order:
+      - employe_hors_am
+      - employe_am_sous_pss
+      - employeur_sous_pss
+    employe_am_sous_pss:
+      description: Employé AM                    (sous PSS)
+      moins_65_ans:
+        description: Moins de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1961-05-01':
+            value: 0.049
+        metadata:
+          ipp_csv_id: css_m_s65_s_0_1
+          unit: /1
+      metadata:
+        order:
+        - moins_65_ans
+        - plus_65_ans
+      plus_65_ans:
+        description: Plus de 65 ans
+        values:
+          '1967-10-01':
+            value: null
+          '1961-05-01':
+            value: 0.021
+        metadata:
+          ipp_csv_id: css_m_i65_s_0_1
+          unit: /1
     employeur_sous_pss:
       description: Employeur (sous PSS)
       values:
@@ -151,9 +328,6 @@ assurances_sociales:
       metadata:
         ipp_csv_id: css_m_p_0_1
         unit: /1
-    metadata:
-      order:
-      - employeur_sous_pss
   metadata:
     order:
     - sous_pss

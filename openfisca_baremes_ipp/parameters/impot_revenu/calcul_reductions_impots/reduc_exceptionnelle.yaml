@@ -22,6 +22,33 @@ metadata:
       2014
 reduction_impot_exceptionnelle:
   description: Réduction d'impôt exceptionnelle
+  seuil_revenu_fiscal_reference:
+    description: Seuil du revenu fiscal de référence
+    values:
+      '2014-01-01':
+        value: null
+      '2013-01-01':
+        value: 14145.0
+      '2012-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: reduc_except_rfr_seuil
+  metadata:
+    order:
+    - seuil_revenu_fiscal_reference
+    - majoration_seuil_par_demi_part_supplementaire
+    - montant
+  majoration_seuil_par_demi_part_supplementaire:
+    description: Majoration du seuil par demi-part supplémentaire
+    values:
+      '2014-01-01':
+        value: null
+      '2013-01-01':
+        value: 3536.0
+      '2012-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: reduc_except_rfr_seuil_majo
   montant:
     description: Montant
     values:
@@ -33,9 +60,6 @@ reduction_impot_exceptionnelle:
         value: null
     metadata:
       ipp_csv_id: reduc_except_montant
-  metadata:
-    order:
-    - montant
 documentation: |
   Notes:
   Réduction d'impôt exceptionnelle créée par la LFR 1 2014 forfaitaire sous condition que le revenu fiscal de référence soit inférieur à un certain seuil.

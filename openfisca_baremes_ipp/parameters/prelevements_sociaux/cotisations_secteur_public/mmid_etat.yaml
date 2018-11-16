@@ -1,8 +1,72 @@
 description: Cotisations maladie - Fonction publique d'Etat
 fp_etat:
   description: FP Etat
+  sous_pss:
+    description: Sous PSS
+    employeur:
+      description: Employeur
+      values:
+        '1984-01-01':
+          value: null
+        '1981-11-01':
+          value: 0.02
+        '1979-01-01':
+          value: 0.055
+        '1976-10-01':
+          value: 0.075
+        '1970-08-01':
+          value: 0.07
+        '1967-10-01':
+          value: 0.0625
+      metadata:
+        ipp_csv_id: mmid_e_p_0_1
+        unit: /1
+    metadata:
+      order:
+      - employeur
+      - agent
+    agent:
+      description: Agent
+      values:
+        '1984-01-01':
+          value: null
+        '1980-01-01':
+          value: 0.0
+        '1979-01-01':
+          value: 0.0025
+        '1976-10-01':
+          value: 0.0225
+        '1967-10-01':
+          value: 0.0175
+      metadata:
+        ipp_csv_id: mmid_e_s_0_1
+        unit: /1
+  metadata:
+    order:
+    - sous_pss
+    - tout_traitement
   tout_traitement:
     description: Tout traitement
+    employeur:
+      description: Employeur
+      values:
+        '1984-01-01':
+          value: 0.097
+        '1981-11-01':
+          value: 0.08
+        '1979-01-01':
+          value: 0.045
+        '1976-01-01':
+          value: 0.025
+        '1967-10-01':
+          value: 0.02
+      metadata:
+        ipp_csv_id: mmid_e_p_0_
+        unit: /1
+    metadata:
+      order:
+      - employeur
+      - agent
     agent:
       description: Agent
       values:
@@ -27,12 +91,6 @@ fp_etat:
       metadata:
         ipp_csv_id: mmid_e_s_0_
         unit: /1
-    metadata:
-      order:
-      - agent
-  metadata:
-    order:
-    - tout_traitement
 metadata:
   order:
   - fp_etat

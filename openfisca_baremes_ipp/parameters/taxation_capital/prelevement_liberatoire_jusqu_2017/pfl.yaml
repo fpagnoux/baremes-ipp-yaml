@@ -134,6 +134,118 @@ dividendes:
 bons_caisse_banque_bons_tresor_formules_bons_epargne_ptt:
   description: Bons de caisse des banque; Bons du Trésor sur formules; bons d'épargne
     des PTT
+  emis_avant_1_6_78:
+    description: Emis avant 1/6/78
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1974-01-01':
+        value: 0.333
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_bons_av78
+      unit: /1
+  metadata:
+    order:
+    - emis_avant_1_6_78
+    - emis_entre_1_6_78_20_1_80
+    - emis_entre_21_1_80_31_12_82_sans_anonymat
+    - emis_entre_21_1_80_31_12_82_avec_anonymat
+    - emis_entre_1_1_83_31_12_89_sans_anonymat
+    - emis_entre_1_1_90_31_12_94_sans_anonymat
+    - emis_partir_1_1_95_sans_anonymat
+    - emis_entre_1_1_83_1_1_1998_avec_anonymat
+  emis_entre_1_6_78_20_1_80:
+    description: Emis entre 1/6/78 et 20/1/80
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1979-07-01':
+        value: 0.4
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_bons_7880
+      unit: /1
+  emis_entre_21_1_80_31_12_82_sans_anonymat:
+    description: Emis entre 21/1/80 et 31/12/82 (sans anonymat)
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1980-01-01':
+        value: 0.38
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: bons_8082
+      unit: /1
+  emis_entre_21_1_80_31_12_82_avec_anonymat:
+    description: Emis entre 21/1/80 et 31/12/82 (avec anonymat)
+    values:
+      '2018-01-01':
+        value: null
+      '1980-01-01':
+        value: 0.42
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: bons_8082_anon
+      unit: /1
+  emis_entre_1_1_83_31_12_89_sans_anonymat:
+    description: Emis entre 1/1/83 et 31/12/89 (sans anonymat)
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1983-01-01':
+        value: 0.45
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: bons_8389
+      unit: /1
+  emis_entre_1_1_90_31_12_94_sans_anonymat:
+    description: Emis entre 1/1/90 et 31/12/94 (sans anonymat)
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1990-06-15':
+        value: 0.35
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: bons_9094
+      unit: /1
+  emis_partir_1_1_95_sans_anonymat:
+    description: Emis à partir du 1/1/95 et (sans anonymat)
+    values:
+      '2018-01-01':
+        value: null
+      '2012-01-01':
+        value: 0.24
+      '2011-01-01':
+        value: 0.19
+      '2008-01-01':
+        value: 0.18
+      '2004-01-01':
+        value: 0.16
+      '1995-01-01':
+        value: 0.15
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: bons_ap95
+      unit: /1
   emis_entre_1_1_83_1_1_1998_avec_anonymat:
     description: Emis entre 1/1/83 et 1/1/1998 (avec anonymat)
     values:
@@ -150,9 +262,6 @@ bons_caisse_banque_bons_tresor_formules_bons_epargne_ptt:
     metadata:
       ipp_csv_id: bons_8398
       unit: /1
-  metadata:
-    order:
-    - emis_entre_1_1_83_1_1_1998_avec_anonymat
 emis_partir_1_1_1998_avec_anonymat:
   description: Emis à partir de 1/1/1998 (avec anonymat)
   values:
@@ -170,6 +279,71 @@ emis_partir_1_1_1998_avec_anonymat:
 autres_produits_placement_revenu_fixe_comptes_livrets_creances_depots_cautionnement_comptes_courants:
   description: Autres produits de placement à revenu fixe (comptes sur livrets, créances,
     dépôts, cautionnement et comptes courants)
+  courus_entre_16_7_78_31_12_79:
+    description: Courus entre le 16/7/78 et 31/12/79
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1979-07-01':
+        value: 0.4
+      '1974-01-01':
+        value: 0.333
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_plac_7879
+      unit: /1
+  metadata:
+    order:
+    - courus_entre_16_7_78_31_12_79
+    - courus_entre_1_1_80_31_12_82
+    - courus_entre_1_1_83_31_12_89
+    - courus_entre_1_1_90_31_12_94
+    - courus_entre_1_1_95_apres
+  courus_entre_1_1_80_31_12_82:
+    description: Courus entre le 1/1/80 et 31/12/82
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1980-01-01':
+        value: 0.38
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_plac_8082
+      unit: /1
+  courus_entre_1_1_83_31_12_89:
+    description: Courus entre le 1/1/83 et 31/12/89
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1983-01-01':
+        value: 0.45
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_plac_8389
+      unit: /1
+  courus_entre_1_1_90_31_12_94:
+    description: Courus entre le 1/1/90 et 31/12/94
+    values:
+      '2018-01-01':
+        value: null
+      '2013-01-01':
+        value: 0.24
+      '1990-06-15':
+        value: 0.35
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_plac_9094
+      unit: /1
   courus_entre_1_1_95_apres:
     description: Courus entre le 1/1/95 et après
     values:
@@ -190,11 +364,45 @@ autres_produits_placement_revenu_fixe_comptes_livrets_creances_depots_cautionnem
     metadata:
       ipp_csv_id: tx_plac_ap95
       unit: /1
-  metadata:
-    order:
-    - courus_entre_1_1_95_apres
 plan_epargne_populaire:
   description: Plan d'épargne populaire
+  retrait_avant_4_ans:
+    description: Retrait avant 4 ans
+    values:
+      '2008-01-01':
+        value: null
+      '1994-01-01':
+        value: 0.35
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_epargne_av4
+      unit: /1
+  metadata:
+    order:
+    - retrait_avant_4_ans
+    - retrait_entre_4_8_ans
+    - retrait_apres_8_ans
+  retrait_entre_4_8_ans:
+    description: Retrait entre 4 et 8 ans
+    values:
+      '2013-01-01':
+        value: null
+      '2012-01-01':
+        value: 0.24
+      '2011-01-01':
+        value: 0.19
+      '2008-01-01':
+        value: 0.18
+      '2004-01-01':
+        value: 0.16
+      '1990-06-15':
+        value: 0.15
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_epargne_48
+      unit: /1
   retrait_apres_8_ans:
     description: Retrait après 8 ans
     values:
@@ -207,9 +415,6 @@ plan_epargne_populaire:
     metadata:
       ipp_csv_id: tx_epargne_ap8
       unit: /1
-  metadata:
-    order:
-    - retrait_apres_8_ans
 produits_epargne_solidaire_partage:
   description: Produits d'épargne solidaire de partage
   values:

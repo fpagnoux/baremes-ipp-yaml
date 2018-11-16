@@ -1,6 +1,24 @@
 description: Versement transport (VT)
 taux_maximal_hors_ile_france:
   description: Taux maximal (hors Ile-de-France)
+  sous_pss:
+    description: Sous PSS
+    values:
+      '1993-04-01':
+        value: null
+      '1989-09-01':
+        value: 0.0175
+      '1974-01-01':
+        value: 0.015
+      '1971-09-01':
+        value: null
+    metadata:
+      ipp_csv_id: vt_p_0_1
+      unit: /1
+  metadata:
+    order:
+    - sous_pss
+    - tout_salaire
   tout_salaire:
     description: Tout salaire
     values:
@@ -15,9 +33,6 @@ taux_maximal_hors_ile_france:
     metadata:
       ipp_csv_id: vt_p_0_
       unit: /1
-  metadata:
-    order:
-    - tout_salaire
 metadata:
   order:
   - taux_maximal_hors_ile_france

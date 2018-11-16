@@ -1,6 +1,50 @@
 description: Cotisations SS (1930-1966)
 salaire_sous_pss:
   description: Salaire sous PSS
+  cotisation_ouvriere:
+    description: Cotisation ouvrière
+    moins_65_ans:
+      description: Moins de 65 ans
+      values:
+        '1967-09-01':
+          value: null
+        '1945-01-01':
+          value: 0.06
+        '1937-01-01':
+          value: 0.04
+        '1936-01-01':
+          value: 0.035
+        '1930-07-01':
+          value: 0.04
+      metadata:
+        ipp_csv_id: css_i65_s_0_1
+        unit: /1
+    metadata:
+      order:
+      - moins_65_ans
+      - plus_65_ans
+    plus_65_ans:
+      description: Plus de 65 ans
+      values:
+        '1967-09-01':
+          value: null
+        '1948-07-01':
+          value: 0.02
+        '1945-01-01':
+          value: 0.06
+        '1937-01-01':
+          value: 0.04
+        '1936-01-01':
+          value: 0.035
+        '1930-07-01':
+          value: 0.04
+      metadata:
+        ipp_csv_id: css_s65_s_0_1
+        unit: /1
+  metadata:
+    order:
+    - cotisation_ouvriere
+    - cotisation_patronale
   cotisation_patronale:
     description: Cotisation patronale
     values:
@@ -27,9 +71,6 @@ salaire_sous_pss:
     metadata:
       ipp_csv_id: css_p_0_1
       unit: /1
-  metadata:
-    order:
-    - cotisation_patronale
 metadata:
   order:
   - salaire_sous_pss

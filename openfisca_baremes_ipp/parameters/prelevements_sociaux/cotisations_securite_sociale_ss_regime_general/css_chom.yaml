@@ -34,8 +34,66 @@ metadata:
     '1988-03-01': '1988-02-02'
 participation_retraite_complementaire:
   description: Participation retraite complémentaire
+  taux:
+    description: Taux
+    affiliation_3_6_mois:
+      description: affiliation 3-6 mois
+      values:
+        '2003-01-01':
+          value: 0.03
+        '1993-01-01':
+          value: 0.012
+        '1990-01-01':
+          value: 0.008
+        '1988-03-01':
+          value: 0.01
+        '1985-04-01':
+          value: null
+      metadata:
+        ipp_csv_id: chom_ret_tx_3_6
+        unit: /1
+    metadata:
+      order:
+      - affiliation_3_6_mois
+      - affiliation_6_mois
+    affiliation_6_mois:
+      description: affiliation > 6 mois
+      values:
+        '2003-01-01':
+          value: 0.03
+        '1993-01-01':
+          value: 0.012
+        '1990-01-01':
+          value: 0.006
+        '1988-03-01':
+          value: 0.01
+        '1985-04-01':
+          value: null
+      metadata:
+        ipp_csv_id: chom_ret_tx_6_
+        unit: /1
+  metadata:
+    order:
+    - taux
+    - assiette_sjr
   assiette_sjr:
     description: Assiette (% SJR)
+    affiliation_3_6_mois:
+      description: affiliation 3-6 mois
+      values:
+        '1990-01-01':
+          value: 1.0
+        '1988-03-01':
+          value: 0.4
+        '1985-04-01':
+          value: null
+      metadata:
+        ipp_csv_id: chom_ret_ass_3_6
+        unit: /1
+    metadata:
+      order:
+      - affiliation_3_6_mois
+      - affiliation_6_mois
     affiliation_6_mois:
       description: affiliation > 6 mois
       values:
@@ -48,12 +106,6 @@ participation_retraite_complementaire:
       metadata:
         ipp_csv_id: chom_ret_ass_6_
         unit: /1
-    metadata:
-      order:
-      - affiliation_6_mois
-  metadata:
-    order:
-    - assiette_sjr
 documentation: |
   Note :
   Pour la cotisation d'assurance maladie, l'assiette est égale à l'allocation de base brute. Disparait en décembre 1997.

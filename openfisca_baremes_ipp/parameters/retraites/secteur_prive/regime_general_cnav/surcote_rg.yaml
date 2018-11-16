@@ -1,6 +1,63 @@
 description: Surcote RG
 taux_surcote_par_trimestre_cotise_selon_date_cotisation:
   description: Taux de surcote par trimestre cotisé, selon la date de cotisation
+  avant_01_01_2003:
+    description: Avant 01/01/2003
+    values:
+      '2004-01-01':
+        value: 0.0
+    metadata:
+      ipp_csv_id: surcote_base
+      unit: /1
+  metadata:
+    order:
+    - avant_01_01_2003
+    - '2003_01_01_00_00_00'
+    - '2004_01_01_00_00_00'
+    - '2009_01_01_00_00_00'
+  '2003_01_01_00_00_00':
+    description: '2003-01-01 00:00:00'
+    values:
+      '2004-01-01':
+        value: 0.0075
+    metadata:
+      ipp_csv_id: surcote_0103
+      unit: /1
+  '2004_01_01_00_00_00':
+    description: '2004-01-01 00:00:00'
+    1_4_trimestres:
+      description: De 1 à 4 trimestres
+      values:
+        '2004-01-01':
+          value: 0.0075
+      metadata:
+        ipp_csv_id: surcote_0104_14
+        unit: /1
+    metadata:
+      order:
+      - 1_4_trimestres
+      - partir_5_trimestres
+      - partir_65_ans
+    partir_5_trimestres:
+      description: A partir de 5 trimestres
+      values:
+        '2007-01-01':
+          value: 0.01
+        '2004-01-01':
+          value: 0.0075
+      metadata:
+        ipp_csv_id: surcote_0104_5
+        unit: /1
+    partir_65_ans:
+      description: A partir de 65 ans
+      values:
+        '2007-01-01':
+          value: 0.0125
+        '2004-01-01':
+          value: 0.0075
+      metadata:
+        ipp_csv_id: surcote_0104_65
+        unit: /1
   '2009_01_01_00_00_00':
     description: '2009-01-01 00:00:00'
     values:
@@ -11,9 +68,6 @@ taux_surcote_par_trimestre_cotise_selon_date_cotisation:
     metadata:
       ipp_csv_id: surcote_0109
       unit: /1
-  metadata:
-    order:
-    - '2009_01_01_00_00_00'
 metadata:
   order:
   - taux_surcote_par_trimestre_cotise_selon_date_cotisation

@@ -84,6 +84,20 @@ complement_familial_en_bmaf_en_bmaf:
   description: |-
     Complément familial (en % de la BMAF)
     (en % de la BMAF)
+  montant_base:
+    description: Montant de base
+    values:
+      '1983-01-01':
+        value: 0.4165
+      '1978-01-01':
+        value: 0.4475
+    metadata:
+      ipp_csv_id: tx_cf
+      unit: /1
+  metadata:
+    order:
+    - montant_base
+    - montant_majore
   montant_majore:
     description: Montant majoré
     values:
@@ -100,7 +114,4 @@ complement_familial_en_bmaf_en_bmaf:
     metadata:
       ipp_csv_id: tx_cf_maj
       unit: /1
-  metadata:
-    order:
-    - montant_majore
 documentation: ''

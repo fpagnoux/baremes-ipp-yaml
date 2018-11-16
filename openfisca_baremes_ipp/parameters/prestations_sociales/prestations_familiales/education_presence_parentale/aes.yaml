@@ -54,6 +54,82 @@ montant_bmaf_en_euros:
     unit: /1
 complement_allocation:
   description: Complément d'allocation
+  1ere_categorie:
+    description: 1ere catégorie
+    values:
+      '2006-01-01':
+        value: null
+      '1991-10-01':
+        value: 0.24
+      '1984-01-01':
+        value: 0.72
+      '1976-08-01':
+        value: 0.48
+    metadata:
+      ipp_csv_id: aes_cplt1
+      unit: /1
+  metadata:
+    order:
+    - 1ere_categorie
+    - 2e_categorie
+    - 3e_categorie
+    - 4e_categorie
+    - 5e_categorie
+    - 6e_categorie_2
+  2e_categorie:
+    description: 2e catégorie
+    values:
+      '2006-01-01':
+        value: null
+      '2002-04-01':
+        value: 0.65
+      '1991-10-01':
+        value: 0.72
+      '1976-08-01':
+        value: 0.24
+    metadata:
+      ipp_csv_id: aes_cplt2
+      unit: /1
+  3e_categorie:
+    description: 3e catégorie
+    values:
+      '2006-01-01':
+        value: null
+      '2002-04-01':
+        value: 0.92
+      '1991-10-01':
+        value: 5017.82
+      '1976-08-01':
+        value: null
+    metadata:
+      ipp_csv_id: aes_cplt3
+      unit:
+        '2002-04-01': /1
+        '1991-10-01': currency-FRF
+  4e_categorie:
+    description: 4e catégorie
+    values:
+      '2006-01-01':
+        value: null
+      '2002-04-01':
+        value: 1.4257
+      '1976-08-01':
+        value: null
+    metadata:
+      ipp_csv_id: aes_cplt4
+      unit: /1
+  5e_categorie:
+    description: 5e catégorie
+    values:
+      '2006-01-01':
+        value: null
+      '2002-04-01':
+        value: 1.8221
+      '1976-08-01':
+        value: null
+    metadata:
+      ipp_csv_id: aes_cplt5
+      unit: /1
   6e_categorie_2:
     description: 6e catégorie (2)
     values:
@@ -70,9 +146,6 @@ complement_allocation:
     metadata:
       ipp_csv_id: aes_cplt6
       unit: currency-EUR
-  metadata:
-    order:
-    - 6e_categorie_2
 documentation: |
   Notes :
   (1) 50% du salaire moyen (cotisations versées au cours des 10 années civiles d'assurance dont la prise en considération est la plus avantageuse pour l'assuré. Ces années sont comprises entre 31/12/1947 et la date d'interruption de travail suivie d'invalidité, ou entre 47 et la constataion médicale d'invalidité. Si l'assuré ne compte pas 10 années d'assurance, on prend les années d'assurances accomplies depuis l'immatriculation) majoré de 40%, cette majoration doit être supérieur à un minimum annuel fixé par décret 

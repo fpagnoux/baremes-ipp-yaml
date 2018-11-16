@@ -1,6 +1,26 @@
 description: Cotisations retraite exceptionnelle et temporaire (CET)
 salaire_sous_8_pss:
   description: Salaire sous 8 PSS
+  salarie:
+    description: Salarié
+    values:
+      '2001-01-01':
+        value: 0.0013
+      '2000-01-01':
+        value: 0.0011
+      '1999-01-01':
+        value: 0.0008
+      '1998-01-01':
+        value: 0.0005
+      '1997-01-01':
+        value: 0.00025
+    metadata:
+      ipp_csv_id: cet_s_0_8
+      unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
   employeur:
     description: Employeur
     values:
@@ -17,9 +37,6 @@ salaire_sous_8_pss:
     metadata:
       ipp_csv_id: cet_p_0_8
       unit: /1
-  metadata:
-    order:
-    - employeur
 metadata:
   order:
   - salaire_sous_8_pss

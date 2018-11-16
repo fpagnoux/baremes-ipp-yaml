@@ -1,6 +1,98 @@
 description: Taux spécifique tabac
 taux_specifique:
   description: Taux spécifique
+  cigarettes:
+    description: Cigarettes
+    values:
+      '2018-03-01':
+        value: 59.9
+      '2015-01-01':
+        value: 48.75
+      '2013-07-01':
+        value: 0.15
+      '2013-01-01':
+        value: 0.125
+      '2012-01-01':
+        value: 0.12
+      '2011-01-01':
+        value: 0.09
+      '2004-01-05':
+        value: 0.075
+      '1979-01-01':
+        value: 0.05
+    metadata:
+      ipp_csv_id: tx_spec_cigarettes
+      unit:
+        '2015-01-01': currency-EUR
+        '1979-01-01': /1
+  metadata:
+    order:
+    - cigarettes
+    - cigares
+    - tabac_rouler
+    - autres_tabacs
+    - tabacs_priser
+    - tabacs_chiquer
+  cigares:
+    description: Cigares
+    values:
+      '2018-03-01':
+        value: 24.7
+      '2015-01-01':
+        value: 19.0
+      '2013-01-01':
+        value: 0.05
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_spec_cigares
+      unit:
+        '2015-01-01': currency-EUR
+        '2013-01-01': /1
+  tabac_rouler:
+    description: Tabac à rouler
+    values:
+      '2018-03-01':
+        value: 68.5
+      '2015-01-01':
+        value: 67.5
+      '2013-01-01':
+        value: 0.3
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_spec_tabac_rouler
+      unit:
+        '2015-01-01': currency-EUR
+        '2013-01-01': /1
+  autres_tabacs:
+    description: Autres tabacs
+    values:
+      '2018-03-01':
+        value: 21.5
+      '2015-01-01':
+        value: 17.0
+      '2013-01-01':
+        value: 0.1
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_spec_autres_tabac
+      unit:
+        '2015-01-01': currency-EUR
+        '2013-01-01': /1
+  tabacs_priser:
+    description: Tabacs à priser
+    values:
+      '2013-01-01':
+        value: 0.0
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_spec_tabac_priser
+      unit:
+        '2015-01-01': currency-EUR
+        '2013-01-01': /1
   tabacs_chiquer:
     description: Tabacs à chiquer
     values:
@@ -13,9 +105,6 @@ taux_specifique:
       unit:
         '2015-01-01': currency-EUR
         '2013-01-01': /1
-  metadata:
-    order:
-    - tabacs_chiquer
 metadata:
   order:
   - taux_specifique

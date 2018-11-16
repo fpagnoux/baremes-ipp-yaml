@@ -139,6 +139,41 @@ metadata:
       déficit foncier global
 abattement_recettes_microentreprises:
   description: Abattement sur recettes des microentreprises
+  taux_ventes_marchandises:
+    description: Taux (ventes de marchandises)
+    values:
+      '2006-01-01':
+        value: 0.71
+      '2002-01-01':
+        value: 0.72
+      '1999-01-01':
+        value: 0.7
+      '1991-01-01':
+        value: 0.5
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txabt_micro
+      unit: /1
+  metadata:
+    order:
+    - taux_ventes_marchandises
+    - taux_prestations_services
+    - montant_minimum
+  taux_prestations_services:
+    description: Taux  (Prestations de services)
+    values:
+      '2006-01-01':
+        value: 0.5
+      '2002-01-01':
+        value: 0.52
+      '1991-01-01':
+        value: 0.5
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txabt_micro_service
+      unit: /1
   montant_minimum:
     description: Montant minimum
     values:
@@ -153,11 +188,73 @@ abattement_recettes_microentreprises:
       unit:
         '2001-01-01': currency-EUR
         '1991-01-01': currency-FRF
-  metadata:
-    order:
-    - montant_minimum
 abattement_regime_micro_bnc:
   description: Abattement pour le régime micro BNC
+  plafond_recettes_marchandises:
+    description: Plafond de recettes (marchandises)
+    values:
+      '2017-01-01':
+        value: 170000.0
+      '2013-01-01':
+        value: 82200.0
+      '2011-01-01':
+        value: 81500.0
+      '2010-01-01':
+        value: 80300.0
+      '2009-01-01':
+        value: 80000.0
+      '2002-01-01':
+        value: 76300.0
+      '2001-01-01':
+        value: 76224.51
+      '1999-01-01':
+        value: 500000.0
+      '1996-01-01':
+        value: 100000.0
+      '1991-01-01':
+        value: 70000.0
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: limit_micro
+      unit:
+        '2001-01-01': currency-EUR
+        '1991-01-01': currency-FRF
+  metadata:
+    order:
+    - plafond_recettes_marchandises
+    - plafond_recettes_services
+    - taux
+  plafond_recettes_services:
+    description: Plafond de recettes (services)
+    values:
+      '2017-01-01':
+        value: 70000.0
+      '2013-01-01':
+        value: 32900.0
+      '2011-01-01':
+        value: 32600.0
+      '2010-01-01':
+        value: 32100.0
+      '2009-01-01':
+        value: 32000.0
+      '2002-01-01':
+        value: 27000.0
+      '2001-01-01':
+        value: 26678.58
+      '1999-01-01':
+        value: 175000.0
+      '1996-01-01':
+        value: 100000.0
+      '1991-01-01':
+        value: 70000.0
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: limit_micro_service
+      unit:
+        '2001-01-01': currency-EUR
+        '1991-01-01': currency-FRF
   taux:
     description: Taux
     values:
@@ -174,11 +271,28 @@ abattement_regime_micro_bnc:
     metadata:
       ipp_csv_id: txabt_microbnc
       unit: /1
-  metadata:
-    order:
-    - taux
 abattement_regime_microfoncier:
   description: Abattement pour le régime microfoncier
+  plafond_recettes:
+    description: Plafond de recettes
+    values:
+      '2001-01-01':
+        value: 15000.0
+      '1999-01-01':
+        value: 60000.0
+      '1997-01-01':
+        value: 30000.0
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_micro_foncier
+      unit:
+        '2001-01-01': currency-EUR
+        '1997-01-01': currency-FRF
+  metadata:
+    order:
+    - plafond_recettes
+    - taux
   taux:
     description: Taux
     values:
@@ -193,11 +307,56 @@ abattement_regime_microfoncier:
     metadata:
       ipp_csv_id: abt_micro_fon
       unit: /1
-  metadata:
-    order:
-    - taux
 imputation_revenu_global:
   description: Imputation sur le revenu global
+  plafond_deficits_agricoles:
+    description: Plafond (déficits agricoles)
+    values:
+      '2017-01-01':
+        value: 108904.0
+      '2016-01-01':
+        value: 107826.0
+      '2015-01-01':
+        value: 107718.0
+      '2014-01-01':
+        value: 107610.0
+      '2013-01-01':
+        value: 107075.0
+      '2011-01-01':
+        value: 106225.0
+      '2010-01-01':
+        value: 104665.0
+      '2009-01-01':
+        value: 104238.0
+      '2007-01-01':
+        value: 101300.0
+      '2006-01-01':
+        value: 100000.0
+      '2004-01-01':
+        value: 60000.0
+      '2001-01-01':
+        value: 53360.0
+      '2000-01-01':
+        value: 350000.0
+      '1995-01-01':
+        value: 200000.0
+      '1994-01-01':
+        value: 150000.0
+      '1989-01-01':
+        value: 100000.0
+      '1988-01-01':
+        value: 70000.0
+      '1979-01-01':
+        value: 40000.0
+    metadata:
+      ipp_csv_id: plaf_defba
+      unit:
+        '2001-01-01': currency-EUR
+        '1979-01-01': currency-FRF
+  metadata:
+    order:
+    - plafond_deficits_agricoles
+    - plafond_deficits_fonciers
   plafond_deficits_fonciers:
     description: Plafond (déficits fonciers)
     values:
@@ -214,11 +373,33 @@ imputation_revenu_global:
       unit:
         '2001-01-01': currency-EUR
         '1993-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond_deficits_fonciers
 versement_liberatoire_regime_auto_entrepreneur:
   description: Versement libératoire (régime auto-entrepreneur)
+  taux_regime_micro_bic_vente:
+    description: taux régime micro BIC vente
+    values:
+      '2009-01-01':
+        value: 0.01
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_bic_vente_vl
+      unit: /1
+  metadata:
+    order:
+    - taux_regime_micro_bic_vente
+    - taux_regime_micro_bic_service
+    - taux_regime_micro_bnc
+  taux_regime_micro_bic_service:
+    description: taux régime micro BIC service
+    values:
+      '2009-01-01':
+        value: 0.017
+      '1979-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_bic_service_vl
+      unit: /1
   taux_regime_micro_bnc:
     description: taux régime micro BNC
     values:
@@ -229,9 +410,6 @@ versement_liberatoire_regime_auto_entrepreneur:
     metadata:
       ipp_csv_id: tx_bnc_vl
       unit: /1
-  metadata:
-    order:
-    - taux_regime_micro_bnc
 documentation: |
   Notes :
   (1) Abattement concernant les entrepreneurs individuels. Pour les autoentrepreneurs, voir art. 151-0 du CGI

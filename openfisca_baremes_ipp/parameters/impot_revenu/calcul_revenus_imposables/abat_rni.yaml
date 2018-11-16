@@ -136,6 +136,266 @@ metadata:
     '2001-01-01': Voir aussi LFR pour 2001 (2001-1276 du 28/12/2001, art. 51)
 abattement_personnes_agees_65_ans_invalide_4:
   description: Abattement pour personnes agées de + de 65 ans ou invalide (4)
+  montant_1:
+    description: Montant 1
+    values:
+      '2017-01-01':
+        value: 2376.0
+      '2016-01-01':
+        value: 2352.0
+      '2015-01-01':
+        value: 2348.0
+      '2014-01-01':
+        value: 2344.0
+      '2013-01-01':
+        value: 2332.0
+      '2010-01-01':
+        value: 2312.0
+      '2009-01-01':
+        value: 2276.0
+      '2008-01-01':
+        value: 2266.0
+      '2007-01-01':
+        value: 2202.0
+      '2006-01-01':
+        value: 2172.0
+      '2005-01-01':
+        value: 1706.0
+      '2004-01-01':
+        value: 1674.0
+      '2003-01-01':
+        value: 1646.0
+      '2002-01-01':
+        value: 1618.0
+      '2001-01-01':
+        value: 1590.0
+      '2000-01-01':
+        value: 10260.0
+      '1999-01-01':
+        value: 10100.0
+      '1998-01-01':
+        value: 10040.0
+      '1997-01-01':
+        value: 9940.0
+      '1996-01-01':
+        value: 9820.0
+      '1995-01-01':
+        value: 9620.0
+      '1994-01-01':
+        value: 9440.0
+      '1993-01-01':
+        value: 9300.0
+      '1992-01-01':
+        value: 9120.0
+      '1991-01-01':
+        value: 8860.0
+      '1990-01-01':
+        value: 8580.0
+      '1989-01-01':
+        value: null
+      '1988-01-01':
+        value: 8020.0
+      '1987-01-01':
+        value: 7800.0
+      '1986-01-01':
+        value: 7540.0
+      '1985-01-01':
+        value: 7360.0
+      '1984-01-01':
+        value: 6960.0
+      '1982-01-01':
+        value: null
+      '1981-01-01':
+        value: 5260.0
+      '1980-01-01':
+        value: 4630.0
+      '1979-01-01':
+        value: 4080.0
+      '1978-01-01':
+        value: 3720.0
+      '1977-01-01':
+        value: 3400.0
+    metadata:
+      ipp_csv_id: abt_pers_age1
+      unit:
+        '2001-01-01': currency-EUR
+        '1977-01-01': currency-FRF
+  metadata:
+    order:
+    - montant_1
+    - montant_2
+    - plafond_ressources_1
+    - plafond_ressources_2
+  montant_2:
+    description: Montant 2
+    values:
+      '2017-01-01':
+        value: 1188.0
+      '2016-01-01':
+        value: 1176.0
+      '2015-01-01':
+        value: 1174.0
+      '2014-01-01':
+        value: 1172.0
+      '2013-01-01':
+        value: 1166.0
+      '2010-01-01':
+        value: 1156.0
+      '2009-01-01':
+        value: 1138.0
+      '2008-01-01':
+        value: 1133.0
+      '2007-01-01':
+        value: 1101.0
+      '2006-01-01':
+        value: 1086.0
+      '2005-01-01':
+        value: 853.0
+      '2004-01-01':
+        value: 837.0
+      '2003-01-01':
+        value: 823.0
+      '2002-01-01':
+        value: 809.0
+      '2001-01-01':
+        value: 795.0
+      '2000-01-01':
+        value: 5130.0
+      '1999-01-01':
+        value: 5050.0
+      '1998-01-01':
+        value: 5020.0
+      '1997-01-01':
+        value: 4970.0
+      '1996-01-01':
+        value: 4910.0
+      '1995-01-01':
+        value: 4810.0
+      '1994-01-01':
+        value: 4720.0
+      '1993-01-01':
+        value: 4650.0
+      '1992-01-01':
+        value: 4560.0
+      '1991-01-01':
+        value: 4430.0
+      '1990-01-01':
+        value: 4290.0
+      '1989-01-01':
+        value: null
+      '1988-01-01':
+        value: 4010.0
+      '1987-01-01':
+        value: 3900.0
+      '1986-01-01':
+        value: 3770.0
+      '1985-01-01':
+        value: 3680.0
+      '1984-01-01':
+        value: 3480.0
+      '1982-01-01':
+        value: null
+      '1981-01-01':
+        value: 2630.0
+      '1980-01-01':
+        value: 2315.0
+      '1979-01-01':
+        value: 2040.0
+      '1978-01-01':
+        value: 1860.0
+      '1977-01-01':
+        value: 1700.0
+    metadata:
+      ipp_csv_id: abt_pers_age2
+      unit:
+        '2001-01-01': currency-EUR
+        '1977-01-01': currency-FRF
+  plafond_ressources_1:
+    description: Plafond de ressources 1
+    values:
+      '2017-01-01':
+        value: 14900.0
+      '2016-01-01':
+        value: 14751.0
+      '2015-01-01':
+        value: 14730.0
+      '2014-01-01':
+        value: 14710.0
+      '2013-01-01':
+        value: 14630.0
+      '2012-01-01':
+        value: 14510.0
+      '2010-01-01':
+        value: 14220.0
+      '2009-01-01':
+        value: 14010.0
+      '2008-01-01':
+        value: 13950.0
+      '2007-01-01':
+        value: 13550.0
+      '2006-01-01':
+        value: 13370.0
+      '2005-01-01':
+        value: 10500.0
+      '2004-01-01':
+        value: 10310.0
+      '2003-01-01':
+        value: 10130.0
+      '2002-01-01':
+        value: 9960.0
+      '2001-01-01':
+        value: 9790.0
+      '2000-01-01':
+        value: 63200.00000000001
+      '1999-01-01':
+        value: 62300.0
+      '1998-01-01':
+        value: 61900.0
+      '1997-01-01':
+        value: 61400.0
+      '1996-01-01':
+        value: 60700.0
+      '1995-01-01':
+        value: 59500.0
+      '1994-01-01':
+        value: 58400.0
+      '1993-01-01':
+        value: 57000.0
+      '1992-01-01':
+        value: 56400.0
+      '1991-01-01':
+        value: 54800.0
+      '1990-01-01':
+        value: 53100.0
+      '1989-01-01':
+        value: null
+      '1988-01-01':
+        value: 49700.0
+      '1987-01-01':
+        value: 48400.0
+      '1986-01-01':
+        value: 46800.0
+      '1985-01-01':
+        value: 45600.0
+      '1984-01-01':
+        value: 43100.0
+      '1982-01-01':
+        value: null
+      '1981-01-01':
+        value: 32500.0
+      '1980-01-01':
+        value: 28600.0
+      '1979-01-01':
+        value: 25200.0
+      '1978-01-01':
+        value: 23000.0
+      '1977-01-01':
+        value: 21000.0
+    metadata:
+      ipp_csv_id: plaf_pers_age1
+      unit:
+        '2001-01-01': currency-EUR
+        '1977-01-01': currency-FRF
   plafond_ressources_2:
     description: Plafond de ressources 2
     values:
@@ -222,9 +482,6 @@ abattement_personnes_agees_65_ans_invalide_4:
       unit:
         '2001-01-01': currency-EUR
         '1977-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond_ressources_2
 abattement_rattachement_enfants_maries:
   description: Abattement pour rattachement d'enfants mariés
   montant:

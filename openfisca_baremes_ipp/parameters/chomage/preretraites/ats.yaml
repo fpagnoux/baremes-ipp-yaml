@@ -39,6 +39,28 @@ metadata:
       \ 1953 l'ont atteint au 1er mars 2015 (61 ans et 2 mois)."
 plafond_ressources:
   description: Plafond de ressources
+  personne_seule:
+    description: Personne seule
+    values:
+      '2015-03-01':
+        value: null
+      '2015-01-01':
+        value: 1684.3200000000002
+      '2014-01-01':
+        value: 1669.44
+      '2013-01-01':
+        value: 1647.84
+      '2012-01-01':
+        value: 1619.52
+      '2011-07-01':
+        value: 1592.6399999999999
+    metadata:
+      ipp_csv_id: solid_plaf_seul
+      unit: currency-EUR
+  metadata:
+    order:
+    - personne_seule
+    - couple
   couple:
     description: Couple
     values:
@@ -57,9 +79,6 @@ plafond_ressources:
     metadata:
       ipp_csv_id: solid_plaf_couple
       unit: currency-EUR
-  metadata:
-    order:
-    - couple
 documentation: |
   Notes :
   Remplace l'AER en juillet 2011.

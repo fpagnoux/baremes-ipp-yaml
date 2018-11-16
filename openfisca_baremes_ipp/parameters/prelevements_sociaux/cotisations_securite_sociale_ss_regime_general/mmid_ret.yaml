@@ -1,6 +1,26 @@
 description: Cotisation spéciale assurance maladie sur les avantages retraite
 avantages_retraite:
   description: Avantages de retraite
+  regime_general:
+    description: Régime général
+    values:
+      '1998-01-01':
+        value: null
+      '1997-01-01':
+        value: 0.028
+      '1996-01-01':
+        value: 0.026
+      '1987-07-01':
+        value: 0.014
+      '1980-07-01':
+        value: 0.01
+    metadata:
+      ipp_csv_id: mmid_ret
+      unit: /1
+  metadata:
+    order:
+    - regime_general
+    - regimes_comp
   regimes_comp:
     description: Régimes comp.
     values:
@@ -17,9 +37,6 @@ avantages_retraite:
     metadata:
       ipp_csv_id: mmid_ret_comp
       unit: /1
-  metadata:
-    order:
-    - regimes_comp
 metadata:
   order:
   - avantages_retraite

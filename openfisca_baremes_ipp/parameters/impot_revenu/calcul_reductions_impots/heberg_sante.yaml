@@ -61,6 +61,20 @@ metadata:
 reductions_impot_depenses_accueil_dans_etablissement_personnes_agees:
   description: Réductions d'impôt pour dépenses d'accueil dans établissement pour
     les personnes âgées
+  taux:
+    description: Taux
+    values:
+      '1989-01-01':
+        value: 0.25
+      '1988-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_hebergante
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -81,9 +95,6 @@ reductions_impot_depenses_accueil_dans_etablissement_personnes_agees:
       unit:
         '2001-01-01': currency-EUR
         '1989-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond
 documentation: |
   Notes :
   (1) Art. 199 quindecies du CGI : Réduction d'impôt accordée au titre de l'hébergement en établissement de long séjour ou en section de cure médicale

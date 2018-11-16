@@ -28,6 +28,140 @@ metadata:
 credit_impot_interets_emprunt_habitation_principale_reforme_sarkozy:
   description: Crédit d'impôt - intérêts d'emprunt pour l'habitation principale (réforme
     Sarkozy)
+  cas_base:
+    description: Cas de base
+    taux_2:
+      description: Taux (2)
+      values:
+        '2008-01-01':
+          value: 0.2
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - taux_2
+      - taux_applique_premiere_annuite_remboursement
+    taux_applique_premiere_annuite_remboursement:
+      description: Taux appliqué à la première annuité de remboursement
+      values:
+        '2008-01-01':
+          value: 0.4
+      metadata:
+        unit: /1
+  metadata:
+    order:
+    - cas_base
+    - logements_performance_energetique_globale_elevee_3
+    - taux_appliques_logements_neufs_construits_acquis_en_2010
+    - taux_appliques_logements_neufs_construits_acquis_en_2011
+    - taux_appliques_logements_neufs_construits_acquis_en_2012
+    - plafond_base
+    - plafond_handicap
+    - majoration_plafond_par_enfant_charge
+  logements_performance_energetique_globale_elevee_3:
+    description: Logements à performance énergétique globale élevée (3)
+    taux_unique:
+      description: Taux unique
+      values:
+        '2009-01-01':
+          value: 0.4
+        '2008-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - taux_unique
+  taux_appliques_logements_neufs_construits_acquis_en_2010:
+    description: Taux appliqués pour les logements neufs construits ou acquis en 2010
+    taux_2:
+      description: Taux (2)
+      values:
+        '2010-01-01':
+          value: 0.15
+        '2008-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - taux_2
+      - taux_applique_premiere_annuite_remboursement
+    taux_applique_premiere_annuite_remboursement:
+      description: Taux appliqué à la première annuité de remboursement
+      values:
+        '2010-01-01':
+          value: 0.3
+        '2008-01-01':
+          value: null
+      metadata:
+        unit: /1
+  taux_appliques_logements_neufs_construits_acquis_en_2011:
+    description: Taux appliqués pour les logements neufs construits ou acquis en 2011
+    taux_2:
+      description: Taux (2)
+      values:
+        '2010-01-01':
+          value: 0.1
+        '2008-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - taux_2
+      - taux_applique_premiere_annuite_remboursement
+    taux_applique_premiere_annuite_remboursement:
+      description: Taux appliqué à la première annuité de remboursement
+      values:
+        '2010-01-01':
+          value: 0.25
+        '2008-01-01':
+          value: null
+      metadata:
+        unit: /1
+  taux_appliques_logements_neufs_construits_acquis_en_2012:
+    description: Taux appliqués pour les logements neufs construits ou acquis en 2012
+    taux_2:
+      description: Taux (2)
+      values:
+        '2011-01-01':
+          value: null
+        '2010-01-01':
+          value: 0.05
+        '2008-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - taux_2
+      - taux_applique_premiere_annuite_remboursement
+    taux_applique_premiere_annuite_remboursement:
+      description: Taux appliqué à la première annuité de remboursement
+      values:
+        '2011-01-01':
+          value: null
+        '2010-01-01':
+          value: 0.15
+        '2008-01-01':
+          value: null
+      metadata:
+        unit: /1
+  plafond_base:
+    description: Plafond de base
+    values:
+      '2008-01-01':
+        value: 3750.0
+    metadata:
+      unit: currency-EUR
+  plafond_handicap:
+    description: Plafond handicap
+    values:
+      '2008-01-01':
+        value: 7500.0
+    metadata:
+      unit: currency-EUR
   majoration_plafond_par_enfant_charge:
     description: Majoration du plafond par enfant à charge
     values:
@@ -35,9 +169,6 @@ credit_impot_interets_emprunt_habitation_principale_reforme_sarkozy:
         value: 500.0
     metadata:
       unit: currency-EUR
-  metadata:
-    order:
-    - majoration_plafond_par_enfant_charge
 documentation: |
   (1) Référence législative : art. 200 quaterdecies du CGI
   (2) Taux appliqué aux intérêts payés au titre des cinq premières annuités de remboursement, à l'exclusion des frais d'emprunt et des cotisations d'assurances contractées en vue de garantir le remboursement des prêts.

@@ -1,6 +1,26 @@
 description: "Allocation de base d'assurance chômage : taux et maximum"
 pourcentage_sjr_en_complement_partie_fixe:
   description: Pourcentage du SJR (en complément de partie fixe)
+  si_affiliation_entre_3_6_mois:
+    description: Si affiliation entre 3-6 mois
+    values:
+      '1992-07-01':
+        value: 0.404
+      '1989-10-01':
+        value: 0.303
+      '1984-04-01':
+        value: 0.3
+      '1979-07-01':
+        value: 0.42
+      '1968-07-22':
+        value: 0.35
+    metadata:
+      ipp_csv_id: base_prct_3_6
+      unit: /1
+  metadata:
+    order:
+    - si_affiliation_entre_3_6_mois
+    - si_affiliation_6_mois
   si_affiliation_6_mois:
     description: Si affiliation > 6 mois
     values:
@@ -15,9 +35,6 @@ pourcentage_sjr_en_complement_partie_fixe:
     metadata:
       ipp_csv_id: base_prct_6_
       unit: /1
-  metadata:
-    order:
-    - si_affiliation_6_mois
 metadata:
   order:
   - pourcentage_sjr_en_complement_partie_fixe

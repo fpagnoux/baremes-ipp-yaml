@@ -1,6 +1,37 @@
 description: Cotisations SS branche maladie, maternité, invalidité, décès MMID (1967-2017)
 salaire_sous_plafond:
   description: Salaire sous plafond
+  salaries:
+    description: Salariés
+    values:
+      '1980-01-01':
+        value: null
+      '1979-01-01':
+        value: 0.01
+      '1976-10-01':
+        value: 0.03
+      '1967-10-01':
+        value: 0.025
+    metadata:
+      ipp_csv_id: mmid_s_0_1
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - reduction_65_ans
+    - employeurs
+  reduction_65_ans:
+    description: Réduction > 65 ans
+    values:
+      '1977-07-01':
+        value: null
+      '1968-07-01':
+        value: 0.01
+      '1967-10-01':
+        value: null
+    metadata:
+      ipp_csv_id: mmid_red65_s_0_1
+      unit: /1
   employeurs:
     description: Employeurs
     values:
@@ -21,9 +52,6 @@ salaire_sous_plafond:
     metadata:
       ipp_csv_id: mmid_p_0_1
       unit: /1
-  metadata:
-    order:
-    - employeurs
 metadata:
   order:
   - salaire_sous_plafond
@@ -78,6 +106,36 @@ metadata:
       à partir de 65 ans.
 tout_salaire:
   description: Sur tout salaire
+  salaries:
+    description: Salariés
+    values:
+      '2018-01-01':
+        value: null
+      '1998-01-01':
+        value: 0.0075
+      '1997-01-01':
+        value: 0.055
+      '1991-07-01':
+        value: 0.068
+      '1987-07-01':
+        value: 0.059
+      '1980-01-01':
+        value: 0.055
+      '1979-08-01':
+        value: 0.045
+      '1979-01-01':
+        value: 0.035
+      '1976-01-01':
+        value: 0.015
+      '1967-10-01':
+        value: 0.01
+    metadata:
+      ipp_csv_id: mmid_s_0_
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
   employeurs:
     description: Employeurs
     values:
@@ -102,9 +160,6 @@ tout_salaire:
     metadata:
       ipp_csv_id: mmid_p_0_
       unit: /1
-  metadata:
-    order:
-    - employeurs
 documentation: |
   Sources :
   Barème social périodique, Législation Cnav et Légifrance.

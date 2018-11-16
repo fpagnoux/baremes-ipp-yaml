@@ -1,6 +1,27 @@
 description: "Prime d'activité (PA) : paramètre pour le calcul du montant"
 majoration_montant_maximal_en_base_rsa:
   description: Majoration montant maximal (en % de la base RSA)
+  couples_seul_avec_enfant:
+    description: Couples ou seul avec un enfant
+    values:
+      '2016-01-01':
+        value: 0.5
+    metadata:
+      ipp_csv_id: pa_maj1
+      unit: /1
+  metadata:
+    order:
+    - couples_seul_avec_enfant
+    - couple_1_enfant_deuxieme_enfant_1
+    - par_enfant_supplementaire
+  couple_1_enfant_deuxieme_enfant_1:
+    description: Couple, 1 enfant - ou pour le deuxième enfant (1)
+    values:
+      '2016-01-01':
+        value: 0.3
+    metadata:
+      ipp_csv_id: pa_maj3
+      unit: /1
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
@@ -9,9 +30,6 @@ majoration_montant_maximal_en_base_rsa:
     metadata:
       ipp_csv_id: pa_maj4
       unit: /1
-  metadata:
-    order:
-    - par_enfant_supplementaire
 metadata:
   order:
   - majoration_montant_maximal_en_base_rsa
@@ -25,6 +43,18 @@ metadata:
     '2016-01-01': '2015-12-22'
 majoration_isolement_en_base_rsa:
   description: Majoration isolement (en % de la base RSA)
+  femmes_enceintes:
+    description: Femmes enceintes
+    values:
+      '2016-01-01':
+        value: 1.28412
+    metadata:
+      ipp_csv_id: pa_maj5
+      unit: /1
+  metadata:
+    order:
+    - femmes_enceintes
+    - par_enfant_charge
   par_enfant_charge:
     description: Par enfant à charge
     values:
@@ -33,9 +63,6 @@ majoration_isolement_en_base_rsa:
     metadata:
       ipp_csv_id: pa_maj6
       unit: /1
-  metadata:
-    order:
-    - par_enfant_charge
 majoration_ressources_revenus_activite:
   description: Majoration des ressources sur les revenus d'activité
   values:
@@ -46,6 +73,27 @@ majoration_ressources_revenus_activite:
     unit: /1
 bonification:
   description: Bonification
+  montant_maximal_bonification_en_base_rsa:
+    description: Montant maximal de la bonification (en % de la base RSA)
+    values:
+      '2016-01-01':
+        value: 0.12782
+    metadata:
+      ipp_csv_id: pa_bonification
+      unit: /1
+  metadata:
+    order:
+    - montant_maximal_bonification_en_base_rsa
+    - seuil_salaire_minimum_beneficier_bonification_en_multiple_smic_horaire_brut
+    - seuil_salaire_beneficier_bonification_maximale_en_multiple_smic_horaire_brut
+  seuil_salaire_minimum_beneficier_bonification_en_multiple_smic_horaire_brut:
+    description: Seuil de salaire minimum pour bénéficier de la bonification (en multiple
+      du smic horaire brut)
+    values:
+      '2016-01-01':
+        value: 59.0
+    metadata:
+      ipp_csv_id: pa_seuil_min
   seuil_salaire_beneficier_bonification_maximale_en_multiple_smic_horaire_brut:
     description: Seuil de salaire pour bénéficier de la bonification maximale (en
       multiple du smic horaire brut)
@@ -54,9 +102,6 @@ bonification:
         value: 95.0
     metadata:
       ipp_csv_id: pa_seuil_max
-  metadata:
-    order:
-    - seuil_salaire_beneficier_bonification_maximale_en_multiple_smic_horaire_brut
 montant_minimum_verse:
   description: Montant minimum versé
   values:

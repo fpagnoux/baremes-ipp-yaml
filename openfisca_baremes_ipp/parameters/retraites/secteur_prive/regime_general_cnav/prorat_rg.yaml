@@ -2,6 +2,99 @@ description: Durée d'assurance maximale pour le coefficient de proratisation
 nombre_trimestres_maximal_pris_en_compte_proratisation_par_generation:
   description: Nombre de trimestres maximal pris en compte pour la proratisation,
     par génération
+  avant_1944:
+    description: Avant 1944
+    values:
+      '1972-01-01':
+        value: 150.0
+      '1946-01-01':
+        value: 120.0
+    metadata:
+      ipp_csv_id: nbtrim_base
+  metadata:
+    order:
+    - avant_1944
+    - '1944_01_01_00_00_00'
+    - '1945_01_01_00_00_00'
+    - '1946_01_01_00_00_00'
+    - '1947_01_01_00_00_00'
+    - '1948_01_01_00_00_00'
+    - '1949_01_01_00_00_00'
+    - '1950_01_01_00_00_00'
+    - '1951_01_01_00_00_00'
+    - '1952_01_01_00_00_00'
+  '1944_01_01_00_00_00':
+    description: '1944-01-01 00:00:00'
+    values:
+      '2004-01-01':
+        value: 152.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0144
+  '1945_01_01_00_00_00':
+    description: '1945-01-01 00:00:00'
+    values:
+      '2004-01-01':
+        value: 154.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0145
+  '1946_01_01_00_00_00':
+    description: '1946-01-01 00:00:00'
+    values:
+      '2004-01-01':
+        value: 156.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0146
+  '1947_01_01_00_00_00':
+    description: '1947-01-01 00:00:00'
+    values:
+      '2004-01-01':
+        value: 158.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0147
+  '1948_01_01_00_00_00':
+    description: '1948-01-01 00:00:00'
+    values:
+      '2004-01-01':
+        value: 160.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0148
+  '1949_01_01_00_00_00':
+    description: '1949-01-01 00:00:00'
+    values:
+      '2009-01-01':
+        value: 161.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0149
+  '1950_01_01_00_00_00':
+    description: '1950-01-01 00:00:00'
+    values:
+      '2009-01-01':
+        value: 162.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0150
+  '1951_01_01_00_00_00':
+    description: '1951-01-01 00:00:00'
+    values:
+      '2009-01-01':
+        value: 163.0
+      '1946-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbtrim_0151
   '1952_01_01_00_00_00':
     description: '1952-01-01 00:00:00'
     values:
@@ -11,9 +104,6 @@ nombre_trimestres_maximal_pris_en_compte_proratisation_par_generation:
         value: null
     metadata:
       ipp_csv_id: nbtrim_0152
-  metadata:
-    order:
-    - '1952_01_01_00_00_00'
 metadata:
   order:
   - nombre_trimestres_maximal_pris_en_compte_proratisation_par_generation

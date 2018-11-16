@@ -2,6 +2,18 @@ description: Cotisations au régime de Retraite additionnelle de la fonction pub
   (RAFP)
 taux_cotisation:
   description: Taux de cotisation
+  agent:
+    description: Agent
+    values:
+      '2005-01-01':
+        value: 0.05
+    metadata:
+      ipp_csv_id: rafp_s
+      unit: /1
+  metadata:
+    order:
+    - agent
+    - etat
   etat:
     description: Etat
     values:
@@ -10,9 +22,6 @@ taux_cotisation:
     metadata:
       ipp_csv_id: rafp_p
       unit: /1
-  metadata:
-    order:
-    - etat
 metadata:
   order:
   - taux_cotisation

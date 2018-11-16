@@ -1,8 +1,76 @@
 description: Cotisations du régime de la SNCF
 regime_retraite:
   description: Régime de retraite
+  cotisations_employes:
+    description: Cotisations employés
+    values:
+      '2026-01-01':
+        value: 0.1095
+      '2025-01-01':
+        value: 0.1068
+      '2024-01-01':
+        value: 0.1041
+      '2023-01-01':
+        value: 0.1014
+      '2022-01-01':
+        value: 0.0987
+      '2021-01-01':
+        value: 0.096
+      '2020-01-01':
+        value: 0.0933
+      '2019-01-01':
+        value: 0.0906
+      '2018-01-01':
+        value: 0.0879
+      '2017-01-01':
+        value: 0.0852
+      '2016-01-01':
+        value: 0.082
+      '2015-01-01':
+        value: 0.0815
+      '2014-01-01':
+        value: 0.0805
+      '2007-01-01':
+        value: 0.0785
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - cotisations_employes
+    - cotisations_employeur
   cotisations_employeur:
     description: Cotisations employeur
+    t1:
+      description: T1
+      values:
+        '2018-01-01':
+          value: null
+        '2017-01-01':
+          value: 0.2382
+        '2015-01-01':
+          value: 0.2386
+        '2014-01-01':
+          value: 0.236
+        '2013-01-01':
+          value: 0.2319
+        '2012-01-01':
+          value: 0.2291
+        '2011-01-01':
+          value: 0.2246
+        '2010-01-01':
+          value: 0.2216
+        '2009-01-01':
+          value: 0.2244
+        '2008-01-01':
+          value: 0.2256
+        '2007-01-01':
+          value: 0.2252
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - t1
+      - t2
     t2:
       description: T2
       values:
@@ -32,12 +100,6 @@ regime_retraite:
           value: 0.1196
       metadata:
         unit: /1
-    metadata:
-      order:
-      - t2
-  metadata:
-    order:
-    - cotisations_employeur
 metadata:
   order:
   - regime_retraite
@@ -128,6 +190,19 @@ metadata:
     '2013-01-01': Lettre ministérielle citée par les Comptes combinés 2013 de l'ACOSS
 regime_prevoyance:
   description: Régime prévoyance
+  salaries:
+    description: Salariés
+    values:
+      '2018-01-01':
+        value: null
+      '2007-01-01':
+        value: 0.0015
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
   employeurs:
     description: Employeurs
     values:
@@ -137,9 +212,6 @@ regime_prevoyance:
         value: 0.096
     metadata:
       unit: /1
-  metadata:
-    order:
-    - employeurs
 documentation: |
   Sources :
   Chiffres clés du régime CPRPSNCF 2008-2015.

@@ -87,6 +87,89 @@ metadata:
       Le contribuable doit choisir entre la réduction d'impôt pour l'emploi d'un salarié travaillant à la résidence d'un ascendant et le bénéfice des dispositions relatives aux pensions alimentaires, pour la pension versée à ce même ascendant. Le choix effectué en faveur de la réduction d'impôt entraîne renonciation à la déduction de l'ensemble des sommes versées à titre de pension alimentaire pour un même ascendant et non pas seulement à la fraction relative aux frais d'emploi du salarié à domicile.
 emploi_salarie_domicile:
   description: Emploi d'un salarié à domicile
+  taux:
+    description: Taux
+    values:
+      '1991-01-01':
+        value: 0.5
+      '1990-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: txsaldomicile
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
+    - increment_plafond
+    - plafond_maximum
+    - plafond_premiere_annee_emploi_salarie_domicile
+    - plafond_maximum_premiere_annee_emploi_salarie_domicile
+    - plafond_invalides
+  plafond:
+    description: Plafond
+    values:
+      '2005-01-01':
+        value: 12000.0
+      '2003-01-01':
+        value: 10000.0
+      '2002-01-01':
+        value: 7400.0
+      '2001-01-01':
+        value: 6900.0
+      '1997-01-01':
+        value: 45000.0
+      '1995-01-01':
+        value: 90000.0
+      '1993-01-01':
+        value: 26000.0
+      '1991-01-01':
+        value: 25000.0
+      '1990-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plafsaldomicile
+      unit:
+        '2001-01-01': currency-EUR
+        '1991-01-01': currency-FRF
+  increment_plafond:
+    description: Increment du plafond
+    values:
+      '2005-01-01':
+        value: 1500.0
+      '1990-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: increment_plafsaldomicile
+      unit: currency-EUR
+  plafond_maximum:
+    description: Plafond maximum
+    values:
+      '2005-01-01':
+        value: 15000.0
+      '1990-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: superplafsaldom
+      unit: currency-EUR
+  plafond_premiere_annee_emploi_salarie_domicile:
+    description: Plafond la première année de l'emploi d'un salarié à domicile
+    values:
+      '2008-01-01':
+        value: 15000.0
+      '1990-01-01':
+        value: null
+    metadata:
+      unit: currency-EUR
+  plafond_maximum_premiere_annee_emploi_salarie_domicile:
+    description: Plafond maximum la première année de l'emploi d'un salarié à domicile
+    values:
+      '2008-01-01':
+        value: 18000.0
+      '1990-01-01':
+        value: null
+    metadata:
+      unit: currency-EUR
   plafond_invalides:
     description: Plafond pour invalides
     values:
@@ -103,9 +186,6 @@ emploi_salarie_domicile:
       unit:
         '2001-01-01': currency-EUR
         '1997-01-01': currency-FRF
-  metadata:
-    order:
-    - plafond_invalides
 documentation: |
   Notes :
   (1) Dépenses de services à la personne à domicile : art. 199 sexdecies du CGI

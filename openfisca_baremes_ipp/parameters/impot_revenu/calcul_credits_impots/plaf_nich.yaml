@@ -37,6 +37,45 @@ metadata:
       au capital de SOFICA
 plafonnement_niches:
   description: Plafonnement des niches
+  taux:
+    description: Taux
+    values:
+      '2013-01-01':
+        value: null
+      '2012-01-01':
+        value: 0.04
+      '2011-01-01':
+        value: 0.06
+      '2010-01-01':
+        value: 0.08
+      '2009-01-01':
+        value: 0.1
+      '2008-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_nich
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond_1
+    - majoration
+  plafond_1:
+    description: Plafond 1
+    values:
+      '2013-01-01':
+        value: 10000.0
+      '2011-01-01':
+        value: 18000.0
+      '2010-01-01':
+        value: 20000.0
+      '2009-01-01':
+        value: 25000.0
+      '2008-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: plaf_nich
+      unit: currency-EUR
   majoration:
     description: Majoration
     values:
@@ -47,9 +86,6 @@ plafonnement_niches:
     metadata:
       ipp_csv_id: majo_nich
       unit: currency-EUR
-  metadata:
-    order:
-    - majoration
 documentation: |
   Notes :
   (1) Art. 200-0 A du CGI

@@ -2,6 +2,96 @@ description: Cotisations à la Caisse nationale de retraite des agents des colle
   locales (CNRACL)
 cnracl:
   description: CNRACL
+  agents:
+    description: Agents
+    hors_nbi:
+      description: Hors NBI
+      values:
+        '2020-01-01':
+          value: 0.111
+        '2019-01-01':
+          value: 0.1083
+        '2018-01-01':
+          value: 0.1056
+        '2017-01-01':
+          value: 0.1029
+        '2016-01-01':
+          value: 0.0994
+        '2015-01-01':
+          value: 0.0954
+        '2014-01-01':
+          value: 0.0914
+        '2013-01-01':
+          value: 0.0876
+        '2012-11-01':
+          value: 0.0849
+        '2012-01-01':
+          value: 0.0839
+        '2011-01-01':
+          value: 0.0812
+        '1991-02-01':
+          value: 0.0785
+        '1989-01-01':
+          value: 0.089
+        '1987-07-01':
+          value: 0.079
+        '1986-08-01':
+          value: 0.077
+        '1984-01-01':
+          value: 0.07
+        '1947-09-19':
+          value: 0.06
+      metadata:
+        ipp_csv_id: cnracl_s_ti
+        unit: /1
+    metadata:
+      order:
+      - hors_nbi
+      - nbi
+    nbi:
+      description: NBI
+      values:
+        '2020-01-01':
+          value: 0.1086
+        '2019-01-01':
+          value: 0.1083
+        '2018-01-01':
+          value: 0.1056
+        '2017-01-01':
+          value: 0.1029
+        '2016-01-01':
+          value: 0.0994
+        '2015-01-01':
+          value: 0.0954
+        '2014-01-01':
+          value: 0.0914
+        '2013-01-01':
+          value: 0.0876
+        '2012-11-01':
+          value: 0.0849
+        '2012-01-01':
+          value: 0.0839
+        '2011-02-21':
+          value: 0.0812
+        '1991-02-01':
+          value: 0.0785
+        '1989-01-01':
+          value: 0.089
+        '1987-07-01':
+          value: 0.079
+        '1986-08-01':
+          value: 0.077
+        '1984-01-01':
+          value: 0.07
+        '1947-09-19':
+          value: 0.06
+      metadata:
+        ipp_csv_id: cnracl_s_nbi
+        unit: /1
+  metadata:
+    order:
+    - agents
+    - employeurs
   employeurs:
     description: Employeurs
     values:
@@ -68,9 +158,6 @@ cnracl:
     metadata:
       ipp_csv_id: cnracl_p
       unit: /1
-  metadata:
-    order:
-    - employeurs
 metadata:
   order:
   - cnracl

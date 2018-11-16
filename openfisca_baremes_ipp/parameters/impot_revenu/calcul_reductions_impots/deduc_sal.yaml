@@ -42,6 +42,26 @@ metadata:
       des revenus 2012
 reduction_impot_cotisations_syndicales:
   description: Réduction d'impôt pour cotisations syndicales
+  taux:
+    description: Taux
+    values:
+      '2005-01-01':
+        value: 0.66
+      '2001-01-01':
+        value: 0.5
+      '1991-01-01':
+        value: 0.3
+      '1988-01-01':
+        value: 0.2
+      '1987-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_cotsynd
+      unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
   plafond:
     description: Plafond
     values:
@@ -52,9 +72,6 @@ reduction_impot_cotisations_syndicales:
     metadata:
       ipp_csv_id: plafcotsynd
       unit: /1
-  metadata:
-    order:
-    - plafond
 documentation: |
   Notes :
   (1) Cotisations syndicales : art. 199 quater C du CGI 

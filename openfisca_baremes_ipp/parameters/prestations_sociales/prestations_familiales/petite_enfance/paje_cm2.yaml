@@ -2,6 +2,20 @@ description: "Prestation d'accueil du jeune enfant (PAJE) - Prime à la naissanc
   \ à l'adoption : conditions et montants"
 montant_en_bmaf:
   description: Montant (en % de la BMAF)
+  prime_naissance_paje_1:
+    description: |-
+      Prime à la naissance de la PAJE
+      (1)
+    values:
+      '2004-01-01':
+        value: 2.2975
+    metadata:
+      ipp_csv_id: tx_paje_naiss
+      unit: /1
+  metadata:
+    order:
+    - prime_naissance_paje_1
+    - prime_adoption_paje_2
   prime_adoption_paje_2:
     description: |-
       Prime à l'adoption de la PAJE
@@ -14,9 +28,6 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: tx_paje_adopt
       unit: /1
-  metadata:
-    order:
-    - prime_adoption_paje_2
 metadata:
   order:
   - montant_en_bmaf

@@ -86,6 +86,57 @@ metadata:
       2004 à décembre 2006 inclus (cf. art. 60, VIII de la loi 2003-1199)'
 majoration_en_eur_en_plafond_ressources_avec_0_enfant:
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant)
+  biactifs_parents_isoles_1:
+    description: |-
+      Biactifs et parents isolés
+      (1)
+    values:
+      '2018-01-01':
+        value: null
+      '2016-01-01':
+        value: 11534.0
+      '2015-01-01':
+        value: 11488.0
+      '2014-01-01':
+        value: 11408.0
+      '2013-01-01':
+        value: 11195.0
+      '2012-01-01':
+        value: 10965.0
+      '2011-01-01':
+        value: 10856.0
+      '2010-01-01':
+        value: 10845.0
+      '2009-01-01':
+        value: 10550.0
+      '2007-07-01':
+        value: 10394.0
+      '2006-07-01':
+        value: 8176.0
+      '2005-07-01':
+        value: 8039.0
+      '2004-07-01':
+        value: 7905.0
+      '2004-01-01':
+        value: 7758.0
+    metadata:
+      ipp_csv_id: maj_plaf_paje_bi
+      unit: currency-EUR
+  metadata:
+    order:
+    - biactifs_parents_isoles_1
+    - 1er_2eme_enfant
+    - 3eme_enfant_plus
+  1er_2eme_enfant:
+    description: 1er et 2ème enfant
+    values:
+      '2018-01-01':
+        value: null
+      '2004-01-01':
+        value: 0.25
+    metadata:
+      ipp_csv_id: maj_plaf_paje_enf1et2
+      unit: /1
   3eme_enfant_plus:
     description: 3ème enfant et plus
     values:
@@ -96,9 +147,6 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
     metadata:
       ipp_csv_id: maj_plaf_paje_enf3pl
       unit: /1
-  metadata:
-    order:
-    - 3eme_enfant_plus
 deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_partiel:
   description: Deuxième plafond (né ou adopté après le 1er avril 2014) - Taux partiel
   plafond_ressources_0_enfant:
@@ -123,6 +171,28 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_partiel:
 majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_partiel:
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né
     ou adopté avant le 1er après 2014)- Taux partiel
+  biactifs_parents_isoles_1:
+    description: |-
+      Biactifs et parents isolés
+      (1)
+    values:
+      '2018-01-01':
+        value: 9722.0
+      '2016-01-01':
+        value: 9703.0
+      '2015-01-01':
+        value: 9664.0
+      '2014-04-01':
+        value: 9597.0
+      '2004-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: maj_plaf_paje_bi_2
+      unit: currency-EUR
+  metadata:
+    order:
+    - biactifs_parents_isoles_1
+    - majoration_enfant_supplementaire
   majoration_enfant_supplementaire:
     description: Majoration pour enfant supplémentaire
     values:
@@ -133,9 +203,6 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
     metadata:
       ipp_csv_id: maj_plaf_paje_enf_2
       unit: /1
-  metadata:
-    order:
-    - majoration_enfant_supplementaire
 deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein:
   description: Deuxième plafond (né ou adopté après le 1er avril 2014) - Taux plein
   plafond_ressources_0_enfant:
@@ -160,6 +227,28 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein:
 majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_plein:
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né
     ou adopté avant le 1er après 2014) - Taux plein
+  biactifs_parents_isoles_1:
+    description: |-
+      Biactifs et parents isolés
+      (1)
+    values:
+      '2018-01-01':
+        value: 8137.0
+      '2016-01-01':
+        value: 8121.0
+      '2015-01-01':
+        value: 8089.0
+      '2014-04-01':
+        value: 8033.0
+      '2004-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: maj_plaf_paje_bi_2_tx_plein
+      unit: currency-EUR
+  metadata:
+    order:
+    - biactifs_parents_isoles_1
+    - majoration_enfant_supplementaire
   majoration_enfant_supplementaire:
     description: Majoration pour enfant supplémentaire
     values:
@@ -170,9 +259,6 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
     metadata:
       ipp_csv_id: maj_plaf_paje_enf_2_tx_plein
       unit: /1
-  metadata:
-    order:
-    - majoration_enfant_supplementaire
 documentation: |
   Notes :
   (1) Définition biactifs : cf. feuille "def_biactif"

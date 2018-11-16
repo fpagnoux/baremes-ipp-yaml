@@ -86,8 +86,99 @@ metadata:
       \ 6% à la charge de l'employeur\" (p.71 de I/1976)"
 taux_contractuels:
   description: Taux contractuels
+  tranche_b_entre_1_4_pss:
+    description: Tranche B (entre 1 et 4 PSS)
+    entreprises_avant_01_01_1981:
+      description: Entreprises avant 01/01/1981
+      values:
+        '2015-01-01':
+          value: 0.1644
+        '2014-01-01':
+          value: 0.1634
+        '2006-01-01':
+          value: 0.1624
+        '1999-01-01':
+          value: 0.16
+        '1998-01-01':
+          value: 0.15
+        '1997-01-01':
+          value: 0.14
+        '1996-01-01':
+          value: 0.13
+        '1995-01-01':
+          value: 0.12
+        '1994-01-01':
+          value: 0.1
+        '1948-01-01':
+          value: 0.08
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
+    entreprises_apres_01_01_1981:
+      description: Entreprises après 01/01/1981
+      values:
+        '2015-01-01':
+          value: 0.1644
+        '2014-01-01':
+          value: 0.1634
+        '2006-01-01':
+          value: 0.1624
+        '1999-01-01':
+          value: 0.16
+        '1998-01-01':
+          value: 0.15
+        '1997-01-01':
+          value: 0.14
+        '1996-01-01':
+          value: 0.13
+        '1983-01-01':
+          value: 0.12
+        '1981-01-01':
+          value: 0.08
+        '1948-01-01':
+          value: null
+      metadata:
+        unit: /1
+  metadata:
+    order:
+    - tranche_b_entre_1_4_pss
+    - tranche_c_entre_4_8_pss
   tranche_c_entre_4_8_pss:
     description: Tranche C (entre 4 et 8 PSS)
+    entreprises_avant_01_01_1981:
+      description: Entreprises avant 01/01/1981
+      values:
+        '2015-01-01':
+          value: 0.1644
+        '2014-01-01':
+          value: 0.1634
+        '2006-01-01':
+          value: 0.1624
+        '1999-01-01':
+          value: 0.16
+        '1998-01-01':
+          value: 0.15
+        '1997-01-01':
+          value: 0.14
+        '1996-01-01':
+          value: 0.13
+        '1995-01-01':
+          value: 0.12
+        '1994-01-01':
+          value: 0.1
+        '1991-01-01':
+          value: 0.08
+        '1948-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
     entreprises_apres_01_01_1981:
       description: Entreprises après 01/01/1981
       values:
@@ -113,16 +204,135 @@ taux_contractuels:
           value: null
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_apres_01_01_1981
-  metadata:
-    order:
-    - tranche_c_entre_4_8_pss
 taux_effectifs:
   description: Taux effectifs
+  tranche_b_entre_1_4_pss:
+    description: Tranche B (entre 1 et 4 PSS)
+    entreprises_avant_01_01_1981:
+      description: Entreprises avant 01/01/1981
+      values:
+        '2015-01-01':
+          value: 0.2055
+        '2014-01-01':
+          value: 0.20425
+        '2006-01-01':
+          value: 0.20299999999999999
+        '1999-01-01':
+          value: 0.2
+        '1998-01-01':
+          value: 0.1875
+        '1997-01-01':
+          value: 0.17500000000000002
+        '1996-01-01':
+          value: 0.1625
+        '1995-01-01':
+          value: 0.15
+        '1994-01-01':
+          value: 0.121
+        '1990-01-01':
+          value: 0.0936
+        '1989-01-01':
+          value: 0.09072
+        '1987-01-01':
+          value: 0.08800000000000001
+        '1986-01-01':
+          value: 0.0848
+        '1979-01-01':
+          value: 0.0824
+        '1966-01-01':
+          value: 0.08
+        '1965-01-01':
+          value: 0.076
+        '1961-01-01':
+          value: 0.07200000000000001
+        '1955-01-01':
+          value: 0.068
+        '1953-01-01':
+          value: 0.064
+        '1952-01-01':
+          value: 0.062400000000000004
+        '1948-01-01':
+          value: 0.08
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
+    entreprises_apres_01_01_1981:
+      description: Entreprises après 01/01/1981
+      values:
+        '2015-01-01':
+          value: 0.2055
+        '2014-01-01':
+          value: 0.20425
+        '2006-01-01':
+          value: 0.20299999999999999
+        '1999-01-01':
+          value: 0.2
+        '1998-01-01':
+          value: 0.1875
+        '1997-01-01':
+          value: 0.17500000000000002
+        '1996-01-01':
+          value: 0.1625
+        '1995-01-01':
+          value: 0.15
+        '1994-01-01':
+          value: 0.1452
+        '1990-01-01':
+          value: 0.1404
+        '1989-01-01':
+          value: 0.13607999999999998
+        '1987-01-01':
+          value: 0.132
+        '1986-01-01':
+          value: 0.1272
+        '1983-01-01':
+          value: 0.1236
+        '1981-01-01':
+          value: 0.0824
+        '1948-01-01':
+          value: null
+      metadata:
+        unit: /1
+  metadata:
+    order:
+    - tranche_b_entre_1_4_pss
+    - tranche_c_entre_4_8_pss
   tranche_c_entre_4_8_pss:
     description: Tranche C (entre 4 et 8 PSS)
+    entreprises_avant_01_01_1981:
+      description: Entreprises avant 01/01/1981
+      values:
+        '2015-01-01':
+          value: 0.2055
+        '2014-01-01':
+          value: 0.20425
+        '2006-01-01':
+          value: 0.20299999999999999
+        '1999-01-01':
+          value: 0.2
+        '1998-01-01':
+          value: 0.1875
+        '1997-01-01':
+          value: 0.17500000000000002
+        '1996-01-01':
+          value: 0.1625
+        '1995-01-01':
+          value: 0.15
+        '1994-01-01':
+          value: 0.121
+        '1991-01-01':
+          value: 0.0936
+        '1948-01-01':
+          value: null
+      metadata:
+        unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
     entreprises_apres_01_01_1981:
       description: Entreprises après 01/01/1981
       values:
@@ -150,16 +360,270 @@ taux_effectifs:
           value: null
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_apres_01_01_1981
-  metadata:
-    order:
-    - tranche_c_entre_4_8_pss
 taux_effectifs_salaries_employeurs:
   description: Taux effectifs (salariés/employeurs)
+  tranche_b_avant_81:
+    description: Tranche B (avant 81)
+    salarie:
+      description: Salarié
+      values:
+        '2015-01-01':
+          value: 0.078
+        '2014-01-01':
+          value: 0.0775
+        '2006-01-01':
+          value: 0.077
+        '1999-01-01':
+          value: 0.075
+        '1998-01-01':
+          value: 0.06875
+        '1997-01-01':
+          value: 0.0625
+        '1996-01-01':
+          value: 0.05625
+        '1995-01-01':
+          value: 0.05
+        '1994-01-01':
+          value: 0.0363
+        '1990-01-01':
+          value: 0.0234
+        '1989-01-01':
+          value: 0.02268
+        '1987-01-01':
+          value: 0.022
+        '1986-01-01':
+          value: 0.0212
+        '1979-01-01':
+          value: 0.0206
+        '1966-01-01':
+          value: 0.02
+        '1965-01-01':
+          value: 0.019
+        '1961-01-01':
+          value: 0.018000000000000002
+        '1955-01-01':
+          value: 0.017
+        '1953-01-01':
+          value: 0.016
+        '1952-01-01':
+          value: 0.015600000000000001
+        '1948-01-01':
+          value: 0.02
+      metadata:
+        ipp_csv_id: agirc_s_1_4
+        unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
+    employeur:
+      description: Employeur
+      values:
+        '2015-01-01':
+          value: 0.1275
+        '2014-01-01':
+          value: 0.1268
+        '2006-01-01':
+          value: 0.126
+        '1999-01-01':
+          value: 0.125
+        '1998-01-01':
+          value: 0.11875
+        '1997-01-01':
+          value: 0.1125
+        '1996-01-01':
+          value: 0.10625
+        '1995-01-01':
+          value: 0.1
+        '1994-01-01':
+          value: 0.0843
+        '1990-01-01':
+          value: 0.0702
+        '1989-01-01':
+          value: 0.06804
+        '1987-01-01':
+          value: 0.066
+        '1986-01-01':
+          value: 0.0636
+        '1979-01-01':
+          value: 0.0618
+        '1966-01-01':
+          value: 0.06
+        '1965-01-01':
+          value: 0.056999999999999995
+        '1961-01-01':
+          value: 0.054
+        '1955-01-01':
+          value: 0.051
+        '1953-01-01':
+          value: 0.048
+        '1952-01-01':
+          value: 0.0468
+        '1948-01-01':
+          value: 0.06
+      metadata:
+        ipp_csv_id: agirc_p_1_4
+        unit: /1
+  metadata:
+    order:
+    - tranche_b_avant_81
+    - tranche_b_depuis_81
+    - tranche_c_avant_81
+    - tranche_c_apres_81
+  tranche_b_depuis_81:
+    description: Tranche B (depuis 81)
+    salarie:
+      description: Salarié
+      values:
+        '1996-01-01':
+          value: null
+        '1995-01-01':
+          value: 0.05
+        '1994-01-01':
+          value: 0.0484
+        '1990-01-01':
+          value: 0.0468
+        '1989-01-01':
+          value: 0.04536
+        '1987-01-01':
+          value: 0.044
+        '1986-01-01':
+          value: 0.0424
+        '1983-01-01':
+          value: 0.0412
+        '1981-01-01':
+          value: 0.0206
+        '1948-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: agirc81_s_1_4
+        unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
+    employeur:
+      description: Employeur
+      values:
+        '1996-01-01':
+          value: null
+        '1995-01-01':
+          value: 0.1
+        '1994-01-01':
+          value: 0.0968
+        '1990-01-01':
+          value: 0.0936
+        '1989-01-01':
+          value: 0.09072
+        '1987-01-01':
+          value: 0.088
+        '1986-01-01':
+          value: 0.0848
+        '1983-01-01':
+          value: 0.0824
+        '1981-01-01':
+          value: 0.0618
+        '1948-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: agirc81_p_1_4
+        unit: /1
+  tranche_c_avant_81:
+    description: Tranche C (avant 81)
+    salarie:
+      description: Salarié
+      values:
+        '2015-01-01':
+          value: 0.078
+        '2014-01-01':
+          value: 0.0775
+        '2006-01-01':
+          value: 0.077
+        '1999-01-01':
+          value: 0.075
+        '1998-01-01':
+          value: 0.06875
+        '1997-01-01':
+          value: 0.0625
+        '1996-01-01':
+          value: 0.05625
+        '1995-01-01':
+          value: 0.05
+        '1994-01-01':
+          value: 0.0363
+        '1991-01-01':
+          value: 0.0234
+        '1948-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: agirc_s_4_8
+        unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
+    employeur:
+      description: Employeur
+      values:
+        '2015-01-01':
+          value: 0.1275
+        '2014-01-01':
+          value: 0.1268
+        '2006-01-01':
+          value: 0.126
+        '1999-01-01':
+          value: 0.125
+        '1998-01-01':
+          value: 0.11875
+        '1997-01-01':
+          value: 0.1125
+        '1996-01-01':
+          value: 0.10625
+        '1995-01-01':
+          value: 0.1
+        '1994-01-01':
+          value: 0.0843
+        '1991-01-01':
+          value: 0.0702
+        '1948-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: agirc_p_4_8
+        unit: /1
   tranche_c_apres_81:
     description: Tranche C (après 81)
+    salarie:
+      description: Salarié
+      values:
+        '2015-01-01':
+          value: 0.078
+        '2014-01-01':
+          value: 0.0775
+        '2006-01-01':
+          value: 0.077
+        '1999-01-01':
+          value: 0.075
+        '1998-01-01':
+          value: 0.06875
+        '1997-01-01':
+          value: 0.0625
+        '1996-01-01':
+          value: 0.05625
+        '1995-01-01':
+          value: 0.05
+        '1994-01-01':
+          value: 0.0363
+        '1991-01-01':
+          value: 0.0234
+        '1948-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: agirc81_s_4_8
+        unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
     employeur:
       description: Employeur
       values:
@@ -188,12 +652,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc81_p_4_8
         unit: /1
-    metadata:
-      order:
-      - employeur
-  metadata:
-    order:
-    - tranche_c_apres_81
 documentation: |
   Notes :
   Les taux contractuels définissent les points de retraite acquis par les cotisations. Les taux d'appel appliqués aux taux contractuels définissent les taux effectifs.

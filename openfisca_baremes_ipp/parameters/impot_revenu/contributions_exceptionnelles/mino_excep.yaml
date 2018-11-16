@@ -60,6 +60,274 @@ metadata:
     '1966-01-01': de 5% si revenu<45000 à 2% si revenu>50000 mais <55000
 minorations_exceptionnelles_impot:
   description: Minorations exceptionnelles d'impôt
+  taux_1:
+    description: Taux 1
+    values:
+      '1993-01-01':
+        value: null
+      '1986-01-01':
+        value: 0.11
+      '1985-01-01':
+        value: 0.08
+      '1984-01-01':
+        value: 0.05
+      '1973-01-01':
+        value: null
+      '1968-01-01':
+        value: 0.15
+      '1967-01-01':
+        value: 0.1
+      '1966-01-01':
+        value: 0.05
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_min1
+      unit: /1
+  metadata:
+    order:
+    - taux_1
+    - taux_3
+    - taux_5
+    - formule_calcul_seuil_2
+    - formule_calcul_seuil_4
+    - formule_calcul_taux_en_impot
+    - seuil_impot_1
+    - seuil_impot_2
+    - seuil_impot_3
+    - seuil_impot_4
+    - seuil_impot_5
+    - seuil_superieur_revenu_imposable_par_part
+  taux_3:
+    description: Taux 3
+    values:
+      '1993-01-01':
+        value: null
+      '1986-01-01':
+        value: 0.06
+      '1985-01-01':
+        value: 0.03
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_min3
+      unit: /1
+  taux_5:
+    description: Taux 5
+    values:
+      '1993-01-01':
+        value: null
+      '1986-01-01':
+        value: 0.03
+      '1973-01-01':
+        value: null
+      '1968-01-01':
+        value: 0.02
+      '1967-01-01':
+        value: 0.05
+      '1966-01-01':
+        value: 0.02
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_min5
+      unit: /1
+  formule_calcul_seuil_2:
+    description: |-
+      Formule de calcul:
+      Seuil 2
+    values:
+      '1993-01-01':
+        value: null
+      '1992-01-01':
+        value: 6745.0
+      '1991-01-01':
+        value: 6560.0
+      '1990-01-01':
+        value: 6370.0
+      '1989-01-01':
+        value: 6170.0
+      '1988-01-01':
+        value: 5970.0
+      '1986-01-01':
+        value: 5820.0
+      '1985-01-01':
+        value: 5680.0
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: param_mins2
+      unit: currency-FRF
+  formule_calcul_seuil_4:
+    description: |-
+      Formule de calcul:
+      Seuil 4
+    values:
+      '1993-01-01':
+        value: null
+      '1992-01-01':
+        value: 8090.0
+      '1991-01-01':
+        value: 7870.0
+      '1990-01-01':
+        value: 7640.0
+      '1989-01-01':
+        value: 7400.0
+      '1988-01-01':
+        value: 7160.0
+      '1986-01-01':
+        value: 6980.0
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: param_mins4
+      unit: currency-FRF
+  formule_calcul_taux_en_impot:
+    description: |-
+      Formule de calcul:
+      taux (en % de l'impot)
+    values:
+      '1993-01-01':
+        value: null
+      '1986-01-01':
+        value: 0.14
+      '1985-01-01':
+        value: 0.17
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: param_mintx
+      unit: /1
+  seuil_impot_1:
+    description: Seuil d'impot 1
+    values:
+      '1993-01-01':
+        value: null
+      '1984-01-01':
+        value: 0.0
+      '1973-01-01':
+        value: null
+      '1966-01-01':
+        value: 0.0
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_min1
+      unit: currency-FRF
+  seuil_impot_2:
+    description: Seuil d'impot 2
+    values:
+      '1993-01-01':
+        value: null
+      '1992-01-01':
+        value: 26990.0
+      '1991-01-01':
+        value: 26250.0
+      '1990-01-01':
+        value: 25480.0
+      '1989-01-01':
+        value: 24680.0
+      '1988-01-01':
+        value: 23890.0
+      '1986-01-01':
+        value: 23280.0
+      '1985-01-01':
+        value: 22730.0
+      '1984-01-01':
+        value: 21520.0
+      '1973-01-01':
+        value: null
+      '1968-01-01':
+        value: 1000.0
+      '1966-01-01':
+        value: 45000.0
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_min2
+      unit: currency-FRF
+  seuil_impot_3:
+    description: Seuil d'impot 3
+    values:
+      '1993-01-01':
+        value: null
+      '1992-01-01':
+        value: 33710.0
+      '1991-01-01':
+        value: 32790.0
+      '1990-01-01':
+        value: 31830.0
+      '1989-01-01':
+        value: 30840.0
+      '1988-01-01':
+        value: 29850.0
+      '1986-01-01':
+        value: 29090.0
+      '1985-01-01':
+        value: 28410.0
+      '1973-01-01':
+        value: null
+      '1968-01-01':
+        value: 3500.0
+      '1966-01-01':
+        value: 50000.0
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_min3
+      unit: currency-FRF
+  seuil_impot_4:
+    description: Seuil d'impot 4
+    values:
+      '1993-01-01':
+        value: null
+      '1992-01-01':
+        value: 40460.0
+      '1991-01-01':
+        value: 39350.0
+      '1990-01-01':
+        value: 38200.0
+      '1989-01-01':
+        value: 37010.0
+      '1988-01-01':
+        value: 35820.0
+      '1986-01-01':
+        value: 34910.0
+      '1985-01-01':
+        value: 34090.0
+      '1973-01-01':
+        value: null
+      '1968-01-01':
+        value: 5000.0
+      '1966-01-01':
+        value: 55000.0
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_min4
+      unit: currency-FRF
+  seuil_impot_5:
+    description: Seuil d'impot 5
+    values:
+      '1993-01-01':
+        value: null
+      '1992-01-01':
+        value: 47560.0
+      '1991-01-01':
+        value: 46260.0
+      '1990-01-01':
+        value: 44910.0
+      '1989-01-01':
+        value: 43510.0
+      '1988-01-01':
+        value: 42120.0
+      '1986-01-01':
+        value: 41060.0
+      '1965-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_min5
+      unit: currency-FRF
   seuil_superieur_revenu_imposable_par_part:
     description: Seuil superieur (revenu imposable par part)
     values:
@@ -82,7 +350,4 @@ minorations_exceptionnelles_impot:
     metadata:
       ipp_csv_id: seuil_rimpmax
       unit: currency-FRF
-  metadata:
-    order:
-    - seuil_superieur_revenu_imposable_par_part
 documentation: ''

@@ -1,6 +1,147 @@
 description: Durée d'assurance cible pour le taux plein
 nombre_trimestres_cibles_par_generation:
   description: Nombre de trimestres cibles par génération
+  avant_1934:
+    description: Avant 1934
+    values:
+      '1983-01-01':
+        value: 150.0
+    metadata:
+      ipp_csv_id: trimplein_base
+  metadata:
+    order:
+    - avant_1934
+    - '1934_01_01_00_00_00'
+    - '1935_01_01_00_00_00'
+    - '1936_01_01_00_00_00'
+    - '1937_01_01_00_00_00'
+    - '1938_01_01_00_00_00'
+    - '1939_01_01_00_00_00'
+    - '1940_01_01_00_00_00'
+    - '1941_01_01_00_00_00'
+    - '1942_01_01_00_00_00'
+    - '1943_01_01_00_00_00'
+    - '1949_01_01_00_00_00'
+    - '1950_01_01_00_00_00'
+    - '1951_01_01_00_00_00'
+    - '1952_01_01_00_00_00'
+  '1934_01_01_00_00_00':
+    description: '1934-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 151.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0134
+  '1935_01_01_00_00_00':
+    description: '1935-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 152.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0135
+  '1936_01_01_00_00_00':
+    description: '1936-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 153.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0136
+  '1937_01_01_00_00_00':
+    description: '1937-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 154.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0137
+  '1938_01_01_00_00_00':
+    description: '1938-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 155.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0138
+  '1939_01_01_00_00_00':
+    description: '1939-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 156.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0139
+  '1940_01_01_00_00_00':
+    description: '1940-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 157.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0140
+  '1941_01_01_00_00_00':
+    description: '1941-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 158.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0141
+  '1942_01_01_00_00_00':
+    description: '1942-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 159.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0142
+  '1943_01_01_00_00_00':
+    description: '1943-01-01 00:00:00'
+    values:
+      '1994-01-01':
+        value: 160.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0143
+  '1949_01_01_00_00_00':
+    description: '1949-01-01 00:00:00'
+    values:
+      '2009-01-01':
+        value: 161.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0149
+  '1950_01_01_00_00_00':
+    description: '1950-01-01 00:00:00'
+    values:
+      '2009-01-01':
+        value: 162.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0150
+  '1951_01_01_00_00_00':
+    description: '1951-01-01 00:00:00'
+    values:
+      '2009-01-01':
+        value: 163.0
+      '1983-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: trimplein_0151
   '1952_01_01_00_00_00':
     description: '1952-01-01 00:00:00'
     values:
@@ -10,9 +151,6 @@ nombre_trimestres_cibles_par_generation:
         value: null
     metadata:
       ipp_csv_id: trimplein_0152
-  metadata:
-    order:
-    - '1952_01_01_00_00_00'
 metadata:
   order:
   - nombre_trimestres_cibles_par_generation

@@ -1,6 +1,35 @@
 description: 'Allocation parent isolé (API) : montants'
 montant_en_bmaf:
   description: Montant (en % de la BMAF)
+  femmes_enceintes_sans_enfant_charge:
+    description: Femmes enceintes sans enfant à charge
+    values:
+      '2009-06-01':
+        value: null
+      '1977-11-27':
+        value: 1.5
+      '1976-10-01':
+        value: 1.3
+    metadata:
+      ipp_csv_id: api_enceinte
+      unit: /1
+  metadata:
+    order:
+    - femmes_enceintes_sans_enfant_charge
+    - personne_isolee_avec_enfant_charge
+    - supplement_par_enfant
+  personne_isolee_avec_enfant_charge:
+    description: Personne isolée avec un enfant à charge
+    values:
+      '2009-06-01':
+        value: null
+      '1977-11-27':
+        value: 2.0
+      '1976-10-01':
+        value: 1.74
+    metadata:
+      ipp_csv_id: api_enf
+      unit: /1
   supplement_par_enfant:
     description: Supplément par enfant
     values:
@@ -13,9 +42,6 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: api_enf_sup
       unit: /1
-  metadata:
-    order:
-    - supplement_par_enfant
 metadata:
   order:
   - montant_en_bmaf

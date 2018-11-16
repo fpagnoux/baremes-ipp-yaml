@@ -87,6 +87,26 @@ metadata:
     '1946-07-01': Référence législative inconnue.
 tout_salaire:
   description: Sur tout salaire
+  employeurs:
+    description: Employeurs
+    values:
+      '2014-01-01':
+        value: 0.0525
+      '1991-02-01':
+        value: 0.054
+      '1990-01-01':
+        value: 0.07
+      '1989-01-01':
+        value: 0.035
+      '1946-07-01':
+        value: null
+    metadata:
+      ipp_csv_id: fam_p_0_
+      unit: /1
+  metadata:
+    order:
+    - employeurs
+    - taux_reduit
   taux_reduit:
     description: Taux réduit
     values:
@@ -96,9 +116,6 @@ tout_salaire:
         value: null
     metadata:
       unit: /1
-  metadata:
-    order:
-    - taux_reduit
 documentation: |
   Sources :
   La Sécurité Sociale: son histoire à travers les textes, tome III, page 215.

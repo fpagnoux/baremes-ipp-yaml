@@ -1,6 +1,20 @@
 description: Cotisations SS assurance veuvage (1981-2004)
 salaries:
   description: Salariés
+  sous_plafond:
+    description: Sous plafond
+    values:
+      '1982-01-01':
+        value: null
+      '1981-01-01':
+        value: 0.001
+    metadata:
+      ipp_csv_id: veuv_s_0_1
+      unit: /1
+  metadata:
+    order:
+    - sous_plafond
+    - tout_salaire
   tout_salaire:
     description: Sur tout salaire
     values:
@@ -13,9 +27,6 @@ salaries:
     metadata:
       ipp_csv_id: veuv_s_0_
       unit: /1
-  metadata:
-    order:
-    - tout_salaire
 metadata:
   order:
   - salaries

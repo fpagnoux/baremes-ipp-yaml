@@ -80,6 +80,30 @@ par_enfant_supplementaire:
     unit: /1
 modulation:
   description: Modulation
+  tranche_1_en_bmaf:
+    description: Tranche 1 (en % de la BMAF)
+    values:
+      '2015-07-01':
+        value: 1.0
+      '1946-09-01':
+        value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - tranche_1_en_bmaf
+    - tranche_2_en_bmaf
+    - tranche_3_en_bmaf
+  tranche_2_en_bmaf:
+    description: Tranche 2 (en % de la BMAF)
+    values:
+      '2015-07-01':
+        value: 0.5
+      '1946-09-01':
+        value: null
+    metadata:
+      ipp_csv_id: af_modulation_taux1
+      unit: /1
   tranche_3_en_bmaf:
     description: Tranche 3 (en % de la BMAF)
     values:
@@ -90,9 +114,6 @@ modulation:
     metadata:
       ipp_csv_id: af_modulation_taux2
       unit: /1
-  metadata:
-    order:
-    - tranche_3_en_bmaf
 documentation: |
   Notes : 
   L'allocation familiale est créée en 1932 par la loi Landry du 11/03/1932, art. 1 et 2 (modif titres III et V du code du travail ). Parution au JO 12/03/1932

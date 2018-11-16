@@ -1,6 +1,38 @@
 description: Montant minimum versé
 montant_minimal_mensuel:
   description: Montant minimal mensuel
+  apl_al:
+    description: APL ou AL
+    values:
+      '2017-10-01':
+        value: 10.0
+      '2007-01-01':
+        value: 15.0
+      '2004-06-01':
+        value: 24.0
+      '2002-01-01':
+        value: 15.0
+      '1989-11-12':
+        value: 100.0
+    metadata:
+      ipp_csv_id: min_alf
+      unit:
+        '2002-01-01': currency-EUR
+        '1989-11-12': currency-FRF
+  metadata:
+    order:
+    - apl_al
+    - apl1_foyer
+    - apl2_foyer
+  apl1_foyer:
+    description: APL1 (foyer)
+    values:
+      '2002-01-01':
+        value: 26.68
+      '1989-11-12':
+        value: null
+    metadata:
+      unit: currency-EUR
   apl2_foyer:
     description: APL2 (foyer)
     values:
@@ -10,9 +42,6 @@ montant_minimal_mensuel:
         value: null
     metadata:
       unit: currency-EUR
-  metadata:
-    order:
-    - apl2_foyer
 metadata:
   order:
   - montant_minimal_mensuel

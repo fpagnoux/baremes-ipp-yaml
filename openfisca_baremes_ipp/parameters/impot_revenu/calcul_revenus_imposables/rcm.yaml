@@ -67,6 +67,45 @@ produits_assurances_vies_assimiles:
     - abattement
 revenus_capitaux_mobiliers_dividendes:
   description: Revenus de capitaux mobiliers (dividendes)
+  taux_abattement:
+    description: Taux de l'abattement
+    values:
+      '2010-01-01':
+        value: 0.4
+      '1979-01-01':
+        value: 0.5
+      '1978-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: tx_abt_rcm
+      unit: /1
+  metadata:
+    order:
+    - taux_abattement
+    - abattement_forfaitaire
+    - plafond_credit_impot
+  abattement_forfaitaire:
+    description: Abattement forfaitaire
+    values:
+      '2012-01-01':
+        value: null
+      '2006-01-01':
+        value: 1525.0
+      '2001-01-01':
+        value: 1220.0
+      '1988-01-01':
+        value: 8000.0
+      '1984-01-01':
+        value: 5000.0
+      '1979-01-01':
+        value: 3000.0
+      '1978-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: abt_rcm
+      unit:
+        '2001-01-01': currency-EUR
+        '1979-01-01': currency-FRF
   plafond_credit_impot:
     description: Plafond du crédit d'impôt
     values:
@@ -79,9 +118,6 @@ revenus_capitaux_mobiliers_dividendes:
     metadata:
       ipp_csv_id: plaf_creditrcm
       unit: currency-EUR
-  metadata:
-    order:
-    - plafond_credit_impot
 documentation: |
   Notes :
   (1) Taux de l'abattement sur dividendes : art. 158-3-2° du CGI (ancêtre de tx_abt_rcm)
