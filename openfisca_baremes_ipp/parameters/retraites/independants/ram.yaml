@@ -1,0 +1,190 @@
+description: Nombre d'années prises en compte dans le calcul du RAM
+nombre_annees_entrant_en_jeu_dans_determination_revenu_annuel_moyen_ram:
+  description: Nombre d'années entrant en jeu dans la détermination du revenu annuel
+    moyen (RAM)
+  avant_1933:
+    description: Avant 1933
+    values:
+      '1972-01-01':
+        value: 10.0
+    metadata:
+      ipp_csv_id: nbsam_base
+  metadata:
+    order:
+    - avant_1933
+    - '1934'
+    - '1935'
+    - '1936'
+    - '1937'
+    - '1938'
+    - '1939'
+    - '1940'
+    - '1941'
+    - '1942'
+    - '1943'
+    - '1944'
+    - '1945'
+    - '1946'
+    - '1947'
+    - apres_1948
+  '1934':
+    description: '1934'
+    values:
+      '1994-01-01':
+        value: 11.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0134
+  '1935':
+    description: '1935'
+    values:
+      '1994-01-01':
+        value: 12.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0135
+  '1936':
+    description: '1936'
+    values:
+      '1994-01-01':
+        value: 13.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0136
+  '1937':
+    description: '1937'
+    values:
+      '1994-01-01':
+        value: 14.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0137
+  '1938':
+    description: '1938'
+    values:
+      '1994-01-01':
+        value: 15.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0138
+  '1939':
+    description: '1939'
+    values:
+      '1994-01-01':
+        value: 16.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0139
+  '1940':
+    description: '1940'
+    values:
+      '1994-01-01':
+        value: 17.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0140
+  '1941':
+    description: '1941'
+    values:
+      '1994-01-01':
+        value: 18.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0141
+  '1942':
+    description: '1942'
+    values:
+      '1994-01-01':
+        value: 19.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0142
+  '1943':
+    description: '1943'
+    values:
+      '1994-01-01':
+        value: 20.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0143
+  '1944':
+    description: '1944'
+    values:
+      '1994-01-01':
+        value: 21.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0144
+  '1945':
+    description: '1945'
+    values:
+      '1994-01-01':
+        value: 22.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0145
+  '1946':
+    description: '1946'
+    values:
+      '1994-01-01':
+        value: 23.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0146
+  '1947':
+    description: '1947'
+    values:
+      '1994-01-01':
+        value: 24.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0147
+  apres_1948:
+    description: Après 1948
+    values:
+      '2004-01-01':
+        value: 25.0
+      '1972-01-01':
+        value: null
+    metadata:
+      ipp_csv_id: nbsam_0148
+metadata:
+  order:
+  - nombre_annees_entrant_en_jeu_dans_determination_revenu_annuel_moyen_ram
+  reference:
+    '2008-01-01': Décret 2007-614 du 25/04/2007
+    '2004-01-01': Décret 2004-144 du 13/02/2004
+    '1994-01-01': Décret 93-1022 du 27/08/1993
+  date_parution_jo:
+    '2008-01-01': '2007-04-27'
+    '2004-01-01': '2004-02-15'
+    '1994-01-01': '1993-08-28'
+  notes:
+    '2008-01-01': Article R634-1-1.  Les durées de vingt-cinq années sont applicables
+      aux assurés nés après 1952, quelle que soit la date d'effet de leur pension.
+    '2004-01-01': Article R634-1-1. La distinction par génération n'est valable que
+      pour les pensions prenant effet avant le 1er janvier 2013. Cette durée est fixée
+      à 25 ans pour les pensions prenant effet postérieurement au 31/12/2012.
+    '1994-01-01': Article R634-1-1. La distinction par génération n'est valable que
+      pour les pensions prenant effet avant le 1er janvier 2013. Cette durée est fixée
+      à 25 ans pour les pensions prenant effet postérieurement au 31/12/2012.
+documentation: |
+  Lecture : 
+  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 
+  La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
+  Note:
+  Entre 1946 et 1971, ce sont les 10 dernières années qui sont prises en compte, et non les 10 meilleures années.

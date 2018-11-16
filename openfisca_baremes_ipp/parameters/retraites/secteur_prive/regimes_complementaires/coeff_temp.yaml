@@ -1,0 +1,42 @@
+description: Coefficients de solidarité et majorant temporaires
+coefficient_temporaire_en_fonction_distance_age_taux_plein:
+  description: Coefficient temporaire en fonction de la distance à l'âge du taux plein
+  '0':
+    description: '0'
+    values:
+      '2016-01-01':
+        value: 0.9
+  metadata:
+    order:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  '1':
+    description: '1'
+    values:
+      '2016-01-01':
+        value: 1.0
+  '2':
+    description: '2'
+    values:
+      '2016-01-01':
+        value: 1.1
+  '3':
+    description: '3'
+    values:
+      '2016-01-01':
+        value: 1.2
+  '4':
+    description: '4'
+    values:
+      '2016-01-01':
+        value: 1.3
+metadata:
+  order:
+  - coefficient_temporaire_en_fonction_distance_age_taux_plein
+  reference:
+    '2016-01-01': Accord du 30 octobre 2015
+documentation: "Note: Les coefficients s'appliquent à partir de la génération 1959.\
+  \ \n"
