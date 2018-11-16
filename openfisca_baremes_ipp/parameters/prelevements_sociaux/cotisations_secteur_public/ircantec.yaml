@@ -247,9 +247,10 @@ taux_cotisations_effectifs:
   metadata:
     order:
     - tranche
-    - tranche_b_1_475_puis_1_8_pss
-  tranche_b_1_475_puis_1_8_pss:
-    description: Tranche B (1-4,75 puis 1 à 8 PSS)
+    - tranche_b_1_475_pss
+    - tranche_b_1_8_pss
+  tranche_b_1_475_pss:
+    description: Tranche B (1 à 4,75 PSS)
     agent:
       description: Agent
       values:
@@ -289,6 +290,60 @@ taux_cotisations_effectifs:
           value: 0.0495
       metadata:
         ipp_csv_id: ircantec_p_1_4_75
+        unit: /1
+  tranche_b_1_8_pss:
+    description: Tranche B (1 à 8 PSS)
+    agent:
+      description: Agent
+      values:
+        '2017-01-01':
+          value: 0.0695
+        '2016-01-01':
+          value: 0.0675
+        '2015-01-01':
+          value: 0.0658
+        '2014-01-01':
+          value: 0.0638
+        '2013-01-01':
+          value: 0.0623
+        '2012-01-01':
+          value: 0.061000000000000006
+        '2011-01-01':
+          value: 0.06
+        '1992-01-01':
+          value: 0.059500000000000004
+        '1971-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: ircantec_s_1_8
+        unit: /1
+    metadata:
+      order:
+      - agent
+      - employeur
+    employeur:
+      description: Employeur
+      values:
+        '2017-01-01':
+          value: 0.1255
+        '2016-01-01':
+          value: 0.1235
+        '2015-01-01':
+          value: 0.12175
+        '2014-01-01':
+          value: 0.11975
+        '2013-01-01':
+          value: 0.11825000000000001
+        '2012-01-01':
+          value: 0.117
+        '2011-01-01':
+          value: 0.11599999999999999
+        '1992-01-01':
+          value: 0.11549999999999999
+        '1971-01-01':
+          value: null
+      metadata:
+        ipp_csv_id: ircantec_p_1_8
         unit: /1
 documentation: |
   Notes :

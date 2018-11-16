@@ -25,14 +25,15 @@ pensions_retraite_invalidite:
     - taux_csg_deductible
     - taux_csg_reduit
     - seuil_ir
-    - seuil_rfr_1
-    - demi_part_suppl
-    - seuil_rfr_2
+    - seuil_rfr_1_1_part
+    - seuil_rfr_1_demi_part_supplementaire
+    - seuil_rfr_2_1_part
+    - seuil_rfr_2_demi_part_supplementaire
   taux_csg_deductible:
     description: Taux CSG déductible
     values:
       '2018-01-01':
-        value: null
+        value: 0.059
       '2005-01-01':
         value: 0.042
       '1998-01-01':
@@ -47,8 +48,6 @@ pensions_retraite_invalidite:
   taux_csg_reduit:
     description: Taux CSG réduit
     values:
-      '2018-01-01':
-        value: null
       '1998-01-01':
         value: 0.038
       '1997-01-01':
@@ -68,8 +67,10 @@ pensions_retraite_invalidite:
     metadata:
       ipp_csv_id: seuil_csg_pens_red_ir
       unit: currency-EUR
-  seuil_rfr_1:
-    description: Seuil de RFR 1
+  seuil_rfr_1_1_part:
+    description: |-
+      Seuil de RFR 1 :
+      1 part
     values:
       '2018-01-01':
         value: 11018.0
@@ -84,11 +85,13 @@ pensions_retraite_invalidite:
     metadata:
       ipp_csv_id: seuil_csg_pens_red1
       unit: currency-EUR
-  demi_part_suppl:
-    description: Demi-part suppl.
+  seuil_rfr_1_demi_part_supplementaire:
+    description: |-
+      Seuil de RFR 1 :
+      demi-part supplémentaire
     values:
       '2018-01-01':
-        value: 2964.0
+        value: 2942.0
       '2017-01-01':
         value: 2936.0
       '2016-01-01':
@@ -100,8 +103,10 @@ pensions_retraite_invalidite:
     metadata:
       ipp_csv_id: seuil_csg_pens_red1_demip
       unit: currency-EUR
-  seuil_rfr_2:
-    description: Seuil de RFR 2
+  seuil_rfr_2_1_part:
+    description: |-
+      Seuil de RFR 2 :
+      1 part
     values:
       '2018-01-01':
         value: 14404.0
@@ -116,14 +121,33 @@ pensions_retraite_invalidite:
     metadata:
       ipp_csv_id: seuil_csg_pens_red2
       unit: currency-EUR
+  seuil_rfr_2_demi_part_supplementaire:
+    description: |-
+      Seuil de RFR 2 :
+      demi-part supplémentaire
+    values:
+      '2018-01-01':
+        value: 3846.0
+      '2017-01-01':
+        value: 3838.0
+      '2016-01-01':
+        value: 3726.0
+      '2015-01-01':
+        value: 3711.0
+      '1991-02-01':
+        value: null
+    metadata:
+      ipp_csv_id: seuil_csg_pens_red2_demip
+      unit: currency-EUR
 metadata:
   order:
   - pensions_retraite_invalidite
   - allocations_preretraite
   - indemnites_journalieres_ij
   reference:
-    '2018-01-01': Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ;  Circulaire
-      CNAV 2017-34 du 20/10/2017
+    '2018-01-01': |-
+      Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ;  Circulaire CNAV 2017-34 du 20/10/2017 ;
+      Loi 2017-1837 du 30/12/2017, art. 67 (LF pour 2018)
     '2017-01-01': Loi 2016-1827 du 23/12/2016, art. 20 (LFSS pour 2017)
     '2016-01-01': Loi 2015-1702 du 21/12/2015, art. 24 (LFSS pour 2016)
     '2015-01-01': Loi 2014-1554 du 22/12/2014 , art. 7 (LFSS pour 2015)
@@ -136,7 +160,7 @@ metadata:
     '1993-07-01': Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
     '1991-02-01': Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
   date_parution_jo:
-    '2018-01-01': '2017-12-30'
+    '2018-01-01': '2017-12-31'
     '2017-01-01': '2016-12-24'
     '2016-01-01': '2015-12-22'
     '2015-01-01': '2014-12-30'
@@ -237,3 +261,7 @@ indemnites_journalieres_ij:
 documentation: |
   Référence du Codes général des impôts :
   La loi 96-1181 du 30/12/1996 (LF pour 1997)  a créé l'art. 154 quinquies (M) du Code général des impôts (CGI) qui régit les dispositions relatives à la CSG depuis 1997.
+  Notes :
+  Pour les pensions de retraite et d'invalidité, à partir de 2015, le seuil de RFR1 est le seuil d'exonération de CSG, et le seuil de RFR 2 est le seuil d'assujettissement au taux fort de la CSG ;
+  les retraités dont le RFR est compris entre le seuil 1 et le seuil 2 sont assujettis au taux réduit de CSG.
+  Le RFR est le revenu fiscal de référence de l'année N-2.
