@@ -13,7 +13,7 @@ setup(
     url='https://github.com/fpagnoux/baremes-ipp-yaml',
     include_package_data = True,  # Will read MANIFEST.in
     install_requires=[
-        'OpenFisca-Core',
+        'OpenFisca-Core[web-api]',
         ],
     extras_require = {},
     packages=find_packages(),

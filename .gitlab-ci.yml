@@ -1,0 +1,21 @@
+image: nikolaik/python-nodejs
+
+pages:
+    script:
+        - python --version
+        - pip install --editable .
+        - pip install --editable git+https://github.com/openfisca/openfisca-core.git@params-int-node#egg=OpenFisca-Core
+        - openfisca serve -p 2000 &
+        - wget --retry-connrefused --waitretry=1 --quiet http://localhost:2000
+        - cd ..
+        - git clone https://github.com/fpagnoux/baremes-ipp-views.git
+        - cd baremes-ipp-views
+        - git checkout parsed-xlsx
+        - yarn && yarn build && yarn export
+        - mv out ../baremes-ipp-yaml/public
+        - cd ..
+        - find .
+
+    artifacts:
+      paths:
+        - public
