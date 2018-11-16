@@ -846,4 +846,5 @@ montant_forfaitaire:
       value: null
   metadata:
     unit: currency-EUR
-documentation: ''
+documentation: "Note : Les loyers de référence sont les même que les plafonds pour\
+  \ la zone 2\n"
