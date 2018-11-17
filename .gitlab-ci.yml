@@ -1,5 +1,14 @@
 image: nikolaik/python-nodejs
 
+variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  key: v2-${CI_COMMIT_REF_SLUG}
+  paths:
+  - .cache/node_modules
+  - .cache/pip
+
 pages:
     script:
         - python --version
@@ -7,14 +16,13 @@ pages:
         - pip install --editable git+https://github.com/openfisca/openfisca-core.git@params-int-node#egg=OpenFisca-Core
         - openfisca serve -p 2000 &
         - wget --retry-connrefused --waitretry=1 --quiet http://localhost:2000
-        - cd ..
         - git clone https://github.com/fpagnoux/baremes-ipp-views.git
         - cd baremes-ipp-views
         - git checkout parsed-xlsx
+        - if [ -d "$CI_PROJECT_DIR/.cache/node_modules" ]; then mv $CI_PROJECT_DIR/.cache/node_modules . ; fi
         - yarn && yarn build && yarn export
-        - mv out ../baremes-ipp-yaml/public
-        - cd ..
-        - find .
+        - mv node_modules $CI_PROJECT_DIR/.cache
+        - mv out ../public
 
     artifacts:
       paths:
