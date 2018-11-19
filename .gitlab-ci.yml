@@ -21,6 +21,8 @@ pages:
         - cd baremes-ipp-views
         - git checkout parsed-xlsx
         - if [ -d "$CI_PROJECT_DIR/.cache/node_modules" ]; then mv $CI_PROJECT_DIR/.cache/node_modules . ; fi
+        - echo "BASENAME=/$CI_PROJECT_NAME" > .env
+        - cat .env
         - yarn && yarn build && yarn export
         - mv node_modules $CI_PROJECT_DIR/.cache
         - mv out ../public
