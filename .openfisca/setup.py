@@ -10,7 +10,7 @@ setup(
     version='master',
     author='Institut des Politiques Publiques',
     author_email='florian.pagnoux@gmail.com',
-    url='https://github.com/fpagnoux/baremes-ipp-yaml',
+    url='https://framagit.org/french-tax-and-benefit-tables/baremes-ipp-yaml',
     include_package_data = True,  # Will read MANIFEST.in
     install_requires=[
         'OpenFisca-Core[web-api]',
