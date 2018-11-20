@@ -53,6 +53,8 @@ ticgn_prix_par_mwh:
       value: 4.34
     '2015-01-01':
       value: 2.64
+    '2014-01-01':
+      value: 1.27
     '2003-01-01':
       value: 1.19
   metadata:
