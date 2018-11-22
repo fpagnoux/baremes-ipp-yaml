@@ -18,6 +18,21 @@ artisans:
   metadata:
     order:
     - sous_pss
+commercants_industriels:
+  description: Commerçants-industriels
+  sous_pss:
+    description: Sous PSS
+    values:
+      2012-08-18:
+        value: 0.0025
+      1992-01-01:
+        value: 0.0015
+    metadata:
+      ipp_csv_id: form_ic_0_1
+      unit: /1
+  metadata:
+    order:
+    - sous_pss
 metadata:
   order:
   - artisans
@@ -42,21 +57,6 @@ metadata:
     2008-01-01: Le taux maximal pour les commerçants, auparavant de 0,24 %, est
       passé à 0,17 %, avec ajout d'un droit additionnel à la taxe pour frais de chambre
       de métiers à 0,12 %
-commercants_industriels:
-  description: Commerçants-industriels
-  sous_pss:
-    description: Sous PSS
-    values:
-      2012-08-18:
-        value: 0.0025
-      1992-01-01:
-        value: 0.0015
-    metadata:
-      ipp_csv_id: form_ic_0_1
-      unit: /1
-  metadata:
-    order:
-    - sous_pss
 documentation: |
   Note :
   Depuis 2005, les commerçants et industriels paient un supplément de 0,9% si leur conjoint a le statut de conjoint collaborateur.

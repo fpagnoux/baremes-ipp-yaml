@@ -11,11 +11,6 @@ forfait_logement_en_montant_forfaitaire_rmi:
     metadata:
       ipp_csv_id: rmi_logt1
       unit: /1
-  metadata:
-    order:
-    - 1_personne_1
-    - 2_personnes
-    - 3_personnes_plus
   2_personnes:
     description: 2 personnes
     values:
@@ -36,6 +31,11 @@ forfait_logement_en_montant_forfaitaire_rmi:
     metadata:
       ipp_csv_id: rmi_logt3
       unit: /1
+  metadata:
+    order:
+    - 1_personne_1
+    - 2_personnes
+    - 3_personnes_plus
 metadata:
   order:
   - forfait_logement_en_montant_forfaitaire_rmi

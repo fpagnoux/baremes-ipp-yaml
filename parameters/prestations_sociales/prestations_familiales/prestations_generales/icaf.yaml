@@ -11,6 +11,18 @@ description: 'Indemnité compensatrice des avantages fiscaux (ICAF) : montant'
   metadata:
     ipp_csv_id: icaf_enf
     unit: currency-FRF
+par_enfant_supplementaire:
+  description: Par enfant supplémentaire
+  values:
+    1978-01-01:
+      value: null
+    1958-01-01:
+      value: 1509.0
+    1948-10-01:
+      value: 1000.0
+  metadata:
+    ipp_csv_id: icaf_enf_supp
+    unit: currency-FRF
 metadata:
   order:
   - 2_enfants_charge
@@ -24,18 +36,6 @@ metadata:
   notes:
     1978-01-01: Remplacée par le complément familial à partir du 01/01/1978
     1948-10-01: Pour les salariés uniquement
-par_enfant_supplementaire:
-  description: Par enfant supplémentaire
-  values:
-    1978-01-01:
-      value: null
-    1958-01-01:
-      value: 1509.0
-    1948-10-01:
-      value: 1000.0
-  metadata:
-    ipp_csv_id: icaf_enf_supp
-    unit: currency-FRF
 documentation: |
   Note:
   ICAF instaurée en octobre 1948. Les montants ont été progressivement relevés entre 1948 et 1958), mais le détail de l'évolution est à préciser

@@ -7,6 +7,7 @@ abattement_residence_principale:
   metadata:
     ipp_csv_id: abt_residence_ifi
     unit: /1
+documentation: ''
 metadata:
   order:
   - abattement_residence_principale
@@ -18,4 +19,3 @@ metadata:
   notes:
     2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
       est réduite aux seuls biens immobiliers.
-documentation: ''

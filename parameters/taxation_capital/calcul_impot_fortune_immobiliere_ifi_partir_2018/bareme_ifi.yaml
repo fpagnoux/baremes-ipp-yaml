@@ -9,13 +9,6 @@ seuils_tranches_bareme_ifi:
     metadata:
       ipp_csv_id: seuil1_ifi
       unit: currency-EUR
-  metadata:
-    order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche
-    - 5eme_tranche
   2eme_tranche:
     description: 2ème tranche
     values:
@@ -48,18 +41,13 @@ seuils_tranches_bareme_ifi:
     metadata:
       ipp_csv_id: seuil5_ifi
       unit: currency-EUR
-metadata:
-  order:
-  - seuils_tranches_bareme_ifi
-  - taux_marginaux_tranches_bareme_ifi
-  reference:
-    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 977
-      du CGI)
-  date_parution_jo:
-    2018-01-01: 2017-12-31
-  notes:
-    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
 taux_marginaux_tranches_bareme_ifi:
   description: Taux marginaux des tranches du barème de l'IFI
   1ere_tranche:
@@ -70,14 +58,6 @@ taux_marginaux_tranches_bareme_ifi:
     metadata:
       ipp_csv_id: tx1_ifi
       unit: /1
-  metadata:
-    order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche
-    - 5eme_tranche
-    - nombre_tranches_bareme
   2eme_tranche:
     description: 2ème tranche
     values:
@@ -117,4 +97,24 @@ taux_marginaux_tranches_bareme_ifi:
         value: 5.0
     metadata:
       ipp_csv_id: nbtranches_ifi
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
+    - nombre_tranches_bareme
 documentation: ''
+metadata:
+  order:
+  - seuils_tranches_bareme_ifi
+  - taux_marginaux_tranches_bareme_ifi
+  reference:
+    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 977
+      du CGI)
+  date_parution_jo:
+    2018-01-01: 2017-12-31
+  notes:
+    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+      est réduite aux seuls biens immobiliers.

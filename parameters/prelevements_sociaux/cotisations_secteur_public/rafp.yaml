@@ -10,10 +10,6 @@ taux_cotisation:
     metadata:
       ipp_csv_id: rafp_s
       unit: /1
-  metadata:
-    order:
-    - agent
-    - etat
   etat:
     description: Etat
     values:
@@ -22,6 +18,10 @@ taux_cotisation:
     metadata:
       ipp_csv_id: rafp_p
       unit: /1
+  metadata:
+    order:
+    - agent
+    - etat
 metadata:
   order:
   - taux_cotisation

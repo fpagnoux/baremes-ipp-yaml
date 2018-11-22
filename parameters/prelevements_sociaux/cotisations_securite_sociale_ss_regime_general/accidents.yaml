@@ -22,6 +22,26 @@ employeur_sous_pss:
   metadata:
     ipp_csv_id: acc_p_0_1
     unit: /1
+employeur_tout_salaire:
+  description: Employeur tout salaire
+  values:
+    2018-01-01:
+      value: 0.009
+    2016-01-01:
+      value: 0.01
+    2008-01-01:
+      value: 0.011
+    1993-01-01:
+      value: 0.01
+    1992-01-01:
+      value: 0.012
+    1991-01-01:
+      value: 0.013
+    1976-01-01:
+      value: null
+  metadata:
+    ipp_csv_id: acc_p_0_
+    unit: /1
 metadata:
   order:
   - employeur_sous_pss
@@ -50,26 +70,6 @@ metadata:
     1983-01-01: Référence manquante
     1979-01-01: Référence manquante
     1977-01-01: Référence manquante
-employeur_tout_salaire:
-  description: Employeur tout salaire
-  values:
-    2018-01-01:
-      value: 0.009
-    2016-01-01:
-      value: 0.01
-    2008-01-01:
-      value: 0.011
-    1993-01-01:
-      value: 0.01
-    1992-01-01:
-      value: 0.012
-    1991-01-01:
-      value: 0.013
-    1976-01-01:
-      value: null
-  metadata:
-    ipp_csv_id: acc_p_0_
-    unit: /1
 documentation: |
   Notes sur la tarification AT-MP :
   La tarification des risques accidents du travail et maladies professionnelles (AT-MP) est complexe: il existe un taux propre à chaque entreprise, variant avec la taille et les risques d'AT-MP de l'entreprise.

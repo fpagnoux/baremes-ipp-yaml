@@ -29,17 +29,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - taux
-  - taux_reduit
-  - abattement_general
-  - autres_revenus_non_salariaux
-  - bnc_autres_produits_charges_offices_bic_artisans_assimiles
-  - bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba
-  - reduction_impot_charge_famille
-  - plafond_maximum_reduction_par_pac
 taux:
   description: Taux
   values:
@@ -118,10 +107,6 @@ bnc_autres_produits_charges_offices_bic_artisans_assimiles:
         value: null
     metadata:
       ipp_csv_id: tp_abat_nonsal_autre
-  metadata:
-    order:
-    - abattement
-    - seuil
   seuil:
     description: seuil
     values:
@@ -135,6 +120,10 @@ bnc_autres_produits_charges_offices_bic_artisans_assimiles:
         value: null
     metadata:
       ipp_csv_id: tp_seuil_nonsal_autre
+  metadata:
+    order:
+    - abattement
+    - seuil
 bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba:
   description: |-
     BNC produits des charges et offices"
@@ -167,12 +156,6 @@ reduction_impot_charge_famille:
         value: null
     metadata:
       ipp_csv_id: tp_reduc1
-  metadata:
-    order:
-    - 1_pac
-    - 2_pac
-    - 3_pac
-    - 4_pac
   2_pac:
     description: 2 pac
     values:
@@ -206,6 +189,12 @@ reduction_impot_charge_famille:
         value: null
     metadata:
       ipp_csv_id: tp_reduc4
+  metadata:
+    order:
+    - 1_pac
+    - 2_pac
+    - 3_pac
+    - 4_pac
 plafond_maximum_reduction_par_pac:
   description: |-
     plafond:
@@ -222,10 +211,6 @@ plafond_maximum_reduction_par_pac:
     metadata:
       ipp_csv_id: tp_plaf_2
       unit: currency-FRF
-  metadata:
-    order:
-    - jusqu_2_pacs
-    - plus_3_pacs
   plus_3_pacs:
     description: Plus de 3 pacs
     values:
@@ -238,6 +223,21 @@ plafond_maximum_reduction_par_pac:
     metadata:
       ipp_csv_id: tp_plaf_3
       unit: currency-FRF
+  metadata:
+    order:
+    - jusqu_2_pacs
+    - plus_3_pacs
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - taux
+  - taux_reduit
+  - abattement_general
+  - autres_revenus_non_salariaux
+  - bnc_autres_produits_charges_offices_bic_artisans_assimiles
+  - bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba
+  - reduction_impot_charge_famille
+  - plafond_maximum_reduction_par_pac
 documentation: |
   Source:
   Tableau C-9: Les règles de calcul de la taxe proportionnelle (imposition des revenus des années 1948-1958) et de la taxe complémentaire (imposition des revenus des années 1959-1969)

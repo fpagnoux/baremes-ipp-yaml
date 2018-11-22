@@ -11,10 +11,6 @@ revenu_professionnel_plancher_couples_biactifs:
     metadata:
       ipp_csv_id: facteur_yamin_biact_pss
       unit: /1
-  metadata:
-    order:
-    - en_pourcentage_pss
-    - en_nombre_fois_bmaf
   en_nombre_fois_bmaf:
     description: En nombre de fois de la BMAF
     values:
@@ -24,6 +20,11 @@ revenu_professionnel_plancher_couples_biactifs:
         value: 12.0
     metadata:
       ipp_csv_id: facteur_yamin_biact_bmaf
+  metadata:
+    order:
+    - en_pourcentage_pss
+    - en_nombre_fois_bmaf
+documentation: ''
 metadata:
   order:
   - revenu_professionnel_plancher_couples_biactifs
@@ -33,4 +34,3 @@ metadata:
   notes:
     2011-11-01: Les revenus professionnels pris en compte sont ceux de l'année N-2
       jusqu'au 01/01/2012, puis ceux de l'année N à partir de cette date.
-documentation: ''

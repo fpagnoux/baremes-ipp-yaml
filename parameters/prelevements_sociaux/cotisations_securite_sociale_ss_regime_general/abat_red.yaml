@@ -8,11 +8,6 @@ artistes:
   metadata:
     ipp_csv_id: abat_a
     unit: /1
-metadata:
-  order:
-  - artistes
-  - medecins
-  - journalistes
 medecins:
   description: Médecins
   values:
@@ -29,6 +24,11 @@ journalistes:
   metadata:
     ipp_csv_id: abat_j
     unit: /1
+metadata:
+  order:
+  - artistes
+  - medecins
+  - journalistes
 documentation: |
   Notes artistes et musiciens du spectacle :
   L'arrêté du 24/01/1975 (JO 31/01/1975) détermine un abattement de 30% pour les artistes sur le taux de cotisation du droit commun pour la maladie, les accidents du travail, allocations familiales, vieillesses, versement transport et FNAL.

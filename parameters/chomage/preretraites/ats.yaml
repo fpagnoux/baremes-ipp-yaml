@@ -17,26 +17,6 @@ montant_journalier:
   metadata:
     ipp_csv_id: solid_fixe
     unit: currency-EUR
-metadata:
-  order:
-  - montant_journalier
-  - plafond_ressources
-  reference:
-    2015-01-01: Décret 2014-1719 du 31/12/2014
-    2014-01-01: Décret 2013-1274 du 27/12/2013
-    2013-01-01: Décret 2012-1496 du 28/12/2012
-    2012-01-01: Décret 2012-196 du 09/02/2012
-    2011-07-01: Décret 2011-1421 du 02/11/2011
-  date_parution_jo:
-    2015-01-01: 2014-12-31
-    2014-01-01: 2013-12-29
-    2013-01-01: 29/12/2012
-    2012-01-01: 2012-10-02
-    2011-07-01: 2011-11-03
-  notes:
-    2015-03-01: "L'ATS n'existe plus : au 01/03/2015, tous les demandeurs d'emploi\
-      \ justifiant des trimestres pour bénéficier d'une retraite à taux plein nés\
-      \ 1953 l'ont atteint au 1er mars 2015 (61 ans et 2 mois)."
 plafond_ressources:
   description: Plafond de ressources
   personne_seule:
@@ -57,10 +37,6 @@ plafond_ressources:
     metadata:
       ipp_csv_id: solid_plaf_seul
       unit: currency-EUR
-  metadata:
-    order:
-    - personne_seule
-    - couple
   couple:
     description: Couple
     values:
@@ -79,6 +55,30 @@ plafond_ressources:
     metadata:
       ipp_csv_id: solid_plaf_couple
       unit: currency-EUR
+  metadata:
+    order:
+    - personne_seule
+    - couple
+metadata:
+  order:
+  - montant_journalier
+  - plafond_ressources
+  reference:
+    2015-01-01: Décret 2014-1719 du 31/12/2014
+    2014-01-01: Décret 2013-1274 du 27/12/2013
+    2013-01-01: Décret 2012-1496 du 28/12/2012
+    2012-01-01: Décret 2012-196 du 09/02/2012
+    2011-07-01: Décret 2011-1421 du 02/11/2011
+  date_parution_jo:
+    2015-01-01: 2014-12-31
+    2014-01-01: 2013-12-29
+    2013-01-01: 29/12/2012
+    2012-01-01: 2012-10-02
+    2011-07-01: 2011-11-03
+  notes:
+    2015-03-01: "L'ATS n'existe plus : au 01/03/2015, tous les demandeurs d'emploi\
+      \ justifiant des trimestres pour bénéficier d'une retraite à taux plein nés\
+      \ 1953 l'ont atteint au 1er mars 2015 (61 ans et 2 mois)."
 documentation: |
   Notes :
   Remplace l'AER en juillet 2011.

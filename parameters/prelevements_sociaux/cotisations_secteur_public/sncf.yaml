@@ -34,10 +34,6 @@ regime_retraite:
         value: 0.0785
     metadata:
       unit: /1
-  metadata:
-    order:
-    - cotisations_employes
-    - cotisations_employeur
   cotisations_employeur:
     description: Cotisations employeur
     t1:
@@ -67,10 +63,6 @@ regime_retraite:
           value: 0.2252
       metadata:
         unit: /1
-    metadata:
-      order:
-      - t1
-      - t2
     t2:
       description: T2
       values:
@@ -100,6 +92,38 @@ regime_retraite:
           value: 0.1196
       metadata:
         unit: /1
+    metadata:
+      order:
+      - t1
+      - t2
+  metadata:
+    order:
+    - cotisations_employes
+    - cotisations_employeur
+regime_prevoyance:
+  description: Régime prévoyance
+  salaries:
+    description: Salariés
+    values:
+      2018-01-01:
+        value: null
+      2007-01-01:
+        value: 0.0015
+    metadata:
+      unit: /1
+  employeurs:
+    description: Employeurs
+    values:
+      2018-01-01:
+        value: null
+      2007-01-01:
+        value: 0.096
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
 metadata:
   order:
   - regime_retraite
@@ -188,30 +212,6 @@ metadata:
     2015-01-01: Le décret fixe les taux à la charge de l'employeur jusqu'en 2026.
     2014-01-01: Lettre ministérielle citée par les Comptes combinés 2014 de l'ACOSS
     2013-01-01: Lettre ministérielle citée par les Comptes combinés 2013 de l'ACOSS
-regime_prevoyance:
-  description: Régime prévoyance
-  salaries:
-    description: Salariés
-    values:
-      2018-01-01:
-        value: null
-      2007-01-01:
-        value: 0.0015
-    metadata:
-      unit: /1
-  metadata:
-    order:
-    - salaries
-    - employeurs
-  employeurs:
-    description: Employeurs
-    values:
-      2018-01-01:
-        value: null
-      2007-01-01:
-        value: 0.096
-    metadata:
-      unit: /1
 documentation: |
   Sources :
   Chiffres clés du régime CPRPSNCF 2008-2015.

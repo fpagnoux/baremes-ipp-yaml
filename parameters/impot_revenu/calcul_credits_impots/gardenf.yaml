@@ -33,28 +33,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - credit_impot_frais_garde_enfants
-  reference:
-    2006-01-01: Loi 2005-1719 (art. 79) du 31/12/2005
-    2005-01-01: |-
-      BOI 5 B-13-06
-      n°62 du 05/04/2006
-    1988-01-01: LF pour 1989 - art. 4-I
-  notes:
-    2006-01-01: Passage de 25 % à 50 % du taux de crédit d'impôt.
-    2005-01-01: À partir de l'imposition des revenus de 2005, la réduction d'impot
-      devient un crédit d'impot.
-    1992-01-01: Depuis l'imposition des revenus de 1992, la réduction d'impôt est
-      réservée aux dépenses nécessitées par la garde des enfants à l'extérieur du
-      domicile du contribuable.
-    1988-01-01: Création du dispositif pour l'imposition des revenus de 1988. Avant
-      1989, la réduction d'impôt était une déduction du revenu.
-    1978-01-01: Déduction du revenu offerte  aux foyers fiscaux  dont les conjoints
-      justifient d'un emploi à plein temps ou ne peuvent exercer leur emploi du fait
-      d'une longue maladie ou d'une infirmité à partir de 1982.
 credit_impot_frais_garde_enfants:
   description: Crédit d'impôt pour frais de garde d'enfants
   taux:
@@ -71,10 +49,6 @@ credit_impot_frais_garde_enfants:
     metadata:
       ipp_csv_id: txgardenf
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -101,6 +75,32 @@ credit_impot_frais_garde_enfants:
       unit:
         2001-01-01: currency-EUR
         1978-01-01: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - credit_impot_frais_garde_enfants
+  reference:
+    2006-01-01: Loi 2005-1719 (art. 79) du 31/12/2005
+    2005-01-01: |-
+      BOI 5 B-13-06
+      n°62 du 05/04/2006
+    1988-01-01: LF pour 1989 - art. 4-I
+  notes:
+    2006-01-01: Passage de 25 % à 50 % du taux de crédit d'impôt.
+    2005-01-01: À partir de l'imposition des revenus de 2005, la réduction d'impot
+      devient un crédit d'impot.
+    1992-01-01: Depuis l'imposition des revenus de 1992, la réduction d'impôt est
+      réservée aux dépenses nécessitées par la garde des enfants à l'extérieur du
+      domicile du contribuable.
+    1988-01-01: Création du dispositif pour l'imposition des revenus de 1988. Avant
+      1989, la réduction d'impôt était une déduction du revenu.
+    1978-01-01: Déduction du revenu offerte  aux foyers fiscaux  dont les conjoints
+      justifient d'un emploi à plein temps ou ne peuvent exercer leur emploi du fait
+      d'une longue maladie ou d'une infirmité à partir de 1982.
 documentation: |
   Notes :
   (1) Frais de garde des enfants à l'extérieur du domicile. 

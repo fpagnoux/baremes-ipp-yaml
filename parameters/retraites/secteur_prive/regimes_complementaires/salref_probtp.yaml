@@ -85,10 +85,6 @@ section_cnro:
     metadata:
       ipp_csv_id: salref_cnro_nom
       unit: currency-FRF
-  metadata:
-    order:
-    - salaire_reference_en_nominal
-    - salaire_reference_en_euros
   salaire_reference_en_euros:
     description: Salaire de référence (en euros)
     values:
@@ -173,7 +169,11 @@ section_cnro:
     metadata:
       ipp_csv_id: salref_cnro
       unit: currency-EUR
+  metadata:
+    order:
+    - salaire_reference_en_nominal
+    - salaire_reference_en_euros
+documentation: ''
 metadata:
   order:
   - section_cnro
-documentation: ''

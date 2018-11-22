@@ -32,58 +32,6 @@ taux_appel:
       value: 1.0
   metadata:
     unit: /1
-metadata:
-  order:
-  - taux_appel
-  - taux_contractuels
-  - taux_effectifs
-  - taux_effectifs_salaries_employeurs
-  reference:
-    2017-01-01: AGIRC-ARRCO Circulaire 2016-11-DRJ du 16/12/2016
-    2016-01-01: AGIRC-ARRCO Circulaire 2015-15-DRJ du 28/12/2015
-    2015-01-01: AGIRC-ARRCO Circulaire 2014-16-DRJ du 18/12/2014
-    2014-01-01: AGIRC-ARRCO Circulaire 2013-16-DRJ
-    2006-01-01: Accord AGIRC-ARRCO du 13/11/2003
-    1999-01-01: Accord AGIRC-ARRCO du 25/04/1996
-    1998-01-01: Accord AGIRC-ARRCO du 25/04/1996
-    1997-01-01: Accord AGIRC-ARRCO du 25/04/1996
-    1996-01-01: Accord AGIRC du 09/02/1994
-    1995-01-01: Accord AGIRC du 09/02/1994
-    1994-01-01: Accord AGIRC du 09/02/1994
-    1991-01-01: Accord du 24/03/1988
-    1990-01-01: Référence non trouvée
-    1989-01-01: Référence non trouvée
-    1987-01-01: Référence non trouvée
-    1986-01-01: Référence non trouvée
-    1984-01-01: Avenant A99 du 15/06/1983 agréé par l'arrêté du 14/03/1987.
-    1983-01-01: (pas de référence)
-    1981-01-01: Avenant A75 du 26/06/1978 (non agréé).
-    1979-01-01: Référence non trouvée
-    1976-01-01: Référence non trouvée
-    1966-01-01: Référence non trouvée
-    1965-01-01: Référence non trouvée
-    1961-01-01: Référence non trouvée
-    1955-01-01: Référence non trouvée
-    1953-01-01: Référence non trouvée
-    1952-01-01: Référence non trouvée
-    1948-01-01: Convention AGIRC du 14/03/1947
-  date_parution_jo:
-    1986-01-01: 1987-05-13
-  notes:
-    2014-01-01: 'Sur la tranche C (au 01/01/ 2013, possiblement avant) : répartition
-      libre par accord d’entreprise jusqu’à 20 %, puis de manière prédéterminée sur
-      les 0,30 % restant (0,1 % part patronale et 0,2 % part salariale). Il est cependant
-      conseillé d’appliquer la même répartition que sur la tranche B.'
-    1998-01-01: 'BSP : Nouveau taux de 14% appelé à 125% (soit 17,5%). Ce taux sera
-      porté à 15% en 1998 et à 16% en 1999'
-    1997-01-01: 'BSP : "Le taux contractuel de 13% est donc appelé à 16,25% (10,625%
-      employeur ; 5,625% salarié)'
-    1996-01-01: 'BSP : Fin de la clause spéciale pour les entreprises créées après
-      le 01/01/1981.'
-    1983-01-01: Délais de 2 ans pour cotiser à 12% pour les entreprises créés entre
-      le 01/01/1981 et le 01/01/1983.
-    1979-01-01: "Ecrit en toutes lettres dans le BSP : \"2% à la charge du salarié,\
-      \ 6% à la charge de l'employeur\" (p.71 de I/1976)"
 taux_contractuels:
   description: Taux contractuels
   tranche_b_entre_1_4_pss:
@@ -113,10 +61,6 @@ taux_contractuels:
           value: 0.08
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_avant_01_01_1981
-      - entreprises_apres_01_01_1981
     entreprises_apres_01_01_1981:
       description: Entreprises après 01/01/1981
       values:
@@ -142,10 +86,10 @@ taux_contractuels:
           value: null
       metadata:
         unit: /1
-  metadata:
-    order:
-    - tranche_b_entre_1_4_pss
-    - tranche_c_entre_4_8_pss
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
   tranche_c_entre_4_8_pss:
     description: Tranche C (entre 4 et 8 PSS)
     entreprises_avant_01_01_1981:
@@ -175,10 +119,6 @@ taux_contractuels:
           value: null
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_avant_01_01_1981
-      - entreprises_apres_01_01_1981
     entreprises_apres_01_01_1981:
       description: Entreprises après 01/01/1981
       values:
@@ -204,6 +144,14 @@ taux_contractuels:
           value: null
       metadata:
         unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
+  metadata:
+    order:
+    - tranche_b_entre_1_4_pss
+    - tranche_c_entre_4_8_pss
 taux_effectifs:
   description: Taux effectifs
   tranche_b_entre_1_4_pss:
@@ -255,10 +203,6 @@ taux_effectifs:
           value: 0.08
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_avant_01_01_1981
-      - entreprises_apres_01_01_1981
     entreprises_apres_01_01_1981:
       description: Entreprises après 01/01/1981
       values:
@@ -296,10 +240,10 @@ taux_effectifs:
           value: null
       metadata:
         unit: /1
-  metadata:
-    order:
-    - tranche_b_entre_1_4_pss
-    - tranche_c_entre_4_8_pss
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
   tranche_c_entre_4_8_pss:
     description: Tranche C (entre 4 et 8 PSS)
     entreprises_avant_01_01_1981:
@@ -329,10 +273,6 @@ taux_effectifs:
           value: null
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_avant_01_01_1981
-      - entreprises_apres_01_01_1981
     entreprises_apres_01_01_1981:
       description: Entreprises après 01/01/1981
       values:
@@ -360,6 +300,14 @@ taux_effectifs:
           value: null
       metadata:
         unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1981
+      - entreprises_apres_01_01_1981
+  metadata:
+    order:
+    - tranche_b_entre_1_4_pss
+    - tranche_c_entre_4_8_pss
 taux_effectifs_salaries_employeurs:
   description: Taux effectifs (salariés/employeurs)
   tranche_b_avant_81:
@@ -412,10 +360,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc_s_1_4
         unit: /1
-    metadata:
-      order:
-      - salarie
-      - employeur
     employeur:
       description: Employeur
       values:
@@ -464,12 +408,10 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc_p_1_4
         unit: /1
-  metadata:
-    order:
-    - tranche_b_avant_81
-    - tranche_b_depuis_81
-    - tranche_c_avant_81
-    - tranche_c_apres_81
+    metadata:
+      order:
+      - salarie
+      - employeur
   tranche_b_depuis_81:
     description: Tranche B (depuis 81)
     salarie:
@@ -498,10 +440,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc81_s_1_4
         unit: /1
-    metadata:
-      order:
-      - salarie
-      - employeur
     employeur:
       description: Employeur
       values:
@@ -528,6 +466,10 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc81_p_1_4
         unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
   tranche_c_avant_81:
     description: Tranche C (avant 81)
     salarie:
@@ -558,10 +500,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc_s_4_8
         unit: /1
-    metadata:
-      order:
-      - salarie
-      - employeur
     employeur:
       description: Employeur
       values:
@@ -590,6 +528,10 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc_p_4_8
         unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
   tranche_c_apres_81:
     description: Tranche C (après 81)
     salarie:
@@ -620,10 +562,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc81_s_4_8
         unit: /1
-    metadata:
-      order:
-      - salarie
-      - employeur
     employeur:
       description: Employeur
       values:
@@ -652,6 +590,68 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: agirc81_p_4_8
         unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
+  metadata:
+    order:
+    - tranche_b_avant_81
+    - tranche_b_depuis_81
+    - tranche_c_avant_81
+    - tranche_c_apres_81
+metadata:
+  order:
+  - taux_appel
+  - taux_contractuels
+  - taux_effectifs
+  - taux_effectifs_salaries_employeurs
+  reference:
+    2017-01-01: AGIRC-ARRCO Circulaire 2016-11-DRJ du 16/12/2016
+    2016-01-01: AGIRC-ARRCO Circulaire 2015-15-DRJ du 28/12/2015
+    2015-01-01: AGIRC-ARRCO Circulaire 2014-16-DRJ du 18/12/2014
+    2014-01-01: AGIRC-ARRCO Circulaire 2013-16-DRJ
+    2006-01-01: Accord AGIRC-ARRCO du 13/11/2003
+    1999-01-01: Accord AGIRC-ARRCO du 25/04/1996
+    1998-01-01: Accord AGIRC-ARRCO du 25/04/1996
+    1997-01-01: Accord AGIRC-ARRCO du 25/04/1996
+    1996-01-01: Accord AGIRC du 09/02/1994
+    1995-01-01: Accord AGIRC du 09/02/1994
+    1994-01-01: Accord AGIRC du 09/02/1994
+    1991-01-01: Accord du 24/03/1988
+    1990-01-01: Référence non trouvée
+    1989-01-01: Référence non trouvée
+    1987-01-01: Référence non trouvée
+    1986-01-01: Référence non trouvée
+    1984-01-01: Avenant A99 du 15/06/1983 agréé par l'arrêté du 14/03/1987.
+    1983-01-01: (pas de référence)
+    1981-01-01: Avenant A75 du 26/06/1978 (non agréé).
+    1979-01-01: Référence non trouvée
+    1976-01-01: Référence non trouvée
+    1966-01-01: Référence non trouvée
+    1965-01-01: Référence non trouvée
+    1961-01-01: Référence non trouvée
+    1955-01-01: Référence non trouvée
+    1953-01-01: Référence non trouvée
+    1952-01-01: Référence non trouvée
+    1948-01-01: Convention AGIRC du 14/03/1947
+  date_parution_jo:
+    1986-01-01: 1987-05-13
+  notes:
+    2014-01-01: 'Sur la tranche C (au 01/01/ 2013, possiblement avant) : répartition
+      libre par accord d’entreprise jusqu’à 20 %, puis de manière prédéterminée sur
+      les 0,30 % restant (0,1 % part patronale et 0,2 % part salariale). Il est cependant
+      conseillé d’appliquer la même répartition que sur la tranche B.'
+    1998-01-01: 'BSP : Nouveau taux de 14% appelé à 125% (soit 17,5%). Ce taux sera
+      porté à 15% en 1998 et à 16% en 1999'
+    1997-01-01: 'BSP : "Le taux contractuel de 13% est donc appelé à 16,25% (10,625%
+      employeur ; 5,625% salarié)'
+    1996-01-01: 'BSP : Fin de la clause spéciale pour les entreprises créées après
+      le 01/01/1981.'
+    1983-01-01: Délais de 2 ans pour cotiser à 12% pour les entreprises créés entre
+      le 01/01/1981 et le 01/01/1983.
+    1979-01-01: "Ecrit en toutes lettres dans le BSP : \"2% à la charge du salarié,\
+      \ 6% à la charge de l'employeur\" (p.71 de I/1976)"
 documentation: |
   Notes :
   Les taux contractuels définissent les points de retraite acquis par les cotisations. Les taux d'appel appliqués aux taux contractuels définissent les taux effectifs.

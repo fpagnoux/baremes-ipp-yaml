@@ -10,6 +10,27 @@ mois_grossesse_ouverture_droits_1:
       value: 3.0
   metadata:
     ipp_csv_id: nb_mois
+age_limite_enfants_ouvrant_droit_apje_2:
+  description: Âge limite des enfants ouvrant droit à l'APJE (2)
+  values:
+    2004-01-01:
+      value: null
+    1985-01-01:
+      value: 3.0
+  metadata:
+    ipp_csv_id: apje_enf_agemax
+montant_apje_en_bmaf:
+  description: |-
+    Montant de l'APJE
+    (en % de la BMAF)
+  values:
+    2004-01-01:
+      value: null
+    1985-01-01:
+      value: 0.4595
+  metadata:
+    ipp_csv_id: tx_apje
+    unit: /1
 metadata:
   order:
   - mois_grossesse_ouverture_droits_1
@@ -51,27 +72,6 @@ metadata:
     1985-01-01: AJE, Allocation au Jeune Enfant (remplace pour les enfants conçus
       après 31/12/1984 les allocations pré & post natales). Sans conditions de ressources
       jusqu'au 3e anniversaire de l'enfant
-age_limite_enfants_ouvrant_droit_apje_2:
-  description: Âge limite des enfants ouvrant droit à l'APJE (2)
-  values:
-    2004-01-01:
-      value: null
-    1985-01-01:
-      value: 3.0
-  metadata:
-    ipp_csv_id: apje_enf_agemax
-montant_apje_en_bmaf:
-  description: |-
-    Montant de l'APJE
-    (en % de la BMAF)
-  values:
-    2004-01-01:
-      value: null
-    1985-01-01:
-      value: 0.4595
-  metadata:
-    ipp_csv_id: tx_apje
-    unit: /1
 documentation: |
   Notes :
   (1) Ouverture des droits "à compter du premier jour du mois civil suivant le troisième mois de grossesse" (art. R531-1 du CSS).

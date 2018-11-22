@@ -17,10 +17,6 @@ avantages_retraite:
     metadata:
       ipp_csv_id: mmid_ret
       unit: /1
-  metadata:
-    order:
-    - regime_general
-    - regimes_comp
   regimes_comp:
     description: Régimes comp.
     values:
@@ -37,6 +33,10 @@ avantages_retraite:
     metadata:
       ipp_csv_id: mmid_ret_comp
       unit: /1
+  metadata:
+    order:
+    - regime_general
+    - regimes_comp
 metadata:
   order:
   - avantages_retraite

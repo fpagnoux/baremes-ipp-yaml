@@ -10,11 +10,6 @@ majoration_montant_maximal_en_base_rsa:
     metadata:
       ipp_csv_id: rsa_rmi_coup
       unit: /1
-  metadata:
-    order:
-    - couples_celibataire_avec_enfant
-    - couple_1_enfant_deuxieme_enfant_1
-    - par_enfant_supplementaire
   couple_1_enfant_deuxieme_enfant_1:
     description: Couple, 1 enfant - ou pour le deuxième enfant (1)
     values:
@@ -31,20 +26,11 @@ majoration_montant_maximal_en_base_rsa:
     metadata:
       ipp_csv_id: rsa_rmi_enf3
       unit: /1
-metadata:
-  order:
-  - majoration_montant_maximal_en_base_rsa
-  - majoration_isolement_en_base_rsa
-  - majoration_ressources_revenus_activite
-  - montant_minimum_verse
-  reference:
-    2016-01-01: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
-    2009-06-01: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
-  date_parution_jo:
-    2016-01-01: 2015-12-22
-    2009-06-01: 2009-04-16
-  notes:
-    2016-01-01: Remplacement du RSA activité par la Prime d'activité
+  metadata:
+    order:
+    - couples_celibataire_avec_enfant
+    - couple_1_enfant_deuxieme_enfant_1
+    - par_enfant_supplementaire
 majoration_isolement_en_base_rsa:
   description: Majoration isolement (en % de la base RSA)
   parents_isoles_2_femmes_enceintes:
@@ -57,10 +43,6 @@ majoration_isolement_en_base_rsa:
     metadata:
       ipp_csv_id: rsa_isole_enceinte
       unit: /1
-  metadata:
-    order:
-    - parents_isoles_2_femmes_enceintes
-    - par_enfant_charge
   par_enfant_charge:
     description: Par enfant à charge
     values:
@@ -71,6 +53,10 @@ majoration_isolement_en_base_rsa:
     metadata:
       ipp_csv_id: rsa_isole_enf
       unit: /1
+  metadata:
+    order:
+    - parents_isoles_2_femmes_enceintes
+    - par_enfant_charge
 majoration_ressources_revenus_activite:
   description: Majoration des ressources sur les revenus d'activité
   values:
@@ -91,6 +77,20 @@ montant_minimum_verse:
   metadata:
     ipp_csv_id: min_rsa_rmi
     unit: currency-EUR
+metadata:
+  order:
+  - majoration_montant_maximal_en_base_rsa
+  - majoration_isolement_en_base_rsa
+  - majoration_ressources_revenus_activite
+  - montant_minimum_verse
+  reference:
+    2016-01-01: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+    2009-06-01: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
+  date_parution_jo:
+    2016-01-01: 2015-12-22
+    2009-06-01: 2009-04-16
+  notes:
+    2016-01-01: Remplacement du RSA activité par la Prime d'activité
 documentation: |
   Notes :
   (1) Quel que soit le type de ménage.

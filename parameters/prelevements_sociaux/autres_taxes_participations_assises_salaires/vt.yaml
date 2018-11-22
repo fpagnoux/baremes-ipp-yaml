@@ -15,10 +15,6 @@ taux_maximal_hors_ile_france:
     metadata:
       ipp_csv_id: vt_p_0_1
       unit: /1
-  metadata:
-    order:
-    - sous_pss
-    - tout_salaire
   tout_salaire:
     description: Tout salaire
     values:
@@ -33,82 +29,10 @@ taux_maximal_hors_ile_france:
     metadata:
       ipp_csv_id: vt_p_0_
       unit: /1
-metadata:
-  order:
-  - taux_maximal_hors_ile_france
-  - paris
-  - essonne
-  - hauts_seine
-  - seine_saint_denis
-  - val_marne
-  - val_oise
-  - lyon
-  - marseille
-  - toulouse
-  - bourg_en_bresse
-  reference:
-    2018-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 99
-    2017-07-01: Lettre circulaire ACOSS 2016­0000014 du 24/05/2016
-    2017-01-01: Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 91
-    2016-01-01: Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
-    2015-07-01: Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
-    2013-07-01: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
-    2013-01-01: Loi 2012-1509 du 29/12/2012 - art. 84
-    2011-07-01: Lettre circulaire ACOSS 2011-0000075
-    2011-01-01: Référence manquante
-    2008-01-01: Référence manquante
-    2007-01-01: Lettre circulaire URSSAF 2006-106
-    2004-07-01: Lettre circulaire URSSAF 2004-102
-    2004-01-01: |-
-      Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132 ; 
-      Décret 2003-1385 du 31/12/2003
-    2003-01-01: Lettre circulaire URSSAF 2002-218
-    2001-07-01: Référence manquante
-    2001-01-01: Référence manquante
-    1996-02-01: Décret 96-17 du 10/01/1996
-    1996-01-01: Loi 95-1346 - art. 96 du 30/12/1995
-    1994-01-01: Référence manquante
-    1993-04-01: Loi 92-1376 du 30/12/1992, art. 115
-    1993-01-01: Loi 92-1376 du 30/12/1992 (LF pour 1993), art. 115
-    1991-07-19: Loi 91-662 du 13/07/1991 - art. 36
-    1991-04-01: Référence manquante
-    1989-09-01: Référence manquante
-    1989-01-01: Loi 88-1193 du 29/12/1988 - art. 45
-    1986-04-01: Référence manquante
-    1983-07-01: Référence manquante
-    1979-01-01: Référence manquante
-    1977-01-01: Référence manquante
-    1975-08-01: Loi 75-580 du 5/07/1975; Décret 75-784 du 22/08/1975
-    1975-07-01: Décret 75-533 du 27/06/1975
-    1975-01-01: Décret 74-933 du 07/11/1974
-    1974-01-01: Loi 73-640 du 11/07/1973, art. 1; décret 74-66 du 29/01/1974
-    1971-09-01: Loi 71-559 du 12/07/1971; Décret 71-710 du 30/08/1971
-  date_parution_jo:
-    2018-01-01: 2017-12-31
-    2017-01-01: 2016-12-30
-    2013-01-01: 2012-12-30
-    2004-01-01: |-
-      31/12/2003
-      01/01/2004
-    1996-02-01: 1996-01-11
-    1996-01-01: 1995-12-31
-    1993-04-01: 1992-12-31
-    1993-01-01: 1992-12-31
-    1991-07-19: 1991-07-19
-    1989-01-01: 1988-12-30
-    1975-08-01: 1975-07-06
-    1975-07-01: 1975-06-29
-    1975-01-01: 1974-11-08
-    1974-01-01: 12/07/1973 30/01/1974
-    1971-09-01: 13/07/1971 31/08/1971
-  notes:
-    2013-07-01: Evolution progressive en Essonne et Val d'Oise (objectif de 1,80%
-      en juillet 2015)
-    1993-04-01: Déplafonnement du versement transport
-    1975-01-01: Le décret 74-933 abaisse le seuil à 10 000 habitants.
-    1974-01-01: La loi 73-640 autorise les communes de plus de 300 000 habitants
-      à instaurer un VT, dont le taux (au maximum de 1,5%) sera fixé par décret.
-    1971-09-01: Le VT est instauré uniquement pour Paris, le 92 et le 94.
+  metadata:
+    order:
+    - sous_pss
+    - tout_salaire
 paris:
   description: Paris
   values:
@@ -357,6 +281,82 @@ bourg_en_bresse:
   metadata:
     ipp_csv_id: vt_beb
     unit: /1
+metadata:
+  order:
+  - taux_maximal_hors_ile_france
+  - paris
+  - essonne
+  - hauts_seine
+  - seine_saint_denis
+  - val_marne
+  - val_oise
+  - lyon
+  - marseille
+  - toulouse
+  - bourg_en_bresse
+  reference:
+    2018-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 99
+    2017-07-01: Lettre circulaire ACOSS 2016­0000014 du 24/05/2016
+    2017-01-01: Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 91
+    2016-01-01: Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
+    2015-07-01: Lettre circulaire ACOSS 2015-0000024 du 07/05/2015
+    2013-07-01: Lettre circulaire ACOSS n° 2013 - 0000046 du 30/05/2013
+    2013-01-01: Loi 2012-1509 du 29/12/2012 - art. 84
+    2011-07-01: Lettre circulaire ACOSS 2011-0000075
+    2011-01-01: Référence manquante
+    2008-01-01: Référence manquante
+    2007-01-01: Lettre circulaire URSSAF 2006-106
+    2004-07-01: Lettre circulaire URSSAF 2004-102
+    2004-01-01: |-
+      Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132 ; 
+      Décret 2003-1385 du 31/12/2003
+    2003-01-01: Lettre circulaire URSSAF 2002-218
+    2001-07-01: Référence manquante
+    2001-01-01: Référence manquante
+    1996-02-01: Décret 96-17 du 10/01/1996
+    1996-01-01: Loi 95-1346 - art. 96 du 30/12/1995
+    1994-01-01: Référence manquante
+    1993-04-01: Loi 92-1376 du 30/12/1992, art. 115
+    1993-01-01: Loi 92-1376 du 30/12/1992 (LF pour 1993), art. 115
+    1991-07-19: Loi 91-662 du 13/07/1991 - art. 36
+    1991-04-01: Référence manquante
+    1989-09-01: Référence manquante
+    1989-01-01: Loi 88-1193 du 29/12/1988 - art. 45
+    1986-04-01: Référence manquante
+    1983-07-01: Référence manquante
+    1979-01-01: Référence manquante
+    1977-01-01: Référence manquante
+    1975-08-01: Loi 75-580 du 5/07/1975; Décret 75-784 du 22/08/1975
+    1975-07-01: Décret 75-533 du 27/06/1975
+    1975-01-01: Décret 74-933 du 07/11/1974
+    1974-01-01: Loi 73-640 du 11/07/1973, art. 1; décret 74-66 du 29/01/1974
+    1971-09-01: Loi 71-559 du 12/07/1971; Décret 71-710 du 30/08/1971
+  date_parution_jo:
+    2018-01-01: 2017-12-31
+    2017-01-01: 2016-12-30
+    2013-01-01: 2012-12-30
+    2004-01-01: |-
+      31/12/2003
+      01/01/2004
+    1996-02-01: 1996-01-11
+    1996-01-01: 1995-12-31
+    1993-04-01: 1992-12-31
+    1993-01-01: 1992-12-31
+    1991-07-19: 1991-07-19
+    1989-01-01: 1988-12-30
+    1975-08-01: 1975-07-06
+    1975-07-01: 1975-06-29
+    1975-01-01: 1974-11-08
+    1974-01-01: 12/07/1973 30/01/1974
+    1971-09-01: 13/07/1971 31/08/1971
+  notes:
+    2013-07-01: Evolution progressive en Essonne et Val d'Oise (objectif de 1,80%
+      en juillet 2015)
+    1993-04-01: Déplafonnement du versement transport
+    1975-01-01: Le décret 74-933 abaisse le seuil à 10 000 habitants.
+    1974-01-01: La loi 73-640 autorise les communes de plus de 300 000 habitants
+      à instaurer un VT, dont le taux (au maximum de 1,5%) sera fixé par décret.
+    1971-09-01: Le VT est instauré uniquement pour Paris, le 92 et le 94.
 documentation: |
   Notes :
   (i) Le versement transport est recouvré par les URSSAF comme les cotisations de Sécurité sociale, et reversé aux collectivités locales.

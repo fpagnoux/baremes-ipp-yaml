@@ -9,10 +9,6 @@ tranche_1:
     metadata:
       ipp_csv_id: agff_s_0_1
       unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
   employeur:
     description: Employeur
     values:
@@ -21,17 +17,10 @@ tranche_1:
     metadata:
       ipp_csv_id: agff_p_0_1
       unit: /1
-metadata:
-  order:
-  - tranche_1
-  - tranche_2
-  - tranche_b
-  - tranche_c
-  reference:
-    2016-01-01: Accord Arrco-Agirc du 30/10/2015 (art.3)
-    2001-04-01: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
-  notes:
-    2016-01-01: Extension de la cotisation sur tranche B à la tranche C
+  metadata:
+    order:
+    - salarie
+    - employeur
 tranche_2:
   description: Tranche 2
   salarie:
@@ -42,10 +31,6 @@ tranche_2:
     metadata:
       ipp_csv_id: agff_s_1_3
       unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
   employeur:
     description: Employeur
     values:
@@ -54,6 +39,10 @@ tranche_2:
     metadata:
       ipp_csv_id: agff_p_1_3
       unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
 tranche_b:
   description: Tranche B
   salarie:
@@ -64,10 +53,6 @@ tranche_b:
     metadata:
       ipp_csv_id: agff_s_1_4
       unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
   employeur:
     description: Employeur
     values:
@@ -76,6 +61,10 @@ tranche_b:
     metadata:
       ipp_csv_id: agff_p_1_4
       unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
 tranche_c:
   description: Tranche C
   salarie:
@@ -87,10 +76,6 @@ tranche_c:
         value: null
     metadata:
       unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
   employeur:
     description: Employeur
     values:
@@ -100,6 +85,21 @@ tranche_c:
         value: null
     metadata:
       unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
+metadata:
+  order:
+  - tranche_1
+  - tranche_2
+  - tranche_b
+  - tranche_c
+  reference:
+    2016-01-01: Accord Arrco-Agirc du 30/10/2015 (art.3)
+    2001-04-01: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+  notes:
+    2016-01-01: Extension de la cotisation sur tranche B à la tranche C
 documentation: |
   Notes :
   (i) L'Association pour la Gestion du Fonds de Financement de l'AGIRC et de l'ARRCO (AGFF) remplace depuis le 1er avril 2001, l'Association pour la structure Financière (ASF).

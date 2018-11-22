@@ -8,6 +8,15 @@ nombre_minimal_enfants_charge:
       value: 3.0
   metadata:
     ipp_csv_id: asu_nenf_min
+montant_mensuel_maximum_1:
+  description: Montant mensuel maximum (1)
+  values:
+    1978-01-01:
+      value: null
+    1976-07-01:
+      value: 291.35
+  metadata:
+    unit: currency-FRF
 metadata:
   order:
   - nombre_minimal_enfants_charge
@@ -20,15 +29,6 @@ metadata:
     1976-07-01: 28/05/1974 03/07/1975
   notes:
     1978-01-01: Remplacé par "complément familial" depuis 01/01/1978
-montant_mensuel_maximum_1:
-  description: Montant mensuel maximum (1)
-  values:
-    1978-01-01:
-      value: null
-    1976-07-01:
-      value: 291.35
-  metadata:
-    unit: currency-FRF
 documentation: |
   Notes :
   (1) L'allocation couvre le montant des frais réellement exposés pour un ou plusieurs enfants dans la limite du plafond mentionné dans cette colonne.

@@ -95,73 +95,6 @@ date_effet:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_effet
-  - deduction_frais_accueil_une_personne_plus_75_ans
-  - deduction_pensions_alimentaires
-  - deduction_versements_perp
-  - reduction_souscriptions_parts_sofica
-  - acquisition_navire
-  - deductions_navires_commerce
-  - deductions_pertes_en_capital_societes_nouvelles
-  - deductions_souscription_parts_sofipeche
-  - deductions_investissements_en_actions
-  - reduction_versement_compte_epargne_codev
-  - deductions_grosses_reparations
-  reference:
-    2017-01-01: LF pour 2018
-    2016-01-01: LF pour 2017
-    2015-01-01: LF pour 2016
-    2014-01-01: LF pour 2015
-    2013-01-01: LF pour 2014
-    2011-01-01: LF pour 2012
-    2010-01-01: LF pour 2011
-    2009-01-01: LF pour 2010
-    2008-01-01: LF pour 2009
-    2007-01-01: LF pour 2008
-    2006-01-01: LF pour 2007
-    2005-01-01: LF pour 2006
-    2004-01-01: LF pour 2005
-    2003-01-01: LF pour 2004
-    2002-01-01: LF pour 2003
-    2001-01-01: LF pour 2002
-    2000-01-01: LF pour 2001
-    1999-01-01: LF pour 2000
-    1998-01-01: LF pour 1999
-    1997-01-01: LF pour 1998
-    1996-01-01: LF pour 1997
-    1995-01-01: LF pour 1996
-    1994-01-01: LF pour 1995
-    1993-01-01: LF pour 1994
-    1992-01-01: LF pour 1993
-    1991-01-01: LF pour 1992
-    1990-01-01: LF pour 1991
-    1989-01-01: LF pour 1990
-    1988-01-01: LF pour 1989
-    1987-01-01: LF pour 1988
-    1986-01-01: LF pour 1987
-    1985-01-01: LF pour 1986
-    1984-01-01: LF pour 1985
-    1983-01-01: LF pour 1984
-    1982-01-01: LF pour 1983
-    1981-01-01: LF pour 1982
-    1980-01-01: LF pour 1981
-    1979-01-01: LF pour 1980
-    1978-01-01: LF pour 1979
-    1977-01-01: LF pour 1978
-    1976-01-01: LF pour 1977
-    1975-01-01: LF pour 1976
-    1974-01-01: LF pour 1975
-  notes:
-    2006-01-01: SOFICA et SOFIPECHE deviennent des crédits d'impôt à partir de la
-      déclaration des revenus de 2006 (aller aux onglets SOFICA et SOFIPECHE)
-    2003-01-01: À partir de l'imposition des revenus de 2004, différence entre pertes
-      en capital souscription du 01/01/1994 = plaf_capita_soc1 et pertes en capital
-      souscriptions à compter du 01/01/2003 = plaf_capital_soc2, le total des pertes
-      reportés dans les deux cas ne peut excéder plaf_capital_soc2
-    1999-01-01: Investissement DOM-TOM devient investissement DOM-TOM dans le cadre
-      d'une entreprise (à partir de revenus de 1999)
 deduction_frais_accueil_une_personne_plus_75_ans:
   description: Déduction pour frais d'accueil d'une personne de plus de 75 ans
   plafond:
@@ -333,10 +266,6 @@ deduction_pensions_alimentaires:
       unit:
         2001-01-01: currency-EUR
         1974-01-01: currency-FRF
-  metadata:
-    order:
-    - plafond
-    - coefficient_majoration_pensions_suite_une_decision_justice_definitive_avant_01_01_2006
   coefficient_majoration_pensions_suite_une_decision_justice_definitive_avant_01_01_2006:
     description: Coefficient de majoration pour les pensions suite à une décision
       de justice définitive avant le 01/01/2006
@@ -347,6 +276,10 @@ deduction_pensions_alimentaires:
         value: null
     metadata:
       unit: /1
+  metadata:
+    order:
+    - plafond
+    - coefficient_majoration_pensions_suite_une_decision_justice_definitive_avant_01_01_2006
 deduction_versements_perp:
   description: Déduction pour versements sur PERP
   minimum:
@@ -383,10 +316,6 @@ deduction_versements_perp:
     metadata:
       ipp_csv_id: mindeduc_perp
       unit: currency-EUR
-  metadata:
-    order:
-    - minimum
-    - maximum
   maximum:
     description: Maximum
     values:
@@ -421,6 +350,10 @@ deduction_versements_perp:
     metadata:
       ipp_csv_id: max_deduc_perp
       unit: currency-EUR
+  metadata:
+    order:
+    - minimum
+    - maximum
 reduction_souscriptions_parts_sofica:
   description: Réduction pour souscriptions de parts de SOFICA
   plafond_reduction:
@@ -439,10 +372,6 @@ reduction_souscriptions_parts_sofica:
       unit:
         2001-01-01: currency-EUR
         1997-01-01: currency-FRF
-  metadata:
-    order:
-    - plafond_reduction
-    - plafond_en_revenu_net_global
   plafond_en_revenu_net_global:
     description: Plafond  en % du revenu net global
     values:
@@ -455,6 +384,10 @@ reduction_souscriptions_parts_sofica:
     metadata:
       ipp_csv_id: base_sofica
       unit: /1
+  metadata:
+    order:
+    - plafond_reduction
+    - plafond_en_revenu_net_global
 acquisition_navire:
   description: Acquisition de navire
   plafond:
@@ -469,10 +402,6 @@ acquisition_navire:
     metadata:
       ipp_csv_id: plaf_navire
       unit: currency-FRF
-  metadata:
-    order:
-    - plafond
-    - taux
   taux:
     description: Taux
     values:
@@ -485,6 +414,10 @@ acquisition_navire:
     metadata:
       ipp_csv_id: tx_navire
       unit: /1
+  metadata:
+    order:
+    - plafond
+    - taux
 deductions_navires_commerce:
   description: Déductions pour navires de commerce
   plafond:
@@ -520,10 +453,6 @@ deductions_pertes_en_capital_societes_nouvelles:
       unit:
         2001-01-01: currency-EUR
         1994-01-01: currency-FRF
-  metadata:
-    order:
-    - plafond_1
-    - plafond_2
   plafond_2:
     description: Plafond 2
     values:
@@ -536,6 +465,10 @@ deductions_pertes_en_capital_societes_nouvelles:
     metadata:
       ipp_csv_id: plaf_capital_soc2
       unit: currency-EUR
+  metadata:
+    order:
+    - plafond_1
+    - plafond_2
 deductions_souscription_parts_sofipeche:
   description: Déductions pour souscription parts SOFIPECHE
   plafond:
@@ -554,10 +487,6 @@ deductions_souscription_parts_sofipeche:
       unit:
         2001-01-01: currency-EUR
         1998-01-01: currency-FRF
-  metadata:
-    order:
-    - plafond
-    - plafond_en_revenu_net_global
   plafond_en_revenu_net_global:
     description: Plafond en % du revenu net global
     values:
@@ -570,6 +499,10 @@ deductions_souscription_parts_sofipeche:
     metadata:
       ipp_csv_id: base_sofipeche_charge
       unit: /1
+  metadata:
+    order:
+    - plafond
+    - plafond_en_revenu_net_global
 deductions_investissements_en_actions:
   description: Déductions pour investissements en actions
   plafond:
@@ -586,10 +519,6 @@ deductions_investissements_en_actions:
     metadata:
       ipp_csv_id: plaf_action
       unit: currency-FRF
-  metadata:
-    order:
-    - plafond
-    - supplement_par_enfant
   supplement_par_enfant:
     description: Supplément par enfant
     values:
@@ -602,6 +531,10 @@ deductions_investissements_en_actions:
     metadata:
       ipp_csv_id: increment_action
       unit: currency-FRF
+  metadata:
+    order:
+    - plafond
+    - supplement_par_enfant
 reduction_versement_compte_epargne_codev:
   description: Réduction  pour versement compte épargne CODEV
   plafond_en_revenu_net_global:
@@ -616,10 +549,6 @@ reduction_versement_compte_epargne_codev:
     metadata:
       ipp_csv_id: tx_epargnecodev
       unit: /1
-  metadata:
-    order:
-    - plafond_en_revenu_net_global
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -632,6 +561,10 @@ reduction_versement_compte_epargne_codev:
     metadata:
       ipp_csv_id: plaf_epargnecodev
       unit: currency-EUR
+  metadata:
+    order:
+    - plafond_en_revenu_net_global
+    - plafond
 deductions_grosses_reparations:
   description: Déductions pour grosses réparations
   plafond:
@@ -649,6 +582,73 @@ deductions_grosses_reparations:
   metadata:
     order:
     - plafond
+metadata:
+  order:
+  - date_effet
+  - deduction_frais_accueil_une_personne_plus_75_ans
+  - deduction_pensions_alimentaires
+  - deduction_versements_perp
+  - reduction_souscriptions_parts_sofica
+  - acquisition_navire
+  - deductions_navires_commerce
+  - deductions_pertes_en_capital_societes_nouvelles
+  - deductions_souscription_parts_sofipeche
+  - deductions_investissements_en_actions
+  - reduction_versement_compte_epargne_codev
+  - deductions_grosses_reparations
+  reference:
+    2017-01-01: LF pour 2018
+    2016-01-01: LF pour 2017
+    2015-01-01: LF pour 2016
+    2014-01-01: LF pour 2015
+    2013-01-01: LF pour 2014
+    2011-01-01: LF pour 2012
+    2010-01-01: LF pour 2011
+    2009-01-01: LF pour 2010
+    2008-01-01: LF pour 2009
+    2007-01-01: LF pour 2008
+    2006-01-01: LF pour 2007
+    2005-01-01: LF pour 2006
+    2004-01-01: LF pour 2005
+    2003-01-01: LF pour 2004
+    2002-01-01: LF pour 2003
+    2001-01-01: LF pour 2002
+    2000-01-01: LF pour 2001
+    1999-01-01: LF pour 2000
+    1998-01-01: LF pour 1999
+    1997-01-01: LF pour 1998
+    1996-01-01: LF pour 1997
+    1995-01-01: LF pour 1996
+    1994-01-01: LF pour 1995
+    1993-01-01: LF pour 1994
+    1992-01-01: LF pour 1993
+    1991-01-01: LF pour 1992
+    1990-01-01: LF pour 1991
+    1989-01-01: LF pour 1990
+    1988-01-01: LF pour 1989
+    1987-01-01: LF pour 1988
+    1986-01-01: LF pour 1987
+    1985-01-01: LF pour 1986
+    1984-01-01: LF pour 1985
+    1983-01-01: LF pour 1984
+    1982-01-01: LF pour 1983
+    1981-01-01: LF pour 1982
+    1980-01-01: LF pour 1981
+    1979-01-01: LF pour 1980
+    1978-01-01: LF pour 1979
+    1977-01-01: LF pour 1978
+    1976-01-01: LF pour 1977
+    1975-01-01: LF pour 1976
+    1974-01-01: LF pour 1975
+  notes:
+    2006-01-01: SOFICA et SOFIPECHE deviennent des crédits d'impôt à partir de la
+      déclaration des revenus de 2006 (aller aux onglets SOFICA et SOFIPECHE)
+    2003-01-01: À partir de l'imposition des revenus de 2004, différence entre pertes
+      en capital souscription du 01/01/1994 = plaf_capita_soc1 et pertes en capital
+      souscriptions à compter du 01/01/2003 = plaf_capital_soc2, le total des pertes
+      reportés dans les deux cas ne peut excéder plaf_capital_soc2
+    1999-01-01: Investissement DOM-TOM devient investissement DOM-TOM dans le cadre
+      d'une entreprise (à partir de revenus de 1999)
 documentation: |
   Notes :
   (1) Plafond frais personnes de plus de 75 ans : art. 156-II-2° ter du CGI

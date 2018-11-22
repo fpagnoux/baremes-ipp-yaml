@@ -17,29 +17,6 @@ cotisation_securite_sociale_eur_par_decilitre:
     unit:
       2002-01-01: currency-EUR
       1983-04-01: currency-FRF
-metadata:
-  order:
-  - cotisation_securite_sociale_eur_par_decilitre
-  - cotisation_alcools_taux_plein_eur_hlap
-  - cotisation_produits_intermediaires_titrant_plus_18_vol_taux_plein_eur_hl
-  reference:
-    2018-01-01: Arrêté du 22/12/2017
-    2017-01-01: Arrêté du 27/12/2016
-    2015-01-01: Arrêté du 19/12/2014
-    2014-01-01: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
-    2013-01-01: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
-    2011-12-23: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
-    2008-12-19: Loi 2008-1330 du 17/12/2008 (LFSS pour 2009) - art. 16
-    1983-04-01: Loi 83-25 du 19/01/1983 - art. 26
-  date_parution_jo:
-    2018-01-01: 2017-12-27
-    2017-01-01: 2016-12-31
-    2015-01-01: 26/12/2014
-    2014-01-01: 22/12/2011
-    2013-01-01: 22/12/2011
-    2011-12-23: 22/12/2011
-    2008-12-19: 18/12/2008
-    1983-04-01: 20/01/1983
 cotisation_alcools_taux_plein_eur_hlap:
   description: Cotisation sur les alcools - Taux plein (€/hlap)
   values:
@@ -81,6 +58,29 @@ cotisation_produits_intermediaires_titrant_plus_18_vol_taux_plein_eur_hl:
   metadata:
     ipp_csv_id: coti_secu_alcool_inter_tx_plein
     unit: currency-EUR
+metadata:
+  order:
+  - cotisation_securite_sociale_eur_par_decilitre
+  - cotisation_alcools_taux_plein_eur_hlap
+  - cotisation_produits_intermediaires_titrant_plus_18_vol_taux_plein_eur_hl
+  reference:
+    2018-01-01: Arrêté du 22/12/2017
+    2017-01-01: Arrêté du 27/12/2016
+    2015-01-01: Arrêté du 19/12/2014
+    2014-01-01: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
+    2013-01-01: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
+    2011-12-23: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012) - art. 22
+    2008-12-19: Loi 2008-1330 du 17/12/2008 (LFSS pour 2009) - art. 16
+    1983-04-01: Loi 83-25 du 19/01/1983 - art. 26
+  date_parution_jo:
+    2018-01-01: 2017-12-27
+    2017-01-01: 2016-12-31
+    2015-01-01: 26/12/2014
+    2014-01-01: 22/12/2011
+    2013-01-01: 22/12/2011
+    2011-12-23: 22/12/2011
+    2008-12-19: 18/12/2008
+    1983-04-01: 20/01/1983
 documentation: |
   Notes :
   Données renseignées dans l'article L245-9 du code de la sécurité sociale

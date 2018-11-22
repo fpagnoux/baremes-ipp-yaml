@@ -17,16 +17,6 @@ assures_actifs:
     metadata:
       ipp_csv_id: mmid_ac_0_
       unit: /1
-  metadata:
-    order:
-    - toute_remuneration
-    - sous_pss
-    - sous_4_pss
-    - sous_5_pss
-    - sous_5_pss_supplement_artisans_verse_titre_indemnites_journalieres_ij
-    - dela_70_pss_1
-    - entre_11_5_pss_2
-    - dela_5_pss
   sous_pss:
     description: Sous PSS
     values:
@@ -154,6 +144,98 @@ assures_actifs:
         value: null
     metadata:
       unit: /1
+  metadata:
+    order:
+    - toute_remuneration
+    - sous_pss
+    - sous_4_pss
+    - sous_5_pss
+    - sous_5_pss_supplement_artisans_verse_titre_indemnites_journalieres_ij
+    - dela_70_pss_1
+    - entre_11_5_pss_2
+    - dela_5_pss
+assures_retraites:
+  description: Assurés retraités
+  pension_totale:
+    description: Pension totale
+    values:
+      1974-10-01:
+        value: null
+      1973-04-01:
+        value: 0.107
+      1970-04-01:
+        value: 0.145
+    metadata:
+      ipp_csv_id: mmid_ac_ret_0_
+      unit: /1
+  sous_pss:
+    description: Sous PSS
+    values:
+      1981-10-01:
+        value: null
+      1981-04-01:
+        value: 0.03
+      1979-04-01:
+        value: 0.0465
+      1977-10-01:
+        value: 0.0765
+      1976-10-01:
+        value: 0.0735
+      1975-10-01:
+        value: 0.069
+      1975-04-01:
+        value: 0.067
+      1974-10-01:
+        value: 0.0625
+      1970-04-01:
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_ret_0_1
+      unit: /1
+  sous_4_pss:
+    description: Sous 4 PSS
+    values:
+      1981-10-01:
+        value: null
+      1979-04-01:
+        value: 0.07
+      1977-10-01:
+        value: 0.04
+      1976-10-01:
+        value: 0.035
+      1974-10-01:
+        value: 0.025
+      1970-04-01:
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_ret_0_4
+      unit: /1
+  pensions_sous_5_pss:
+    description: Pensions sous 5 PSS
+    values:
+      1998-01-01:
+        value: null
+      1997-01-01:
+        value: 0.024
+      1987-07-01:
+        value: 0.034
+      1986-01-01:
+        value: 0.031
+      1985-09-01:
+        value: 0.03
+      1981-10-01:
+        value: 0.05
+      1970-04-01:
+        value: null
+    metadata:
+      ipp_csv_id: mmid_ac_ret_0_5
+      unit: /1
+  metadata:
+    order:
+    - pension_totale
+    - sous_pss
+    - sous_4_pss
+    - pensions_sous_5_pss
 metadata:
   order:
   - assures_actifs
@@ -235,88 +317,6 @@ metadata:
     1995-07-01: Création du régime d'IJ pour les artisans
     1974-10-01: Décision d'une harmonisation progressive entre régimes des artisans
       et commerçants et régime général achevée au plus tard le 31 décembre 1977
-assures_retraites:
-  description: Assurés retraités
-  pension_totale:
-    description: Pension totale
-    values:
-      1974-10-01:
-        value: null
-      1973-04-01:
-        value: 0.107
-      1970-04-01:
-        value: 0.145
-    metadata:
-      ipp_csv_id: mmid_ac_ret_0_
-      unit: /1
-  metadata:
-    order:
-    - pension_totale
-    - sous_pss
-    - sous_4_pss
-    - pensions_sous_5_pss
-  sous_pss:
-    description: Sous PSS
-    values:
-      1981-10-01:
-        value: null
-      1981-04-01:
-        value: 0.03
-      1979-04-01:
-        value: 0.0465
-      1977-10-01:
-        value: 0.0765
-      1976-10-01:
-        value: 0.0735
-      1975-10-01:
-        value: 0.069
-      1975-04-01:
-        value: 0.067
-      1974-10-01:
-        value: 0.0625
-      1970-04-01:
-        value: null
-    metadata:
-      ipp_csv_id: mmid_ac_ret_0_1
-      unit: /1
-  sous_4_pss:
-    description: Sous 4 PSS
-    values:
-      1981-10-01:
-        value: null
-      1979-04-01:
-        value: 0.07
-      1977-10-01:
-        value: 0.04
-      1976-10-01:
-        value: 0.035
-      1974-10-01:
-        value: 0.025
-      1970-04-01:
-        value: null
-    metadata:
-      ipp_csv_id: mmid_ac_ret_0_4
-      unit: /1
-  pensions_sous_5_pss:
-    description: Pensions sous 5 PSS
-    values:
-      1998-01-01:
-        value: null
-      1997-01-01:
-        value: 0.024
-      1987-07-01:
-        value: 0.034
-      1986-01-01:
-        value: 0.031
-      1985-09-01:
-        value: 0.03
-      1981-10-01:
-        value: 0.05
-      1970-04-01:
-        value: null
-    metadata:
-      ipp_csv_id: mmid_ac_ret_0_5
-      unit: /1
 documentation: |
   Loi 66-509 du 12/07/1966
   1966-07-13

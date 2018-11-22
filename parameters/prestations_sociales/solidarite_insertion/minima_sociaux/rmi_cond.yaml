@@ -8,6 +8,16 @@ condition_age_allocataire:
       value: 25.0
   metadata:
     ipp_csv_id: age_rmi
+nombre_minimal_enfant_si_condition_age_n_est_pas_respectee:
+  description: Nombre minimal d'enfant si la condition d'âge n'est pas respectée
+  values:
+    2009-06-01:
+      value: null
+    1989-01-01:
+      value: 1.0
+  metadata:
+    ipp_csv_id: min_npac_rmi_rsa
+documentation: ''
 metadata:
   order:
   - condition_age_allocataire
@@ -21,13 +31,3 @@ metadata:
   notes:
     2009-06-01: Création du RSA qui remplace le RMI
     1989-01-01: Création du RMI
-nombre_minimal_enfant_si_condition_age_n_est_pas_respectee:
-  description: Nombre minimal d'enfant si la condition d'âge n'est pas respectée
-  values:
-    2009-06-01:
-      value: null
-    1989-01-01:
-      value: 1.0
-  metadata:
-    ipp_csv_id: min_npac_rmi_rsa
-documentation: ''

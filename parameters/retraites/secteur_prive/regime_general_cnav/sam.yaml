@@ -9,24 +9,6 @@ nombre_annees_carriere_entrant_en_jeu_dans_determination_salaire_annuel_moyen:
         value: 10.0
     metadata:
       ipp_csv_id: nbsam_base
-  metadata:
-    order:
-    - avant_1933
-    - '1934'
-    - '1935'
-    - '1936'
-    - '1937'
-    - '1938'
-    - '1939'
-    - '1940'
-    - '1941'
-    - '1942'
-    - '1943'
-    - '1944'
-    - '1945'
-    - '1946'
-    - '1947'
-    - '1948'
   '1934':
     description: '1934'
     values:
@@ -162,6 +144,24 @@ nombre_annees_carriere_entrant_en_jeu_dans_determination_salaire_annuel_moyen:
         value: null
     metadata:
       ipp_csv_id: nbsam_0148
+  metadata:
+    order:
+    - avant_1933
+    - '1934'
+    - '1935'
+    - '1936'
+    - '1937'
+    - '1938'
+    - '1939'
+    - '1940'
+    - '1941'
+    - '1942'
+    - '1943'
+    - '1944'
+    - '1945'
+    - '1946'
+    - '1947'
+    - '1948'
 metadata:
   order:
   - nombre_annees_carriere_entrant_en_jeu_dans_determination_salaire_annuel_moyen

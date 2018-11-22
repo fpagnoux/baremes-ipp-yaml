@@ -10,6 +10,28 @@ cotisation_base:
       value: null
   metadata:
     unit: /1
+cotisation_additionnelle_mono_exposes:
+  description: Cotisation additionnelle mono-exposés
+  values:
+    2018-01-01:
+      value: null
+    2017-01-01:
+      value: 0.002
+    2015-01-01:
+      value: 0.001
+  metadata:
+    unit: /1
+cotisation_additionnelle_poly_exposes:
+  description: Cotisation additionnelle poly-exposés
+  values:
+    2018-01-01:
+      value: null
+    2017-01-01:
+      value: 0.004
+    2015-01-01:
+      value: 0.002
+  metadata:
+    unit: /1
 metadata:
   order:
   - cotisation_base
@@ -33,28 +55,6 @@ metadata:
   notes:
     2018-01-01: Suppression des cotisations pénibilité (voir Notes pour les dates
       d'effet)
-cotisation_additionnelle_mono_exposes:
-  description: Cotisation additionnelle mono-exposés
-  values:
-    2018-01-01:
-      value: null
-    2017-01-01:
-      value: 0.002
-    2015-01-01:
-      value: 0.001
-  metadata:
-    unit: /1
-cotisation_additionnelle_poly_exposes:
-  description: Cotisation additionnelle poly-exposés
-  values:
-    2018-01-01:
-      value: null
-    2017-01-01:
-      value: 0.004
-    2015-01-01:
-      value: 0.002
-  metadata:
-    unit: /1
 documentation: |
   Notes :
   L'article 10 de la Loi 2014-40 du 20/01/2014 créé l'article L4162-19 du Code du travail, qui institue la cotisation pour pénibilité, et l'article L4162-20 du même Code, précisant ses modalités.

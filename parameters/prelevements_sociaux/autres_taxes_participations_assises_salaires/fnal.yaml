@@ -12,6 +12,44 @@ tout_employeur:
   metadata:
     order:
     - sous_pss
+entreprises_plus_20_salaries:
+  description: Entreprises de plus de 20 salariés
+  sous_pss:
+    description: Sous PSS
+    values:
+      2015-01-01:
+        value: 0.005
+      1991-07-01:
+        value: 0.004
+      1989-01-01:
+        value: 0.002
+      1986-01-01:
+        value: 0.0013
+      1972-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: fnal_p20_0_1
+      unit: /1
+  dessus_pss:
+    description: Au-dessus du PSS
+    values:
+      2011-01-01:
+        value: 0.005
+      1991-07-01:
+        value: 0.004
+      1989-01-01:
+        value: 0.002
+      1986-01-01:
+        value: 0.0013
+      1972-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: fnal_p20_1_
+      unit: /1
+  metadata:
+    order:
+    - sous_pss
+    - dessus_pss
 metadata:
   order:
   - tout_employeur
@@ -33,44 +71,6 @@ metadata:
   notes:
     2015-01-01: Plus de distinction de tranches pour les entreprise de plus de 50
       salariés
-entreprises_plus_20_salaries:
-  description: Entreprises de plus de 20 salariés
-  sous_pss:
-    description: Sous PSS
-    values:
-      2015-01-01:
-        value: 0.005
-      1991-07-01:
-        value: 0.004
-      1989-01-01:
-        value: 0.002
-      1986-01-01:
-        value: 0.0013
-      1972-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: fnal_p20_0_1
-      unit: /1
-  metadata:
-    order:
-    - sous_pss
-    - dessus_pss
-  dessus_pss:
-    description: Au-dessus du PSS
-    values:
-      2011-01-01:
-        value: 0.005
-      1991-07-01:
-        value: 0.004
-      1989-01-01:
-        value: 0.002
-      1986-01-01:
-        value: 0.0013
-      1972-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: fnal_p20_1_
-      unit: /1
 documentation: |
   Notes :
   FNAL: Fonds National d'Aide au Logement

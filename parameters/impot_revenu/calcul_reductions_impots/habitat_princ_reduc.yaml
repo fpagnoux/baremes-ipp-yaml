@@ -34,19 +34,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - reduction_impot_interets_emprunt_habitat
-  - reduction_impot_gros_travaux
-  - interets_emprunts
-  - deduction_charges
-  notes:
-    2001-01-01: 'Majoration sur les revenus 2001 : 381 euros pour le 2° enfant et
-      457 à partir du 3°'
-    1999-01-01: Attention plafond réel = la moitié du plafond + incrément
-    1997-01-01: Dépenses de gros travaux avec même incrément que habitat et majoration
-      comme dans 2 et 3
 reduction_impot_interets_emprunt_habitat:
   description: Réduction d'impôt pour intérêts d'emprunt habitat
   taux:
@@ -61,13 +48,6 @@ reduction_impot_interets_emprunt_habitat:
     metadata:
       ipp_csv_id: tx_habitat
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond_1
-    - plafond_2
-    - plafond_3
-    - increment_plafond
   plafond_1:
     description: Plafond 1
     values:
@@ -128,6 +108,13 @@ reduction_impot_interets_emprunt_habitat:
       unit:
         2001-01-01: currency-EUR
         1985-01-01: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond_1
+    - plafond_2
+    - plafond_3
+    - increment_plafond
 reduction_impot_gros_travaux:
   description: Réduction d'impôt pour gros travaux
   taux:
@@ -144,10 +131,6 @@ reduction_impot_gros_travaux:
     metadata:
       ipp_csv_id: tx_grostravaux
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -164,6 +147,10 @@ reduction_impot_gros_travaux:
     metadata:
       ipp_csv_id: plaf_grostravaux
       unit: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
 interets_emprunts:
   description: Intérêts d'emprunts
   plafond:
@@ -178,10 +165,6 @@ interets_emprunts:
     metadata:
       ipp_csv_id: plaf_int_emp
       unit: currency-FRF
-  metadata:
-    order:
-    - plafond
-    - increment
   increment:
     description: Incrément
     values:
@@ -194,6 +177,10 @@ interets_emprunts:
     metadata:
       ipp_csv_id: inc_int_emp
       unit: currency-FRF
+  metadata:
+    order:
+    - plafond
+    - increment
 deduction_charges:
   description: Déduction des charges
   plafond:
@@ -208,10 +195,6 @@ deduction_charges:
     metadata:
       ipp_csv_id: plaf_deduc
       unit: currency-FRF
-  metadata:
-    order:
-    - plafond
-    - increment
   increment:
     description: Incrément
     values:
@@ -224,6 +207,23 @@ deduction_charges:
     metadata:
       ipp_csv_id: inc_deduc
       unit: currency-FRF
+  metadata:
+    order:
+    - plafond
+    - increment
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - reduction_impot_interets_emprunt_habitat
+  - reduction_impot_gros_travaux
+  - interets_emprunts
+  - deduction_charges
+  notes:
+    2001-01-01: 'Majoration sur les revenus 2001 : 381 euros pour le 2° enfant et
+      457 à partir du 3°'
+    1999-01-01: Attention plafond réel = la moitié du plafond + incrément
+    1997-01-01: Dépenses de gros travaux avec même incrément que habitat et majoration
+      comme dans 2 et 3
 documentation: |
   Notes : 
   (1) Les plafonds de 1, 2 et 3 ne se cumulent pas.

@@ -7,80 +7,6 @@ constante_coefficient_k:
       value: 0.9
   metadata:
     ipp_csv_id: cons_k_al
-metadata:
-  order:
-  - constante_coefficient_k
-  - multiplicateur_n_dans_formule_k
-  - menage_0_personnes_charge
-  - 1_personne_charge
-  - 2_personnes_charge
-  - 3_personnes_charge
-  - 4_personnes_charge
-  - majoration_n_par_personne_charge_supplementaire
-  - taux_loyer_minimum_lo_en_al_accession
-  - seuils
-  - majoration_loyer_minimum_lo
-  - intervalles_ressources_consideres
-  - montant_forfaitaire_mf0
-  reference:
-    2017-10-01: |-
-      Décret 2017-1413 du 28/09/2017 (modif art. D542-5 du CSS) 
-      Arrêté du 28/09/2017
-    2007-07-01: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du CSS)
-    2003-07-01: Décret 2004-464 du 28/05/2004, art. 1 (modif art. D542-5 du CSS)
-    2002-07-01: Décret 2002-1485 du 20/12/2002, art. 2 (modif art. D542-5 du CSS)
-    2001-07-01: Décret 2001-698 du 31/07/2001, art. 1 et 4 (modif art. D542-5 du
-      CSS)
-    2000-07-01: Décret 2000-750 du 01/08/2000, art. 1 (modif art. D542-5 du CSS)
-    1999-07-01: Décret 99-539 du 28/06/1999, art. 1 (modif art. D542-5 du CSS)
-    1998-07-01: Décret 98-813 du 11/09/1998, art. 1 (modif art. D542-5 du CSS)
-    1997-07-01: Décret 97-831 du 10/09/1997, art. 1 (modif art. D542-5 du CSS)
-    1997-02-01: Décret 97-84 du 30/01/1997, art. 1 (modif art. D542-5 du CSS)
-    1994-07-01: Décret 94-982 du 14/11/1984, art. 1 (modif art. D542-5 du CSS)
-    1992-07-01: Décret 92-1015 du 23/06/1992 (modif art. D542-5 du CSS)
-    1991-07-01: Décret 91-1159 du 08/11/1991 (modif art. D542-5 du CSS)
-    1990-07-01: Décret 90-945 du 24/10/1990 (modif art. D542-5 du CSS)
-    1989-07-01: Décret 89-831 du 10/11/1989 (modif art. D542-5 du CSS)
-    1988-07-01: Décret 88-1071 du 29/11/1988 (modif art. D542-5 du CSS)
-    1988-05-07: Décret 88-569 du 04/05/1988 (modif art. D542-5 du CSS)
-    1987-07-01: Décret 87-611 du 31/07/1987 (modif art. D542-5 du CSS)
-    1986-07-01: Décret 86-1091 du 08/10/1986 (modif art. D542-5 du CSS)
-    1986-01-01: Décret 85-1354 du 17/12/1985 (modif art. D542-5 du CSS)
-    1978-07-01: décret 78-751 du 13 juillet 1978
-    1972-07-01: decret 72-533 du 29 juin 1972
-  date_parution_jo:
-    2017-10-01: 2017-10-01
-    2007-07-01: 2007-07-12
-    2003-07-01: 2004-05-29
-    2002-07-01: 2002-12-22
-    2001-07-01: 2001-08-02
-    2000-07-01: 2000-08-05
-    1999-07-01: 1999-06-29
-    1998-07-01: 1998-09-13
-    1997-07-01: 1997-09-11
-    1997-02-01: 1997-01-31
-    1994-07-01: 1984-11-16
-    1992-07-01: 1992-09-24
-    1991-07-01: 1991-11-10
-    1990-07-01: 1990-10-26
-    1989-07-01: 1989-11-11
-    1988-07-01: 1988-11-30
-    1988-05-07: 1988-05-07
-    1987-07-01: 1987-08-04
-    1986-07-01: 1986-10-09
-    1986-01-01: 1985-12-21
-    1978-07-01: 1978-07-16
-    1972-07-01: 1972-06-30
-  notes:
-    2017-10-01: Baisse de 5 euros des aides au logement
-    2007-07-01: Paramètres toujours identiques en 2017
-    2001-07-01: 'Ici, la revalorisation des barèmes entre en vigueur le 01/07/2001.
-      Donc, du 01/07 au 31/12/2001 : ces montants sont en francs'
-    1997-02-01: On procède au calcul en considérant des intervalles de ressources
-      de 500F. Donc, R n'est plus égal aux ressources mais à la limite supérieure
-      de l'intervalle dans lequel les ressources se situent.
-    1988-07-01: Création de la 5e tranche et ajout de valeurs de N avec 2, 3 et
-      4 enfants
 multiplicateur_n_dans_formule_k:
   description: Multiplicateur de N dans la formule de K
   values:
@@ -196,13 +122,6 @@ taux_loyer_minimum_lo_en_al_accession:
     metadata:
       ipp_csv_id: lo_tx1
       unit: /1
-  metadata:
-    order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche
-    - 5eme_tranche
   2eme_tranche:
     description: 2ème tranche
     values:
@@ -261,6 +180,13 @@ taux_loyer_minimum_lo_en_al_accession:
     metadata:
       ipp_csv_id: lo_tx5
       unit: /1
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche
+    - 5eme_tranche
 seuils:
   description: Seuils
   1ere_tranche:
@@ -309,12 +235,6 @@ seuils:
       unit:
         2001-07-01: currency-EUR
         1972-07-01: currency-FRF
-  metadata:
-    order:
-    - 1ere_tranche
-    - 2eme_tranche
-    - 3eme_tranche
-    - 4eme_tranche_debut_5eme_tranche
   2eme_tranche:
     description: 2ème tranche
     values:
@@ -447,6 +367,12 @@ seuils:
       unit:
         2001-07-01: currency-EUR
         1972-07-01: currency-FRF
+  metadata:
+    order:
+    - 1ere_tranche
+    - 2eme_tranche
+    - 3eme_tranche
+    - 4eme_tranche_debut_5eme_tranche
 majoration_loyer_minimum_lo:
   description: Majoration du loyer minimum (Lo)
   values:
@@ -509,6 +435,80 @@ montant_forfaitaire_mf0:
   metadata:
     ipp_csv_id: interv_ress
     unit: currency-EUR
+metadata:
+  order:
+  - constante_coefficient_k
+  - multiplicateur_n_dans_formule_k
+  - menage_0_personnes_charge
+  - 1_personne_charge
+  - 2_personnes_charge
+  - 3_personnes_charge
+  - 4_personnes_charge
+  - majoration_n_par_personne_charge_supplementaire
+  - taux_loyer_minimum_lo_en_al_accession
+  - seuils
+  - majoration_loyer_minimum_lo
+  - intervalles_ressources_consideres
+  - montant_forfaitaire_mf0
+  reference:
+    2017-10-01: |-
+      Décret 2017-1413 du 28/09/2017 (modif art. D542-5 du CSS) 
+      Arrêté du 28/09/2017
+    2007-07-01: Décret 2007-1081 du 10/07/2007, art. 1 (modif art. D542-5 du CSS)
+    2003-07-01: Décret 2004-464 du 28/05/2004, art. 1 (modif art. D542-5 du CSS)
+    2002-07-01: Décret 2002-1485 du 20/12/2002, art. 2 (modif art. D542-5 du CSS)
+    2001-07-01: Décret 2001-698 du 31/07/2001, art. 1 et 4 (modif art. D542-5 du
+      CSS)
+    2000-07-01: Décret 2000-750 du 01/08/2000, art. 1 (modif art. D542-5 du CSS)
+    1999-07-01: Décret 99-539 du 28/06/1999, art. 1 (modif art. D542-5 du CSS)
+    1998-07-01: Décret 98-813 du 11/09/1998, art. 1 (modif art. D542-5 du CSS)
+    1997-07-01: Décret 97-831 du 10/09/1997, art. 1 (modif art. D542-5 du CSS)
+    1997-02-01: Décret 97-84 du 30/01/1997, art. 1 (modif art. D542-5 du CSS)
+    1994-07-01: Décret 94-982 du 14/11/1984, art. 1 (modif art. D542-5 du CSS)
+    1992-07-01: Décret 92-1015 du 23/06/1992 (modif art. D542-5 du CSS)
+    1991-07-01: Décret 91-1159 du 08/11/1991 (modif art. D542-5 du CSS)
+    1990-07-01: Décret 90-945 du 24/10/1990 (modif art. D542-5 du CSS)
+    1989-07-01: Décret 89-831 du 10/11/1989 (modif art. D542-5 du CSS)
+    1988-07-01: Décret 88-1071 du 29/11/1988 (modif art. D542-5 du CSS)
+    1988-05-07: Décret 88-569 du 04/05/1988 (modif art. D542-5 du CSS)
+    1987-07-01: Décret 87-611 du 31/07/1987 (modif art. D542-5 du CSS)
+    1986-07-01: Décret 86-1091 du 08/10/1986 (modif art. D542-5 du CSS)
+    1986-01-01: Décret 85-1354 du 17/12/1985 (modif art. D542-5 du CSS)
+    1978-07-01: décret 78-751 du 13 juillet 1978
+    1972-07-01: decret 72-533 du 29 juin 1972
+  date_parution_jo:
+    2017-10-01: 2017-10-01
+    2007-07-01: 2007-07-12
+    2003-07-01: 2004-05-29
+    2002-07-01: 2002-12-22
+    2001-07-01: 2001-08-02
+    2000-07-01: 2000-08-05
+    1999-07-01: 1999-06-29
+    1998-07-01: 1998-09-13
+    1997-07-01: 1997-09-11
+    1997-02-01: 1997-01-31
+    1994-07-01: 1984-11-16
+    1992-07-01: 1992-09-24
+    1991-07-01: 1991-11-10
+    1990-07-01: 1990-10-26
+    1989-07-01: 1989-11-11
+    1988-07-01: 1988-11-30
+    1988-05-07: 1988-05-07
+    1987-07-01: 1987-08-04
+    1986-07-01: 1986-10-09
+    1986-01-01: 1985-12-21
+    1978-07-01: 1978-07-16
+    1972-07-01: 1972-06-30
+  notes:
+    2017-10-01: Baisse de 5 euros des aides au logement
+    2007-07-01: Paramètres toujours identiques en 2017
+    2001-07-01: 'Ici, la revalorisation des barèmes entre en vigueur le 01/07/2001.
+      Donc, du 01/07 au 31/12/2001 : ces montants sont en francs'
+    1997-02-01: On procède au calcul en considérant des intervalles de ressources
+      de 500F. Donc, R n'est plus égal aux ressources mais à la limite supérieure
+      de l'intervalle dans lequel les ressources se situent.
+    1988-07-01: Création de la 5e tranche et ajout de valeurs de N avec 2, 3 et
+      4 enfants
 documentation: |
   Notes : 
   Allocation logement créée en 1948 par la loi 48-1360 du 1er septembre 1948 (parution au JO 2/09/1948) - Titre II 

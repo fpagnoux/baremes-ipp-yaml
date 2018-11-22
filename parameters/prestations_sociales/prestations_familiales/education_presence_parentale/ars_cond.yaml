@@ -7,6 +7,15 @@ age_minimal_enfant_1:
       value: 6.0
   metadata:
     ipp_csv_id: ars_enf_agemin
+age_maximal_enfant_2:
+  description: Âge maximal de l'enfant (2)
+  values:
+    1990-09-06:
+      value: 18.0
+    1976-08-18:
+      value: 16.0
+  metadata:
+    ipp_csv_id: ars_enf_agemax
 metadata:
   order:
   - age_minimal_enfant_1
@@ -42,15 +51,6 @@ metadata:
     1976-08-18: |-
       "chaque enfant inscrit en exécution de l'obligation scolaire" (décret 76-768)  
       L'article 14 de la loi 74-644 du 16/07/1974 crée l'Allocation Rentrée Scolaire
-age_maximal_enfant_2:
-  description: Âge maximal de l'enfant (2)
-  values:
-    1990-09-06:
-      value: 18.0
-    1976-08-18:
-      value: 16.0
-  metadata:
-    ipp_csv_id: ars_enf_agemax
 documentation: |
   Notes :
   (1) Age de l'enfant à charge avant le 1er février de l'année suivant celle la rentrée scolaire. 

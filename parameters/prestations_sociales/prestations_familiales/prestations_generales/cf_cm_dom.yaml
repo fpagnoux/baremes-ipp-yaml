@@ -4,23 +4,6 @@ age_minimal:
   values:
     2002-01-01:
       value: 3.0
-metadata:
-  order:
-  - age_minimal
-  - age_maximal
-  - nombre_enfant_minimum
-  - age_en_dessous_duquel_enfant_prive_famille_complement_familial
-  - complement_familial_en_bmaf_dom
-  reference:
-    2017-04-01: Décret 2017-534 du 12 /04/2017 - art. 1
-    2016-04-01: Décret 2016-438 du 11/04/2016 - art. 1
-    2015-04-01: Décret 2015-488 du 29/04/2015 - art. 1
-    2014-04-01: Décret 2014-419 du 23/04/2014 - art. 3
-  date_parution_jo:
-    2017-04-01: 2017-04-14
-    2016-04-01: 2013-04-13
-    2015-04-01: 2015-04-30
-    2014-04-01: 2014-04-25
 age_maximal:
   description: Age maximal
   values:
@@ -45,10 +28,6 @@ complement_familial_en_bmaf_dom:
         value: 0.2379
     metadata:
       unit: /1
-  metadata:
-    order:
-    - montant_base
-    - montant_majore
   montant_majore:
     description: Montant majoré
     values:
@@ -64,4 +43,25 @@ complement_familial_en_bmaf_dom:
         value: 0.2379
     metadata:
       unit: /1
+  metadata:
+    order:
+    - montant_base
+    - montant_majore
 documentation: ''
+metadata:
+  order:
+  - age_minimal
+  - age_maximal
+  - nombre_enfant_minimum
+  - age_en_dessous_duquel_enfant_prive_famille_complement_familial
+  - complement_familial_en_bmaf_dom
+  reference:
+    2017-04-01: Décret 2017-534 du 12 /04/2017 - art. 1
+    2016-04-01: Décret 2016-438 du 11/04/2016 - art. 1
+    2015-04-01: Décret 2015-488 du 29/04/2015 - art. 1
+    2014-04-01: Décret 2014-419 du 23/04/2014 - art. 3
+  date_parution_jo:
+    2017-04-01: 2017-04-14
+    2016-04-01: 2013-04-13
+    2015-04-01: 2015-04-30
+    2014-04-01: 2014-04-25

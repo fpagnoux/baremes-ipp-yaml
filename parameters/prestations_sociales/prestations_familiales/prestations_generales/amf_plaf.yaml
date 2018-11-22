@@ -9,20 +9,6 @@ plafond_ressources_droit_amf_3_enfants:
   metadata:
     ipp_csv_id: plaf_3_enf
     unit: currency-FRF
-metadata:
-  order:
-  - plafond_ressources_droit_amf_3_enfants
-  - majoration_plafond_droit_amf
-  - plafond_ressources_majoration_0_enfant
-  - majoration_plafond_majoration
-  reference:
-    1978-01-01: Loi 77-765 du 12/07/1977
-    1974-07-01: Décret 76-767 du 16/08/1976 (majoration)
-  date_parution_jo:
-    1978-01-01: 1977-07-13
-    1974-07-01: 17/08/1976
-  notes:
-    1978-01-01: Remplacé par "complément familial" depuis 01/01/1978
 majoration_plafond_droit_amf:
   description: Majoration plafond pour le droit à l'AMF
   4_enfants:
@@ -35,11 +21,6 @@ majoration_plafond_droit_amf:
     metadata:
       ipp_csv_id: majplaf_4_enf
       unit: currency-FRF
-  metadata:
-    order:
-    - 4_enfants
-    - 5_enfants
-    - 6_enfants
   5_enfants:
     description: 5 enfants
     values:
@@ -60,6 +41,11 @@ majoration_plafond_droit_amf:
     metadata:
       ipp_csv_id: majplaf_6plus_enf
       unit: currency-FRF
+  metadata:
+    order:
+    - 4_enfants
+    - 5_enfants
+    - 6_enfants
 plafond_ressources_majoration_0_enfant:
   description: Plafond de ressources pour la majoration - 0 enfant
   values:
@@ -82,11 +68,6 @@ majoration_plafond_majoration:
     metadata:
       ipp_csv_id: plafmaj_1_enf
       unit: currency-FRF
-  metadata:
-    order:
-    - 1_enfant
-    - 2_enfants
-    - par_enfant_supplementaire
   2_enfants:
     description: 2 enfants
     values:
@@ -107,6 +88,25 @@ majoration_plafond_majoration:
     metadata:
       ipp_csv_id: plafmaj_supp_enf
       unit: currency-FRF
+  metadata:
+    order:
+    - 1_enfant
+    - 2_enfants
+    - par_enfant_supplementaire
+metadata:
+  order:
+  - plafond_ressources_droit_amf_3_enfants
+  - majoration_plafond_droit_amf
+  - plafond_ressources_majoration_0_enfant
+  - majoration_plafond_majoration
+  reference:
+    1978-01-01: Loi 77-765 du 12/07/1977
+    1974-07-01: Décret 76-767 du 16/08/1976 (majoration)
+  date_parution_jo:
+    1978-01-01: 1977-07-13
+    1974-07-01: 17/08/1976
+  notes:
+    1978-01-01: Remplacé par "complément familial" depuis 01/01/1978
 documentation: |
   Notes : 
   Ce plafond est institué par la loi 72-8 du 3 janvier 1972, art 2

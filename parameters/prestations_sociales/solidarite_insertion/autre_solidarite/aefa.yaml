@@ -6,16 +6,6 @@ montant_prime:
       value: 152.45
   metadata:
     unit: currency-EUR
-metadata:
-  order:
-  - montant_prime
-  - taux_majoration_selon_taille_foyer_1
-  reference:
-    2003-01-01: Décret 2003-1283 du 26/12/2003
-  date_parution_jo:
-    2003-01-01: 2003-12-30
-  notes:
-    2003-01-01: Idem en 2017
 taux_majoration_selon_taille_foyer_1:
   description: Taux de majoration selon la taille du foyer (1)
   deux_personnes:
@@ -25,11 +15,6 @@ taux_majoration_selon_taille_foyer_1:
         value: 0.5
     metadata:
       unit: /1
-  metadata:
-    order:
-    - deux_personnes
-    - personne_supplementaire_si_conjoint
-    - taux_dela_troisieme_personne_charge_incluse
   personne_supplementaire_si_conjoint:
     description: Personne supplémentaire si conjoint
     values:
@@ -44,6 +29,21 @@ taux_majoration_selon_taille_foyer_1:
         value: 0.4
     metadata:
       unit: /1
+  metadata:
+    order:
+    - deux_personnes
+    - personne_supplementaire_si_conjoint
+    - taux_dela_troisieme_personne_charge_incluse
+metadata:
+  order:
+  - montant_prime
+  - taux_majoration_selon_taille_foyer_1
+  reference:
+    2003-01-01: Décret 2003-1283 du 26/12/2003
+  date_parution_jo:
+    2003-01-01: 2003-12-30
+  notes:
+    2003-01-01: Idem en 2017
 documentation: |
   Notes :
   (1) Le montant de l'aide mentionnée à l'article 3 est égal à 152,45 euros pour une personne seule, majoré de 50 % lorsque le foyer se compose de deux personnes et de 30 % pour chaque personne supplémentaire présente au foyer, à condition que ces personnes soient le conjoint, le partenaire lié par un pacte civil de solidarité ou le concubin de l'intéressé ou soient à sa charge.

@@ -13,11 +13,6 @@ taux_en_base:
     metadata:
       ipp_csv_id: tx_1exam
       unit: /1
-  metadata:
-    order:
-    - 1er_examen
-    - 2e_examen
-    - 3e_examen
   2e_examen:
     description: 2e examen
     values:
@@ -42,6 +37,11 @@ taux_en_base:
     metadata:
       ipp_csv_id: tx_3exam
       unit: /1
+  metadata:
+    order:
+    - 1er_examen
+    - 2e_examen
+    - 3e_examen
 metadata:
   order:
   - taux_en_base

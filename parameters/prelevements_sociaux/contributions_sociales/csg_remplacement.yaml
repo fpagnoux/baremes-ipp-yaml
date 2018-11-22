@@ -19,16 +19,6 @@ pensions_retraite_invalidite:
     metadata:
       ipp_csv_id: csg_pens
       unit: /1
-  metadata:
-    order:
-    - taux_csg_global
-    - taux_csg_deductible
-    - taux_csg_reduit
-    - seuil_ir
-    - seuil_rfr_1_1_part
-    - seuil_rfr_1_demi_part_supplementaire
-    - seuil_rfr_2_1_part
-    - seuil_rfr_2_demi_part_supplementaire
   taux_csg_deductible:
     description: Taux CSG déductible
     values:
@@ -139,6 +129,93 @@ pensions_retraite_invalidite:
     metadata:
       ipp_csv_id: seuil_csg_pens_red2_demip
       unit: currency-EUR
+  metadata:
+    order:
+    - taux_csg_global
+    - taux_csg_deductible
+    - taux_csg_reduit
+    - seuil_ir
+    - seuil_rfr_1_1_part
+    - seuil_rfr_1_demi_part_supplementaire
+    - seuil_rfr_2_1_part
+    - seuil_rfr_2_demi_part_supplementaire
+allocations_preretraite:
+  description: Allocations de préretraite
+  taux_csg_global:
+    description: Taux CSG global
+    values:
+      2008-01-01:
+        value: 0.075
+      2005-01-01:
+        value: 0.066
+      1998-01-01:
+        value: 0.062
+      1997-01-01:
+        value: 0.034
+      1991-02-01:
+        value: null
+    metadata:
+      ipp_csv_id: csg_pre
+      unit: /1
+  taux_csg_deductible:
+    description: Taux CSG déductible
+    values:
+      2005-01-01:
+        value: 0.042
+      1998-01-01:
+        value: 0.038
+      1997-01-01:
+        value: 0.01
+      1991-02-01:
+        value: null
+    metadata:
+      ipp_csv_id: csg_pre_ded
+      unit: /1
+  taux_csg_reduit:
+    description: Taux CSG réduit
+    values:
+      2008-01-01:
+        value: 0.038
+      1991-02-01:
+        value: null
+    metadata:
+      ipp_csv_id: csg_pre_red
+      unit: /1
+  metadata:
+    order:
+    - taux_csg_global
+    - taux_csg_deductible
+    - taux_csg_reduit
+indemnites_journalieres_ij:
+  description: Indemnités journalières (IJ)
+  taux_csg_global:
+    description: Taux CSG global
+    values:
+      1998-01-01:
+        value: 0.062
+      1997-01-01:
+        value: 0.034
+      1991-02-01:
+        value: null
+    metadata:
+      ipp_csv_id: csg_ij
+      unit: /1
+  taux_csg_deductible:
+    description: Taux CSG déductible
+    values:
+      1998-01-01:
+        value: 0.038
+      1997-01-01:
+        value: 0.01
+      1991-02-01:
+        value: null
+    metadata:
+      ipp_csv_id: csg_ij_ded
+      unit: /1
+  metadata:
+    order:
+    - taux_csg_global
+    - taux_csg_deductible
 metadata:
   order:
   - pensions_retraite_invalidite
@@ -181,83 +258,6 @@ metadata:
       11/10/2007
     1998-01-01: Suppression d'exonérations et abattement pour l'assiette des revenus
       du patrimoine.
-allocations_preretraite:
-  description: Allocations de préretraite
-  taux_csg_global:
-    description: Taux CSG global
-    values:
-      2008-01-01:
-        value: 0.075
-      2005-01-01:
-        value: 0.066
-      1998-01-01:
-        value: 0.062
-      1997-01-01:
-        value: 0.034
-      1991-02-01:
-        value: null
-    metadata:
-      ipp_csv_id: csg_pre
-      unit: /1
-  metadata:
-    order:
-    - taux_csg_global
-    - taux_csg_deductible
-    - taux_csg_reduit
-  taux_csg_deductible:
-    description: Taux CSG déductible
-    values:
-      2005-01-01:
-        value: 0.042
-      1998-01-01:
-        value: 0.038
-      1997-01-01:
-        value: 0.01
-      1991-02-01:
-        value: null
-    metadata:
-      ipp_csv_id: csg_pre_ded
-      unit: /1
-  taux_csg_reduit:
-    description: Taux CSG réduit
-    values:
-      2008-01-01:
-        value: 0.038
-      1991-02-01:
-        value: null
-    metadata:
-      ipp_csv_id: csg_pre_red
-      unit: /1
-indemnites_journalieres_ij:
-  description: Indemnités journalières (IJ)
-  taux_csg_global:
-    description: Taux CSG global
-    values:
-      1998-01-01:
-        value: 0.062
-      1997-01-01:
-        value: 0.034
-      1991-02-01:
-        value: null
-    metadata:
-      ipp_csv_id: csg_ij
-      unit: /1
-  metadata:
-    order:
-    - taux_csg_global
-    - taux_csg_deductible
-  taux_csg_deductible:
-    description: Taux CSG déductible
-    values:
-      1998-01-01:
-        value: 0.038
-      1997-01-01:
-        value: 0.01
-      1991-02-01:
-        value: null
-    metadata:
-      ipp_csv_id: csg_ij_ded
-      unit: /1
 documentation: |
   Référence du Codes général des impôts :
   La loi 96-1181 du 30/12/1996 (LF pour 1997)  a créé l'art. 154 quinquies (M) du Code général des impôts (CGI) qui régit les dispositions relatives à la CSG depuis 1997.

@@ -12,10 +12,6 @@ valeur_annuelle_point_retraite:
           value: 9.1234
       metadata:
         unit: currency-EUR
-    metadata:
-      order:
-      - artisans
-      - commercants
     commercants:
       description: Commerçants
       values:
@@ -25,10 +21,10 @@ valeur_annuelle_point_retraite:
           value: 12.58032
       metadata:
         unit: currency-EUR
-  metadata:
-    order:
-    - retraite_base
-    - retraite_complementaire
+    metadata:
+      order:
+      - artisans
+      - commercants
   retraite_complementaire:
     description: Retraite complémentaire
     independants_rci_depuis_2013:
@@ -40,14 +36,6 @@ valeur_annuelle_point_retraite:
           value: 1.178
       metadata:
         unit: currency-EUR
-    metadata:
-      order:
-      - independants_rci_depuis_2013
-      - commercants_nrco_2004_2012
-      - commercants_rc_1973_2004
-      - artisans_rco_1996_2012
-      - artisans_rco_1979_1996
-      - reconstitution_carriere_rco_avant_1979
     commercants_nrco_2004_2012:
       description: Commerçants, NRCO (2004-2012)
       values:
@@ -93,10 +81,18 @@ valeur_annuelle_point_retraite:
           value: 1.108
       metadata:
         unit: currency-EUR
-metadata:
-  order:
-  - valeur_annuelle_point_retraite
-  - valeur_acquisition_point
+    metadata:
+      order:
+      - independants_rci_depuis_2013
+      - commercants_nrco_2004_2012
+      - commercants_rc_1973_2004
+      - artisans_rco_1996_2012
+      - artisans_rco_1979_1996
+      - reconstitution_carriere_rco_avant_1979
+  metadata:
+    order:
+    - retraite_base
+    - retraite_complementaire
 valeur_acquisition_point:
   description: Valeur d'acquisition du point
   artisans_commercants:
@@ -111,6 +107,10 @@ valeur_acquisition_point:
   metadata:
     order:
     - artisans_commercants
+metadata:
+  order:
+  - valeur_annuelle_point_retraite
+  - valeur_acquisition_point
 documentation: |
   Sources:
   https://www.rsi.fr/baremes/prestations-vieillesse-et-invalidite-deces.html

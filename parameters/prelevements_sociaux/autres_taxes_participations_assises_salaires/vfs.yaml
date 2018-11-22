@@ -9,26 +9,6 @@ taux1:
   metadata:
     ipp_csv_id: vf1
     unit: /1
-metadata:
-  order:
-  - taux1
-  - majoration1
-  - majoration2
-  - plafond1
-  - plafond2
-  - taux_pensions
-  reference:
-    1968-01-01: Loi 68-878 du 09/10/1968
-    1957-01-01: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
-    1949-01-01: Décret 48-1986 du 09/12/1948, art. 70
-  date_parution_jo:
-    1968-01-01: 1968-10-10
-    1957-01-01: 1956-12-30
-    1949-01-01: 1949-01-01
-  notes:
-    1968-01-01: Fin du versement forfaitaire sur les salaires et création de la
-      taxe sur les salaires.
-    1957-01-01: Anciens francs.
 majoration1:
   description: Majoration1
   values:
@@ -87,6 +67,26 @@ taux_pensions:
   metadata:
     ipp_csv_id: vf_pens
     unit: /1
+metadata:
+  order:
+  - taux1
+  - majoration1
+  - majoration2
+  - plafond1
+  - plafond2
+  - taux_pensions
+  reference:
+    1968-01-01: Loi 68-878 du 09/10/1968
+    1957-01-01: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
+    1949-01-01: Décret 48-1986 du 09/12/1948, art. 70
+  date_parution_jo:
+    1968-01-01: 1968-10-10
+    1957-01-01: 1956-12-30
+    1949-01-01: 1949-01-01
+  notes:
+    1968-01-01: Fin du versement forfaitaire sur les salaires et création de la
+      taxe sur les salaires.
+    1957-01-01: Anciens francs.
 documentation: |
   Notes :
   (i) Le versement forfaitaire est dû par les employeurs; il a été instauré à la place de la taxe proportionnelle qui a remplacé les anciens impôts cédulaires.

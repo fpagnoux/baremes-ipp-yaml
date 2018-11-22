@@ -125,12 +125,6 @@ valeur_point_unirs_en_nominal:
   metadata:
     ipp_csv_id: val_point_arcco_nom
     unit: currency-FRF
-metadata:
-  order:
-  - valeur_point_unirs_en_nominal
-  - valeur_point_unirs_en_euros
-  notes:
-    1976-10-01: Création de l'Unirs en 1957.
 valeur_point_unirs_en_euros:
   description: Valeur du point UNIRS (en euros)
   values:
@@ -257,6 +251,12 @@ valeur_point_unirs_en_euros:
   metadata:
     ipp_csv_id: val_point_arrco
     unit: currency-EUR
+metadata:
+  order:
+  - valeur_point_unirs_en_nominal
+  - valeur_point_unirs_en_euros
+  notes:
+    1976-10-01: Création de l'Unirs en 1957.
 documentation: |
   Note :
   L'UNIRS est le plus gros des régimes ARRCO. A partir de 1999, unification du point de tous les régimes ARRCO.

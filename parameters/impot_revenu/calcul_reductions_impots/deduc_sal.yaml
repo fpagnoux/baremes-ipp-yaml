@@ -23,23 +23,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - reduction_impot_cotisations_syndicales
-  reference:
-    2012-01-01: Loi n° 2012-1510 du 29/12/2012
-    2007-01-01: Décret 2008-294 du 01/04/2008 - art. 1
-    2004-01-01: Loi 2004-1485 du 30/12/2004  - art. 31 et 35 (V)
-    2001-01-01: Décret 2002-923 du 06/06/2002 - art. 4
-    1988-01-01: Loi 1988-1149 du 28/12/1988, art. 8-I, II (LF pour 1989)
-  date_parution_jo:
-    2007-01-01: 2008-04-02
-    2004-01-01: 2004-12-31
-    2001-01-01: 2002-06-08
-  notes:
-    2012-01-01: La réduction d'impôt devient un crédit d'impôt à compter de l'imposition
-      des revenus 2012
 reduction_impot_cotisations_syndicales:
   description: Réduction d'impôt pour cotisations syndicales
   taux:
@@ -58,10 +41,6 @@ reduction_impot_cotisations_syndicales:
     metadata:
       ipp_csv_id: tx_cotsynd
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -72,6 +51,27 @@ reduction_impot_cotisations_syndicales:
     metadata:
       ipp_csv_id: plafcotsynd
       unit: /1
+  metadata:
+    order:
+    - taux
+    - plafond
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - reduction_impot_cotisations_syndicales
+  reference:
+    2012-01-01: Loi n° 2012-1510 du 29/12/2012
+    2007-01-01: Décret 2008-294 du 01/04/2008 - art. 1
+    2004-01-01: Loi 2004-1485 du 30/12/2004  - art. 31 et 35 (V)
+    2001-01-01: Décret 2002-923 du 06/06/2002 - art. 4
+    1988-01-01: Loi 1988-1149 du 28/12/1988, art. 8-I, II (LF pour 1989)
+  date_parution_jo:
+    2007-01-01: 2008-04-02
+    2004-01-01: 2004-12-31
+    2001-01-01: 2002-06-08
+  notes:
+    2012-01-01: La réduction d'impôt devient un crédit d'impôt à compter de l'imposition
+      des revenus 2012
 documentation: |
   Notes :
   (1) Cotisations syndicales : art. 199 quater C du CGI 

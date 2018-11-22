@@ -27,25 +27,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - produits_assurances_vies_assimiles
-  - revenus_capitaux_mobiliers_dividendes
-  reference:
-    2012-01-01: LF pour 2013
-    2010-01-01: LF pour 2011
-    2004-01-01: LF pour 2005
-    2001-01-01: LF pour 2002
-    1997-01-01: LF pour 1998
-    1988-01-01: LF pour 1989
-    1984-01-01: LF pour 1985
-    1979-01-01: LF pour 1980
-  notes:
-    2010-01-01: Suppression plafond du crédit d'impôt sur dividendes
-    2004-01-01: Voir art. 200 septies du CGI
-    1997-01-01: 'Abattement forfaitaire sur dividendes  : art. 158-5 du CGI (à doubler
-      pour les couples)'
 produits_assurances_vies_assimiles:
   description: Produits des assurances-vies et assimilés
   abattement:
@@ -79,11 +60,6 @@ revenus_capitaux_mobiliers_dividendes:
     metadata:
       ipp_csv_id: tx_abt_rcm
       unit: /1
-  metadata:
-    order:
-    - taux_abattement
-    - abattement_forfaitaire
-    - plafond_credit_impot
   abattement_forfaitaire:
     description: Abattement forfaitaire
     values:
@@ -118,6 +94,30 @@ revenus_capitaux_mobiliers_dividendes:
     metadata:
       ipp_csv_id: plaf_creditrcm
       unit: currency-EUR
+  metadata:
+    order:
+    - taux_abattement
+    - abattement_forfaitaire
+    - plafond_credit_impot
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - produits_assurances_vies_assimiles
+  - revenus_capitaux_mobiliers_dividendes
+  reference:
+    2012-01-01: LF pour 2013
+    2010-01-01: LF pour 2011
+    2004-01-01: LF pour 2005
+    2001-01-01: LF pour 2002
+    1997-01-01: LF pour 1998
+    1988-01-01: LF pour 1989
+    1984-01-01: LF pour 1985
+    1979-01-01: LF pour 1980
+  notes:
+    2010-01-01: Suppression plafond du crédit d'impôt sur dividendes
+    2004-01-01: Voir art. 200 septies du CGI
+    1997-01-01: 'Abattement forfaitaire sur dividendes  : art. 158-5 du CGI (à doubler
+      pour les couples)'
 documentation: |
   Notes :
   (1) Taux de l'abattement sur dividendes : art. 158-3-2° du CGI (ancêtre de tx_abt_rcm)

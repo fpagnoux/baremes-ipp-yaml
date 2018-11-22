@@ -11,13 +11,6 @@ assurance_vieillesse:
     metadata:
       ipp_csv_id: ret_plib_0_5
       unit: /1
-  metadata:
-    order:
-    - sous_5_pss
-    - sous_085_pss
-    - sous_1_pss
-    - entre_085_5_pss
-    - entre_1_5_pss
   sous_085_pss:
     description: Sous 0,85 PSS
     values:
@@ -72,6 +65,13 @@ assurance_vieillesse:
     metadata:
       ipp_csv_id: ret_plib_1_5
       unit: /1
+  metadata:
+    order:
+    - sous_5_pss
+    - sous_085_pss
+    - sous_1_pss
+    - entre_085_5_pss
+    - entre_1_5_pss
 metadata:
   order:
   - assurance_vieillesse

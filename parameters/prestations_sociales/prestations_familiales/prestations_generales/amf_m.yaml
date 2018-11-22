@@ -13,11 +13,6 @@ regime_general_taux_en_bmaf:
     metadata:
       ipp_csv_id: tx_gene_02ans
       unit: /1
-  metadata:
-    order:
-    - moins_1_enfant_moins_2_ans
-    - points_par_enfant_plus_2_ans_avec_entre_2_6_enfants
-    - plus_6_enfants_tous_plus_2_ans
   points_par_enfant_plus_2_ans_avec_entre_2_6_enfants:
     description: Points par enfant de plus de 2 ans, avec entre 2 et 6 enfants
     values:
@@ -42,29 +37,11 @@ regime_general_taux_en_bmaf:
     metadata:
       ipp_csv_id: tx_gene_6ans
       unit: /1
-metadata:
-  order:
-  - regime_general_taux_en_bmaf
-  - regime_agricole_taux_en_bmaf
-  - 2_enfants_charge
-  - 3_enfants_charge
-  - 4_enfants_charge
-  - 5_enfants_charge
-  - 6_enfants_charge
-  reference:
-    1978-01-01: Loi 77-765 du 12/07/1977
-    1974-07-01: |-
-      Loi 72-8 du 03/01/1972
-      Décret 72-528 et 530 du 9/06/1972 (AMF)
-    1955-06-01: Loi 55-1045 du 06/08/1955, art. 2                               Décret
-      55-1429 du 02/11/1955
-  date_parution_jo:
-    1978-01-01: 1977-07-13
-    1974-07-01: 05/01/1972 30/06/1972
-    1955-06-01: 09/05/1955 03/11/1955
-  notes:
-    1978-01-01: Remplacé par "complément familial" depuis 01/01/1978
-    1955-06-01: Création de l'AMF
+  metadata:
+    order:
+    - moins_1_enfant_moins_2_ans
+    - points_par_enfant_plus_2_ans_avec_entre_2_6_enfants
+    - plus_6_enfants_tous_plus_2_ans
 regime_agricole_taux_en_bmaf:
   description: Régime agricole (taux en % de la BMAF)
   enfant_plus_moins_2_ans:
@@ -79,12 +56,6 @@ regime_agricole_taux_en_bmaf:
     metadata:
       ipp_csv_id: tx_agri_1enf_02ans
       unit: /1
-  metadata:
-    order:
-    - enfant_plus_moins_2_ans
-    - plus_enfant_sans_moins_2_ans
-    - deux_enfants_plus_2_ans
-    - 3_enfants_plus_2_ans
   plus_enfant_sans_moins_2_ans:
     description: Au plus un enfant, sans moins de 2 ans
     values:
@@ -121,6 +92,12 @@ regime_agricole_taux_en_bmaf:
     metadata:
       ipp_csv_id: tx_agri_3enf_02ans
       unit: /1
+  metadata:
+    order:
+    - enfant_plus_moins_2_ans
+    - plus_enfant_sans_moins_2_ans
+    - deux_enfants_plus_2_ans
+    - 3_enfants_plus_2_ans
 2_enfants_charge:
   description: 2 enfants à charge
   values:
@@ -173,6 +150,29 @@ regime_agricole_taux_en_bmaf:
   metadata:
     ipp_csv_id: tx_amf_6enf
     unit: /1
+metadata:
+  order:
+  - regime_general_taux_en_bmaf
+  - regime_agricole_taux_en_bmaf
+  - 2_enfants_charge
+  - 3_enfants_charge
+  - 4_enfants_charge
+  - 5_enfants_charge
+  - 6_enfants_charge
+  reference:
+    1978-01-01: Loi 77-765 du 12/07/1977
+    1974-07-01: |-
+      Loi 72-8 du 03/01/1972
+      Décret 72-528 et 530 du 9/06/1972 (AMF)
+    1955-06-01: Loi 55-1045 du 06/08/1955, art. 2                               Décret
+      55-1429 du 02/11/1955
+  date_parution_jo:
+    1978-01-01: 1977-07-13
+    1974-07-01: 05/01/1972 30/06/1972
+    1955-06-01: 09/05/1955 03/11/1955
+  notes:
+    1978-01-01: Remplacé par "complément familial" depuis 01/01/1978
+    1955-06-01: Création de l'AMF
 documentation: |
   Notes
   Le salaire de base auquel s'appliquent ces taux est le même qu'en matière d'allocation de salaire unique

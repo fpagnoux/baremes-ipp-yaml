@@ -11,12 +11,6 @@ plafond_ressources_droit_salaire_unique:
     metadata:
       ipp_csv_id: plaf_asu_0enf
       unit: currency-FRF
-  metadata:
-    order:
-    - sans_enfant
-    - 1_enfant
-    - 2_enfants
-    - par_enfant_supplementaire
   1_enfant:
     description: 1 enfant
     values:
@@ -47,20 +41,12 @@ plafond_ressources_droit_salaire_unique:
     metadata:
       ipp_csv_id: plaf_asu_enf_sup
       unit: currency-FRF
-metadata:
-  order:
-  - plafond_ressources_droit_salaire_unique
-  - plafond_ressources_majoration_salaire_unique
-  reference:
-    1978-01-01: Loi 77-765 du 12/07/1977
-    1976-07-01: Loi 72-8 du 03/01/1972                          Décret 72-530 du
-      29/06/1972 (S.U.)                                                                Décret
-      76-767 du 16/08/1976
-  date_parution_jo:
-    1978-01-01: 1977-07-13
-    1976-07-01: 05/01/1972 30/06/1972 17/08/1976
-  notes:
-    1976-07-01: Remplacé par le "Complément Familial" depuis 01/01/1978
+  metadata:
+    order:
+    - sans_enfant
+    - 1_enfant
+    - 2_enfants
+    - par_enfant_supplementaire
 plafond_ressources_majoration_salaire_unique:
   description: Plafond de ressources pour la majoration du salaire unique
   sans_enfant:
@@ -73,12 +59,6 @@ plafond_ressources_majoration_salaire_unique:
     metadata:
       ipp_csv_id: plaf_maj_asu_0enf
       unit: currency-FRF
-  metadata:
-    order:
-    - sans_enfant
-    - 1_enfant
-    - 2_enfants
-    - par_enfant_supplementaire
   1_enfant:
     description: 1 enfant
     values:
@@ -109,6 +89,26 @@ plafond_ressources_majoration_salaire_unique:
     metadata:
       ipp_csv_id: plaf_maj_asu_enf_sup
       unit: currency-FRF
+  metadata:
+    order:
+    - sans_enfant
+    - 1_enfant
+    - 2_enfants
+    - par_enfant_supplementaire
+metadata:
+  order:
+  - plafond_ressources_droit_salaire_unique
+  - plafond_ressources_majoration_salaire_unique
+  reference:
+    1978-01-01: Loi 77-765 du 12/07/1977
+    1976-07-01: Loi 72-8 du 03/01/1972                          Décret 72-530 du
+      29/06/1972 (S.U.)                                                                Décret
+      76-767 du 16/08/1976
+  date_parution_jo:
+    1978-01-01: 1977-07-13
+    1976-07-01: 05/01/1972 30/06/1972 17/08/1976
+  notes:
+    1976-07-01: Remplacé par le "Complément Familial" depuis 01/01/1978
 documentation: |
   Notes :
   (1) Majoration pour les ménages avec 4 enfants et plus ou au moins 1 enfant de moins de 3 ans et des ressources ne dépassant pas le plafond.

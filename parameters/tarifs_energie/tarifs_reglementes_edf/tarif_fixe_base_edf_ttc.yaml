@@ -71,14 +71,6 @@ tarif_fixe_3_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_3kva_ttc
     unit: currency-EUR
-metadata:
-  order:
-  - tarif_fixe_3_kva
-  - tarif_fixe_6_kva
-  - tarif_fixe_9_kva
-  - tarif_fixe_12_kva
-  - tarif_fixe_15_kva
-  - tarif_fixe_18_kva
 tarif_fixe_6_kva:
   description: Tarif fixe - 6 kVA
   values:
@@ -449,6 +441,14 @@ tarif_fixe_18_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_18kva_ttc
     unit: currency-EUR
+metadata:
+  order:
+  - tarif_fixe_3_kva
+  - tarif_fixe_6_kva
+  - tarif_fixe_9_kva
+  - tarif_fixe_12_kva
+  - tarif_fixe_15_kva
+  - tarif_fixe_18_kva
 documentation: |
   Source : base Pégase, prix pour un ménage, tarif bleu option base, en euros TTC, données annuelles
   Note : A partir de 2018 les tarifs de l'abonnement sont exprimés en euros par mois et non par an. Le prix mensuel est multiplié par 12 dans ce barème

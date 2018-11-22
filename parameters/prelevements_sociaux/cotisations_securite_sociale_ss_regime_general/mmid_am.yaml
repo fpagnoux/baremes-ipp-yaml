@@ -16,10 +16,6 @@ salaries:
     metadata:
       ipp_csv_id: am_s_0_1
       unit: /1
-  metadata:
-    order:
-    - sous_plafond
-    - tout_salaire
   tout_salaire:
     description: Sur tout salaire
     values:
@@ -52,6 +48,60 @@ salaries:
     metadata:
       ipp_csv_id: am_s_0_
       unit: /1
+  metadata:
+    order:
+    - sous_plafond
+    - tout_salaire
+avantages_vieillesses:
+  description: Avantages vieillesses
+  values:
+    2012-01-01:
+      value: 0.015
+    2008-01-01:
+      value: 0.016
+    2007-07-01:
+      value: 0.017
+    2006-01-01:
+      value: 0.018
+    2003-01-01:
+      value: 0.017
+    1999-07-01:
+      value: 0.015
+    1998-07-01:
+      value: 0.0125
+    1994-01-01:
+      value: 0.01
+    1989-09-01:
+      value: 0.007
+    1946-07-01:
+      value: null
+  metadata:
+    ipp_csv_id: am_pens
+    unit: /1
+allocations_chomage_preretraite:
+  description: Allocations chômage et préretraite
+  values:
+    2012-01-01:
+      value: 0.015
+    2008-01-01:
+      value: 0.016
+    2007-07-01:
+      value: 0.017
+    2006-01-01:
+      value: 0.018
+    2003-01-01:
+      value: 0.017
+    1999-07-01:
+      value: 0.015
+    1998-07-01:
+      value: 0.0125
+    1997-01-01:
+      value: 0.01
+    1946-07-01:
+      value: null
+  metadata:
+    ipp_csv_id: am_cho
+    unit: /1
 metadata:
   order:
   - salaries
@@ -105,56 +155,6 @@ metadata:
     1967-10-01: Erreur de la référence législative dans l'historique des cotisations
       fourni par le régime local.
     1946-07-01: La date de début d'effet est supputée.
-avantages_vieillesses:
-  description: Avantages vieillesses
-  values:
-    2012-01-01:
-      value: 0.015
-    2008-01-01:
-      value: 0.016
-    2007-07-01:
-      value: 0.017
-    2006-01-01:
-      value: 0.018
-    2003-01-01:
-      value: 0.017
-    1999-07-01:
-      value: 0.015
-    1998-07-01:
-      value: 0.0125
-    1994-01-01:
-      value: 0.01
-    1989-09-01:
-      value: 0.007
-    1946-07-01:
-      value: null
-  metadata:
-    ipp_csv_id: am_pens
-    unit: /1
-allocations_chomage_preretraite:
-  description: Allocations chômage et préretraite
-  values:
-    2012-01-01:
-      value: 0.015
-    2008-01-01:
-      value: 0.016
-    2007-07-01:
-      value: 0.017
-    2006-01-01:
-      value: 0.018
-    2003-01-01:
-      value: 0.017
-    1999-07-01:
-      value: 0.015
-    1998-07-01:
-      value: 0.0125
-    1997-01-01:
-      value: 0.01
-    1946-07-01:
-      value: null
-  metadata:
-    ipp_csv_id: am_cho
-    unit: /1
 documentation: |
   Sources :
   Historique des cotisations communiqué par le régime local; www.legifrance.gouv.fr.

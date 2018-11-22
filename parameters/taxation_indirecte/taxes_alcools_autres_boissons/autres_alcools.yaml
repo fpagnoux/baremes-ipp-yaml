@@ -39,45 +39,6 @@ rhum_dom:
     unit:
       2002-03-31: currency-EUR
       1981-02-01: currency-FRF
-metadata:
-  order:
-  - rhum_dom
-  - autres_alcools
-  - bouilleurs_cru_t_q_definis_art_317
-  - quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_article_417
-  - aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles
-  reference:
-    2018-01-01: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
-    2016-01-01: Arrêté du 18/12/2015
-    2015-06-06: Décret 2015-608 du 03/06/2015
-    2014-01-01: Arrêté du 29/12/2013
-    2013-01-01: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
-    2012-05-01: Loi 2012-354 du 14/03/2012 (LFR pour 2012)
-    2012-01-01: Arrêté du 22/12/2011 (tarifs accises alcools 2012)
-    2011-12-23: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
-    2010-11-21: Arrêté du 12/10/2010
-    2010-05-01: Décret 2010-421 du 27/04/2010
-    2009-04-10: Décret 2009-389 du 07/04/2009
-    1997-01-01: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
-    1993-02-01: Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
-    1982-01-01: Loi 81-1160 du 30/12/1981 (LF pour 1982)
-    1981-02-01: Loi 80-1094 du 30/12/1980 (LF pour 1981)
-  date_parution_jo:
-    2018-01-01: 2017-12-27
-    2016-01-01: 2015-12-24
-    2015-06-06: 2015-06-05
-    2014-01-01: 2013-12-31
-    2013-01-01: 2012-12-23
-    2012-05-01: 2012-03-15
-    2012-01-01: 2011-12-30
-    2011-12-23: 2011-12-22
-    2010-11-21: 2010-11-20
-    2010-05-01: 2010-04-30
-    2009-04-10: 2009-04-09
-    1997-01-01: 1996-12-29
-    1993-02-01: 1993-01-04
-    1982-01-01: 1981-12-31
-    1981-02-01: 1980-12-31
 autres_alcools:
   description: Autres alcools
   values:
@@ -174,6 +135,45 @@ aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles:
   metadata:
     ipp_csv_id: taxe_aperitifs_base_divers_alcools
     unit: currency-FRF
+metadata:
+  order:
+  - rhum_dom
+  - autres_alcools
+  - bouilleurs_cru_t_q_definis_art_317
+  - quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_article_417
+  - aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles
+  reference:
+    2018-01-01: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+    2016-01-01: Arrêté du 18/12/2015
+    2015-06-06: Décret 2015-608 du 03/06/2015
+    2014-01-01: Arrêté du 29/12/2013
+    2013-01-01: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+    2012-05-01: Loi 2012-354 du 14/03/2012 (LFR pour 2012)
+    2012-01-01: Arrêté du 22/12/2011 (tarifs accises alcools 2012)
+    2011-12-23: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+    2010-11-21: Arrêté du 12/10/2010
+    2010-05-01: Décret 2010-421 du 27/04/2010
+    2009-04-10: Décret 2009-389 du 07/04/2009
+    1997-01-01: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+    1993-02-01: Loi 92-1476 du 31/12/1992 (LFR pour 1992), art. 32
+    1982-01-01: Loi 81-1160 du 30/12/1981 (LF pour 1982)
+    1981-02-01: Loi 80-1094 du 30/12/1980 (LF pour 1981)
+  date_parution_jo:
+    2018-01-01: 2017-12-27
+    2016-01-01: 2015-12-24
+    2015-06-06: 2015-06-05
+    2014-01-01: 2013-12-31
+    2013-01-01: 2012-12-23
+    2012-05-01: 2012-03-15
+    2012-01-01: 2011-12-30
+    2011-12-23: 2011-12-22
+    2010-11-21: 2010-11-20
+    2010-05-01: 2010-04-30
+    2009-04-10: 2009-04-09
+    1997-01-01: 1996-12-29
+    1993-02-01: 1993-01-04
+    1982-01-01: 1981-12-31
+    1981-02-01: 1980-12-31
 documentation: |
   Notes :
   Données renseignées dans l'article 403 du code général des impôts

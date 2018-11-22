@@ -22,10 +22,6 @@ fp_hospitaliers_collectivites_locales:
       metadata:
         ipp_csv_id: mmid_h_p_0_1
         unit: /1
-    metadata:
-      order:
-      - employeur
-      - agent
     agent:
       description: Agent
       values:
@@ -42,10 +38,10 @@ fp_hospitaliers_collectivites_locales:
       metadata:
         ipp_csv_id: mmid_h_s_0_1
         unit: /1
-  metadata:
-    order:
-    - sous_plafond
-    - tout_traitement
+    metadata:
+      order:
+      - employeur
+      - agent
   tout_traitement:
     description: Tout traitement
     employeur:
@@ -66,10 +62,6 @@ fp_hospitaliers_collectivites_locales:
       metadata:
         ipp_csv_id: mmid_h_p_0_
         unit: /1
-    metadata:
-      order:
-      - employeur
-      - agent
     agent:
       description: Agent
       values:
@@ -94,6 +86,14 @@ fp_hospitaliers_collectivites_locales:
       metadata:
         ipp_csv_id: mmid_h_s_0_
         unit: /1
+    metadata:
+      order:
+      - employeur
+      - agent
+  metadata:
+    order:
+    - sous_plafond
+    - tout_traitement
 metadata:
   order:
   - fp_hospitaliers_collectivites_locales

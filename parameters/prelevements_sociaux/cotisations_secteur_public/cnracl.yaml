@@ -44,10 +44,6 @@ cnracl:
       metadata:
         ipp_csv_id: cnracl_s_ti
         unit: /1
-    metadata:
-      order:
-      - hors_nbi
-      - nbi
     nbi:
       description: NBI
       values:
@@ -88,10 +84,10 @@ cnracl:
       metadata:
         ipp_csv_id: cnracl_s_nbi
         unit: /1
-  metadata:
-    order:
-    - agents
-    - employeurs
+    metadata:
+      order:
+      - hors_nbi
+      - nbi
   employeurs:
     description: Employeurs
     values:
@@ -158,6 +154,79 @@ cnracl:
     metadata:
       ipp_csv_id: cnracl_p
       unit: /1
+  metadata:
+    order:
+    - agents
+    - employeurs
+atiacl:
+  description: ATIACL
+  hors_nbi:
+    description: (hors NBI)
+    values:
+      2013-01-01:
+        value: 0.004
+      1982-01-01:
+        value: 0.005
+      1980-07-01:
+        value: 0.004
+      1972-10-01:
+        value: 0.002
+      1967-05-01:
+        value: 0.003
+      1964-07-01:
+        value: 0.006
+      1947-09-19:
+        value: null
+    metadata:
+      ipp_csv_id: atiacl_p
+      unit: /1
+  metadata:
+    order:
+    - hors_nbi
+fccpa:
+  description: FCCPA
+  hors_hospi:
+    description: (hors hospi)
+    values:
+      2011-01-01:
+        value: null
+      2002-01-01:
+        value: 0.005
+      1984-01-01:
+        value: 0.002
+      1947-09-19:
+        value: null
+    metadata:
+      ipp_csv_id: fccpa_p
+      unit: /1
+  metadata:
+    order:
+    - hors_hospi
+feh:
+  description: FEH
+  hors_cl:
+    description: (Hors CL)
+    values:
+      2019-01-01:
+        value: null
+      2017-01-01:
+        value: 0.008
+      2002-01-01:
+        value: 0.01
+      2000-01-01:
+        value: 0.008
+      1999-01-01:
+        value: 0.0067
+      1995-01-01:
+        value: 0.0045
+      1947-09-19:
+        value: null
+    metadata:
+      ipp_csv_id: feh_p
+      unit: /1
+  metadata:
+    order:
+    - hors_cl
 metadata:
   order:
   - cnracl
@@ -245,75 +314,6 @@ metadata:
     2012-01-01: 'A compter du 01/01/2012, le taux de la retenue sur le NBI est le
       même que le taux de la retenue sur le traitement (Décret 2011-192 du 18/02/2011,
       JO : 20/02/2011).'
-atiacl:
-  description: ATIACL
-  hors_nbi:
-    description: (hors NBI)
-    values:
-      2013-01-01:
-        value: 0.004
-      1982-01-01:
-        value: 0.005
-      1980-07-01:
-        value: 0.004
-      1972-10-01:
-        value: 0.002
-      1967-05-01:
-        value: 0.003
-      1964-07-01:
-        value: 0.006
-      1947-09-19:
-        value: null
-    metadata:
-      ipp_csv_id: atiacl_p
-      unit: /1
-  metadata:
-    order:
-    - hors_nbi
-fccpa:
-  description: FCCPA
-  hors_hospi:
-    description: (hors hospi)
-    values:
-      2011-01-01:
-        value: null
-      2002-01-01:
-        value: 0.005
-      1984-01-01:
-        value: 0.002
-      1947-09-19:
-        value: null
-    metadata:
-      ipp_csv_id: fccpa_p
-      unit: /1
-  metadata:
-    order:
-    - hors_hospi
-feh:
-  description: FEH
-  hors_cl:
-    description: (Hors CL)
-    values:
-      2019-01-01:
-        value: null
-      2017-01-01:
-        value: 0.008
-      2002-01-01:
-        value: 0.01
-      2000-01-01:
-        value: 0.008
-      1999-01-01:
-        value: 0.0067
-      1995-01-01:
-        value: 0.0045
-      1947-09-19:
-        value: null
-    metadata:
-      ipp_csv_id: feh_p
-      unit: /1
-  metadata:
-    order:
-    - hors_cl
 documentation: |
   Notes :
   La CNRACL est le régime de retraite obligatoire de base, à points, des fonctionnaires titulaires de la fonction publique territoriale et de la fonction publique hospitalière.

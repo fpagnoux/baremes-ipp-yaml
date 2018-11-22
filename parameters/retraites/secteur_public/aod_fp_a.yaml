@@ -13,10 +13,6 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: null
       metadata:
         ipp_csv_id: ageleg_base
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -24,15 +20,10 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: 0.0
         1976-01-01:
           value: null
-  metadata:
-    order:
-    - ne_avant_01_07_1951
-    - ne_apres_01_07_1951
-    - ne_apres_01_01_1952
-    - ne_apres_01_01_1953
-    - ne_apres_01_01_1954
-    - ne_apres_01_01_1955
-    - ne_apres_01_01_1956
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_07_1951:
     description: Né après le 01/07/1951
     annee:
@@ -44,10 +35,6 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: null
       metadata:
         ipp_csv_id: ageleg_0751
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -55,6 +42,10 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: 4.0
         1976-01-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1952:
     description: Né après le 01/01/1952
     annee:
@@ -66,10 +57,6 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: null
       metadata:
         ipp_csv_id: ageleg_0152
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -79,6 +66,10 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: 8.0
         1976-01-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1953:
     description: Né après le 01/01/1953
     annee:
@@ -90,10 +81,6 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: null
       metadata:
         ipp_csv_id: ageleg_0153
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -103,6 +90,10 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: 0.0
         1976-01-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1954:
     description: Né après le 01/01/1954
     annee:
@@ -114,10 +105,6 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: null
       metadata:
         ipp_csv_id: ageleg_0154
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -127,6 +114,10 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: 4.0
         1976-01-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1955:
     description: Né après le 01/01/1955
     annee:
@@ -140,10 +131,6 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: null
       metadata:
         ipp_csv_id: ageleg_0155
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -153,6 +140,10 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: 8.0
         1976-01-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1956:
     description: Né après le 01/01/1956
     annee:
@@ -162,10 +153,6 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: 57.0
         1976-01-01:
           value: null
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -175,6 +162,19 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
           value: null
       metadata:
         ipp_csv_id: ageleg_0156
+    metadata:
+      order:
+      - annee
+      - mois
+  metadata:
+    order:
+    - ne_avant_01_07_1951
+    - ne_apres_01_07_1951
+    - ne_apres_01_01_1952
+    - ne_apres_01_01_1953
+    - ne_apres_01_01_1954
+    - ne_apres_01_01_1955
+    - ne_apres_01_01_1956
 metadata:
   order:
   - age_ouverture_droits_fonction_publique_active_selon_annee_naissance

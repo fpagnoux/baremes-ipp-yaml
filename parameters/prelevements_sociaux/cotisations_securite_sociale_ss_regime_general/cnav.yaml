@@ -35,10 +35,6 @@ salaire_sous_plafond:
     metadata:
       ipp_csv_id: cnav_s_0_1
       unit: /1
-  metadata:
-    order:
-    - salaries
-    - employeurs
   employeurs:
     description: Employeurs
     values:
@@ -67,6 +63,64 @@ salaire_sous_plafond:
     metadata:
       ipp_csv_id: cnav_p_0_1
       unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
+tout_salaire:
+  description: Sur tout salaire
+  salaries:
+    description: Salariés
+    values:
+      2017-01-01:
+        value: 0.004
+      2016-01-01:
+        value: 0.0035
+      2015-01-01:
+        value: 0.003
+      2014-01-01:
+        value: 0.0025
+      2004-07-01:
+        value: 0.001
+      1967-10-01:
+        value: null
+    metadata:
+      ipp_csv_id: cnav_s_0_
+      unit: /1
+  employeurs:
+    description: Employeurs
+    values:
+      2017-01-01:
+        value: 0.019
+      2016-01-01:
+        value: 0.0185
+      2015-01-01:
+        value: 0.018
+      2014-01-01:
+        value: 0.0175
+      1991-02-01:
+        value: 0.016
+      1967-10-01:
+        value: null
+    metadata:
+      ipp_csv_id: cnav_p_0_
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
+remise_forfaitaire_mensuelle_cotisation_salariale:
+  description: Remise forfaitaire mensuelle (sur cotisation salariale)
+  values:
+    1995-09-01:
+      value: null
+    1991-02-01:
+      value: 42.0
+    1967-10-01:
+      value: null
+  metadata:
+    ipp_csv_id: cnav_remise_forf
+    unit: currency-FRF
 metadata:
   order:
   - salaire_sous_plafond
@@ -115,60 +169,6 @@ metadata:
   notes:
     2004-07-01: La cotisation veuvage est transférée à la Cnav.
     1991-02-01: Voir note (i).
-tout_salaire:
-  description: Sur tout salaire
-  salaries:
-    description: Salariés
-    values:
-      2017-01-01:
-        value: 0.004
-      2016-01-01:
-        value: 0.0035
-      2015-01-01:
-        value: 0.003
-      2014-01-01:
-        value: 0.0025
-      2004-07-01:
-        value: 0.001
-      1967-10-01:
-        value: null
-    metadata:
-      ipp_csv_id: cnav_s_0_
-      unit: /1
-  metadata:
-    order:
-    - salaries
-    - employeurs
-  employeurs:
-    description: Employeurs
-    values:
-      2017-01-01:
-        value: 0.019
-      2016-01-01:
-        value: 0.0185
-      2015-01-01:
-        value: 0.018
-      2014-01-01:
-        value: 0.0175
-      1991-02-01:
-        value: 0.016
-      1967-10-01:
-        value: null
-    metadata:
-      ipp_csv_id: cnav_p_0_
-      unit: /1
-remise_forfaitaire_mensuelle_cotisation_salariale:
-  description: Remise forfaitaire mensuelle (sur cotisation salariale)
-  values:
-    1995-09-01:
-      value: null
-    1991-02-01:
-      value: 42.0
-    1967-10-01:
-      value: null
-  metadata:
-    ipp_csv_id: cnav_remise_forf
-    unit: currency-FRF
 documentation: |
   Sources :
   www.legislation.cnav.fr, Journal Officiel via www.legifrance.gouv.fr

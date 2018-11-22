@@ -10,24 +10,15 @@ age_annulation_decote_en_fonction_date_naissance:
           value: 65.0
       metadata:
         ipp_csv_id: ageplein_base
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
         1983-04-01:
           value: 0.0
-  metadata:
-    order:
-    - ne_avant_01_07_1951
-    - ne_apres_01_07_1951
-    - ne_apres_01_01_1952
-    - ne_apres_01_01_1953
-    - ne_apres_01_01_1954
-    - ne_apres_01_01_1955
-    - ne_apres_01_01_1956
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_07_1951:
     description: Né après le 01/07/1951
     annee:
@@ -39,10 +30,6 @@ age_annulation_decote_en_fonction_date_naissance:
           value: null
       metadata:
         ipp_csv_id: ageplein_0751
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -50,6 +37,10 @@ age_annulation_decote_en_fonction_date_naissance:
           value: 4.0
         1983-04-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1952:
     description: Né après le 01/01/1952
     annee:
@@ -61,10 +52,6 @@ age_annulation_decote_en_fonction_date_naissance:
           value: null
       metadata:
         ipp_csv_id: ageplein_0152
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -74,6 +61,10 @@ age_annulation_decote_en_fonction_date_naissance:
           value: 8.0
         1983-04-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1953:
     description: Né après le 01/01/1953
     annee:
@@ -85,10 +76,6 @@ age_annulation_decote_en_fonction_date_naissance:
           value: null
       metadata:
         ipp_csv_id: ageplein_0153
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -98,6 +85,10 @@ age_annulation_decote_en_fonction_date_naissance:
           value: 0.0
         1983-04-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1954:
     description: Né après le 01/01/1954
     annee:
@@ -109,10 +100,6 @@ age_annulation_decote_en_fonction_date_naissance:
           value: null
       metadata:
         ipp_csv_id: ageplein_0154
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -122,6 +109,10 @@ age_annulation_decote_en_fonction_date_naissance:
           value: 4.0
         1983-04-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1955:
     description: Né après le 01/01/1955
     annee:
@@ -135,10 +126,6 @@ age_annulation_decote_en_fonction_date_naissance:
           value: null
       metadata:
         ipp_csv_id: ageplein_0155
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -148,6 +135,10 @@ age_annulation_decote_en_fonction_date_naissance:
           value: 8.0
         1983-04-01:
           value: null
+    metadata:
+      order:
+      - annee
+      - mois
   ne_apres_01_01_1956:
     description: Né après le 01/01/1956
     annee:
@@ -157,10 +148,6 @@ age_annulation_decote_en_fonction_date_naissance:
           value: 67.0
         1983-04-01:
           value: null
-    metadata:
-      order:
-      - annee
-      - mois
     mois:
       description: Mois
       values:
@@ -170,6 +157,19 @@ age_annulation_decote_en_fonction_date_naissance:
           value: null
       metadata:
         ipp_csv_id: ageplein_0156
+    metadata:
+      order:
+      - annee
+      - mois
+  metadata:
+    order:
+    - ne_avant_01_07_1951
+    - ne_apres_01_07_1951
+    - ne_apres_01_01_1952
+    - ne_apres_01_01_1953
+    - ne_apres_01_01_1954
+    - ne_apres_01_01_1955
+    - ne_apres_01_01_1956
 metadata:
   order:
   - age_annulation_decote_en_fonction_date_naissance

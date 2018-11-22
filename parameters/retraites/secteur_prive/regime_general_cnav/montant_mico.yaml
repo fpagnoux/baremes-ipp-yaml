@@ -98,10 +98,6 @@ minimum_contributif:
     metadata:
       order:
       - '7615_94'
-  metadata:
-    order:
-    - annuel
-    - mensuel
   mensuel:
     description: Mensuel
     '634_66':
@@ -199,6 +195,90 @@ minimum_contributif:
     metadata:
       order:
       - '634_66'
+  metadata:
+    order:
+    - annuel
+    - mensuel
+minimum_contributif_majore:
+  description: Minimum contributif majoré
+  annuel:
+    description: Annuel
+    '8322_13':
+      description: '8322.13'
+      values:
+        2015-10-01:
+          value: 8256.09
+        2013-04-01:
+          value: 8247.85
+        2012-04-01:
+          value: 8142.01
+        2011-04-01:
+          value: 7974.55
+        2010-04-01:
+          value: 7810.53
+        2009-04-01:
+          value: 7740.87
+        2008-09-01:
+          value: 7664.23
+        2008-01-01:
+          value: 7603.41
+        2007-01-01:
+          value: 7301.64
+        2006-01-01:
+          value: 7172.54
+        2005-01-01:
+          value: 6840.51
+        2004-01-01:
+          value: 6706.39
+        1984-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: min_cont_maj
+        unit: currency-EUR
+    metadata:
+      order:
+      - '8322_13'
+  mensuel:
+    description: Mensuel
+    '693_51':
+      description: '693.51'
+      values:
+        2015-10-01:
+          value: 688.0
+        2013-04-01:
+          value: 687.32
+        2012-04-01:
+          value: 678.5
+        2011-04-01:
+          value: 664.54
+        2010-04-01:
+          value: 650.87
+        2009-04-01:
+          value: 645.07
+        2008-09-01:
+          value: 638.68
+        2008-01-01:
+          value: 633.61
+        2007-01-01:
+          value: 608.47
+        2006-01-01:
+          value: 597.71
+        2005-01-01:
+          value: 570.04
+        2004-01-01:
+          value: 558.86
+        1984-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: min_cont_maj_mensuel
+        unit: currency-EUR
+    metadata:
+      order:
+      - '693_51'
+  metadata:
+    order:
+    - annuel
+    - mensuel
 metadata:
   order:
   - minimum_contributif
@@ -251,86 +331,6 @@ metadata:
     2006-01-01: 2005-12-31
     2003-01-01: 2003-01-01
     2002-01-01: 2002-01-29
-minimum_contributif_majore:
-  description: Minimum contributif majoré
-  annuel:
-    description: Annuel
-    '8322_13':
-      description: '8322.13'
-      values:
-        2015-10-01:
-          value: 8256.09
-        2013-04-01:
-          value: 8247.85
-        2012-04-01:
-          value: 8142.01
-        2011-04-01:
-          value: 7974.55
-        2010-04-01:
-          value: 7810.53
-        2009-04-01:
-          value: 7740.87
-        2008-09-01:
-          value: 7664.23
-        2008-01-01:
-          value: 7603.41
-        2007-01-01:
-          value: 7301.64
-        2006-01-01:
-          value: 7172.54
-        2005-01-01:
-          value: 6840.51
-        2004-01-01:
-          value: 6706.39
-        1984-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: min_cont_maj
-        unit: currency-EUR
-    metadata:
-      order:
-      - '8322_13'
-  metadata:
-    order:
-    - annuel
-    - mensuel
-  mensuel:
-    description: Mensuel
-    '693_51':
-      description: '693.51'
-      values:
-        2015-10-01:
-          value: 688.0
-        2013-04-01:
-          value: 687.32
-        2012-04-01:
-          value: 678.5
-        2011-04-01:
-          value: 664.54
-        2010-04-01:
-          value: 650.87
-        2009-04-01:
-          value: 645.07
-        2008-09-01:
-          value: 638.68
-        2008-01-01:
-          value: 633.61
-        2007-01-01:
-          value: 608.47
-        2006-01-01:
-          value: 597.71
-        2005-01-01:
-          value: 570.04
-        2004-01-01:
-          value: 558.86
-        1984-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: min_cont_maj_mensuel
-        unit: currency-EUR
-    metadata:
-      order:
-      - '693_51'
 documentation: |
   Note :
   Le premier montant pour 2004 est celui en vigueur pour les pensions liquidées à partir de 2004.

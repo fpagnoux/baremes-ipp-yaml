@@ -12,10 +12,6 @@ reduction_temps_travail_10:
         value: 0.4
     metadata:
       unit: /1
-  metadata:
-    order:
-    - taux_1ere_annee
-    - taux_6_annees_suivantes
   taux_6_annees_suivantes:
     description: |-
       Taux 
@@ -27,19 +23,10 @@ reduction_temps_travail_10:
         value: 0.3
     metadata:
       unit: /1
-metadata:
-  order:
-  - reduction_temps_travail_10
-  - reduction_temps_travail_15
-  reference:
-    1998-06-30: Loi 98-461 du 13/06/1998, art. 3
-    1996-07-01: Loi 96-502 du 11/06/1996, art. 1 et 2
-  date_parution_jo:
-    1998-06-30: 1998-06-14
-    1996-07-01: 1996-06-12
-  notes:
-    1998-06-30: Abrogé par la loi "Aubry I". Voir Notes (2)
-    1996-07-01: Voir Notes (1)
+  metadata:
+    order:
+    - taux_1ere_annee
+    - taux_6_annees_suivantes
 reduction_temps_travail_15:
   description: Réduction du temps de travail de 15 %
   taux_1ere_annee:
@@ -53,10 +40,6 @@ reduction_temps_travail_15:
         value: 0.5
     metadata:
       unit: /1
-  metadata:
-    order:
-    - taux_1ere_annee
-    - taux_6_annees_suivantes
   taux_6_annees_suivantes:
     description: |-
       Taux 
@@ -68,6 +51,23 @@ reduction_temps_travail_15:
         value: 0.4
     metadata:
       unit: /1
+  metadata:
+    order:
+    - taux_1ere_annee
+    - taux_6_annees_suivantes
+metadata:
+  order:
+  - reduction_temps_travail_10
+  - reduction_temps_travail_15
+  reference:
+    1998-06-30: Loi 98-461 du 13/06/1998, art. 3
+    1996-07-01: Loi 96-502 du 11/06/1996, art. 1 et 2
+  date_parution_jo:
+    1998-06-30: 1998-06-14
+    1996-07-01: 1996-06-12
+  notes:
+    1998-06-30: Abrogé par la loi "Aubry I". Voir Notes (2)
+    1996-07-01: Voir Notes (1)
 documentation: |
   Notes :
   (1) Les taux indiqués sont des taux de réduction du montant des cotisations patronales, pour l'ensemble des salariés de  l'entreprise.

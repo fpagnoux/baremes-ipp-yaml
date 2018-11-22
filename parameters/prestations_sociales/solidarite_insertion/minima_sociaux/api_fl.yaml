@@ -13,11 +13,6 @@ forfait_logement:
     metadata:
       ipp_csv_id: api_logt1
       unit: /1
-  metadata:
-    order:
-    - femmes_enceintes_1
-    - couple_1_enfant_1
-    - couples_2_enfants_plus_1
   couple_1_enfant_1:
     description: Couple, 1 enfant (1)
     values:
@@ -42,6 +37,11 @@ forfait_logement:
     metadata:
       ipp_csv_id: api_logt3
       unit: /1
+  metadata:
+    order:
+    - femmes_enceintes_1
+    - couple_1_enfant_1
+    - couples_2_enfants_plus_1
 metadata:
   order:
   - forfait_logement

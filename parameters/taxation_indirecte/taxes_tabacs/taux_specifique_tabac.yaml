@@ -25,14 +25,6 @@ taux_specifique:
       unit:
         2015-01-01: currency-EUR
         1979-01-01: /1
-  metadata:
-    order:
-    - cigarettes
-    - cigares
-    - tabac_rouler
-    - autres_tabacs
-    - tabacs_priser
-    - tabacs_chiquer
   cigares:
     description: Cigares
     values:
@@ -105,6 +97,14 @@ taux_specifique:
       unit:
         2015-01-01: currency-EUR
         2013-01-01: /1
+  metadata:
+    order:
+    - cigarettes
+    - cigares
+    - tabac_rouler
+    - autres_tabacs
+    - tabacs_priser
+    - tabacs_chiquer
 metadata:
   order:
   - taux_specifique

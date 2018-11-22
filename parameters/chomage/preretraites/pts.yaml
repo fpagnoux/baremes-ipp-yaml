@@ -8,6 +8,7 @@ montant_mensuel:
       value: 300.0
   metadata:
     unit: currency-EUR
+documentation: ''
 metadata:
   order:
   - montant_mensuel
@@ -20,4 +21,3 @@ metadata:
       31 décembre 2017. Le bénéficiaire de la PTS (né en 1954 ou en 1955) la perçoit
       cependant jusqu'à la liquidation de sa retraite
     2015-06-01: Création de la Prime transitoire de solidarité
-documentation: ''

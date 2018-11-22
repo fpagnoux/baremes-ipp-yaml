@@ -47,10 +47,6 @@ loyer_considere_comme_paye_par_etudiants_logeant_en_residence_universitaire:
       unit:
         2001-07-01: currency-EUR
         1994-07-01: currency-FRF
-  metadata:
-    order:
-    - personnes_isolees
-    - menages
   menages:
     description: Ménages
     values:
@@ -97,6 +93,76 @@ loyer_considere_comme_paye_par_etudiants_logeant_en_residence_universitaire:
       unit:
         2001-07-01: currency-EUR
         1994-07-01: currency-FRF
+  metadata:
+    order:
+    - personnes_isolees
+    - menages
+autres_dont_etudiants_en_chambres_rehabilitees_residences_universitaires:
+  description: Autres (dont les étudiants en chambres réhabilitées de résidences universitaires)
+  personnes_isolees:
+    description: Personnes isolées
+    values:
+      2017-10-01:
+        value: 168.39
+      2015-10-01:
+        value: 167.14
+      2014-10-01:
+        value: 167.01
+      2013-01-01:
+        value: 166.06
+      2012-01-01:
+        value: 162.56
+      2011-01-01:
+        value: 160.95
+      2010-01-01:
+        value: 159.2
+      2009-01-01:
+        value: 158.69
+      2008-01-01:
+        value: 154.14
+      2007-01-01:
+        value: 150.0
+      2005-09-01:
+        value: 145.91
+      1994-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: alf_autre_isole
+      unit: currency-EUR
+  menages:
+    description: Ménages
+    values:
+      2017-10-01:
+        value: 261.72
+      2015-10-01:
+        value: 259.77
+      2014-10-01:
+        value: 259.56
+      2013-01-01:
+        value: 258.09
+      2012-01-01:
+        value: 252.66
+      2011-01-01:
+        value: 250.16
+      2010-01-01:
+        value: 247.44
+      2009-01-01:
+        value: 246.65
+      2008-01-01:
+        value: 239.58
+      2007-01-01:
+        value: 233.15
+      2005-09-01:
+        value: 226.8
+      1994-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: alf_autre_menage
+      unit: currency-EUR
+  metadata:
+    order:
+    - personnes_isolees
+    - menages
 metadata:
   order:
   - loyer_considere_comme_paye_par_etudiants_logeant_en_residence_universitaire
@@ -146,72 +212,6 @@ metadata:
     2015-10-01: Idem en 2016
     2014-10-01: Montants toujours identiques en 2016
     2005-09-01: "Décret 2005-1607 : déplace les barèmes à l'art. D831-2-1 du CSS."
-autres_dont_etudiants_en_chambres_rehabilitees_residences_universitaires:
-  description: Autres (dont les étudiants en chambres réhabilitées de résidences universitaires)
-  personnes_isolees:
-    description: Personnes isolées
-    values:
-      2017-10-01:
-        value: 168.39
-      2015-10-01:
-        value: 167.14
-      2014-10-01:
-        value: 167.01
-      2013-01-01:
-        value: 166.06
-      2012-01-01:
-        value: 162.56
-      2011-01-01:
-        value: 160.95
-      2010-01-01:
-        value: 159.2
-      2009-01-01:
-        value: 158.69
-      2008-01-01:
-        value: 154.14
-      2007-01-01:
-        value: 150.0
-      2005-09-01:
-        value: 145.91
-      1994-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: alf_autre_isole
-      unit: currency-EUR
-  metadata:
-    order:
-    - personnes_isolees
-    - menages
-  menages:
-    description: Ménages
-    values:
-      2017-10-01:
-        value: 261.72
-      2015-10-01:
-        value: 259.77
-      2014-10-01:
-        value: 259.56
-      2013-01-01:
-        value: 258.09
-      2012-01-01:
-        value: 252.66
-      2011-01-01:
-        value: 250.16
-      2010-01-01:
-        value: 247.44
-      2009-01-01:
-        value: 246.65
-      2008-01-01:
-        value: 239.58
-      2007-01-01:
-        value: 233.15
-      2005-09-01:
-        value: 226.8
-      1994-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: alf_autre_menage
-      unit: currency-EUR
 documentation: |
   Notes :
   APL créée en 1977.

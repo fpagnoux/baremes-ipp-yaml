@@ -35,17 +35,6 @@ tarif_fixe_3_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_3kva_ht
     unit: currency-EUR
-metadata:
-  order:
-  - tarif_fixe_3_kva
-  - tarif_fixe_6_kva
-  - tarif_fixe_9_kva
-  - tarif_fixe_12_kva
-  - tarif_fixe_15_kva
-  - tarif_fixe_18_kva
-  - tarif_fixe_24_kva
-  - tarif_fixe_30_kva
-  - tarif_fixe_36_kva
 tarif_fixe_6_kva:
   description: Tarif fixe - 6 kVA
   values:
@@ -334,6 +323,17 @@ tarif_fixe_36_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_36kva_ht
     unit: currency-EUR
+metadata:
+  order:
+  - tarif_fixe_3_kva
+  - tarif_fixe_6_kva
+  - tarif_fixe_9_kva
+  - tarif_fixe_12_kva
+  - tarif_fixe_15_kva
+  - tarif_fixe_18_kva
+  - tarif_fixe_24_kva
+  - tarif_fixe_30_kva
+  - tarif_fixe_36_kva
 documentation: |
   Source : http://www.cre.fr/marches/marche-de-detail/marche-de-l-electricite#section2
   Commission de régulation de l'énergie (CRE)

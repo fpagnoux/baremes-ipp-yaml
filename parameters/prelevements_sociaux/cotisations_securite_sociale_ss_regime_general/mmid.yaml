@@ -15,11 +15,6 @@ salaire_sous_plafond:
     metadata:
       ipp_csv_id: mmid_s_0_1
       unit: /1
-  metadata:
-    order:
-    - salaries
-    - reduction_65_ans
-    - employeurs
   reduction_65_ans:
     description: Réduction > 65 ans
     values:
@@ -52,6 +47,67 @@ salaire_sous_plafond:
     metadata:
       ipp_csv_id: mmid_p_0_1
       unit: /1
+  metadata:
+    order:
+    - salaries
+    - reduction_65_ans
+    - employeurs
+tout_salaire:
+  description: Sur tout salaire
+  salaries:
+    description: Salariés
+    values:
+      2018-01-01:
+        value: null
+      1998-01-01:
+        value: 0.0075
+      1997-01-01:
+        value: 0.055
+      1991-07-01:
+        value: 0.068
+      1987-07-01:
+        value: 0.059
+      1980-01-01:
+        value: 0.055
+      1979-08-01:
+        value: 0.045
+      1979-01-01:
+        value: 0.035
+      1976-01-01:
+        value: 0.015
+      1967-10-01:
+        value: 0.01
+    metadata:
+      ipp_csv_id: mmid_s_0_
+      unit: /1
+  employeurs:
+    description: Employeurs
+    values:
+      2018-01-01:
+        value: 0.13
+      2017-01-01:
+        value: 0.1289
+      2016-01-01:
+        value: 0.1284
+      1992-01-01:
+        value: 0.128
+      1984-01-01:
+        value: 0.126
+      1981-11-01:
+        value: 0.08
+      1979-01-01:
+        value: 0.045
+      1976-01-01:
+        value: 0.025
+      1967-10-01:
+        value: 0.02
+    metadata:
+      ipp_csv_id: mmid_p_0_
+      unit: /1
+  metadata:
+    order:
+    - salaries
+    - employeurs
 metadata:
   order:
   - salaire_sous_plafond
@@ -104,62 +160,6 @@ metadata:
     1980-01-01: Loi 79-1129 du 29/12/79, art. 3 (JO 29/12/79)
     1977-07-01: Depuis le 01/07/1977, la part salarié n'est plus réduite d'un point
       à partir de 65 ans.
-tout_salaire:
-  description: Sur tout salaire
-  salaries:
-    description: Salariés
-    values:
-      2018-01-01:
-        value: null
-      1998-01-01:
-        value: 0.0075
-      1997-01-01:
-        value: 0.055
-      1991-07-01:
-        value: 0.068
-      1987-07-01:
-        value: 0.059
-      1980-01-01:
-        value: 0.055
-      1979-08-01:
-        value: 0.045
-      1979-01-01:
-        value: 0.035
-      1976-01-01:
-        value: 0.015
-      1967-10-01:
-        value: 0.01
-    metadata:
-      ipp_csv_id: mmid_s_0_
-      unit: /1
-  metadata:
-    order:
-    - salaries
-    - employeurs
-  employeurs:
-    description: Employeurs
-    values:
-      2018-01-01:
-        value: 0.13
-      2017-01-01:
-        value: 0.1289
-      2016-01-01:
-        value: 0.1284
-      1992-01-01:
-        value: 0.128
-      1984-01-01:
-        value: 0.126
-      1981-11-01:
-        value: 0.08
-      1979-01-01:
-        value: 0.045
-      1976-01-01:
-        value: 0.025
-      1967-10-01:
-        value: 0.02
-    metadata:
-      ipp_csv_id: mmid_p_0_
-      unit: /1
 documentation: |
   Sources :
   Barème social périodique, Législation Cnav et Légifrance.

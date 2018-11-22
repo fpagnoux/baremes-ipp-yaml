@@ -75,10 +75,6 @@ prix_kwh_3_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_3kva_ttc
     unit: currency-EUR
-metadata:
-  order:
-  - prix_kwh_3_kva
-  - prix_kwh_6_kva
 prix_kwh_6_kva:
   description: Prix du kWh - 6 kVA
   values:
@@ -155,5 +151,9 @@ prix_kwh_6_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_6kva_ttc
     unit: currency-EUR
+metadata:
+  order:
+  - prix_kwh_3_kva
+  - prix_kwh_6_kva
 documentation: "Source : base Pégase, prix pour un ménage, tarif bleu option base,\
   \ en euros TTC, données annuelles\n"

@@ -21,17 +21,6 @@ base_0_1000_ht:
   metadata:
     ipp_csv_id: tarif_fixe_gdf_base_ht
     unit: currency-EUR
-metadata:
-  order:
-  - base_0_1000_ht
-  - b0_1000_6000_ht
-  - b1_6_30000_ht
-  - b2i_30000_ht
-  reference:
-    2014-07-01: Arrêté du 30/06/2014
-    2013-07-01: Arrêté du 27/06/2013
-    2013-01-01: Arrêté du 21/12/2012
-    2012-01-01: Arrêté du 22/12/2011
 b0_1000_6000_ht:
   description: B0 (1000-6000) - HT
   values:
@@ -99,3 +88,14 @@ b2i_30000_ht:
     ipp_csv_id: tarif_fixe_gdf_b2i_ht
     unit: currency-EUR
 documentation: ''
+metadata:
+  order:
+  - base_0_1000_ht
+  - b0_1000_6000_ht
+  - b1_6_30000_ht
+  - b2i_30000_ht
+  reference:
+    2014-07-01: Arrêté du 30/06/2014
+    2013-07-01: Arrêté du 27/06/2013
+    2013-01-01: Arrêté du 21/12/2012
+    2012-01-01: Arrêté du 22/12/2011

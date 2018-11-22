@@ -13,11 +13,6 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: api_enceinte
       unit: /1
-  metadata:
-    order:
-    - femmes_enceintes_sans_enfant_charge
-    - personne_isolee_avec_enfant_charge
-    - supplement_par_enfant
   personne_isolee_avec_enfant_charge:
     description: Personne isolée avec un enfant à charge
     values:
@@ -42,6 +37,12 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: api_enf_sup
       unit: /1
+  metadata:
+    order:
+    - femmes_enceintes_sans_enfant_charge
+    - personne_isolee_avec_enfant_charge
+    - supplement_par_enfant
+documentation: ''
 metadata:
   order:
   - montant_en_bmaf
@@ -56,4 +57,3 @@ metadata:
   notes:
     2009-06-01: Abrogation de l'API
     1976-10-01: API créée par la loi 76-617, en insérant un chapitre V-3 au CSS
-documentation: ''

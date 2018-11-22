@@ -25,11 +25,6 @@ montant_minimum:
     metadata:
       ipp_csv_id: base_min_paris
       unit: currency-FRF
-  metadata:
-    order:
-    - paris
-    - villes_plus_5000_hab
-    - villes_moins_5000_hab
   villes_plus_5000_hab:
     description: Villes de plus de 5000 hab
     values:
@@ -78,6 +73,11 @@ montant_minimum:
     metadata:
       ipp_csv_id: base_min_m5000
       unit: currency-FRF
+  metadata:
+    order:
+    - paris
+    - villes_plus_5000_hab
+    - villes_moins_5000_hab
 metadata:
   order:
   - montant_minimum

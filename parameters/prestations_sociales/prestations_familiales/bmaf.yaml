@@ -171,6 +171,88 @@ base_mensuelle_calcul_allocations_familiales_bmaf:
     unit:
       2002-01-01: currency-EUR
       1946-07-01: currency-FRF
+bmaf_regimes_agricoles:
+  description: BMAF régimes agricoles
+  values:
+    1955-01-01:
+      value: null
+    1952-04-01:
+      value: 172.5
+    1951-10-01:
+      value: 119.6
+    1951-04-01:
+      value: 104.0
+    1950-12-01:
+      value: 96.0
+    1950-07-01:
+      value: 80.0
+    1947-07-01:
+      value: 62.5
+    1946-07-01:
+      value: 56.5
+    1939-04-01:
+      value: null
+  metadata:
+    ipp_csv_id: reg_spec_agri
+    unit: currency-FRF
+bmaf_e_t_i:
+  description: BMAF E.T.I.
+  values:
+    1955-01-01:
+      value: null
+    1953-01-01:
+      value: 172.5
+    1951-10-01:
+      value: 151.8
+    1951-04-01:
+      value: 132.0
+    1950-12-01:
+      value: 120.0
+    1950-10-01:
+      value: 100.0
+    1950-04-01:
+      value: 90.0
+    1949-10-01:
+      value: 75.0
+    1947-07-01:
+      value: 62.5
+    1946-07-01:
+      value: 56.5
+    1939-04-01:
+      value: null
+  metadata:
+    ipp_csv_id: reg_spec_eti
+    unit: currency-FRF
+salaire_mensuel_base_dans_departement_seine:
+  description: Salaire mensuel de base dans le département de la Seine
+  values:
+    1955-01-01:
+      value: null
+    1948-09-01:
+      value: 120.0
+    1948-01-01:
+      value: 105.0
+    1947-12-01:
+      value: 85.0
+    1947-08-01:
+      value: 70.0
+    1947-07-01:
+      value: 62.5
+    1947-02-01:
+      value: 62.15
+    1946-07-01:
+      value: 56.5
+    1944-08-01:
+      value: 45.0
+    1944-01-01:
+      value: 22.5
+    1942-01-01:
+      value: 17.0
+    1939-04-01:
+      value: 15.0
+  metadata:
+    ipp_csv_id: bmaf_seine
+    unit: currency-FRF
 metadata:
   order:
   - base_mensuelle_calcul_allocations_familiales_bmaf
@@ -396,88 +478,6 @@ metadata:
     1946-07-01: Fixation du régime des prestations familiales (allocations de maternité,
       allocations familiales, allocations de salaire unique et allocations prénatales).
       Journal Officiel introuvable
-bmaf_regimes_agricoles:
-  description: BMAF régimes agricoles
-  values:
-    1955-01-01:
-      value: null
-    1952-04-01:
-      value: 172.5
-    1951-10-01:
-      value: 119.6
-    1951-04-01:
-      value: 104.0
-    1950-12-01:
-      value: 96.0
-    1950-07-01:
-      value: 80.0
-    1947-07-01:
-      value: 62.5
-    1946-07-01:
-      value: 56.5
-    1939-04-01:
-      value: null
-  metadata:
-    ipp_csv_id: reg_spec_agri
-    unit: currency-FRF
-bmaf_e_t_i:
-  description: BMAF E.T.I.
-  values:
-    1955-01-01:
-      value: null
-    1953-01-01:
-      value: 172.5
-    1951-10-01:
-      value: 151.8
-    1951-04-01:
-      value: 132.0
-    1950-12-01:
-      value: 120.0
-    1950-10-01:
-      value: 100.0
-    1950-04-01:
-      value: 90.0
-    1949-10-01:
-      value: 75.0
-    1947-07-01:
-      value: 62.5
-    1946-07-01:
-      value: 56.5
-    1939-04-01:
-      value: null
-  metadata:
-    ipp_csv_id: reg_spec_eti
-    unit: currency-FRF
-salaire_mensuel_base_dans_departement_seine:
-  description: Salaire mensuel de base dans le département de la Seine
-  values:
-    1955-01-01:
-      value: null
-    1948-09-01:
-      value: 120.0
-    1948-01-01:
-      value: 105.0
-    1947-12-01:
-      value: 85.0
-    1947-08-01:
-      value: 70.0
-    1947-07-01:
-      value: 62.5
-    1947-02-01:
-      value: 62.15
-    1946-07-01:
-      value: 56.5
-    1944-08-01:
-      value: 45.0
-    1944-01-01:
-      value: 22.5
-    1942-01-01:
-      value: 17.0
-    1939-04-01:
-      value: 15.0
-  metadata:
-    ipp_csv_id: bmaf_seine
-    unit: currency-FRF
 documentation: |
   Notes : 
   Le régime des prestations familiales est fixé par la loi 46-1835 du 22 août 1946

@@ -87,10 +87,6 @@ montant_minimum:
       unit:
         2001-01-01: currency-EUR
         1984-04-01: currency-FRF
-  metadata:
-    order:
-    - lic_demission_arpe
-    - progress_mi_temps
   progress_mi_temps:
     description: Progress mi temps
     values:
@@ -177,6 +173,10 @@ montant_minimum:
       unit:
         2001-01-01: currency-EUR
         1984-04-01: currency-FRF
+  metadata:
+    order:
+    - lic_demission_arpe
+    - progress_mi_temps
 metadata:
   order:
   - montant_minimum

@@ -38,6 +38,37 @@ sous_pss:
   metadata:
     order:
     - employeurs
+tout_salaire:
+  description: Sur tout salaire
+  employeurs:
+    description: Employeurs
+    values:
+      2014-01-01:
+        value: 0.0525
+      1991-02-01:
+        value: 0.054
+      1990-01-01:
+        value: 0.07
+      1989-01-01:
+        value: 0.035
+      1946-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: fam_p_0_
+      unit: /1
+  taux_reduit:
+    description: Taux réduit
+    values:
+      2015-01-01:
+        value: 0.0345
+      1946-07-01:
+        value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - employeurs
+    - taux_reduit
 metadata:
   order:
   - sous_pss
@@ -85,37 +116,6 @@ metadata:
     1948-03-01: Référence législative inconnue.
     1946-10-01: Texte non consulté (date d'effet supposée).
     1946-07-01: Référence législative inconnue.
-tout_salaire:
-  description: Sur tout salaire
-  employeurs:
-    description: Employeurs
-    values:
-      2014-01-01:
-        value: 0.0525
-      1991-02-01:
-        value: 0.054
-      1990-01-01:
-        value: 0.07
-      1989-01-01:
-        value: 0.035
-      1946-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: fam_p_0_
-      unit: /1
-  metadata:
-    order:
-    - employeurs
-    - taux_reduit
-  taux_reduit:
-    description: Taux réduit
-    values:
-      2015-01-01:
-        value: 0.0345
-      1946-07-01:
-        value: null
-    metadata:
-      unit: /1
 documentation: |
   Sources :
   La Sécurité Sociale: son histoire à travers les textes, tome III, page 215.

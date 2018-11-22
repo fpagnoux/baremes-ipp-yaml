@@ -11,25 +11,6 @@ plafond_ressources_tranche_1:
   metadata:
     ipp_csv_id: plaf_t1_2enf
     unit: currency-EUR
-metadata:
-  order:
-  - plafond_ressources_tranche_1
-  - plafond_ressources_tranche_2
-  - majoration_ressource_par_enfant_supplementaire
-  reference:
-    2018-01-01: |-
-      Circulaire DSS/SD2B/2017/352 du 22/12/2017
-      Arrêté du 27/12/2017
-    2016-01-01: Circulaire DSS/SD2B/2015/371 du 18/12/2015
-    2015-07-01: Décret 2015-611 du 03/06/2015
-  date_parution_jo:
-    2018-01-01: 2017-12-29
-    2016-01-01: 2015-12-12
-    2015-07-01: 2015-06-05
-  notes:
-    2018-01-01: Revalorisation des plafonds de 0,2%
-    2016-01-01: Pas de changement en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
-    2015-07-01: Création des plafonds de ressources des allocations familiales
 plafond_ressources_tranche_2:
   description: Plafond de ressources - Tranche 2
   values:
@@ -55,3 +36,22 @@ majoration_ressource_par_enfant_supplementaire:
     ipp_csv_id: plaf_enf_sup
     unit: currency-EUR
 documentation: ''
+metadata:
+  order:
+  - plafond_ressources_tranche_1
+  - plafond_ressources_tranche_2
+  - majoration_ressource_par_enfant_supplementaire
+  reference:
+    2018-01-01: |-
+      Circulaire DSS/SD2B/2017/352 du 22/12/2017
+      Arrêté du 27/12/2017
+    2016-01-01: Circulaire DSS/SD2B/2015/371 du 18/12/2015
+    2015-07-01: Décret 2015-611 du 03/06/2015
+  date_parution_jo:
+    2018-01-01: 2017-12-29
+    2016-01-01: 2015-12-12
+    2015-07-01: 2015-06-05
+  notes:
+    2018-01-01: Revalorisation des plafonds de 0,2%
+    2016-01-01: Pas de changement en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
+    2015-07-01: Création des plafonds de ressources des allocations familiales

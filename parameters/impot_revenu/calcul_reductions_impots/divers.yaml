@@ -51,35 +51,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - depenses_formation_chefs_entreprises
-  - assurances_vie
-  - frais_comptabilite_cf_3
-  - rente_survie_cf_4
-  - rachat_entreprise
-  - versement_fond_salarial
-  - prets_consommation_cf_7
-  - interets_emprunt_reprise_societe_cf_8
-  - interets_paiements_differes_agriculteurs_cf_9
-  - aide_aux_repreneurs_entreprise_cf_10
-  - depenses_restauration_monuments_historiques_cf_11
-  - restauration_patrimoine_bati_cf_12
-  - protection_patrimoine_naturel_cf_13
-  notes:
-    2016-01-01: Loi 2016-1918 (art. 40) du 29/12/2016
-    2012-01-01: 'Pour les réductions sur patrimoine : Depuis le 26 avril 2012 Décret
-      n°2012-547 du 23 avril 2012 - art. 1'
-    2011-01-01: 'Pour les réductions sur patrimoine : changement au 16 mai 2011
-      par Décret n°2011-520 du 13 mai 2011 - art. 1'
-    1996-01-01: tx_formachef n'est à appliquer que sur l'excédent des frais de formation
-      par rapport à ceux de l'année précédente
-    1994-01-01: "plaf_formachef: il existe un plafonement trienal de 10 000 FRF\
-      \ pour les conjoints collaborateurs du chef d'entreprise"
-    1983-01-01: À partir de 1984, les bénéfices liés aux primes d'assurances vie
-      et rentes-survie prennent la forme d'une réduction d'împôt, alors qu'ils consistaient
-      en une déduction du revenu net.
 depenses_formation_chefs_entreprises:
   description: Dépenses pour la formation des chefs d'entreprises
   taux:
@@ -94,10 +65,6 @@ depenses_formation_chefs_entreprises:
     metadata:
       ipp_csv_id: tx_formachef
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -110,6 +77,10 @@ depenses_formation_chefs_entreprises:
     metadata:
       ipp_csv_id: plaf_formachef
       unit: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
 assurances_vie:
   description: Assurances-vie
   taux:
@@ -128,11 +99,6 @@ assurances_vie:
     metadata:
       ipp_csv_id: tx_avie
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
-    - increment
   plafond:
     description: Plafond
     values:
@@ -171,6 +137,11 @@ assurances_vie:
       unit:
         2001-01-01: currency-EUR
         1978-01-01: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
+    - increment
 frais_comptabilite_cf_3:
   description: Frais de comptabilité (cf. 3)
   montant:
@@ -208,11 +179,6 @@ rente_survie_cf_4:
     metadata:
       ipp_csv_id: tx_survie
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
-    - increment
   plafond:
     description: Plafond
     values:
@@ -251,6 +217,11 @@ rente_survie_cf_4:
       unit:
         2001-01-01: currency-EUR
         1978-01-01: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
+    - increment
 rachat_entreprise:
   description: Rachat d'entreprise
   taux:
@@ -267,10 +238,6 @@ rachat_entreprise:
     metadata:
       ipp_csv_id: tx_rachat
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -285,6 +252,10 @@ rachat_entreprise:
     metadata:
       ipp_csv_id: plaf_rachat
       unit: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
 versement_fond_salarial:
   description: Versement fond salarial
   taux:
@@ -299,10 +270,6 @@ versement_fond_salarial:
     metadata:
       ipp_csv_id: tx_salarial
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -315,6 +282,10 @@ versement_fond_salarial:
     metadata:
       ipp_csv_id: plaf_salarial
       unit: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
 prets_consommation_cf_7:
   description: Prêts à la consommation (cf. 7)
   taux:
@@ -333,10 +304,6 @@ prets_consommation_cf_7:
     metadata:
       ipp_csv_id: pret_conso
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -349,6 +316,10 @@ prets_consommation_cf_7:
     metadata:
       ipp_csv_id: plaf_conso
       unit: currency-EUR
+  metadata:
+    order:
+    - taux
+    - plafond
 interets_emprunt_reprise_societe_cf_8:
   description: Intérêts d'emprunt pour reprise de société (cf. 8)
   taux:
@@ -361,10 +332,6 @@ interets_emprunt_reprise_societe_cf_8:
     metadata:
       ipp_csv_id: tx_repsoc
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -377,6 +344,10 @@ interets_emprunt_reprise_societe_cf_8:
     metadata:
       ipp_csv_id: plaf_repsoc
       unit: currency-EUR
+  metadata:
+    order:
+    - taux
+    - plafond
 interets_paiements_differes_agriculteurs_cf_9:
   description: Intérêts paiements différés agriculteurs (cf. 9)
   taux:
@@ -389,10 +360,6 @@ interets_paiements_differes_agriculteurs_cf_9:
     metadata:
       ipp_csv_id: taux_intagri
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -403,6 +370,10 @@ interets_paiements_differes_agriculteurs_cf_9:
     metadata:
       ipp_csv_id: plaf_intagri
       unit: currency-EUR
+  metadata:
+    order:
+    - taux
+    - plafond
 aide_aux_repreneurs_entreprise_cf_10:
   description: Aide aux repreneurs d'entreprise (cf. 10)
   reduction:
@@ -415,10 +386,6 @@ aide_aux_repreneurs_entreprise_cf_10:
     metadata:
       ipp_csv_id: crea_entr
       unit: currency-EUR
-  metadata:
-    order:
-    - reduction
-    - surplus_si_invalide
   surplus_si_invalide:
     description: Surplus si invalide
     values:
@@ -429,6 +396,10 @@ aide_aux_repreneurs_entreprise_cf_10:
     metadata:
       ipp_csv_id: crea_entr2
       unit: currency-EUR
+  metadata:
+    order:
+    - reduction
+    - surplus_si_invalide
 depenses_restauration_monuments_historiques_cf_11:
   description: Dépenses de restauration des monuments historiques (cf. 11)
   taux:
@@ -445,10 +416,6 @@ depenses_restauration_monuments_historiques_cf_11:
     metadata:
       ipp_csv_id: tx_monhist
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -459,6 +426,10 @@ depenses_restauration_monuments_historiques_cf_11:
     metadata:
       ipp_csv_id: plaf_monhist
       unit: currency-EUR
+  metadata:
+    order:
+    - taux
+    - plafond
 restauration_patrimoine_bati_cf_12:
   description: Réstauration du patrimoine bâti (cf. 12)
   taux_1:
@@ -475,11 +446,6 @@ restauration_patrimoine_bati_cf_12:
     metadata:
       ipp_csv_id: tx_restauimmo1
       unit: /1
-  metadata:
-    order:
-    - taux_1
-    - taux_2
-    - plafond
   taux_2:
     description: Taux 2
     values:
@@ -506,6 +472,11 @@ restauration_patrimoine_bati_cf_12:
     metadata:
       ipp_csv_id: plaf_restauimmo
       unit: currency-EUR
+  metadata:
+    order:
+    - taux_1
+    - taux_2
+    - plafond
 protection_patrimoine_naturel_cf_13:
   description: Protection du patrimoine naturel (cf. 13)
   taux:
@@ -522,10 +493,6 @@ protection_patrimoine_naturel_cf_13:
     metadata:
       ipp_csv_id: tx_protecpat
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -536,6 +503,39 @@ protection_patrimoine_naturel_cf_13:
     metadata:
       ipp_csv_id: plaf_protecpat
       unit: currency-EUR
+  metadata:
+    order:
+    - taux
+    - plafond
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - depenses_formation_chefs_entreprises
+  - assurances_vie
+  - frais_comptabilite_cf_3
+  - rente_survie_cf_4
+  - rachat_entreprise
+  - versement_fond_salarial
+  - prets_consommation_cf_7
+  - interets_emprunt_reprise_societe_cf_8
+  - interets_paiements_differes_agriculteurs_cf_9
+  - aide_aux_repreneurs_entreprise_cf_10
+  - depenses_restauration_monuments_historiques_cf_11
+  - restauration_patrimoine_bati_cf_12
+  - protection_patrimoine_naturel_cf_13
+  notes:
+    2016-01-01: Loi 2016-1918 (art. 40) du 29/12/2016
+    2012-01-01: 'Pour les réductions sur patrimoine : Depuis le 26 avril 2012 Décret
+      n°2012-547 du 23 avril 2012 - art. 1'
+    2011-01-01: 'Pour les réductions sur patrimoine : changement au 16 mai 2011
+      par Décret n°2011-520 du 13 mai 2011 - art. 1'
+    1996-01-01: tx_formachef n'est à appliquer que sur l'excédent des frais de formation
+      par rapport à ceux de l'année précédente
+    1994-01-01: "plaf_formachef: il existe un plafonement trienal de 10 000 FRF\
+      \ pour les conjoints collaborateurs du chef d'entreprise"
+    1983-01-01: À partir de 1984, les bénéfices liés aux primes d'assurances vie
+      et rentes-survie prennent la forme d'une réduction d'împôt, alors qu'ils consistaient
+      en une déduction du revenu net.
 documentation: |
   Notes : Intitulés précis 
   (1) Dépenses de formation du chef d'entreprise individuelle : ensemble des dépenses effectuées entre le 01/01/1994 et le 31/12/1996

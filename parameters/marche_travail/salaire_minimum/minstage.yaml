@@ -10,6 +10,7 @@ part_plafond_securite_sociale:
       value: 0.125
   metadata:
     unit: /1
+documentation: ''
 metadata:
   order:
   - part_plafond_securite_sociale
@@ -21,4 +22,3 @@ metadata:
     2015-09-01: 2014-11-30
     2014-12-01: 2014-11-30
     2006-07-01: 2006-06-30
-documentation: ''

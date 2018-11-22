@@ -25,33 +25,6 @@ achat_vente_vente_consommer_place_prestations_hebergement_sauf_location_hebergem
   metadata:
     order:
     - chiffre_affaires
-metadata:
-  order:
-  - achat_vente_vente_consommer_place_prestations_hebergement_sauf_location_hebergement_meuble
-  - prestations_service
-  - activites_liberales_relevant_cipav
-  - formation_professionnelle_micro_entrepreneur
-  reference:
-    2018-01-01: Décret 2017-1894 du 30/12/2017, art. 1
-    2017-04-01: Décret 2017-301 du 08/03/2017
-    2016-01-01: Décret 2014-1531 du 17/12/2014, art.4, 1°
-    2015-01-01: Décret 2014-1531 du 17/12/2014, art.4, 1°
-    2014-01-01: Décret 2013-1290 du 27/12/2013
-    2013-01-01: Décret 2012-1551 du 28/12/2012
-    2011-01-01: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
-    2009-01-01: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
-  date_parution_jo:
-    2018-01-01: 2017-12-31
-    2017-04-01: 2017-03-10
-    2016-01-01: 2014-12-19
-    2015-01-01: 2014-12-19
-    2014-01-01: 2013-12-31
-    2013-01-01: 2012-12-30
-    2011-01-01: 2010-12-30
-    2009-01-01: 2008-12-19
-  notes:
-    2017-04-01: Depuis le 1er janvier 2017, la CFP est unifiée pour tous les artisans
-      (en et hors Alsace)
 prestations_service:
   description: Prestations de service
   chiffre_affaires:
@@ -110,12 +83,6 @@ formation_professionnelle_micro_entrepreneur:
     metadata:
       ipp_csv_id: auto_com_form_ca
       unit: /1
-  metadata:
-    order:
-    - commercants_chiffre_affaires
-    - professions_liberales_chiffre_affaires
-    - artisans_hors_alsace_chiffre_affaires
-    - artisans_alsace_chiffre_affaires
   professions_liberales_chiffre_affaires:
     description: "Professions libérales : chiffre d'affaires"
     values:
@@ -148,6 +115,39 @@ formation_professionnelle_micro_entrepreneur:
     metadata:
       ipp_csv_id: auto_art_form_als_ca
       unit: /1
+  metadata:
+    order:
+    - commercants_chiffre_affaires
+    - professions_liberales_chiffre_affaires
+    - artisans_hors_alsace_chiffre_affaires
+    - artisans_alsace_chiffre_affaires
+metadata:
+  order:
+  - achat_vente_vente_consommer_place_prestations_hebergement_sauf_location_hebergement_meuble
+  - prestations_service
+  - activites_liberales_relevant_cipav
+  - formation_professionnelle_micro_entrepreneur
+  reference:
+    2018-01-01: Décret 2017-1894 du 30/12/2017, art. 1
+    2017-04-01: Décret 2017-301 du 08/03/2017
+    2016-01-01: Décret 2014-1531 du 17/12/2014, art.4, 1°
+    2015-01-01: Décret 2014-1531 du 17/12/2014, art.4, 1°
+    2014-01-01: Décret 2013-1290 du 27/12/2013
+    2013-01-01: Décret 2012-1551 du 28/12/2012
+    2011-01-01: Loi 2010-1657 du 29/12/2010 de finances pour 2011, art. 137
+    2009-01-01: Décret 2008-1348 du 18/12/2008 ; Décret 2008-1349 du 18/12/2008
+  date_parution_jo:
+    2018-01-01: 2017-12-31
+    2017-04-01: 2017-03-10
+    2016-01-01: 2014-12-19
+    2015-01-01: 2014-12-19
+    2014-01-01: 2013-12-31
+    2013-01-01: 2012-12-30
+    2011-01-01: 2010-12-30
+    2009-01-01: 2008-12-19
+  notes:
+    2017-04-01: Depuis le 1er janvier 2017, la CFP est unifiée pour tous les artisans
+      (en et hors Alsace)
 documentation: |
   Notes :
   (i) L’auto-entrepreneur bénéficie d’un régime simplifié de calcul et de paiement des cotisations et contributions sociales obligatoires.

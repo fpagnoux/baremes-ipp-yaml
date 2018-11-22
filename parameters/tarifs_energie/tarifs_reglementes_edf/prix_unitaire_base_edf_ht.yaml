@@ -39,17 +39,6 @@ prix_kwh_3_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_3kva_ht
     unit: currency-EUR
-metadata:
-  order:
-  - prix_kwh_3_kva
-  - prix_kwh_6_kva
-  - prix_kwh_9_kva
-  - prix_kwh_12_kva
-  - prix_kwh_15_kva
-  - prix_kwh_18_kva
-  - prix_kwh_24_kva
-  - prix_kwh_30_kva
-  - prix_kwh_36_kva
 prix_kwh_6_kva:
   description: Prix du kWh - 6 kVA
   values:
@@ -356,6 +345,17 @@ prix_kwh_36_kva:
   metadata:
     ipp_csv_id: tarif_fixe_base_36kva_ht
     unit: currency-EUR
+metadata:
+  order:
+  - prix_kwh_3_kva
+  - prix_kwh_6_kva
+  - prix_kwh_9_kva
+  - prix_kwh_12_kva
+  - prix_kwh_15_kva
+  - prix_kwh_18_kva
+  - prix_kwh_24_kva
+  - prix_kwh_30_kva
+  - prix_kwh_36_kva
 documentation: |
   Source : http://www.cre.fr/marches/marche-de-detail/marche-de-l-electricite#section2
   CRE

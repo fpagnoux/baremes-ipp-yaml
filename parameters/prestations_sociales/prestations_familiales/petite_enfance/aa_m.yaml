@@ -13,6 +13,7 @@ montant_allocation_adoption_en_bmaf:
   metadata:
     ipp_csv_id: aa_montant
     unit: /1
+documentation: ''
 metadata:
   order:
   - montant_allocation_adoption_en_bmaf
@@ -36,4 +37,3 @@ metadata:
     1995-01-01: |-
       Pas cumulable avec l'ASF. Pour les enfants nés à partir du 01/01/1995
       Le décret 95-165 du 16/02/1995 crée l'Allocation à l'Adoption
-documentation: ''

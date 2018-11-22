@@ -31,38 +31,6 @@ vins_mousseux_eur_hl:
     unit:
       2002-03-31: currency-EUR
       1982-01-01: currency-FRF
-metadata:
-  order:
-  - vins_mousseux_eur_hl
-  - vins_tranquilles_eur_hl
-  - boissons_fermentees_autres_que_vin_biere_eur_hl
-  - cidres_poires_hydromels_eur_hl
-  - exoneration_ensemble_vins_eur_hl
-  - exoneration_petillants_voir_conditions_eur_hl
-  reference:
-    2018-01-01: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
-    2017-01-01: Arrêté du 27/12/2016 (tarifs accises alcools 2017)
-    2015-06-06: Décret 2015-608 du 03/06/2015
-    2014-05-30: Décret 2014-549 du 26/05/2014
-    2013-01-01: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
-    2012-01-01: Décret 2012-653 du 04/05/2012
-    2010-11-21: Arrêté du 12/11/2010
-    2010-05-01: Décret 2010-421 du 27/04/2010
-    2009-04-10: Décret 2009-389 du 7/04/2009
-    1993-02-01: Loi 92-1476 du 31/12/1992 (LFR pour 1993)
-    1982-01-01: Loi 81-1160 du 30/12/1981 (LF pour 1982)
-  date_parution_jo:
-    2018-01-01: 2017-12-27
-    2017-01-01: 2016-12-31
-    2015-06-06: 2015-06-05
-    2014-05-30: 2014-05-29
-    2013-01-01: 2012-12-23
-    2012-01-01: 2012-05-06
-    2010-11-21: 2010-11-20
-    2010-05-01: 2010-04-30
-    2009-04-10: 2009-04-09
-    1993-02-01: 1993-01-04
-    1982-01-01: 1981-12-31
 vins_tranquilles_eur_hl:
   description: Vins tranquilles (€/hl)
   values:
@@ -171,6 +139,38 @@ exoneration_petillants_voir_conditions_eur_hl:
   metadata:
     ipp_csv_id: exoneration_taxe_petillants
     unit: currency-FRF
+metadata:
+  order:
+  - vins_mousseux_eur_hl
+  - vins_tranquilles_eur_hl
+  - boissons_fermentees_autres_que_vin_biere_eur_hl
+  - cidres_poires_hydromels_eur_hl
+  - exoneration_ensemble_vins_eur_hl
+  - exoneration_petillants_voir_conditions_eur_hl
+  reference:
+    2018-01-01: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+    2017-01-01: Arrêté du 27/12/2016 (tarifs accises alcools 2017)
+    2015-06-06: Décret 2015-608 du 03/06/2015
+    2014-05-30: Décret 2014-549 du 26/05/2014
+    2013-01-01: Arrêté du 15/12/2012 (tarifs accises alcools 2013)
+    2012-01-01: Décret 2012-653 du 04/05/2012
+    2010-11-21: Arrêté du 12/11/2010
+    2010-05-01: Décret 2010-421 du 27/04/2010
+    2009-04-10: Décret 2009-389 du 7/04/2009
+    1993-02-01: Loi 92-1476 du 31/12/1992 (LFR pour 1993)
+    1982-01-01: Loi 81-1160 du 30/12/1981 (LF pour 1982)
+  date_parution_jo:
+    2018-01-01: 2017-12-27
+    2017-01-01: 2016-12-31
+    2015-06-06: 2015-06-05
+    2014-05-30: 2014-05-29
+    2013-01-01: 2012-12-23
+    2012-01-01: 2012-05-06
+    2010-11-21: 2010-11-20
+    2010-05-01: 2010-04-30
+    2009-04-10: 2009-04-09
+    1993-02-01: 1993-01-04
+    1982-01-01: 1981-12-31
 documentation: |
   Notes :
   Données renseignées dans l'article 438 du code général des impôts

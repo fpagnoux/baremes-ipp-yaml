@@ -67,10 +67,6 @@ smig_brut_horaire:
       unit:
         1960-10-01: currency-FRF
         1950-09-01: currency-AFRF
-  metadata:
-    order:
-    - zone_sans_abattement
-    - zone_abattement_maximale
   zone_abattement_maximale:
     description: Zone abattement maximale
     values:
@@ -129,13 +125,10 @@ smig_brut_horaire:
       unit:
         1960-10-01: currency-FRF
         1950-09-01: currency-AFRF
-metadata:
-  order:
-  - smig_brut_horaire
-  - smig_brut_mensuel
-  notes:
-    1970-01-01: Remplacé par le SMIC
-    1959-11-01: Les montants sont exprimés en anciens Francs de 1950 à 1959.
+  metadata:
+    order:
+    - zone_sans_abattement
+    - zone_abattement_maximale
 smig_brut_mensuel:
   description: Smig brut (mensuel)
   17333h_travail:
@@ -207,6 +200,13 @@ smig_brut_mensuel:
   metadata:
     order:
     - 17333h_travail
+metadata:
+  order:
+  - smig_brut_horaire
+  - smig_brut_mensuel
+  notes:
+    1970-01-01: Remplacé par le SMIC
+    1959-11-01: Les montants sont exprimés en anciens Francs de 1950 à 1959.
 documentation: |
   Sources de la législation:
   Annuaire Statistique de la France 1971 de 1966 à 1970; Annuaire Statistique de la France 1966 de 1950 à 1966

@@ -17,12 +17,6 @@ artisans:
     metadata:
       ipp_csv_id: retc_art_0_1
       unit: /1
-  metadata:
-    order:
-    - sous_1_pss
-    - entre_1_4_pss
-    - sous_3_pss
-    - sous_4_pss
   entre_1_4_pss:
     description: Entre 1 et 4 PSS
     values:
@@ -75,6 +69,74 @@ artisans:
     metadata:
       ipp_csv_id: retc_art_0_4
       unit: /1
+  metadata:
+    order:
+    - sous_1_pss
+    - entre_1_4_pss
+    - sous_3_pss
+    - sous_4_pss
+industriels_commercants:
+  description: Industriels-commerçants
+  sous_3_pss:
+    description: Sous 3 PSS
+    values:
+      2013-01-01:
+        value: null
+      2005-01-01:
+        value: 0.065
+      2004-07-01:
+        value: 0.045
+      2004-01-01:
+        value: 0.035
+      1978-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: retc_ic_0_3
+      unit: /1
+  metadata:
+    order:
+    - sous_3_pss
+artisans_industriels_commercants:
+  description: Artisans-industriels-commerçants
+  sous_plafond_rci:
+    description: Sous plafond RCI
+    values:
+      2013-01-01:
+        value: 0.07
+      1978-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: retc_rci_0_1plaf
+      unit: /1
+  entre_1_plafond_rci_4_plafonds_pss:
+    description: Entre 1 plafond RCI et 4 plafonds PSS
+    values:
+      2013-01-01:
+        value: 0.08
+      1978-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: retc_rci_1_4plaf
+      unit: /1
+  montant_plafond_rci:
+    description: Montant du plafond RCI
+    values:
+      2016-01-01:
+        value: 37546.0
+      2014-01-01:
+        value: 37513.0
+      2013-01-01:
+        value: 37032.0
+      1978-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: plaf_retc_rci
+      unit: currency-EUR
+  metadata:
+    order:
+    - sous_plafond_rci
+    - entre_1_plafond_rci_4_plafonds_pss
+    - montant_plafond_rci
 metadata:
   order:
   - artisans
@@ -129,68 +191,6 @@ metadata:
       le 1er semestre 2004, et 4,5% sous 3 PSS pour le 2ème semestre 2004
     1978-01-01: Institution du régime d'assurance vieillesse complémentaire obligatoire
       pour les artisans
-industriels_commercants:
-  description: Industriels-commerçants
-  sous_3_pss:
-    description: Sous 3 PSS
-    values:
-      2013-01-01:
-        value: null
-      2005-01-01:
-        value: 0.065
-      2004-07-01:
-        value: 0.045
-      2004-01-01:
-        value: 0.035
-      1978-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: retc_ic_0_3
-      unit: /1
-  metadata:
-    order:
-    - sous_3_pss
-artisans_industriels_commercants:
-  description: Artisans-industriels-commerçants
-  sous_plafond_rci:
-    description: Sous plafond RCI
-    values:
-      2013-01-01:
-        value: 0.07
-      1978-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: retc_rci_0_1plaf
-      unit: /1
-  metadata:
-    order:
-    - sous_plafond_rci
-    - entre_1_plafond_rci_4_plafonds_pss
-    - montant_plafond_rci
-  entre_1_plafond_rci_4_plafonds_pss:
-    description: Entre 1 plafond RCI et 4 plafonds PSS
-    values:
-      2013-01-01:
-        value: 0.08
-      1978-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: retc_rci_1_4plaf
-      unit: /1
-  montant_plafond_rci:
-    description: Montant du plafond RCI
-    values:
-      2016-01-01:
-        value: 37546.0
-      2014-01-01:
-        value: 37513.0
-      2013-01-01:
-        value: 37032.0
-      1978-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: plaf_retc_rci
-      unit: currency-EUR
 documentation: |
   Notes : 
   (i) Les cotisations reportées financent les régimes complémentaires d'assurance vieillesse des artisans, industriels et commerçants. 

@@ -31,10 +31,6 @@ allocation_principale:
     metadata:
       ipp_csv_id: aide_pu_0_3
       unit: currency-FRF
-  metadata:
-    order:
-    - 3_premiers_mois
-    - apres_3_mois
   apres_3_mois:
     description: Après 3 mois
     values:
@@ -65,6 +61,36 @@ allocation_principale:
     metadata:
       ipp_csv_id: aide_pu_3_
       unit: currency-FRF
+  metadata:
+    order:
+    - 3_premiers_mois
+    - apres_3_mois
+majoration_conjoint_enfant_charge:
+  description: Majoration (pour conjoint ou enfant à charge)
+  values:
+    1978-02-20:
+      value: 6.6
+    1977-04-04:
+      value: 6.0
+    1976-02-23:
+      value: 5.4
+    1975-01-13:
+      value: 4.8
+    1974-01-14:
+      value: 4.0
+    1973-01-29:
+      value: 3.6
+    1972-01-31:
+      value: 3.3
+    1970-07-06:
+      value: 3.05
+    1968-09-30:
+      value: 2.85
+    1967-10-01:
+      value: 2.5
+  metadata:
+    ipp_csv_id: aide_pu_maj
+    unit: currency-FRF
 metadata:
   order:
   - allocation_principale
@@ -99,32 +125,6 @@ metadata:
     1979-04-02: "Allocation d'aide publique supprimée par Loi cadre n° 79-32 du\
       \ 16 janvier 1979: nouveau système où régimes d'assurance et de solidarité sont\
       \ rassemblés"
-majoration_conjoint_enfant_charge:
-  description: Majoration (pour conjoint ou enfant à charge)
-  values:
-    1978-02-20:
-      value: 6.6
-    1977-04-04:
-      value: 6.0
-    1976-02-23:
-      value: 5.4
-    1975-01-13:
-      value: 4.8
-    1974-01-14:
-      value: 4.0
-    1973-01-29:
-      value: 3.6
-    1972-01-31:
-      value: 3.3
-    1970-07-06:
-      value: 3.05
-    1968-09-30:
-      value: 2.85
-    1967-10-01:
-      value: 2.5
-  metadata:
-    ipp_csv_id: aide_pu_maj
-    unit: currency-FRF
 documentation: |
   Allocation de solidarité versée sans limite de durée, mais les allocations et majorations sont réduites de 10% après 12 mois pour chaque année supplémentaire.
   Sources:

@@ -10,10 +10,6 @@ entreprises_ayant_signe_accord_rtt_avant_30_06_2003:
         value: 0.26
     metadata:
       ipp_csv_id: tx_trans_35
-  metadata:
-    order:
-    - reduction_maximale
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -25,6 +21,90 @@ entreprises_ayant_signe_accord_rtt_avant_30_06_2003:
         value: 1.7
     metadata:
       ipp_csv_id: plaf_trans_35
+  metadata:
+    order:
+    - reduction_maximale
+    - plafond
+entreprises_restees_aux_39_heures_hebdomadaires_30_06_2003:
+  description: Entreprises restées aux 39 heures hebdomadaires au 30/06/2003
+  reduction_maximale:
+    description: Réduction maximale
+    values:
+      2005-07-01:
+        value: null
+      2004-07-01:
+        value: 0.234
+      2003-07-01:
+        value: 0.208
+    metadata:
+      ipp_csv_id: tx_trans_39
+  plafond:
+    description: Plafond
+    values:
+      2005-07-01:
+        value: null
+      2004-07-01:
+        value: 1.6
+      2003-07-01:
+        value: 1.5
+    metadata:
+      ipp_csv_id: plaf_trans_39
+  metadata:
+    order:
+    - reduction_maximale
+    - plafond
+ensemble_entreprises:
+  description: Ensemble des entreprises
+  entreprises_20_salaries_plus:
+    description: Entreprises de 20 salariés et plus
+    values:
+      2018-01-01:
+        value: 0.2854
+      2017-01-01:
+        value: 0.2849
+      2016-01-01:
+        value: 0.2842
+      2015-01-01:
+        value: 0.2835
+      2005-07-01:
+        value: 0.26
+      2003-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_fillon_20_
+  entreprises_moins_20_salaries:
+    description: Entreprises de moins de 20 salariés
+    values:
+      2018-01-01:
+        value: 0.2814
+      2017-01-01:
+        value: 0.2809
+      2016-01-01:
+        value: 0.2802
+      2015-01-01:
+        value: 0.2795
+      2007-07-01:
+        value: 0.281
+      2005-07-01:
+        value: 0.26
+      2003-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_fillon_20
+  plafond:
+    description: Plafond
+    values:
+      2005-07-01:
+        value: 1.6
+      2003-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: plaf_fillon
+  metadata:
+    order:
+    - entreprises_20_salaries_plus
+    - entreprises_moins_20_salaries
+    - plafond
 metadata:
   order:
   - entreprises_ayant_signe_accord_rtt_avant_30_06_2003
@@ -55,86 +135,6 @@ metadata:
     2015-01-01: 'Extension du champ des allègements Fillon : principe du "zéro cotisations
       URSSAF"'
     2003-07-01: Loi dite Fillon
-entreprises_restees_aux_39_heures_hebdomadaires_30_06_2003:
-  description: Entreprises restées aux 39 heures hebdomadaires au 30/06/2003
-  reduction_maximale:
-    description: Réduction maximale
-    values:
-      2005-07-01:
-        value: null
-      2004-07-01:
-        value: 0.234
-      2003-07-01:
-        value: 0.208
-    metadata:
-      ipp_csv_id: tx_trans_39
-  metadata:
-    order:
-    - reduction_maximale
-    - plafond
-  plafond:
-    description: Plafond
-    values:
-      2005-07-01:
-        value: null
-      2004-07-01:
-        value: 1.6
-      2003-07-01:
-        value: 1.5
-    metadata:
-      ipp_csv_id: plaf_trans_39
-ensemble_entreprises:
-  description: Ensemble des entreprises
-  entreprises_20_salaries_plus:
-    description: Entreprises de 20 salariés et plus
-    values:
-      2018-01-01:
-        value: 0.2854
-      2017-01-01:
-        value: 0.2849
-      2016-01-01:
-        value: 0.2842
-      2015-01-01:
-        value: 0.2835
-      2005-07-01:
-        value: 0.26
-      2003-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_fillon_20_
-  metadata:
-    order:
-    - entreprises_20_salaries_plus
-    - entreprises_moins_20_salaries
-    - plafond
-  entreprises_moins_20_salaries:
-    description: Entreprises de moins de 20 salariés
-    values:
-      2018-01-01:
-        value: 0.2814
-      2017-01-01:
-        value: 0.2809
-      2016-01-01:
-        value: 0.2802
-      2015-01-01:
-        value: 0.2795
-      2007-07-01:
-        value: 0.281
-      2005-07-01:
-        value: 0.26
-      2003-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_fillon_20
-  plafond:
-    description: Plafond
-    values:
-      2005-07-01:
-        value: 1.6
-      2003-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: plaf_fillon
 documentation: |
   Notes :
   Le salaire de référence pour le calcul de l'allègement avant le 01/07/2005 pour les entreprises ayant signé un accord de RTT avant le 30/06/2003 est la GMR 2.

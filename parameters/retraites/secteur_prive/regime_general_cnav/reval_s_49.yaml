@@ -31,11 +31,6 @@ coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees:
         value: 22.0
       1930-01-01:
         value: 24.5
-  metadata:
-    order:
-    - arrete_23_06_1949_jo_29_06_1949
-    - arrete_02_10_1952_jo_03_10_1952
-    - arrete_24_01_1994_jo_27_01_1994
   arrete_02_10_1952_jo_03_10_1952:
     description: |-
       Arrêté du 02/10/1952
@@ -170,6 +165,11 @@ coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees:
         value: 105.891
       1930-01-01:
         value: null
+  metadata:
+    order:
+    - arrete_23_06_1949_jo_29_06_1949
+    - arrete_02_10_1952_jo_03_10_1952
+    - arrete_24_01_1994_jo_27_01_1994
 metadata:
   order:
   - coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees

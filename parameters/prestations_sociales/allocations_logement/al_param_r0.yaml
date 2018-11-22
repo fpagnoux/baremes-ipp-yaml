@@ -12,13 +12,6 @@ r1_en_rsa_socle_1:
     metadata:
       ipp_csv_id: r1_isol
       unit: /1
-  metadata:
-    order:
-    - personnes_isolees_en_rmi_base
-    - couples_en_rmi_base
-    - personnes_isolees_couples_avec_1_enfant_en_rmi_base
-    - personnes_isolees_couples_avec_2_enfants_en_rmi_base
-    - majoration_par_enfant_charge_supplementaire_en_rmi_base
   couples_en_rmi_base:
     description: |-
       Couples 
@@ -59,20 +52,13 @@ r1_en_rsa_socle_1:
     metadata:
       ipp_csv_id: r1_enfsupp
       unit: /1
-metadata:
-  order:
-  - r1_en_rsa_socle_1
-  - r2_en_bmaf_1
-  - plafond_r0
-  reference:
-    2002-01-01: Références manquantes
-    2001-01-01: Arrêté du 26/12/2000, art. 2
-  date_parution_jo:
-    2001-01-01: 2000-12-28
-  notes:
-    2002-01-01: Paramètres toutefois disponibles dans "Eléments de calcul des aides
-      personnelles au logement", Ministère de l'égalité des territoires et du logement,
-      2013, p 13.
+  metadata:
+    order:
+    - personnes_isolees_en_rmi_base
+    - couples_en_rmi_base
+    - personnes_isolees_couples_avec_1_enfant_en_rmi_base
+    - personnes_isolees_couples_avec_2_enfants_en_rmi_base
+    - majoration_par_enfant_charge_supplementaire_en_rmi_base
 r2_en_bmaf_1:
   description: R2 (en % de la BMAF) (1)
   personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2:
@@ -85,10 +71,6 @@ r2_en_bmaf_1:
     metadata:
       ipp_csv_id: r2_enf2
       unit: /1
-  metadata:
-    order:
-    - personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2
-    - majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2
   majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2:
     description: |-
       Majoration par enfant à charge supplémentaire
@@ -99,6 +81,10 @@ r2_en_bmaf_1:
     metadata:
       ipp_csv_id: r2_enfsupp
       unit: /1
+  metadata:
+    order:
+    - personnes_isolees_couples_avec_2_enfants_en_bmaf_01_01_n_2
+    - majoration_par_enfant_charge_supplementaire_en_bmaf_01_01_n_2
 plafond_r0:
   description: Plafond de R0
   foyers_sans_personne_charge_en_r0:
@@ -113,13 +99,6 @@ plafond_r0:
     metadata:
       ipp_csv_id: tx_plaf_r0_enf0
       unit: /1
-  metadata:
-    order:
-    - foyers_sans_personne_charge_en_r0
-    - foyers_avec_1_personne_charge_en_r0
-    - foyers_avec_2_personnes_charge_en_r0
-    - foyers_avec_3_personnes_charge_en_r0
-    - foyers_avec_4_personnes_charge_plus_en_r0
   foyers_avec_1_personne_charge_en_r0:
     description: |-
       Foyers avec 1 personne à charge
@@ -168,6 +147,27 @@ plafond_r0:
     metadata:
       ipp_csv_id: tx_plaf_r0_enf4pl
       unit: /1
+  metadata:
+    order:
+    - foyers_sans_personne_charge_en_r0
+    - foyers_avec_1_personne_charge_en_r0
+    - foyers_avec_2_personnes_charge_en_r0
+    - foyers_avec_3_personnes_charge_en_r0
+    - foyers_avec_4_personnes_charge_plus_en_r0
+metadata:
+  order:
+  - r1_en_rsa_socle_1
+  - r2_en_bmaf_1
+  - plafond_r0
+  reference:
+    2002-01-01: Références manquantes
+    2001-01-01: Arrêté du 26/12/2000, art. 2
+  date_parution_jo:
+    2001-01-01: 2000-12-28
+  notes:
+    2002-01-01: Paramètres toutefois disponibles dans "Eléments de calcul des aides
+      personnelles au logement", Ministère de l'égalité des territoires et du logement,
+      2013, p 13.
 documentation: |
   Notes :
   (1) Les abattements appliqués aux traitements et salaires mentionnés dans le code général des impôts s'appliquent à R1-R2 (cf. feuille "deduc_sal" du fichier "Barèmes IPP - Paramètres_IR.xlsx".)

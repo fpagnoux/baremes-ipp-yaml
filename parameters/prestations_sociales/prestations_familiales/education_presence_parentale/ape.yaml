@@ -8,6 +8,94 @@ nombre_minimal_enfants_pris_en_charge:
       value: 3.0
   metadata:
     ipp_csv_id: ape_nenf_min
+age_maximal_enfant_1:
+  description: Âge maximal de l'enfant (1)
+  values:
+    1985-01-01:
+      value: 3.0
+  metadata:
+    ipp_csv_id: ape_agemax
+annees_activite_precedant_demande:
+  description: Années d'activité précédant la demande
+  values:
+    1985-01-01:
+      value: 2.0
+  metadata:
+    ipp_csv_id: min_annee_act
+intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois:
+  description: Intervalle considéré pour le calcul du nombre d'années d'activité précédant
+    la demande d'APE (mois)
+  2e_enfant:
+    description: Pour le 2e enfant
+    values:
+      1994-07-01:
+        value: 60.0
+      1985-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: intervalle_2enf
+  3e_enfant:
+    description: Pour le 3e enfant
+    values:
+      1987-04-01:
+        value: 120.0
+      1985-01-01:
+        value: 30.0
+    metadata:
+      ipp_csv_id: intervalle_3enf
+  metadata:
+    order:
+    - 2e_enfant
+    - 3e_enfant
+duree_allocation_maximale_mois:
+  description: Durée de l'allocation maximale (mois)
+  values:
+    1987-04-01:
+      value: 36.0
+    1985-01-01:
+      value: 24.0
+  metadata:
+    ipp_csv_id: duree_max_alloc
+montant_mensuel_en_base_calcul:
+  description: Montant mensuel (en % de la base de calcul)
+  taux_plein:
+    description: A taux plein
+    values:
+      1987-04-01:
+        value: 1.4257
+      1986-07-01:
+        value: 0.902
+      1985-01-01:
+        value: 0.624
+    metadata:
+      ipp_csv_id: ape_taux_base
+      unit: /1
+  une_activite_plus_85h_mois_50_duree_legale:
+    description: Pour une activité de plus de 85h/mois (50% durée légale)
+    values:
+      1994-07-01:
+        value: 0.9427
+      1985-01-01:
+        value: 0.451
+    metadata:
+      ipp_csv_id: ape_taux_50
+      unit: /1
+  une_activite_formation_comprise_entre_50_80_duree_legale:
+    description: Pour une activité ou formation comprise entre 50% et 80% de la durée
+      légale
+    values:
+      1987-04-01:
+        value: 0.7129
+      1985-01-01:
+        value: 0.451
+    metadata:
+      ipp_csv_id: ape_taux_80
+      unit: /1
+  metadata:
+    order:
+    - taux_plein
+    - une_activite_plus_85h_mois_50_duree_legale
+    - une_activite_formation_comprise_entre_50_80_duree_legale
 metadata:
   order:
   - nombre_minimal_enfants_pris_en_charge
@@ -41,94 +129,6 @@ metadata:
     1994-07-01: Prestation d'accueil jeune enfant non cumulable avec CF et ASF.
       Prolongation jusqu'au 6e anniversaire en cas de naissance multiple
     1985-01-01: La loi 85-17 du 4 janvier 1985 crée l'Allocation parentale d'éducation
-age_maximal_enfant_1:
-  description: Âge maximal de l'enfant (1)
-  values:
-    1985-01-01:
-      value: 3.0
-  metadata:
-    ipp_csv_id: ape_agemax
-annees_activite_precedant_demande:
-  description: Années d'activité précédant la demande
-  values:
-    1985-01-01:
-      value: 2.0
-  metadata:
-    ipp_csv_id: min_annee_act
-intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois:
-  description: Intervalle considéré pour le calcul du nombre d'années d'activité précédant
-    la demande d'APE (mois)
-  2e_enfant:
-    description: Pour le 2e enfant
-    values:
-      1994-07-01:
-        value: 60.0
-      1985-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: intervalle_2enf
-  metadata:
-    order:
-    - 2e_enfant
-    - 3e_enfant
-  3e_enfant:
-    description: Pour le 3e enfant
-    values:
-      1987-04-01:
-        value: 120.0
-      1985-01-01:
-        value: 30.0
-    metadata:
-      ipp_csv_id: intervalle_3enf
-duree_allocation_maximale_mois:
-  description: Durée de l'allocation maximale (mois)
-  values:
-    1987-04-01:
-      value: 36.0
-    1985-01-01:
-      value: 24.0
-  metadata:
-    ipp_csv_id: duree_max_alloc
-montant_mensuel_en_base_calcul:
-  description: Montant mensuel (en % de la base de calcul)
-  taux_plein:
-    description: A taux plein
-    values:
-      1987-04-01:
-        value: 1.4257
-      1986-07-01:
-        value: 0.902
-      1985-01-01:
-        value: 0.624
-    metadata:
-      ipp_csv_id: ape_taux_base
-      unit: /1
-  metadata:
-    order:
-    - taux_plein
-    - une_activite_plus_85h_mois_50_duree_legale
-    - une_activite_formation_comprise_entre_50_80_duree_legale
-  une_activite_plus_85h_mois_50_duree_legale:
-    description: Pour une activité de plus de 85h/mois (50% durée légale)
-    values:
-      1994-07-01:
-        value: 0.9427
-      1985-01-01:
-        value: 0.451
-    metadata:
-      ipp_csv_id: ape_taux_50
-      unit: /1
-  une_activite_formation_comprise_entre_50_80_duree_legale:
-    description: Pour une activité ou formation comprise entre 50% et 80% de la durée
-      légale
-    values:
-      1987-04-01:
-        value: 0.7129
-      1985-01-01:
-        value: 0.451
-    metadata:
-      ipp_csv_id: ape_taux_80
-      unit: /1
 documentation: |
   Notes :
    L'activité professionnelle et les situations assimilées sont prises en comptes, au titre des vingt-quatre mois, si elles ont assuré un revenu moyen annuel d'au moins 40 p. 100 d'une somme égale à 2.028 fois le montant horaire du salaire minimum de croissance en vigueur au 1er janvier de l'année de la demande d'allocation parentale d'éducation.

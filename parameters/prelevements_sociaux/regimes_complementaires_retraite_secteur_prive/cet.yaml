@@ -17,10 +17,6 @@ salaire_sous_8_pss:
     metadata:
       ipp_csv_id: cet_s_0_8
       unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
   employeur:
     description: Employeur
     values:
@@ -37,6 +33,10 @@ salaire_sous_8_pss:
     metadata:
       ipp_csv_id: cet_p_0_8
       unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
 metadata:
   order:
   - salaire_sous_8_pss

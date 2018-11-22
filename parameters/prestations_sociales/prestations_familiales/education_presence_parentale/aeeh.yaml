@@ -7,24 +7,6 @@ age_maximum_enfant:
       value: 20.0
   metadata:
     ipp_csv_id: aeeh_enf_agemax
-metadata:
-  order:
-  - age_maximum_enfant
-  - montant_bmaf
-  - complement_allocation
-  - majoration_parent_isole
-  reference:
-    2017-04-01: Circulaire DSS/SD2B/2017/97 du 21/03/2017
-    2016-04-01: Circulaire DSS/SD2B/2016/77 du 15/03/2016
-    2014-04-01: Art. L. 341-6 du CSS
-    2013-04-01: Art. L. 341-6 du CSS
-    2006-01-01: |-
-      Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
-      Décret 2005-1761 du 29/12/2005, art. 12
-  date_parution_jo:
-    2006-01-01: 12/02/2005     01/01/2006
-  notes:
-    2006-01-01: Création de l'Allocation d'éducation de l'enfant handicapé
 montant_bmaf:
   description: Montant (% de BMAF)
   values:
@@ -43,14 +25,6 @@ complement_allocation:
     metadata:
       ipp_csv_id: aeeh_cplt1
       unit: /1
-  metadata:
-    order:
-    - 1ere_categorie
-    - 2e_categorie
-    - 3e_categorie
-    - 4e_categorie
-    - 5e_categorie
-    - 6e_categorie_1
   2e_categorie:
     description: 2e catégorie
     values:
@@ -115,6 +89,14 @@ complement_allocation:
     metadata:
       ipp_csv_id: aeeh_cplt6
       unit: currency-EUR
+  metadata:
+    order:
+    - 1ere_categorie
+    - 2e_categorie
+    - 3e_categorie
+    - 4e_categorie
+    - 5e_categorie
+    - 6e_categorie_1
 majoration_parent_isole:
   description: Majoration pour parent isolé
   2e_categorie:
@@ -125,13 +107,6 @@ majoration_parent_isole:
     metadata:
       ipp_csv_id: aeeh_majo2
       unit: /1
-  metadata:
-    order:
-    - 2e_categorie
-    - 3e_categorie
-    - 4e_categorie
-    - 5e_categorie
-    - 6e_categorie
   3e_categorie:
     description: 3e catégorie
     values:
@@ -164,6 +139,31 @@ majoration_parent_isole:
     metadata:
       ipp_csv_id: aeeh_majo6
       unit: /1
+  metadata:
+    order:
+    - 2e_categorie
+    - 3e_categorie
+    - 4e_categorie
+    - 5e_categorie
+    - 6e_categorie
+metadata:
+  order:
+  - age_maximum_enfant
+  - montant_bmaf
+  - complement_allocation
+  - majoration_parent_isole
+  reference:
+    2017-04-01: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+    2016-04-01: Circulaire DSS/SD2B/2016/77 du 15/03/2016
+    2014-04-01: Art. L. 341-6 du CSS
+    2013-04-01: Art. L. 341-6 du CSS
+    2006-01-01: |-
+      Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
+      Décret 2005-1761 du 29/12/2005, art. 12
+  date_parution_jo:
+    2006-01-01: 12/02/2005     01/01/2006
+  notes:
+    2006-01-01: Création de l'Allocation d'éducation de l'enfant handicapé
 documentation: |
   Notes :
   (1) Le montant du complément de la sixième catégorie de l'allocation d'éducation de l'enfant handicapé est égal au montant de la majoration pour tierce personne accordée aux invalides de la 3e catégorie définis à l'article L 341-4 du CSS.

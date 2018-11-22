@@ -7,40 +7,6 @@ assurances_incendie_particuliers:
   metadata:
     ipp_csv_id: taxe_assu_incendie_particuliers
     unit: /1
-metadata:
-  order:
-  - assurances_incendie_particuliers
-  - assurances_incendie_risques_agricoles_non_exoneres
-  - assurances_incendie_souscrites_aupres_caisses_departementales
-  - assurance_pertes_exploitations_dues_incendie_industrie_etc
-  - contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_bis
-  - contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter
-  - assurance_bateaux_sport_plaisance
-  - assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_navigation_aerienne
-  - assurances_vie_assimilees
-  - rente_viagere_sous_conditions
-  - assurances_credit_exportation
-  - contribution_secu_assurances_automobiles
-  - assurance_vehicules_terrestres_moteurs_particuliers
-  - assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite
-  - assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances
-  - assurances_vehicules_terrestres_moteur_l211_1_autres
-  - autres_assurances
-  reference:
-    2016-01-01: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-    2015-01-01: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-    2014-01-01: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-    2011-10-01: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-      9
-    2011-01-01: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-    1994-09-02: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
-  date_parution_jo:
-    2016-01-01: 2014-12-24
-    2015-01-01: 2014-12-30
-    2014-01-01: 2013-12-24
-    2011-10-01: 2011-09-20
-    2011-01-01: 2010-12-30
-    1994-09-02: 2001-12-26
 assurances_incendie_risques_agricoles_non_exoneres:
   description: Assurances incendie risques agricoles non exonérés
   values:
@@ -226,6 +192,40 @@ autres_assurances:
   metadata:
     ipp_csv_id: taxe_autres_assu
     unit: /1
+metadata:
+  order:
+  - assurances_incendie_particuliers
+  - assurances_incendie_risques_agricoles_non_exoneres
+  - assurances_incendie_souscrites_aupres_caisses_departementales
+  - assurance_pertes_exploitations_dues_incendie_industrie_etc
+  - contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_bis
+  - contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter
+  - assurance_bateaux_sport_plaisance
+  - assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_navigation_aerienne
+  - assurances_vie_assimilees
+  - rente_viagere_sous_conditions
+  - assurances_credit_exportation
+  - contribution_secu_assurances_automobiles
+  - assurance_vehicules_terrestres_moteurs_particuliers
+  - assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite
+  - assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances
+  - assurances_vehicules_terrestres_moteur_l211_1_autres
+  - autres_assurances
+  reference:
+    2016-01-01: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
+    2015-01-01: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
+    2014-01-01: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
+    2011-10-01: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
+      9
+    2011-01-01: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
+    1994-09-02: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
+  date_parution_jo:
+    2016-01-01: 2014-12-24
+    2015-01-01: 2014-12-30
+    2014-01-01: 2013-12-24
+    2011-10-01: 2011-09-20
+    2011-01-01: 2010-12-30
+    1994-09-02: 2001-12-26
 documentation: |
   Notes :
   Déductions pour les véhicules de plus de 3,5 tonnes

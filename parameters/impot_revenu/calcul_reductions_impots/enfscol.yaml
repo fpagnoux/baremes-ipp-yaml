@@ -13,15 +13,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - reduction_enfants_scolarises
-  reference:
-    2001-01-01: CGI. - Article 199 quater F
-    1992-01-01: LF pour 1993
-  notes:
-    1992-01-01: DB 5 B-3315 - JOFR 31/12/1992
 reduction_enfants_scolarises:
   description: Réduction pour enfants scolarisés
   college:
@@ -38,11 +29,6 @@ reduction_enfants_scolarises:
       unit:
         2001-01-01: currency-EUR
         1992-01-01: currency-FRF
-  metadata:
-    order:
-    - college
-    - lycee
-    - universite
   lycee:
     description: Lycée
     values:
@@ -71,4 +57,18 @@ reduction_enfants_scolarises:
       unit:
         2001-01-01: currency-EUR
         1992-01-01: currency-FRF
+  metadata:
+    order:
+    - college
+    - lycee
+    - universite
 documentation: ''
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - reduction_enfants_scolarises
+  reference:
+    2001-01-01: CGI. - Article 199 quater F
+    1992-01-01: LF pour 1993
+  notes:
+    1992-01-01: DB 5 B-3315 - JOFR 31/12/1992

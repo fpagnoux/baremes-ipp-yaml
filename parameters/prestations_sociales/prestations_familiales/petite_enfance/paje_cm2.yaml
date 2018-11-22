@@ -12,10 +12,6 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: tx_paje_naiss
       unit: /1
-  metadata:
-    order:
-    - prime_naissance_paje_1
-    - prime_adoption_paje_2
   prime_adoption_paje_2:
     description: |-
       Prime à l'adoption de la PAJE
@@ -28,6 +24,10 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: tx_paje_adopt
       unit: /1
+  metadata:
+    order:
+    - prime_naissance_paje_1
+    - prime_adoption_paje_2
 metadata:
   order:
   - montant_en_bmaf

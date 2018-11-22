@@ -15,18 +15,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - prestations_compensatoires
-  reference:
-    2004-01-01: Loi 2004-439 du 26 mai 2004 - art. 26
-    2000-01-01: Loi 2000-596 du 30 juin 2000
-  notes:
-    2004-01-01: Institution d'une réduction d'impôt en cas de versement de la prestation
-      compensatoire en capital
-    2000-01-01: 'Aménagement possible des dispositions fiscales : art. 128  et 275-1
-      du code civil'
 prestations_compensatoires:
   description: Prestations compensatoires
   taux:
@@ -39,10 +27,6 @@ prestations_compensatoires:
     metadata:
       ipp_csv_id: tx_prestcomp
       unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
   plafond:
     description: Plafond
     values:
@@ -57,6 +41,22 @@ prestations_compensatoires:
       unit:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - prestations_compensatoires
+  reference:
+    2004-01-01: Loi 2004-439 du 26 mai 2004 - art. 26
+    2000-01-01: Loi 2000-596 du 30 juin 2000
+  notes:
+    2004-01-01: Institution d'une réduction d'impôt en cas de versement de la prestation
+      compensatoire en capital
+    2000-01-01: 'Aménagement possible des dispositions fiscales : art. 128  et 275-1
+      du code civil'
 documentation: |
   Notes : 
   (1) Voir art. 270 et 271 du code civil

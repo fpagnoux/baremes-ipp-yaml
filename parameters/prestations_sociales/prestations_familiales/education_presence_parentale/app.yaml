@@ -13,10 +13,6 @@ montant_taux_plein_bmaf:
     metadata:
       ipp_csv_id: app_tx_plein_couple
       unit: /1
-  metadata:
-    order:
-    - couple
-    - seul
   seul:
     description: Seul
     values:
@@ -29,22 +25,10 @@ montant_taux_plein_bmaf:
     metadata:
       ipp_csv_id: app_tx_plein_seul
       unit: /1
-metadata:
-  order:
-  - montant_taux_plein_bmaf
-  - montant_taux_partiel_bmaf
-  - duree_maximale_allocation_annee
-  reference:
-    2006-06-04: Décret 2006-659 du 02/06/2006
-    2002-04-01: Décret 2002-373 du 19/03/2002, art. 1
-    2001-01-01: Décret 2001-106 du 05/02/2001, art. 2
-  date_parution_jo:
-    2006-06-04: 2006-06-04
-    2002-04-01: 2002-03-21
-    2001-01-01: 2001-02-07
-  notes:
-    2006-06-04: APP devient AJPP
-    2001-01-01: Création de l'Allocation de Présence Parentale
+  metadata:
+    order:
+    - couple
+    - seul
 montant_taux_partiel_bmaf:
   description: Montant taux partiel (% BMAF)
   80_duree_legale_couple:
@@ -57,12 +41,6 @@ montant_taux_partiel_bmaf:
     metadata:
       ipp_csv_id: app_tx_partiel1_couple
       unit: /1
-  metadata:
-    order:
-    - 80_duree_legale_couple
-    - 80_duree_legale_seul
-    - 50_duree_legale_couple
-    - 50_duree_legale_seul
   80_duree_legale_seul:
     description: 80% durée légale, Seul
     values:
@@ -97,6 +75,12 @@ montant_taux_partiel_bmaf:
     metadata:
       ipp_csv_id: app_tx_partiel2_seul
       unit: /1
+  metadata:
+    order:
+    - 80_duree_legale_couple
+    - 80_duree_legale_seul
+    - 50_duree_legale_couple
+    - 50_duree_legale_seul
 duree_maximale_allocation_annee:
   description: Durée maximale de l'allocation (année)
   values:
@@ -107,3 +91,19 @@ duree_maximale_allocation_annee:
   metadata:
     ipp_csv_id: app_duree_max
 documentation: ''
+metadata:
+  order:
+  - montant_taux_plein_bmaf
+  - montant_taux_partiel_bmaf
+  - duree_maximale_allocation_annee
+  reference:
+    2006-06-04: Décret 2006-659 du 02/06/2006
+    2002-04-01: Décret 2002-373 du 19/03/2002, art. 1
+    2001-01-01: Décret 2001-106 du 05/02/2001, art. 2
+  date_parution_jo:
+    2006-06-04: 2006-06-04
+    2002-04-01: 2002-03-21
+    2001-01-01: 2001-02-07
+  notes:
+    2006-06-04: APP devient AJPP
+    2001-01-01: Création de l'Allocation de Présence Parentale

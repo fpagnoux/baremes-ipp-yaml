@@ -9,30 +9,6 @@ alsace:
   metadata:
     ipp_csv_id: maj_ticpe_die_als
     unit: currency-EUR
-metadata:
-  order:
-  - alsace
-  - aquitaine
-  - auvergne
-  - basse_normandie
-  - bourgogne
-  - bretagne
-  - centre
-  - champagne_ardennes
-  - corse
-  - franche_comte
-  - haute_normandie
-  - ile_france
-  - languedoc_roussillon
-  - limousin
-  - lorraine
-  - midi_pyrenees
-  - nord_pas_calais
-  - pays_loire
-  - picardie
-  - poitou_charentes
-  - rhone_alpes
-  - paca
 aquitaine:
   description: Aquitaine
   values:
@@ -273,6 +249,30 @@ paca:
   metadata:
     ipp_csv_id: maj_ticpe_die_paca
     unit: currency-EUR
+metadata:
+  order:
+  - alsace
+  - aquitaine
+  - auvergne
+  - basse_normandie
+  - bourgogne
+  - bretagne
+  - centre
+  - champagne_ardennes
+  - corse
+  - franche_comte
+  - haute_normandie
+  - ile_france
+  - languedoc_roussillon
+  - limousin
+  - lorraine
+  - midi_pyrenees
+  - nord_pas_calais
+  - pays_loire
+  - picardie
+  - poitou_charentes
+  - rhone_alpes
+  - paca
 documentation: |
   Notes :
   La source de ces données est la suivante : http://www.developpement-durable.gouv.fr/-La-fiscalite-dans-les-dernieres-.html 

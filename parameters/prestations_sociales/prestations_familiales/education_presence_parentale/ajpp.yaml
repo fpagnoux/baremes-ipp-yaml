@@ -9,10 +9,6 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: ajpp_couple
       unit: /1
-  metadata:
-    order:
-    - couple
-    - personne_seule
   personne_seule:
     description: Personne seule
     values:
@@ -21,17 +17,10 @@ montant_en_bmaf:
     metadata:
       ipp_csv_id: ajpp_seul
       unit: /1
-metadata:
-  order:
-  - montant_en_bmaf
-  - nombre_max_allocations_journalieres_par_mois
-  - duree_allocation_annees
-  reference:
-    2006-06-05: Décret 2006-659 du 02/06/2006, art. 4 (modif art. D544-1,2 du CSS)
-  date_parution_jo:
-    2006-06-05: 2006-06-04
-  notes:
-    2006-06-05: Création de AJPP
+  metadata:
+    order:
+    - couple
+    - personne_seule
 nombre_max_allocations_journalieres_par_mois:
   description: Nombre max d'allocations journalières par mois
   values:
@@ -47,3 +36,14 @@ duree_allocation_annees:
   metadata:
     ipp_csv_id: ajpp_duree_alloc
 documentation: ''
+metadata:
+  order:
+  - montant_en_bmaf
+  - nombre_max_allocations_journalieres_par_mois
+  - duree_allocation_annees
+  reference:
+    2006-06-05: Décret 2006-659 du 02/06/2006, art. 4 (modif art. D544-1,2 du CSS)
+  date_parution_jo:
+    2006-06-05: 2006-06-04
+  notes:
+    2006-06-05: Création de AJPP

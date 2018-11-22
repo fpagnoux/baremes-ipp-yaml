@@ -15,10 +15,6 @@ tranche_b_1_4_pss:
     metadata:
       ipp_csv_id: apec_s_1_4
       unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
   employeur:
     description: Employeur
     values:
@@ -33,6 +29,36 @@ tranche_b_1_4_pss:
     metadata:
       ipp_csv_id: apec_p_1_4
       unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
+sous_4_pss:
+  description: Sous 4 PSS
+  salarie:
+    description: Salarié
+    values:
+      2011-01-01:
+        value: 0.00024
+      1967-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: apec_s_0_4
+      unit: /1
+  employeur:
+    description: Employeur
+    values:
+      2011-01-01:
+        value: 0.00036
+      1967-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: apec_p_0_4
+      unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
 metadata:
   order:
   - tranche_b_1_4_pss
@@ -48,32 +74,6 @@ metadata:
     1975-01-01: Augmentation du taux de 0,04 % à 0,06 %.
     1971-01-01: Passage d'une cotisation forfaitaire à une cotisation proportionnelle.
     1967-01-01: Cotisation forfaitaire d'un montant de 2 FF par cadre.
-sous_4_pss:
-  description: Sous 4 PSS
-  salarie:
-    description: Salarié
-    values:
-      2011-01-01:
-        value: 0.00024
-      1967-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: apec_s_0_4
-      unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
-  employeur:
-    description: Employeur
-    values:
-      2011-01-01:
-        value: 0.00036
-      1967-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: apec_p_0_4
-      unit: /1
 documentation: |
   Note :
   L'Association pour l'emploi des cadres (APEC) a été mise en place par la convention du 18/11/1966.

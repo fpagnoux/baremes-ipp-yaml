@@ -23,37 +23,6 @@ prix_kwh_base_zone_1_ht:
   metadata:
     ipp_csv_id: prix_unitaire_gdf_zone1_base_ht
     unit: currency-EUR
-metadata:
-  order:
-  - prix_kwh_base_zone_1_ht
-  - prix_kwh_base_zone_2_ht
-  - prix_kwh_base_zone_3_ht
-  - prix_kwh_base_zone_4_ht_ht
-  - prix_kwh_base_zone_5
-  - prix_kwh_base_zone_6_ht
-  - prix_kwh_b0_zone_1_ht
-  - prix_kwh_b0_zone_2_ht
-  - prix_kwh_b0_zone_3_ht
-  - prix_kwh_b0_zone_4_ht_ht
-  - prix_kwh_b0_zone_5
-  - prix_kwh_b0_zone_6_ht
-  - prix_kwh_b1_zone_1_ht
-  - prix_kwh_b1_zone_2_ht
-  - prix_kwh_b1_zone_3_ht
-  - prix_kwh_b1_zone_4_ht
-  - prix_kwh_b1_zone_5
-  - prix_kwh_b1_zone_6_ht
-  - prix_kwh_b2i_zone_1_ht
-  - prix_kwh_b2i_zone_2_ht
-  - prix_kwh_b2i_zone_3_ht
-  - prix_kwh_b2i_zone_4_ht
-  - prix_kwh_b2i_zone_5
-  - prix_kwh_b2i_zone_6_ht
-  reference:
-    2014-07-01: Arrêté du 30/06/2014
-    2013-07-01: Arrêté du 27/06/2013
-    2013-01-01: Arrêté du 27/06/2013
-    2012-01-01: Arrêté du 22/12/2011
 prix_kwh_base_zone_2_ht:
   description: Prix kWh Base - zone 2 - HT
   values:
@@ -607,3 +576,34 @@ prix_kwh_b2i_zone_6_ht:
     ipp_csv_id: prix_unitaire_gdf_zone6_b2i_ht
     unit: currency-EUR
 documentation: ''
+metadata:
+  order:
+  - prix_kwh_base_zone_1_ht
+  - prix_kwh_base_zone_2_ht
+  - prix_kwh_base_zone_3_ht
+  - prix_kwh_base_zone_4_ht_ht
+  - prix_kwh_base_zone_5
+  - prix_kwh_base_zone_6_ht
+  - prix_kwh_b0_zone_1_ht
+  - prix_kwh_b0_zone_2_ht
+  - prix_kwh_b0_zone_3_ht
+  - prix_kwh_b0_zone_4_ht_ht
+  - prix_kwh_b0_zone_5
+  - prix_kwh_b0_zone_6_ht
+  - prix_kwh_b1_zone_1_ht
+  - prix_kwh_b1_zone_2_ht
+  - prix_kwh_b1_zone_3_ht
+  - prix_kwh_b1_zone_4_ht
+  - prix_kwh_b1_zone_5
+  - prix_kwh_b1_zone_6_ht
+  - prix_kwh_b2i_zone_1_ht
+  - prix_kwh_b2i_zone_2_ht
+  - prix_kwh_b2i_zone_3_ht
+  - prix_kwh_b2i_zone_4_ht
+  - prix_kwh_b2i_zone_5
+  - prix_kwh_b2i_zone_6_ht
+  reference:
+    2014-07-01: Arrêté du 30/06/2014
+    2013-07-01: Arrêté du 27/06/2013
+    2013-01-01: Arrêté du 27/06/2013
+    2012-01-01: Arrêté du 22/12/2011

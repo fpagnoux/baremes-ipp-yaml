@@ -10,19 +10,6 @@ age_limite:
   metadata:
     order:
     - etre_ne_adopte_apres
-metadata:
-  order:
-  - age_limite
-  - age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1
-  - prestation_partagee_education_enfant_prepare_en_bmaf
-  - condition_prepare_majoree
-  - prepare_majoree_en_bmaf
-  reference:
-    2015-01-01: Décret 2014-1708 du 30/12/2014 - art. 1
-  date_parution_jo:
-    2015-01-01: 2014-12-31
-  notes:
-    2015-01-01: Pas de modification pour 2017 cf. DSS/SD2B/2017/97 du 21/03/2017
 age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1:
   description: Age maximal du plus jeune enfant pour bénéficier de la PrePare (en
     année) (1)
@@ -31,15 +18,15 @@ age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1:
     values:
       2015-01-01:
         value: 1.0
-  metadata:
-    order:
-    - enfant
-    - deux_enfants_plus
   deux_enfants_plus:
     description: deux enfants ou plus
     values:
       2015-01-01:
         value: 3.0
+  metadata:
+    order:
+    - enfant
+    - deux_enfants_plus
 prestation_partagee_education_enfant_prepare_en_bmaf:
   description: Prestation partagée d'éducation de l'enfant (PreParE) (en % de la BMAF)
   prestation_partagee_education_enfant_prepare:
@@ -49,11 +36,6 @@ prestation_partagee_education_enfant_prepare_en_bmaf:
         value: 0.9662
     metadata:
       unit: /1
-  metadata:
-    order:
-    - prestation_partagee_education_enfant_prepare
-    - taux_partiel_50
-    - taux_partiel_entre_50_80
   taux_partiel_50:
     description: |-
       Taux partiel
@@ -70,6 +52,11 @@ prestation_partagee_education_enfant_prepare_en_bmaf:
         value: 0.3603
     metadata:
       unit: /1
+  metadata:
+    order:
+    - prestation_partagee_education_enfant_prepare
+    - taux_partiel_50
+    - taux_partiel_entre_50_80
 condition_prepare_majoree:
   description: Condition PreParE majorée
   nombre_enfants_charge_minimum:
@@ -92,6 +79,19 @@ prepare_majoree_en_bmaf:
   metadata:
     order:
     - taux
+metadata:
+  order:
+  - age_limite
+  - age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1
+  - prestation_partagee_education_enfant_prepare_en_bmaf
+  - condition_prepare_majoree
+  - prepare_majoree_en_bmaf
+  reference:
+    2015-01-01: Décret 2014-1708 du 30/12/2014 - art. 1
+  date_parution_jo:
+    2015-01-01: 2014-12-31
+  notes:
+    2015-01-01: Pas de modification pour 2017 cf. DSS/SD2B/2017/97 du 21/03/2017
 documentation: |
   Notes :
   (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants. 

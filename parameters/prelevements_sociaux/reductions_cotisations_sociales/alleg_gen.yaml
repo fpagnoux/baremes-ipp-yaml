@@ -12,11 +12,6 @@ dispositifs_reductions_cotisations_famille_1993_1996:
     metadata:
       ipp_csv_id: tx_csp_exo_fam_1_1
       unit: /1
-  metadata:
-    order:
-    - 0_11_smic
-    - 11_12_smic
-    - 12_13_smic
   11_12_smic:
     description: 1,1-1,2 smic
     values:
@@ -41,31 +36,11 @@ dispositifs_reductions_cotisations_famille_1993_1996:
     metadata:
       ipp_csv_id: tx_csp_exo_fam_1_3
       unit: /1
-metadata:
-  order:
-  - dispositifs_reductions_cotisations_famille_1993_1996
-  - ristournes_juppe_i_ii_iii_1995_2003
-  reference:
-    2003-07-01: Loi 2003-47 du 17/01/2003
-    1998-01-01: Loi 97-1269 du 30/12/1997; Décret 97-1330 du 31/12/1997
-    1996-10-01: Loi 95-1236 du 30/12/1995; Décret 95-835 du 20/09/1996
-    1995-09-01: Loi 95-882 du 04/08/1995; Décrets 95-942 et 95-943 du 25/08/1995
-    1995-01-01: Loi 93-1313 du 20/12/1993, art. 1
-    1994-07-01: Loi 93-1313 du 20/12/1993, art. 1
-    1993-07-01: Loi 93-953 du 27/07/1993, art. 1
-  date_parution_jo:
-    2003-07-01: 2003-01-18
-    1998-01-01: 31/12/1997 ; 03/01/1997
-    1996-10-01: 22/09/1996 ; 22/09/1996
-    1995-09-01: 05/08/1995; 26/08/1995
-    1995-01-01: 1993-12-21
-    1994-07-01: 1993-12-21
-    1993-07-01: 1993-07-28
-  notes:
-    1998-01-01: 'Ristourne Juppé III (plafond : 1,3 SMIC)'
-    1996-10-01: 'Ristourne Juppé II (plafond : 1,33 SMIC)'
-    1995-09-01: 'Ristourne Juppé I (plafond : 1,2 SMIC). Cumulable avec réduction
-      cotisation famille'
+  metadata:
+    order:
+    - 0_11_smic
+    - 11_12_smic
+    - 12_13_smic
 ristournes_juppe_i_ii_iii_1995_2003:
   description: Ristournes Juppé (I, II et III) (1995-2003)
   taux:
@@ -83,11 +58,6 @@ ristournes_juppe_i_ii_iii_1995_2003:
         value: null
     metadata:
       ipp_csv_id: tx_juppe_1_
-  metadata:
-    order:
-    - taux
-    - taux_max_smic
-    - plafond_en_nombre_smic
   taux_max_smic:
     description: Taux max (au SMIC)
     values:
@@ -116,6 +86,36 @@ ristournes_juppe_i_ii_iii_1995_2003:
         value: null
     metadata:
       ipp_csv_id: plaf_juppe
+  metadata:
+    order:
+    - taux
+    - taux_max_smic
+    - plafond_en_nombre_smic
+metadata:
+  order:
+  - dispositifs_reductions_cotisations_famille_1993_1996
+  - ristournes_juppe_i_ii_iii_1995_2003
+  reference:
+    2003-07-01: Loi 2003-47 du 17/01/2003
+    1998-01-01: Loi 97-1269 du 30/12/1997; Décret 97-1330 du 31/12/1997
+    1996-10-01: Loi 95-1236 du 30/12/1995; Décret 95-835 du 20/09/1996
+    1995-09-01: Loi 95-882 du 04/08/1995; Décrets 95-942 et 95-943 du 25/08/1995
+    1995-01-01: Loi 93-1313 du 20/12/1993, art. 1
+    1994-07-01: Loi 93-1313 du 20/12/1993, art. 1
+    1993-07-01: Loi 93-953 du 27/07/1993, art. 1
+  date_parution_jo:
+    2003-07-01: 2003-01-18
+    1998-01-01: 31/12/1997 ; 03/01/1997
+    1996-10-01: 22/09/1996 ; 22/09/1996
+    1995-09-01: 05/08/1995; 26/08/1995
+    1995-01-01: 1993-12-21
+    1994-07-01: 1993-12-21
+    1993-07-01: 1993-07-28
+  notes:
+    1998-01-01: 'Ristourne Juppé III (plafond : 1,3 SMIC)'
+    1996-10-01: 'Ristourne Juppé II (plafond : 1,33 SMIC)'
+    1995-09-01: 'Ristourne Juppé I (plafond : 1,2 SMIC). Cumulable avec réduction
+      cotisation famille'
 documentation: |
   Note :
   Pour les ristournes Juppé, un montant maximal de réduction est fixé par décret. Il correspond à la réduction dont bénéficie un employeur pour un salarié au SMIC à temps plein.

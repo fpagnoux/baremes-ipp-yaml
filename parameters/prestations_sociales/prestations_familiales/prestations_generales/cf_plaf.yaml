@@ -15,11 +15,6 @@ plafond_ressources_revenu_brut_imposable_1:
     metadata:
       ipp_csv_id: plaf_1enf_monoact
       unit: currency-FRF
-  metadata:
-    order:
-    - 1_enfant
-    - enfant_supplementaire
-    - 1_enfant_biactifs_parents_isoles_2
   enfant_supplementaire:
     description: Enfant supplémentaire
     values:
@@ -48,6 +43,25 @@ plafond_ressources_revenu_brut_imposable_1:
     metadata:
       ipp_csv_id: plaf_1enf_biact
       unit: currency-FRF
+  metadata:
+    order:
+    - 1_enfant
+    - enfant_supplementaire
+    - 1_enfant_biactifs_parents_isoles_2
+majoration_plafond_ressources_enfant_supplementaire:
+  description: Majoration du plafond de ressources -enfant supplémentaire
+  values:
+    1986-07-01:
+      value: 0.15133371576079163
+    1983-01-01:
+      value: 0.17009515267324415
+    1978-07-01:
+      value: 0.1701118553020773
+    1978-01-01:
+      value: 0.17011220411927452
+  metadata:
+    ipp_csv_id: plaf_suppenf_biact
+    unit: /1
 metadata:
   order:
   - plafond_ressources_revenu_brut_imposable_1
@@ -64,20 +78,6 @@ metadata:
     1983-01-01: 1982-12-30
     1978-07-01: 1978-07-12
     1978-01-01: 13/07/1977                17/11/1977
-majoration_plafond_ressources_enfant_supplementaire:
-  description: Majoration du plafond de ressources -enfant supplémentaire
-  values:
-    1986-07-01:
-      value: 0.15133371576079163
-    1983-01-01:
-      value: 0.17009515267324415
-    1978-07-01:
-      value: 0.1701118553020773
-    1978-01-01:
-      value: 0.17011220411927452
-  metadata:
-    ipp_csv_id: plaf_suppenf_biact
-    unit: /1
 documentation: |
   Notes :
   (1) Le brut imposable est calculé à partir du net imposable dans le cas de salariés n'ayant d'autres sources de revenus que leurs salaires et ne bénéficiant pas d'un abattement supplémentaire pour frais professionnels, ie abattements de 10% puis de 20% uniquement

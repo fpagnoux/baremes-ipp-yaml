@@ -32,6 +32,43 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
+reductions_impot_depenses_accueil_dans_etablissement_personnes_agees:
+  description: Réductions d'impôt pour dépenses d'accueil dans établissement pour
+    les personnes âgées
+  taux:
+    description: Taux
+    values:
+      1989-01-01:
+        value: 0.25
+      1988-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_hebergante
+      unit: /1
+  plafond:
+    description: Plafond
+    values:
+      2006-01-01:
+        value: 10000.0
+      2003-01-01:
+        value: 3000.0
+      2001-01-01:
+        value: 2300.0
+      2000-01-01:
+        value: 15000.0
+      1989-01-01:
+        value: 13000.0
+      1988-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: plaf_hebergante
+      unit:
+        2001-01-01: currency-EUR
+        1989-01-01: currency-FRF
+  metadata:
+    order:
+    - taux
+    - plafond
 metadata:
   order:
   - date_entree_en_vigueur
@@ -58,43 +95,6 @@ metadata:
       ou pour personnes âgées dépendantes ou dans une section de cure médicale
     1990-01-01: Applicable à partir des revenus 1989 (réductions communes aux art.
       199 quaterdecies et quindecies du CGI)
-reductions_impot_depenses_accueil_dans_etablissement_personnes_agees:
-  description: Réductions d'impôt pour dépenses d'accueil dans établissement pour
-    les personnes âgées
-  taux:
-    description: Taux
-    values:
-      1989-01-01:
-        value: 0.25
-      1988-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_hebergante
-      unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond
-  plafond:
-    description: Plafond
-    values:
-      2006-01-01:
-        value: 10000.0
-      2003-01-01:
-        value: 3000.0
-      2001-01-01:
-        value: 2300.0
-      2000-01-01:
-        value: 15000.0
-      1989-01-01:
-        value: 13000.0
-      1988-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: plaf_hebergante
-      unit:
-        2001-01-01: currency-EUR
-        1989-01-01: currency-FRF
 documentation: |
   Notes :
   (1) Art. 199 quindecies du CGI : Réduction d'impôt accordée au titre de l'hébergement en établissement de long séjour ou en section de cure médicale

@@ -6,11 +6,6 @@ seuil_inferieur:
       value: 2.21
   metadata:
     ipp_csv_id: Seuil de revenu (en part du MTP)
-metadata:
-  order:
-  - seuil_inferieur
-  - seuil_superieur
-  - part_tarif_dependance_gir_1_2_etablissement_accueil
 seuil_superieur:
   description: Seuil supérieur
   values:
@@ -24,3 +19,8 @@ part_tarif_dependance_gir_1_2_etablissement_accueil:
   metadata:
     ipp_csv_id: APA d'urgence
 documentation: ''
+metadata:
+  order:
+  - seuil_inferieur
+  - seuil_superieur
+  - part_tarif_dependance_gir_1_2_etablissement_accueil

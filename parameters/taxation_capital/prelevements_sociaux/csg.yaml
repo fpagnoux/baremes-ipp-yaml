@@ -19,10 +19,6 @@ taux_global_csg:
     metadata:
       ipp_csv_id: tx_csg_rk_patr
       unit: /1
-  metadata:
-    order:
-    - revenus_patrimoine
-    - produits_placement
   produits_placement:
     description: Produits de placement
     values:
@@ -43,6 +39,74 @@ taux_global_csg:
     metadata:
       ipp_csv_id: tx_csg_rk_plac
       unit: /1
+  metadata:
+    order:
+    - revenus_patrimoine
+    - produits_placement
+taux_deductible_csg:
+  description: Taux déductible de CSG
+  revenus_patrimoine_1:
+    description: Revenus du patrimoine (1)
+    values:
+      2018-01-01:
+        value: 0.068
+      2012-01-01:
+        value: 0.051
+      2004-01-01:
+        value: 0.058
+      1997-01-01:
+        value: 0.051
+      1996-01-01:
+        value: 0.01
+      1990-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_csg_ded_rk_patr
+      unit: /1
+  produits_placement_2:
+    description: Produits de placement (2)
+    values:
+      2018-01-01:
+        value: 0.068
+      2012-01-01:
+        value: 0.051
+      2007-01-01:
+        value: 0.058
+      1990-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_csg_ded_rk_plac
+      unit: /1
+  metadata:
+    order:
+    - revenus_patrimoine_1
+    - produits_placement_2
+crds:
+  description: CRDS
+  revenus_patrimoine:
+    description: Revenus du patrimoine
+    values:
+      1996-02-01:
+        value: 0.005
+      1990-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_crds_rk_patr
+      unit: /1
+  produits_placement:
+    description: Produits de placement
+    values:
+      1996-02-01:
+        value: 0.005
+      1990-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_crds_rk_plac
+      unit: /1
+  metadata:
+    order:
+    - revenus_patrimoine
+    - produits_placement
 metadata:
   order:
   - taux_global_csg
@@ -82,70 +146,6 @@ metadata:
   notes:
     2012-01-01: Voir note (3).
     1996-01-01: Crée art. 154 quinquies du CGI
-taux_deductible_csg:
-  description: Taux déductible de CSG
-  revenus_patrimoine_1:
-    description: Revenus du patrimoine (1)
-    values:
-      2018-01-01:
-        value: 0.068
-      2012-01-01:
-        value: 0.051
-      2004-01-01:
-        value: 0.058
-      1997-01-01:
-        value: 0.051
-      1996-01-01:
-        value: 0.01
-      1990-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_csg_ded_rk_patr
-      unit: /1
-  metadata:
-    order:
-    - revenus_patrimoine_1
-    - produits_placement_2
-  produits_placement_2:
-    description: Produits de placement (2)
-    values:
-      2018-01-01:
-        value: 0.068
-      2012-01-01:
-        value: 0.051
-      2007-01-01:
-        value: 0.058
-      1990-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_csg_ded_rk_plac
-      unit: /1
-crds:
-  description: CRDS
-  revenus_patrimoine:
-    description: Revenus du patrimoine
-    values:
-      1996-02-01:
-        value: 0.005
-      1990-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_crds_rk_patr
-      unit: /1
-  metadata:
-    order:
-    - revenus_patrimoine
-    - produits_placement
-  produits_placement:
-    description: Produits de placement
-    values:
-      1996-02-01:
-        value: 0.005
-      1990-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_crds_rk_plac
-      unit: /1
 documentation: |
   Notes:
   En ce qui concerne l'assiette CSG, l'abattement sur l'impôt sur le revenu est appliqué, jusqu'à sa suppression en 1997.

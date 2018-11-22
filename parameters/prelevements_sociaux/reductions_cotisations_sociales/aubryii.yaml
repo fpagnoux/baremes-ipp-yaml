@@ -17,31 +17,6 @@ parametre_1:
     unit:
       2001-07-01: currency-EUR
       2000-02-01: currency-FRF
-metadata:
-  order:
-  - parametre_1
-  - parametre_2
-  - parametre_3
-  - exoneration_annuelle_minimale
-  - majoration_1
-  - marjoration_2
-  reference:
-    2003-07-01: Loi 2003-47 du 17/01/2003
-    2002-07-01: Arrêté du 20/12/2002
-    2001-07-01: Décret 2001-1120 du 26/11/2001
-    2000-07-01: Décret 2001-107 du 5/02/2001
-    2000-02-01: Décret 2000-73 du 28/01/2000
-  date_parution_jo:
-    2003-07-01: 2003-01-18
-    2002-07-01: 2002-12-26
-    2001-07-01: 2001-12-29
-    2000-07-01: 2001-02-07
-    2000-02-01: 2000-01-29
-  notes:
-    2003-07-01: La Loi 2003-47 remplace l'allégement Aubry II par un nouveau dispositif
-      de réduction des cotisations patronales.
-    2000-02-01: Incertitude sur la date d'entrée en vigueur de l'allégement (1er
-      janvier 2000 ?)
 parametre_2:
   description: Paramètre 2
   values:
@@ -132,6 +107,31 @@ marjoration_2:
     unit:
       2001-07-01: currency-EUR
       2000-02-01: currency-FRF
+metadata:
+  order:
+  - parametre_1
+  - parametre_2
+  - parametre_3
+  - exoneration_annuelle_minimale
+  - majoration_1
+  - marjoration_2
+  reference:
+    2003-07-01: Loi 2003-47 du 17/01/2003
+    2002-07-01: Arrêté du 20/12/2002
+    2001-07-01: Décret 2001-1120 du 26/11/2001
+    2000-07-01: Décret 2001-107 du 5/02/2001
+    2000-02-01: Décret 2000-73 du 28/01/2000
+  date_parution_jo:
+    2003-07-01: 2003-01-18
+    2002-07-01: 2002-12-26
+    2001-07-01: 2001-12-29
+    2000-07-01: 2001-02-07
+    2000-02-01: 2000-01-29
+  notes:
+    2003-07-01: La Loi 2003-47 remplace l'allégement Aubry II par un nouveau dispositif
+      de réduction des cotisations patronales.
+    2000-02-01: Incertitude sur la date d'entrée en vigueur de l'allégement (1er
+      janvier 2000 ?)
 documentation: |
   Paramètres et formule :
   Allégement = (Paramètre 1 * Paramètre 2 / Rémunération brute du salarié - Paramètre 3)/12

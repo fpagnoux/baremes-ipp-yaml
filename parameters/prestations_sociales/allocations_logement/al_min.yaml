@@ -19,11 +19,6 @@ montant_minimal_mensuel:
       unit:
         2002-01-01: currency-EUR
         1989-11-12: currency-FRF
-  metadata:
-    order:
-    - apl_al
-    - apl1_foyer
-    - apl2_foyer
   apl1_foyer:
     description: APL1 (foyer)
     values:
@@ -42,6 +37,11 @@ montant_minimal_mensuel:
         value: null
     metadata:
       unit: currency-EUR
+  metadata:
+    order:
+    - apl_al
+    - apl1_foyer
+    - apl2_foyer
 metadata:
   order:
   - montant_minimal_mensuel

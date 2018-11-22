@@ -20,18 +20,6 @@ cotisation_speciale_assurance_maladie:
   metadata:
     order:
     - taux
-metadata:
-  order:
-  - cotisation_speciale_assurance_maladie
-  - participation_retraite_complementaire
-  reference:
-    1993-01-01: Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
-    1990-01-01: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
-    1988-03-01: Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
-  date_parution_jo:
-    1993-01-01: 1993-01-04
-    1990-01-01: 1990-05-15
-    1988-03-01: 1988-02-02
 participation_retraite_complementaire:
   description: Participation retraite complémentaire
   taux:
@@ -52,10 +40,6 @@ participation_retraite_complementaire:
       metadata:
         ipp_csv_id: chom_ret_tx_3_6
         unit: /1
-    metadata:
-      order:
-      - affiliation_3_6_mois
-      - affiliation_6_mois
     affiliation_6_mois:
       description: affiliation > 6 mois
       values:
@@ -72,10 +56,10 @@ participation_retraite_complementaire:
       metadata:
         ipp_csv_id: chom_ret_tx_6_
         unit: /1
-  metadata:
-    order:
-    - taux
-    - assiette_sjr
+    metadata:
+      order:
+      - affiliation_3_6_mois
+      - affiliation_6_mois
   assiette_sjr:
     description: Assiette (% SJR)
     affiliation_3_6_mois:
@@ -90,10 +74,6 @@ participation_retraite_complementaire:
       metadata:
         ipp_csv_id: chom_ret_ass_3_6
         unit: /1
-    metadata:
-      order:
-      - affiliation_3_6_mois
-      - affiliation_6_mois
     affiliation_6_mois:
       description: affiliation > 6 mois
       values:
@@ -106,6 +86,26 @@ participation_retraite_complementaire:
       metadata:
         ipp_csv_id: chom_ret_ass_6_
         unit: /1
+    metadata:
+      order:
+      - affiliation_3_6_mois
+      - affiliation_6_mois
+  metadata:
+    order:
+    - taux
+    - assiette_sjr
+metadata:
+  order:
+  - cotisation_speciale_assurance_maladie
+  - participation_retraite_complementaire
+  reference:
+    1993-01-01: Arrêté du 04/01/1993 portant agrément de la convention du 01/01/1993
+    1990-01-01: Arrêté du 14/05/1990 portant agrément de la convention du 01/01/1990
+    1988-03-01: Arrêté du 30/01/1988 portant agrément de la convention du 30/12/1987
+  date_parution_jo:
+    1993-01-01: 1993-01-04
+    1990-01-01: 1990-05-15
+    1988-03-01: 1988-02-02
 documentation: |
   Note :
   Pour la cotisation d'assurance maladie, l'assiette est égale à l'allocation de base brute. Disparait en décembre 1997.

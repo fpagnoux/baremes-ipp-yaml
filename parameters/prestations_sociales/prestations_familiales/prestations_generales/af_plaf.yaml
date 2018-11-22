@@ -14,6 +14,32 @@ plafond_ressources:
   metadata:
     order:
     - 0_enfant_couples_monoactifs
+majoration_plafond:
+  description: Majoration plafond
+  couples_biactifs_parents_isoles:
+    description: Couples biactifs et parents isolés
+    values:
+      1999-01-01:
+        value: null
+      1998-03-01:
+        value: 60480.0
+    metadata:
+      ipp_csv_id: maj_plaf_af_bi
+      unit: currency-FRF
+  par_enfant_supplementaire:
+    description: par enfant supplémentaire
+    values:
+      1999-01-01:
+        value: null
+      1998-03-01:
+        value: 43200.0
+    metadata:
+      ipp_csv_id: maj_plaf_af_enf
+      unit: currency-FRF
+  metadata:
+    order:
+    - couples_biactifs_parents_isoles
+    - par_enfant_supplementaire
 metadata:
   order:
   - plafond_ressources
@@ -32,32 +58,6 @@ metadata:
     1999-01-01: Suppression de la condition de ressources
     1998-03-01: Création d'une condition de ressources transitoire (avant une réforme
       globale prévue des prestations familiales)
-majoration_plafond:
-  description: Majoration plafond
-  couples_biactifs_parents_isoles:
-    description: Couples biactifs et parents isolés
-    values:
-      1999-01-01:
-        value: null
-      1998-03-01:
-        value: 60480.0
-    metadata:
-      ipp_csv_id: maj_plaf_af_bi
-      unit: currency-FRF
-  metadata:
-    order:
-    - couples_biactifs_parents_isoles
-    - par_enfant_supplementaire
-  par_enfant_supplementaire:
-    description: par enfant supplémentaire
-    values:
-      1999-01-01:
-        value: null
-      1998-03-01:
-        value: 43200.0
-    metadata:
-      ipp_csv_id: maj_plaf_af_enf
-      unit: currency-FRF
 documentation: |
   Notes
   Définition biactifs : cf. feuille "def_biactif" 

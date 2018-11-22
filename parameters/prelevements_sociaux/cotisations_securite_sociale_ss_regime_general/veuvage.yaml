@@ -11,10 +11,6 @@ salaries:
     metadata:
       ipp_csv_id: veuv_s_0_1
       unit: /1
-  metadata:
-    order:
-    - sous_plafond
-    - tout_salaire
   tout_salaire:
     description: Sur tout salaire
     values:
@@ -27,6 +23,10 @@ salaries:
     metadata:
       ipp_csv_id: veuv_s_0_
       unit: /1
+  metadata:
+    order:
+    - sous_plafond
+    - tout_salaire
 metadata:
   order:
   - salaries

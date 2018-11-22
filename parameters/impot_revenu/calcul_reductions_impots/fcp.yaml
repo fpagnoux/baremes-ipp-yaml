@@ -24,14 +24,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - reduction_impot_souscriptions_parts_fcpi_fip
-  reference:
-    2012-01-01: BOI-IR-RICI-110
-  notes:
-    2013-01-01: Concerne les versements jusqu'au 31 décembre 2012 (et non 2013)
 reduction_impot_souscriptions_parts_fcpi_fip:
   description: Réduction d'impôt pour souscriptions de parts de FCPI ou FIP
   taux:
@@ -48,12 +40,6 @@ reduction_impot_souscriptions_parts_fcpi_fip:
     metadata:
       ipp_csv_id: txfcp_1
       unit: /1
-  metadata:
-    order:
-    - taux
-    - taux_corse_fip
-    - plafond_celibataire
-    - plafond_couple_fcpi
   taux_corse_fip:
     description: Taux (Corse - FIP)
     values:
@@ -100,6 +86,20 @@ reduction_impot_souscriptions_parts_fcpi_fip:
       unit:
         2001-01-01: currency-EUR
         1997-01-01: currency-FRF
+  metadata:
+    order:
+    - taux
+    - taux_corse_fip
+    - plafond_celibataire
+    - plafond_couple_fcpi
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - reduction_impot_souscriptions_parts_fcpi_fip
+  reference:
+    2012-01-01: BOI-IR-RICI-110
+  notes:
+    2013-01-01: Concerne les versements jusqu'au 31 décembre 2012 (et non 2013)
 documentation: |
   Notes :
   (1) Souscriptions de parts de fonds communs de placement dans l'innovation (FCPI) ou de fonds d'investissements de proximité (FIP)

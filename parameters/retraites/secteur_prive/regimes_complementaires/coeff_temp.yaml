@@ -6,13 +6,6 @@ coefficient_temporaire_en_fonction_distance_age_taux_plein:
     values:
       2016-01-01:
         value: 0.9
-  metadata:
-    order:
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - '4'
   '1':
     description: '1'
     values:
@@ -33,6 +26,13 @@ coefficient_temporaire_en_fonction_distance_age_taux_plein:
     values:
       2016-01-01:
         value: 1.3
+  metadata:
+    order:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
 metadata:
   order:
   - coefficient_temporaire_en_fonction_distance_age_taux_plein

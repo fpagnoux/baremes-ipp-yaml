@@ -7,65 +7,6 @@ taux1:
   metadata:
     ipp_csv_id: taxsal1
     unit: /1
-metadata:
-  order:
-  - taux1
-  - majoration1
-  - majoration2
-  - majoration_3
-  - taux_guyane
-  - taux_guadeloupe_martinique_reunion
-  - plafond1
-  - plafond2
-  - plafond_3
-  reference:
-    2018-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
-    2017-01-01: BOI-TPS-TS-30 du 01/03/2017
-    2016-01-01: BOI-TPS-TS-30 du 02/03/2016
-    2015-01-01: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
-      de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
-    2014-01-01: BOI-TPS-TS-30 du 25/03/2014 (§160)
-    2013-01-01: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
-      pour 2013)
-    2011-01-01: BOI n°105 du 14/12/2010, 5 L-1-10
-    2010-01-01: BOI n°99 du 18/12/2009, 5 L-3-09
-    2009-01-01: BOI n°5 du 16/01/2009, 5 L-1-09
-    2008-01-01: BOI n°132 du 28/12/2007, 5 L-3-07
-    2007-01-01: BOI n°4 du 11/01/2007, 5 L-1-07
-    2006-01-01: BOI n°6 du 16/01/2006, 5 L-2-06
-    2005-01-01: BOI n°18 du 27/01/2005, 5 L-1-05
-    2004-01-01: BOI n°36 du 24/02/2004, 5 L-2-04
-    2003-01-01: BOI n°30  du 14/02/2003, 5 L-2-03
-    2002-01-01: BOI n°37 du 21/02/2002, 5 L-2-02
-    2001-01-01: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
-    2000-01-01: Loi 99-1172 du 30/12/1999 (LF pour 2000)
-    1999-01-01: Loi 98-1266 du 30/12/1998 (LF pour 1999)
-    1998-01-01: Loi 97-1269 du 30/12/1997 (LF pour 1998)
-    1997-01-01: Loi 96-559 du 24/06/1996
-    1996-01-01: BOI n°8 du 12/01/1996, 5 L-1-96
-    1995-01-01: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
-    1994-01-01: Référence législative manquante
-    1993-01-01: Référence législative manquante
-    1992-01-01: Référence législative manquante
-    1991-01-01: Référence législative manquante
-    1990-01-01: Référence législative manquante
-    1989-01-01: Référence législative manquante
-    1979-01-01: Loi 78-1239 du 29/12/1978 (LF pour 1979)
-    1968-11-01: Loi 68-878 du 09/10/1968
-  date_parution_jo:
-    2018-01-01: 2017-12-30
-    2015-01-01: 2015-06-05
-    2013-01-01: 2013-03-30
-    2001-01-01: 2000-12-31
-    2000-01-01: 1999-12-31
-    1999-01-01: 1998-12-31
-    1998-01-01: 1997-12-31
-    1997-01-01: 1996-06-25
-    1995-01-01: 1993-12-31
-    1979-01-01: 1978-12-30
-    1968-11-01: 1968-10-10
-  notes:
-    2018-01-01: 'BOI non encore paru. Source : calculs du site Legisocial'
 majoration1:
   description: Majoration1
   values:
@@ -266,6 +207,65 @@ plafond_3:
   metadata:
     ipp_csv_id: taxsal_plaf3
     unit: currency-EUR
+metadata:
+  order:
+  - taux1
+  - majoration1
+  - majoration2
+  - majoration_3
+  - taux_guyane
+  - taux_guadeloupe_martinique_reunion
+  - plafond1
+  - plafond2
+  - plafond_3
+  reference:
+    2018-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 90.
+    2017-01-01: BOI-TPS-TS-30 du 01/03/2017
+    2016-01-01: BOI-TPS-TS-30 du 02/03/2016
+    2015-01-01: Décret 2015-606 du 9/06/2015, modifiant Art. 231 du CGI en conséquence
+      de la Loi 2014-1654 du 29/12/2014 (LF pour 2015), art.2-II
+    2014-01-01: BOI-TPS-TS-30 du 25/03/2014 (§160)
+    2013-01-01: Décret 2013-265 du 28/03/2013; Loi 2012-1404 du 17/12/2012 (LFSS
+      pour 2013)
+    2011-01-01: BOI n°105 du 14/12/2010, 5 L-1-10
+    2010-01-01: BOI n°99 du 18/12/2009, 5 L-3-09
+    2009-01-01: BOI n°5 du 16/01/2009, 5 L-1-09
+    2008-01-01: BOI n°132 du 28/12/2007, 5 L-3-07
+    2007-01-01: BOI n°4 du 11/01/2007, 5 L-1-07
+    2006-01-01: BOI n°6 du 16/01/2006, 5 L-2-06
+    2005-01-01: BOI n°18 du 27/01/2005, 5 L-1-05
+    2004-01-01: BOI n°36 du 24/02/2004, 5 L-2-04
+    2003-01-01: BOI n°30  du 14/02/2003, 5 L-2-03
+    2002-01-01: BOI n°37 du 21/02/2002, 5 L-2-02
+    2001-01-01: Loi 2000-1352 du 30/12/2000 (LF pour 2001)
+    2000-01-01: Loi 99-1172 du 30/12/1999 (LF pour 2000)
+    1999-01-01: Loi 98-1266 du 30/12/1998 (LF pour 1999)
+    1998-01-01: Loi 97-1269 du 30/12/1997 (LF pour 1998)
+    1997-01-01: Loi 96-559 du 24/06/1996
+    1996-01-01: BOI n°8 du 12/01/1996, 5 L-1-96
+    1995-01-01: Loi 93-1352 du 30/12/1993, art. 2 (LF pour 1994)
+    1994-01-01: Référence législative manquante
+    1993-01-01: Référence législative manquante
+    1992-01-01: Référence législative manquante
+    1991-01-01: Référence législative manquante
+    1990-01-01: Référence législative manquante
+    1989-01-01: Référence législative manquante
+    1979-01-01: Loi 78-1239 du 29/12/1978 (LF pour 1979)
+    1968-11-01: Loi 68-878 du 09/10/1968
+  date_parution_jo:
+    2018-01-01: 2017-12-30
+    2015-01-01: 2015-06-05
+    2013-01-01: 2013-03-30
+    2001-01-01: 2000-12-31
+    2000-01-01: 1999-12-31
+    1999-01-01: 1998-12-31
+    1998-01-01: 1997-12-31
+    1997-01-01: 1996-06-25
+    1995-01-01: 1993-12-31
+    1979-01-01: 1978-12-30
+    1968-11-01: 1968-10-10
+  notes:
+    2018-01-01: 'BOI non encore paru. Source : calculs du site Legisocial'
 documentation: |
   Notes :
   Le taux applicable entre le plafond 1 et le plafond 2 (resp. entre les plafonds 2 et 3 et au dessus du plafond 3) est égal au (taux 1 + majoration 1) (resp. au (taux 1 + majoration2) et (taux1 + majoration3)), soit 8,50% (resp. 13,60% et 20%).

@@ -23,13 +23,6 @@ cspe:
   metadata:
     ipp_csv_id: cspe
     unit: currency-EUR
-metadata:
-  order:
-  - cspe
-  - cta
-  - ticgn_prix_par_mwh
-  - ctssg_prix_par_mwh
-  - plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh
 cta:
   description: CTA
   values:
@@ -96,6 +89,13 @@ plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh:
   metadata:
     ipp_csv_id: plafond_tcfe
     unit: currency-EUR
+metadata:
+  order:
+  - cspe
+  - cta
+  - ticgn_prix_par_mwh
+  - ctssg_prix_par_mwh
+  - plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh
 documentation: |
   Source :
   http://www.gaznaturel-3frontieres.fr/upload/banque-image/Circulaire%20TICGN%2029%20avril%202014.pdf

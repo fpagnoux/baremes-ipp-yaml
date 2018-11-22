@@ -22,11 +22,6 @@ pret_maximum:
     metadata:
       ipp_csv_id: pret_max_location
       unit: currency-FRF
-  metadata:
-    order:
-    - premiers_frais_location
-    - equipement_mobilier_menager
-    - accession_propriete_logement_neuf_ancien
   equipement_mobilier_menager:
     description: Pour l'équipement mobilier et ménager
     values:
@@ -67,6 +62,31 @@ pret_maximum:
     metadata:
       ipp_csv_id: pret_max_accession
       unit: currency-FRF
+  metadata:
+    order:
+    - premiers_frais_location
+    - equipement_mobilier_menager
+    - accession_propriete_logement_neuf_ancien
+cumul_prets:
+  description: Cumul de prêts
+  values:
+    1982-03-01:
+      value: 10800.0
+    1982-07-01:
+      value: null
+    1980-07-01:
+      value: null
+    1979-07-01:
+      value: 7500.0
+    1978-07-01:
+      value: 8600.0
+    1978-01-01:
+      value: 8300.0
+    1975-01-05:
+      value: 8600.0
+  metadata:
+    ipp_csv_id: cumul_pret
+    unit: currency-FRF
 metadata:
   order:
   - pret_maximum
@@ -92,26 +112,6 @@ metadata:
   notes:
     1985-05-16: Décret 85-526 abroge le décret 76-117.
     1978-01-01: 'Décret 76-117: PJM a 2% du budget total pour les prestations familiales'
-cumul_prets:
-  description: Cumul de prêts
-  values:
-    1982-03-01:
-      value: 10800.0
-    1982-07-01:
-      value: null
-    1980-07-01:
-      value: null
-    1979-07-01:
-      value: 7500.0
-    1978-07-01:
-      value: 8600.0
-    1978-01-01:
-      value: 8300.0
-    1975-01-05:
-      value: 8600.0
-  metadata:
-    ipp_csv_id: cumul_pret
-    unit: currency-FRF
 documentation: |
   Notes : 
   La loi 75-6 du 03/01/1975 crée le Prêt aux Jeunes ménages (codifié par l'art. L543 du CSS), il est ensuite mis en application par le décrêt 76-117 du 03/02/1976 qui est applicble à compter du 1er avril 1975

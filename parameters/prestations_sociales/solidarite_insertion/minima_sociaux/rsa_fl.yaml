@@ -9,11 +9,6 @@ forfait_logement_en_montant_forfaitaire_rsa:
     metadata:
       ipp_csv_id: rsa_rmi_logt1
       unit: /1
-  metadata:
-    order:
-    - 1_personne
-    - 2_personnes
-    - 3_personnes_plus
   2_personnes:
     description: 2 personnes
     values:
@@ -30,6 +25,12 @@ forfait_logement_en_montant_forfaitaire_rsa:
     metadata:
       ipp_csv_id: rsa_rmi_logt3
       unit: /1
+  metadata:
+    order:
+    - 1_personne
+    - 2_personnes
+    - 3_personnes_plus
+documentation: ''
 metadata:
   order:
   - forfait_logement_en_montant_forfaitaire_rsa
@@ -42,4 +43,3 @@ metadata:
     2009-06-01: |-
       Art. R262-9 : pour les propriétaires sans AL et les logés à titre gratuit (on entend par AL les 3 types d'aides au logement).
       Art. R262-10 : pour les bénéficiaires des AL.
-documentation: ''

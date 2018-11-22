@@ -35,6 +35,7 @@ montant_base_rsa:
   metadata:
     ipp_csv_id: brsa
     unit: currency-EUR
+documentation: ''
 metadata:
   order:
   - montant_base_rsa
@@ -70,4 +71,3 @@ metadata:
     2011-01-01: 2011-03-03
     2010-01-01: 2010-01-17
     2009-06-01: 2009-04-16
-documentation: ''

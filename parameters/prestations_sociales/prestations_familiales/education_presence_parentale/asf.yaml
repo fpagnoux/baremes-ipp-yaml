@@ -17,10 +17,6 @@ montant_asf_en_bmaf:
     metadata:
       ipp_csv_id: asf_1parent
       unit: /1
-  metadata:
-    order:
-    - orphelin_assimile_seul_parent
-    - orphelin_assimile_deux_parents
   orphelin_assimile_deux_parents:
     description: Orphelin ou assimilé des deux parents
     values:
@@ -35,6 +31,36 @@ montant_asf_en_bmaf:
     metadata:
       ipp_csv_id: asf_2parents
       unit: /1
+  metadata:
+    order:
+    - orphelin_assimile_seul_parent
+    - orphelin_assimile_deux_parents
+montant_asf_dans_calcul_rsa_ppa_en_bmaf:
+  description: Montant de l'ASF dans le calcul du RSA et de la PPA (en % de la BMAF)
+  orphelin_assimile_seul_parent:
+    description: Orphelin ou assimilé d'un seul parent
+    values:
+      2009-06-01:
+        value: 0.225
+      1970-12-26:
+        value: null
+    metadata:
+      ipp_csv_id: asf_1parent_rsa
+      unit: /1
+  orphelin_assimile_deux_parents:
+    description: Orphelin ou assimilé des deux parents
+    values:
+      2009-06-01:
+        value: 0.3
+      1970-12-26:
+        value: null
+    metadata:
+      ipp_csv_id: asf_2parents_rsa
+      unit: /1
+  metadata:
+    order:
+    - orphelin_assimile_seul_parent
+    - orphelin_assimile_deux_parents
 metadata:
   order:
   - montant_asf_en_bmaf
@@ -74,32 +100,6 @@ metadata:
     1978-01-01: Appelé "Allocation d'orphelin"
     1971-07-01: Appelé "Allocation d'orphelin"
     1970-12-26: Création de l'allocation d'orphelin
-montant_asf_dans_calcul_rsa_ppa_en_bmaf:
-  description: Montant de l'ASF dans le calcul du RSA et de la PPA (en % de la BMAF)
-  orphelin_assimile_seul_parent:
-    description: Orphelin ou assimilé d'un seul parent
-    values:
-      2009-06-01:
-        value: 0.225
-      1970-12-26:
-        value: null
-    metadata:
-      ipp_csv_id: asf_1parent_rsa
-      unit: /1
-  metadata:
-    order:
-    - orphelin_assimile_seul_parent
-    - orphelin_assimile_deux_parents
-  orphelin_assimile_deux_parents:
-    description: Orphelin ou assimilé des deux parents
-    values:
-      2009-06-01:
-        value: 0.3
-      1970-12-26:
-        value: null
-    metadata:
-      ipp_csv_id: asf_2parents_rsa
-      unit: /1
 documentation: |
   Notes : 
   le RSA n'a pas complètement éliminé l'ASF, mais les deux prestations se complètent (les montants sont indiqués pour 2013)

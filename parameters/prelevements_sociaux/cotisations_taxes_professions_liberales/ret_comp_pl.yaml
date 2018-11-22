@@ -15,11 +15,6 @@ agents_generaux_assurance:
       metadata:
         ipp_csv_id: retc_ass_contr_0_
         unit: /1
-    metadata:
-      order:
-      - taux_contractuel
-      - taux_effectif
-      - taux_invalidite_deces
     taux_effectif:
       description: Taux effectif
       values:
@@ -52,9 +47,267 @@ agents_generaux_assurance:
       metadata:
         ipp_csv_id: invald_ass_0_
         unit: /1
+    metadata:
+      order:
+      - taux_contractuel
+      - taux_effectif
+      - taux_invalidite_deces
   metadata:
     order:
     - commissions_remunerations_brutes_dans_limite_plafond
+infirmiers_masseurs_kine_orthophonistes_orthoptistes:
+  description: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
+  commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond:
+    description: Commissions et rémunérations brutes entre un seuil plancher et un
+      seuil plafond
+    retraite_complementaire:
+      description: Retraite complémentaire
+      values:
+        1996-01-01:
+          value: 0.03
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: retc_aux_0_
+        unit: /1
+    metadata:
+      order:
+      - retraite_complementaire
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_auxilliaires_medicaux_conventionnes_asv:
+      description: Régime supplémentaire pour les auxilliaires médicaux conventionnés
+        (ASV)
+      values:
+        2011-01-01:
+          value: 0.004
+        2010-01-01:
+          value: 0.0025
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: asv_aux_0_5
+        unit: /1
+    metadata:
+      order:
+      - regime_supplementaire_auxilliaires_medicaux_conventionnes_asv
+  metadata:
+    order:
+    - commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond
+    - sous_5_pss
+chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
+  description: Chirurgiens-dentistes (+ sages femmes depuis janvier 2009)
+  entre_085_5_pss:
+    description: Entre 0,85 et 5 PSS
+    retraite_complementaire:
+      description: Retraite complémentaire
+      values:
+        2018-01-01:
+          value: 0.1065
+        2017-01-01:
+          value: 0.106
+        2016-01-01:
+          value: 0.105
+        2015-01-01:
+          value: 0.104
+        2014-01-01:
+          value: 0.103
+        2013-01-01:
+          value: 0.102
+        2012-01-01:
+          value: 0.1005
+        2011-01-01:
+          value: 0.1
+        2010-01-01:
+          value: 0.0995
+        2009-01-01:
+          value: 0.099
+        2004-01-01:
+          value: 0.095
+        2002-01-01:
+          value: 0.09
+        2001-01-01:
+          value: 0.083
+        1997-01-01:
+          value: 0.08
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: retc_chird_85_5
+        unit: /1
+    metadata:
+      order:
+      - retraite_complementaire
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_chirurgiens_dentistes_conventionnes:
+      description: Régime supplémentaire pour les chirurgiens dentistes conventionnés
+      values:
+        2018-01-01:
+          value: 0.011
+        2008-01-01:
+          value: 0.0075
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: retc_chird_85_5
+        unit: /1
+    metadata:
+      order:
+      - regime_supplementaire_chirurgiens_dentistes_conventionnes
+  metadata:
+    order:
+    - entre_085_5_pss
+    - sous_5_pss
+medecins:
+  description: Médecins
+  sous_35_pss:
+    description: Sous 3,5 PSS
+    retraite_complementaire:
+      description: Retraite complémentaire
+      values:
+        2018-01-01:
+          value: 0.098
+        2017-01-01:
+          value: 0.097
+        2016-01-01:
+          value: 0.096
+        2015-01-01:
+          value: 0.095
+        2013-01-01:
+          value: 0.093
+        2009-01-01:
+          value: 0.092
+        2000-01-01:
+          value: 0.09
+        1999-01-01:
+          value: 0.087
+        1997-01-01:
+          value: 0.081
+        1996-01-01:
+          value: 0.075
+        1991-01-01:
+          value: 0.05
+        1983-01-01:
+          value: 0.02
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: retc_med_0_35
+        unit: /1
+    metadata:
+      order:
+      - retraite_complementaire
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_obligatoire_medecins_conventionnes_asv:
+      description: Régime supplémentaire obligatoire pour les médecins conventionnés
+        (ASV)
+      values:
+        2018-01-01:
+          value: 0.032
+        2017-01-01:
+          value: 0.028
+        2016-01-01:
+          value: 0.026
+        2015-01-01:
+          value: 0.021
+        2014-01-01:
+          value: 0.015
+        2013-01-01:
+          value: 0.009
+        2012-01-01:
+          value: 0.0025
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: asv_med_0_5
+        unit: /1
+    metadata:
+      order:
+      - regime_supplementaire_obligatoire_medecins_conventionnes_asv
+  metadata:
+    order:
+    - sous_35_pss
+    - sous_5_pss
+pharmaciens:
+  description: Pharmaciens
+  sous_5_pss:
+    description: Sous 5 PSS
+    regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv:
+      description: Régime supplémentaire pour les biologistes médicaux conventionnés
+        uniquement (ASV)
+      values:
+        2008-01-01:
+          value: 0.003
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: asv_bio_0_5
+        unit: /1
+    metadata:
+      order:
+      - regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv
+  metadata:
+    order:
+    - sous_5_pss
+notaires:
+  description: Notaires
+  moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france:
+    description: Moyenne des produits de base de l'office des 3 dernières années,
+      limitée à 3*moyenne générale des produits des offices de France
+    section_allocation_variable:
+      description: Section A (allocation variable)
+      values:
+        2017-01-01:
+          value: 0.0414
+        2005-01-01:
+          value: 0.045
+        1962-01-01:
+          value: 0.025
+        1949-01-01:
+          value: 0.05
+      metadata:
+        ipp_csv_id: retc_not_a_0_
+        unit: /1
+    section_u_allocation_uniforme:
+      description: Section U (allocation uniforme)
+      values:
+        2017-01-01:
+          value: 0.0414
+        2005-01-01:
+          value: 0.045
+        1962-01-01:
+          value: 0.02
+        1949-01-01:
+          value: 0.05
+      metadata:
+        ipp_csv_id: retc_not_u_0_
+        unit: /1
+    colmar_metz:
+      description: Colmar-Metz
+      values:
+        2016-01-01:
+          value: null
+        2015-01-01:
+          value: 0.036
+        1963-01-01:
+          value: 0.04
+        1951-01-01:
+          value: 0.02
+        1949-01-01:
+          value: null
+      metadata:
+        ipp_csv_id: retc_not_cm_0_
+        unit: /1
+    metadata:
+      order:
+      - section_allocation_variable
+      - section_u_allocation_uniforme
+      - colmar_metz
+  metadata:
+    order:
+    - moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france
 metadata:
   order:
   - agents_generaux_assurance
@@ -160,259 +413,6 @@ metadata:
       forfaitaire qui existait déjà pour les médecins
     1951-01-01: Création d'un régime supplémentaire pour les notaires du ressort
       de la Cour d'appel de Colmar
-infirmiers_masseurs_kine_orthophonistes_orthoptistes:
-  description: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
-  commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond:
-    description: Commissions et rémunérations brutes entre un seuil plancher et un
-      seuil plafond
-    retraite_complementaire:
-      description: Retraite complémentaire
-      values:
-        1996-01-01:
-          value: 0.03
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: retc_aux_0_
-        unit: /1
-    metadata:
-      order:
-      - retraite_complementaire
-  metadata:
-    order:
-    - commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond
-    - sous_5_pss
-  sous_5_pss:
-    description: Sous 5 PSS
-    regime_supplementaire_auxilliaires_medicaux_conventionnes_asv:
-      description: Régime supplémentaire pour les auxilliaires médicaux conventionnés
-        (ASV)
-      values:
-        2011-01-01:
-          value: 0.004
-        2010-01-01:
-          value: 0.0025
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: asv_aux_0_5
-        unit: /1
-    metadata:
-      order:
-      - regime_supplementaire_auxilliaires_medicaux_conventionnes_asv
-chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
-  description: Chirurgiens-dentistes (+ sages femmes depuis janvier 2009)
-  entre_085_5_pss:
-    description: Entre 0,85 et 5 PSS
-    retraite_complementaire:
-      description: Retraite complémentaire
-      values:
-        2018-01-01:
-          value: 0.1065
-        2017-01-01:
-          value: 0.106
-        2016-01-01:
-          value: 0.105
-        2015-01-01:
-          value: 0.104
-        2014-01-01:
-          value: 0.103
-        2013-01-01:
-          value: 0.102
-        2012-01-01:
-          value: 0.1005
-        2011-01-01:
-          value: 0.1
-        2010-01-01:
-          value: 0.0995
-        2009-01-01:
-          value: 0.099
-        2004-01-01:
-          value: 0.095
-        2002-01-01:
-          value: 0.09
-        2001-01-01:
-          value: 0.083
-        1997-01-01:
-          value: 0.08
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: retc_chird_85_5
-        unit: /1
-    metadata:
-      order:
-      - retraite_complementaire
-  metadata:
-    order:
-    - entre_085_5_pss
-    - sous_5_pss
-  sous_5_pss:
-    description: Sous 5 PSS
-    regime_supplementaire_chirurgiens_dentistes_conventionnes:
-      description: Régime supplémentaire pour les chirurgiens dentistes conventionnés
-      values:
-        2018-01-01:
-          value: 0.011
-        2008-01-01:
-          value: 0.0075
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: retc_chird_85_5
-        unit: /1
-    metadata:
-      order:
-      - regime_supplementaire_chirurgiens_dentistes_conventionnes
-medecins:
-  description: Médecins
-  sous_35_pss:
-    description: Sous 3,5 PSS
-    retraite_complementaire:
-      description: Retraite complémentaire
-      values:
-        2018-01-01:
-          value: 0.098
-        2017-01-01:
-          value: 0.097
-        2016-01-01:
-          value: 0.096
-        2015-01-01:
-          value: 0.095
-        2013-01-01:
-          value: 0.093
-        2009-01-01:
-          value: 0.092
-        2000-01-01:
-          value: 0.09
-        1999-01-01:
-          value: 0.087
-        1997-01-01:
-          value: 0.081
-        1996-01-01:
-          value: 0.075
-        1991-01-01:
-          value: 0.05
-        1983-01-01:
-          value: 0.02
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: retc_med_0_35
-        unit: /1
-    metadata:
-      order:
-      - retraite_complementaire
-  metadata:
-    order:
-    - sous_35_pss
-    - sous_5_pss
-  sous_5_pss:
-    description: Sous 5 PSS
-    regime_supplementaire_obligatoire_medecins_conventionnes_asv:
-      description: Régime supplémentaire obligatoire pour les médecins conventionnés
-        (ASV)
-      values:
-        2018-01-01:
-          value: 0.032
-        2017-01-01:
-          value: 0.028
-        2016-01-01:
-          value: 0.026
-        2015-01-01:
-          value: 0.021
-        2014-01-01:
-          value: 0.015
-        2013-01-01:
-          value: 0.009
-        2012-01-01:
-          value: 0.0025
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: asv_med_0_5
-        unit: /1
-    metadata:
-      order:
-      - regime_supplementaire_obligatoire_medecins_conventionnes_asv
-pharmaciens:
-  description: Pharmaciens
-  sous_5_pss:
-    description: Sous 5 PSS
-    regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv:
-      description: Régime supplémentaire pour les biologistes médicaux conventionnés
-        uniquement (ASV)
-      values:
-        2008-01-01:
-          value: 0.003
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: asv_bio_0_5
-        unit: /1
-    metadata:
-      order:
-      - regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv
-  metadata:
-    order:
-    - sous_5_pss
-notaires:
-  description: Notaires
-  moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france:
-    description: Moyenne des produits de base de l'office des 3 dernières années,
-      limitée à 3*moyenne générale des produits des offices de France
-    section_allocation_variable:
-      description: Section A (allocation variable)
-      values:
-        2017-01-01:
-          value: 0.0414
-        2005-01-01:
-          value: 0.045
-        1962-01-01:
-          value: 0.025
-        1949-01-01:
-          value: 0.05
-      metadata:
-        ipp_csv_id: retc_not_a_0_
-        unit: /1
-    metadata:
-      order:
-      - section_allocation_variable
-      - section_u_allocation_uniforme
-      - colmar_metz
-    section_u_allocation_uniforme:
-      description: Section U (allocation uniforme)
-      values:
-        2017-01-01:
-          value: 0.0414
-        2005-01-01:
-          value: 0.045
-        1962-01-01:
-          value: 0.02
-        1949-01-01:
-          value: 0.05
-      metadata:
-        ipp_csv_id: retc_not_u_0_
-        unit: /1
-    colmar_metz:
-      description: Colmar-Metz
-      values:
-        2016-01-01:
-          value: null
-        2015-01-01:
-          value: 0.036
-        1963-01-01:
-          value: 0.04
-        1951-01-01:
-          value: 0.02
-        1949-01-01:
-          value: null
-      metadata:
-        ipp_csv_id: retc_not_cm_0_
-        unit: /1
-  metadata:
-    order:
-    - moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france
 documentation: |
   Notes :
   (1) La Caisse nationale d'assurance vieillesse des professions libérales (CNAVPL) comprend 10 sections professionnelles gérant différents régimes:

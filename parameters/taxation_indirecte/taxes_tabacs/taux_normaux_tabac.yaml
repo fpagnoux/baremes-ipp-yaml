@@ -33,14 +33,6 @@ taux_normal:
     metadata:
       ipp_csv_id: tx_cigarettes
       unit: /1
-  metadata:
-    order:
-    - cigarettes
-    - cigares
-    - tabac_rouler
-    - autres_tabacs
-    - tabacs_priser
-    - tabacs_chiquer
   cigares:
     description: Cigares
     values:
@@ -177,6 +169,14 @@ taux_normal:
     metadata:
       ipp_csv_id: tx_tabac_chiquer
       unit: /1
+  metadata:
+    order:
+    - cigarettes
+    - cigares
+    - tabac_rouler
+    - autres_tabacs
+    - tabacs_priser
+    - tabacs_chiquer
 metadata:
   order:
   - taux_normal

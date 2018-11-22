@@ -21,10 +21,6 @@ fp_etat:
       metadata:
         ipp_csv_id: mmid_e_p_0_1
         unit: /1
-    metadata:
-      order:
-      - employeur
-      - agent
     agent:
       description: Agent
       values:
@@ -41,10 +37,10 @@ fp_etat:
       metadata:
         ipp_csv_id: mmid_e_s_0_1
         unit: /1
-  metadata:
-    order:
-    - sous_pss
-    - tout_traitement
+    metadata:
+      order:
+      - employeur
+      - agent
   tout_traitement:
     description: Tout traitement
     employeur:
@@ -63,10 +59,6 @@ fp_etat:
       metadata:
         ipp_csv_id: mmid_e_p_0_
         unit: /1
-    metadata:
-      order:
-      - employeur
-      - agent
     agent:
       description: Agent
       values:
@@ -91,6 +83,14 @@ fp_etat:
       metadata:
         ipp_csv_id: mmid_e_s_0_
         unit: /1
+    metadata:
+      order:
+      - employeur
+      - agent
+  metadata:
+    order:
+    - sous_pss
+    - tout_traitement
 metadata:
   order:
   - fp_etat

@@ -9,23 +9,6 @@ coefficient_minoration_arrco_en_fonction_distance_age_annulation_decote_en_annee
         value: 0.43
       1957-05-15:
         value: null
-  metadata:
-    order:
-    - '-10'
-    - '-9'
-    - '-8'
-    - '-7'
-    - '-6'
-    - '-5'
-    - '-4'
-    - '-3'
-    - '-2'
-    - '-1'
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - '4'
   '-9':
     description: '-9'
     values:
@@ -124,6 +107,23 @@ coefficient_minoration_arrco_en_fonction_distance_age_annulation_decote_en_annee
         value: null
       1957-05-15:
         value: 1.25
+  metadata:
+    order:
+    - '-10'
+    - '-9'
+    - '-8'
+    - '-7'
+    - '-6'
+    - '-5'
+    - '-4'
+    - '-3'
+    - '-2'
+    - '-1'
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
 metadata:
   order:
   - coefficient_minoration_arrco_en_fonction_distance_age_annulation_decote_en_annee

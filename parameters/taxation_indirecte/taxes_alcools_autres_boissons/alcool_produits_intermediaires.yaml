@@ -30,30 +30,6 @@ vins_doux_naturels_vins_liqueurs_aop_mentionnes_aux_articles_417_417_bis_cgi_eur
     unit:
       2002-03-31: currency-EUR
       1993-07-01: currency-FRF
-metadata:
-  order:
-  - vins_doux_naturels_vins_liqueurs_aop_mentionnes_aux_articles_417_417_bis_cgi_eur_hl
-  - autres_produits_intermediaires_eur_hl
-  reference:
-    2018-01-01: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
-    2017-01-01: Arrêté du 27/12/2016 (tarifS accises alcools 2017)
-    2015-06-06: Décret 2015-608 du 03/06/2015
-    2014-05-30: Décret 2014-549 du 26/05/2014
-    2013-01-01: Arrêté du 15/12/2012 - art. 1
-    2012-01-01: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
-    2010-11-21: Arrêté du 12/11/2010 - art. 1
-    2010-05-01: Décret 2010-421 du 27/04/2010
-    2009-04-10: Décret 2009-389 du 07/04/2009
-  date_parution_jo:
-    2018-01-01: 2017-12-27
-    2017-01-01: 2016-12-31
-    2015-06-06: 2015-06-05
-    2014-05-30: 2014-05-29
-    2013-01-01: 2012-12-23
-    2012-01-01: 2011-12-22
-    2010-11-21: 2010-11-20
-    2010-05-01: 2010-04-30
-    2009-04-10: 2009-04-09
 autres_produits_intermediaires_eur_hl:
   description: Autres produits intermédiaires (€/hl)
   values:
@@ -84,6 +60,30 @@ autres_produits_intermediaires_eur_hl:
     unit:
       2002-03-31: currency-EUR
       1993-07-01: currency-FRF
+metadata:
+  order:
+  - vins_doux_naturels_vins_liqueurs_aop_mentionnes_aux_articles_417_417_bis_cgi_eur_hl
+  - autres_produits_intermediaires_eur_hl
+  reference:
+    2018-01-01: Arrêté du 22/12/2017 (tarifs accises alcools 2018)
+    2017-01-01: Arrêté du 27/12/2016 (tarifS accises alcools 2017)
+    2015-06-06: Décret 2015-608 du 03/06/2015
+    2014-05-30: Décret 2014-549 du 26/05/2014
+    2013-01-01: Arrêté du 15/12/2012 - art. 1
+    2012-01-01: Loi 2011-1906 du 21/12/2011 (LFSS pour 2012)
+    2010-11-21: Arrêté du 12/11/2010 - art. 1
+    2010-05-01: Décret 2010-421 du 27/04/2010
+    2009-04-10: Décret 2009-389 du 07/04/2009
+  date_parution_jo:
+    2018-01-01: 2017-12-27
+    2017-01-01: 2016-12-31
+    2015-06-06: 2015-06-05
+    2014-05-30: 2014-05-29
+    2013-01-01: 2012-12-23
+    2012-01-01: 2011-12-22
+    2010-11-21: 2010-11-20
+    2010-05-01: 2010-04-30
+    2009-04-10: 2009-04-09
 documentation: |
   Notes :
   Données renseignées dans l'article 402 bis du code général des impôts

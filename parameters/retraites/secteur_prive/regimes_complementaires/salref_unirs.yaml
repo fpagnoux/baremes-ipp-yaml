@@ -105,12 +105,6 @@ salaire_reference_en_nominal:
   metadata:
     ipp_csv_id: sal_ref_unirs_nom
     unit: currency-FRF
-metadata:
-  order:
-  - salaire_reference_en_nominal
-  - salaire_reference_en_euros
-  notes:
-    1957-01-01: Création de l'Unirs en 1957.
 salaire_reference_en_euros:
   description: Salaire de référence (en euros)
   values:
@@ -215,6 +209,12 @@ salaire_reference_en_euros:
   metadata:
     ipp_csv_id: sal_ref_arrco_euros
     unit: currency-EUR
+metadata:
+  order:
+  - salaire_reference_en_nominal
+  - salaire_reference_en_euros
+  notes:
+    1957-01-01: Création de l'Unirs en 1957.
 documentation: |
   Note :
   L'UNIRS est le plus gros des régimes ARRCO. A partir de 1999, unification du salaire de référence de tous les régimes ARRCO.

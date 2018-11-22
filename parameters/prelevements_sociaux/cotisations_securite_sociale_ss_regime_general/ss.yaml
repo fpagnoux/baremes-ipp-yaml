@@ -19,10 +19,6 @@ salaire_sous_pss:
       metadata:
         ipp_csv_id: css_i65_s_0_1
         unit: /1
-    metadata:
-      order:
-      - moins_65_ans
-      - plus_65_ans
     plus_65_ans:
       description: Plus de 65 ans
       values:
@@ -41,10 +37,10 @@ salaire_sous_pss:
       metadata:
         ipp_csv_id: css_s65_s_0_1
         unit: /1
-  metadata:
-    order:
-    - cotisation_ouvriere
-    - cotisation_patronale
+    metadata:
+      order:
+      - moins_65_ans
+      - plus_65_ans
   cotisation_patronale:
     description: Cotisation patronale
     values:
@@ -71,6 +67,10 @@ salaire_sous_pss:
     metadata:
       ipp_csv_id: css_p_0_1
       unit: /1
+  metadata:
+    order:
+    - cotisation_ouvriere
+    - cotisation_patronale
 metadata:
   order:
   - salaire_sous_pss

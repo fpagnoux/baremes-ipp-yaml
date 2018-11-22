@@ -12,6 +12,67 @@ age_minimal_enfants_pris_en_compte:
       value: 0.0
   metadata:
     ipp_csv_id: cf_enf_agemin
+age_maximal_enfants_pris_en_compte:
+  description: Âge maximal des enfants pris en compte
+  values:
+    2000-02-01:
+      value: 21.0
+    1997-01-01:
+      value: 18.0
+    1986-07-01:
+      value: 17.0
+    1978-01-01:
+      value: 3.0
+  metadata:
+    ipp_csv_id: cf_enf_agemax
+nombre_enfants_minimal:
+  description: Nombre d'enfants minimal
+  values:
+    1997-01-01:
+      value: 3.0
+    1987-01-01:
+      value: null
+    1986-07-01:
+      value: 3.0
+    1978-01-01:
+      value: 1.0
+  metadata:
+    ipp_csv_id: nenf_cf_min
+complement_familial_en_bmaf_en_bmaf:
+  description: |-
+    Complément familial (en % de la BMAF)
+    (en % de la BMAF)
+  montant_base:
+    description: Montant de base
+    values:
+      1983-01-01:
+        value: 0.4165
+      1978-01-01:
+        value: 0.4475
+    metadata:
+      ipp_csv_id: tx_cf
+      unit: /1
+  montant_majore:
+    description: Montant majoré
+    values:
+      2017-04-01:
+        value: 0.5833
+      2016-04-01:
+        value: 0.5416
+      2015-04-01:
+        value: 0.4999
+      2014-04-01:
+        value: 0.4582
+      1978-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_cf_maj
+      unit: /1
+  metadata:
+    order:
+    - montant_base
+    - montant_majore
+documentation: ''
 metadata:
   order:
   - age_minimal_enfants_pris_en_compte
@@ -54,64 +115,3 @@ metadata:
     1978-01-01: |-
       Au moins un enfant de moins de 3 ans ou alors 3+ enfants.
       Le complément familial remplace l'AFG et l'AMF à compter du 01/01/1978
-age_maximal_enfants_pris_en_compte:
-  description: Âge maximal des enfants pris en compte
-  values:
-    2000-02-01:
-      value: 21.0
-    1997-01-01:
-      value: 18.0
-    1986-07-01:
-      value: 17.0
-    1978-01-01:
-      value: 3.0
-  metadata:
-    ipp_csv_id: cf_enf_agemax
-nombre_enfants_minimal:
-  description: Nombre d'enfants minimal
-  values:
-    1997-01-01:
-      value: 3.0
-    1987-01-01:
-      value: null
-    1986-07-01:
-      value: 3.0
-    1978-01-01:
-      value: 1.0
-  metadata:
-    ipp_csv_id: nenf_cf_min
-complement_familial_en_bmaf_en_bmaf:
-  description: |-
-    Complément familial (en % de la BMAF)
-    (en % de la BMAF)
-  montant_base:
-    description: Montant de base
-    values:
-      1983-01-01:
-        value: 0.4165
-      1978-01-01:
-        value: 0.4475
-    metadata:
-      ipp_csv_id: tx_cf
-      unit: /1
-  metadata:
-    order:
-    - montant_base
-    - montant_majore
-  montant_majore:
-    description: Montant majoré
-    values:
-      2017-04-01:
-        value: 0.5833
-      2016-04-01:
-        value: 0.5416
-      2015-04-01:
-        value: 0.4999
-      2014-04-01:
-        value: 0.4582
-      1978-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_cf_maj
-      unit: /1
-documentation: ''

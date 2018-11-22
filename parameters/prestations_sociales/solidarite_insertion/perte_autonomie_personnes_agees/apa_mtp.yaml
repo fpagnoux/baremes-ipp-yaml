@@ -36,6 +36,7 @@ mtp:
       value: 916.31
   metadata:
     unit: currency-EUR
+documentation: ''
 metadata:
   order:
   - mtp
@@ -70,4 +71,3 @@ metadata:
       21/07/2001
       21/11/2001
       29/01/2002
-documentation: ''

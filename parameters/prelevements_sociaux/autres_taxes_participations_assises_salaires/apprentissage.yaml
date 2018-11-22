@@ -15,12 +15,6 @@ employeur_tout_salaire:
     metadata:
       ipp_csv_id: appren_p_0_
       unit: /1
-  metadata:
-    order:
-    - taxe_apprentissage
-    - taxe_apprentissage_alsace_moselle
-    - contribution_developpement_apprentissage
-    - cotisation_supplementaire
   taxe_apprentissage_alsace_moselle:
     description: Taxe d'apprentissage (Alsace-Moselle)
     values:
@@ -65,6 +59,48 @@ employeur_tout_salaire:
     metadata:
       ipp_csv_id: apprensup_p_0_
       unit: /1
+  metadata:
+    order:
+    - taxe_apprentissage
+    - taxe_apprentissage_alsace_moselle
+    - contribution_developpement_apprentissage
+    - cotisation_supplementaire
+entreprises_250_salaries_plus:
+  description: Entreprises de 250 salariés et plus
+  contribution_supplementaire_apprentissage_csa:
+    description: Contribution supplémentaire à l'apprentissage (CSA)
+    values:
+      2011-01-01:
+        value: null
+      2010-01-01:
+        value: 0.001
+      1972-07-01:
+        value: null
+    metadata:
+      ipp_csv_id: apprencsa_p_0_
+      unit: /1
+  metadata:
+    order:
+    - contribution_supplementaire_apprentissage_csa
+cas_entreprises_2000_salaries_alternants_representent_1_effectif_i_i_i:
+  description: Cas des entreprises <2000 salariés où alternants représentent <1% de
+    l'effectif (i i i)
+  contribution_supplementaire_apprentissage_csa:
+    description: Contribution supplémentaire à l'apprentissage (CSA)
+    values:
+      2014-01-01:
+        value: 0.004
+      2012-01-01:
+        value: 0.0025
+      2011-01-01:
+        value: 0.002
+      1972-07-01:
+        value: null
+    metadata:
+      unit: /1
+  metadata:
+    order:
+    - contribution_supplementaire_apprentissage_csa
 metadata:
   order:
   - employeur_tout_salaire
@@ -129,42 +165,6 @@ metadata:
       introuvable sur Légifrance.
     1972-07-01: La Loi 71-578 ramène le taux de la taxe d'apprentissage de 0,60%
       à 0,50%
-entreprises_250_salaries_plus:
-  description: Entreprises de 250 salariés et plus
-  contribution_supplementaire_apprentissage_csa:
-    description: Contribution supplémentaire à l'apprentissage (CSA)
-    values:
-      2011-01-01:
-        value: null
-      2010-01-01:
-        value: 0.001
-      1972-07-01:
-        value: null
-    metadata:
-      ipp_csv_id: apprencsa_p_0_
-      unit: /1
-  metadata:
-    order:
-    - contribution_supplementaire_apprentissage_csa
-cas_entreprises_2000_salaries_alternants_representent_1_effectif_i_i_i:
-  description: Cas des entreprises <2000 salariés où alternants représentent <1% de
-    l'effectif (i i i)
-  contribution_supplementaire_apprentissage_csa:
-    description: Contribution supplémentaire à l'apprentissage (CSA)
-    values:
-      2014-01-01:
-        value: 0.004
-      2012-01-01:
-        value: 0.0025
-      2011-01-01:
-        value: 0.002
-      1972-07-01:
-        value: null
-    metadata:
-      unit: /1
-  metadata:
-    order:
-    - contribution_supplementaire_apprentissage_csa
 documentation: |
   Notes :
   (i) La taxe d'apprentissage est créée par la Loi de finances du 13 juillet 1925.

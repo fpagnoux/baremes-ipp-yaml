@@ -92,18 +92,6 @@ valeur_points_acquis:
     unit:
       2001-01-01: currency-EUR
       1980-01-01: currency-FRF
-metadata:
-  order:
-  - valeur_points_acquis
-  - valeur_points_acquis_avant_1979
-  - valeur_points_acquis_entre_1979_1996
-  - valeur_points_acquis_entre_1997_2012
-  notes:
-    2013-01-01: A partir de 2013, les valeurs des points sont alignées avec le régime
-      complémentaire des commerçants, au sein d'un régime complémentaire des indépendants
-      (RCI)
-    2009-04-01: A partir de 2009, la valeur du point est différenciée selon l'année
-      d'acquisition du points.
 valeur_points_acquis_avant_1979:
   description: Valeur des points acquis avant 1979
   values:
@@ -155,6 +143,18 @@ valeur_points_acquis_entre_1997_2012:
       value: null
   metadata:
     unit: currency-EUR
+metadata:
+  order:
+  - valeur_points_acquis
+  - valeur_points_acquis_avant_1979
+  - valeur_points_acquis_entre_1979_1996
+  - valeur_points_acquis_entre_1997_2012
+  notes:
+    2013-01-01: A partir de 2013, les valeurs des points sont alignées avec le régime
+      complémentaire des commerçants, au sein d'un régime complémentaire des indépendants
+      (RCI)
+    2009-04-01: A partir de 2009, la valeur du point est différenciée selon l'année
+      d'acquisition du points.
 documentation: |
   Sources : 
   Capital.fr

@@ -14,13 +14,6 @@ accord_1:
         value: 9000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_1
-    - annee_2
-    - annee_3
-    - annee_4
-    - annee_5
   annee_2:
     description: Annee 2
     values:
@@ -65,13 +58,13 @@ accord_1:
         value: 5000.0
     metadata:
       unit: currency-FRF
-metadata:
-  order:
-  - accord_1
-  - accord_2
-  - accord_3
-  - accord_4
-  - accord_5
+  metadata:
+    order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
+    - annee_5
 accord_2:
   description: Accord 2
   annee_1:
@@ -87,13 +80,6 @@ accord_2:
         value: 13000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_1
-    - annee_2
-    - annee_3
-    - annee_4
-    - annee_5
   annee_2:
     description: Annee 2
     values:
@@ -138,6 +124,13 @@ accord_2:
         value: 9000.0
     metadata:
       unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
+    - annee_5
 accord_3:
   description: Accord 3
   annee_1:
@@ -149,13 +142,6 @@ accord_3:
         value: 1000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_1
-    - annee_2
-    - annee_3
-    - annee_4
-    - annee_5
   annee_2:
     description: Annee 2
     values:
@@ -192,6 +178,13 @@ accord_3:
         value: 1000.0
     metadata:
       unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
+    - annee_5
 accord_4:
   description: Accord 4
   annee_1:
@@ -203,13 +196,6 @@ accord_4:
         value: 4000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_1
-    - accord2
-    - annee_3
-    - annee_4
-    - annee_5
   accord2:
     description: Accord2
     values:
@@ -246,6 +232,13 @@ accord_4:
         value: 0.0
     metadata:
       unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - accord2
+    - annee_3
+    - annee_4
+    - annee_5
 accord_5:
   description: Accord 5
   annee_1:
@@ -259,13 +252,6 @@ accord_5:
         value: 3000.0
     metadata:
       unit: currency-FRF
-  metadata:
-    order:
-    - annee_1
-    - annee_2
-    - annee_3
-    - annee_4
-    - annee_5
   annee_2:
     description: Annee 2
     values:
@@ -306,6 +292,20 @@ accord_5:
         value: 0.0
     metadata:
       unit: currency-FRF
+  metadata:
+    order:
+    - annee_1
+    - annee_2
+    - annee_3
+    - annee_4
+    - annee_5
+metadata:
+  order:
+  - accord_1
+  - accord_2
+  - accord_3
+  - accord_4
+  - accord_5
 documentation: |
   Notes :
   La date d'effet correspond ici à la date de signature de l'accord de réduction du temps de travail.

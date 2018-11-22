@@ -7,6 +7,7 @@ taux:
   metadata:
     ipp_csv_id: crds
     unit: /1
+documentation: ''
 metadata:
   order:
   - taux
@@ -14,4 +15,3 @@ metadata:
     1996-02-01: Ordonnance 96-50 du 24/01/96, art. 19
   date_parution_jo:
     1996-02-01: 1996-01-25
-documentation: ''

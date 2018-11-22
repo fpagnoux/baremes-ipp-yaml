@@ -44,6 +44,40 @@ montant_mensuel_garantie_ressources_personnes_handicapees:
       value: null
   metadata:
     unit: currency-EUR
+majoration_vie_autonome:
+  description: Majoration pour la vie autonome
+  values:
+    2008-01-01:
+      value: 104.77
+    2007-01-01:
+      value: 103.63
+    2006-01-01:
+      value: 101.8
+    2005-07-01:
+      value: 100.0
+    2002-01-01:
+      value: null
+  metadata:
+    unit: currency-EUR
+montant_mensuel_complement_ressources_aux_adultes_handicapes_1:
+  description: Montant mensuel du complément de ressources aux adultes handicapés
+    (1)
+  values:
+    2006-07-01:
+      value: 179.31
+    2002-01-01:
+      value: null
+  metadata:
+    unit: currency-EUR
+taux_montant_mensuel_complement_aux_adultes_handicape_2:
+  description: Taux du montant mensuel du complément aux adultes handicapé (2)
+  values:
+    2008-09-01:
+      value: null
+    2002-01-01:
+      value: 0.16
+  metadata:
+    unit: /1
 metadata:
   order:
   - montant_mensuel_garantie_ressources_personnes_handicapees
@@ -97,40 +131,6 @@ metadata:
   notes:
     2017-04-01: Depuis 2008 on ajoute 179,31 au montant de base de l'AAH, voir (1)
     2007-01-01: Circulaire DGAS/1C no 2007-42 du 24/01/2007
-majoration_vie_autonome:
-  description: Majoration pour la vie autonome
-  values:
-    2008-01-01:
-      value: 104.77
-    2007-01-01:
-      value: 103.63
-    2006-01-01:
-      value: 101.8
-    2005-07-01:
-      value: 100.0
-    2002-01-01:
-      value: null
-  metadata:
-    unit: currency-EUR
-montant_mensuel_complement_ressources_aux_adultes_handicapes_1:
-  description: Montant mensuel du complément de ressources aux adultes handicapés
-    (1)
-  values:
-    2006-07-01:
-      value: 179.31
-    2002-01-01:
-      value: null
-  metadata:
-    unit: currency-EUR
-taux_montant_mensuel_complement_aux_adultes_handicape_2:
-  description: Taux du montant mensuel du complément aux adultes handicapé (2)
-  values:
-    2008-09-01:
-      value: null
-    2002-01-01:
-      value: 0.16
-  metadata:
-    unit: /1
 documentation: |
   Notes :
   (1) Montant à ajouter à l'aah pour obtenir le montant mensuel de la garantie de ressources pour les personnes handicapées

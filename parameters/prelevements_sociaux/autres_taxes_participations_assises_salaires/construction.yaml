@@ -23,10 +23,6 @@ employeur_tout_salaire:
     metadata:
       ipp_csv_id: cons_p10_0_
       unit: /1
-  metadata:
-    order:
-    - 10_19_salaries
-    - plus_20_salaries
   plus_20_salaries:
     description: Plus de 20 salariés
     values:
@@ -47,6 +43,10 @@ employeur_tout_salaire:
     metadata:
       ipp_csv_id: cons_p20_0_
       unit: /1
+  metadata:
+    order:
+    - 10_19_salaries
+    - plus_20_salaries
 metadata:
   order:
   - employeur_tout_salaire

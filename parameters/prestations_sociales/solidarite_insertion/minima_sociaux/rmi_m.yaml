@@ -59,6 +59,7 @@ montant_base_rmi:
     unit:
       2002-01-01: currency-EUR
       1989-01-01: currency-FRF
+documentation: ''
 metadata:
   order:
   - montant_base_rmi
@@ -118,4 +119,3 @@ metadata:
     1989-01-01: 1988-12-13
   notes:
     2009-06-01: Création du RSA qui remplace le RMI
-documentation: ''

@@ -9,11 +9,6 @@ taux_forfait_logement:
     metadata:
       ipp_csv_id: pa_logt1
       unit: /1
-  metadata:
-    order:
-    - foyer_1_personne
-    - foyer_2_personnes
-    - foyer_3_personnes
   foyer_2_personnes:
     description: Foyer - 2 personnes
     values:
@@ -30,6 +25,11 @@ taux_forfait_logement:
     metadata:
       ipp_csv_id: pa_logt3
       unit: /1
+  metadata:
+    order:
+    - foyer_1_personne
+    - foyer_2_personnes
+    - foyer_3_personnes
 metadata:
   order:
   - taux_forfait_logement

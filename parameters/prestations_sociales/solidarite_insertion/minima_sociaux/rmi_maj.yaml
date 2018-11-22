@@ -11,12 +11,6 @@ majoration_montant_maximal_en_base_rmi:
     metadata:
       ipp_csv_id: rmi_coup
       unit: /1
-  metadata:
-    order:
-    - couples
-    - celibataire_1_enfant
-    - couple_1_enfant_deuxieme_enfant_1
-    - par_enfant_supplementaire
   celibataire_1_enfant:
     description: Célibataire, 1 enfant
     values:
@@ -49,6 +43,26 @@ majoration_montant_maximal_en_base_rmi:
     metadata:
       ipp_csv_id: rmi_enf3
       unit: /1
+  metadata:
+    order:
+    - couples
+    - celibataire_1_enfant
+    - couple_1_enfant_deuxieme_enfant_1
+    - par_enfant_supplementaire
+montant_minimum_verse:
+  description: Montant minimum versé
+  values:
+    2009-06-01:
+      value: null
+    2002-01-01:
+      value: 6.0
+    1988-12-14:
+      value: 40.0
+  metadata:
+    ipp_csv_id: min_rmi
+    unit:
+      2002-01-01: currency-EUR
+      1988-12-14: currency-FRF
 metadata:
   order:
   - majoration_montant_maximal_en_base_rmi
@@ -71,20 +85,6 @@ metadata:
     2009-06-01: Création du RSA qui remplace le RMI
     1990-04-01: Le décret 2004-1136 (art. 4) abroge en 2004 le décret 88-1111 et
       crée l'art. R262-1 du CASF
-montant_minimum_verse:
-  description: Montant minimum versé
-  values:
-    2009-06-01:
-      value: null
-    2002-01-01:
-      value: 6.0
-    1988-12-14:
-      value: 40.0
-  metadata:
-    ipp_csv_id: min_rmi
-    unit:
-      2002-01-01: currency-EUR
-      1988-12-14: currency-FRF
 documentation: |
   Notes :
   (1) Quel que soit le type de ménage.

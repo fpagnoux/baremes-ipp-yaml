@@ -15,10 +15,6 @@ tranche:
     metadata:
       ipp_csv_id: asf_s_0_1
       unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
   employeur:
     description: Employeur
     values:
@@ -33,6 +29,44 @@ tranche:
     metadata:
       ipp_csv_id: asf_p_0_1
       unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
+tranche_b:
+  description: Tranche B
+  salarie:
+    description: Salarié
+    values:
+      2001-04-01:
+        value: null
+      1994-01-01:
+        value: 0.0089
+      1984-04-01:
+        value: 0.008
+      1984-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: asf_s_1_4
+      unit: /1
+  employeur:
+    description: Employeur
+    values:
+      2001-04-01:
+        value: null
+      1994-01-01:
+        value: 0.0129
+      1984-04-01:
+        value: 0.012
+      1984-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: asf_p_1_4
+      unit: /1
+  metadata:
+    order:
+    - salarie
+    - employeur
 metadata:
   order:
   - tranche
@@ -53,40 +87,6 @@ metadata:
     1984-04-01: 1984-04-04
   notes:
     2001-04-01: Le taux AGFF se substitute à l'ASF.
-tranche_b:
-  description: Tranche B
-  salarie:
-    description: Salarié
-    values:
-      2001-04-01:
-        value: null
-      1994-01-01:
-        value: 0.0089
-      1984-04-01:
-        value: 0.008
-      1984-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: asf_s_1_4
-      unit: /1
-  metadata:
-    order:
-    - salarie
-    - employeur
-  employeur:
-    description: Employeur
-    values:
-      2001-04-01:
-        value: null
-      1994-01-01:
-        value: 0.0129
-      1984-04-01:
-        value: 0.012
-      1984-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: asf_p_1_4
-      unit: /1
 documentation: |
   Notes :
   (i) L'Association pour la gestion de la structure financière (ASF) a eu pour mission:

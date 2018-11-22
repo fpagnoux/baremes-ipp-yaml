@@ -10,17 +10,6 @@ taux:
   metadata:
     ipp_csv_id: tehr_tx
     unit: /1
-metadata:
-  order:
-  - taux
-  - seuil
-  - plafond_en_chiffre_affaire_entreprises
-  reference:
-    2015-01-01: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
-    2013-01-01: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
-  date_parution_jo:
-    2015-01-01: 2013-12-30
-    2013-01-01: 2013-12-30
 seuil:
   description: Seuil
   values:
@@ -41,6 +30,17 @@ plafond_en_chiffre_affaire_entreprises:
   metadata:
     ipp_csv_id: tehr_plaf
     unit: /1
+metadata:
+  order:
+  - taux
+  - seuil
+  - plafond_en_chiffre_affaire_entreprises
+  reference:
+    2015-01-01: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+    2013-01-01: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+  date_parution_jo:
+    2015-01-01: 2013-12-30
+    2013-01-01: 2013-12-30
 documentation: |
   Note :
   Cette taxe correspond à la nouvelle version de la "taxe à 75%" proposée par F. Hollande durant la campagne présidentielle.

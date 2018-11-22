@@ -37,6 +37,111 @@ plafond_ressources_0_enfant:
     unit:
       2003-07-01: currency-EUR
       1986-01-01: currency-FRF
+majoration:
+  description: Majoration
+  biactifs_parents_isoles:
+    description: Biactifs et parents isolés
+    values:
+      2018-01-01:
+        value: 8437.0
+      2016-01-01:
+        value: 8420.0
+      2015-01-01:
+        value: 8386.0
+      2014-01-01:
+        value: 8328.0
+      2013-01-01:
+        value: 8173.0
+      2012-01-01:
+        value: 8005.0
+      2011-01-01:
+        value: 7926.0
+      2010-01-01:
+        value: 7918.0
+      2009-01-01:
+        value: 7702.0
+      2007-07-01:
+        value: 7588.0
+      2006-07-01:
+        value: 5969.0
+      2005-07-01:
+        value: 5869.0
+      2004-07-01:
+        value: 5771.0
+      2003-07-01:
+        value: 5663.0
+      1986-01-01:
+        value: 33973.0
+    metadata:
+      ipp_csv_id: maj_plaf_cf_apje_adopt_bi
+      unit:
+        2003-07-01: currency-EUR
+        1986-01-01: currency-FRF
+  1er_2eme_enfants_en_plafond_ressources_avec_0_enfant:
+    description: |-
+      1er et 2ème enfants
+      (en % du plafond de ressources avec 0 enfant)
+    values:
+      1986-01-01:
+        value: 0.25
+    metadata:
+      ipp_csv_id: maj_plaf_cf_apje_adopt_enf1et2
+      unit: /1
+  3eme_enfant_plus_en_plafond_ressources_avec_0_enfant:
+    description: |-
+      3ème enfant et plus
+      (en % du plafond de ressources avec 0 enfant)
+    values:
+      2010-01-01:
+        value: 0.3
+      2009-01-01:
+        value: 0.25
+      1986-01-01:
+        value: 0.3
+    metadata:
+      ipp_csv_id: maj_plaf_cf_apje_adopt_enf3pl
+      unit: /1
+  metadata:
+    order:
+    - biactifs_parents_isoles
+    - 1er_2eme_enfants_en_plafond_ressources_avec_0_enfant
+    - 3eme_enfant_plus_en_plafond_ressources_avec_0_enfant
+plafond_ressources_majoration:
+  description: Plafond de ressources pour majoration
+  plafond_ressources_couple_avec_1_revenu:
+    description: Plafond de ressources - couple avec 1 revenu
+    values:
+      2018-01-01:
+        value: 10494.5
+      2016-01-01:
+        value: 10473.5
+      2015-01-01:
+        value: 10432.0
+      2014-01-01:
+        value: 10360.0
+      1986-01-01:
+        value: null
+    metadata:
+      unit: currency-EUR
+  biactifs_parents_isoles:
+    description: Biactifs et parents isolés
+    values:
+      2018-01-01:
+        value: 4218.5
+      2016-01-01:
+        value: 4210.0
+      2015-01-01:
+        value: 4193.0
+      2014-01-01:
+        value: 4164.0
+      1986-01-01:
+        value: null
+    metadata:
+      unit: currency-EUR
+  metadata:
+    order:
+    - plafond_ressources_couple_avec_1_revenu
+    - biactifs_parents_isoles
 metadata:
   order:
   - plafond_ressources_0_enfant
@@ -88,111 +193,6 @@ metadata:
       => règlementation propre au CF
     1986-01-01: "art. R222-2 : la réglementation des plafonds est la même que pour\
       \ l'APJE"
-majoration:
-  description: Majoration
-  biactifs_parents_isoles:
-    description: Biactifs et parents isolés
-    values:
-      2018-01-01:
-        value: 8437.0
-      2016-01-01:
-        value: 8420.0
-      2015-01-01:
-        value: 8386.0
-      2014-01-01:
-        value: 8328.0
-      2013-01-01:
-        value: 8173.0
-      2012-01-01:
-        value: 8005.0
-      2011-01-01:
-        value: 7926.0
-      2010-01-01:
-        value: 7918.0
-      2009-01-01:
-        value: 7702.0
-      2007-07-01:
-        value: 7588.0
-      2006-07-01:
-        value: 5969.0
-      2005-07-01:
-        value: 5869.0
-      2004-07-01:
-        value: 5771.0
-      2003-07-01:
-        value: 5663.0
-      1986-01-01:
-        value: 33973.0
-    metadata:
-      ipp_csv_id: maj_plaf_cf_apje_adopt_bi
-      unit:
-        2003-07-01: currency-EUR
-        1986-01-01: currency-FRF
-  metadata:
-    order:
-    - biactifs_parents_isoles
-    - 1er_2eme_enfants_en_plafond_ressources_avec_0_enfant
-    - 3eme_enfant_plus_en_plafond_ressources_avec_0_enfant
-  1er_2eme_enfants_en_plafond_ressources_avec_0_enfant:
-    description: |-
-      1er et 2ème enfants
-      (en % du plafond de ressources avec 0 enfant)
-    values:
-      1986-01-01:
-        value: 0.25
-    metadata:
-      ipp_csv_id: maj_plaf_cf_apje_adopt_enf1et2
-      unit: /1
-  3eme_enfant_plus_en_plafond_ressources_avec_0_enfant:
-    description: |-
-      3ème enfant et plus
-      (en % du plafond de ressources avec 0 enfant)
-    values:
-      2010-01-01:
-        value: 0.3
-      2009-01-01:
-        value: 0.25
-      1986-01-01:
-        value: 0.3
-    metadata:
-      ipp_csv_id: maj_plaf_cf_apje_adopt_enf3pl
-      unit: /1
-plafond_ressources_majoration:
-  description: Plafond de ressources pour majoration
-  plafond_ressources_couple_avec_1_revenu:
-    description: Plafond de ressources - couple avec 1 revenu
-    values:
-      2018-01-01:
-        value: 10494.5
-      2016-01-01:
-        value: 10473.5
-      2015-01-01:
-        value: 10432.0
-      2014-01-01:
-        value: 10360.0
-      1986-01-01:
-        value: null
-    metadata:
-      unit: currency-EUR
-  metadata:
-    order:
-    - plafond_ressources_couple_avec_1_revenu
-    - biactifs_parents_isoles
-  biactifs_parents_isoles:
-    description: Biactifs et parents isolés
-    values:
-      2018-01-01:
-        value: 4218.5
-      2016-01-01:
-        value: 4210.0
-      2015-01-01:
-        value: 4193.0
-      2014-01-01:
-        value: 4164.0
-      1986-01-01:
-        value: null
-    metadata:
-      unit: currency-EUR
 documentation: |
   Notes :
   Les articles L522-1 et R522-1 du CSS prévoient la revalorisation des plafonds par Arrêté Ministériel, au rythme de l'évolution des prix hors tabac

@@ -17,6 +17,62 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
+depenses_investissement_forestier:
+  description: Dépenses d'investissement forestier
+  plafond_depenses:
+    description: Plafond de dépenses
+    values:
+      2001-01-01:
+        value: 5700.0
+      2000-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: plaf_foret
+      unit: currency-EUR
+  taux:
+    description: Taux
+    values:
+      2012-01-01:
+        value: 0.18
+      2011-01-01:
+        value: 0.22
+      2001-01-01:
+        value: 0.25
+      2000-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: tx_foret
+      unit: /1
+  metadata:
+    order:
+    - plafond_depenses
+    - taux
+reduction_impot_defense_forets_contre_incendies:
+  description: Réduction d'impôt pour la défense des forêts contre les incendies
+  taux:
+    description: Taux
+    values:
+      2006-01-01:
+        value: 0.5
+      2000-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: taux_incendie
+      unit: /1
+  plafond_depenses:
+    description: Plafond de dépenses
+    values:
+      2006-01-01:
+        value: 1000.0
+      2000-01-01:
+        value: null
+    metadata:
+      ipp_csv_id: plaf_incendie
+      unit: currency-EUR
+  metadata:
+    order:
+    - taux
+    - plafond_depenses
 metadata:
   order:
   - date_entree_en_vigueur
@@ -32,62 +88,6 @@ metadata:
       l'incendie
     2001-01-01: Crée par loi d'orientation sur la forêt n°2001-602 du 9 juillet
       2001 - JOFR 11/07/2001
-depenses_investissement_forestier:
-  description: Dépenses d'investissement forestier
-  plafond_depenses:
-    description: Plafond de dépenses
-    values:
-      2001-01-01:
-        value: 5700.0
-      2000-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: plaf_foret
-      unit: currency-EUR
-  metadata:
-    order:
-    - plafond_depenses
-    - taux
-  taux:
-    description: Taux
-    values:
-      2012-01-01:
-        value: 0.18
-      2011-01-01:
-        value: 0.22
-      2001-01-01:
-        value: 0.25
-      2000-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: tx_foret
-      unit: /1
-reduction_impot_defense_forets_contre_incendies:
-  description: Réduction d'impôt pour la défense des forêts contre les incendies
-  taux:
-    description: Taux
-    values:
-      2006-01-01:
-        value: 0.5
-      2000-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: taux_incendie
-      unit: /1
-  metadata:
-    order:
-    - taux
-    - plafond_depenses
-  plafond_depenses:
-    description: Plafond de dépenses
-    values:
-      2006-01-01:
-        value: 1000.0
-      2000-01-01:
-        value: null
-    metadata:
-      ipp_csv_id: plaf_incendie
-      unit: currency-EUR
 documentation: |
   Notes :
   (1) En 2007, investissements forestiers renommés en investissements et travaux forestiers  

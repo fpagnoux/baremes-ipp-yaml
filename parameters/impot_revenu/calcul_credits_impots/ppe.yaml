@@ -27,70 +27,6 @@ date_entree_en_vigueur:
   metadata:
     order:
     - annee_ir
-metadata:
-  order:
-  - date_entree_en_vigueur
-  - seuil_rfr_etre_eligibilite_ppe
-  - taux_ppe
-  - coefficient_majoration_ppe_temps_partiel
-  - supplements
-  - minimun_ppe
-  reference:
-    2007-01-01:
-    - LF pour 2008
-    - |-
-      BOI 5 B-9-08
-      n°27 DU 03/03/2008
-    2006-01-01:
-    - LF pour 2007
-    - |-
-      BOI 5 B-8-07
-      n°45 DU 27/03/2007
-    2005-01-01:
-    - LF pour 2006
-    - |-
-      BOI 5 B-16-06
-      n°82 DU 17/05/2006
-    2004-01-01:
-    - LF pour 2005
-    - |-
-      BOI 5 B-2-05
-      n°11 DU 17/01/2005
-    2003-01-01:
-    - LF pour 2004
-    - |-
-      BOI 5 B-11-04
-      n°103 DU 22/06/2004
-    2002-01-01:
-    - LF pour 2003
-    - |-
-      BOI 5 B-12-03
-      n°102 DU 06/06/2003
-    2001-01-01:
-    - LF pour 2002 et LFR pour 2001
-    - |-
-      BOI 5 B-12-02
-      n°100 DU 06/06/2002
-    2000-01-01:
-    - Loi n° 2001-458 du 30 mai 2001
-    - |-
-      BOI 5 B-12-01
-      n°114 DU 26/06/2001
-    2016-01-01: Décrets 2015-1709 et 2015-1710 du JO 22/12/2015
-  date_parution_jo:
-    2007-01-01: 2007-12-27
-    2006-01-01: 2006-12-27
-    2005-01-01: 2005-12-31
-    2004-01-01: 2004-12-31
-    2003-01-01: 2003-12-31
-    2002-01-01: 2002-12-31
-    2000-01-01: 2000-12-31
-  notes:
-    2016-01-01: A compter du 1e janvier 2016, la PPE est remplacée par la prime
-      d'activité .
-    2002-01-01: Introduction de la majoration pour temps partiel
-    2000-01-01: Doublement de la prime versée théoriquement en 2001 avec l'instauration
-      d'un complément égal au montant inital de PPE calculé pour l'année 2001.
 seuil_rfr_etre_eligibilite_ppe:
   description: Seuil de RFR pour être éligibilité à la PPE
   personne_seule:
@@ -121,16 +57,6 @@ seuil_rfr_etre_eligibilite_ppe:
       unit:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
-  metadata:
-    order:
-    - personne_seule
-    - couple_marie_pacse
-    - increment_par_demi_part_qf_dela_1_2
-    - revenu_activite_individuel_minimum
-    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_cas_general
-    - revenu_activite_individuel_maximum_cas_general
-    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_couples_mono_revenus
-    - revenu_activite_individuel_maximum_couples_mono_emploi_parents_isoles
   couple_marie_pacse:
     description: Couple marié ou pacsé
     values:
@@ -330,6 +256,16 @@ seuil_rfr_etre_eligibilite_ppe:
       unit:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
+  metadata:
+    order:
+    - personne_seule
+    - couple_marie_pacse
+    - increment_par_demi_part_qf_dela_1_2
+    - revenu_activite_individuel_minimum
+    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_cas_general
+    - revenu_activite_individuel_maximum_cas_general
+    - revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_couples_mono_revenus
+    - revenu_activite_individuel_maximum_couples_mono_emploi_parents_isoles
 taux_ppe:
   description: Taux de la PPE
   phase_in:
@@ -352,11 +288,6 @@ taux_ppe:
     metadata:
       ipp_csv_id: tx_ppe
       unit: /1
-  metadata:
-    order:
-    - phase_in
-    - phase_out_cas_general
-    - phase_out_couples_mono_emploi
   phase_out_cas_general:
     description: |-
       phase-out
@@ -393,6 +324,11 @@ taux_ppe:
     metadata:
       ipp_csv_id: tx_ret_ppe_coup
       unit: /1
+  metadata:
+    order:
+    - phase_in
+    - phase_out_cas_general
+    - phase_out_couples_mono_emploi
 coefficient_majoration_ppe_temps_partiel:
   description: Coefficient de majoration PPE pour temps partiel
   taux_1:
@@ -411,10 +347,6 @@ coefficient_majoration_ppe_temps_partiel:
     metadata:
       ipp_csv_id: maj_ppe_tp
       unit: /1
-  metadata:
-    order:
-    - taux_1
-    - taux_2
   taux_2:
     description: Taux 2
     values:
@@ -431,6 +363,10 @@ coefficient_majoration_ppe_temps_partiel:
     metadata:
       ipp_csv_id: maj_ppe_tpbis
       unit: /1
+  metadata:
+    order:
+    - taux_1
+    - taux_2
 supplements:
   description: Suppléments
   couples_mono_emploi:
@@ -459,10 +395,6 @@ supplements:
       unit:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
-  metadata:
-    order:
-    - couples_mono_emploi
-    - par_personne_charge
   par_personne_charge:
     description: Par personne à charge
     values:
@@ -489,6 +421,10 @@ supplements:
       unit:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
+  metadata:
+    order:
+    - couples_mono_emploi
+    - par_personne_charge
 minimun_ppe:
   description: Minimun de PPE
   montant:
@@ -512,6 +448,70 @@ minimun_ppe:
   metadata:
     order:
     - montant
+metadata:
+  order:
+  - date_entree_en_vigueur
+  - seuil_rfr_etre_eligibilite_ppe
+  - taux_ppe
+  - coefficient_majoration_ppe_temps_partiel
+  - supplements
+  - minimun_ppe
+  reference:
+    2007-01-01:
+    - LF pour 2008
+    - |-
+      BOI 5 B-9-08
+      n°27 DU 03/03/2008
+    2006-01-01:
+    - LF pour 2007
+    - |-
+      BOI 5 B-8-07
+      n°45 DU 27/03/2007
+    2005-01-01:
+    - LF pour 2006
+    - |-
+      BOI 5 B-16-06
+      n°82 DU 17/05/2006
+    2004-01-01:
+    - LF pour 2005
+    - |-
+      BOI 5 B-2-05
+      n°11 DU 17/01/2005
+    2003-01-01:
+    - LF pour 2004
+    - |-
+      BOI 5 B-11-04
+      n°103 DU 22/06/2004
+    2002-01-01:
+    - LF pour 2003
+    - |-
+      BOI 5 B-12-03
+      n°102 DU 06/06/2003
+    2001-01-01:
+    - LF pour 2002 et LFR pour 2001
+    - |-
+      BOI 5 B-12-02
+      n°100 DU 06/06/2002
+    2000-01-01:
+    - Loi n° 2001-458 du 30 mai 2001
+    - |-
+      BOI 5 B-12-01
+      n°114 DU 26/06/2001
+    2016-01-01: Décrets 2015-1709 et 2015-1710 du JO 22/12/2015
+  date_parution_jo:
+    2007-01-01: 2007-12-27
+    2006-01-01: 2006-12-27
+    2005-01-01: 2005-12-31
+    2004-01-01: 2004-12-31
+    2003-01-01: 2003-12-31
+    2002-01-01: 2002-12-31
+    2000-01-01: 2000-12-31
+  notes:
+    2016-01-01: A compter du 1e janvier 2016, la PPE est remplacée par la prime
+      d'activité .
+    2002-01-01: Introduction de la majoration pour temps partiel
+    2000-01-01: Doublement de la prime versée théoriquement en 2001 avec l'instauration
+      d'un complément égal au montant inital de PPE calculé pour l'année 2001.
 documentation: |
   Notes : 
   (1) Art. 200 sexies du CGI

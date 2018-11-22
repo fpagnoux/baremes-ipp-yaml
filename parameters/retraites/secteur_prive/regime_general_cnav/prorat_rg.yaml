@@ -11,18 +11,6 @@ nombre_trimestres_maximal_pris_en_compte_proratisation_par_generation:
         value: 120.0
     metadata:
       ipp_csv_id: nbtrim_base
-  metadata:
-    order:
-    - avant_1944
-    - '1944_01_01_00_00_00'
-    - '1945_01_01_00_00_00'
-    - '1946_01_01_00_00_00'
-    - '1947_01_01_00_00_00'
-    - '1948_01_01_00_00_00'
-    - '1949_01_01_00_00_00'
-    - '1950_01_01_00_00_00'
-    - '1951_01_01_00_00_00'
-    - '1952_01_01_00_00_00'
   '1944_01_01_00_00_00':
     description: '1944-01-01 00:00:00'
     values:
@@ -104,47 +92,18 @@ nombre_trimestres_maximal_pris_en_compte_proratisation_par_generation:
         value: null
     metadata:
       ipp_csv_id: nbtrim_0152
-metadata:
-  order:
-  - nombre_trimestres_maximal_pris_en_compte_proratisation_par_generation
-  - '1953_01_01_00_00_00'
-  - '1955_01_01_00_00_00'
-  - '1958_01_01_00_00_00'
-  - '1961_01_01_00_00_00'
-  - '1964_01_01_00_00_00'
-  - '1967_01_01_00_00_00'
-  - '1970_01_01_00_00_00'
-  - '1973_01_01_00_00_00'
-  reference:
-    2015-01-01: Loi 2017-40 du 20/01/2014, art. 2
-    2013-01-01: Décret 2012-1487 du 27/12/2012
-    2012-01-01: Loi 2010-1330 du 09/11/2010, art. 17
-    2009-01-01: Circulaire CNAV 2008/41 du 25/07/2008
-    2004-01-01: Loi 2003-775 du 21/08/2003. Décret 2004-144 du 13/02/2004, art.
-      2.
-    1972-01-01: Loi 71-1132 du 31/12/1971. Décret 72-78 du 28/01/1972
-    1946-01-01: Ordonnance 45-2454 du 19/10/1945. Décret 45-0179 du 29/12/1945.
-  date_parution_jo:
-    2015-01-01: 2014-01-21
-    2013-01-01: 2012-12-29
-    2012-01-01: 2010-11-10
-    2004-01-01: 2004-02-15
-    1972-01-01: 1972-01-29
-  notes:
-    2015-01-01: Circulaire Cnav 2014-20 du 27/02/2014 d'application de l’art. 2
-      de la loi du 20/01/2014 revient sur cette procédure et définit par une disposition
-      législative, en insérant l’article L. 161-17-3 CSS
-    2013-01-01: Circulaire Cnav 2013-14 du 25/02/2013 pour l'application du décret
-      2012-1487.
-    2012-01-01: Circulaire Cnav 2011/20 du 01/03/2011 transcrivant l'application
-      de l'art. 17 de la loi 2010-1330 du 09/11/2010.
-    2004-01-01: Circulaire Cnav 2004/31 du 01/07/2004 transcrivant la loi 2003-775
-      du 21/08/2003. Fin du parallélisme entre durée d’assurance pour le taux plein
-      et pour la proratisation.
-    1972-01-01: Voir point législatif ci-dessous. Voir également la circulaire n°22/83
-      du 16/02/1983 relative à l'application dans le régime général de la sécurité
-      sociale des ordonnances n° 82-270  du 26/03/1982 et n° 82-290 du 30/03/1982
-      et du décret n°82-628 du 21/07/1982
+  metadata:
+    order:
+    - avant_1944
+    - '1944_01_01_00_00_00'
+    - '1945_01_01_00_00_00'
+    - '1946_01_01_00_00_00'
+    - '1947_01_01_00_00_00'
+    - '1948_01_01_00_00_00'
+    - '1949_01_01_00_00_00'
+    - '1950_01_01_00_00_00'
+    - '1951_01_01_00_00_00'
+    - '1952_01_01_00_00_00'
 '1953_01_01_00_00_00':
   description: '1953-01-01 00:00:00'
   values:
@@ -217,6 +176,47 @@ metadata:
       value: null
   metadata:
     ipp_csv_id: nbtrim_0173
+metadata:
+  order:
+  - nombre_trimestres_maximal_pris_en_compte_proratisation_par_generation
+  - '1953_01_01_00_00_00'
+  - '1955_01_01_00_00_00'
+  - '1958_01_01_00_00_00'
+  - '1961_01_01_00_00_00'
+  - '1964_01_01_00_00_00'
+  - '1967_01_01_00_00_00'
+  - '1970_01_01_00_00_00'
+  - '1973_01_01_00_00_00'
+  reference:
+    2015-01-01: Loi 2017-40 du 20/01/2014, art. 2
+    2013-01-01: Décret 2012-1487 du 27/12/2012
+    2012-01-01: Loi 2010-1330 du 09/11/2010, art. 17
+    2009-01-01: Circulaire CNAV 2008/41 du 25/07/2008
+    2004-01-01: Loi 2003-775 du 21/08/2003. Décret 2004-144 du 13/02/2004, art.
+      2.
+    1972-01-01: Loi 71-1132 du 31/12/1971. Décret 72-78 du 28/01/1972
+    1946-01-01: Ordonnance 45-2454 du 19/10/1945. Décret 45-0179 du 29/12/1945.
+  date_parution_jo:
+    2015-01-01: 2014-01-21
+    2013-01-01: 2012-12-29
+    2012-01-01: 2010-11-10
+    2004-01-01: 2004-02-15
+    1972-01-01: 1972-01-29
+  notes:
+    2015-01-01: Circulaire Cnav 2014-20 du 27/02/2014 d'application de l’art. 2
+      de la loi du 20/01/2014 revient sur cette procédure et définit par une disposition
+      législative, en insérant l’article L. 161-17-3 CSS
+    2013-01-01: Circulaire Cnav 2013-14 du 25/02/2013 pour l'application du décret
+      2012-1487.
+    2012-01-01: Circulaire Cnav 2011/20 du 01/03/2011 transcrivant l'application
+      de l'art. 17 de la loi 2010-1330 du 09/11/2010.
+    2004-01-01: Circulaire Cnav 2004/31 du 01/07/2004 transcrivant la loi 2003-775
+      du 21/08/2003. Fin du parallélisme entre durée d’assurance pour le taux plein
+      et pour la proratisation.
+    1972-01-01: Voir point législatif ci-dessous. Voir également la circulaire n°22/83
+      du 16/02/1983 relative à l'application dans le régime général de la sécurité
+      sociale des ordonnances n° 82-270  du 26/03/1982 et n° 82-290 du 30/03/1982
+      et du décret n°82-628 du 21/07/1982
 documentation: |
   Lecture :
   Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 

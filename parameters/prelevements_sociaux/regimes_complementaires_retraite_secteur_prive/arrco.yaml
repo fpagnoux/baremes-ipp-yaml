@@ -24,32 +24,6 @@ taux_appel:
       value: 1.0
   metadata:
     unit: /1
-metadata:
-  order:
-  - taux_appel
-  - taux_contractuels
-  - taux_effectifs
-  - taux_effectifs_salaries_employeurs
-  reference:
-    2015-01-01: Accord AGIRC-ARRCO du 13/03/2013
-    2014-01-01: Accord AGIRC-ARRCO du 13/03/2013
-    2005-01-01: Accord ARRCO du 25/04/1996, art. 26
-    2004-01-01: Accord ARRCO du 25/04/1996, art. 26
-    2002-01-01: Accord ARRCO du 25/04/1996, art. 26
-    2000-01-01: Accord ARRCO du 25/04/1996, art. 26
-    1999-01-01: Accord ARRCO du 25/04/1996, art. 26
-    1998-01-01: Accord ARRCO du 25/04/1996, art. 26
-    1997-01-01: Accords du 9/02/94 et du 25/04/1996
-    1996-01-01: Accord ARRCO du 10/02/1993
-    1992-01-01: Accords ARRCO du 12/11/86 et du 01/12/89
-    1991-01-01: Accords ARRCO du 12/11/86 et du 01/12/89
-    1988-01-01: Accords ARRCO du 12/11/86
-    1987-01-01: Accords ARRCO du 12/11/86
-    1983-01-01: Lettre-circulaire ARRCO 82-28 du 09/07/82
-    1982-01-01: (pas de référence)
-  notes:
-    1982-01-01: "BSP : \"Le plus souvent, répartition employeur/salarié = 60/40\
-      \ comme à l'UNIRS\""
 taux_contractuels:
   description: Taux contractuels
   tranche_1:
@@ -73,10 +47,6 @@ taux_contractuels:
         value: 0.025
     metadata:
       unit: /1
-  metadata:
-    order:
-    - tranche_1
-    - tranche_2
   tranche_2:
     description: Tranche 2
     entreprises_avant_01_01_1997:
@@ -106,10 +76,6 @@ taux_contractuels:
           value: null
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_avant_01_01_1997
-      - entreprises_apres_01_01_1997
     entreprises_apres_01_01_1997:
       description: Entreprises après 01/01/1997
       values:
@@ -127,6 +93,14 @@ taux_contractuels:
           value: null
       metadata:
         unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1997
+      - entreprises_apres_01_01_1997
+  metadata:
+    order:
+    - tranche_1
+    - tranche_2
 taux_effectifs:
   description: Taux effectifs
   tranche_1:
@@ -168,10 +142,6 @@ taux_effectifs:
         value: 0.025
     metadata:
       unit: /1
-  metadata:
-    order:
-    - tranche_1
-    - tranche_2
   tranche_2:
     description: Tranche 2
     entreprises_avant_01_01_1997:
@@ -201,10 +171,6 @@ taux_effectifs:
           value: null
       metadata:
         unit: /1
-    metadata:
-      order:
-      - entreprises_avant_01_01_1997
-      - entreprises_apres_01_01_1997
     entreprises_apres_01_01_1997:
       description: Entreprises après 01/01/1997
       values:
@@ -222,6 +188,14 @@ taux_effectifs:
           value: null
       metadata:
         unit: /1
+    metadata:
+      order:
+      - entreprises_avant_01_01_1997
+      - entreprises_apres_01_01_1997
+  metadata:
+    order:
+    - tranche_1
+    - tranche_2
 taux_effectifs_salaries_employeurs:
   description: Taux effectifs (salariés/employeurs)
   tranche_1:
@@ -266,10 +240,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: arrco_s_0_1
         unit: /1
-    metadata:
-      order:
-      - salarie
-      - employeur
     employeur:
       description: Employeur
       values:
@@ -310,11 +280,10 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: arrco_p_0_1
         unit: /1
-  metadata:
-    order:
-    - tranche_1
-    - tranche_2_avant_1997
-    - tranche_2_apres_1997
+    metadata:
+      order:
+      - salarie
+      - employeur
   tranche_2_avant_1997:
     description: Tranche 2 (avant 1997)
     salarie:
@@ -365,10 +334,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: arrco_s_1_3
         unit: /1
-    metadata:
-      order:
-      - salarie
-      - employeur
     employeur:
       description: Employeur
       values:
@@ -417,6 +382,10 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: arrco_p_1_3
         unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
   tranche_2_apres_1997:
     description: Tranche 2 (après 1997)
     salarie:
@@ -435,10 +404,6 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: arrco_ap97_s_1_3
         unit: /1
-    metadata:
-      order:
-      - salarie
-      - employeur
     employeur:
       description: Employeur
       values:
@@ -455,6 +420,41 @@ taux_effectifs_salaries_employeurs:
       metadata:
         ipp_csv_id: arrco_ap97_p_1_3
         unit: /1
+    metadata:
+      order:
+      - salarie
+      - employeur
+  metadata:
+    order:
+    - tranche_1
+    - tranche_2_avant_1997
+    - tranche_2_apres_1997
+metadata:
+  order:
+  - taux_appel
+  - taux_contractuels
+  - taux_effectifs
+  - taux_effectifs_salaries_employeurs
+  reference:
+    2015-01-01: Accord AGIRC-ARRCO du 13/03/2013
+    2014-01-01: Accord AGIRC-ARRCO du 13/03/2013
+    2005-01-01: Accord ARRCO du 25/04/1996, art. 26
+    2004-01-01: Accord ARRCO du 25/04/1996, art. 26
+    2002-01-01: Accord ARRCO du 25/04/1996, art. 26
+    2000-01-01: Accord ARRCO du 25/04/1996, art. 26
+    1999-01-01: Accord ARRCO du 25/04/1996, art. 26
+    1998-01-01: Accord ARRCO du 25/04/1996, art. 26
+    1997-01-01: Accords du 9/02/94 et du 25/04/1996
+    1996-01-01: Accord ARRCO du 10/02/1993
+    1992-01-01: Accords ARRCO du 12/11/86 et du 01/12/89
+    1991-01-01: Accords ARRCO du 12/11/86 et du 01/12/89
+    1988-01-01: Accords ARRCO du 12/11/86
+    1987-01-01: Accords ARRCO du 12/11/86
+    1983-01-01: Lettre-circulaire ARRCO 82-28 du 09/07/82
+    1982-01-01: (pas de référence)
+  notes:
+    1982-01-01: "BSP : \"Le plus souvent, répartition employeur/salarié = 60/40\
+      \ comme à l'UNIRS\""
 documentation: |
   Notes :
   Tranche 1: Sous PSS

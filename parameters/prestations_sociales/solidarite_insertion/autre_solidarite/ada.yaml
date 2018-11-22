@@ -6,6 +6,24 @@ montant_journalier_une_personne:
       value: 6.8
   metadata:
     unit: currency-EUR
+majoration_par_personne_supplementaire_maximum_10_par_famille:
+  description: Majoration par personne supplémentaire (maximum 10 par famille)
+  values:
+    2015-11-01:
+      value: 3.4
+  metadata:
+    unit: currency-EUR
+supplement_si_non_heberge_dans_centres_accueil_hebergement_urgence:
+  description: Supplément si non-hébergé dans centres d'accueil ou hébergement d'urgence
+  values:
+    2017-05-01:
+      value: 7.4
+    2017-04-01:
+      value: 5.4
+    2015-11-01:
+      value: 4.2
+  metadata:
+    unit: currency-EUR
 metadata:
   order:
   - montant_journalier_une_personne
@@ -26,24 +44,6 @@ metadata:
     2017-04-01: Décision du Conseil d'Etat du 23/12/2016 d'annuler partiellement
       le montant de l'ADA (concernant le supplément si non-hébergé qui est insuffisant)
       et enjoint au Premier Ministre de fixer un nouveau montant
-majoration_par_personne_supplementaire_maximum_10_par_famille:
-  description: Majoration par personne supplémentaire (maximum 10 par famille)
-  values:
-    2015-11-01:
-      value: 3.4
-  metadata:
-    unit: currency-EUR
-supplement_si_non_heberge_dans_centres_accueil_hebergement_urgence:
-  description: Supplément si non-hébergé dans centres d'accueil ou hébergement d'urgence
-  values:
-    2017-05-01:
-      value: 7.4
-    2017-04-01:
-      value: 5.4
-    2015-11-01:
-      value: 4.2
-  metadata:
-    unit: currency-EUR
 documentation: |
   Loi du 29/07/2015, art. 23
   2015-07-30

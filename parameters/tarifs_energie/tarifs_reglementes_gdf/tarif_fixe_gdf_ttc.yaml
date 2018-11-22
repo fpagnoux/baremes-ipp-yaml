@@ -73,12 +73,6 @@ base_0_1000:
   metadata:
     ipp_csv_id: tarif_fixe_gdf_base_ttc
     unit: currency-EUR
-metadata:
-  order:
-  - base_0_1000
-  - b0_1000_6000
-  - b1_6_30000
-  - b2i_30000
 b0_1000_6000:
   description: B0 (1000-6000)
   values:
@@ -291,4 +285,10 @@ b2i_30000:
   metadata:
     ipp_csv_id: tarif_fixe_gdf_b2i_ttc
     unit: currency-EUR
+metadata:
+  order:
+  - base_0_1000
+  - b0_1000_6000
+  - b1_6_30000
+  - b2i_30000
 documentation: "Source : base Pégase, prix pour un ménage, en euros TTC, données annuelles\n"
