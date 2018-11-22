@@ -4,9 +4,9 @@ duree_indemnisation_taux_plein_en_mois:
   duree_affiliation_4_mois_cours_8_derniers_mois:
     description: durée d'affiliation de 4 mois au cours des 8 derniers mois
     values:
-      '1997-01-01':
+      1997-01-01:
         value: 4.0
-      '1993-01-01':
+      1993-01-01:
         value: null
   metadata:
     order:
@@ -20,7 +20,7 @@ duree_indemnisation_taux_plein_en_mois:
     moins_50_ans:
       description: moins de 50 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 4.0
     metadata:
       order:
@@ -29,14 +29,14 @@ duree_indemnisation_taux_plein_en_mois:
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 4.0
   duree_affiliation_8_mois_cours_12_derniers_mois:
     description: durée d'affiliation de 8 mois au cours des 12 derniers mois
     moins_50_ans:
       description: moins de 50 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 4.0
     metadata:
       order:
@@ -45,20 +45,20 @@ duree_indemnisation_taux_plein_en_mois:
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-08-01':
+        1993-08-01:
           value: 7.0
-        '1993-01-01':
+        1993-01-01:
           value: 8.0
   duree_affiliation_14_mois_cours_24_derniers_mois:
     description: durée d'affiliation de 14 mois au cours des 24 derniers mois
     moins_25_ans:
       description: moins de 25 ans
       values:
-        '1997-01-01':
+        1997-01-01:
           value: 9.0
-        '1993-08-01':
+        1993-08-01:
           value: 7.0
-        '1993-01-01':
+        1993-01-01:
           value: 9.0
     metadata:
       order:
@@ -68,23 +68,23 @@ duree_indemnisation_taux_plein_en_mois:
     entre_25_50_ans:
       description: entre 25 et 50 ans
       values:
-        '1993-08-01':
+        1993-08-01:
           value: 9.0
-        '1993-01-01':
+        1993-01-01:
           value: 12.0
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-08-01':
+        1993-08-01:
           value: 15.0
-        '1993-01-01':
+        1993-01-01:
           value: 17.0
   duree_affiliation_27_mois_cours_36_derniers_mois:
     description: durée d'affiliation de 27 mois au cours des 36 derniers mois
     50_55_ans:
       description: 50-55 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 20.0
     metadata:
       order:
@@ -93,7 +93,7 @@ duree_indemnisation_taux_plein_en_mois:
     55_ans_plus:
       description: 55 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 27.0
 metadata:
   order:
@@ -102,26 +102,26 @@ metadata:
   - duree_totale_en_mois
   - coefficient_degressivite
   reference:
-    '1997-01-01': Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
-    '1993-08-01': Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la convention
+    1997-01-01: Arrêt du 18/02/1997 portant agrément de la convention du 01/01/1997
+    1993-08-01: Arrêté du 19/08/1993 portant agrément de l'avenant n° 3 à la convention
       du 01/01/1983 relative à l'assurance chômage et de l'avenant n° 3 au règlement
       annexé à cette convention
-    '1993-01-01': Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
+    1993-01-01: Arrêté du 17/08/1992 portant agrément de l'avenant n°2 du 24/07/1992
       à la convention du 01/01/1990 et de l'avenant n°10 du 24/07/1992 au règlement
       annexé à cette convention + Arrêt du 04/01/1993 portant agrément de la convention
       du 01/01/1993
   date_parution_jo:
-    '1997-01-01': 20/03/1997
-    '1993-08-01': 20/08/1993
-    '1993-01-01': 18/08/1992; 04/01/1993
+    1997-01-01: 20/03/1997
+    1993-08-01: 20/08/1993
+    1993-01-01: 18/08/1992; 04/01/1993
 duree_indemnisation_taux_degressif_en_mois:
   description: Durée d'indemnisation au taux dégressif (en mois)
   duree_affiliation_4_mois_cours_8_derniers_mois:
     description: durée d'affiliation de 4 mois au cours des 8 derniers mois
     values:
-      '1997-01-01':
+      1997-01-01:
         value: null
-      '1993-01-01':
+      1993-01-01:
         value: 4.0
   metadata:
     order:
@@ -135,7 +135,7 @@ duree_indemnisation_taux_degressif_en_mois:
     moins_50_ans:
       description: moins de 50 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 3.0
     metadata:
       order:
@@ -144,16 +144,16 @@ duree_indemnisation_taux_degressif_en_mois:
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 3.0
   duree_affiliation_8_mois_cours_12_derniers_mois:
     description: durée d'affiliation de 8 mois au cours des 12 derniers mois
     moins_50_ans:
       description: moins de 50 ans
       values:
-        '1993-08-01':
+        1993-08-01:
           value: 11.0
-        '1993-01-01':
+        1993-01-01:
           value: 10.0
     metadata:
       order:
@@ -162,20 +162,20 @@ duree_indemnisation_taux_degressif_en_mois:
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-08-01':
+        1993-08-01:
           value: 14.0
-        '1993-01-01':
+        1993-01-01:
           value: 13.0
   duree_affiliation_14_mois_cours_24_derniers_mois:
     description: durée d'affiliation de 14 mois au cours des 24 derniers mois
     moins_25_ans:
       description: moins de 25 ans
       values:
-        '1997-01-01':
+        1997-01-01:
           value: 21.0
-        '1993-08-01':
+        1993-08-01:
           value: 23.0
-        '1993-01-01':
+        1993-01-01:
           value: 21.0
     metadata:
       order:
@@ -185,23 +185,23 @@ duree_indemnisation_taux_degressif_en_mois:
     entre_25_50_ans:
       description: entre 25 et 50 ans
       values:
-        '1993-08-01':
+        1993-08-01:
           value: 21.0
-        '1993-01-01':
+        1993-01-01:
           value: 18.0
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-08-01':
+        1993-08-01:
           value: 30.0
-        '1993-01-01':
+        1993-01-01:
           value: 28.0
   duree_affiliation_27_mois_cours_36_derniers_mois:
     description: durée d'affiliation de 27 mois au cours des 36 derniers mois
     50_55_ans:
       description: 50-55 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 25.0
     metadata:
       order:
@@ -210,14 +210,14 @@ duree_indemnisation_taux_degressif_en_mois:
     55_ans_plus:
       description: 55 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 33.0
 duree_totale_en_mois:
   description: Durée totale (en mois)
   duree_affiliation_4_mois_cours_8_derniers_mois:
     description: durée d'affiliation de 4 mois au cours des 8 derniers mois
     values:
-      '1993-01-01':
+      1993-01-01:
         value: 4.0
   metadata:
     order:
@@ -229,14 +229,14 @@ duree_totale_en_mois:
   duree_affiliation_6_mois_cours_12_derniers_mois:
     description: durée d'affiliation de 6 mois au cours des 12 derniers mois
     values:
-      '1993-01-01':
+      1993-01-01:
         value: 7.0
   duree_affiliation_8_mois_cours_12_derniers_mois:
     description: durée d'affiliation de 8 mois au cours des 12 derniers mois
     moins_50_ans:
       description: moins de 50 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 15.0
     metadata:
       order:
@@ -245,14 +245,14 @@ duree_totale_en_mois:
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 21.0
   duree_affiliation_14_mois_cours_24_derniers_mois:
     description: durée d'affiliation de 14 mois au cours des 24 derniers mois
     moins_25_ans:
       description: moins de 25 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 30.0
     metadata:
       order:
@@ -262,19 +262,19 @@ duree_totale_en_mois:
     entre_25_50_ans:
       description: entre 25 et 50 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 30.0
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 45.0
   duree_affiliation_27_mois_cours_36_derniers_mois:
     description: durée d'affiliation de 27 mois au cours des 36 derniers mois
     50_55_ans:
       description: 50-55 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 45.0
     metadata:
       order:
@@ -283,16 +283,16 @@ duree_totale_en_mois:
     55_ans_plus:
       description: 55 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 60.0
 coefficient_degressivite:
   description: Coefficient de degressivité
   duree_affiliation_4_mois_cours_8_derniers_mois:
     description: durée d'affiliation de 4 mois au cours des 8 derniers mois
     values:
-      '1997-01-01':
+      1997-01-01:
         value: 1.0
-      '1993-01-01':
+      1993-01-01:
         value: 0.75
   metadata:
     order:
@@ -304,14 +304,14 @@ coefficient_degressivite:
   duree_affiliation_6_mois_cours_12_derniers_mois:
     description: durée d'affiliation de 6 mois au cours des 12 derniers mois
     values:
-      '1993-01-01':
+      1993-01-01:
         value: 0.85
   duree_affiliation_8_mois_cours_12_derniers_mois:
     description: durée d'affiliation de 8 mois au cours des 12 derniers mois
     moins_50_ans:
       description: moins de 50 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 0.83
     metadata:
       order:
@@ -320,14 +320,14 @@ coefficient_degressivite:
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 0.85
   duree_affiliation_14_mois_cours_24_derniers_mois:
     description: durée d'affiliation de 14 mois au cours des 24 derniers mois
     moins_25_ans:
       description: moins de 25 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 0.83
     metadata:
       order:
@@ -337,19 +337,19 @@ coefficient_degressivite:
     entre_25_50_ans:
       description: entre 25 et 50 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 0.83
     50_ans_plus:
       description: 50 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 0.85
   duree_affiliation_27_mois_cours_36_derniers_mois:
     description: durée d'affiliation de 27 mois au cours des 36 derniers mois
     50_55_ans:
       description: 50-55 ans
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 0.85
     metadata:
       order:
@@ -358,7 +358,7 @@ coefficient_degressivite:
     55_ans_plus:
       description: 55 ans et plus
       values:
-        '1993-01-01':
+        1993-01-01:
           value: 0.92
 documentation: |
   Notes:

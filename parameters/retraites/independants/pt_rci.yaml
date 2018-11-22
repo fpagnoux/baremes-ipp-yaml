@@ -2,11 +2,11 @@ description: 'Régime complémentaire des indépendants : valeur de service du p
 valeur_point_rci_date:
   description: Valeur du point RCI à date
   values:
-    '2017-10-01':
+    2017-10-01:
       value: 1.187
-    '2015-10-01':
+    2015-10-01:
       value: 1.178
-    '2013-04-01':
+    2013-04-01:
       value: 1.177
   metadata:
     unit: currency-EUR
@@ -16,7 +16,7 @@ metadata:
   - regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013
   - regime_complementaire_commercants_points_acquis_avant_creation_rci_en_2013
   notes:
-    '2013-04-01': "A partir du 1er janvier 2013, les artisans et commerçants bénéficient\
+    2013-04-01: "A partir du 1er janvier 2013, les artisans et commerçants bénéficient\
       \ d'un régime complémentaire unique commun : le Régime Complémentaire des Indépendants\
       \ (RCI)."
 regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013:
@@ -26,9 +26,9 @@ regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013:
   valeur_points_acquis_avant_1979:
     description: Valeur des points acquis avant 1979
     values:
-      '2017-10-01':
+      2017-10-01:
         value: 1.111
-      '2013-04-01':
+      2013-04-01:
         value: 1.107
     metadata:
       unit: currency-EUR
@@ -40,18 +40,18 @@ regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013:
   valeur_points_acquis_entre_1979_1996:
     description: Valeur des points acquis entre 1979 et 1996
     values:
-      '2017-10-01':
+      2017-10-01:
         value: 1.13
-      '2013-04-01':
+      2013-04-01:
         value: 1.124
     metadata:
       unit: currency-EUR
   valeur_points_acquis_entre_1997_2012:
     description: Valeur des points acquis entre 1997 et 2012
     values:
-      '2017-10-01':
+      2017-10-01:
         value: 1.187
-      '2013-04-01':
+      2013-04-01:
         value: 1.177
     metadata:
       unit: currency-EUR
@@ -62,9 +62,9 @@ regime_complementaire_commercants_points_acquis_avant_creation_rci_en_2013:
   valeur_points_acquis_entre_1973_2003:
     description: Valeur des points acquis entre 1973 et 2003
     values:
-      '2017-10-01':
+      2017-10-01:
         value: 1.187
-      '2013-04-01':
+      2013-04-01:
         value: 1.177
     metadata:
       unit: currency-EUR
@@ -75,14 +75,14 @@ regime_complementaire_commercants_points_acquis_avant_creation_rci_en_2013:
   valeur_points_acquis_entre_2004_2012:
     description: Valeur des points acquis entre 2004 et 2012
     values:
-      '2017-10-01':
+      2017-10-01:
         value: 1.187
-      '2013-04-01':
+      2013-04-01:
         value: 1.177
     metadata:
       unit:
-        '2015-10-01': currency-EUR
-        '2013-04-01': null
+        2015-10-01: currency-EUR
+        2013-04-01: null
 documentation: |
   Sources : 
   rsi.fr

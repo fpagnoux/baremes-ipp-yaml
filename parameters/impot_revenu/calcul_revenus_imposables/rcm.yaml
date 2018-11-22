@@ -4,25 +4,25 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2012-01-01':
+      2012-01-01:
         value: 2013.0
-      '2010-01-01':
+      2010-01-01:
         value: 2011.0
-      '2006-01-01':
+      2006-01-01:
         value: 2010.0
-      '2004-01-01':
+      2004-01-01:
         value: 2005.0
-      '2001-01-01':
+      2001-01-01:
         value: 2002.0
-      '1997-01-01':
+      1997-01-01:
         value: 1998.0
-      '1988-01-01':
+      1988-01-01:
         value: 1989.0
-      '1984-01-01':
+      1984-01-01:
         value: 1985.0
-      '1979-01-01':
+      1979-01-01:
         value: 1980.0
-      '1978-01-01':
+      1978-01-01:
         value: 1979.0
   metadata:
     order:
@@ -33,35 +33,35 @@ metadata:
   - produits_assurances_vies_assimiles
   - revenus_capitaux_mobiliers_dividendes
   reference:
-    '2012-01-01': LF pour 2013
-    '2010-01-01': LF pour 2011
-    '2004-01-01': LF pour 2005
-    '2001-01-01': LF pour 2002
-    '1997-01-01': LF pour 1998
-    '1988-01-01': LF pour 1989
-    '1984-01-01': LF pour 1985
-    '1979-01-01': LF pour 1980
+    2012-01-01: LF pour 2013
+    2010-01-01: LF pour 2011
+    2004-01-01: LF pour 2005
+    2001-01-01: LF pour 2002
+    1997-01-01: LF pour 1998
+    1988-01-01: LF pour 1989
+    1984-01-01: LF pour 1985
+    1979-01-01: LF pour 1980
   notes:
-    '2010-01-01': Suppression plafond du crédit d'impôt sur dividendes
-    '2004-01-01': Voir art. 200 septies du CGI
-    '1997-01-01': 'Abattement forfaitaire sur dividendes  : art. 158-5 du CGI (à doubler
+    2010-01-01: Suppression plafond du crédit d'impôt sur dividendes
+    2004-01-01: Voir art. 200 septies du CGI
+    1997-01-01: 'Abattement forfaitaire sur dividendes  : art. 158-5 du CGI (à doubler
       pour les couples)'
 produits_assurances_vies_assimiles:
   description: Produits des assurances-vies et assimilés
   abattement:
     description: Abattement
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 4600.0
-      '1997-01-01':
+      1997-01-01:
         value: 30000.0
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: abt_av
       unit:
-        '2001-01-01': currency-EUR
-        '1997-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1997-01-01: currency-FRF
   metadata:
     order:
     - abattement
@@ -70,11 +70,11 @@ revenus_capitaux_mobiliers_dividendes:
   taux_abattement:
     description: Taux de l'abattement
     values:
-      '2010-01-01':
+      2010-01-01:
         value: 0.4
-      '1979-01-01':
+      1979-01-01:
         value: 0.5
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_abt_rcm
@@ -87,33 +87,33 @@ revenus_capitaux_mobiliers_dividendes:
   abattement_forfaitaire:
     description: Abattement forfaitaire
     values:
-      '2012-01-01':
+      2012-01-01:
         value: null
-      '2006-01-01':
+      2006-01-01:
         value: 1525.0
-      '2001-01-01':
+      2001-01-01:
         value: 1220.0
-      '1988-01-01':
+      1988-01-01:
         value: 8000.0
-      '1984-01-01':
+      1984-01-01:
         value: 5000.0
-      '1979-01-01':
+      1979-01-01:
         value: 3000.0
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: abt_rcm
       unit:
-        '2001-01-01': currency-EUR
-        '1979-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1979-01-01: currency-FRF
   plafond_credit_impot:
     description: Plafond du crédit d'impôt
     values:
-      '2010-01-01':
+      2010-01-01:
         value: null
-      '2004-01-01':
+      2004-01-01:
         value: 115.0
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_creditrcm

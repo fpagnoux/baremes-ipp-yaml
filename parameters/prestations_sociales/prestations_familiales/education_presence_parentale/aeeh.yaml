@@ -3,7 +3,7 @@ description: "Allocation d'éducation de l'enfant handicapé (AEEH) : conditions
 age_maximum_enfant:
   description: Age maximum de l'enfant
   values:
-    '2006-01-01':
+    2006-01-01:
       value: 20.0
   metadata:
     ipp_csv_id: aeeh_enf_agemax
@@ -14,21 +14,21 @@ metadata:
   - complement_allocation
   - majoration_parent_isole
   reference:
-    '2017-04-01': Circulaire DSS/SD2B/2017/97 du 21/03/2017
-    '2016-04-01': Circulaire DSS/SD2B/2016/77 du 15/03/2016
-    '2014-04-01': Art. L. 341-6 du CSS
-    '2013-04-01': Art. L. 341-6 du CSS
-    '2006-01-01': |-
+    2017-04-01: Circulaire DSS/SD2B/2017/97 du 21/03/2017
+    2016-04-01: Circulaire DSS/SD2B/2016/77 du 15/03/2016
+    2014-04-01: Art. L. 341-6 du CSS
+    2013-04-01: Art. L. 341-6 du CSS
+    2006-01-01: |-
       Loi 2005-102 du 11/02/2005, art. 68 (modif. Art. L541 du CSS)
       Décret 2005-1761 du 29/12/2005, art. 12
   date_parution_jo:
-    '2006-01-01': 12/02/2005     01/01/2006
+    2006-01-01: 12/02/2005     01/01/2006
   notes:
-    '2006-01-01': Création de l'Allocation d'éducation de l'enfant handicapé
+    2006-01-01: Création de l'Allocation d'éducation de l'enfant handicapé
 montant_bmaf:
   description: Montant (% de BMAF)
   values:
-    '2006-01-01':
+    2006-01-01:
       value: 0.32
   metadata:
     ipp_csv_id: aeeh_montant
@@ -38,7 +38,7 @@ complement_allocation:
   1ere_categorie:
     description: 1ere catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.24
     metadata:
       ipp_csv_id: aeeh_cplt1
@@ -54,7 +54,7 @@ complement_allocation:
   2e_categorie:
     description: 2e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.65
     metadata:
       ipp_csv_id: aeeh_cplt2
@@ -62,7 +62,7 @@ complement_allocation:
   3e_categorie:
     description: 3e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.92
     metadata:
       ipp_csv_id: aeeh_cplt3
@@ -70,7 +70,7 @@ complement_allocation:
   4e_categorie:
     description: 4e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 1.4257
     metadata:
       ipp_csv_id: aeeh_cplt4
@@ -78,7 +78,7 @@ complement_allocation:
   5e_categorie:
     description: 5e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 1.8221
     metadata:
       ipp_csv_id: aeeh_cplt5
@@ -86,31 +86,31 @@ complement_allocation:
   6e_categorie_1:
     description: 6e catégorie (1)
     values:
-      '2017-04-01':
+      2017-04-01:
         value: 1107.49
-      '2016-04-01':
+      2016-04-01:
         value: 1104.18
-      '2014-04-01':
+      2014-04-01:
         value: 1103.08
-      '2013-04-01':
+      2013-04-01:
         value: 1096.5
-      '2012-04-01':
+      2012-04-01:
         value: 1082.43
-      '2011-04-01':
+      2011-04-01:
         value: 1060.16
-      '2010-04-01':
+      2010-04-01:
         value: 1038.36
-      '2009-04-01':
+      2009-04-01:
         value: 1029.1
-      '2008-10-01':
+      2008-10-01:
         value: 1018.91
-      '2008-04-01':
+      2008-04-01:
         value: 1010.82
-      '2007-04-01':
+      2007-04-01:
         value: 999.83
-      '2006-04-01':
+      2006-04-01:
         value: 982.15
-      '2006-01-01':
+      2006-01-01:
         value: 964.78
     metadata:
       ipp_csv_id: aeeh_cplt6
@@ -120,7 +120,7 @@ majoration_parent_isole:
   2e_categorie:
     description: 2e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.13
     metadata:
       ipp_csv_id: aeeh_majo2
@@ -135,7 +135,7 @@ majoration_parent_isole:
   3e_categorie:
     description: 3e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.18
     metadata:
       ipp_csv_id: aeeh_majo3
@@ -143,7 +143,7 @@ majoration_parent_isole:
   4e_categorie:
     description: 4e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.57
     metadata:
       ipp_csv_id: aeeh_majo4
@@ -151,7 +151,7 @@ majoration_parent_isole:
   5e_categorie:
     description: 5e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.73
     metadata:
       ipp_csv_id: aeeh_majo5
@@ -159,7 +159,7 @@ majoration_parent_isole:
   6e_categorie:
     description: 6e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 1.07
     metadata:
       ipp_csv_id: aeeh_majo6

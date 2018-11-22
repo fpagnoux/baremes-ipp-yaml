@@ -4,15 +4,15 @@ artisans:
   sous_1_pss:
     description: Sous 1 PSS
     values:
-      '2013-01-01':
+      2013-01-01:
         value: null
-      '2010-01-01':
+      2010-01-01:
         value: 0.072
-      '2009-01-01':
+      2009-01-01:
         value: 0.071
-      '2008-01-01':
+      2008-01-01:
         value: 0.07
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: retc_art_0_1
@@ -26,15 +26,15 @@ artisans:
   entre_1_4_pss:
     description: Entre 1 et 4 PSS
     values:
-      '2013-01-01':
+      2013-01-01:
         value: null
-      '2010-01-01':
+      2010-01-01:
         value: 0.076
-      '2009-01-01':
+      2009-01-01:
         value: 0.075
-      '2008-01-01':
+      2008-01-01:
         value: 0.07
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: retc_art_1_4
@@ -42,13 +42,13 @@ artisans:
   sous_3_pss:
     description: Sous 3 PSS
     values:
-      '1998-01-01':
+      1998-01-01:
         value: null
-      '1997-01-01':
+      1997-01-01:
         value: 0.049
-      '1985-01-01':
+      1985-01-01:
         value: 0.045
-      '1978-01-01':
+      1978-01-01:
         value: 0.044
     metadata:
       ipp_csv_id: retc_art_0_3
@@ -56,21 +56,21 @@ artisans:
   sous_4_pss:
     description: Sous 4 PSS
     values:
-      '2008-01-01':
+      2008-01-01:
         value: null
-      '2005-01-01':
+      2005-01-01:
         value: 0.07
-      '2004-01-01':
+      2004-01-01:
         value: 0.067
-      '2003-01-01':
+      2003-01-01:
         value: 0.062
-      '2000-01-01':
+      2000-01-01:
         value: 0.06
-      '1999-01-01':
+      1999-01-01:
         value: 0.057
-      '1998-01-01':
+      1998-01-01:
         value: 0.053
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: retc_art_0_4
@@ -81,68 +81,68 @@ metadata:
   - industriels_commercants
   - artisans_industriels_commercants
   reference:
-    '2014-01-01': Décret 2012-139 du 30/01/2012
-    '2013-01-01': Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
-    '2012-01-01': Décret 2007-1900 du 26/12/2007 - art. 1 (V)
-    '2011-01-01': Décret 2007-1900 du 26/12/2007 - art. 1 (V)
-    '2010-01-01': Décret 2007-1900 du 26/12/2007 - art. 1 (V)
-    '2009-01-01': Décret 2007-1900 du 26/12/2007 - art. 1 (V)
-    '2008-01-01': Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du 7/01/2008
-    '2005-01-01': Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004 - art.
+    2014-01-01: Décret 2012-139 du 30/01/2012
+    2013-01-01: Décret 2012-443 du 03/04/2012 ; Circulaire RSI 2013-004 du 17/01/2013
+    2012-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+    2011-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+    2010-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+    2009-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
+    2008-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du 7/01/2008
+    2005-01-01: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004 - art.
       1
-    '2004-07-01': Décret 2004-848 du 23/08/2004 - art. 1
-    '2004-01-01': Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
+    2004-07-01: Décret 2004-848 du 23/08/2004 - art. 1
+    2004-01-01: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
       - art. 1
-    '2003-01-01': Décret 2003-1025 du 28/10/2003 - art. 1
-    '2000-01-01': Décret 97-166 du 24/02/1997 - art. 2
-    '1999-01-01': Décret 97-166 du 24/02/1997 - art. 2
-    '1998-01-01': Décret 97-166 du 24/02/1997 - art. 2
-    '1997-01-01': Décret 97-166 du 24/02/1997 - art. 2
-    '1985-01-01': Décret 84-1064 du 30/11/1984
-    '1978-01-01': Décret 78-351 du 14/03/1978
+    2003-01-01: Décret 2003-1025 du 28/10/2003 - art. 1
+    2000-01-01: Décret 97-166 du 24/02/1997 - art. 2
+    1999-01-01: Décret 97-166 du 24/02/1997 - art. 2
+    1998-01-01: Décret 97-166 du 24/02/1997 - art. 2
+    1997-01-01: Décret 97-166 du 24/02/1997 - art. 2
+    1985-01-01: Décret 84-1064 du 30/11/1984
+    1978-01-01: Décret 78-351 du 14/03/1978
   date_parution_jo:
-    '2014-01-01': '2012-12-31'
-    '2013-01-01': '2012-04-04'
-    '2012-01-01': '2007-12-30'
-    '2011-01-01': '2007-12-30'
-    '2010-01-01': '2007-12-30'
-    '2009-01-01': '2007-12-30'
-    '2008-01-01': 30/12/2007; 8/01/2008
-    '2005-01-01': 26/03/2005; 24/08/2004
-    '2004-07-01': '2004-08-24'
-    '2004-01-01': 22/08/2003; 24/08/2004
-    '2003-01-01': '2003-10-29'
-    '2000-01-01': '1997-02-26'
-    '1999-01-01': '1997-02-26'
-    '1998-01-01': '1997-02-26'
-    '1997-01-01': '1997-02-26'
-    '1985-01-01': '1984-12-02'
-    '1978-01-01': '1978-03-19'
+    2014-01-01: 2012-12-31
+    2013-01-01: 2012-04-04
+    2012-01-01: 2007-12-30
+    2011-01-01: 2007-12-30
+    2010-01-01: 2007-12-30
+    2009-01-01: 2007-12-30
+    2008-01-01: 30/12/2007; 8/01/2008
+    2005-01-01: 26/03/2005; 24/08/2004
+    2004-07-01: 2004-08-24
+    2004-01-01: 22/08/2003; 24/08/2004
+    2003-01-01: 2003-10-29
+    2000-01-01: 1997-02-26
+    1999-01-01: 1997-02-26
+    1998-01-01: 1997-02-26
+    1997-01-01: 1997-02-26
+    1985-01-01: 1984-12-02
+    1978-01-01: 1978-03-19
   notes:
-    '2016-01-01': 'Référence législative fixant le plafond RCI introuvable (Art. L241-33
+    2016-01-01: 'Référence législative fixant le plafond RCI introuvable (Art. L241-33
       du CSS : "montant du plafond, calculé selon les règles fixées par ce décret,
       est arrêté par le ministre chargé de la sécurité sociale")'
-    '2014-01-01': Rétabli l'article D. 635-7 du CSS donnant les taux.
-    '2013-01-01': Depuis le 1er janvier 2013, le taux de cotisations est unifié pour
+    2014-01-01: Rétabli l'article D. 635-7 du CSS donnant les taux.
+    2013-01-01: Depuis le 1er janvier 2013, le taux de cotisations est unifié pour
       les différentes catégories d'independants.
-    '2004-01-01': Pour les industriels et commerçants, taux de 3,5% sous 3 PSS pour
+    2004-01-01: Pour les industriels et commerçants, taux de 3,5% sous 3 PSS pour
       le 1er semestre 2004, et 4,5% sous 3 PSS pour le 2ème semestre 2004
-    '1978-01-01': Institution du régime d'assurance vieillesse complémentaire obligatoire
+    1978-01-01: Institution du régime d'assurance vieillesse complémentaire obligatoire
       pour les artisans
 industriels_commercants:
   description: Industriels-commerçants
   sous_3_pss:
     description: Sous 3 PSS
     values:
-      '2013-01-01':
+      2013-01-01:
         value: null
-      '2005-01-01':
+      2005-01-01:
         value: 0.065
-      '2004-07-01':
+      2004-07-01:
         value: 0.045
-      '2004-01-01':
+      2004-01-01:
         value: 0.035
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: retc_ic_0_3
@@ -155,9 +155,9 @@ artisans_industriels_commercants:
   sous_plafond_rci:
     description: Sous plafond RCI
     values:
-      '2013-01-01':
+      2013-01-01:
         value: 0.07
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: retc_rci_0_1plaf
@@ -170,9 +170,9 @@ artisans_industriels_commercants:
   entre_1_plafond_rci_4_plafonds_pss:
     description: Entre 1 plafond RCI et 4 plafonds PSS
     values:
-      '2013-01-01':
+      2013-01-01:
         value: 0.08
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: retc_rci_1_4plaf
@@ -180,13 +180,13 @@ artisans_industriels_commercants:
   montant_plafond_rci:
     description: Montant du plafond RCI
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 37546.0
-      '2014-01-01':
+      2014-01-01:
         value: 37513.0
-      '2013-01-01':
+      2013-01-01:
         value: 37032.0
-      '1978-01-01':
+      1978-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_retc_rci

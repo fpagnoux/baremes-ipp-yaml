@@ -2,7 +2,7 @@ description: "Aide exceptionnelle de fin d'année (AEFA): montant"
 montant_prime:
   description: Montant de la prime
   values:
-    '2003-01-01':
+    2003-01-01:
       value: 152.45
   metadata:
     unit: currency-EUR
@@ -11,17 +11,17 @@ metadata:
   - montant_prime
   - taux_majoration_selon_taille_foyer_1
   reference:
-    '2003-01-01': Décret 2003-1283 du 26/12/2003
+    2003-01-01: Décret 2003-1283 du 26/12/2003
   date_parution_jo:
-    '2003-01-01': '2003-12-30'
+    2003-01-01: 2003-12-30
   notes:
-    '2003-01-01': Idem en 2017
+    2003-01-01: Idem en 2017
 taux_majoration_selon_taille_foyer_1:
   description: Taux de majoration selon la taille du foyer (1)
   deux_personnes:
     description: Deux personnes
     values:
-      '2003-01-01':
+      2003-01-01:
         value: 0.5
     metadata:
       unit: /1
@@ -33,14 +33,14 @@ taux_majoration_selon_taille_foyer_1:
   personne_supplementaire_si_conjoint:
     description: Personne supplémentaire si conjoint
     values:
-      '2003-01-01':
+      2003-01-01:
         value: 0.3
     metadata:
       unit: /1
   taux_dela_troisieme_personne_charge_incluse:
     description: Taux au delà de la troisième personne à charge incluse
     values:
-      '2003-01-01':
+      2003-01-01:
         value: 0.4
     metadata:
       unit: /1

@@ -4,7 +4,7 @@ seuils_tranches_bareme_ifi:
   1ere_tranche:
     description: 1ère tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 800000.0
     metadata:
       ipp_csv_id: seuil1_ifi
@@ -19,7 +19,7 @@ seuils_tranches_bareme_ifi:
   2eme_tranche:
     description: 2ème tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 1300000.0
     metadata:
       ipp_csv_id: seuil2_ifi
@@ -27,7 +27,7 @@ seuils_tranches_bareme_ifi:
   3eme_tranche:
     description: 3ème tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 2570000.0
     metadata:
       ipp_csv_id: seuil3_ifi
@@ -35,7 +35,7 @@ seuils_tranches_bareme_ifi:
   4eme_tranche:
     description: 4ème tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 5000000.0
     metadata:
       ipp_csv_id: seuil4_ifi
@@ -43,7 +43,7 @@ seuils_tranches_bareme_ifi:
   5eme_tranche:
     description: 5ème  tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 10000000.0
     metadata:
       ipp_csv_id: seuil5_ifi
@@ -53,19 +53,19 @@ metadata:
   - seuils_tranches_bareme_ifi
   - taux_marginaux_tranches_bareme_ifi
   reference:
-    '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 977
+    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 977
       du CGI)
   date_parution_jo:
-    '2018-01-01': '2017-12-31'
+    2018-01-01: 2017-12-31
   notes:
-    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
       est réduite aux seuls biens immobiliers.
 taux_marginaux_tranches_bareme_ifi:
   description: Taux marginaux des tranches du barème de l'IFI
   1ere_tranche:
     description: 1ère tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.005
     metadata:
       ipp_csv_id: tx1_ifi
@@ -81,7 +81,7 @@ taux_marginaux_tranches_bareme_ifi:
   2eme_tranche:
     description: 2ème tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.007
     metadata:
       ipp_csv_id: tx2_ifi
@@ -89,7 +89,7 @@ taux_marginaux_tranches_bareme_ifi:
   3eme_tranche:
     description: 3ème tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.01
     metadata:
       ipp_csv_id: tx3_ifi
@@ -97,7 +97,7 @@ taux_marginaux_tranches_bareme_ifi:
   4eme_tranche:
     description: 4ème tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.0125
     metadata:
       ipp_csv_id: tx4_ifi
@@ -105,7 +105,7 @@ taux_marginaux_tranches_bareme_ifi:
   5eme_tranche:
     description: 5ème  tranche
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.015
     metadata:
       ipp_csv_id: tx5_ifi
@@ -113,7 +113,7 @@ taux_marginaux_tranches_bareme_ifi:
   nombre_tranches_bareme:
     description: Nombre de tranches du barème
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 5.0
     metadata:
       ipp_csv_id: nbtranches_ifi

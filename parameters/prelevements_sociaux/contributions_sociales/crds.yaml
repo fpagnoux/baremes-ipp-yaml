@@ -2,7 +2,7 @@ description: Contribution au remboursement de la dette sociale (CRDS)
 taux:
   description: Taux
   values:
-    '1996-02-01':
+    1996-02-01:
       value: 0.005
   metadata:
     ipp_csv_id: crds
@@ -11,7 +11,7 @@ metadata:
   order:
   - taux
   reference:
-    '1996-02-01': Ordonnance 96-50 du 24/01/96, art. 19
+    1996-02-01: Ordonnance 96-50 du 24/01/96, art. 19
   date_parution_jo:
-    '1996-02-01': '1996-01-25'
+    1996-02-01: 1996-01-25
 documentation: ''

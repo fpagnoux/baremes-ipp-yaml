@@ -4,9 +4,9 @@ regime_general_majoration:
   base:
     description: Base
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 388.2
     metadata:
       ipp_csv_id: maj_gene_base
@@ -18,9 +18,9 @@ regime_general_majoration:
   montant:
     description: Montant
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 194.1
     metadata:
       ipp_csv_id: maj_gene_montant
@@ -30,21 +30,21 @@ metadata:
   - regime_general_majoration
   - regime_agricole_majoration
   reference:
-    '1978-01-01': Loi 77-765 du 12/07/1977
-    '1976-07-01': Décret 76-1084 du 29/11/1976 (majoration)
+    1978-01-01: Loi 77-765 du 12/07/1977
+    1976-07-01: Décret 76-1084 du 29/11/1976 (majoration)
   date_parution_jo:
-    '1978-01-01': '1977-07-13'
-    '1976-07-01': 01/12/1976
+    1978-01-01: 1977-07-13
+    1976-07-01: 01/12/1976
   notes:
-    '1976-07-01': Remplacé par "complément familial" depuis 01/01/1978
+    1976-07-01: Remplacé par "complément familial" depuis 01/01/1978
 regime_agricole_majoration:
   description: Régime agricole - Majoration
   base:
     description: Base
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 388.2
     metadata:
       ipp_csv_id: maj_agri_base
@@ -56,9 +56,9 @@ regime_agricole_majoration:
   montant:
     description: Montant
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 194.1
     metadata:
       ipp_csv_id: maj_agri_montant

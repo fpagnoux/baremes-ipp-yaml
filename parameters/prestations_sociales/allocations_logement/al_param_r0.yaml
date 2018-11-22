@@ -7,7 +7,7 @@ r1_en_rsa_socle_1:
       Personnes isolées 
       (en % du RMI de base)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 0.88
     metadata:
       ipp_csv_id: r1_isol
@@ -24,7 +24,7 @@ r1_en_rsa_socle_1:
       Couples 
       (en % du RMI de base)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 1.26
     metadata:
       ipp_csv_id: r1_coup
@@ -34,7 +34,7 @@ r1_en_rsa_socle_1:
       Personnes isolées ou couples avec 1 enfant
       (en % du RMI de base)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 1.503
     metadata:
       ipp_csv_id: r1_enf1
@@ -44,7 +44,7 @@ r1_en_rsa_socle_1:
       Personnes isolées ou couples avec 2 enfants
       (en % du RMI de base)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 1.803
     metadata:
       ipp_csv_id: r1_enf2
@@ -54,7 +54,7 @@ r1_en_rsa_socle_1:
       Majoration par enfant à charge supplémentaire
       (en % du RMI de base)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 0.4
     metadata:
       ipp_csv_id: r1_enfsupp
@@ -65,12 +65,12 @@ metadata:
   - r2_en_bmaf_1
   - plafond_r0
   reference:
-    '2002-01-01': Références manquantes
-    '2001-01-01': Arrêté du 26/12/2000, art. 2
+    2002-01-01: Références manquantes
+    2001-01-01: Arrêté du 26/12/2000, art. 2
   date_parution_jo:
-    '2001-01-01': '2000-12-28'
+    2001-01-01: 2000-12-28
   notes:
-    '2002-01-01': Paramètres toutefois disponibles dans "Eléments de calcul des aides
+    2002-01-01: Paramètres toutefois disponibles dans "Eléments de calcul des aides
       personnelles au logement", Ministère de l'égalité des territoires et du logement,
       2013, p 13.
 r2_en_bmaf_1:
@@ -80,7 +80,7 @@ r2_en_bmaf_1:
       Personnes isolées ou couples avec 2 enfants
       (en % de la BMAF au 01/01/N-2)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 0.32
     metadata:
       ipp_csv_id: r2_enf2
@@ -94,7 +94,7 @@ r2_en_bmaf_1:
       Majoration par enfant à charge supplémentaire
       (en % de la BMAF au 01/01/N-2)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 0.41
     metadata:
       ipp_csv_id: r2_enfsupp
@@ -106,9 +106,9 @@ plafond_r0:
       Foyers sans personne à charge
       (en % du R0 )
     values:
-      '2002-01-01':
+      2002-01-01:
         value: 1.0
-      '2001-01-01':
+      2001-01-01:
         value: 0.75
     metadata:
       ipp_csv_id: tx_plaf_r0_enf0
@@ -125,9 +125,9 @@ plafond_r0:
       Foyers avec 1 personne à charge
       (en % du R0)
     values:
-      '2002-01-01':
+      2002-01-01:
         value: 1.0
-      '2001-01-01':
+      2001-01-01:
         value: 0.69
     metadata:
       ipp_csv_id: tx_plaf_r0_enf1
@@ -137,9 +137,9 @@ plafond_r0:
       Foyers avec 2 personnes à charge
       (en % du R0)
     values:
-      '2002-01-01':
+      2002-01-01:
         value: 1.0
-      '2001-01-01':
+      2001-01-01:
         value: 0.72
     metadata:
       ipp_csv_id: tx_plaf_r0_enf2
@@ -149,9 +149,9 @@ plafond_r0:
       Foyers avec 3 personnes à charge
       (en % du R0 )
     values:
-      '2002-01-01':
+      2002-01-01:
         value: 1.0
-      '2001-01-01':
+      2001-01-01:
         value: 0.75
     metadata:
       ipp_csv_id: tx_plaf_r0_enf3
@@ -161,9 +161,9 @@ plafond_r0:
       Foyers avec 4 personnes à charge et plus
       (en % du R0 )
     values:
-      '2002-01-01':
+      2002-01-01:
         value: 1.0
-      '2001-01-01':
+      2001-01-01:
         value: 0.83
     metadata:
       ipp_csv_id: tx_plaf_r0_enf4pl

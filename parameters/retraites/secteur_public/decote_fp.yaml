@@ -6,7 +6,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2006':
       description: '2006'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.00125
       metadata:
         ipp_csv_id: decotefp_06
@@ -26,7 +26,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2007':
       description: '2007'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.0025
       metadata:
         ipp_csv_id: decotefp_07
@@ -34,7 +34,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2008':
       description: '2008'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.00375
       metadata:
         ipp_csv_id: decotefp_08
@@ -42,7 +42,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2009':
       description: '2009'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.005
       metadata:
         ipp_csv_id: decotefp_09
@@ -50,7 +50,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2010':
       description: '2010'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.0065
       metadata:
         ipp_csv_id: decotefp_10
@@ -58,7 +58,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2011':
       description: '2011'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.0075
       metadata:
         ipp_csv_id: decotefp_11
@@ -66,7 +66,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2012':
       description: '2012'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.00875
       metadata:
         ipp_csv_id: decotefp_12
@@ -74,7 +74,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '17':
       description: '17'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.01
       metadata:
         ipp_csv_id: decotefp_13
@@ -82,7 +82,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2014':
       description: '2014'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.01125
       metadata:
         ipp_csv_id: decotefp_14
@@ -90,7 +90,7 @@ taux_decote_selon_annee_age_ouverture_droits:
     '2015':
       description: '2015'
       values:
-        '2006-01-01':
+        2006-01-01:
           value: 0.0125
       metadata:
         ipp_csv_id: decotefp_15
@@ -102,9 +102,9 @@ metadata:
   order:
   - taux_decote_selon_annee_age_ouverture_droits
   reference:
-    '2006-01-01': Loi 2003-775 du 21/08/2003, art. 66
+    2006-01-01: Loi 2003-775 du 21/08/2003, art. 66
   date_parution_jo:
-    '2006-01-01': '2003-08-22'
+    2006-01-01: 2003-08-22
 documentation: |
   Lecture : Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de l'année d'ouverture des droits (en ordonnée).
   La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.

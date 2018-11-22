@@ -2,7 +2,7 @@ description: 'Revenu de solidarité active (RSA) : conditions générales'
 age_minimum_allocataire:
   description: Âge minimum pour l'allocataire
   values:
-    '2009-06-01':
+    2009-06-01:
       value: 25.0
   metadata:
     ipp_csv_id: age_rsa_rmi
@@ -14,18 +14,18 @@ metadata:
   - duree_minimum_titre_sejour_annee
   - rsa_jeune_en_heure_4
   reference:
-    '2010-09-01': Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
-    '2009-06-01': Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
+    2010-09-01: Décret 2010-961 du 25/08/2010, art. 1 (crée art. D262-25-1 du CASF)
+    2009-06-01: Loi 2008-1249 du 01/12/2008, art. 3 (modif art. L262-4 du CASF)    Décret
       2009-404 du 15/04/2009, art. 2 (modif art. R262-2 du CASF)
   date_parution_jo:
-    '2010-09-01': '2010-08-26'
-    '2009-06-01': 03/12/2008         16/04/2009
+    2010-09-01: 2010-08-26
+    2009-06-01: 03/12/2008         16/04/2009
   notes:
-    '2009-06-01': RSA créé par Loi 2008-1249 du 01/12/2008
+    2009-06-01: RSA créé par Loi 2008-1249 du 01/12/2008
 nombre_minimal_enfants_1:
   description: Nombre minimal d'enfants (1)
   values:
-    '2009-06-01':
+    2009-06-01:
       value: 1.0
   metadata:
     ipp_csv_id: min_npac_rmi
@@ -34,7 +34,7 @@ majoration_isolement_en_mois:
   duree_droit:
     description: Durée du droit
     values:
-      '2009-06-01':
+      2009-06-01:
         value: 12.0
     metadata:
       ipp_csv_id: duree_droit_rsa
@@ -46,7 +46,7 @@ majoration_isolement_en_mois:
   limite_duree_droit_majoration_isolement_2:
     description: Limite de durée du droit à la majoration pour isolement (2)
     values:
-      '2009-06-01':
+      2009-06-01:
         value: 18.0
     metadata:
       ipp_csv_id: limite_dureet_rsa
@@ -55,23 +55,23 @@ majoration_isolement_en_mois:
       Âge limite de l'enfant (3)
       (en année)
     values:
-      '2009-06-01':
+      2009-06-01:
         value: 3.0
     metadata:
       ipp_csv_id: rsa_maj_ageenf_max
 duree_minimum_titre_sejour_annee:
   description: Durée minimum du titre de séjour (année)
   values:
-    '2009-06-01':
+    2009-06-01:
       value: 5.0
   metadata:
     ipp_csv_id: duree_min_titre_sejour
 rsa_jeune_en_heure_4:
   description: RSA jeune (en heure) (4)
   values:
-    '2010-09-01':
+    2010-09-01:
       value: 3214.0
-    '2009-06-01':
+    2009-06-01:
       value: null
   metadata:
     ipp_csv_id: rsa_jeune_activite

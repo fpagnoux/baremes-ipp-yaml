@@ -4,9 +4,9 @@ assurance_vieillesse:
   sous_5_pss:
     description: Sous 5 PSS
     values:
-      '2004-01-01':
+      2004-01-01:
         value: null
-      '1993-01-01':
+      1993-01-01:
         value: 0.014
     metadata:
       ipp_csv_id: ret_plib_0_5
@@ -21,17 +21,17 @@ assurance_vieillesse:
   sous_085_pss:
     description: Sous 0,85 PSS
     values:
-      '2015-01-01':
+      2015-01-01:
         value: null
-      '2014-01-01':
+      2014-01-01:
         value: 0.101
-      '2013-01-01':
+      2013-01-01:
         value: 0.0975
-      '2012-07-04':
+      2012-07-04:
         value: 0.0863
-      '2004-01-01':
+      2004-01-01:
         value: 0.086
-      '1993-01-01':
+      1993-01-01:
         value: null
     metadata:
       ipp_csv_id: ret_plib_0_85
@@ -39,9 +39,9 @@ assurance_vieillesse:
   sous_1_pss:
     description: Sous 1 PSS
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.0823
-      '1993-01-01':
+      1993-01-01:
         value: null
     metadata:
       ipp_csv_id: ret_plib_1
@@ -49,15 +49,15 @@ assurance_vieillesse:
   entre_085_5_pss:
     description: Entre 0,85 et 5 PSS
     values:
-      '2015-01-01':
+      2015-01-01:
         value: null
-      '2014-01-01':
+      2014-01-01:
         value: 0.0187
-      '2013-01-01':
+      2013-01-01:
         value: 0.0181
-      '2004-01-01':
+      2004-01-01:
         value: 0.016
-      '1993-01-01':
+      1993-01-01:
         value: null
     metadata:
       ipp_csv_id: ret_plib_85_5
@@ -65,9 +65,9 @@ assurance_vieillesse:
   entre_1_5_pss:
     description: Entre 1 et 5 PSS
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.0187
-      '1993-01-01':
+      1993-01-01:
         value: null
     metadata:
       ipp_csv_id: ret_plib_1_5
@@ -76,22 +76,22 @@ metadata:
   order:
   - assurance_vieillesse
   reference:
-    '2015-01-01': Décret 2014-1413 du 27/11/2014
-    '2014-01-01': Décret 2012-1323 du 28/11/2012
-    '2013-01-01': Décret 2012-1323 du 28/11/2012
-    '2012-07-04': Décret 2012-847 du 2/07/2012 - art. 5
-    '2004-01-01': Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
+    2015-01-01: Décret 2014-1413 du 27/11/2014
+    2014-01-01: Décret 2012-1323 du 28/11/2012
+    2013-01-01: Décret 2012-1323 du 28/11/2012
+    2012-07-04: Décret 2012-847 du 2/07/2012 - art. 5
+    2004-01-01: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-461 du 27/05/2004
       - art. 1
-    '1993-01-01': Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
+    1993-01-01: Loi 91-73 art. 21 du 18/01/1991; Décret no 92-829 du 26/08/1992
   date_parution_jo:
-    '2015-01-01': '2014-11-29'
-    '2014-01-01': '2012-11-30'
-    '2013-01-01': '2012-11-30'
-    '2012-07-04': '2012-07-03'
-    '2004-01-01': |-
+    2015-01-01: 2014-11-29
+    2014-01-01: 2012-11-30
+    2013-01-01: 2012-11-30
+    2012-07-04: 2012-07-03
+    2004-01-01: |-
       22/08/2003
       29/05/2003
-    '1993-01-01': '1992-08-28'
+    1993-01-01: 1992-08-28
 documentation: |
   Notes :
   (i) Création du régime d'assurance vieillesse des non salariés en 1948 (Loi 48-101 du 17/01/1948) financé, pour les professions libérales, par une cotisation forfaitaire qui dépend de la profession exercée.

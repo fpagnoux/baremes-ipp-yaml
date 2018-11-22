@@ -4,7 +4,7 @@ tout_salaire:
   employeurs:
     description: Employeurs
     values:
-      '2004-07-01':
+      2004-07-01:
         value: 0.003
     metadata:
       ipp_csv_id: csa_p_0_
@@ -16,9 +16,9 @@ metadata:
   order:
   - tout_salaire
   reference:
-    '2004-07-01': Loi 2004-626 du 26/06/2004, art. 11
+    2004-07-01: Loi 2004-626 du 26/06/2004, art. 11
   date_parution_jo:
-    '2004-07-01': '2004-07-01'
+    2004-07-01: 2004-07-01
 documentation: |
   Sources :
   Journal Officiel via www.legifrance.gouv.fr

@@ -4,9 +4,9 @@ plafond_ressources_revenu:
   1_enfant:
     description: 1 enfant
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 24120.0
     metadata:
       ipp_csv_id: agf_plaf_1_enf
@@ -20,9 +20,9 @@ plafond_ressources_revenu:
   2_enfants:
     description: 2 enfants
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 32160.0
     metadata:
       ipp_csv_id: agf_plaf_2_enf
@@ -30,9 +30,9 @@ plafond_ressources_revenu:
   3_enfants:
     description: 3 enfants
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 40200.0
     metadata:
       ipp_csv_id: agf_plaf_3_enf
@@ -40,9 +40,9 @@ plafond_ressources_revenu:
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 8040.0
     metadata:
       ipp_csv_id: agf_plaf_sup3_enf
@@ -53,24 +53,24 @@ metadata:
   - plafond_ressources_2_revenus
   - plafond_unique_montant_mensuel_max_majoration_s_u
   reference:
-    '1978-01-01': Loi 77-765 du 12/07/1977
-    '1976-07-01': Décret 74-568 du 17/05/1974                                  Décret
+    1978-01-01: Loi 77-765 du 12/07/1977
+    1976-07-01: Décret 74-568 du 17/05/1974                                  Décret
       75-556 du 02/07/1975
   date_parution_jo:
-    '1978-01-01': '1977-07-13'
-    '1976-07-01': 28/05/1974 03/07/1975
+    1978-01-01: 1977-07-13
+    1976-07-01: 28/05/1974 03/07/1975
   notes:
-    '1978-01-01': Remplacé par "complément familial" depuis 01/01/1978
-    '1976-07-01': Plafond calculé sur le revenu fiscal net de 1975 pour la période
+    1978-01-01: Remplacé par "complément familial" depuis 01/01/1978
+    1976-07-01: Plafond calculé sur le revenu fiscal net de 1975 pour la période
       de paiement 01/07/76-30/06/1977
 plafond_ressources_2_revenus:
   description: Plafond de ressources pour 2 revenus
   1_enfant:
     description: 1 enfant
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 40200.0
     metadata:
       ipp_csv_id: agf_plaf_1_enf_biact
@@ -84,9 +84,9 @@ plafond_ressources_2_revenus:
   2_enfants:
     description: 2 enfants
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 48240.0
     metadata:
       ipp_csv_id: agf_plaf_2_enf_biact
@@ -94,9 +94,9 @@ plafond_ressources_2_revenus:
   3_enfants:
     description: 3 enfants
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 56280.0
     metadata:
       ipp_csv_id: agf_plaf_3_enf_biact
@@ -104,9 +104,9 @@ plafond_ressources_2_revenus:
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 8040.0
     metadata:
       ipp_csv_id: agf_plaf_sup3_enf_biact
@@ -114,9 +114,9 @@ plafond_ressources_2_revenus:
 plafond_unique_montant_mensuel_max_majoration_s_u:
   description: Plafond unique (montant mensuel max + majoration du S.U.)
   values:
-    '1978-01-01':
+    1978-01-01:
       value: null
-    '1976-07-01':
+    1976-07-01:
       value: 291.35
   metadata:
     ipp_csv_id: agf_plaf_unique

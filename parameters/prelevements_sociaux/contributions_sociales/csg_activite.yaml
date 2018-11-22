@@ -4,15 +4,15 @@ revenus_activite:
   taux_global_csg:
     description: Taux global CSG
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.092
-      '1998-01-01':
+      1998-01-01:
         value: 0.075
-      '1997-01-01':
+      1997-01-01:
         value: 0.034
-      '1993-07-01':
+      1993-07-01:
         value: 0.024
-      '1991-02-01':
+      1991-02-01:
         value: 0.011
     metadata:
       ipp_csv_id: csg_act
@@ -24,13 +24,13 @@ revenus_activite:
   taux_csg_deductible:
     description: Taux CSG deductible
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.068
-      '1998-01-01':
+      1998-01-01:
         value: 0.051
-      '1997-01-01':
+      1997-01-01:
         value: 0.01
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_act_ded
@@ -41,37 +41,37 @@ metadata:
   - allocations_chomage
   - abattement
   reference:
-    '2018-01-01': Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
+    2018-01-01: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
       du 30/12/2017, art. 67 (LF pour 2018)
-    '2012-01-01': Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
-    '2011-01-01': Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-    '2005-01-01': Loi 2004-810 du 13/08/2004, art.72
-    '1998-01-01': Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-    '1997-01-01': Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
-    '1993-07-01': Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
-    '1991-02-01': Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
+    2012-01-01: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
+    2011-01-01: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
+    2005-01-01: Loi 2004-810 du 13/08/2004, art.72
+    1998-01-01: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
+    1997-01-01: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
+    1993-07-01: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
+    1991-02-01: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
   date_parution_jo:
-    '2018-01-01': 30/12/2017 ; 31/12/2017
-    '2012-01-01': '2011-12-29'
-    '2011-01-01': 21/12/2010
-    '2005-01-01': 17/08/2004
-    '1998-01-01': '1997-12-23'
-    '1997-01-01': '1996-12-29'
-    '1993-07-01': '1993-06-23'
-    '1991-02-01': '1990-12-30'
+    2018-01-01: 30/12/2017 ; 31/12/2017
+    2012-01-01: 2011-12-29
+    2011-01-01: 21/12/2010
+    2005-01-01: 17/08/2004
+    1998-01-01: 1997-12-23
+    1997-01-01: 1996-12-29
+    1993-07-01: 1993-06-23
+    1991-02-01: 1990-12-30
   notes:
-    '1991-02-01': Une circulaire ministérielle du 16/01/1991 relative à la mise en
+    1991-02-01: Une circulaire ministérielle du 16/01/1991 relative à la mise en
       œuvre de la CSG fournit des indications sur les assiettes et les exonérations.
 allocations_chomage:
   description: Allocations chômage
   taux_global_csg:
     description: Taux global CSG
     values:
-      '1998-01-01':
+      1998-01-01:
         value: 0.062
-      '1997-01-01':
+      1997-01-01:
         value: 0.034
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_cho
@@ -84,11 +84,11 @@ allocations_chomage:
   taux_csg_deductible:
     description: Taux CSG deductible
     values:
-      '1998-01-01':
+      1998-01-01:
         value: 0.038
-      '1997-01-01':
+      1997-01-01:
         value: 0.01
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_cho_ded
@@ -96,11 +96,11 @@ allocations_chomage:
   taux_csg_reduit:
     description: Taux CSG réduit
     values:
-      '1998-01-01':
+      1998-01-01:
         value: 0.038
-      '1997-01-01':
+      1997-01-01:
         value: 0.01
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_cho_red
@@ -110,11 +110,11 @@ abattement:
   sous_4_pss:
     description: Sous 4 PSS
     values:
-      '2012-01-01':
+      2012-01-01:
         value: 0.0175
-      '2005-01-01':
+      2005-01-01:
         value: 0.03
-      '1991-02-01':
+      1991-02-01:
         value: 0.05
     metadata:
       ipp_csv_id: csg_abt_0_4
@@ -126,11 +126,11 @@ abattement:
   dessus_4_pss:
     description: Au-dessus de 4 PSS
     values:
-      '2011-01-01':
+      2011-01-01:
         value: null
-      '2005-01-01':
+      2005-01-01:
         value: 0.03
-      '1991-02-01':
+      1991-02-01:
         value: 0.05
     metadata:
       ipp_csv_id: csg_abt_4_

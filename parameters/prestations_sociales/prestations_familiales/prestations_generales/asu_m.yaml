@@ -4,13 +4,13 @@ base_1:
     Base 
     (1)
   values:
-    '1978-01-01':
+    1978-01-01:
       value: null
-    '1976-07-01':
+    1976-07-01:
       value: 194.5
-    '1959-01-01':
+    1959-01-01:
       value: 180.0
-    '1941-04-01':
+    1941-04-01:
       value: null
   metadata:
     ipp_csv_id: base_asu
@@ -22,26 +22,26 @@ metadata:
   - montant
   - majoration
   reference:
-    '1978-01-01': Loi 77-765 du 12/07/1977
-    '1976-07-01': |-
+    1978-01-01: Loi 77-765 du 12/07/1977
+    1976-07-01: |-
       Loi 72-8 du 03/01/1972
       Décret 72-530 du 29/06/1972 (S.U.)
       Décret 76-767 du 16/08/1976 ("Majoration")
-    '1946-09-01': Loi du 22 aout 1946
+    1946-09-01: Loi du 22 aout 1946
   date_parution_jo:
-    '1978-01-01': '1977-07-13'
-    '1976-07-01': 05/01/1972 30/06/1972 17/08/1976
+    1978-01-01: 1977-07-13
+    1976-07-01: 05/01/1972 30/06/1972 17/08/1976
   notes:
-    '1976-07-01': Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint
+    1976-07-01: Réservé aux ménages avec un seul revenu, sauf si l'autre conjoint
       a un revenu ne dépassant pas la moitié de la base de calcul des AF soit 347,25
 taux:
   description: Taux
   1_enfant_moins_5_ans:
     description: 1 enfant, moins de 5 ans
     values:
-      '1976-07-01':
+      1976-07-01:
         value: null
-      '1941-04-01':
+      1941-04-01:
         value: 0.2
     metadata:
       ipp_csv_id: tx_asu_1_enf_5ans_inf
@@ -59,9 +59,9 @@ taux:
       1 enfant, plus de 5 ans 
       (2)
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1941-04-01':
+      1941-04-01:
         value: 0.1
     metadata:
       ipp_csv_id: tx_asu_1_enf_6ans_sup
@@ -69,11 +69,11 @@ taux:
   moins_1_enfant_moins_2_ans:
     description: Au moins 1 enfant de moins de 2 ans
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 0.5
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: tx_asu_1_enf_moins2ans
@@ -81,11 +81,11 @@ taux:
   1_enfant_plus_2_ans:
     description: 1 enfant, plus de 2 ans
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 0.2
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: tx_asu_1_enf_plus2ans
@@ -95,13 +95,13 @@ taux:
       2 enfants, plus de 2 ans 
       (3)
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 0.4
-      '1946-09-01':
+      1946-09-01:
         value: 0.3
-      '1941-04-01':
+      1941-04-01:
         value: 0.25
     metadata:
       ipp_csv_id: tx_asu_2_enf
@@ -111,11 +111,11 @@ taux:
       3 ou + enfants, plus de 2 ans
        (3)
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1946-09-01':
+      1946-09-01:
         value: 0.5
-      '1941-04-01':
+      1941-04-01:
         value: 0.3
     metadata:
       ipp_csv_id: tx_asu_3_enf
@@ -125,11 +125,11 @@ montant:
   moins_1_enfant_moins_2_ans:
     description: Au moins 1 enfant de moins de 2 ans
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 97.25
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: montant_1_enf_moins2ans
@@ -143,11 +143,11 @@ montant:
   1_enfant_plus_2_ans:
     description: 1 enfant, plus de 2 ans
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 97.25
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: montant_1_enf_plus2ans
@@ -155,11 +155,11 @@ montant:
   2_enfants_plus_2_ans:
     description: 2 enfants, plus de 2 ans
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 77.8
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: montant_2_enf
@@ -167,11 +167,11 @@ montant:
   3_enfants_plus_2_ans:
     description: 3 ou + enfants, plus de 2 ans
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 97.25
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: montant_3_enf
@@ -181,11 +181,11 @@ majoration:
   base:
     description: Base
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 388.2
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: majo_base
@@ -197,11 +197,11 @@ majoration:
   montant:
     description: Montant
     values:
-      '1978-01-01':
+      1978-01-01:
         value: null
-      '1976-07-01':
+      1976-07-01:
         value: 194.1
-      '1941-04-01':
+      1941-04-01:
         value: null
     metadata:
       ipp_csv_id: majo_montant

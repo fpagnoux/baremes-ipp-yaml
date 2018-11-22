@@ -2,37 +2,37 @@ description: Prémix (mélanges alcool et soda)
 premix_eur_par_decilitre_alcool_pur:
   description: Prémix (€ par décilitre d'alcool pur)
   values:
-    '2005-01-01':
+    2005-01-01:
       value: 11.0
-    '2002-03-31':
+    2002-03-31:
       value: 5.5
-    '1999-03-31':
+    1999-03-31:
       value: 36.4
-    '1997-03-31':
+    1997-03-31:
       value: null
   metadata:
     ipp_csv_id: taxe_premix_decil_pur
     unit:
-      '2002-03-31': currency-EUR
-      '1999-03-31': currency-FRF
+      2002-03-31: currency-EUR
+      1999-03-31: currency-FRF
 metadata:
   order:
   - premix_eur_par_decilitre_alcool_pur
   - premix_eur_par_decilitre
   reference:
-    '2005-01-01': Loi 2004-806 du 09/08/2004
-    '1999-03-31': Loi 98-1194 du 23/12/1998 (LFSS pour 1999)
-    '1997-03-31': Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
+    2005-01-01: Loi 2004-806 du 09/08/2004
+    1999-03-31: Loi 98-1194 du 23/12/1998 (LFSS pour 1999)
+    1997-03-31: Loi 96-1160 du 27/12/1996 (LFSS pour 1997)
   date_parution_jo:
-    '2005-01-01': 11/08/2004
-    '1999-03-31': 27/12/1998
-    '1997-03-31': 29/12/1996
+    2005-01-01: 11/08/2004
+    1999-03-31: 27/12/1998
+    1997-03-31: 29/12/1996
 premix_eur_par_decilitre:
   description: Prémix (€ par décilitre )
   values:
-    '1999-03-31':
+    1999-03-31:
       value: null
-    '1997-03-31':
+    1997-03-31:
       value: 1.5
   metadata:
     ipp_csv_id: taxe_premix_decil_tot

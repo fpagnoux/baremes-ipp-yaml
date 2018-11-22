@@ -4,13 +4,13 @@ accord_1:
   annee_1:
     description: Annee 1
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '2001-01-01':
+      2001-01-01:
         value: 6000.0
-      '1999-07-01':
+      1999-07-01:
         value: 7000.0
-      '1998-01-01':
+      1998-01-01:
         value: 9000.0
     metadata:
       unit: currency-FRF
@@ -24,44 +24,44 @@ accord_1:
   annee_2:
     description: Annee 2
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '2001-01-01':
+      2001-01-01:
         value: 5000.0
-      '1999-07-01':
+      1999-07-01:
         value: 6000.0
-      '1998-01-01':
+      1998-01-01:
         value: 8000.0
     metadata:
       unit: currency-FRF
   annee_3:
     description: Annee 3
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1999-07-01':
+      1999-07-01:
         value: 5000.0
-      '1998-01-01':
+      1998-01-01:
         value: 7000.0
     metadata:
       unit: currency-FRF
   annee_4:
     description: Annee 4
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1999-07-01':
+      1999-07-01:
         value: 5000.0
-      '1998-01-01':
+      1998-01-01:
         value: 6000.0
     metadata:
       unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 5000.0
     metadata:
       unit: currency-FRF
@@ -77,13 +77,13 @@ accord_2:
   annee_1:
     description: Annee 1
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '2001-01-01':
+      2001-01-01:
         value: 10000.0
-      '1999-07-01':
+      1999-07-01:
         value: 11000.0
-      '1998-01-01':
+      1998-01-01:
         value: 13000.0
     metadata:
       unit: currency-FRF
@@ -97,44 +97,44 @@ accord_2:
   annee_2:
     description: Annee 2
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '2001-01-01':
+      2001-01-01:
         value: 9000.0
-      '1999-07-01':
+      1999-07-01:
         value: 10000.0
-      '1998-01-01':
+      1998-01-01:
         value: 12000.0
     metadata:
       unit: currency-FRF
   annee_3:
     description: Annee 3
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1999-07-01':
+      1999-07-01:
         value: 9000.0
-      '1998-01-01':
+      1998-01-01:
         value: 11000.0
     metadata:
       unit: currency-FRF
   annee_4:
     description: Annee 4
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1999-07-01':
+      1999-07-01:
         value: 9000.0
-      '1998-01-01':
+      1998-01-01:
         value: 10000.0
     metadata:
       unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 9000.0
     metadata:
       unit: currency-FRF
@@ -143,9 +143,9 @@ accord_3:
   annee_1:
     description: Annee 1
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 1000.0
     metadata:
       unit: currency-FRF
@@ -159,36 +159,36 @@ accord_3:
   annee_2:
     description: Annee 2
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 1000.0
     metadata:
       unit: currency-FRF
   annee_3:
     description: Annee 3
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 1000.0
     metadata:
       unit: currency-FRF
   annee_4:
     description: Annee 4
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 1000.0
     metadata:
       unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
-      '2002-01-01':
+      2002-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 1000.0
     metadata:
       unit: currency-FRF
@@ -197,9 +197,9 @@ accord_4:
   annee_1:
     description: Annee 1
     values:
-      '1999-07-01':
+      1999-07-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 4000.0
     metadata:
       unit: currency-FRF
@@ -213,36 +213,36 @@ accord_4:
   accord2:
     description: Accord2
     values:
-      '1999-07-01':
+      1999-07-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 2000.0
     metadata:
       unit: currency-FRF
   annee_3:
     description: Annee 3
     values:
-      '1999-07-01':
+      1999-07-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 1000.0
     metadata:
       unit: currency-FRF
   annee_4:
     description: Annee 4
     values:
-      '1999-07-01':
+      1999-07-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 0.0
     metadata:
       unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
-      '1999-07-01':
+      1999-07-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 0.0
     metadata:
       unit: currency-FRF
@@ -251,11 +251,11 @@ accord_5:
   annee_1:
     description: Annee 1
     values:
-      '2000-01-01':
+      2000-01-01:
         value: null
-      '1999-07-01':
+      1999-07-01:
         value: 2000.0
-      '1998-01-01':
+      1998-01-01:
         value: 3000.0
     metadata:
       unit: currency-FRF
@@ -269,40 +269,40 @@ accord_5:
   annee_2:
     description: Annee 2
     values:
-      '2000-01-01':
+      2000-01-01:
         value: null
-      '1999-07-01':
+      1999-07-01:
         value: 1000.0
-      '1998-01-01':
+      1998-01-01:
         value: 2000.0
     metadata:
       unit: currency-FRF
   annee_3:
     description: Annee 3
     values:
-      '2000-01-01':
+      2000-01-01:
         value: null
-      '1999-07-01':
+      1999-07-01:
         value: 0.0
-      '1998-01-01':
+      1998-01-01:
         value: 1000.0
     metadata:
       unit: currency-FRF
   annee_4:
     description: Annee 4
     values:
-      '2000-01-01':
+      2000-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 0.0
     metadata:
       unit: currency-FRF
   annee_5:
     description: Annee 5
     values:
-      '2000-01-01':
+      2000-01-01:
         value: null
-      '1998-01-01':
+      1998-01-01:
         value: 0.0
     metadata:
       unit: currency-FRF

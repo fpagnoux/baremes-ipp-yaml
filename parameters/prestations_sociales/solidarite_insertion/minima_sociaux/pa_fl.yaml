@@ -4,7 +4,7 @@ taux_forfait_logement:
   foyer_1_personne:
     description: Foyer - 1 personne
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.12
     metadata:
       ipp_csv_id: pa_logt1
@@ -17,7 +17,7 @@ taux_forfait_logement:
   foyer_2_personnes:
     description: Foyer - 2 personnes
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.16
     metadata:
       ipp_csv_id: pa_logt2
@@ -25,7 +25,7 @@ taux_forfait_logement:
   foyer_3_personnes:
     description: Foyer - 3 personnes
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.165
     metadata:
       ipp_csv_id: pa_logt3
@@ -34,9 +34,9 @@ metadata:
   order:
   - taux_forfait_logement
   reference:
-    '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+    2016-01-01: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
   date_parution_jo:
-    '2016-01-01': '2015-12-22'
+    2016-01-01: 2015-12-22
 documentation: |
   Notes :
   Il faut appliquer ces taux au montant du RSA en tenant compte de la composition du foyer

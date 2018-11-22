@@ -6,7 +6,7 @@ age_annulation_decote_en_fonction_date_naissance:
     annee:
       description: Année
       values:
-        '1983-04-01':
+        1983-04-01:
           value: 65.0
       metadata:
         ipp_csv_id: ageplein_base
@@ -17,7 +17,7 @@ age_annulation_decote_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '1983-04-01':
+        1983-04-01:
           value: 0.0
   metadata:
     order:
@@ -33,9 +33,9 @@ age_annulation_decote_en_fonction_date_naissance:
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 65.0
-        '1983-04-01':
+        1983-04-01:
           value: null
       metadata:
         ipp_csv_id: ageplein_0751
@@ -46,18 +46,18 @@ age_annulation_decote_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1983-04-01':
+        1983-04-01:
           value: null
   ne_apres_01_01_1952:
     description: Né après le 01/01/1952
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 65.0
-        '1983-04-01':
+        1983-04-01:
           value: null
       metadata:
         ipp_csv_id: ageplein_0152
@@ -68,20 +68,20 @@ age_annulation_decote_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 9.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1983-04-01':
+        1983-04-01:
           value: null
   ne_apres_01_01_1953:
     description: Né après le 01/01/1953
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 66.0
-        '1983-04-01':
+        1983-04-01:
           value: null
       metadata:
         ipp_csv_id: ageplein_0153
@@ -92,20 +92,20 @@ age_annulation_decote_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 2.0
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1983-04-01':
+        1983-04-01:
           value: null
   ne_apres_01_01_1954:
     description: Né après le 01/01/1954
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 66.0
-        '1983-04-01':
+        1983-04-01:
           value: null
       metadata:
         ipp_csv_id: ageplein_0154
@@ -116,22 +116,22 @@ age_annulation_decote_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 7.0
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1983-04-01':
+        1983-04-01:
           value: null
   ne_apres_01_01_1955:
     description: Né après le 01/01/1955
     annee:
       description: Année
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 67.0
-        '2011-07-01':
+        2011-07-01:
           value: 66.0
-        '1983-04-01':
+        1983-04-01:
           value: null
       metadata:
         ipp_csv_id: ageplein_0155
@@ -142,20 +142,20 @@ age_annulation_decote_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 0.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1983-04-01':
+        1983-04-01:
           value: null
   ne_apres_01_01_1956:
     description: Né après le 01/01/1956
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 67.0
-        '1983-04-01':
+        1983-04-01:
           value: null
     metadata:
       order:
@@ -164,9 +164,9 @@ age_annulation_decote_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1983-04-01':
+        1983-04-01:
           value: null
       metadata:
         ipp_csv_id: ageplein_0156
@@ -174,17 +174,17 @@ metadata:
   order:
   - age_annulation_decote_en_fonction_date_naissance
   reference:
-    '2012-01-01': Article L351-8 du Code de la sécurité sociale
-    '2011-07-01': Loi 2010-1330 du 9/11/2010, art. 20
-    '1983-04-01': Ordonnance 82-270 du 26/03/1982, art. 9
+    2012-01-01: Article L351-8 du Code de la sécurité sociale
+    2011-07-01: Loi 2010-1330 du 9/11/2010, art. 20
+    1983-04-01: Ordonnance 82-270 du 26/03/1982, art. 9
   date_parution_jo:
-    '2011-07-01': '2010-11-10'
-    '1983-04-01': '1982-03-28'
+    2011-07-01: 2010-11-10
+    1983-04-01: 1982-03-28
   notes:
-    '2012-01-01': Augmentation mécanique, prévue dans cet article de loi, suite à
+    2012-01-01: Augmentation mécanique, prévue dans cet article de loi, suite à
       l'augmentation de l'âge d'ouverture des droits (Loi 2011-1906 du 21/12/2011,
       art. 88).
-    '2011-07-01': "Modification de l'art.  L351-8 du CSS : âge d'obtention du taux\
+    2011-07-01: "Modification de l'art.  L351-8 du CSS : âge d'obtention du taux\
       \ plein = AOD + 5 ans"
 documentation: |
   Lecture :

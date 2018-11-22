@@ -4,11 +4,11 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 2012.0
-      '2010-01-01':
+      2010-01-01:
         value: 2011.0
-      '2009-01-01':
+      2009-01-01:
         value: 2010.0
   metadata:
     order:
@@ -18,25 +18,25 @@ metadata:
   - date_entree_en_vigueur
   - compte_epargne_co_developpement
   reference:
-    '2010-01-01': LF pour 2011 - art. 107
-    '2009-01-01': LF pour 2009 - art. 89
+    2010-01-01: LF pour 2011 - art. 107
+    2009-01-01: LF pour 2009 - art. 89
   notes:
-    '2011-01-01': |-
+    2011-01-01: |-
       Les comptes existants deviennent de simples comptes épargne.
       Article 107 de la loi  n°2010-1657  du  29  décembre  2010  de  finances  pour  2011
-    '2010-01-01': |-
+    2010-01-01: |-
       Dispositif abrogé de façon anticipée à compter de l'imposition des revenus de 2010. 
       B.O.I. N° 8 du 15/01/2010 [BOI 5B-5-10 ]
-    '2009-01-01': Avant les revenus 2009, les versements sur le compte étaient déductibles
+    2009-01-01: Avant les revenus 2009, les versements sur le compte étaient déductibles
       du revenu global.
 compte_epargne_co_developpement:
   description: Compte épargne co-developpement
   taux:
     description: Taux
     values:
-      '2011-01-01':
+      2011-01-01:
         value: null
-      '2009-01-01':
+      2009-01-01:
         value: 0.4
     metadata:
       ipp_csv_id: tx_codev
@@ -49,9 +49,9 @@ compte_epargne_co_developpement:
   plafond_par_personne:
     description: Plafond par personne
     values:
-      '2011-01-01':
+      2011-01-01:
         value: null
-      '2009-01-01':
+      2009-01-01:
         value: 20000.0
     metadata:
       ipp_csv_id: plaf_codev
@@ -59,9 +59,9 @@ compte_epargne_co_developpement:
   plafond_en_revenu_net_global:
     description: Plafond en % du revenu net global
     values:
-      '2011-01-01':
+      2011-01-01:
         value: null
-      '2009-01-01':
+      2009-01-01:
         value: 0.25
     metadata:
       ipp_csv_id: base_codev

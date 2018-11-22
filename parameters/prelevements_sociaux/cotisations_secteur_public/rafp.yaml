@@ -5,7 +5,7 @@ taux_cotisation:
   agent:
     description: Agent
     values:
-      '2005-01-01':
+      2005-01-01:
         value: 0.05
     metadata:
       ipp_csv_id: rafp_s
@@ -17,7 +17,7 @@ taux_cotisation:
   etat:
     description: Etat
     values:
-      '2005-01-01':
+      2005-01-01:
         value: 0.05
     metadata:
       ipp_csv_id: rafp_p
@@ -26,9 +26,9 @@ metadata:
   order:
   - taux_cotisation
   reference:
-    '2005-01-01': Décret 2004-569 du 18/06/2004
+    2005-01-01: Décret 2004-569 du 18/06/2004
   date_parution_jo:
-    '2005-01-01': '2004-06-19'
+    2005-01-01: 2004-06-19
 documentation: |
   Note :
   Le RAFP est un régime obligatoire à points permettant aux fonctionnaires d'acquérir une retraite additionnelle.

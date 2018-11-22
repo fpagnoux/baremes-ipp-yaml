@@ -4,37 +4,37 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 2016.0
-      '2013-01-01':
+      2013-01-01:
         value: 2014.0
-      '2011-01-01':
+      2011-01-01:
         value: 2012.0
-      '2010-01-01':
+      2010-01-01:
         value: 2011.0
-      '2009-01-01':
+      2009-01-01:
         value: 2010.0
-      '2008-01-01':
+      2008-01-01:
         value: 2009.0
-      '2007-01-01':
+      2007-01-01:
         value: 2008.0
-      '2006-01-01':
+      2006-01-01:
         value: 2007.0
-      '2002-01-01':
+      2002-01-01:
         value: 2003.0
-      '2001-01-01':
+      2001-01-01:
         value: 2002.0
-      '1999-01-01':
+      1999-01-01:
         value: 2000.0
-      '1998-01-01':
+      1998-01-01:
         value: 1999.0
-      '1995-01-01':
+      1995-01-01:
         value: 1996.0
-      '1994-01-01':
+      1994-01-01:
         value: 1995.0
-      '1992-01-01':
+      1992-01-01:
         value: 1993.0
-      '1991-01-01':
+      1991-01-01:
         value: 1992.0
   metadata:
     order:
@@ -44,30 +44,30 @@ metadata:
   - date_entree_en_vigueur
   - emprunts_contractes_reprise_une_pme
   reference:
-    '2015-01-01': Loi 2015-1786 du 29 décembre 2015 de finances rectificative pour
+    2015-01-01: Loi 2015-1786 du 29 décembre 2015 de finances rectificative pour
       2015  - art. 26, 2°
-    '2013-01-01': BOI-IR-RICI-130-20 du 06/03/2014
-    '2011-01-01': Loi 2011-1978 du 28 décembre 2011 - art. 59 (V)
-    '2010-01-01': Loi 2010-1657 du 29 décembre 2010 - art. 38 (V)
-    '2009-01-01': Décret 2009-389 du 7 avril 2009 - art. 1
-    '2008-01-01': Loi 2008-1443 du 30 décembre 2008 - art. 114 (V)
-    '2007-01-01': Loi 2008-776 du 4 août 2008 - art. 67 (V)
-    '2006-01-01': Loi 2006-1771 du 30 décembre 2006 - art. 56 JORF 31 décembre 2006
+    2013-01-01: BOI-IR-RICI-130-20 du 06/03/2014
+    2011-01-01: Loi 2011-1978 du 28 décembre 2011 - art. 59 (V)
+    2010-01-01: Loi 2010-1657 du 29 décembre 2010 - art. 38 (V)
+    2009-01-01: Décret 2009-389 du 7 avril 2009 - art. 1
+    2008-01-01: Loi 2008-1443 du 30 décembre 2008 - art. 114 (V)
+    2007-01-01: Loi 2008-776 du 4 août 2008 - art. 67 (V)
+    2006-01-01: Loi 2006-1771 du 30 décembre 2006 - art. 56 JORF 31 décembre 2006
   notes:
-    '1999-01-01': Augmentation des seuils des chiffres d'affaires (de 140 à 260 millions
+    1999-01-01: Augmentation des seuils des chiffres d'affaires (de 140 à 260 millions
       FRF) ou de total de bilan (de 70 à 175 millions FRF)
-    '1995-01-01': 'plaf_PME2 : sommes versées à partir du 01/08/1995'
-    '1994-01-01': 'plaf_PME1 : sommes versées avant le 31/07/1995'
+    1995-01-01: 'plaf_PME2 : sommes versées à partir du 01/08/1995'
+    1994-01-01: 'plaf_PME1 : sommes versées avant le 31/07/1995'
 emprunts_contractes_reprise_une_pme:
   description: Emprunts contractés pour la reprise d'une PME
   taux:
     description: Taux
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.18
-      '1992-01-01':
+      1992-01-01:
         value: 0.25
-      '1991-01-01':
+      1991-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_pme
@@ -80,11 +80,11 @@ emprunts_contractes_reprise_une_pme:
   plafond_1:
     description: Plafond 1
     values:
-      '1998-01-01':
+      1998-01-01:
         value: null
-      '1992-01-01':
+      1992-01-01:
         value: 25000.0
-      '1991-01-01':
+      1991-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_pme1
@@ -92,21 +92,21 @@ emprunts_contractes_reprise_une_pme:
   plafond_2:
     description: Plafond 2
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 50000.0
-      '2002-01-01':
+      2002-01-01:
         value: 20000.0
-      '2001-01-01':
+      2001-01-01:
         value: 5717.0
-      '1995-01-01':
+      1995-01-01:
         value: 37500.0
-      '1991-01-01':
+      1991-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_pme2
       unit:
-        '2001-01-01': currency-EUR
-        '1995-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1995-01-01: currency-FRF
 documentation: |
   Notes : 
   (1) Souscription au capital des PME : 1° du I de l'article 199 terdecies OA du CGI

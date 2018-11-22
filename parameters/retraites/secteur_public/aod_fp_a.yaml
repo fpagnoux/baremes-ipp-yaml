@@ -7,9 +7,9 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     annee:
       description: Année
       values:
-        '1985-01-01':
+        1985-01-01:
           value: 55.0
-        '1976-01-01':
+        1976-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_base
@@ -20,9 +20,9 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '1985-01-01':
+        1985-01-01:
           value: 0.0
-        '1976-01-01':
+        1976-01-01:
           value: null
   metadata:
     order:
@@ -38,9 +38,9 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 55.0
-        '1976-01-01':
+        1976-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0751
@@ -51,18 +51,18 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1976-01-01':
+        1976-01-01:
           value: null
   ne_apres_01_01_1952:
     description: Né après le 01/01/1952
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 55.0
-        '1976-01-01':
+        1976-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0152
@@ -73,20 +73,20 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 9.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1976-01-01':
+        1976-01-01:
           value: null
   ne_apres_01_01_1953:
     description: Né après le 01/01/1953
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 56.0
-        '1976-01-01':
+        1976-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0153
@@ -97,20 +97,20 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 2.0
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1976-01-01':
+        1976-01-01:
           value: null
   ne_apres_01_01_1954:
     description: Né après le 01/01/1954
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 56.0
-        '1976-01-01':
+        1976-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0154
@@ -121,22 +121,22 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 7.0
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1976-01-01':
+        1976-01-01:
           value: null
   ne_apres_01_01_1955:
     description: Né après le 01/01/1955
     annee:
       description: Année
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 57.0
-        '2011-07-01':
+        2011-07-01:
           value: 56.0
-        '1976-01-01':
+        1976-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0155
@@ -147,20 +147,20 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 0.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1976-01-01':
+        1976-01-01:
           value: null
   ne_apres_01_01_1956:
     description: Né après le 01/01/1956
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 57.0
-        '1976-01-01':
+        1976-01-01:
           value: null
     metadata:
       order:
@@ -169,9 +169,9 @@ age_ouverture_droits_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1976-01-01':
+        1976-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0156
@@ -179,18 +179,18 @@ metadata:
   order:
   - age_ouverture_droits_fonction_publique_active_selon_annee_naissance
   reference:
-    '2012-01-01': Décret 2011-2103 du 30/12/2011, art. 2
-    '2011-07-01': Loi 2010-1330 du 09/11/2010, art. 22 ; Décret 2011-754 du 28/06/2011,
+    2012-01-01: Décret 2011-2103 du 30/12/2011, art. 2
+    2011-07-01: Loi 2010-1330 du 09/11/2010, art. 22 ; Décret 2011-754 du 28/06/2011,
       art. 2
-    '1985-01-01': Loi 84-834 du 13/09/ 1984
-    '1976-01-01': Loi 75-1280 du 30 décembre 1975
+    1985-01-01: Loi 84-834 du 13/09/ 1984
+    1976-01-01: Loi 75-1280 du 30 décembre 1975
   date_parution_jo:
-    '2012-01-01': '2011-12-31'
-    '2011-07-01': 10/11/2010 ; 29/06/2011
-    '1985-01-01': '1984-09-14'
-    '1976-01-01': '1975-12-31'
+    2012-01-01: 2011-12-31
+    2011-07-01: 10/11/2010 ; 29/06/2011
+    1985-01-01: 1984-09-14
+    1976-01-01: 1975-12-31
   notes:
-    '2012-01-01': En application de la loi 2010-1330 du 09/11/2010, art. 22 (modifié
+    2012-01-01: En application de la loi 2010-1330 du 09/11/2010, art. 22 (modifié
       par loi 2011-1906 du 21/12/2011, art. 88)
 documentation: |
   Lecture :

@@ -2,15 +2,15 @@ description: Forfait social
 taux_plein:
   description: Taux plein
   values:
-    '2012-08-01':
+    2012-08-01:
       value: 0.2
-    '2012-01-01':
+    2012-01-01:
       value: 0.08
-    '2011-01-01':
+    2011-01-01:
       value: 0.06
-    '2010-01-01':
+    2010-01-01:
       value: 0.04
-    '2009-01-01':
+    2009-01-01:
       value: 0.02
   metadata:
     ipp_csv_id: forf_soc_tx1
@@ -21,29 +21,29 @@ metadata:
   - taux_reduit_1
   - taux_reduit_2
   reference:
-    '2016-01-01': Loi 2015-990 du 06/08/2015 ("loi Macron"), art. 149
-    '2012-08-01': Loi 2012-958 du 16/08/2012 (LFR pour 2012), art. 33
-    '2012-01-01': Loi 2011-1906 du 21/12/2011, art. 12 (LFSS pour 2012)
-    '2011-01-01': Loi 2010-1594 du 20/12/2010 (LFSS pour 2011), art. 16 et 19
-    '2010-01-01': Loi 2009-1646 du 24/12/2009 (LFSS pour 2010), art. 16
-    '2009-01-01': Loi 2008-1330 du 17/12/2008 (LFSS pour 2009),  art. 13
+    2016-01-01: Loi 2015-990 du 06/08/2015 ("loi Macron"), art. 149
+    2012-08-01: Loi 2012-958 du 16/08/2012 (LFR pour 2012), art. 33
+    2012-01-01: Loi 2011-1906 du 21/12/2011, art. 12 (LFSS pour 2012)
+    2011-01-01: Loi 2010-1594 du 20/12/2010 (LFSS pour 2011), art. 16 et 19
+    2010-01-01: Loi 2009-1646 du 24/12/2009 (LFSS pour 2010), art. 16
+    2009-01-01: Loi 2008-1330 du 17/12/2008 (LFSS pour 2009),  art. 13
   date_parution_jo:
-    '2016-01-01': '2015-08-07'
-    '2012-08-01': '2012-12-17'
-    '2012-01-01': '2011-12-22'
-    '2011-01-01': '2010-12-21'
-    '2010-01-01': '2009-12-27'
-    '2009-01-01': '2008-12-18'
+    2016-01-01: 2015-08-07
+    2012-08-01: 2012-12-17
+    2012-01-01: 2011-12-22
+    2011-01-01: 2010-12-21
+    2010-01-01: 2009-12-27
+    2009-01-01: 2008-12-18
   notes:
-    '2016-01-01': Création du taux réduit intermédiaire de 16% par la loi dite "loi
+    2016-01-01: Création du taux réduit intermédiaire de 16% par la loi dite "loi
       Macron" (art.149) pour les versements au PERCO.
-    '2012-08-01': Création du taux réduit de 8 %.
+    2012-08-01: Création du taux réduit de 8 %.
 taux_reduit_1:
   description: Taux réduit 1
   values:
-    '2012-08-01':
+    2012-08-01:
       value: 0.08
-    '2009-01-01':
+    2009-01-01:
       value: null
   metadata:
     ipp_csv_id: forf_soc_tx2
@@ -51,9 +51,9 @@ taux_reduit_1:
 taux_reduit_2:
   description: Taux réduit 2
   values:
-    '2016-01-01':
+    2016-01-01:
       value: 0.16
-    '2009-01-01':
+    2009-01-01:
       value: null
   metadata:
     unit: /1

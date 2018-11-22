@@ -2,11 +2,11 @@ description: 'Allocations familiales (AF): conditions de ressources'
 plafond_ressources_tranche_1:
   description: Plafond de ressources - Tranche 1
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 67542.0
-    '2016-01-01':
+    2016-01-01:
       value: 67408.0
-    '2015-07-01':
+    2015-07-01:
       value: 67140.0
   metadata:
     ipp_csv_id: plaf_t1_2enf
@@ -17,27 +17,27 @@ metadata:
   - plafond_ressources_tranche_2
   - majoration_ressource_par_enfant_supplementaire
   reference:
-    '2018-01-01': |-
+    2018-01-01: |-
       Circulaire DSS/SD2B/2017/352 du 22/12/2017
       Arrêté du 27/12/2017
-    '2016-01-01': Circulaire DSS/SD2B/2015/371 du 18/12/2015
-    '2015-07-01': Décret 2015-611 du 03/06/2015
+    2016-01-01: Circulaire DSS/SD2B/2015/371 du 18/12/2015
+    2015-07-01: Décret 2015-611 du 03/06/2015
   date_parution_jo:
-    '2018-01-01': '2017-12-29'
-    '2016-01-01': '2015-12-12'
-    '2015-07-01': '2015-06-05'
+    2018-01-01: 2017-12-29
+    2016-01-01: 2015-12-12
+    2015-07-01: 2015-06-05
   notes:
-    '2018-01-01': Revalorisation des plafonds de 0,2%
-    '2016-01-01': Pas de changement en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
-    '2015-07-01': Création des plafonds de ressources des allocations familiales
+    2018-01-01: Revalorisation des plafonds de 0,2%
+    2016-01-01: Pas de changement en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
+    2015-07-01: Création des plafonds de ressources des allocations familiales
 plafond_ressources_tranche_2:
   description: Plafond de ressources - Tranche 2
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 90026.0
-    '2016-01-01':
+    2016-01-01:
       value: 89847.0
-    '2015-07-01':
+    2015-07-01:
       value: 89490.0
   metadata:
     ipp_csv_id: plaf_t2_2enf
@@ -45,11 +45,11 @@ plafond_ressources_tranche_2:
 majoration_ressource_par_enfant_supplementaire:
   description: Majoration ressource par enfant supplémentaire
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 5628.0
-    '2016-01-01':
+    2016-01-01:
       value: 5617.0
-    '2015-07-01':
+    2015-07-01:
       value: 5595.0
   metadata:
     ipp_csv_id: plaf_enf_sup

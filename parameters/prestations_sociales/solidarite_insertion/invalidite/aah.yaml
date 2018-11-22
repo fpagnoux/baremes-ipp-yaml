@@ -2,7 +2,7 @@ description: Allocations aux adultes handicapés (AAH)
 age_minimal:
   description: Age minimal
   values:
-    '2000-01-01':
+    2000-01-01:
       value: 20.0
   metadata:
     ipp_csv_id: age_min_aah
@@ -15,45 +15,45 @@ metadata:
   - majoration_plafond_couple
   - majoration_par_enfant_supplementaire
   reference:
-    '2018-04-01': Décret 2018-328 du 04/05/2017 - art. 1
-    '2017-04-01': Décret 2017-710 du 03/05/2017 - art. 1
-    '2016-04-01': Décret 2016-535 du 27/04/2016 - art. 1 (V)
-    '2015-09-01': Décret 2015-1233 du 6/10/2015 - art. 1 (V)
-    '2014-09-01': Décret 2014-1129 du 3/10/2014 - art. 1 (V)
-    '2013-09-01': Décret 2013-831 du 17/09/2013 - art. 1 (V)
-    '2012-09-01': Décret 2012-486 du 13/04/2012 - art. 1 (V)
-    '2012-04-01': Décret 2012-486 du 13/04/2012 - art. 1 (V)
-    '2011-09-01': Décret 2011-658 du 10/06/2011 - art. 1 (V)
-    '2011-04-01': Décret 2011-658 du 10/06/2011 - art. 1 (V)
-    '2010-09-01': Décret 2010-307 du 22/03/2010 - art. 1 (V)
-    '2010-04-01': Décret 2010-307 du 22/03/2010 - art. 1 (V)
-    '2009-09-01': Décret 2009-353 du 31/03/2009 - art. 1 (V)
-    '2009-04-01': Décret 2009-353 du 31/03/2009 - art. 1 (V)
-    '2008-09-01': Décret 2008-988 du 18/09/2008
-    '2005-01-01': Circulaire DGAS/1C 2005-411 du 07/09/2005
-    '2004-01-01': Circulaire DGAS/1C 2003-630 du 30/12/2004
+    2018-04-01: Décret 2018-328 du 04/05/2017 - art. 1
+    2017-04-01: Décret 2017-710 du 03/05/2017 - art. 1
+    2016-04-01: Décret 2016-535 du 27/04/2016 - art. 1 (V)
+    2015-09-01: Décret 2015-1233 du 6/10/2015 - art. 1 (V)
+    2014-09-01: Décret 2014-1129 du 3/10/2014 - art. 1 (V)
+    2013-09-01: Décret 2013-831 du 17/09/2013 - art. 1 (V)
+    2012-09-01: Décret 2012-486 du 13/04/2012 - art. 1 (V)
+    2012-04-01: Décret 2012-486 du 13/04/2012 - art. 1 (V)
+    2011-09-01: Décret 2011-658 du 10/06/2011 - art. 1 (V)
+    2011-04-01: Décret 2011-658 du 10/06/2011 - art. 1 (V)
+    2010-09-01: Décret 2010-307 du 22/03/2010 - art. 1 (V)
+    2010-04-01: Décret 2010-307 du 22/03/2010 - art. 1 (V)
+    2009-09-01: Décret 2009-353 du 31/03/2009 - art. 1 (V)
+    2009-04-01: Décret 2009-353 du 31/03/2009 - art. 1 (V)
+    2008-09-01: Décret 2008-988 du 18/09/2008
+    2005-01-01: Circulaire DGAS/1C 2005-411 du 07/09/2005
+    2004-01-01: Circulaire DGAS/1C 2003-630 du 30/12/2004
   date_parution_jo:
-    '2018-04-01': '2017-05-04'
-    '2017-04-01': '2017-05-04'
-    '2016-04-01': '2016-05-03'
-    '2015-09-01': '2015-10-07'
-    '2014-09-01': '2014-10-05'
-    '2013-09-01': '2013-09-19'
-    '2012-09-01': '2012-04-15'
-    '2012-04-01': '2012-04-15'
-    '2011-09-01': '2011-06-12'
-    '2011-04-01': '2011-06-12'
-    '2010-09-01': '2010-03-24'
-    '2010-04-01': '2010-03-24'
-    '2009-09-01': '2009-04-01'
-    '2009-04-01': '2009-04-01'
-    '2008-09-01': '2008-09-21'
+    2018-04-01: 2017-05-04
+    2017-04-01: 2017-05-04
+    2016-04-01: 2016-05-03
+    2015-09-01: 2015-10-07
+    2014-09-01: 2014-10-05
+    2013-09-01: 2013-09-19
+    2012-09-01: 2012-04-15
+    2012-04-01: 2012-04-15
+    2011-09-01: 2011-06-12
+    2011-04-01: 2011-06-12
+    2010-09-01: 2010-03-24
+    2010-04-01: 2010-03-24
+    2009-09-01: 2009-04-01
+    2009-04-01: 2009-04-01
+    2008-09-01: 2008-09-21
   notes:
-    '2016-04-01': https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000020037365&dateTexte=29990101&categorieLien=cid
+    2016-04-01: https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006073189&idArticle=LEGIARTI000020037365&dateTexte=29990101&categorieLien=cid
 taux_incapcite:
   description: Taux d'incapcité
   values:
-    '2000-01-01':
+    2000-01-01:
       value: 0.8
   metadata:
     ipp_csv_id: tx_incapacite_aah
@@ -61,53 +61,53 @@ taux_incapcite:
 montant:
   description: Montant
   values:
-    '2018-04-01':
+    2018-04-01:
       value: 819.0
-    '2017-04-01':
+    2017-04-01:
       value: 810.89
-    '2016-04-01':
+    2016-04-01:
       value: 808.46
-    '2015-09-01':
+    2015-09-01:
       value: 807.65
-    '2014-09-01':
+    2014-09-01:
       value: 800.45
-    '2013-09-01':
+    2013-09-01:
       value: 790.18
-    '2012-09-01':
+    2012-09-01:
       value: 776.59
-    '2012-04-01':
+    2012-04-01:
       value: 759.98
-    '2011-09-01':
+    2011-09-01:
       value: 743.62
-    '2011-04-01':
+    2011-04-01:
       value: 727.61
-    '2010-09-01':
+    2010-09-01:
       value: 711.95
-    '2010-04-01':
+    2010-04-01:
       value: 696.63
-    '2009-09-01':
+    2009-09-01:
       value: 681.63
-    '2009-04-01':
+    2009-04-01:
       value: 666.96
-    '2008-09-01':
+    2008-09-01:
       value: 652.6
-    '2008-01-01':
+    2008-01-01:
       value: 628.1
-    '2007-01-01':
+    2007-01-01:
       value: 621.27
-    '2006-01-01':
+    2006-01-01:
       value: 610.28
-    '2005-01-01':
+    2005-01-01:
       value: 599.49
-    '2004-01-01':
+    2004-01-01:
       value: 587.74
-    '2003-01-01':
+    2003-01-01:
       value: 577.92
-    '2002-01-01':
+    2002-01-01:
       value: 569.38
-    '2001-01-01':
+    2001-01-01:
       value: 557.12
-    '2000-01-01':
+    2000-01-01:
       value: 545.13
   metadata:
     ipp_csv_id: montant_80_aah
@@ -115,14 +115,14 @@ montant:
 plafond_ressources_en_multiple_montant_base:
   description: Plafond de ressources (en multiple du montant de base)
   values:
-    '2000-01-01':
+    2000-01-01:
       value: 12.0
   metadata:
     ipp_csv_id: plaf_ressources_aah
 majoration_plafond_couple:
   description: Majoration du plafond pour un couple
   values:
-    '2000-01-01':
+    2000-01-01:
       value: 1.0
   metadata:
     ipp_csv_id: maj_couple_aah
@@ -130,7 +130,7 @@ majoration_plafond_couple:
 majoration_par_enfant_supplementaire:
   description: Majoration par enfant supplémentaire
   values:
-    '2000-01-01':
+    2000-01-01:
       value: 0.5
   metadata:
     ipp_csv_id: maj_enf_aah

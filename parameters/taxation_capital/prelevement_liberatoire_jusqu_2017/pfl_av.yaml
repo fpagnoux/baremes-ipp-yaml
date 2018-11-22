@@ -9,9 +9,9 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         moins de 2 ans 
         (2)
       values:
-        '1998-01-01':
+        1998-01-01:
           value: null
-        '1983-01-01':
+        1983-01-01:
           value: 0.45
       metadata:
         ipp_csv_id: tx_pl_av_2
@@ -28,9 +28,9 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         2 à 4 ans 
         (3)
       values:
-        '1998-01-01':
+        1998-01-01:
           value: null
-        '1983-01-01':
+        1983-01-01:
           value: 0.25
       metadata:
         ipp_csv_id: tx_pl_av_24
@@ -40,9 +40,9 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         4 à 6 ans
         (4)
       values:
-        '1998-01-01':
+        1998-01-01:
           value: null
-        '1983-01-01':
+        1983-01-01:
           value: 0.15
       metadata:
         ipp_csv_id: tx_pl_av_46
@@ -51,9 +51,9 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
       description: 6 ans et plus (pour les primes versées avant le 01/01/1998 et les
         produits afférents acquis après cette date)
       values:
-        '2018-01-01':
+        2018-01-01:
           value: null
-        '1983-01-01':
+        1983-01-01:
           value: 0.0
       metadata:
         ipp_csv_id: tx_pl_av_6a
@@ -62,11 +62,11 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
       description: 6 ans et plus (pour les produits acquis après le 01/01/1998) avec
         abattement sur l'IR (5)
       values:
-        '2018-01-01':
+        2018-01-01:
           value: null
-        '1998-01-01':
+        1998-01-01:
           value: 0.075
-        '1983-01-01':
+        1983-01-01:
           value: null
       metadata:
         ipp_csv_id: tx_pl_av_6b
@@ -82,11 +82,11 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
     moins_4_ans:
       description: moins de 4 ans
       values:
-        '2018-01-01':
+        2018-01-01:
           value: null
-        '1990-01-01':
+        1990-01-01:
           value: 0.35
-        '1983-01-01':
+        1983-01-01:
           value: null
       metadata:
         ipp_csv_id: tx_pl_av_4
@@ -100,11 +100,11 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
     4_8_ans:
       description: 4 à 8 ans
       values:
-        '2018-01-01':
+        2018-01-01:
           value: null
-        '1990-01-01':
+        1990-01-01:
           value: 0.15
-        '1983-01-01':
+        1983-01-01:
           value: null
       metadata:
         ipp_csv_id: tx_pl_av_48
@@ -113,11 +113,11 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
       description: 8 ans et plus (pour les primes versées avant le 01/01/1998 et les
         produits afférents acquis après cette date)
       values:
-        '2018-01-01':
+        2018-01-01:
           value: null
-        '1990-01-01':
+        1990-01-01:
           value: 0.0
-        '1983-01-01':
+        1983-01-01:
           value: null
       metadata:
         ipp_csv_id: tx_pl_av_8
@@ -126,11 +126,11 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
       description: 8 ans et plus (pour les produits acquis après le 01/01/1998) avec
         abattement sur l'IR (5)
       values:
-        '2018-01-01':
+        2018-01-01:
           value: null
-        '1998-01-01':
+        1998-01-01:
           value: 0.075
-        '1983-01-01':
+        1983-01-01:
           value: null
       metadata:
         ipp_csv_id: tx_pl_av
@@ -138,11 +138,11 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
   avec_anonymat:
     description: Avec anonymat
     values:
-      '2018-01-01':
+      2018-01-01:
         value: null
-      '1999-04-01':
+      1999-04-01:
         value: 0.6
-      '1983-01-01':
+      1983-01-01:
         value: 0.5
     metadata:
       ipp_csv_id: tx_pl_av_anonym
@@ -151,13 +151,13 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
     description: Produits bénéficiant à des personnes établies dans un Etat "non-coopératif"
       (6)
     values:
-      '2018-01-01':
+      2018-01-01:
         value: null
-      '2013-01-01':
+      2013-01-01:
         value: 0.75
-      '2010-03-01':
+      2010-03-01:
         value: 0.5
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       unit: /1
@@ -165,29 +165,29 @@ metadata:
   order:
   - bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat
   reference:
-    '2018-01-01': Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+    2018-01-01: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
       125-0 A, 200 A et art 117 quater du CGI)
-    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 9
-    '2010-03-01': Loi 2009-1674 du 30/12/2009, art. 22
-    '1999-04-01': Loi 98-1266 du 30/12/1998, art. 6 (LF pour 1999)
-    '1998-01-01': Loi 97-1269 du 30/12/1997, art. 21 (LF pour 1998)
-    '1990-01-01': Loi 89-936 du 29/12/1989, art. 112 (LF pour 1990)
-    '1983-01-01': Loi 82-1126 du 29/12/1982, art. 14 (LF pour 1983)
+    2013-01-01: Loi 2012-1509 du 29/12/2012, art. 9
+    2010-03-01: Loi 2009-1674 du 30/12/2009, art. 22
+    1999-04-01: Loi 98-1266 du 30/12/1998, art. 6 (LF pour 1999)
+    1998-01-01: Loi 97-1269 du 30/12/1997, art. 21 (LF pour 1998)
+    1990-01-01: Loi 89-936 du 29/12/1989, art. 112 (LF pour 1990)
+    1983-01-01: Loi 82-1126 du 29/12/1982, art. 14 (LF pour 1983)
   date_parution_jo:
-    '2018-01-01': '2017-12-31'
-    '2013-01-01': '2012-12-30'
-    '2010-03-01': '2009-12-31'
-    '1999-04-01': '1998-12-31'
-    '1998-01-01': '1997-12-31'
-    '1990-01-01': '1989-12-30'
-    '1983-01-01': '1997-12-30'
+    2018-01-01: 2017-12-31
+    2013-01-01: 2012-12-30
+    2010-03-01: 2009-12-31
+    1999-04-01: 1998-12-31
+    1998-01-01: 1997-12-31
+    1990-01-01: 1989-12-30
+    1983-01-01: 1997-12-30
   notes:
-    '2018-01-01': Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
+    2018-01-01: Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
       unique non-libératoire, dont la valeur est telle que la somme du taux de ce
       prélèvement et des prélèvements sociaux est de 30%.
-    '1998-01-01': Les bons ou contrats principalement investis en actions sont exonérés
+    1998-01-01: Les bons ou contrats principalement investis en actions sont exonérés
       d'IR après huit ans.
-    '1983-01-01': Création de l'art. 125-0 A du CGI
+    1983-01-01: Création de l'art. 125-0 A du CGI
 documentation: |
   Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.
   (2) Au 1er janvier 1992, tous les contrats souscrits entre le 1/1/83 et le 31/12/89 ont plus de deux ans.

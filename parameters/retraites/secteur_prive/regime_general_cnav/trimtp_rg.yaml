@@ -4,7 +4,7 @@ nombre_trimestres_cibles_par_generation:
   avant_1934:
     description: Avant 1934
     values:
-      '1983-01-01':
+      1983-01-01:
         value: 150.0
     metadata:
       ipp_csv_id: trimplein_base
@@ -28,126 +28,126 @@ nombre_trimestres_cibles_par_generation:
   '1934_01_01_00_00_00':
     description: '1934-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 151.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0134
   '1935_01_01_00_00_00':
     description: '1935-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 152.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0135
   '1936_01_01_00_00_00':
     description: '1936-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 153.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0136
   '1937_01_01_00_00_00':
     description: '1937-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 154.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0137
   '1938_01_01_00_00_00':
     description: '1938-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 155.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0138
   '1939_01_01_00_00_00':
     description: '1939-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 156.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0139
   '1940_01_01_00_00_00':
     description: '1940-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 157.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0140
   '1941_01_01_00_00_00':
     description: '1941-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 158.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0141
   '1942_01_01_00_00_00':
     description: '1942-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 159.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0142
   '1943_01_01_00_00_00':
     description: '1943-01-01 00:00:00'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 160.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0143
   '1949_01_01_00_00_00':
     description: '1949-01-01 00:00:00'
     values:
-      '2009-01-01':
+      2009-01-01:
         value: 161.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0149
   '1950_01_01_00_00_00':
     description: '1950-01-01 00:00:00'
     values:
-      '2009-01-01':
+      2009-01-01:
         value: 162.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0150
   '1951_01_01_00_00_00':
     description: '1951-01-01 00:00:00'
     values:
-      '2009-01-01':
+      2009-01-01:
         value: 163.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0151
   '1952_01_01_00_00_00':
     description: '1952-01-01 00:00:00'
     values:
-      '2009-01-01':
+      2009-01-01:
         value: 164.0
-      '1983-01-01':
+      1983-01-01:
         value: null
     metadata:
       ipp_csv_id: trimplein_0152
@@ -163,99 +163,99 @@ metadata:
   - '1970_01_01_00_00_00'
   - '1973_01_01_00_00_00'
   reference:
-    '2015-01-01': Loi 2014-40 du 20/01/2014, art. 2
-    '2013-01-01': Décret 2012-1487 du 27/12/2012
-    '2012-01-01': Loi 2010-1330 du 9/11/2010, art. 17 ; Décret 2010-1734 du 30/12/2010,
+    2015-01-01: Loi 2014-40 du 20/01/2014, art. 2
+    2013-01-01: Décret 2012-1487 du 27/12/2012
+    2012-01-01: Loi 2010-1330 du 9/11/2010, art. 17 ; Décret 2010-1734 du 30/12/2010,
       art. 9
-    '2009-01-01': Circulaire CNAV 2008/41 du 25/07/2008
-    '1994-01-01': Circulaire CNAV 103/93 du 30/12/1993
-    '1983-01-01': Décret 82-628 du 21/07/1982
+    2009-01-01: Circulaire CNAV 2008/41 du 25/07/2008
+    1994-01-01: Circulaire CNAV 103/93 du 30/12/1993
+    1983-01-01: Décret 82-628 du 21/07/1982
   date_parution_jo:
-    '2015-01-01': '2014-01-21'
-    '2013-01-01': '2012-12-29'
-    '2012-01-01': 10/11/2010 ; 31/12/2010
-    '1983-01-01': '1982-07-23'
+    2015-01-01: 2014-01-21
+    2013-01-01: 2012-12-29
+    2012-01-01: 10/11/2010 ; 31/12/2010
+    1983-01-01: 1982-07-23
   notes:
-    '2015-01-01': Circulaire CNAV 2014-20 du 27/02/2014 de mise en application de
+    2015-01-01: Circulaire CNAV 2014-20 du 27/02/2014 de mise en application de
       l’article 2 de la loi du 20/01/2014 revient sur cette procédure et définit par
       une disposition législative, en insérant l’article L. 161-17-3 CSS
-    '2013-01-01': Circulaire CNAV 2013-14 du 25/02/2013 pour les modalités de mise
+    2013-01-01: Circulaire CNAV 2013-14 du 25/02/2013 pour les modalités de mise
       en application du décret 2012-1487.
-    '2012-01-01': Circulaire CNAV 2011/20 du 01/03/2011 transcrivant l'application
+    2012-01-01: Circulaire CNAV 2011/20 du 01/03/2011 transcrivant l'application
       de l'art. 17 de la loi 2010-1330 du 09/11/2010.
-    '1994-01-01': Article L351-1 du code de la sécurité sociale
-    '1983-01-01': Voir également la circulaire n°22/83 du 16/02/1983 relative à l'application
+    1994-01-01: Article L351-1 du code de la sécurité sociale
+    1983-01-01: Voir également la circulaire n°22/83 du 16/02/1983 relative à l'application
       dans le régime général de la sécurité sociale des ordonnances n° 82-270  du
       26/03/1982 et n° 82-290 du 30/03/1982 et du décret n°82-628 du 21/07/1982
 '1953_01_01_00_00_00':
   description: '1953-01-01 00:00:00'
   values:
-    '2012-01-01':
+    2012-01-01:
       value: 165.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0153
 '1955_01_01_00_00_00':
   description: '1955-01-01 00:00:00'
   values:
-    '2013-01-01':
+    2013-01-01:
       value: 166.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0155
 '1958_01_01_00_00_00':
   description: '1958-01-01 00:00:00'
   values:
-    '2015-01-01':
+    2015-01-01:
       value: 167.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0158
 '1961_01_01_00_00_00':
   description: '1961-01-01 00:00:00'
   values:
-    '2015-01-01':
+    2015-01-01:
       value: 168.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0161
 '1964_01_01_00_00_00':
   description: '1964-01-01 00:00:00'
   values:
-    '2015-01-01':
+    2015-01-01:
       value: 169.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0164
 '1967_01_01_00_00_00':
   description: '1967-01-01 00:00:00'
   values:
-    '2015-01-01':
+    2015-01-01:
       value: 170.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0167
 '1970_01_01_00_00_00':
   description: '1970-01-01 00:00:00'
   values:
-    '2015-01-01':
+    2015-01-01:
       value: 171.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0170
 '1973_01_01_00_00_00':
   description: '1973-01-01 00:00:00'
   values:
-    '2015-01-01':
+    2015-01-01:
       value: 172.0
-    '1983-01-01':
+    1983-01-01:
       value: null
   metadata:
     ipp_csv_id: trimplein_0173

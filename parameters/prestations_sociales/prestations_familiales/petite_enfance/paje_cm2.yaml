@@ -7,7 +7,7 @@ montant_en_bmaf:
       Prime à la naissance de la PAJE
       (1)
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 2.2975
     metadata:
       ipp_csv_id: tx_paje_naiss
@@ -21,9 +21,9 @@ montant_en_bmaf:
       Prime à l'adoption de la PAJE
       (2)
     values:
-      '2005-08-01':
+      2005-08-01:
         value: 4.595
-      '2004-01-01':
+      2004-01-01:
         value: 2.2975
     metadata:
       ipp_csv_id: tx_paje_adopt
@@ -32,25 +32,25 @@ metadata:
   order:
   - montant_en_bmaf
   reference:
-    '2005-08-01': |-
+    2005-08-01: |-
       Loi 2005-744 du 04/07/2005, art. 8 (modif art. L531-2 du CSS)
       Décret 2005-1172 du 12/09/2005, art. 1 (modif art. D531-2 du CSS)
-    '2004-01-01': |-
+    2004-01-01: |-
       Loi 2003-1199 du 18/12/2003, art. 60 II (modif art. L531-2 du CSS)
       Décret 2003-1394 du 31/12/2003, art. 1 (crée art. D531-2 du CSS)
   date_parution_jo:
-    '2005-08-01': |-
+    2005-08-01: |-
       05/07/2005
       17/09/2005
-    '2004-01-01': |-
+    2004-01-01: |-
       19/12/2003
       01/01/2004
   notes:
-    '2005-08-01': |-
+    2005-08-01: |-
       Loi : Le montant de la prime devient majoré en cas d'adoption.
       Décret : précise le nouveau taux pour la prime à l'adoption.
       Taux toujours non modifiés en 2016
-    '2004-01-01': La PAJE remplace entre en vigueur de manière progressive jusqu'à
+    2004-01-01: La PAJE remplace entre en vigueur de manière progressive jusqu'à
       fin 2006 (cf. art. 60, VIII de la loi).
 documentation: |
   Notes :

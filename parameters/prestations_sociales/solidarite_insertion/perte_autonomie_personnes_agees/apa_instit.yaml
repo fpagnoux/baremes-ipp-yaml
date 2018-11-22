@@ -2,7 +2,7 @@ description: Allocation personnalisée d'autonomie en institution (APA)
 seuil_inferieur:
   description: Seuil inférieur
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 2.21
   metadata:
     ipp_csv_id: Seuil de revenu (en part du MTP)
@@ -14,12 +14,12 @@ metadata:
 seuil_superieur:
   description: Seuil supérieur
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 3.4
 part_tarif_dependance_gir_1_2_etablissement_accueil:
   description: Part du tarif dépendance GIR 1-2 de l'établissement d'accueil
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 0.5
   metadata:
     ipp_csv_id: APA d'urgence

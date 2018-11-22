@@ -2,7 +2,7 @@ description: Contribution patronale au financement des organisations syndicales
 taux:
   description: Taux
   values:
-    '2015-01-01':
+    2015-01-01:
       value: 0.00016
   metadata:
     ipp_csv_id: taux
@@ -11,9 +11,9 @@ metadata:
   order:
   - taux
   reference:
-    '2015-01-01': Décret 2014-1718 du 30/12/2014
+    2015-01-01: Décret 2014-1718 du 30/12/2014
   date_parution_jo:
-    '2015-01-01': '2014-12-31'
+    2015-01-01: 2014-12-31
 documentation: |
   Références législatives :
   Article D2135-34 du Code du travail

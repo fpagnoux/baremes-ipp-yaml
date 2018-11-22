@@ -2,9 +2,9 @@ description: Crédit d'impôt de taxe sur les salaires (CITS)
 taux:
   description: Taux
   values:
-    '2019-01-01':
+    2019-01-01:
       value: null
-    '2017-01-01':
+    2017-01-01:
       value: 0.04
   metadata:
     unit: /1
@@ -13,19 +13,19 @@ metadata:
   - taux
   - plafond_smic
   reference:
-    '2019-01-01': Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 87
-    '2017-01-01': Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 88
+    2019-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018), art. 87
+    2017-01-01: Loi 2016-1917 du 29/12/2016 (LF pour 2017), art. 88
   date_parution_jo:
-    '2019-01-01': '2017-12-31'
-    '2017-01-01': '2016-12-30'
+    2019-01-01: 2017-12-31
+    2017-01-01: 2016-12-30
   notes:
-    '2019-01-01': Abrogation et remplacement par un allègement de cotisations employeur
+    2019-01-01: Abrogation et remplacement par un allègement de cotisations employeur
 plafond_smic:
   description: Plafond ( / SMIC)
   values:
-    '2019-01-01':
+    2019-01-01:
       value: null
-    '2017-01-01':
+    2017-01-01:
       value: 2.5
 documentation: |
   Note :

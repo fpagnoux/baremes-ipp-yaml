@@ -5,31 +5,31 @@ montant:
   1_allocataire:
     description: 1 allocataire
     values:
-      '2018-04-01':
+      2018-04-01:
         value: 4913.2
-      '2017-04-01':
+      2017-04-01:
         value: 4864.56
-      '2016-04-01':
+      2016-04-01:
         value: 4850.01
-      '2014-04-01':
+      2014-04-01:
         value: 4845.17
-      '2013-04-01':
+      2013-04-01:
         value: 4816.28
-      '2012-04-01':
+      2012-04-01:
         value: 4754.48
-      '2011-04-01':
+      2011-04-01:
         value: 4656.69
-      '2010-04-01':
+      2010-04-01:
         value: 4560.92
-      '2009-04-01':
+      2009-04-01:
         value: 4520.24
-      '2008-09-01':
+      2008-09-01:
         value: 4475.49
-      '2008-01-01':
+      2008-01-01:
         value: 4439.98
-      '2007-01-01':
+      2007-01-01:
         value: 4391.68
-      '2006-01-01':
+      2006-01-01:
         value: 4314.03
     metadata:
       ipp_csv_id: asi1
@@ -41,31 +41,31 @@ montant:
   2_allocataires:
     description: 2 allocataires
     values:
-      '2018-04-01':
+      2018-04-01:
         value: 8107.54
-      '2017-04-01':
+      2017-04-01:
         value: 8027.27
-      '2016-04-01':
+      2016-04-01:
         value: 8003.27
-      '2014-04-01':
+      2014-04-01:
         value: 7995.28
-      '2013-04-01':
+      2013-04-01:
         value: 7947.6
-      '2012-04-01':
+      2012-04-01:
         value: 7845.61
-      '2011-04-01':
+      2011-04-01:
         value: 7684.25
-      '2010-04-01':
+      2010-04-01:
         value: 7526.2
-      '2009-04-01':
+      2009-04-01:
         value: 7459.07
-      '2008-09-01':
+      2008-09-01:
         value: 7385.22
-      '2008-01-01':
+      2008-01-01:
         value: 7326.61
-      '2007-01-01':
+      2007-01-01:
         value: 7246.9
-      '2006-01-01':
+      2006-01-01:
         value: 7118.77
     metadata:
       ipp_csv_id: asi2
@@ -75,57 +75,57 @@ metadata:
   - montant
   - plafond_ressources
   reference:
-    '2018-04-01': Décret 2018-227 du 30/04/2018
-    '2017-04-01': Circulaire Cnav 2017-13 du 04/04/2017
-    '2016-04-01': Circulaire Cnav 2016-18 du 29/03/2016
-    '2014-04-01': Circulaire Cnav 2014-29 du 09/04/2014
-    '2013-04-01': Circulaire Cnav 2013-29 du 18/04/2013
-    '2012-04-01': Circulaire Cnav 2012/35 du 17/04/2012
-    '2011-04-01': Circulaire Cnav 2011/30 du 14/04/2011
-    '2010-04-01': Circulaire Cnav 2010/43 du 23/04/2010
-    '2009-04-01': Circulaire Cnav 2009/31 du 16/04/2009
-    '2008-09-01': Circulaire Cnav 2008/45 du 12/08/2008
-    '2008-01-01': Circulaire Cnav 2007/76 du 07/12/2007 et Arrêté du 21/12/2007
-    '2007-01-01': Circulaire Cnav 2006/75 du 20/12/2006
-    '2006-01-01': Décret 2007/57 du 12/01/2007
+    2018-04-01: Décret 2018-227 du 30/04/2018
+    2017-04-01: Circulaire Cnav 2017-13 du 04/04/2017
+    2016-04-01: Circulaire Cnav 2016-18 du 29/03/2016
+    2014-04-01: Circulaire Cnav 2014-29 du 09/04/2014
+    2013-04-01: Circulaire Cnav 2013-29 du 18/04/2013
+    2012-04-01: Circulaire Cnav 2012/35 du 17/04/2012
+    2011-04-01: Circulaire Cnav 2011/30 du 14/04/2011
+    2010-04-01: Circulaire Cnav 2010/43 du 23/04/2010
+    2009-04-01: Circulaire Cnav 2009/31 du 16/04/2009
+    2008-09-01: Circulaire Cnav 2008/45 du 12/08/2008
+    2008-01-01: Circulaire Cnav 2007/76 du 07/12/2007 et Arrêté du 21/12/2007
+    2007-01-01: Circulaire Cnav 2006/75 du 20/12/2006
+    2006-01-01: Décret 2007/57 du 12/01/2007
   date_parution_jo:
-    '2008-01-01': '2007-12-28'
-    '2006-01-01': '2007-01-13'
+    2008-01-01: 2007-12-28
+    2006-01-01: 2007-01-13
   notes:
-    '2008-09-01': La circulaire Cnav 2009/9 du 03/02/2009 met en œuvre de l'article
+    2008-09-01: La circulaire Cnav 2009/9 du 03/02/2009 met en œuvre de l'article
       73 de la loi 2008-1330 du 17 décembre 2008 concernant la déconnexion de la revalorisation
       des montants et des plafonds de ressources de l'ASI de ceux de l'ASPA.
-    '2006-01-01': Création du dispositif qui simplifie le minimum vieillesse
+    2006-01-01: Création du dispositif qui simplifie le minimum vieillesse
 plafond_ressources:
   description: Plafond de ressources
   personnes_seules:
     description: Personnes seules
     values:
-      '2018-04-01':
+      2018-04-01:
         value: 8542.33
-      '2017-04-01':
+      2017-04-01:
         value: 8457.76
-      '2016-04-01':
+      2016-04-01:
         value: 8432.47
-      '2014-04-01':
+      2014-04-01:
         value: 8424.05
-      '2013-04-01':
+      2013-04-01:
         value: 8373.81
-      '2012-04-01':
+      2012-04-01:
         value: 8266.35
-      '2011-04-01':
+      2011-04-01:
         value: 8096.33
-      '2010-04-01':
+      2010-04-01:
         value: 7929.81
-      '2009-04-01':
+      2009-04-01:
         value: 7859.08
-      '2008-09-01':
+      2008-09-01:
         value: 7781.27
-      '2008-01-01':
+      2008-01-01:
         value: 7719.52
-      '2007-01-01':
+      2007-01-01:
         value: 7635.53
-      '2006-01-01':
+      2006-01-01:
         value: 7500.53
     metadata:
       ipp_csv_id: plaf_ressource_seul
@@ -137,31 +137,31 @@ plafond_ressources:
   couples:
     description: Couples
     values:
-      '2018-04-01':
+      2018-04-01:
         value: 14962.52
-      '2017-04-01':
+      2017-04-01:
         value: 14814.38
-      '2016-04-01':
+      2016-04-01:
         value: 14770.07
-      '2014-04-01':
+      2014-04-01:
         value: 14755.32
-      '2013-04-01':
+      2013-04-01:
         value: 14667.32
-      '2012-04-01':
+      2012-04-01:
         value: 14479.1
-      '2011-04-01':
+      2011-04-01:
         value: 14181.3
-      '2010-04-01':
+      2010-04-01:
         value: 13889.62
-      '2009-04-01':
+      2009-04-01:
         value: 13765.73
-      '2008-09-01':
+      2008-09-01:
         value: 13629.44
-      '2008-01-01':
+      2008-01-01:
         value: 13521.27
-      '2007-01-01':
+      2007-01-01:
         value: 13374.16
-      '2006-01-01':
+      2006-01-01:
         value: 13137.69
     metadata:
       ipp_csv_id: plaf_ressource_couple

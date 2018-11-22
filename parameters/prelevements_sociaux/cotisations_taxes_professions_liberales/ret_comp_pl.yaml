@@ -6,11 +6,11 @@ agents_generaux_assurance:
     taux_contractuel:
       description: Taux contractuel
       values:
-        '1971-01-01':
+        1971-01-01:
           value: 0.063
-        '1968-01-01':
+        1968-01-01:
           value: 0.036
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: retc_ass_contr_0_
@@ -23,19 +23,19 @@ agents_generaux_assurance:
     taux_effectif:
       description: Taux effectif
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.09
-        '2002-01-01':
+        2002-01-01:
           value: 0.081585
-        '1998-01-01':
+        1998-01-01:
           value: 0.080325
-        '1993-01-01':
+        1993-01-01:
           value: 0.0693
-        '1971-01-01':
+        1971-01-01:
           value: 0.063
-        '1968-01-01':
+        1968-01-01:
           value: 0.036
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: retc_ass_eff_0_
@@ -43,11 +43,11 @@ agents_generaux_assurance:
     taux_invalidite_deces:
       description: Taux invalidité-décès
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 0.007
-        '2004-01-01':
+        2004-01-01:
           value: 0.01
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: invald_ass_0_
@@ -64,101 +64,101 @@ metadata:
   - pharmaciens
   - notaires
   reference:
-    '2018-01-01': Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
-    '2017-01-01': Décret 2017-730 du 3/05/2017
-    '2016-01-01': Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
-    '2015-01-01': Décret 2015-1802 du 29/12/2015
-    '2014-01-01': Décret 2013-1081 du 29/11/2013
-    '2013-01-01': Décret 2011-1644 du 25/11/2011
-    '2012-01-01': Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012; Décret
+    2018-01-01: Décret 2017-730 du 3/05/2017 ; Décret 2017-993 du 10/05/2017
+    2017-01-01: Décret 2017-730 du 3/05/2017
+    2016-01-01: Décret 2015-1802 du 29/12/2015 ; Décret 2007-597 du 24/04/2007
+    2015-01-01: Décret 2015-1802 du 29/12/2015
+    2014-01-01: Décret 2013-1081 du 29/11/2013
+    2013-01-01: Décret 2011-1644 du 25/11/2011
+    2012-01-01: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012; Décret
       2011-1644 du 25/11/2011
-    '2011-01-01': Décret 2011-674 du 15/06/2011
-    '2010-01-01': Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
-    '2009-01-01': Décret 2009-1635 du 23/12/2009
-    '2008-01-01': Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
-    '2005-01-01': Décret 2004-1142 du 20/10/2004
-    '2004-01-01': Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
-    '2002-01-01': Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
-    '2001-01-01': Décret 2001-1182 du 11/12/2001
-    '2000-01-01': Décret 2000-1082 du 7/11/2000
-    '1999-01-01': Décret 99-959 du 22/11/1999
-    '1998-01-01': Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
-    '1997-01-01': Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
-    '1996-01-01': Décret 96-654 du 16/07/1996
-    '1993-01-01': Décret 92-1372 du 29/12/1992
-    '1991-01-01': Décret 91-864 du 30/08/1991
-    '1983-01-01': Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
-    '1971-01-01': Décret 71-878 du 22/10/1971
-    '1968-01-01': Décret 67-1169 du 22/12/1967
-    '1963-01-01': Décret 63-106 du 8/02/1963
-    '1962-01-01': Décret 62-502 du 13/04/1962
-    '1951-01-01': Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
-    '1949-01-01': Arrêté du 24/05/1949
+    2011-01-01: Décret 2011-674 du 15/06/2011
+    2010-01-01: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
+    2009-01-01: Décret 2009-1635 du 23/12/2009
+    2008-01-01: Décret 2007-597 du 24/04/2007 ; Décret 2007-458 du 25/03/2007
+    2005-01-01: Décret 2004-1142 du 20/10/2004
+    2004-01-01: Décret 2004-1095 du 15/10/2004; Décret 2003-1273 du 26/12/2003
+    2002-01-01: Décret 2001-864 du 17/09/2001; Décret 2002-1525 du 23/12/2002
+    2001-01-01: Décret 2001-1182 du 11/12/2001
+    2000-01-01: Décret 2000-1082 du 7/11/2000
+    1999-01-01: Décret 99-959 du 22/11/1999
+    1998-01-01: Décret 97-1056 du 13/11/1997; Décret 98-599 du 13/07/1998
+    1997-01-01: Décret 97-830 du 4/09/1997 ; Décret 96-1164 du 26/12/1996
+    1996-01-01: Décret 96-654 du 16/07/1996
+    1993-01-01: Décret 92-1372 du 29/12/1992
+    1991-01-01: Décret 91-864 du 30/08/1991
+    1983-01-01: Décret 82-1154 du 30/12/1982; Décret 83-618 du 1/07/1983
+    1971-01-01: Décret 71-878 du 22/10/1971
+    1968-01-01: Décret 67-1169 du 22/12/1967
+    1963-01-01: Décret 63-106 du 8/02/1963
+    1962-01-01: Décret 62-502 du 13/04/1962
+    1951-01-01: Décret 51-310 du 03/03/1951; Arrêté du 4/03/1951
+    1949-01-01: Arrêté du 24/05/1949
   date_parution_jo:
-    '2018-01-01': 05/05/2017 ; 11/05/2017
-    '2017-01-01': '2017-05-11'
-    '2016-01-01': 30/12/2015 ; 26/04/2007
-    '2015-01-01': '2015-12-30'
-    '2014-01-01': '2013-12-01'
-    '2013-01-01': '2011-11-26'
-    '2012-01-01': |-
+    2018-01-01: 05/05/2017 ; 11/05/2017
+    2017-01-01: 2017-05-11
+    2016-01-01: 30/12/2015 ; 26/04/2007
+    2015-01-01: 2015-12-30
+    2014-01-01: 2013-12-01
+    2013-01-01: 2011-11-26
+    2012-01-01: |-
       03/11/2011
       14/04/2012
       26/11/2011
-    '2011-01-01': '2011-06-17'
-    '2010-01-01': |-
+    2011-01-01: 2011-06-17
+    2010-01-01: |-
       23/10/2010
       11/10/2008
-    '2009-01-01': '2009-12-26'
-    '2008-01-01': 25/04/2007 ; 28/03/2007
-    '2005-01-01': '2004-10-28'
-    '2004-01-01': '2004-10-17'
-    '2002-01-01': |-
+    2009-01-01: 2009-12-26
+    2008-01-01: 25/04/2007 ; 28/03/2007
+    2005-01-01: 2004-10-28
+    2004-01-01: 2004-10-17
+    2002-01-01: |-
       22/09/2001
       28/12/2002
-    '2001-01-01': '2001-12-13'
-    '2000-01-01': '2000-11-09'
-    '1999-01-01': '1999-11-25'
-    '1998-01-01': |-
+    2001-01-01: 2001-12-13
+    2000-01-01: 2000-11-09
+    1999-01-01: 1999-11-25
+    1998-01-01: |-
       21/12/1997
       17/07/1998
-    '1997-01-01': |-
+    1997-01-01: |-
       11/09/1997
       29/12/1996
-    '1996-01-01': '1996-07-23'
-    '1993-01-01': '1992-12-30'
-    '1991-01-01': '1991-09-05'
-    '1983-01-01': |-
+    1996-01-01: 1996-07-23
+    1993-01-01: 1992-12-30
+    1991-01-01: 1991-09-05
+    1983-01-01: |-
       31/12/1982
       10/07/1983
-    '1971-01-01': '1970-10-30'
-    '1968-01-01': '1967-12-28'
-    '1963-01-01': '1963-02-13'
-    '1962-01-01': '1962-04-19'
-    '1951-01-01': '1951-03-20'
-    '1949-01-01': '1949-06-01'
+    1971-01-01: 1970-10-30
+    1968-01-01: 1967-12-28
+    1963-01-01: 1963-02-13
+    1962-01-01: 1962-04-19
+    1951-01-01: 1951-03-20
+    1949-01-01: 1949-06-01
   notes:
-    '2018-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+    2018-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et
       Metz.
-    '2017-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+    2017-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et
       Metz.
-    '2016-01-01': Valeur inconnue de la cotisation pour les notaires de Colmar et
+    2016-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et
       Metz.
-    '2012-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
+    2012-01-01: Création d'une cotisation proportionnelle pour financer l'ASV pour
       les médecins conventionnés
-    '2010-01-01': Création d'une cotisation proportionnelle pour financer l'ASV pour
+    2010-01-01: Création d'une cotisation proportionnelle pour financer l'ASV pour
       les auxiliaires médicaux (infirmiers, masseurs-kiné, etc.)
-    '2005-01-01': Regroupement des sections A et U en une section C
-    '2004-01-01': Création  d'un régime d'assurance invalidité-décès pour les agents
+    2005-01-01: Regroupement des sections A et U en une section C
+    2004-01-01: Création  d'un régime d'assurance invalidité-décès pour les agents
       généraux d'assurance
-    '1997-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+    1997-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation
       forfaitaire qui existait déjà pour les chirurgiens dentistes
-    '1996-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+    1996-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation
       ofrfaitaire qui existait depuis la création du régime complémentaire en 1984
       pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
-    '1983-01-01': Institution d'une cotisation proportionnelle en plus de la cotisation
+    1983-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation
       forfaitaire qui existait déjà pour les médecins
-    '1951-01-01': Création d'un régime supplémentaire pour les notaires du ressort
+    1951-01-01: Création d'un régime supplémentaire pour les notaires du ressort
       de la Cour d'appel de Colmar
 infirmiers_masseurs_kine_orthophonistes_orthoptistes:
   description: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
@@ -168,9 +168,9 @@ infirmiers_masseurs_kine_orthophonistes_orthoptistes:
     retraite_complementaire:
       description: Retraite complémentaire
       values:
-        '1996-01-01':
+        1996-01-01:
           value: 0.03
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: retc_aux_0_
@@ -188,11 +188,11 @@ infirmiers_masseurs_kine_orthophonistes_orthoptistes:
       description: Régime supplémentaire pour les auxilliaires médicaux conventionnés
         (ASV)
       values:
-        '2011-01-01':
+        2011-01-01:
           value: 0.004
-        '2010-01-01':
+        2010-01-01:
           value: 0.0025
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: asv_aux_0_5
@@ -207,35 +207,35 @@ chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
     retraite_complementaire:
       description: Retraite complémentaire
       values:
-        '2018-01-01':
+        2018-01-01:
           value: 0.1065
-        '2017-01-01':
+        2017-01-01:
           value: 0.106
-        '2016-01-01':
+        2016-01-01:
           value: 0.105
-        '2015-01-01':
+        2015-01-01:
           value: 0.104
-        '2014-01-01':
+        2014-01-01:
           value: 0.103
-        '2013-01-01':
+        2013-01-01:
           value: 0.102
-        '2012-01-01':
+        2012-01-01:
           value: 0.1005
-        '2011-01-01':
+        2011-01-01:
           value: 0.1
-        '2010-01-01':
+        2010-01-01:
           value: 0.0995
-        '2009-01-01':
+        2009-01-01:
           value: 0.099
-        '2004-01-01':
+        2004-01-01:
           value: 0.095
-        '2002-01-01':
+        2002-01-01:
           value: 0.09
-        '2001-01-01':
+        2001-01-01:
           value: 0.083
-        '1997-01-01':
+        1997-01-01:
           value: 0.08
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: retc_chird_85_5
@@ -252,11 +252,11 @@ chirurgiens_dentistes_sages_femmes_depuis_janvier_2009:
     regime_supplementaire_chirurgiens_dentistes_conventionnes:
       description: Régime supplémentaire pour les chirurgiens dentistes conventionnés
       values:
-        '2018-01-01':
+        2018-01-01:
           value: 0.011
-        '2008-01-01':
+        2008-01-01:
           value: 0.0075
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: retc_chird_85_5
@@ -271,31 +271,31 @@ medecins:
     retraite_complementaire:
       description: Retraite complémentaire
       values:
-        '2018-01-01':
+        2018-01-01:
           value: 0.098
-        '2017-01-01':
+        2017-01-01:
           value: 0.097
-        '2016-01-01':
+        2016-01-01:
           value: 0.096
-        '2015-01-01':
+        2015-01-01:
           value: 0.095
-        '2013-01-01':
+        2013-01-01:
           value: 0.093
-        '2009-01-01':
+        2009-01-01:
           value: 0.092
-        '2000-01-01':
+        2000-01-01:
           value: 0.09
-        '1999-01-01':
+        1999-01-01:
           value: 0.087
-        '1997-01-01':
+        1997-01-01:
           value: 0.081
-        '1996-01-01':
+        1996-01-01:
           value: 0.075
-        '1991-01-01':
+        1991-01-01:
           value: 0.05
-        '1983-01-01':
+        1983-01-01:
           value: 0.02
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: retc_med_0_35
@@ -313,21 +313,21 @@ medecins:
       description: Régime supplémentaire obligatoire pour les médecins conventionnés
         (ASV)
       values:
-        '2018-01-01':
+        2018-01-01:
           value: 0.032
-        '2017-01-01':
+        2017-01-01:
           value: 0.028
-        '2016-01-01':
+        2016-01-01:
           value: 0.026
-        '2015-01-01':
+        2015-01-01:
           value: 0.021
-        '2014-01-01':
+        2014-01-01:
           value: 0.015
-        '2013-01-01':
+        2013-01-01:
           value: 0.009
-        '2012-01-01':
+        2012-01-01:
           value: 0.0025
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: asv_med_0_5
@@ -343,9 +343,9 @@ pharmaciens:
       description: Régime supplémentaire pour les biologistes médicaux conventionnés
         uniquement (ASV)
       values:
-        '2008-01-01':
+        2008-01-01:
           value: 0.003
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: asv_bio_0_5
@@ -364,13 +364,13 @@ notaires:
     section_allocation_variable:
       description: Section A (allocation variable)
       values:
-        '2017-01-01':
+        2017-01-01:
           value: 0.0414
-        '2005-01-01':
+        2005-01-01:
           value: 0.045
-        '1962-01-01':
+        1962-01-01:
           value: 0.025
-        '1949-01-01':
+        1949-01-01:
           value: 0.05
       metadata:
         ipp_csv_id: retc_not_a_0_
@@ -383,13 +383,13 @@ notaires:
     section_u_allocation_uniforme:
       description: Section U (allocation uniforme)
       values:
-        '2017-01-01':
+        2017-01-01:
           value: 0.0414
-        '2005-01-01':
+        2005-01-01:
           value: 0.045
-        '1962-01-01':
+        1962-01-01:
           value: 0.02
-        '1949-01-01':
+        1949-01-01:
           value: 0.05
       metadata:
         ipp_csv_id: retc_not_u_0_
@@ -397,15 +397,15 @@ notaires:
     colmar_metz:
       description: Colmar-Metz
       values:
-        '2016-01-01':
+        2016-01-01:
           value: null
-        '2015-01-01':
+        2015-01-01:
           value: 0.036
-        '1963-01-01':
+        1963-01-01:
           value: 0.04
-        '1951-01-01':
+        1951-01-01:
           value: 0.02
-        '1949-01-01':
+        1949-01-01:
           value: null
       metadata:
         ipp_csv_id: retc_not_cm_0_

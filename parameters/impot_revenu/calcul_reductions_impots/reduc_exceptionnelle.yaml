@@ -4,11 +4,11 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2014-01-01':
+      2014-01-01:
         value: 2015.0
-      '2013-01-01':
+      2013-01-01:
         value: 2014.0
-      '2012-01-01':
+      2012-01-01:
         value: 2013.0
   metadata:
     order:
@@ -18,18 +18,18 @@ metadata:
   - date_entree_en_vigueur
   - reduction_impot_exceptionnelle
   reference:
-    '2013-01-01': Loi 2014-891 (art. 1) du 08/08/2014 de finances rectificative pour
+    2013-01-01: Loi 2014-891 (art. 1) du 08/08/2014 de finances rectificative pour
       2014
 reduction_impot_exceptionnelle:
   description: Réduction d'impôt exceptionnelle
   seuil_revenu_fiscal_reference:
     description: Seuil du revenu fiscal de référence
     values:
-      '2014-01-01':
+      2014-01-01:
         value: null
-      '2013-01-01':
+      2013-01-01:
         value: 14145.0
-      '2012-01-01':
+      2012-01-01:
         value: null
     metadata:
       ipp_csv_id: reduc_except_rfr_seuil
@@ -41,22 +41,22 @@ reduction_impot_exceptionnelle:
   majoration_seuil_par_demi_part_supplementaire:
     description: Majoration du seuil par demi-part supplémentaire
     values:
-      '2014-01-01':
+      2014-01-01:
         value: null
-      '2013-01-01':
+      2013-01-01:
         value: 3536.0
-      '2012-01-01':
+      2012-01-01:
         value: null
     metadata:
       ipp_csv_id: reduc_except_rfr_seuil_majo
   montant:
     description: Montant
     values:
-      '2014-01-01':
+      2014-01-01:
         value: null
-      '2013-01-01':
+      2013-01-01:
         value: 350.0
-      '2012-01-01':
+      2012-01-01:
         value: null
     metadata:
       ipp_csv_id: reduc_except_montant

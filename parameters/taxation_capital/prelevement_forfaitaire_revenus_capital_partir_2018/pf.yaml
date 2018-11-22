@@ -4,7 +4,7 @@ description: Prélèvements sur revenus du capital
     au prélèvement forfaitaire unique (intérêts, dividendes, plus-values, produits
     d'assurance-vie) (1)
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 0.128
   metadata:
     unit: /1
@@ -16,19 +16,19 @@ metadata:
   - produits_epargne_solidaire_partage
   - paiement_produits_dans_etat_non_cooperatif_3
   reference:
-    '2018-01-01': Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
+    2018-01-01: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
       125-0 A, 200 A et art 117 quater du CGI)
   date_parution_jo:
-    '2018-01-01': '2017-12-31'
+    2018-01-01: 2017-12-31
   notes:
-    '2018-01-01': Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
+    2018-01-01: Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
       unique non-libératoire, dont la valeur est telle que la somme du taux de ce
       prélèvement et des prélèvements sociaux est de 30%.
 taux_prelevement_produits_assurance_vie_non_eligibles_prelevement_forfaitaire_unique_2:
   description: Taux de prélèvement des produits d'assurance-vie non-éligibles au prélèvement
     forfaitaire unique (2)
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 0.075
   metadata:
     unit: /1
@@ -36,21 +36,21 @@ seuil_encours_applique_eligibilite_produits_assurance_vie_prelevement_forfaitair
   description: Seuil d'encours appliqué pour l'éligibilité des produits d'assurance-vie
     au prélèvement forfaitaire unique (2)
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 150000.0
   metadata:
     unit: currency-EUR
 produits_epargne_solidaire_partage:
   description: Produits d'épargne solidaire de partage
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 0.05
   metadata:
     unit: /1
 paiement_produits_dans_etat_non_cooperatif_3:
   description: Paiement de produits dans un Etat "non-coopératif" (3)
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 0.75
   metadata:
     unit: /1

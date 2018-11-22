@@ -2,7 +2,7 @@ description: Cotisations décès cadres
 employeur_sous_plafond:
   description: Employeur sous plafond
   values:
-    '1948-01-01':
+    1948-01-01:
       value: 0.015
   metadata:
     ipp_csv_id: deces_p_0_1
@@ -11,7 +11,7 @@ metadata:
   order:
   - employeur_sous_plafond
   reference:
-    '1948-01-01': Convention AGIRC du 14/03/1947, art. 7.
+    1948-01-01: Convention AGIRC du 14/03/1947, art. 7.
 documentation: |
   Notes :
   (i) Il s'agit d'une cotisation sociale patronale dite "obligatoire" ; en cas de défaut, l'employeur doit alors aux ayants droit du cadre décédé une somme égale à trois fois le plafond annuel des cotisations sociales au moment du décès. 

@@ -6,7 +6,7 @@ coefficient_minoration_par_trimestres_manquants:
     avant_1944:
       description: Avant 1944
       values:
-        '1946-01-01':
+        1946-01-01:
           value: 0.025
       metadata:
         ipp_csv_id: decote_base
@@ -26,9 +26,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1944_01_01_00_00_00':
       description: '1944-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.02375
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0144
@@ -36,9 +36,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1945_01_01_00_00_00':
       description: '1945-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.0225
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0145
@@ -46,9 +46,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1946_01_01_00_00_00':
       description: '1946-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.02125
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0146
@@ -56,9 +56,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1947_01_01_00_00_00':
       description: '1947-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.02
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0147
@@ -66,9 +66,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1948_01_01_00_00_00':
       description: '1948-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.01875
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0148
@@ -76,9 +76,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1949_01_01_00_00_00':
       description: '1949-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.0175
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0149
@@ -86,9 +86,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1950_01_17_00_00_00':
       description: '1950-01-17 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.01625
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0150
@@ -96,9 +96,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1951_01_01_00_00_00':
       description: '1951-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.015
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0151
@@ -106,9 +106,9 @@ coefficient_minoration_par_trimestres_manquants:
     '1952_01_01_00_00_00':
       description: '1952-01-01 00:00:00'
       values:
-        '2004-01-01':
+        2004-01-01:
           value: 0.01375
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: decote_0152
@@ -121,21 +121,21 @@ metadata:
   - coefficient_minoration_par_trimestres_manquants
   - taux_minore_taux_plein_1_decote_nombre_trimestres_manquants
   reference:
-    '2004-01-01': Décret 2004-144 du 13/02/2004, art. 5-II
-    '1972-01-01': Loi 71-1132 du 31/12/1971. Décret 72-78 du 28/01/1972
-    '1946-01-01': Ordonnance 45-2456 du 19/10/1945
+    2004-01-01: Décret 2004-144 du 13/02/2004, art. 5-II
+    1972-01-01: Loi 71-1132 du 31/12/1971. Décret 72-78 du 28/01/1972
+    1946-01-01: Ordonnance 45-2456 du 19/10/1945
   date_parution_jo:
-    '2004-01-01': '2004-02-15'
-    '1972-01-01': '1972-01-05'
-    '1946-01-01': '1945-10-20'
+    2004-01-01: 2004-02-15
+    1972-01-01: 1972-01-05
+    1946-01-01: 1945-10-20
 taux_minore_taux_plein_1_decote_nombre_trimestres_manquants:
   description: taux minoré = taux plein * (1 - decote * (nombre de trimestres manquants))
   '1953_01_01_00_00_00':
     description: '1953-01-01 00:00:00'
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 0.0125
-      '1946-01-01':
+      1946-01-01:
         value: null
     metadata:
       ipp_csv_id: decote_0153

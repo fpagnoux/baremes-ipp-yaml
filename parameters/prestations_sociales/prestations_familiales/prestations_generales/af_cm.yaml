@@ -2,7 +2,7 @@ description: 'Allocations familiales (AF) : conditions générales et montants'
 nombre_minimal_enfants_avoir_droit_allocation:
   description: Nombre minimal d'enfants pour avoir droit à l'allocation
   values:
-    '1946-09-01':
+    1946-09-01:
       value: 2.0
   metadata:
     ipp_csv_id: af_nenf_agemin
@@ -13,51 +13,51 @@ metadata:
   - par_enfant_supplementaire
   - modulation
   reference:
-    '2015-07-01': |-
+    2015-07-01: |-
       Décret 2015-611 du 03/06/2015
       Circulaire DSS/SD2B/2016/77 du 15/03/2016
-    '2002-12-13': Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
-    '1998-01-01': Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
-    '1986-01-01': |-
+    2002-12-13: Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
+    1998-01-01: Loi 98-1194 du 23/12/1998, art. 18 (modif art. D521-1 du CSS)
+    1986-01-01: |-
       Décret 85-1353 du 17/12/1985, art. 1 (crée art. D521-1 et R521-1 du CSS)
       Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)
-    '1982-02-01': 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
-    '1981-07-01': Décret 81-683 du 30 juin 1981
-    '1979-07-01': Décret 79-722 du 27/08/1979
-    '1978-01-01': 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
-    '1976-08-01': Décret 76-768 du 16/08/1976
-    '1946-09-01': Loi du 22 aout 1946
+    1982-02-01: 'Décret 82-319 du 08/04/1982 (Taux : modif art. L 544 du CSS)'
+    1981-07-01: Décret 81-683 du 30 juin 1981
+    1979-07-01: Décret 79-722 du 27/08/1979
+    1978-01-01: 'Décret 78-107 du 31/01/78 (Taux : modif art. L544 du CSS)'
+    1976-08-01: Décret 76-768 du 16/08/1976
+    1946-09-01: Loi du 22 aout 1946
   date_parution_jo:
-    '2015-07-01': '2015-06-05'
-    '2002-12-13': '2002-12-12'
-    '1998-01-01': '1998-12-30'
-    '1986-01-01': |-
+    2015-07-01: 2015-06-05
+    2002-12-13: 2002-12-12
+    1998-01-01: 1998-12-30
+    1986-01-01: |-
       21/12/1985
       02/02/1986
-    '1982-02-01': '1982-04-09'
-    '1981-07-01': '1981-07-02'
-    '1979-07-01': '1979-08-29'
-    '1978-01-01': 28/12/1972       02/02/1978
-    '1976-08-01': '1976-08-17'
+    1982-02-01: 1982-04-09
+    1981-07-01: 1981-07-02
+    1979-07-01: 1979-08-29
+    1978-01-01: 28/12/1972       02/02/1978
+    1976-08-01: 1976-08-17
   notes:
-    '1982-02-01': Baisse de 46% à 40% pour le 3e enfant
-    '1981-07-01': Majoration 46% pour le 3e enfant, 41% pour le 4e
-    '1979-07-01': Majoration de 41% pour le 3e enfant, 37% pour le 4e.
-    '1978-01-01': Majoration de 38% pour le 3e, 37% pour le 4e enfant. Soit 98% pour
+    1982-02-01: Baisse de 46% à 40% pour le 3e enfant
+    1981-07-01: Majoration 46% pour le 3e enfant, 41% pour le 4e
+    1979-07-01: Majoration de 41% pour le 3e enfant, 37% pour le 4e.
+    1978-01-01: Majoration de 38% pour le 3e, 37% pour le 4e enfant. Soit 98% pour
       4, 61% pour 3 enfants à charge, +35% par enfant supplémentaire
-    '1976-08-01': 37% par enfant supplémentaire jusqu'à 4 enfants à charge, puis 33%
+    1976-08-01: 37% par enfant supplémentaire jusqu'à 4 enfants à charge, puis 33%
 2_enfants:
   description: 2 enfants
   values:
-    '1982-02-01':
+    1982-02-01:
       value: 0.32
-    '1981-07-01':
+    1981-07-01:
       value: 0.255
-    '1978-01-01':
+    1978-01-01:
       value: 0.23
-    '1954-01-01':
+    1954-01-01:
       value: 0.22
-    '1946-09-01':
+    1946-09-01:
       value: 0.2
   metadata:
     ipp_csv_id: af_t1_2enf
@@ -65,15 +65,15 @@ metadata:
 par_enfant_supplementaire:
   description: Par enfant supplémentaire
   values:
-    '1986-01-01':
+    1986-01-01:
       value: 0.41
-    '1981-07-01':
+    1981-07-01:
       value: 0.39
-    '1978-01-01':
+    1978-01-01:
       value: 0.35
-    '1954-01-01':
+    1954-01-01:
       value: 0.33
-    '1946-09-01':
+    1946-09-01:
       value: 0.3
   metadata:
     ipp_csv_id: af_enf_sup
@@ -83,9 +83,9 @@ modulation:
   tranche_1_en_bmaf:
     description: Tranche 1 (en % de la BMAF)
     values:
-      '2015-07-01':
+      2015-07-01:
         value: 1.0
-      '1946-09-01':
+      1946-09-01:
         value: null
     metadata:
       unit: /1
@@ -97,9 +97,9 @@ modulation:
   tranche_2_en_bmaf:
     description: Tranche 2 (en % de la BMAF)
     values:
-      '2015-07-01':
+      2015-07-01:
         value: 0.5
-      '1946-09-01':
+      1946-09-01:
         value: null
     metadata:
       ipp_csv_id: af_modulation_taux1
@@ -107,9 +107,9 @@ modulation:
   tranche_3_en_bmaf:
     description: Tranche 3 (en % de la BMAF)
     values:
-      '2015-07-01':
+      2015-07-01:
         value: 0.25
-      '1946-09-01':
+      1946-09-01:
         value: null
     metadata:
       ipp_csv_id: af_modulation_taux2

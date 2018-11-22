@@ -4,17 +4,17 @@ taux_global_csg:
   revenus_patrimoine:
     description: Revenus du patrimoine
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.099
-      '2004-01-01':
+      2004-01-01:
         value: 0.082
-      '1997-01-01':
+      1997-01-01:
         value: 0.075
-      '1996-01-01':
+      1996-01-01:
         value: 0.034
-      '1993-07-01':
+      1993-07-01:
         value: 0.024
-      '1990-01-01':
+      1990-01-01:
         value: 0.011
     metadata:
       ipp_csv_id: tx_csg_rk_patr
@@ -26,19 +26,19 @@ taux_global_csg:
   produits_placement:
     description: Produits de placement
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.099
-      '2005-01-01':
+      2005-01-01:
         value: 0.082
-      '1998-01-01':
+      1998-01-01:
         value: 0.075
-      '1997-01-01':
+      1997-01-01:
         value: 0.034
-      '1993-07-01':
+      1993-07-01:
         value: 0.024
-      '1991-02-01':
+      1991-02-01:
         value: 0.011
-      '1990-01-01':
+      1990-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_csg_rk_plac
@@ -49,55 +49,55 @@ metadata:
   - taux_deductible_csg
   - crds
   reference:
-    '2018-01-01': LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
+    2018-01-01: LOI n°2017-1836 du 30 décembre 2017 - art. 8 (V) (modif art  L136-8);
       LOI n°2017-1837 du 30 décembre 2017 - art. 67 (V) (modif art 154 quinquies)
-    '2012-01-01': Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
-    '2007-01-01': Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
-    '2005-01-01': Loi 2004-810 du 13/08/2004, art. 72
-    '2004-01-01': Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
+    2012-01-01: Loi 2012-1509 du 29/12/2012, art. 9 (LF pour 2013)
+    2007-01-01: Loi 2006-1640 du 21/12/2006, art. 20 (LFSS pour 2007)
+    2005-01-01: Loi 2004-810 du 13/08/2004, art. 72
+    2004-01-01: Loi 2004-810 du 13/08/2004, art. 72 ; Loi 2004-1485 du 30/12/2004
       d (LFR pour 2004), art. 37
-    '1998-01-01': Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-    '1997-01-01': Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
+    1998-01-01: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
+    1997-01-01: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi 97-1269
       du 30/12/1997, art. 80 (LF pour 1998) ; Loi 97-1164 du 19/12/1997, art. 5 (LFSS
       pour 1998)
-    '1996-02-01': Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
-    '1996-01-01': Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
+    1996-02-01: Ordonnance 96-50 du 24/01/1996, art. 15, 16 et 19
+    1996-01-01: Loi 96-1160 du 27/12/1996, art. 17 (LFSS pour 1997) ; Loi  96-1181
       du 30/12/1996, art. 94 (LF pour 1997)
-    '1993-07-01': Loi 93-936 du 22/07/1993, art. 7 et 8
-    '1991-02-01': Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
-    '1990-01-01': Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
+    1993-07-01: Loi 93-936 du 22/07/1993, art. 7 et 8
+    1991-02-01: Loi 90-1168 du 29/12/1990, art. 132 à 134 (LF pour 1991)
+    1990-01-01: Loi 90-1168 du 29/12/1990, art. 132 et 134 (LF pour 1991)
   date_parution_jo:
-    '2018-01-01': 31/12/2017;31/12/2017
-    '2012-01-01': '2012-12-30'
-    '2007-01-01': '2006-12-22'
-    '2005-01-01': '2004-08-17'
-    '2004-01-01': 17/08/2004 ; 31/12/2004
-    '1998-01-01': '1997-12-23'
-    '1997-01-01': 27/12/1996 ; 31/12/1997 ; 23/12/1997
-    '1996-02-01': '1996-01-25'
-    '1996-01-01': 29/12/1996 ; 31/12/1996
-    '1993-07-01': '1993-07-23'
-    '1991-02-01': '1990-12-30'
-    '1990-01-01': '1990-12-30'
+    2018-01-01: 31/12/2017;31/12/2017
+    2012-01-01: 2012-12-30
+    2007-01-01: 2006-12-22
+    2005-01-01: 2004-08-17
+    2004-01-01: 17/08/2004 ; 31/12/2004
+    1998-01-01: 1997-12-23
+    1997-01-01: 27/12/1996 ; 31/12/1997 ; 23/12/1997
+    1996-02-01: 1996-01-25
+    1996-01-01: 29/12/1996 ; 31/12/1996
+    1993-07-01: 1993-07-23
+    1991-02-01: 1990-12-30
+    1990-01-01: 1990-12-30
   notes:
-    '2012-01-01': Voir note (3).
-    '1996-01-01': Crée art. 154 quinquies du CGI
+    2012-01-01: Voir note (3).
+    1996-01-01: Crée art. 154 quinquies du CGI
 taux_deductible_csg:
   description: Taux déductible de CSG
   revenus_patrimoine_1:
     description: Revenus du patrimoine (1)
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.068
-      '2012-01-01':
+      2012-01-01:
         value: 0.051
-      '2004-01-01':
+      2004-01-01:
         value: 0.058
-      '1997-01-01':
+      1997-01-01:
         value: 0.051
-      '1996-01-01':
+      1996-01-01:
         value: 0.01
-      '1990-01-01':
+      1990-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_csg_ded_rk_patr
@@ -109,13 +109,13 @@ taux_deductible_csg:
   produits_placement_2:
     description: Produits de placement (2)
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.068
-      '2012-01-01':
+      2012-01-01:
         value: 0.051
-      '2007-01-01':
+      2007-01-01:
         value: 0.058
-      '1990-01-01':
+      1990-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_csg_ded_rk_plac
@@ -125,9 +125,9 @@ crds:
   revenus_patrimoine:
     description: Revenus du patrimoine
     values:
-      '1996-02-01':
+      1996-02-01:
         value: 0.005
-      '1990-01-01':
+      1990-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_crds_rk_patr
@@ -139,9 +139,9 @@ crds:
   produits_placement:
     description: Produits de placement
     values:
-      '1996-02-01':
+      1996-02-01:
         value: 0.005
-      '1990-01-01':
+      1990-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_crds_rk_plac

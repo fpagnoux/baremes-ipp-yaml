@@ -2,7 +2,7 @@ description: Forfait mobilier IFI
 majoration_forfaitaire:
   description: Majoration forfaitaire
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 0.05
   metadata:
     ipp_csv_id: tx_majo_ifi
@@ -11,12 +11,12 @@ metadata:
   order:
   - majoration_forfaitaire
   reference:
-    '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 973
+    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (crée art. 973
       du CGI)
   date_parution_jo:
-    '2018-01-01': '2017-12-31'
+    2018-01-01: 2017-12-31
   notes:
-    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
       est réduite aux seuls biens immobiliers.
 documentation: |
   Note : le contribuable peut opter pour le forfait des 5% de l'actif brut déclaré à l'IFI afin d'évaluer la valeur de ses meubles meublants.

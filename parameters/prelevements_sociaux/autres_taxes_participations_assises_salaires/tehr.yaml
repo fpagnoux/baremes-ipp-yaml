@@ -3,9 +3,9 @@ description: Taxe exceptionnelle de solidarité sur les hautes rémunérations v
 taux:
   description: Taux
   values:
-    '2015-01-01':
+    2015-01-01:
       value: null
-    '2013-01-01':
+    2013-01-01:
       value: 0.5
   metadata:
     ipp_csv_id: tehr_tx
@@ -16,17 +16,17 @@ metadata:
   - seuil
   - plafond_en_chiffre_affaire_entreprises
   reference:
-    '2015-01-01': Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
-    '2013-01-01': Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+    2015-01-01: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
+    2013-01-01: Loi 2013-1278 du 29/12/2013 (LF pour 2014), art. 15
   date_parution_jo:
-    '2015-01-01': '2013-12-30'
-    '2013-01-01': '2013-12-30'
+    2015-01-01: 2013-12-30
+    2013-01-01: 2013-12-30
 seuil:
   description: Seuil
   values:
-    '2015-01-01':
+    2015-01-01:
       value: null
-    '2013-01-01':
+    2013-01-01:
       value: 1000000.0
   metadata:
     ipp_csv_id: tehr_seuil
@@ -34,9 +34,9 @@ seuil:
 plafond_en_chiffre_affaire_entreprises:
   description: Plafond (en % du chiffre d'affaire de l'entreprises)
   values:
-    '2015-01-01':
+    2015-01-01:
       value: null
-    '2013-01-01':
+    2013-01-01:
       value: 0.05
   metadata:
     ipp_csv_id: tehr_plaf

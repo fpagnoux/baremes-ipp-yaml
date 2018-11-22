@@ -2,9 +2,9 @@ description: Major régionale TICPE gazole
 alsace:
   description: Alsace
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_als
@@ -36,11 +36,11 @@ metadata:
 aquitaine:
   description: Aquitaine
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.78
   metadata:
     ipp_csv_id: maj_ticpe_die_aqui
@@ -48,11 +48,11 @@ aquitaine:
 auvergne:
   description: Auvergne
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.85
   metadata:
     ipp_csv_id: maj_ticpe_die_auv
@@ -60,11 +60,11 @@ auvergne:
 basse_normandie:
   description: Basse Normandie
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.97
   metadata:
     ipp_csv_id: maj_ticpe_die_b_n
@@ -72,11 +72,11 @@ basse_normandie:
 bourgogne:
   description: Bourgogne
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.6
   metadata:
     ipp_csv_id: maj_ticpe_die_bourg
@@ -84,11 +84,11 @@ bourgogne:
 bretagne:
   description: Bretagne
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.78
   metadata:
     ipp_csv_id: maj_ticpe_die_bre
@@ -96,9 +96,9 @@ bretagne:
 centre:
   description: Centre
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_cen
@@ -106,11 +106,11 @@ centre:
 champagne_ardennes:
   description: Champagne Ardennes
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.83
   metadata:
     ipp_csv_id: maj_ticpe_die_ch_ar
@@ -118,13 +118,13 @@ champagne_ardennes:
 corse:
   description: Corse
   values:
-    '2017-01-01':
+    2017-01-01:
       value: 1.15
-    '2010-01-01':
+    2010-01-01:
       value: 0.0
-    '2009-01-01':
+    2009-01-01:
       value: 0.6
-    '2007-01-01':
+    2007-01-01:
       value: 0.0
   metadata:
     ipp_csv_id: maj_ticpe_die_cor
@@ -132,11 +132,11 @@ corse:
 franche_comte:
   description: Franche Comté
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2009-01-01':
+    2009-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.95
   metadata:
     ipp_csv_id: maj_ticpe_die_f_c
@@ -144,9 +144,9 @@ franche_comte:
 haute_normandie:
   description: Haute Normandie
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_h_n
@@ -154,11 +154,11 @@ haute_normandie:
 ile_france:
   description: Ile de France
   values:
-    '2017-01-01':
+    2017-01-01:
       value: 4.39
-    '2012-01-01':
+    2012-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_idf
@@ -166,11 +166,11 @@ ile_france:
 languedoc_roussillon:
   description: Languedoc Roussillon
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.9
   metadata:
     ipp_csv_id: maj_ticpe_die_l_r
@@ -178,9 +178,9 @@ languedoc_roussillon:
 limousin:
   description: Limousin
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_lim
@@ -188,9 +188,9 @@ limousin:
 lorraine:
   description: Lorraine
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_lor
@@ -198,11 +198,11 @@ lorraine:
 midi_pyrenees:
   description: Midi Pyrénées
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.79
   metadata:
     ipp_csv_id: maj_ticpe_die_m_p
@@ -210,9 +210,9 @@ midi_pyrenees:
 nord_pas_calais:
   description: Nord Pas de Calais
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_n_cal
@@ -220,11 +220,11 @@ nord_pas_calais:
 pays_loire:
   description: Pays de la Loire
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.71
   metadata:
     ipp_csv_id: maj_ticpe_die_p_loi
@@ -232,9 +232,9 @@ pays_loire:
 picardie:
   description: Picardie
   values:
-    '2011-01-01':
+    2011-01-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 1.15
   metadata:
     ipp_csv_id: maj_ticpe_die_pic
@@ -242,9 +242,9 @@ picardie:
 poitou_charentes:
   description: Poitou Charentes
   values:
-    '2016-07-01':
+    2016-07-01:
       value: 2.5
-    '2007-01-01':
+    2007-01-01:
       value: 0.0
   metadata:
     ipp_csv_id: maj_ticpe_die_p_c
@@ -252,11 +252,11 @@ poitou_charentes:
 rhone_alpes:
   description: Rhône Alpes
   values:
-    '2014-01-01':
+    2014-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.83
   metadata:
     ipp_csv_id: maj_ticpe_die_r_a
@@ -264,11 +264,11 @@ rhone_alpes:
 paca:
   description: PACA
   values:
-    '2012-01-01':
+    2012-01-01:
       value: 2.5
-    '2008-01-01':
+    2008-01-01:
       value: 1.15
-    '2007-01-01':
+    2007-01-01:
       value: 0.68
   metadata:
     ipp_csv_id: maj_ticpe_die_paca

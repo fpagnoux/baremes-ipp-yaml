@@ -2,9 +2,9 @@ description: Calcul de la décote
 parametre_calcul_decote_isf:
   description: Paramètre de calcul de la décote ISF
   values:
-    '2018-01-01':
+    2018-01-01:
       value: null
-    '2013-01-01':
+    2013-01-01:
       value: 17500.0
   metadata:
     ipp_csv_id: decote_isf1
@@ -16,32 +16,32 @@ metadata:
   - borne_superieure_decote
   - taux_decote_isf
   reference:
-    '2018-01-01': Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
+    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
       885 U du CGI)
-    '2013-01-01': Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
+    2013-01-01: Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
   date_parution_jo:
-    '2018-01-01': '2017-12-31'
-    '2013-01-01': '2012-12-30'
+    2018-01-01: 2017-12-31
+    2013-01-01: 2012-12-30
   notes:
-    '2018-01-01': L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
+    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
       est réduite aux seuls biens immobiliers.
-    '2013-01-01': Décote = 17 500 € ― 1,25 % P, où P est la valeur nette taxable du
+    2013-01-01: Décote = 17 500 € ― 1,25 % P, où P est la valeur nette taxable du
       patrimoine, pour les patrimoines inférieurs à 1 400 000 €
 borne_inferieure_decote:
   description: Borne inférieure de la décote
   values:
-    '2018-01-01':
+    2018-01-01:
       value: null
-    '2013-01-01':
+    2013-01-01:
       value: 1300000.0
   metadata:
     unit: currency-EUR
 borne_superieure_decote:
   description: Borne supérieure de la décote
   values:
-    '2018-01-01':
+    2018-01-01:
       value: null
-    '2013-01-01':
+    2013-01-01:
       value: 1400000.0
   metadata:
     ipp_csv_id: sup_decote1
@@ -49,9 +49,9 @@ borne_superieure_decote:
 taux_decote_isf:
   description: Taux de la décote ISF
   values:
-    '2018-01-01':
+    2018-01-01:
       value: null
-    '2013-01-01':
+    2013-01-01:
       value: 0.0125
   metadata:
     ipp_csv_id: tx_decote_isf

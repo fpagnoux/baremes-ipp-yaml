@@ -4,31 +4,31 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '1985-01-01':
+      1985-01-01:
         value: 1986.0
-      '1984-01-01':
+      1984-01-01:
         value: 1985.0
-      '1983-01-01':
+      1983-01-01:
         value: 1984.0
-      '1982-01-01':
+      1982-01-01:
         value: 1983.0
-      '1981-01-01':
+      1981-01-01:
         value: 1982.0
-      '1980-01-01':
+      1980-01-01:
         value: 1981.0
-      '1979-01-01':
+      1979-01-01:
         value: 1980.0
-      '1978-01-01':
+      1978-01-01:
         value: 1979.0
-      '1977-01-01':
+      1977-01-01:
         value: 1978.0
-      '1976-01-01':
+      1976-01-01:
         value: 1977.0
-      '1975-01-01':
+      1975-01-01:
         value: 1976.0
-      '1974-01-01':
+      1974-01-01:
         value: 1975.0
-      '1973-01-01':
+      1973-01-01:
         value: 1974.0
   metadata:
     order:
@@ -43,11 +43,11 @@ en_faveur_certains_contribuables_seuls_1:
   abattement:
     description: Abattement
     values:
-      '1979-01-01':
+      1979-01-01:
         value: null
-      '1978-01-01':
+      1978-01-01:
         value: 2000.0
-      '1973-01-01':
+      1973-01-01:
         value: null
     metadata:
       ipp_csv_id: taux1_majo
@@ -59,11 +59,11 @@ en_faveur_certains_contribuables_seuls_1:
   maximum_revenu_net_global:
     description: Maximum revenu net global
     values:
-      '1979-01-01':
+      1979-01-01:
         value: null
-      '1978-01-01':
+      1978-01-01:
         value: 16000.0
-      '1973-01-01':
+      1973-01-01:
         value: null
     metadata:
       unit: currency-FRF
@@ -72,11 +72,11 @@ en_faveur_personnes_agees_invalides_2:
   seuil_1_revenu_net_global:
     description: seuil 1 de revenu net global
     values:
-      '1979-01-01':
+      1979-01-01:
         value: null
-      '1978-01-01':
+      1978-01-01:
         value: 23000.0
-      '1973-01-01':
+      1973-01-01:
         value: null
     metadata:
       ipp_csv_id: taux2_majo
@@ -90,11 +90,11 @@ en_faveur_personnes_agees_invalides_2:
   seuil_2_revenu_net_global:
     description: seuil 2 de revenu net global
     values:
-      '1979-01-01':
+      1979-01-01:
         value: null
-      '1978-01-01':
+      1978-01-01:
         value: 37000.0
-      '1973-01-01':
+      1973-01-01:
         value: null
     metadata:
       ipp_csv_id: taux3_majo
@@ -102,11 +102,11 @@ en_faveur_personnes_agees_invalides_2:
   abattement_1:
     description: Abattement 1
     values:
-      '1979-01-01':
+      1979-01-01:
         value: null
-      '1978-01-01':
+      1978-01-01:
         value: 3720.0
-      '1973-01-01':
+      1973-01-01:
         value: null
     metadata:
       ipp_csv_id: seuil_rev_majo
@@ -114,11 +114,11 @@ en_faveur_personnes_agees_invalides_2:
   abattement_2:
     description: Abattement 2
     values:
-      '1979-01-01':
+      1979-01-01:
         value: null
-      '1978-01-01':
+      1978-01-01:
         value: 1860.0
-      '1973-01-01':
+      1973-01-01:
         value: null
     metadata:
       ipp_csv_id: seuil1_majo

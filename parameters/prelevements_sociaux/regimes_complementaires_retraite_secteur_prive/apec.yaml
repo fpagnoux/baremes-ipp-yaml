@@ -4,13 +4,13 @@ tranche_b_1_4_pss:
   salarie:
     description: Salarié
     values:
-      '2011-01-01':
+      2011-01-01:
         value: null
-      '1975-01-01':
+      1975-01-01:
         value: 0.00024
-      '1971-01-01':
+      1971-01-01:
         value: 0.00016
-      '1967-01-01':
+      1967-01-01:
         value: null
     metadata:
       ipp_csv_id: apec_s_1_4
@@ -22,13 +22,13 @@ tranche_b_1_4_pss:
   employeur:
     description: Employeur
     values:
-      '2011-01-01':
+      2011-01-01:
         value: null
-      '1975-01-01':
+      1975-01-01:
         value: 0.00036
-      '1971-01-01':
+      1971-01-01:
         value: 0.00024
-      '1967-01-01':
+      1967-01-01:
         value: null
     metadata:
       ipp_csv_id: apec_p_1_4
@@ -38,24 +38,24 @@ metadata:
   - tranche_b_1_4_pss
   - sous_4_pss
   reference:
-    '2011-01-01': Circulaire AGIRC 2010-5-DF du 29/07/2010
-    '1975-01-01': Avenant A 56 du 05/02/1974 ; avenant n°5 du 17/11/1975
-    '1971-01-01': Avenant n° 2 du 09/06/1969
-    '1967-01-01': Convention APEC du 18/11/1966, art. 3
+    2011-01-01: Circulaire AGIRC 2010-5-DF du 29/07/2010
+    1975-01-01: Avenant A 56 du 05/02/1974 ; avenant n°5 du 17/11/1975
+    1971-01-01: Avenant n° 2 du 09/06/1969
+    1967-01-01: Convention APEC du 18/11/1966, art. 3
   notes:
-    '2011-01-01': Remplacement de la cotisation forfaitaire par un taux proportionnel
+    2011-01-01: Remplacement de la cotisation forfaitaire par un taux proportionnel
       sous plafond.
-    '1975-01-01': Augmentation du taux de 0,04 % à 0,06 %.
-    '1971-01-01': Passage d'une cotisation forfaitaire à une cotisation proportionnelle.
-    '1967-01-01': Cotisation forfaitaire d'un montant de 2 FF par cadre.
+    1975-01-01: Augmentation du taux de 0,04 % à 0,06 %.
+    1971-01-01: Passage d'une cotisation forfaitaire à une cotisation proportionnelle.
+    1967-01-01: Cotisation forfaitaire d'un montant de 2 FF par cadre.
 sous_4_pss:
   description: Sous 4 PSS
   salarie:
     description: Salarié
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 0.00024
-      '1967-01-01':
+      1967-01-01:
         value: null
     metadata:
       ipp_csv_id: apec_s_0_4
@@ -67,9 +67,9 @@ sous_4_pss:
   employeur:
     description: Employeur
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 0.00036
-      '1967-01-01':
+      1967-01-01:
         value: null
     metadata:
       ipp_csv_id: apec_p_0_4

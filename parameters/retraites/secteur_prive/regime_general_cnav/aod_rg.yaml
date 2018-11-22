@@ -7,7 +7,7 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     annee:
       description: Année
       values:
-        '1946-01-01':
+        1946-01-01:
           value: 60.0
       metadata:
         ipp_csv_id: ageleg_base
@@ -18,7 +18,7 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '1946-01-01':
+        1946-01-01:
           value: 0.0
   metadata:
     order:
@@ -34,9 +34,9 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 60.0
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0751
@@ -47,18 +47,18 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1946-01-01':
+        1946-01-01:
           value: null
   ne_apres_01_01_1952:
     description: Né après le 01/01/1952
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 60.0
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0152
@@ -69,20 +69,20 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 9.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1946-01-01':
+        1946-01-01:
           value: null
   ne_apres_01_01_1953:
     description: Né après le 01/01/1953
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 61.0
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0153
@@ -93,20 +93,20 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 2.0
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1946-01-01':
+        1946-01-01:
           value: null
   ne_apres_01_01_1954:
     description: Né après le 01/01/1954
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 61.0
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0154
@@ -117,22 +117,22 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 7.0
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1946-01-01':
+        1946-01-01:
           value: null
   ne_apres_01_01_1955:
     description: Né après le 01/01/1955
     annee:
       description: Année
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 62.0
-        '2011-07-01':
+        2011-07-01:
           value: 61.0
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0155
@@ -143,20 +143,20 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 0.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1946-01-01':
+        1946-01-01:
           value: null
   ne_apres_01_01_1956:
     description: Né après le 01/01/1956
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 62.0
-        '1946-01-01':
+        1946-01-01:
           value: null
     metadata:
       order:
@@ -165,9 +165,9 @@ age_ouverture_droits_age_legal_en_fonction_date_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1946-01-01':
+        1946-01-01:
           value: null
       metadata:
         ipp_csv_id: ageleg_0156
@@ -175,17 +175,17 @@ metadata:
   order:
   - age_ouverture_droits_age_legal_en_fonction_date_naissance
   reference:
-    '2012-01-01': Loi 2011-1906 du 21/12/2011, art. 88
-    '2011-07-01': Décret 2010-1734 du 30/12/2010
-    '1946-01-01': Ordonnance 45-2454 du 19/10/1945
+    2012-01-01: Loi 2011-1906 du 21/12/2011, art. 88
+    2011-07-01: Décret 2010-1734 du 30/12/2010
+    1946-01-01: Ordonnance 45-2454 du 19/10/1945
   date_parution_jo:
-    '2012-01-01': '2011-12-30'
-    '2011-07-01': '2010-12-31'
-    '1946-01-01': '1945-10-20'
+    2012-01-01: 2011-12-30
+    2011-07-01: 2010-12-31
+    1946-01-01: 1945-10-20
   notes:
-    '2012-01-01': Voir également l'art. D161-2-1-9 du CSS et la circulaire CNAV 2012/6
+    2012-01-01: Voir également l'art. D161-2-1-9 du CSS et la circulaire CNAV 2012/6
       du 25/01/2012.
-    '2011-07-01': Voir également l'art. L161-17-2 du CSS et la circulaire CNAV 2011/24
+    2011-07-01: Voir également l'art. L161-17-2 du CSS et la circulaire CNAV 2011/24
       du 17/03/2011.
 documentation: |
   Lecture : 

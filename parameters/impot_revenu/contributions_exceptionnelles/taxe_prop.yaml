@@ -4,27 +4,27 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '1970-01-01':
+      1970-01-01:
         value: 1971.0
-      '1969-01-01':
+      1969-01-01:
         value: 1970.0
-      '1964-01-01':
+      1964-01-01:
         value: 1965.0
-      '1961-01-01':
+      1961-01-01:
         value: 1962.0
-      '1960-01-01':
+      1960-01-01:
         value: 1961.0
-      '1959-01-01':
+      1959-01-01:
         value: 1960.0
-      '1958-01-01':
+      1958-01-01:
         value: 1959.0
-      '1954-01-01':
+      1954-01-01:
         value: 1955.0
-      '1952-01-01':
+      1952-01-01:
         value: 1953.0
-      '1948-01-01':
+      1948-01-01:
         value: 1949.0
-      '1947-01-01':
+      1947-01-01:
         value: 1948.0
   metadata:
     order:
@@ -43,19 +43,19 @@ metadata:
 taux:
   description: Taux
   values:
-    '1970-01-01':
+    1970-01-01:
       value: null
-    '1961-01-01':
+    1961-01-01:
       value: 0.06
-    '1960-01-01':
+    1960-01-01:
       value: 0.08
-    '1959-01-01':
+    1959-01-01:
       value: 0.09
-    '1958-01-01':
+    1958-01-01:
       value: 0.22
-    '1948-01-01':
+    1948-01-01:
       value: 0.18
-    '1947-01-01':
+    1947-01-01:
       value: null
   metadata:
     ipp_csv_id: tp_taux
@@ -63,15 +63,15 @@ taux:
 taux_reduit:
   description: Taux réduit
   values:
-    '1970-01-01':
+    1970-01-01:
       value: null
-    '1964-01-01':
+    1964-01-01:
       value: 0.03
-    '1954-01-01':
+    1954-01-01:
       value: 0.05
-    '1948-01-01':
+    1948-01-01:
       value: 0.09
-    '1947-01-01':
+    1947-01-01:
       value: null
   metadata:
     ipp_csv_id: tp_taux_reduit
@@ -79,11 +79,11 @@ taux_reduit:
 abattement_general:
   description: Abattement général
   values:
-    '1970-01-01':
+    1970-01-01:
       value: null
-    '1969-01-01':
+    1969-01-01:
       value: 30000.0
-    '1947-01-01':
+    1947-01-01:
       value: null
   metadata:
     ipp_csv_id: tp_abat
@@ -92,11 +92,11 @@ autres_revenus_non_salariaux:
   abattement:
     description: abattement
     values:
-      '1969-01-01':
+      1969-01-01:
         value: null
-      '1964-01-01':
+      1964-01-01:
         value: 3000.0
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_abat_nonsal
@@ -110,11 +110,11 @@ bnc_autres_produits_charges_offices_bic_artisans_assimiles:
   abattement:
     description: abattement
     values:
-      '1969-01-01':
+      1969-01-01:
         value: null
-      '1964-01-01':
+      1964-01-01:
         value: 4400.0
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_abat_nonsal_autre
@@ -125,13 +125,13 @@ bnc_autres_produits_charges_offices_bic_artisans_assimiles:
   seuil:
     description: seuil
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1952-01-01':
+      1952-01-01:
         value: 440000.0
-      '1948-01-01':
+      1948-01-01:
         value: 200000.0
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_seuil_nonsal_autre
@@ -143,11 +143,11 @@ bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba:
   seuil:
     description: seuil
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1954-01-01':
+      1954-01-01:
         value: 300000.0
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_seuil_nonsal
@@ -159,11 +159,11 @@ reduction_impot_charge_famille:
   1_pac:
     description: 1 pac
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1948-01-01':
+      1948-01-01:
         value: 0.1
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_reduc1
@@ -176,33 +176,33 @@ reduction_impot_charge_famille:
   2_pac:
     description: 2 pac
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1948-01-01':
+      1948-01-01:
         value: 0.3
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_reduc2
   3_pac:
     description: 3 pac
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1948-01-01':
+      1948-01-01:
         value: 0.75
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_reduc3
   4_pac:
     description: 4 pac
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1948-01-01':
+      1948-01-01:
         value: 1.0
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_reduc4
@@ -213,11 +213,11 @@ plafond_maximum_reduction_par_pac:
   jusqu_2_pacs:
     description: Jusqu'à 2 pacs
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1948-01-01':
+      1948-01-01:
         value: 5000.0
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_plaf_2
@@ -229,11 +229,11 @@ plafond_maximum_reduction_par_pac:
   plus_3_pacs:
     description: Plus de 3 pacs
     values:
-      '1959-01-01':
+      1959-01-01:
         value: null
-      '1948-01-01':
+      1948-01-01:
         value: 15000.0
-      '1947-01-01':
+      1947-01-01:
         value: null
     metadata:
       ipp_csv_id: tp_plaf_3

@@ -4,9 +4,9 @@ taux_en_bmaf:
   1_enfant:
     description: 1 enfant
     values:
-      '1995-01-01':
+      1995-01-01:
         value: null
-      '1976-08-01':
+      1976-08-01:
         value: 2.0
     metadata:
       ipp_csv_id: tx_1enf
@@ -24,9 +24,9 @@ taux_en_bmaf:
   2_enfants:
     description: 2 enfants
     values:
-      '1995-01-01':
+      1995-01-01:
         value: null
-      '1976-08-01':
+      1976-08-01:
         value: 2.2
     metadata:
       ipp_csv_id: tx_2enf
@@ -34,7 +34,7 @@ taux_en_bmaf:
   3_enfants:
     description: 3 enfants
     values:
-      '1976-08-01':
+      1976-08-01:
         value: 2.4
     metadata:
       ipp_csv_id: tx_3enf
@@ -42,7 +42,7 @@ taux_en_bmaf:
   4_enfants:
     description: 4 enfants
     values:
-      '1976-08-01':
+      1976-08-01:
         value: 2.6
     metadata:
       ipp_csv_id: tx_4enf
@@ -50,7 +50,7 @@ taux_en_bmaf:
   5_enfants:
     description: 5 enfants
     values:
-      '1976-08-01':
+      1976-08-01:
         value: 2.8
     metadata:
       ipp_csv_id: tx_5enf
@@ -58,7 +58,7 @@ taux_en_bmaf:
   par_enfants_en_plus:
     description: Par enfants en plus
     values:
-      '1976-08-01':
+      1976-08-01:
         value: 0.2
     metadata:
       ipp_csv_id: tx_enfsup
@@ -66,9 +66,9 @@ taux_en_bmaf:
   personne_agee_infirme:
     description: Personne âgée ou infirme
     values:
-      '1995-01-01':
+      1995-01-01:
         value: null
-      '1976-08-01':
+      1976-08-01:
         value: 2.0
     metadata:
       ipp_csv_id: tx_vieux
@@ -76,9 +76,9 @@ taux_en_bmaf:
   jeune_travailleur_salarie:
     description: Jeune travailleur salarié
     values:
-      '1995-01-01':
+      1995-01-01:
         value: null
-      '1976-08-01':
+      1976-08-01:
         value: 1.0
     metadata:
       ipp_csv_id: tx_jeune_travailleur
@@ -87,13 +87,13 @@ metadata:
   order:
   - taux_en_bmaf
   reference:
-    '1995-01-01': art. R542-31 du CSS
-    '1976-08-01': Décret 76-768 du 16/08/1976
+    1995-01-01: art. R542-31 du CSS
+    1976-08-01: Décret 76-768 du 16/08/1976
   date_parution_jo:
-    '1995-01-01': '1995-01-03'
-    '1976-08-01': '1976-08-17'
+    1995-01-01: 1995-01-03
+    1976-08-01: 1976-08-17
   notes:
-    '1976-08-01': 'Montant maximum: Taux*Base'
+    1976-08-01: 'Montant maximum: Taux*Base'
 documentation: |
   Notes : 
   Création en 1958

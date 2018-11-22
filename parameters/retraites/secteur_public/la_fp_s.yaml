@@ -6,11 +6,11 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     annee:
       description: Année
       values:
-        '1985-01-01':
+        1985-01-01:
           value: 65.0
-        '1976-01-01':
+        1976-01-01:
           value: 68.0
-        '1937-01-01':
+        1937-01-01:
           value: 70.0
       metadata:
         ipp_csv_id: agelimfp_base
@@ -21,9 +21,9 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   metadata:
     order:
@@ -39,9 +39,9 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 65.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0751
@@ -52,18 +52,18 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1952:
     description: Né après le 01/01/1952
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 65.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0152
@@ -74,20 +74,20 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 9.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1953:
     description: Né après le 01/01/1953
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 66.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0153
@@ -98,20 +98,20 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 2.0
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1954:
     description: Né après le 01/01/1954
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 66.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0154
@@ -122,22 +122,22 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 7.0
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1955:
     description: Né après le 01/01/1955
     annee:
       description: Année
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 67.0
-        '2011-07-01':
+        2011-07-01:
           value: 66.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0155
@@ -148,20 +148,20 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 0.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1956:
     description: Né après le 01/01/1956
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 67.0
-        '1937-01-01':
+        1937-01-01:
           value: null
     metadata:
       order:
@@ -170,9 +170,9 @@ age_limite_fonction_publique_sedentaire_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0156
@@ -180,26 +180,26 @@ metadata:
   order:
   - age_limite_fonction_publique_sedentaire_selon_annee_naissance
   reference:
-    '2012-01-01': Loi 2011-1906 du 21/12/2011, art. 88
-    '2011-07-01': Loi 2010-1330 du 09/11/2010
-    '1985-01-01': Loi 84-834 du 13/09/1984
-    '1976-01-01': Loi 75-1280 du 30 décembre 1975
-    '1937-01-01': Loi du 18 août 1936
+    2012-01-01: Loi 2011-1906 du 21/12/2011, art. 88
+    2011-07-01: Loi 2010-1330 du 09/11/2010
+    1985-01-01: Loi 84-834 du 13/09/1984
+    1976-01-01: Loi 75-1280 du 30 décembre 1975
+    1937-01-01: Loi du 18 août 1936
   date_parution_jo:
-    '2012-01-01': '2011-12-30'
-    '1985-01-01': '1984-09-14'
-    '1976-01-01': '1975-12-31'
+    2012-01-01: 2011-12-30
+    1985-01-01: 1984-09-14
+    1976-01-01: 1975-12-31
   notes:
-    '2012-01-01': Voir également l'article D161-2-1-9 du code de la sécurité sociale
+    2012-01-01: Voir également l'article D161-2-1-9 du code de la sécurité sociale
       et la circulaire CNAV 2012/6 du 25/01/2012.
-    '2011-07-01': Voir également l'article  L161-17-2 du code de la sécurité sociale
+    2011-07-01: Voir également l'article  L161-17-2 du code de la sécurité sociale
       et la circulaire CNAV 2011/24 du 17/03/2011.
-    '1985-01-01': La réforme prévoit une montée en régime progressive, avec un âge
+    1985-01-01: La réforme prévoit une montée en régime progressive, avec un âge
       limite de 68 ans jusqu'au 31/12/1984, 67 ans du 01/01 au 30/06/1985, 66 ans
       du 01/07 au 31/12/1986, et 65 ans à partir de cette date. Reste fixée à soixante-huit
       ans la limite d'âge du vice-président du Conseil d'Etat, du premier président
       et du procureur général de la Cour des comptes.
-    '1976-01-01': La réforme prévoit une montée en régime progressive, avec un âge
+    1976-01-01: La réforme prévoit une montée en régime progressive, avec un âge
       limite de 70 ans jusqu'au 31/12/1976, 69 ans du 01/01 au 30/06/1977,et 67 ans
       à partir de cette date.  Toutefois, la limite d'âge des professeurs titulaires
       du Collège de France reste fixée à soixante-dix ans.

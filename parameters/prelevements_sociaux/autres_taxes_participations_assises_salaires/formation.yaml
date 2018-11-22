@@ -5,15 +5,15 @@ employeur_tout_salaire:
   moins_10_salaries:
     description: Moins de 10 salariés
     values:
-      '2016-01-01':
+      2016-01-01:
         value: null
-      '2005-01-01':
+      2005-01-01:
         value: 0.0055
-      '2004-01-01':
+      2004-01-01:
         value: 0.004
-      '1992-01-01':
+      1992-01-01:
         value: 0.0015
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: form_m10_p_0_
@@ -28,34 +28,34 @@ employeur_tout_salaire:
   moins_11_salaries:
     description: Moins de 11 salariés
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.0055
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       unit: /1
   10_19_salaries:
     description: De 10 à 19 salariés
     values:
-      '2016-01-01':
+      2016-01-01:
         value: null
-      '2015-01-01':
+      2015-01-01:
         value: 0.01
-      '2005-01-01':
+      2005-01-01:
         value: 0.0105
-      '2004-01-01':
+      2004-01-01:
         value: 0.016
-      '1993-01-01':
+      1993-01-01:
         value: 0.015
-      '1992-01-01':
+      1992-01-01:
         value: 0.014
-      '1987-01-01':
+      1987-01-01:
         value: 0.012
-      '1978-01-01':
+      1978-01-01:
         value: 0.011
-      '1974-01-01':
+      1974-01-01:
         value: 0.01
-      '1972-01-01':
+      1972-01-01:
         value: 0.008
     metadata:
       ipp_csv_id: form_1020_p_0_
@@ -63,23 +63,23 @@ employeur_tout_salaire:
   20_salaries_plus:
     description: 20 salariés et plus
     values:
-      '2016-01-01':
+      2016-01-01:
         value: null
-      '2015-01-01':
+      2015-01-01:
         value: 0.01
-      '2004-01-01':
+      2004-01-01:
         value: 0.016
-      '1993-01-01':
+      1993-01-01:
         value: 0.015
-      '1992-01-01':
+      1992-01-01:
         value: 0.014
-      '1987-01-01':
+      1987-01-01:
         value: 0.012
-      '1978-01-01':
+      1978-01-01:
         value: 0.011
-      '1974-01-01':
+      1974-01-01:
         value: 0.01
-      '1972-01-01':
+      1972-01-01:
         value: 0.008
     metadata:
       ipp_csv_id: form_p20_p_0_
@@ -87,9 +87,9 @@ employeur_tout_salaire:
   11_salaries_plus:
     description: 11 salariés et plus
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.01
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       unit: /1
@@ -101,65 +101,65 @@ metadata:
   - decomposition_taux_employeur_50_300_salaries
   - toute_entreprise
   reference:
-    '2016-01-01': Loi 2015-1785 du 29/12/2015, art. 15
-    '2015-01-01': Décret 2014-1240 du 24/10/2014, art. 9
-    '2005-01-01': Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391 du
+    2016-01-01: Loi 2015-1785 du 29/12/2015, art. 15
+    2015-01-01: Décret 2014-1240 du 24/10/2014, art. 9
+    2005-01-01: Ordonnance 2005-895 du 02/08/2005, art. 3.II, et Loi 2004-391 du
       04/05/2004, art. 18
-    '1993-01-01': Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992, art.
+    1993-01-01: Loi 93-121 du 27/01/1993 , art. 92; Loi 92-675 du 17/07/1992, art.
       2
-    '1992-01-01': Loi 91-1405 du 31/12/1991
-    '1991-01-01': Loi 90-579 du 04/07/1990, art. 14
-    '1990-07-14': Loi 90-613 du 12/07/1990, art. 25
-    '1987-01-01': Loi 87-588 du 30/07/1987
-    '1984-01-01': Loi 84-130 du 24/02/1984, art. 29
-    '1978-01-01': Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
-    '1974-01-01': Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
-    '1972-01-01': Loi 71-575 du 16/07/1971
+    1992-01-01: Loi 91-1405 du 31/12/1991
+    1991-01-01: Loi 90-579 du 04/07/1990, art. 14
+    1990-07-14: Loi 90-613 du 12/07/1990, art. 25
+    1987-01-01: Loi 87-588 du 30/07/1987
+    1984-01-01: Loi 84-130 du 24/02/1984, art. 29
+    1978-01-01: Loi 78-653 du 22/06/1978 (LFR pour 1978), art. 3
+    1974-01-01: Loi 73-1150 du 27/12/1973 (LF pour 1974), art. 31
+    1972-01-01: Loi 71-575 du 16/07/1971
   date_parution_jo:
-    '2016-01-01': '2015-12-30'
-    '2015-01-01': '2014-10-26'
-    '2005-01-01': 03/08/2005 05/05/2004
-    '1993-01-01': 30/01/1993 19/07/1992
-    '1992-01-01': '1992-01-04'
-    '1991-01-01': '1990-07-10'
-    '1990-07-14': '1990-07-14'
-    '1987-01-01': '1987-07-31'
-    '1984-01-01': '1984-02-25'
-    '1978-01-01': '1978-06-23'
-    '1974-01-01': '1973-12-28'
-    '1972-01-01': '1971-07-17'
+    2016-01-01: 2015-12-30
+    2015-01-01: 2014-10-26
+    2005-01-01: 03/08/2005 05/05/2004
+    1993-01-01: 30/01/1993 19/07/1992
+    1992-01-01: 1992-01-04
+    1991-01-01: 1990-07-10
+    1990-07-14: 1990-07-14
+    1987-01-01: 1987-07-31
+    1984-01-01: 1984-02-25
+    1978-01-01: 1978-06-23
+    1974-01-01: 1973-12-28
+    1972-01-01: 1971-07-17
   notes:
-    '2016-01-01': Instaure des nouvelles catégories d'entreprise
-    '2008-05-01': 'Source: Mémentos pratiques Social 2008 à 2013, ed. Francis Lefèbvre.
+    2016-01-01: Instaure des nouvelles catégories d'entreprise
+    2008-05-01: 'Source: Mémentos pratiques Social 2008 à 2013, ed. Francis Lefèbvre.
       Référence législative manquante.'
-    '2005-01-01': La date d'effet des deux textes est le 1er janvier 2005
-    '2004-01-01': 'Source: Mémento pratique Social 2004, ed. Francis Lefèbvre. Référence
+    2005-01-01: La date d'effet des deux textes est le 1er janvier 2005
+    2004-01-01: 'Source: Mémento pratique Social 2004, ed. Francis Lefèbvre. Référence
       législative manquante.'
-    '1993-01-01': Une fraction de 0,4% du montant des salaires de 1993 doit être versée
+    1993-01-01: Une fraction de 0,4% du montant des salaires de 1993 doit être versée
       au Trésor avant le 05/04/1994
-    '1990-07-14': Cette loi instaure la contribution de 1% sur les salaires des employés
+    1990-07-14: Cette loi instaure la contribution de 1% sur les salaires des employés
       en CDD; elle s'applique aux contrats conclus après l'entrée en vigueur de la
       loi.
-    '1987-01-01': 'Toujours la même clause : une fraction de 0,2% du montant des salaires
+    1987-01-01: 'Toujours la même clause : une fraction de 0,2% du montant des salaires
       de 1986 majorés de 3% devra être versée au Trésor avant le 16/09/87'
-    '1984-01-01': Une incertitude subsiste sur la date d'entrée en vigueur (1er janvier
+    1984-01-01: Une incertitude subsiste sur la date d'entrée en vigueur (1er janvier
       1984 ou 1er janvier 1985 ?).
-    '1978-01-01': En 1978, 0,2% des salaires de 1977, majoré de 8% doit être versé
+    1978-01-01: En 1978, 0,2% des salaires de 1977, majoré de 8% doit être versé
       au Trésor avant le 15 septembre 1978 (cf. BSP III/1978). Idem les années suivantes.
-    '1976-01-01': 'Source: Mémento pratique Social 1976, ed. Francis Lefèbvre. Référence
+    1976-01-01: 'Source: Mémento pratique Social 1976, ed. Francis Lefèbvre. Référence
       législative manquante.'
 moins_10_salaries:
   description: Moins de 10 salariés
   contribution_contrats_insertion_en_alternance:
     description: Contribution sur contrats d'insertion en alternance
     values:
-      '2008-05-01':
+      2008-05-01:
         value: null
-      '2004-01-01':
+      2004-01-01:
         value: 0.0
-      '1993-01-01':
+      1993-01-01:
         value: 0.001
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: altern_m10_p_0_
@@ -172,13 +172,13 @@ moins_10_salaries:
   cotisation_formation_alternee:
     description: Cotisation formation alternée
     values:
-      '2008-05-01':
+      2008-05-01:
         value: null
-      '1993-01-01':
+      1993-01-01:
         value: 0.004
-      '1987-01-01':
+      1987-01-01:
         value: 0.003
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: altern_p10_p_0
@@ -191,11 +191,11 @@ moins_10_salaries:
   contrats_periodes_professionnalisation_dif:
     description: Contrats et périodes de professionnalisation et DIF
     values:
-      '2015-01-01':
+      2015-01-01:
         value: null
-      '2005-01-01':
+      2005-01-01:
         value: 0.005
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: dif_p10_p_0_
@@ -203,15 +203,15 @@ moins_10_salaries:
   conges_formation:
     description: Congés de formation
     values:
-      '2015-01-01':
+      2015-01-01:
         value: null
-      '1993-01-01':
+      1993-01-01:
         value: 0.002
-      '1991-01-01':
+      1991-01-01:
         value: 0.0015
-      '1984-01-01':
+      1984-01-01:
         value: 0.001
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: congform_p10_p_0_
@@ -221,9 +221,9 @@ decomposition_taux_employeur_50_300_salaries:
   securisation_parcours_professionnels:
     description: Sécurisation des parcours professionnels
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.002
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       unit: /1
@@ -237,36 +237,36 @@ decomposition_taux_employeur_50_300_salaries:
   conge_individuel_formation:
     description: Congé individuel de formation
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.002
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       unit: /1
   professionnalisation:
     description: Professionnalisation
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.003
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       unit: /1
   plan_formation:
     description: Plan de formation
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.001
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       unit: /1
   compte_personnel_formation:
     description: Compte personnel de formation
     values:
-      '2015-01-01':
+      2015-01-01:
         value: 0.002
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       unit: /1
@@ -275,9 +275,9 @@ toute_entreprise:
   salaires_cdd:
     description: Salaires CDD
     values:
-      '1990-07-14':
+      1990-07-14:
         value: 0.01
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: formcdd_p_0_

@@ -4,23 +4,23 @@ minimum_contributif_plafond_mensuel:
   annuel:
     description: Annuel
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 1160.04
-      '2017-01-01':
+      2017-01-01:
         value: 1145.95
-      '2016-01-01':
+      2016-01-01:
         value: 1135.73
-      '2015-01-01':
+      2015-01-01:
         value: 1128.96
-      '2014-02-01':
+      2014-02-01:
         value: 1120.0
-      '2014-01-01':
+      2014-01-01:
         value: 1039.47
-      '2013-01-01':
+      2013-01-01:
         value: 1028.17
-      '2012-07-01':
+      2012-07-01:
         value: 1025.1
-      '2012-01-01':
+      2012-01-01:
         value: 1005.0
     metadata:
       ipp_csv_id: min_cont
@@ -32,18 +32,18 @@ metadata:
   order:
   - minimum_contributif_plafond_mensuel
   reference:
-    '2018-01-01': ​Circulaire Cnav 2017/44 du 27/12/2017
-    '2017-01-01': ​​Circulaire Cnav 2016/55 du 30/12/2016
-    '2016-01-01': Circulaire Cnav 2015/64 du 18/12/2015
-    '2015-01-01': Circulaire Cnav 2015/4 du 26/01/2015
-    '2014-02-01': Décret 2014-129
-    '2014-01-01': Décret 2013-1190
-    '2013-01-01': Décret 2012-1429 du 19/12/2012
-    '2012-07-01': Décret 2012-828 du 28/06/2012
-    '2012-01-01': Décret 2011-772 du 28 juin 2011
+    2018-01-01: ​Circulaire Cnav 2017/44 du 27/12/2017
+    2017-01-01: ​​Circulaire Cnav 2016/55 du 30/12/2016
+    2016-01-01: Circulaire Cnav 2015/64 du 18/12/2015
+    2015-01-01: Circulaire Cnav 2015/4 du 26/01/2015
+    2014-02-01: Décret 2014-129
+    2014-01-01: Décret 2013-1190
+    2013-01-01: Décret 2012-1429 du 19/12/2012
+    2012-07-01: Décret 2012-828 du 28/06/2012
+    2012-01-01: Décret 2011-772 du 28 juin 2011
   date_parution_jo:
-    '2012-07-01': '2012-06-29'
-    '2012-01-01': '2011-11-30'
+    2012-07-01: 2012-06-29
+    2012-01-01: 2011-11-30
 documentation: |
   Sources : 
   http://www.legislation.cnav.fr/Pages/bareme.aspx?Nom=retraite_personnelle_minimum_plafond_retraite_bar

@@ -2,7 +2,7 @@ description: "Allocation supplémentaire d'invalidité (ASI): conditions génér
 taux_minimum_invalidite:
   description: Taux minimum d'invalidité
   values:
-    '2006-01-01':
+    2006-01-01:
       value: 0.6666
   metadata:
     ipp_csv_id: tx_min
@@ -11,8 +11,8 @@ metadata:
   order:
   - taux_minimum_invalidite
   reference:
-    '2006-01-01': Décret 2007/57 du 12/01/2007
+    2006-01-01: Décret 2007/57 du 12/01/2007
   date_parution_jo:
-    '2006-01-01': '2007-01-13'
+    2006-01-01: 2007-01-13
 documentation: "Note : Condition d'âge et de ressources sont les mêmes que pour l'Aspa,\
   \ pas de minimum d'âge \n"

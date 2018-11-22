@@ -4,77 +4,77 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2017-01-01':
+      2017-01-01:
         value: 2018.0
-      '2016-01-01':
+      2016-01-01:
         value: 2017.0
-      '2015-01-01':
+      2015-01-01:
         value: 2016.0
-      '2014-01-01':
+      2014-01-01:
         value: 2015.0
-      '2013-01-01':
+      2013-01-01:
         value: 2014.0
-      '2012-01-01':
+      2012-01-01:
         value: 2013.0
-      '2011-01-01':
+      2011-01-01:
         value: 2012.0
-      '2010-01-01':
+      2010-01-01:
         value: 2011.0
-      '2009-01-01':
+      2009-01-01:
         value: 2010.0
-      '2007-01-01':
+      2007-01-01:
         value: 2008.0
-      '2006-01-01':
+      2006-01-01:
         value: 2007.0
-      '2004-01-01':
+      2004-01-01:
         value: 2005.0
-      '2002-01-01':
+      2002-01-01:
         value: 2003.0
-      '2001-01-01':
+      2001-01-01:
         value: 2002.0
-      '2000-01-01':
+      2000-01-01:
         value: 2001.0
-      '1999-01-01':
+      1999-01-01:
         value: 2000.0
-      '1998-01-01':
+      1998-01-01:
         value: 1999.0
-      '1997-01-01':
+      1997-01-01:
         value: 1998.0
-      '1996-01-01':
+      1996-01-01:
         value: 1997.0
-      '1995-01-01':
+      1995-01-01:
         value: 1996.0
-      '1994-01-01':
+      1994-01-01:
         value: 1995.0
-      '1993-01-01':
+      1993-01-01:
         value: 1994.0
-      '1992-01-01':
+      1992-01-01:
         value: 1993.0
-      '1991-01-01':
+      1991-01-01:
         value: 1992.0
-      '1990-01-01':
+      1990-01-01:
         value: 1991.0
-      '1989-01-01':
+      1989-01-01:
         value: 1990.0
-      '1988-01-01':
+      1988-01-01:
         value: 1989.0
-      '1987-01-01':
+      1987-01-01:
         value: 1988.0
-      '1986-01-01':
+      1986-01-01:
         value: 1987.0
-      '1985-01-01':
+      1985-01-01:
         value: 1986.0
-      '1984-01-01':
+      1984-01-01:
         value: 1985.0
-      '1983-01-01':
+      1983-01-01:
         value: 1984.0
-      '1982-01-01':
+      1982-01-01:
         value: 1983.0
-      '1981-01-01':
+      1981-01-01:
         value: 1982.0
-      '1980-01-01':
+      1980-01-01:
         value: 1981.0
-      '1979-01-01':
+      1979-01-01:
         value: 1980.0
   metadata:
     order:
@@ -88,69 +88,69 @@ metadata:
   - imputation_revenu_global
   - versement_liberatoire_regime_auto_entrepreneur
   reference:
-    '2017-01-01': LOI n°2017-1837 du 30 décembre 2017, art.22
-    '2016-01-01': Décret 2017-698 (art. 1) du 02/05/2017
-    '2015-01-01': Décret 2016-775 (art. 1) du 10/06/2016
-    '2014-01-01': LF pour 2015
-    '2013-01-01': LF pour 2014
-    '2012-01-01': LF pour 2013
-    '2011-01-01': LF pour 2012
-    '2010-01-01': LF pour 2011
-    '2009-01-01': LF pour 2010
-    '2007-01-01': LF pour 2008
-    '2006-01-01': LF pour 2007
-    '2004-01-01': LF pour 2005
-    '2002-01-01': LF pour 2003
-    '2001-01-01': LF pour 2002
-    '2000-01-01': LF pour 2001
-    '1999-01-01': LF pour 2000
-    '1998-01-01': LF pour 1999
-    '1997-01-01': LF pour 1998
-    '1996-01-01': LF pour 1997
-    '1995-01-01': LF pour 1996
-    '1994-01-01': LF pour 1995
-    '1993-01-01': LF pour 1994
-    '1992-01-01': LF pour 1993
-    '1991-01-01': LF pour 1992
-    '1990-01-01': LF pour 1991
-    '1989-01-01': LF pour 1990
-    '1988-01-01': LF pour 1989
-    '1987-01-01': LF pour 1988
-    '1986-01-01': LF pour 1987
-    '1985-01-01': LF pour 1986
-    '1984-01-01': LF pour 1985
-    '1983-01-01': LF pour 1984
-    '1982-01-01': LF pour 1983
-    '1981-01-01': LF pour 1982
-    '1980-01-01': LF pour 1981
-    '1979-01-01': LF pour 1980
+    2017-01-01: LOI n°2017-1837 du 30 décembre 2017, art.22
+    2016-01-01: Décret 2017-698 (art. 1) du 02/05/2017
+    2015-01-01: Décret 2016-775 (art. 1) du 10/06/2016
+    2014-01-01: LF pour 2015
+    2013-01-01: LF pour 2014
+    2012-01-01: LF pour 2013
+    2011-01-01: LF pour 2012
+    2010-01-01: LF pour 2011
+    2009-01-01: LF pour 2010
+    2007-01-01: LF pour 2008
+    2006-01-01: LF pour 2007
+    2004-01-01: LF pour 2005
+    2002-01-01: LF pour 2003
+    2001-01-01: LF pour 2002
+    2000-01-01: LF pour 2001
+    1999-01-01: LF pour 2000
+    1998-01-01: LF pour 1999
+    1997-01-01: LF pour 1998
+    1996-01-01: LF pour 1997
+    1995-01-01: LF pour 1996
+    1994-01-01: LF pour 1995
+    1993-01-01: LF pour 1994
+    1992-01-01: LF pour 1993
+    1991-01-01: LF pour 1992
+    1990-01-01: LF pour 1991
+    1989-01-01: LF pour 1990
+    1988-01-01: LF pour 1989
+    1987-01-01: LF pour 1988
+    1986-01-01: LF pour 1987
+    1985-01-01: LF pour 1986
+    1984-01-01: LF pour 1985
+    1983-01-01: LF pour 1984
+    1982-01-01: LF pour 1983
+    1981-01-01: LF pour 1982
+    1980-01-01: LF pour 1981
+    1979-01-01: LF pour 1980
   notes:
-    '2013-01-01': "Création du régime d'autoentrepreneur : voir BOI-BIC-DECLA-10-40\
+    2013-01-01: "Création du régime d'autoentrepreneur : voir BOI-BIC-DECLA-10-40\
       \ du 09/12/2012"
-    '2000-01-01': |-
+    2000-01-01: |-
       Séparation du régime d'imposition micro-entreprise :
       ventes de marchandises et prestations de services
-    '1999-01-01': Jusqu'à l'imposition des revenus de 1998, les régimes spéciaux  (appelé
+    1999-01-01: Jusqu'à l'imposition des revenus de 1998, les régimes spéciaux  (appelé
       micro et micro_service ici) concernent les locations meublés non professionnelles,
       les BIC non professionnelles (depuis 98 seulement) et les autres activités industrielles
       et commerciales
-    '1998-01-01': Création du régime microfoncier
-    '1994-01-01': Cf. article 156 du Code Général des Impôt pour le plafonnement du
+    1998-01-01: Création du régime microfoncier
+    1994-01-01: Cf. article 156 du Code Général des Impôt pour le plafonnement du
       déficit foncier global
 abattement_recettes_microentreprises:
   description: Abattement sur recettes des microentreprises
   taux_ventes_marchandises:
     description: Taux (ventes de marchandises)
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.71
-      '2002-01-01':
+      2002-01-01:
         value: 0.72
-      '1999-01-01':
+      1999-01-01:
         value: 0.7
-      '1991-01-01':
+      1991-01-01:
         value: 0.5
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: txabt_micro
@@ -163,13 +163,13 @@ abattement_recettes_microentreprises:
   taux_prestations_services:
     description: Taux  (Prestations de services)
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.5
-      '2002-01-01':
+      2002-01-01:
         value: 0.52
-      '1991-01-01':
+      1991-01-01:
         value: 0.5
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: txabt_micro_service
@@ -177,49 +177,49 @@ abattement_recettes_microentreprises:
   montant_minimum:
     description: Montant minimum
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 305.0
-      '1991-01-01':
+      1991-01-01:
         value: 2000.0
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: abtmin_micro
       unit:
-        '2001-01-01': currency-EUR
-        '1991-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1991-01-01: currency-FRF
 abattement_regime_micro_bnc:
   description: Abattement pour le régime micro BNC
   plafond_recettes_marchandises:
     description: Plafond de recettes (marchandises)
     values:
-      '2017-01-01':
+      2017-01-01:
         value: 170000.0
-      '2013-01-01':
+      2013-01-01:
         value: 82200.0
-      '2011-01-01':
+      2011-01-01:
         value: 81500.0
-      '2010-01-01':
+      2010-01-01:
         value: 80300.0
-      '2009-01-01':
+      2009-01-01:
         value: 80000.0
-      '2002-01-01':
+      2002-01-01:
         value: 76300.0
-      '2001-01-01':
+      2001-01-01:
         value: 76224.51
-      '1999-01-01':
+      1999-01-01:
         value: 500000.0
-      '1996-01-01':
+      1996-01-01:
         value: 100000.0
-      '1991-01-01':
+      1991-01-01:
         value: 70000.0
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: limit_micro
       unit:
-        '2001-01-01': currency-EUR
-        '1991-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1991-01-01: currency-FRF
   metadata:
     order:
     - plafond_recettes_marchandises
@@ -228,45 +228,45 @@ abattement_regime_micro_bnc:
   plafond_recettes_services:
     description: Plafond de recettes (services)
     values:
-      '2017-01-01':
+      2017-01-01:
         value: 70000.0
-      '2013-01-01':
+      2013-01-01:
         value: 32900.0
-      '2011-01-01':
+      2011-01-01:
         value: 32600.0
-      '2010-01-01':
+      2010-01-01:
         value: 32100.0
-      '2009-01-01':
+      2009-01-01:
         value: 32000.0
-      '2002-01-01':
+      2002-01-01:
         value: 27000.0
-      '2001-01-01':
+      2001-01-01:
         value: 26678.58
-      '1999-01-01':
+      1999-01-01:
         value: 175000.0
-      '1996-01-01':
+      1996-01-01:
         value: 100000.0
-      '1991-01-01':
+      1991-01-01:
         value: 70000.0
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: limit_micro_service
       unit:
-        '2001-01-01': currency-EUR
-        '1991-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1991-01-01: currency-FRF
   taux:
     description: Taux
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.34
-      '2002-01-01':
+      2002-01-01:
         value: 0.37
-      '1999-01-01':
+      1999-01-01:
         value: 0.35
-      '1991-01-01':
+      1991-01-01:
         value: 0.25
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: txabt_microbnc
@@ -276,19 +276,19 @@ abattement_regime_microfoncier:
   plafond_recettes:
     description: Plafond de recettes
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 15000.0
-      '1999-01-01':
+      1999-01-01:
         value: 60000.0
-      '1997-01-01':
+      1997-01-01:
         value: 30000.0
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_micro_foncier
       unit:
-        '2001-01-01': currency-EUR
-        '1997-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1997-01-01: currency-FRF
   metadata:
     order:
     - plafond_recettes
@@ -296,13 +296,13 @@ abattement_regime_microfoncier:
   taux:
     description: Taux
     values:
-      '2006-01-01':
+      2006-01-01:
         value: 0.3
-      '1999-01-01':
+      1999-01-01:
         value: 0.4
-      '1997-01-01':
+      1997-01-01:
         value: 0.333333333333333
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: abt_micro_fon
@@ -312,47 +312,47 @@ imputation_revenu_global:
   plafond_deficits_agricoles:
     description: Plafond (déficits agricoles)
     values:
-      '2017-01-01':
+      2017-01-01:
         value: 108904.0
-      '2016-01-01':
+      2016-01-01:
         value: 107826.0
-      '2015-01-01':
+      2015-01-01:
         value: 107718.0
-      '2014-01-01':
+      2014-01-01:
         value: 107610.0
-      '2013-01-01':
+      2013-01-01:
         value: 107075.0
-      '2011-01-01':
+      2011-01-01:
         value: 106225.0
-      '2010-01-01':
+      2010-01-01:
         value: 104665.0
-      '2009-01-01':
+      2009-01-01:
         value: 104238.0
-      '2007-01-01':
+      2007-01-01:
         value: 101300.0
-      '2006-01-01':
+      2006-01-01:
         value: 100000.0
-      '2004-01-01':
+      2004-01-01:
         value: 60000.0
-      '2001-01-01':
+      2001-01-01:
         value: 53360.0
-      '2000-01-01':
+      2000-01-01:
         value: 350000.0
-      '1995-01-01':
+      1995-01-01:
         value: 200000.0
-      '1994-01-01':
+      1994-01-01:
         value: 150000.0
-      '1989-01-01':
+      1989-01-01:
         value: 100000.0
-      '1988-01-01':
+      1988-01-01:
         value: 70000.0
-      '1979-01-01':
+      1979-01-01:
         value: 40000.0
     metadata:
       ipp_csv_id: plaf_defba
       unit:
-        '2001-01-01': currency-EUR
-        '1979-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1979-01-01: currency-FRF
   metadata:
     order:
     - plafond_deficits_agricoles
@@ -360,27 +360,27 @@ imputation_revenu_global:
   plafond_deficits_fonciers:
     description: Plafond (déficits fonciers)
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 10700.0
-      '1995-01-01':
+      1995-01-01:
         value: 70000.0
-      '1993-01-01':
+      1993-01-01:
         value: 50000.0
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_def_fonc
       unit:
-        '2001-01-01': currency-EUR
-        '1993-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1993-01-01: currency-FRF
 versement_liberatoire_regime_auto_entrepreneur:
   description: Versement libératoire (régime auto-entrepreneur)
   taux_regime_micro_bic_vente:
     description: taux régime micro BIC vente
     values:
-      '2009-01-01':
+      2009-01-01:
         value: 0.01
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_bic_vente_vl
@@ -393,9 +393,9 @@ versement_liberatoire_regime_auto_entrepreneur:
   taux_regime_micro_bic_service:
     description: taux régime micro BIC service
     values:
-      '2009-01-01':
+      2009-01-01:
         value: 0.017
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_bic_service_vl
@@ -403,9 +403,9 @@ versement_liberatoire_regime_auto_entrepreneur:
   taux_regime_micro_bnc:
     description: taux régime micro BNC
     values:
-      '2009-01-01':
+      2009-01-01:
         value: 0.022
-      '1979-01-01':
+      1979-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_bnc_vl

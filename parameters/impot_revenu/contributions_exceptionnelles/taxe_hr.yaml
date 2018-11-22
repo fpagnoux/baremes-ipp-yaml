@@ -4,7 +4,7 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 2012.0
   metadata:
     order:
@@ -14,15 +14,15 @@ metadata:
   - date_entree_en_vigueur
   - contribution_exceptionnelle_hauts_revenus
   reference:
-    '2011-01-01': LF pour 2012 - art. 2
+    2011-01-01: LF pour 2012 - art. 2
   notes:
-    '2011-01-01': Décret n°2012-653 du 4 mai 2012 - art. 1
+    2011-01-01: Décret n°2012-653 du 4 mai 2012 - art. 1
 contribution_exceptionnelle_hauts_revenus:
   description: Contribution exceptionnelle sur les hauts revenus
   seuil_1ere_tranche:
     description: Seuil de la 1ère tranche
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 250000.0
     metadata:
       ipp_csv_id: tranche1_hr
@@ -36,7 +36,7 @@ contribution_exceptionnelle_hauts_revenus:
   seuil_2eme_tranche:
     description: Seuil de la 2ème tranche
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 500000.0
     metadata:
       ipp_csv_id: tranche2_hr
@@ -44,7 +44,7 @@ contribution_exceptionnelle_hauts_revenus:
   taux_marginal_1ere_tranche:
     description: Taux marginal de la 1ère tranche
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 0.03
     metadata:
       ipp_csv_id: txmarg1_hr
@@ -52,7 +52,7 @@ contribution_exceptionnelle_hauts_revenus:
   taux_marginal_2eme_tranche:
     description: Taux marginal de la 2ème tranche
     values:
-      '2011-01-01':
+      2011-01-01:
         value: 0.04
     metadata:
       ipp_csv_id: txmarg2_hr

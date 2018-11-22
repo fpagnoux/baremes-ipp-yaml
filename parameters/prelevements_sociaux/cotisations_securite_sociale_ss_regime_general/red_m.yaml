@@ -8,9 +8,9 @@ assurance_maladie:
       employeur:
         description: Employeur
         values:
-          '1967-10-01':
+          1967-10-01:
             value: 0.014
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: mmid_m_p_0_
@@ -22,9 +22,9 @@ assurance_maladie:
       employe:
         description: Employé
         values:
-          '1967-10-01':
+          1967-10-01:
             value: 0.007
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: mmid_m_s_0_
@@ -43,11 +43,11 @@ assurance_maladie:
       moins_65_ans:
         description: Moins de 65 ans
         values:
-          '1969-01-01':
+          1969-01-01:
             value: 0.0175
-          '1967-10-01':
+          1967-10-01:
             value: 0.0145
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: mmid_m_p_0_1
@@ -59,11 +59,11 @@ assurance_maladie:
       plus_65_ans:
         description: Plus de 65 ans
         values:
-          '1969-01-01':
+          1969-01-01:
             value: 0.0105
-          '1967-10-01':
+          1967-10-01:
             value: 0.0145
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: mmid_m_am_s65_s_0_1
@@ -78,11 +78,11 @@ assurance_maladie:
       moins_65_ans:
         description: Moins de 65 ans
         values:
-          '1969-01-01':
+          1969-01-01:
             value: 0.028
-          '1967-10-01':
+          1967-10-01:
             value: 0.018
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: mmid_m_am_i65_s_0_1
@@ -94,11 +94,11 @@ assurance_maladie:
       plus_65_ans:
         description: Plus de 65 ans
         values:
-          '1969-01-01':
+          1969-01-01:
             value: 0.021
-          '1967-10-01':
+          1967-10-01:
             value: 0.018
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: mmid_m_s65_s_0_1
@@ -106,13 +106,13 @@ assurance_maladie:
     employeur:
       description: Employeur
       values:
-        '1971-01-01':
+        1971-01-01:
           value: 0.0732
-        '1969-01-01':
+        1969-01-01:
           value: 0.0665
-        '1967-10-01':
+        1967-10-01:
           value: 0.0605
-        '1961-05-01':
+        1961-05-01:
           value: null
       metadata:
         ipp_csv_id: mmid_m_i65_s_0_1
@@ -125,29 +125,29 @@ metadata:
   - allocations_familiales
   - assurances_sociales
   reference:
-    '1974-01-01': Arrêté du 15/01/1974
-    '1973-01-01': Arrêté du 31/01/1973
-    '1972-01-01': Arrêté du 24/02/1972
-    '1971-01-01': Arrêté du 30/12/1970
-    '1970-01-01': Arrêté du 31/12/1969
-    '1969-01-01': Arrêté du 31/12/1968
-    '1967-10-01': Arrêté du 29/09/1967
-    '1966-10-01': Arrêté du 15/09/1966
-    '1962-04-01': Arrêté du 26/02/1962
-    '1961-05-01': Arrêté du 01/05/1961
+    1974-01-01: Arrêté du 15/01/1974
+    1973-01-01: Arrêté du 31/01/1973
+    1972-01-01: Arrêté du 24/02/1972
+    1971-01-01: Arrêté du 30/12/1970
+    1970-01-01: Arrêté du 31/12/1969
+    1969-01-01: Arrêté du 31/12/1968
+    1967-10-01: Arrêté du 29/09/1967
+    1966-10-01: Arrêté du 15/09/1966
+    1962-04-01: Arrêté du 26/02/1962
+    1961-05-01: Arrêté du 01/05/1961
   date_parution_jo:
-    '1974-01-01': '1974-02-07'
-    '1973-01-01': '1973-03-17'
-    '1972-01-01': '1972-03-16'
-    '1971-01-01': '1971-01-15'
-    '1970-01-01': '1970-01-01'
-    '1969-01-01': '1969-01-01'
-    '1967-10-01': '1967-10-01'
-    '1966-10-01': '1966-09-27'
-    '1962-04-01': '1962-03-18'
-    '1961-05-01': '1961-05-20'
+    1974-01-01: 1974-02-07
+    1973-01-01: 1973-03-17
+    1972-01-01: 1972-03-16
+    1971-01-01: 1971-01-15
+    1970-01-01: 1970-01-01
+    1969-01-01: 1969-01-01
+    1967-10-01: 1967-10-01
+    1966-10-01: 1966-09-27
+    1962-04-01: 1962-03-18
+    1961-05-01: 1961-05-20
   notes:
-    '1967-10-01': Il n'y a pas de distinctions d'âge pour les cotisations mmid.
+    1967-10-01: Il n'y a pas de distinctions d'âge pour les cotisations mmid.
 assurance_vieillesse:
   description: Assurance vieillesse
   sous_pss:
@@ -155,13 +155,13 @@ assurance_vieillesse:
     employeur:
       description: Employeur
       values:
-        '1974-01-01':
+        1974-01-01:
           value: 0.0508
-        '1971-01-01':
+        1971-01-01:
           value: 0.0403
-        '1967-10-01':
+        1967-10-01:
           value: 0.0385
-        '1961-05-01':
+        1961-05-01:
           value: null
       metadata:
         ipp_csv_id: ret_m_p_0_1
@@ -175,9 +175,9 @@ assurance_vieillesse:
       moins_65_ans:
         description: Moins de 65 ans
         values:
-          '1967-10-01':
+          1967-10-01:
             value: 0.021
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: ret_m_s_0_1
@@ -189,9 +189,9 @@ assurance_vieillesse:
       plus_65_ans:
         description: Plus de 65 ans
         values:
-          '1967-10-01':
+          1967-10-01:
             value: 0.0
-          '1961-05-01':
+          1961-05-01:
             value: null
         metadata:
           ipp_csv_id: ret_m_s_s65_0_1
@@ -206,17 +206,17 @@ accidents_travail:
     employeur:
       description: Employeur
       values:
-        '1973-01-01':
+        1973-01-01:
           value: 0.0147
-        '1972-01-01':
+        1972-01-01:
           value: 0.0108
-        '1971-01-01':
+        1971-01-01:
           value: 0.0154
-        '1970-01-01':
+        1970-01-01:
           value: 0.0161
-        '1969-01-01':
+        1969-01-01:
           value: 0.017
-        '1961-05-01':
+        1961-05-01:
           value: 0.018
       metadata:
         ipp_csv_id: acc_m_p_0_1
@@ -234,15 +234,15 @@ allocations_familiales:
     employeurs_sous_pss:
       description: Employeurs (sous PSS)
       values:
-        '1974-01-01':
+        1974-01-01:
           value: 0.063
-        '1971-01-01':
+        1971-01-01:
           value: 0.0735
-        '1967-10-01':
+        1967-10-01:
           value: 0.0805
-        '1962-04-01':
+        1962-04-01:
           value: 0.095
-        '1961-05-01':
+        1961-05-01:
           value: 0.1
       metadata:
         ipp_csv_id: fam_m_p_0_1
@@ -262,9 +262,9 @@ assurances_sociales:
       moins_65_ans:
         description: Moins de 65 ans
         values:
-          '1967-10-01':
+          1967-10-01:
             value: null
-          '1961-05-01':
+          1961-05-01:
             value: 0.014
         metadata:
           ipp_csv_id: css_m_am_i65_s_0_1
@@ -276,9 +276,9 @@ assurances_sociales:
       plus_65_ans:
         description: Plus de 65 ans
         values:
-          '1967-10-01':
+          1967-10-01:
             value: null
-          '1961-05-01':
+          1961-05-01:
             value: 0.042
         metadata:
           ipp_csv_id: css_m_am_s65_s_0_1
@@ -293,9 +293,9 @@ assurances_sociales:
       moins_65_ans:
         description: Moins de 65 ans
         values:
-          '1967-10-01':
+          1967-10-01:
             value: null
-          '1961-05-01':
+          1961-05-01:
             value: 0.049
         metadata:
           ipp_csv_id: css_m_s65_s_0_1
@@ -307,9 +307,9 @@ assurances_sociales:
       plus_65_ans:
         description: Plus de 65 ans
         values:
-          '1967-10-01':
+          1967-10-01:
             value: null
-          '1961-05-01':
+          1961-05-01:
             value: 0.021
         metadata:
           ipp_csv_id: css_m_i65_s_0_1
@@ -317,13 +317,13 @@ assurances_sociales:
     employeur_sous_pss:
       description: Employeur (sous PSS)
       values:
-        '1967-10-01':
+        1967-10-01:
           value: null
-        '1966-10-01':
+        1966-10-01:
           value: 0.105
-        '1962-04-01':
+        1962-04-01:
           value: 0.0995
-        '1961-05-01':
+        1961-05-01:
           value: 0.0945
       metadata:
         ipp_csv_id: css_m_p_0_1

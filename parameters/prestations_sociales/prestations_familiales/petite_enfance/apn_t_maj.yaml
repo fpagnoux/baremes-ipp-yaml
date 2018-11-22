@@ -2,11 +2,11 @@ description: 'Allocations postnatales (APN) : taux et versement'
 taux_base_calcul_verse:
   description: Taux de la base de calcul versé
   values:
-    '1985-01-01':
+    1985-01-01:
       value: null
-    '1983-01-01':
+    1983-01-01:
       value: 2.42
-    '1975-04-25':
+    1975-04-25:
       value: 2.6
   metadata:
     ipp_csv_id: tx_base
@@ -18,28 +18,28 @@ metadata:
   - taux
   - majoration_naissance_adoption
   reference:
-    '1983-01-01': Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
-    '1980-07-01': Loi 80-545 du 17 juillet 1980
-    '1979-09-01': Décret 79-724 du 27/08/1979
-    '1975-04-25': Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
+    1983-01-01: Décret 82-1138 du 29/12/1982, art. 3(modif art. L516 du CSS)
+    1980-07-01: Loi 80-545 du 17 juillet 1980
+    1979-09-01: Décret 79-724 du 27/08/1979
+    1975-04-25: Loi 75-6 du 03/01/1975                   Décret 75-244 du 24/04/1975
   date_parution_jo:
-    '1983-01-01': '1982-12-30'
-    '1980-07-01': '1980-07-18'
-    '1979-09-01': '1979-08-29'
-    '1975-04-25': 04/01/1975 15/04/1975
+    1983-01-01: 1982-12-30
+    1980-07-01: 1980-07-18
+    1979-09-01: 1979-08-29
+    1975-04-25: 04/01/1975 15/04/1975
   notes:
-    '1985-01-01': 'Allocation remplacée par Allocation au jeune enfant le 01/01/1985
+    1985-01-01: 'Allocation remplacée par Allocation au jeune enfant le 01/01/1985
       : majoration pour 3e naissance ou plus supprimée pour les enfants conçus après
       le 31/12/84.'
-    '1980-07-01': Majoration pour le 3e enfant de façon à porter à 10000 le montant
+    1980-07-01: Majoration pour le 3e enfant de façon à porter à 10000 le montant
       cumulé des prestations familiales afférant à la naissance
-    '1975-04-25': La loi 75-6 du 3 janvier 1975 crée l'APN
+    1975-04-25: La loi 75-6 du 3 janvier 1975 crée l'APN
 nombre_fractions_versement:
   description: Nombre de fractions de versement
   values:
-    '1985-01-01':
+    1985-01-01:
       value: null
-    '1975-04-25':
+    1975-04-25:
       value: 3.0
   metadata:
     ipp_csv_id: nb_frac
@@ -48,13 +48,13 @@ taux:
   1er_versement:
     description: 1er versement
     values:
-      '1985-01-01':
+      1985-01-01:
         value: null
-      '1983-01-01':
+      1983-01-01:
         value: 1.71
-      '1980-07-01':
+      1980-07-01:
         value: 1.84
-      '1975-04-25':
+      1975-04-25:
         value: 1.3
     metadata:
       ipp_csv_id: tx_versement1
@@ -66,13 +66,13 @@ taux:
   dernier_versement:
     description: Dernier versement
     values:
-      '1985-01-01':
+      1985-01-01:
         value: null
-      '1983-01-01':
+      1983-01-01:
         value: 0.355
-      '1980-07-01':
+      1980-07-01:
         value: 0.38
-      '1975-04-25':
+      1975-04-25:
         value: 0.65
     metadata:
       ipp_csv_id: tx_versement3
@@ -82,13 +82,13 @@ majoration_naissance_adoption:
   partir_2e_enfant:
     description: A partir du 2e enfant
     values:
-      '1985-01-01':
+      1985-01-01:
         value: null
-      '1983-01-01':
+      1983-01-01:
         value: 1.845
-      '1980-07-01':
+      1980-07-01:
         value: 0.0
-      '1975-04-25':
+      1975-04-25:
         value: null
     metadata:
       ipp_csv_id: majo_naiss_adop
@@ -101,13 +101,13 @@ majoration_naissance_adoption:
   partir_3e_enfant:
     description: A partir du 3e enfant
     values:
-      '1985-01-01':
+      1985-01-01:
         value: null
-      '1983-01-01':
+      1983-01-01:
         value: 2.13
-      '1980-07-01':
+      1980-07-01:
         value: 4.57
-      '1975-04-25':
+      1975-04-25:
         value: null
     metadata:
       ipp_csv_id: majo_3enf
@@ -115,11 +115,11 @@ majoration_naissance_adoption:
   naissances_multiples:
     description: Naissances multiples
     values:
-      '1983-01-01':
+      1983-01-01:
         value: null
-      '1979-09-01':
+      1979-09-01:
         value: 1.98
-      '1975-04-25':
+      1975-04-25:
         value: null
     metadata:
       ipp_csv_id: majo_mult

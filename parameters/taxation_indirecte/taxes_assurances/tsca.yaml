@@ -2,7 +2,7 @@ description: Taxe spéciale sur les conventions d'assurance (TSCA)
 assurances_incendie_particuliers:
   description: Assurances incendie pour les particuliers
   values:
-    '1979-07-01':
+    1979-07-01:
       value: 0.3
   metadata:
     ipp_csv_id: taxe_assu_incendie_particuliers
@@ -27,26 +27,26 @@ metadata:
   - assurances_vehicules_terrestres_moteur_l211_1_autres
   - autres_assurances
   reference:
-    '2016-01-01': Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
-    '2015-01-01': Loi 2014-1654 du 29/12/2014 (LF pour 2015)
-    '2014-01-01': Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-    '2011-10-01': Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
+    2016-01-01: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
+    2015-01-01: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
+    2014-01-01: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
+    2011-10-01: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
       9
-    '2011-01-01': Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
-    '1994-09-02': Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
+    2011-01-01: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
+    1994-09-02: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
   date_parution_jo:
-    '2016-01-01': '2014-12-24'
-    '2015-01-01': '2014-12-30'
-    '2014-01-01': '2013-12-24'
-    '2011-10-01': '2011-09-20'
-    '2011-01-01': '2010-12-30'
-    '1994-09-02': '2001-12-26'
+    2016-01-01: 2014-12-24
+    2015-01-01: 2014-12-30
+    2014-01-01: 2013-12-24
+    2011-10-01: 2011-09-20
+    2011-01-01: 2010-12-30
+    1994-09-02: 2001-12-26
 assurances_incendie_risques_agricoles_non_exoneres:
   description: Assurances incendie risques agricoles non exonérés
   values:
-    '1989-01-01':
+    1989-01-01:
       value: 0.07
-    '1979-07-01':
+    1979-07-01:
       value: 0.18
   metadata:
     ipp_csv_id: taxe_assu_incendie_agricole
@@ -54,7 +54,7 @@ assurances_incendie_risques_agricoles_non_exoneres:
 assurances_incendie_souscrites_aupres_caisses_departementales:
   description: Assurances incendie souscrites auprès des caisses départementales
   values:
-    '1979-07-01':
+    1979-07-01:
       value: 0.24
   metadata:
     ipp_csv_id: taxe_assu_incendie_caisse_dep
@@ -62,9 +62,9 @@ assurances_incendie_souscrites_aupres_caisses_departementales:
 assurance_pertes_exploitations_dues_incendie_industrie_etc:
   description: Assurance pertes d'exploitations dues à incendie industrie etc.
   values:
-    '1989-01-01':
+    1989-01-01:
       value: 0.07
-    '1979-07-01':
+    1979-07-01:
       value: 0.0875
   metadata:
     ipp_csv_id: taxe_assu_incendie_industrie
@@ -73,15 +73,15 @@ contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_b
   description: Contrats d'assurance maladie individuelles et collectives, "solidaires
     et responsables" (2 bis)
   values:
-    '2016-01-01':
+    2016-01-01:
       value: null
-    '2011-10-01':
+    2011-10-01:
       value: 0.07
-    '2011-01-01':
+    2011-01-01:
       value: 0.035
-    '1994-09-02':
+    1994-09-02:
       value: 0.0
-    '1979-07-01':
+    1979-07-01:
       value: null
   metadata:
     ipp_csv_id: taxe_assu_maladie_solidaire_responsable
@@ -90,15 +90,15 @@ contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter:
   description: Contrats d'assurance maladie individuelles et collectives, cas général
     (2 ter)
   values:
-    '2016-01-01':
+    2016-01-01:
       value: null
-    '2014-01-01':
+    2014-01-01:
       value: 0.14
-    '2011-10-01':
+    2011-10-01:
       value: 0.09
-    '1994-09-02':
+    1994-09-02:
       value: 0.07
-    '1979-07-01':
+    1979-07-01:
       value: null
   metadata:
     ipp_csv_id: taxe_assu_maladie_autres
@@ -106,11 +106,11 @@ contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter:
 assurance_bateaux_sport_plaisance:
   description: Assurance bateaux de sport ou de plaisance
   values:
-    '1984-01-01':
+    1984-01-01:
       value: 0.19
-    '1981-01-01':
+    1981-01-01:
       value: 0.12
-    '1979-07-01':
+    1979-07-01:
       value: 0.0875
   metadata:
     ipp_csv_id: taxe_assu_bateaux_sport_plaisance
@@ -119,11 +119,11 @@ assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_n
   description: Assurance risques non exonérés navigation fluviale ou maritimes, tous
     types de risque navigation aérienne
   values:
-    '1989-01-01':
+    1989-01-01:
       value: null
-    '1984-01-01':
+    1984-01-01:
       value: 0.046
-    '1979-07-01':
+    1979-07-01:
       value: 0.048
   metadata:
     ipp_csv_id: taxe_assu_navig_fluviale_aerienne
@@ -131,11 +131,11 @@ assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_n
 assurances_vie_assimilees:
   description: Assurances vie et assimilées
   values:
-    '1990-01-01':
+    1990-01-01:
       value: null
-    '1981-01-01':
+    1981-01-01:
       value: 0.0515
-    '1979-07-01':
+    1979-07-01:
       value: 0.048
   metadata:
     ipp_csv_id: taxe_assu_vie_et_assimiliees
@@ -143,9 +143,9 @@ assurances_vie_assimilees:
 rente_viagere_sous_conditions:
   description: Rente viagère sous conditions
   values:
-    '1990-01-01':
+    1990-01-01:
       value: null
-    '1979-07-01':
+    1979-07-01:
       value: 0.024
   metadata:
     ipp_csv_id: taxe_rente_viagere_cond
@@ -153,9 +153,9 @@ rente_viagere_sous_conditions:
 assurances_credit_exportation:
   description: Assurances de crédit à l'exportation
   values:
-    '1989-01-01':
+    1989-01-01:
       value: null
-    '1979-07-01':
+    1979-07-01:
       value: 0.0025
   metadata:
     ipp_csv_id: taxe_assu_credit_export
@@ -163,9 +163,9 @@ assurances_credit_exportation:
 contribution_secu_assurances_automobiles:
   description: Contribution sécu assurances automobiles
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 0.15
-    '1979-07-01':
+    1979-07-01:
       value: null
   metadata:
     ipp_csv_id: contrib_secu_assu_auto
@@ -173,13 +173,13 @@ contribution_secu_assurances_automobiles:
 assurance_vehicules_terrestres_moteurs_particuliers:
   description: Assurance pour les véhicules terrestres à moteurs (pour les particuliers)
   values:
-    '1991-01-01':
+    1991-01-01:
       value: 0.18
-    '1989-01-01':
+    1989-01-01:
       value: 0.07
-    '1984-01-01':
+    1984-01-01:
       value: 0.18
-    '1979-07-01':
+    1979-07-01:
       value: null
   metadata:
     ipp_csv_id: taxe_assu_vtm_particuliers
@@ -188,11 +188,11 @@ assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite
   description: Assurances de protection juridique art L127-1 code des assurances et
     L224-1 code de la mutualité
   values:
-    '2016-01-01':
+    2016-01-01:
       value: 0.134
-    '2015-01-01':
+    2015-01-01:
       value: 0.116
-    '1979-07-01':
+    1979-07-01:
       value: null
   metadata:
     ipp_csv_id: taxe_assu_protec_juridique
@@ -201,9 +201,9 @@ assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances:
   description: Assurance véhicules terrestres à moteur lourds, du L211-1 code des
     assurances
   values:
-    '2016-01-01':
+    2016-01-01:
       value: 0.15
-    '1979-07-01':
+    1979-07-01:
       value: null
   metadata:
     ipp_csv_id: taxe_assu_vtm_lourds
@@ -211,9 +211,9 @@ assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances:
 assurances_vehicules_terrestres_moteur_l211_1_autres:
   description: Assurances véhicules terrestres à moteur L211-1 autres
   values:
-    '2016-01-01':
+    2016-01-01:
       value: 0.33
-    '1979-07-01':
+    1979-07-01:
       value: null
   metadata:
     ipp_csv_id: taxe_assu_vtm_autres
@@ -221,7 +221,7 @@ assurances_vehicules_terrestres_moteur_l211_1_autres:
 autres_assurances:
   description: Autres assurances
   values:
-    '1979-07-01':
+    1979-07-01:
       value: 0.09
   metadata:
     ipp_csv_id: taxe_autres_assu

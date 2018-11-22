@@ -3,21 +3,21 @@ description: Cotisations SS accidents du travail-maladies professionnelles (AT-M
 employeur_sous_pss:
   description: Employeur sous PSS
   values:
-    '1991-01-01':
+    1991-01-01:
       value: null
-    '1989-01-01':
+    1989-01-01:
       value: 0.017
-    '1986-01-01':
+    1986-01-01:
       value: 0.018
-    '1985-01-01':
+    1985-01-01:
       value: 0.017
-    '1984-01-01':
+    1984-01-01:
       value: 0.018
-    '1983-01-01':
+    1983-01-01:
       value: 0.017
-    '1979-01-01':
+    1979-01-01:
       value: 0.018
-    '1976-01-01':
+    1976-01-01:
       value: 0.017
   metadata:
     ipp_csv_id: acc_p_0_1
@@ -27,45 +27,45 @@ metadata:
   - employeur_sous_pss
   - employeur_tout_salaire
   reference:
-    '2018-01-01': Arrêté du 30/12/2017
-    '2016-01-01': Arrêté du 21/12/2015
-    '2008-01-01': Arrêté du 22/12/2008 du Min. des affaires sociales et de la santé
-    '1991-01-01': Loi 90-86 du 23/01/1990, art. 1
-    '1976-01-01': Arrêté du 01/10/1976
+    2018-01-01: Arrêté du 30/12/2017
+    2016-01-01: Arrêté du 21/12/2015
+    2008-01-01: Arrêté du 22/12/2008 du Min. des affaires sociales et de la santé
+    1991-01-01: Loi 90-86 du 23/01/1990, art. 1
+    1976-01-01: Arrêté du 01/10/1976
   date_parution_jo:
-    '2018-01-01': '2017-12-31'
-    '2016-01-01': '2015-12-22'
-    '2008-01-01': '2008-12-27'
-    '1991-01-01': '1990-01-25'
-    '1976-01-01': '1976-10-10'
+    2018-01-01: 2017-12-31
+    2016-01-01: 2015-12-22
+    2008-01-01: 2008-12-27
+    1991-01-01: 1990-01-25
+    1976-01-01: 1976-10-10
   notes:
-    '2008-01-01': La date du passage du taux de 1,0 à 1,1% doit être vérifiée.
-    '1993-01-01': Référence manquante
-    '1992-01-01': Référence manquante
-    '1991-01-01': Cotisation déplafonnée avec réduction des taux.
-    '1989-01-01': Référence manquante
-    '1986-01-01': Référence manquante
-    '1985-01-01': Référence manquante
-    '1984-01-01': Référence manquante
-    '1983-01-01': Référence manquante
-    '1979-01-01': Référence manquante
-    '1977-01-01': Référence manquante
+    2008-01-01: La date du passage du taux de 1,0 à 1,1% doit être vérifiée.
+    1993-01-01: Référence manquante
+    1992-01-01: Référence manquante
+    1991-01-01: Cotisation déplafonnée avec réduction des taux.
+    1989-01-01: Référence manquante
+    1986-01-01: Référence manquante
+    1985-01-01: Référence manquante
+    1984-01-01: Référence manquante
+    1983-01-01: Référence manquante
+    1979-01-01: Référence manquante
+    1977-01-01: Référence manquante
 employeur_tout_salaire:
   description: Employeur tout salaire
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 0.009
-    '2016-01-01':
+    2016-01-01:
       value: 0.01
-    '2008-01-01':
+    2008-01-01:
       value: 0.011
-    '1993-01-01':
+    1993-01-01:
       value: 0.01
-    '1992-01-01':
+    1992-01-01:
       value: 0.012
-    '1991-01-01':
+    1991-01-01:
       value: 0.013
-    '1976-01-01':
+    1976-01-01:
       value: null
   metadata:
     ipp_csv_id: acc_p_0_

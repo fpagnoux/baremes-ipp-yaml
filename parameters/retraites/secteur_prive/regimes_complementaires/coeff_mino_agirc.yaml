@@ -5,9 +5,9 @@ coefficient_minoration_agirc_en_fonction_distance_age_annulation_decote_en_annee
   '-10':
     description: '-10'
     values:
-      '1983-01-01':
+      1983-01-01:
         value: 0.43
-      '1947-03-14':
+      1947-03-14:
         value: null
   metadata:
     order:
@@ -29,100 +29,100 @@ coefficient_minoration_agirc_en_fonction_distance_age_annulation_decote_en_annee
   '-9':
     description: '-9'
     values:
-      '1983-01-01':
+      1983-01-01:
         value: 0.5
-      '1947-03-14':
+      1947-03-14:
         value: null
   '-8':
     description: '-8'
     values:
-      '1983-01-01':
+      1983-01-01:
         value: 0.57
-      '1947-03-14':
+      1947-03-14:
         value: null
   '-7':
     description: '-7'
     values:
-      '1983-01-01':
+      1983-01-01:
         value: 0.64
-      '1947-03-14':
+      1947-03-14:
         value: null
   '-6':
     description: '-6'
     values:
-      '1983-01-01':
+      1983-01-01:
         value: 0.71
-      '1947-03-14':
+      1947-03-14:
         value: null
   '-5':
     description: '-5'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: 0.78
-      '1947-03-14':
+      1947-03-14:
         value: 0.75
   '-4':
     description: '-4'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: 0.83
-      '1947-03-14':
+      1947-03-14:
         value: 0.8
   '-3':
     description: '-3'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: 0.88
-      '1947-03-14':
+      1947-03-14:
         value: 0.85
   '-2':
     description: '-2'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: 0.92
-      '1947-03-14':
+      1947-03-14:
         value: 0.9
   '-1':
     description: '-1'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: 0.96
-      '1947-03-14':
+      1947-03-14:
         value: 0.95
   '0':
     description: '0'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: 1.0
-      '1947-03-14':
+      1947-03-14:
         value: 1.05
   '1':
     description: '1'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: null
-      '1947-03-14':
+      1947-03-14:
         value: 1.1
   '2':
     description: '2'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: null
-      '1947-03-14':
+      1947-03-14:
         value: 1.15
   '3':
     description: '3'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: null
-      '1947-03-14':
+      1947-03-14:
         value: 1.2
   '4':
     description: '4'
     values:
-      '1955-01-01':
+      1955-01-01:
         value: null
-      '1947-03-14':
+      1947-03-14:
         value: 1.25
 metadata:
   order:

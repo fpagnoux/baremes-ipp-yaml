@@ -4,7 +4,7 @@ remuneration_brute_maximale_assistante_maternelle_par_jour_par_enfant_en_multipl
   description: Rémunération brute maximale de l'assistante maternelle (par jour et
     par enfant) (en multiple du SMIC horaire)
   values:
-    '2004-01-01':
+    2004-01-01:
       value: 5.0
 metadata:
   order:
@@ -15,21 +15,21 @@ metadata:
   - majoration_plafond_une_personne_isolee
   - notes_bis
   reference:
-    '2008-05-01': Décret 2008-331 du 9/04/2008 - art. 1
-    '2004-01-01': |-
+    2008-05-01: Décret 2008-331 du 9/04/2008 - art. 1
+    2004-01-01: |-
       Décret 2003-1394 du 31/12/2003 - art. 1 JORF 1er janvier 2004
       Article D531-17 (multiplicateur du smic horaire)
   date_parution_jo:
-    '2008-05-01': '2008-04-11'
-    '2004-01-01': '2004-01-01'
+    2008-05-01: 2008-04-11
+    2004-01-01: 2004-01-01
 complement_libre_choix_mode_garde_en_bmaf_1:
   description: Complément libre choix du mode de garde (en % de la BMAF) (1)
   revenus_inferieurs_45_plafond_allocation:
     description: Revenus inférieurs à 45% du plafond d'allocation
     values:
-      '2008-05-01':
+      2008-05-01:
         value: 1.1404
-      '2004-01-01':
+      2004-01-01:
         value: 1.0067
     metadata:
       ipp_csv_id: clcmg_03ans_rev1
@@ -42,7 +42,7 @@ complement_libre_choix_mode_garde_en_bmaf_1:
   revenus_superieurs_45_plafond_allocation:
     description: Revenus supérieurs à 45% du plafond d'allocation
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 0.7191
     metadata:
       ipp_csv_id: clcmg_03ans_rev2
@@ -50,7 +50,7 @@ complement_libre_choix_mode_garde_en_bmaf_1:
   revenus_superieurs_plafond_allocation:
     description: Revenus supérieurs au plafond d'allocation
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 0.4314
     metadata:
       ipp_csv_id: clcmg_03ans_rev3
@@ -61,7 +61,7 @@ taux_recours_une_assistante_maternelle_une_association_une_entreprise_une_microc
   sous_premier_plafond:
     description: Sous le premier plafond
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 1.7257
     metadata:
       unit: /1
@@ -73,14 +73,14 @@ taux_recours_une_assistante_maternelle_une_association_une_entreprise_une_microc
   sous_second_plafond:
     description: Sous le second plafond
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 1.4381
     metadata:
       unit: /1
   apres_second_plafond:
     description: Après le second plafond
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 1.1505
     metadata:
       unit: /1
@@ -89,7 +89,7 @@ taux_recours_une_garde_domicile_en_bmaf:
   sous_premier_plafond:
     description: Sous le premier plafond
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 2.0853
     metadata:
       unit: /1
@@ -101,30 +101,30 @@ taux_recours_une_garde_domicile_en_bmaf:
   sous_second_plafond:
     description: Sous le second plafond
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 1.7979
     metadata:
       unit: /1
   apres_second_plafond:
     description: Après le second plafond
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 1.51
     metadata:
       unit: /1
 majoration_plafond_une_personne_isolee:
   description: Majoration du plafond pour une personne isolée
   values:
-    '2008-05-01':
+    2008-05-01:
       value: 0.4
-    '2004-01-01':
+    2004-01-01:
       value: null
   metadata:
     unit: /1
 notes_bis:
   description: Notes bis
   values:
-    '2004-01-01':
+    2004-01-01:
       value: null
 documentation: |
   Notes :

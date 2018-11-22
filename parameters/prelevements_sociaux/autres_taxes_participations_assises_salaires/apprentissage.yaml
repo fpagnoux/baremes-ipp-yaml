@@ -4,13 +4,13 @@ employeur_tout_salaire:
   taxe_apprentissage:
     description: Taxe d'apprentissage
     values:
-      '2014-01-01':
+      2014-01-01:
         value: 0.0068
-      '1993-01-01':
+      1993-01-01:
         value: 0.005
-      '1977-01-01':
+      1977-01-01:
         value: 0.006
-      '1972-07-01':
+      1972-07-01:
         value: 0.005
     metadata:
       ipp_csv_id: appren_p_0_
@@ -24,15 +24,15 @@ employeur_tout_salaire:
   taxe_apprentissage_alsace_moselle:
     description: Taxe d'apprentissage (Alsace-Moselle)
     values:
-      '2014-01-01':
+      2014-01-01:
         value: 0.0044
-      '2007-01-01':
+      2007-01-01:
         value: 0.0026
-      '1997-01-01':
+      1997-01-01:
         value: 0.002
-      '1979-01-01':
+      1979-01-01:
         value: 0.001
-      '1972-07-01':
+      1972-07-01:
         value: null
     metadata:
       ipp_csv_id: appren_am_p_0_
@@ -40,15 +40,15 @@ employeur_tout_salaire:
   contribution_developpement_apprentissage:
     description: Contribution au développement de l'apprentissage
     values:
-      '2014-01-01':
+      2014-01-01:
         value: null
-      '2006-01-01':
+      2006-01-01:
         value: 0.0018
-      '2005-01-01':
+      2005-01-01:
         value: 0.0012
-      '2004-01-01':
+      2004-01-01:
         value: 0.0006
-      '1972-07-01':
+      1972-07-01:
         value: null
     metadata:
       ipp_csv_id: apprencda_p_0_
@@ -56,11 +56,11 @@ employeur_tout_salaire:
   cotisation_supplementaire:
     description: Cotisation supplémentaire
     values:
-      '1993-01-01':
+      1993-01-01:
         value: null
-      '1977-01-01':
+      1977-01-01:
         value: 0.001
-      '1972-07-01':
+      1972-07-01:
         value: null
     metadata:
       ipp_csv_id: apprensup_p_0_
@@ -71,74 +71,74 @@ metadata:
   - entreprises_250_salaries_plus
   - cas_entreprises_2000_salaries_alternants_representent_1_effectif_i_i_i
   reference:
-    '2014-01-01': Loi 2013-1279 du 29/12/2013 (LFR pour 2013), art. 60
-    '2012-01-01': Loi 2012-354 du 14/12/2012 (LFR pour 2012), art. 22
-    '2011-01-01': Loi 2011-900 du 29/07/2011 (LFR pour 2011), art. 23
-    '2010-01-01': Loi 2009-1437 du 24/11/2009, art. 27
-    '2007-01-01': Décret 2008-244 du 07/03/2008
-    '2006-01-01': Loi 2004-1484 du 30/12/2005 (LF pour 2005), art. 37
-    '2005-01-01': Loi 2004-1484 du 30/12/2005 (LF pour 2005), art. 37
-    '2004-01-01': Loi 2004-1484 du 30/12/2005 (LF pour 2005), art. 37
-    '1997-01-01': Décret 97-222 du 1997-03-13 art. 2 I, II
-    '1995-01-01': Référence législative manquante
-    '1993-01-01': Loi 93-121 du 27/01/1993, art. 92
-    '1980-01-01': Loi 80-30 du 18/01/80 (LF pour 1980), art. 21
-    '1979-01-01': Loi 78-1239 du 29/12/1978
-    '1978-01-01': Loi 78-653 du 22/06/1978 (LFR pour 1978)
-    '1977-01-01': Loi 77-704 du 05/07/1977
-    '1973-07-01': Décret 72-1208 du 27/12/1972
-    '1972-07-01': Loi 71-576 et loi 71-578 (art. 3) du 16/07/1971
+    2014-01-01: Loi 2013-1279 du 29/12/2013 (LFR pour 2013), art. 60
+    2012-01-01: Loi 2012-354 du 14/12/2012 (LFR pour 2012), art. 22
+    2011-01-01: Loi 2011-900 du 29/07/2011 (LFR pour 2011), art. 23
+    2010-01-01: Loi 2009-1437 du 24/11/2009, art. 27
+    2007-01-01: Décret 2008-244 du 07/03/2008
+    2006-01-01: Loi 2004-1484 du 30/12/2005 (LF pour 2005), art. 37
+    2005-01-01: Loi 2004-1484 du 30/12/2005 (LF pour 2005), art. 37
+    2004-01-01: Loi 2004-1484 du 30/12/2005 (LF pour 2005), art. 37
+    1997-01-01: Décret 97-222 du 1997-03-13 art. 2 I, II
+    1995-01-01: Référence législative manquante
+    1993-01-01: Loi 93-121 du 27/01/1993, art. 92
+    1980-01-01: Loi 80-30 du 18/01/80 (LF pour 1980), art. 21
+    1979-01-01: Loi 78-1239 du 29/12/1978
+    1978-01-01: Loi 78-653 du 22/06/1978 (LFR pour 1978)
+    1977-01-01: Loi 77-704 du 05/07/1977
+    1973-07-01: Décret 72-1208 du 27/12/1972
+    1972-07-01: Loi 71-576 et loi 71-578 (art. 3) du 16/07/1971
   date_parution_jo:
-    '2014-01-01': '2013-12-29'
-    '2012-01-01': '2012-03-15'
-    '2011-01-01': '2011-07-30'
-    '2010-01-01': '2009-11-25'
-    '2007-01-01': '2008-03-12'
-    '2006-01-01': '2004-12-31'
-    '2005-01-01': '2004-12-31'
-    '2004-01-01': '2004-12-31'
-    '1997-01-01': '1997-03-14'
-    '1993-01-01': '1993-01-30'
-    '1980-01-01': '1980-01-19'
-    '1979-01-01': '1978-12-30'
-    '1978-01-01': '1978-06-22'
-    '1977-01-01': '1977-07-06'
-    '1973-07-01': '1972-12-29'
-    '1972-07-01': '1971-07-17'
+    2014-01-01: 2013-12-29
+    2012-01-01: 2012-03-15
+    2011-01-01: 2011-07-30
+    2010-01-01: 2009-11-25
+    2007-01-01: 2008-03-12
+    2006-01-01: 2004-12-31
+    2005-01-01: 2004-12-31
+    2004-01-01: 2004-12-31
+    1997-01-01: 1997-03-14
+    1993-01-01: 1993-01-30
+    1980-01-01: 1980-01-19
+    1979-01-01: 1978-12-30
+    1978-01-01: 1978-06-22
+    1977-01-01: 1977-07-06
+    1973-07-01: 1972-12-29
+    1972-07-01: 1971-07-17
   notes:
-    '2014-01-01': |-
+    2014-01-01: |-
       Suppression de la contribution au développement : Article 1599 quinquies A (abrogé au 1 janvier 2014). 
       Modification du taux pour l'Alsace et Moselle (art 1559 ter J du CGI). Modification du barème des taux de CSA
-    '2012-01-01': Modification du barème des taux de CSA
-    '2011-01-01': Modulation du taux de la CSA en fonction de l'effectif en alternance.
-    '2004-01-01': Instauration d'une contribution additionnelle, la CDA
-    '1997-01-01': En Alsace-Moselle, taux de la taxe d'apprentissage réduit au montant,
+    2012-01-01: Modification du barème des taux de CSA
+    2011-01-01: Modulation du taux de la CSA en fonction de l'effectif en alternance.
+    2004-01-01: Instauration d'une contribution additionnelle, la CDA
+    1997-01-01: En Alsace-Moselle, taux de la taxe d'apprentissage réduit au montant,
       fixé à l'article 140 K, de la fraction de cette taxe réservée au développement
       de l'apprentissage.
-    '1995-01-01': Mémento pratique Fiscal 1995, ed. Francis Lefebvre.
-    '1993-01-01': Cette loi supprime la cotisation supplémentaire de 0,1%, instaurée
+    1995-01-01: Mémento pratique Fiscal 1995, ed. Francis Lefebvre.
+    1993-01-01: Cette loi supprime la cotisation supplémentaire de 0,1%, instaurée
       de façon exceptionnelle en 1977 et rendu permanente en 1983.
-    '1978-01-01': En 1978, création d'une cotisation supplémentaire de 0,2% pour financer
+    1978-01-01: En 1978, création d'une cotisation supplémentaire de 0,2% pour financer
       la formation en alternance (référence législative manquante)
-    '1977-01-01': Cotisation exceptionnelle supplémentaire de 0,1% des salaires de
+    1977-01-01: Cotisation exceptionnelle supplémentaire de 0,1% des salaires de
       1977, reconduite en 1978, 1979, 1980, 1981 et 1982. La loi 82-1126 donne un
       caractère permanent à cette cotisation (art. 27)
-    '1973-07-01': Le décret précise que les lois de 1971 sur l'apprentissage entreront
+    1973-07-01: Le décret précise que les lois de 1971 sur l'apprentissage entreront
       en vigueur en Alsace-Moselle en 1973. Toutefois, le décret d'application 72-280
       du 12/04/1972 (art. 58) qui devait préciser le taux de la taxe applicable est
       introuvable sur Légifrance.
-    '1972-07-01': La Loi 71-578 ramène le taux de la taxe d'apprentissage de 0,60%
+    1972-07-01: La Loi 71-578 ramène le taux de la taxe d'apprentissage de 0,60%
       à 0,50%
 entreprises_250_salaries_plus:
   description: Entreprises de 250 salariés et plus
   contribution_supplementaire_apprentissage_csa:
     description: Contribution supplémentaire à l'apprentissage (CSA)
     values:
-      '2011-01-01':
+      2011-01-01:
         value: null
-      '2010-01-01':
+      2010-01-01:
         value: 0.001
-      '1972-07-01':
+      1972-07-01:
         value: null
     metadata:
       ipp_csv_id: apprencsa_p_0_
@@ -152,13 +152,13 @@ cas_entreprises_2000_salaries_alternants_representent_1_effectif_i_i_i:
   contribution_supplementaire_apprentissage_csa:
     description: Contribution supplémentaire à l'apprentissage (CSA)
     values:
-      '2014-01-01':
+      2014-01-01:
         value: 0.004
-      '2012-01-01':
+      2012-01-01:
         value: 0.0025
-      '2011-01-01':
+      2011-01-01:
         value: 0.002
-      '1972-07-01':
+      1972-07-01:
         value: null
     metadata:
       unit: /1

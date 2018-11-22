@@ -4,11 +4,11 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 2002.0
-      '1992-01-01':
+      1992-01-01:
         value: 1993.0
-      '1991-01-01':
+      1991-01-01:
         value: 1992.0
   metadata:
     order:
@@ -18,26 +18,26 @@ metadata:
   - date_entree_en_vigueur
   - reduction_enfants_scolarises
   reference:
-    '2001-01-01': CGI. - Article 199 quater F
-    '1992-01-01': LF pour 1993
+    2001-01-01: CGI. - Article 199 quater F
+    1992-01-01: LF pour 1993
   notes:
-    '1992-01-01': DB 5 B-3315 - JOFR 31/12/1992
+    1992-01-01: DB 5 B-3315 - JOFR 31/12/1992
 reduction_enfants_scolarises:
   description: Réduction pour enfants scolarisés
   college:
     description: Collège
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 61.0
-      '1992-01-01':
+      1992-01-01:
         value: 400.0
-      '1991-01-01':
+      1991-01-01:
         value: null
     metadata:
       ipp_csv_id: reduc_enfscol1
       unit:
-        '2001-01-01': currency-EUR
-        '1992-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1992-01-01: currency-FRF
   metadata:
     order:
     - college
@@ -46,29 +46,29 @@ reduction_enfants_scolarises:
   lycee:
     description: Lycée
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 153.0
-      '1992-01-01':
+      1992-01-01:
         value: 1000.0
-      '1991-01-01':
+      1991-01-01:
         value: null
     metadata:
       ipp_csv_id: reduc_enfscol2
       unit:
-        '2001-01-01': currency-EUR
-        '1992-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1992-01-01: currency-FRF
   universite:
     description: Université
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 183.0
-      '1992-01-01':
+      1992-01-01:
         value: 1200.0
-      '1991-01-01':
+      1991-01-01:
         value: null
     metadata:
       ipp_csv_id: reduc_enfscol3
       unit:
-        '2001-01-01': currency-EUR
-        '1992-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        1992-01-01: currency-FRF
 documentation: ''

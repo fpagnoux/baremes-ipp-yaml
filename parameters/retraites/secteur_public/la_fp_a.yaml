@@ -6,11 +6,11 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     annee:
       description: Année
       values:
-        '1985-01-01':
+        1985-01-01:
           value: 60.0
-        '1976-01-01':
+        1976-01-01:
           value: 65.0
-        '1937-01-01':
+        1937-01-01:
           value: 67.0
       metadata:
         ipp_csv_id: agelimfp_base
@@ -21,7 +21,7 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '1937-01-01':
+        1937-01-01:
           value: 0.0
   metadata:
     order:
@@ -37,9 +37,9 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 60.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0751
@@ -50,18 +50,18 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1952:
     description: Né après le 01/01/1952
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 60.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0152
@@ -72,20 +72,20 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 9.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1953:
     description: Né après le 01/01/1953
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 61.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0153
@@ -96,20 +96,20 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 2.0
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1954:
     description: Né après le 01/01/1954
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 61.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0154
@@ -120,22 +120,22 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 7.0
-        '2011-07-01':
+        2011-07-01:
           value: 4.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1955:
     description: Né après le 01/01/1955
     annee:
       description: Année
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 62.0
-        '2011-07-01':
+        2011-07-01:
           value: 61.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0155
@@ -146,20 +146,20 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2012-01-01':
+        2012-01-01:
           value: 0.0
-        '2011-07-01':
+        2011-07-01:
           value: 8.0
-        '1937-01-01':
+        1937-01-01:
           value: null
   ne_apres_01_01_1956:
     description: Né après le 01/01/1956
     annee:
       description: Année
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 62.0
-        '1937-01-01':
+        1937-01-01:
           value: null
     metadata:
       order:
@@ -168,9 +168,9 @@ age_limite_fonction_publique_active_selon_annee_naissance:
     mois:
       description: Mois
       values:
-        '2011-07-01':
+        2011-07-01:
           value: 0.0
-        '1937-01-01':
+        1937-01-01:
           value: null
       metadata:
         ipp_csv_id: agelimfp_0156
@@ -178,24 +178,24 @@ metadata:
   order:
   - age_limite_fonction_publique_active_selon_annee_naissance
   reference:
-    '2012-01-01': Loi 2011-1906 du 21 décembre 2011, art. 88 (III, 2°)
-    '2011-07-01': Loi 2010-1330 du 09/11/2010, art. 31 (I, 5°) ; Décret 2011-754 du
+    2012-01-01: Loi 2011-1906 du 21 décembre 2011, art. 88 (III, 2°)
+    2011-07-01: Loi 2010-1330 du 09/11/2010, art. 31 (I, 5°) ; Décret 2011-754 du
       28/06/2011, art. 4
-    '1985-01-01': Loi 84-834 du 13/09/ 1984
-    '1976-01-01': Loi 75-1280 du 30 décembre 1975
-    '1937-01-01': Loi du 18 août 1936
+    1985-01-01: Loi 84-834 du 13/09/ 1984
+    1976-01-01: Loi 75-1280 du 30 décembre 1975
+    1937-01-01: Loi du 18 août 1936
   date_parution_jo:
-    '2012-01-01': '2011-11-22'
-    '2011-07-01': 10/11/2010 ; 29/06/2011
-    '1985-01-01': '1984-09-14'
-    '1976-01-01': '1975-12-31'
-    '1937-01-01': '1936-08-20'
+    2012-01-01: 2011-11-22
+    2011-07-01: 10/11/2010 ; 29/06/2011
+    1985-01-01: 1984-09-14
+    1976-01-01: 1975-12-31
+    1937-01-01: 1936-08-20
   notes:
-    '1976-01-01': La réforme prévoit une montée en régime progressive, avec un âge
+    1976-01-01: La réforme prévoit une montée en régime progressive, avec un âge
       limite de 67 ans jusqu'au 31/12/1976, 66 ans et six mois du 01/01 au 30/12/1977,et
       67 ans à partir de cette date.  Toutefois, la limite d'âge des professeurs titulaires
       du Collège de France reste fixée à soixante-dix ans.
-    '1937-01-01': Voir note (2).
+    1937-01-01: Voir note (2).
 documentation: |
   Lecture :
   Ce tableau renseigne, pour une date de législation donnée (la date d'entrée en vigueur, en ligne), le paramètre en fonction de la date de naissance (en ordonnée).

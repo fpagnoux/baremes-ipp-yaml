@@ -4,7 +4,7 @@ tranche_1:
   salarie:
     description: Salarié
     values:
-      '2001-04-01':
+      2001-04-01:
         value: 0.008
     metadata:
       ipp_csv_id: agff_s_0_1
@@ -16,7 +16,7 @@ tranche_1:
   employeur:
     description: Employeur
     values:
-      '2001-04-01':
+      2001-04-01:
         value: 0.012
     metadata:
       ipp_csv_id: agff_p_0_1
@@ -28,16 +28,16 @@ metadata:
   - tranche_b
   - tranche_c
   reference:
-    '2016-01-01': Accord Arrco-Agirc du 30/10/2015 (art.3)
-    '2001-04-01': Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
+    2016-01-01: Accord Arrco-Agirc du 30/10/2015 (art.3)
+    2001-04-01: Accord Arrco-Agirc du 10/02/2001 (ch. III) et du 12/11/2003
   notes:
-    '2016-01-01': Extension de la cotisation sur tranche B à la tranche C
+    2016-01-01: Extension de la cotisation sur tranche B à la tranche C
 tranche_2:
   description: Tranche 2
   salarie:
     description: Salarié
     values:
-      '2001-04-01':
+      2001-04-01:
         value: 0.009
     metadata:
       ipp_csv_id: agff_s_1_3
@@ -49,7 +49,7 @@ tranche_2:
   employeur:
     description: Employeur
     values:
-      '2001-04-01':
+      2001-04-01:
         value: 0.013
     metadata:
       ipp_csv_id: agff_p_1_3
@@ -59,7 +59,7 @@ tranche_b:
   salarie:
     description: Salarié
     values:
-      '2001-04-01':
+      2001-04-01:
         value: 0.009
     metadata:
       ipp_csv_id: agff_s_1_4
@@ -71,7 +71,7 @@ tranche_b:
   employeur:
     description: Employeur
     values:
-      '2001-04-01':
+      2001-04-01:
         value: 0.013
     metadata:
       ipp_csv_id: agff_p_1_4
@@ -81,9 +81,9 @@ tranche_c:
   salarie:
     description: Salarié
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.009
-      '2001-04-01':
+      2001-04-01:
         value: null
     metadata:
       unit: /1
@@ -94,9 +94,9 @@ tranche_c:
   employeur:
     description: Employeur
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.013
-      '2001-04-01':
+      2001-04-01:
         value: null
     metadata:
       unit: /1

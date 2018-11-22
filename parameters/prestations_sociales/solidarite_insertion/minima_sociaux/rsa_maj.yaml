@@ -5,7 +5,7 @@ majoration_montant_maximal_en_base_rsa:
   couples_celibataire_avec_enfant:
     description: Couples ou célibataire avec un enfant
     values:
-      '2009-06-01':
+      2009-06-01:
         value: 0.5
     metadata:
       ipp_csv_id: rsa_rmi_coup
@@ -18,7 +18,7 @@ majoration_montant_maximal_en_base_rsa:
   couple_1_enfant_deuxieme_enfant_1:
     description: Couple, 1 enfant - ou pour le deuxième enfant (1)
     values:
-      '2009-06-01':
+      2009-06-01:
         value: 0.3
     metadata:
       ipp_csv_id: rsa_rmi_enf2
@@ -26,7 +26,7 @@ majoration_montant_maximal_en_base_rsa:
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
-      '2009-06-01':
+      2009-06-01:
         value: 0.4
     metadata:
       ipp_csv_id: rsa_rmi_enf3
@@ -38,21 +38,21 @@ metadata:
   - majoration_ressources_revenus_activite
   - montant_minimum_verse
   reference:
-    '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
-    '2009-06-01': Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
+    2016-01-01: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+    2009-06-01: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-1 du CASF)
   date_parution_jo:
-    '2016-01-01': '2015-12-22'
-    '2009-06-01': '2009-04-16'
+    2016-01-01: 2015-12-22
+    2009-06-01: 2009-04-16
   notes:
-    '2016-01-01': Remplacement du RSA activité par la Prime d'activité
+    2016-01-01: Remplacement du RSA activité par la Prime d'activité
 majoration_isolement_en_base_rsa:
   description: Majoration isolement (en % de la base RSA)
   parents_isoles_2_femmes_enceintes:
     description: Parents isolés (2) / femmes enceintes
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 1.28412
-      '2009-06-01':
+      2009-06-01:
         value: 1.284
     metadata:
       ipp_csv_id: rsa_isole_enceinte
@@ -64,9 +64,9 @@ majoration_isolement_en_base_rsa:
   par_enfant_charge:
     description: Par enfant à charge
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.42804
-      '2009-06-01':
+      2009-06-01:
         value: 0.428
     metadata:
       ipp_csv_id: rsa_isole_enf
@@ -74,9 +74,9 @@ majoration_isolement_en_base_rsa:
 majoration_ressources_revenus_activite:
   description: Majoration des ressources sur les revenus d'activité
   values:
-    '2016-01-01':
+    2016-01-01:
       value: null
-    '2009-06-01':
+    2009-06-01:
       value: 0.62
   metadata:
     ipp_csv_id: tx_rsa
@@ -84,9 +84,9 @@ majoration_ressources_revenus_activite:
 montant_minimum_verse:
   description: Montant minimum versé
   values:
-    '2016-01-01':
+    2016-01-01:
       value: null
-    '2009-06-01':
+    2009-06-01:
       value: 6.0
   metadata:
     ipp_csv_id: min_rsa_rmi

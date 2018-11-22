@@ -2,35 +2,35 @@ description: TICPE - produits énergétiques e
 emulsion_eau_dans_gazole_sous_conditions_hectolitre:
   description: Emulsion d'eau dans du gazole …, sous conditions (hectolitre)
   values:
-    '2022-01-01':
+    2022-01-01:
       value: 19.44
-    '2021-01-01':
+    2021-01-01:
       value: 17.16
-    '2020-01-01':
+    2020-01-01:
       value: 14.89
-    '2019-01-01':
+    2019-01-01:
       value: 12.61
-    '2018-01-01':
+    2018-01-01:
       value: 10.33
-    '2017-01-01':
+    2017-01-01:
       value: 7.25
-    '2016-01-01':
+    2016-01-01:
       value: 5.39
-    '2015-01-01':
+    2015-01-01:
       value: 3.74
-    '2008-01-01':
+    2008-01-01:
       value: 2.1
-    '2002-01-01':
+    2002-01-01:
       value: 1.8
-    '2000-01-01':
+    2000-01-01:
       value: 40.85
-    '1993-01-01':
+    1993-01-01:
       value: null
   metadata:
     ipp_csv_id: ticpe_emulsion_eau_gazole_cond
     unit:
-      '2002-01-01': currency-EUR
-      '2000-01-01': currency-FRF
+      2002-01-01: currency-EUR
+      2000-01-01: currency-FRF
 metadata:
   order:
   - emulsion_eau_dans_gazole_sous_conditions_hectolitre
@@ -39,138 +39,138 @@ metadata:
   - carburant_constitue_minimum_90_alcool_ethylique_agricole_hectolitre
   - carburant_constitue_100_estars_methyliques_acides_gras_hectolitre
   reference:
-    '2022-01-01': Loi 2017-1837 du 30/12/2017 (LF pour 2018)
-    '2021-01-01': Loi 2017-1837 du 30/12/2017 (LF pour 2018)
-    '2020-01-01': Loi 2017-1837 du 30/12/2017 (LF pour 2018)
-    '2019-01-01': Loi 2017-1837 du 30/12/2017 (LF pour 2018)
-    '2018-01-01': Loi 2017-1837 du 30/12/2017 (LF pour 2018)
-    '2017-01-01': Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
-    '2016-01-01': Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
-    '2015-01-01': Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
-    '2014-04-01': Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
-    '2012-01-01': Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
-    '2011-01-01': Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
-    '2010-03-11': Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
-    '2010-01-01': Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
-    '2009-01-01': Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
-    '2008-12-29': Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
-    '2008-01-01': Loi  2007-1822 du 24/12/2007 (LF pour 2008)
-    '2006-01-01': Loi  2004-1484 du 30/12/2004 (LF pour 2005)
-    '2004-01-01': Loi  2003-1311 du 30/12/2003 (LF pour 2004)
-    '2003-01-01': Loi  2002-1575 du 30/12/2002 (LF pour 2003)
-    '2002-01-01': Loi  2001-1275 du 28/12/2001 (LF pour 2002)
-    '2000-01-01': Loi  99-1172 du 30/12/1999 (LF pour 2000)
-    '1999-01-01': Loi  98-1266 du 30/12/1998 (LF pour 1999)
-    '1998-01-01': Loi  97-1269 du 30/12/1997 (LF pour 1998)
-    '1997-01-01': Loi  96-1181 du 30/12/1996 (LF pour 1997)
-    '1996-01-01': Loi  95-1346 du 30/12/1995 (LF pour 1996)
-    '1995-01-01': Loi  94-1162 du 29/12/1994 (LF pour 1995)
-    '1994-01-01': Loi  93-1352 du 30/12/1993 (LF pour 1994)
-    '1993-04-15': Loi  92-1376 du 30/12/1992 (LF pour 1993)
-    '1993-01-01': Loi  92-1376 du 30/12/1992 (LF pour 1993)
+    2022-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
+    2021-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
+    2020-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
+    2019-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
+    2018-01-01: Loi 2017-1837 du 30/12/2017 (LF pour 2018)
+    2017-01-01: Loi 2016-1918 du 29/12/2016 (LFR pour 2016)
+    2016-01-01: Loi 2015-1786 du 29/12/2015 (LFR pour 2015) - art. 14 et 17
+    2015-01-01: Loi 2014-1654 du 29/12/2014 (LF pour 2015) - art. 36
+    2014-04-01: Loi  2013-1278 du 29/12/2013 (LF pour 2014) - art. 32
+    2012-01-01: Loi  2011-1977 du 28/12/2011 (LF pour 2012) - art. 21
+    2011-01-01: Loi  2010-1657 du 29/12/2010 (LF pour 2011) - art. 138
+    2010-03-11: Loi  2010-237 du 09/03/2010 (LFR pour 2010) - art. 4 et 5
+    2010-01-01: Loi  2009-1674 du 30/12/2009 (LFR pour 2009) - art. 76
+    2009-01-01: Loi  2008-1443 du 30/12/2008 (LFR pour 2008)
+    2008-12-29: Loi  2008-1425 du 27/12/2008 (LF pour 2009)  - art. 16 et 17
+    2008-01-01: Loi  2007-1822 du 24/12/2007 (LF pour 2008)
+    2006-01-01: Loi  2004-1484 du 30/12/2004 (LF pour 2005)
+    2004-01-01: Loi  2003-1311 du 30/12/2003 (LF pour 2004)
+    2003-01-01: Loi  2002-1575 du 30/12/2002 (LF pour 2003)
+    2002-01-01: Loi  2001-1275 du 28/12/2001 (LF pour 2002)
+    2000-01-01: Loi  99-1172 du 30/12/1999 (LF pour 2000)
+    1999-01-01: Loi  98-1266 du 30/12/1998 (LF pour 1999)
+    1998-01-01: Loi  97-1269 du 30/12/1997 (LF pour 1998)
+    1997-01-01: Loi  96-1181 du 30/12/1996 (LF pour 1997)
+    1996-01-01: Loi  95-1346 du 30/12/1995 (LF pour 1996)
+    1995-01-01: Loi  94-1162 du 29/12/1994 (LF pour 1995)
+    1994-01-01: Loi  93-1352 du 30/12/1993 (LF pour 1994)
+    1993-04-15: Loi  92-1376 du 30/12/1992 (LF pour 1993)
+    1993-01-01: Loi  92-1376 du 30/12/1992 (LF pour 1993)
   date_parution_jo:
-    '2022-01-01': '2017-12-31'
-    '2021-01-01': '2017-12-31'
-    '2020-01-01': '2017-12-31'
-    '2019-01-01': '2017-12-31'
-    '2018-01-01': '2017-12-31'
-    '2017-01-01': '2016-12-30'
-    '2016-01-01': '2015-12-30'
-    '2015-01-01': '2014-12-30'
-    '2014-04-01': '2013-12-30'
-    '2012-01-01': '2011-12-29'
-    '2011-01-01': '2010-12-30'
-    '2010-03-11': '2010-03-10'
-    '2010-01-01': '2009-12-31'
-    '2009-01-01': '2008-12-31'
-    '2008-12-29': '2008-12-28'
-    '2008-01-01': '2007-12-27'
-    '2006-01-01': '2004-12-31'
-    '2004-01-01': '2003-12-31'
-    '2003-01-01': '2002-12-31'
-    '2002-01-01': '2001-12-29'
-    '2000-01-01': '1999-12-31'
-    '1999-01-01': '1998-12-31'
-    '1998-01-01': '1997-12-31'
-    '1997-01-01': '1996-12-31'
-    '1996-01-01': '1995-12-31'
-    '1995-01-01': '1994-12-30'
-    '1994-01-01': '1993-12-31'
-    '1993-04-15': '1992-12-31'
-    '1993-01-01': '1992-12-31'
+    2022-01-01: 2017-12-31
+    2021-01-01: 2017-12-31
+    2020-01-01: 2017-12-31
+    2019-01-01: 2017-12-31
+    2018-01-01: 2017-12-31
+    2017-01-01: 2016-12-30
+    2016-01-01: 2015-12-30
+    2015-01-01: 2014-12-30
+    2014-04-01: 2013-12-30
+    2012-01-01: 2011-12-29
+    2011-01-01: 2010-12-30
+    2010-03-11: 2010-03-10
+    2010-01-01: 2009-12-31
+    2009-01-01: 2008-12-31
+    2008-12-29: 2008-12-28
+    2008-01-01: 2007-12-27
+    2006-01-01: 2004-12-31
+    2004-01-01: 2003-12-31
+    2003-01-01: 2002-12-31
+    2002-01-01: 2001-12-29
+    2000-01-01: 1999-12-31
+    1999-01-01: 1998-12-31
+    1998-01-01: 1997-12-31
+    1997-01-01: 1996-12-31
+    1996-01-01: 1995-12-31
+    1995-01-01: 1994-12-30
+    1994-01-01: 1993-12-31
+    1993-04-15: 1992-12-31
+    1993-01-01: 1992-12-31
   notes:
-    '2022-01-01': Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
-    '2021-01-01': Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
-    '2020-01-01': Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
-    '2019-01-01': Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
+    2022-01-01: Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
+    2021-01-01: Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
+    2020-01-01: Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
+    2019-01-01: Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
 emulsion_eau_dans_gazole_autres_hectolitre:
   description: Emulsion d'eau dans du gazole …, autres (hectolitre)
   values:
-    '2022-01-01':
+    2022-01-01:
       value: 46.05
-    '2021-01-01':
+    2021-01-01:
       value: 43.77
-    '2020-01-01':
+    2020-01-01:
       value: 41.5
-    '2019-01-01':
+    2019-01-01:
       value: 39.22
-    '2018-01-01':
+    2018-01-01:
       value: 36.94
-    '2017-01-01':
+    2017-01-01:
       value: 33.86
-    '2016-01-01':
+    2016-01-01:
       value: 32.0
-    '2015-01-01':
+    2015-01-01:
       value: 30.35
-    '2010-03-11':
+    2010-03-11:
       value: 28.71
-    '2010-01-01':
+    2010-01-01:
       value: 24.78
-    '2009-01-01':
+    2009-01-01:
       value: 26.27
-    '2008-01-01':
+    2008-01-01:
       value: 30.2
-    '2002-01-01':
+    2002-01-01:
       value: 24.54
-    '2000-01-01':
+    2000-01-01:
       value: 198.95
-    '1993-01-01':
+    1993-01-01:
       value: null
   metadata:
     ipp_csv_id: ticpe_emulsion_eau_gazole_autres
     unit:
-      '2002-01-01': currency-EUR
-      '2000-01-01': currency-FRF
+      2002-01-01: currency-EUR
+      2000-01-01: currency-FRF
 super_e_85_utilise_comme_carburant_hectolitre:
   description: Super E 85 utilisé comme carburant (hectolitre)
   values:
-    '2022-01-01':
+    2022-01-01:
       value: 18.95
-    '2021-01-01':
+    2021-01-01:
       value: 17.17
-    '2020-01-01':
+    2020-01-01:
       value: 15.39
-    '2019-01-01':
+    2019-01-01:
       value: 13.61
-    '2018-01-01':
+    2018-01-01:
       value: 11.83
-    '2017-01-01':
+    2017-01-01:
       value: 9.41
-    '2016-01-01':
+    2016-01-01:
       value: 7.96
-    '2015-01-01':
+    2015-01-01:
       value: 12.62
-    '2014-04-01':
+    2014-04-01:
       value: 12.4
-    '2011-01-01':
+    2011-01-01:
       value: 17.29
-    '2010-01-01':
+    2010-01-01:
       value: 20.69
-    '2009-01-01':
+    2009-01-01:
       value: 23.24
-    '2008-01-01':
+    2008-01-01:
       value: 28.33
-    '1993-01-01':
+    1993-01-01:
       value: null
   metadata:
     ipp_csv_id: ticpe_super_e85
@@ -178,19 +178,19 @@ super_e_85_utilise_comme_carburant_hectolitre:
 carburant_constitue_minimum_90_alcool_ethylique_agricole_hectolitre:
   description: Carburant constitué d'au minimum 90% d'alcool éthylique agricole (hectolitre)
   values:
-    '2022-01-01':
+    2022-01-01:
       value: 12.43
-    '2021-01-01':
+    2021-01-01:
       value: 10.93
-    '2020-01-01':
+    2020-01-01:
       value: 9.43
-    '2019-01-01':
+    2019-01-01:
       value: 7.93
-    '2018-01-01':
+    2018-01-01:
       value: 6.43
-    '2017-01-01':
+    2017-01-01:
       value: 4.4
-    '1993-01-01':
+    1993-01-01:
       value: null
   metadata:
     ipp_csv_id: ticpe_carburant_ethanol_agricole
@@ -198,17 +198,17 @@ carburant_constitue_minimum_90_alcool_ethylique_agricole_hectolitre:
 carburant_constitue_100_estars_methyliques_acides_gras_hectolitre:
   description: Carburant constitué à 100% d'estars méthyliques d'acides gras (hectolitre)
   values:
-    '2022-01-01':
+    2022-01-01:
       value: 18.95
-    '2021-01-01':
+    2021-01-01:
       value: 17.17
-    '2020-01-01':
+    2020-01-01:
       value: 15.39
-    '2019-01-01':
+    2019-01-01:
       value: 13.31
-    '2018-01-01':
+    2018-01-01:
       value: 11.83
-    '1993-01-01':
+    1993-01-01:
       value: null
   metadata:
     unit: currency-EUR

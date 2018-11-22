@@ -4,15 +4,15 @@ avantages_retraite:
   regime_general:
     description: Régime général
     values:
-      '1998-01-01':
+      1998-01-01:
         value: null
-      '1997-01-01':
+      1997-01-01:
         value: 0.028
-      '1996-01-01':
+      1996-01-01:
         value: 0.026
-      '1987-07-01':
+      1987-07-01:
         value: 0.014
-      '1980-07-01':
+      1980-07-01:
         value: 0.01
     metadata:
       ipp_csv_id: mmid_ret
@@ -24,15 +24,15 @@ avantages_retraite:
   regimes_comp:
     description: Régimes comp.
     values:
-      '1998-01-01':
+      1998-01-01:
         value: 0.01
-      '1997-01-01':
+      1997-01-01:
         value: 0.038
-      '1996-01-01':
+      1996-01-01:
         value: 0.036
-      '1987-07-01':
+      1987-07-01:
         value: 0.024
-      '1980-07-01':
+      1980-07-01:
         value: 0.02
     metadata:
       ipp_csv_id: mmid_ret_comp
@@ -41,17 +41,17 @@ metadata:
   order:
   - avantages_retraite
   reference:
-    '1998-01-01': Décret 97-1252 du 29/12/1997, art. 4
-    '1997-01-01': Décret 96-1167 du 26/12/1996,  art. 5
-    '1996-01-01': Décret 95-1356 du 30/12/1995, art. 1 (V)
-    '1987-07-01': Décret 87-453 du 29/06/1987
-    '1980-07-01': Décret 80-298 du 24/04/1980
+    1998-01-01: Décret 97-1252 du 29/12/1997, art. 4
+    1997-01-01: Décret 96-1167 du 26/12/1996,  art. 5
+    1996-01-01: Décret 95-1356 du 30/12/1995, art. 1 (V)
+    1987-07-01: Décret 87-453 du 29/06/1987
+    1980-07-01: Décret 80-298 du 24/04/1980
   date_parution_jo:
-    '1998-01-01': '1997-12-30'
-    '1997-01-01': '1996-12-29'
-    '1996-01-01': '1995-12-31'
-    '1987-07-01': '1987-06-30'
-    '1980-07-01': '1980-04-26'
+    1998-01-01: 1997-12-30
+    1997-01-01: 1996-12-29
+    1996-01-01: 1995-12-31
+    1987-07-01: 1987-06-30
+    1980-07-01: 1980-04-26
 documentation: |
   Sources :
   Direction de la sécurité sociale (DSS), note pour le conseil d'orientation des retraites. Référence DSS/5B/FMM/13/04/06

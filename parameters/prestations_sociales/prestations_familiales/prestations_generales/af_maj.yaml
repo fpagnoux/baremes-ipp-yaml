@@ -6,11 +6,11 @@ majoration_enfants_en_bmaf:
     age_debut_premiere_tranche:
       description: Âge début de la première tranche
       values:
-        '2008-05-01':
+        2008-05-01:
           value: 14.0
-        '1999-01-01':
+        1999-01-01:
           value: 11.0
-        '1986-01-01':
+        1986-01-01:
           value: 10.0
       metadata:
         ipp_csv_id: maj_enf_age1
@@ -21,9 +21,9 @@ majoration_enfants_en_bmaf:
     age_debut_deuxieme_tranche:
       description: Âge début de la deuxième tranche
       values:
-        '2008-05-01':
+        2008-05-01:
           value: null
-        '1986-01-01':
+        1986-01-01:
           value: 16.0
       metadata:
         ipp_csv_id: maj_enf_age2
@@ -37,9 +37,9 @@ majoration_enfants_en_bmaf:
     taux_tranche_1:
       description: taux de la tranche 1
       values:
-        '2008-05-01':
+        2008-05-01:
           value: 0.16
-        '1986-01-01':
+        1986-01-01:
           value: 0.09
       metadata:
         ipp_csv_id: maj_enf_tx1
@@ -51,9 +51,9 @@ majoration_enfants_en_bmaf:
     taux_tranche_2:
       description: taux de la tranche 2
       values:
-        '2008-05-01':
+        2008-05-01:
           value: null
-        '1986-01-01':
+        1986-01-01:
           value: 0.16
       metadata:
         ipp_csv_id: maj_enf_tx2
@@ -63,9 +63,9 @@ majoration_enfants_en_bmaf:
     age_minimum:
       description: Âge minimum
       values:
-        '2003-07-01':
+        2003-07-01:
           value: 20.0
-        '1986-01-01':
+        1986-01-01:
           value: null
       metadata:
         ipp_csv_id: maj_forf_age
@@ -76,9 +76,9 @@ majoration_enfants_en_bmaf:
     taux:
       description: Taux
       values:
-        '2003-07-01':
+        2003-07-01:
           value: 0.20234
-        '1986-01-01':
+        1986-01-01:
           value: null
       metadata:
         ipp_csv_id: maj_forf_tx
@@ -90,47 +90,47 @@ metadata:
   - duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee
   - nombre_enfant_partir_duquel_aine_donne_droit_majoration
   reference:
-    '2015-07-01': |-
+    2015-07-01: |-
       Décret 2015-611 du 03/06/2015 
       Circulaire DSS/SD2B/2016/77 du 15/03/2016
-    '2008-05-01': |-
+    2008-05-01: |-
       Décret 2008-409 du 28/04/2008, art. 1 (modif art. R521-1 du CSS)
       Décret 2008-410 du 28/04/2008, art. 1 (modif art. D521-1 du CSS)
-    '2003-07-01': |-
+    2003-07-01: |-
       Loi 2002-1487 du 20/12/2002, art. 58 (modif art. L521-1 du CSS)
       Décret 2003-573 du 27/06/2003, art. 1 (crée art. D521-2 du CSS)
-    '1999-01-01': Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du CSS)
-    '1986-01-01': |-
+    1999-01-01: Décret 98-1214 du 29/12/1998, art. 1 (modif art. D521-1 du CSS)
+    1986-01-01: |-
       Décret 86-150 du 30/01/1986, art. 2 (modif art. D521-1 du CSS)
       Décret 85-1353 du 17/12/1985, art. 1 (crée art. R521-1 du CSS)
   date_parution_jo:
-    '2015-07-01': '2015-06-05'
-    '2008-05-01': |-
+    2015-07-01: 2015-06-05
+    2008-05-01: |-
       29/04/2008
       29/04/2008
-    '2003-07-01': |-
+    2003-07-01: |-
       24/12/2002
       28/06/2003
-    '1999-01-01': '1998-12-30'
-    '1986-01-01': |-
+    1999-01-01: 1998-12-30
+    1986-01-01: |-
       02/02/1986
       21/12/1985
   notes:
-    '2015-07-01': Modulation des AF en fonction du revenu (divisé en 3 tranches)
-    '2008-05-01': Mise en place d'une majoration unique à partir de 14 ans. Mais,
+    2015-07-01: Modulation des AF en fonction du revenu (divisé en 3 tranches)
+    2008-05-01: Mise en place d'une majoration unique à partir de 14 ans. Mais,
       la transition est progressive (chaque année, la majoration dépendra à la fois
       de l'âge et de la date de naissance des enfants ; cf. plus bas)
-    '2003-07-01': Création majoration pour les enfants de plus de 20 ans
-    '1999-01-01': Modification des conditions d'âge pour les majorations
-    '1986-01-01': Création de la majoration pour âge des allocations familiales (articles
+    2003-07-01: Création majoration pour les enfants de plus de 20 ans
+    1999-01-01: Modification des conditions d'âge pour les majorations
+    1986-01-01: Création de la majoration pour âge des allocations familiales (articles
       L521-3 et R521-1 du CSS)
 nombre_minimal_enfant_avoir_droit_majoration_forfaitaire_plus_20_ans:
   description: Nombre minimal d'enfant pour avoir droit à la majoration forfaitaire
     pour les plus de 20 ans
   values:
-    '2003-07-01':
+    2003-07-01:
       value: 3.0
-    '1986-01-01':
+    1986-01-01:
       value: null
   metadata:
     ipp_csv_id: afmaj_nenf_min
@@ -139,16 +139,16 @@ duree_pendant_laquelle_majoration_plus_20_ans_est_versee_en_annee:
     Durée pendant laquelle la majoration pour les plus de 20 ans est versée
     (En année)
   values:
-    '2003-07-01':
+    2003-07-01:
       value: 1.0
-    '1986-01-01':
+    1986-01-01:
       value: null
   metadata:
     ipp_csv_id: duree_maj
 nombre_enfant_partir_duquel_aine_donne_droit_majoration:
   description: Nombre d'enfant à partir duquel l'aîné donne droit à majoration
   values:
-    '1986-01-01':
+    1986-01-01:
       value: 3.0
   metadata:
     ipp_csv_id: nb_enf_maj

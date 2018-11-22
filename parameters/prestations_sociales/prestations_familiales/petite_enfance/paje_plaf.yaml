@@ -4,33 +4,33 @@ premier_plafond_ne_adopte_avant_1er_avril_2014:
   plafond_ressources_0_enfant:
     description: Plafond de ressources - 0 enfant
     values:
-      '2018-01-01':
+      2018-01-01:
         value: null
-      '2016-01-01':
+      2016-01-01:
         value: 28697.0
-      '2015-01-01':
+      2015-01-01:
         value: 28583.0
-      '2014-01-01':
+      2014-01-01:
         value: 28384.0
-      '2013-01-01':
+      2013-01-01:
         value: 27855.0
-      '2012-01-01':
+      2012-01-01:
         value: 27282.0
-      '2011-01-01':
+      2011-01-01:
         value: 27012.0
-      '2010-01-01':
+      2010-01-01:
         value: 26985.0
-      '2009-01-01':
+      2009-01-01:
         value: 26250.0
-      '2007-07-01':
+      2007-07-01:
         value: 25862.0
-      '2006-07-01':
+      2006-07-01:
         value: 20344.0
-      '2005-07-01':
+      2005-07-01:
         value: 20004.0
-      '2004-07-01':
+      2004-07-01:
         value: 19670.0
-      '2004-01-01':
+      2004-01-01:
         value: 19303.0
     metadata:
       ipp_csv_id: plaf_paje_0enf
@@ -47,42 +47,42 @@ metadata:
   - deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein
   - majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_plein
   reference:
-    '2018-01-01': |-
+    2018-01-01: |-
       Circulaire DSS/SD2B/2017/352  du 22/12/2017
       Arrêté du 27/12/2017
-    '2016-01-01': Circulaire DSS/SD2B/2015/371
-    '2015-01-01': Circulaire DSS/SD2B/2014/345
-    '2014-04-01': Décret 2014-422 du 24 avril 2014
-    '2014-01-01': Circulaire DSS/SD2B/2013/417
-    '2013-01-01': Circulaire DSS/SD2B/2012/423
-    '2012-01-01': Arrêté du 28/12/2011, art. 2
-    '2011-01-01': Arrêté du 30/12/2010
-    '2010-01-01': Arrêté du 29/12/2009
-    '2009-01-01': Arrêté du 31/12/2008
-    '2007-07-01': Arrêté du 10/07/2007
-    '2006-07-01': Arrêté du 17/07/2006
-    '2005-07-01': Arrêté du 01/08/2005
-    '2004-07-01': Arrêté du 16/07/2004
-    '2004-01-01': Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du CSS)
+    2016-01-01: Circulaire DSS/SD2B/2015/371
+    2015-01-01: Circulaire DSS/SD2B/2014/345
+    2014-04-01: Décret 2014-422 du 24 avril 2014
+    2014-01-01: Circulaire DSS/SD2B/2013/417
+    2013-01-01: Circulaire DSS/SD2B/2012/423
+    2012-01-01: Arrêté du 28/12/2011, art. 2
+    2011-01-01: Arrêté du 30/12/2010
+    2010-01-01: Arrêté du 29/12/2009
+    2009-01-01: Arrêté du 31/12/2008
+    2007-07-01: Arrêté du 10/07/2007
+    2006-07-01: Arrêté du 17/07/2006
+    2005-07-01: Arrêté du 01/08/2005
+    2004-07-01: Arrêté du 16/07/2004
+    2004-01-01: Décret 2003-1393 du 31/12/2003, art. 2 (modif art. R531-1 du CSS)
   date_parution_jo:
-    '2018-01-01': 29/12/20017
-    '2013-01-01': '2013-12-18'
-    '2012-01-01': '2011-12-30'
-    '2011-01-01': '2010-12-31'
-    '2010-01-01': '2009-12-31'
-    '2009-01-01': '2009-01-01'
-    '2007-07-01': '2007-07-12'
-    '2006-07-01': '2006-07-19'
-    '2005-07-01': '2005-08-03'
-    '2004-07-01': '2004-07-18'
-    '2004-01-01': '2004-01-01'
+    2018-01-01: 29/12/20017
+    2013-01-01: 2013-12-18
+    2012-01-01: 2011-12-30
+    2011-01-01: 2010-12-31
+    2010-01-01: 2009-12-31
+    2009-01-01: 2009-01-01
+    2007-07-01: 2007-07-12
+    2006-07-01: 2006-07-19
+    2005-07-01: 2005-08-03
+    2004-07-01: 2004-07-18
+    2004-01-01: 2004-01-01
   notes:
-    '2018-01-01': Revalorisation des plafonds de 0,2%. Les plafonds pour les enfants
+    2018-01-01: Revalorisation des plafonds de 0,2%. Les plafonds pour les enfants
       nés avant le 01/04/2014 sont supprimés, car ces enfants ont désormais plus de
       3 ans.
-    '2016-01-01': Pas de modification pour 2017 cf. Circulaire DSS/SD2B/2016/396 du
+    2016-01-01: Pas de modification pour 2017 cf. Circulaire DSS/SD2B/2016/396 du
       21/12/2016
-    '2004-01-01': 'Création de la PAJE. Mais entrée en vigueur progressive : de janvier
+    2004-01-01: 'Création de la PAJE. Mais entrée en vigueur progressive : de janvier
       2004 à décembre 2006 inclus (cf. art. 60, VIII de la loi 2003-1199)'
 majoration_en_eur_en_plafond_ressources_avec_0_enfant:
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant)
@@ -91,33 +91,33 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
       Biactifs et parents isolés
       (1)
     values:
-      '2018-01-01':
+      2018-01-01:
         value: null
-      '2016-01-01':
+      2016-01-01:
         value: 11534.0
-      '2015-01-01':
+      2015-01-01:
         value: 11488.0
-      '2014-01-01':
+      2014-01-01:
         value: 11408.0
-      '2013-01-01':
+      2013-01-01:
         value: 11195.0
-      '2012-01-01':
+      2012-01-01:
         value: 10965.0
-      '2011-01-01':
+      2011-01-01:
         value: 10856.0
-      '2010-01-01':
+      2010-01-01:
         value: 10845.0
-      '2009-01-01':
+      2009-01-01:
         value: 10550.0
-      '2007-07-01':
+      2007-07-01:
         value: 10394.0
-      '2006-07-01':
+      2006-07-01:
         value: 8176.0
-      '2005-07-01':
+      2005-07-01:
         value: 8039.0
-      '2004-07-01':
+      2004-07-01:
         value: 7905.0
-      '2004-01-01':
+      2004-01-01:
         value: 7758.0
     metadata:
       ipp_csv_id: maj_plaf_paje_bi
@@ -130,9 +130,9 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
   1er_2eme_enfant:
     description: 1er et 2ème enfant
     values:
-      '2018-01-01':
+      2018-01-01:
         value: null
-      '2004-01-01':
+      2004-01-01:
         value: 0.25
     metadata:
       ipp_csv_id: maj_plaf_paje_enf1et2
@@ -140,9 +140,9 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant:
   3eme_enfant_plus:
     description: 3ème enfant et plus
     values:
-      '2018-01-01':
+      2018-01-01:
         value: null
-      '2004-01-01':
+      2004-01-01:
         value: 0.3
     metadata:
       ipp_csv_id: maj_plaf_paje_enf3pl
@@ -152,15 +152,15 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_partiel:
   plafond_ressources_0_enfant:
     description: Plafond de ressources - 0 enfant
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 29462.0
-      '2016-01-01':
+      2016-01-01:
         value: 29403.0
-      '2015-01-01':
+      2015-01-01:
         value: 29286.0
-      '2014-04-01':
+      2014-04-01:
         value: 29082.0
-      '2004-01-01':
+      2004-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_paje_0enf_2
@@ -176,15 +176,15 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       Biactifs et parents isolés
       (1)
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 9722.0
-      '2016-01-01':
+      2016-01-01:
         value: 9703.0
-      '2015-01-01':
+      2015-01-01:
         value: 9664.0
-      '2014-04-01':
+      2014-04-01:
         value: 9597.0
-      '2004-01-01':
+      2004-01-01:
         value: null
     metadata:
       ipp_csv_id: maj_plaf_paje_bi_2
@@ -196,9 +196,9 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
   majoration_enfant_supplementaire:
     description: Majoration pour enfant supplémentaire
     values:
-      '2014-04-01':
+      2014-04-01:
         value: 0.22
-      '2004-01-01':
+      2004-01-01:
         value: null
     metadata:
       ipp_csv_id: maj_plaf_paje_enf_2
@@ -208,15 +208,15 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein:
   plafond_ressources_0_enfant:
     description: Plafond de ressources - 0 enfant
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 24661.0
-      '2016-01-01':
+      2016-01-01:
         value: 24612.0
-      '2015-01-01':
+      2015-01-01:
         value: 24514.0
-      '2014-04-01':
+      2014-04-01:
         value: 24344.0
-      '2004-01-01':
+      2004-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_paje_0enf_2_tx_plein
@@ -232,15 +232,15 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
       Biactifs et parents isolés
       (1)
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 8137.0
-      '2016-01-01':
+      2016-01-01:
         value: 8121.0
-      '2015-01-01':
+      2015-01-01:
         value: 8089.0
-      '2014-04-01':
+      2014-04-01:
         value: 8033.0
-      '2004-01-01':
+      2004-01-01:
         value: null
     metadata:
       ipp_csv_id: maj_plaf_paje_bi_2_tx_plein
@@ -252,9 +252,9 @@ majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_
   majoration_enfant_supplementaire:
     description: Majoration pour enfant supplémentaire
     values:
-      '2014-04-01':
+      2014-04-01:
         value: 0.22
-      '2004-01-01':
+      2004-01-01:
         value: null
     metadata:
       ipp_csv_id: maj_plaf_paje_enf_2_tx_plein

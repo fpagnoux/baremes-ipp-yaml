@@ -2,15 +2,15 @@ description: Montant du supplément familial de traitement (SFT) (1985-2017)
 part_fixe_1:
   description: Part fixe 1
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 2.29
-    '1985-11-01':
+    1985-11-01:
       value: 180.0
   metadata:
     ipp_csv_id: enf1
     unit:
-      '2002-01-01': currency-EUR
-      '1985-11-01': currency-FRF
+      2002-01-01: currency-EUR
+      1985-11-01: currency-FRF
 metadata:
   order:
   - part_fixe_1
@@ -23,75 +23,75 @@ metadata:
   - im_plancher
   - im_plafond
   reference:
-    '2006-11-01': Décret 2006-1283 du 19/10/2006
-    '2002-01-01': Décret 2001-895 du 26/09/2001
-    '1999-07-01': Décret 99-491 du 10/06/1999
-    '1999-03-20': Décret 99-491 du 10/06/1999
-    '1991-08-01': Décret 91-1191 du 18/11/1991, art. 2
-    '1990-01-01': Décret 90-321 du 05/04/1990, art. 2
-    '1990-02-01': Décret 89-64 du 04/02/1989, art. 2
-    '1988-10-01': Décret 88-1067 du 23/11/1988, art. 2
-    '1988-03-01': Décret 88-229 du 09/03/1988, art. 5
-    '1988-02-07': Décret 86-167 du 31/01/1986, art. 1 VI
-    '1985-11-01': Décret 85-1148 du 24/10/1985 - art. 10
+    2006-11-01: Décret 2006-1283 du 19/10/2006
+    2002-01-01: Décret 2001-895 du 26/09/2001
+    1999-07-01: Décret 99-491 du 10/06/1999
+    1999-03-20: Décret 99-491 du 10/06/1999
+    1991-08-01: Décret 91-1191 du 18/11/1991, art. 2
+    1990-01-01: Décret 90-321 du 05/04/1990, art. 2
+    1990-02-01: Décret 89-64 du 04/02/1989, art. 2
+    1988-10-01: Décret 88-1067 du 23/11/1988, art. 2
+    1988-03-01: Décret 88-229 du 09/03/1988, art. 5
+    1988-02-07: Décret 86-167 du 31/01/1986, art. 1 VI
+    1985-11-01: Décret 85-1148 du 24/10/1985 - art. 10
   date_parution_jo:
-    '2006-11-01': '2006-10-20'
-    '2002-01-01': '2001-09-29'
-    '1999-07-01': '1999-06-13'
-    '1999-03-20': '1999-06-13'
-    '1991-08-01': '1991-11-27'
-    '1990-01-01': '1990-04-11'
-    '1990-02-01': '1989-02-05'
-    '1988-10-01': '1988-11-29'
-    '1988-03-01': 13/031988
-    '1988-02-07': '1986-02-07'
-    '1985-11-01': '1985-11-05'
+    2006-11-01: 2006-10-20
+    2002-01-01: 2001-09-29
+    1999-07-01: 1999-06-13
+    1999-03-20: 1999-06-13
+    1991-08-01: 1991-11-27
+    1990-01-01: 1990-04-11
+    1990-02-01: 1989-02-05
+    1988-10-01: 1988-11-29
+    1988-03-01: 13/031988
+    1988-02-07: 1986-02-07
+    1985-11-01: 1985-11-05
 part_fixe_2:
   description: Part fixe 2
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 10.67
-    '1988-02-07':
+    1988-02-07:
       value: 840.0
-    '1985-11-01':
+    1985-11-01:
       value: 480.0
   metadata:
     ipp_csv_id: enf2
     unit:
-      '2002-01-01': currency-EUR
-      '1985-11-01': currency-FRF
+      2002-01-01: currency-EUR
+      1985-11-01: currency-FRF
 part_fixe_3:
   description: Part fixe 3
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 15.24
-    '1988-02-07':
+    1988-02-07:
       value: 1200.0
-    '1985-11-01':
+    1985-11-01:
       value: 720.0
   metadata:
     ipp_csv_id: enf3
     unit:
-      '2002-01-01': currency-EUR
-      '1985-11-01': currency-FRF
+      2002-01-01: currency-EUR
+      1985-11-01: currency-FRF
 part_fixe_4:
   description: Part fixe 4
   values:
-    '2002-01-01':
+    2002-01-01:
       value: 4.57
-    '1988-02-07':
+    1988-02-07:
       value: 360.0
-    '1985-11-01':
+    1985-11-01:
       value: 240.0
   metadata:
     ipp_csv_id: enf4
     unit:
-      '2002-01-01': currency-EUR
-      '1985-11-01': currency-FRF
+      2002-01-01: currency-EUR
+      1985-11-01: currency-FRF
 taux_2:
   description: Taux 2
   values:
-    '1985-11-01':
+    1985-11-01:
       value: 0.03
   metadata:
     ipp_csv_id: txenf2
@@ -99,7 +99,7 @@ taux_2:
 taux_3:
   description: Taux 3
   values:
-    '1985-11-01':
+    1985-11-01:
       value: 0.08
   metadata:
     ipp_csv_id: txenf3
@@ -107,7 +107,7 @@ taux_3:
 taux_4:
   description: Taux 4
   values:
-    '1985-11-01':
+    1985-11-01:
       value: 0.06
   metadata:
     ipp_csv_id: txenf4
@@ -115,38 +115,38 @@ taux_4:
 im_plancher:
   description: IM Plancher
   values:
-    '2006-11-01':
+    2006-11-01:
       value: 449.0
-    '2002-01-01':
+    2002-01-01:
       value: 448.0
-    '1999-03-20':
+    1999-03-20:
       value: 447.0
-    '1991-08-01':
+    1991-08-01:
       value: 446.0
-    '1990-01-01':
+    1990-01-01:
       value: 444.0
-    '1990-02-01':
+    1990-02-01:
       value: 443.0
-    '1988-10-01':
+    1988-10-01:
       value: 442.0
-    '1988-03-01':
+    1988-03-01:
       value: 440.0
-    '1988-02-07':
+    1988-02-07:
       value: 382.0
-    '1985-11-01':
+    1985-11-01:
       value: 380.0
   metadata:
     ipp_csv_id: im_plancher
 im_plafond:
   description: IM Plafond
   values:
-    '2006-11-01':
+    2006-11-01:
       value: 717.0
-    '1988-03-01':
+    1988-03-01:
       value: 716.0
-    '1988-02-07':
+    1988-02-07:
       value: 623.0
-    '1985-11-01':
+    1985-11-01:
       value: 621.0
   metadata:
     ipp_csv_id: im_plafond

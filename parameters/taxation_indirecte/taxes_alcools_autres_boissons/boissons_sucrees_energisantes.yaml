@@ -2,17 +2,17 @@ description: Boissons sucrées, édulcorées ou énergisantes
 contribution_boissons_sucrees_edulcorees_eur_hl:
   description: Contribution sur les boissons sucrées ou édulcorées (€/hl)
   values:
-    '2018-01-01':
+    2018-01-01:
       value: null
-    '2017-01-01':
+    2017-01-01:
       value: 7.53
-    '2015-01-01':
+    2015-01-01:
       value: 7.5
-    '2014-01-01':
+    2014-01-01:
       value: 7.45
-    '2013-06-07':
+    2013-06-07:
       value: 7.31
-    '2012-05-07':
+    2012-05-07:
       value: 7.16
   metadata:
     ipp_csv_id: taxe_boiss_sucrees_edulcorees
@@ -25,51 +25,51 @@ metadata:
   - contribution_boissons_sucrees_y_compris_mayotte
   - boissons_energisantes
   reference:
-    '2018-07-01': Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
+    2018-07-01: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
       de la sécurité sociale pour 2018.
-    '2018-01-01': Arrêté du 22/12/2017
-    '2017-01-01': Arrêté du 27/12/2016
-    '2016-01-01': Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
-    '2015-01-01': Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
-    '2014-05-30': Décret 2014-549 du 26/05/2014
-    '2014-01-01': Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
-    '2013-06-07': Décret 2013-463 du 03/062013
-    '2012-05-07': Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
+    2018-01-01: Arrêté du 22/12/2017
+    2017-01-01: Arrêté du 27/12/2016
+    2016-01-01: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
+    2015-01-01: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
+    2014-05-30: Décret 2014-549 du 26/05/2014
+    2014-01-01: Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
+    2013-06-07: Décret 2013-463 du 03/062013
+    2012-05-07: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
       2012 - art. 1
   date_parution_jo:
-    '2018-07-01': '2017-12-31'
-    '2018-01-01': '2017-12-27'
-    '2017-01-01': '2016-12-31'
-    '2016-01-01': 30/12/2012
-    '2015-01-01': 30/12/2013
-    '2014-05-30': 29/05/2014
-    '2014-01-01': 30/12/2013
-    '2013-06-07': 06/06/2013
-    '2012-05-07': 06/05/2012
+    2018-07-01: 2017-12-31
+    2018-01-01: 2017-12-27
+    2017-01-01: 2016-12-31
+    2016-01-01: 30/12/2012
+    2015-01-01: 30/12/2013
+    2014-05-30: 29/05/2014
+    2014-01-01: 30/12/2013
+    2013-06-07: 06/06/2013
+    2012-05-07: 06/05/2012
   notes:
-    '2018-07-01': La contribution sur les boissons sucrées se fait selon un barême
+    2018-07-01: La contribution sur les boissons sucrées se fait selon un barême
       à partir de juillet 2018, un nouvel onglet a été créé à cet effet
-    '2018-01-01': A partir de 2018, plus de taux spécifique à Mayotte. Par ailleurs
+    2018-01-01: A partir de 2018, plus de taux spécifique à Mayotte. Par ailleurs
       il n'y a plus de "contribution sur les boissons sucrées ou édulcorées" mais
       une "contribution sur les boissons sucrées" et une "contribution sur les boissons
       édulcorées"
-    '2017-01-01': Abrogation de la taxe sur les boissons énergisantes par la LOI n°
+    2017-01-01: Abrogation de la taxe sur les boissons énergisantes par la LOI n°
       2016-1917 du 29 décembre 2016 de finances pour 2017 (1), Article 83
 contribution_boissons_sucrees_edulcorees_taux_applicables_uniquement_mayotte_eur_hl:
   description: Contribution sur les boissons sucrées ou édulcorées - Taux applicables
     uniquement à Mayotte (€/hl)
   values:
-    '2018-01-01':
+    2018-01-01:
       value: null
-    '2017-01-01':
+    2017-01-01:
       value: 7.31
-    '2016-01-01':
+    2016-01-01:
       value: 5.31
-    '2015-01-01':
+    2015-01-01:
       value: 4.31
-    '2014-01-01':
+    2014-01-01:
       value: 3.31
-    '2012-05-07':
+    2012-05-07:
       value: null
   metadata:
     ipp_csv_id: taxe_boiss_sucrees_edulcorees_mayotte
@@ -77,11 +77,11 @@ contribution_boissons_sucrees_edulcorees_taux_applicables_uniquement_mayotte_eur
 contribution_boissons_edulcorees_y_compris_mayotte:
   description: Contribution sur les boissons édulcorées, y compris à Mayotte
   values:
-    '2018-07-01':
+    2018-07-01:
       value: 3.0
-    '2018-01-01':
+    2018-01-01:
       value: 7.55
-    '2012-05-07':
+    2012-05-07:
       value: null
   metadata:
     ipp_csv_id: taxe_boiss_edulcorees
@@ -89,11 +89,11 @@ contribution_boissons_edulcorees_y_compris_mayotte:
 contribution_boissons_sucrees_y_compris_mayotte:
   description: Contribution sur les boissons sucrées y compris à Mayotte
   values:
-    '2018-07-01':
+    2018-07-01:
       value: null
-    '2018-01-01':
+    2018-01-01:
       value: 7.55
-    '2012-05-07':
+    2012-05-07:
       value: null
   metadata:
     ipp_csv_id: taxe_boiss_sucrees
@@ -101,15 +101,15 @@ contribution_boissons_sucrees_y_compris_mayotte:
 boissons_energisantes:
   description: Boissons énergisantes
   values:
-    '2017-01-01':
+    2017-01-01:
       value: null
-    '2015-01-01':
+    2015-01-01:
       value: 102.61
-    '2014-05-30':
+    2014-05-30:
       value: 101.9
-    '2014-01-01':
+    2014-01-01:
       value: 100.0
-    '2012-05-07':
+    2012-05-07:
       value: null
   metadata:
     ipp_csv_id: taxe_boiss_energie

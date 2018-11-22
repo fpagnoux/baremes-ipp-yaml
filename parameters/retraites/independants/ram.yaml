@@ -5,7 +5,7 @@ nombre_annees_entrant_en_jeu_dans_determination_revenu_annuel_moyen_ram:
   avant_1933:
     description: Avant 1933
     values:
-      '1972-01-01':
+      1972-01-01:
         value: 10.0
     metadata:
       ipp_csv_id: nbsam_base
@@ -30,135 +30,135 @@ nombre_annees_entrant_en_jeu_dans_determination_revenu_annuel_moyen_ram:
   '1934':
     description: '1934'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 11.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0134
   '1935':
     description: '1935'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 12.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0135
   '1936':
     description: '1936'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 13.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0136
   '1937':
     description: '1937'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 14.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0137
   '1938':
     description: '1938'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 15.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0138
   '1939':
     description: '1939'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 16.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0139
   '1940':
     description: '1940'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 17.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0140
   '1941':
     description: '1941'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 18.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0141
   '1942':
     description: '1942'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 19.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0142
   '1943':
     description: '1943'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 20.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0143
   '1944':
     description: '1944'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 21.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0144
   '1945':
     description: '1945'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 22.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0145
   '1946':
     description: '1946'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 23.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0146
   '1947':
     description: '1947'
     values:
-      '1994-01-01':
+      1994-01-01:
         value: 24.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0147
   apres_1948:
     description: Après 1948
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 25.0
-      '1972-01-01':
+      1972-01-01:
         value: null
     metadata:
       ipp_csv_id: nbsam_0148
@@ -166,20 +166,20 @@ metadata:
   order:
   - nombre_annees_entrant_en_jeu_dans_determination_revenu_annuel_moyen_ram
   reference:
-    '2008-01-01': Décret 2007-614 du 25/04/2007
-    '2004-01-01': Décret 2004-144 du 13/02/2004
-    '1994-01-01': Décret 93-1022 du 27/08/1993
+    2008-01-01: Décret 2007-614 du 25/04/2007
+    2004-01-01: Décret 2004-144 du 13/02/2004
+    1994-01-01: Décret 93-1022 du 27/08/1993
   date_parution_jo:
-    '2008-01-01': '2007-04-27'
-    '2004-01-01': '2004-02-15'
-    '1994-01-01': '1993-08-28'
+    2008-01-01: 2007-04-27
+    2004-01-01: 2004-02-15
+    1994-01-01: 1993-08-28
   notes:
-    '2008-01-01': Article R634-1-1.  Les durées de vingt-cinq années sont applicables
+    2008-01-01: Article R634-1-1.  Les durées de vingt-cinq années sont applicables
       aux assurés nés après 1952, quelle que soit la date d'effet de leur pension.
-    '2004-01-01': Article R634-1-1. La distinction par génération n'est valable que
+    2004-01-01: Article R634-1-1. La distinction par génération n'est valable que
       pour les pensions prenant effet avant le 1er janvier 2013. Cette durée est fixée
       à 25 ans pour les pensions prenant effet postérieurement au 31/12/2012.
-    '1994-01-01': Article R634-1-1. La distinction par génération n'est valable que
+    1994-01-01: Article R634-1-1. La distinction par génération n'est valable que
       pour les pensions prenant effet avant le 1er janvier 2013. Cette durée est fixée
       à 25 ans pour les pensions prenant effet postérieurement au 31/12/2012.
 documentation: |

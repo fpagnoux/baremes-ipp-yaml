@@ -2,9 +2,9 @@ description: Versement forfaitaire sur les salaires (1949-1967)
 taux1:
   description: Taux1
   values:
-    '1968-01-01':
+    1968-01-01:
       value: null
-    '1949-01-01':
+    1949-01-01:
       value: 0.05
   metadata:
     ipp_csv_id: vf1
@@ -18,25 +18,25 @@ metadata:
   - plafond2
   - taux_pensions
   reference:
-    '1968-01-01': Loi 68-878 du 09/10/1968
-    '1957-01-01': Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
-    '1949-01-01': Décret 48-1986 du 09/12/1948, art. 70
+    1968-01-01: Loi 68-878 du 09/10/1968
+    1957-01-01: Loi 56-1327 du 29/12/1956, art. 2-IV (LF pour 1957)
+    1949-01-01: Décret 48-1986 du 09/12/1948, art. 70
   date_parution_jo:
-    '1968-01-01': '1968-10-10'
-    '1957-01-01': '1956-12-30'
-    '1949-01-01': '1949-01-01'
+    1968-01-01: 1968-10-10
+    1957-01-01: 1956-12-30
+    1949-01-01: 1949-01-01
   notes:
-    '1968-01-01': Fin du versement forfaitaire sur les salaires et création de la
+    1968-01-01: Fin du versement forfaitaire sur les salaires et création de la
       taxe sur les salaires.
-    '1957-01-01': Anciens francs.
+    1957-01-01: Anciens francs.
 majoration1:
   description: Majoration1
   values:
-    '1968-01-01':
+    1968-01-01:
       value: null
-    '1957-01-01':
+    1957-01-01:
       value: 0.05
-    '1949-01-01':
+    1949-01-01:
       value: null
   metadata:
     ipp_csv_id: vf_maj1
@@ -44,11 +44,11 @@ majoration1:
 majoration2:
   description: Majoration2
   values:
-    '1968-01-01':
+    1968-01-01:
       value: null
-    '1957-01-01':
+    1957-01-01:
       value: 0.11
-    '1949-01-01':
+    1949-01-01:
       value: null
   metadata:
     ipp_csv_id: vf_maj2
@@ -56,11 +56,11 @@ majoration2:
 plafond1:
   description: Plafond1
   values:
-    '1968-01-01':
+    1968-01-01:
       value: null
-    '1957-01-01':
+    1957-01-01:
       value: 3000000.0
-    '1949-01-01':
+    1949-01-01:
       value: null
   metadata:
     ipp_csv_id: vf_plaf1
@@ -68,11 +68,11 @@ plafond1:
 plafond2:
   description: Plafond2
   values:
-    '1968-01-01':
+    1968-01-01:
       value: null
-    '1957-01-01':
+    1957-01-01:
       value: 6000000.0
-    '1949-01-01':
+    1949-01-01:
       value: null
   metadata:
     ipp_csv_id: vf_plaf2
@@ -80,9 +80,9 @@ plafond2:
 taux_pensions:
   description: Taux sur les pensions
   values:
-    '1957-01-01':
+    1957-01-01:
       value: null
-    '1949-01-01':
+    1949-01-01:
       value: 0.03
   metadata:
     ipp_csv_id: vf_pens

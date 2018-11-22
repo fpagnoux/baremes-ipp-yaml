@@ -2,23 +2,23 @@ description: Taxes électricité et gaz
 cspe:
   description: CSPE
   values:
-    '2016-01-01':
+    2016-01-01:
       value: 22.5
-    '2015-01-01':
+    2015-01-01:
       value: 19.5
-    '2014-01-01':
+    2014-01-01:
       value: 16.5
-    '2013-01-01':
+    2013-01-01:
       value: 13.5
-    '2012-07-01':
+    2012-07-01:
       value: 10.5
-    '2011-07-31':
+    2011-07-31:
       value: 9.0
-    '2011-01-01':
+    2011-01-01:
       value: 7.5
-    '2004-01-01':
+    2004-01-01:
       value: 4.5
-    '2003-01-01':
+    2003-01-01:
       value: null
   metadata:
     ipp_csv_id: cspe
@@ -33,11 +33,11 @@ metadata:
 cta:
   description: CTA
   values:
-    '2013-05-01':
+    2013-05-01:
       value: 0.2704
-    '2006-01-01':
+    2006-01-01:
       value: 0.21
-    '2003-01-01':
+    2003-01-01:
       value: null
   metadata:
     ipp_csv_id: cta
@@ -45,17 +45,17 @@ cta:
 ticgn_prix_par_mwh:
   description: TICGN - prix par MWh
   values:
-    '2018-01-01':
+    2018-01-01:
       value: 8.45
-    '2017-01-01':
+    2017-01-01:
       value: 5.88
-    '2016-01-01':
+    2016-01-01:
       value: 4.34
-    '2015-01-01':
+    2015-01-01:
       value: 2.64
-    '2014-01-01':
+    2014-01-01:
       value: 1.27
-    '2003-01-01':
+    2003-01-01:
       value: 1.19
   metadata:
     ipp_csv_id: ticgn
@@ -63,19 +63,19 @@ ticgn_prix_par_mwh:
 ctssg_prix_par_mwh:
   description: CTSSG - prix par MWh
   values:
-    '2016-01-01':
+    2016-01-01:
       value: null
-    '2014-01-01':
+    2014-01-01:
       value: 0.2
-    '2013-01-01':
+    2013-01-01:
       value: 0.1
-    '2010-01-01':
+    2010-01-01:
       value: 0.045
-    '2009-01-01':
+    2009-01-01:
       value: 0.089
-    '2008-01-01':
+    2008-01-01:
       value: 0.026
-    '2003-01-01':
+    2003-01-01:
       value: null
   metadata:
     ipp_csv_id: ctssg
@@ -83,15 +83,15 @@ ctssg_prix_par_mwh:
 plafonds_tcfe_compteurs_36_kva_en_euros_par_mwh:
   description: Plafonds TCFE pour compteurs < ou = à 36 kva - en euros par MWh
   values:
-    '2017-01-01':
+    2017-01-01:
       value: null
-    '2015-01-01':
+    2015-01-01:
       value: 9.6
-    '2014-01-01':
+    2014-01-01:
       value: 9.5
-    '2013-01-01':
+    2013-01-01:
       value: 9.315
-    '2003-01-01':
+    2003-01-01:
       value: null
   metadata:
     ipp_csv_id: plafond_tcfe

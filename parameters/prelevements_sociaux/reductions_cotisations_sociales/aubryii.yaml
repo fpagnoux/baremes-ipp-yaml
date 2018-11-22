@@ -2,21 +2,21 @@ description: Allègement de cotisations sociales des lois Aubry II (2000-2003)
 parametre_1:
   description: Paramètre 1
   values:
-    '2003-07-01':
+    2003-07-01:
       value: null
-    '2002-07-01':
+    2002-07-01:
       value: 6720.17
-    '2001-07-01':
+    2001-07-01:
       value: 6601.35
-    '2000-07-01':
+    2000-07-01:
       value: 42102.0
-    '2000-02-01':
+    2000-02-01:
       value: 41500.0
   metadata:
     ipp_csv_id: aubry2_1
     unit:
-      '2001-07-01': currency-EUR
-      '2000-02-01': currency-FRF
+      2001-07-01: currency-EUR
+      2000-02-01: currency-FRF
 metadata:
   order:
   - parametre_1
@@ -26,112 +26,112 @@ metadata:
   - majoration_1
   - marjoration_2
   reference:
-    '2003-07-01': Loi 2003-47 du 17/01/2003
-    '2002-07-01': Arrêté du 20/12/2002
-    '2001-07-01': Décret 2001-1120 du 26/11/2001
-    '2000-07-01': Décret 2001-107 du 5/02/2001
-    '2000-02-01': Décret 2000-73 du 28/01/2000
+    2003-07-01: Loi 2003-47 du 17/01/2003
+    2002-07-01: Arrêté du 20/12/2002
+    2001-07-01: Décret 2001-1120 du 26/11/2001
+    2000-07-01: Décret 2001-107 du 5/02/2001
+    2000-02-01: Décret 2000-73 du 28/01/2000
   date_parution_jo:
-    '2003-07-01': '2003-01-18'
-    '2002-07-01': '2002-12-26'
-    '2001-07-01': '2001-12-29'
-    '2000-07-01': '2001-02-07'
-    '2000-02-01': '2000-01-29'
+    2003-07-01: 2003-01-18
+    2002-07-01: 2002-12-26
+    2001-07-01: 2001-12-29
+    2000-07-01: 2001-02-07
+    2000-02-01: 2000-01-29
   notes:
-    '2003-07-01': La Loi 2003-47 remplace l'allégement Aubry II par un nouveau dispositif
+    2003-07-01: La Loi 2003-47 remplace l'allégement Aubry II par un nouveau dispositif
       de réduction des cotisations patronales.
-    '2000-02-01': Incertitude sur la date d'entrée en vigueur de l'allégement (1er
+    2000-02-01: Incertitude sur la date d'entrée en vigueur de l'allégement (1er
       janvier 2000 ?)
 parametre_2:
   description: Paramètre 2
   values:
-    '2003-07-01':
+    2003-07-01:
       value: null
-    '2002-07-01':
+    2002-07-01:
       value: 1114.35
-    '2001-07-01':
+    2001-07-01:
       value: 1094.65
-    '2000-07-01':
+    2000-07-01:
       value: 6981.46
-    '2000-02-01':
+    2000-02-01:
       value: 6881.68
   metadata:
     ipp_csv_id: aubry2_2
     unit:
-      '2001-07-01': currency-EUR
-      '2000-02-01': currency-FRF
+      2001-07-01: currency-EUR
+      2000-02-01: currency-FRF
 parametre_3:
   description: Paramètre 3
   values:
-    '2003-07-01':
+    2003-07-01:
       value: null
-    '2002-07-01':
+    2002-07-01:
       value: 3238.57
-    '2001-07-01':
+    2001-07-01:
       value: 3181.31
-    '2000-07-01':
+    2000-07-01:
       value: 20290.0
-    '2000-02-01':
+    2000-02-01:
       value: 20000.0
   metadata:
     ipp_csv_id: aubry2_3
     unit:
-      '2001-07-01': currency-EUR
-      '2000-02-01': currency-FRF
+      2001-07-01: currency-EUR
+      2000-02-01: currency-FRF
 exoneration_annuelle_minimale:
   description: Exonération annuelle minimale
   values:
-    '2003-07-01':
+    2003-07-01:
       value: null
-    '2002-07-01':
+    2002-07-01:
       value: 647.77
-    '2001-07-01':
+    2001-07-01:
       value: 636.32
-    '2000-07-01':
+    2000-07-01:
       value: 4058.0
-    '2000-02-01':
+    2000-02-01:
       value: 4000.0
   metadata:
     ipp_csv_id: aubry2_4
     unit:
-      '2001-07-01': currency-EUR
-      '2000-02-01': currency-FRF
+      2001-07-01: currency-EUR
+      2000-02-01: currency-FRF
 majoration_1:
   description: Majoration 1
   values:
-    '2003-07-01':
+    2003-07-01:
       value: null
-    '2002-07-01':
+    2002-07-01:
       value: 226.59
-    '2001-07-01':
+    2001-07-01:
       value: 222.58
-    '2000-07-01':
+    2000-07-01:
       value: 1420.0
-    '2000-02-01':
+    2000-02-01:
       value: 1400.0
   metadata:
     ipp_csv_id: aubry2_5
     unit:
-      '2001-07-01': currency-EUR
-      '2000-02-01': currency-FRF
+      2001-07-01: currency-EUR
+      2000-02-01: currency-FRF
 marjoration_2:
   description: Marjoration 2
   values:
-    '2003-07-01':
+    2003-07-01:
       value: null
-    '2002-07-01':
+    2002-07-01:
       value: 566.76
-    '2001-07-01':
+    2001-07-01:
       value: 556.74
-    '2000-07-01':
+    2000-07-01:
       value: 3551.0
-    '2000-02-01':
+    2000-02-01:
       value: 3500.0
   metadata:
     ipp_csv_id: aubry2_6
     unit:
-      '2001-07-01': currency-EUR
-      '2000-02-01': currency-FRF
+      2001-07-01: currency-EUR
+      2000-02-01: currency-FRF
 documentation: |
   Paramètres et formule :
   Allégement = (Paramètre 1 * Paramètre 2 / Rémunération brute du salarié - Paramètre 3)/12

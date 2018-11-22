@@ -4,7 +4,7 @@ majoration_montant_maximal_en_base_rsa:
   couples_seul_avec_enfant:
     description: Couples ou seul avec un enfant
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.5
     metadata:
       ipp_csv_id: pa_maj1
@@ -17,7 +17,7 @@ majoration_montant_maximal_en_base_rsa:
   couple_1_enfant_deuxieme_enfant_1:
     description: Couple, 1 enfant - ou pour le deuxième enfant (1)
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.3
     metadata:
       ipp_csv_id: pa_maj3
@@ -25,7 +25,7 @@ majoration_montant_maximal_en_base_rsa:
   par_enfant_supplementaire:
     description: Par enfant supplémentaire
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.4
     metadata:
       ipp_csv_id: pa_maj4
@@ -38,15 +38,15 @@ metadata:
   - bonification
   - montant_minimum_verse
   reference:
-    '2016-01-01': Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
+    2016-01-01: Décret 2015-1710 du 21/12/2015, art. 2 (crée art. D843-1 du CSS)
   date_parution_jo:
-    '2016-01-01': '2015-12-22'
+    2016-01-01: 2015-12-22
 majoration_isolement_en_base_rsa:
   description: Majoration isolement (en % de la base RSA)
   femmes_enceintes:
     description: Femmes enceintes
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 1.28412
     metadata:
       ipp_csv_id: pa_maj5
@@ -58,7 +58,7 @@ majoration_isolement_en_base_rsa:
   par_enfant_charge:
     description: Par enfant à charge
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.42804
     metadata:
       ipp_csv_id: pa_maj6
@@ -66,7 +66,7 @@ majoration_isolement_en_base_rsa:
 majoration_ressources_revenus_activite:
   description: Majoration des ressources sur les revenus d'activité
   values:
-    '2016-01-01':
+    2016-01-01:
       value: 0.62
   metadata:
     ipp_csv_id: pa_maj_revenu
@@ -76,7 +76,7 @@ bonification:
   montant_maximal_bonification_en_base_rsa:
     description: Montant maximal de la bonification (en % de la base RSA)
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 0.12782
     metadata:
       ipp_csv_id: pa_bonification
@@ -90,7 +90,7 @@ bonification:
     description: Seuil de salaire minimum pour bénéficier de la bonification (en multiple
       du smic horaire brut)
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 59.0
     metadata:
       ipp_csv_id: pa_seuil_min
@@ -98,14 +98,14 @@ bonification:
     description: Seuil de salaire pour bénéficier de la bonification maximale (en
       multiple du smic horaire brut)
     values:
-      '2016-01-01':
+      2016-01-01:
         value: 95.0
     metadata:
       ipp_csv_id: pa_seuil_max
 montant_minimum_verse:
   description: Montant minimum versé
   values:
-    '2016-01-01':
+    2016-01-01:
       value: 15.0
   metadata:
     ipp_csv_id: pa_montant_min

@@ -4,13 +4,13 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      '2004-01-01':
+      2004-01-01:
         value: 2005.0
-      '2001-01-01':
+      2001-01-01:
         value: 2002.0
-      '2000-01-01':
+      2000-01-01:
         value: 2001.0
-      '1999-01-01':
+      1999-01-01:
         value: 2000.0
   metadata:
     order:
@@ -20,21 +20,21 @@ metadata:
   - date_entree_en_vigueur
   - prestations_compensatoires
   reference:
-    '2004-01-01': Loi 2004-439 du 26 mai 2004 - art. 26
-    '2000-01-01': Loi 2000-596 du 30 juin 2000
+    2004-01-01: Loi 2004-439 du 26 mai 2004 - art. 26
+    2000-01-01: Loi 2000-596 du 30 juin 2000
   notes:
-    '2004-01-01': Institution d'une réduction d'impôt en cas de versement de la prestation
+    2004-01-01: Institution d'une réduction d'impôt en cas de versement de la prestation
       compensatoire en capital
-    '2000-01-01': 'Aménagement possible des dispositions fiscales : art. 128  et 275-1
+    2000-01-01: 'Aménagement possible des dispositions fiscales : art. 128  et 275-1
       du code civil'
 prestations_compensatoires:
   description: Prestations compensatoires
   taux:
     description: Taux
     values:
-      '2000-01-01':
+      2000-01-01:
         value: 0.25
-      '1999-01-01':
+      1999-01-01:
         value: null
     metadata:
       ipp_csv_id: tx_prestcomp
@@ -46,17 +46,17 @@ prestations_compensatoires:
   plafond:
     description: Plafond
     values:
-      '2001-01-01':
+      2001-01-01:
         value: 30500.0
-      '2000-01-01':
+      2000-01-01:
         value: 200000.0
-      '1999-01-01':
+      1999-01-01:
         value: null
     metadata:
       ipp_csv_id: plaf_prestcomp
       unit:
-        '2001-01-01': currency-EUR
-        '2000-01-01': currency-FRF
+        2001-01-01: currency-EUR
+        2000-01-01: currency-FRF
 documentation: |
   Notes : 
   (1) Voir art. 270 et 271 du code civil

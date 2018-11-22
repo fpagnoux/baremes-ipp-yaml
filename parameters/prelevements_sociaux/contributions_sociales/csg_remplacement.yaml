@@ -4,17 +4,17 @@ pensions_retraite_invalidite:
   taux_csg_global:
     description: Taux CSG global
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.083
-      '2005-01-01':
+      2005-01-01:
         value: 0.066
-      '1998-01-01':
+      1998-01-01:
         value: 0.062
-      '1997-01-01':
+      1997-01-01:
         value: 0.034
-      '1993-07-01':
+      1993-07-01:
         value: 0.024
-      '1991-02-01':
+      1991-02-01:
         value: 0.011
     metadata:
       ipp_csv_id: csg_pens
@@ -32,15 +32,15 @@ pensions_retraite_invalidite:
   taux_csg_deductible:
     description: Taux CSG déductible
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 0.059
-      '2005-01-01':
+      2005-01-01:
         value: 0.042
-      '1998-01-01':
+      1998-01-01:
         value: 0.038
-      '1997-01-01':
+      1997-01-01:
         value: 0.01
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_pens_ded
@@ -48,11 +48,11 @@ pensions_retraite_invalidite:
   taux_csg_reduit:
     description: Taux CSG réduit
     values:
-      '1998-01-01':
+      1998-01-01:
         value: 0.038
-      '1997-01-01':
+      1997-01-01:
         value: 0.01
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_pens_red
@@ -60,9 +60,9 @@ pensions_retraite_invalidite:
   seuil_ir:
     description: Seuil d'IR
     values:
-      '2015-01-01':
+      2015-01-01:
         value: null
-      '1991-02-01':
+      1991-02-01:
         value: 61.0
     metadata:
       ipp_csv_id: seuil_csg_pens_red_ir
@@ -72,15 +72,15 @@ pensions_retraite_invalidite:
       Seuil de RFR 1 :
       1 part
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 11018.0
-      '2017-01-01':
+      2017-01-01:
         value: 10996.0
-      '2016-01-01':
+      2016-01-01:
         value: 10676.0
-      '2015-01-01':
+      2015-01-01:
         value: 10633.0
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: seuil_csg_pens_red1
@@ -90,15 +90,15 @@ pensions_retraite_invalidite:
       Seuil de RFR 1 :
       demi-part supplémentaire
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 2942.0
-      '2017-01-01':
+      2017-01-01:
         value: 2936.0
-      '2016-01-01':
+      2016-01-01:
         value: 2850.0
-      '2015-01-01':
+      2015-01-01:
         value: 2839.0
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: seuil_csg_pens_red1_demip
@@ -108,15 +108,15 @@ pensions_retraite_invalidite:
       Seuil de RFR 2 :
       1 part
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 14404.0
-      '2017-01-01':
+      2017-01-01:
         value: 14375.0
-      '2016-01-01':
+      2016-01-01:
         value: 13956.0
-      '2015-01-01':
+      2015-01-01:
         value: 13900.0
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: seuil_csg_pens_red2
@@ -126,15 +126,15 @@ pensions_retraite_invalidite:
       Seuil de RFR 2 :
       demi-part supplémentaire
     values:
-      '2018-01-01':
+      2018-01-01:
         value: 3846.0
-      '2017-01-01':
+      2017-01-01:
         value: 3838.0
-      '2016-01-01':
+      2016-01-01:
         value: 3726.0
-      '2015-01-01':
+      2015-01-01:
         value: 3711.0
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: seuil_csg_pens_red2_demip
@@ -145,56 +145,56 @@ metadata:
   - allocations_preretraite
   - indemnites_journalieres_ij
   reference:
-    '2018-01-01': |-
+    2018-01-01: |-
       Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ;  Circulaire CNAV 2017-34 du 20/10/2017 ;
       Loi 2017-1837 du 30/12/2017, art. 67 (LF pour 2018)
-    '2017-01-01': Loi 2016-1827 du 23/12/2016, art. 20 (LFSS pour 2017)
-    '2016-01-01': Loi 2015-1702 du 21/12/2015, art. 24 (LFSS pour 2016)
-    '2015-01-01': Loi 2014-1554 du 22/12/2014 , art. 7 (LFSS pour 2015)
-    '2012-01-01': Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
-    '2011-01-01': Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
-    '2008-01-01': Loi 2007-1786 du 19/12/2007, art. 16
-    '2005-01-01': Loi 2004-810 du 13/08/2004, art.72
-    '1998-01-01': Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
-    '1997-01-01': Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
-    '1993-07-01': Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
-    '1991-02-01': Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
+    2017-01-01: Loi 2016-1827 du 23/12/2016, art. 20 (LFSS pour 2017)
+    2016-01-01: Loi 2015-1702 du 21/12/2015, art. 24 (LFSS pour 2016)
+    2015-01-01: Loi 2014-1554 du 22/12/2014 , art. 7 (LFSS pour 2015)
+    2012-01-01: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
+    2011-01-01: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
+    2008-01-01: Loi 2007-1786 du 19/12/2007, art. 16
+    2005-01-01: Loi 2004-810 du 13/08/2004, art.72
+    1998-01-01: Loi 97-1164 du 19/12/1997, art. 5 (LFSS pour 1998)
+    1997-01-01: Loi 96-1160 du 27/12/1996, art. 9 à 17 (LFSS pour 1997)
+    1993-07-01: Loi 93-859 du 22/06/1993, art. 42 (LFR pour 1993)
+    1991-02-01: Loi 90-1168 du 29/12/90, art. 127 à 135 (LF pour 1991)
   date_parution_jo:
-    '2018-01-01': '2017-12-31'
-    '2017-01-01': '2016-12-24'
-    '2016-01-01': '2015-12-22'
-    '2015-01-01': '2014-12-30'
-    '2012-01-01': '2011-12-22'
-    '2011-01-01': '2010-12-21'
-    '2008-01-01': '2007-12-21'
-    '2005-01-01': '2004-08-17'
-    '1998-01-01': '1997-12-23'
-    '1997-01-01': '1996-12-29'
-    '1993-07-01': '1993-06-23'
-    '1991-02-01': '1990-12-30'
+    2018-01-01: 2017-12-31
+    2017-01-01: 2016-12-24
+    2016-01-01: 2015-12-22
+    2015-01-01: 2014-12-30
+    2012-01-01: 2011-12-22
+    2011-01-01: 2010-12-21
+    2008-01-01: 2007-12-21
+    2005-01-01: 2004-08-17
+    1998-01-01: 1997-12-23
+    1997-01-01: 1996-12-29
+    1993-07-01: 1993-06-23
+    1991-02-01: 1990-12-30
   notes:
-    '2017-01-01': Les seuils sont différents si la résidence est en Martinique, Guadeloupe,
+    2017-01-01: Les seuils sont différents si la résidence est en Martinique, Guadeloupe,
       Réunion, Guyane. Non applicable pour Mayotte.
-    '2015-01-01': Seuil d'assujetissement au taux normal de CSG fixé à 13 900 € pour
+    2015-01-01: Seuil d'assujetissement au taux normal de CSG fixé à 13 900 € pour
       une personne seule sans demi-part supplémentaire
-    '2008-01-01': Nouveau taux pour les préretraites ayant pris effet à partir du
+    2008-01-01: Nouveau taux pour les préretraites ayant pris effet à partir du
       11/10/2007
-    '1998-01-01': Suppression d'exonérations et abattement pour l'assiette des revenus
+    1998-01-01: Suppression d'exonérations et abattement pour l'assiette des revenus
       du patrimoine.
 allocations_preretraite:
   description: Allocations de préretraite
   taux_csg_global:
     description: Taux CSG global
     values:
-      '2008-01-01':
+      2008-01-01:
         value: 0.075
-      '2005-01-01':
+      2005-01-01:
         value: 0.066
-      '1998-01-01':
+      1998-01-01:
         value: 0.062
-      '1997-01-01':
+      1997-01-01:
         value: 0.034
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_pre
@@ -207,13 +207,13 @@ allocations_preretraite:
   taux_csg_deductible:
     description: Taux CSG déductible
     values:
-      '2005-01-01':
+      2005-01-01:
         value: 0.042
-      '1998-01-01':
+      1998-01-01:
         value: 0.038
-      '1997-01-01':
+      1997-01-01:
         value: 0.01
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_pre_ded
@@ -221,9 +221,9 @@ allocations_preretraite:
   taux_csg_reduit:
     description: Taux CSG réduit
     values:
-      '2008-01-01':
+      2008-01-01:
         value: 0.038
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_pre_red
@@ -233,11 +233,11 @@ indemnites_journalieres_ij:
   taux_csg_global:
     description: Taux CSG global
     values:
-      '1998-01-01':
+      1998-01-01:
         value: 0.062
-      '1997-01-01':
+      1997-01-01:
         value: 0.034
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_ij
@@ -249,11 +249,11 @@ indemnites_journalieres_ij:
   taux_csg_deductible:
     description: Taux CSG déductible
     values:
-      '1998-01-01':
+      1998-01-01:
         value: 0.038
-      '1997-01-01':
+      1997-01-01:
         value: 0.01
-      '1991-02-01':
+      1991-02-01:
         value: null
     metadata:
       ipp_csv_id: csg_ij_ded

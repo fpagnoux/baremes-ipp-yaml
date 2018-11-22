@@ -2,9 +2,9 @@ description: "Allocation d'éducation spéciale (AES) : conditions et montants"
 age_maximum_enfant:
   description: Age maximum de l'enfant
   values:
-    '2006-01-01':
+    2006-01-01:
       value: null
-    '1976-08-01':
+    1976-08-01:
       value: 20.0
   metadata:
     ipp_csv_id: aes_enf_agemax
@@ -14,40 +14,40 @@ metadata:
   - montant_bmaf_en_euros
   - complement_allocation
   reference:
-    '2006-01-01': Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
-    '2005-01-01': Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
-    '2002-04-01': Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du CSS)
+    2006-01-01: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+    2005-01-01: Loi 2005-102 du 11/02/2005, art. 68 (modif art. L 541 du CSS)
+    2002-04-01: Décret 2002-422 du 29/03/2002, art. 1 (modif art. L 541-2 du CSS)
       et Décret 2002-421
-    '1991-10-01': Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du CSS)
-    '1984-01-01': Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
-    '1976-08-01': Loi 75-534 du 30/06/1975                                                              Décrets
+    1991-10-01: Décret 91-968 du 23/09/1991, art. 1 (modif art. L 541-1 à 3 du CSS)
+    1984-01-01: Décret 83-66 du 31/01/1983 (modif art. L 543-1 à 3 du CSS)
+    1976-08-01: Loi 75-534 du 30/06/1975                                                              Décrets
       75-1198, 96, 98 du 16/12/1975                                    Décret 76-768
       du 16/08/1976
   date_parution_jo:
-    '2006-01-01': '2005-02-12'
-    '2005-01-01': '2005-02-12'
-    '2002-04-01': '2002-03-30'
-    '1991-10-01': '1991-09-24'
-    '1984-01-01': '1983-01-01'
-    '1976-08-01': 01/07/1975       23/12/1975  17/08/1976
+    2006-01-01: 2005-02-12
+    2005-01-01: 2005-02-12
+    2002-04-01: 2002-03-30
+    1991-10-01: 1991-09-24
+    1984-01-01: 1983-01-01
+    1976-08-01: 01/07/1975       23/12/1975  17/08/1976
   notes:
-    '2006-01-01': La loi du 11 février 2005 pour l'égalité des droits et des chances,
+    2006-01-01: La loi du 11 février 2005 pour l'égalité des droits et des chances,
       la participation et la citoyenneté des personnes handicapées transforme l'AES
       en l'AEEH
-    '2002-04-01': Création de 6 catégories; les taux de chaque catégorie sont fixés
+    2002-04-01: Création de 6 catégories; les taux de chaque catégorie sont fixés
       par le décret de 2002; mais pour la 6ème catégorie il est prévu que le montant
       de l'allocation soit égal au montant de la majoration pour tierce personne accordée
       aux invalides de la 3e catégorie définis à l'article L. 341-4. »
-    '1991-10-01': 'Complément 3e catégorie: 6058 au 01/01/1992'
-    '1976-08-01': Se substitue à l'allocation d'éducation spécialisée, à l'allocation
+    1991-10-01: 'Complément 3e catégorie: 6058 au 01/01/1992'
+    1976-08-01: Se substitue à l'allocation d'éducation spécialisée, à l'allocation
       aux mineurs handicapés, à l'allocation spéciale aux parents de mineurs grands
       infirmés de moins de 15 ans.
 montant_bmaf_en_euros:
   description: Montant (% de BMAF ou en Euros)
   values:
-    '2006-01-01':
+    2006-01-01:
       value: null
-    '1976-08-01':
+    1976-08-01:
       value: 0.32
   metadata:
     ipp_csv_id: aes_montant
@@ -57,13 +57,13 @@ complement_allocation:
   1ere_categorie:
     description: 1ere catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: null
-      '1991-10-01':
+      1991-10-01:
         value: 0.24
-      '1984-01-01':
+      1984-01-01:
         value: 0.72
-      '1976-08-01':
+      1976-08-01:
         value: 0.48
     metadata:
       ipp_csv_id: aes_cplt1
@@ -79,13 +79,13 @@ complement_allocation:
   2e_categorie:
     description: 2e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: null
-      '2002-04-01':
+      2002-04-01:
         value: 0.65
-      '1991-10-01':
+      1991-10-01:
         value: 0.72
-      '1976-08-01':
+      1976-08-01:
         value: 0.24
     metadata:
       ipp_csv_id: aes_cplt2
@@ -93,27 +93,27 @@ complement_allocation:
   3e_categorie:
     description: 3e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: null
-      '2002-04-01':
+      2002-04-01:
         value: 0.92
-      '1991-10-01':
+      1991-10-01:
         value: 5017.82
-      '1976-08-01':
+      1976-08-01:
         value: null
     metadata:
       ipp_csv_id: aes_cplt3
       unit:
-        '2002-04-01': /1
-        '1991-10-01': currency-FRF
+        2002-04-01: /1
+        1991-10-01: currency-FRF
   4e_categorie:
     description: 4e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: null
-      '2002-04-01':
+      2002-04-01:
         value: 1.4257
-      '1976-08-01':
+      1976-08-01:
         value: null
     metadata:
       ipp_csv_id: aes_cplt4
@@ -121,11 +121,11 @@ complement_allocation:
   5e_categorie:
     description: 5e catégorie
     values:
-      '2006-01-01':
+      2006-01-01:
         value: null
-      '2002-04-01':
+      2002-04-01:
         value: 1.8221
-      '1976-08-01':
+      1976-08-01:
         value: null
     metadata:
       ipp_csv_id: aes_cplt5
@@ -133,15 +133,15 @@ complement_allocation:
   6e_categorie_2:
     description: 6e catégorie (2)
     values:
-      '2006-01-01':
+      2006-01-01:
         value: null
-      '2005-01-01':
+      2005-01-01:
         value: 964.78
-      '2004-04-01':
+      2004-04-01:
         value: 945.87
-      '2003-04-01':
+      2003-04-01:
         value: 930.05
-      '1976-08-01':
+      1976-08-01:
         value: null
     metadata:
       ipp_csv_id: aes_cplt6

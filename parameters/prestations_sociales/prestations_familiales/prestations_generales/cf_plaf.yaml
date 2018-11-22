@@ -4,13 +4,13 @@ plafond_ressources_revenu_brut_imposable_1:
   1_enfant:
     description: 1 enfant
     values:
-      '1986-07-01':
+      1986-07-01:
         value: 105528.0
-      '1983-01-01':
+      1983-01-01:
         value: 87242.0
-      '1978-07-01':
+      1978-07-01:
         value: 50034.0
-      '1978-01-01':
+      1978-01-01:
         value: 44270.0
     metadata:
       ipp_csv_id: plaf_1enf_monoact
@@ -23,13 +23,13 @@ plafond_ressources_revenu_brut_imposable_1:
   enfant_supplementaire:
     description: Enfant supplémentaire
     values:
-      '1986-07-01':
+      1986-07-01:
         value: 0.1999943143052081
-      '1983-01-01':
+      1983-01-01:
         value: 0.20571513720455745
-      '1978-07-01':
+      1978-07-01:
         value: 0.20000399728184834
-      '1978-01-01':
+      1978-01-01:
         value: 0.20002258866049244
     metadata:
       ipp_csv_id: plaf_suppenf_monoact
@@ -37,13 +37,13 @@ plafond_ressources_revenu_brut_imposable_1:
   1_enfant_biactifs_parents_isoles_2:
     description: 1 enfant, biactifs et parents isolés (2)
     values:
-      '1986-07-01':
+      1986-07-01:
         value: 139460.0
-      '1983-01-01':
+      1983-01-01:
         value: 102572.0
-      '1978-07-01':
+      1978-07-01:
         value: 58826.0
-      '1978-01-01':
+      1978-01-01:
         value: 52048.0
     metadata:
       ipp_csv_id: plaf_1enf_biact
@@ -53,27 +53,27 @@ metadata:
   - plafond_ressources_revenu_brut_imposable_1
   - majoration_plafond_ressources_enfant_supplementaire
   reference:
-    '1986-07-01': Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478 du
+    1986-07-01: Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478 du
       26/04/1985
-    '1983-01-01': Décret 82-1137 du 29/12/82 (Taux)
-    '1978-07-01': Décret 78-728 du 11/07/1978
-    '1978-01-01': Loi 77-765 du 12/07/1977                                                                                                                Décret
+    1983-01-01: Décret 82-1137 du 29/12/82 (Taux)
+    1978-07-01: Décret 78-728 du 11/07/1978
+    1978-01-01: Loi 77-765 du 12/07/1977                                                                                                                Décret
       77-1265 du 16/11/1977
   date_parution_jo:
-    '1986-07-01': '1985-05-04'
-    '1983-01-01': '1982-12-30'
-    '1978-07-01': '1978-07-12'
-    '1978-01-01': 13/07/1977                17/11/1977
+    1986-07-01: 1985-05-04
+    1983-01-01: 1982-12-30
+    1978-07-01: 1978-07-12
+    1978-01-01: 13/07/1977                17/11/1977
 majoration_plafond_ressources_enfant_supplementaire:
   description: Majoration du plafond de ressources -enfant supplémentaire
   values:
-    '1986-07-01':
+    1986-07-01:
       value: 0.15133371576079163
-    '1983-01-01':
+    1983-01-01:
       value: 0.17009515267324415
-    '1978-07-01':
+    1978-07-01:
       value: 0.1701118553020773
-    '1978-01-01':
+    1978-01-01:
       value: 0.17011220411927452
   metadata:
     ipp_csv_id: plaf_suppenf_biact
