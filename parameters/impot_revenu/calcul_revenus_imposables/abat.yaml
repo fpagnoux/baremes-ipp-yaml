@@ -4,32 +4,12 @@ date_entree_en_vigueur:
   annee_ir:
     description: Année IR
     values:
-      1985-01-01:
-        value: 1986.0
-      1984-01-01:
-        value: 1985.0
-      1983-01-01:
-        value: 1984.0
-      1982-01-01:
-        value: 1983.0
-      1981-01-01:
-        value: 1982.0
-      1980-01-01:
-        value: 1981.0
       1979-01-01:
         value: 1980.0
       1978-01-01:
         value: 1979.0
       1977-01-01:
         value: 1978.0
-      1976-01-01:
-        value: 1977.0
-      1975-01-01:
-        value: 1976.0
-      1974-01-01:
-        value: 1975.0
-      1973-01-01:
-        value: 1974.0
   metadata:
     order:
     - annee_ir
@@ -42,10 +22,10 @@ en_faveur_certains_contribuables_seuls_1:
         value: null
       1978-01-01:
         value: 2000.0
-      1973-01-01:
+      1977-01-01:
         value: null
     metadata:
-      ipp_csv_id: taux1_majo
+      ipp_csv_id: abat_contrib_seuls
       unit: currency-FRF
   maximum_revenu_net_global:
     description: Maximum revenu net global
@@ -54,9 +34,10 @@ en_faveur_certains_contribuables_seuls_1:
         value: null
       1978-01-01:
         value: 16000.0
-      1973-01-01:
+      1977-01-01:
         value: null
     metadata:
+      ipp_csv_id: plaf_contrib_seuls
       unit: currency-FRF
   metadata:
     order:
@@ -71,10 +52,10 @@ en_faveur_personnes_agees_invalides_2:
         value: null
       1978-01-01:
         value: 23000.0
-      1973-01-01:
+      1977-01-01:
         value: null
     metadata:
-      ipp_csv_id: taux2_majo
+      ipp_csv_id: abat_contrib_ages_invalides_plaf1
       unit: currency-FRF
   seuil_2_revenu_net_global:
     description: seuil 2 de revenu net global
@@ -83,10 +64,10 @@ en_faveur_personnes_agees_invalides_2:
         value: null
       1978-01-01:
         value: 37000.0
-      1973-01-01:
+      1977-01-01:
         value: null
     metadata:
-      ipp_csv_id: taux3_majo
+      ipp_csv_id: abat_contrib_ages_invalides_plaf2
       unit: currency-FRF
   abattement_1:
     description: Abattement 1
@@ -95,10 +76,10 @@ en_faveur_personnes_agees_invalides_2:
         value: null
       1978-01-01:
         value: 3720.0
-      1973-01-01:
+      1977-01-01:
         value: null
     metadata:
-      ipp_csv_id: seuil_rev_majo
+      ipp_csv_id: abat_contrib_ages_invalides_abat1
       unit: currency-FRF
   abattement_2:
     description: Abattement 2
@@ -107,10 +88,10 @@ en_faveur_personnes_agees_invalides_2:
         value: null
       1978-01-01:
         value: 1860.0
-      1973-01-01:
+      1977-01-01:
         value: null
     metadata:
-      ipp_csv_id: seuil1_majo
+      ipp_csv_id: abat_contrib_ages_invalides_abat2
       unit: currency-FRF
   metadata:
     order:
@@ -118,11 +99,17 @@ en_faveur_personnes_agees_invalides_2:
     - seuil_2_revenu_net_global
     - abattement_1
     - abattement_2
+documentation: ''
 metadata:
   order:
   - date_entree_en_vigueur
   - en_faveur_certains_contribuables_seuls_1
   - en_faveur_personnes_agees_invalides_2
-documentation: |
-  Notes
-  (1) L'abattement de 2000 FRF s'applique au foyer dont le nombre de part est égal à 1 et dont les revenus nets globaux sont 1/ inférieurs à 16000 et 2/ constitués de traitements et salaires au moins pour moitié
+  reference:
+    1978-01-01: Loi 78-1239 du 29/12/1978  (LF pour 1979), art. 2, III.
+  date_parution_jo:
+    1978-01-01: 1978-12-30
+  notes:
+    1978-01-01: L'abattement de 2000 FRF s'applique au foyer dont le nombre de part
+      est égal à 1 et dont les revenus nets globaux sont 1/ inférieurs à 16000 et
+      2/ constitués de traitements et salaires au moins pour moitié
