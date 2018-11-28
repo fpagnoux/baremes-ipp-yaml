@@ -120,7 +120,7 @@ plafond_ressources:
       2006-01-01:
         value: 7500.53
     metadata:
-      ipp_csv_id: plaf_mv_seul
+      ipp_csv_id: plaf_mv_seul_aspa
       unit: currency-EUR
   couples:
     description: Couples
@@ -158,7 +158,7 @@ plafond_ressources:
       2006-01-01:
         value: 13137.69
     metadata:
-      ipp_csv_id: plaf_mv_men
+      ipp_csv_id: plaf_mv_men_aspa
       unit: currency-EUR
   metadata:
     order:

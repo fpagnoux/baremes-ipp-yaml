@@ -112,7 +112,7 @@ assures_actifs:
       1970-04-01:
         value: null
     metadata:
-      ipp_csv_id: mmid_ac_0_5
+      ipp_csv_id: mmid_suppl_a_0_5
       unit: /1
   dela_70_pss_1:
     description: Au-delà de 70 % du PSS (1)

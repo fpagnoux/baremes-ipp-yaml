@@ -433,7 +433,7 @@ montant_forfaitaire_mf0:
     1972-07-01:
       value: null
   metadata:
-    ipp_csv_id: interv_ress
+    ipp_csv_id: mf0
     unit: currency-EUR
 metadata:
   order:

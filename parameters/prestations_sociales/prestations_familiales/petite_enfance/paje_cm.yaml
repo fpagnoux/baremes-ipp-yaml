@@ -25,7 +25,7 @@ periode_reference_justifier_8_trimestres_cotisation_vieillesse_1:
       2004-01-01:
         value: 2.0
     metadata:
-      ipp_csv_id: colca_tx_plein
+      ipp_csv_id: periode_ref_cotisations_vieillesse
   deux_enfants:
     description: Deux enfants
     values:

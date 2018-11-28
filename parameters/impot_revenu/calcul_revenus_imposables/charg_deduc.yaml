@@ -368,7 +368,7 @@ reduction_souscriptions_parts_sofica:
       1973-01-01:
         value: null
     metadata:
-      ipp_csv_id: plaf_sofica
+      ipp_csv_id: plaf_reduc_sofica
       unit:
         2001-01-01: currency-EUR
         1997-01-01: currency-FRF
@@ -382,7 +382,7 @@ reduction_souscriptions_parts_sofica:
       1973-01-01:
         value: null
     metadata:
-      ipp_csv_id: base_sofica
+      ipp_csv_id: base_reduc_sofica
       unit: /1
   metadata:
     order:

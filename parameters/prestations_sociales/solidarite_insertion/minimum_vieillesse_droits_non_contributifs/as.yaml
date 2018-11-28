@@ -512,7 +512,7 @@ plafond_ressources_personnes_seules:
     1956-04-01:
       value: 201000.0
   metadata:
-    ipp_csv_id: plaf_mv_seul
+    ipp_csv_id: plaf_mv_seul_as
     unit:
       2002-01-01: currency-EUR
       1961-01-01: currency-FRF
@@ -705,7 +705,7 @@ plafond_ressources_menages:
     1956-04-01:
       value: 258000.0
   metadata:
-    ipp_csv_id: plaf_mv_men
+    ipp_csv_id: plaf_mv_men_as
     unit:
       2002-01-01: currency-EUR
       1961-01-01: currency-FRF
