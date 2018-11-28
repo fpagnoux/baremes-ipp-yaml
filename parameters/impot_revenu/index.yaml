@@ -1,7 +1,11 @@
 metadata:
   order:
+  - bareme_igr_1915_1916
+  - bareme_igr_1917_1918
+  - bareme_igr_1919_1935
+  - bareme_igr_1936_1941
+  - bareme_igr_1942_1944
   - bareme_ir
-  - bareme_igr
   - calcul_revenus_imposables
   - calcul_impot_revenu
   - calcul_reductions_impots
