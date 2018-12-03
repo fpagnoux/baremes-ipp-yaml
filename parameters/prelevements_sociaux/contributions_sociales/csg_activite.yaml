@@ -114,8 +114,7 @@ metadata:
   - allocations_chomage
   - abattement
   reference:
-    2018-01-01: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837
-      du 30/12/2017, art. 67 (LF pour 2018)
+    2018-01-01: Loi 2017-1836 du 30/12/2017, art. 8 (LFSS pour 2018) ; Loi 2017-1837 du 30/12/2017, art. 67 (LF pour 2018)
     2012-01-01: Loi 2011-1906 du 28/12/2011, art. 17 (LFSS pour 2012)
     2011-01-01: Loi 2010-1594 du 20/12/2010, art. 20 (LFSS pour 2011)
     2005-01-01: Loi 2004-810 du 13/08/2004, art.72
@@ -133,8 +132,7 @@ metadata:
     1993-07-01: 1993-06-23
     1991-02-01: 1990-12-30
   notes:
-    1991-02-01: Une circulaire ministérielle du 16/01/1991 relative à la mise en
-      œuvre de la CSG fournit des indications sur les assiettes et les exonérations.
+    1991-02-01: Une circulaire ministérielle du 16/01/1991 relative à la mise en œuvre de la CSG fournit des indications sur les assiettes et les exonérations.
 documentation: |
   Notes :
   L'art. 2.III de la loi 93-1352 publiée au JO le 30/12/1993 (LF pour 1994) a annulé la déductibilité prévue et a donc empêché l'application de la déductibilité de la CSG pour les revenus 1993.

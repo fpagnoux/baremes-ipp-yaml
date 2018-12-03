@@ -35,11 +35,8 @@ metadata:
   order:
   - forfait_logement_en_montant_forfaitaire_rsa
   reference:
-    2009-06-01: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-9 et R262-10
-      du CASF)
+    2009-06-01: Décret 2009-404 du 15/04/2009, art. 2 (modif art. R262-9 et R262-10 du CASF)
   date_parution_jo:
     2009-06-01: 2009-04-16
   notes:
-    2009-06-01: |-
-      Art. R262-9 : pour les propriétaires sans AL et les logés à titre gratuit (on entend par AL les 3 types d'aides au logement).
-      Art. R262-10 : pour les bénéficiaires des AL.
+    2009-06-01: "Art. R262-9 : pour les propriétaires sans AL et les logés à titre gratuit (on entend par AL les 3 types d'aides au logement).; Art. R262-10 : pour les bénéficiaires des AL."

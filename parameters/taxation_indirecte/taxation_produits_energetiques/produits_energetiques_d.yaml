@@ -1,7 +1,6 @@
 description: TICPE - produits énergétiques d
 autres_gaz_petrole_liquefies_utilises_comme_carburants_sous_conditions_100kg:
-  description: Autres gaz de pétrole liquéfiés utilisés comme carburants, sous conditions
-    (100kg)
+  description: Autres gaz de pétrole liquéfiés utilisés comme carburants, sous conditions (100kg)
   values:
     2022-01-01:
       value: 28.32
@@ -125,8 +124,7 @@ gaz_naturel_etat_gazeux_utilises_comme_carburants_100m3:
       2002-01-01: currency-EUR
       1993-04-15: currency-FRF
 gaz_naturel_etat_gazeux_utilise_sous_conditions_aux_moteurs_stationnaires_100m3:
-  description: Gaz naturel à l'état gazeux, utilisé sous conditions aux moteurs stationnaires
-    (100m3)
+  description: Gaz naturel à l'état gazeux, utilisé sous conditions aux moteurs stationnaires (100m3)
   values:
     2022-01-01:
       value: 18.36
@@ -225,7 +223,7 @@ metadata:
     2020-01-01: Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
     2019-01-01: Tarif prévu par la loi de 2018. A vérifier l'année de mise en exécution
 documentation: |
-  Notes : 
+  Notes :
   Indice 40 (Vaseline), 41 (Paraffine contenant en poids moins de 0,75% d'huile), 42 (autre paraffine, cires de pétrole et résidus paraffineux) et 46 (bitume de pétrole) : d'après l'article 265-3, on applique la taxe du produit auquel il correspond, selon ses caractéristiques.
   NB : données renseignées dans l'article 265 du code des douanes
   NB : les produits énergétiques sont rangés de a à e dans l'ordre de leur numérotation dans l'article 265 du code des douanes. Cette séparation en cinq onglets a pour seul objectif la lisibilité.

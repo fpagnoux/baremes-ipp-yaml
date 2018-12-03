@@ -148,8 +148,7 @@ metadata:
     1998-01-01: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
     1997-01-01: Loi 97-1164 du 19/12/1997, art. 9 (LFSS pour 1998)
     1987-08-01: Loi 87-516 du 10/07/1987, art. 2
-    1985-01-01: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966
-      du 18/08/1986, art. 2
+    1985-01-01: Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) ; Loi n°86-966 du 18/08/1986, art. 2
     1984-01-01: Loi 83-1179 du 29/12/1983, art. 115 (LF pour 1984)
   date_parution_jo:
     2013-01-01: 2012-12-18
@@ -167,19 +166,14 @@ metadata:
     1985-01-01: 1986-08-19
     1984-01-01: 1983-12-30
   notes:
-    1998-01-01: Les prélèvements sociaux de 2% instaurés en 1997 remplacent le prélèvement
-      social exceptionnel affecté à la CNAF et la contribution sociale permanente
-      affectée à la CNAV.
-    1991-01-01: Avec l'instauration de la CSG, la contribution sociale de 0,4% est
-      supprimée.
-    1985-01-01: "Il s'agit du \"0,4% Balladur\" qui s'applique à l'ensemble des\
-      \ revenus imposables.  La date de parution au JOFR de la Loi 84-1208 du 29/12/1984,\
-      \ art. 106 (LF pour 1985) est : 30/12/1984"
+    1998-01-01: Les prélèvements sociaux de 2% instaurés en 1997 remplacent le prélèvement social exceptionnel affecté à la CNAF et la contribution sociale permanente affectée à la CNAV.
+    1991-01-01: Avec l'instauration de la CSG, la contribution sociale de 0,4% est supprimée.
+    1985-01-01: "Il s'agit du \"0,4% Balladur\" qui s'applique à l'ensemble des revenus imposables.  La date de parution au JOFR de la Loi 84-1208 du 29/12/1984, art. 106 (LF pour 1985) est : 30/12/1984"
     1984-01-01: Il s'agit du "1% Delors" reversé à la CNAF.
 documentation: |
-  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine. 
-  Références dans les codes législatifs : 
-  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI). 
-  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles. 
+  Notes : (1) La loi 2012-354 du 14/03/2012 qui augmentait le taux du PS sur les revenus du patrimoine à 5,4% ne semble pas s'appliquer à cause de la rétroactivité de la loi 2012-1404 du 17/12/2012 et de l'annualisation de l'imposition des revenus du patrimoine.
+  Références dans les codes législatifs :
+  - Les prélèvements sociaux sur les revenus du patrimoine et sur les produits de placement, ainsi que les taux de ces prélèvements sont codifiés respectivement aux articles L245-14, L245-15 et L245-16 du Code de la sécurité sociale (repris à l'article 1600-0 F du CGI).
+  - Les contributions additionnelles au prélèvement social (CAPS) sur les revenus du patrimoine et sur les produits de placement sont codifées à l'article L14-10-4 du Code de l'action sociale et des familles.
   - La contribution RSA est référencée à l'article L262-24 du Code de l'action sociale et des familles.
   - Les prélèvements de solidarité sur les revenus du patrimoine et sur les produits de placement sont codifiés à l'article 1600-0 S du CGI.

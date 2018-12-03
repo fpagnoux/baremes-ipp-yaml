@@ -673,8 +673,7 @@ tl:
       ipp_csv_id: tl_2
       unit: /1
   debut_2eme_tranche_calcul_tl_fin_1ere_tranche:
-    description: Début de la 2ème tranche pour le calcul de TL (et fin de la 1ère
-      tranche)
+    description: Début de la 2ème tranche pour le calcul de TL (et fin de la 1ère tranche)
     values:
       2001-01-01:
         value: 0.45
@@ -746,8 +745,7 @@ metadata:
   - tl
   - montant_forfaitaire
   reference:
-    2017-10-01: Décret 2017-1413 du 28/09/2017 (modif art. D542-5-2 du CSS) et Arrêté
-      du 28/09/2017
+    2017-10-01: Décret 2017-1413 du 28/09/2017 (modif art. D542-5-2 du CSS) et Arrêté du 28/09/2017
     2015-10-01: Arrêté du 16/10/2015
     2014-10-01: Arrêté du 27/10/2014
     2013-01-01: Arrêté du 28/12/2012
@@ -823,28 +821,16 @@ metadata:
   notes:
     2017-10-01: Actualisation paramètres + baisse de 5 euros des aides au logement
     2015-10-01: Idem en 2017
-    2014-10-01: Taux TL et TF disponibles pages 14 et 15 du document "Elément de
-      calcul des aides personnelles au logement"
-    2012-01-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2011-01-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2010-01-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2009-01-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2008-01-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2007-01-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2004-06-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2002-07-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2002-01-01: Changement de la participation minimale forfaitaire (composante
-      de Po)
-    2001-01-01: Article qui décrit le mode de calcul de la nouvelle ALF pour les
-      locataires. On y trouve aussi les paramètres relatifs à Po (la participation
-      minimale)
-documentation: "Note : Les loyers de référence sont les même que les plafonds pour\
-  \ la zone 2\n"
+    2014-10-01: Taux TL et TF disponibles pages 14 et 15 du document "Elément de calcul des aides personnelles au logement"
+    2012-01-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2011-01-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2010-01-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2009-01-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2008-01-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2007-01-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2004-06-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2002-07-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2002-01-01: Changement de la participation minimale forfaitaire (composante de Po)
+    2001-01-01: Article qui décrit le mode de calcul de la nouvelle ALF pour les locataires. On y trouve aussi les paramètres relatifs à Po (la participation minimale)
+documentation: |
+  Note : Les loyers de référence sont les même que les plafonds pour la zone 2

@@ -351,38 +351,22 @@ metadata:
   reference:
     2014-01-01: Loi 2014-1654 du 29/12/2014 (LF pour 2015), art. 2
     2010-01-01:
-    - |-
-      Décret 2011-645 du
-       09/06/2011 - art. 1
-    - |-
-      BOI 5 B-7-11 
-      n°26 du 28/03/2011
+    - Décret 2011-645 du;  09/06/2011 - art. 1
+    - BOI 5 B-7-11 ; n°26 du 28/03/2011
     2009-01-01:
-    - |-
-      Décret 2010-421 du
-       27/04/2010 - art. 1
-    - |-
-      BOI 5 B-13-10
-       n°22 du 16/02/2010
+    - Décret 2010-421 du;  27/04/2010 - art. 1
+    - BOI 5 B-13-10;  n°22 du 16/02/2010
     2008-01-01:
-    - |-
-      Décret 2009-389 du 
-      07/04/2009 - art. 1
+    - Décret 2009-389 du ; 07/04/2009 - art. 1
     - BOI 5 B-9-09 n°35 du 31/03/2009
     2007-01-01:
-    - |-
-      Décret 2008-294 du 
-      01/04/2008 - art. 1
-    - |-
-      BOI 5 B-11-08 
-      n°28 du 04/03/2008
+    - Décret 2008-294 du ; 01/04/2008 - art. 1
+    - BOI 5 B-11-08 ; n°28 du 04/03/2008
     2001-01-01:
     - Loi 2001-1276 du 28/12/2001 (LFR pour 2001) - art.51
     - BOI 5 B-3-02 n°18 du 25/01/2002
     2011-01-01: BOI 5 F-7-12 du 02/03/2012
-    2006-01-01: |-
-      BOI 5 B-10-07
-       n°47 du 29/03/2007
+    2006-01-01: BOI 5 B-10-07;  n°47 du 29/03/2007
     2005-01-01: BOI 5 B-6-06 n°8 du 18/01/2006
     2004-01-01: BOI 5 B-9-05 n°33 du 18/02/2005
     2003-01-01: BOI 5 B-8-04 n°37 du 25/02/2004
@@ -392,9 +376,7 @@ metadata:
     1998-01-01: BOI 5 B-9-01 n°44 du 02/03/2001
   notes:
     2007-01-01: Voir note (1)
-    2006-01-01: "Exonération apprentis : fraction du salaire des apprentis exonérée\
-      \ d'IR jusqu'en 2005 inclus : art. 5-2° bis du CGI, à compter de 2006, ce montant\
-      \ est égal au montant annuel du SMIC"
+    2006-01-01: "Exonération apprentis : fraction du salaire des apprentis exonérée d'IR jusqu'en 2005 inclus : art. 5-2° bis du CGI, à compter de 2006, ce montant est égal au montant annuel du SMIC"
 documentation: |
   Notes :
   (1) Exonération des apprentis : cf. art. 81 bis du CGI. Le montant annuel de référence pour l’exonération des salaires des apprentis est obtenu en multipliant le montant moyen du SMIC horaire brut sur l’année d’imposition par 1 820 heures (35 h x 52)

@@ -15,10 +15,8 @@ metadata:
   order:
   - valeur_annuelle_acquisition_point_rsi
   notes:
-    2013-01-01: "A partir du 1er janvier 2013, les artisans et commerçants bénéficient\
-      \ d'un régime complémentaire unique commun : le Régime Complémentaire des Indépendants\
-      \ (RCI)."
+    2013-01-01: "A partir du 1er janvier 2013, les artisans et commerçants bénéficient d'un régime complémentaire unique commun : le Régime Complémentaire des Indépendants (RCI)."
 documentation: |
-  Sources : 
+  Sources :
   rsi.fr
   http://www.rsi.fr/baremes/prestations-vieillesse-et-invalidite-deces.html#c5206

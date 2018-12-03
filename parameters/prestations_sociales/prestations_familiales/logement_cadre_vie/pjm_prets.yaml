@@ -1,5 +1,4 @@
-description: "Prêt aux jeunes ménages (PJM) : montant des prêts susceptibles d'être\
-  \ accordés"
+description: "Prêt aux jeunes ménages (PJM) : montant des prêts susceptibles d'être accordés"
 pret_maximum:
   description: Prêt maximum
   premiers_frais_location:
@@ -93,25 +92,21 @@ metadata:
   - cumul_prets
   reference:
     1985-05-16: Décret 85-526 du 13/05/1985
-    1982-03-01: Décret 76-117 du 03/02/1976 modifie  décrets 27-12-77, 6-4-79, 23-5-80,
-      22-4-81, 8-4-82
+    1982-03-01: Décret 76-117 du 03/02/1976 modifie  décrets 27-12-77, 6-4-79, 23-5-80, 22-4-81, 8-4-82
     1979-07-01: Décret 79-526 du 03/07/1979
     1978-07-01: Décret 77-1452 du 27/12/1977
     1978-01-01: Décret 76-117 du 03/02/1976
-    1975-01-05: Loi 75-6 du 03/01/1975 (crée art. L.543 CSS )                                                            Décret
-      76-117 du 03/02/1976
+    1975-01-05: Loi 75-6 du 03/01/1975 (crée art. L.543 CSS )                                                            Décret 76-117 du 03/02/1976
   date_parution_jo:
     1985-05-16: 1985-05-16
     1982-03-01: 29/12/1977 08/04/1979 29/05/1980 24/04/1981 09/04/1982
     1979-07-01: 1979-07-04
     1978-07-01: 1977-12-29
     1978-01-01: 05/02/1976
-    1975-01-05: |-
-      04/01/1975                                   
-      05/02/1976
+    1975-01-05: 04/01/1975                                   ; 05/02/1976
   notes:
     1985-05-16: Décret 85-526 abroge le décret 76-117.
     1978-01-01: 'Décret 76-117: PJM a 2% du budget total pour les prestations familiales'
 documentation: |
-  Notes : 
+  Notes :
   La loi 75-6 du 03/01/1975 crée le Prêt aux Jeunes ménages (codifié par l'art. L543 du CSS), il est ensuite mis en application par le décrêt 76-117 du 03/02/1976 qui est applicble à compter du 1er avril 1975

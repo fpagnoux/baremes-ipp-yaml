@@ -11,9 +11,7 @@ valeur_point_rci_date:
   metadata:
     unit: currency-EUR
 regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013:
-  description: |-
-    Régime complémentaire des artisans 
-    (points acquis avant création du RCI en 2013)
+  description: Régime complémentaire des artisans  (points acquis avant création du RCI en 2013)
   valeur_points_acquis_avant_1979:
     description: Valeur des points acquis avant 1979
     values:
@@ -47,9 +45,7 @@ regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013:
     - valeur_points_acquis_entre_1979_1996
     - valeur_points_acquis_entre_1997_2012
 regime_complementaire_commercants_points_acquis_avant_creation_rci_en_2013:
-  description: |-
-    Régime complémentaire des commerçants 
-    (points acquis avant création du RCI en 2013)
+  description: Régime complémentaire des commerçants  (points acquis avant création du RCI en 2013)
   valeur_points_acquis_entre_1973_2003:
     description: Valeur des points acquis entre 1973 et 2003
     values:
@@ -80,10 +76,8 @@ metadata:
   - regime_complementaire_artisans_points_acquis_avant_creation_rci_en_2013
   - regime_complementaire_commercants_points_acquis_avant_creation_rci_en_2013
   notes:
-    2013-04-01: "A partir du 1er janvier 2013, les artisans et commerçants bénéficient\
-      \ d'un régime complémentaire unique commun : le Régime Complémentaire des Indépendants\
-      \ (RCI)."
+    2013-04-01: "A partir du 1er janvier 2013, les artisans et commerçants bénéficient d'un régime complémentaire unique commun : le Régime Complémentaire des Indépendants (RCI)."
 documentation: |
-  Sources : 
+  Sources :
   rsi.fr
   http://www.rsi.fr/baremes/prestations-vieillesse-et-invalidite-deces.html

@@ -267,8 +267,7 @@ deduction_pensions_alimentaires:
         2001-01-01: currency-EUR
         1974-01-01: currency-FRF
   coefficient_majoration_pensions_suite_une_decision_justice_definitive_avant_01_01_2006:
-    description: Coefficient de majoration pour les pensions suite à une décision
-      de justice définitive avant le 01/01/2006
+    description: Coefficient de majoration pour les pensions suite à une décision de justice définitive avant le 01/01/2006
     values:
       2006-01-01:
         value: 0.25
@@ -641,14 +640,9 @@ metadata:
     1975-01-01: LF pour 1976
     1974-01-01: LF pour 1975
   notes:
-    2006-01-01: SOFICA et SOFIPECHE deviennent des crédits d'impôt à partir de la
-      déclaration des revenus de 2006 (aller aux onglets SOFICA et SOFIPECHE)
-    2003-01-01: À partir de l'imposition des revenus de 2004, différence entre pertes
-      en capital souscription du 01/01/1994 = plaf_capita_soc1 et pertes en capital
-      souscriptions à compter du 01/01/2003 = plaf_capital_soc2, le total des pertes
-      reportés dans les deux cas ne peut excéder plaf_capital_soc2
-    1999-01-01: Investissement DOM-TOM devient investissement DOM-TOM dans le cadre
-      d'une entreprise (à partir de revenus de 1999)
+    2006-01-01: SOFICA et SOFIPECHE deviennent des crédits d'impôt à partir de la déclaration des revenus de 2006 (aller aux onglets SOFICA et SOFIPECHE)
+    2003-01-01: À partir de l'imposition des revenus de 2004, différence entre pertes en capital souscription du 01/01/1994 = plaf_capita_soc1 et pertes en capital souscriptions à compter du 01/01/2003 = plaf_capital_soc2, le total des pertes reportés dans les deux cas ne peut excéder plaf_capital_soc2
+    1999-01-01: Investissement DOM-TOM devient investissement DOM-TOM dans le cadre d'une entreprise (à partir de revenus de 1999)
 documentation: |
   Notes :
   (1) Plafond frais personnes de plus de 75 ans : art. 156-II-2° ter du CGI
@@ -656,7 +650,7 @@ documentation: |
   (3) Déductions pour plan épargne populaire (PERP) : art. 163 quatervicies du CGI
   (4) Acquisition navire : plafond à doubler pour les couples mariés ou pacsés  (acquisitions de parts de copropriété de navires neufs)
   (5) Souscriptions de parts de copropriété de navires de commerce soumise à agrément : plaf_navirecom (à doubler pour couples mariés ou pacsés)
-  (6) Pertes en capital consécutives à la souscription au capital de sociétés nouvelles ou de sociétés en difficulté : 
+  (6) Pertes en capital consécutives à la souscription au capital de sociétés nouvelles ou de sociétés en difficulté :
   plafonnement à doubler  pour les couples mariés ou pacsés
   (7) Détaxation du revenu investi en actions : détaxation limitée à plaf_action + increment_action par enfant jusqu'au deuxième + 2*increment_action par enfant à charge à partir du 3ème enfant
   (8) Versements sur un compte épargne codéveloppement : montant versé dans la limite de 25% du revenu et de 20 000 euros par personne du foyer fiscal

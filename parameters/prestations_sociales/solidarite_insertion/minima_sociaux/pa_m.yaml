@@ -71,16 +71,14 @@ bonification:
       ipp_csv_id: pa_bonification
       unit: /1
   seuil_salaire_minimum_beneficier_bonification_en_multiple_smic_horaire_brut:
-    description: Seuil de salaire minimum pour bénéficier de la bonification (en multiple
-      du smic horaire brut)
+    description: Seuil de salaire minimum pour bénéficier de la bonification (en multiple du smic horaire brut)
     values:
       2016-01-01:
         value: 59.0
     metadata:
       ipp_csv_id: pa_seuil_min
   seuil_salaire_beneficier_bonification_maximale_en_multiple_smic_horaire_brut:
-    description: Seuil de salaire pour bénéficier de la bonification maximale (en
-      multiple du smic horaire brut)
+    description: Seuil de salaire pour bénéficier de la bonification maximale (en multiple du smic horaire brut)
     values:
       2016-01-01:
         value: 95.0

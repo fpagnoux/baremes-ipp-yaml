@@ -29,11 +29,9 @@ metadata:
   order:
   - salaire_reference_rsi_commercants
   notes:
-    2013-01-01: A partir de 2013, les valeurs du points sont alignées avec le régime
-      complémentaire des commerçants, au sein d'un régime complémentaire des indépendants
-      (RCI)
+    2013-01-01: A partir de 2013, les valeurs du points sont alignées avec le régime complémentaire des commerçants, au sein d'un régime complémentaire des indépendants (RCI)
 documentation: |
-  Sources : 
+  Sources :
   Capital.fr
   http://www.capital.fr/retraite/regimes-de-retraite/commercant/regimes-complementaires/a-compter-de-2013-la-valeur-du-point-pourra-etre-differente-selon-la-date-d-acquisition
   rsi.fr

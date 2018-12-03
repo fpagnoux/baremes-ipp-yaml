@@ -112,8 +112,7 @@ metadata:
   - tous_independants
   reference:
     2017-01-01: Décret 2015-1856 du 30/12/2015, art. 7
-    2016-01-01: Décret 2014-1531 du 17/12/2014, art. 4 ; Décret 2015-1856 du 30/12/2015,
-      art. 10-II
+    2016-01-01: Décret 2014-1531 du 17/12/2014, art. 4 ; Décret 2015-1856 du 30/12/2015, art. 10-II
     2015-01-01: Décret 2012-847 du 02/07/2012, art. 5
     2014-01-01: Décret 2012-847 du 02/07/2012, art. 5; Décret 2013-1290 du 27/12/2013
     2012-11-01: Décret 2012-847 du 02/07/2012, art. 5
@@ -131,9 +130,7 @@ metadata:
     1973-01-01: Loi 72-554 du 03/07/1972
   date_parution_jo:
     2017-01-01: 2015-12-31
-    2016-01-01: |-
-      19/12/2014
-      31/12/2015
+    2016-01-01: 19/12/2014; 31/12/2015
     2015-01-01: 2012-07-03
     2014-01-01: 03/07/2012; 31/12/2013
     2012-11-01: 2012-07-03
@@ -150,10 +147,8 @@ metadata:
     1974-01-01: 1973-12-30
     1973-01-01: 1972-07-04
   notes:
-    2016-01-01: L'article 10-II du décret 2015-1856 donne une exception à l'article
-      7 pour l'année 2016.
-    2014-01-01: La loi 2013-1203 du 23/12/2013 (LFSS pour 2014, JO du 24/12/2013)
-      a instauré une contribution déplafonnée (art. 10, §2).
+    2016-01-01: L'article 10-II du décret 2015-1856 donne une exception à l'article 7 pour l'année 2016.
+    2014-01-01: La loi 2013-1203 du 23/12/2013 (LFSS pour 2014, JO du 24/12/2013) a instauré une contribution déplafonnée (art. 10, §2).
 documentation: |
   Note :
   Jusqu'en 2013, le taux est égal au total des taux de cotisation vieillesse du régime général (employeur et salarié, plafonnés et déplafonnés).

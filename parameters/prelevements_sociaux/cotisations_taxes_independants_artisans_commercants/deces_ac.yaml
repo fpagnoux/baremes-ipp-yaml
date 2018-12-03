@@ -206,8 +206,7 @@ metadata:
   - commercants_industriels
   reference:
     2015-01-01: Décret 2014-775 du 4/07/2014 - art. 2
-    2013-01-01: Décret 2012-139 du 30/01/2012 - art. 10;  Décret 2012-1520 du 28/12/2012
-      - art. 2
+    2013-01-01: Décret 2012-139 du 30/01/2012 - art. 10;  Décret 2012-1520 du 28/12/2012 - art. 2
     2012-01-01: Décret 2011-2038 du 29/12/2011 - art. 3
     2007-01-01: Décret 2007-50 du 11/01/2007 - art. 2
     2004-08-24: Décret 2004-848 du 23/08/2004 - art. 1
@@ -237,9 +236,7 @@ metadata:
     1975-01-01: Décret 75-969 du 16/10/1975; Décret 75-19 du 8/01/1975
   date_parution_jo:
     2015-01-01: 2014-07-08
-    2013-01-01: |-
-      31/01/2012
-      30/12/2012
+    2013-01-01: 31/01/2012; 30/12/2012
     2012-01-01: 2011-12-30
     2007-01-01: 2007-01-12
     2004-08-24: 2004-08-24
@@ -248,41 +245,30 @@ metadata:
     1998-01-01: 1997-12-28
     1997-01-01: 1997-12-28
     1996-01-01: 1996-05-26
-    1995-01-01: |-
-      19/10/1994
-      07/04/1995
+    1995-01-01: 19/10/1994; 07/04/1995
     1994-01-01: 1994-09-04
     1993-01-01: 1993-03-25
     1992-01-01: 1992-04-02
     1991-01-01: 1991-03-28
     1990-01-01: 1990-03-20
-    1989-01-01: |-
-      29/01/1989
-      30/03/1989
+    1989-01-01: 29/01/1989; 30/03/1989
     1988-01-01: 1988-01-30
     1987-01-01: 1987-01-31
-    1986-01-01: |-
-      21/02/1986
-      19/07/1986
+    1986-01-01: 21/02/1986; 19/07/1986
     1985-12-21: 1985-12-21
     1985-01-01: 1985-05-30
     1984-01-01: 1984-11-27
     1983-01-01: 1983-03-17
-    1982-01-01: |-
-      18/02/1982
-      19/02/1982
+    1982-01-01: 18/02/1982; 19/02/1982
     1981-01-01: 1981-05-13
     1980-01-01: 1980-06-18
     1979-01-01: 1979-05-27
     1975-01-01: 1975-01-18
   notes:
-    2013-01-01: |-
-      Le premier décret, prenant effet au 01/01/2013, prévoyait un taux de 1,10 % décomposé en 1 % et 0,1 %.
-      Le second décret, prenant effet à la même date, supprime la décomposition.
-    1975-01-01: Institution d'un régime invalidité décès pour les travailleurs non
-      salariés des professions industrielles et commerciales
+    2013-01-01: Le premier décret, prenant effet au 01/01/2013, prévoyait un taux de 1,10 % décomposé en 1 % et 0,1 %.; Le second décret, prenant effet à la même date, supprime la décomposition.
+    1975-01-01: Institution d'un régime invalidité décès pour les travailleurs non salariés des professions industrielles et commerciales
 documentation: |
   Notes :
-  (i) La cotisation forfaitaire due par les commerçants-industriels est la somme des cotisations (forfaitaires) invalidité et capital décès. 
+  (i) La cotisation forfaitaire due par les commerçants-industriels est la somme des cotisations (forfaitaires) invalidité et capital décès.
   (ii) La cotisation invalidité n'est pas due pour les commerçants-industriels de plus de 60 ans. Par ailleurs, les artisans de plus de 65 ans sont totalement exonérés de la cotisation.
   (iii) La cotisation pour les artisans ne peut être calculée sur une assiette inférieure à 20% du PSS.

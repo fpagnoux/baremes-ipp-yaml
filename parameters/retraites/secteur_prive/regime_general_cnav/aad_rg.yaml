@@ -181,12 +181,9 @@ metadata:
     2011-07-01: 2010-11-10
     1983-04-01: 1982-03-28
   notes:
-    2012-01-01: Augmentation mécanique, prévue dans cet article de loi, suite à
-      l'augmentation de l'âge d'ouverture des droits (Loi 2011-1906 du 21/12/2011,
-      art. 88).
-    2011-07-01: "Modification de l'art.  L351-8 du CSS : âge d'obtention du taux\
-      \ plein = AOD + 5 ans"
+    2012-01-01: Augmentation mécanique, prévue dans cet article de loi, suite à l'augmentation de l'âge d'ouverture des droits (Loi 2011-1906 du 21/12/2011, art. 88).
+    2011-07-01: "Modification de l'art.  L351-8 du CSS : âge d'obtention du taux plein = AOD + 5 ans"
 documentation: |
   Lecture :
   La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
-  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 
+  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée).

@@ -1,5 +1,4 @@
-description: Contribution spéciale sur les contributions versées par l'employeur pour
-  les régimes de retraites supplémentaires à prestations définies
+description: Contribution spéciale sur les contributions versées par l'employeur pour les régimes de retraites supplémentaires à prestations définies
 taux_1:
   description: Taux 1
   values:
@@ -64,14 +63,13 @@ metadata:
     2010-01-01: 2009-12-27
     2004-01-01: 2003-08-22
   notes:
-    2015-11-20: La majoration est jugée contraire à la constitution. La décision
-      prend effet à la date de la décision.
+    2015-11-20: La majoration est jugée contraire à la constitution. La décision prend effet à la date de la décision.
 documentation: |
   Références du CSS :
   Art. L 137-11 du CSS
   Principe :
-  Les sommes versées par l'employeur pour le financement des régimes de retraite supplémentaire à prestations définies (régimes de retraite "chapeau") 
-  ne sont pas soumises aux cotisations sociales (au sens large), ni à la CSG-CRDS, ni aux taxes sur les salaires et la main d'œuvre. 
+  Les sommes versées par l'employeur pour le financement des régimes de retraite supplémentaire à prestations définies (régimes de retraite "chapeau")
+  ne sont pas soumises aux cotisations sociales (au sens large), ni à la CSG-CRDS, ni aux taxes sur les salaires et la main d'œuvre.
   Ces versements ne sont pas soumis non plus au forfait social ; mais depuis 2004, ils sont soumis à une contribution spéciale à charge de l'employeur.
   (cf. Mémento pratique PAIE Francis Lefèbvre, §6956)
   Assiette :

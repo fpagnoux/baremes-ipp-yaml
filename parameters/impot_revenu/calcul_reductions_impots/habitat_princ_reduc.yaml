@@ -1,5 +1,4 @@
-description: Dépenses de gros travaux et intérêts d'emprunt et ravalement (1980 -
-  2016)
+description: Dépenses de gros travaux et intérêts d'emprunt et ravalement (1980 - 2016)
 date_entree_en_vigueur:
   description: Date d'entrée en vigueur
   annee_ir:
@@ -219,13 +218,11 @@ metadata:
   - interets_emprunts
   - deduction_charges
   notes:
-    2001-01-01: 'Majoration sur les revenus 2001 : 381 euros pour le 2° enfant et
-      457 à partir du 3°'
+    2001-01-01: 'Majoration sur les revenus 2001 : 381 euros pour le 2° enfant et 457 à partir du 3°'
     1999-01-01: Attention plafond réel = la moitié du plafond + incrément
-    1997-01-01: Dépenses de gros travaux avec même incrément que habitat et majoration
-      comme dans 2 et 3
+    1997-01-01: Dépenses de gros travaux avec même incrément que habitat et majoration comme dans 2 et 3
 documentation: |
-  Notes : 
+  Notes :
   (1) Les plafonds de 1, 2 et 3 ne se cumulent pas.
   (2) Le plafond 3 pour les intérêts d'emprunt est à doubler pour couple (mais pas les plafonds 1 et 2)
   (3) Intérêts d'emprunt et ravalement :

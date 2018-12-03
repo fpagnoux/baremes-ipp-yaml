@@ -20,5 +20,5 @@ metadata:
     2004-01-01: 2003-08-22
 documentation: |
   Note :
-  La date d'effet porte sur les pensions liquidées à partir de cette date. 
+  La date d'effet porte sur les pensions liquidées à partir de cette date.
   La décote est définie d'après la formule suivante: taux minoré = taux plein * (1 + surcote * (nombre de trimestres de surcote))

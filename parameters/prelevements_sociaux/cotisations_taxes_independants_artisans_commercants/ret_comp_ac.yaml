@@ -150,11 +150,9 @@ metadata:
     2010-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
     2009-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V)
     2008-01-01: Décret 2007-1900 du 26/12/2007 - art. 1 (V); Décret 2008-22 du 7/01/2008
-    2005-01-01: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004 - art.
-      1
+    2005-01-01: Decret 2005-272 du 23/03/2005; Décret 2004-848 du 23/08/2004 - art. 1
     2004-07-01: Décret 2004-848 du 23/08/2004 - art. 1
-    2004-01-01: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004
-      - art. 1
+    2004-01-01: Loi 2003-775 du 21/08/2003 - art. 88; Décret 2004-848 du 23/08/2004 - art. 1
     2003-01-01: Décret 2003-1025 du 28/10/2003 - art. 1
     2000-01-01: Décret 97-166 du 24/02/1997 - art. 2
     1999-01-01: Décret 97-166 du 24/02/1997 - art. 2
@@ -181,21 +179,16 @@ metadata:
     1985-01-01: 1984-12-02
     1978-01-01: 1978-03-19
   notes:
-    2016-01-01: 'Référence législative fixant le plafond RCI introuvable (Art. L241-33
-      du CSS : "montant du plafond, calculé selon les règles fixées par ce décret,
-      est arrêté par le ministre chargé de la sécurité sociale")'
+    2016-01-01: 'Référence législative fixant le plafond RCI introuvable (Art. L241-33 du CSS : "montant du plafond, calculé selon les règles fixées par ce décret, est arrêté par le ministre chargé de la sécurité sociale")'
     2014-01-01: Rétabli l'article D. 635-7 du CSS donnant les taux.
-    2013-01-01: Depuis le 1er janvier 2013, le taux de cotisations est unifié pour
-      les différentes catégories d'independants.
-    2004-01-01: Pour les industriels et commerçants, taux de 3,5% sous 3 PSS pour
-      le 1er semestre 2004, et 4,5% sous 3 PSS pour le 2ème semestre 2004
-    1978-01-01: Institution du régime d'assurance vieillesse complémentaire obligatoire
-      pour les artisans
+    2013-01-01: Depuis le 1er janvier 2013, le taux de cotisations est unifié pour les différentes catégories d'independants.
+    2004-01-01: Pour les industriels et commerçants, taux de 3,5% sous 3 PSS pour le 1er semestre 2004, et 4,5% sous 3 PSS pour le 2ème semestre 2004
+    1978-01-01: Institution du régime d'assurance vieillesse complémentaire obligatoire pour les artisans
 documentation: |
-  Notes : 
-  (i) Les cotisations reportées financent les régimes complémentaires d'assurance vieillesse des artisans, industriels et commerçants. 
+  Notes :
+  (i) Les cotisations reportées financent les régimes complémentaires d'assurance vieillesse des artisans, industriels et commerçants.
   Elles sont restées faculatives pour les industriels-commerçants jusqu'en 2004.
   (ii) Depuis le 1er janvier 2013, le RCI (Régime complémentaire des indépendants) couvre l'ensemble des indépendants.
   Le "plafond RCI" était égal au PSS en 2013, puis sera revalorisé au rythme de l'évolution du revenu de référence.
-  Le "plafond RCI" pour 2015 reste identique à celui de 2014 soit 37 513 €. 
+  Le "plafond RCI" pour 2015 reste identique à celui de 2014 soit 37 513 €.
   Le "plafond RCI" pour 2018 reste identique à celui de 2017.

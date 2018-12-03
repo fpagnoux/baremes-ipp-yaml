@@ -398,18 +398,11 @@ metadata:
     1980-01-01: LF pour 1981
     1979-01-01: LF pour 1980
   notes:
-    2013-01-01: "Création du régime d'autoentrepreneur : voir BOI-BIC-DECLA-10-40\
-      \ du 09/12/2012"
-    2000-01-01: |-
-      Séparation du régime d'imposition micro-entreprise :
-      ventes de marchandises et prestations de services
-    1999-01-01: Jusqu'à l'imposition des revenus de 1998, les régimes spéciaux  (appelé
-      micro et micro_service ici) concernent les locations meublés non professionnelles,
-      les BIC non professionnelles (depuis 98 seulement) et les autres activités industrielles
-      et commerciales
+    2013-01-01: "Création du régime d'autoentrepreneur : voir BOI-BIC-DECLA-10-40 du 09/12/2012"
+    2000-01-01: Séparation du régime d'imposition micro-entreprise :; ventes de marchandises et prestations de services
+    1999-01-01: Jusqu'à l'imposition des revenus de 1998, les régimes spéciaux  (appelé micro et micro_service ici) concernent les locations meublés non professionnelles, les BIC non professionnelles (depuis 98 seulement) et les autres activités industrielles et commerciales
     1998-01-01: Création du régime microfoncier
-    1994-01-01: Cf. article 156 du Code Général des Impôt pour le plafonnement du
-      déficit foncier global
+    1994-01-01: Cf. article 156 du Code Général des Impôt pour le plafonnement du déficit foncier global
 documentation: |
   Notes :
   (1) Abattement concernant les entrepreneurs individuels. Pour les autoentrepreneurs, voir art. 151-0 du CGI

@@ -1,7 +1,6 @@
 description: Allocation d'insertion (AI)
 16_25_ans_recherche_premier_emploi_justifiant_une_certaine_activite_professionnelle:
-  description: 16-25 ans à la recherche d'un premier emploi ou justifiant d'une certaine
-    activité professionnelle
+  description: 16-25 ans à la recherche d'un premier emploi ou justifiant d'une certaine activité professionnelle
   values:
     1992-01-01:
       value: null
@@ -224,10 +223,8 @@ metadata:
     1983-01-01: 1982-11-25
     1979-07-01: 1979-05-20
   notes:
-    2006-11-16: Remplacée par allocation temporaire d'attente (ATA). La législation
-      sur l'ATA est disponible dans le fichier "baremes-ipp-prestations-sociales-social-benefits.xlsx"
-    1992-01-01: "Allocation d'insertion abrogée pour femmes et jeunes: valable pour\
-      \ détenus libérés, apatrides, salariés expatriés…etc"
+    2006-11-16: Remplacée par allocation temporaire d'attente (ATA). La législation sur l'ATA est disponible dans le fichier "baremes-ipp-prestations-sociales-social-benefits.xlsx"
+    1992-01-01: "Allocation d'insertion abrogée pour femmes et jeunes: valable pour détenus libérés, apatrides, salariés expatriés…etc"
 documentation: |
   Notes :
   L'Allocation d'insertion (AI) était appelée allocation forfaitaire journalière jusqu'en 1984, pour ceux qui ne peuvent prétendre ni à l'allocation de base, ni à l'allocation spécifique.
@@ -242,8 +239,8 @@ documentation: |
   6) Femmes sans emploi et veuves, divorcées, séparées judiciairement ou celibataire assumant la charge d'au moins un enfant, et qui sont dans cette situation depuis moins de 2 ans, ont accompli un stage visé par la loi n°78-698 du 6 juillet 1978, ou ont un diplôme, achevé un stage ou un cycle décrit dans catégories 1 et 2, et sont à la recherche d'un emploi depuis 6 mois
   7) Femmes ayant accompli stage agréé de plus de 500 heures, à la recherche d'un emploi dans les 12 mois suivant la fin du stage et depuis plus de 6 mois, moins la moitié de la durée du stage
   A partir de 1984:
-  Jeunes à la recherche d'un premier emploi regroupent: 
-  jeunes pouvant se prévaloir de certains diplômes ou formations (16-25 ans ayant diplôme technologique homologué à la recherche d'un emploi moins de 12 mois après obtention diplôme; 16-25 ans ayant accompli stage de formation professionnelle conduisant soit à un 
+  Jeunes à la recherche d'un premier emploi regroupent:
+  jeunes pouvant se prévaloir de certains diplômes ou formations (16-25 ans ayant diplôme technologique homologué à la recherche d'un emploi moins de 12 mois après obtention diplôme; 16-25 ans ayant accompli stage de formation professionnelle conduisant soit à un
   diplôme de l'enseignement technologique homologué, soit à une qualification professionnelle reconnue dans les classifications d'une convention collective de branche, à la recherche d'un emploi dans les 12 mois après la fin du stage; 18-25 ans ayant accompli un cycle complet de l'enseignement secondaire ou supérieur au cours des 12 derniers mois précédant inscription)
   jeunes venant d'accomplir depuis moins de 6 mois leur service national
   jeunes soutiens de famille (si l'aide est jugée indispensable et que les ressources de la famille ne dépassent pas 200*SMIC)

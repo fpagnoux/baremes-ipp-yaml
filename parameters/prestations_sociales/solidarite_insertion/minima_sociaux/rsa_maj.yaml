@@ -1,5 +1,4 @@
-description: 'Revenu de solidarité active (RSA) : majorations (montant de base et
-  revenus) et montant minimum versé'
+description: 'Revenu de solidarité active (RSA) : majorations (montant de base et revenus) et montant minimum versé'
 majoration_montant_maximal_en_base_rsa:
   description: Majoration montant maximal (en % de la base RSA)
   couples_celibataire_avec_enfant:

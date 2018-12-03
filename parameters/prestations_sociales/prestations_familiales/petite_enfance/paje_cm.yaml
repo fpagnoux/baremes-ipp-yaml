@@ -1,5 +1,4 @@
-description: "Prestation d'accueil du jeune enfant (PAJE) - Allocation de base : conditions\
-  \ et montants"
+description: "Prestation d'accueil du jeune enfant (PAJE) - Allocation de base : conditions et montants"
 age_limite_enfant_adopte_non:
   description: Age limite de l'enfant (adopté ou non)
   values:
@@ -8,17 +7,14 @@ age_limite_enfant_adopte_non:
   metadata:
     ipp_csv_id: clca_age_min
 duree_versement_enfants_adoptes_en_annee:
-  description: |-
-    Durée de versement pour les enfants adoptés 
-    (en année)
+  description: Durée de versement pour les enfants adoptés  (en année)
   values:
     2004-01-01:
       value: 3.0
   metadata:
     ipp_csv_id: duree_adopt
 periode_reference_justifier_8_trimestres_cotisation_vieillesse_1:
-  description: Période de référence pour justifier les 8 trimestres de cotisation
-    vieillesse (1)
+  description: Période de référence pour justifier les 8 trimestres de cotisation vieillesse (1)
   enfant:
     description: Un enfant
     values:
@@ -73,20 +69,13 @@ metadata:
   - majoration_plafond_par_enfant_charge
   reference:
     2014-04-01: Décret 2014-422 du 24 avril 2014
-    2004-01-01: |-
-      Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
-      Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée art. D531-3 du CSS)
+    2004-01-01: Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS); Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée art. D531-3 du CSS)
   date_parution_jo:
     2014-04-01: 2014-04-26
-    2004-01-01: |-
-      19/12/2003
-      01/01/2004
+    2004-01-01: 19/12/2003; 01/01/2004
   notes:
-    2004-01-01: |-
-      art. D531-1 : fixe l'âge limite
-      art. D531-3 : fixe le montant de l'aide (en % de la BMAF)
-      La PAJE remplace entre en vigueur de manière progressive jusqu'à fin 2006 (cf. art. 60, VIII de la loi).
+    2004-01-01: "art. D531-1 : fixe l'âge limite; art. D531-3 : fixe le montant de l'aide (en % de la BMAF); La PAJE remplace entre en vigueur de manière progressive jusqu'à fin 2006 (cf. art. 60, VIII de la loi)."
 documentation: |
-  Notes : 
+  Notes :
   Depuis le 01/06/2012 (cf. Décret 2012-666 du 4 mai 2012 - art. 2), la prise en charge partielle de la rémunération par l'organisme débiteur des prestations familiales est fixée au maximum à 85 % du salaire net servi et des indemnités mentionnées à l'article L. 423-4 du code de l'action sociale et des familles.
   (1) Pour bénéficier de la CLCA ou ensuite de la PrePare, on doit justifier d'au moins 8 trimestres de cotisation sur une période de référence précédant la naissance, l'adoption ou l'accueil de l'enfant concerné.

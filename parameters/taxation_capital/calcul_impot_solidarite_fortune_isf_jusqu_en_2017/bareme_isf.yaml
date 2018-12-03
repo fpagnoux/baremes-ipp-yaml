@@ -437,21 +437,14 @@ metadata:
   - seuils_tranches_bareme_isf
   - taux_marginaux_tranches_bareme_isf
   reference:
-    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
-      885 U du CGI)
+    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art. 885 U du CGI)
     2013-01-01: Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
-    2012-01-01: Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011) ; Loi  2012-958
-      du 16/08/2012, art. 4 (LFR pour 2012)
-    2011-01-01: Loi 2010-1657 du 29/12/2010, art. 2 (LF pour 2011) ; Décret 2011-645
-      du 09/06/2011, art. 1
-    2010-01-01: Loi 2009-1673 du 30/12/2009, art. 18 (LF pour 2010) ; Décret 2010-421
-      du 27/04/2010, art. 1
-    2009-01-01: Loi 2008-1425 du 27/12/2008, art. 2 (LF pour 2009) ; Décret 2009-389
-      du 07/04/2009, art. 1
-    2008-01-01: Loi 2007-1822 du 24/12/2007, art. 2 (LF pour 2008) ; Décret 2008-294
-      du 01/04/2008, art. 1
-    2007-01-01: Loi 2006-1666 du 21/12/2006, art. 2 (LF pour 2007) ; Décret 2007-484
-      du 30/03/2007, art. 1
+    2012-01-01: Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011) ; Loi  2012-958 du 16/08/2012, art. 4 (LFR pour 2012)
+    2011-01-01: Loi 2010-1657 du 29/12/2010, art. 2 (LF pour 2011) ; Décret 2011-645 du 09/06/2011, art. 1
+    2010-01-01: Loi 2009-1673 du 30/12/2009, art. 18 (LF pour 2010) ; Décret 2010-421 du 27/04/2010, art. 1
+    2009-01-01: Loi 2008-1425 du 27/12/2008, art. 2 (LF pour 2009) ; Décret 2009-389 du 07/04/2009, art. 1
+    2008-01-01: Loi 2007-1822 du 24/12/2007, art. 2 (LF pour 2008) ; Décret 2008-294 du 01/04/2008, art. 1
+    2007-01-01: Loi 2006-1666 du 21/12/2006, art. 2 (LF pour 2007) ; Décret 2007-484 du 30/03/2007, art. 1
     2006-01-01: Loi 2005-1719 du 30 /12/2005, art. 2 (LF pour 2006)
     2005-01-01: Loi 2004-1484 du 30/12/2004, art. 17 (LF pour 2005)
     2002-01-01: Ordonnance  2000-916 du 19/09/2000,  art. 6
@@ -498,24 +491,11 @@ metadata:
     1983-01-01: 1982-12-30
     1982-01-01: 1981-12-31
   notes:
-    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
-    2012-01-01: "La réforme instaurée par la loi de finances rectifictative pour\
-      \ 2012  ne sera jamais appliquée à cause de l'alternance gouvernmentale : le\
-      \ barème pour l'ISF 2012 correspond de fait à un retour au barème de 2011 (\
-      \ via la contribution exceptionnelle prévue par la loi  de finances rectificative\
-      \ du 16/08/12) avec suppression temporaire du plafonnement. De plus, la contribution\
-      \ exceptionnelle  ne bénéficie d’aucune des réductions fiscales en vigueur pour\
-      \ l’ISF."
-    2010-01-01: Les taux de l’ISF n’ont pas connu de grands bouleversements depuis
-      la recréation de cet impôt en 1989. Une majoration exceptionnelle de 10 % du
-      produit de l’impôt était en vigueur de 1995 à 1998, avant d’être intégrée au
-      barème en 1998. Une réduction de 150 euros par enfant à charge est appliquée.
-      Entre 1997 et 2002, le barème n’a pas été indexé sur l’inflation.
-    2006-01-01: Début de l'actualisation annuelle du barème de l'ISF en fonction
-      de l’actualisation retenue pour l’IR. Voir note (3).
-    2002-01-01: Ordonnance portant adaptation de la valeur en euros de certains
-      montants exprimés en francs dans les textes législatifs
+    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable est réduite aux seuls biens immobiliers.
+    2012-01-01: "La réforme instaurée par la loi de finances rectifictative pour 2012  ne sera jamais appliquée à cause de l'alternance gouvernmentale : le barème pour l'ISF 2012 correspond de fait à un retour au barème de 2011 ( via la contribution exceptionnelle prévue par la loi  de finances rectificative du 16/08/12) avec suppression temporaire du plafonnement. De plus, la contribution exceptionnelle  ne bénéficie d’aucune des réductions fiscales en vigueur pour l’ISF."
+    2010-01-01: Les taux de l’ISF n’ont pas connu de grands bouleversements depuis la recréation de cet impôt en 1989. Une majoration exceptionnelle de 10 % du produit de l’impôt était en vigueur de 1995 à 1998, avant d’être intégrée au barème en 1998. Une réduction de 150 euros par enfant à charge est appliquée. Entre 1997 et 2002, le barème n’a pas été indexé sur l’inflation.
+    2006-01-01: Début de l'actualisation annuelle du barème de l'ISF en fonction de l’actualisation retenue pour l’IR. Voir note (3).
+    2002-01-01: Ordonnance portant adaptation de la valeur en euros de certains montants exprimés en francs dans les textes législatifs
     1989-01-01: Voir note (2)
     1987-01-01: Voir note (1)
     1982-01-01: Voir note (1)

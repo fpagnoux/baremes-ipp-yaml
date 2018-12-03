@@ -375,8 +375,7 @@ metadata:
     1990-01-01: Référence non trouvée
     1989-01-01: CCN des Cadres du 14/03/1947, art. 6 (§2, F.)
   notes:
-    2004-01-01: Les valeurs des paramètres pour les années 2005 et antérieures sont
-      tirées de barèmes communiqués par l'AGIRC-ARRCO.
+    2004-01-01: Les valeurs des paramètres pour les années 2005 et antérieures sont tirées de barèmes communiqués par l'AGIRC-ARRCO.
     2000-01-01: BSP n° 48 du 31/01/2000
     1999-01-01: BSP n° 44 du 31/01/1999
     1998-01-01: BSP n° 40 du 31/01/1998 et BSP n°44 du 31/01/1999
@@ -394,7 +393,7 @@ documentation: |
   La Garantie Minimale de Points (GMP) vise à garantir à chaque participant du régime AGIRC (cadre) un minimum de points de retraite pour une année donnée. Un montant minimum de cotisations doit être versé en contrepartie de cette garantie.
   Cette garantie est prévue par la convention collective nationale du 14/03/1947 (art. 6 et art. 36 de l'annexe I.).
   L'arrêté d'agrément et d'extension du 24/02/1989 relatif à l'accord du 08/12/1988 rend la GMP obligatoire pour toutes les entreprises adhérentes au régime de retraite complémentaire des cadres.
-  Mode de calcul de la cotisation GMP : 
+  Mode de calcul de la cotisation GMP :
   La GMP est une cotisation versée à titre éventuelle, dans le cas où la cotisation AGIRC sur la tranche B est inférieure à la cotisation forfaitaire fixée chaque année par l'AGIRC.
   La cotisation GMP est calculée comme la différence entre la cotisation forfaitaire et la cotisation AGIRC versée sur la tranche B.
   La cotisation forfaitaire est fixée de telle manière que lorsque le salaire est supérieur au salaire charnière, la cotisation sur tranche B permet d'atteindre les 120 points sans surcotisation.

@@ -1,7 +1,6 @@
 description: Régime des auto-entrepreneurs
 achat_vente_vente_consommer_place_prestations_hebergement_sauf_location_hebergement_meuble:
-  description: Achat-vente, vente à consommer sur place, prestations d'hebergement
-    (sauf location hebergement meublé)
+  description: Achat-vente, vente à consommer sur place, prestations d'hebergement (sauf location hebergement meublé)
   chiffre_affaires:
     description: Chiffre d'affaires
     values:
@@ -146,8 +145,7 @@ metadata:
     2011-01-01: 2010-12-30
     2009-01-01: 2008-12-19
   notes:
-    2017-04-01: Depuis le 1er janvier 2017, la CFP est unifiée pour tous les artisans
-      (en et hors Alsace)
+    2017-04-01: Depuis le 1er janvier 2017, la CFP est unifiée pour tous les artisans (en et hors Alsace)
 documentation: |
   Notes :
   (i) L’auto-entrepreneur bénéficie d’un régime simplifié de calcul et de paiement des cotisations et contributions sociales obligatoires.

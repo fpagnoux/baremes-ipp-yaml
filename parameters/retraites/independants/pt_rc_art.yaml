@@ -150,13 +150,10 @@ metadata:
   - valeur_points_acquis_entre_1979_1996
   - valeur_points_acquis_entre_1997_2012
   notes:
-    2013-01-01: A partir de 2013, les valeurs des points sont alignées avec le régime
-      complémentaire des commerçants, au sein d'un régime complémentaire des indépendants
-      (RCI)
-    2009-04-01: A partir de 2009, la valeur du point est différenciée selon l'année
-      d'acquisition du points.
+    2013-01-01: A partir de 2013, les valeurs des points sont alignées avec le régime complémentaire des commerçants, au sein d'un régime complémentaire des indépendants (RCI)
+    2009-04-01: A partir de 2009, la valeur du point est différenciée selon l'année d'acquisition du points.
 documentation: |
-  Sources : 
+  Sources :
   Capital.fr
   http://www.capital.fr/retraite/regimes-de-retraite/artisan/regimes-complementaires/depuis-2009-les-revalorisations-des-points-sont-differentes-selon-leur-date-d-acquisition
   rsi.fr

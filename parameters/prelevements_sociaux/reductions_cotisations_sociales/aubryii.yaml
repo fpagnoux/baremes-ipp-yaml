@@ -128,10 +128,8 @@ metadata:
     2000-07-01: 2001-02-07
     2000-02-01: 2000-01-29
   notes:
-    2003-07-01: La Loi 2003-47 remplace l'allégement Aubry II par un nouveau dispositif
-      de réduction des cotisations patronales.
-    2000-02-01: Incertitude sur la date d'entrée en vigueur de l'allégement (1er
-      janvier 2000 ?)
+    2003-07-01: La Loi 2003-47 remplace l'allégement Aubry II par un nouveau dispositif de réduction des cotisations patronales.
+    2000-02-01: Incertitude sur la date d'entrée en vigueur de l'allégement (1er janvier 2000 ?)
 documentation: |
   Paramètres et formule :
   Allégement = (Paramètre 1 * Paramètre 2 / Rémunération brute du salarié - Paramètre 3)/12

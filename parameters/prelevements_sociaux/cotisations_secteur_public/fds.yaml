@@ -499,9 +499,7 @@ metadata:
     1990-01-01: 1990-04-11
     1989-09-01: 1989-08-31
   notes:
-    2018-01-01: Suppression de la contribution exceptionnelle de solidarité en compensation
-      de la hausse de CSG. La suppression du Fonds de solidarité était prévue par
-      l'art. 143 de la loi 2016-1918 du 29/12/2016 (LFR pour 2016)
+    2018-01-01: Suppression de la contribution exceptionnelle de solidarité en compensation de la hausse de CSG. La suppression du Fonds de solidarité était prévue par l'art. 143 de la loi 2016-1918 du 29/12/2016 (LFR pour 2016)
     2002-01-01: Conversion en Euros
     1998-01-01: Référence à l'Indice Brut 296 loi 97-1239, art. 30
     1992-02-01: La date d'effet est bien le 1er février 1992
@@ -509,8 +507,7 @@ metadata:
     1991-08-01: La date d'effet est bien le 1er août 1991
     1990-04-01: La date d'effet est le 1er avril 1990
     1990-01-01: La date d'effet est bien le 1er janvier 1990
-    1988-09-23: Les valeurs du seuil pour les années 1988 et antérieures sont issues
-      de documents fournis par le FDS.
+    1988-09-23: Les valeurs du seuil pour les années 1988 et antérieures sont issues de documents fournis par le FDS.
 documentation: |
   Le Fonds de solidarité pour l'emploi et la contribution le finançant ont été instaurés par la Loi 82-939 du 04/11/1982, art. 4 (publiée au JO le 05/11/1982).
   Assiette :
@@ -526,4 +523,4 @@ documentation: |
   Pour les années 1982-2006, document envoyé par le Fonds de solidarité.
   Pour les années plus récentes, la formule liant la valeur annuelle du point, l'indice majoré, le TB annuel et le seuil d'assujétissement a été utilisée pour obtenir la valeur du seuil.
   Pour 2013, le document de synthèse du CG54 a été utilisé:
-   http://www.cdg54.fr/docs/circulaires/2013/Taux%20cotisations%20au%2001%2001%202013.pdf 
+   http://www.cdg54.fr/docs/circulaires/2013/Taux%20cotisations%20au%2001%2001%202013.pdf

@@ -1,8 +1,6 @@
 description: 'Allocation parent isolé (API) : conditions générales'
 duree_droit_en_mois:
-  description: |-
-    Durée du droit
-    (en mois)
+  description: Durée du droit (en mois)
   values:
     2009-06-01:
       value: null
@@ -11,9 +9,7 @@ duree_droit_en_mois:
   metadata:
     ipp_csv_id: duree_droit_api
 limite_duree_en_mois_1:
-  description: |-
-    Limite de durée
-    (en mois) (1)
+  description: Limite de durée (en mois) (1)
   values:
     2009-06-01:
       value: null
@@ -22,9 +18,7 @@ limite_duree_en_mois_1:
   metadata:
     ipp_csv_id: limite_duree_api
 age_limite_enfant_en_annee_2:
-  description: |-
-    Âge limite de l'enfant 
-    (en année) (2)
+  description: Âge limite de l'enfant  (en année) (2)
   values:
     2009-06-01:
       value: null

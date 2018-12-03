@@ -1,5 +1,4 @@
-description: Cotisations SS accidents du travail-maladies professionnelles (AT-MP),
-  taux bureaux
+description: Cotisations SS accidents du travail-maladies professionnelles (AT-MP), taux bureaux
 employeur_sous_pss:
   description: Employeur sous PSS
   values:
@@ -79,7 +78,7 @@ documentation: |
   L'art. L242-5 du CSS prévoit que les règles de calcul des taux soient fixées par arrêté ministériel (jusqu'en 1994)
   puis par décret (depuis la Loi 94-637 du 25/07/1994, art. 10 (JO du 27/07/1994)).
   Depuis le 01/01/2012, une nouvelle tarification des taux AT-MP a été instaurée.
-  La tarification dépend notamment de la taille de l'entreprise: 
+  La tarification dépend notamment de la taille de l'entreprise:
   Moins de 20 salariés: tarification collective
   Entre 20 et 149 salariés: tarification mixte
   Plus de 149 salariés: tarification individuelle réelle

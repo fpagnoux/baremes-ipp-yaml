@@ -12,8 +12,7 @@ contribution_assures_en_pourcentage_primes:
     ipp_csv_id: fgao_contrib_assures
     unit: /1
 cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_normal:
-  description: Cotisation des responsables d'accidents non-assurés (en pourcentage
-    des indemnités restant à leur charge), taux normal
+  description: Cotisation des responsables d'accidents non-assurés (en pourcentage des indemnités restant à leur charge), taux normal
   values:
     2004-08-05:
       value: 0.1
@@ -21,8 +20,7 @@ cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_
     ipp_csv_id: fgao_respo_accidents_non_assures_tx_normal
     unit: /1
 cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_leur_charge_taux_reduit:
-  description: Cotisation des responsables d'accidents non-assurés (en pourcentage
-    des indemnités restant à leur charge), taux réduit
+  description: Cotisation des responsables d'accidents non-assurés (en pourcentage des indemnités restant à leur charge), taux réduit
   values:
     2004-08-05:
       value: 0.05
@@ -30,8 +28,7 @@ cotisation_responsables_accidents_non_assures_en_pourcentage_indemnites_restant_
     ipp_csv_id: fgao_respo_accidents_non_assures_tx_reduit
     unit: /1
 contributions_entreprises_assurances_titre_1deg_article_r_421_27_1:
-  description: Contributions des entreprises d'assurances au titre du 1° de l'article
-    R-421-27 (1)
+  description: Contributions des entreprises d'assurances au titre du 1° de l'article R-421-27 (1)
   values:
     2004-08-05:
       value: 0.01

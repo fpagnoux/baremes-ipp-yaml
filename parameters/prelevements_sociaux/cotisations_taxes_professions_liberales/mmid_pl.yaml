@@ -1,5 +1,4 @@
-description: Cotisation SS branche maladie, maternité, invalidité, décès, Professions
-  libérales
+description: Cotisation SS branche maladie, maternité, invalidité, décès, Professions libérales
 assures_actifs:
   description: Assurés actifs
   toute_remuneration:
@@ -276,8 +275,7 @@ metadata:
     1970-04-01: 1971-04-14
   notes:
     2018-01-01: Progressivité du taux de cotisation (voir Note, (3)).
-    1998-01-01: Cotisations sur pension seulement pour les bénéficiaires fiscalement
-      domiciliés à l'étranger
+    1998-01-01: Cotisations sur pension seulement pour les bénéficiaires fiscalement domiciliés à l'étranger
 documentation: |
   Loi 66-509 du 12/07/1966
   1966-07-13
@@ -288,4 +286,4 @@ documentation: |
           taux = [(6,5% - 1,5%)/ (1,1 PSS)] × revenu + 1,5%
   Cotisation minimale :
   Pour les affiliés percevant un revenu professionnel inférieur à 40% du PSS par an, une cotisation minimale annuelle est due.
-  Cotisation minimale = 0,45*PSS annuel*taux de cotisation 
+  Cotisation minimale = 0,45*PSS annuel*taux de cotisation

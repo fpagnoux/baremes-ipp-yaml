@@ -1,7 +1,6 @@
 description: Age d'ouverture des droits (dit "âge légal")
 age_ouverture_droits_age_legal_en_fonction_date_naissance:
-  description: Age d'ouverture des droits (ou "âge légal") en fonction de la date
-    de naissance
+  description: Age d'ouverture des droits (ou "âge légal") en fonction de la date de naissance
   ne_avant_01_07_1951:
     description: Né avant le 01/07/1951
     annee:
@@ -183,13 +182,11 @@ metadata:
     2011-07-01: 2010-12-31
     1946-01-01: 1945-10-20
   notes:
-    2012-01-01: Voir également l'art. D161-2-1-9 du CSS et la circulaire CNAV 2012/6
-      du 25/01/2012.
-    2011-07-01: Voir également l'art. L161-17-2 du CSS et la circulaire CNAV 2011/24
-      du 17/03/2011.
+    2012-01-01: Voir également l'art. D161-2-1-9 du CSS et la circulaire CNAV 2012/6 du 25/01/2012.
+    2011-07-01: Voir également l'art. L161-17-2 du CSS et la circulaire CNAV 2011/24 du 17/03/2011.
 documentation: |
-  Lecture : 
-  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 
+  Lecture :
+  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée).
   La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
   Références législatives :
   C'est la loi 2010-1330 du 09/11/2010 (JO 10/11/2010) qui inscrit le principe de l'augmentation de l'âge d'ouverture des droits à 62 ans.

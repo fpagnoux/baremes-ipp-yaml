@@ -23,8 +23,7 @@ annees_activite_precedant_demande:
   metadata:
     ipp_csv_id: min_annee_act
 intervalle_considere_calcul_nombre_annees_activite_precedant_demande_ape_mois:
-  description: Intervalle considéré pour le calcul du nombre d'années d'activité précédant
-    la demande d'APE (mois)
+  description: Intervalle considéré pour le calcul du nombre d'années d'activité précédant la demande d'APE (mois)
   2e_enfant:
     description: Pour le 2e enfant
     values:
@@ -81,8 +80,7 @@ montant_mensuel_en_base_calcul:
       ipp_csv_id: ape_taux_50
       unit: /1
   une_activite_formation_comprise_entre_50_80_duree_legale:
-    description: Pour une activité ou formation comprise entre 50% et 80% de la durée
-      légale
+    description: Pour une activité ou formation comprise entre 50% et 80% de la durée légale
     values:
       1987-04-01:
         value: 0.7129
@@ -107,13 +105,9 @@ metadata:
   reference:
     2004-01-01: Loi 2003-1199 du 18/12/2003, art. 60 (modif art. L511-1 du CSS)
     1996-07-01: Loi 96-604 du 05/07/1996, art. 47 (modif art. L532-1 du CSS)
-    1994-07-01: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS)
-      Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret
-      94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
+    1994-07-01: Loi 94-629 du 25/07/1994, art.2 (modif art. L532-1, 2 ,4 du CSS) Décret 94-755 du 01/09/1994 (modif art. R 532-1,2,3,4,5 du CSS)                Décret 94-756 du 01/09/1994, art. L532-3, 5, 6 du CSS
     1987-04-01: Loi 86-1307 du 29/12/1986, art. 3 (modif L 532-2, 3, 4)
-    1986-07-01: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté
-      du 31/05/1985                                                                                  Décret
-      86-150 du 30/001/1986
+    1986-07-01: Décrets 85-566 et 567 du 31/05/1985                                                    Arrêté du 31/05/1985                                                                                  Décret 86-150 du 30/001/1986
     1985-01-01: Loi 85-17 du 04/01/1985, art. 6 et 7
   date_parution_jo:
     2004-01-01: 2003-12-19
@@ -124,10 +118,8 @@ metadata:
     1985-01-01: 1985-01-05
   notes:
     2004-01-01: Remplacée par PAJE. Toujours pas de cumul avec CF
-    1996-07-01: APE pendant 1 an en cas d'adoption d'un enfant entre 2 et 16 ans.
-      APE pendant 3 ans si adoption simultanée d'au moins 3 enfants
-    1994-07-01: Prestation d'accueil jeune enfant non cumulable avec CF et ASF.
-      Prolongation jusqu'au 6e anniversaire en cas de naissance multiple
+    1996-07-01: APE pendant 1 an en cas d'adoption d'un enfant entre 2 et 16 ans. APE pendant 3 ans si adoption simultanée d'au moins 3 enfants
+    1994-07-01: Prestation d'accueil jeune enfant non cumulable avec CF et ASF. Prolongation jusqu'au 6e anniversaire en cas de naissance multiple
     1985-01-01: La loi 85-17 du 4 janvier 1985 crée l'Allocation parentale d'éducation
 documentation: |
   Notes :

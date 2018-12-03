@@ -48,9 +48,7 @@ metadata:
     2000-01-01: BSP n°48 du 31/01/2000
     1999-01-01: BSP n°44 du 31/01/1999
     1998-01-01: BSP n°40 du 31/01/1998. Plus qu'un seul taux à partir de 1998.
-    1997-01-01: 'BSP : en 1997, le taux est de 0,07% (0,045% employeur, 0,025% salarié)
-      pour le taux contractuel de 14%. Elle est respectivement de 0,044% et 0,026%
-      pour les taux contractuels de 15 et 16%'
+    1997-01-01: 'BSP : en 1997, le taux est de 0,07% (0,045% employeur, 0,025% salarié) pour le taux contractuel de 14%. Elle est respectivement de 0,044% et 0,026% pour les taux contractuels de 15 et 16%'
 documentation: |
   Notes :
   CET: Cotisation Exceptionnelle et Temporaire, cotisation pour le régime Agirc (pour les cadres uniquement).

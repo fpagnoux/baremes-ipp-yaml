@@ -39,9 +39,7 @@ nombre_enfants_minimal:
   metadata:
     ipp_csv_id: nenf_cf_min
 complement_familial_en_bmaf_en_bmaf:
-  description: |-
-    Complément familial (en % de la BMAF)
-    (en % de la BMAF)
+  description: Complément familial (en % de la BMAF) (en % de la BMAF)
   montant_base:
     description: Montant de base
     values:
@@ -88,30 +86,19 @@ metadata:
     2000-02-01: Décret 2000-71 du 28/01/2000, art. 3 (modif art. R522-1 du CSS)
     1997-01-01: Ordonnance 96-51 du 24/01/1996, art. 4
     1987-01-01: Loi 86-1307 du 29/12/1986, art. 10 et 14 (modif art. L522-1 du CSS)
-    1986-07-01: |-
-      Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-1 et R522-1 du CSS)
-      Décret 89-600 du 28/08/1989, art. 4 (modif art. D522-1)
+    1986-07-01: Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-1 et R522-1 du CSS); Décret 89-600 du 28/08/1989, art. 4 (modif art. D522-1)
     1983-01-01: cf. "évolution de la législation familiale en métropole depuis 1945"
-    1978-01-01: |-
-      Loi 77-765 du 12/07/1977
-      Décret 77-1265 du 16/11/1977
-      Décret 78-957 du 05/09/1978
+    1978-01-01: Loi 77-765 du 12/07/1977; Décret 77-1265 du 16/11/1977; Décret 78-957 du 05/09/1978
   date_parution_jo:
     2015-04-01: 2015-03-19
     2003-12-19: 2003-12-19
     2000-02-01: 2000-01-29
     1997-01-01: 1996-01-25
     1987-01-01: 1986-12-30
-    1986-07-01: |-
-      21/12/1985
-      31/08/1989
+    1986-07-01: 21/12/1985; 31/08/1989
     1978-01-01: 13/07/1977                17/11/1977              06/09/1978
   notes:
     2014-04-01: Majoration progressive de 50 % d'ici à 2018 du CF
     2000-02-01: Passage de l'âge limite à 21 ans (sous réserve d'un plafond de ressources)
-    1986-07-01: |-
-      Trois enfants de plus de 3 ans.
-       Suppression du CF de maintenance lorsque la famille passe de 3 à 2 enfants
-    1978-01-01: |-
-      Au moins un enfant de moins de 3 ans ou alors 3+ enfants.
-      Le complément familial remplace l'AFG et l'AMF à compter du 01/01/1978
+    1986-07-01: Trois enfants de plus de 3 ans.;  Suppression du CF de maintenance lorsque la famille passe de 3 à 2 enfants
+    1978-01-01: Au moins un enfant de moins de 3 ans ou alors 3+ enfants.; Le complément familial remplace l'AFG et l'AMF à compter du 01/01/1978

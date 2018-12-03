@@ -54,9 +54,7 @@ plafond_ressources_0_enfant:
       2002-07-01: currency-EUR
       1978-07-13: currency-FRF
 majoration_par_enfant_en_plafond_ressources_avec_0_enfant:
-  description: |-
-    Majoration par enfant 
-    (en % du plafond de ressources avec 0 enfant)
+  description: Majoration par enfant  (en % du plafond de ressources avec 0 enfant)
   values:
     2014-01-01:
       value: 0.3
@@ -82,9 +80,7 @@ metadata:
   - plafond_ressources_0_enfant
   - majoration_par_enfant_en_plafond_ressources_avec_0_enfant
   reference:
-    2018-01-01: |-
-      Circulaire DSS/SD2B/2017/352  du 22/12/2017
-      Arrêté du 27/12/2017
+    2018-01-01: Circulaire DSS/SD2B/2017/352  du 22/12/2017; Arrêté du 27/12/2017
     2016-01-01: Circulaire DSS/SD2B/2015/371 du 18/12/2015
     2015-01-01: Circulaire DSS/SD2B/2014/345
     2014-01-01: Circulaire DSS/SD2B/2013/417
@@ -94,8 +90,7 @@ metadata:
     2011-01-01: Arrêté du 30/12/2010
     2010-01-01: Arrêté du 29/12/2009
     2009-01-01: Arrêté du 31/12/2008
-    2008-10-10: Décret 2008-1025 du 07/10/2008                   Décret 2008-767
-      du 30/07/2008, art. 1 (modif art. D543-1)
+    2008-10-10: Décret 2008-1025 du 07/10/2008                   Décret 2008-767 du 30/07/2008, art. 1 (modif art. D543-1)
     2007-07-01: Arrêté du 10/07/2007
     2006-07-01: Arrêté du 17/07/2006
     2005-07-01: Arrêté du 01/08/2005
@@ -128,13 +123,8 @@ metadata:
     1978-07-13: 1985-12-21
   notes:
     2018-01-01: Revalorisation des plafonds de 0,2%
-    2016-01-01: Pas de modification en 2017 cf. circulaire DSS/SD2B/2016/396 du
-      21/12/2016
-    2001-07-01: Le montant est en francs bien qu'il soit valable du 1/07/2001 au
-      31/12/2001 mais aussi du 01/01/2002 au 30/06/2002. En fait, une simple conversion
-      sans revalorisation suffit pour avoir le montant en euros de début 2002.
-    1978-07-13: "Plafond: 2,130 fois le salaire minimum de croissance prévu à l'article\
-      \ L 141-4 du code du travail en vigueur au 01/07 de l'année de référence, majoré\
-      \ de 30% à partir du premier enfant, par enfant à charge"
-documentation: "Notes : L'ARS a un plafond (dependant du nombre d'enfants) dès sa\
-  \ création en 1976\n"
+    2016-01-01: Pas de modification en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
+    2001-07-01: Le montant est en francs bien qu'il soit valable du 1/07/2001 au 31/12/2001 mais aussi du 01/01/2002 au 30/06/2002. En fait, une simple conversion sans revalorisation suffit pour avoir le montant en euros de début 2002.
+    1978-07-13: "Plafond: 2,130 fois le salaire minimum de croissance prévu à l'article L 141-4 du code du travail en vigueur au 01/07 de l'année de référence, majoré de 30% à partir du premier enfant, par enfant à charge"
+documentation: |
+  Notes : L'ARS a un plafond (dependant du nombre d'enfants) dès sa création en 1976

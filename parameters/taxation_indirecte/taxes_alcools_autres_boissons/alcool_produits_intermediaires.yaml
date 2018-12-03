@@ -1,7 +1,6 @@
 description: Produits intermédiaires (vins de liqueurs, vins doux naturels, etc.)
 vins_doux_naturels_vins_liqueurs_aop_mentionnes_aux_articles_417_417_bis_cgi_eur_hl:
-  description: Vins doux naturels et vins de liqueurs AOP mentionnés aux articles
-    417 et 417 bis du CGI (€/hl)
+  description: Vins doux naturels et vins de liqueurs AOP mentionnés aux articles 417 et 417 bis du CGI (€/hl)
   values:
     2018-01-01:
       value: 47.2

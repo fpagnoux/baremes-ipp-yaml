@@ -1,5 +1,4 @@
-description: Taxe exceptionnelle de solidarité sur les hautes rémunérations versées
-  par les entreprises (TEHR, ou "taxe à 75%")
+description: Taxe exceptionnelle de solidarité sur les hautes rémunérations versées par les entreprises (TEHR, ou "taxe à 75%")
 taux:
   description: Taux
   values:

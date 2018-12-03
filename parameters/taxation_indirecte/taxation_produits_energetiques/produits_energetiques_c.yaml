@@ -237,8 +237,7 @@ propane_utilise_comme_carburants_autres_100kg_nets:
       2002-01-01: currency-EUR
       2000-01-01: currency-FRF
 propane_utilise_comme_carburants_usages_autres_que_comme_carburant_100kg_nets:
-  description: Propane utilisé comme carburants, usages autres que comme carburant
-    (100kg nets)
+  description: Propane utilisé comme carburants, usages autres que comme carburant (100kg nets)
   values:
     2022-01-01:
       value: 33.13
@@ -421,12 +420,12 @@ documentation: |
   NB : les produits énergétiques sont rangés de a à e dans l'ordre de leur numérotation dans l'article 265 du code des douanes. Cette séparation en cinq onglets a pour seul objectif la lisibilité.
   NB : en 2011 le nom de TIPP (taxe intérieure de consommation sur les produits pétroliers) change pour TICPE (taxe intérieure de consommation sur les produits énergétiques). L'objectif est de souligner le changement d'assiette récent qui incorpore désormais les biocarburants.
   Dans le code des douanes, les produits énergétiques sont désignés par les indices suivants :
-  22 - gazole, autres 
-  24 - fioul lourd 
-  26 - fioul avec point d'éclair inférieur à 120° C 
-  28 - fioul lourd HTS 
-  28 bis - fioul lourd BTS 
+  22 - gazole, autres
+  24 - fioul lourd
+  26 - fioul avec point d'éclair inférieur à 120° C
+  28 - fioul lourd HTS
+  28 bis - fioul lourd BTS
   30 bis - propane utilisé comme carburants, sous conditions
-  30 ter - propane utilisé comme carburants, autres 
-  31 bis - butanes liquéfiés, sous condition 
-  31 ter - butanes liquéfiés, autres 
+  30 ter - propane utilisé comme carburants, autres
+  31 bis - butanes liquéfiés, sous condition
+  31 ter - butanes liquéfiés, autres

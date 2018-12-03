@@ -1628,14 +1628,10 @@ metadata:
     2011-01-01: Loi 2011-1977 du 28/12/2011 (LF pour 2012)
     2010-01-01:
     - Loi 2010-1657 du 29/12/2010 (LF pour 2011)
-    - |-
-      BOI 5 B-7-11 
-      n°26 du 28/03/2011
+    - BOI 5 B-7-11 ; n°26 du 28/03/2011
     2009-01-01:
     - Loi 2009-1673 du 30/12/2009 (LF pour 2010)
-    - |-
-      BOI 5 B-13-10
-       n°22 du 16/02/2010
+    - BOI 5 B-13-10;  n°22 du 16/02/2010
     2008-01-01:
     - Loi 2008-1425 du 27 /12/2008 (LF pour 2009)
     - BOI 5 B-9-09 n°35 du 31/03/2009
@@ -1774,49 +1770,28 @@ metadata:
     1946-01-01: 1949-01-01
   notes:
     2011-01-01: 'Ensemble du barème année par année : article 197 du CGI.'
-    2006-01-01: Intégration de l'abattement de 20% au barème de l'impôt sur le revenu
-      et diminution du nombre de tranches de 7 à 5.
-    1999-01-01: |-
-      Voir aussi 
-       BOI 5 B-5-00 n°11 du 17/01/2000. LFR pour 2000
+    2006-01-01: Intégration de l'abattement de 20% au barème de l'impôt sur le revenu et diminution du nombre de tranches de 7 à 5.
+    1999-01-01: Voir aussi ;  BOI 5 B-5-00 n°11 du 17/01/2000. LFR pour 2000
     1970-01-01: IRPP rebaptisé «impôt sur le revenu» (IR).
-    1969-01-01: Suppression de la TC en 1970. Abattement général de 30 000 FRF sur
-      les revenus 1969.
-    1968-01-01: Taux réduit à 3 % de la TC pour les «artisans et assimilés» et BNC
-      «autres que les produits des charges et offices»
-    1959-01-01: Les montants sont en anciens Francs avant 1960. Création d'un «taxe
-      complémentaire» (TC).
-    1958-01-01: "IRPP est dit «impôt unique» : Suppression de la SP et TP (voir\
-      \ note 5). Ces barèmes concernent uniquement la SP entre 1948 et 1958 puis l'IRPP\
-      \ dans son ensemble après 1958 (IR après 1970)."
-    1957-01-01: Les salaires et pensions sont exemptés de TP ; pour les bénéfices
-      des  «artisans et assimilés» et et BNC «autres que les produits des charges
-      et offices» des taux réduits (9 % et 5%) s'appliquent par tranches selon les
-      années. Les revenus de valeurs mobilières (dividendes, intérêts, etc.) bénéficient
-      de décote et de taux réduits.  Voir annexe C-7 dans Thomas Piketty, Les hauts
-      revenus en France au XXe siècle (Grasset, 2001) et Statistiques et Études Financières
-      n°122 (ministère des Finances, février 1959).
-    1948-01-01: Suppression des impôts cédulaires et création de l'IRPP («impôt
-      sur le revenu des personnes physiques», voir note 5) et «impôt sur les bénéfices
-      des sociétés et autres personnes morales»
-    1947-01-01: Coexistence IGR et impôts cédulaires (voir notes 1 à 4). Ces barèmes
-      concernent l'IGR jusqu'en 1948. En 1948, un «prélèvement exceptionnel de lutte
-      contre l'inflation» sur les revenus 1946 est instauré dans le cadre du «plan
-      Mayer» (intégré dans le barème), les contribuables ayant le choix d'échapper
-      à cette majoration du barème s'ils souscrivent à un «emprunt obligatoire» rémunéré
-      à 3% sur 10 ans.
+    1969-01-01: Suppression de la TC en 1970. Abattement général de 30 000 FRF sur les revenus 1969.
+    1968-01-01: Taux réduit à 3 % de la TC pour les «artisans et assimilés» et BNC «autres que les produits des charges et offices»
+    1959-01-01: Les montants sont en anciens Francs avant 1960. Création d'un «taxe complémentaire» (TC).
+    1958-01-01: "IRPP est dit «impôt unique» : Suppression de la SP et TP (voir note 5). Ces barèmes concernent uniquement la SP entre 1948 et 1958 puis l'IRPP dans son ensemble après 1958 (IR après 1970)."
+    1957-01-01: Les salaires et pensions sont exemptés de TP ; pour les bénéfices des  «artisans et assimilés» et et BNC «autres que les produits des charges et offices» des taux réduits (9 % et 5%) s'appliquent par tranches selon les années. Les revenus de valeurs mobilières (dividendes, intérêts, etc.) bénéficient de décote et de taux réduits.  Voir annexe C-7 dans Thomas Piketty, Les hauts revenus en France au XXe siècle (Grasset, 2001) et Statistiques et Études Financières n°122 (ministère des Finances, février 1959).
+    1948-01-01: Suppression des impôts cédulaires et création de l'IRPP («impôt sur le revenu des personnes physiques», voir note 5) et «impôt sur les bénéfices des sociétés et autres personnes morales»
+    1947-01-01: Coexistence IGR et impôts cédulaires (voir notes 1 à 4). Ces barèmes concernent l'IGR jusqu'en 1948. En 1948, un «prélèvement exceptionnel de lutte contre l'inflation» sur les revenus 1946 est instauré dans le cadre du «plan Mayer» (intégré dans le barème), les contribuables ayant le choix d'échapper à cette majoration du barème s'ils souscrivent à un «emprunt obligatoire» rémunéré à 3% sur 10 ans.
 documentation: |
   Référence générale :
   T. Piketty, Les hauts revenus en France au XXe siècle. Inégalités et redistribution 1901-1998, Grasset (2001).
   ,
   > voir notamment tableau 4-5 p. 296-298.
   Notes :
-  (1) L'imposition des revenus en France a été instaurée au 01/01/1915 sur les revenus 1914 : 
+  (1) L'imposition des revenus en France a été instaurée au 01/01/1915 sur les revenus 1914 :
   La loi du 15/07/1914 crée l'impôt général sur le revenu (IGR). La loi du 26/12/1914 repousse son application au 01/01/1916 sur les revenus 1915.
-  (2) Entre 1914 et 1947, il a existé six impôts cédulaires qui ont été progressivement remplacés par les impôts actuels 
+  (2) Entre 1914 et 1947, il a existé six impôts cédulaires qui ont été progressivement remplacés par les impôts actuels
   Ils sont dits cédulaires car ils sont indépendants et s'appliquent à différents types de revenus (déclarés sur des feuillets indépendants dit «cédules»).
   Ils sont  à taux proportionnels et s'ajoutent à l'impôt général sur les revenus.
-  (3) La loi du 29/03/1914 modifie des  contributions existantes en créant les deux impôts cédulaires : 
+  (3) La loi du 29/03/1914 modifie des  contributions existantes en créant les deux impôts cédulaires :
    l'impôt foncier des propriétés bâties et des propriétés non bâties  (taux initial : 5%)
    l'impôt sur le revenu des valeurs mobilières  (taux initial : 6%)
   (4) La loi du 31/07/1917 crée quatre impôts cédulaires en remplacement des impôts directs existants :

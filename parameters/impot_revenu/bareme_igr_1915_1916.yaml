@@ -262,12 +262,8 @@ metadata:
   - taux_marginal_tranche_10
   - taux_marginal_tranche_11
   reference:
-    1916-01-01: 'T. Piketty, Les hauts revenus en France au XXe siècle. Inégalités
-      et redistribution 1901-1998, Grasset (2001) : voir notamment tableaux 4-1 à
-      à 4-4'
-    1915-01-01: 'T. Piketty, Les hauts revenus en France au XXe siècle. Inégalités
-      et redistribution 1901-1998, Grasset (2001) : voir notamment tableaux 4-1 à
-      à 4-4'
+    1916-01-01: 'T. Piketty, Les hauts revenus en France au XXe siècle. Inégalités et redistribution 1901-1998, Grasset (2001) : voir notamment tableaux 4-1 à à 4-4'
+    1915-01-01: 'T. Piketty, Les hauts revenus en France au XXe siècle. Inégalités et redistribution 1901-1998, Grasset (2001) : voir notamment tableaux 4-1 à à 4-4'
 documentation: |
   Notes :
   Les revenus de 1915 et 1916 étaient soumis à des barèmes exprimés en taux marginal:

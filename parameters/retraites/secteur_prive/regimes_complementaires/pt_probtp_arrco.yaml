@@ -201,7 +201,7 @@ metadata:
   - valeur_point_cnro_en_euros
 documentation: |+
   Sources : Centre de documentation Arrco depuis 1961; Manuel de l'employeur entre 1957 et 1960.
-  Note législative : Pour 1957-60, le Manuel de l'employeur ne donne que la valeur au 1er janvier. 
+  Note législative : Pour 1957-60, le Manuel de l'employeur ne donne que la valeur au 1er janvier.
   Au 1er janvier 1999, l'unification des régimes ARRCO donne lieu à une évolution des valeurs des paramètres.
   Pour BTP RETRAITE, section CBTPR, le coefficient de transformation est de 0,245625.
   Pour BTP RETRAITE, section CNRO, le coefficient de transformation est de 0,411245.

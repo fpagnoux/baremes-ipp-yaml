@@ -1,5 +1,4 @@
-description: Cotisations à la Retraite complémentaire des agents non titulaires de
-  la Fonction publique et des élus locaux (IRCANTEC)
+description: Cotisations à la Retraite complémentaire des agents non titulaires de la Fonction publique et des élus locaux (IRCANTEC)
 taux_appel:
   description: Taux d'appel
   values:
@@ -347,7 +346,7 @@ metadata:
     1971-01-01: Décret 70-1277 du 23/12/1970
 documentation: |
   Notes :
-  L'IRCANTEC est le régime de retraite complémentaire des non-titulaires de la fonction publique. 
+  L'IRCANTEC est le régime de retraite complémentaire des non-titulaires de la fonction publique.
   Les non-titulaires versent leurs cotisations pour leurs avantages de retraite de base au régime général (voir feuille "CNAV").
   L'IRCANTEC remplace deux institutions de retraite complémentaire: IPACTE et l'IGRANTE. Références législatives relatives à ces deux régimes:
   IPACTE:

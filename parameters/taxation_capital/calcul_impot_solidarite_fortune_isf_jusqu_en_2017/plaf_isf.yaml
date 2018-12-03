@@ -32,8 +32,7 @@ metadata:
   - plafonnement_taux_imposition_isf
   - plafonnement_plafonnement
   reference:
-    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
-      885 V bis du CGI)
+    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art. 885 V bis du CGI)
     2013-01-01: Loi 2012-1509 du 29/12/2012, art. 13 (LF pour 2013)
     2012-01-01: Loi 2011-900 du 29/07/2011, art. 1 (LFR pour 2011)
     1996-01-01: Loi 95-1346 du 30/12/1995, art. 6 (LF pour 1996)
@@ -47,9 +46,8 @@ metadata:
     1991-01-01: 1990-12-30
     1989-01-01: 1988-12-28
   notes:
-    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
+    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable est réduite aux seuls biens immobiliers.
     2012-01-01: Le plafonnement est temporairement supprimé.
 documentation: |
-  Note : L'IGF (1982-1986) ne bénéficie d'aucun plafonnement. Le plafonnement est instauré avec la création de l'ISF à partir du 1er janvier 1989. 
-  Référence dans les codes législatifs : le plafonnement du taux d'imposition de l'ISF et sa limitation sont codifiés à l'article 885 V bis du CGI. 
+  Note : L'IGF (1982-1986) ne bénéficie d'aucun plafonnement. Le plafonnement est instauré avec la création de l'ISF à partir du 1er janvier 1989.
+  Référence dans les codes législatifs : le plafonnement du taux d'imposition de l'ISF et sa limitation sont codifiés à l'article 885 V bis du CGI.

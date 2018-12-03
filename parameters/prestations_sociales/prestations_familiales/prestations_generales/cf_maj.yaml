@@ -78,9 +78,7 @@ majoration:
         2003-07-01: currency-EUR
         1986-01-01: currency-FRF
   1er_2eme_enfants_en_plafond_ressources_avec_0_enfant:
-    description: |-
-      1er et 2ème enfants
-      (en % du plafond de ressources avec 0 enfant)
+    description: 1er et 2ème enfants (en % du plafond de ressources avec 0 enfant)
     values:
       1986-01-01:
         value: 0.25
@@ -88,9 +86,7 @@ majoration:
       ipp_csv_id: maj_plaf_cf_apje_adopt_enf1et2
       unit: /1
   3eme_enfant_plus_en_plafond_ressources_avec_0_enfant:
-    description: |-
-      3ème enfant et plus
-      (en % du plafond de ressources avec 0 enfant)
+    description: 3ème enfant et plus (en % du plafond de ressources avec 0 enfant)
     values:
       2010-01-01:
         value: 0.3
@@ -148,9 +144,7 @@ metadata:
   - majoration
   - plafond_ressources_majoration
   reference:
-    2018-01-01: |-
-      Circulaire DSS/SD2B/2017/352 du 22/12/2017
-      Arrêté du 27/12/2017
+    2018-01-01: Circulaire DSS/SD2B/2017/352 du 22/12/2017; Arrêté du 27/12/2017
     2016-01-01: Circulaire DSS/SD2B/2015/371
     2015-01-01: Circulaire DSS/SD2B/2014/345
     2014-01-01: Circulaire DSS/SD2B/2013/416 et décret n° 2014-419 du 23 avril 2014
@@ -163,10 +157,8 @@ metadata:
     2006-07-01: Arrêté du 17/07/2006
     2005-07-01: Arrêté du 01/08/2005
     2004-07-01: Arrêté du 16/07/2004
-    2003-07-01: Arrêté du 26/06/2003                                      Décret
-      2003-1393 du 31/12/2003, art. 1 (modif art. R522-2 du CSS)
-    1986-01-01: Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-2 et R522-2
-      du CSS)
+    2003-07-01: Arrêté du 26/06/2003                                      Décret 2003-1393 du 31/12/2003, art. 1 (modif art. R522-2 du CSS)
+    1986-01-01: Décret 85-1353 du 17/12/1985, art. 1 (crée art. L522-2 et R522-2 du CSS)
   date_parution_jo:
     2018-01-01: 29/12/20017
     2016-01-01: 2015-12-18
@@ -184,15 +176,10 @@ metadata:
     1986-01-01: 1985-12-21
   notes:
     2018-01-01: Revalorisation des plafonds de 0,2%
-    2016-01-01: Pas de modification en 2017 cf. circulaire DSS/SD2B/2016/396 du
-      21/12/2016
-    2014-01-01: Ne pas confondre la circulaire pour la France métropolitaine avec
-      celle pour les départements d'Outre-mer
-    2003-07-01: |-
-      Suppression de l'APJE => le renvoi à la réglementation des plafonds de l'APJE n'est plus possible.
-      => règlementation propre au CF
-    1986-01-01: "art. R222-2 : la réglementation des plafonds est la même que pour\
-      \ l'APJE"
+    2016-01-01: Pas de modification en 2017 cf. circulaire DSS/SD2B/2016/396 du 21/12/2016
+    2014-01-01: Ne pas confondre la circulaire pour la France métropolitaine avec celle pour les départements d'Outre-mer
+    2003-07-01: Suppression de l'APJE => le renvoi à la réglementation des plafonds de l'APJE n'est plus possible.; => règlementation propre au CF
+    1986-01-01: "art. R222-2 : la réglementation des plafonds est la même que pour l'APJE"
 documentation: |
   Notes :
   Les articles L522-1 et R522-1 du CSS prévoient la revalorisation des plafonds par Arrêté Ministériel, au rythme de l'évolution des prix hors tabac

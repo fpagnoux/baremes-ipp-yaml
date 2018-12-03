@@ -142,8 +142,7 @@ seuil_rfr_etre_eligibilite_ppe:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
   revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_cas_general:
-    description: Revenu d'activité individuel permettant d'obtenir la PPE à taux plein
-      (cas général)
+    description: Revenu d'activité individuel permettant d'obtenir la PPE à taux plein (cas général)
     values:
       2016-01-01:
         value: null
@@ -199,8 +198,7 @@ seuil_rfr_etre_eligibilite_ppe:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
   revenu_activite_individuel_permettant_obtenir_ppe_taux_plein_couples_mono_revenus:
-    description: Revenu d'activité individuel permettant d'obtenir la PPE à taux plein
-      (couples mono-revenus)
+    description: Revenu d'activité individuel permettant d'obtenir la PPE à taux plein (couples mono-revenus)
     values:
       2016-01-01:
         value: null
@@ -228,8 +226,7 @@ seuil_rfr_etre_eligibilite_ppe:
         2001-01-01: currency-EUR
         2000-01-01: currency-FRF
   revenu_activite_individuel_maximum_couples_mono_emploi_parents_isoles:
-    description: Revenu d'activité individuel maximum (couples mono-emploi et parents
-      isolés)
+    description: Revenu d'activité individuel maximum (couples mono-emploi et parents isolés)
     values:
       2016-01-01:
         value: null
@@ -289,9 +286,7 @@ taux_ppe:
       ipp_csv_id: tx_ppe
       unit: /1
   phase_out_cas_general:
-    description: |-
-      phase-out
-      (cas général)
+    description: phase-out (cas général)
     values:
       2016-01-01:
         value: null
@@ -459,44 +454,28 @@ metadata:
   reference:
     2007-01-01:
     - LF pour 2008
-    - |-
-      BOI 5 B-9-08
-      n°27 DU 03/03/2008
+    - BOI 5 B-9-08; n°27 DU 03/03/2008
     2006-01-01:
     - LF pour 2007
-    - |-
-      BOI 5 B-8-07
-      n°45 DU 27/03/2007
+    - BOI 5 B-8-07; n°45 DU 27/03/2007
     2005-01-01:
     - LF pour 2006
-    - |-
-      BOI 5 B-16-06
-      n°82 DU 17/05/2006
+    - BOI 5 B-16-06; n°82 DU 17/05/2006
     2004-01-01:
     - LF pour 2005
-    - |-
-      BOI 5 B-2-05
-      n°11 DU 17/01/2005
+    - BOI 5 B-2-05; n°11 DU 17/01/2005
     2003-01-01:
     - LF pour 2004
-    - |-
-      BOI 5 B-11-04
-      n°103 DU 22/06/2004
+    - BOI 5 B-11-04; n°103 DU 22/06/2004
     2002-01-01:
     - LF pour 2003
-    - |-
-      BOI 5 B-12-03
-      n°102 DU 06/06/2003
+    - BOI 5 B-12-03; n°102 DU 06/06/2003
     2001-01-01:
     - LF pour 2002 et LFR pour 2001
-    - |-
-      BOI 5 B-12-02
-      n°100 DU 06/06/2002
+    - BOI 5 B-12-02; n°100 DU 06/06/2002
     2000-01-01:
     - Loi n° 2001-458 du 30 mai 2001
-    - |-
-      BOI 5 B-12-01
-      n°114 DU 26/06/2001
+    - BOI 5 B-12-01; n°114 DU 26/06/2001
     2016-01-01: Décrets 2015-1709 et 2015-1710 du JO 22/12/2015
   date_parution_jo:
     2007-01-01: 2007-12-27
@@ -507,11 +486,9 @@ metadata:
     2002-01-01: 2002-12-31
     2000-01-01: 2000-12-31
   notes:
-    2016-01-01: A compter du 1e janvier 2016, la PPE est remplacée par la prime
-      d'activité .
+    2016-01-01: A compter du 1e janvier 2016, la PPE est remplacée par la prime d'activité .
     2002-01-01: Introduction de la majoration pour temps partiel
-    2000-01-01: Doublement de la prime versée théoriquement en 2001 avec l'instauration
-      d'un complément égal au montant inital de PPE calculé pour l'année 2001.
+    2000-01-01: Doublement de la prime versée théoriquement en 2001 avec l'instauration d'un complément égal au montant inital de PPE calculé pour l'année 2001.
 documentation: |
-  Notes : 
+  Notes :
   (1) Art. 200 sexies du CGI

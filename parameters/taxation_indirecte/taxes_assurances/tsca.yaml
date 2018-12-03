@@ -36,8 +36,7 @@ assurance_pertes_exploitations_dues_incendie_industrie_etc:
     ipp_csv_id: taxe_assu_incendie_industrie
     unit: /1
 contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_bis:
-  description: Contrats d'assurance maladie individuelles et collectives, "solidaires
-    et responsables" (2 bis)
+  description: Contrats d'assurance maladie individuelles et collectives, "solidaires et responsables" (2 bis)
   values:
     2016-01-01:
       value: null
@@ -53,8 +52,7 @@ contrats_assurance_maladie_individuelles_collectives_solidaires_responsables_2_b
     ipp_csv_id: taxe_assu_maladie_solidaire_responsable
     unit: /1
 contrats_assurance_maladie_individuelles_collectives_cas_general_2_ter:
-  description: Contrats d'assurance maladie individuelles et collectives, cas général
-    (2 ter)
+  description: Contrats d'assurance maladie individuelles et collectives, cas général (2 ter)
   values:
     2016-01-01:
       value: null
@@ -82,8 +80,7 @@ assurance_bateaux_sport_plaisance:
     ipp_csv_id: taxe_assu_bateaux_sport_plaisance
     unit: /1
 assurance_risques_non_exoneres_navigation_fluviale_maritimes_tous_types_risque_navigation_aerienne:
-  description: Assurance risques non exonérés navigation fluviale ou maritimes, tous
-    types de risque navigation aérienne
+  description: Assurance risques non exonérés navigation fluviale ou maritimes, tous types de risque navigation aérienne
   values:
     1989-01-01:
       value: null
@@ -151,8 +148,7 @@ assurance_vehicules_terrestres_moteurs_particuliers:
     ipp_csv_id: taxe_assu_vtm_particuliers
     unit: /1
 assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite:
-  description: Assurances de protection juridique art L127-1 code des assurances et
-    L224-1 code de la mutualité
+  description: Assurances de protection juridique art L127-1 code des assurances et L224-1 code de la mutualité
   values:
     2016-01-01:
       value: 0.134
@@ -164,8 +160,7 @@ assurances_protection_juridique_art_l127_1_code_assurances_l224_1_code_mutualite
     ipp_csv_id: taxe_assu_protec_juridique
     unit: /1
 assurance_vehicules_terrestres_moteur_lourds_l211_1_code_assurances:
-  description: Assurance véhicules terrestres à moteur lourds, du L211-1 code des
-    assurances
+  description: Assurance véhicules terrestres à moteur lourds, du L211-1 code des assurances
   values:
     2016-01-01:
       value: 0.15
@@ -215,8 +210,7 @@ metadata:
     2016-01-01: Loi 2014-1554 du 22/12/2014 (LFSS pour 2015) - art. 22
     2015-01-01: Loi 2014-1654 du 29/12/2014 (LF pour 2015)
     2014-01-01: Loi 2013-1203 du 23/12/2013 (LFSS pour 2014) - art. 19
-    2011-10-01: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art.
-      9
+    2011-10-01: Loi 2011-1117 du 19/09/2011 (LF rectificative pour 2011) - art. 9
     2011-01-01: Loi 2010-1657 du 29/12/2010 (LF pour 2011) - art. 21
     1994-09-02: Loi 2001-1246 du 21/12/2001 (LFSS pour 2002)
   date_parution_jo:

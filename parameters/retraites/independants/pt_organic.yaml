@@ -1,7 +1,6 @@
 description: Valeur des points acquis avant 1973 - ORGANIC
 valeur_point_retraite_organic_regime_base_droits_acquis_avant_1973:
-  description: Valeur du point retraite ORGANIC - régime de base, droits acquis avant
-    1973
+  description: Valeur du point retraite ORGANIC - régime de base, droits acquis avant 1973
   valeur_point_acquis_par_cotisations:
     description: Valeur du point acquis par cotisations
     values:

@@ -1,11 +1,8 @@
 description: Revalorisation des salaires (1949-1952)
 coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees:
-  description: Coefficient par lequel est multiplié le salaire résultant des cotisations
-    passées
+  description: Coefficient par lequel est multiplié le salaire résultant des cotisations passées
   arrete_23_06_1949_jo_29_06_1949:
-    description: |-
-      Arrêté du 23/06/1949
-       (JO 29/06/1949 )
+    description: Arrêté du 23/06/1949  (JO 29/06/1949 )
     values:
       1948-01-01:
         value: null
@@ -32,9 +29,7 @@ coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees:
       1930-01-01:
         value: 24.5
   arrete_02_10_1952_jo_03_10_1952:
-    description: |-
-      Arrêté du 02/10/1952
-      (JO 03/10/1952)
+    description: Arrêté du 02/10/1952 (JO 03/10/1952)
     values:
       1952-01-01:
         value: null
@@ -175,4 +170,4 @@ metadata:
   - coefficient_par_lequel_est_multiplie_salaire_resultant_cotisations_passees
 documentation: |
   Notes :
-  A partir de la série de coefficients publiés par l'arrêté du 24/01/1994, il est possible de reconstituer toutes les séries postérieures. 
+  A partir de la série de coefficients publiés par l'arrêté du 24/01/1994, il est possible de reconstituer toutes les séries postérieures.

@@ -307,9 +307,7 @@ metadata:
     2008-01-01: Référence manquante
     2007-01-01: Lettre circulaire URSSAF 2006-106
     2004-07-01: Lettre circulaire URSSAF 2004-102
-    2004-01-01: |-
-      Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132 ; 
-      Décret 2003-1385 du 31/12/2003
+    2004-01-01: Loi 2003-1311 du 30/12/2003 (LF pour 2004), art. 132 ; ; Décret 2003-1385 du 31/12/2003
     2003-01-01: Lettre circulaire URSSAF 2002-218
     2001-07-01: Référence manquante
     2001-01-01: Référence manquante
@@ -335,9 +333,7 @@ metadata:
     2018-01-01: 2017-12-31
     2017-01-01: 2016-12-30
     2013-01-01: 2012-12-30
-    2004-01-01: |-
-      31/12/2003
-      01/01/2004
+    2004-01-01: 31/12/2003; 01/01/2004
     1996-02-01: 1996-01-11
     1996-01-01: 1995-12-31
     1993-04-01: 1992-12-31
@@ -350,19 +346,17 @@ metadata:
     1974-01-01: 12/07/1973 30/01/1974
     1971-09-01: 13/07/1971 31/08/1971
   notes:
-    2013-07-01: Evolution progressive en Essonne et Val d'Oise (objectif de 1,80%
-      en juillet 2015)
+    2013-07-01: Evolution progressive en Essonne et Val d'Oise (objectif de 1,80% en juillet 2015)
     1993-04-01: Déplafonnement du versement transport
     1975-01-01: Le décret 74-933 abaisse le seuil à 10 000 habitants.
-    1974-01-01: La loi 73-640 autorise les communes de plus de 300 000 habitants
-      à instaurer un VT, dont le taux (au maximum de 1,5%) sera fixé par décret.
+    1974-01-01: La loi 73-640 autorise les communes de plus de 300 000 habitants à instaurer un VT, dont le taux (au maximum de 1,5%) sera fixé par décret.
     1971-09-01: Le VT est instauré uniquement pour Paris, le 92 et le 94.
 documentation: |
   Notes :
   (i) Le versement transport est recouvré par les URSSAF comme les cotisations de Sécurité sociale, et reversé aux collectivités locales.
   (ii) Sont assujettis les employeurs de plus de 9 salariés en région parisienne et de certaines agglomérations
   (iii) Le taux du versement transport varie avec la localisation géographique de l'entreprise. Nous n'avons reporté ici que les taux pour certaines grandes agglomérations ou régions.
-  En région parisienne, le taux diffère entre Paris, une zone 2 et une zone 3. 
+  En région parisienne, le taux diffère entre Paris, une zone 2 et une zone 3.
   (iv) Le taux maximal reporté dans les deux premières colonnes ne s'applique pas pour l'Ile de France. A l'heure actuelle, il varie avec la taille de la commune (voir art. L2333-67 du code général des collectivités locales).
   Celui que nous avons reporté correspond au taux maximal applicable aux agglomérations de plus de 100 000 habitants.
   (v) La loi 82-684 du 04/08/1982 (JO du 05/08/1982) a abaissé le seuil d'assujettissement de 100 000 à 30 000 habitants. Il est aujourd'hui  de 10 000 habitants.

@@ -1,9 +1,6 @@
-description: "Prestation d'accueil du jeune enfant (PAJE) : Complément de libre choix\
-  \ d'activité (CLCA)"
+description: "Prestation d'accueil du jeune enfant (PAJE) : Complément de libre choix d'activité (CLCA)"
 complement_libre_choix_activite_clca_beneficiaires_allocation_base_enfant_ne_adopte_apres_avril_2014:
-  description: |-
-    Complément de libre choix d'activité (CLCA) pour les bénéficiaires de l'allocation de base
-    (enfant né ou adopté après avril 2014)
+  description: Complément de libre choix d'activité (CLCA) pour les bénéficiaires de l'allocation de base (enfant né ou adopté après avril 2014)
   taux_plein:
     description: Taux plein
     values:
@@ -15,9 +12,7 @@ complement_libre_choix_activite_clca_beneficiaires_allocation_base_enfant_ne_ado
       ipp_csv_id: tx_clca_base
       unit: /1
   taux_partiel_50:
-    description: |-
-      Taux partiel
-      < 50%
+    description: Taux partiel < 50%
     values:
       2015-01-01:
         value: null
@@ -42,9 +37,7 @@ complement_libre_choix_activite_clca_beneficiaires_allocation_base_enfant_ne_ado
     - taux_partiel_50
     - taux_partiel_entre_50_80
 complement_libre_choix_activite_clca_non_beneficiaires_allocation_base_enfant_ne_adopte_avant_avril_2014:
-  description: |-
-    Complément de libre choix d'activité (CLCA) pour les non bénéficiaires de l'allocation de base
-    (enfant né ou adopté avant avril 2014)
+  description: Complément de libre choix d'activité (CLCA) pour les non bénéficiaires de l'allocation de base (enfant né ou adopté avant avril 2014)
   taux_plein:
     description: Taux plein
     values:
@@ -58,9 +51,7 @@ complement_libre_choix_activite_clca_non_beneficiaires_allocation_base_enfant_ne
       ipp_csv_id: tx_clca_nonbase
       unit: /1
   taux_partiel_50:
-    description: |-
-      Taux partiel
-      < 50%
+    description: Taux partiel < 50%
     values:
       2015-01-01:
         value: null
@@ -111,23 +102,13 @@ metadata:
   - complement_optionnel_libre_choix_activite
   reference:
     2015-01-01: Décret 2014-1708 du 30/12/2014 - art. 1
-    2008-05-01: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret
-      2006-732 du 22/06/2006, art.1 et 2
-    2004-01-01: |-
-      Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS)
-      Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée art. D531-3 du CSS)
+    2008-05-01: Décret 2008-331 du 09/04/2008, art. 1                                                                                                                                             Décret 2006-732 du 22/06/2006, art.1 et 2
+    2004-01-01: Loi 2003-1199 du 18/12/2003, art. 60 II (crée art. L531-3 du CSS); Décret 2003-1394 du 31/12/2003, art. 1 (modif art. D531-1 du CSS et crée art. D531-3 du CSS)
   date_parution_jo:
     2015-01-01: 2014-12-31
     2008-05-01: 24/06/2006 11/04/2008
-    2004-01-01: |-
-      19/12/2003
-      01/01/2004
+    2004-01-01: 19/12/2003; 01/01/2004
   notes:
-    2015-01-01: La CLCA est remplacée par la PreParE mais elle continue d'être effective
-      tant que l'enfant est né ou adopté avant le 1er janvier 2015
-    2008-05-01: Cf. http://circulaires.legifrance.gouv.fr/pdf/2009/04/cir_10648.pdf
-      & http://circulaires.legifrance.gouv.fr/pdf/2009/04/cir_6840.pdf pour les taux
-    2004-01-01: |-
-      art. D531-1 : fixe l'âge limite
-      art. D531-3 : fixe le montant de l'aide (en % de la BMAF)
-      La PAJE entre en vigueur de manière progressive jusqu'à fin 2006 (cf. art. 60, VIII de la loi).
+    2015-01-01: La CLCA est remplacée par la PreParE mais elle continue d'être effective tant que l'enfant est né ou adopté avant le 1er janvier 2015
+    2008-05-01: Cf. http://circulaires.legifrance.gouv.fr/pdf/2009/04/cir_10648.pdf & http://circulaires.legifrance.gouv.fr/pdf/2009/04/cir_6840.pdf pour les taux
+    2004-01-01: "art. D531-1 : fixe l'âge limite; art. D531-3 : fixe le montant de l'aide (en % de la BMAF); La PAJE entre en vigueur de manière progressive jusqu'à fin 2006 (cf. art. 60, VIII de la loi)."

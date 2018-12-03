@@ -1,13 +1,10 @@
 description: Prélèvement libératoire sur les assurances vie
 bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat:
-  description: Bons ou contrats de capitalisation et placements de même nature (assurance-vie)
-    lors du dénouement du contrat
+  description: Bons ou contrats de capitalisation et placements de même nature (assurance-vie) lors du dénouement du contrat
   souscrits_entre_1_1_83_31_12_89_une_duree:
     description: Souscrits entre le 1/1/83 et le 31/12/89 pour une durée de
     moins_2_ans_2:
-      description: |-
-        moins de 2 ans 
-        (2)
+      description: moins de 2 ans  (2)
       values:
         1998-01-01:
           value: null
@@ -17,9 +14,7 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         ipp_csv_id: tx_pl_av_2
         unit: /1
     2_4_ans_3:
-      description: |-
-        2 à 4 ans 
-        (3)
+      description: 2 à 4 ans  (3)
       values:
         1998-01-01:
           value: null
@@ -29,9 +24,7 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         ipp_csv_id: tx_pl_av_24
         unit: /1
     4_6_ans_4:
-      description: |-
-        4 à 6 ans
-        (4)
+      description: 4 à 6 ans (4)
       values:
         1998-01-01:
           value: null
@@ -41,8 +34,7 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         ipp_csv_id: tx_pl_av_46
         unit: /1
     6_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date:
-      description: 6 ans et plus (pour les primes versées avant le 01/01/1998 et les
-        produits afférents acquis après cette date)
+      description: 6 ans et plus (pour les primes versées avant le 01/01/1998 et les produits afférents acquis après cette date)
       values:
         2018-01-01:
           value: null
@@ -52,8 +44,7 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         ipp_csv_id: tx_pl_av_6a
         unit: /1
     6_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5:
-      description: 6 ans et plus (pour les produits acquis après le 01/01/1998) avec
-        abattement sur l'IR (5)
+      description: 6 ans et plus (pour les produits acquis après le 01/01/1998) avec abattement sur l'IR (5)
       values:
         2018-01-01:
           value: null
@@ -98,8 +89,7 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         ipp_csv_id: tx_pl_av_48
         unit: /1
     8_ans_plus_primes_versees_avant_01_01_1998_produits_afferents_acquis_apres_cette_date:
-      description: 8 ans et plus (pour les primes versées avant le 01/01/1998 et les
-        produits afférents acquis après cette date)
+      description: 8 ans et plus (pour les primes versées avant le 01/01/1998 et les produits afférents acquis après cette date)
       values:
         2018-01-01:
           value: null
@@ -111,8 +101,7 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
         ipp_csv_id: tx_pl_av_8
         unit: /1
     8_ans_plus_produits_acquis_apres_01_01_1998_avec_abattement_ir_5:
-      description: 8 ans et plus (pour les produits acquis après le 01/01/1998) avec
-        abattement sur l'IR (5)
+      description: 8 ans et plus (pour les produits acquis après le 01/01/1998) avec abattement sur l'IR (5)
       values:
         2018-01-01:
           value: null
@@ -142,8 +131,7 @@ bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouemen
       ipp_csv_id: tx_pl_av_anonym
       unit: /1
   produits_beneficiant_personnes_etablies_dans_etat_non_cooperatif_6:
-    description: Produits bénéficiant à des personnes établies dans un Etat "non-coopératif"
-      (6)
+    description: Produits bénéficiant à des personnes établies dans un Etat "non-coopératif" (6)
     values:
       2018-01-01:
         value: null
@@ -165,8 +153,7 @@ metadata:
   order:
   - bons_contrats_capitalisation_placements_meme_nature_assurance_vie_lors_denouement_contrat
   reference:
-    2018-01-01: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A,
-      125-0 A, 200 A et art 117 quater du CGI)
+    2018-01-01: Loi n°2017-1837 du 30 décembre 2017 - art. 28 (modif art 125 A, 125-0 A, 200 A et art 117 quater du CGI)
     2013-01-01: Loi 2012-1509 du 29/12/2012, art. 9
     2010-03-01: Loi 2009-1674 du 30/12/2009, art. 22
     1999-04-01: Loi 98-1266 du 30/12/1998, art. 6 (LF pour 1999)
@@ -182,11 +169,8 @@ metadata:
     1990-01-01: 1989-12-30
     1983-01-01: 1997-12-30
   notes:
-    2018-01-01: Le prélèvement libératoire est remplacé par un prélèvement forfaitaire
-      unique non-libératoire, dont la valeur est telle que la somme du taux de ce
-      prélèvement et des prélèvements sociaux est de 30%.
-    1998-01-01: Les bons ou contrats principalement investis en actions sont exonérés
-      d'IR après huit ans.
+    2018-01-01: Le prélèvement libératoire est remplacé par un prélèvement forfaitaire unique non-libératoire, dont la valeur est telle que la somme du taux de ce prélèvement et des prélèvements sociaux est de 30%.
+    1998-01-01: Les bons ou contrats principalement investis en actions sont exonérés d'IR après huit ans.
     1983-01-01: Création de l'art. 125-0 A du CGI
 documentation: |
   Notes : (1) Le prélèvement libératoire sur les bons ou contrats de capitalisation est instauré à partir du 1er janvier 1983.

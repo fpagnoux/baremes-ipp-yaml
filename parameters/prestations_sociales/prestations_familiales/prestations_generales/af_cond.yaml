@@ -42,9 +42,7 @@ metadata:
   - plafond_ressources_tranche_2
   - majoration_ressource_par_enfant_supplementaire
   reference:
-    2018-01-01: |-
-      Circulaire DSS/SD2B/2017/352 du 22/12/2017
-      Arrêté du 27/12/2017
+    2018-01-01: Circulaire DSS/SD2B/2017/352 du 22/12/2017; Arrêté du 27/12/2017
     2016-01-01: Circulaire DSS/SD2B/2015/371 du 18/12/2015
     2015-07-01: Décret 2015-611 du 03/06/2015
   date_parution_jo:

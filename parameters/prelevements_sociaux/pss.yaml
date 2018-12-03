@@ -543,10 +543,8 @@ metadata:
     1938-07-01: 1938-06-15
   notes:
     1997-01-01: Depuis 1997, revalorisation chaque début d'année.
-    1996-07-01: Les plafonds annuels sont inexacts sur legislation.cnav.fr (12*montant
-      mensuel) au lieu de la somme des plafonds mensuels sur l'année.
-    1982-01-01: Entre 1982 et 1997, revalorisation en janvier et juillet (cf. règles
-      fixées par le décret 82-542 du 29/06/1982).
+    1996-07-01: Les plafonds annuels sont inexacts sur legislation.cnav.fr (12*montant mensuel) au lieu de la somme des plafonds mensuels sur l'année.
+    1982-01-01: Entre 1982 et 1997, revalorisation en janvier et juillet (cf. règles fixées par le décret 82-542 du 29/06/1982).
     1962-01-01: Entre 1962 et 1982, revalorisation en janvier uniquement.
     1960-01-01: Changement des anciens francs aux nouveaux francs
     1951-10-01: Référence erronée dans legislation.cnav.fr

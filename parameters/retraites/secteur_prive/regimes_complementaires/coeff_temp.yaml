@@ -38,5 +38,5 @@ metadata:
   - coefficient_temporaire_en_fonction_distance_age_taux_plein
   reference:
     2016-01-01: Accord du 30 octobre 2015
-documentation: "Note: Les coefficients s'appliquent à partir de la génération 1959.\
-  \ \n"
+documentation: |
+  Note: Les coefficients s'appliquent à partir de la génération 1959.

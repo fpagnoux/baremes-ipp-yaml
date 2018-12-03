@@ -46,18 +46,13 @@ metadata:
   - majoration_plafond
   reference:
     1999-01-01: LFSS 98-1194 du 23/12/1998, art. 18 (modif art. L521-1 du CSS)
-    1998-03-01: |-
-      LFSS 97-1164 du 19/12/1997, art. 23 (modif art. L521-1 du CSS)
-      Décret 98-108 du 26/02/1998, art. 1 (crée art. R521-2 du CSS qui fixe les plafonds)
+    1998-03-01: LFSS 97-1164 du 19/12/1997, art. 23 (modif art. L521-1 du CSS); Décret 98-108 du 26/02/1998, art. 1 (crée art. R521-2 du CSS qui fixe les plafonds)
   date_parution_jo:
     1999-01-01: 1998-12-27
-    1998-03-01: |-
-      23/12/1997
-      27/02/1998
+    1998-03-01: 23/12/1997; 27/02/1998
   notes:
     1999-01-01: Suppression de la condition de ressources
-    1998-03-01: Création d'une condition de ressources transitoire (avant une réforme
-      globale prévue des prestations familiales)
+    1998-03-01: Création d'une condition de ressources transitoire (avant une réforme globale prévue des prestations familiales)
 documentation: |
   Notes
-  Définition biactifs : cf. feuille "def_biactif" 
+  Définition biactifs : cf. feuille "def_biactif"

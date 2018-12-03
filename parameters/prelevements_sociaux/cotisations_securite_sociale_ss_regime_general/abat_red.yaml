@@ -1,5 +1,4 @@
-description: Abattement de cotisations SS pour les artistes, médecins et journalistes
-  (1975-2017)
+description: Abattement de cotisations SS pour les artistes, médecins et journalistes (1975-2017)
 artistes:
   description: Artistes
   values:
@@ -35,7 +34,7 @@ documentation: |
   Modifié par les arrêtés du 30/10/1980 et du 12/12/2006.
   Taux réduit à la fois pour les parts salariés et employeurs et pour les cotisations déplafonnées et plafonnées, mais il ne s'applique pas à la CSA.
   Notes médecins à temps partiel :
-  L'arrêté du 03/02/1975 (JO 13/02/1975) détermine un abattement de 30% pour les membres des professions médicales exerçant à temps partiel pour plusieurs employeurs pour les cotisations de sécurité sociale, 
+  L'arrêté du 03/02/1975 (JO 13/02/1975) détermine un abattement de 30% pour les membres des professions médicales exerçant à temps partiel pour plusieurs employeurs pour les cotisations de sécurité sociale,
   d'accident du travail, d'allocation familiales, du versement transport et du FNAL. Les dispositions s'appliquent au 01/01/1975.
   Il est modifié par l'arrêté du 09-06-1982 (JO 30/12/1982) qui limite l'abattement aux cotisations sous plafond (cotisations assurance vieillesse et aide au logement) au 01/07/1982.
   Notes journalistes professionnels pigistes :

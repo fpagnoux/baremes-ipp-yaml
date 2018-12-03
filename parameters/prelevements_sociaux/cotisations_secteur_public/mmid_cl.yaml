@@ -1,5 +1,4 @@
-description: Cotisations maladie - Fonction publique hospitalière et Collectivités
-  locales
+description: Cotisations maladie - Fonction publique hospitalière et Collectivités locales
 fp_hospitaliers_collectivites_locales:
   description: FP hospitaliers/collectivités locales
   sous_plafond:

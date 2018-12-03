@@ -237,8 +237,7 @@ metadata:
   reference:
     2015-01-01: Loi 2014-40 du 20/01/2014, art. 2
     2013-01-01: Décret 2012-1487 du 27/12/2012
-    2012-01-01: Loi 2010-1330 du 9/11/2010, art. 17 ; Décret 2010-1734 du 30/12/2010,
-      art. 9
+    2012-01-01: Loi 2010-1330 du 9/11/2010, art. 17 ; Décret 2010-1734 du 30/12/2010, art. 9
     2009-01-01: Circulaire CNAV 2008/41 du 25/07/2008
     1994-01-01: Circulaire CNAV 103/93 du 30/12/1993
     1983-01-01: Décret 82-628 du 21/07/1982
@@ -248,18 +247,12 @@ metadata:
     2012-01-01: 10/11/2010 ; 31/12/2010
     1983-01-01: 1982-07-23
   notes:
-    2015-01-01: Circulaire CNAV 2014-20 du 27/02/2014 de mise en application de
-      l’article 2 de la loi du 20/01/2014 revient sur cette procédure et définit par
-      une disposition législative, en insérant l’article L. 161-17-3 CSS
-    2013-01-01: Circulaire CNAV 2013-14 du 25/02/2013 pour les modalités de mise
-      en application du décret 2012-1487.
-    2012-01-01: Circulaire CNAV 2011/20 du 01/03/2011 transcrivant l'application
-      de l'art. 17 de la loi 2010-1330 du 09/11/2010.
+    2015-01-01: Circulaire CNAV 2014-20 du 27/02/2014 de mise en application de l’article 2 de la loi du 20/01/2014 revient sur cette procédure et définit par une disposition législative, en insérant l’article L. 161-17-3 CSS
+    2013-01-01: Circulaire CNAV 2013-14 du 25/02/2013 pour les modalités de mise en application du décret 2012-1487.
+    2012-01-01: Circulaire CNAV 2011/20 du 01/03/2011 transcrivant l'application de l'art. 17 de la loi 2010-1330 du 09/11/2010.
     1994-01-01: Article L351-1 du code de la sécurité sociale
-    1983-01-01: Voir également la circulaire n°22/83 du 16/02/1983 relative à l'application
-      dans le régime général de la sécurité sociale des ordonnances n° 82-270  du
-      26/03/1982 et n° 82-290 du 30/03/1982 et du décret n°82-628 du 21/07/1982
+    1983-01-01: Voir également la circulaire n°22/83 du 16/02/1983 relative à l'application dans le régime général de la sécurité sociale des ordonnances n° 82-270  du 26/03/1982 et n° 82-290 du 30/03/1982 et du décret n°82-628 du 21/07/1982
 documentation: |
   Lecture :
-  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 
+  Ce tableau renseigne, pour une date de législation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée).
   La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.

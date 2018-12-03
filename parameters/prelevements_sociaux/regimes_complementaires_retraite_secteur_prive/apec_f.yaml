@@ -1,5 +1,4 @@
-description: Cotisation forfaitaire pour l'Association pour l'emploi des cadres (APEC)
-  (1975-2010)
+description: Cotisation forfaitaire pour l'Association pour l'emploi des cadres (APEC) (1975-2010)
 forfait_annuel:
   description: Forfait annuel
   salarie:
@@ -178,8 +177,7 @@ metadata:
     2006-03-01: Circulaire AGIRC-ARRCO 2005-19-DRE du 13/12/2005
     1976-03-01: Protocole d'accord Agirc-Apec du 30/12/1975.
   notes:
-    2011-01-01: Remplacement de la cotisation forfaitaire par un taux proportionnel
-      sous plafond.
+    2011-01-01: Remplacement de la cotisation forfaitaire par un taux proportionnel sous plafond.
     1976-03-01: Instauration du versement forfaitaire de facto.
 documentation: |
   Notes :

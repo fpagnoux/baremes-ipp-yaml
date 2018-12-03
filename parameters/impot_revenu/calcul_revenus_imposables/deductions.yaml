@@ -275,8 +275,7 @@ deduction_supplementaire:
     - abattement_maximal
     - salaire_plafond
 abattement_forfaitaire_frais_professionnels_salaires_pensions:
-  description: Abattement forfaitaire pour frais professionnels sur les salaires et
-    pensions
+  description: Abattement forfaitaire pour frais professionnels sur les salaires et pensions
   taux:
     description: Taux
     values:
@@ -723,28 +722,17 @@ metadata:
     1978-01-01: LF pour 1979
     1977-01-01: LF pour 1978
   notes:
-    2012-01-01: |-
-      Abattement de 10% salaire et chômeur : art. 83-3 du CGI 
-      Abattement de 10% pensions et retraites : art. 158-5 du CGI
-      Abattement supplémentaire de 20% : art. 158-5 du CGI
+    2012-01-01: 'Abattement de 10% salaire et chômeur : art. 83-3 du CGI ; Abattement de 10% pensions et retraites : art. 158-5 du CGI; Abattement supplémentaire de 20% : art. 158-5 du CGI'
     2006-01-01: Intégration de l'abattement de 20% au barème de l'impôt sur le revenu
     2001-01-01: Voir aussi BOI 5 F-10-01 N° 37 du 21 FEVRIER 2001
     1999-01-01: Voir BOFiP archives [DB 5F252]
-    1997-01-01: |-
-      Valeur minimale d'abattement pour les chômeurs de plus d'un an
-       (art. 13 de la loi de finances pour 1998)
-    1993-01-01: Montant révisé chaque année dans la même proportion que la limite
-      supérieure de la première tranche du barème de l'impôt sur le revenu
+    1997-01-01: Valeur minimale d'abattement pour les chômeurs de plus d'un an;  (art. 13 de la loi de finances pour 1998)
+    1993-01-01: Montant révisé chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu
     1988-01-01: 'Source: Lefebvre Fiscal 1989'
-    1978-01-01: Le maximum sur les pensions est pris en compte par foyer fiscal
-      pour l'imposition des revenus de 1977 et 1978.
-    1974-01-01: Pour les revenus 1973 et 1974, les salariés avaient également droit
-      à un abattement de 10 % au-delà du plafond.
-    1953-01-01: Création d'un abattement supplémentaire pour les salaires inférieurs
-      au seuil (colonne D)
-    1952-01-01: Au titre de l'imposition des revenus des années 1943-1952, les salariés
-      avaient également droit à une déduction forfaitaire pour frais professionnels
-      de 5% au-delà du plafond.
+    1978-01-01: Le maximum sur les pensions est pris en compte par foyer fiscal pour l'imposition des revenus de 1977 et 1978.
+    1974-01-01: Pour les revenus 1973 et 1974, les salariés avaient également droit à un abattement de 10 % au-delà du plafond.
+    1953-01-01: Création d'un abattement supplémentaire pour les salaires inférieurs au seuil (colonne D)
+    1952-01-01: Au titre de l'imposition des revenus des années 1943-1952, les salariés avaient également droit à une déduction forfaitaire pour frais professionnels de 5% au-delà du plafond.
 documentation: |
   Notes :
   (1) Entre 1915 et 1944, des déductions du revenu imposable pour charges des familles étaient appliquées pour le calcul de l'impôt général sur le revenu (et de l'impôt cédulaire sur les salaires) sous forme d'abattement général dépendant du statut marital et du nombre d'enfant.

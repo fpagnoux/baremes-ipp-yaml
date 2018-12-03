@@ -27,8 +27,7 @@ age_minimal:
       1991-11-11:
         value: null
   ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2:
-    description: Pour les ascendants et leurs conjoints qui sont invalides ou anciens
-      déportés ou internés (2)
+    description: Pour les ascendants et leurs conjoints qui sont invalides ou anciens déportés ou internés (2)
     values:
       2016-07-01:
         value: 62.0
@@ -42,8 +41,7 @@ age_minimal:
     - ascendants_leur_conjoint_s_ils_sont_titulaires_aspa
     - ascendants_leurs_conjoints_qui_sont_invalides_anciens_deportes_internes_2
 pourcentage_minimal_handicap_ascendants_descendants_3eme_degre_maximum:
-  description: Pourcentage minimal de handicap pour les ascendants ou descendants
-    du 3ème degré maximum
+  description: Pourcentage minimal de handicap pour les ascendants ou descendants du 3ème degré maximum
   values:
     2000-01-01:
       value: 0.8
@@ -53,8 +51,7 @@ pourcentage_minimal_handicap_ascendants_descendants_3eme_degre_maximum:
     ipp_csv_id: pct_handicap
     unit: /1
 plafonds_ressources_que_potentielles_personnes_charge_autre_que_enfants_doivent_respecter_1:
-  description: Plafonds de ressources que les potentielles personnes à charge autre
-    que les enfants doivent respecter (1)
+  description: Plafonds de ressources que les potentielles personnes à charge autre que les enfants doivent respecter (1)
   values:
     2017-04-01:
       value: 12048.025
@@ -94,8 +91,7 @@ metadata:
   - plafonds_ressources_que_potentielles_personnes_charge_autre_que_enfants_doivent_respecter_1
   reference:
     2017-04-01: Circulaire Cnav 2017-13 du 04/04/2017
-    2016-07-01: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du 14/02/2013
-      (art. 2) (modif. Art. D542-4 du CSS)
+    2016-07-01: Décret 2010-1734 du 30/12/2010 (art. 5) et décret 2013-140 du 14/02/2013 (art. 2) (modif. Art. D542-4 du CSS)
     2016-04-01: Circulaire Cnav 2016/18 du 29/03/2016
     2014-10-01: Décret 2014-1215 du 20/10/2014
     2014-04-01: Circulaire Cnav 2014/28 du 09/04/2014
@@ -115,8 +111,7 @@ metadata:
     1991-11-11: 1991-11-10
   notes:
     2017-04-01: Actualisation plafonds de l'ASPA (utilisés pour les présents plafonds)
-    2016-07-01: Réforme des âges minimals pour les ascendants et leur conjoint (alignement
-      sur les âges de départ à la retraite à taux plein)
+    2016-07-01: Réforme des âges minimals pour les ascendants et leur conjoint (alignement sur les âges de départ à la retraite à taux plein)
     2016-04-01: Actualisation plafonds de l'ASPA (utilisés pour les présents plafonds)
     2014-10-01: Actualisation plafonds de l'ASPA (utilisés pour les présents plafonds)
     2014-04-01: Actualisation plafonds de l'ASPA (utilisés pour les présents plafonds)
@@ -129,6 +124,6 @@ metadata:
     2008-01-01: Actualisation plafonds de l'ASPA (utilisés pour les présents plafonds)
     2000-01-01: Instaure un nouvel âge limite pour les enfants
 documentation: |
-  Notes : 
+  Notes :
   (1) "Plafonds indiqués à l'art. L815-9 du CSS (législation sur les allocations aux personnes âgées)". Ces plafonds seront multipliés par 1,25 à partir de 2007
   (2) A partir du 01/07/2016, les âges indiqués sont ceux en vigueur pour les personnes nés à partir du 1er janvier 1955. Pour les générations d'avant, cet âge minimal varie de manière croissante. Cf. l'article. L16117-2 du CSS pour les détails

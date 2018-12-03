@@ -446,18 +446,13 @@ metadata:
     1972-01-01: 1972-01-29
     1949-01-01: 1949-03-12
   notes:
-    2014-01-01: Modification de l'art. R351-9 du CSS. Validation d'un trimestre
-      pour 150 heures SMIC.
-    1996-01-01: A partir de cette date, même montant pour la métropole, la Réunion
-      et les Antilles.
-    1986-01-01: "Codification: création de l'article R351-9 du CSS. Validation d'un\
-      \ trimestre pour 200 heures de SMIC."
+    2014-01-01: Modification de l'art. R351-9 du CSS. Validation d'un trimestre pour 150 heures SMIC.
+    1996-01-01: A partir de cette date, même montant pour la métropole, la Réunion et les Antilles.
+    1986-01-01: "Codification: création de l'article R351-9 du CSS. Validation d'un trimestre pour 200 heures de SMIC."
     1972-01-01: Un trimestre correspond à 200 heures SMIC
     1960-01-01: Passage aux nouveaux Francs.
-    1949-01-01: Un trimestre correspond à l'AVTS trimestrielle (jusqu'au 31/12/1962,
-      ce montant est celui des villes de plus de 5 000 habitants)
-    1930-01-01: 60 cotisations journalières donnent droit à un trimestre, dans la
-      limite de 22 sur la période 1930 à 1935.
+    1949-01-01: Un trimestre correspond à l'AVTS trimestrielle (jusqu'au 31/12/1962, ce montant est celui des villes de plus de 5 000 habitants)
+    1930-01-01: 60 cotisations journalières donnent droit à un trimestre, dans la limite de 22 sur la période 1930 à 1935.
 documentation: |
   Notes :
   Le montant permettant une validation d'un trimestre est fonction de l'AVTS jusqu'en 1971, puis d'un multiple du SMIC.

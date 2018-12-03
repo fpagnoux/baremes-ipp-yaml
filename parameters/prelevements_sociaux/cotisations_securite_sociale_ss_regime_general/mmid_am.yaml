@@ -1,5 +1,4 @@
-description: Cotisations du régime local d'assurance maladie d'Alsace et Moselle MMID-AM
-  (1967-2017)
+description: Cotisations du régime local d'assurance maladie d'Alsace et Moselle MMID-AM (1967-2017)
 salaries:
   description: Salariés
   sous_plafond:
@@ -150,10 +149,8 @@ metadata:
     1947-07-01: 1947-08-28
     1946-07-01: 1946-06-14
   notes:
-    2000-07-01: "Référence de l'avis absent sur légifrance mais disponible ici:\
-      \ http://admi.net/jo/2000/09573.html"
-    1967-10-01: Erreur de la référence législative dans l'historique des cotisations
-      fourni par le régime local.
+    2000-07-01: "Référence de l'avis absent sur légifrance mais disponible ici: http://admi.net/jo/2000/09573.html"
+    1967-10-01: Erreur de la référence législative dans l'historique des cotisations fourni par le régime local.
     1946-07-01: La date de début d'effet est supputée.
 documentation: |
   Sources :

@@ -58,11 +58,10 @@ metadata:
   - date_entree_en_vigueur
   - reduction_impot_exceptionnelle
   reference:
-    2013-01-01: Loi 2014-891 (art. 1) du 08/08/2014 de finances rectificative pour
-      2014
+    2013-01-01: Loi 2014-891 (art. 1) du 08/08/2014 de finances rectificative pour 2014
 documentation: |
   Notes:
   Réduction d'impôt exceptionnelle créée par la LFR 1 2014 forfaitaire sous condition que le revenu fiscal de référence soit inférieur à un certain seuil.
-  Montant maximum: 350 pour les célibataires, veufs ou divorcés, 700 si imposition commune 
+  Montant maximum: 350 pour les célibataires, veufs ou divorcés, 700 si imposition commune
   Plafond: 14145*min(nombre de parts, 2)
   Majoration du plafond: 3536*max(nombre de parts -2, 0)

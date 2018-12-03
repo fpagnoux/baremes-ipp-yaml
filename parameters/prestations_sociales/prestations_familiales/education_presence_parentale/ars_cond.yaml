@@ -1,5 +1,4 @@
-description: "Allocation de rentrée scolaire (ARS) : condition d'âge des personnes\
-  \ à charge"
+description: "Allocation de rentrée scolaire (ARS) : condition d'âge des personnes à charge"
 age_minimal_enfant_1:
   description: Âge minimal de l'enfant (1)
   values:
@@ -28,9 +27,8 @@ metadata:
     1974-08-14: 1974-08-14
   notes:
     1990-09-05: Extension de l'ARS par la loi 90-590 du  06/07/1990
-    1974-08-14: L'article 14 de la LFR 74-644 du 16/07/1974 (JO 17/07/1974)crée
-      l'Allocation de rentrée scolaire (ARS)
+    1974-08-14: L'article 14 de la LFR 74-644 du 16/07/1974 (JO 17/07/1974)crée l'Allocation de rentrée scolaire (ARS)
 documentation: |
   Notes :
-  (1) Age de l'enfant à charge avant le 1er février de l'année suivant celle la rentrée scolaire. 
-  (2) Age de l'enfant à charge au 15 septembre de l'année de la rentrée scolaire. 
+  (1) Age de l'enfant à charge avant le 1er février de l'année suivant celle la rentrée scolaire.
+  (2) Age de l'enfant à charge au 15 septembre de l'année de la rentrée scolaire.

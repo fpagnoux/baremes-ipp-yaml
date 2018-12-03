@@ -16,8 +16,7 @@ date_entree_en_vigueur:
     order:
     - annee_revenus
 credit_impot_interets_emprunt_habitation_principale_reforme_sarkozy:
-  description: Crédit d'impôt - intérêts d'emprunt pour l'habitation principale (réforme
-    Sarkozy)
+  description: Crédit d'impôt - intérêts d'emprunt pour l'habitation principale (réforme Sarkozy)
   cas_base:
     description: Cas de base
     taux_2:
@@ -167,8 +166,7 @@ metadata:
     2011-01-01: Loi 2010-1657 (art. 90) du 29/12/2010
     2010-01-01: Loi 2009-1673 (art. 84) du 30/12/2009
     2009-01-01: Loi 2008-1425 (art. 103) du 27/12/2008
-    2008-01-01: Loi 2007-1223 (art. 5) du 21/08/2007 + Loi 2007-1822 (art. 13) du
-      24/12/2007
+    2008-01-01: Loi 2007-1223 (art. 5) du 21/08/2007 + Loi 2007-1822 (art. 13) du 24/12/2007
 documentation: |
   (1) Référence législative : art. 200 quaterdecies du CGI
   (2) Taux appliqué aux intérêts payés au titre des cinq premières annuités de remboursement, à l'exclusion des frais d'emprunt et des cotisations d'assurances contractées en vue de garantir le remboursement des prêts.

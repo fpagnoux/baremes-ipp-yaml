@@ -13,17 +13,14 @@ age_maximal_personnes_charge_1:
   metadata:
     ipp_csv_id: age_max_pac
 age_maximal_personnes_charge_en_apprentissage_en_stage_formation_donnant_droit_aes_1:
-  description: Âge maximal pour les personnes à charge en apprentissage, en stage
-    de formation, ou donnant droit à l'AES (1)
+  description: Âge maximal pour les personnes à charge en apprentissage, en stage de formation, ou donnant droit à l'AES (1)
   values:
     1985-12-22:
       value: 20.0
   metadata:
     ipp_csv_id: age_min_pac
 revenu_plafond_personnes_charge_n_etant_plus_sous_obligation_scolaire_en_smic_2:
-  description: |-
-    Revenu plafond pour les personnes à charge n'étant plus sous l'obligation scolaire
-    (en % du SMIC) (2)
+  description: Revenu plafond pour les personnes à charge n'étant plus sous l'obligation scolaire (en % du SMIC) (2)
   values:
     1985-12-22:
       value: 0.55
@@ -52,5 +49,5 @@ metadata:
     1999-01-01: Pour les enfants nés à partir du 01/01/1980
 documentation: |
   Notes :
-  (1) Les âges maxima sont différents pour le complément familial et les aides au logement.                                                             Cf. les feuilles de barème associées à ces dispositifs. 
+  (1) Les âges maxima sont différents pour le complément familial et les aides au logement.                                                             Cf. les feuilles de barème associées à ces dispositifs.
   (2)En vertu de l'article R512-2 du CSS*, la base à appliquer à ce pourcentage est le SMIC horaire défini aux articles L141-1 à L141-9 du Code du Travail, multiplié par 169.

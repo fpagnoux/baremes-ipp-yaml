@@ -1,5 +1,4 @@
-description: Dépenses d’accueil dans un établissement pour personnes dépendantes (1990
-  - 2016)
+description: Dépenses d’accueil dans un établissement pour personnes dépendantes (1990 - 2016)
 date_entree_en_vigueur:
   description: Date d'entrée en vigueur
   annee_ir:
@@ -33,8 +32,7 @@ date_entree_en_vigueur:
     order:
     - annee_ir
 reductions_impot_depenses_accueil_dans_etablissement_personnes_agees:
-  description: Réductions d'impôt pour dépenses d'accueil dans établissement pour
-    les personnes âgées
+  description: Réductions d'impôt pour dépenses d'accueil dans établissement pour les personnes âgées
   taux:
     description: Taux
     values:
@@ -82,19 +80,12 @@ metadata:
     1991-01-01: Loi 91-1322 du 30/12/1991 (LF pour 1992) - art. 2
     1990-01-01: Décret n°91-883 du 09/09/1991 - art. 1 / JORF 10/09/1991
   notes:
-    2006-01-01: Réécriture complète de l'art. 199 quindecies du CGI (simplification
-      des établissements concernés, extension à l'UE, base des frais élargie)
-    2004-01-01: Renommée Dépenses d'accueil dans un établissement pour personnes
-      âgées dépendantes
-    2003-01-01: Renommée Dépenses liées à la dépendance ou frais d'accueil (à partir
-      de 2003, le plafonnement s'applique par personne dépendante)
-    2001-01-01: Renommée Dépenses liées à la dépendance en cas d'accueil dans un
-      établissement pour personnes âgées dépendantes ou frais d'hébergement dans une
-      section de soins de longue durée ou de cure médicale
-    2000-01-01: Rénommée Dépenses d'hébergement dans un établissement de long séjour
-      ou pour personnes âgées dépendantes ou dans une section de cure médicale
-    1990-01-01: Applicable à partir des revenus 1989 (réductions communes aux art.
-      199 quaterdecies et quindecies du CGI)
+    2006-01-01: Réécriture complète de l'art. 199 quindecies du CGI (simplification des établissements concernés, extension à l'UE, base des frais élargie)
+    2004-01-01: Renommée Dépenses d'accueil dans un établissement pour personnes âgées dépendantes
+    2003-01-01: Renommée Dépenses liées à la dépendance ou frais d'accueil (à partir de 2003, le plafonnement s'applique par personne dépendante)
+    2001-01-01: Renommée Dépenses liées à la dépendance en cas d'accueil dans un établissement pour personnes âgées dépendantes ou frais d'hébergement dans une section de soins de longue durée ou de cure médicale
+    2000-01-01: Rénommée Dépenses d'hébergement dans un établissement de long séjour ou pour personnes âgées dépendantes ou dans une section de cure médicale
+    1990-01-01: Applicable à partir des revenus 1989 (réductions communes aux art. 199 quaterdecies et quindecies du CGI)
 documentation: |
   Notes :
   (1) Art. 199 quindecies du CGI : Réduction d'impôt accordée au titre de l'hébergement en établissement de long séjour ou en section de cure médicale

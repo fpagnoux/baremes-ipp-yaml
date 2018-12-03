@@ -100,8 +100,7 @@ assures_actifs:
       ipp_csv_id: mmid_ac_0_5
       unit: /1
   sous_5_pss_supplement_artisans_verse_titre_indemnites_journalieres_ij:
-    description: 'Sous 5 PSS: supplément pour les artisans, versé au titre des indemnités
-      journalières (IJ)'
+    description: 'Sous 5 PSS: supplément pour les artisans, versé au titre des indemnités journalières (IJ)'
     values:
       2001-01-01:
         value: null
@@ -246,8 +245,7 @@ metadata:
     2013-03-01: Décret 2012-1551 du 28/12/2012, art. 2
     2007-01-01: Décret 2007-50 du 11/01/2007, art. 1
     2005-01-01: Décret 2004-1230 du 17/1/2004, art. 1 (V)
-    2001-01-01: Décret 2000-1285 du 26/12/2000, art. 1; Décret 2000-507 du 8/06/2000,
-      art. 1
+    2001-01-01: Décret 2000-1285 du 26/12/2000, art. 1; Décret 2000-507 du 8/06/2000, art. 1
     1998-01-01: Décret 97-1252 du 29/12/1997, art. 3
     1997-01-01: Décret 96-1167 du 26/12/1996, art. 3
     1995-07-01: Décret 95-556 du 06/05/1995
@@ -277,9 +275,7 @@ metadata:
     2013-03-01: 2012-12-30
     2007-01-01: 2007-01-12
     2005-01-01: 2004-11-20
-    2001-01-01: |-
-      29/12/2000
-      11/06/2000
+    2001-01-01: 29/12/2000; 11/06/2000
     1998-01-01: 1997-12-30
     1997-01-01: 1996-12-29
     1995-07-01: 1995-05-07
@@ -300,23 +296,17 @@ metadata:
     1976-10-01: 1976-07-16
     1975-10-01: 1975-08-08
     1975-04-01: 1975-02-12
-    1974-10-01: |-
-      08/08/1975
-      30/12/1973
+    1974-10-01: 08/08/1975; 30/12/1973
     1973-04-01: 1973-01-27
     1970-04-01: 1971-04-14
   notes:
-    2018-01-01: Progressivité du taux de cotisation (voir Note, (2)). Le taux indiqué
-      comprend la cotisation pour IJ.
+    2018-01-01: Progressivité du taux de cotisation (voir Note, (2)). Le taux indiqué comprend la cotisation pour IJ.
     2017-01-01: Progressivité du taux de cotisation (voir Note, (1))
     2007-01-01: Taux de cotisation supplémentaire pour IJ passe à 0,7 %
-    2001-01-01: Taux de cotisation supplémentaire pour IJ valable pour artisans
-      et commerçants (5,90 % + 0,5 %)
-    1998-01-01: La cotisation sur les pensions ne concerne plus que les assujettis
-      fiscalement domiciliés à l'étranger
+    2001-01-01: Taux de cotisation supplémentaire pour IJ valable pour artisans et commerçants (5,90 % + 0,5 %)
+    1998-01-01: La cotisation sur les pensions ne concerne plus que les assujettis fiscalement domiciliés à l'étranger
     1995-07-01: Création du régime d'IJ pour les artisans
-    1974-10-01: Décision d'une harmonisation progressive entre régimes des artisans
-      et commerçants et régime général achevée au plus tard le 31 décembre 1977
+    1974-10-01: Décision d'une harmonisation progressive entre régimes des artisans et commerçants et régime général achevée au plus tard le 31 décembre 1977
 documentation: |
   Loi 66-509 du 12/07/1966
   1966-07-13

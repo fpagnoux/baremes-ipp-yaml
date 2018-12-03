@@ -93,9 +93,7 @@ autres_revenus_non_salariaux:
     order:
     - abattement
 bnc_autres_produits_charges_offices_bic_artisans_assimiles:
-  description: |-
-    BNC "autres produits des charges et offices"
-    BIC "artisans et assimilés"
+  description: BNC "autres produits des charges et offices" BIC "artisans et assimilés"
   abattement:
     description: abattement
     values:
@@ -125,10 +123,7 @@ bnc_autres_produits_charges_offices_bic_artisans_assimiles:
     - abattement
     - seuil
 bnc_produits_charges_offices_bic_autres_que_artisans_assimiles_ba:
-  description: |-
-    BNC produits des charges et offices"
-    BIC autres que"artisans et assimilés"
-    BA
+  description: BNC produits des charges et offices" BIC autres que"artisans et assimilés" BA
   seuil:
     description: seuil
     values:
@@ -196,9 +191,7 @@ reduction_impot_charge_famille:
     - 3_pac
     - 4_pac
 plafond_maximum_reduction_par_pac:
-  description: |-
-    plafond:
-    maximum de la réduction par pac
+  description: 'plafond: maximum de la réduction par pac'
   jusqu_2_pacs:
     description: Jusqu'à 2 pacs
     values:

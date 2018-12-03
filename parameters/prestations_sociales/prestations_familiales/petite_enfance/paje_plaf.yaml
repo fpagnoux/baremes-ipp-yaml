@@ -41,9 +41,7 @@ premier_plafond_ne_adopte_avant_1er_avril_2014:
 majoration_en_eur_en_plafond_ressources_avec_0_enfant:
   description: Majoration (en € ou en % du plafond de ressources avec 0 enfant)
   biactifs_parents_isoles_1:
-    description: |-
-      Biactifs et parents isolés
-      (1)
+    description: Biactifs et parents isolés (1)
     values:
       2018-01-01:
         value: null
@@ -123,12 +121,9 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_partiel:
     order:
     - plafond_ressources_0_enfant
 majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_partiel:
-  description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né
-    ou adopté avant le 1er après 2014)- Taux partiel
+  description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né ou adopté avant le 1er après 2014)- Taux partiel
   biactifs_parents_isoles_1:
-    description: |-
-      Biactifs et parents isolés
-      (1)
+    description: Biactifs et parents isolés (1)
     values:
       2018-01-01:
         value: 9722.0
@@ -179,12 +174,9 @@ deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein:
     order:
     - plafond_ressources_0_enfant
 majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_plein:
-  description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né
-    ou adopté avant le 1er après 2014) - Taux plein
+  description: Majoration (en € ou en % du plafond de ressources avec 0 enfant, né ou adopté avant le 1er après 2014) - Taux plein
   biactifs_parents_isoles_1:
-    description: |-
-      Biactifs et parents isolés
-      (1)
+    description: Biactifs et parents isolés (1)
     values:
       2018-01-01:
         value: 8137.0
@@ -222,9 +214,7 @@ metadata:
   - deuxieme_plafond_ne_adopte_apres_1er_avril_2014_taux_plein
   - majoration_en_eur_en_plafond_ressources_avec_0_enfant_ne_adopte_avant_1er_apres_2014_taux_plein
   reference:
-    2018-01-01: |-
-      Circulaire DSS/SD2B/2017/352  du 22/12/2017
-      Arrêté du 27/12/2017
+    2018-01-01: Circulaire DSS/SD2B/2017/352  du 22/12/2017; Arrêté du 27/12/2017
     2016-01-01: Circulaire DSS/SD2B/2015/371
     2015-01-01: Circulaire DSS/SD2B/2014/345
     2014-04-01: Décret 2014-422 du 24 avril 2014
@@ -252,13 +242,9 @@ metadata:
     2004-07-01: 2004-07-18
     2004-01-01: 2004-01-01
   notes:
-    2018-01-01: Revalorisation des plafonds de 0,2%. Les plafonds pour les enfants
-      nés avant le 01/04/2014 sont supprimés, car ces enfants ont désormais plus de
-      3 ans.
-    2016-01-01: Pas de modification pour 2017 cf. Circulaire DSS/SD2B/2016/396 du
-      21/12/2016
-    2004-01-01: 'Création de la PAJE. Mais entrée en vigueur progressive : de janvier
-      2004 à décembre 2006 inclus (cf. art. 60, VIII de la loi 2003-1199)'
+    2018-01-01: Revalorisation des plafonds de 0,2%. Les plafonds pour les enfants nés avant le 01/04/2014 sont supprimés, car ces enfants ont désormais plus de 3 ans.
+    2016-01-01: Pas de modification pour 2017 cf. Circulaire DSS/SD2B/2016/396 du 21/12/2016
+    2004-01-01: 'Création de la PAJE. Mais entrée en vigueur progressive : de janvier 2004 à décembre 2006 inclus (cf. art. 60, VIII de la loi 2003-1199)'
 documentation: |
   Notes :
   (1) Définition biactifs : cf. feuille "def_biactif"

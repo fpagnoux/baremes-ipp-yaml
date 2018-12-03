@@ -52,11 +52,8 @@ metadata:
     2000-01-01: 1999-12-31
     1992-01-01: 1992-01-04
   notes:
-    2012-08-18: Pour les artisans, le taux est de 0,17 % en Alsace-Moselle. Cette
-      disposition prend fin à partir du 01/01/2017.
-    2008-01-01: Le taux maximal pour les commerçants, auparavant de 0,24 %, est
-      passé à 0,17 %, avec ajout d'un droit additionnel à la taxe pour frais de chambre
-      de métiers à 0,12 %
+    2012-08-18: Pour les artisans, le taux est de 0,17 % en Alsace-Moselle. Cette disposition prend fin à partir du 01/01/2017.
+    2008-01-01: Le taux maximal pour les commerçants, auparavant de 0,24 %, est passé à 0,17 %, avec ajout d'un droit additionnel à la taxe pour frais de chambre de métiers à 0,12 %
 documentation: |
   Note :
   Depuis 2005, les commerçants et industriels paient un supplément de 0,9% si leur conjoint a le statut de conjoint collaborateur.

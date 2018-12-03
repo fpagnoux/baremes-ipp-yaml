@@ -40,8 +40,7 @@ montant_maximum_annuel:
       ipp_csv_id: aspa_seul
       unit: currency-EUR
   couple_lorsqu_seul_conjoint_est_beneficiaire_aspa_autre_allocation_supplementaire_invalidite:
-    description: Couple (ou lorsqu'un seul conjoint est bénéficiaire de l'ASPA et
-      l'autre de l'allocation supplémentaire d'invalidité)
+    description: Couple (ou lorsqu'un seul conjoint est bénéficiaire de l'ASPA et l'autre de l'allocation supplémentaire d'invalidité)
     values:
       2020-01-01:
         value: 16826.64
@@ -194,10 +193,9 @@ metadata:
   notes:
     2020-01-01: 'Revalorisation de 10% sur 3 ans : (+3,8%, +4,2% et +4,0%)'
     2009-04-01: Circulaire Cnav 2009/31 du 16/04/2009
-    2006-01-01: Modifie art. D815-1 et D815-2 du CSS. Les montants ci-contre sont
-      valables à partir du 01/01/2006, même si le décret date de 2007.
+    2006-01-01: Modifie art. D815-1 et D815-2 du CSS. Les montants ci-contre sont valables à partir du 01/01/2006, même si le décret date de 2007.
 documentation: |
   Notes :
-  L'ASPA vise à remplacer le minimum vieillesse et une série de dispositifs destinés aux personnes âgées disposant de faibles ressources. 
-  L'ASPA est ouverte à toute personne de plus de 65 ans, cette condition d'âge étant abaissée à l'âge minimun de départ en retraite pour les personnes reconnues inaptes au travail (incapcité d'au moins 50%) et les bénéficiaires 
+  L'ASPA vise à remplacer le minimum vieillesse et une série de dispositifs destinés aux personnes âgées disposant de faibles ressources.
+  L'ASPA est ouverte à toute personne de plus de 65 ans, cette condition d'âge étant abaissée à l'âge minimun de départ en retraite pour les personnes reconnues inaptes au travail (incapcité d'au moins 50%) et les bénéficiaires
   d'une retraite anticipée pour handicap. Par ailleurs, le demandeur doit satisfaire aux conditions de ressources et de résidence (régulière en métropole ou dans les départements d'outre-mer).

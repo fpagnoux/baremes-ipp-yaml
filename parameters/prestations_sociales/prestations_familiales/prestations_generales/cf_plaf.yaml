@@ -67,12 +67,10 @@ metadata:
   - plafond_ressources_revenu_brut_imposable_1
   - majoration_plafond_ressources_enfant_supplementaire
   reference:
-    1986-07-01: Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478 du
-      26/04/1985
+    1986-07-01: Loi 04/01/1985 (art. L 524-526 du CSS)  Décrets 85-477 et 478 du 26/04/1985
     1983-01-01: Décret 82-1137 du 29/12/82 (Taux)
     1978-07-01: Décret 78-728 du 11/07/1978
-    1978-01-01: Loi 77-765 du 12/07/1977                                                                                                                Décret
-      77-1265 du 16/11/1977
+    1978-01-01: Loi 77-765 du 12/07/1977                                                                                                                Décret 77-1265 du 16/11/1977
   date_parution_jo:
     1986-07-01: 1985-05-04
     1983-01-01: 1982-12-30
@@ -81,4 +79,4 @@ metadata:
 documentation: |
   Notes :
   (1) Le brut imposable est calculé à partir du net imposable dans le cas de salariés n'ayant d'autres sources de revenus que leurs salaires et ne bénéficiant pas d'un abattement supplémentaire pour frais professionnels, ie abattements de 10% puis de 20% uniquement
-  (2) Deux revenus chacun égaux à 6 fois la bmaf en vigueur le 01/07 de ladite année. 
+  (2) Deux revenus chacun égaux à 6 fois la bmaf en vigueur le 01/07 de ladite année.

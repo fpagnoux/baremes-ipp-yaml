@@ -60,8 +60,7 @@ majoration_vie_autonome:
   metadata:
     unit: currency-EUR
 montant_mensuel_complement_ressources_aux_adultes_handicapes_1:
-  description: Montant mensuel du complément de ressources aux adultes handicapés
-    (1)
+  description: Montant mensuel du complément de ressources aux adultes handicapés (1)
   values:
     2006-07-01:
       value: 179.31

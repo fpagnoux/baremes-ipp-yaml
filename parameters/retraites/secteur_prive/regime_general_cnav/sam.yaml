@@ -1,7 +1,6 @@
 description: Nombre d'années prises en compte dans la calcul du SAM
 nombre_annees_carriere_entrant_en_jeu_dans_determination_salaire_annuel_moyen:
-  description: Nombre d'années de carrière entrant en jeu dans la détermination du
-    salaire annuel moyen
+  description: Nombre d'années de carrière entrant en jeu dans la détermination du salaire annuel moyen
   avant_1933:
     description: Avant 1933
     values:
@@ -179,9 +178,9 @@ metadata:
     1972-01-01: Voir note (2).
 documentation: |
   Lecture :
-  Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée). 
+  Ce tableau renseigne, pour une date de légilsation donnée (la date d'effet, en ligne), le paramètre en fonction de la date de naissance (en ordonnée).
   La valeur renseignée est valable à partir de la date de naissance, jusqu'à la date suivante. Quand une date de naissance est la dernière renseignée, la valeur du paramètre est considérée comme constante à partir de cette date.
   Notes :
-  (1): Les durées de 25 ans sont applicables aux pensions prenant effet postérieurement au 31/12/2007, quelle que soit la date de naissance de l'assuré selon le décret 93-1022. Cette disposition est réaffirmée par le décret 2004-144. 
+  (1): Les durées de 25 ans sont applicables aux pensions prenant effet postérieurement au 31/12/2007, quelle que soit la date de naissance de l'assuré selon le décret 93-1022. Cette disposition est réaffirmée par le décret 2004-144.
   Le décret 2007-614 stipule que ces durées sont applicables aux assurés nés après 1947, quelle que soit la date d'effet de leur pension.
   (2): Précedemment, le SAM était établi sur les dix dernières années de carrière et non sur les dix meilleures. Voir également la circulaire CNAV 22/83 du 16/02/1983.

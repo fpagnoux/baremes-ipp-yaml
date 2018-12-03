@@ -58,8 +58,7 @@ agents_generaux_assurance:
 infirmiers_masseurs_kine_orthophonistes_orthoptistes:
   description: Infirmiers, masseurs-kiné, orthophonistes, orthoptistes
   commissions_remunerations_brutes_entre_seuil_plancher_seuil_plafond:
-    description: Commissions et rémunérations brutes entre un seuil plancher et un
-      seuil plafond
+    description: Commissions et rémunérations brutes entre un seuil plancher et un seuil plafond
     retraite_complementaire:
       description: Retraite complémentaire
       values:
@@ -76,8 +75,7 @@ infirmiers_masseurs_kine_orthophonistes_orthoptistes:
   sous_5_pss:
     description: Sous 5 PSS
     regime_supplementaire_auxilliaires_medicaux_conventionnes_asv:
-      description: Régime supplémentaire pour les auxilliaires médicaux conventionnés
-        (ASV)
+      description: Régime supplémentaire pour les auxilliaires médicaux conventionnés (ASV)
       values:
         2011-01-01:
           value: 0.004
@@ -201,8 +199,7 @@ medecins:
   sous_5_pss:
     description: Sous 5 PSS
     regime_supplementaire_obligatoire_medecins_conventionnes_asv:
-      description: Régime supplémentaire obligatoire pour les médecins conventionnés
-        (ASV)
+      description: Régime supplémentaire obligatoire pour les médecins conventionnés (ASV)
       values:
         2018-01-01:
           value: 0.032
@@ -235,8 +232,7 @@ pharmaciens:
   sous_5_pss:
     description: Sous 5 PSS
     regime_supplementaire_biologistes_medicaux_conventionnes_uniquement_asv:
-      description: Régime supplémentaire pour les biologistes médicaux conventionnés
-        uniquement (ASV)
+      description: Régime supplémentaire pour les biologistes médicaux conventionnés uniquement (ASV)
       values:
         2008-01-01:
           value: 0.003
@@ -254,8 +250,7 @@ pharmaciens:
 notaires:
   description: Notaires
   moyenne_produits_base_office_3_dernieres_annees_limitee_3_moyenne_generale_produits_offices_france:
-    description: Moyenne des produits de base de l'office des 3 dernières années,
-      limitée à 3*moyenne générale des produits des offices de France
+    description: Moyenne des produits de base de l'office des 3 dernières années, limitée à 3*moyenne générale des produits des offices de France
     section_allocation_variable:
       description: Section A (allocation variable)
       values:
@@ -323,8 +318,7 @@ metadata:
     2015-01-01: Décret 2015-1802 du 29/12/2015
     2014-01-01: Décret 2013-1081 du 29/11/2013
     2013-01-01: Décret 2011-1644 du 25/11/2011
-    2012-01-01: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012; Décret
-      2011-1644 du 25/11/2011
+    2012-01-01: Décret 2011-1419 du 31/10/2011; Décret 2012-478 du 12/04/2012; Décret 2011-1644 du 25/11/2011
     2011-01-01: Décret 2011-674 du 15/06/2011
     2010-01-01: Décret 2010-1253 du 21/10/2010; Décret 2008-1044 du 10/10/2008
     2009-01-01: Décret 2009-1635 du 23/12/2009
@@ -354,36 +348,23 @@ metadata:
     2015-01-01: 2015-12-30
     2014-01-01: 2013-12-01
     2013-01-01: 2011-11-26
-    2012-01-01: |-
-      03/11/2011
-      14/04/2012
-      26/11/2011
+    2012-01-01: 03/11/2011; 14/04/2012; 26/11/2011
     2011-01-01: 2011-06-17
-    2010-01-01: |-
-      23/10/2010
-      11/10/2008
+    2010-01-01: 23/10/2010; 11/10/2008
     2009-01-01: 2009-12-26
     2008-01-01: 25/04/2007 ; 28/03/2007
     2005-01-01: 2004-10-28
     2004-01-01: 2004-10-17
-    2002-01-01: |-
-      22/09/2001
-      28/12/2002
+    2002-01-01: 22/09/2001; 28/12/2002
     2001-01-01: 2001-12-13
     2000-01-01: 2000-11-09
     1999-01-01: 1999-11-25
-    1998-01-01: |-
-      21/12/1997
-      17/07/1998
-    1997-01-01: |-
-      11/09/1997
-      29/12/1996
+    1998-01-01: 21/12/1997; 17/07/1998
+    1997-01-01: 11/09/1997; 29/12/1996
     1996-01-01: 1996-07-23
     1993-01-01: 1992-12-30
     1991-01-01: 1991-09-05
-    1983-01-01: |-
-      31/12/1982
-      10/07/1983
+    1983-01-01: 31/12/1982; 10/07/1983
     1971-01-01: 1970-10-30
     1968-01-01: 1967-12-28
     1963-01-01: 1963-02-13
@@ -391,28 +372,17 @@ metadata:
     1951-01-01: 1951-03-20
     1949-01-01: 1949-06-01
   notes:
-    2018-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et
-      Metz.
-    2017-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et
-      Metz.
-    2016-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et
-      Metz.
-    2012-01-01: Création d'une cotisation proportionnelle pour financer l'ASV pour
-      les médecins conventionnés
-    2010-01-01: Création d'une cotisation proportionnelle pour financer l'ASV pour
-      les auxiliaires médicaux (infirmiers, masseurs-kiné, etc.)
+    2018-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et Metz.
+    2017-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et Metz.
+    2016-01-01: Valeur inconnue de la cotisation pour les notaires de Colmar et Metz.
+    2012-01-01: Création d'une cotisation proportionnelle pour financer l'ASV pour les médecins conventionnés
+    2010-01-01: Création d'une cotisation proportionnelle pour financer l'ASV pour les auxiliaires médicaux (infirmiers, masseurs-kiné, etc.)
     2005-01-01: Regroupement des sections A et U en une section C
-    2004-01-01: Création  d'un régime d'assurance invalidité-décès pour les agents
-      généraux d'assurance
-    1997-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation
-      forfaitaire qui existait déjà pour les chirurgiens dentistes
-    1996-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation
-      ofrfaitaire qui existait depuis la création du régime complémentaire en 1984
-      pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
-    1983-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation
-      forfaitaire qui existait déjà pour les médecins
-    1951-01-01: Création d'un régime supplémentaire pour les notaires du ressort
-      de la Cour d'appel de Colmar
+    2004-01-01: Création  d'un régime d'assurance invalidité-décès pour les agents généraux d'assurance
+    1997-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation forfaitaire qui existait déjà pour les chirurgiens dentistes
+    1996-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation ofrfaitaire qui existait depuis la création du régime complémentaire en 1984 pour les infirmiers, masseurs-kiné, orthophonistes et orthoptistes
+    1983-01-01: Institution d'une cotisation proportionnelle en plus de la cotisation forfaitaire qui existait déjà pour les médecins
+    1951-01-01: Création d'un régime supplémentaire pour les notaires du ressort de la Cour d'appel de Colmar
 documentation: |
   Notes :
   (1) La Caisse nationale d'assurance vieillesse des professions libérales (CNAVPL) comprend 10 sections professionnelles gérant différents régimes:
@@ -438,4 +408,4 @@ documentation: |
   Cotisation minimale = 0,0525*PSS annuel*taux de cotisation (effectif)
   (ii) Invalidité-décès
   Pour les affiliés percevant un revenu professionnel inférieur à 20% du PSS par an, une cotisation minimale annuelle est due.
-  Cotisation minimale = 0,2*PSS annuel*taux de cotisation 
+  Cotisation minimale = 0,2*PSS annuel*taux de cotisation

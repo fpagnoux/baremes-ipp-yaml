@@ -1,7 +1,6 @@
 description: Coefficient de minoration AGIRC
 coefficient_minoration_agirc_en_fonction_distance_age_annulation_decote_en_annee:
-  description: Coefficient de minoration à l'Agirc en fonction de la distance à l'âge
-    d'annulation de la décote (en année)
+  description: Coefficient de minoration à l'Agirc en fonction de la distance à l'âge d'annulation de la décote (en année)
   '-10':
     description: '-10'
     values:

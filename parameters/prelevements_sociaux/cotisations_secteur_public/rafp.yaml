@@ -1,5 +1,4 @@
-description: Cotisations au régime de Retraite additionnelle de la fonction publique
-  (RAFP)
+description: Cotisations au régime de Retraite additionnelle de la fonction publique (RAFP)
 taux_cotisation:
   description: Taux de cotisation
   agent:
@@ -33,5 +32,5 @@ documentation: |
   Note :
   Le RAFP est un régime obligatoire à points permettant aux fonctionnaires d'acquérir une retraite additionnelle.
   Assiette :
-  Ensemble des rémunérations soumises à CSG mais non soumises à la cotisation vieillesse du régime de base, 
+  Ensemble des rémunérations soumises à CSG mais non soumises à la cotisation vieillesse du régime de base,
   (i.e. primes et indemnités) sous plafond de 20% du traitement indicaire brut de l'année.

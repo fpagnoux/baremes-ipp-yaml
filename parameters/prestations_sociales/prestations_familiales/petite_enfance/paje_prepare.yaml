@@ -1,5 +1,4 @@
-description: "Prestation d'accueil du jeune enfant (PAJE) : Prestation partagée d'éducation\
-  \ de l'enfant (PreParE)"
+description: "Prestation d'accueil du jeune enfant (PAJE) : Prestation partagée d'éducation de l'enfant (PreParE)"
 age_limite:
   description: Age limite
   etre_ne_adopte_apres:
@@ -11,8 +10,7 @@ age_limite:
     order:
     - etre_ne_adopte_apres
 age_maximal_plus_jeune_enfant_beneficier_prepare_en_annee_1:
-  description: Age maximal du plus jeune enfant pour bénéficier de la PrePare (en
-    année) (1)
+  description: Age maximal du plus jeune enfant pour bénéficier de la PrePare (en année) (1)
   enfant:
     description: Un enfant
     values:
@@ -37,9 +35,7 @@ prestation_partagee_education_enfant_prepare_en_bmaf:
     metadata:
       unit: /1
   taux_partiel_50:
-    description: |-
-      Taux partiel
-      < 50%
+    description: Taux partiel < 50%
     values:
       2015-01-01:
         value: 0.6246
@@ -94,6 +90,6 @@ metadata:
     2015-01-01: Pas de modification pour 2017 cf. DSS/SD2B/2017/97 du 21/03/2017
 documentation: |
   Notes :
-  (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants. 
+  (1) Ces conditions varient selon qu'on soit en couple ou un parent isolé. La durée est limitée à 6 mois pour chaque parent pour un couple avec un enfant et 24 mois pour chaque parents pour un couple avec deux enfants.
   Aussi, un couple avec plus de trois enfants demandant la PreParE majorée aura une limitiation à 8 mois maximum pour chaque parent
   (2) La PreParE remplace la CLCA pour les enfants nés ou adoptés à compter du 1er janvier 2015

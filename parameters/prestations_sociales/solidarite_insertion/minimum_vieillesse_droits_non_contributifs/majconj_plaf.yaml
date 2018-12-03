@@ -1,7 +1,6 @@
 description: Majoration pour conjoint à charge (plafond de ressources)
 plafond_ressources_personnelles_conjoint_beneficier_majoration_personne_charge:
-  description: Plafond des ressources personnelles du conjoint pour bénéficier de
-    la majoration pour personne à charge
+  description: Plafond des ressources personnelles du conjoint pour bénéficier de la majoration pour personne à charge
   values:
     2016-04-01:
       value: 8999.8
@@ -309,11 +308,7 @@ metadata:
     1949-04-01: 1949-07-14
     1948-10-01: 1949-02-25
   notes:
-    2016-04-01: La majoration pour conjoint à charge n'est plus attribuée depuis
-      le 01/01/2011. Elle continue à être servie tant que le conjoint à charge remplit
-      les conditions de ressources (Loi 2010-1330 du 09/11/2010, art. 51).
+    2016-04-01: La majoration pour conjoint à charge n'est plus attribuée depuis le 01/01/2011. Elle continue à être servie tant que le conjoint à charge remplit les conditions de ressources (Loi 2010-1330 du 09/11/2010, art. 51).
     1960-01-01: Passage aux nouveaux francs.
-documentation: "Définition des ressources personnelles : Les ressources à retenir\
-  \ sont celles des trois mois précédant la date d'effet de la majoration. Si les\
-  \ ressources des trois mois dépassent le plafond autorisé, les ressources prises\
-  \ en considération sont celles des 12 mois précédant la date d'effet. \n"
+documentation: |
+  Définition des ressources personnelles : Les ressources à retenir sont celles des trois mois précédant la date d'effet de la majoration. Si les ressources des trois mois dépassent le plafond autorisé, les ressources prises en considération sont celles des 12 mois précédant la date d'effet.

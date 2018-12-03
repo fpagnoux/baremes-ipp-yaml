@@ -535,60 +535,29 @@ metadata:
     2012-01-01: Circulaire Cnav 2012/35 du 17/04/2012.
     2011-04-01: Circulaire Cnav 2011/30 du 14/04/2011
     2008-07-31: Circulaire Cnav 2008/45 du 12/08/2008.
-    1996-01-01: Du fait de la revalorisation exceptionnelle précédente, les salaires
-      de 1995 sont revalorisés à 1,025 (1,005 * 1,020 ).
-    1995-07-01: 'Revalorisation exceptionnelle : les salaires perçus en 1995 sont
-      revalorisés à 1,005 pour les retraites liquidées entre le 01/07/1995 et le 31/12/1995.'
+    1996-01-01: Du fait de la revalorisation exceptionnelle précédente, les salaires de 1995 sont revalorisés à 1,025 (1,005 * 1,020 ).
+    1995-07-01: 'Revalorisation exceptionnelle : les salaires perçus en 1995 sont revalorisés à 1,005 pour les retraites liquidées entre le 01/07/1995 et le 31/12/1995.'
     1994-01-01: Voir note (1).
     1993-01-01: Voir note (2).
-    1986-10-01: Même règle que précedemment sauf que le premier semestre est prolongé
-      jusqu'au 30/09/1986.
-    1975-01-01: Premier semestre de 1975, les revalorisations précédentes, définies
-      jusqu'en 1973 (année n-2) sont multipliées par le coefficient. Pour 1973, il
-      vaut ainsi 1,134.
+    1986-10-01: Même règle que précedemment sauf que le premier semestre est prolongé jusqu'au 30/09/1986.
+    1975-01-01: Premier semestre de 1975, les revalorisations précédentes, définies jusqu'en 1973 (année n-2) sont multipliées par le coefficient. Pour 1973, il vaut ainsi 1,134.
     1974-07-01: Voir note (3).
-    1972-04-01: 'De même : les années 1971 et 1972 ne sont pas revalorisées. Pour
-      les années antérieures appliquer le coefficient à la série précédente.'
-    1971-04-01: A partir de cet arrêté, la revalorisation s'applique jusqu'à l'année
-      n-2. Les années 1970 et 1971 ne sont pas revalorisées. Pour les années antérieures
-      appliquer le coefficient à la série précédente.
-    1970-04-01: Revalorisation de 1,1553 pour l'année 1968, inexistante pour les
-      années postérieures et déterminée en multipliant la série chronologique précédente
-      par le coefficient pour les autres années.
-    1969-11-01: La série précédente est multipliée par 1,03. Cela implique notamment
-      que l'année 1969 est revalorisée à 1,03 pour les pensions liquidées entre le
-      01/10/1969 et le 31/03/1970.
-    1969-04-01: L'année 1968 n'est toujours pas revalorisée mais les revalorisation
-      des années précédentes sont multipliées par 1,044.
-    1956-04-01: Les années 1955 et 1956 ne sont pas revalorisées. Les salaires de
-      1954 sont revalorisés de 1.085.
-    1955-04-01: Les années 1954 et 1955 ne sont pas revalorisées. Les salaires de
-      1953 sont revalorisés à 1.07, ceux de 1952 à 1,090 et les antérieurs précédents
-      en appliquant le coeffcient à la série chronologique précédente.
-    1953-04-01: A partir de cet arrêté, la revalorisation s'applique jusqu'à l'année
-      n-1. Ainsi, pour les pensions liquidées après le 31/03/1953, les salaires de
-      l'année 1951 sont revalorisés à 1,2 et ceux de 1952 ne sont pas revalorisés.
-      Pour les années antérieures on applique le coefficient à la série chronologique
-      de 1952. Aucun arrêté ne venant modifié cette disposition, les années 1953 et
-      1954 ne seront pas revalorisées pour les liquidations de pensions antérieures
-      au 31/03/1955.
-    1952-04-01: Ce coefficient de revalorisation est dorénavant appliqué pour les
-      salaires de l'année 1951 pour les pensions dont l'entrée en jouissance est postérieure
-      au 31/03/1952. Pour les années antérieures, on prendra la série chronologique
-      antérieure précisée dans l'onglet suivant.
-    1950-01-01: Ce coefficient de revalorisation est appliqué pour les salaires
-      de l'année 1949 pour les pensions dont l'entrée en jouissance est postérieure
-      au 31/12/1949. Pour les années antérieures, on prendra la série chronologique
-      antérieure revalorisée de ce coefficient.
-    1949-01-01: Ce coefficient de revalorisation est appliqué pour les salaires
-      de l'année 1948 pour les pensions dont l'entrée en jouissance est postérieure
-      au 31/12/1948 (année n-1). Pour les années antérieures, se référer à l'onglet
-      suivant.
+    1972-04-01: 'De même : les années 1971 et 1972 ne sont pas revalorisées. Pour les années antérieures appliquer le coefficient à la série précédente.'
+    1971-04-01: A partir de cet arrêté, la revalorisation s'applique jusqu'à l'année n-2. Les années 1970 et 1971 ne sont pas revalorisées. Pour les années antérieures appliquer le coefficient à la série précédente.
+    1970-04-01: Revalorisation de 1,1553 pour l'année 1968, inexistante pour les années postérieures et déterminée en multipliant la série chronologique précédente par le coefficient pour les autres années.
+    1969-11-01: La série précédente est multipliée par 1,03. Cela implique notamment que l'année 1969 est revalorisée à 1,03 pour les pensions liquidées entre le 01/10/1969 et le 31/03/1970.
+    1969-04-01: L'année 1968 n'est toujours pas revalorisée mais les revalorisation des années précédentes sont multipliées par 1,044.
+    1956-04-01: Les années 1955 et 1956 ne sont pas revalorisées. Les salaires de 1954 sont revalorisés de 1.085.
+    1955-04-01: Les années 1954 et 1955 ne sont pas revalorisées. Les salaires de 1953 sont revalorisés à 1.07, ceux de 1952 à 1,090 et les antérieurs précédents en appliquant le coeffcient à la série chronologique précédente.
+    1953-04-01: A partir de cet arrêté, la revalorisation s'applique jusqu'à l'année n-1. Ainsi, pour les pensions liquidées après le 31/03/1953, les salaires de l'année 1951 sont revalorisés à 1,2 et ceux de 1952 ne sont pas revalorisés. Pour les années antérieures on applique le coefficient à la série chronologique de 1952. Aucun arrêté ne venant modifié cette disposition, les années 1953 et 1954 ne seront pas revalorisées pour les liquidations de pensions antérieures au 31/03/1955.
+    1952-04-01: Ce coefficient de revalorisation est dorénavant appliqué pour les salaires de l'année 1951 pour les pensions dont l'entrée en jouissance est postérieure au 31/03/1952. Pour les années antérieures, on prendra la série chronologique antérieure précisée dans l'onglet suivant.
+    1950-01-01: Ce coefficient de revalorisation est appliqué pour les salaires de l'année 1949 pour les pensions dont l'entrée en jouissance est postérieure au 31/12/1949. Pour les années antérieures, on prendra la série chronologique antérieure revalorisée de ce coefficient.
+    1949-01-01: Ce coefficient de revalorisation est appliqué pour les salaires de l'année 1948 pour les pensions dont l'entrée en jouissance est postérieure au 31/12/1948 (année n-1). Pour les années antérieures, se référer à l'onglet suivant.
 documentation: |
   Notes :
-  (1) A partir de cet arrêté la revalorisation est effective jusqu'à l'année n-1 : pour déterminer la revalorisation des salaires à d'une année n, la série chronologique des revalorisations en n-1 (définie jusqu'en n-2) est multipliée 
-  par le coefficient indiqué dans l'arrêté et les salaires de l'année n-1 sont revalorisés par ce coefficent. De plus, le coefficient est alligné sur celui de revalorisation des pensions déjà liquidées (cf onglet précédent). Ici, la série 
-  précédente est multipliée par 1,02 et le coefficient 1,02 sert également à la revalorisation des salaires perçus en 1993 (n-1) et 1992 (n-2). 
+  (1) A partir de cet arrêté la revalorisation est effective jusqu'à l'année n-1 : pour déterminer la revalorisation des salaires à d'une année n, la série chronologique des revalorisations en n-1 (définie jusqu'en n-2) est multipliée
+  par le coefficient indiqué dans l'arrêté et les salaires de l'année n-1 sont revalorisés par ce coefficent. De plus, le coefficient est alligné sur celui de revalorisation des pensions déjà liquidées (cf onglet précédent). Ici, la série
+  précédente est multipliée par 1,02 et le coefficient 1,02 sert également à la revalorisation des salaires perçus en 1993 (n-1) et 1992 (n-2).
   (2) Cet arrêté gèle la revalorisation du second semestre : revalorisation n-2 durant toute l'année (série chronologique précédente multipliée par 1,013. Le coefficient de revalorisation de 1991 est ainsi 1,031 = 1,018  * 1, 013 ).
-  (3) La revalorisation s'applique de nouveau jusqu'à l'année n-1 pour le second semestre, elle s'applique toujours à l'année n-2 pour le premier semestre. Il s'agit ici du second semectre de 1974, la revalorisation est donc 
-  de 1,067 pour l'année 1973. Pour les années antérieures, multiplier la série chronologique précédente par le coefficient. Ce mode de calcul est valable du 01/07/1974 au 31/12/1992 (avec un décalage temporel pour l'année 1986). 
+  (3) La revalorisation s'applique de nouveau jusqu'à l'année n-1 pour le second semestre, elle s'applique toujours à l'année n-2 pour le premier semestre. Il s'agit ici du second semectre de 1974, la revalorisation est donc
+  de 1,067 pour l'année 1973. Pour les années antérieures, multiplier la série chronologique précédente par le coefficient. Ce mode de calcul est valable du 01/07/1974 au 31/12/1992 (avec un décalage temporel pour l'année 1986).

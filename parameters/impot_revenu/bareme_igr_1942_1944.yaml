@@ -482,9 +482,7 @@ metadata:
   - taux_marginal_tranche_23
   - taux_marginal_tranche_24
   reference:
-    1942-01-01: 'T. Piketty, Les hauts revenus en France au XXe siècle. Inégalités
-      et redistribution 1901-1998, Grasset (2001) : voir notamment tableaux 4-1 à
-      à 4-4'
+    1942-01-01: 'T. Piketty, Les hauts revenus en France au XXe siècle. Inégalités et redistribution 1901-1998, Grasset (2001) : voir notamment tableaux 4-1 à à 4-4'
 documentation: |
   Notes :
   Les revenus des années 1942-1944 étaient soumis à des barèmes exprimés en taux marginal. Voir note de la feuille "Barème IGR 1917-1918".

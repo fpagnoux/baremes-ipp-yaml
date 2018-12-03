@@ -17,8 +17,7 @@ metadata:
   order:
   - majoration_forfaitaire
   reference:
-    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art.
-      885 S du CGI)
+    2018-01-01: Loi 2017-1837 du 30/12/2017, art. 31 (LF pour 2018) (abroge art. 885 S du CGI)
     1989-01-01: Loi 88-1149 du 23/12/1988, art. 26 (LF  pour 1989)
     1987-01-01: Loi 86-824 du 11/07/1986, art. 24 (LFR pour 1986)
     1982-01-01: Loi 81-1160 du 30/12/1981, art. 3 (LF pour 1982)
@@ -28,8 +27,7 @@ metadata:
     1987-01-01: 1986-07-12
     1982-01-01: 1981-12-31
   notes:
-    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable
-      est réduite aux seuls biens immobiliers.
+    2018-01-01: L'IFI remplace l'ISF. Les barèmes sont les mêmes, mais la base taxable est réduite aux seuls biens immobiliers.
     1989-01-01: Création de l'impôt de solidarité sur la fortune.
     1987-01-01: Suppression de l'impôt sur les grandes fortunes.
     1982-01-01: Création de l'impôt sur les grandes fortunes.

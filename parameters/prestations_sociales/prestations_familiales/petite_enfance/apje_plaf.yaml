@@ -91,9 +91,7 @@ metadata:
   - plafond_ressources_0_enfant
   - majoration_en_eur_en_en_plafond_ressources_avec_0_enfant
   reference:
-    2007-01-01: |-
-      Décret 2003-1393 du 31/12/2003, art. 2 (abroge art. R531-9 du CSS)
-      Loi 2003-1199 du 18/12/2003, art. 60 II (modif L531-2 du CSS)
+    2007-01-01: Décret 2003-1393 du 31/12/2003, art. 2 (abroge art. R531-9 du CSS); Loi 2003-1199 du 18/12/2003, art. 60 II (modif L531-2 du CSS)
     2005-07-01: Arrêté du 01/08/2005
     2004-07-01: Arrêté du 16/07/2004
     2003-07-01: Arrêté du 26/06/2003
@@ -102,13 +100,9 @@ metadata:
     2000-07-01: Arrêté du 30/06/2000
     1999-07-01: Décret 99-535 du 28/06/1999
     1998-07-01: Références manquantes
-    1996-07-01: |-
-      Ordonnance 96-51 du 24/01/1996
-      Décret 96-553 du 20/06/1996
+    1996-07-01: Ordonnance 96-51 du 24/01/1996; Décret 96-553 du 20/06/1996
   date_parution_jo:
-    2007-01-01: |-
-      01/01/2004
-      19/12/2003
+    2007-01-01: 01/01/2004; 19/12/2003
     2005-07-01: 2005-08-03
     2004-07-01: 2004-07-18
     2003-07-01: 2003-06-28
@@ -116,14 +110,10 @@ metadata:
     2001-07-01: 2001-06-29
     2000-07-01: 2000-07-01
     1999-07-01: 1999-06-29
-    1996-07-01: |-
-      25/01/1996
-      22/06/1996
+    1996-07-01: 25/01/1996; 22/06/1996
   notes:
-    2007-01-01: "Loi 2003-1199 : crée la PAJE qui remplace en partie l'APJE. Mais\
-      \ la transition est progressive, de janvier 2004 à décembre 2006 inclus"
-    1996-07-01: Création du plafond de ressources. Les montants sont fixés par la
-      Circulaire du 08/08/1996 relative à diverses mesures concernant les familles
+    2007-01-01: "Loi 2003-1199 : crée la PAJE qui remplace en partie l'APJE. Mais la transition est progressive, de janvier 2004 à décembre 2006 inclus"
+    1996-07-01: Création du plafond de ressources. Les montants sont fixés par la Circulaire du 08/08/1996 relative à diverses mesures concernant les familles
 documentation: |
   Note:
   (1) Définition biactifs : cf. feuille "def_biactifs"

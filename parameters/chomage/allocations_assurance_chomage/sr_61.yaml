@@ -1,5 +1,4 @@
-description: Revalorisation du salaire de références des chômeurs de plus de 61 ans
-  (1965-1973)
+description: Revalorisation du salaire de références des chômeurs de plus de 61 ans (1965-1973)
 taux:
   description: Taux
   values:
@@ -57,8 +56,8 @@ metadata:
     1965-01-11: Circulaire 64-30 - décision du 26/11/1964
 documentation: |
   Notes :
-  Revalorisation des salaires de référence des allocataires du régime d'assurance chômage de plus de 61 ans est définie par l'avenant du 28/11/1963, appliquée qu'aux bénéficiaires dont le salaire de référence est entièrement consituté de rémunérations antérieures 
-   à au moins 1 an. 
+  Revalorisation des salaires de référence des allocataires du régime d'assurance chômage de plus de 61 ans est définie par l'avenant du 28/11/1963, appliquée qu'aux bénéficiaires dont le salaire de référence est entièrement consituté de rémunérations antérieures
+   à au moins 1 an.
   Depuis 1972, cette revalorisation détermine celle des bénéficiaires de la garantie de ressources, même s'ils ont moins de 61 ans. Après 1973, revalorisation étendue à tous les allocataires (cf. SR alloc)
   Sources :
   Bozio, A. (2006), Réformes des retraites : estimations sur données françaises, thèse de doctorat, EHESS, annexe B.

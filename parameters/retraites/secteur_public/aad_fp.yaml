@@ -1,7 +1,6 @@
 description: "Age d'annulation de la décote FP "
 age_annulation_decote_selon_annee_ouverture_droits_en_nombre_trimestres_par_rapport_limite_age:
-  description: Age d'annulation de la décôte selon l'année d'ouverture des droits
-    (en nombre de trimestres par rapport à la limite d'âge)
+  description: Age d'annulation de la décôte selon l'année d'ouverture des droits (en nombre de trimestres par rapport à la limite d'âge)
   '2006':
     description: '2006'
     values:

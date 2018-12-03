@@ -77,9 +77,7 @@ metadata:
   - montant_majoration_conjoint_charge
   reference:
     2011-01-01: Loi 2010-1330 du 09/11/2010, art. 51
-    1976-07-01: |-
-      Décret 85-1353, art. 1 du 17/12/1985 (crée art. L811-10 du CSS)
-      Décret 85-1354, art. 1 du 17/12/1985 (crée art D811-10 et D811-12 du CSS)           Décret 76-559 du 25/06/1976
+    1976-07-01: Décret 85-1353, art. 1 du 17/12/1985 (crée art. L811-10 du CSS); Décret 85-1354, art. 1 du 17/12/1985 (crée art D811-10 et D811-12 du CSS)           Décret 76-559 du 25/06/1976
     1976-01-01: Décret 75-1341 du 31/12/1975
     1975-04-01: Décret 75-209 du 28/03/1975
     1975-01-01: Décret 74-1126 du 26/12/19874
@@ -117,10 +115,7 @@ metadata:
     1948-07-01: Loi 48-1306 du 23/08/1948
   date_parution_jo:
     2011-01-01: 2010-11-10
-    1976-07-01: |-
-      21/12/1985
-      21/12/1985
-      27/06/1976
+    1976-07-01: 21/12/1985; 21/12/1985; 27/06/1976
     1976-01-01: 1976-01-03
     1975-04-01: 1975-04-02
     1975-01-01: 1974-12-29
@@ -157,14 +152,7 @@ metadata:
     1948-10-01: 1949-02-25
     1948-07-01: 1948-08-24
   notes:
-    2011-01-01: La majoration pour conjoint à charge n'est plus attribuée depuis
-      le 1er janvier 2011. Cependant, le paiement de cette prestation est poursuivi
-      pour les bénéficiaires au 31 décembre 2010, tant quele conjoint à charge remplit
-      la condition de ressources.
+    2011-01-01: La majoration pour conjoint à charge n'est plus attribuée depuis le 1er janvier 2011. Cependant, le paiement de cette prestation est poursuivi pour les bénéficiaires au 31 décembre 2010, tant quele conjoint à charge remplit la condition de ressources.
     2002-01-01: Passage à l'euro
-documentation: "Conditions d'attribution : La majoration pour conjoint à charge était\
-  \ attribuée au titulaire d'une pension de retraite et aux bénéficiaires de l'AVTS,\
-  \ de l'AMF ou d'une rente garantie. Le conjoint est considére à charge dès lors\
-  \ que ses revenus personnels sont inférieures aux montants précisés dans l'onglet\
-  \ suivant. Il doit être âgé de plus de 65 ans (plus de 60 ans en cas d'inaptitude\
-  \ au travail). \n"
+documentation: |
+  Conditions d'attribution : La majoration pour conjoint à charge était attribuée au titulaire d'une pension de retraite et aux bénéficiaires de l'AVTS, de l'AMF ou d'une rente garantie. Le conjoint est considére à charge dès lors que ses revenus personnels sont inférieures aux montants précisés dans l'onglet suivant. Il doit être âgé de plus de 65 ans (plus de 60 ans en cas d'inaptitude au travail).

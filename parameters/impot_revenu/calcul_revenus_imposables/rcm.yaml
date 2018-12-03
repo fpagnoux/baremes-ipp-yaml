@@ -116,8 +116,7 @@ metadata:
   notes:
     2010-01-01: Suppression plafond du crédit d'impôt sur dividendes
     2004-01-01: Voir art. 200 septies du CGI
-    1997-01-01: 'Abattement forfaitaire sur dividendes  : art. 158-5 du CGI (à doubler
-      pour les couples)'
+    1997-01-01: 'Abattement forfaitaire sur dividendes  : art. 158-5 du CGI (à doubler pour les couples)'
 documentation: |
   Notes :
   (1) Taux de l'abattement sur dividendes : art. 158-3-2° du CGI (ancêtre de tx_abt_rcm)

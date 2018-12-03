@@ -18,8 +18,7 @@ contribution_boissons_sucrees_edulcorees_eur_hl:
     ipp_csv_id: taxe_boiss_sucrees_edulcorees
     unit: currency-EUR
 contribution_boissons_sucrees_edulcorees_taux_applicables_uniquement_mayotte_eur_hl:
-  description: Contribution sur les boissons sucrées ou édulcorées - Taux applicables
-    uniquement à Mayotte (€/hl)
+  description: Contribution sur les boissons sucrées ou édulcorées - Taux applicables uniquement à Mayotte (€/hl)
   values:
     2018-01-01:
       value: null
@@ -84,8 +83,7 @@ metadata:
   - contribution_boissons_sucrees_y_compris_mayotte
   - boissons_energisantes
   reference:
-    2018-07-01: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement
-      de la sécurité sociale pour 2018.
+    2018-07-01: Article 19 de la loi n°2017-1836 du 30 décembre 2017 de financement de la sécurité sociale pour 2018.
     2018-01-01: Arrêté du 22/12/2017
     2017-01-01: Arrêté du 27/12/2016
     2016-01-01: Loi 2013-1279 du 29/12/2013 (LFR pour 2013)
@@ -93,8 +91,7 @@ metadata:
     2014-05-30: Décret 2014-549 du 26/05/2014
     2014-01-01: Loi 2013-1279 du 29/12/2013 (LFR pour 2013 )
     2013-06-07: Décret 2013-463 du 03/062013
-    2012-05-07: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai
-      2012 - art. 1
+    2012-05-07: Loi 2011-1977 du 28/12/2011 - art. 26 /  Décret 2012-653 du 4 mai 2012 - art. 1
   date_parution_jo:
     2018-07-01: 2017-12-31
     2018-01-01: 2017-12-27
@@ -106,14 +103,9 @@ metadata:
     2013-06-07: 06/06/2013
     2012-05-07: 06/05/2012
   notes:
-    2018-07-01: La contribution sur les boissons sucrées se fait selon un barême
-      à partir de juillet 2018, un nouvel onglet a été créé à cet effet
-    2018-01-01: A partir de 2018, plus de taux spécifique à Mayotte. Par ailleurs
-      il n'y a plus de "contribution sur les boissons sucrées ou édulcorées" mais
-      une "contribution sur les boissons sucrées" et une "contribution sur les boissons
-      édulcorées"
-    2017-01-01: Abrogation de la taxe sur les boissons énergisantes par la LOI n°
-      2016-1917 du 29 décembre 2016 de finances pour 2017 (1), Article 83
+    2018-07-01: La contribution sur les boissons sucrées se fait selon un barême à partir de juillet 2018, un nouvel onglet a été créé à cet effet
+    2018-01-01: A partir de 2018, plus de taux spécifique à Mayotte. Par ailleurs il n'y a plus de "contribution sur les boissons sucrées ou édulcorées" mais une "contribution sur les boissons sucrées" et une "contribution sur les boissons édulcorées"
+    2017-01-01: Abrogation de la taxe sur les boissons énergisantes par la LOI n° 2016-1917 du 29 décembre 2016 de finances pour 2017 (1), Article 83
 documentation: |
   Notes :
   Données renseignées dans les articles 1613 bis A et 1613 ter du code général des impôts

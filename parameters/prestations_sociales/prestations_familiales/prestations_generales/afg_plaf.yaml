@@ -112,15 +112,13 @@ metadata:
   - plafond_unique_montant_mensuel_max_majoration_s_u
   reference:
     1978-01-01: Loi 77-765 du 12/07/1977
-    1976-07-01: Décret 74-568 du 17/05/1974                                  Décret
-      75-556 du 02/07/1975
+    1976-07-01: Décret 74-568 du 17/05/1974                                  Décret 75-556 du 02/07/1975
   date_parution_jo:
     1978-01-01: 1977-07-13
     1976-07-01: 28/05/1974 03/07/1975
   notes:
     1978-01-01: Remplacé par "complément familial" depuis 01/01/1978
-    1976-07-01: Plafond calculé sur le revenu fiscal net de 1975 pour la période
-      de paiement 01/07/76-30/06/1977
+    1976-07-01: Plafond calculé sur le revenu fiscal net de 1975 pour la période de paiement 01/07/76-30/06/1977
 documentation: |
-  Notes : 
+  Notes :
   Ce plafond existe dès l'apparition de l'AFG (il est d'ailleurs cité par la loi 72-8 du 3 janvier 1972)

@@ -155,5 +155,5 @@ metadata:
   order:
   - prix_kwh_3_kva
   - prix_kwh_6_kva
-documentation: "Source : base Pégase, prix pour un ménage, tarif bleu option base,\
-  \ en euros TTC, données annuelles\n"
+documentation: |
+  Source : base Pégase, prix pour un ménage, tarif bleu option base, en euros TTC, données annuelles

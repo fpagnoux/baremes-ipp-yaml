@@ -106,8 +106,7 @@ bouilleurs_cru_t_q_definis_art_317:
     ipp_csv_id: taxe_bouilleurs_cru
     unit: currency-EUR
 quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_article_417:
-  description: Quantités ajoutées pour la préparation des vins mousseux et des vins
-    doux naturels mentionnés à l'article 417
+  description: Quantités ajoutées pour la préparation des vins mousseux et des vins doux naturels mentionnés à l'article 417
   values:
     1993-02-01:
       value: null
@@ -121,8 +120,7 @@ quantites_ajoutees_preparation_vins_mousseux_vins_doux_naturels_mentionnes_artic
     ipp_csv_id: taxe_ajout_vins
     unit: currency-FRF
 aperitifs_base_vin_cidre_poire_vermouth_vins_liqueurs_assimiles:
-  description: Apéritifs à base de vin, cidre, poiré, vermouth, vins de liqueurs et
-    assimilés
+  description: Apéritifs à base de vin, cidre, poiré, vermouth, vins de liqueurs et assimilés
   values:
     1993-02-01:
       value: null

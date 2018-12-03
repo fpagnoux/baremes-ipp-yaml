@@ -1,5 +1,4 @@
-description: "Allocation supplémentaire d'invalidité (ASI): montants et plafonds de\
-  \ ressources"
+description: "Allocation supplémentaire d'invalidité (ASI): montants et plafonds de ressources"
 montant:
   description: Montant
   1_allocataire:
@@ -163,7 +162,5 @@ metadata:
     2008-01-01: 2007-12-28
     2006-01-01: 2007-01-13
   notes:
-    2008-09-01: La circulaire Cnav 2009/9 du 03/02/2009 met en œuvre de l'article
-      73 de la loi 2008-1330 du 17 décembre 2008 concernant la déconnexion de la revalorisation
-      des montants et des plafonds de ressources de l'ASI de ceux de l'ASPA.
+    2008-09-01: La circulaire Cnav 2009/9 du 03/02/2009 met en œuvre de l'article 73 de la loi 2008-1330 du 17 décembre 2008 concernant la déconnexion de la revalorisation des montants et des plafonds de ressources de l'ASI de ceux de l'ASPA.
     2006-01-01: Création du dispositif qui simplifie le minimum vieillesse
