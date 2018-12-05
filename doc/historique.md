@@ -50,7 +50,7 @@ Le Excel est illisble, il faut aller vérifier les fichiers YAML produits. Ce qu
 
 ### Contributions extérieurs
 
-- On ne capitalise pas sur les  contributions extérieures
+- Il n'y a pas de capitalisation sur les  contributions extérieures
 - Le traitement des signalements extérieurs sont traités manuellement
 
 
@@ -58,10 +58,10 @@ Le Excel est illisble, il faut aller vérifier les fichiers YAML produits. Ce qu
 
 1. Versionnement sur [ce dépôt](https://framagit.org/french-tax-and-benefit-tables/baremes-ipp-yaml) 
 
-2. Exposition de [pages générées à la volée sur le site web de l'IPP](https://french-tax-and-benefit-tables.frama.io/baremes-ipp-yaml/) 
+2. Exposition de [pages générées à la volée sur le site web de l'IPP](https://french-tax-and-benefit-tables.frama.io/baremes-ipp-yaml/) via [ces scripts](https://github.com/fpagnoux/baremes-ipp-views) 
 
-3. Production automatique des fichiers `csv` pour TAXIPP en Stata
+3. Production automatique des fichiers [`csv`](https://github.com/fpagnoux/baremes-ipp-csv) pour TAXIPP en Stata via [ce script](https://github.com/fpagnoux/baremes-ipp-parser/tree/master/bareme_ipp_parsers)
 
-4. Alimenter une base unique utilisée aussi pour openfisca/TAXIPP en Python
+4. Alimenter une base unique utilisée aussi pour [OpenFisca](https://github.com/openfisca/openfisca-france)/TAXIPP en Python
 
 5. Valider les contributions internes et externes
