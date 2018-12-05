@@ -34,22 +34,22 @@
 
 ## Description de la mise à jour
 
-Décrire brièvement le msie à jour réalisée
+Décrire brièvement le mise à jour réalisée
 
 ----
 
-### Quelques conseils à prendrre en compte
+## Quelques conseils à prendre en compte
 
-## Vérifications à effectuer par le contributeur
+### Vérifications à effectuer par le contributeur
 
-- [ ] Décrire la mise à jour
-- [ ] Renseigner la référence législative
-- [ ] Renseigner la date de parution au JO
+- [ ] Décrire la mise à jour et son champ
+- [ ] Renseigner la référence législative
+- [ ] Renseigner la date de parution au JO
 
 
-## Vérifications à effectuer par le relecteur
+### Vérifications à effectuer par le relecteur
 
-- [ ] Vérifier que la date de parution au JO est renseignée et plausible
-- [ ] Vérifier que la référence législative est renseignée et plausible
+- [ ] Vérifier que la date de parution au JO est renseignée et plausible
+- [ ] Vérifier que la référence législative est renseignée et plausible
 - Ne pas oublier de vérifier que le [site web](https://french-tax-and-benefit-tables.frama.io/baremes-ipp-yaml/) est fonctionnel 
 
