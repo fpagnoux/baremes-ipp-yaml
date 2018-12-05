@@ -18,8 +18,12 @@ En vous rendant sur ce site, vous pouvez naviguer dans l'arbre des paramètres l
 Vous êtes alors automatiquement redirigé vers le [dépôt (_repository_) Git "baremes-ipp-yaml"](https://framagit.org/french-tax-and-benefit-tables/baremes-ipp-yaml) 
 au niveau du fichier YAML contenant le paramètre idoine.
 
-Pour plus d'info sur ce qu'est un fichier YAML de paramètres législatifs, 
-reportez vous à la [documentation d'OpenFisca](https://openfisca.org/doc/coding-the-legislation/legislation_parameters.html).
+Le format [YAML](https://fr.wikipedia.org/wiki/YAML) est le format retenu pour les paramètres législatifs d'[OpenFisca](https://openfisca.org/doc/coding-the-legislation/legislation_parameters.html).
+Il permet de représenter de façon lisible des informations élaborées comme une combinaison de listes et de dictionnaires imbriqués.
+Il est nécessaire de bien respecter:
+- l'indentation introduisant les sous-structures,
+- les tirest `-` marquers des listes
+- les deux points séparant les clés des valeurs dans un dictionnaire 
 
 ## Étape 2. Modifier le paramètre
 
