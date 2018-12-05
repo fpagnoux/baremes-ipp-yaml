@@ -1,11 +1,13 @@
 # Guide d'édition des barèmes IPP
 
-Sommaire : 
-- [Step 1 : Retrouver le fichier YAML du paramètre à modifier](#1-retrouver-le-fichier-YAML-du-paramètre-à-modifier) 
-- [Step 2 : Modifier un paramètre](#2-modifier-le-paramètre)
-- [Step 3 : Enregistrer la modification (Commit)](#3-enregistrer-la-modification-commit) 
-- [Step 4 : Ajouter la modification aux barèmes IPP officiels (Merge Request)](#4-ajouter-la-modification-aux-barèmes-IPP-officiels-merge-request) 
+Ce document vous guide étape par étape pour l'édition des barèmes IPP.
+ 
+- [Étape 1 : Retrouver le fichier YAML du paramètre à modifier](#1-retrouver-le-fichier-YAML-du-paramètre-à-modifier) 
+- [Étape 2 : Modifier un paramètre](#2-modifier-le-paramètre)
+- [Étape 3 : Enregistrer la modification (Commit)](#3-enregistrer-la-modification-commit) 
+- [Étape 4 : Ajouter la modification aux barèmes IPP officiels (Merge Request)](#4-ajouter-la-modification-aux-barèmes-IPP-officiels-merge-request) 
 - [FAQ](#foire-aux-questions)
+
 
 ## 1. Retrouver le fichier YAML du paramètre à modifier
 
