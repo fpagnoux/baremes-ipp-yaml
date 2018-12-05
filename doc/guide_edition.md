@@ -9,7 +9,7 @@ Ce document vous guide étape par étape pour l'édition des barèmes IPP.
 - [FAQ](#foire-aux-questions)
 
 
-## 1. Retrouver le fichier YAML du paramètre à modifier
+## Étape 1. Retrouver le fichier YAML du paramètre à modifier
 
 - Les barèmes IPP sont visibles par tous [sur le site de l'IPP](https://french-tax-and-benefit-tables.frama.io/baremes-ipp-yaml/).
 En vous rendant sur ce site, vous pouvez naviguer dans l'arbre des paramètres législatifs jusqu'à atteindre le paramètre recherché. 
@@ -21,7 +21,7 @@ au niveau du fichier YAML contenant le paramètre idoine.
 Pour plus d'info sur ce qu'est un fichier YAML de paramètres législatifs, 
 reportez vous à la [documentation d'OpenFisca](https://openfisca.org/doc/coding-the-legislation/legislation_parameters.html).
 
-## 2. Modifier le paramètre
+## Étape 2. Modifier le paramètre
 
 Avant de modifier les barèmes IPP pour la première fois, 
 il convient de lire [**les règles d'édition**](https://framagit.org/french-tax-and-benefit-tables/ipp-tax-and-benefit-tables-xlsx/blob/master/guide_legislation.md) 
@@ -110,7 +110,7 @@ Pour modifier le fichier YAML, cliquez sur le bouton <kbd>Edit</kbd> situé dans
 
 TODO à rédiger
    
-## 3. Enregistrer la modification (COMMIT)
+## Étape 3. Enregistrer la modification (COMMIT)
 
 Une fois que vous avez modifier le barème dans l'éditeur en ligne, 
 il est nécessaire de *"commiter"* ce changement sinon il ne sera pas enregistré.
@@ -121,7 +121,7 @@ il est nécessaire de *"commiter"* ce changement sinon il ne sera pas enregistr�
 
 Pour les débutants : [quelque rappels sur Git et le vesion control](https://framagit.org/ipp/ipp-survival-gitbook/blob/master/git.md)
 
-## 4. Ajouter la modification aux barèmes IPP publiés (MERGE REQUEST)
+## Étape 4. Ajouter la modification aux barèmes IPP publiés (MERGE REQUEST)
 
 Si vous avez demandez l'ouverture d'une Merge Request, vous êtes automatiquement redirigé vers la page de cette Merge Request.
 Pour rappel, une Merge Request est une opération qui vise à fusionner les modifications que vous avez effectués sur votre branche dans une autre branche (généralement la branche principale `master`).
