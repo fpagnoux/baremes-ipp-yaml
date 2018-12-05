@@ -35,12 +35,24 @@ Pour modifier le fichier YAML, cliquez sur le bouton <kbd>Edit</kbd> situé dans
 
 #### Option 1 : Modifier/corriger un paramètre existant
 
+- Structure
+  - Chaque fichier YAML peut regrouper un ou plusieurs paramètres en plus d'une description et de méta-données
+    - La champ `description` servira de titre à la table où à la colonne rassemblant les valeurs des paramètres qu'elle contient (les lignes étant des dates).
+    - Le champ `metadata` peut contenir les champs suivants qui viendront s'ajouter aux colonnes 
+      - `order`: indique l'ordre dans lequel sont rangés les paramètres
+      - `reference`: les références législatives classées par date
+      - `date_parution_au_jo`: les dates de parution au Journal officiel classées par date
+      - `note`: : les dates de parution au Journal officiel classées par date
+
+  - Chaque paramètre dispose également d'une `description` et de méta-données (`metadata`)
+    - La champ `description` servira de nom au paramètre
+    - Le champ `metadata` décrira ceratines caractéristiques des paramètres qu'il s'agira de respecter lors de l'édition de ses valeurs 
+
 - Marche à suivre
   - Dans le champs `values` du paramètre, ajoutez la nouvelle valeur du paramètre et la date de début correspondante (ou corrigez la valeur, le cas échéant).
   - Dans le champs `reference` de `metadata`, ajoutez la référence législative justifiant votre changement.
   - Dans le champs `date_parution_jo` de `metadata`, ajoutez la date de parution au Journal officiel de la référence.
-    Ces deux derniers champs sont communs à tous les paramètres d'un même fichier YAML.
-   
+
 - Exemple
   Je souhaite mettre à jour la valeur du plafond de la Sécurité Sociale pour 2019. 
   Pour l'instant, les barèmes IPP s'arrêtent en 2018. Je rajoute sa nouvelle valeur qui prend effet à partir du 1er janvier 2019 et la référence législative.
