@@ -141,34 +141,41 @@ Vous pouvez retrouver tout en bas de la page, la liste des commits que vous avez
 - [Je ne peux pas éditer le fichier YAML sur le dépôt Git "baremes-ipp-yaml"](#je-ne-peux-pas-editer-le-fichier-yaml-sur-le-dépot-git-baremes-ipp-yaml) 
 - [Je souhaite faire plusieurs modifications groupées / J'ai oublié d'ajouter quelque chose](#je-souhaite-faire-plusieurs-modifications-groupées-j-ai-oublié-d-ajouter-quelque-chose) 
 - [Je souhaite annuler mes modifications](#je-souhaite-annuler-mes-modifications)
+^
 
-#### Je ne peux pas éditer le fichier YAML sur le dépôt Git `baremes-ipp-yaml`
+### Je ne peux pas éditer le fichier YAML sur le dépôt Git `baremes-ipp-yaml`
 
 Afin de pouvoir éditer, il faut être membre du projet *baremes-ipp-yaml* et avoir un 
 statut au moins équivalent à celui de "Developper" pour avoir des droits d'édition. 
-Demandez à être rajouté par un des autres membres du projet. TODO préciser .
+Demandez à être rajouté par [un des membres autorisé ("Owner")](https://framagit.org/french-tax-and-benefit-tables/baremes-ipp-yaml/project_members) à le faire.
 
-#### Je souhaite faire plusieurs modifications groupées / J'ai oublié d'ajouter quelque chose
+### Je souhaite faire plusieurs modifications groupées / J'ai oublié d'ajouter quelque chose
 
 Il est possible de faire plusieurs petites modifications des barèmes (commits) et de les grouper ensemble dans une seule Merge Request.  
 Dans ce cas, ne cochez pas la case <kbd>Start a new merge request with these changes</kbd> lors de vos commits (étape 3).
 Vous pouvez effectuer plusieurs commits sur la même branche (c'est-à-dire répéter les étapes 2 et 3). 
+
 Une fois que vous avez fini, vous pouvez vous rendre sur la page ["branches"](https://framagit.org/french-tax-and-benefit-tables/baremes-ipp-yaml/branches)
 pour retrouver votre branche et cliquer sur le bouton <kbd>Merge Request</kbd>.
+
 Même une fois la Merge Request ouverte, il est possible de continuer à faire des commits sur votre branche si vous avez oublié de modifier quelque chose.
 
 NB : Une Merge Request doit, autant que possible, introduire un groupe de changement cohérent.
 
-*Exemple 1 : Le gouvernement annonce une revalorisation exceptionelle des prestations sociales de 10%.
-Je modifie le barème du montant de base du RSA (1 commit), puis de la prime d'activité (1 commit) puis des APL (1 commit)*    
-==> Je fais une seule Merge Request avec tous ces commits.
+- Exemple 1 : 
 
-*Exemple 2 : Le PLF 2019 introduit une revalorisation de l'ASPA et une augmentation de la taxation indirecte.*  
-==> Je fais deux Merge Request distinctes.
+  Le gouvernement annonce une revalorisation exceptionelle des prestations sociales de 10%.
+  Je modifie le barème du montant de base du RSA (1 commit), puis de la prime d'activité (1 commit) puis des APL (1 commit)  
+  Je fais donc une seule Merge Request avec tous ces commits.
 
-##### Je souhaite annuler mes modifications
+- Exemple 2 : 
 
- - Si vous vous rendez compte de votre erreur avant d'avoir fait votre commit, pas de soucis, le changement n'a pas été pris en compte.
- - Si vous vous rendez compte de votre erreur après avoir fait le commit mais avant de merger, pas de soucis, il suffit de faire un nouveau commit qui corrige votre erreur.
- - Si vous vous rendez compte de votre erreur après que vos changement aient été mergés (c'est-à-dire qu'ils ont été incorporés au barèmes IPP officiels, dans la branche `master`)
+  Le PLF 2019 introduit une revalorisation de l'ASPA et une augmentation de la taxation indirecte.
+  Je fais donc deux Merge Request distinctes.
+
+### Je souhaite annuler mes modifications
+
+- Si vous vous rendez compte de votre erreur avant d'avoir fait votre commit, pas de soucis, le changement n'a pas été pris en compte.
+- Si vous vous rendez compte de votre erreur après avoir fait le commit mais avant de merger, pas de soucis, il suffit de faire un nouveau commit qui corrige votre erreur.
+- Si vous vous rendez compte de votre erreur après que vos changement aient été mergés (c'est-à-dire qu'ils ont été incorporés au barèmes IPP officiels, dans la branche `master`)
   alors il faut créer au plus vite une nouvelle branche avec un commit qui corrige votre erreur et créer une nouvelle merge request.
