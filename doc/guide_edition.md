@@ -22,7 +22,7 @@ Le format [YAML](https://fr.wikipedia.org/wiki/YAML) est le format retenu pour l
 Il permet de représenter de façon lisible des informations élaborées comme une combinaison de listes et de dictionnaires imbriqués.
 Il est nécessaire de bien respecter:
 - l'indentation introduisant les sous-structures,
-- les tirest `-` marquers des listes
+- les tirets `-` marquers des listes
 - les deux points séparant les clés des valeurs dans un dictionnaire 
 
 ## Étape 2. Modifier le paramètre
@@ -128,23 +128,23 @@ TODO à rédiger
    
 ## Étape 3. Enregistrer la modification (COMMIT)
 
-Une fois que vous avez modifier le barème dans l'éditeur en ligne, 
+Une fois que vous avez modifié le barème dans l'éditeur en ligne, 
 il est nécessaire de *"commiter"* ce changement sinon il ne sera pas enregistré.
 
 - Entrez un message de commit dans la case <kbd>Commit message</kbd> en bas de votre éditeur (cf .[les règles d'écriture d'un message de commit utile](https://chris.beams.io/posts/git-commit/)).
 - Entrez le nom de la branche sur laquelle vous souhaitez effectuer le commit, dans la case <kbd>Target branch</kbd> (donnez lui un nom qui a un sens !)
 - Cochez la case <kbd>Start a new merge request with these changes</kbd>
 
-Pour les débutants : [quelque rappels sur Git et le vesion control](https://framagit.org/ipp/ipp-survival-gitbook/blob/master/git.md)
+Pour les débutants : [quelque rappels sur Git et le version control](https://framagit.org/ipp/ipp-survival-gitbook/blob/master/git.md)
 
 ## Étape 4. Ajouter la modification aux barèmes IPP publiés (MERGE REQUEST)
 
-Si vous avez demandez l'ouverture d'une Merge Request, vous êtes automatiquement redirigé vers la page de cette Merge Request.
-Pour rappel, une Merge Request est une opération qui vise à fusionner les modifications que vous avez effectués sur votre branche dans une autre branche (généralement la branche principale `master`).
+Si vous avez demandé l'ouverture d'une Merge Request, vous êtes automatiquement redirigé vers la page de cette Merge Request.
+Pour rappel, une Merge Request est une opération qui vise à fusionner les modifications que vous avez effectuées sur votre branche dans une autre branche (généralement la branche principale `master`).
 Ici la branche "source" est votre branche personnelle sur laquelle vous avez modifié les barèmes et la branche "target" est la branche `master`.
 
 - Donnez un titre à votre Merge Request : ce titre doit décrire en 1 ligne l'ensemble des changements effectués (soyez concis)
-- Dans la description, décrivez plus en détail chaque changements, avec éventuellement des liens vers vos références etc.
+- Dans la description, décrivez plus en détail chaque changement, avec éventuellement des liens vers vos références etc.
 Vous pouvez retrouver tout en bas de la page, la liste des commits que vous avez faits sur votre branche. En cliquant dessus, vous pouvez visualiser les changements introduits.
 - Finalisez votre Merge Request en cliquant sur <kbd>Submit merge request</kbd>. Vous pourrez toujours la modifier par la suite en cliquant sur le bouton <kbd>Edit</kbd>.
 
@@ -172,7 +172,7 @@ pour retrouver votre branche et cliquer sur le bouton <kbd>Merge Request</kbd>.
 
 Même une fois la Merge Request ouverte, il est possible de continuer à faire des commits sur votre branche si vous avez oublié de modifier quelque chose.
 
-NB : Une Merge Request doit, autant que possible, introduire un groupe de changement cohérent.
+NB : Une Merge Request doit, autant que possible, introduire un groupe de changements cohérents.
 
 - Exemple 1 : 
 
