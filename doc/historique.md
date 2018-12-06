@@ -19,7 +19,7 @@ Un seul dépôt local a été partagé par tous les membres (non sans heurts) et
 
 ### Barèmes au format Excel versionné et parsé
 
-Les fichiers Excel .(xls, .xlsx) sont des fichiers binaires qui ne peuvent pas être comparés facilement (le _diff_ est illisble).
+Les fichiers Excel .(xls, .xlsx) sont des fichiers binaires qui ne peuvent pas être comparés facilement (le _diff_ est illisible).
 Il a donc été décidé de réaliser moulinettes permmattant: 
 - la production automatique de fichiers YAML lisisbles par les utilisateurs
 - la production automatique de fichiers csv pour TAXIPP en stata
@@ -32,9 +32,9 @@ Ce fût une première étape pour injecter les paramètres dans OpenFisca/TAXIPP
 
 - Il n'existe qu'un seul dépôt à l'IPP modifié par tous les membres. Ce n'est pas vraiment pratique surtout si l'on est sur plusieurs bureaux.
 
-### Le _diff_  reste largement illisble 
+### Le _diff_  reste largement illisible 
 
-Le Excel est illisble, il faut aller vérifier les fichiers YAML produits. Ce qui est rarement fait par les contributeurs car compliqué. 
+Le Excel est illisible, il faut aller vérifier les fichiers YAML produits. Ce qui est rarement fait par les contributeurs car compliqué. 
 
 ### La chaîne de production reste assez fragile et trop complexe
 
@@ -54,7 +54,7 @@ Le Excel est illisble, il faut aller vérifier les fichiers YAML produits. Ce qu
 - Le traitement des signalements extérieurs sont traités manuellement
 
 
-## Objectifs poursuiv is par la nouvelle organisation
+## Objectifs poursuivis par la nouvelle organisation
 
 1. Versionnement sur [ce dépôt](https://framagit.org/french-tax-and-benefit-tables/baremes-ipp-yaml) 
 
