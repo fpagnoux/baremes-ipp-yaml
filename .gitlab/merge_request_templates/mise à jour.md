@@ -9,27 +9,35 @@
 /assign @benjello  	
 
 - impot-revenu 
-/assign @ClaireLeroyIPP 
 /label impot-revenu
+/assign @ClaireLeroyIPP 
 
 - marche-travail 
+/label marche-travail
 /assign @benjello	
 
 - prelevements-sociaux 
+/label prelevements-sociaux
 /assign @benjello
 
-- prestations-sociales 
+- prestations-sociales
+/label prestations-sociales
 /assign @benjello
 
-- retraite /assign 
-@benjello
+- retraite 
+/label retraite
+/assign @benjello
 
 - tarifs-energie 
+/label tarifs-energie
 /assign @benjello
 
 - taxation-capital 
+/label taxation-capital
 /assign @benjello
+
 - taxation-indirecte 
+/label taxation-indirecte
 /assign @benjello
 
 ## Description de la mise à jour
