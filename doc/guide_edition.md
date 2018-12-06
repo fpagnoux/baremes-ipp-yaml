@@ -153,7 +153,7 @@ Vous pouvez retrouver tout en bas de la page, la liste des commits que vous avez
 - [Je ne peux pas éditer le fichier YAML sur le dépôt Git "baremes-ipp-yaml"](#je-ne-peux-pas-editer-le-fichier-yaml-sur-le-dépot-git-baremes-ipp-yaml) 
 - [Je souhaite faire plusieurs modifications groupées / J'ai oublié d'ajouter quelque chose](#je-souhaite-faire-plusieurs-modifications-groupées-j-ai-oublié-d-ajouter-quelque-chose) 
 - [Je souhaite annuler mes modifications](#je-souhaite-annuler-mes-modifications)
-^
+
 
 ### Je ne peux pas éditer le fichier YAML sur le dépôt Git `baremes-ipp-yaml`
 
