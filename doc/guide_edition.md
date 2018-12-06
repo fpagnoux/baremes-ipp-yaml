@@ -22,7 +22,7 @@ Le format [YAML](https://fr.wikipedia.org/wiki/YAML) est le format retenu pour l
 Il permet de représenter de façon lisible des informations élaborées comme une combinaison de listes et de dictionnaires imbriqués.
 Il est nécessaire de bien respecter:
 - l'indentation introduisant les sous-structures,
-- les tirets `-` marquers des listes
+- les tirets `-` marquant des listes
 - les deux points séparant les clés des valeurs dans un dictionnaire 
 
 ## Étape 2. Modifier le paramètre
@@ -49,9 +49,9 @@ Pour modifier le fichier YAML, cliquez sur le bouton <kbd>Edit</kbd> situé dans
     - Le champ `metadata` décrira ceratines caractéristiques des paramètres qu'il s'agira de respecter lors de l'édition de ses valeurs 
 
 - Marche à suivre
-  - Dans le champs `values` du paramètre, ajoutez la nouvelle valeur du paramètre et la date de début correspondante (ou corrigez la valeur, le cas échéant).
-  - Dans le champs `reference` de `metadata`, ajoutez la référence législative justifiant votre changement.
-  - Dans le champs `date_parution_jo` de `metadata`, ajoutez la date de parution au Journal officiel de la référence.
+  - Dans le champ `values` du paramètre, ajoutez la nouvelle valeur du paramètre et la date de début correspondante (ou corrigez la valeur, le cas échéant).
+  - Dans le champ `reference` de `metadata`, ajoutez la référence législative justifiant votre changement.
+  - Dans le champ `date_parution_jo` de `metadata`, ajoutez la date de parution au Journal officiel de la référence.
 
 - Exemple
   Je souhaite mettre à jour la valeur du plafond de la Sécurité Sociale pour 2019. 
@@ -87,9 +87,9 @@ Pour modifier le fichier YAML, cliquez sur le bouton <kbd>Edit</kbd> situé dans
 
 - Marche à suivre
   - Ajoutez le nom de votre paramètre : en tout attaché, sans majuscules, sans espaces (utillisez des tirets du bas `_` comme séparateur si nécessaire)
-  - Ajoutez un champs `description`
-  - Ajoutez un champs `values`
-  - Ajoutez un champs `metadata` avec deux sous-champs : `ipp_csv_id` et `unit`.
+  - Ajoutez un champ `description`
+  - Ajoutez un champ `values`
+  - Ajoutez un champ `metadata` avec deux sous-champs : `ipp_csv_id` et `unit`.
      - Les unités possibles pour les paramètres sont des nombres sans unités (``/1``) comme des taux ou des nombres d'enfants, des valeurs monétaires (``currency-EUR`` ou ``currency-FRF``) ou des années (``year``)
      - Le champ `ipp_csv_id` correspond simplement au nom du paramètre pour export vers la version Stata de TAXIPP. Il convient donc de lui donner un nom compréhensible mais court (moins de 32 caractères car c'est la limite dans Stata).
   - Identifiez visuellement la place de votre nouveau paramètre dans le barème (c'est important pour la visualisation sur le site de l'IPP)
